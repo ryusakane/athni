@@ -54,6 +54,9 @@ create table tournaments (
   course_id uuid references courses (id),
   start_date date not null,
   end_date date,
+  field_size int,
+  winning_score int,
+  cut_score int,
   source_url text,
   created_at timestamptz not null default now()
 );
@@ -67,6 +70,7 @@ create table tournament_results (
   tied boolean not null default false,
   total_score int,
   to_par int,
+  rank_percentile numeric(5, 2),
   status text not null default 'finished' check (status in ('finished', 'cut', 'wd', 'dq')),
   unique (tournament_id, player_id)
 );
@@ -79,12 +83,17 @@ create table rounds (
   played_on date,
   course_tee_id uuid references course_tees (id),
   score int,
+  -- (113 / slope) * (score - course rating), comparable across courses.
+  score_differential numeric(4, 1),
   weather text,
   temperature_c numeric(4, 1),
   wind_speed_ms numeric(4, 1),
   precipitation_mm numeric(5, 1),
   unique (result_id, round_number)
 );
+
+-- Player-entered profile data (handicap, WAGR, GPA, test scores, video, etc.)
+-- will live in a separate table shown only with parent consent; not built yet.
 
 alter table schools enable row level security;
 alter table players enable row level security;
