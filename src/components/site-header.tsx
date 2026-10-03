@@ -1,21 +1,22 @@
 import Link from "next/link";
+import type { Locale } from "@/i18n/config";
+import type { Dictionary } from "@/i18n/dictionaries";
 
-const navItems = [
-  { href: "/", label: "ホーム" },
-  { href: "/players", label: "選手" },
-  { href: "/tournaments", label: "大会・成績" },
-  { href: "/about", label: "概要" },
-  { href: "/contact", label: "お問い合わせ" },
-];
+export function SiteHeader({ lang, dict }: { lang: Locale; dict: Dictionary }) {
+  const navItems = [
+    { href: `/${lang}/players`, label: dict.nav.players },
+    { href: `/${lang}/tournaments`, label: dict.nav.tournaments },
+    { href: `/${lang}/about`, label: dict.nav.about },
+    { href: `/${lang}/contact`, label: dict.nav.contact },
+  ];
 
-export function SiteHeader() {
   return (
     <header className="border-b border-black/10 dark:border-white/10">
       <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
-        <Link href="/" className="text-lg font-semibold tracking-tight">
+        <Link href={`/${lang}`} className="text-lg font-semibold tracking-tight">
           Athni
         </Link>
-        <nav className="flex gap-6 text-sm">
+        <nav className="flex gap-4 text-sm sm:gap-6">
           {navItems.map((item) => (
             <Link
               key={item.href}
