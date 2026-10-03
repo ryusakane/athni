@@ -15,11 +15,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://athtouni.com"),
   title: {
     default: "Athni",
     template: "%s | Athni",
   },
-  description: "Athni の公式サイト",
+  description: "全国の高校生ゴルファーの選手データ、大会情報、成績をまとめて見られるサイト",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

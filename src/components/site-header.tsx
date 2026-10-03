@@ -2,6 +2,8 @@ import Link from "next/link";
 
 const navItems = [
   { href: "/", label: "ホーム" },
+  { href: "/players", label: "選手" },
+  { href: "/tournaments", label: "大会・成績" },
   { href: "/about", label: "概要" },
   { href: "/contact", label: "お問い合わせ" },
 ];
