@@ -27,7 +27,8 @@ data/
 
 `supabase/seed.sql` をそのまま流せば入る (Supabase の SQL Editor に貼る、または `psql "$DATABASE_URL" -f data/supabase/seed.sql`)。
 
-- 前提: `supabase/migrations/0001_init.sql` (field_size・rank_percentile・score_differential 入りの版) を先に適用。
+- 前提: `supabase/migrations/` の 0001 と 0002 を先に適用。
+- 同じ内容を `src/data/seed.json` にも書き出す。サイトは Supabase の環境変数がないときこれを表示する。
 - 各行の id は `*_key` から作る固定の UUID なので、何度流しても重複せず、作り直しても同じ選手は同じ id。
 - 公開に許諾が必要な大会 (関東高ゴ連) と団体戦 (スキーマに表がない) は含めていない。
 - 再生成: `python3 data/scripts/build.py && python3 data/scripts/to_sql.py` (`--include-restricted` で関東も含める)。

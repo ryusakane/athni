@@ -9,10 +9,12 @@
 - 不出場 (dns) の行は除外。
 
 実行: python3 data/scripts/build.py && python3 data/scripts/to_sql.py
+サイト用: 同じ行を src/data/seed.json にも書く (Supabase 未接続時のサイトの表示データ。--include-restricted のときは書かない)。
 投入: Supabase の SQL Editor に貼る、または psql "$DATABASE_URL" -f data/supabase/seed.sql
-前提: supabase/migrations/0001_init.sql (field_size / rank_percentile / score_differential 入りの版) が適用済み。
+前提: supabase/migrations/0001_init.sql (field_size / rank_percentile / score_differential 入りの版) と 0002 が適用済み。
 """
 import csv
+import json
 import os
 import sys
 import uuid
@@ -20,6 +22,8 @@ from collections import defaultdict
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "supabase", "seed.sql")
+# サイトが Supabase 未接続のときに読む同じ内容の JSON (列名はテーブルと同じ)
+SITE_OUT = os.path.join(os.path.dirname(ROOT), "src", "data", "seed.json")
 NS = uuid.UUID("6f1c2a52-6a0e-4c35-9a35-2f0f4c3e7b10")  # athni data namespace
 BATCH = 500
 
@@ -43,6 +47,19 @@ def lit(v, kind="text"):
     if kind == "bool":
         return "true" if v in ("True", "true", True) else "false"
     return "'" + str(v).replace("'", "''") + "'"
+
+
+def typed(v, kind):
+    """lit() と同じ規則で JSON 用の値にする。"""
+    if v is None or v == "":
+        return None
+    if kind == "num":
+        return float(v)
+    if kind == "int":
+        return int(float(v))
+    if kind == "bool":
+        return v in ("True", "true", True)
+    return str(v)
 
 
 def inserts(table, cols, rows):
@@ -109,36 +126,45 @@ def main():
         r["id"] = uid("round", r["tournament_key"], r["player_key"], r["round_number"])
         r["result_id"] = uid("result", r["tournament_key"], r["player_key"])
         r["course_tee_id"] = uid("tee", r["course_tee_key"]) if r["course_tee_key"] in teekeys else None
-        # 天気は日本語のまま (英語は weather_en を別途。スキーマに英語列がないため)
+
+    tables = [
+        ("schools", [("id", "text"), ("name_ja", "text"), ("name_en", "text"), ("prefecture", "text")],
+         [dict(s, prefecture=s["prefecture"] or "不明") for s in schools]),
+        ("players", [("id", "text"), ("school_id", "text"), ("name_ja", "text"), ("name_kana", "text"),
+                     ("name_en", "text"), ("gender", "text"), ("graduation_year", "int"),
+                     ("prefecture", "text")], players),
+        ("courses", [("id", "text"), ("name_ja", "text"), ("name_en", "text"), ("prefecture", "text"),
+                     ("latitude", "num"), ("longitude", "num")], courses),
+        ("course_tees", [("id", "text"), ("course_id", "text"), ("tee_name", "text"), ("gender", "text"),
+                         ("par", "int"), ("yardage", "int"), ("course_rating", "num"),
+                         ("slope_rating", "int")], tees),
+        ("tournaments", [("id", "text"), ("name_ja", "text"), ("name_en", "text"), ("organizer", "text"),
+                         ("level", "text"), ("gender", "text"), ("course_id", "text"),
+                         ("start_date", "text"), ("end_date", "text"), ("field_size", "int"),
+                         ("winning_score", "int"), ("source_url", "text")], tournaments),
+        ("tournament_results", [("id", "text"), ("tournament_id", "text"), ("player_id", "text"),
+                                ("position", "int"), ("tied", "bool"), ("total_score", "int"),
+                                ("to_par", "int"), ("rank_percentile", "num"), ("status", "text")],
+         [dict(r, rank_percentile=r["percentile"]) for r in results]),
+        ("rounds", [("id", "text"), ("result_id", "text"), ("round_number", "int"),
+                    ("played_on", "text"), ("course_tee_id", "text"), ("score", "int"), ("holes", "int"),
+                    ("score_differential", "num"), ("weather", "text"), ("weather_en", "text"),
+                    ("temperature_c", "num"), ("wind_speed_ms", "num"), ("precipitation_mm", "num")],
+         [dict(r, score_differential=r["differential"]) for r in rounds]),
+    ]
 
     parts = ["-- 自動生成: data/scripts/to_sql.py。手で編集しない。\nbegin;\n"]
-    parts += inserts("schools", [("id", "text"), ("name_ja", "text"), ("name_en", "text"), ("prefecture", "text")],
-                     [dict(s, prefecture=s["prefecture"] or "不明") for s in schools])
-    parts += inserts("players", [("id", "text"), ("school_id", "text"), ("name_ja", "text"), ("name_kana", "text"),
-                                 ("name_en", "text"), ("gender", "text"), ("graduation_year", "int"),
-                                 ("prefecture", "text")], players)
-    parts += inserts("courses", [("id", "text"), ("name_ja", "text"), ("name_en", "text"), ("prefecture", "text"),
-                                 ("latitude", "num"), ("longitude", "num")], courses)
-    parts += inserts("course_tees", [("id", "text"), ("course_id", "text"), ("tee_name", "text"), ("gender", "text"),
-                                     ("par", "int"), ("yardage", "int"), ("course_rating", "num"),
-                                     ("slope_rating", "int")], tees)
-    parts += inserts("tournaments", [("id", "text"), ("name_ja", "text"), ("name_en", "text"), ("organizer", "text"),
-                                     ("level", "text"), ("gender", "text"), ("course_id", "text"),
-                                     ("start_date", "text"), ("end_date", "text"), ("field_size", "int"),
-                                     ("winning_score", "int"), ("source_url", "text")], tournaments)
-    parts += inserts("tournament_results", [("id", "text"), ("tournament_id", "text"), ("player_id", "text"),
-                                            ("position", "int"), ("tied", "bool"), ("total_score", "int"),
-                                            ("to_par", "int"), ("rank_percentile", "num"), ("status", "text")],
-                     [dict(r, rank_percentile=r["percentile"]) for r in results])
-    parts += inserts("rounds", [("id", "text"), ("result_id", "text"), ("round_number", "int"),
-                                ("played_on", "text"), ("course_tee_id", "text"), ("score", "int"),
-                                ("score_differential", "num"), ("weather", "text"), ("temperature_c", "num"),
-                                ("wind_speed_ms", "num"), ("precipitation_mm", "num")],
-                     [dict(r, score_differential=r["differential"]) for r in rounds])
+    for table, cols, rows in tables:
+        parts += inserts(table, cols, rows)
     parts.append("commit;\n")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     with open(OUT, "w", encoding="utf-8") as fh:
         fh.write("\n".join(parts))
+    if not include_restricted:
+        site = {table: [{c: typed(r.get(c), k) for c, k in cols} for r in rows] for table, cols, rows in tables}
+        os.makedirs(os.path.dirname(SITE_OUT), exist_ok=True)
+        with open(SITE_OUT, "w", encoding="utf-8") as fh:
+            json.dump(site, fh, ensure_ascii=False, separators=(",", ":"))
     print(f"schools={len(schools)} players={len(players)} courses={len(courses)} tees={len(tees)} "
           f"tournaments={len(tournaments)} results={len(results)} rounds={len(rounds)} -> {OUT}", file=sys.stderr)
 

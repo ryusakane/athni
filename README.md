@@ -29,8 +29,12 @@ Cloudflare の Workers & Pages で GitHub リポジトリを接続し、次の�
 
 main に変更が入るたびに自動で再公開されます。
 
-## Supabase（予定）
+## データと Supabase
 
-データ管理は Supabase に接続予定です。`.env.example` を `.env.local` にコピーし、Supabase プロジェクトの URL と anon key を設定します。
+選手ページ（`/en/players/...`）と大会ページ（`/en/tournaments/...`）は `npm run build` のときにデータを読み、すべて静的な HTML として書き出します。
 
-テーブル定義の案は `supabase/migrations/0001_init.sql` にあります（学校、選手、コース、ティーごとのレーティング・スロープ、大会、成績、ラウンドごとのスコアと天候）。
+- `.env.local`（Cloudflare Pages では環境変数）に `NEXT_PUBLIC_SUPABASE_URL` と `NEXT_PUBLIC_SUPABASE_ANON_KEY` があれば Supabase から読みます。
+- なければ同梱の `src/data/seed.json` を使います（`data/scripts/to_sql.py` が `data/supabase/seed.sql` と同じ内容で生成。関東高ゴ連の大会は除外済み）。
+- データを更新したら再ビルド（Cloudflare Pages の再デプロイ）で反映されます。
+
+テーブル定義は `supabase/migrations/` にあります（学校、選手、コース、ティーごとのレーティング・スロープ、大会、成績、ラウンドごとのスコアと天候）。
