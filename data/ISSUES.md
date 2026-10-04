@@ -1,0 +1,210 @@
+# 要確認事項 (build.py が自動生成)
+
+- `jga-junior-2023-boys-15-17`: Final page prints rank only for first of tied group (and ★ markers); ranks recomputed from totals by standard competition ranking; to_par computed from par.
+- `jga-junior-2023-boys-15-17`: 3-way playoff at 208: winner 武田 紘汰 ranked 1, others recorded T2 (official placement of playoff losers not verified)
+- `jga-junior-2023-boys-15-17`: Missed-cut rows (R1-R2) taken from fullreaderboard2.html; cut players' names in 2023 girls appear without the space between family/given name as transcribed
+- `jga-junior-2023-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2023/04-0/fullreaderboard2.html
+- `jga-junior-2023-boys-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `jga-junior-2023-girls-15-17`: Final page prints rank only for first of tied group (and ★ markers); ranks recomputed from totals by standard competition ranking; to_par computed from par.
+- `jga-junior-2023-girls-15-17`: Missed-cut rows (R1-R2) taken from fullreaderboard2.html; cut players' names in 2023 girls appear without the space between family/given name as transcribed
+- `jga-junior-2023-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2023/04-2/fullreaderboard2.html
+- `jga-junior-2023-girls-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `jga-junior-2023-girls-15-17`: Round-2 page reported 130 rows; 131 recorded (67 finalists + 63 missed cut + 1 WD) - WD row may or may not be counted in that figure
+- `jga-junior-2024-boys-15-17`: Round 3 cancelled (Typhoon No.7); championship reduced to 36 holes, scheduled end date 2024-08-16
+- `jga-junior-2024-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=10800593803317136009
+- `jga-junior-2024-boys-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `jga-junior-2024-boys-15-17`: 卒業年度が一致しない: 丸尾 怜央 (日章学園高) 2024 vs 2025
+- `jga-junior-2024-girls-15-17`: Round 3 cancelled (Typhoon No.7); championship reduced to 36 holes, scheduled end date 2024-08-16
+- `jga-junior-2024-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=10800623379133024906
+- `jga-junior-2024-girls-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `jga-junior-2025-boys-15-17`: R1 and R2 published as 9-hole scores (format changed to 9+9+18 = 36 holes as a heat-stroke countermeasure per press reports); to_par as published
+- `jga-junior-2025-boys-15-17`: Golf Genius row count claimed 143 but only 140 rows were transcribable (62 made cut + 78 CUT); possible missing rows
+- `jga-junior-2025-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=11856841296297642673
+- `jga-junior-2025-boys-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `jga-junior-2025-girls-15-17`: R1 and R2 published as 9-hole scores (format changed to 9+9+18 = 36 holes as a heat-stroke countermeasure per press reports); to_par as published
+- `jga-junior-2025-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=11856836161530022575
+- `jga-junior-2025-girls-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `kougoren-spring-2023-boys-individual`: season_year = 年度 2023; this 春季大会 was played in March 2024 (dates from final PDF / event page).
+- `kougoren-spring-2023-boys-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
+- `kougoren-spring-2023-boys-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2023-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
+- `kougoren-spring-2023-boys-individual`: Event page states 'March 18-22, 2023' but the PDFs are dated 2024-03-22; PDF date used.
+- `kougoren-spring-2023-boys-individual`: 卒業年度が一致しない: 丸尾怜央 (日章学園) 2024 vs 2025
+- `kougoren-spring-2023-girls-individual`: season_year = 年度 2023; this 春季大会 was played in March 2024 (dates from final PDF / event page).
+- `kougoren-spring-2023-girls-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
+- `kougoren-spring-2023-girls-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2023-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
+- `kougoren-spring-2023-girls-individual`: Event page states 'March 18-22, 2023' but the PDFs are dated 2024-03-22; PDF date used.
+- `kougoren-spring-2024-boys-individual`: season_year = 年度 2024; this 春季大会 was played in March 2025 (dates from final PDF / event page).
+- `kougoren-spring-2024-boys-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
+- `kougoren-spring-2024-boys-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2024-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
+- `kougoren-spring-2024-girls-individual`: season_year = 年度 2024; this 春季大会 was played in March 2025 (dates from final PDF / event page).
+- `kougoren-spring-2024-girls-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
+- `kougoren-spring-2024-girls-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2024-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
+- `kougoren-spring-2024-girls-individual`: 4 players listed after rank 139 with status 棄権 and no scores transcribed (status confirmed in a second read).
+- `kougoren-spring-2025-boys-individual`: season_year = 年度 2025; this 春季大会 was played in March 2026 (dates from final PDF / event page).
+- `kougoren-spring-2025-boys-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
+- `kougoren-spring-2025-boys-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2025-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
+- `kougoren-spring-2025-girls-individual`: season_year = 年度 2025; this 春季大会 was played in March 2026 (dates from final PDF / event page).
+- `kougoren-spring-2025-girls-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
+- `kougoren-spring-2025-girls-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2025-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
+- `kougoren-spring-2025-girls-individual`: 1st/2nd tied at 219; winner decided by playoff (優勝はプレーオフにより決定).
+- `kougoren-summer-2023-boys-individual`: 2日目は荒天のため中止 (round 2 cancelled for weather); result is 18 holes only.
+- `kougoren-summer-2023-boys-individual`: Exact name prefix (文部科学大臣杯争奪) not confirmed for 2023; start_date not stated.
+- `kougoren-summer-2023-boys-individual`: 卒業年度が一致しない: 丸尾 怜央 (日章学園) 2024 vs 2025
+- `kougoren-summer-2023-boys-team`: 大阪学院大学 棄権 (all 5 players 棄権), recorded rank 'WD'.
+- `kougoren-summer-2023-boys-team`: Most outstanding player per PDF: 渋井 晃太郎 (ルネサンス, 1年) 136 strokes.
+- `kougoren-summer-2023-boys-team`: 卒業年度が一致しない: 丸尾 怜央 (日章学園) 2024 vs 2025
+- `kougoren-summer-2023-girls-individual`: 2日目は荒天のため中止 (round 2 cancelled for weather); result is 18 holes only.
+- `kougoren-summer-2023-girls-individual`: 1位・2位は競技規定により決定 (both 63; order by competition rules).
+- `kougoren-summer-2023-girls-individual`: start_date not stated.
+- `kougoren-summer-2023-girls-team`: 日章学園: ※ positions were transcribed inconsistently; set 荒木七海 75※ (day 1) and 菅楓華 71※ (day 2) to match team totals 199/206 — which of the 71s on day 2 was dropped is uncertain.
+- `kougoren-summer-2023-girls-team`: Teams ranked 1-18 other than 滝川第二/奈良育英/東北 may be missing a non-playing 5th registered member (only 4 rows transcribed).
+- `kougoren-summer-2023-girls-team`: Most outstanding player per PDF: 荒木 優奈 (日章学園, 3年) 131 strokes.
+- `kougoren-summer-2024-boys-individual`: start_date not stated in the final PDF (final round 2024-08-09; round 1 presumably 2024-08-08).
+- `kougoren-summer-2024-boys-individual`: 1st/2nd tied at 134; winner decided by playoff (優勝はプレーオフにて決定).
+- `kougoren-summer-2024-boys-individual`: No WD/DQ rows were found in the transcription; 139 finishers.
+- `kougoren-summer-2024-boys-individual`: 卒業年度が一致しない: 丸尾 怜央 (日章学園) 2024 vs 2025
+- `kougoren-summer-2024-boys-team`: Both team rounds appear to have been played over 9 holes (IN only on 第1日; per-player day scores ~31-50, team totals ~205). No explicit shortening note was found in the PDFs.
+- `kougoren-summer-2024-boys-team`: 千葉黎明 中嶋太我: final PDF transcription showed no scores; 第1日 PDF shows 40※ on day 1 — added from 第1日 PDF.
+- `kougoren-summer-2024-boys-team`: 代々木 滝田詠夢: transcription put 37 in 第1日 but team sums require it to be 最終日 (day1 104 = 33+36+35; final 111 = 37+37+37); moved to 最終日.
+- `kougoren-summer-2024-boys-team`: Most outstanding player per PDF: 東 到矢 (東大阪大柏原, 3年) 63 strokes.
+- `kougoren-summer-2024-boys-team`: 卒業年度が一致しない: 丸尾怜央 (日章学園) 2024 vs 2025
+- `kougoren-summer-2024-girls-individual`: start_date not stated in the final PDF (final round 2024-08-09).
+- `kougoren-summer-2024-girls-individual`: Three players tied at 134; 1st decided by playoff, the other two shown as rank 2 (T2).
+- `kougoren-summer-2024-girls-individual`: WD/DNS rows: round scores (if any) for 棄権 player not transcribed.
+- `kougoren-summer-2024-girls-team`: Both team rounds appear to have been played over 9 holes (IN only on 第1日; per-player day scores ~31-50, team totals ~205). No explicit shortening note was found in the PDFs.
+- `kougoren-summer-2024-girls-team`: Most outstanding player per PDF: 菊田 ひな (ルネサンス大阪, 2年) 63 strokes.
+- `kougoren-summer-2024-girls-team`: s2024_girls_team.txt rank37 八戸光星 day2: counted sum 129 != team 128 (3 counted)
+- `kougoren-summer-2025-boys-team`: Final: 埼玉栄 and 興國 tied at 200 (4-player 268 vs 268); champion decided by representative playoff (代表によるプレーオフ) per PDF note.
+- `kougoren-summer-2025-boys-team`: 高知中央 中澤樹: grade not legible in transcription (null); played day 2 only (82, not counted).
+- `kougoren-summer-2025-boys-team`: Most outstanding player per PDF: 石口 寛樹 (興國, 1年) 201 strokes (3 rounds). 36H medalist: 中上 遼真 (広島国際学院) 134.
+- `kougoren-summer-2025-boys-team`: Ranks 1-8 = final-day (決勝) standings, total = best-3-of-4 final-round strokes COMPUTED from member scores (published team totals in the final PDF were not reliably machine-readable); member score = final-round score. Ranks 9+ = 36-hole qualifying standings from the 第2日 PDF, total = published 2-day team total; member score = sum of days played.
+- `kougoren-summer-2025-girls-team`: Final: ルネサンス and 麗澤瑞浪 both 209 (computed); ordering consistent with 4-player tie-break (280 vs 281).
+- `kougoren-summer-2025-girls-team`: Qualifying: ルネサンス 岡部ゆい day-1 75 transcribed without ※ but must be the dropped score (team day-1 194 = 66+65+63); ※ added.
+- `kougoren-summer-2025-girls-team`: Qualifying rank 34 岡崎城西 棄権 (only 3 players, no scores).
+- `kougoren-summer-2025-girls-team`: Most outstanding player per PDF: 戸髙 玲奈 (ルネサンス, 2年) 198 strokes. 36H medalist: 戸髙 玲奈 130.
+- `kougoren-summer-2025-girls-team`: Ranks 1-8 = final-day (決勝) standings, total = best-3-of-4 final-round strokes COMPUTED from member scores (published team totals in the final PDF were not reliably machine-readable); member score = final-round score. Ranks 9+ = 36-hole qualifying standings from the 第2日 PDF, total = published 2-day team total; member score = sum of days played.
+- `kougoren-summer-2026-boys-team`: Qualifying: 埼玉平成 listed after rank 34 with day-1 only (256), no rank; recorded as rank 'WD' (status word not confirmed).
+- `kougoren-summer-2026-boys-team`: Final PDF shows '-' as grade for non-playing 5th members; grades taken from the 第2日 PDF.
+- `kougoren-summer-2026-boys-team`: Most outstanding player per PDF: 神永 直輝 (埼玉栄, 2年) 199 strokes; 36H medalist 神永 直輝 132.
+- `kougoren-summer-2026-boys-team`: Ranks 1-8 = final-day (決勝) standings, total = best-3-of-4 final-round strokes COMPUTED from member scores (published team totals in the final PDF were not reliably machine-readable); member score = final-round score. Ranks 9+ = 36-hole qualifying standings from the 第2日 PDF, total = published 2-day team total; member score = sum of days played.
+- `kougoren-summer-2026-girls-team`: Final: ranks 3-6 (麗澤瑞浪, ＥＣＣ学園, 大阪桐蔭, 東北) all computed 207; 4-player totals 278/278/279/280 — tie-break between 麗澤瑞浪 and ＥＣＣ学園 not explained by the transcription (published order kept).
+- `kougoren-summer-2026-girls-team`: Final: ルネサンス大阪 渡部琴 棄権 in final round; team total 218 from remaining 3.
+- `kougoren-summer-2026-girls-team`: Qualifying: 大阪桐蔭 中越百々香 day-1 71 was transcribed with ※ but must be counted (team 209 = 69+71+69); 杉田琉羽 day-1 cell garbled, recorded as day-2 only 72.
+- `kougoren-summer-2026-girls-team`: Most outstanding player per PDF: 岩永 杏奈 (大阪桐蔭, 3年) 201 strokes; 36H medalist 福田 美来 (滝川第二) 133.
+- `kougoren-summer-2026-girls-team`: Ranks 1-8 = final-day (決勝) standings, total = best-3-of-4 final-round strokes COMPUTED from member scores (published team totals in the final PDF were not reliably machine-readable); member score = final-round score. Ranks 9+ = 36-hole qualifying standings from the 第2日 PDF, total = published 2-day team total; member score = sum of days played.
+- `chubu-kougoren-summer-qualifier-2025-boys-individual`: Individual standings of the team-division qualifier (no separate individual qualifier published for 2025 summer); field = team members only
+- `chubu-kougoren-summer-qualifier-2025-boys-individual`: Event listed as 6/4-6/6 (6/4 practice assumed); rounds played 6/5-6/6 — start_date inferred
+- `chubu-kougoren-summer-qualifier-2025-boys-individual`: Transcribed via WebFetch PDF-to-text; spot-check recommended
+- `chubu-kougoren-summer-qualifier-2025-boys-individual`: to_par computed from par x 2
+- `chubu-kougoren-summer-qualifier-2025-boys-individual`: Name whitespace removed
+- `chubu-kougoren-summer-qualifier-2025-boys-individual`: Unranked 棄権 players: most have only a round-2 score (verified against team-sheet best-3 arithmetic); 中川陽向 has only R1. rounds array holds the single score; see note
+- `chubu-kougoren-summer-qualifier-2025-boys-team`: Team score = best 3 of up to 4 per round, 2 rounds; counting is per round so member-level counted flag is null; member score = 2-round total (or single round for 棄権 players)
+- `chubu-kougoren-summer-qualifier-2025-boys-team`: Team round totals verified against best-3-of-4 per round (all match after assigning 棄権 players' single scores to round 2, except 中川陽向 to round 1)
+- `chubu-kougoren-summer-qualifier-2025-boys-team`: PDF marks some members with ※ (meaning unclear; not used)
+- `chubu-kougoren-summer-qualifier-2025-boys-team`: Teams tied on total (e.g. girls 6th/7th 469) listed with sequential ranks as published
+- `chubu-kougoren-summer-qualifier-2025-boys-team`: Transcribed via WebFetch; yardage boys 6620 / girls 6128
+- `chubu-kougoren-summer-qualifier-2025-girls-individual`: Individual standings of the team-division qualifier (no separate individual qualifier published for 2025 summer); field = team members only
+- `chubu-kougoren-summer-qualifier-2025-girls-individual`: Event listed as 6/4-6/6 (6/4 practice assumed); rounds played 6/5-6/6 — start_date inferred
+- `chubu-kougoren-summer-qualifier-2025-girls-individual`: Transcribed via WebFetch PDF-to-text; spot-check recommended
+- `chubu-kougoren-summer-qualifier-2025-girls-individual`: to_par computed from par x 2
+- `chubu-kougoren-summer-qualifier-2025-girls-individual`: Name whitespace removed
+- `chubu-kougoren-summer-qualifier-2025-girls-individual`: Unranked 棄権 players: most have only a round-2 score (verified against team-sheet best-3 arithmetic); 中川陽向 has only R1. rounds array holds the single score; see note
+- `chubu-kougoren-summer-qualifier-2025-girls-team`: Team score = best 3 of up to 4 per round, 2 rounds; counting is per round so member-level counted flag is null; member score = 2-round total (or single round for 棄権 players)
+- `chubu-kougoren-summer-qualifier-2025-girls-team`: Team round totals verified against best-3-of-4 per round (all match after assigning 棄権 players' single scores to round 2, except 中川陽向 to round 1)
+- `chubu-kougoren-summer-qualifier-2025-girls-team`: PDF marks some members with ※ (meaning unclear; not used)
+- `chubu-kougoren-summer-qualifier-2025-girls-team`: Teams tied on total (e.g. girls 6th/7th 469) listed with sequential ranks as published
+- `chubu-kougoren-summer-qualifier-2025-girls-team`: Transcribed via WebFetch; yardage boys 6620 / girls 6128
+- `chugoku-kougoren-summer-qualifier-2025-boys-team`: 作陽学園: best-3 check of extracted member day scores (207,229) != published day totals (207,231) — day placement of some single-round members likely mis-extracted
+- `chugoku-kougoren-summer-qualifier-2025-boys-team`: Team totals/ranks as published; member day scores via WebFetch from a spreadsheet-export PDF containing #VALUE!/#N/A cells — spot-check
+- `chugoku-kougoren-summer-qualifier-2025-boys-team`: Format: 4-player teams (up to 5 registered), best 3 per day; counted flag null
+- `chugoku-kougoren-summer-qualifier-2025-boys-team`: Tied 1st/2nd boys (438) separated by published tie-break
+- `chugoku-kougoren-summer-qualifier-2025-boys-team`: school_prefecture inferred from school identity (not printed in PDF)
+- `chugoku-kougoren-summer-qualifier-2025-girls-team`: Team totals/ranks as published; member day scores via WebFetch from a spreadsheet-export PDF containing #VALUE!/#N/A cells — spot-check
+- `chugoku-kougoren-summer-qualifier-2025-girls-team`: Format: 4-player teams (up to 5 registered), best 3 per day; counted flag null
+- `chugoku-kougoren-summer-qualifier-2025-girls-team`: school_prefecture inferred from school identity (not printed in PDF)
+- `kanto-kougoren-summer-qualifier-2025-boys-individual`: Transcribed via WebFetch PDF-to-text in chunks; spot-check recommended
+- `kanto-kougoren-summer-qualifier-2025-boys-individual`: Published ranks are sequential (ties broken by countback), kept as published
+- `kanto-kougoren-summer-qualifier-2025-boys-individual`: to_par computed as total-140 (par 70x2); PDF to_par column not reliably extracted
+- `kanto-kougoren-summer-qualifier-2025-boys-individual`: Name whitespace between family/given names removed for consistency
+- `kanto-kougoren-summer-qualifier-2025-boys-individual`: WD player 江藤理斗 withdrew after R1 (90); 4 DNS (欠場) rows included with empty rounds
+- `kanto-kougoren-summer-qualifier-2025-boys-team`: Transcribed via WebFetch from 2日目 確定版 PDF; team = best 3 per day of up to 4 players (5 registered); counted flag null
+- `kanto-kougoren-summer-qualifier-2025-boys-team`: Day-only members noted; member 'score' is sum of rounds played
+- `kanto-kougoren-summer-qualifier-2025-boys-team`: Extractor listed 竹原周吾 (day2 96) under both 浜松日体 and 学習院; kept only under 学習院 because 学習院's day-2 total 271 requires that score. 浜松日体 may have an untranscribed 5th member
+- `kanto-kougoren-summer-qualifier-2025-girls-individual`: Transcribed via WebFetch PDF-to-text in chunks (確定版); spot-check recommended
+- `kanto-kougoren-summer-qualifier-2025-girls-individual`: Published ranks are sequential (ties broken by countback), kept as published
+- `kanto-kougoren-summer-qualifier-2025-girls-individual`: to_par computed as total-144 (par 72x2)
+- `kanto-kougoren-summer-qualifier-2025-girls-individual`: Name whitespace removed for consistency
+- `kanto-kougoren-summer-qualifier-2025-girls-individual`: Extractor first reported 143 entries (2 WD + 5 DNS) but end-of-table chunk listed 2 WD + 4 DNS (142 rows); possible 1 missing DNS row
+- `kanto-kougoren-summer-qualifier-2025-girls-team`: Transcribed via WebFetch from 2日目 確定版 PDF; team = best 3 per day; counted flag null
+- `kanto-kougoren-summer-qualifier-2025-girls-team`: 水戸啓明 listed with no scores (did not start) — rank DNS
+- `kanto-kougoren-summer-qualifier-2025-girls-team`: Teams tied on total (5th/6th 442) listed with sequential ranks as published
+- `kanto-kougoren-summer-qualifier-2025-girls-team`: Extractor placed 髙橋美琴 (83/84) under 佐野日大; moved to 日大一 — consistent with individual results (髙橋美琴, 日大一) and both teams' published day totals
+- `shikoku-kougoren-summer-championship-2025-boys-individual`: Shikoku summer individual championship (高校個人の部, published as 15〜17歳の部); the national team qualifier (四国予選, 団体) result PDF was not located — index page shsga.jp is http-only and unreachable by fetcher
+- `shikoku-kougoren-summer-championship-2025-boys-individual`: Prefecture published as one-character abbreviation (香/高/徳/愛), expanded to 香川/高知/徳島/愛媛
+- `shikoku-kougoren-summer-championship-2025-boys-individual`: 1st place published as 優; tied ranks converted to T-prefix
+- `shikoku-kougoren-summer-championship-2025-boys-individual`: Transcribed via WebFetch PDF-to-text; spot-check recommended
+- `shikoku-kougoren-summer-championship-2025-boys-individual`: to_par computed from par 72 x 2
+- `shikoku-kougoren-summer-championship-2025-girls-individual`: Shikoku summer individual championship (高校個人の部, published as 15〜17歳の部); the national team qualifier (四国予選, 団体) result PDF was not located — index page shsga.jp is http-only and unreachable by fetcher
+- `shikoku-kougoren-summer-championship-2025-girls-individual`: Prefecture published as one-character abbreviation (香/高/徳/愛), expanded to 香川/高知/徳島/愛媛
+- `shikoku-kougoren-summer-championship-2025-girls-individual`: 1st place published as 優; tied ranks converted to T-prefix
+- `shikoku-kougoren-summer-championship-2025-girls-individual`: Transcribed via WebFetch PDF-to-text; spot-check recommended
+- `shikoku-kougoren-summer-championship-2025-girls-individual`: to_par computed from par 72 x 2
+- `shikoku-kougoren-summer-championship-2025-girls-individual`: 卒業年度が一致しない: 佐藤梨乃 (明徳義塾高) 2027 vs 2026
+- `shikoku-kougoren-summer-qualifier-2025-boys-team`: PDF text extraction did not yield printed team ranks/totals reliably (extractor produced inconsistent numbers); team totals and ranks here are COMPUTED from member day scores using the published rule (best 3 of up to 4 per day, 2 days) — verify against PDF
+- `shikoku-kougoren-summer-qualifier-2025-boys-team`: Member scores transcribed from raw PDF text; counted flag null (counting is per day)
+- `shikoku-kougoren-summer-qualifier-2025-boys-team`: Tie-break rules (4-score aggregate) not applied; no ties occurred in computed totals
+- `shikoku-kougoren-summer-qualifier-2025-boys-team`: Top 2 schools per gender qualify for 緑の甲子園 per PDF note
+- `shikoku-kougoren-summer-qualifier-2025-boys-team`: school_prefecture inferred from school identity (not printed)
+- `shikoku-kougoren-summer-qualifier-2025-girls-team`: PDF text extraction did not yield printed team ranks/totals reliably (extractor produced inconsistent numbers); team totals and ranks here are COMPUTED from member day scores using the published rule (best 3 of up to 4 per day, 2 days) — verify against PDF
+- `shikoku-kougoren-summer-qualifier-2025-girls-team`: Member scores transcribed from raw PDF text; counted flag null (counting is per day)
+- `shikoku-kougoren-summer-qualifier-2025-girls-team`: Tie-break rules (4-score aggregate) not applied; no ties occurred in computed totals
+- `shikoku-kougoren-summer-qualifier-2025-girls-team`: Top 2 schools per gender qualify for 緑の甲子園 per PDF note
+- `shikoku-kougoren-summer-qualifier-2025-girls-team`: school_prefecture inferred from school identity (not printed)
+- `jga-junior-2026-boys-15-17`: PARTIAL: JGA's own leaderboard page (2026 no longer links Golf Genius) renders round tabs server-side; WebFetch output truncates before the final (R1-R3) table, so only the after-R2 standings (R1, R2, 36-hole total, to-par) were captured
+- `jga-junior-2026-boys-15-17`: rank values prefixed 'R2:' are 36-hole positions, NOT final positions; 'total' is the 36-hole total
+- `jga-junior-2026-boys-15-17`: School/grade not shown on JGA 2026 leaderboard; school null
+- `jga-junior-2026-boys-15-17`: List truncated near the bottom of the cut list: rows after 佐藤圭太 (158) missing, next row 廣木 直翔 cut off; field reported as ~137
+- `jga-junior-2026-boys-15-17`: Transcribed via WebFetch summarization model; ALBA Net (alt. source) could not be checked (fetch permission not granted)
+- `jga-junior-2026-girls-15-17`: 使用ティー不明: kuni-cc-east-north Noney
+- `jga-junior-2026-girls-15-17`: PARTIAL: JGA's own leaderboard page (2026 no longer links Golf Genius) renders round tabs server-side; WebFetch output truncates before the final (R1-R3) table, so only the after-R2 standings (R1, R2, 36-hole total, to-par) were captured
+- `jga-junior-2026-girls-15-17`: rank values prefixed 'R2:' are 36-hole positions, NOT final positions; 'total' is the 36-hole total
+- `jga-junior-2026-girls-15-17`: School/grade not shown on JGA 2026 leaderboard; school null
+- `jga-junior-2026-girls-15-17`: List truncated near the bottom of the cut list: rows after 中村 桃瑳 (150) likely missing; field reported ~141 players
+- `jga-junior-2026-girls-15-17`: 佐藤 心裕 shown as CUT at 143 although 143 players listed above the cut line; transcribed as published, verify
+- `jga-junior-2026-girls-15-17`: Girls winner/final standings not captured; yardage not captured
+- `jga-junior-2026-girls-15-17`: Transcribed via WebFetch summarization model; ALBA Net (alt. source) could not be checked (fetch permission not granted)
+- `kokusupo-2023-boys-individual`: Source lists only name and prefecture (所属=都道府県); no school or grade published
+- `kokusupo-2023-boys-individual`: par not published on results page; to_par null
+- `kokusupo-2023-boys-individual`: Results site © Kyodo News Digital (official results system of the host prefecture)
+- `kokusupo-2023-boys-individual`: Tied ranks shown with T prefix (source prints same number)
+- `kokusupo-2023-boys-team`: Team page lists surnames only; members resolved to full names via individual results (same prefecture)
+- `kokusupo-2023-boys-team`: Member 'score' = member's 2-day total; all 3 scores counted (team day score = sum of 3 members, verified against individual rows)
+- `kokusupo-2023-boys-team`: Results site © Kyodo News Digital (official results system of the host prefecture)
+- `kokusupo-2024-boys-individual`: Source lists only name and prefecture (所属=都道府県); no school or grade published
+- `kokusupo-2024-boys-individual`: par not published on results page; to_par null
+- `kokusupo-2024-boys-individual`: Results site © Kyodo News Digital (official results system of the host prefecture)
+- `kokusupo-2024-boys-individual`: Individual results marked 総合得点対象外 (not counted for prefecture points)
+- `kokusupo-2024-boys-team`: Team page lists surnames only; members resolved to full names via individual results (same prefecture)
+- `kokusupo-2024-boys-team`: Member 'score' = member's 2-day total; all 3 scores counted (team day score = sum of 3 members, verified against individual rows)
+- `kokusupo-2024-boys-team`: Results site © Kyodo News Digital (official results system of the host prefecture)
+- `kokusupo-2025-boys-individual`: Source lists only name and prefecture (所属=都道府県); no school or grade published
+- `kokusupo-2025-boys-individual`: par not published on results page; to_par null
+- `kokusupo-2025-boys-individual`: Results site © Kyodo News Digital (official results system of the host prefecture)
+- `kokusupo-2025-boys-individual`: Individual results marked 総合得点対象外 (not counted for prefecture points)
+- `kokusupo-2025-boys-team`: Team page lists surnames only; members resolved to full names via individual results (same prefecture)
+- `kokusupo-2025-boys-team`: Member 'score' = member's 2-day total; all 3 scores counted (team day score = sum of 3 members, verified against individual rows)
+- `kokusupo-2025-boys-team`: Results site © Kyodo News Digital (official results system of the host prefecture)
+- `kokusupo-2026-boys-individual`: Day 2 cancelled (bear sighting at venue); final results based on Day 1 only (【2日目中止のため1日目の成績による】)
+- `kokusupo-2026-boys-individual`: Source lists only name and prefecture; no school/grade; par not published
+- `kokusupo-2026-boys-individual`: Individual results marked 総合得点対象外
+- `kokusupo-2026-boys-individual`: Results site © Kyodo News Digital
+- `kokusupo-2026-boys-team`: Team total = sum of 3 members' Day-1 scores (verified against individual rows)
+- `kokusupo-2026-boys-team`: Team page lists surnames only; resolved via individual results
+- `kokusupo-2026-boys-team`: Day 2 cancelled (bear sighting at venue); final results based on Day 1 only (【2日目中止のため1日目の成績による】)
+- `kokusupo-2026-boys-team`: Results site © Kyodo News Digital

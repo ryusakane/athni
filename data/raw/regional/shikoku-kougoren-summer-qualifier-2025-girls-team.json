@@ -1,0 +1,177 @@
+{
+ "tournament": {
+  "id": "shikoku-kougoren-summer-qualifier-2025-girls-team",
+  "name": "令和７年度四国高等学校ゴルフ選手権大会 団体の部 兼 2025年度全国高等学校ゴルフ選手権大会 文部科学大臣旗争奪 第46回高校団体の部四国予選",
+  "organizer": "四国高等学校・中学校ゴルフ連盟",
+  "season_year": 2025,
+  "start_date": "2025-06-08",
+  "end_date": "2025-06-09",
+  "venue": "松山シーサイドカントリークラブ",
+  "venue_prefecture": "愛媛",
+  "level": "regional",
+  "region": "shikoku",
+  "category": "girls",
+  "format": "team",
+  "par": 72,
+  "yardage": 6369,
+  "source_url": "http://www.shsga.jp/kyouginaiyou.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/pdf/2025/R7dantai.pdf"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "school": "明徳義塾高",
+   "school_prefecture": "高知",
+   "total": 442,
+   "members": [
+    {
+     "player_name": "佐藤小洛",
+     "grade": 3,
+     "score": 142,
+     "counted": null
+    },
+    {
+     "player_name": "森本寿叶",
+     "grade": 1,
+     "score": 144,
+     "counted": null
+    },
+    {
+     "player_name": "佐藤梨乃",
+     "grade": 2,
+     "score": 156,
+     "counted": null
+    },
+    {
+     "player_name": "井村結寧",
+     "grade": 3,
+     "score": 79,
+     "counted": null,
+     "note": "played day 1 only (79)"
+    },
+    {
+     "player_name": "今西早和",
+     "grade": 3,
+     "score": 83,
+     "counted": null,
+     "note": "played day 2 only (83)"
+    }
+   ],
+   "note": "computed day1 220 + day2 222 (best 3 per day)"
+  },
+  {
+   "rank": "2",
+   "school": "四学香川西高",
+   "school_prefecture": "香川",
+   "total": 448,
+   "members": [
+    {
+     "player_name": "石川実愛",
+     "grade": 3,
+     "score": null,
+     "counted": null,
+     "note": "did not play (－)"
+    },
+    {
+     "player_name": "安藤微",
+     "grade": 2,
+     "score": null,
+     "counted": null,
+     "note": "did not play (－)"
+    },
+    {
+     "player_name": "山﨑晴稀",
+     "grade": 2,
+     "score": 145,
+     "counted": null
+    },
+    {
+     "player_name": "柏木杏寿美",
+     "grade": 1,
+     "score": 144,
+     "counted": null
+    },
+    {
+     "player_name": "秦瑠美奈",
+     "grade": 1,
+     "score": 159,
+     "counted": null
+    }
+   ],
+   "note": "computed day1 225 + day2 223 (best 3 per day)"
+  },
+  {
+   "rank": "3",
+   "school": "生光学園高",
+   "school_prefecture": "徳島",
+   "total": 460,
+   "members": [
+    {
+     "player_name": "浦野裕花",
+     "grade": 3,
+     "score": 155,
+     "counted": null
+    },
+    {
+     "player_name": "久保実由",
+     "grade": 2,
+     "score": 163,
+     "counted": null
+    },
+    {
+     "player_name": "田村菜々子",
+     "grade": 2,
+     "score": 154,
+     "counted": null
+    },
+    {
+     "player_name": "山本桜",
+     "grade": 2,
+     "score": 151,
+     "counted": null
+    }
+   ],
+   "note": "computed day1 233 + day2 227 (best 3 per day)"
+  },
+  {
+   "rank": "4",
+   "school": "高知中央高",
+   "school_prefecture": "高知",
+   "total": 463,
+   "members": [
+    {
+     "player_name": "武中鈴音",
+     "grade": 3,
+     "score": 146,
+     "counted": null
+    },
+    {
+     "player_name": "柴尾羽梨",
+     "grade": 3,
+     "score": 159,
+     "counted": null
+    },
+    {
+     "player_name": "前川実桜",
+     "grade": 1,
+     "score": 158,
+     "counted": null
+    }
+   ],
+   "note": "computed day1 232 + day2 231 (best 3 per day)"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": 4,
+  "issues": [
+   "PDF text extraction did not yield printed team ranks/totals reliably (extractor produced inconsistent numbers); team totals and ranks here are COMPUTED from member day scores using the published rule (best 3 of up to 4 per day, 2 days) — verify against PDF",
+   "Member scores transcribed from raw PDF text; counted flag null (counting is per day)",
+   "Tie-break rules (4-score aggregate) not applied; no ties occurred in computed totals",
+   "Top 2 schools per gender qualify for 緑の甲子園 per PDF note",
+   "school_prefecture inferred from school identity (not printed)"
+  ]
+ }
+}
