@@ -21,7 +21,7 @@ http://localhost:3000 で確認できます。
 
 ## 公開（Cloudflare Pages）
 
-Cloudflare の Workers & Pages で GitHub リポジトリを接続し、次のように設定します。
+Cloudflare の Workers & Pages で GitHub リポジトリを接続します。Workers として作る場合は `wrangler.jsonc` の設定で `out` が公開されるので、Build command に `npm run build`、Deploy command に `npx wrangler deploy` を指定します。Pages として作る場合は次のように設定します。
 
 - Framework preset: Next.js (Static HTML Export)
 - Build command: `npm run build`
