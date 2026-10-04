@@ -23,6 +23,16 @@ data/
 
 再生成: `pip install pykakasi namedivider-python && python3 data/scripts/build.py`
 
+## Supabase への投入
+
+`supabase/seed.sql` をそのまま流せば入る (Supabase の SQL Editor に貼る、または `psql "$DATABASE_URL" -f data/supabase/seed.sql`)。
+
+- 前提: `supabase/migrations/0001_init.sql` (field_size・rank_percentile・score_differential 入りの版) を先に適用。
+- 各行の id は `*_key` から作る固定の UUID なので、何度流しても重複せず、作り直しても同じ選手は同じ id。
+- 公開に許諾が必要な大会 (関東高ゴ連) と団体戦 (スキーマに表がない) は含めていない。
+- 再生成: `python3 data/scripts/build.py && python3 data/scripts/to_sql.py` (`--include-restricted` で関東も含める)。
+- ローカルの PostgreSQL でマイグレーション → seed を2回流して、エラーなく同じ件数になることを確認済み。
+
 ## CSV とテーブルの対応
 
 主キー・外部キーは UUID の代わりに `*_key` (読める文字列 or ハッシュ)。投入時に key → uuid を引き当てる。

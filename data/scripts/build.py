@@ -207,6 +207,8 @@ def parse_rank(rank):
     low = r.lower()
     if re.match(r"r\d+:", low):  # 途中ラウンド時点の順位 (最終順位が取れていない大会)
         return None, False, "finished"
+    if low in ("dns", "ns") or "欠場" in r:  # 不出場
+        return None, False, "dns"
     for s in ("cut", "wd", "dq"):
         if s in low or {"cut": "予選落", "wd": "棄権", "dq": "失格"}[s] in r:
             return None, False, s
@@ -392,7 +394,7 @@ def main():
                                "temp_min_c": w.get("temp_min_c"), "weather_source_url": w.get("source_url")})
             diffs = [x["differential"] for x in rounds[-len(rs):] if rs and x["differential"] is not None]
             res["avg_differential"] = round(sum(diffs) / len(diffs), 1) if diffs else None
-        finished = [x for x in results if x["tournament_key"] == tid]
+        finished = [x for x in results if x["tournament_key"] == tid and x["status"] != "dns"]
         win = min((x["total_score"] for x in finished
                    if x["status"] == "finished" and isinstance(x["total_score"], int)), default=None)
         for x in finished:
