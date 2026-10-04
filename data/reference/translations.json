@@ -1,0 +1,16 @@
+{
+  "_note": "英語表記の辞書。tournaments は id の正規表現で当てる ({year}=大会日付の年, {category}=Boys/Girls, {format}=Individual/Team)。players は氏名(空白なし)→確認済み英語表記。name_parts / schools は build 時に name_parts.json / school_names.json から読み込む。",
+  "tournaments": [
+    {"id_pattern": "^kougoren-summer-", "name_en": "{year} All-Japan High School Golf Championship ({category} {format})"},
+    {"id_pattern": "^kougoren-spring-", "name_en": "{year} All-Japan High School Golf Championship Spring Tournament ({category} {format})"},
+    {"id_pattern": "^jga-junior-", "name_en": "{year} Japan Junior Golf Championship, {category} Ages 15-17"},
+    {"id_pattern": "^kokusupo-", "name_en": "{year} National Sports Festival of Japan, Golf, Youth {category} {format}"},
+    {"id_pattern": "^kanto-kougoren-", "name_en": "{year} Kanto High School Golf Championship, Summer ({category} {format}; national qualifier)"},
+    {"id_pattern": "^chubu-kougoren-", "name_en": "{year} Chubu High School Golf Championship ({category} {format}; national qualifier)"},
+    {"id_pattern": "^chugoku-kougoren-", "name_en": "{year} Chugoku High School Golf Championship ({category} {format}; national qualifier)"},
+    {"id_pattern": "^shikoku-kougoren-summer-qualifier-", "name_en": "{year} Shikoku High School Golf Championship ({category} {format}; national qualifier)"},
+    {"id_pattern": "^shikoku-kougoren-summer-championship-", "name_en": "{year} Shikoku High School Golf Championship ({category} {format})"}
+  ],
+  "players": {},
+  "schools": {}
+}

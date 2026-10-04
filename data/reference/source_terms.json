@@ -1,0 +1,10 @@
+{
+  "_note": "大会 id の接頭辞ごとの転載・再利用条件。build.py が tournaments.csv の reuse_status 列に入れる。restricted の大会はサイトで公開する前に主催者の許諾が必要。",
+  "kanto-kougoren-": {"reuse_status": "restricted", "note": "関東高等学校・中学校ゴルフ連盟の利用規約: 私的使用を超える複製・転用・公衆送信は同連盟の承諾が必要 (https://www.k-hga.jp/)"},
+  "kokusupo-": {"reuse_status": "check", "note": "記録検索システム (共同通信デジタル) に All Rights Reserved 表記。個別の再利用条件は未確認"},
+  "kougoren-": {"reuse_status": "check", "note": "利用規約ページ未確認 (robots.txt は wp-admin のみ不許可)"},
+  "jga-": {"reuse_status": "check", "note": "利用規約未確認。2024年以降の成績は Golf Genius 上で公開"},
+  "chubu-kougoren-": {"reuse_status": "check", "note": "フッターに著作権表示のみ。明示的な再利用条件なし"},
+  "chugoku-kougoren-": {"reuse_status": "check", "note": "利用条件の記載なし"},
+  "shikoku-kougoren-": {"reuse_status": "check", "note": "利用条件未確認"}
+}
