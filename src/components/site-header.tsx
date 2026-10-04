@@ -12,9 +12,26 @@ export function SiteHeader({ lang, dict }: { lang: Locale; dict: Dictionary }) {
 
   return (
     <header className="border-b border-black/10 dark:border-white/10">
-      <div className="mx-auto flex h-16 max-w-5xl items-center justify-between px-4">
-        <Link href={`/${lang}`} className="text-lg font-semibold tracking-tight">
-          Athni
+      <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-x-6 gap-y-3 px-4 py-5">
+        {/* Logo guidelines: supplied artwork only, at least 120px wide. */}
+        <Link href={`/${lang}`} className="shrink-0" aria-label="AthNi">
+          {/* Static export has no image optimizer; SVGs need none. */}
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/wordmark-black.svg"
+            alt="AthNi"
+            width={120}
+            height={36}
+            className="h-9 w-[120px] dark:hidden"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/brand/wordmark-white.svg"
+            alt="AthNi"
+            width={120}
+            height={36}
+            className="hidden h-9 w-[120px] dark:block"
+          />
         </Link>
         <nav className="flex gap-4 text-sm sm:gap-6">
           {navItems.map((item) => (

@@ -6,7 +6,7 @@ export function SiteFooter({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   return (
     <footer className="border-t border-black/10 dark:border-white/10">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-4 py-6 text-sm text-foreground/60">
-        <span>© {new Date().getFullYear()} Athni</span>
+        <span>© {new Date().getFullYear()} AthNi</span>
         <LanguageSwitch lang={lang} label={dict.footer.language} />
       </div>
     </footer>
