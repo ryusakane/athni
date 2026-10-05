@@ -106,7 +106,7 @@ const en = {
   },
   about: {
     title: "About",
-    body: "Athni collects tournament results for high school golfers across Japan and presents them in English with the context US college coaches need: course rating and slope, field strength, and playing conditions.",
+    body: "AthNi collects tournament results for high school golfers across Japan and presents them in English with the context US college coaches need: course rating and slope, field strength, and playing conditions.",
   },
   contact: {
     title: "Contact",
@@ -222,7 +222,7 @@ const ja: Dictionary = {
   },
   about: {
     title: "概要",
-    body: "Athni は全国の高校生ゴルファーの大会成績を集約し、コースのレーティングやスロープ、出場選手のレベル、当日のコンディションなど、アメリカの大学コーチが必要とする情報と合わせて英語で発信するサービスです。",
+    body: "AthNi は全国の高校生ゴルファーの大会成績を集約し、コースのレーティングやスロープ、出場選手のレベル、当日のコンディションなど、アメリカの大学コーチが必要とする情報と合わせて英語で発信するサービスです。",
   },
   contact: {
     title: "お問い合わせ",

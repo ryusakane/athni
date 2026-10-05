@@ -30,8 +30,15 @@ export async function generateMetadata({
   if (!hasLocale(lang)) return {};
   return {
     metadataBase: new URL("https://athtouni.com"),
-    title: { default: "Athni", template: "%s | Athni" },
+    title: { default: "AthNi", template: "%s | AthNi" },
     description: getDictionary(lang).meta.description,
+    icons: {
+      icon: [
+        { url: "/favicon.ico", sizes: "any" },
+        { url: "/favicon.svg", type: "image/svg+xml" },
+      ],
+      apple: "/apple-touch-icon.png",
+    },
     alternates: { languages: { en: "/en", ja: "/ja" } },
   };
 }
