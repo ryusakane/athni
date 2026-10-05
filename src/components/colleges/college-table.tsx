@@ -7,6 +7,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 
 type ProgramCell = {
   rank: number | null;
+  season: string | null;
   roster: number | null;
   japanese: number;
   collected: boolean;
@@ -130,9 +131,14 @@ export function CollegeTable({ lang, rows }: { lang: Locale; rows: CollegeRow[] 
                 const p = r[gender];
                 return (
                   <tr key={r.slug} className="border-b border-black/5 dark:border-white/5">
-                    <td className="py-2 pr-4 text-right tabular-nums">{p?.rank ?? "—"}</td>
+                    <td className="py-2 pr-4 text-right tabular-nums">
+                      {p?.rank ?? "—"}
+                      {p?.season && (
+                        <span className="block text-xs text-foreground/50">{p.season}</span>
+                      )}
+                    </td>
                     <td className="py-2 pr-4">
-                      <Link href={`/${lang}/colleges/${r.slug}`} className="font-medium hover:underline">
+                      <Link href={`/${lang}/colleges/${r.slug}/?gender=${gender}`} className="font-medium hover:underline">
                         {r.name}
                       </Link>
                       {r.nickname && <span className="ml-2 text-foreground/50">{r.nickname}</span>}

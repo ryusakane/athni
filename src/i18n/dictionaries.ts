@@ -15,7 +15,7 @@ const en = {
   home: {
     tagline:
       "Opening the door to US college athletics for every Japanese high school athlete.",
-    lead: "Player profiles, tournament results, rankings, and scores with course rating and slope, presented in English for college coaches.",
+    lead: "Going pro isn't the only path. At a US college, you can train at the highest level and earn a degree at the same time. AthNi brings your high school record to college coaches in English, and helps athletes, families, and coaches find the way there.",
     ctaPlayers: "Browse players",
     ctaTournaments: "View tournaments",
   },
@@ -125,7 +125,8 @@ const en = {
     notCollected: "Not collected yet",
     count: (shown: number, total: number) => `${shown} of ${total} schools`,
     noMatch: "No schools match these filters.",
-    rankingNote: (source: string, date: string) => `Ranking: ${source}, ${date}.`,
+    rankingNote: (source: string, season: string, date: string) =>
+      `Ranking: ${source}, ${season} season (as of ${date}).`,
   },
   college: {
     program: { male: "Men's golf", female: "Women's golf" },
@@ -136,6 +137,7 @@ const en = {
     coachesPage: "Coaches",
     social: "Social media",
     rankings: "Team rankings",
+    season: (season: string) => `${season} season`,
     coaches: "Coaching staff",
     name: "Name",
     position: "Title",
@@ -188,7 +190,7 @@ const ja: Dictionary = {
   },
   home: {
     tagline: "日本のすべての高校生アスリートに、アメリカ大学進学の門戸を。",
-    lead: "選手プロフィール、大会成績、順位、スコアを、コースのレーティングやスロープと合わせて英語でも発信します。",
+    lead: "プロだけが道じゃない。アメリカの大学で、最高の練習環境と学びを両立しませんか。AthNi は高校での成績を英語で大学コーチに届け、選手・ご家族・指導者の皆さんと一緒に進学への道をひらきます。",
     ctaPlayers: "選手を探す",
     ctaTournaments: "大会・成績を見る",
   },
@@ -298,7 +300,8 @@ const ja: Dictionary = {
     notCollected: "未収集",
     count: (shown: number, total: number) => `${total}校中 ${shown}校`,
     noMatch: "条件に合う大学がありません。",
-    rankingNote: (source: string, date: string) => `ランキング: ${source}（${date}）`,
+    rankingNote: (source: string, season: string, date: string) =>
+      `ランキング: ${source}、${season}シーズン（${date}時点）`,
   },
   college: {
     program: { male: "男子ゴルフ部", female: "女子ゴルフ部" },
@@ -309,6 +312,7 @@ const ja: Dictionary = {
     coachesPage: "コーチ",
     social: "SNS",
     rankings: "チームランキング",
+    season: (season: string) => `${season}シーズン`,
     coaches: "コーチ",
     name: "名前",
     position: "役職",
