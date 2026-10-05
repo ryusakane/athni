@@ -45,6 +45,7 @@ const embeds: Record<string, keyof Dataset> = {
   course: "courses",
   tee: "course_tees",
   tournament: "tournaments",
+  tournament_results: "tournament_results",
   rounds: "rounds",
 };
 

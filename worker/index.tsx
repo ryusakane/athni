@@ -23,24 +23,23 @@ const origin = "https://athtouni.com";
 const detailPath =
   /^\/(en|ja)\/(players|tournaments)\/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})(\/?)$/;
 
-// Browsers re-check after 5 minutes; the edge keeps a page 10 minutes so data changes show soon.
-const cacheControl = "public, max-age=300, s-maxage=600";
+// Browsers re-check after 5 minutes. The edge cache keeps a page for a day, but one older than
+// 10 minutes is refreshed in the background after serving it, so readers never wait on Supabase
+// for a page someone has opened before, and data changes still show within minutes.
+const cacheControl = "public, max-age=300, s-maxage=86400";
+const refreshAfterMs = 10 * 60 * 1000;
+const renderedAt = "X-Rendered-At";
 
 type Page = { title: string; description: string; html: string };
 
 async function playerPage(db: SupabaseConfig, lang: Locale, id: string): Promise<Page | null> {
-  const [players, results] = await Promise.all([
-    supabaseGet<object>(db, `players?id=eq.${id}&select=*,school:schools(*)`),
-    supabaseGet<object>(
-      db,
-      `tournament_results?player_id=eq.${id}` +
-        `&select=*,tournament:tournaments(*,course:courses(*)),rounds(*,tee:course_tees(*))`,
-    ),
-  ]);
-  const data = flattenEmbedded("tournament_results", results);
-  const own = flattenEmbedded("players", players);
-  data.players = own.players;
-  data.schools = own.schools;
+  // One round trip: the player with every result, tournament, course, round and tee embedded.
+  const rows = await supabaseGet<object>(
+    db,
+    `players?id=eq.${id}&select=*,school:schools(*),tournament_results(*,` +
+      `tournament:tournaments(*,course:courses(*)),rounds(*,tee:course_tees(*)))`,
+  );
+  const data = flattenEmbedded("players", rows);
   const detail = playerDetail(buildIndexes(data), id);
   if (!detail) return null;
 
@@ -64,18 +63,13 @@ async function playerPage(db: SupabaseConfig, lang: Locale, id: string): Promise
 }
 
 async function tournamentPage(db: SupabaseConfig, lang: Locale, id: string): Promise<Page | null> {
-  const [tournaments, results] = await Promise.all([
-    supabaseGet<object>(db, `tournaments?id=eq.${id}&select=*,course:courses(*)`),
-    supabaseGet<object>(
-      db,
-      `tournament_results?tournament_id=eq.${id}` +
-        `&select=*,player:players(*,school:schools(*)),rounds(*,tee:course_tees(*))`,
-    ),
-  ]);
-  const data = flattenEmbedded("tournament_results", results);
-  const own = flattenEmbedded("tournaments", tournaments);
-  data.tournaments = own.tournaments;
-  data.courses = own.courses;
+  // One round trip: the tournament with its course and every result, player, school and round.
+  const rows = await supabaseGet<object>(
+    db,
+    `tournaments?id=eq.${id}&select=*,course:courses(*),tournament_results(*,` +
+      `player:players(*,school:schools(*)),rounds(*,tee:course_tees(*)))`,
+  );
+  const data = flattenEmbedded("tournaments", rows);
   const detail = tournamentDetail(buildIndexes(data), id);
   if (!detail) return null;
 
@@ -140,7 +134,11 @@ async function render(env: Env, request: Request, lang: Locale, section: WorkerS
     .transform(shell);
 
   return new Response(rewritten.body, {
-    headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cacheControl },
+    headers: {
+      "Content-Type": "text/html; charset=utf-8",
+      "Cache-Control": cacheControl,
+      [renderedAt]: String(Date.now()),
+    },
   });
 }
 
@@ -156,12 +154,20 @@ export default {
 
     // Keyed by deploy too: a page cached before a deploy links the old build's CSS files.
     const cacheKey = new Request(`${url.origin}${url.pathname}?v=${env.CF_VERSION_METADATA.id}`);
-    const cached = await caches.default.match(cacheKey);
-    if (cached) return cached;
+    const refresh = async () => {
+      const response = await render(env, request, lang, section, id);
+      if (response.status === 200) ctx.waitUntil(caches.default.put(cacheKey, response.clone()));
+      return response;
+    };
 
-    let response: Response;
+    const cached = await caches.default.match(cacheKey);
+    if (cached) {
+      const age = Date.now() - Number(cached.headers.get(renderedAt));
+      if (!(age < refreshAfterMs)) ctx.waitUntil(refresh().catch((e) => console.error(e)));
+      return cached;
+    }
     try {
-      response = await render(env, request, lang, section, id);
+      return await refresh();
     } catch (error) {
       console.error(error);
       return new Response("Temporarily unavailable. Please try again shortly.", {
@@ -169,7 +175,5 @@ export default {
         headers: { "Content-Type": "text/plain; charset=utf-8", "Retry-After": "30" },
       });
     }
-    if (response.status === 200) ctx.waitUntil(caches.default.put(cacheKey, response.clone()));
-    return response;
   },
 } satisfies ExportedHandler<Env>;

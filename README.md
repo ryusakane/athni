@@ -41,7 +41,7 @@ main に変更が入るたびに自動で再公開されます。
 - ビルドでは言語ごとに「枠」だけのページ（`/en/players/_/` など、ヘッダーとフッターのみ）を作り、Worker がその枠に選手・大会の内容とタイトル・説明文・canonical・hreflang を書き込みます（`src/lib/worker-pages.ts`）。検索エンジンには完成した HTML が届きます。
 - 表示部分は `src/components/golf/player-view.tsx` と `tournament-view.tsx`、集計は `src/lib/golf/views.ts` で、ビルドと Worker が共通で使います。
 - Worker の Supabase 設定は `wrangler.jsonc` の `vars` にあります（公開用の publishable key）。
-- 返したページは Cloudflare のキャッシュに 10 分残るので、Supabase のデータを直すと 10 分以内に反映されます。一覧ページは再ビルドで反映されます。
+- 一度開かれたページは Cloudflare のキャッシュから静的ページと同じ速さで返します。10 分以上前のページは返したあと裏で作り直すので、Supabase のデータを直すと次の閲覧以降に反映されます。一覧ページは再ビルドで反映されます。
 - ローカルで Worker ごと確認するには `npm run build` のあと `npx wrangler dev` を実行します。
 
 テーブル定義は `supabase/migrations/` にあります（学校、選手、コース、ティーごとのレーティング・スロープ、大会、成績、ラウンドごとのスコアと天候）。
