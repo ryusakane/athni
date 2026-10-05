@@ -153,6 +153,7 @@ const en = {
     previousSchool: "Previous school",
     alumni: "Former players on professional tours",
     noAlumni: "No professional alumni recorded yet.",
+    tour: "Tour",
     lastYear: "Last college year",
     source: (date: string) =>
       `Contacts, rosters, and links are taken from the school's official athletics website (collected ${date}). Check the school's site before reaching out.`,
@@ -322,6 +323,7 @@ const ja: Dictionary = {
     previousSchool: "前所属",
     alumni: "プロツアーで活躍する卒業生",
     noAlumni: "プロの卒業生は未収集です。",
+    tour: "ツアー",
     lastYear: "最終在籍年",
     source: (date: string) =>
       `連絡先・ロスター・リンクは各大学の体育局公式サイトから収集しています（${date}時点）。連絡する前に大学のサイトで最新情報をご確認ください。`,
