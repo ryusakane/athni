@@ -17,6 +17,8 @@ export type Coach = {
   title: string | null;
   email: string | null;
   phone: string | null;
+  /** The coach's own bio page on the athletics site, when collected. */
+  profile_url?: string | null;
   source_url: string | null;
 };
 
@@ -27,6 +29,8 @@ export type RosterPlayer = {
   hometown: string | null;
   country: string | null;
   previous_school: string | null;
+  /** The player's own bio page on the athletics site, when collected. */
+  profile_url?: string | null;
 };
 
 export type AlumniPro = {

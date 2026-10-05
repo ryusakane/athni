@@ -138,7 +138,7 @@ export function CollegeTable({ lang, rows }: { lang: Locale; rows: CollegeRow[] 
                       )}
                     </td>
                     <td className="py-2 pr-4">
-                      <Link href={`/${lang}/colleges/${r.slug}`} className="font-medium hover:underline">
+                      <Link href={`/${lang}/colleges/${r.slug}/?gender=${gender}`} className="font-medium hover:underline">
                         {r.name}
                       </Link>
                       {r.nickname && <span className="ml-2 text-foreground/50">{r.nickname}</span>}

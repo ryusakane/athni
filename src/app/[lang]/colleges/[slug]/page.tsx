@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { ProgramOrder } from "@/components/colleges/program-order";
 import { Stat } from "@/components/golf/stat";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -33,6 +34,11 @@ function ExternalLink({ href, children }: { href: string; children: React.ReactN
       {children}
     </a>
   );
+}
+
+/** A name linked to the person's page on the college site: their bio when collected, else the team page. */
+function PersonLink({ href, children }: { href: string | null | undefined; children: React.ReactNode }) {
+  return href ? <ExternalLink href={href}>{children}</ExternalLink> : <>{children}</>;
 }
 
 const socials = [
@@ -72,9 +78,14 @@ export default async function CollegePage({ params }: PageProps<"/[lang]/college
         {college.athletics_url && <ExternalLink href={college.athletics_url}>{t.athletics}</ExternalLink>}
       </div>
 
-      {college.programs.map((program) => (
-        <ProgramSection key={program.gender} lang={lang} program={program} />
-      ))}
+      <ProgramOrder
+        genders={college.programs.map((p) => p.gender)}
+        labels={{ male: dict.colleges.men, female: dict.colleges.women }}
+      >
+        {college.programs.map((program) => (
+          <ProgramSection key={program.gender} lang={lang} program={program} />
+        ))}
+      </ProgramOrder>
 
       {collected && <p className="mt-10 text-xs text-foreground/50">{t.source(formatDate(lang, collected))}</p>}
     </div>
@@ -94,7 +105,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
   const alumniYears = program.alumni_pros.some((a) => a.final_college_year != null);
 
   return (
-    <section className="mt-12 border-t border-black/10 pt-8 dark:border-white/10">
+    <section data-gender={program.gender} className="mt-12 border-t border-black/10 pt-8 dark:border-white/10">
       <h2 className="text-2xl font-semibold">{t.program[program.gender]}</h2>
       <div className="mt-3 flex flex-wrap gap-x-5 gap-y-1 text-sm">
         {links.map(([href, label]) => href && <ExternalLink key={label} href={href}>{label}</ExternalLink>)}
@@ -145,7 +156,9 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
               <tbody>
                 {program.coaches.map((c) => (
                   <tr key={c.name} className="border-b border-black/5 dark:border-white/5">
-                    <td className={`${td} font-medium`}>{c.name}</td>
+                    <td className={`${td} font-medium`}>
+                      <PersonLink href={c.profile_url ?? program.coaches_url ?? c.source_url}>{c.name}</PersonLink>
+                    </td>
                     <td className={`${td} text-foreground/70`}>{c.title ?? "—"}</td>
                     <td className={td}>
                       {c.email ? (
@@ -209,7 +222,11 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
                         key={p.name}
                         className={`border-b border-black/5 dark:border-white/5 ${p.country === "JP" ? "bg-red-500/5" : ""}`}
                       >
-                        <td className={`${td} font-medium`}>{p.name}</td>
+                        <td className={`${td} font-medium`}>
+                          <PersonLink href={p.profile_url ?? program.roster_url ?? program.roster_source_url}>
+                            {p.name}
+                          </PersonLink>
+                        </td>
                         <td className={td}>
                           {p.class_year ? t.classes[p.class_year] : "—"}
                           {p.redshirt && " (RS)"}
