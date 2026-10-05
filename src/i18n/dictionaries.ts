@@ -14,8 +14,8 @@ const en = {
   },
   home: {
     tagline:
-      "Opening the door to US college athletics for every Japanese high school athlete.",
-    lead: "AthNi makes athletic recruitment to US colleges possible for every high school athlete in Japan, opening the door to world-class training and to careers at top companies.",
+      "Opening the door to US college athletics for every high school athlete.",
+    lead: "AthNi makes athletic recruitment to US colleges possible for every high school athlete, opening the door to world-class training and to careers at top companies.",
     ctaPlayers: "Browse players",
     ctaTournaments: "View tournaments",
   },
@@ -189,7 +189,7 @@ const ja: Dictionary = {
     contact: "お問い合わせ",
   },
   home: {
-    tagline: "日本のすべての高校生アスリートに、アメリカ大学進学の門戸を。",
+    tagline: "すべての高校生アスリートに、アメリカ大学進学の門戸を。",
     lead: "AthNi は、すべての高校生アスリートに、世界トップの練習環境とトップ企業への就職の可能性をひらく、アメリカの大学へのアスリート推薦入学を実現します。",
     ctaPlayers: "選手を探す",
     ctaTournaments: "大会・成績を見る",
