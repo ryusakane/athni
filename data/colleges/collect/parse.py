@@ -198,11 +198,12 @@ CARD_LABELS = {"Academic Year": "class", "Class": "class", "Hometown": "hometown
 def parse_cards(text, gender):
     """Sidearm person cards (list view): name in h3, labelled stats ("Academic Year 3rd", "Hometown ...")."""
     soup = BeautifulSoup(text, "lxml")
-    players = []
+    players, seen = [], set()
     for card in soup.select(".s-person-card"):
         h = card.select_one("h3")
-        if not h:
-            continue
+        name = clean(h.get_text(" ", strip=True)) if h else None
+        if not name or name in seen:
+            continue  # the page renders each card twice (list and grid view)
         vals = {}
         for lab in card.select(".sr-only"):
             k = CARD_LABELS.get(clean(lab.get_text(" ", strip=True)) or "")
@@ -210,7 +211,8 @@ def parse_cards(text, gender):
                 vals[k] = clean(lab.parent.get_text(" ", strip=True)[len(lab.get_text(" ", strip=True)):])
         if "class" not in vals and "hometown" not in vals:
             continue  # a staff card
-        players.append(player(clean(h.get_text(" ", strip=True)), vals.get("class"), vals.get("hometown"),
+        seen.add(name)
+        players.append(player(name, vals.get("class"), vals.get("hometown"),
                               vals.get("prev"), vals.get("hs")))
     if not players:
         return None
