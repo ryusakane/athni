@@ -5,5 +5,7 @@
   "assets": {
     "directory": "./out",
     "not_found_handling": "404-page"
-  }
+  },
+  // PR builds run `wrangler preview`, which requires this block (it can stay empty).
+  "previews": {}
 }
