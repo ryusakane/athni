@@ -31,10 +31,17 @@ main に変更が入るたびに自動で再公開されます。
 
 ## データと Supabase
 
-選手ページ（`/en/players/...`）と大会ページ（`/en/tournaments/...`）は `npm run build` のときにデータを読み、すべて静的な HTML として書き出します。
+一覧ページ（`/en/players/`、`/en/tournaments/`）と `sitemap.xml` は `npm run build` のときにデータを読み、静的な HTML として書き出します。
 
-- `.env.local`（Cloudflare Pages では環境変数）に `NEXT_PUBLIC_SUPABASE_URL` と `NEXT_PUBLIC_SUPABASE_ANON_KEY` があれば Supabase から読みます。
+- `.env.local`（Cloudflare では環境変数）に `NEXT_PUBLIC_SUPABASE_URL` と `NEXT_PUBLIC_SUPABASE_ANON_KEY` があれば Supabase から読みます。
 - なければ同梱の `src/data/seed.json` を使います（`data/scripts/to_sql.py` が `data/supabase/seed.sql` と同じ内容で生成。関東高ゴ連の大会は除外済み）。
-- データを更新したら再ビルド（Cloudflare Pages の再デプロイ）で反映されます。
+
+選手ページ（`/en/players/<id>/`）と大会ページ（`/en/tournaments/<id>/`）は静的ファイルを作らず、アクセスがあったときに Worker（`worker/index.tsx`）が Supabase から読んで HTML を返します。Cloudflare の無料プランは 1 回の公開あたり 20,000 ファイルまでなので、選手が増えてもファイル数が増えないようにするためです。
+
+- ビルドでは言語ごとに「枠」だけのページ（`/en/players/_/` など、ヘッダーとフッターのみ）を作り、Worker がその枠に選手・大会の内容とタイトル・説明文・canonical・hreflang を書き込みます（`src/lib/worker-pages.ts`）。検索エンジンには完成した HTML が届きます。
+- 表示部分は `src/components/golf/player-view.tsx` と `tournament-view.tsx`、集計は `src/lib/golf/views.ts` で、ビルドと Worker が共通で使います。
+- Worker の Supabase 設定は `wrangler.jsonc` の `vars` にあります（公開用の publishable key）。
+- 返したページは Cloudflare のキャッシュに 10 分残るので、Supabase のデータを直すと 10 分以内に反映されます。一覧ページは再ビルドで反映されます。
+- ローカルで Worker ごと確認するには `npm run build` のあと `npx wrangler dev` を実行します。
 
 テーブル定義は `supabase/migrations/` にあります（学校、選手、コース、ティーごとのレーティング・スロープ、大会、成績、ラウンドごとのスコアと天候）。

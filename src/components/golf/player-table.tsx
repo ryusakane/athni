@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useMemo, useState } from "react";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -130,9 +129,10 @@ export function PlayerTable({ lang, rows }: { lang: Locale; rows: PlayerRow[] })
               {shown.map((r) => (
                 <tr key={r.id} className="border-b border-black/5 dark:border-white/5">
                   <td className="py-2 pr-4">
-                    <Link href={`/${lang}/players/${r.id}`} className="font-medium hover:underline">
+                    {/* Plain links: detail pages are rendered by the Worker, so there is no route to prefetch. */}
+                    <a href={`/${lang}/players/${r.id}/`} className="font-medium hover:underline">
                       {r.name}
-                    </Link>
+                    </a>
                     {r.nameAlt && (
                       <span className="ml-2 text-xs text-foreground/50">{r.nameAlt}</span>
                     )}

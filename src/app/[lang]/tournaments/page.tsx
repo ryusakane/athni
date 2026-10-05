@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -35,12 +34,13 @@ export default async function TournamentsPage({ params }: PageProps<"/[lang]/tou
               .filter((t) => t.tournament.start_date.startsWith(year))
               .map(({ tournament, course, winners }) => (
                 <li key={tournament.id} className="py-3">
-                  <Link
-                    href={`/${lang}/tournaments/${tournament.id}`}
+                  {/* Plain links: detail pages are rendered by the Worker, so there is no route to prefetch. */}
+                  <a
+                    href={`/${lang}/tournaments/${tournament.id}/`}
                     className="font-medium hover:underline"
                   >
                     {localizedName(lang, tournament).primary}
-                  </Link>
+                  </a>
                   <div className="mt-1 flex flex-wrap gap-x-3 text-sm text-foreground/60">
                     <span>{formatDateRange(lang, tournament.start_date, tournament.end_date)}</span>
                     {course && <span>{localizedName(lang, course).primary}</span>}
@@ -58,9 +58,9 @@ export default async function TournamentsPage({ params }: PageProps<"/[lang]/tou
                         {winners.map((w, i) => (
                           <span key={w.id}>
                             {i > 0 && ", "}
-                            <Link href={`/${lang}/players/${w.id}`} className="hover:underline">
+                            <a href={`/${lang}/players/${w.id}/`} className="hover:underline">
                               {localizedName(lang, w).primary}
-                            </Link>
+                            </a>
                           </span>
                         ))}
                       </span>

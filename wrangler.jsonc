@@ -1,9 +1,26 @@
 {
-  // Cloudflare Workers config: serves the static export in ./out (npm run build).
+  // Cloudflare Workers config: serves the static export in ./out (npm run build), and runs
+  // worker/index.tsx for the player and tournament pages, which are rendered on request.
   "name": "athni",
+  "main": "./worker/index.tsx",
+  "tsconfig": "./worker/tsconfig.json",
   "compatibility_date": "2026-10-01",
   "assets": {
     "directory": "./out",
-    "not_found_handling": "404-page"
-  }
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    // Detail pages have no file. Without this, a browser navigation to one gets the 404 page
+    // from the asset layer before the Worker runs. Only ids contain "-"; list pages don't.
+    "run_worker_first": ["/*/players/*-*", "/*/tournaments/*-*"]
+  },
+  // Lets the Worker tell deploys apart, so its page cache never mixes two builds' CSS files.
+  "version_metadata": { "binding": "CF_VERSION_METADATA" },
+  // Public values: the publishable key only reads what row level security allows.
+  "vars": {
+    "SUPABASE_URL": "https://ynapxeymwrhtijbnijaz.supabase.co",
+    "SUPABASE_KEY": "sb_publishable_babVHNns6OYD2uTcasRsgw_gSosLU85"
+  },
+  "observability": { "enabled": true },
+  // PR builds run `wrangler preview`, which requires this block (it can stay empty).
+  "previews": {}
 }

@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { Locale } from "@/i18n/config";
 
@@ -9,9 +8,11 @@ export function LanguageSwitch({ lang, label }: { lang: Locale; label: string })
   const other: Locale = lang === "en" ? "ja" : "en";
   const pathname = usePathname() ?? `/${lang}`;
   const href = pathname.replace(new RegExp(`^/${lang}(?=/|$)`), `/${other}`);
+  // A plain link: on detail pages the Worker renders (src/lib/worker-pages.ts) there is no route
+  // for Next.js to prefetch, and switching language is rare enough for a full page load.
   return (
-    <Link href={href} className="hover:text-foreground">
+    <a href={href} className="hover:text-foreground">
       {label}
-    </Link>
+    </a>
   );
 }

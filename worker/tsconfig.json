@@ -1,0 +1,11 @@
+{
+  // The Worker runs on Cloudflare's runtime, not in the browser: its globals replace the DOM lib.
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "lib": ["esnext"],
+    "types": ["@cloudflare/workers-types"],
+    "plugins": []
+  },
+  "include": ["./**/*.ts", "./**/*.tsx"],
+  "exclude": []
+}

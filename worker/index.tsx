@@ -1,0 +1,175 @@
+import { renderToString } from "react-dom/server";
+import { PlayerView } from "@/components/golf/player-view";
+import { TournamentView } from "@/components/golf/tournament-view";
+import { locales, type Locale } from "@/i18n/config";
+import { getDictionary } from "@/i18n/dictionaries";
+import { formatDateRange, formatNumber, localizedName } from "@/lib/golf/format";
+import { flattenEmbedded, supabaseGet, type SupabaseConfig } from "@/lib/golf/supabase";
+import { buildIndexes, playerDetail, tournamentDetail } from "@/lib/golf/views";
+import { SHELL_ID, SLOT_ATTRIBUTE, type WorkerSection } from "@/lib/worker-pages";
+
+// Serves player and tournament detail pages, which have no static file (src/lib/worker-pages.ts).
+// Everything else is a static asset that Cloudflare serves without running this Worker, except
+// missing files, which come here and get the static 404 page.
+
+type Env = {
+  ASSETS: Fetcher;
+  CF_VERSION_METADATA: { id: string };
+  SUPABASE_URL: string;
+  SUPABASE_KEY: string;
+};
+
+const origin = "https://athtouni.com";
+const detailPath =
+  /^\/(en|ja)\/(players|tournaments)\/([0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12})(\/?)$/;
+
+// Browsers re-check after 5 minutes; the edge keeps a page 10 minutes so data changes show soon.
+const cacheControl = "public, max-age=300, s-maxage=600";
+
+type Page = { title: string; description: string; html: string };
+
+async function playerPage(db: SupabaseConfig, lang: Locale, id: string): Promise<Page | null> {
+  const [players, results] = await Promise.all([
+    supabaseGet<object>(db, `players?id=eq.${id}&select=*,school:schools(*)`),
+    supabaseGet<object>(
+      db,
+      `tournament_results?player_id=eq.${id}` +
+        `&select=*,tournament:tournaments(*,course:courses(*)),rounds(*,tee:course_tees(*))`,
+    ),
+  ]);
+  const data = flattenEmbedded("tournament_results", results);
+  const own = flattenEmbedded("players", players);
+  data.players = own.players;
+  data.schools = own.schools;
+  const detail = playerDetail(buildIndexes(data), id);
+  if (!detail) return null;
+
+  const dict = getDictionary(lang);
+  const { player, school, stats } = detail;
+  const name = localizedName(lang, player);
+  return {
+    title: name.primary,
+    description: [
+      name.secondary ? `${name.primary} (${name.secondary})` : name.primary,
+      school && localizedName(lang, school).primary,
+      player.graduation_year && `${dict.player.classOf} ${player.graduation_year}`,
+      `${dict.player.events} ${stats.events}`,
+      stats.scoringAverage != null &&
+        `${dict.player.scoringAverage} ${formatNumber(stats.scoringAverage, 2)}`,
+    ]
+      .filter(Boolean)
+      .join(" · "),
+    html: renderToString(<PlayerView lang={lang} data={detail} />),
+  };
+}
+
+async function tournamentPage(db: SupabaseConfig, lang: Locale, id: string): Promise<Page | null> {
+  const [tournaments, results] = await Promise.all([
+    supabaseGet<object>(db, `tournaments?id=eq.${id}&select=*,course:courses(*)`),
+    supabaseGet<object>(
+      db,
+      `tournament_results?tournament_id=eq.${id}` +
+        `&select=*,player:players(*,school:schools(*)),rounds(*,tee:course_tees(*))`,
+    ),
+  ]);
+  const data = flattenEmbedded("tournament_results", results);
+  const own = flattenEmbedded("tournaments", tournaments);
+  data.tournaments = own.tournaments;
+  data.courses = own.courses;
+  const detail = tournamentDetail(buildIndexes(data), id);
+  if (!detail) return null;
+
+  const dict = getDictionary(lang);
+  const { tournament, course } = detail;
+  const name = localizedName(lang, tournament);
+  return {
+    title: name.primary,
+    description: [
+      name.secondary ? `${name.primary} (${name.secondary})` : name.primary,
+      formatDateRange(lang, tournament.start_date, tournament.end_date),
+      course && localizedName(lang, course).primary,
+      tournament.field_size && `${dict.tournament.field} ${tournament.field_size}`,
+    ]
+      .filter(Boolean)
+      .join(" · "),
+    html: renderToString(<TournamentView lang={lang} data={detail} />),
+  };
+}
+
+const escapeHtml = (value: string) =>
+  value.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+
+async function render(env: Env, request: Request, lang: Locale, section: WorkerSection, id: string) {
+  const db = { url: env.SUPABASE_URL, key: env.SUPABASE_KEY };
+  const [shell, page] = await Promise.all([
+    env.ASSETS.fetch(new URL(`/${lang}/${section}/${SHELL_ID}/`, request.url)),
+    section === "players" ? playerPage(db, lang, id) : tournamentPage(db, lang, id),
+  ]);
+  // Unknown id: the static 404 page, with a 404 status.
+  if (!page) return env.ASSETS.fetch(request);
+
+  const url = (l: string) => `${origin}/${l}/${section}/${id}/`;
+  const shellLink = new RegExp(`/${section}/${SHELL_ID}/?$`);
+  const rewritten = new HTMLRewriter()
+    // The shell renders no per-page metadata (shellMetadata), so this is the only copy.
+    .on("head", {
+      element(el) {
+        el.append(
+          [
+            `<title>${escapeHtml(page.title)} | AthNi</title>`,
+            `<meta name="description" content="${escapeHtml(page.description)}"/>`,
+            `<link rel="canonical" href="${url(lang)}"/>`,
+            ...locales.map((l) => `<link rel="alternate" hreflang="${l}" href="${url(l)}"/>`),
+          ].join(""),
+          { html: true },
+        );
+      },
+    })
+    // The language switch is rendered for the shell's path; point it at this page.
+    .on("a[href]", {
+      element(el) {
+        const href = el.getAttribute("href")!;
+        if (shellLink.test(href)) el.setAttribute("href", href.replace(shellLink, `/${section}/${id}/`));
+      },
+    })
+    .on(`[${SLOT_ATTRIBUTE}]`, {
+      element(el) {
+        el.setInnerContent(page.html, { html: true });
+      },
+    })
+    .transform(shell);
+
+  return new Response(rewritten.body, {
+    headers: { "Content-Type": "text/html; charset=utf-8", "Cache-Control": cacheControl },
+  });
+}
+
+export default {
+  async fetch(request, env, ctx) {
+    const url = new URL(request.url);
+    const match = detailPath.exec(url.pathname);
+    if (!match || (request.method !== "GET" && request.method !== "HEAD")) {
+      return env.ASSETS.fetch(request);
+    }
+    const [, lang, section, id, slash] = match as unknown as [string, Locale, WorkerSection, string, string];
+    if (!slash) return Response.redirect(`${url.origin}${url.pathname}/${url.search}`, 308);
+
+    // Keyed by deploy too: a page cached before a deploy links the old build's CSS files.
+    const cacheKey = new Request(`${url.origin}${url.pathname}?v=${env.CF_VERSION_METADATA.id}`);
+    const cached = await caches.default.match(cacheKey);
+    if (cached) return cached;
+
+    let response: Response;
+    try {
+      response = await render(env, request, lang, section, id);
+    } catch (error) {
+      console.error(error);
+      return new Response("Temporarily unavailable. Please try again shortly.", {
+        status: 503,
+        headers: { "Content-Type": "text/plain; charset=utf-8", "Retry-After": "30" },
+      });
+    }
+    if (response.status === 200) ctx.waitUntil(caches.default.put(cacheKey, response.clone()));
+    return response;
+  },
+} satisfies ExportedHandler<Env>;
