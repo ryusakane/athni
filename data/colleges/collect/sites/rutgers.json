@@ -1,0 +1,138 @@
+{
+ "slug": "rutgers",
+ "athletics_url": "https://www.scarletknights.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://scarletknights.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://scarletknights.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://scarletknights.com/sports/womens-golf/roster",
+   "roster_source_url": "https://scarletknights.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Judy Amano",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Tokyo, Japan / Saint Andrew's School (Fla.)",
+     "country": "JP",
+     "previous_school": "Tokyo, Japan / Saint Andrew's School (Fla.)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Emily James",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bury, England / Bacup & Rawtenstall Grammar School",
+     "country": "GB",
+     "previous_school": "Bury, England / Bacup & Rawtenstall Grammar School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Krystal Li",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ontario / Our Lady Queen of the World Catholic Academy",
+     "country": "CA",
+     "previous_school": "Richmond Hill, Ontario / Our Lady Queen of the World Catholic Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Grace Lu",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Edison, N.J. / Wardlaw+Hartridge",
+     "country": "US",
+     "previous_school": "Edison, N.J. / Wardlaw+Hartridge",
+     "class_raw": "R-Sr."
+    },
+    {
+     "name": "Kayleigh Mulholland",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Maghera, Northern Ireland / St. Patrick's College",
+     "country": "GB",
+     "previous_school": "Maghera, Northern Ireland / St. Patrick's College",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lorena Rossettin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Genova, Italy / Deledda International School",
+     "country": "IT",
+     "previous_school": "Genova, Italy / Deledda International School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Elizabeth Ryu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dublin, Ohio / Dublin Jerome",
+     "country": "US",
+     "previous_school": "Dublin, Ohio / Dublin Jerome",
+     "class_raw": "So."
+    },
+    {
+     "name": "Joline Truong",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mississauga, Ontario / John Fraser Secondary School",
+     "country": "CA",
+     "previous_school": "Mississauga, Ontario / John Fraser Secondary School",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": []
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://scarletknights.com:443",
+ "requests": [
+  {
+   "url": "https://scarletknights.com/sports/mens-golf",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://scarletknights.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://scarletknights.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://scarletknights.com:443/staff-directory",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://scarletknights.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://scarletknights.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://scarletknights.com:443/staff-directory",
+   "status": "bot-wall"
+  }
+ ]
+}

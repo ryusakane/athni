@@ -1,93 +1,265 @@
 {
  "slug": "stanford",
  "name_en": "Stanford University",
+ "name_ja": null,
  "short_name": "Stanford",
  "aliases": [],
+ "nickname": "Cardinal",
  "division": "D1",
+ "conference": "ACC",
+ "city": null,
+ "state": "CA",
+ "website_url": "https://www.stanford.edu",
+ "athletics_url": "https://gostanford.com",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gostanford.com/sports/mens-golf",
    "roster_url": "https://gostanford.com/sports/mens-golf/roster",
+   "coaches_url": "https://gostanford.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/stanfordmgolf",
+   "x_url": "https://x.com/stanfordmgolf",
+   "facebook_url": "https://www.facebook.com/stanfordmgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
    "roster_season": "2026-27",
    "roster_source_url": "https://gostanford.com/sports/mens-golf/roster",
    "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Judd Jirovsky",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Grundy Center, Iowa",
+     "country": "US",
+     "previous_school": "Grundy Center HS"
+    },
+    {
+     "name": "Carlo Roman",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Verona, Italy",
+     "country": "IT",
+     "previous_school": "Liceo Ginnasio Statale"
+    },
+    {
+     "name": "Daniel Zou",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "Rice"
+    },
+    {
+     "name": "Giovanni Binaghi",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Milan, Italy",
+     "country": "IT",
+     "previous_school": "Collegio San Carlo"
+    },
+    {
+     "name": "Jay Leng",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Diego, Calif.",
+     "country": "US",
+     "previous_school": "Torrey Pines High School"
+    },
+    {
+     "name": "Edan Cui",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Atherton, California",
+     "country": "US",
+     "previous_school": "Crystal Springs Uplands School"
+    },
+    {
+     "name": "Cooper Stearns",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tustin, California",
+     "country": "US",
+     "previous_school": "Irvine High School"
+    }
+   ],
    "coaches": [
     {
      "name": "Conrad Ray",
      "title": "Knowles Family Director of Men's Golf",
+     "email": "conrad.ray@stanford.edu",
+     "phone": "650.725.2052",
      "source_url": "https://gostanford.com/sports/mens-golf/roster"
     },
     {
      "name": "Oliver Rubenstein",
      "title": "Enlight Foundation Associate Head Men's Golf Coach",
+     "email": "rube123@stanford.edu",
+     "phone": null,
      "source_url": "https://gostanford.com/sports/mens-golf/roster"
     },
     {
      "name": "Alex Merrill",
-     "title": "Hong Seh Lim Assistant Men's Golf Coach",
+     "title": "Hong Seh Lim Assistant Men’s Golf Coach",
+     "email": "merrill1@stanford.edu",
+     "phone": null,
      "source_url": "https://gostanford.com/sports/mens-golf/roster"
     },
     {
      "name": "Tiffanie Yabut",
      "title": "Director of Golf Operations",
+     "email": "tyabut@stanford.edu",
+     "phone": null,
      "source_url": "https://gostanford.com/sports/mens-golf/roster"
     }
    ],
+   "alumni_pros": []
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gostanford.com/sports/womens-golf",
+   "roster_url": "https://gostanford.com/sports/womens-golf/roster",
+   "coaches_url": "https://gostanford.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/stanfordwgolf",
+   "x_url": "https://x.com/stanfordwgolf",
+   "facebook_url": "https://www.facebook.com/StanfordWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://gostanford.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-05",
    "roster": [
     {
-     "name": "Giovanni Binaghi",
+     "name": "Nikki Oh",
      "class_year": "FR",
-     "hometown": "Milan, Italy",
-     "country": "IT"
+     "redshirt": false,
+     "hometown": "Torrance, Calif.",
+     "country": "US",
+     "previous_school": "California Online Public Schools"
     },
     {
-     "name": "Edan Cui",
+     "name": "Jude Lee",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Walnut, Calif.",
+     "country": "US",
+     "previous_school": "Orange Lutheran"
+    },
+    {
+     "name": "Anna Song",
      "class_year": "SO",
-     "hometown": "Atherton, California",
-     "country": "US"
+     "redshirt": false,
+     "hometown": "Los Angeles, Calif.",
+     "country": "US",
+     "previous_school": "Palisades Charter"
     },
     {
-     "name": "Judd Jirovsky",
-     "class_year": "FR",
-     "hometown": "Grundy Center, Iowa",
-     "country": "US"
-    },
-    {
-     "name": "Jay Leng",
-     "class_year": "JR",
-     "hometown": "San Diego, California",
-     "country": "US"
-    },
-    {
-     "name": "Carlo Roman",
-     "class_year": "FR",
-     "hometown": "Verona, Italy",
-     "country": "IT"
-    },
-    {
-     "name": "Cooper Stearns",
+     "name": "Kaila Elsayegh",
      "class_year": "SO",
-     "hometown": "Tustin, California",
-     "country": "US"
+     "redshirt": false,
+     "hometown": "Pacific Palisades, Calif.",
+     "country": "US",
+     "previous_school": "Marlborough"
     },
     {
-     "name": "Daniel Zou",
+     "name": "Meja Örtengren",
      "class_year": "JR",
-     "hometown": "The Woodlands, Texas",
-     "country": "US"
+     "redshirt": false,
+     "hometown": "Linköping, Sweden",
+     "country": "SE",
+     "previous_school": "Birgittaskolan"
+    },
+    {
+     "name": "Nora Sundberg",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Djursholm, Sweden",
+     "country": "SE",
+     "previous_school": "Celsiusskolan"
+    },
+    {
+     "name": "Andrea Revuelta",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "IES Ortega y Gasset"
+    },
+    {
+     "name": "Leigh Chien",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Irvine, Calif.",
+     "country": "US",
+     "previous_school": "Santa Margarita Catholic"
+    },
+    {
+     "name": "Paula Martín Sampedro",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "IES Ortega y Gasset"
     }
-   ]
+   ],
+   "coaches": [
+    {
+     "name": "Anne Walker",
+     "title": "Margot and Mitch Milias Director of Women's Golf",
+     "email": "amwalker@stanford.edu",
+     "phone": "650.725.2050",
+     "source_url": "https://gostanford.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Brooke Riley",
+     "title": "The Fortinet Founders Assistant Women's Golf Coach",
+     "email": "bkriley@stanford.edu",
+     "phone": null,
+     "source_url": "https://gostanford.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Demi Runas",
+     "title": "Duan Family Assistant Women's Golf Coach",
+     "email": "dfrunas@stanford.edu",
+     "phone": null,
+     "source_url": "https://gostanford.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Tiffanie Yabut",
+     "title": "Director of Golf Operations",
+     "email": "tyabut@stanford.edu",
+     "phone": null,
+     "source_url": "https://gostanford.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
   {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
    "url": "https://gostanford.com/sports/mens-golf/roster",
-   "reuse_status": "ok",
-   "note": "Official athletics site, public roster/staff listing"
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gostanford.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gostanford.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
- ],
- "nickname": "Cardinal",
- "athletics_url": "https://gostanford.com",
- "website_url": "https://www.stanford.edu"
+ ]
 }
