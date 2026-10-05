@@ -53,7 +53,7 @@ export type Program = Social & {
   roster_season: string | null;
   roster_source_url: string | null;
   collected_at: string | null;
-  /** Why roster/coaches are missing, e.g. the athletics site blocks automated access. */
+  /** Why roster/coaches are missing. Internal only: not shown on the site. */
   collection_note: string | null;
   rankings: Ranking[];
   coaches: Coach[];

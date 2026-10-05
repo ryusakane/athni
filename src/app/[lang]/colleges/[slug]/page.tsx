@@ -104,7 +104,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
         })}
       </div>
 
-      {program.collection_note && (
+      {program.roster.length === 0 && program.coaches.length === 0 && (
         <p className="mt-4 rounded-md border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm">
           {t.notCollected}
         </p>
