@@ -21,6 +21,13 @@
     "SUPABASE_KEY": "sb_publishable_babVHNns6OYD2uTcasRsgw_gSosLU85"
   },
   "observability": { "enabled": true },
-  // PR builds run `wrangler preview`, which requires this block (it can stay empty).
-  "previews": {}
+  // PR builds run `wrangler preview`, which requires this block. Preview deployments don't
+  // inherit bindings or vars from the top level, so the Worker's are repeated here.
+  "previews": {
+    "version_metadata": { "binding": "CF_VERSION_METADATA" },
+    "vars": {
+      "SUPABASE_URL": "https://ynapxeymwrhtijbnijaz.supabase.co",
+      "SUPABASE_KEY": "sb_publishable_babVHNns6OYD2uTcasRsgw_gSosLU85"
+    }
+  }
 }

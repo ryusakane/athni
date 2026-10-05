@@ -14,7 +14,7 @@ import { SHELL_ID, SLOT_ATTRIBUTE, type WorkerSection } from "@/lib/worker-pages
 
 type Env = {
   ASSETS: Fetcher;
-  CF_VERSION_METADATA: { id: string };
+  CF_VERSION_METADATA?: { id: string };
   SUPABASE_URL: string;
   SUPABASE_KEY: string;
 };
@@ -153,7 +153,7 @@ export default {
     if (!slash) return Response.redirect(`${url.origin}${url.pathname}/${url.search}`, 308);
 
     // Keyed by deploy too: a page cached before a deploy links the old build's CSS files.
-    const cacheKey = new Request(`${url.origin}${url.pathname}?v=${env.CF_VERSION_METADATA.id}`);
+    const cacheKey = new Request(`${url.origin}${url.pathname}?v=${env.CF_VERSION_METADATA?.id ?? ""}`);
     const refresh = async () => {
       const response = await render(env, request, lang, section, id);
       if (response.status === 200) ctx.waitUntil(caches.default.put(cacheKey, response.clone()));
