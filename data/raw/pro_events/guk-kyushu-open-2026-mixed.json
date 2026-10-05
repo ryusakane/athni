@@ -1,0 +1,121 @@
+{
+ "tournament": {
+  "id": "guk-kyushu-open-2026-mixed",
+  "name": "2026九州オープンゴルフ選手権競技 決勝",
+  "name_en": null,
+  "organizer": "九州ゴルフ連盟",
+  "event_type": "professional",
+  "season_year": 2026,
+  "start_date": "2026-06-24",
+  "end_date": "2026-06-27",
+  "venue": "福岡カンツリー倶楽部",
+  "venue_prefecture": "福岡県",
+  "level": "regional",
+  "region": "kyushu",
+  "category": "mixed",
+  "format": "individual",
+  "par": 71,
+  "yardage": 6599,
+  "round_holes": [
+   18,
+   18,
+   18
+  ],
+  "source_url": "https://www.guk.jp/info/24777",
+  "result_pdf_urls": [
+   "https://www.guk.jp/wp-content/uploads/2025/12/eb57ca6dfd9c30a9235dca957ab72f49.pdf",
+   "https://www.guk.jp/wp-content/uploads/2025/12/49d738ba47a143f4ad32e35df3edeace.pdf"
+  ],
+  "field_size_total": 140
+ },
+ "results": [
+  {
+   "rank": "T38",
+   "player_name": "比嘉 玲王",
+   "school": "柳ヶ浦高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    71,
+    72,
+    71
+   ],
+   "total": 214,
+   "to_par": 1,
+   "note": "ベストアマ; listed affiliation 大分; school/grade from GUK official daily report https://www.guk.jp/info/24777"
+  },
+  {
+   "rank": "T47",
+   "player_name": "平田 兼慎",
+   "school": "柳ヶ浦高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    75,
+    66,
+    75
+   ],
+   "total": 216,
+   "to_par": 3,
+   "note": "セカンドアマ; listed affiliation 美々津; school/grade from GUK official daily report https://www.guk.jp/info/24732"
+  },
+  {
+   "rank": "T52",
+   "player_name": "呉屋 陽星",
+   "school": "エナジックスポーツ高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    71,
+    72,
+    74
+   ],
+   "total": 217,
+   "to_par": 4,
+   "note": "サードアマ; listed affiliation エナジック瀬嵩; school/grade from GUK official daily report https://www.guk.jp/info/24777"
+  },
+  {
+   "rank": "T64",
+   "player_name": "伊東 海太",
+   "school": "大分高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    71,
+    73,
+    78
+   ],
+   "total": 222,
+   "to_par": 9,
+   "note": "listed affiliation 大分; school/grade from GUK official daily report https://www.guk.jp/info/24643"
+  },
+  {
+   "rank": "cut",
+   "player_name": "山本 龍之介",
+   "school": "エナジックスポーツ高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    71,
+    75
+   ],
+   "total": 146,
+   "to_par": 4,
+   "note": "missed cut (+2); listed affiliation エナジック瀬嵩; school/grade from GUK official daily report https://www.guk.jp/info/24643"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "final-results PDF says 54ホール (event shortened to 3 rounds); the R2 PDF header still says 72ホール",
+   "PDF prints rank only on first row of a tie; T prefix added",
+   "27 amateurs started; only those whose school is named in GUK reports are included"
+  ]
+ }
+}

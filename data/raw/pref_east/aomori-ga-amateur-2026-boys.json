@@ -1,0 +1,86 @@
+{
+ "tournament": {
+  "id": "aomori-ga-amateur-2026-boys",
+  "name": "2026年度（第53回）青森県アマチュアゴルフ選手権競技（第20回東北ミッドアマ青森県予選）",
+  "name_en": null,
+  "organizer": "青森県ゴルフ連盟",
+  "event_type": "amateur",
+  "season_year": 2026,
+  "start_date": "2026-07-28",
+  "end_date": "2026-07-29",
+  "venue": "青森カントリー倶楽部",
+  "venue_prefecture": "青森県",
+  "level": "prefectural",
+  "region": "tohoku",
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6841,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.tga.gr.jp/aomori/topics.php?y=2026",
+  "result_pdf_urls": [
+   "https://www.tga.gr.jp/pb/kyougikai/file/2026/1002003/seisekihyou_pdf_1r/111500-202607-seisekihyou_1r_20260728151939.pdf",
+   "https://www.tga.gr.jp/pb/kyougikai/file/2026/1002003/seisekihyou_pdf_2r/111500-202607-seisekihyou_2r_20260818180400.pdf"
+  ],
+  "field_size_total": 65
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "斎藤 優空",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    77,
+    71
+   ],
+   "total": 148,
+   "to_par": 4,
+   "note": "playoff (※ﾌﾟﾚｰｵﾌ on sheet); final round OUT 36 IN 35"
+  },
+  {
+   "rank": "4",
+   "player_name": "峯田 竜空",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    78,
+    78
+   ],
+   "total": 156,
+   "to_par": 12,
+   "note": "final round OUT 39 IN 39"
+  },
+  {
+   "rank": "8",
+   "player_name": "小泉 星空斗",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    78,
+    81
+   ],
+   "total": 159,
+   "to_par": 15,
+   "note": "final round OUT 42 IN 39"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "field_size_total = 参加者数 65 from the R1 sheet",
+   "Sheet ranks equal totals sequentially (1 斎藤 優空 / 2 大澤 琉稀, 148); kept as published (countback/playoff)",
+   "Sheet ranks equal totals sequentially (3 大西 康仁 / 4 峯田 竜空, 156); kept as published (countback/playoff)"
+  ]
+ }
+}

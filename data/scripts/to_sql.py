@@ -115,9 +115,11 @@ def main():
         t["course_id"] = uid("course", t["course_key"]) if t["course_key"] else None
         t["start_date"] = t["start_date"] or t["end_date"]
         rs = by_t[k]
-        t["field_size"] = len(rs)
+        t["field_size"] = int(t["field_size_total"]) if t.get("field_size_total") else len(rs)
         fin = [int(r["total_score"]) for r in rs if r["status"] == "finished" and r["total_score"] and r["position"]]
-        t["winning_score"] = min(fin) if fin else None
+        # 高校生だけを書き起こした一般・プロ大会では、優勝者が含まれるときだけ優勝スコアがわかる
+        partial = t["field_size"] > len(rs) and not any(r["position"] == "1" for r in rs)
+        t["winning_score"] = min(fin) if fin and not partial else None
     for r in results:
         r["id"] = uid("result", r["tournament_key"], r["player_key"])
         r["tournament_id"] = uid("tournament", r["tournament_key"])

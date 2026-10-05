@@ -72,8 +72,12 @@ WEATHER = load_ref("weather.json", {})
 ROUND_DIGITS = str.maketrans("０１２３４５６７８９①②③", "0123456789123")
 
 
+# 異体字セレクタ (辻󠄀 の U+E0100 など)。名寄せ・読み推定では無視する
+VARIATION_SELECTORS = re.compile("[\ufe00-\ufe0f\U000e0100-\U000e01ef]")
+
+
 def squash(s):
-    return re.sub(r"[\s　]+", "", s or "")
+    return re.sub(r"[\s　]+", "", VARIATION_SELECTORS.sub("", s or ""))
 
 
 def school_core(s):
@@ -96,12 +100,14 @@ def key(prefix, *parts):
 def romaji(text):
     if not _kks or not text:
         return None
+    text = VARIATION_SELECTORS.sub("", text)
     return " ".join(w["hepburn"].capitalize() for w in _kks.convert(text) if w["hepburn"].strip())
 
 
 def kana(text):
     if not _kks or not text:
         return None
+    text = VARIATION_SELECTORS.sub("", text)
     return "".join(w["hira"] for w in _kks.convert(text))
 
 
@@ -169,7 +175,23 @@ def school_name_en(core):
     return (f"{r} High School" if r else None), "auto-unverified"
 
 
+# event_type がない既存の書き起こし用 (id の接頭辞から推定)
+EVENT_TYPE_BY_PREFIX = [("jga-junior-", "junior"), ("kokusupo-", "amateur"), ("kougoren-", "high_school"),
+                        ("-kougoren-", "high_school")]
+
+
+def event_type(t):
+    if t.get("event_type"):
+        return t["event_type"]
+    for prefix, et in EVENT_TYPE_BY_PREFIX:
+        if t["id"].startswith(prefix) or (prefix.startswith("-") and prefix in t["id"]):
+            return et
+    return None
+
+
 def tournament_name_en(t):
+    if t.get("name_en"):
+        return t["name_en"]
     for rule in TRANS.get("tournaments", []):
         if re.match(rule["id_pattern"], t["id"]):
             year = (t.get("start_date") or t.get("end_date") or str(t.get("season_year")))[:4]
@@ -323,6 +345,7 @@ def main():
         tournaments.append({
             "tournament_key": tid, "name_ja": t.get("name"), "name_en": tournament_name_en(t),
             "organizer": t.get("organizer"), "level": t.get("level"), "gender": gender,
+            "event_type": event_type(t),
             "course_key": course["course_key"] if course else None,
             "start_date": t.get("start_date"), "end_date": t.get("end_date"),
             "source_url": t.get("source_url"),
@@ -331,6 +354,8 @@ def main():
             "venue_ja": t.get("venue"), "par": t.get("par"), "yardage": t.get("yardage"),
             "result_pdf_urls": " ".join(t.get("result_pdf_urls") or []),
             "complete": q.get("complete"), "row_count": len(d.get("results", [])),
+            # 大会全体の出場人数 (一般アマ・プロ大会では高校生以外も含む)。不明なら空
+            "field_size_total": t.get("field_size_total"),
             "reuse_status": terms_for(tid)["reuse_status"], "reuse_note": terms_for(tid)["note"],
         })
         for i in q.get("issues") or []:
@@ -371,6 +396,7 @@ def main():
                 issues.append((tid, f"合計不一致: {r.get('player_name')} {rs} != {r['total']}"))
             results.append({"tournament_key": tid, "player_key": pk, "position": pos, "tied": tied,
                             "total_score": r.get("total"), "to_par": r.get("to_par"), "status": status,
+                            "amateur": r.get("amateur", True),
                             # 以下はスキーマ外の派生列 (後で埋める)
                             "field_size": None, "percentile": None, "strokes_behind_winner": None,
                             "avg_differential": None})
@@ -395,12 +421,19 @@ def main():
             diffs = [x["differential"] for x in rounds[-len(rs):] if rs and x["differential"] is not None]
             res["avg_differential"] = round(sum(diffs) / len(diffs), 1) if diffs else None
         finished = [x for x in results if x["tournament_key"] == tid and x["status"] != "dns"]
+        # 一般アマ・プロ大会は高校生だけを書き起こしているので、順位・上位%は大会全体の人数で見る
+        field = t.get("field_size_total") or len(finished)
+        if field < len(finished):
+            issues.append((tid, f"field_size_total ({field}) が書き起こし人数 ({len(finished)}) より少ない"))
+            field = len(finished)
         win = min((x["total_score"] for x in finished
                    if x["status"] == "finished" and isinstance(x["total_score"], int)), default=None)
+        if field > len(finished) and not any(x["position"] == 1 for x in finished):
+            win = None  # 優勝者が書き起こしに含まれない (高校生以外が優勝) ので差は出せない
         for x in finished:
-            x["field_size"] = len(finished)
+            x["field_size"] = field
             if x["position"]:
-                x["percentile"] = round(100 * (1 - (x["position"] - 1) / len(finished)), 1)
+                x["percentile"] = round(100 * (1 - (x["position"] - 1) / field), 1)
             if win is not None and x["status"] == "finished" and isinstance(x["total_score"], int):
                 x["strokes_behind_winner"] = x["total_score"] - win
 

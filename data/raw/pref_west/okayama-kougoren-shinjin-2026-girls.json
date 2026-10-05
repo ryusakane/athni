@@ -1,0 +1,138 @@
+{
+ "tournament": {
+  "id": "okayama-kougoren-shinjin-2026-girls",
+  "name": "令和8年度 第27回 岡山県高等学校ゴルフ選手権 新人戦 高校女子の部",
+  "name_en": null,
+  "organizer": "岡山県高等学校体育連盟ゴルフ専門部 / 岡山県高等学校・中学校ゴルフ連盟",
+  "event_type": "high_school",
+  "season_year": 2026,
+  "start_date": "2026-09-11",
+  "end_date": "2026-09-11",
+  "venue": "山陽ゴルフ倶楽部",
+  "venue_prefecture": "岡山県",
+  "level": "prefectural",
+  "region": "chugoku",
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6301,
+  "round_holes": [
+   18
+  ],
+  "source_url": "http://golf.onamaeweb.jp/index3%20shinjinsen.html",
+  "result_pdf_urls": [
+   "http://golf.onamaeweb.jp/%E7%AC%AC27%E5%9B%9E%E6%96%B0%E4%BA%BA%E6%88%A6%E9%A0%86%E4%BD%8D%E8%A1%A8-186.pdf"
+  ],
+  "field_size_total": 7
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "谷口莉子",
+   "school": "岡山県美作",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    71
+   ],
+   "total": 71,
+   "to_par": -1,
+   "note": "OUT 33 IN 38"
+  },
+  {
+   "rank": "2",
+   "player_name": "根岸友貴菜",
+   "school": "作陽学園",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    75
+   ],
+   "total": 75,
+   "to_par": 3,
+   "note": "OUT 37 IN 38"
+  },
+  {
+   "rank": "3",
+   "player_name": "倉元沙和",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    79
+   ],
+   "total": 79,
+   "to_par": 7,
+   "note": "OUT 38 IN 41"
+  },
+  {
+   "rank": "4",
+   "player_name": "原口友莉亜",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    93
+   ],
+   "total": 93,
+   "to_par": 21,
+   "note": "OUT 51 IN 42"
+  },
+  {
+   "rank": "5",
+   "player_name": "豊森羽楽",
+   "school": "作陽学園",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    95
+   ],
+   "total": 95,
+   "to_par": 23,
+   "note": "OUT 45 IN 50"
+  },
+  {
+   "rank": "6",
+   "player_name": "藤原れあ",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    99
+   ],
+   "total": 99,
+   "to_par": 27,
+   "note": "OUT 46 IN 53"
+  },
+  {
+   "rank": "7",
+   "player_name": "澤田千宝",
+   "school": "作陽学園",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    107
+   ],
+   "total": 107,
+   "to_par": 35,
+   "note": "OUT 54 IN 53"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "published +/- 27 != computed 35 for 澤田千宝",
+   "Published ranks are sequential (ties broken by countback), kept as published",
+   "Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed (関西=関西高, 作陽学園, 岡山県美作, 岡山理大附 etc.); school_prefecture left null (one entry 萩明倫館 looks like a Yamaguchi school)",
+   "GROSS agrees with OUT+IN and the hole-by-hole scores; the printed +/- column disagrees for the rows listed, so to_par is computed from GROSS-par"
+  ]
+ }
+}

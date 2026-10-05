@@ -1,0 +1,91 @@
+{
+ "tournament": {
+  "id": "cga-chubu-open-2025-mixed",
+  "name": "2025年度（第54回）中部オープンゴルフ選手権競技 本戦",
+  "name_en": null,
+  "organizer": "中部ゴルフ連盟",
+  "event_type": "professional",
+  "season_year": 2025,
+  "start_date": "2025-07-09",
+  "end_date": "2025-07-11",
+  "venue": "岐阜関カントリー倶楽部 東コース",
+  "venue_prefecture": "岐阜県",
+  "level": "regional",
+  "region": "chubu",
+  "category": "mixed",
+  "format": "individual",
+  "par": 71,
+  "yardage": 7257,
+  "round_holes": [
+   18,
+   18,
+   18
+  ],
+  "source_url": "http://www.cga.jp/competition/%E4%B8%AD%E9%83%A8%E3%82%AA%E3%83%BC%E3%83%97%E3%83%B3%E3%80%80%EF%BC%93r%E6%88%90%E7%B8%BE%E8%A1%A8%E6%8E%B2%E8%BC%89/",
+  "result_pdf_urls": [
+   "http://www.cga.jp/wp-content/uploads/2025/07/op-honsen-seiseki-2025-1.pdf",
+   "http://www.cga.jp/wp-content/uploads/2025/07/op-honsen-2R-seiseki-2025.pdf"
+  ],
+  "field_size_total": 134
+ },
+ "results": [
+  {
+   "rank": "T19",
+   "player_name": "清本 貴秀",
+   "school": "福井工大福井高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    69,
+    72,
+    69
+   ],
+   "total": 210,
+   "to_par": -3,
+   "note": "ベストアマ; listed affiliation 養老CC; school/grade from the CGA official event report on the results page"
+  },
+  {
+   "rank": "T44",
+   "player_name": "水谷 海琉",
+   "school": "中部第一高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    69,
+    74,
+    73
+   ],
+   "total": 216,
+   "to_par": 3,
+   "note": "2nd amateur; listed affiliation いわむらCC; school/grade from the CGA official event report on the results page"
+  },
+  {
+   "rank": "T49",
+   "player_name": "滝田 詠夢",
+   "school": "代々木高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    71,
+    72,
+    74
+   ],
+   "total": 217,
+   "to_par": 4,
+   "note": "3rd amateur; listed affiliation 三重県連; school/grade from the CGA official event report on the results page"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "PDF prints rank only as number for ties; T prefix added where several players share the position",
+   "amateur 松山 茉生 (WD in R3, 68-76) described as a 16-year-old HS student in press but the CGA page does not state his school for 2025; not included",
+   "amateur 加藤 金次郎 is a junior-high student (中学3年) per the report; excluded",
+   "field_size_total=134 from the R2 results PDF (参加人数 134名); the CGA report says 136 entrants (16 amateurs, 120 pros); 88 made the 36-hole cut. Amateurs who missed the cut (松岡 龍希, 松井 諒哉, 申 東宙, 源野 智紀, 井村 栄斗, 松岡 太陽, 安井 大賀, 渡辺 匠, 近藤 港; WD 奥村 礼惟, 松山 怜生) have no school shown and are not included"
+  ]
+ }
+}

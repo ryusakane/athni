@@ -1,0 +1,109 @@
+{
+ "tournament": {
+  "id": "kgu-amateur-2025-boys",
+  "name": "2025年度 第92回関西アマチュアゴルフ選手権決勝競技",
+  "name_en": null,
+  "organizer": "関西ゴルフ連盟",
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-05-27",
+  "end_date": "2025-05-27",
+  "venue": "小野ゴルフ倶楽部",
+  "venue_prefecture": "兵庫県",
+  "level": "regional",
+  "region": "kansai",
+  "category": "boys",
+  "format": "individual",
+  "par": 71,
+  "yardage": 6890,
+  "round_holes": [
+   18
+  ],
+  "source_url": "https://www.kgu.gr.jp/compe/game2025/",
+  "result_pdf_urls": [
+   "https://www.kgu.gr.jp/wp-content/uploads/2025/05/25関西アマ決勝成績表.pdf"
+  ],
+  "field_size_total": 107
+ },
+ "results": [
+  {
+   "rank": "T14",
+   "player_name": "大西 晃盟",
+   "school": "滝川第二高校",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    73
+   ],
+   "total": 73,
+   "to_par": 2,
+   "note": null
+  },
+  {
+   "rank": "T21",
+   "player_name": "佐々 幸史朗",
+   "school": "滝川第二高校",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    74
+   ],
+   "total": 74,
+   "to_par": 3,
+   "note": null
+  },
+  {
+   "rank": "T21",
+   "player_name": "大西 翔駈",
+   "school": "興國高校",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    74
+   ],
+   "total": 74,
+   "to_par": 3,
+   "note": null
+  },
+  {
+   "rank": "T21",
+   "player_name": "浦西 亮輔",
+   "school": "大阪桐蔭高校",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    74
+   ],
+   "total": 74,
+   "to_par": 3,
+   "note": null
+  },
+  {
+   "rank": "T39",
+   "player_name": "小川 琥太郎",
+   "school": "大阪学院大学高校",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    76
+   ],
+   "total": 76,
+   "to_par": 5,
+   "note": null
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "Open amateur final (single 18-hole round): only players whose affiliation is shown as a high school (…高校) are included; many juniors are listed under a golf club instead and are therefore NOT included",
+   "field_size_total = all players parsed from the 3-column sheet (107); ranks are whole-field positions, ties T-prefixed",
+   "grade and school_prefecture not published"
+  ]
+ }
+}
