@@ -94,6 +94,7 @@ data/colleges/
 cd data/colleges/collect
 python3 schools.py         # NCAA Directory から D1 で男子/女子ゴルフ部のある大学 → schools.json
 python3 collect_sites.py   # 各校の体育局公式サイト → sites/<slug>.json (ゴルフ部ページ・SNS・ロスター・コーチ)
+python3 profiles.py        # 取得済みページから選手・コーチ個人のプロフィール URL (profile_url) を付ける
 python3 rankings.py        # GCAA コーチ投票 (男子) と NCAA 選手権の最終順位 (男女) → ../rankings/
 python3 alumni.py          # Wikipedia のチーム別カテゴリからプロになった卒業生 → alumni/d1.json
 python3 merge.py           # 上の結果を raw/d1/<slug>.json にまとめる

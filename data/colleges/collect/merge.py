@@ -85,12 +85,12 @@ def main():
             for k in ["golf_url", "roster_url", "coaches_url", *SOCIAL, "roster_season", "roster_source_url", "collected_at"]:
                 prog[k] = sp.get(k) if sp.get(k) is not None else op.get(k)
             roster = sp.get("roster") or op.get("roster") or []
-            prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school"]}
+            prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school", "profile_url"]}
                               for r in roster]
             coaches = sp.get("coaches") or op.get("coaches") or []
             prog["coaches"] = []
             for c in coaches:
-                c = {k: c.get(k) for k in ["name", "title", "email", "phone", "source_url"]}
+                c = {k: c.get(k) for k in ["name", "title", "email", "phone", "source_url", "profile_url"]}
                 c["title"] = re.sub(r"\s*<br\s*/?>\s*", " / ", c["title"]) if c["title"] else None
                 if c["title"] and not parse.is_coach(c["title"], "coach"):
                     continue
