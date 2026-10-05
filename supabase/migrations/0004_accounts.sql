@@ -24,8 +24,13 @@ create table student_profiles (
   prefecture text,
   sport text not null default 'golf',
   bio text,
-  -- A public results record (players table) the student says is theirs; checked by staff.
-  player_id uuid references players (id) on delete set null,
+  -- Academics and golf details entered by the student (or a linked parent).
+  gpa_jp numeric(2, 1) check (gpa_jp between 1.0 and 5.0), -- 評定平均 (5-point scale)
+  gpa_us numeric(3, 2) check (gpa_us between 0 and 4.0),   -- unweighted 4.0 scale, if known
+  intended_major text,
+  ncaa_eligibility_id text,
+  handicap numeric(3, 1),
+  video_url text,
   -- Code the student gives a parent so the parent can link to this account.
   parent_invite_code text not null unique default upper(substr(md5(gen_random_uuid()::text), 1, 8)),
   -- Set when a linked parent gives consent. Required before coaches can see a minor.
@@ -43,6 +48,48 @@ create table coach_profiles (
     check (verification_status in ('pending', 'verified', 'rejected')),
   verified_at timestamptz,
   updated_at timestamptz not null default now()
+);
+
+-- English and admission test results. One row per test sitting.
+create table student_test_scores (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null references student_profiles (user_id) on delete cascade,
+  test text not null check (test in ('toefl_ibt', 'ielts', 'duolingo', 'eiken', 'toeic', 'sat', 'act')),
+  score text not null, -- text: Eiken is a grade (e.g. "準1級"), others are numbers
+  taken_on date,
+  created_at timestamptz not null default now()
+);
+
+-- "This results record is me." Results already in the DB are linked to an account only
+-- after staff approve the claim (update status with the service role).
+create table player_claims (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null references student_profiles (user_id) on delete cascade,
+  player_id uuid not null references players (id) on delete cascade,
+  note text,
+  status text not null default 'pending' check (status in ('pending', 'approved', 'rejected')),
+  reviewer_note text,
+  reviewed_at timestamptz,
+  created_at timestamptz not null default now(),
+  unique (student_id, player_id)
+);
+
+-- A tournament result missing from the DB. Students cannot add results themselves; staff
+-- check the source and add the official result to tournaments/tournament_results.
+create table result_requests (
+  id uuid primary key default gen_random_uuid(),
+  student_id uuid not null references student_profiles (user_id) on delete cascade,
+  tournament_name text not null,
+  start_date date,
+  venue text,
+  position text,
+  scores text, -- e.g. "72-70"
+  source_url text,
+  note text,
+  status text not null default 'pending' check (status in ('pending', 'added', 'rejected')),
+  reviewer_note text,
+  reviewed_at timestamptz,
+  created_at timestamptz not null default now()
 );
 
 -- Ready for the hs_coach role; nothing writes here yet.
@@ -235,8 +282,12 @@ begin
   elsif tg_table_name = 'student_profiles' then
     new.parent_consent_at := old.parent_consent_at;
     new.parent_invite_code := old.parent_invite_code;
-    new.player_id := old.player_id;
     new.updated_at := now();
+  elsif tg_table_name in ('player_claims', 'result_requests') then
+    new.status := old.status;
+    new.reviewer_note := old.reviewer_note;
+    new.reviewed_at := old.reviewed_at;
+    new.student_id := old.student_id;
   elsif tg_table_name = 'coach_profiles' then
     new.verification_status := old.verification_status;
     new.verified_at := old.verified_at;
@@ -252,6 +303,29 @@ create trigger protect_columns before update on student_profiles
   for each row execute function public.protect_account_columns();
 create trigger protect_columns before update on coach_profiles
   for each row execute function public.protect_account_columns();
+create trigger protect_columns before update on player_claims
+  for each row execute function public.protect_account_columns();
+create trigger protect_columns before update on result_requests
+  for each row execute function public.protect_account_columns();
+
+-- New claims and requests always start pending.
+create function public.force_pending() returns trigger
+language plpgsql as $$
+begin
+  if auth.role() = 'service_role' or current_user in ('postgres', 'supabase_admin') then
+    return new;
+  end if;
+  new.status := 'pending';
+  new.reviewer_note := null;
+  new.reviewed_at := null;
+  return new;
+end;
+$$;
+
+create trigger force_pending before insert on player_claims
+  for each row execute function public.force_pending();
+create trigger force_pending before insert on result_requests
+  for each row execute function public.force_pending();
 
 -- A minor cannot be shown to coaches before consent.
 create function public.enforce_student_visibility() returns trigger
@@ -270,6 +344,9 @@ create trigger enforce_visibility before update on student_profiles
 alter table profiles enable row level security;
 alter table student_profiles enable row level security;
 alter table coach_profiles enable row level security;
+alter table student_test_scores enable row level security;
+alter table player_claims enable row level security;
+alter table result_requests enable row level security;
 alter table hs_coach_profiles enable row level security;
 alter table guardian_links enable row level security;
 alter table student_target_colleges enable row level security;
@@ -318,6 +395,36 @@ create policy "student or parent update" on student_target_colleges for update
   using (student_id = auth.uid() or public.is_guardian_of(student_id));
 create policy "student or parent delete" on student_target_colleges for delete
   using (student_id = auth.uid() or public.is_guardian_of(student_id));
+
+-- Test scores, claims and requests: the student and their linked parents.
+create policy "student or parent read" on student_test_scores for select
+  using (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "verified coaches read shown students" on student_test_scores for select
+  using (public.is_verified_coach() and exists (
+    select 1 from student_profiles s where s.user_id = student_id and s.visible_to_coaches));
+create policy "student or parent insert" on student_test_scores for insert
+  with check (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "student or parent update" on student_test_scores for update
+  using (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "student or parent delete" on student_test_scores for delete
+  using (student_id = auth.uid() or public.is_guardian_of(student_id));
+
+create policy "student or parent read" on player_claims for select
+  using (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "student or parent insert" on player_claims for insert
+  with check (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "withdraw pending claim" on player_claims for delete
+  using ((student_id = auth.uid() or public.is_guardian_of(student_id)) and status = 'pending');
+create policy "verified coaches read approved claims" on player_claims for select
+  using (status = 'approved' and public.is_verified_coach() and exists (
+    select 1 from student_profiles s where s.user_id = student_id and s.visible_to_coaches));
+
+create policy "student or parent read" on result_requests for select
+  using (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "student or parent insert" on result_requests for insert
+  with check (student_id = auth.uid() or public.is_guardian_of(student_id));
+create policy "withdraw pending request" on result_requests for delete
+  using ((student_id = auth.uid() or public.is_guardian_of(student_id)) and status = 'pending');
 
 -- coach_saved_players: verified coaches only.
 create policy "own saved players" on coach_saved_players for select using (coach_id = auth.uid());
