@@ -9,6 +9,7 @@ type ProgramCell = {
   rank: number | null;
   roster: number | null;
   japanese: number;
+  collected: boolean;
 } | null;
 
 export type CollegeRow = {
@@ -135,6 +136,11 @@ export function CollegeTable({ lang, rows }: { lang: Locale; rows: CollegeRow[] 
                         {r.name}
                       </Link>
                       {r.nickname && <span className="ml-2 text-foreground/50">{r.nickname}</span>}
+                      {p && !p.collected && (
+                        <span className="ml-2 rounded bg-amber-500/15 px-1.5 py-0.5 text-xs text-foreground/70">
+                          {t.notCollected}
+                        </span>
+                      )}
                     </td>
                     <td className="py-2 pr-4 text-foreground/70">{r.conference ?? "—"}</td>
                     <td className="py-2 pr-4 text-foreground/70">{r.state ?? "—"}</td>

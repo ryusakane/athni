@@ -23,6 +23,7 @@ function programCell(college: College, gender: ProgramGender) {
     rank: latestRanking(program)?.rank ?? null,
     roster: roster?.total ?? null,
     japanese: roster?.japanese.length ?? 0,
+    collected: program.roster.length > 0 || program.coaches.length > 0,
   };
 }
 

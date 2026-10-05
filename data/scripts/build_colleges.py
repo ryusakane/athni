@@ -31,6 +31,8 @@ NS = uuid.UUID("6f1c2a52-6a0e-4c35-9a35-2f0f4c3e7b10")  # same namespace as to_s
 CLASS_YEARS = {"FR", "SO", "JR", "SR", "GR"}
 SOCIAL = ["instagram_url", "x_url", "facebook_url", "tiktok_url", "youtube_url"]
 PROGRAM_FIELDS = ["golf_url", "roster_url", "coaches_url", "roster_season", "roster_source_url", "collected_at"]
+# サイトだけで使う項目 (seed.sql には入れない)
+SITE_ONLY_FIELDS = ["collection_note"]
 COLLEGE_FIELDS = ["name_ja", "short_name", "nickname", "conference", "city", "state", "website_url", "athletics_url"]
 
 
@@ -60,7 +62,7 @@ def load_colleges():
         programs = []
         for p in c.get("programs", []):
             assert p["gender"] in {"male", "female"}, path
-            for f in PROGRAM_FIELDS + SOCIAL:
+            for f in PROGRAM_FIELDS + SOCIAL + SITE_ONLY_FIELDS:
                 p.setdefault(f, None)
             p["rankings"] = []
             p.setdefault("coaches", [])

@@ -104,6 +104,12 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
         })}
       </div>
 
+      {program.collection_note && (
+        <p className="mt-4 rounded-md border border-amber-500/30 bg-amber-500/10 px-4 py-3 text-sm">
+          {t.notCollected}
+        </p>
+      )}
+
       {rankings.length > 0 && (
         <div className="mt-6">
           <h3 className="font-semibold">{t.rankings}</h3>

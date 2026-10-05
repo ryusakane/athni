@@ -122,6 +122,7 @@ const en = {
     state: "State",
     roster: "Roster",
     japanese: "Japanese",
+    notCollected: "Not collected yet",
     count: (shown: number, total: number) => `${shown} of ${total} schools`,
     noMatch: "No schools match these filters.",
     rankingNote: (source: string, date: string) => `Ranking: ${source}, ${date}.`,
@@ -143,6 +144,8 @@ const en = {
     noCoaches: "Coaching staff not collected yet.",
     roster: (season: string | null) => (season ? `Roster (${season})` : "Roster"),
     noRoster: "Roster not collected yet.",
+    notCollected:
+      "This school's athletics website does not allow automated access, so its roster, coaches, and social accounts are not listed here yet. Please check the team page directly.",
     total: "Players",
     international: "International",
     japanese: "Japanese players",
@@ -292,6 +295,7 @@ const ja: Dictionary = {
     state: "州",
     roster: "部員数",
     japanese: "日本人",
+    notCollected: "未収集",
     count: (shown: number, total: number) => `${total}校中 ${shown}校`,
     noMatch: "条件に合う大学がありません。",
     rankingNote: (source: string, date: string) => `ランキング: ${source}（${date}）`,
@@ -313,6 +317,8 @@ const ja: Dictionary = {
     noCoaches: "コーチ情報は未収集です。",
     roster: (season: string | null) => (season ? `ロスター（${season}）` : "ロスター"),
     noRoster: "ロスターは未収集です。",
+    notCollected:
+      "この大学の体育局サイトは自動取得を許可していないため、ロスター・コーチ・SNSはまだ掲載していません。ゴルフ部ページで直接ご確認ください。",
     total: "部員",
     international: "留学生",
     japanese: "日本人選手",
