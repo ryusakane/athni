@@ -10,12 +10,12 @@
  "city": null,
  "state": "CT",
  "website_url": "https://www.quinnipiac.edu",
- "athletics_url": "https://www.gobobcats.com",
+ "athletics_url": "https://gobobcats.com:443",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gobobcats.com/sports/womens-golf",
+   "roster_url": "https://gobobcats.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,12 +23,92 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gobobcats.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Zoie Chan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hong Kong, China",
+     "country": "CN",
+     "previous_school": "Hong Kong, China"
+    },
+    {
+     "name": "Alexia Egdahl",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Placentia, CA / Orange Lutheran",
+     "country": "US",
+     "previous_school": "Placentia, CA / Orange Lutheran"
+    },
+    {
+     "name": "Tekla Fine-Lease",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Essex, NY / Queensbury",
+     "country": "US",
+     "previous_school": "Essex, NY / Queensbury"
+    },
+    {
+     "name": "Marisa Flores",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Paramus, NJ / Immaculate Heart Academy",
+     "country": "US",
+     "previous_school": "Paramus, NJ / Immaculate Heart Academy"
+    },
+    {
+     "name": "Sophia Fujita",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Torrance, CA / North Torrance",
+     "country": "US",
+     "previous_school": "Torrance, CA / North Torrance"
+    },
+    {
+     "name": "Samantha Galantini",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "West Orange, NJ / West Orange",
+     "country": "US",
+     "previous_school": "West Orange, NJ / West Orange"
+    },
+    {
+     "name": "Amy Goddard",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Toronto, Canada / Holy Name of Mary College",
+     "country": "CA",
+     "previous_school": "Toronto, Canada / Holy Name of Mary College"
+    },
+    {
+     "name": "Vaidehi Shah",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bridgewater, NJ / Bridgewater - Raritan",
+     "country": "US",
+     "previous_school": "Bridgewater, NJ / Bridgewater - Raritan"
+    },
+    {
+     "name": "Natalie Spiska",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Jersey City, NJ / St. Dominic Academy",
+     "country": "US",
+     "previous_school": "Jersey City, NJ / St. Dominic Academy"
+    },
+    {
+     "name": "Michelle Wong",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Los Angeles, California / South Island School",
+     "country": "US",
+     "previous_school": "Los Angeles, California / South Island School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +116,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

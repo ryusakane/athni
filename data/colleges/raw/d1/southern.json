@@ -10,43 +10,193 @@
  "city": null,
  "state": "LA",
  "website_url": "https://www.subr.edu",
- "athletics_url": "https://www.gojagsports.com",
+ "athletics_url": "https://gojagsports.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gojagsports.com/sports/mens-golf",
+   "roster_url": "https://gojagsports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2025-26",
+   "roster_source_url": "https://gojagsports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Joshua Bradley",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rochester, NY",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Carter Evans",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Prairieville, LA",
+     "country": "US",
+     "previous_school": "Ascension Christian HS"
+    },
+    {
+     "name": "Isaiah Gold",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rancho Cucamonga, CA",
+     "country": "US",
+     "previous_school": "Etiwanda HS"
+    },
+    {
+     "name": "Quincy Leonard",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Montgomery, AL",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Thomas Reid",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lawrenceville, GA",
+     "country": "US",
+     "previous_school": "Brookwood HS"
+    },
+    {
+     "name": "Abhay Sandhu",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "British Columbia, Canada",
+     "country": "CA",
+     "previous_school": "Princess Margret Secondary"
+    },
+    {
+     "name": "Charles Watts",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fontana, CA",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jordan Williams",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "York, SC",
+     "country": "US",
+     "previous_school": "Legion Collegiate Academy"
+    },
+    {
+     "name": "Nyles Williams",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Baton Rouge, LA",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Bobby Pope",
+     "title": "Head Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gojagsports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Phil Smith",
+     "title": "Assistant Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gojagsports.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gojagsports.com/sports/womens-golf",
+   "roster_url": "https://gojagsports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2025-26",
+   "roster_source_url": "https://gojagsports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Chloe Ajodha",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Santa Cruz, Trinidad and Tobago",
+     "country": "TT",
+     "previous_school": null
+    },
+    {
+     "name": "Salma Ibrahim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Culver City, CA",
+     "country": "US",
+     "previous_school": "Culver City HS"
+    },
+    {
+     "name": "Elizabeth Lenton",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hercules, CA",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Lauryn Leonard",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Montgomery, AL",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Faith Ontune",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nairobi, Kenya",
+     "country": "KE",
+     "previous_school": null
+    },
+    {
+     "name": "Alyssa Rodriguez",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Albuquerqueque, NM",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Bobby Pope",
+     "title": "Head Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gojagsports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Phil Smith",
+     "title": "Assistant Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gojagsports.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +209,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gojagsports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gojagsports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -14,39 +14,191 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://guhoyas.com/sports/mens-golf",
+   "roster_url": "https://guhoyas.com/sports/mens-golf/roster",
+   "coaches_url": "https://guhoyas.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/hoyasmensgolf",
+   "x_url": "https://x.com/HoyasMGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://guhoyas.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Barnes Blake",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Westfield, N.J.",
+     "country": "US",
+     "previous_school": "Westfield High School"
+    },
+    {
+     "name": "Carson Erick",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hingham, Mass.",
+     "country": "US",
+     "previous_school": "Hingham High School"
+    },
+    {
+     "name": "Gavin Lane",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Boston, Mass.",
+     "country": "US",
+     "previous_school": "The Roxbury Latin School"
+    },
+    {
+     "name": "Zander Maloy",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Potomac, Md.",
+     "country": "US",
+     "previous_school": "Georgetown Prep"
+    },
+    {
+     "name": "George McGlinn",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Seattle, Wash.",
+     "country": "US",
+     "previous_school": "Hotchkiss"
+    },
+    {
+     "name": "Alan Rose",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Weston, Mass.",
+     "country": "US",
+     "previous_school": "Noble & Greenough High School"
+    },
+    {
+     "name": "Drew Schauenberg",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Barrington, Ill.",
+     "country": "US",
+     "previous_school": "Barrington High School"
+    },
+    {
+     "name": "Henry Tracy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Washington, D.C.",
+     "country": "US",
+     "previous_school": "St. Albans School"
+    },
+    {
+     "name": "CJ Winchenbaugh",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Weston, Mass.",
+     "country": "US",
+     "previous_school": "The Belmont Hill School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Tommy Hunter",
+     "title": "Head Coach and Director of Special Projects",
+     "email": null,
+     "phone": "202-687-2442",
+     "source_url": "https://guhoyas.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "golf_url": "https://guhoyas.com/sports/womens-golf",
+   "roster_url": "https://guhoyas.com/sports/womens-golf/roster",
+   "coaches_url": "https://guhoyas.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/georgetownwgolf",
+   "x_url": "https://x.com/HoyasWGolf",
+   "facebook_url": "https://www.facebook.com/HoyasWGolf",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://guhoyas.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Mahreen Bhatia",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Gurgaon, India",
+     "country": "IN",
+     "previous_school": null
+    },
+    {
+     "name": "Mimi Burton",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Notre Dame"
+    },
+    {
+     "name": "Gabriella Eifrig",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Newport Beach, Calif.",
+     "country": "US",
+     "previous_school": "St. Margaret's Episcopal School"
+    },
+    {
+     "name": "Constanze Keferstein",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Frankfurt am Main, Germany",
+     "country": "DE",
+     "previous_school": null
+    },
+    {
+     "name": "Catherine Qiu",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Great Falls, Va.",
+     "country": "US",
+     "previous_school": "Langley High School"
+    },
+    {
+     "name": "Olivia Ty",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Diego, Calif.",
+     "country": "US",
+     "previous_school": "Torrey Pines High School"
+    },
+    {
+     "name": "Sunny Wang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Thousand Oaks, Calif.",
+     "country": "US",
+     "previous_school": "Oaks Christian"
+    },
+    {
+     "name": "Carol Yan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Diamond Bar, Calif.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Kate Schanuel",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "202-687-7960",
+     "source_url": "https://guhoyas.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://guhoyas.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://guhoyas.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://guhoyas.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

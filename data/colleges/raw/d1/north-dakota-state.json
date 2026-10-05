@@ -10,12 +10,12 @@
  "city": null,
  "state": "ND",
  "website_url": "https://www.ndsu.edu",
- "athletics_url": "https://www.gobison.com",
+ "athletics_url": "https://gobison.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gobison.com/sports/mens-golf",
+   "roster_url": "https://gobison.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gobison.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Peyton Albers",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Waunake, Wis.",
+     "country": "US",
+     "previous_school": "Waunakee HS"
+    },
+    {
+     "name": "Andrew Ballou",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Victoria, Minn.",
+     "country": "US",
+     "previous_school": "Chanhassen HS"
+    },
+    {
+     "name": "Elias Ekern",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Northfield, Minn.",
+     "country": "US",
+     "previous_school": "Northfield HS"
+    },
+    {
+     "name": "Henry Johnson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Chaska, Minn.",
+     "country": "US",
+     "previous_school": "Southwest Christian HS"
+    },
+    {
+     "name": "Joey Mackinac",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Inver Grove Heights, Minn.",
+     "country": "US",
+     "previous_school": "Rosemount HS"
+    },
+    {
+     "name": "Sean Moore",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mesa, Ariz.",
+     "country": "US",
+     "previous_school": "Red Mountain HS"
+    },
+    {
+     "name": "Brogan Paschal",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Gilbert, Ariz.",
+     "country": "US",
+     "previous_school": "Basha HS"
+    },
+    {
+     "name": "Carter Spalding",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Woodbury, Minn.",
+     "country": "US",
+     "previous_school": "Woodbury HS"
+    },
+    {
+     "name": "Carter White",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Verndale, Minn.",
+     "country": "US",
+     "previous_school": "Verndale HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gobison.com/sports/womens-golf",
+   "roster_url": "https://gobison.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gobison.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Avery Bartels",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Oxbow, N.D.",
+     "country": "US",
+     "previous_school": "Kindred HS"
+    },
+    {
+     "name": "Lauren Chambs",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Plymouth, Minn.",
+     "country": "US",
+     "previous_school": "Wayzata HS"
+    },
+    {
+     "name": "Hannah Dunk",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Janesville, Wis.",
+     "country": "US",
+     "previous_school": "Milton HS"
+    },
+    {
+     "name": "Emma Fitzmorris",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stillwater, Minn.",
+     "country": "US",
+     "previous_school": "Hill-Murray HS"
+    },
+    {
+     "name": "Belle Kongshaug",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Elk Mound, Wis.",
+     "country": "US",
+     "previous_school": "Elk Mound HS"
+    },
+    {
+     "name": "Jeri Lafleche",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Winnipeg, Manitoba",
+     "country": "CA",
+     "previous_school": "Collège Jean Sauvè"
+    },
+    {
+     "name": "Bella Leonhart",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Marine on St. Croix, Minn.",
+     "country": "US",
+     "previous_school": "Forest Lake Senior HS"
+    },
+    {
+     "name": "Norah Roberts",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Caledonia, Wis.",
+     "country": "US",
+     "previous_school": "Union Grove HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gobison.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gobison.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

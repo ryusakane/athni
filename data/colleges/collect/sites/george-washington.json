@@ -1,9 +1,104 @@
 {
  "slug": "george-washington",
  "athletics_url": "https://www.gwsports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gwsports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gwsports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gwsports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gwsports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Rodrigo Barahona",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Monterrey, Mexico",
+     "country": "MX",
+     "previous_school": "Monterrey, Mexico",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Adam Bencik",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bratislava, Slovakia / Cambridge International School Bratislava",
+     "country": "SK",
+     "previous_school": "Bratislava, Slovakia / Cambridge International School Bratislava",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Evan Eichenlaub",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethlehem, PA / Moravian Academy",
+     "country": "US",
+     "previous_school": "Bethlehem, PA / Moravian Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Benji Garcia Moreira",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Monterrey, Mexico / American School Foundation of Monterrey",
+     "country": "MX",
+     "previous_school": "Monterrey, Mexico / American School Foundation of Monterrey",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Patricio Gonzalez",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Monterrey, Mexico",
+     "country": "MX",
+     "previous_school": "Monterrey, Mexico",
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Maxime Lam",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Paris, France / Claude Bernard",
+     "country": "FR",
+     "previous_school": "Paris, France / Claude Bernard",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Philippe Thorin",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Quito, Ecuador",
+     "country": "EC",
+     "previous_school": "Quito, Ecuador",
+     "class_raw": "Gr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gwsports.com:443",
+ "requests": [
+  {
+   "url": "https://gwsports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

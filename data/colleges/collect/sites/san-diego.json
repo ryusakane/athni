@@ -1,9 +1,144 @@
 {
  "slug": "san-diego",
  "athletics_url": "https://www.usdtoreros.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.usdtoreros.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://usdtoreros.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://usdtoreros.com/sports/mens-golf/roster",
+   "roster_source_url": "https://usdtoreros.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Reed Arnaldo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Encinitas, CA",
+     "country": "US",
+     "previous_school": "La Costa Canyon High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ryan Arnold",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Agoura Hills, CA",
+     "country": "US",
+     "previous_school": "Agoura High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "You Seong Choi",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hacienda Heights, CA",
+     "country": "US",
+     "previous_school": "Anaheim Discovery Christian",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Brady Clark",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kingman, AZ",
+     "country": "US",
+     "previous_school": "South Mountain Community College",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Henry Dall",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenix, AZ",
+     "country": "US",
+     "previous_school": "Brophy Prep",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Charlie Gillespie",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta, Canada",
+     "country": "CA",
+     "previous_school": "Henry Wise Wood High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Connor Herrera",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Diego, CA",
+     "country": "US",
+     "previous_school": "Classical Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Cooper Humphreys",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kelowna, British Columbia, Canada",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Reid Piron",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Boise, ID",
+     "country": "US",
+     "previous_school": "Boise High School",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Evan Emerick",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usdtoreros.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Sam Foust",
+     "title": "Associate Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usdtoreros.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "JoAnn Vallese",
+     "title": "Assistant Director of Scholar-Athlete Development",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usdtoreros.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://usdtoreros.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://usdtoreros.com/splash.aspx?id=splash_10",
+ "requests": [
+  {
+   "url": "https://usdtoreros.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://usdtoreros.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://usdtoreros.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

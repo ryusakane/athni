@@ -1,9 +1,241 @@
 {
  "slug": "oakland",
  "athletics_url": "https://goldengrizzlies.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://goldengrizzlies.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/oaklandmgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goldengrizzlies.com/sports/mens-golf/roster",
+   "roster_source_url": "https://goldengrizzlies.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Noah Andry",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Powell, Ohio",
+     "country": "US",
+     "previous_school": "Olentangy Liberty High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Robert Burns",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Flushing, Mich.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Blaise Krol",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Commerce, Mich.",
+     "country": "US",
+     "previous_school": "Orchard Lake St. Mary’s",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Marshall Morency",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio",
+     "country": "US",
+     "previous_school": "Anderson High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matteo Rocco",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario, Canada",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Brennan Sullivan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Grosse Pointe, Mich.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ben Willis",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "South Bent, Sunderland, England",
+     "country": "GB",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jack Zubkus",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Ada, Mich.",
+     "country": "US",
+     "previous_school": "Penn State",
+     "class_raw": "R-Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Darin Hudak",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goldengrizzlies.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "James Dewling",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goldengrizzlies.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Yaroslav Ilyenko",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goldengrizzlies.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://goldengrizzlies.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://goldengrizzlies.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/oaklandwgolf",
+   "x_url": "https://x.com/OaklandWGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goldengrizzlies.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goldengrizzlies.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Lily Bargamian",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Grosse Ile, Mich.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Logan Bentley",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Addison, Mich.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Hunter Edwards",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rotorua, Bay of Plenty, New Zealand",
+     "country": "NZ",
+     "previous_school": "John Paul College",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Channing Hagen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lexington, Ky.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Avery Manning",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Dexter, Mich.",
+     "country": "US",
+     "previous_school": "Dexter High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Adrianna Mineo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kent, Ohio",
+     "country": "US",
+     "previous_school": "Theodore Roosevelt High School",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Heather Fortushniak",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goldengrizzlies.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Mikaela Schulz",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goldengrizzlies.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Yaroslav Ilyenko",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goldengrizzlies.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://goldengrizzlies.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://goldengrizzlies.com/",
- "requests": []
+ "requests": [
+  {
+   "url": "https://goldengrizzlies.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goldengrizzlies.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goldengrizzlies.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://goldengrizzlies.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goldengrizzlies.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goldengrizzlies.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

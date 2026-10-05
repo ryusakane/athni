@@ -14,8 +14,8 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://www.kstatesports.com/sports/mens-golf",
+   "roster_url": "https://www.kstatesports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://www.kstatesports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jules De Brauwere",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Saint Cloud, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Fionn Dobbin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lisburn, Northern Ireland",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Octavio Laurent",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bordeaux, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Erik Sabelström Holmberg",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden",
+     "country": "SE",
+     "previous_school": null
+    },
+    {
+     "name": "Peyton Smith",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lee's Summit, Mo.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Oscar Stendahl",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Myggenas, Sweden",
+     "country": "SE",
+     "previous_school": null
+    },
+    {
+     "name": "Joshua Thompson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Surrey, England",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Oliver Toyer",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cambridgeshire, England",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Ville Virkkala",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Espoo, Finland",
+     "country": "FI",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://www.kstatesports.com/sports/womens-golf",
+   "roster_url": "https://www.kstatesports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://www.kstatesports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Julia Ballester Barrio",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Castellon, Spain",
+     "country": "ES",
+     "previous_school": null
+    },
+    {
+     "name": "Kelsey Chen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dalian, China",
+     "country": "CN",
+     "previous_school": null
+    },
+    {
+     "name": "Stalee Fields",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Fort Worth, Texas",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Mia Ingham",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Surrey, England",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Casey Kang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lanzhou, China",
+     "country": "CN",
+     "previous_school": null
+    },
+    {
+     "name": "Nanami Nakashima",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kani, Japan",
+     "country": "JP",
+     "previous_school": null
+    },
+    {
+     "name": "Alenka Navarro",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mexico City, Mexico",
+     "country": "MX",
+     "previous_school": null
+    },
+    {
+     "name": "Keen Visavapattamawan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Amy Wang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Guangzhou City, China",
+     "country": "CN",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://www.kstatesports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://www.kstatesports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

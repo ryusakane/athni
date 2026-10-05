@@ -10,12 +10,12 @@
  "city": null,
  "state": "PA",
  "website_url": "https://www.lehigh.edu",
- "athletics_url": "https://www.lehighsports.com",
+ "athletics_url": "https://lehighsports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://lehighsports.com/sports/mens-golf",
+   "roster_url": "https://lehighsports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://lehighsports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Luke Block",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bluffton, S.C.",
+     "country": "US",
+     "previous_school": "Albany Golf Academy"
+    },
+    {
+     "name": "Johshveer Chadha",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pebble Beach, Calif.",
+     "country": "US",
+     "previous_school": "Robert L. Stevenson School"
+    },
+    {
+     "name": "Ryan Cronin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Eden Prairie, Minn.",
+     "country": "US",
+     "previous_school": "Eden Prairie"
+    },
+    {
+     "name": "Drew Golden",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hingham, Mass.",
+     "country": "US",
+     "previous_school": "Hingham"
+    },
+    {
+     "name": "Eli Hamelsky",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Newton, Mass.",
+     "country": "US",
+     "previous_school": "Beaver Country Day School"
+    },
+    {
+     "name": "Nathan Le-Nguyen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Toronto, Ont.",
+     "country": "CA",
+     "previous_school": "Royal St. George’s College"
+    },
+    {
+     "name": "Matthew Quinn",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Holden, Mass.",
+     "country": "US",
+     "previous_school": "Saint John's"
+    },
+    {
+     "name": "Charles Schrohe",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Riverside, Conn.",
+     "country": "US",
+     "previous_school": "Greenwich"
+    },
+    {
+     "name": "Noah Zyung",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Glenview, Ill.",
+     "country": "US",
+     "previous_school": "New Trier Township"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://lehighsports.com/sports/womens-golf",
+   "roster_url": "https://lehighsports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,92 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://lehighsports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Stefania Fedun",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Glenmoore, Pa.",
+     "country": "US",
+     "previous_school": "Owen J. Roberts"
+    },
+    {
+     "name": "Alana Hall",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Boca Raton, Fla.",
+     "country": "US",
+     "previous_school": "Saint Andrews"
+    },
+    {
+     "name": "Reese Hannon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Tewksbury, N.J.",
+     "country": "US",
+     "previous_school": "Mount Saint Mary"
+    },
+    {
+     "name": "Valentina Hasan Curilovic",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Toulouse, France",
+     "country": "FR",
+     "previous_school": "Le Caousou"
+    },
+    {
+     "name": "Sienna Mosquera",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Southampton, Bermuda",
+     "country": "BM",
+     "previous_school": "Lake Mary Preparatory (Fla.)"
+    },
+    {
+     "name": "Erin Mullin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Clifton, Va.",
+     "country": "US",
+     "previous_school": "Robinson"
+    },
+    {
+     "name": "Alisia Ren",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Burnside, New Zealand",
+     "country": "NZ",
+     "previous_school": "St. Andrews College"
+    },
+    {
+     "name": "Lilly Riegger",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fort Lauderdale, Fla.",
+     "country": "US",
+     "previous_school": "American Heritage"
+    },
+    {
+     "name": "Bella Scanapicco",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tinton Falls, N.J.",
+     "country": "US",
+     "previous_school": "Trinity Hall"
+    },
+    {
+     "name": "Bridget Yu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ontario",
+     "country": "CA",
+     "previous_school": "Lauremont School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

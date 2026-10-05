@@ -1,9 +1,197 @@
 {
  "slug": "uc-riverside",
  "athletics_url": "https://www.gohighlanders.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gohighlanders.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gohighlanders.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gohighlanders.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gohighlanders.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Samuel Bonzoumet",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Riverside, Calif. / Riverside Poly HS",
+     "country": "US",
+     "previous_school": "Riverside, Calif. / Riverside Poly HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Brady Fonville",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Apple Valley, Calif. / Riverside Poly HS",
+     "country": "US",
+     "previous_school": "Apple Valley, Calif. / Riverside Poly HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Yuta Kida",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "RS"
+    },
+    {
+     "name": "Caleb Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Fullerton, Calif. / Sunny Hills HS",
+     "country": "US",
+     "previous_school": "Fullerton, Calif. / Sunny Hills HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ryo Murata",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Nagano, Japan / Montverde Academy",
+     "country": "JP",
+     "previous_school": "Nagano, Japan / Montverde Academy",
+     "class_raw": "RS"
+    },
+    {
+     "name": "Ace Pascual",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "RS"
+    },
+    {
+     "name": "Wai Yan Lin",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "RS"
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gohighlanders.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/UCRWomensGolf",
+   "x_url": "https://x.com/UCRWomensGolf",
+   "facebook_url": "https://www.facebook.com/UCRiversideWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gohighlanders.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gohighlanders.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Lauren Lee",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Diego, Calif. / Del Norte HS",
+     "country": "US",
+     "previous_school": "San Diego, Calif. / Del Norte HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Briana Nakano",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "RS"
+    },
+    {
+     "name": "Jess Pilgrim",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "London, England / Dr. Challoners HS",
+     "country": "GB",
+     "previous_school": "London, England / Dr. Challoners HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kaylin Rhee",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Walnut, Calif. / Walnut HS",
+     "country": "US",
+     "previous_school": "Walnut, Calif. / Walnut HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Emma Rynn",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "RS"
+    },
+    {
+     "name": "Riley Shin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fullerton, Calif. / Orange Lutheran HS",
+     "country": "US",
+     "previous_school": "Fullerton, Calif. / Orange Lutheran HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sophia Soto",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Riverside, Calif. / Point Loma Nazarene",
+     "country": "US",
+     "previous_school": "Riverside, Calif. / Point Loma Nazarene",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gohighlanders.com:443",
+ "requests": [
+  {
+   "url": "https://gohighlanders.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gohighlanders.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gohighlanders.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://gohighlanders.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gohighlanders.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gohighlanders.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

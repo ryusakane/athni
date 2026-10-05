@@ -1,9 +1,197 @@
 {
  "slug": "abilene-christian",
  "athletics_url": "https://www.acusports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.acusports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://acusports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://acusports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://acusports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Maximilian Björnström",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Höllviken, Sweden",
+     "country": "SE",
+     "previous_school": "Sundsgymnasiet",
+     "class_raw": "So."
+    },
+    {
+     "name": "Luis Buech",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Berlin, Germany",
+     "country": "DE",
+     "previous_school": "Löwenrot Gymnasium",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Preston DeFriend",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lubbock, Texas",
+     "country": "US",
+     "previous_school": "Coronado HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Rex Hargrove",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Cypress Creek HS",
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Jack Hollingsed",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dallas, Texas",
+     "country": "US",
+     "previous_school": "Lake Highlands HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kade McDonough",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Missoula, Mont.",
+     "country": "US",
+     "previous_school": "Sentinel HS",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Cooper Watson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lawton, Okla.",
+     "country": "US",
+     "previous_school": "MacArthur HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://acusports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://acusports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://acusports.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Jasmine Do",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cypress, Texas",
+     "country": "US",
+     "previous_school": "Bridgeland HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jiyu Han",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cedar Park, Texas",
+     "country": "US",
+     "previous_school": "Round Rock HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Alana Kutt",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Sarasota, Fla.",
+     "country": "US",
+     "previous_school": "IMG Academy",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Hoi Ki Lau",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Hong Kong, China",
+     "country": "CN",
+     "previous_school": "The ISF Academy",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Kate Pickrell",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Lake Travis HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Julia Vollmer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Alamo Heights HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kaylee Yuan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Joshua, Texas",
+     "country": "US",
+     "previous_school": "Joshua HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://acusports.com:443",
+ "requests": [
+  {
+   "url": "https://acusports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

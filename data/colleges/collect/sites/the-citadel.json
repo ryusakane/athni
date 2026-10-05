@@ -1,9 +1,113 @@
 {
  "slug": "the-citadel",
  "athletics_url": "https://www.citadelsports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.citadelsports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://citadelsports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://citadelsports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://citadelsports.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Lola Barnett",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hatboro, Pa. / Archbishop Wood HS",
+     "country": "US",
+     "previous_school": "Hatboro, Pa. / Archbishop Wood HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Teryn Dalton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "York, S.C. / Westminster Catawba Christian School",
+     "country": "US",
+     "previous_school": "York, S.C. / Westminster Catawba Christian School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Bianka Goerke",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Benson, Ariz. / Benson HS",
+     "country": "US",
+     "previous_school": "Benson, Ariz. / Benson HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Piper Meredith",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hagerstown, Md. / Boonsboro HS",
+     "country": "US",
+     "previous_school": "Hagerstown, Md. / Boonsboro HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Madyson Riley",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hayden, Idaho / Coeur d'Alene HS",
+     "country": "US",
+     "previous_school": "Hayden, Idaho / Coeur d'Alene HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Taryn Smoak",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lexington, S.C. / Lexington HS",
+     "country": "US",
+     "previous_school": "Lexington, S.C. / Lexington HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Paige Tallent",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Raleigh, N.C. / Athens Drive Magnet HS",
+     "country": "US",
+     "previous_school": "Raleigh, N.C. / Athens Drive Magnet HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Sofia Vargas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lexington, Va. / Rockbridge County HS",
+     "country": "US",
+     "previous_school": "Lexington, Va. / Rockbridge County HS",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://citadelsports.com:443",
+ "requests": [
+  {
+   "url": "https://citadelsports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

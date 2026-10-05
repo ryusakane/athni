@@ -1,9 +1,233 @@
 {
  "slug": "tulsa",
  "athletics_url": "https://www.tulsahurricane.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.tulsahurricane.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://tulsahurricane.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://tulsahurricane.com/sports/mens-golf/roster",
+   "roster_source_url": "https://tulsahurricane.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Luke Beckman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "San Antonio, Texas",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Abe Bignell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kent, England",
+     "country": "GB",
+     "previous_school": "Kent, England",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Reuben Harvey",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Southwold, England",
+     "country": "GB",
+     "previous_school": "Southwold, England",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Thomas Herholtz",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Colorado Springs, Colo. / Cheyenne Mountain HS",
+     "country": "US",
+     "previous_school": "Colorado Springs, Colo. / Cheyenne Mountain HS",
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Joshua Koekemoer",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Pretoria, South Africa / International Schooling",
+     "country": "ZA",
+     "previous_school": "Pretoria, South Africa / International Schooling",
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Minas Manias",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Frisco, Texas / Legacy Christian Academy",
+     "country": "US",
+     "previous_school": "Frisco, Texas / Legacy Christian Academy",
+     "class_raw": "5th"
+    },
+    {
+     "name": "Brady Meek",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fort Worth, Texas / Trinity Valley School",
+     "country": "US",
+     "previous_school": "Fort Worth, Texas / Trinity Valley School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "CJ Phillips",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Edmond, Okla. / Edmond Santa Fe HS",
+     "country": "US",
+     "previous_school": "Edmond, Okla. / Edmond Santa Fe HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ethan Roos",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Essex, England",
+     "country": "GB",
+     "previous_school": "Essex, England",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matthew Wilson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nanaimo, BC, Canada / Wellington Secondary School",
+     "country": "CA",
+     "previous_school": "Nanaimo, BC, Canada / Wellington Secondary School",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://tulsahurricane.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://tulsahurricane.com/sports/womens-golf/roster",
+   "roster_source_url": "https://tulsahurricane.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Sayers Allen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Spring Branch, Texas / Smithson Valley HS",
+     "country": "US",
+     "previous_school": "Spring Branch, Texas / Smithson Valley HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Eva Kiri Fevzer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Smlednik, Solvenia",
+     "country": null,
+     "previous_school": "Smlednik, Solvenia",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Hadley Neese",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Overland Park, Kan. / Blue Valley High School",
+     "country": "US",
+     "previous_school": "Overland Park, Kan. / Blue Valley High School",
+     "class_raw": "R-Fr."
+    },
+    {
+     "name": "Samantha Olson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenix, Ariz. / Veritas Scholars Academy",
+     "country": "US",
+     "previous_school": "Phoenix, Ariz. / Veritas Scholars Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jeanne Pagnier",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Maxilly-sur-Léman France /",
+     "country": "FR",
+     "previous_school": "Maxilly-sur-Léman France /",
+     "class_raw": "So."
+    },
+    {
+     "name": "Madison Roach",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Naples, Fla. / George Washington University Online High School",
+     "country": "US",
+     "previous_school": "Naples, Fla. / George Washington University Online High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Zoe Shamy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. / Jupiter Community High School",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. / Jupiter Community High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Allyn Stephens",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Houston, Texas / The Kincaid School",
+     "country": "US",
+     "previous_school": "Houston, Texas / The Kincaid School",
+     "class_raw": "R-Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://tulsahurricane.com:443",
+ "requests": [
+  {
+   "url": "https://tulsahurricane.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://tulsahurricane.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://tulsahurricane.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://tulsahurricane.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://tulsahurricane.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://tulsahurricane.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

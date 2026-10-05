@@ -10,12 +10,12 @@
  "city": null,
  "state": "FL",
  "website_url": "https://www.usf.edu",
- "athletics_url": "https://www.gousfbulls.com",
+ "athletics_url": "https://gousfbulls.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gousfbulls.com/sports/mens-golf",
+   "roster_url": "https://gousfbulls.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gousfbulls.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Reggie Fear",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Surrey, England",
+     "country": "GB",
+     "previous_school": "Sunbury Manor"
+    },
+    {
+     "name": "Gunnar Green",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kissimmee, Fla.",
+     "country": "US",
+     "previous_school": "St. Cloud HS"
+    },
+    {
+     "name": "Wylie Inman",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "North Palm Beach, Fla.",
+     "country": "US",
+     "previous_school": "William T. Dwyer"
+    },
+    {
+     "name": "Nino Palmquist",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Halmstad, Sweden",
+     "country": "SE",
+     "previous_school": "Asper Idrottsgymnasium"
+    },
+    {
+     "name": "Wilhelm Ryding",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tyreso, Sweden",
+     "country": "SE",
+     "previous_school": "Celsiusskolan HS"
+    },
+    {
+     "name": "Roman Solomon",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sarasota, Fla.",
+     "country": "US",
+     "previous_school": "IMG Academy"
+    },
+    {
+     "name": "Jackson Spybey",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Spanish Fort, Ala.",
+     "country": "US",
+     "previous_school": "Spanish Fort"
+    },
+    {
+     "name": "Vincent Stjernfeldt",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Helsingborg, Sweden",
+     "country": "SE",
+     "previous_school": "Riksidrotts Gymnasium"
+    },
+    {
+     "name": "Hugo Trommetter",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Casablanca, Morocco",
+     "country": "MA",
+     "previous_school": "Elevation Preparatory Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gousfbulls.com/sports/womens-golf",
+   "roster_url": "https://gousfbulls.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gousfbulls.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jillian Fatkin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Oak Island, N.C.",
+     "country": "US",
+     "previous_school": "South Brunswick HS"
+    },
+    {
+     "name": "Matylda Krawczynska",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Czestochowa, Poland",
+     "country": "PL",
+     "previous_school": "Szkola w Chmurze"
+    },
+    {
+     "name": "Aliya Liberatore",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Palm Beach Gardens, Fla.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Cherry Marley",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "York, England",
+     "country": "GB",
+     "previous_school": "Fulford School"
+    },
+    {
+     "name": "Holly McLean",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Grand Cayman, Cayman Islands",
+     "country": "KY",
+     "previous_school": "Albany Golf Academy"
+    },
+    {
+     "name": "Carlee Meilleur",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lansdowne, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Pearson Online Academy"
+    },
+    {
+     "name": "Ella Murray",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dubbo, Australia",
+     "country": "AU",
+     "previous_school": "Dubbo Senior College Campus"
+    },
+    {
+     "name": "Laura Nepper",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Draguignan, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Duda Rocha",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rio de Janeiro, Brazil",
+     "country": "BR",
+     "previous_school": "Colegio Anglo Americano"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gousfbulls.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gousfbulls.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

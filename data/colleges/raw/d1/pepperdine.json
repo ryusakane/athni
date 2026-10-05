@@ -10,43 +10,171 @@
  "city": null,
  "state": "CA",
  "website_url": "https://www.pepperdine.edu",
- "athletics_url": "https://www.pepperdinewaves.com",
+ "athletics_url": "https://pepperdinewaves.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://pepperdinewaves.com/sports/mens-golf",
+   "roster_url": "https://pepperdinewaves.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/pepperdinemgolf",
+   "x_url": "https://x.com/PepperdineMGOLF",
+   "facebook_url": "https://www.facebook.com/PeppGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://pepperdinewaves.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Oscar Bach",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Oslo, Norway",
+     "country": "NO",
+     "previous_school": "Norwegian School of Elite Sports"
+    },
+    {
+     "name": "Luke Dariotis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sacramento, Calif.",
+     "country": "US",
+     "previous_school": "Jesuit HS"
+    },
+    {
+     "name": "Ayden Fynaut",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fresno, Calif.",
+     "country": "US",
+     "previous_school": "Endeavor Charter School"
+    },
+    {
+     "name": "Antoine Jasmin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Blainville, Quebec, Canada",
+     "country": "CA",
+     "previous_school": "Académie Ste-Therese"
+    },
+    {
+     "name": "Carson Kim",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Yorba Linda, Calif.",
+     "country": "US",
+     "previous_school": "Sunny Hills HS"
+    },
+    {
+     "name": "Byungho Lee",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Seoul, South Korea",
+     "country": "KR",
+     "previous_school": "Spring Creek Academy (Plano, Texas)"
+    },
+    {
+     "name": "Luke Ringkamp",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Palm Desert, Calif.",
+     "country": "US",
+     "previous_school": "Palm Desert"
+    },
+    {
+     "name": "Kailer Stone",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Alameda, Calif.",
+     "country": "US",
+     "previous_school": "Alameda"
+    },
+    {
+     "name": "Willy Walsh",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Mateo, Calif.",
+     "country": "US",
+     "previous_school": "Junipero Serra HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://pepperdinewaves.com/sports/womens-golf",
+   "roster_url": "https://pepperdinewaves.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/pepperdinewgolf",
+   "x_url": "https://x.com/PepperdineWGolf",
+   "facebook_url": "https://www.facebook.com/WavesGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://pepperdinewaves.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Grace Anderson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Burlington, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Blyth Academy"
+    },
+    {
+     "name": "Eunseo Choi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Auckland, New Zealand",
+     "country": "NZ",
+     "previous_school": "Pinehurst School"
+    },
+    {
+     "name": "Kylee Choi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Murrieta, Calif.",
+     "country": "US",
+     "previous_school": "Rancho Christian HS"
+    },
+    {
+     "name": "Kaya Daluwatte",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Colombo, Sri Lanka",
+     "country": "LK",
+     "previous_school": null
+    },
+    {
+     "name": "Irene Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, Md.",
+     "country": "US",
+     "previous_school": "Acellus Academy"
+    },
+    {
+     "name": "Katelyn Kong",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "North Hills, Calif.",
+     "country": "US",
+     "previous_school": "Notre Dame HS"
+    },
+    {
+     "name": "Nishna Patel",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mumbai, India",
+     "country": "IN",
+     "previous_school": "St. Gregorio’s HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +187,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://pepperdinewaves.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://pepperdinewaves.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

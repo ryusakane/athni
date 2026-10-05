@@ -10,12 +10,12 @@
  "city": null,
  "state": "MO",
  "website_url": "https://www.missouristate.edu",
- "athletics_url": "https://www.missouristatebears.com",
+ "athletics_url": "https://missouristatebears.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://missouristatebears.com/sports/mens-golf",
+   "roster_url": "https://missouristatebears.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,81 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://missouristatebears.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Max Bowman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Springfield, Mo. / Glendale High",
+     "country": "US",
+     "previous_school": "Springfield, Mo. / Glendale High"
+    },
+    {
+     "name": "Caden Cox",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Magnolia, Texas / The Woodlands",
+     "country": "US",
+     "previous_school": "Magnolia, Texas / The Woodlands"
+    },
+    {
+     "name": "Andrew Fallis",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Columbia, Mo. / Father Tolton Regional High",
+     "country": "US",
+     "previous_school": "Columbia, Mo. / Father Tolton Regional High"
+    },
+    {
+     "name": "Pedro Gallegos",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Madrid, Spain / Colegio El Prado",
+     "country": "ES",
+     "previous_school": "Madrid, Spain / Colegio El Prado"
+    },
+    {
+     "name": "Leon Herb",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Nubloch, Germany / Lowenrot Gymnasium",
+     "country": "DE",
+     "previous_school": "Nubloch, Germany / Lowenrot Gymnasium"
+    },
+    {
+     "name": "Jonathan Jordan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rolla, Mo. / Rolla High",
+     "country": "US",
+     "previous_school": "Rolla, Mo. / Rolla High"
+    },
+    {
+     "name": "Francesco Petrangeli",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rome, Italy / Liceo Cannizzaro",
+     "country": "IT",
+     "previous_school": "Rome, Italy / Liceo Cannizzaro"
+    },
+    {
+     "name": "Owen Swearingen",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Nevada, Mo. / Nevada High",
+     "country": "US",
+     "previous_school": "Nevada, Mo. / Nevada High"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://missouristatebears.com/sports/womens-golf",
+   "roster_url": "https://missouristatebears.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +105,92 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://missouristatebears.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Rylie Andrews",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Chesterfield, Mo. / St. Joseph's Academy",
+     "country": "US",
+     "previous_school": "Chesterfield, Mo. / St. Joseph's Academy"
+    },
+    {
+     "name": "Tierney Baumstark",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Columbia, Mo. / Rock Bridge High",
+     "country": "US",
+     "previous_school": "Columbia, Mo. / Rock Bridge High"
+    },
+    {
+     "name": "Chloe Bolte",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sumner, Iowa / Sumner-Fredricksburg High",
+     "country": "US",
+     "previous_school": "Sumner, Iowa / Sumner-Fredricksburg High"
+    },
+    {
+     "name": "Clementina Castaño",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "General Pico, Argentina / Centro Educativo Los Caldenes",
+     "country": "AR",
+     "previous_school": "General Pico, Argentina / Centro Educativo Los Caldenes"
+    },
+    {
+     "name": "Marlee Edgeman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Marshfield, Mo. / Marshfield High",
+     "country": "US",
+     "previous_school": "Marshfield, Mo. / Marshfield High"
+    },
+    {
+     "name": "Tori Gardner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Decatur, Texas / Decatur High",
+     "country": "US",
+     "previous_school": "Decatur, Texas / Decatur High"
+    },
+    {
+     "name": "Siena Minor",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hannibal, Mo. / Hannibal High",
+     "country": "US",
+     "previous_school": "Hannibal, Mo. / Hannibal High"
+    },
+    {
+     "name": "Kyleigh Pfitzner",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Ozark, Mo. / Springfield Catholic High",
+     "country": "US",
+     "previous_school": "Ozark, Mo. / Springfield Catholic High"
+    },
+    {
+     "name": "Josey Roberts",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ozark, Mo. / Ozark High",
+     "country": "US",
+     "previous_school": "Ozark, Mo. / Ozark High"
+    },
+    {
+     "name": "Coyee Zhang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Shenzhen, China / Montverde Academy",
+     "country": "CN",
+     "previous_school": "Shenzhen, China / Montverde Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://missouristatebears.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://missouristatebears.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -1,9 +1,133 @@
 {
  "slug": "binghamton",
  "athletics_url": "https://www.bubearcats.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://binghamtonbearcats.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://binghamtonbearcats.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/binghamtongolf",
+   "x_url": "https://x.com/BinghamtonGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://binghamtonbearcats.com/sports/mens-golf/roster",
+   "roster_source_url": "https://binghamtonbearcats.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Enzo Allain",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ridgewood, N.J.",
+     "country": "US",
+     "previous_school": "Ridge",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lucas Brittain",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "London, England",
+     "country": "GB",
+     "previous_school": "The Private Golf Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Beckham Chiew",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta",
+     "country": "CA",
+     "previous_school": "Rundle College",
+     "class_raw": "So."
+    },
+    {
+     "name": "Tien Do",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wesley Chapel, Fla.",
+     "country": "US",
+     "previous_school": "Wesley Chapel",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jake Doherty",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bolton, Mass.",
+     "country": "US",
+     "previous_school": "The Hotchkiss School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Alex Patel",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Madison, N.J.",
+     "country": "US",
+     "previous_school": "Madison",
+     "class_raw": "So."
+    },
+    {
+     "name": "Patrick Smith",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Overland Park, Kan.",
+     "country": "US",
+     "previous_school": "Blue Valley North",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Tebeau",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hamburg, N.Y.",
+     "country": "US",
+     "previous_school": "St. Francis",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jackson Vesper",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "The Colony, Texas",
+     "country": "US",
+     "previous_school": "Little Elm",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Bernie Herceg",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "607-777-3928",
+     "source_url": "https://binghamtonbearcats.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://binghamtonbearcats.com/staff-directory"
+     }
+    }
+   ],
+   "coaches_url": "https://binghamtonbearcats.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://binghamtonbearcats.com/splash.aspx?id=splash_65",
+ "requests": [
+  {
+   "url": "https://binghamtonbearcats.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://binghamtonbearcats.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://binghamtonbearcats.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

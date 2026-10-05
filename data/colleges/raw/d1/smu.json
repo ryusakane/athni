@@ -16,8 +16,8 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://smumustangs.com/sports/mens-golf",
+   "roster_url": "https://smumustangs.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -25,17 +25,97 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://smumustangs.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Areen Aggarwal",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Columbia, Mo.",
+     "country": "US",
+     "previous_school": "Columbia, Mo."
+    },
+    {
+     "name": "Matthew Foster",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Dallas, Texas / Dallas Jesuit",
+     "country": "US",
+     "previous_school": "Dallas, Texas / Dallas Jesuit"
+    },
+    {
+     "name": "Alex Huang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Plano, Texas / Plano West",
+     "country": "US",
+     "previous_school": "Plano, Texas / Plano West"
+    },
+    {
+     "name": "Mason Lewis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Edwardsville, Ill.",
+     "country": "US",
+     "previous_school": "Edwardsville, Ill."
+    },
+    {
+     "name": "Zhengqian Li",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Melbourne, Australia",
+     "country": "AU",
+     "previous_school": "Melbourne, Australia"
+    },
+    {
+     "name": "Louie Liu",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bradenton, Fla. / IMG Academy",
+     "country": "US",
+     "previous_school": "Bradenton, Fla. / IMG Academy"
+    },
+    {
+     "name": "Nicholas Logis",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Austin, Texas"
+    },
+    {
+     "name": "Gabe Post",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Southlake, Texas / Southlake Carroll",
+     "country": "US",
+     "previous_school": "Southlake, Texas / Southlake Carroll"
+    },
+    {
+     "name": "Morgan Slaton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Huntsville, Ala.",
+     "country": "US",
+     "previous_school": "Huntsville, Ala."
+    },
+    {
+     "name": "Ben Steinmann",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Zumikon, Switzerland",
+     "country": "CH",
+     "previous_school": "Zumikon, Switzerland"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://smumustangs.com/sports/womens-golf",
+   "roster_url": "https://smumustangs.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -43,12 +123,52 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://smumustangs.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Celine Chen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Perth, Western Australia / Rossmoyne Senior High School",
+     "country": null,
+     "previous_school": "Perth, Western Australia / Rossmoyne Senior High School"
+    },
+    {
+     "name": "Yoonjeong Huh",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Seoul, South Korea / Seoul Scholars International",
+     "country": "KR",
+     "previous_school": "Seoul, South Korea / Seoul Scholars International"
+    },
+    {
+     "name": "Grace Jin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Huntsville, Texas / The Ogburn School",
+     "country": "US",
+     "previous_school": "Huntsville, Texas / The Ogburn School"
+    },
+    {
+     "name": "Maelynn Kim",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Katy, Texas / Seven Lakes High School",
+     "country": "US",
+     "previous_school": "Katy, Texas / Seven Lakes High School"
+    },
+    {
+     "name": "Kirra St-Laurent",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Papeete, French Polynesia / Brisbane School of Distance Education",
+     "country": null,
+     "previous_school": "Papeete, French Polynesia / Brisbane School of Distance Education"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +181,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://smumustangs.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://smumustangs.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -10,12 +10,12 @@
  "city": null,
  "state": "FL",
  "website_url": "https://www.unf.edu",
- "athletics_url": "https://www.unfospreys.com",
+ "athletics_url": "https://unfospreys.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://unfospreys.com/sports/mens-golf",
+   "roster_url": "https://unfospreys.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,105 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://unfospreys.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Diego Alvarez Perez",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Panama City, Panama",
+     "country": "PA",
+     "previous_school": "Windermere Preparatory School"
+    },
+    {
+     "name": "Luke Balaskiewicz",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "The Bolles School"
+    },
+    {
+     "name": "Danny Erickson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ponte Vedra Beach, Fla.",
+     "country": "US",
+     "previous_school": "Ponte Vedra"
+    },
+    {
+     "name": "Luke Gossett",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Sorrento, Fla.",
+     "country": "US",
+     "previous_school": "Circle Christian School"
+    },
+    {
+     "name": "Duke Heise",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Spring, Texas",
+     "country": "US",
+     "previous_school": "The Woodlands Christian Academy"
+    },
+    {
+     "name": "Ryan Houck",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fleming Island, Fla.",
+     "country": "US",
+     "previous_school": "Fleming Island"
+    },
+    {
+     "name": "Easton Oliva",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ponte Vedra Beach, Fla.",
+     "country": "US",
+     "previous_school": "Ponte Vedra"
+    },
+    {
+     "name": "Jean-Philippe Parr",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Saint-Célestin, Quebec",
+     "country": "CA",
+     "previous_school": "College Notre Dame de l'Assomption"
+    },
+    {
+     "name": "Andrew Rottschalk",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "O'Fallon, Ill.",
+     "country": "US",
+     "previous_school": "O'Fallon"
+    },
+    {
+     "name": "Filippo Serra",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Geneva, Switzerland",
+     "country": "CH",
+     "previous_school": "International School of Geneva - LGB"
+    },
+    {
+     "name": "Danny Wehle",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rochester, N.Y.",
+     "country": "US",
+     "previous_school": "McQuaid Jesuit"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://unfospreys.com/sports/womens-golf",
+   "roster_url": "https://unfospreys.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +129,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://unfospreys.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Brianna Castaldi",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Port Saint Lucie, Fla.",
+     "country": "US",
+     "previous_school": "The Pine School"
+    },
+    {
+     "name": "Ava Cottis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Savannah, Ga.",
+     "country": "US",
+     "previous_school": "Savannah Christian Preparatory School"
+    },
+    {
+     "name": "Mohea Mansbendel",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Noumea, New Caledonia",
+     "country": null,
+     "previous_school": "Lycée Dick Ukeiwë"
+    },
+    {
+     "name": "Mia Raines",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Galena, Ohio",
+     "country": "US",
+     "previous_school": "Olentangy Berlin High School"
+    },
+    {
+     "name": "Maddie Rathjen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "St. Augustine, Fla.",
+     "country": "US",
+     "previous_school": "Beachside High School"
+    },
+    {
+     "name": "Kaitlyn Schroeder",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "Florida Virtual School"
+    },
+    {
+     "name": "Braydn Smith",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Gainesville, Fla.",
+     "country": "US",
+     "previous_school": "J.W. Buchholz High School"
+    },
+    {
+     "name": "Abby Vernier",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Pensacola, Fla.",
+     "country": "US",
+     "previous_school": "West Florida High School of Advanced Technology"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

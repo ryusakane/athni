@@ -12,43 +12,193 @@
  "city": null,
  "state": "TN",
  "website_url": "https://www.etsu.edu",
- "athletics_url": "https://www.etsubucs.com",
+ "athletics_url": "https://etsubucs.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "golf_url": "https://etsubucs.com/sports/mens-golf",
+   "roster_url": "https://etsubucs.com/sports/mens-golf/roster",
+   "coaches_url": "https://etsubucs.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/etsumgolf",
+   "x_url": "https://x.com/ETSU_MGolf",
+   "facebook_url": "https://www.facebook.com/ETSUMensGolf",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://etsubucs.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Oli Blackadder",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Aberdeen, Scotland",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Mikkel Tingsted Blum",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Copenhagen, Denmark",
+     "country": "DK",
+     "previous_school": null
+    },
+    {
+     "name": "Veigar Heiðarsson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Akureyri, Iceland",
+     "country": "IS",
+     "previous_school": null
+    },
+    {
+     "name": "Theophile Lebrun",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Paris, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Benjamin Oberholzer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Belfast, Northern Ireland",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Joshua Pritchett",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Oundle, England",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Richard Saunders",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cologne, Germany",
+     "country": "DE",
+     "previous_school": null
+    },
+    {
+     "name": "Gavin Tiernan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dublin, Ireland",
+     "country": "IE",
+     "previous_school": null
+    },
+    {
+     "name": "Erik Tjarnberg",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden",
+     "country": "SE",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Aaron O'Callaghan",
+     "title": "Men's Golf Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://etsubucs.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Eric Bae",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://etsubucs.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://etsubucs.com/sports/womens-golf",
+   "roster_url": "https://etsubucs.com/sports/womens-golf/roster",
+   "coaches_url": "https://etsubucs.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/etsuwgolf",
+   "x_url": "https://x.com/ETSUWomensGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://etsubucs.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Sophia Gambini",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Maryville, Tenn.",
+     "country": "US",
+     "previous_school": "James Madison HS"
+    },
+    {
+     "name": "McKenzie Hauk",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kingsport, Tenn.",
+     "country": "US",
+     "previous_school": "Emory & Henry"
+    },
+    {
+     "name": "Elzbieta Aldana Leonardo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Guatemala City, Guatemala",
+     "country": "GT",
+     "previous_school": "Cayala Learning Academy"
+    },
+    {
+     "name": "Francisca Moritz",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Arisa Piyamanit",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Nakhon Prathom, Thailand",
+     "country": "TH",
+     "previous_school": "Acellus Academy"
+    },
+    {
+     "name": "Aliezah Robinson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kingsport, Tenn.",
+     "country": "US",
+     "previous_school": "Dobyns Bennett HS"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Stefanie Shelton",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://etsubucs.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Katie Scheck",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://etsubucs.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +211,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://etsubucs.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://etsubucs.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://etsubucs.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

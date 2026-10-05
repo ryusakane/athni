@@ -1,9 +1,137 @@
 {
  "slug": "vcu",
  "athletics_url": "https://www.vcuathletics.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.vcuathletics.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://vcuathletics.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/vcugolf",
+   "x_url": "https://x.com/VCU_Golf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://vcuathletics.com/sports/mens-golf/roster",
+   "roster_source_url": "https://vcuathletics.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Theo Archer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rennes, France",
+     "country": "FR",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jackson Brimfield",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Chapel Hill, N.C.",
+     "country": "US",
+     "previous_school": "Louisville",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Tanner Cadieux",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greensboro, N.C.",
+     "country": "US",
+     "previous_school": "N.C. State",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "North Chery",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "East Haven, Conn.",
+     "country": "US",
+     "previous_school": "Hamden Hall Country Day (DePaul",
+     "class_raw": "So."
+    },
+    {
+     "name": "David Fuhrer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Pittsburgh, Pa.",
+     "country": "US",
+     "previous_school": "Fox Chapel (George Mason)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jacob Kutner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Palm Beach Gardens, Fla.",
+     "country": "US",
+     "previous_school": "Palm Beach Gardens (Creighton)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jackson McLaughlin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Little Rock, Ark.",
+     "country": "US",
+     "previous_school": "Episcopal Collegiate (Arkansas/LMU)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Max Morgenstern",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Ermatingen,TG, Switzerland",
+     "country": "CH",
+     "previous_school": "Gymnasium Schloss Gaienhofen (St. Leo)",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Rami Samawi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Geneva, Switzerland",
+     "country": "CH",
+     "previous_school": "Gems First Point",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Tyler Schmutz",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://vcuathletics.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Josh Hill",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://vcuathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://vcuathletics.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://vcuathletics.com/",
+ "requests": [
+  {
+   "url": "https://vcuathletics.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://vcuathletics.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://vcuathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

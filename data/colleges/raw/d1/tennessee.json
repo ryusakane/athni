@@ -10,43 +10,163 @@
  "city": null,
  "state": "TN",
  "website_url": "https://www.utk.edu",
- "athletics_url": "https://www.utsports.com",
+ "athletics_url": "https://utsports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://utsports.com/sports/mens-golf",
+   "roster_url": "https://utsports.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/vol_golf",
+   "x_url": "https://x.com/Vol_Golf",
+   "facebook_url": "https://www.facebook.com/TennesseeMensGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://utsports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Pennson Badgett",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Pilot Mountain, N.C.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jackson Herrington",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dickson, Tenn.",
+     "country": "US",
+     "previous_school": "Dickson County"
+    },
+    {
+     "name": "Chase Kyes",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Birmingham, Ala.",
+     "country": "US",
+     "previous_school": "Spain Park"
+    },
+    {
+     "name": "Bruce Murphy",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Atlanta, Ga.",
+     "country": "US",
+     "previous_school": "Johns Creek High School"
+    },
+    {
+     "name": "Christian Pardue",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Arlington, Tenn.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Rudy Sautron",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Reunion Island, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Luke Smith",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario",
+     "country": "CA",
+     "previous_school": null
+    },
+    {
+     "name": "Tyler Watts",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Huntsville, Ala.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://utsports.com/sports/womens-golf",
+   "roster_url": "https://utsports.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/vol_wgolf",
+   "x_url": "https://x.com/Vol_WGolf",
+   "facebook_url": "https://www.facebook.com/VolWomensGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://utsports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Sophie Christopher",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Germantown, Tenn.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "An Le Chuc",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hanoi, Vietnam",
+     "country": "VN",
+     "previous_school": null
+    },
+    {
+     "name": "Sofie Engesæth",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Oslo, Norway",
+     "country": "NO",
+     "previous_school": null
+    },
+    {
+     "name": "Tanjira Issaraphon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Chonburi, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Martina Lopez-Lanchares",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Sebastián, Spain",
+     "country": "ES",
+     "previous_school": null
+    },
+    {
+     "name": "Madison Messimer",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Myrtle Beach, S.C.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Kyra Van Kan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Johannesburg, South Africa",
+     "country": "ZA",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +179,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://utsports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://utsports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

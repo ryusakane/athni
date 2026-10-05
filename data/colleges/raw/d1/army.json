@@ -14,21 +14,117 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://goarmywestpoint.com/sports/mens-golf",
+   "roster_url": "https://goarmywestpoint.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
-   "x_url": null,
+   "x_url": "https://x.com/ArmyWP_Golf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://goarmywestpoint.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Lawson Andress",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Macon, Ga. / First Presbyterian Day School",
+     "country": "US",
+     "previous_school": "Macon, Ga. / First Presbyterian Day School"
+    },
+    {
+     "name": "Andre Chang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Diamond Bar, Calif. / Servite",
+     "country": "US",
+     "previous_school": "Diamond Bar, Calif. / Servite"
+    },
+    {
+     "name": "Matthew Duke",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Midlothian, Va. / Georgetown Prep",
+     "country": "US",
+     "previous_school": "Midlothian, Va. / Georgetown Prep"
+    },
+    {
+     "name": "Griffin Garvin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Statesboro, Ga. / Bulloch Academy",
+     "country": "US",
+     "previous_school": "Statesboro, Ga. / Bulloch Academy"
+    },
+    {
+     "name": "William Huang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Howey-In-The-Hills, Fla. / Montverde Academy",
+     "country": "US",
+     "previous_school": "Howey-In-The-Hills, Fla. / Montverde Academy"
+    },
+    {
+     "name": "Drew Jeffords",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Florence, S.C. / Trinity Collegiate School",
+     "country": "US",
+     "previous_school": "Florence, S.C. / Trinity Collegiate School"
+    },
+    {
+     "name": "Ryan Lopez",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ft. Lauderdale, Fla. / Archbishop Alemany",
+     "country": "US",
+     "previous_school": "Ft. Lauderdale, Fla. / Archbishop Alemany"
+    },
+    {
+     "name": "Grant Paolucci",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Blythewood, S.C. / Blythewood High School",
+     "country": "US",
+     "previous_school": "Blythewood, S.C. / Blythewood High School"
+    },
+    {
+     "name": "Jack Parel",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Macon, Ga. / First Presbyterian Day School",
+     "country": "US",
+     "previous_school": "Macon, Ga. / First Presbyterian Day School"
+    },
+    {
+     "name": "Gavin Rivas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Atlanta, Ga. / The Westminster Schools",
+     "country": "US",
+     "previous_school": "Atlanta, Ga. / The Westminster Schools"
+    },
+    {
+     "name": "Naman Sharma",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Johns Creek, Ga. / Johns Creek",
+     "country": "US",
+     "previous_school": "Johns Creek, Ga. / Johns Creek"
+    },
+    {
+     "name": "Tyson Sparks",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Muskego, Wis. / eAchieve Academy",
+     "country": "US",
+     "previous_school": "Muskego, Wis. / eAchieve Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +132,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://goarmywestpoint.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

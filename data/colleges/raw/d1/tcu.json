@@ -12,30 +12,102 @@
  "city": null,
  "state": "TX",
  "website_url": "https://www.tcu.edu",
- "athletics_url": "https://www.gofrogs.com",
+ "athletics_url": "https://gofrogs.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gofrogs.com/sports/mens-golf",
+   "roster_url": "https://gofrogs.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/tcumensgolf",
+   "x_url": "https://x.com/TCUMensGolf",
+   "facebook_url": "https://www.facebook.com/TCUMensGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gofrogs.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Blake Brown",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cypress, Texas",
+     "country": "US",
+     "previous_school": "Bridgeland HS"
+    },
+    {
+     "name": "Blake Burt",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Austin Westlake HS"
+    },
+    {
+     "name": "Austin Hofferkamp",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "Acellus Academy"
+    },
+    {
+     "name": "Cameron Kuchar",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "Jupiter HS"
+    },
+    {
+     "name": "Nathan Miller",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dallas, Texas",
+     "country": "US",
+     "previous_school": "Trinity Christian Academy"
+    },
+    {
+     "name": "Sam Udovich",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Grove Heights, Minn.",
+     "country": "US",
+     "previous_school": "Cretin-Derham Hall HS"
+    },
+    {
+     "name": "Hudson Wilt",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nashville, Tenn.",
+     "country": "US",
+     "previous_school": "Ensworth HS"
+    },
+    {
+     "name": "Toby Wilt",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Nashville, Tenn.",
+     "country": "US",
+     "previous_school": "Ensworth HS"
+    },
+    {
+     "name": "Charlie Wylie",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Memorial HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gofrogs.com/sports/womens-golf",
+   "roster_url": "https://gofrogs.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -43,12 +115,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gofrogs.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Kirstin Angosta",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Las Vegas, Nev.",
+     "country": "US",
+     "previous_school": "Coppell HS"
+    },
+    {
+     "name": "Sofie Dimitrova",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Karlovy Vary, Czech Republic",
+     "country": "CZ",
+     "previous_school": "First Czech Grammar School in Karlovy Vary"
+    },
+    {
+     "name": "Ella Forss",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Gothenburg, Sweden",
+     "country": "SE",
+     "previous_school": "Kitas Gymnasium"
+    },
+    {
+     "name": "Henriette Gjelten",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lørenskog, Norway",
+     "country": "NO",
+     "previous_school": "Wang Romerike"
+    },
+    {
+     "name": "Gracie McGovern",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Scottsdale, Ariz.",
+     "country": "US",
+     "previous_school": "Scottsdale Christian Academy"
+    },
+    {
+     "name": "Camille Min-Gaultier",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "La Londe-les-Maures, France",
+     "country": "FR",
+     "previous_school": "Centre de Performance ffgolf"
+    },
+    {
+     "name": "Yvette O'Brien",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Greenwich, Conn.",
+     "country": "US",
+     "previous_school": "Grandview Preparatory School"
+    },
+    {
+     "name": "Claire Swathwood",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Carmel, Ind.",
+     "country": "US",
+     "previous_school": "Carmel HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +197,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gofrogs.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gofrogs.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -1,9 +1,206 @@
 {
  "slug": "richmond",
  "athletics_url": "https://richmondspiders.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://richmondspiders.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://richmondspiders.com/sports/mens-golf/roster",
+   "roster_source_url": "https://richmondspiders.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Davis Conaway",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "West Chester, Pa.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mason Deal",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Perrysburg, Ohio",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Jack LaPiana",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Charlotte, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Tyler Lee",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Franklin Lakes, N.J.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Parker Moellinger",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Vestavia Hills, Ala.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Quin Polin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cary, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Piercen Rice",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Team Impact",
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Rs."
+    },
+    {
+     "name": "Tommy Sharps",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Timonium, Md.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://richmondspiders.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://richmondspiders.com/sports/womens-golf/roster",
+   "roster_source_url": "https://richmondspiders.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Heather Appelson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wake Forest, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Maya Beasley",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Pinehurst, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Carter Bransford",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Glen Allen, Va.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Addie Doroh",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Charlottesville, Va.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Katie Magner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Winnetka, Ill.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Stella Moritz",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ponte Vedra Beach, Fla.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Caroline Thompson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Montgomery, Ohio",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://richmondspiders.com/",
- "requests": []
+ "requests": [
+  {
+   "url": "https://richmondspiders.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://richmondspiders.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://richmondspiders.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://richmondspiders.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://richmondspiders.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://richmondspiders.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

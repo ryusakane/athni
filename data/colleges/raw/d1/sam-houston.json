@@ -12,12 +12,12 @@
  "city": null,
  "state": "TX",
  "website_url": "https://www.shsu.edu",
- "athletics_url": "https://www.gobearkats.com",
+ "athletics_url": "https://gobearkats.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gobearkats.com/sports/mens-golf",
+   "roster_url": "https://gobearkats.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -25,17 +25,97 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gobearkats.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Oliver Cage",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Leeds, England",
+     "country": "GB",
+     "previous_school": "New Mexico"
+    },
+    {
+     "name": "Kyle Doolittle",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "New Braunfels, Texas",
+     "country": "US",
+     "previous_school": "Comal Davenport HS"
+    },
+    {
+     "name": "Jaxson Henegar",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Dallas, Texas",
+     "country": "US",
+     "previous_school": "Wilson HS"
+    },
+    {
+     "name": "Preston Hiller",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Johnson HS"
+    },
+    {
+     "name": "Jackson Hymer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Johnson HS / Baylor"
+    },
+    {
+     "name": "Brett Jones",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta",
+     "country": "CA",
+     "previous_school": "National Sports School / Barry"
+    },
+    {
+     "name": "Caleb Lumpkin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Stratford HS"
+    },
+    {
+     "name": "Alex Malanga",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "The Woodlands Christian Academy"
+    },
+    {
+     "name": "Ben Montreuil",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Round Rock, Texas",
+     "country": "US",
+     "previous_school": "Round Rock HS"
+    },
+    {
+     "name": "Grayson Petru",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Cypress Christian HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gobearkats.com/sports/womens-golf",
+   "roster_url": "https://gobearkats.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -43,12 +123,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gobearkats.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Brooke Frerichs",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta",
+     "country": "CA",
+     "previous_school": "Lake Mary Prep / Lamar"
+    },
+    {
+     "name": "Amelia Guo",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Seabrook, Texas",
+     "country": "US",
+     "previous_school": "Clear Lake HS"
+    },
+    {
+     "name": "Jordyn Herridge",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Montgomery, Texas",
+     "country": "US",
+     "previous_school": "Montgomery HS"
+    },
+    {
+     "name": "Isabelle Hurrion",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Sutton Coldfield, England",
+     "country": "GB",
+     "previous_school": "St. Andrew's School"
+    },
+    {
+     "name": "Pureun Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Berlin, Germany",
+     "country": "DE",
+     "previous_school": "Hildegard-Wegscheider Gymnasium"
+    },
+    {
+     "name": "Bomyeong Lee",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Busan, South Korea",
+     "country": "KR",
+     "previous_school": "Busan Culture Girls' HS"
+    },
+    {
+     "name": "Victoria Renzi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Buenos Aires, Argentina",
+     "country": "AR",
+     "previous_school": "Montverde Academy"
+    },
+    {
+     "name": "Francesca Sumcad",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Jose, Calif.",
+     "country": "US",
+     "previous_school": "Valley Christian HS / Colorado"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +205,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gobearkats.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gobearkats.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

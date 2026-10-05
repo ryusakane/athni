@@ -10,12 +10,12 @@
  "city": null,
  "state": "AL",
  "website_url": "https://www.ua.edu",
- "athletics_url": "https://www.rolltide.com",
+ "athletics_url": "https://rolltide.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://rolltide.com/sports/mens-golf",
+   "roster_url": "https://rolltide.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,97 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://rolltide.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Michael Crocker",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mobile, Ala. / McGill-Toolen HS",
+     "country": "US",
+     "previous_school": "Mobile, Ala. / McGill-Toolen HS"
+    },
+    {
+     "name": "Phillip Dunham",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ponte Vedra Beach, Fla. / Home Schooled",
+     "country": "US",
+     "previous_school": "Ponte Vedra Beach, Fla. / Home Schooled"
+    },
+    {
+     "name": "Miles Eubanks",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Warrensville, Ga. / South Aiken",
+     "country": "US",
+     "previous_school": "Warrensville, Ga. / South Aiken"
+    },
+    {
+     "name": "Nick Gross",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Downingtown, Pa. / Downingtown West HS",
+     "country": "US",
+     "previous_school": "Downingtown, Pa. / Downingtown West HS"
+    },
+    {
+     "name": "Andrew Hinson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Huntsville, Ala. / Randolph School",
+     "country": "US",
+     "previous_school": "Huntsville, Ala. / Randolph School"
+    },
+    {
+     "name": "William Jennings",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greenville, S.C. / Christ Church HS",
+     "country": "US",
+     "previous_school": "Greenville, S.C. / Christ Church HS"
+    },
+    {
+     "name": "Brycen Jones",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Thomasville, Ga. / Thomasville High School",
+     "country": "US",
+     "previous_school": "Thomasville, Ga. / Thomasville High School"
+    },
+    {
+     "name": "Jack Mitchell",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Athens, Ala. / James Clemens HS",
+     "country": "US",
+     "previous_school": "Athens, Ala. / James Clemens HS"
+    },
+    {
+     "name": "Luke Powell",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Laguna Niguel, Calif. / Capistrano Valley Christian Schools",
+     "country": "US",
+     "previous_school": "Laguna Niguel, Calif. / Capistrano Valley Christian Schools"
+    },
+    {
+     "name": "Bailey Sutter",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cullman, Ala. / Home Schooled",
+     "country": "US",
+     "previous_school": "Cullman, Ala. / Home Schooled"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://rolltide.com/sports/womens-golf",
+   "roster_url": "https://rolltide.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +121,68 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://rolltide.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Amely Bochaton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Evian Les Bains, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Isabel Immelman",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Columbus, Ga.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Alice Johansson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bollnäs, Sweden",
+     "country": "SE",
+     "previous_school": null
+    },
+    {
+     "name": "Tiphani Knight",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Almeria, Spain",
+     "country": "ES",
+     "previous_school": null
+    },
+    {
+     "name": "Manon Petitcolas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Luttange, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Natachanok Tunwannarux",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Alvilda Wiberg",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Køge, Denmark",
+     "country": "DK",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

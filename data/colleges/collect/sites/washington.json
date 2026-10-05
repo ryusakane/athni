@@ -1,9 +1,137 @@
 {
  "slug": "washington",
  "athletics_url": "https://www.gohuskies.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gohuskies.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gohuskies.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gohuskies.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Quinn Burwell",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Seattle, Wash.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "1st"
+    },
+    {
+     "name": "Hamish Farquharson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Melbourne, Australia",
+     "country": "AU",
+     "previous_school": null,
+     "class_raw": "1st"
+    },
+    {
+     "name": "Jake Foley",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dublin, Ireland",
+     "country": "IE",
+     "previous_school": null,
+     "class_raw": "3rd"
+    },
+    {
+     "name": "Emil Herstad",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Nittedal, Norway",
+     "country": "NO",
+     "previous_school": null,
+     "class_raw": "2nd"
+    },
+    {
+     "name": "Finn Koelle",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sulzfeld, Germany",
+     "country": "DE",
+     "previous_school": null,
+     "class_raw": "4th"
+    },
+    {
+     "name": "Walker Lamb",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bothell, Wash.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "3rd"
+    },
+    {
+     "name": "Brock Maulding",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lake Tapps, Wash.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "3rd"
+    },
+    {
+     "name": "Grady Millar",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Vancouver, Wash.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "2nd"
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gohuskies.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://gohuskies.com:443",
- "requests": []
+ "requests": [
+  {
+   "url": "https://gohuskies.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gohuskies.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gohuskies.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://gohuskies.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gohuskies.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gohuskies.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

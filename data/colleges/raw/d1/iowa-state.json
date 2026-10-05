@@ -10,12 +10,12 @@
  "city": null,
  "state": "IA",
  "website_url": "https://www.iastate.edu",
- "athletics_url": "https://www.cyclones.com",
+ "athletics_url": "https://cyclones.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://cyclones.com/sports/womens-golf",
+   "roster_url": "https://cyclones.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,30 +23,126 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://cyclones.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Nichakorn Pinprayoon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lopburi, Thailand / Pibulwitthayalai School",
+     "country": "TH",
+     "previous_school": "Lopburi, Thailand / Pibulwitthayalai School"
+    },
+    {
+     "name": "Krittiya Thanintorndamrongdej",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chonburi,Thailand / Kasetsart University Laboratory School",
+     "country": "TH",
+     "previous_school": "Chonburi,Thailand / Kasetsart University Laboratory School"
+    },
+    {
+     "name": "Aelisa Twiltermsup",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / The American School of Bangkok",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / The American School of Bangkok"
+    },
+    {
+     "name": "Alexandra Vidal",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Barcelona, Spain / Centro de Alto Rendimiento",
+     "country": "ES",
+     "previous_school": "Barcelona, Spain / Centro de Alto Rendimiento"
+    },
+    {
+     "name": "Isabella Yan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Beijing, China / XCL School",
+     "country": "CN",
+     "previous_school": "Beijing, China / XCL School"
+    },
+    {
+     "name": "Emma Zheng",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Auckland, New Zealand / Saint Kentigern College",
+     "country": "NZ",
+     "previous_school": "Auckland, New Zealand / Saint Kentigern College"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://cyclones.com/sports/womens-golf",
+   "roster_url": "https://cyclones.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "x_url": "https://x.com/CycloneWGOLF",
+   "facebook_url": "https://www.facebook.com/CycloneWGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://cyclones.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Nichakorn Pinprayoon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lopburi, Thailand / Pibulwitthayalai School",
+     "country": "TH",
+     "previous_school": "Lopburi, Thailand / Pibulwitthayalai School"
+    },
+    {
+     "name": "Krittiya Thanintorndamrongdej",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chonburi,Thailand / Kasetsart University Laboratory School",
+     "country": "TH",
+     "previous_school": "Chonburi,Thailand / Kasetsart University Laboratory School"
+    },
+    {
+     "name": "Aelisa Twiltermsup",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / The American School of Bangkok",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / The American School of Bangkok"
+    },
+    {
+     "name": "Alexandra Vidal",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Barcelona, Spain / Centro de Alto Rendimiento",
+     "country": "ES",
+     "previous_school": "Barcelona, Spain / Centro de Alto Rendimiento"
+    },
+    {
+     "name": "Isabella Yan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Beijing, China / XCL School",
+     "country": "CN",
+     "previous_school": "Beijing, China / XCL School"
+    },
+    {
+     "name": "Emma Zheng",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Auckland, New Zealand / Saint Kentigern College",
+     "country": "NZ",
+     "previous_school": "Auckland, New Zealand / Saint Kentigern College"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +155,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://cyclones.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

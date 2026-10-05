@@ -1,9 +1,101 @@
 {
  "slug": "norfolk-state",
  "athletics_url": "https://www.nsuspartans.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.nsuspartans.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://nsuspartans.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://nsuspartans.com/sports/womens-golf/roster",
+   "roster_source_url": "https://nsuspartans.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Tihun Chapman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Atlanta, Ga.",
+     "country": "US",
+     "previous_school": "Jackson State",
+     "class_raw": "So."
+    },
+    {
+     "name": "Madison Dennard",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Pontiac, Mich.",
+     "country": "US",
+     "previous_school": "Southfield Christian School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jael Gray",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio",
+     "country": "US",
+     "previous_school": "Anderson HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jalisa Johnson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Detroit, Mich.",
+     "country": "US",
+     "previous_school": "River Rouge HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Makynzie Waters",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Detroit, Mich.",
+     "country": "US",
+     "previous_school": "Cass Technical HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Cabriel Duren",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nsuspartans.com/staff-directory"
+    },
+    {
+     "name": "Arthur Lewis",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nsuspartans.com/staff-directory"
+    }
+   ],
+   "coaches_url": "https://nsuspartans.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://nsuspartans.com/",
+ "requests": [
+  {
+   "url": "https://nsuspartans.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://nsuspartans.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://nsuspartans.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

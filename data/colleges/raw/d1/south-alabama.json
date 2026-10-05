@@ -10,43 +10,224 @@
  "city": null,
  "state": "AL",
  "website_url": "https://www.southalabama.edu",
- "athletics_url": "https://www.usajaguars.com",
+ "athletics_url": "https://usajaguars.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
+   "golf_url": "https://usajaguars.com/sports/mens-golf",
+   "roster_url": "https://usajaguars.com/sports/mens-golf/roster",
+   "coaches_url": "https://usajaguars.com/staff-directory",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://usajaguars.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Mason Crowder",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dothan, Ala.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Buddy Fleming",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mobile, Ala.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Easton Haworth",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Janesville, Wis.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Cole Haygood",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Ponce Inlet, Fla.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Michael Heaton",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fairhope, Ala.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Josh Hill",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "County Antrim, Northern Ireland",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Tim Kretschmann",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Viernheim, Germany",
+     "country": "DE",
+     "previous_school": null
+    },
+    {
+     "name": "David Lafreniere",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ottawa, Canada",
+     "country": "CA",
+     "previous_school": null
+    },
+    {
+     "name": "Filip Svendsen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fredrikstad, Norway",
+     "country": "NO",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Ben Hannan",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "251-460-6213",
+     "source_url": "https://usajaguars.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jack Maxey",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usajaguars.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Avery Reed",
+     "title": "Volunteer Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usajaguars.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
+   "golf_url": "https://usajaguars.com/sports/womens-golf",
+   "roster_url": "https://usajaguars.com/sports/womens-golf/roster",
+   "coaches_url": "https://usajaguars.com/staff-directory",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://usajaguars.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Mercedes Aldana",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Buenos Aires, Argentina",
+     "country": "AR",
+     "previous_school": "Instituto San Vicente de Paul"
+    },
+    {
+     "name": "Lilian Buehle",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Stuttgart, Germany",
+     "country": "DE",
+     "previous_school": "Otto Hahn Gymnasium"
+    },
+    {
+     "name": "Katelyn Foster",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mobile, Ala.",
+     "country": "US",
+     "previous_school": "Baker High School"
+    },
+    {
+     "name": "Shiloh Gilbert",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Montgomery, Ala.",
+     "country": "US",
+     "previous_school": "Ezekiel Academy"
+    },
+    {
+     "name": "Léa Giron",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Nantes, France",
+     "country": "FR",
+     "previous_school": "Performance Center of the French Golf Federation"
+    },
+    {
+     "name": "Ana Malcolm Poch",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Canary Islands, Spain",
+     "country": "ES",
+     "previous_school": null
+    },
+    {
+     "name": "McKenna Murphy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Orlando, Fla.",
+     "country": "US",
+     "previous_school": "Lake Mary Prep"
+    },
+    {
+     "name": "Daniela Palmeros",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jersey Village, Texas",
+     "country": "US",
+     "previous_school": "Jersey Village High School"
+    },
+    {
+     "name": "Rebekka Stutley",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Adelaide, Australia",
+     "country": "AU",
+     "previous_school": "Jacksonville State"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Marcelo Huarte",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "251-460-6446",
+     "source_url": "https://usajaguars.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Paula Perez Cubinas",
+     "title": "Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usajaguars.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +240,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://usajaguars.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://usajaguars.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://usajaguars.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

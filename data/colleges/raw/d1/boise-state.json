@@ -10,12 +10,12 @@
  "city": null,
  "state": "ID",
  "website_url": "https://www.boisestate.edu",
- "athletics_url": "https://www.broncosports.com",
+ "athletics_url": "https://broncosports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://broncosports.com/sports/mens-golf",
+   "roster_url": "https://broncosports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,30 +23,166 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://broncosports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Justin Anderson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Idaho Falls, Idaho",
+     "country": "US",
+     "previous_school": "Thunder Falls HS"
+    },
+    {
+     "name": "Luke Cushman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Castle Rock, Colo.",
+     "country": "US",
+     "previous_school": "Castle View HS"
+    },
+    {
+     "name": "Trevor Garus",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Boise, Idaho",
+     "country": "US",
+     "previous_school": "Capital HS"
+    },
+    {
+     "name": "Chase Gorder",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Anthem, Ariz.",
+     "country": "US",
+     "previous_school": "Boulder Creek HS"
+    },
+    {
+     "name": "Reese Knox",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Peyton, Colo.",
+     "country": "US",
+     "previous_school": "Falcon HS"
+    },
+    {
+     "name": "Grant Potter",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hayden, Idaho",
+     "country": "US",
+     "previous_school": "Coeur d'Alene HS"
+    },
+    {
+     "name": "Dylan Rodgers",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Meridian, Idaho",
+     "country": "US",
+     "previous_school": "Meridian HS"
+    },
+    {
+     "name": "Ryan Shepherd",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Boise, Idaho",
+     "country": "US",
+     "previous_school": "Timberline HS"
+    },
+    {
+     "name": "Harry Thomas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Norwich, England",
+     "country": "GB",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://broncosports.com/sports/womens-golf",
+   "roster_url": "https://broncosports.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
+   "instagram_url": "https://www.instagram.com/boisestatewomensgolf",
    "x_url": null,
-   "facebook_url": null,
+   "facebook_url": "https://www.facebook.com/broncogolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://broncosports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Eva Becerril",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio",
+     "country": "US",
+     "previous_school": "Sycamore HS"
+    },
+    {
+     "name": "Leia Chung",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Wahiawa, Hawaii",
+     "country": "US",
+     "previous_school": "Leilehua HS"
+    },
+    {
+     "name": "Jaime Hards",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Adelaide, Australia",
+     "country": "AU",
+     "previous_school": "Adelaide HS"
+    },
+    {
+     "name": "Jillian Hui",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kennewick, Wash.",
+     "country": "US",
+     "previous_school": "Southridge HS"
+    },
+    {
+     "name": "Chloe Jang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Honolulu, Hawai'i",
+     "country": null,
+     "previous_school": "Roosevelt HS"
+    },
+    {
+     "name": "Alice Koontz",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Del Mar, Calif.",
+     "country": "US",
+     "previous_school": "Torrey Pines HS"
+    },
+    {
+     "name": "Teal Matsueda",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kaimuki, Hawaii",
+     "country": "US",
+     "previous_school": "Kalani HS"
+    },
+    {
+     "name": "Callia Ward",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Albuquerque, N.M.",
+     "country": "US",
+     "previous_school": "Laurel Springs School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

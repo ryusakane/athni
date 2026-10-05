@@ -1,9 +1,122 @@
 {
  "slug": "northern-arizona",
  "athletics_url": "https://www.nauathletics.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.nauathletics.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://nauathletics.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://nauathletics.com/sports/womens-golf/roster",
+   "roster_source_url": "https://nauathletics.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Sofia Blanco",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Santa Cruz de la Sierra, Bolivia",
+     "country": "BO",
+     "previous_school": "Santa Cruz Cooperative School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Frankie Dezis",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bath, England",
+     "country": "GB",
+     "previous_school": "Norton Hill School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Gracie Heinle",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "Sam Houston",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kristyna Malinova",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Prague, Czech Republic",
+     "country": "CZ",
+     "previous_school": "Gymnasium Ceskolipska",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Martyna Muchajer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Gorzow Wielkopolski, Poland",
+     "country": "PL",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Alexa Ouellet",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario",
+     "country": "CA",
+     "previous_school": "Northern Illinois",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ella Zanatta",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hamilton, Ontario",
+     "country": "CA",
+     "previous_school": "Central Michigan",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Brad Bedortha",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "928-523-1668",
+     "source_url": "https://nauathletics.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://nauathletics.com/staff-directory"
+     }
+    },
+    {
+     "name": "Lizzie Neale",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nauathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://nauathletics.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://nauathletics.com/splash.aspx?id=splash_29",
+ "requests": [
+  {
+   "url": "https://nauathletics.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

@@ -1,9 +1,150 @@
 {
  "slug": "villanova",
  "athletics_url": "https://www.villanova.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.villanova.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://villanova.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/villanovagolf",
+   "x_url": "https://x.com/villanovagolf",
+   "facebook_url": "https://www.facebook.com/VillanovaGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://villanova.com/sports/mens-golf/roster",
+   "roster_source_url": "https://villanova.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Vibhav Alokam",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ypsilanti, Mich.",
+     "country": "US",
+     "previous_school": "Ann Arbor Skyline",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Peter Barros",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethesda, Md.",
+     "country": "US",
+     "previous_school": "Georgetown Prep",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Cameron Besaw",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "New Canaan, Conn.",
+     "country": "US",
+     "previous_school": "Laurel Springs School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Michael Block",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Haverford, Pa.",
+     "country": "US",
+     "previous_school": "The Shipley School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "AJ Colonna",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "Oxbridge Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Luke Leonard",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "The Benjamin School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ian Love",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chicago, Ill.",
+     "country": "US",
+     "previous_school": "Saint Ignatius",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nathan Marion",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Ronald Reagan",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Evan Rohde",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Kinkaid",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "James Wilkes",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "5402",
+     "source_url": "https://villanova.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://villanova.com/staff-directory"
+     }
+    },
+    {
+     "name": "Patrick Aylward",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "4093",
+     "source_url": "https://villanova.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://villanova.com/staff-directory"
+     }
+    },
+    {
+     "name": "Mark Benevento",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://villanova.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://villanova.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://villanova.com/",
+ "requests": [
+  {
+   "url": "https://villanova.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://villanova.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://villanova.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

@@ -1,9 +1,149 @@
 {
  "slug": "army",
  "athletics_url": "https://goarmywestpoint.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://goarmywestpoint.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/ArmyWP_Golf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goarmywestpoint.com/sports/mens-golf/roster",
+   "roster_source_url": "https://goarmywestpoint.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Lawson Andress",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Macon, Ga. / First Presbyterian Day School",
+     "country": "US",
+     "previous_school": "Macon, Ga. / First Presbyterian Day School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Andre Chang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Diamond Bar, Calif. / Servite",
+     "country": "US",
+     "previous_school": "Diamond Bar, Calif. / Servite",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matthew Duke",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Midlothian, Va. / Georgetown Prep",
+     "country": "US",
+     "previous_school": "Midlothian, Va. / Georgetown Prep",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Griffin Garvin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Statesboro, Ga. / Bulloch Academy",
+     "country": "US",
+     "previous_school": "Statesboro, Ga. / Bulloch Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "William Huang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Howey-In-The-Hills, Fla. / Montverde Academy",
+     "country": "US",
+     "previous_school": "Howey-In-The-Hills, Fla. / Montverde Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Drew Jeffords",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Florence, S.C. / Trinity Collegiate School",
+     "country": "US",
+     "previous_school": "Florence, S.C. / Trinity Collegiate School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ryan Lopez",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ft. Lauderdale, Fla. / Archbishop Alemany",
+     "country": "US",
+     "previous_school": "Ft. Lauderdale, Fla. / Archbishop Alemany",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Grant Paolucci",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Blythewood, S.C. / Blythewood High School",
+     "country": "US",
+     "previous_school": "Blythewood, S.C. / Blythewood High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jack Parel",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Macon, Ga. / First Presbyterian Day School",
+     "country": "US",
+     "previous_school": "Macon, Ga. / First Presbyterian Day School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Gavin Rivas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Atlanta, Ga. / The Westminster Schools",
+     "country": "US",
+     "previous_school": "Atlanta, Ga. / The Westminster Schools",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Naman Sharma",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Johns Creek, Ga. / Johns Creek",
+     "country": "US",
+     "previous_school": "Johns Creek, Ga. / Johns Creek",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Tyson Sparks",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Muskego, Wis. / eAchieve Academy",
+     "country": "US",
+     "previous_school": "Muskego, Wis. / eAchieve Academy",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://goarmywestpoint.com/",
- "requests": []
+ "requests": [
+  {
+   "url": "https://goarmywestpoint.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goarmywestpoint.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goarmywestpoint.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

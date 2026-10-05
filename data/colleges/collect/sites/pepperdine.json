@@ -1,9 +1,215 @@
 {
  "slug": "pepperdine",
  "athletics_url": "https://www.pepperdinewaves.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.pepperdinewaves.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://pepperdinewaves.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/pepperdinemgolf",
+   "x_url": "https://x.com/PepperdineMGOLF",
+   "facebook_url": "https://www.facebook.com/PeppGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://pepperdinewaves.com/sports/mens-golf/roster",
+   "roster_source_url": "https://pepperdinewaves.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Oscar Bach",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Oslo, Norway",
+     "country": "NO",
+     "previous_school": "Norwegian School of Elite Sports",
+     "class_raw": "So."
+    },
+    {
+     "name": "Luke Dariotis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sacramento, Calif.",
+     "country": "US",
+     "previous_school": "Jesuit HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ayden Fynaut",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fresno, Calif.",
+     "country": "US",
+     "previous_school": "Endeavor Charter School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Antoine Jasmin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Blainville, Quebec, Canada",
+     "country": "CA",
+     "previous_school": "Académie Ste-Therese",
+     "class_raw": "So."
+    },
+    {
+     "name": "Carson Kim",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Yorba Linda, Calif.",
+     "country": "US",
+     "previous_school": "Sunny Hills HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Byungho Lee",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Seoul, South Korea",
+     "country": "KR",
+     "previous_school": "Spring Creek Academy (Plano, Texas)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Luke Ringkamp",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Palm Desert, Calif.",
+     "country": "US",
+     "previous_school": "Palm Desert",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kailer Stone",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Alameda, Calif.",
+     "country": "US",
+     "previous_school": "Alameda",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Willy Walsh",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Mateo, Calif.",
+     "country": "US",
+     "previous_school": "Junipero Serra HS",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://pepperdinewaves.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/pepperdinewgolf",
+   "x_url": "https://x.com/PepperdineWGolf",
+   "facebook_url": "https://www.facebook.com/WavesGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://pepperdinewaves.com/sports/womens-golf/roster",
+   "roster_source_url": "https://pepperdinewaves.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Grace Anderson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Burlington, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Blyth Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Eunseo Choi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Auckland, New Zealand",
+     "country": "NZ",
+     "previous_school": "Pinehurst School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kylee Choi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Murrieta, Calif.",
+     "country": "US",
+     "previous_school": "Rancho Christian HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Kaya Daluwatte",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Colombo, Sri Lanka",
+     "country": "LK",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Irene Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, Md.",
+     "country": "US",
+     "previous_school": "Acellus Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Katelyn Kong",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "North Hills, Calif.",
+     "country": "US",
+     "previous_school": "Notre Dame HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nishna Patel",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mumbai, India",
+     "country": "IN",
+     "previous_school": "St. Gregorio’s HS",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://pepperdinewaves.com:443",
+ "requests": [
+  {
+   "url": "https://pepperdinewaves.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://pepperdinewaves.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://pepperdinewaves.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://pepperdinewaves.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://pepperdinewaves.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://pepperdinewaves.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

@@ -10,12 +10,12 @@
  "city": null,
  "state": "TN",
  "website_url": "https://www.memphis.edu",
- "athletics_url": "https://www.gotigersgo.com",
+ "athletics_url": "https://gotigersgo.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gotigersgo.com/sports/mens-golf",
+   "roster_url": "https://gotigersgo.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gotigersgo.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Tobey Kim",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Zapopan, Jalisco, Mexico",
+     "country": "MX",
+     "previous_school": null
+    },
+    {
+     "name": "Tiago Ledgaro",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lima, Peru",
+     "country": "PE",
+     "previous_school": null
+    },
+    {
+     "name": "Diego Lourenco",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Orleans, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Christian Morneau",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Windsor, Ontario, Canada",
+     "country": "CA",
+     "previous_school": null
+    },
+    {
+     "name": "Lauri Paasilinna",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kirkkonummi, Finland",
+     "country": "FI",
+     "previous_school": null
+    },
+    {
+     "name": "Harrison Shaw",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Tulsa, Okla.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Luke Stennett",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Portland, Conn.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Chujing Su",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Shanghai, China",
+     "country": "CN",
+     "previous_school": null
+    },
+    {
+     "name": "Yixiang Wang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Dalian, China",
+     "country": "CN",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gotigersgo.com/sports/womens-golf",
+   "roster_url": "https://gotigersgo.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,68 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gotigersgo.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Sirichaya Chanpen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Hazel Cottriel",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Costa Mesa, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Malia Cottriel",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Costa Mesa, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Pavarisa Jongpipittaporn",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chang Mai, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Nutsanun Khamphueng",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Chonburi, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Maddie Smith",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Westford, Mass.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Claire Todd",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Memphis, Tenn.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +187,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gotigersgo.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gotigersgo.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

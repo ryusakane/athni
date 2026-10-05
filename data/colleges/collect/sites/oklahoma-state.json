@@ -1,9 +1,233 @@
 {
  "slug": "oklahoma-state",
  "athletics_url": "https://www.okstate.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.okstate.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://okstate.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://okstate.com/sports/mens-golf/roster",
+   "roster_source_url": "https://okstate.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Jaxon Bandelier",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Austin, Texas / Vandegrift High School",
+     "country": "US",
+     "previous_school": "Austin, Texas / Vandegrift High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Collin Bond",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Norman, Oklahoma / Community Christian",
+     "country": "US",
+     "previous_school": "Norman, Oklahoma / Community Christian",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Brady Catalano",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Upper Arlington, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Upper Arlington, Ohio / Upper Arlington",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Filip Fahlberg-Johnsson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lidingö, Sweden / Hersby Gymnasium",
+     "country": "SE",
+     "previous_school": "Lidingö, Sweden / Hersby Gymnasium",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ethan Fang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Plano, Texas / Plano West",
+     "country": "US",
+     "previous_school": "Plano, Texas / Plano West",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Henry Guan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Irving, Texas / Laurel Springs School",
+     "country": "US",
+     "previous_school": "Irving, Texas / Laurel Springs School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Gaven Lane",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Argyle, Texas / Argyle High School",
+     "country": "US",
+     "previous_school": "Argyle, Texas / Argyle High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ben Lathrop",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Oklahoma City, Oklahoma / Heritage Hall",
+     "country": "US",
+     "previous_school": "Oklahoma City, Oklahoma / Heritage Hall",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Eric Lee",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fullerton, California / LSHS iSierra Academy",
+     "country": "US",
+     "previous_school": "Fullerton, California / LSHS iSierra Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Preston Stout",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Richardson, Texas / JJ Pearce High School",
+     "country": "US",
+     "previous_school": "Richardson, Texas / JJ Pearce High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "John Wild",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Glen Ellyn, Illinois / Glenbard West High School",
+     "country": "US",
+     "previous_school": "Glen Ellyn, Illinois / Glenbard West High School",
+     "class_raw": "5th"
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://okstate.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://okstate.com/sports/womens-golf/roster",
+   "roster_source_url": "https://okstate.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Ellie Bushnell",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Granite Bay, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Yu-Chu Chen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Kaohsiung, Taiwan",
+     "country": "TW",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Lucy Darr",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Stillwater, Oklahoma",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Louise Depadt",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lusanger, France",
+     "country": "FR",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Summer Lee",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Plano, Texas",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Tarapath Panya",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Marta Silchenko",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Riga, Latvia",
+     "country": "LV",
+     "previous_school": null,
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://okstate.com:443",
+ "requests": [
+  {
+   "url": "https://okstate.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://okstate.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://okstate.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://okstate.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://okstate.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://okstate.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

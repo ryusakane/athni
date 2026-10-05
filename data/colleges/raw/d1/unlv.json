@@ -16,39 +16,220 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://unlvrebels.com/sports/mens-golf",
+   "roster_url": "https://unlvrebels.com/sports/mens-golf/roster",
+   "coaches_url": "https://unlvrebels.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/unlvrebelgolf",
+   "x_url": "https://x.com/UNLVGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://unlvrebels.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Ryan Abuan",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Temecula, CA",
+     "country": "US",
+     "previous_school": "San Diego"
+    },
+    {
+     "name": "Nico Bencomo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sarasota, FL",
+     "country": "US",
+     "previous_school": "Cardinal Mooney HS"
+    },
+    {
+     "name": "Baylor Bostick",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Duncan, OK",
+     "country": "US",
+     "previous_school": "Central Oklahoma"
+    },
+    {
+     "name": "Mason Haley",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Enid, OK",
+     "country": "US",
+     "previous_school": "Kansas City"
+    },
+    {
+     "name": "Avery Lazarski",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Las Vegas, NV",
+     "country": "US",
+     "previous_school": "Saint Mary's"
+    },
+    {
+     "name": "Zach Little",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Croxley Green, England",
+     "country": "GB",
+     "previous_school": "Central Arkansas"
+    },
+    {
+     "name": "Mason Snyder",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Las Vegas, NV",
+     "country": "US",
+     "previous_school": "Loyola Marymount"
+    },
+    {
+     "name": "Jack Taylor",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Phoenix, AZ",
+     "country": "US",
+     "previous_school": "South Mountain CC / Kansas State"
+    },
+    {
+     "name": "Aaron Van Hauwe",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tours, France",
+     "country": "FR",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Andres Gonzales",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "895-3714",
+     "source_url": "https://unlvrebels.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Eric Frazzetta",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "895-3714",
+     "source_url": "https://unlvrebels.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "golf_url": "https://unlvrebels.com/sports/womens-golf",
+   "roster_url": "https://unlvrebels.com/sports/womens-golf/roster",
+   "coaches_url": "https://unlvrebels.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/unlvwomensgolf",
+   "x_url": "https://x.com/UNLVWGolf",
+   "facebook_url": "https://www.facebook.com/UNLV-Womens-Golf-167999716563197",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://unlvrebels.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Arianna Bell",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Honolulu, HI",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Amber Chen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    },
+    {
+     "name": "Demi Du",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Las Vegas, NV",
+     "country": "US",
+     "previous_school": "Trinity International School"
+    },
+    {
+     "name": "Zi Yu Foong",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Salangor, Malaysia",
+     "country": "MY",
+     "previous_school": null
+    },
+    {
+     "name": "Addison Hines",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Arvada, CO",
+     "country": "US",
+     "previous_school": "Ralston Valley HS"
+    },
+    {
+     "name": "Jane Huang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kaohsiung, Taiwan",
+     "country": "TW",
+     "previous_school": "Kaohsinng HsinHsing High School"
+    },
+    {
+     "name": "Kuree Little",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Palmdale, CA",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Yen Liu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "New Taipei, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    },
+    {
+     "name": "Lana Yamagata",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "South Pasadena, CA",
+     "country": "US",
+     "previous_school": "South Pasadena Senior HS"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Amy Bush-Herzer",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "895-2091",
+     "source_url": "https://unlvrebels.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Luka Mudde",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://unlvrebels.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Madeleine Laux",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://unlvrebels.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +242,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://unlvrebels.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://unlvrebels.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://unlvrebels.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

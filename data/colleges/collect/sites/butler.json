@@ -1,9 +1,280 @@
 {
  "slug": "butler",
  "athletics_url": "https://www.butlersports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.butlersports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://butlersports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/butlermgolf",
+   "x_url": "https://x.com/ButlerUGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://butlersports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://butlersports.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Brooklynn Bohnert",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lanesville, Ind.",
+     "country": "US",
+     "previous_school": "Sacred Heart Academy (Ky.)",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Maddie Diedrich",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Zionsville, Ind.",
+     "country": "US",
+     "previous_school": "Zionsville",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Treva Dodd",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Brookfield, Wis.",
+     "country": "US",
+     "previous_school": "IMG Academy (Fla.)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kylie Eaton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greenville, R.I.",
+     "country": "US",
+     "previous_school": "Illinois",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ashley Freitas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sunnyvale, Calif.",
+     "country": "US",
+     "previous_school": "Homestead",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Rachel Johnson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Edwardsville, Ill.",
+     "country": "US",
+     "previous_school": "Edwardsville",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Addi Kooi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Westfield, Ind.",
+     "country": "US",
+     "previous_school": "Westfield",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sophie McGinnis",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Westfield, Ind.",
+     "country": "US",
+     "previous_school": "Westfield",
+     "class_raw": "R-Sr."
+    },
+    {
+     "name": "Samantha Von Rohr",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bradenton, Fla.",
+     "country": "US",
+     "previous_school": "IMG Academy (Fla.)",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Christie Cates '16",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://butlersports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Ally Ross, PharmD '22",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://butlersports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Evan Weeden, MS '19",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://butlersports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://butlersports.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://butlersports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/butlerwgolf",
+   "x_url": "https://x.com/ButlerUGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://butlersports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://butlersports.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Brooklynn Bohnert",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lanesville, Ind.",
+     "country": "US",
+     "previous_school": "Sacred Heart Academy (Ky.)",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Maddie Diedrich",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Zionsville, Ind.",
+     "country": "US",
+     "previous_school": "Zionsville",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Treva Dodd",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Brookfield, Wis.",
+     "country": "US",
+     "previous_school": "IMG Academy (Fla.)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kylie Eaton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greenville, R.I.",
+     "country": "US",
+     "previous_school": "Illinois",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ashley Freitas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sunnyvale, Calif.",
+     "country": "US",
+     "previous_school": "Homestead",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Rachel Johnson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Edwardsville, Ill.",
+     "country": "US",
+     "previous_school": "Edwardsville",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Addi Kooi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Westfield, Ind.",
+     "country": "US",
+     "previous_school": "Westfield",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sophie McGinnis",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Westfield, Ind.",
+     "country": "US",
+     "previous_school": "Westfield",
+     "class_raw": "R-Sr."
+    },
+    {
+     "name": "Samantha Von Rohr",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bradenton, Fla.",
+     "country": "US",
+     "previous_school": "IMG Academy (Fla.)",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Christie Cates '16",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "317-940-8785",
+     "source_url": "https://butlersports.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://butlersports.com/staff-directory"
+     }
+    },
+    {
+     "name": "Ally Ross, PharmD '22",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://butlersports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Evan Weeden, MS '19",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://butlersports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://butlersports.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://butlersports.com/",
+ "requests": [
+  {
+   "url": "https://butlersports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://butlersports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://butlersports.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://butlersports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://butlersports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://butlersports.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

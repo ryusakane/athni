@@ -10,25 +10,105 @@
  "city": null,
  "state": "ID",
  "website_url": "https://www.isu.edu",
- "athletics_url": "https://www.isubengals.com",
+ "athletics_url": "https://isubengals.com",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://isubengals.com/sports/womens-golf",
+   "roster_url": "https://isubengals.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
-   "facebook_url": null,
+   "facebook_url": "https://www.facebook.com/isuwomensgolf",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://isubengals.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Lauren Aasand",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Pocatello, ID",
+     "country": "US",
+     "previous_school": "Century HS"
+    },
+    {
+     "name": "Avery Bayer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bonners Ferry, ID",
+     "country": "US",
+     "previous_school": "Bonners Ferry HS"
+    },
+    {
+     "name": "Sarah Chen",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "New taipei City, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    },
+    {
+     "name": "Andrea Chin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Penang, Malaysia",
+     "country": "MY",
+     "previous_school": "Chung Ling Private HS"
+    },
+    {
+     "name": "Izzy Hassebrock",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Springfield, IL",
+     "country": "US",
+     "previous_school": "Sacred Heart Griffin High School"
+    },
+    {
+     "name": "Kaylie Parola",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Oakdale, CA",
+     "country": "US",
+     "previous_school": "Chico State"
+    },
+    {
+     "name": "Caroline Ryan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Aurora, Colorado",
+     "country": "US",
+     "previous_school": "Wyoming"
+    },
+    {
+     "name": "Erica Wang",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Kaohsiung City, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    },
+    {
+     "name": "Venus Yong",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kuantan, Pahang, Malaysia",
+     "country": "MY",
+     "previous_school": "Regent International School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Todd Loveland",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://isubengals.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +116,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://isubengals.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

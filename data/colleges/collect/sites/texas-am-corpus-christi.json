@@ -1,9 +1,128 @@
 {
  "slug": "texas-am-corpus-christi",
  "athletics_url": "https://www.goislanders.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.goislanders.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://goislanders.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/IslandersGolf",
+   "x_url": "https://x.com/IslandersGolf",
+   "facebook_url": "https://www.facebook.com/IslandersGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goislanders.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goislanders.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Hannah Creekmore",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rockport, Texas",
+     "country": "US",
+     "previous_school": "Rockport Fulton HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Carla Puente Fernandez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "IES Alfonso Moreno",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Samantha Gibbs",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fort Worth, Texas",
+     "country": "US",
+     "previous_school": "Timber Creek HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Corrina Haros",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mansfield, Texas",
+     "country": "US",
+     "previous_school": "Weatherford College",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ellie Harris",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kerrville, Texas",
+     "country": "US",
+     "previous_school": "Tivy HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Amber Martin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Edinburg, Texas",
+     "country": "US",
+     "previous_school": "Robert Vela HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Salysa Mason",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Surrey, England",
+     "country": "GB",
+     "previous_school": "FIU",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Abir Taibi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mohammedia, Morocco",
+     "country": "MA",
+     "previous_school": "Seminole State College",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Chris Adams",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goislanders.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Alessia Trebbi Tindall",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goislanders.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://goislanders.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goislanders.com/",
+ "requests": [
+  {
+   "url": "https://goislanders.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goislanders.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goislanders.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

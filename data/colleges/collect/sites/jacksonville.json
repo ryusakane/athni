@@ -1,9 +1,250 @@
 {
  "slug": "jacksonville",
  "athletics_url": "https://www.judolphins.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.judolphins.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://judolphins.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/jax_mgolf",
+   "x_url": "https://x.com/JAX_MGolf",
+   "facebook_url": "https://www.facebook.com/jumensgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://judolphins.com/sports/mens-golf/roster",
+   "roster_source_url": "https://judolphins.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Ledger Conley",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ga.",
+     "country": "US",
+     "previous_school": "Richmond Hill",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Will Harris",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cashiers, N.C.",
+     "country": "US",
+     "previous_school": "Out-of-Door Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sean Lee",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dover, Singapore",
+     "country": "SG",
+     "previous_school": "Anglo School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Brandon Lohr",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Orlando, Fla.",
+     "country": "US",
+     "previous_school": "Dr. Phillips High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Andrew Morgan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "The Bolles School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Evan Raynor",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "Bishop Kenny High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sean Reddy",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cork, Ireland",
+     "country": "IE",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Andrew Sevene",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cary, N.C.",
+     "country": "US",
+     "previous_school": "Cardinal Gibbons High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Billy Ver Straate",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lone Tree, Colo.",
+     "country": "US",
+     "previous_school": "Highlands Ranch",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Mike Blackburn",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "(904)-256-7479",
+     "source_url": "https://judolphins.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://judolphins.com/staff-directory"
+     }
+    },
+    {
+     "name": "Rick Pearson",
+     "title": "Volunteer Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://judolphins.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://judolphins.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://judolphins.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/jaxwgolf",
+   "x_url": "https://x.com/JAX_WGOLF",
+   "facebook_url": "https://www.facebook.com/JuWomensGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://judolphins.com/sports/womens-golf/roster",
+   "roster_source_url": "https://judolphins.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Maria Eir Gudjonsdottir",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mosfellsbær, Iceland",
+     "country": "IS",
+     "previous_school": "Commercial College of Iceland",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Cambree Hodge",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fleming Island, Fla.",
+     "country": "US",
+     "previous_school": "Daytona State",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Issy Hopkins",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Chepstow, Wales",
+     "country": "GB",
+     "previous_school": "Chepstow School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Abbie Justiz",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": "Edmond-North High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Hannah Lowery",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Myrtle Beach, SC",
+     "country": "US",
+     "previous_school": "Atlantic Collegiate Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Bretton Mackiewicz",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Longwood, Fla.",
+     "country": "US",
+     "previous_school": "Lake Brantley High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Kit Schaefer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hilton Head Island, S.C.",
+     "country": "US",
+     "previous_school": "Mississippi College",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Emma Wells",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "Daytona State",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jessica Welch",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://judolphins.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://judolphins.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://judolphins.com/splash.aspx?id=splash_47",
+ "requests": [
+  {
+   "url": "https://judolphins.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://judolphins.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://judolphins.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://judolphins.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://judolphins.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://judolphins.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

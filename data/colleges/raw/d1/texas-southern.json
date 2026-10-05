@@ -10,43 +10,201 @@
  "city": null,
  "state": "TX",
  "website_url": "https://www.tsu.edu",
- "athletics_url": "https://www.tsusports.com",
+ "athletics_url": "https://tsusports.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://tsusports.com/sports/mens-golf",
+   "roster_url": "https://tsusports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://tsusports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Kingston Harper",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Seabrook, Texas",
+     "country": "US",
+     "previous_school": "Clear Falls High School"
+    },
+    {
+     "name": "Lawson Heffernan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Norwood, Ontario",
+     "country": "CA",
+     "previous_school": "Norwood District HS"
+    },
+    {
+     "name": "Ajani Johnson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lafayette, Indiana",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Bhum Juangsiribhumseth",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null
+    },
+    {
+     "name": "Bradley Lavinier",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Ricardo Pham",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Jose, California",
+     "country": "US",
+     "previous_school": "Branham High School"
+    },
+    {
+     "name": "Yashal Shah",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Karachi, Pakistan",
+     "country": "PK",
+     "previous_school": null
+    },
+    {
+     "name": "Justin Tang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kaohsiung City, Taiwan",
+     "country": "TW",
+     "previous_school": "Min Da High School"
+    },
+    {
+     "name": "Javier Vazquez",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Juan, Puerto Rico",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Willie Shankle, PGA",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tsusports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Sylvia Masango",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tsusports.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
+   "golf_url": "https://tsusports.com/sports/womens-golf",
+   "roster_url": "https://tsusports.com/sports/womens-golf/roster",
+   "coaches_url": "https://tsusports.com/staff-directory",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://tsusports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Thaiz Amezcua",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mexico City, Mexico",
+     "country": "MX",
+     "previous_school": null
+    },
+    {
+     "name": "Zufan Girard",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tucson, Arizona",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Shawnise Gregory",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Birmingham, Alabama",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Carmen Pate",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "League City, Texas",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Chemari Pratt",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "New Providence, Bahamas",
+     "country": "BS",
+     "previous_school": null
+    },
+    {
+     "name": "Abiha Syed",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Karachi, Pakistan",
+     "country": "PK",
+     "previous_school": null
+    },
+    {
+     "name": "Daniah Syed",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Karachi, Pakistan",
+     "country": "PK",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Willie Shankle, PGA",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tsusports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Sylvia Masango",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tsusports.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +217,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://tsusports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://tsusports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://tsusports.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -1,9 +1,130 @@
 {
  "slug": "nicholls-state",
  "athletics_url": "https://www.geauxcolonels.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.geauxcolonels.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://geauxcolonels.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/Nicholls_GOLF",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://geauxcolonels.com/sports/mens-golf/roster",
+   "roster_source_url": "https://geauxcolonels.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Elliot Aucoin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Baton Rouge, La.",
+     "country": "US",
+     "previous_school": "Parkview Baptist",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ongsa Booncharn",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": "William Carey",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "James Bould",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cobham, Surrey, England",
+     "country": "GB",
+     "previous_school": "City of London Freemens",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ashton Green",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ethan Marx",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Covington, La.",
+     "country": "US",
+     "previous_school": "Mandeville",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jack Moro",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Thunder Bay, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "St. Patrick",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Chase Pochylko",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Saskatoon, Saskatchewan, Canada",
+     "country": "CA",
+     "previous_school": "Aden Bowman Collegiate",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kyle Traub",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "New Orleans, La.",
+     "country": "US",
+     "previous_school": "Brother Martin",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Dylan Weber",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Guelph, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Bishop MacDonell Catholic",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "James Schilling",
+     "title": "Head Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://geauxcolonels.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://geauxcolonels.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://geauxcolonels.com/",
+ "requests": [
+  {
+   "url": "https://geauxcolonels.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://geauxcolonels.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://geauxcolonels.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

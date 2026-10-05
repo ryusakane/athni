@@ -10,12 +10,12 @@
  "city": null,
  "state": "MS",
  "website_url": "https://www.msstate.edu",
- "athletics_url": "https://www.hailstate.com",
+ "athletics_url": "https://hailstate.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://hailstate.com/sports/mens-golf",
+   "roster_url": "https://hailstate.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://hailstate.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Finn Burkholder",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas / The Woodlands HS",
+     "country": "US",
+     "previous_school": "The Woodlands, Texas / The Woodlands HS"
+    },
+    {
+     "name": "Jackson Cook",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "West Point, Miss. / Oak Hill Academy",
+     "country": "US",
+     "previous_school": "West Point, Miss. / Oak Hill Academy"
+    },
+    {
+     "name": "Yago Horno",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Sotogrande, Spain / Education Worldwide",
+     "country": "ES",
+     "previous_school": "Sotogrande, Spain / Education Worldwide"
+    },
+    {
+     "name": "Bryson Hughes",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Saint John's, Fla. / Creekside HS",
+     "country": "US",
+     "previous_school": "Saint John's, Fla. / Creekside HS"
+    },
+    {
+     "name": "Gavin Isbell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Trussville, Ala. / Hewitt-Trussville HS",
+     "country": "US",
+     "previous_school": "Trussville, Ala. / Hewitt-Trussville HS"
+    },
+    {
+     "name": "Ben Kelling",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bad Feilnbach, Germany / Gymnasium bad Feilnbach",
+     "country": "DE",
+     "previous_school": "Bad Feilnbach, Germany / Gymnasium bad Feilnbach"
+    },
+    {
+     "name": "Arth Sinha",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Melbourne, Fla. / Viera HS",
+     "country": "US",
+     "previous_school": "Melbourne, Fla. / Viera HS"
+    },
+    {
+     "name": "Jackson Skinner",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Birmingham, Ala. / Mountain Brook HS",
+     "country": "US",
+     "previous_school": "Birmingham, Ala. / Mountain Brook HS"
+    },
+    {
+     "name": "Drew Wilson",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Potts Camp, Miss. / Hickory Flat Attendance Center",
+     "country": "US",
+     "previous_school": "Potts Camp, Miss. / Hickory Flat Attendance Center"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://hailstate.com/sports/womens-golf",
+   "roster_url": "https://hailstate.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://hailstate.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Alona Avery",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Riverside, Calif. / California Connections Academy",
+     "country": "US",
+     "previous_school": "Riverside, Calif. / California Connections Academy"
+    },
+    {
+     "name": "Ines Belchior",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lisbon, Portugal / Salesianos de Lisboa",
+     "country": "PT",
+     "previous_school": "Lisbon, Portugal / Salesianos de Lisboa"
+    },
+    {
+     "name": "Alicia Bellendir",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Coppell, Texas / Coppell High School",
+     "country": "US",
+     "previous_school": "Coppell, Texas / Coppell High School"
+    },
+    {
+     "name": "Harper Hinckley",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Summit, Miss. / Parklane Academy",
+     "country": "US",
+     "previous_school": "Summit, Miss. / Parklane Academy"
+    },
+    {
+     "name": "Blondie Persson-Lidgren",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lund, Sweden / Filbornaskolan",
+     "country": "SE",
+     "previous_school": "Lund, Sweden / Filbornaskolan"
+    },
+    {
+     "name": "Moa Stridh",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lidköping, Sweden / Filbornaskolan",
+     "country": "SE",
+     "previous_school": "Lidköping, Sweden / Filbornaskolan"
+    },
+    {
+     "name": "Lynn van der Sluijs",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Den Bosch, Netherlands / Rodenborch College",
+     "country": "NL",
+     "previous_school": "Den Bosch, Netherlands / Rodenborch College"
+    },
+    {
+     "name": "Avery Weed",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ocean Springs, Miss. / Ocean Springs HS",
+     "country": "US",
+     "previous_school": "Ocean Springs, Miss. / Ocean Springs HS"
+    },
+    {
+     "name": "Samantha Whateley",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Johannesburg, South Africa / St. Marys School, Waverly",
+     "country": "ZA",
+     "previous_school": "Johannesburg, South Africa / St. Marys School, Waverly"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://hailstate.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://hailstate.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

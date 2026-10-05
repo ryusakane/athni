@@ -1,9 +1,243 @@
 {
  "slug": "new-mexico-state",
  "athletics_url": "https://www.nmstatesports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.nmstatesports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://nmstatesports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/nmstatemgolf",
+   "x_url": "https://x.com/NMStateMGolf",
+   "facebook_url": "https://www.facebook.com/NMStateMGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://nmstatesports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://nmstatesports.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Brasen Briones",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Tucson, Ariz.",
+     "country": "US",
+     "previous_school": "Ironwood Ridge HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Frank Cabeza",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Max Chan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dallas, Texas",
+     "country": "US",
+     "previous_school": "Dallas Jesuit",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jackson Funkhouser",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "College Station, Texas",
+     "country": "US",
+     "previous_school": "Allen Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Bryant Hernandez",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Marino, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kostka Horno",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Spain",
+     "country": "ES",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Mateo Payán",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cali, Colombia",
+     "country": "CO",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Santiago Russi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Colombia",
+     "country": "CO",
+     "previous_school": null,
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Mike Dirks",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nmstatesports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Mike McGilton",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nmstatesports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Neil Thomas",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nmstatesports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://nmstatesports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/nmstatewgolf",
+   "x_url": "https://x.com/NMStateWGolf",
+   "facebook_url": "https://www.facebook.com/NMStateWGOLF",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://nmstatesports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://nmstatesports.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Alexandria Armendariz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Las Cruces, N.M.",
+     "country": "US",
+     "previous_school": "Centennial HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sophia Luna",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Riverside, Calif.",
+     "country": "US",
+     "previous_school": "Riverside Polytechnic HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Linnea Olson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Beddingestrand, Sweden",
+     "country": "SE",
+     "previous_school": "Sundsgymnasiet",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Camille Pazouki",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Ronald Reagan HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Frederika Rychtarikova",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Povazska Bystrica",
+     "country": null,
+     "previous_school": "Stredna Sportova Skola",
+     "class_raw": "So."
+    },
+    {
+     "name": "Rylee Salome",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tome, N.M.",
+     "country": "US",
+     "previous_school": "Liberty University Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Carina Stauffer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Danny Bowen",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nmstatesports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Valentina Origel",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://nmstatesports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://nmstatesports.com/",
+ "requests": [
+  {
+   "url": "https://nmstatesports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://nmstatesports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://nmstatesports.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://nmstatesports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://nmstatesports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://nmstatesports.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

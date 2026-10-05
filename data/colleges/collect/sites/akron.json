@@ -1,9 +1,95 @@
 {
  "slug": "akron",
  "athletics_url": "https://gozips.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://gozips.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/zipswgolf",
+   "x_url": "https://x.com/zipswgolf",
+   "facebook_url": "https://www.facebook.com/ZipsWGOLF",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gozips.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gozips.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Katrin Horn Danielsdottir",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Reykjavik, Iceland",
+     "country": "IS",
+     "previous_school": "Menntaskólinn Við Sund",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kaitlin Kormuth",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Solon, Ohio",
+     "country": "US",
+     "previous_school": "Solon HS | Cleveland State",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sohniya Chandra Mohan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Selangor, Malaysia",
+     "country": "MY",
+     "previous_school": "SMK Seri Garing",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Amara Montoya",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jarales, N.M.",
+     "country": "US",
+     "previous_school": "International Virtual Learning Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Goethe Na Songkhla",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": "Chitralada School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Thitirat Silakham",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Photharam Rathaburi, Thailand",
+     "country": "TH",
+     "previous_school": "Ratcha Boric Nukhro School",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://gozips.com/",
- "requests": []
+ "requests": [
+  {
+   "url": "https://gozips.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gozips.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gozips.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

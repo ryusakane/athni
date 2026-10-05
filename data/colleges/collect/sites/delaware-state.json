@@ -1,9 +1,108 @@
 {
  "slug": "delaware-state",
  "athletics_url": "https://www.dsuhornets.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.dsuhornets.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://dsuhornets.com/sports/golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/dsuwomensgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://dsuhornets.com/sports/golf/roster",
+   "roster_source_url": "https://dsuhornets.com/sports/golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Grace Agbo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Abuja,Nigeria",
+     "country": "NG",
+     "previous_school": "Idoma Community Sec School Otobi Akpa",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Avah Allen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Atlanta, Georgia",
+     "country": "US",
+     "previous_school": "Arabia Mountain High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Stefani Cannon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bradenton, Fl",
+     "country": "US",
+     "previous_school": "Parrish Community High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Chloe Malgas-Kelpin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Oudthsoorn, South Africa",
+     "country": "ZA",
+     "previous_school": "Study House",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Raegan Williams",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Las Vegas, NV",
+     "country": "US",
+     "previous_school": "Rancho High School",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Sherri Pla",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://dsuhornets.com/sports/golf/roster"
+    },
+    {
+     "name": "Robert Bullet",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://dsuhornets.com/sports/golf/roster"
+    },
+    {
+     "name": "Jacques Blue",
+     "title": "Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://dsuhornets.com/sports/golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://dsuhornets.com/",
+ "requests": [
+  {
+   "url": "https://dsuhornets.com/sports/golf",
+   "status": 200
+  },
+  {
+   "url": "https://dsuhornets.com/sports/golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://dsuhornets.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

@@ -10,12 +10,12 @@
  "city": null,
  "state": "MI",
  "website_url": "https://www.umich.edu",
- "athletics_url": "https://www.mgoblue.com",
+ "athletics_url": "https://mgoblue.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://mgoblue.com/sports/mens-golf",
+   "roster_url": "https://mgoblue.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,105 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://mgoblue.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "RJ Arone",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Las Vegas, Nev.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Mackey Beckett",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jason Gordon",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Northbrook, Ill.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jack Harrington",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Portland, Ore.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jordan Hwang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ontario",
+     "country": "CA",
+     "previous_school": null
+    },
+    {
+     "name": "Dean Muratore",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dix Hills, N.Y.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Nilay Naik",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lake Oswego, Ore.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Caden Pinckes",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "La Costa, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Spencer Shropshire",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Orillia, Ontario",
+     "country": "CA",
+     "previous_school": null
+    },
+    {
+     "name": "Nicolas Simon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Elk Grove Village, Ill.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Johnny Solis",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Laredo, Texas",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://mgoblue.com/sports/womens-golf",
+   "roster_url": "https://mgoblue.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +129,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://mgoblue.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Guia Acutis",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Milan, Italy",
+     "country": "IT",
+     "previous_school": null
+    },
+    {
+     "name": "Thomasine Bartholdson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden",
+     "country": "SE",
+     "previous_school": null
+    },
+    {
+     "name": "Martha Kuwahara",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Northbrook, Ill.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jaymie Ng",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Singapore",
+     "country": "SG",
+     "previous_school": null
+    },
+    {
+     "name": "Reese Ng",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Philippines",
+     "country": "PH",
+     "previous_school": null
+    },
+    {
+     "name": "Amanda Revuelta",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": null
+    },
+    {
+     "name": "Grace Wang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Rochester, Mich.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Vanessa Zhang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Beijing, China",
+     "country": "CN",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://mgoblue.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://mgoblue.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

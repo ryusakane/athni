@@ -13,12 +13,12 @@
  "city": null,
  "state": "LA",
  "website_url": "https://www.louisiana.edu",
- "athletics_url": "https://www.ragincajuns.com",
+ "athletics_url": "https://ragincajuns.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ragincajuns.com/sports/golf",
+   "roster_url": "https://ragincajuns.com/sports/golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -26,12 +26,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ragincajuns.com/sports/golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Skuli Agustsson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Akureyri, Iceland",
+     "country": "IS",
+     "previous_school": "Menntaskólinn á Akureyri"
+    },
+    {
+     "name": "Ellis Bright",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Trowbridge, England",
+     "country": "GB",
+     "previous_school": "St. Augustine's Catholic College"
+    },
+    {
+     "name": "Jay Brooks",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Boca Raton, Fla.",
+     "country": "US",
+     "previous_school": "Spanish River"
+    },
+    {
+     "name": "Jack Carter",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Baton Rouge, La.",
+     "country": "US",
+     "previous_school": "Parkview Baptist School"
+    },
+    {
+     "name": "Kye Hanks",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lake Charles, La.",
+     "country": "US",
+     "previous_school": "St. Louis Catholic"
+    },
+    {
+     "name": "James Holtsclaw",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Shreveport, La.",
+     "country": "US",
+     "previous_school": "C.E. Byrd"
+    },
+    {
+     "name": "Carter Schmitt",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Baton Rouge, La.",
+     "country": "US",
+     "previous_school": "Catholic"
+    },
+    {
+     "name": "Nathan Schuldt",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pretoria, South Africa",
+     "country": "ZA",
+     "previous_school": "St. Albans College"
+    },
+    {
+     "name": "Drew Sliman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lafayette, La.",
+     "country": "US",
+     "previous_school": "Lafayette"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -39,6 +111,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://ragincajuns.com/sports/golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

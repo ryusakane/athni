@@ -12,25 +12,95 @@
  "city": null,
  "state": "FL",
  "website_url": "https://www.fiu.edu",
- "athletics_url": "https://www.fiusports.com",
+ "athletics_url": "https://fiusports.com",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "golf_url": "https://fiusports.com/sports/womens-golf",
+   "roster_url": "https://fiusports.com/sports/womens-golf/roster",
+   "coaches_url": "https://fiusports.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/fiuwgolf",
+   "x_url": "https://x.com/fiuwgolf",
+   "facebook_url": "https://www.facebook.com/FIUWGolf",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://fiusports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Audur Bergrun Snorradottir",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mosfellsbaer, Iceland",
+     "country": "IS",
+     "previous_school": null
+    },
+    {
+     "name": "Gabriella Gomez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Miami, Fla.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Manon Guille",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Aubigny, France",
+     "country": "FR",
+     "previous_school": "Wichita State/Abilene Christian"
+    },
+    {
+     "name": "Catalina Harvey",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Palm Harbor, Fla.",
+     "country": "US",
+     "previous_school": "Palm Harbor University"
+    },
+    {
+     "name": "Alisa Molokanova",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Moscow, Russia",
+     "country": "RU",
+     "previous_school": "Nika School"
+    },
+    {
+     "name": "Amandine Seguin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Menton, France",
+     "country": "FR",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "John Koskinen",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://fiusports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Kera Healey",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://fiusports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Gabriel Casanova",
+     "title": "Director, Athletic Training",
+     "email": null,
+     "phone": null,
+     "source_url": "https://fiusports.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -38,6 +108,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://fiusports.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -1,9 +1,242 @@
 {
  "slug": "providence",
  "athletics_url": "https://www.friars.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.friars.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://friars.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://friars.com/sports/mens-golf/roster",
+   "roster_source_url": "https://friars.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Evan Buddenhagen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Gloucester, Mass. / Kennesaw State",
+     "country": "US",
+     "previous_school": "Gloucester, Mass. / Kennesaw State",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Oliver Clark",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Baltimore, Md. / Franklin & Marshall College",
+     "country": "US",
+     "previous_school": "Baltimore, Md. / Franklin & Marshall College",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Callan Fahey",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Wheaton, Ill. / null",
+     "country": "US",
+     "previous_school": "Wheaton, Ill. / null",
+     "class_raw": "So."
+    },
+    {
+     "name": "Zac Georgantas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Foxborough, Mass. / null",
+     "country": "US",
+     "previous_school": "Foxborough, Mass. / null",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Maurice Hoben III",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. / null",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. / null",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Christian Iwai",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Aurora, Ont. / Rhodes College",
+     "country": "CA",
+     "previous_school": "Aurora, Ont. / Rhodes College",
+     "class_raw": "So."
+    },
+    {
+     "name": "Campbell Skelly",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Charleston, S.C. / Rollins College",
+     "country": "US",
+     "previous_school": "Charleston, S.C. / Rollins College",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Will Spring",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Concord, Mass. / null",
+     "country": "US",
+     "previous_school": "Concord, Mass. / null",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://friars.com/sports/wgolf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://friars.com/sports/wgolf/roster",
+   "roster_source_url": "https://friars.com/sports/wgolf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Olivia Arone",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "West Newton, Mass. / Newton North High School",
+     "country": "US",
+     "previous_school": "West Newton, Mass. / Newton North High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Bailey Baio",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bradenton, Fla. / IMG Academy",
+     "country": "US",
+     "previous_school": "Bradenton, Fla. / IMG Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Myla Bisceglia",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rye, N.Y. / Rye High School",
+     "country": "US",
+     "previous_school": "Rye, N.Y. / Rye High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Campbell Bridges",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Okatie, S.C. / Providence Academy",
+     "country": "US",
+     "previous_school": "Okatie, S.C. / Providence Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Grace Catalano",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cazenovia, N.Y. / Christian Brothers Academy",
+     "country": "US",
+     "previous_school": "Cazenovia, N.Y. / Christian Brothers Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Samantha Dunn",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Berlin, Conn. / Berlin High School",
+     "country": "US",
+     "previous_school": "Berlin, Conn. / Berlin High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Maddie Hyndman",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Palm Beach Gardens, Fla. / Oxbridge Academy",
+     "country": "US",
+     "previous_school": "Palm Beach Gardens, Fla. / Oxbridge Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Claire McTaggart",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Barrington, R.I. / Barrington High School",
+     "country": "US",
+     "previous_school": "Barrington, R.I. / Barrington High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Prisha Pandey",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Edison, N.J. / ICL Academy California",
+     "country": "US",
+     "previous_school": "Edison, N.J. / ICL Academy California",
+     "class_raw": "So."
+    },
+    {
+     "name": "Emma Peifly",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madison, N.J. / Madison High School",
+     "country": "US",
+     "previous_school": "Madison, N.J. / Madison High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Annabel Widdifield",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "McLean, Va. / The Potomac School",
+     "country": "US",
+     "previous_school": "McLean, Va. / The Potomac School",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://friars.com:443",
+ "requests": [
+  {
+   "url": "https://friars.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

@@ -1,9 +1,215 @@
 {
  "slug": "coastal-carolina",
  "athletics_url": "https://www.goccusports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.goccusports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://goccusports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goccusports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://goccusports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Lucas Arntsen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pawleys Island, S.C.",
+     "country": "US",
+     "previous_school": "Chanhassen (Minn.)",
+     "class_raw": "So."
+    },
+    {
+     "name": "Coleman Ferguson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Columbia, S.C.",
+     "country": "US",
+     "previous_school": "A.C. Flora High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Harrison James",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chapin, S.C.",
+     "country": "US",
+     "previous_school": "Chapin",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jack Lee",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sidcup, United Kingdom",
+     "country": "GB",
+     "previous_school": "Wilmington Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Santiago Schele",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Santiago, Chile",
+     "country": "CL",
+     "previous_school": "C-Dar",
+     "class_raw": "So."
+    },
+    {
+     "name": "Payton Schmitt",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wake Forest, N.C.",
+     "country": "US",
+     "previous_school": "Sandhills Homeschool",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Luke Splane",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Augustine, Fla.",
+     "country": "US",
+     "previous_school": "St. Augustine",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Drew Sykes",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Littlehampton, England",
+     "country": "GB",
+     "previous_school": "Angmering School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Waymon Thomas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mount Pleasant, S.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://goccusports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": "https://www.facebook.com/Coastal-Carolina-Womens-Golf-176078038597",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goccusports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goccusports.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Carla Bourdeaux",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hyeres, France / Academie De Nice",
+     "country": "FR",
+     "previous_school": "Hyeres, France / Academie De Nice",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Anna Brehm",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Taegerwilen, Switzerland / Alexander vonHumboldt Gymnasium Konstanz",
+     "country": "CH",
+     "previous_school": "Taegerwilen, Switzerland / Alexander vonHumboldt Gymnasium Konstanz",
+     "class_raw": "So."
+    },
+    {
+     "name": "Aoife Devaney",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Waterbury, Conn. / Holy Cross High School",
+     "country": "US",
+     "previous_school": "Waterbury, Conn. / Holy Cross High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Varatkarn Kunkaew",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / Saint Joseph Covent School",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / Saint Joseph Covent School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Celeste Mangeat",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Geneva, Switzerland / Ecole Moser",
+     "country": "CH",
+     "previous_school": "Geneva, Switzerland / Ecole Moser",
+     "class_raw": "So."
+    },
+    {
+     "name": "Aubrey Merryman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Summerville, S.C. / Pinewood Preparatory School",
+     "country": "US",
+     "previous_school": "Summerville, S.C. / Pinewood Preparatory School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kate Ryan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, Mo. / Father Tolton Catholic",
+     "country": "US",
+     "previous_school": "Columbia, Mo. / Father Tolton Catholic",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goccusports.com:443",
+ "requests": [
+  {
+   "url": "https://goccusports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goccusports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goccusports.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://goccusports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goccusports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goccusports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

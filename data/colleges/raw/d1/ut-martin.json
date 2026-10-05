@@ -10,12 +10,12 @@
  "city": null,
  "state": "TN",
  "website_url": "https://www.utm.edu",
- "athletics_url": "https://www.utmsports.com",
+ "athletics_url": "https://utmsports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://utmsports.com/sports/mens-golf",
+   "roster_url": "https://utmsports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,12 +23,100 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://utmsports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Luke Beadles",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nolensville, Tenn.",
+     "country": "US",
+     "previous_school": "Nolensville HS"
+    },
+    {
+     "name": "Bryce Harmon",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Knoxville, Tenn.",
+     "country": "US",
+     "previous_school": "Bearden HS"
+    },
+    {
+     "name": "Lucas Herring",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nashville, Tenn.",
+     "country": "US",
+     "previous_school": "Methodist"
+    },
+    {
+     "name": "Conner Hill",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Nashville, Tenn.",
+     "country": "US",
+     "previous_school": "Christ Presbyterian Academy"
+    },
+    {
+     "name": "Regan Kueker",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wamego, Kan.",
+     "country": "US",
+     "previous_school": "Wamego HS"
+    },
+    {
+     "name": "Ian Lambert",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jackson, Mo.",
+     "country": "US",
+     "previous_school": "Jackson HS"
+    },
+    {
+     "name": "Jaden Morrell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Knoxville, Tenn.",
+     "country": "US",
+     "previous_school": "Bearden HS"
+    },
+    {
+     "name": "Grant Phillips",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Marietta, Ga.",
+     "country": "US",
+     "previous_school": "Marietta HS"
+    },
+    {
+     "name": "Layton Richey",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bowling Green, Ky.",
+     "country": "US",
+     "previous_school": "Greenwood HS"
+    },
+    {
+     "name": "Drew Williams",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greensboro, Ga.",
+     "country": "US",
+     "previous_school": "Lake Oconee Academy"
+    },
+    {
+     "name": "John-Gregory Wilson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bolivar, Tenn.",
+     "country": "US",
+     "previous_school": "University School of Jackson"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +124,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://utmsports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

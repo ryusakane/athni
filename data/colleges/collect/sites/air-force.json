@@ -1,9 +1,122 @@
 {
  "slug": "air-force",
  "athletics_url": "https://www.goairforcefalcons.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.goairforcefalcons.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://goairforcefalcons.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": "https://www.facebook.com/AFGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goairforcefalcons.com/sports/mens-golf/roster",
+   "roster_source_url": "https://goairforcefalcons.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Grant Baer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Argyle, TX / John H. Guyer",
+     "country": "US",
+     "previous_school": "Argyle, TX / John H. Guyer",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Carson Baker",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Overland Park, KS / Blue Valley West",
+     "country": "US",
+     "previous_school": "Overland Park, KS / Blue Valley West",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Daniel Chazen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Diego, CA / Classical Academy",
+     "country": "US",
+     "previous_school": "San Diego, CA / Classical Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Halloran",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Pinehurst, NC / Pinecrest",
+     "country": "US",
+     "previous_school": "Pinehurst, NC / Pinecrest",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Eli Huntington",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Camas, WA / Camas",
+     "country": "US",
+     "previous_school": "Camas, WA / Camas",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Karson Knox",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wake Forest, NC / North Raleigh Christian",
+     "country": "US",
+     "previous_school": "Wake Forest, NC / North Raleigh Christian",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Grant Samuelson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fort Collins, CO / Fossil Ridge",
+     "country": "US",
+     "previous_school": "Fort Collins, CO / Fossil Ridge",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jackson Scaletta",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Anderson, SC / Home School",
+     "country": "US",
+     "previous_school": "Anderson, SC / Home School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ben Zeiler",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Del Mar, CA / Classical Academy",
+     "country": "US",
+     "previous_school": "Del Mar, CA / Classical Academy",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goairforcefalcons.com:443",
+ "requests": [
+  {
+   "url": "https://goairforcefalcons.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goairforcefalcons.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goairforcefalcons.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

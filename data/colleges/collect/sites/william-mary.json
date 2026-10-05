@@ -1,9 +1,267 @@
 {
  "slug": "william-mary",
  "athletics_url": "https://www.tribeathletics.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.tribeathletics.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://tribeathletics.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/WMTribeMGolf",
+   "x_url": "https://x.com/WMTribeMGolf",
+   "facebook_url": "https://www.facebook.com/WMTribeMGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://tribeathletics.com/sports/mens-golf/roster",
+   "roster_source_url": "https://tribeathletics.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Preston Burton",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Charlottesville, Va.",
+     "country": "US",
+     "previous_school": "Charlottesville",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Talon Dingledine",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chesterfield, Va.",
+     "country": "US",
+     "previous_school": "Monacan",
+     "class_raw": "So."
+    },
+    {
+     "name": "Eli Felty",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "North Chesterfield, Va.",
+     "country": "US",
+     "previous_school": "Veritas School",
+     "class_raw": "So."
+    },
+    {
+     "name": "James Gayle",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bristol, Va.",
+     "country": "US",
+     "previous_school": "McCallie School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Matthew Guy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Baltimore, Md.",
+     "country": "US",
+     "previous_school": "St. Paul's School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Whitty Richardson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Atlanta, Ga.",
+     "country": "US",
+     "previous_school": "Atlanta International School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Luke Walmet",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Charleston, S.C.",
+     "country": "US",
+     "previous_school": "Bishop England",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Grady Williams",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Manakin-Sabot, Va.",
+     "country": "US",
+     "previous_school": "Trinity Episcopal School",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Tim Pemberton",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "(757) 221-3046",
+     "source_url": "https://tribeathletics.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://tribeathletics.com/staff-directory"
+     }
+    },
+    {
+     "name": "Mike Leach",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tribeathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://tribeathletics.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://tribeathletics.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/WMTribeWGolf",
+   "x_url": "https://x.com/WMTribeWGolf",
+   "facebook_url": "https://www.facebook.com/WMTribeWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://tribeathletics.com/sports/womens-golf/roster",
+   "roster_source_url": "https://tribeathletics.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Abigail Avallone",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bethesda, Md.",
+     "country": "US",
+     "previous_school": "Stone Ridge School of the Sacred Heart",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lilly Reed Black",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chapin, S.C.",
+     "country": "US",
+     "previous_school": "Spring Hill",
+     "class_raw": "So."
+    },
+    {
+     "name": "Faith Garcia",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Suffolk, Va.",
+     "country": "US",
+     "previous_school": "Old Dominion",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Reagan Garnsey",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Camden-Wyoming, Del.",
+     "country": "US",
+     "previous_school": "Caesar Rooney",
+     "class_raw": "So."
+    },
+    {
+     "name": "Srihitha Mandava",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hyderabad, India",
+     "country": "IN",
+     "previous_school": "Delhi Public School Hyderabad",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Tess Morris",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Franktown, Colo.",
+     "country": "US",
+     "previous_school": "Lutheran",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jennifer Osborne",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ashburn, Va.",
+     "country": "US",
+     "previous_school": "Stone Bridge High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Samantha Skinner",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Blacksburg, Va.",
+     "country": "US",
+     "previous_school": "Blacksburg",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Katie Suk",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Highland Park, Ill.",
+     "country": "US",
+     "previous_school": "Loyola Academy",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jonathan Howard",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tribeathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Tim Pemberton",
+     "title": "Director of Golf / Men's Head Coach",
+     "email": null,
+     "phone": "(757) 221-3046",
+     "source_url": "https://tribeathletics.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://tribeathletics.com/staff-directory"
+     }
+    },
+    {
+     "name": "Lindsey Brinza",
+     "title": "Associate Athletics Director for Sports Medicine",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tribeathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://tribeathletics.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://tribeathletics.com/",
+ "requests": [
+  {
+   "url": "https://tribeathletics.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://tribeathletics.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://tribeathletics.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://tribeathletics.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://tribeathletics.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://tribeathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

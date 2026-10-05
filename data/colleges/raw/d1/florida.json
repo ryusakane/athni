@@ -10,12 +10,12 @@
  "city": null,
  "state": "FL",
  "website_url": "https://www.ufl.edu",
- "athletics_url": "https://www.floridagators.com",
+ "athletics_url": "https://floridagators.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://floridagators.com/sports/mens-golf",
+   "roster_url": "https://floridagators.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,97 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://floridagators.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Josh Bai",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Auckland, New Zealand",
+     "country": "NZ",
+     "previous_school": null
+    },
+    {
+     "name": "Trevor Gutschewski",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Omaha, Neb.",
+     "country": "US",
+     "previous_school": "Omaha Westside High School"
+    },
+    {
+     "name": "Noah Kent",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Naples, Fla.",
+     "country": "US",
+     "previous_school": "Gulf Coast Prep"
+    },
+    {
+     "name": "Jackson Ormond",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rochester, N.Y.",
+     "country": "US",
+     "previous_school": "Connect Academy"
+    },
+    {
+     "name": "Austin Perkins",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "West Hartford, Conn.",
+     "country": "US",
+     "previous_school": "Kingswood Oxford"
+    },
+    {
+     "name": "Luke Poulter",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Orlando, Fla.",
+     "country": "US",
+     "previous_school": "Circle Christian"
+    },
+    {
+     "name": "Parker Sands",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Edmond, Okla.",
+     "country": "US",
+     "previous_school": "Edmond North"
+    },
+    {
+     "name": "Parker Severs",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lakewood Ranch, Fla.",
+     "country": "US",
+     "previous_school": "Lakewood Ranch High School"
+    },
+    {
+     "name": "Zack Swanwick",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hawke's Bay, New Zealand",
+     "country": "NZ",
+     "previous_school": "Taradale High School"
+    },
+    {
+     "name": "Jack Turner",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Orlando, Fla.",
+     "country": "US",
+     "previous_school": "Montverde Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://floridagators.com/sports/womens-golf",
+   "roster_url": "https://floridagators.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +121,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://floridagators.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Inès Archer",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Rennes, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Sophia Dyer",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "St. Petersburg, Fla.",
+     "country": "US",
+     "previous_school": "Shorecrest Preparatory"
+    },
+    {
+     "name": "Paula Francisco",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "IES Oretga and Gasset"
+    },
+    {
+     "name": "Jessica Guiser",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Hartland, Wis.",
+     "country": "US",
+     "previous_school": "IMG Academy"
+    },
+    {
+     "name": "Katelyn Huber",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gainesville, Fla.",
+     "country": "US",
+     "previous_school": "P.K. Yonge"
+    },
+    {
+     "name": "Addison Klonowski",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Naples, Fla.",
+     "country": "US",
+     "previous_school": "Naples"
+    },
+    {
+     "name": "Perla Sól Sigurbrandsdóttir",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Reykjavik, Iceland",
+     "country": "IS",
+     "previous_school": "Commercial College of Iceland"
+    },
+    {
+     "name": "Sophie Stevens",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Highland, Mich.",
+     "country": "US",
+     "previous_school": "Homeschool"
+    },
+    {
+     "name": "Elaine Widjaja",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Semarang, Indonesia",
+     "country": "ID",
+     "previous_school": "Bina Bangsa School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://floridagators.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://floridagators.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

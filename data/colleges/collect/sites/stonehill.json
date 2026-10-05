@@ -1,9 +1,183 @@
 {
  "slug": "stonehill",
  "athletics_url": "https://www.stonehillskyhawks.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.stonehillskyhawks.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://stonehillskyhawks.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/stonehillwgolf",
+   "x_url": "https://x.com/stonehill_wgolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://stonehillskyhawks.com/sports/womens-golf/roster",
+   "roster_source_url": "https://stonehillskyhawks.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Ava Andoscia",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "North Kingston, R.I.",
+     "country": "US",
+     "previous_school": "The Prout School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Georgia Beland",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Webster, Mass.",
+     "country": "US",
+     "previous_school": "Notre Dame Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Bela Bock",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lake Forest, Ill.",
+     "country": "US",
+     "previous_school": "Lake Forest Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Helen Brodahl",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Portland, Ore.",
+     "country": "US",
+     "previous_school": "Ida B. Wells",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Hanley Correia",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Norton, Mass.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mary Croteau",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Londonderry, N.H.",
+     "country": "US",
+     "previous_school": "Londonderry",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Maddy Eagan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Marshfield, Mass.",
+     "country": "US",
+     "previous_school": "Marshfield",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ava Kaplan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mount Pleasant, S.C.",
+     "country": "US",
+     "previous_school": "Wando",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Molly MacDonald",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gilbert, Ariz.",
+     "country": "US",
+     "previous_school": "Highland",
+     "class_raw": "So."
+    },
+    {
+     "name": "Lenna Persson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Aspen, Colo.",
+     "country": "US",
+     "previous_school": "Aspen",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Carol Pignato",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Foxborough, Mass.",
+     "country": "US",
+     "previous_school": "Bishop Feehan",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kenna Roman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Berlin, Conn.",
+     "country": "US",
+     "previous_school": "Berlin",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Champa Visetsin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Sudbury, Mass.",
+     "country": "US",
+     "previous_school": "Lincoln-Sudbury Regional",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Nick Crovetti",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "(508) 565-1767",
+     "source_url": "https://stonehillskyhawks.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://stonehillskyhawks.com/staff-directory"
+     }
+    },
+    {
+     "name": "Edwin Crovetti",
+     "title": "Volunteer Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://stonehillskyhawks.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Lee McGinnis",
+     "title": "Team Faculty Liaison",
+     "email": null,
+     "phone": null,
+     "source_url": "https://stonehillskyhawks.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://stonehillskyhawks.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://stonehillskyhawks.com/",
+ "requests": [
+  {
+   "url": "https://stonehillskyhawks.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://stonehillskyhawks.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://stonehillskyhawks.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

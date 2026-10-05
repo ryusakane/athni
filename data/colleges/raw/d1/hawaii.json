@@ -16,39 +16,198 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://hawaiiathletics.com/sports/mens-golf",
+   "roster_url": "https://hawaiiathletics.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "instagram_url": "https://www.instagram.com/hawaiimgolf",
+   "x_url": "https://x.com/UHawaiiGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-20",
+   "roster_source_url": "https://hawaiiathletics.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Anson Cabello",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kahului, Maui",
+     "country": null,
+     "previous_school": "Kamehameha Schools-Maui"
+    },
+    {
+     "name": "Cameron Combado",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Las Vegas, Nev.",
+     "country": "US",
+     "previous_school": "Bishop Gorman HS"
+    },
+    {
+     "name": "Troy Gadalla",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Vancouver, British Columbia, Canada",
+     "country": "CA",
+     "previous_school": "St. George's School"
+    },
+    {
+     "name": "Josh Hayashida",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mililani, O‘ahu",
+     "country": null,
+     "previous_school": "Hawai‘i Baptist Academy"
+    },
+    {
+     "name": "Alec Hilgers",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Litchfield Park, Ariz.",
+     "country": "US",
+     "previous_school": "St. John Paul II Catholic HS"
+    },
+    {
+     "name": "Campbell Kerr",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Brisbane, Australia",
+     "country": "AU",
+     "previous_school": "Grand Canyon"
+    },
+    {
+     "name": "Stryker Leick",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mead, Colo.",
+     "country": "US",
+     "previous_school": "Mead HS"
+    },
+    {
+     "name": "Chris Salem",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lahaina, Maui",
+     "country": null,
+     "previous_school": "Maui Prep"
+    },
+    {
+     "name": "Dane Watanabe",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kane‘ohe, O‘ahu",
+     "country": null,
+     "previous_school": "‘Iolani School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Scott Simpson",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://hawaiiathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://hawaiiathletics.com/sports/womens-golf",
+   "roster_url": "https://hawaiiathletics.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/Hawaiiwgolf",
+   "x_url": "https://x.com/hawaiimwgolf",
+   "facebook_url": "https://www.facebook.com/UniversityOfHawaiiWomensGolfTeam",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-20",
+   "roster_source_url": "https://hawaiiathletics.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Sofina Firouzi",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "San Diego, Calif.",
+     "country": "US",
+     "previous_school": "Santa Clara"
+    },
+    {
+     "name": "Mia Hirashima",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Honolulu, O‘ahu",
+     "country": null,
+     "previous_school": "Moanalua HS"
+    },
+    {
+     "name": "Olivia Jang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Issaquah, Wash.",
+     "country": "US",
+     "previous_school": "Purdue Fort Wayne"
+    },
+    {
+     "name": "Kaydence Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Los Angeles, Calif.",
+     "country": "US",
+     "previous_school": "Harvard-Westlake HS"
+    },
+    {
+     "name": "Chloe Ku",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Ramon, Calif.",
+     "country": "US",
+     "previous_school": "Dougherty Valley HS"
+    },
+    {
+     "name": "Sofia Mallari",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lahaina, Maui",
+     "country": null,
+     "previous_school": "Maui Prep Academy"
+    },
+    {
+     "name": "Kady Matsumoto",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mililani, O‘ahu",
+     "country": null,
+     "previous_school": "Mililani HS"
+    },
+    {
+     "name": "Jasmine Wong",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Honolulu, O‘ahu",
+     "country": null,
+     "previous_school": "Gonzaga"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Julie Brooks",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://hawaiiathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Jordan Briggs",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://hawaiiathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +220,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://hawaiiathletics.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://hawaiiathletics.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

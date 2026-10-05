@@ -10,12 +10,12 @@
  "city": null,
  "state": "AL",
  "website_url": "https://www.jsu.edu",
- "athletics_url": "https://www.jaxstatesports.com",
+ "athletics_url": "https://jaxstatesports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://jaxstatesports.com/sports/mens-golf",
+   "roster_url": "https://jaxstatesports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://jaxstatesports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Will Drake",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cullman, Ala.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Joshua Gardner",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Coventry, England",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Jules Haessig",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lausanne, Switzerland",
+     "country": "CH",
+     "previous_school": null
+    },
+    {
+     "name": "Finlay Hazelwood",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Andrews, Scotland",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Cole Lindeman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Priceville, Ala.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Karel Marik",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Karlovy Vary, Czech Republic",
+     "country": "CZ",
+     "previous_school": null
+    },
+    {
+     "name": "Tyler Neidel",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Ben Shedd",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cullman, Ala.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Raphael Turcaud",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Nantes, France",
+     "country": "FR",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://jaxstatesports.com/sports/womens-golf",
+   "roster_url": "https://jaxstatesports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,68 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://jaxstatesports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Sophia Blake",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cuernavaaca, Mexico",
+     "country": "MX",
+     "previous_school": null
+    },
+    {
+     "name": "Tala Clarke",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stevenage, England",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Lara El Chaib",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Abu Dhabi, United Arab Emirates",
+     "country": "AE",
+     "previous_school": null
+    },
+    {
+     "name": "Julie Ulvenes Kleppe",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bergen, Norway",
+     "country": "NO",
+     "previous_school": null
+    },
+    {
+     "name": "Caitlin Shippam",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Limerick, Ireland",
+     "country": "IE",
+     "previous_school": null
+    },
+    {
+     "name": "Ashley Stevenson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fontainebleau, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Julie Waldo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Prattville, Ala.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +187,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

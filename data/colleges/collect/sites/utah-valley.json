@@ -1,9 +1,275 @@
 {
  "slug": "utah-valley",
  "athletics_url": "https://www.gouvu.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gouvu.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gouvu.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/uvugolf",
+   "x_url": "https://x.com/uvugolf",
+   "facebook_url": "https://www.facebook.com/UVUgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gouvu.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gouvu.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Ammon Allred",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. George, Utah",
+     "country": "US",
+     "previous_school": "Snow Canyon HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Elliot Bond",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "South Jordan, Utah",
+     "country": "US",
+     "previous_school": "Herriman HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ty Brady",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Draper, Utah",
+     "country": "US",
+     "previous_school": "Corner Canyon HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Isaiah Ellis",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Smithville, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Grimsby Secondary School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Tyler Ewell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Perry, Utah",
+     "country": "US",
+     "previous_school": "Central Wyoming",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "George Goff",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Orlando, Florida",
+     "country": "US",
+     "previous_school": "Cal State Monterey Bay",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "KJ Ofahengaue",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lehi, Utah",
+     "country": "US",
+     "previous_school": "Utah Tech",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Dylan Winona",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. George, Utah",
+     "country": "US",
+     "previous_school": "Crimson Cliffs HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Chris Curran",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Andrew Mecham",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Brittani Nelson",
+     "title": "Athletics Advisor / Life Skills Coordinator",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gouvu.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/uvugolf",
+   "x_url": "https://x.com/uvuwomensgolf",
+   "facebook_url": "https://www.facebook.com/pages/Utah-Valley-Womens-Golf/157789930903306",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gouvu.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gouvu.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Whitni Johnson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "South Ogden, Utah",
+     "country": "US",
+     "previous_school": "Bonneville HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Rachel Lillywhite",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Orem, Utah",
+     "country": "US",
+     "previous_school": "Weber State",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Adley Nelson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Highland, Utah",
+     "country": "US",
+     "previous_school": "Weber State",
+     "class_raw": "So."
+    },
+    {
+     "name": "Maria Ortiz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Reagan HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Mia Pace",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Exton, Pennsylvania",
+     "country": "US",
+     "previous_school": "Downingtown HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sydney Richards",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Farmington, Utah",
+     "country": "US",
+     "previous_school": "Southern Virginia",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Saydie Wagner",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Alpine, Utah",
+     "country": "US",
+     "previous_school": "Lone Peak HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kaylee Westfall",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Orem, Utah",
+     "country": "US",
+     "previous_school": "Orem HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Eliza Zolman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Alpine, Utah",
+     "country": "US",
+     "previous_school": "Lone Peak HS",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Juli Erekson",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Kimshil Pinegar",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Zach Chisholm",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Brittani Nelson",
+     "title": "Athletics Advisor / Life Skills Coordinator",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gouvu.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gouvu.com/",
+ "requests": [
+  {
+   "url": "https://gouvu.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gouvu.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gouvu.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://gouvu.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gouvu.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gouvu.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

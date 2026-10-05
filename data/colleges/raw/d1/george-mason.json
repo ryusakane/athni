@@ -10,25 +10,39 @@
  "city": null,
  "state": "VA",
  "website_url": "https://www.gmu.edu",
- "athletics_url": "https://www.gomason.com",
+ "athletics_url": "https://gomason.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
+   "golf_url": "https://gomason.com/sports/mens-golf",
    "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "coaches_url": "https://gomason.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/Georgemasongolf",
+   "x_url": "https://x.com/Georgemasongolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": null,
-   "collected_at": null,
+   "collected_at": "2026-10-04",
    "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "coaches": [
+    {
+     "name": "Greg Pieczynski",
+     "title": "Head Coach Men's Golf",
+     "email": null,
+     "phone": "(703) 993-3518",
+     "source_url": "https://gomason.com/staff-directory"
+    },
+    {
+     "name": "Nikita Gubenko",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gomason.com/staff-directory"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +50,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gomason.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

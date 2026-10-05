@@ -1,9 +1,104 @@
 {
  "slug": "montana",
  "athletics_url": "https://www.gogriz.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gogriz.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://gogriz.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/montanagrizgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gogriz.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gogriz.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Zoe Bar-Or",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Greenwood Village, Colo. / Littleton HS",
+     "country": "US",
+     "previous_school": "Greenwood Village, Colo. / Littleton HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kate Bogenschutz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Grafton, Wis. / Cedarburg HS",
+     "country": "US",
+     "previous_school": "Grafton, Wis. / Cedarburg HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Bella Johnson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Billings, Mont. / Billings West HS",
+     "country": "US",
+     "previous_school": "Billings, Mont. / Billings West HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Katie Lewis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Frenchtown, Mont. / Frenchtown HS",
+     "country": "US",
+     "previous_school": "Frenchtown, Mont. / Frenchtown HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Anna Stensrud",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Missoula, Mont. / Hellgate HS",
+     "country": "US",
+     "previous_school": "Missoula, Mont. / Hellgate HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ellie Sticha",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Alexandria, Minn. / Alexandria Area HS",
+     "country": "US",
+     "previous_school": "Alexandria, Minn. / Alexandria Area HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Hope Torres",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Broomfield, Colo. / Prospect Ridge Academy HS",
+     "country": "US",
+     "previous_school": "Broomfield, Colo. / Prospect Ridge Academy HS",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gogriz.com:443",
+ "requests": [
+  {
+   "url": "https://gogriz.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

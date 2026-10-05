@@ -1,9 +1,122 @@
 {
  "slug": "wright-state",
  "athletics_url": "https://www.wsuraiders.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.wsuraiders.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://wsuraiders.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/WrightStateGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://wsuraiders.com/sports/mens-golf/roster",
+   "roster_source_url": "https://wsuraiders.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Jonas Borland",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbus, OH / St. Charles Preparatory",
+     "country": "US",
+     "previous_school": "Columbus, OH / St. Charles Preparatory",
+     "class_raw": "So."
+    },
+    {
+     "name": "Max Clarke",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Auckland, New Zealand / Sacred Heart College",
+     "country": "NZ",
+     "previous_school": "Auckland, New Zealand / Sacred Heart College",
+     "class_raw": "R-Fr."
+    },
+    {
+     "name": "Kye Fisher",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Leduc, Alberta, Canada / Leduc Composite High School",
+     "country": "CA",
+     "previous_school": "Leduc, Alberta, Canada / Leduc Composite High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Andrew Gochenouer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Dayton, OH / Alter",
+     "country": "US",
+     "previous_school": "Dayton, OH / Alter",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Landon Harris",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, OH / Moeller",
+     "country": "US",
+     "previous_school": "Cincinnati, OH / Moeller",
+     "class_raw": "So."
+    },
+    {
+     "name": "CJ Scohy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bellbrook, OH / Bellbrook",
+     "country": "US",
+     "previous_school": "Bellbrook, OH / Bellbrook",
+     "class_raw": "So."
+    },
+    {
+     "name": "Aiden Standifer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Franklin, OH / Franklin",
+     "country": "US",
+     "previous_school": "Franklin, OH / Franklin",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Ward",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Harrison, OH / Harrison",
+     "country": "US",
+     "previous_school": "Harrison, OH / Harrison",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Jake Wittenauer",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Morrow, OH / Little Miami",
+     "country": "US",
+     "previous_school": "Morrow, OH / Little Miami",
+     "class_raw": "R-So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://wsuraiders.com:443",
+ "requests": [
+  {
+   "url": "https://wsuraiders.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://wsuraiders.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://wsuraiders.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

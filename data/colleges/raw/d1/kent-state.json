@@ -10,12 +10,12 @@
  "city": null,
  "state": "OH",
  "website_url": "https://www.kent.edu",
- "athletics_url": "https://www.kentstatesports.com",
+ "athletics_url": "https://kentstatesports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://kentstatesports.com/sports/mens-golf",
+   "roster_url": "https://kentstatesports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://kentstatesports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Ramiro Acevedo",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Buenos Aires, Argentina /",
+     "country": "AR",
+     "previous_school": "Buenos Aires, Argentina /"
+    },
+    {
+     "name": "Liam Curtis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Kent, Ohio /",
+     "country": "US",
+     "previous_school": "Kent, Ohio /"
+    },
+    {
+     "name": "Nolan Haynes",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Barberton, Ohio /",
+     "country": "US",
+     "previous_school": "Barberton, Ohio /"
+    },
+    {
+     "name": "Darcy Hogg",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Belfast, Ireland /",
+     "country": "IE",
+     "previous_school": "Belfast, Ireland /"
+    },
+    {
+     "name": "Isaiah Ibit",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Orleans, Ontario /",
+     "country": "CA",
+     "previous_school": "Orleans, Ontario /"
+    },
+    {
+     "name": "Christoffer Leuenhagen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Esbjerg, Denmark /",
+     "country": "DK",
+     "previous_school": "Esbjerg, Denmark /"
+    },
+    {
+     "name": "Jiu-You Lin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kaohsiung, Taiwa / null",
+     "country": null,
+     "previous_school": "Kaohsiung, Taiwa / null"
+    },
+    {
+     "name": "Connor Malicki",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Avon, Ohio /",
+     "country": "US",
+     "previous_school": "Avon, Ohio /"
+    },
+    {
+     "name": "Alec Yap",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hope Island, Australia / null",
+     "country": "AU",
+     "previous_school": "Hope Island, Australia / null"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://kentstatesports.com/sports/womens-golf",
+   "roster_url": "https://kentstatesports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://kentstatesports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Petra Babicova",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ocova, Slovakia /",
+     "country": "SK",
+     "previous_school": "Ocova, Slovakia /"
+    },
+    {
+     "name": "Kristen Belden",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Canton, Ohio /",
+     "country": "US",
+     "previous_school": "Canton, Ohio /"
+    },
+    {
+     "name": "Isabella Goyette",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Medina, Ohio /",
+     "country": "US",
+     "previous_school": "Medina, Ohio /"
+    },
+    {
+     "name": "Vicky Huang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Nanjing, China / Chinese National Team",
+     "country": "CN",
+     "previous_school": "Nanjing, China / Chinese National Team"
+    },
+    {
+     "name": "Veronika Kedronova",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Roznov pod Radhostem, Czech Republic /",
+     "country": "CZ",
+     "previous_school": "Roznov pod Radhostem, Czech Republic /"
+    },
+    {
+     "name": "Gracie Larsen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Melbourne, Australia /",
+     "country": "AU",
+     "previous_school": "Melbourne, Australia /"
+    },
+    {
+     "name": "Aryn Matthews",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Little Britain, Ontario /",
+     "country": "CA",
+     "previous_school": "Little Britain, Ontario /"
+    },
+    {
+     "name": "Alexa Prettyman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dublin, Ohio /",
+     "country": "US",
+     "previous_school": "Dublin, Ohio /"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://kentstatesports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://kentstatesports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

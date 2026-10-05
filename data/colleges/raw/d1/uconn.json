@@ -12,12 +12,12 @@
  "city": null,
  "state": "CT",
  "website_url": "https://www.uconn.edu",
- "athletics_url": "https://www.uconnhuskies.com",
+ "athletics_url": "https://uconnhuskies.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://uconnhuskies.com/sports/mens-golf",
+   "roster_url": "https://uconnhuskies.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -25,12 +25,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://uconnhuskies.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Caden Blanchette",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Manchester, PA",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Justin Burroughs",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Pensacola, FL",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Matt Costello",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taunton, MA",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Kai-Jun Huang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    },
+    {
+     "name": "Brayden Jenard",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jupiter, FL",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Yves Koller",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Zurich, Switzerland",
+     "country": "CH",
+     "previous_school": null
+    },
+    {
+     "name": "Brennan Korn",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Scottsdale, AZ",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Matthew Oliveira",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dartmouth, MA",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "RJ Shieh",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -38,6 +110,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://uconnhuskies.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

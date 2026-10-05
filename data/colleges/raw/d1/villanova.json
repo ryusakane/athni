@@ -10,25 +10,119 @@
  "city": null,
  "state": "PA",
  "website_url": "https://www.villanova.edu",
- "athletics_url": "https://www.villanova.com",
+ "athletics_url": "https://villanova.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "golf_url": "https://villanova.com/sports/mens-golf",
+   "roster_url": "https://villanova.com/sports/mens-golf/roster",
+   "coaches_url": "https://villanova.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/villanovagolf",
+   "x_url": "https://x.com/villanovagolf",
+   "facebook_url": "https://www.facebook.com/VillanovaGolf",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://villanova.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Vibhav Alokam",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ypsilanti, Mich.",
+     "country": "US",
+     "previous_school": "Ann Arbor Skyline"
+    },
+    {
+     "name": "Peter Barros",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethesda, Md.",
+     "country": "US",
+     "previous_school": "Georgetown Prep"
+    },
+    {
+     "name": "Cameron Besaw",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "New Canaan, Conn.",
+     "country": "US",
+     "previous_school": "Laurel Springs School"
+    },
+    {
+     "name": "Michael Block",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Haverford, Pa.",
+     "country": "US",
+     "previous_school": "The Shipley School"
+    },
+    {
+     "name": "AJ Colonna",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "Oxbridge Academy"
+    },
+    {
+     "name": "Luke Leonard",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "The Benjamin School"
+    },
+    {
+     "name": "Ian Love",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chicago, Ill.",
+     "country": "US",
+     "previous_school": "Saint Ignatius"
+    },
+    {
+     "name": "Nathan Marion",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Ronald Reagan"
+    },
+    {
+     "name": "Evan Rohde",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Kinkaid"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "James Wilkes",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "5402",
+     "source_url": "https://villanova.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Patrick Aylward",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "4093",
+     "source_url": "https://villanova.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Mark Benevento",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://villanova.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +130,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://villanova.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://villanova.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

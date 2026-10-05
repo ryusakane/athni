@@ -10,12 +10,12 @@
  "city": null,
  "state": "NC",
  "website_url": "https://www.ecu.edu",
- "athletics_url": "https://www.ecupirates.com",
+ "athletics_url": "https://ecupirates.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ecupirates.com/sports/mens-golf",
+   "roster_url": "https://ecupirates.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ecupirates.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jackson Bryce",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Cary / Green Hope",
+     "country": null,
+     "previous_school": "Cary / Green Hope"
+    },
+    {
+     "name": "Oscar Crowe",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Boca Raton, Fla. / Boca Raton Community",
+     "country": "US",
+     "previous_school": "Boca Raton, Fla. / Boca Raton Community"
+    },
+    {
+     "name": "Josh Davies",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Cranleigh, England / Godalming College",
+     "country": "GB",
+     "previous_school": "Cranleigh, England / Godalming College"
+    },
+    {
+     "name": "Adam Lennermark",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Sollentuna, Sweden / Celsiusskolan Uppsala",
+     "country": "SE",
+     "previous_school": "Sollentuna, Sweden / Celsiusskolan Uppsala"
+    },
+    {
+     "name": "Luke Mosley",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Greenville / J.H. Rose",
+     "country": null,
+     "previous_school": "Greenville / J.H. Rose"
+    },
+    {
+     "name": "Drew O'Neal",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Wilson / Beddingfield",
+     "country": null,
+     "previous_school": "Wilson / Beddingfield"
+    },
+    {
+     "name": "Nathan O'Neal",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Wilson / Beddingfield",
+     "country": null,
+     "previous_school": "Wilson / Beddingfield"
+    },
+    {
+     "name": "Holden Rucker",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Greenville / Farmville Central",
+     "country": null,
+     "previous_school": "Greenville / Farmville Central"
+    },
+    {
+     "name": "Lane Wilson",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Greer, S.C. / Riverside",
+     "country": "US",
+     "previous_school": "Greer, S.C. / Riverside"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ecupirates.com/sports/womens-golf",
+   "roster_url": "https://ecupirates.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ecupirates.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Hannah Barrett",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ga. / Richmond Hill",
+     "country": "US",
+     "previous_school": "Richmond Hill, Ga. / Richmond Hill"
+    },
+    {
+     "name": "Lisa Forss",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Gothenburg, Sweden",
+     "country": "SE",
+     "previous_school": "Gothenburg, Sweden"
+    },
+    {
+     "name": "Louise Krawiec",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Hossegor, France / CNED",
+     "country": "FR",
+     "previous_school": "Hossegor, France / CNED"
+    },
+    {
+     "name": "Nicole Nash",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Charlotte / Ardrey Kell",
+     "country": null,
+     "previous_school": "Charlotte / Ardrey Kell"
+    },
+    {
+     "name": "Madison Rizzo",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Leesburg, Va. / Riverside",
+     "country": "US",
+     "previous_school": "Leesburg, Va. / Riverside"
+    },
+    {
+     "name": "Ella Stalvey",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Blythewood, S.C. / Blythewood",
+     "country": "US",
+     "previous_school": "Blythewood, S.C. / Blythewood"
+    },
+    {
+     "name": "Isabella Taylor-Stokes",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Wimslow, England / Stockport Grammer",
+     "country": "GB",
+     "previous_school": "Wimslow, England / Stockport Grammer"
+    },
+    {
+     "name": "Hallie Wilson",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Pfafftown",
+     "country": null,
+     "previous_school": "Pfafftown"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://ecupirates.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://ecupirates.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -10,12 +10,12 @@
  "city": null,
  "state": "LA",
  "website_url": "https://www.tulane.edu",
- "athletics_url": "https://www.tulanegreenwave.com",
+ "athletics_url": "https://tulanegreenwave.com:443",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://tulanegreenwave.com/sports/womens-golf",
+   "roster_url": "https://tulanegreenwave.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,12 +23,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://tulanegreenwave.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Cristina Albertazzi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Turin, Italy / Atlas American School of Malaga",
+     "country": "IT",
+     "previous_school": "Turin, Italy / Atlas American School of Malaga"
+    },
+    {
+     "name": "Isabella Carter",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pearland, TX / Shadow Creek HS",
+     "country": "US",
+     "previous_school": "Pearland, TX / Shadow Creek HS"
+    },
+    {
+     "name": "Bella Crespo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Paramus, N.J. / Bergen County Technical",
+     "country": "US",
+     "previous_school": "Paramus, N.J. / Bergen County Technical"
+    },
+    {
+     "name": "Sophia Macias",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Baton Rouge, LA / Episcopal HS",
+     "country": "US",
+     "previous_school": "Baton Rouge, LA / Episcopal HS"
+    },
+    {
+     "name": "Daniela Montolio Reyes",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Barcelona, Spain / St. Paul's School",
+     "country": "ES",
+     "previous_school": "Barcelona, Spain / St. Paul's School"
+    },
+    {
+     "name": "Francesca Pompa",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Varese, Italy / Istituto Superiore Scolastico",
+     "country": "IT",
+     "previous_school": "Varese, Italy / Istituto Superiore Scolastico"
+    },
+    {
+     "name": "Kali Yeske",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta, Canada / National Sport School",
+     "country": "CA",
+     "previous_school": "Calgary, Alberta, Canada / National Sport School"
+    },
+    {
+     "name": "Sophia Yi-Ju Chen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan /",
+     "country": "TW",
+     "previous_school": "Taipei, Taiwan /"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +100,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://tulanegreenwave.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

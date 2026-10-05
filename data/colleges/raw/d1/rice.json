@@ -10,12 +10,12 @@
  "city": null,
  "state": "TX",
  "website_url": "https://www.rice.edu",
- "athletics_url": "https://www.riceowls.com",
+ "athletics_url": "https://riceowls.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://riceowls.com/sports/mens-golf",
+   "roster_url": "https://riceowls.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://riceowls.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Davis Byrd",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Spring, Texas / Klein Cain HS",
+     "country": "US",
+     "previous_school": "Spring, Texas / Klein Cain HS"
+    },
+    {
+     "name": "Henry Daly",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Windsor, Berkshire, England / Eton College",
+     "country": "GB",
+     "previous_school": "Windsor, Berkshire, England / Eton College"
+    },
+    {
+     "name": "Braeden Hoyt",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Houston, Texas / Cypress Creek HS",
+     "country": "US",
+     "previous_school": "Houston, Texas / Cypress Creek HS"
+    },
+    {
+     "name": "William Johnson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kingston, Mass. / ICL Academy",
+     "country": "US",
+     "previous_school": "Kingston, Mass. / ICL Academy"
+    },
+    {
+     "name": "Alex Kerins",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kildare, Ireland / Leinster Senior College",
+     "country": "IE",
+     "previous_school": "Kildare, Ireland / Leinster Senior College"
+    },
+    {
+     "name": "Nolan Kuszyk",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "La Cañada Flintridge, Calif. / La Cañada HS",
+     "country": "US",
+     "previous_school": "La Cañada Flintridge, Calif. / La Cañada HS"
+    },
+    {
+     "name": "Jaivir Pande",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Houston, Texas / Kinkaid High School",
+     "country": "US",
+     "previous_school": "Houston, Texas / Kinkaid High School"
+    },
+    {
+     "name": "Raines Watson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "College Station, Texas / A&M Consolidated",
+     "country": "US",
+     "previous_school": "College Station, Texas / A&M Consolidated"
+    },
+    {
+     "name": "Reggie Zhu",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Winter Garden, Fla. / Windermere Preparatory School",
+     "country": "US",
+     "previous_school": "Winter Garden, Fla. / Windermere Preparatory School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://riceowls.com/sports/womens-golf",
+   "roster_url": "https://riceowls.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,68 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://riceowls.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Justine Bayle",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Paris, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Ari Boone",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Champions Gate, Fla.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Elisabeth Borsheim",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Bergen, Norway",
+     "country": "NO",
+     "previous_school": null
+    },
+    {
+     "name": "Jessica Jang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "La Canada, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Ally Kim",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Yorba Linda, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Ragini Navet",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "New Dehli, India",
+     "country": "IN",
+     "previous_school": null
+    },
+    {
+     "name": "Amelie Phung",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "New York, N.Y.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +187,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://riceowls.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://riceowls.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

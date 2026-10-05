@@ -13,43 +13,170 @@
  "city": null,
  "state": "LA",
  "website_url": "https://www.ulm.edu",
- "athletics_url": "https://www.ulmwarhawks.com",
+ "athletics_url": "https://ulmwarhawks.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ulmwarhawks.com/sports/mens-golf",
+   "roster_url": "https://ulmwarhawks.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
-   "x_url": null,
+   "x_url": "https://x.com/ulm_golf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://ulmwarhawks.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Louis Anceaux",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Groslay, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Theodor Berg",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bedinge, Sweden",
+     "country": "SE",
+     "previous_school": null
+    },
+    {
+     "name": "Amilkar Bhana",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Gauteng, South Africa",
+     "country": "ZA",
+     "previous_school": "Washington"
+    },
+    {
+     "name": "Preston Cooper",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Dallas, Texas",
+     "country": "US",
+     "previous_school": "Abilene Christian"
+    },
+    {
+     "name": "Dakota Cunningham",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Olive Branch, Miss.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Caden Lester",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bastrop, La.",
+     "country": "US",
+     "previous_school": "Chattanooga"
+    },
+    {
+     "name": "Ben Stoller",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Owasso, Okla.",
+     "country": "US",
+     "previous_school": "Kansas State"
+    },
+    {
+     "name": "Benjamin Van Braak",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Malaga, Spain",
+     "country": "ES",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Cory Churchman",
+     "title": "Head Men's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ulmwarhawks.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ulmwarhawks.com/sports/womens-golf",
+   "roster_url": "https://ulmwarhawks.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://ulmwarhawks.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Charlotte Bouquet",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bondues, France",
+     "country": "FR",
+     "previous_school": null
+    },
+    {
+     "name": "Tessa Ion",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta",
+     "country": "CA",
+     "previous_school": "Rundle College High School"
+    },
+    {
+     "name": "Alice Mårtensson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Halmstad, Sweden",
+     "country": "SE",
+     "previous_school": null
+    },
+    {
+     "name": "Isabel Mas Pitarch",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Castellon, Spain",
+     "country": "ES",
+     "previous_school": "IES Erancesc Ribalta"
+    },
+    {
+     "name": "Sonya Weerasinghe",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario",
+     "country": "CA",
+     "previous_school": "St. Roberts Catholic"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Maria Jose Martinez",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ulmwarhawks.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Aaron Terrazas",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ulmwarhawks.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -62,6 +189,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://ulmwarhawks.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://ulmwarhawks.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

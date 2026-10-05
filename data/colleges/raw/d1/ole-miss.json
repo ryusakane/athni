@@ -12,12 +12,12 @@
  "city": null,
  "state": "MS",
  "website_url": "https://www.olemiss.edu",
- "athletics_url": "https://www.olemisssports.com",
+ "athletics_url": "https://olemisssports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://olemisssports.com/sports/mens-golf",
+   "roster_url": "https://olemisssports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -25,17 +25,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://olemisssports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jacob Blanton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "West Point, Miss. / Oak Hill Academy",
+     "country": "US",
+     "previous_school": "West Point, Miss. / Oak Hill Academy"
+    },
+    {
+     "name": "Cooper Claycomb",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bowling Green, Ky. / Circle Christian School",
+     "country": "US",
+     "previous_school": "Bowling Green, Ky. / Circle Christian School"
+    },
+    {
+     "name": "Per Ekelund",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Falsterbo, Sweden / Sundsgymnasiet School",
+     "country": "SE",
+     "previous_school": "Falsterbo, Sweden / Sundsgymnasiet School"
+    },
+    {
+     "name": "Eduardo Matarazzo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sao Paulo, Brazil / Santa Cruz HS",
+     "country": "BR",
+     "previous_school": "Sao Paulo, Brazil / Santa Cruz HS"
+    },
+    {
+     "name": "Finn Meister",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tucson, Ariz. / Catalina Foothills",
+     "country": "US",
+     "previous_school": "Tucson, Ariz. / Catalina Foothills"
+    },
+    {
+     "name": "Xander Mulder",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Scottsdale, Ariz. / Notre Dame Preparatory Academy",
+     "country": "US",
+     "previous_school": "Scottsdale, Ariz. / Notre Dame Preparatory Academy"
+    },
+    {
+     "name": "Tomas Restrepo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Manizales, Colombia / Education World Wide",
+     "country": "CO",
+     "previous_school": "Manizales, Colombia / Education World Wide"
+    },
+    {
+     "name": "Daniel Tolf",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gothenburg, Sweden / Kitas Gymnasium",
+     "country": "SE",
+     "previous_school": "Gothenburg, Sweden / Kitas Gymnasium"
+    },
+    {
+     "name": "Collins Trolio",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "West Point, Miss. / Oak Hill Academy",
+     "country": "US",
+     "previous_school": "West Point, Miss. / Oak Hill Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://olemisssports.com/sports/womens-golf",
+   "roster_url": "https://olemisssports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -43,12 +115,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://olemisssports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Matilda Björkman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Töreboda, Västergötland, Sweden / Filbornaskolan",
+     "country": "SE",
+     "previous_school": "Töreboda, Västergötland, Sweden / Filbornaskolan"
+    },
+    {
+     "name": "Larissa Carrillo",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Saltillo, Mexico / Secretariat of Public Education",
+     "country": "MX",
+     "previous_school": "Saltillo, Mexico / Secretariat of Public Education"
+    },
+    {
+     "name": "Lisa Herman",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jenks, Oklahoma / Jenks High School",
+     "country": "US",
+     "previous_school": "Jenks, Oklahoma / Jenks High School"
+    },
+    {
+     "name": "Sophie Linder",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Carthage, Tenn. / Gordonsville High School",
+     "country": "US",
+     "previous_school": "Carthage, Tenn. / Gordonsville High School"
+    },
+    {
+     "name": "Ebba Lundqvist",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden / Filbornaskolan",
+     "country": "SE",
+     "previous_school": "Stockholm, Sweden / Filbornaskolan"
+    },
+    {
+     "name": "Mary Miller",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Savannah, Ga. / Savannah Christian Preparatory School",
+     "country": "US",
+     "previous_school": "Savannah, Ga. / Savannah Christian Preparatory School"
+    },
+    {
+     "name": "Filippa Sundquist",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kullavik, Sweden / Kitas Gymnasium",
+     "country": "SE",
+     "previous_school": "Kullavik, Sweden / Kitas Gymnasium"
+    },
+    {
+     "name": "Kajsalotta Svarvar",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Halmstad, Sweden / Aspero Idrottsgymnasium Halmstad",
+     "country": "SE",
+     "previous_school": "Halmstad, Sweden / Aspero Idrottsgymnasium Halmstad"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +197,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://olemisssports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://olemisssports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

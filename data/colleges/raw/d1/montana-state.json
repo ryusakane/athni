@@ -10,12 +10,12 @@
  "city": null,
  "state": "MT",
  "website_url": "https://www.montana.edu",
- "athletics_url": "https://www.msubobcats.com",
+ "athletics_url": "https://msubobcats.com:443",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://msubobcats.com/sports/womens-golf",
+   "roster_url": "https://msubobcats.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,12 +23,68 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://msubobcats.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Elvira Flodström",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Sailor Graham",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Malibu, CA",
+     "country": "US",
+     "previous_school": "Malibu HS"
+    },
+    {
+     "name": "Eva Heinz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Goodyear, AZ",
+     "country": "US",
+     "previous_school": "Desert Edge HS"
+    },
+    {
+     "name": "Lauren Nau",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Scottsdale, AZ",
+     "country": "US",
+     "previous_school": "Horizon HS"
+    },
+    {
+     "name": "Nadia Sanz Ouezzani",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Norah Seidl",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sankt Pölten, Austria",
+     "country": "AT",
+     "previous_school": null
+    },
+    {
+     "name": "Ashleigh Wilson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Denver, CO",
+     "country": "US",
+     "previous_school": "Rock Canyon HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +92,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

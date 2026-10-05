@@ -1,9 +1,134 @@
 {
  "slug": "duquesne",
  "athletics_url": "https://www.GoDuquesne.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.goduquesne.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://goduquesne.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/duqwgolf",
+   "x_url": "https://x.com/DuqWGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goduquesne.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goduquesne.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Katie Caryl",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Erie, Pa.",
+     "country": "US",
+     "previous_school": "Mercyhurst Prep",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nicol Chovanec",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Severna Park, Md.",
+     "country": "US",
+     "previous_school": "Severna Park",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Katie Fodale",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rochester, Mich.",
+     "country": "US",
+     "previous_school": "Rochester Adams",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Paige Meyers",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Wexford, Pa.",
+     "country": "US",
+     "previous_school": "Oakland Catholic",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sasha Petrochko",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hermitage, Pa.",
+     "country": "US",
+     "previous_school": "Hickory",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Lindsey Powanda",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Pittsburgh, Pa.",
+     "country": "US",
+     "previous_school": "Mt. Lebanon",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Lilly Powell",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Southport, N.C.",
+     "country": "US",
+     "previous_school": "South Brunswick",
+     "class_raw": "So."
+    },
+    {
+     "name": "Abby Slankster",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Northville, Mich.",
+     "country": "US",
+     "previous_school": "Mercy",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Colleen Meyers",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "412-396-6565",
+     "source_url": "https://goduquesne.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://goduquesne.com/staff-directory"
+     }
+    },
+    {
+     "name": "Jess Meyers",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "412-396-6565",
+     "source_url": "https://goduquesne.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://goduquesne.com/staff-directory"
+     }
+    }
+   ],
+   "coaches_url": "https://goduquesne.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goduquesne.com/",
+ "requests": [
+  {
+   "url": "https://goduquesne.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goduquesne.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goduquesne.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

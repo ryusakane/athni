@@ -10,25 +10,113 @@
  "city": null,
  "state": "SC",
  "website_url": "https://www.fmarion.edu",
- "athletics_url": "https://www.fmupatriots.com",
+ "athletics_url": "https://fmupatriots.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
+   "golf_url": "https://fmupatriots.com/sports/mgolf",
+   "roster_url": "https://fmupatriots.com/sports/mgolf/roster",
+   "coaches_url": "https://fmupatriots.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/francismariongolf",
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://fmupatriots.com/sports/mgolf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Ryan Bozard",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hollywood, SC",
+     "country": "US",
+     "previous_school": "West Ashley HS"
+    },
+    {
+     "name": "Simon DiMaggio",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hollywood, SC",
+     "country": "US",
+     "previous_school": "West Ashley HS"
+    },
+    {
+     "name": "Josh Dugard",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Orpington, Great Britain",
+     "country": "GB",
+     "previous_school": "Knole Academy"
+    },
+    {
+     "name": "Matthew Griffiths",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cheshire, United Kingdom",
+     "country": "GB",
+     "previous_school": "Lymm HS"
+    },
+    {
+     "name": "Eli Jones",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wrens, GA",
+     "country": "US",
+     "previous_school": "Thomas Jefferson Academy"
+    },
+    {
+     "name": "Cade Jordan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Conway, SC",
+     "country": "US",
+     "previous_school": "Conway HS"
+    },
+    {
+     "name": "Carson Jordan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Conway, SC",
+     "country": "US",
+     "previous_school": "Conway HS"
+    },
+    {
+     "name": "Chan Lee",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Cancun, Mexico",
+     "country": "MX",
+     "previous_school": "Heritage Academy"
+    },
+    {
+     "name": "Rohan Neat",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ely, United Kingdom",
+     "country": "GB",
+     "previous_school": "Ely College"
+    },
+    {
+     "name": "Yu-Hsiang Shih",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Taiwan",
+     "country": "TW",
+     "previous_school": "Juang Jing Vocational HS"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Mark Gaynor",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "843-661-1352",
+     "source_url": "https://fmupatriots.com/sports/mgolf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +124,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://fmupatriots.com/sports/mgolf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://fmupatriots.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

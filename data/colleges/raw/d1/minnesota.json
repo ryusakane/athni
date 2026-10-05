@@ -10,12 +10,12 @@
  "city": null,
  "state": "MN",
  "website_url": "https://www.umn.edu",
- "athletics_url": "https://www.gophersports.com",
+ "athletics_url": "https://gophersports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gophersports.com/sports/mens-golf",
+   "roster_url": "https://gophersports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gophersports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jack Crousore",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bluffton, S.C.",
+     "country": "US",
+     "previous_school": "Hilton Head Prepatory"
+    },
+    {
+     "name": "Finlay Galloway",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Auchtermuchty, Scotland",
+     "country": "GB",
+     "previous_school": "Bell Baxter"
+    },
+    {
+     "name": "Joe Honsa",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Mendota Heights, Minn.",
+     "country": "US",
+     "previous_school": "Cretin-Derham Hall HS"
+    },
+    {
+     "name": "Landon Houska",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fort Collins, Colo.",
+     "country": "US",
+     "previous_school": "Fossil Ridge HS"
+    },
+    {
+     "name": "Torger Ohe",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Edina, Minn.",
+     "country": "US",
+     "previous_school": "Edina HS"
+    },
+    {
+     "name": "Kyler Schwamb",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Farmington, Minn.",
+     "country": "US",
+     "previous_school": "Farmington HS"
+    },
+    {
+     "name": "Martin Shone",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Geneva, Switzerland",
+     "country": "CH",
+     "previous_school": "St Leonards School"
+    },
+    {
+     "name": "Ryan Stendahl",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Maple Grove, Minn.",
+     "country": "US",
+     "previous_school": "Maple Grove HS"
+    },
+    {
+     "name": "Chun-Ta Wu",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Manly Vale, Australia",
+     "country": "AU",
+     "previous_school": "NBSC Manly Selective Campus"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gophersports.com/sports/womens-golf",
+   "roster_url": "https://gophersports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gophersports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Emree Cameron",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Nevada, Mo. / Nevada HS",
+     "country": "US",
+     "previous_school": "Nevada, Mo. / Nevada HS"
+    },
+    {
+     "name": "Regan Dusenbery",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wichita, Kan. / Andover HS",
+     "country": "US",
+     "previous_school": "Wichita, Kan. / Andover HS"
+    },
+    {
+     "name": "Lauryn Finley",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lake Mary, Fla. / Florida Virtual School",
+     "country": "US",
+     "previous_school": "Lake Mary, Fla. / Florida Virtual School"
+    },
+    {
+     "name": "Susanna Manns",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Russellville, Ark. / Russellville HS",
+     "country": "US",
+     "previous_school": "Russellville, Ark. / Russellville HS"
+    },
+    {
+     "name": "Reese McCauley",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Inver Grove Heights, Minn. / Homeschool",
+     "country": "US",
+     "previous_school": "Inver Grove Heights, Minn. / Homeschool"
+    },
+    {
+     "name": "Luisamariana Mesones",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Trujillo, Peru / Saddlebrook Preparatory School",
+     "country": "PE",
+     "previous_school": "Trujillo, Peru / Saddlebrook Preparatory School"
+    },
+    {
+     "name": "Rose Solberg",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fargo, N.D. / Fargo Davies HS",
+     "country": "US",
+     "previous_school": "Fargo, N.D. / Fargo Davies HS"
+    },
+    {
+     "name": "Jordana Windhorst-Knudsen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lake City, Minn. / Lake City HS",
+     "country": "US",
+     "previous_school": "Lake City, Minn. / Lake City HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gophersports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gophersports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

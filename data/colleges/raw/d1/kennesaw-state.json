@@ -10,43 +10,201 @@
  "city": null,
  "state": "GA",
  "website_url": "https://www.kennesaw.edu",
- "athletics_url": "https://www.ksuowls.com",
+ "athletics_url": "https://ksuowls.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ksuowls.com/sports/mens-golf",
+   "roster_url": "https://ksuowls.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "instagram_url": "https://www.instagram.com/KSUOwlsMGolf",
+   "x_url": "https://x.com/KSUOwlsMGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://ksuowls.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "James Brash",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Windlesham, England",
+     "country": "GB",
+     "previous_school": "Reed's School"
+    },
+    {
+     "name": "Alejandro Caraballo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Williamsburg, VA",
+     "country": "US",
+     "previous_school": "Homeschool"
+    },
+    {
+     "name": "Kaiden Drum",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Marietta, GA",
+     "country": "US",
+     "previous_school": "Harrison HS"
+    },
+    {
+     "name": "Luca Gallingani",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Buenos Aires, Argentina",
+     "country": "AR",
+     "previous_school": "New Zealand Pacific School"
+    },
+    {
+     "name": "Walker Gantt",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Augusta, Ga.",
+     "country": "US",
+     "previous_school": "Greenbrier HS"
+    },
+    {
+     "name": "Hunter Gillard",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hobart, Tasmania, Australia",
+     "country": "AU",
+     "previous_school": "Hobart College"
+    },
+    {
+     "name": "AJ Salierno",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Newnan, GA",
+     "country": "US",
+     "previous_school": "Newnan HS"
+    },
+    {
+     "name": "Reed Sweigart",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Roswell, Ga.",
+     "country": "US",
+     "previous_school": "Rivers Academy"
+    },
+    {
+     "name": "Joshua Todd",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sydney, Australia",
+     "country": "AU",
+     "previous_school": "Randwick Boys High School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Bryant Odom",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ksuowls.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Nick Mackay",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ksuowls.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ksuowls.com/sports/womens-golf",
+   "roster_url": "https://ksuowls.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "instagram_url": "https://www.instagram.com/KSUOwlsWGOLF",
+   "x_url": "https://x.com/KSUOwlsWGOLF",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://ksuowls.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jackie Jang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Auckland, New Zealand",
+     "country": "NZ",
+     "previous_school": null
+    },
+    {
+     "name": "Sabrina Kim",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "São Paulo, Brazil",
+     "country": "BR",
+     "previous_school": "Morningside Academy"
+    },
+    {
+     "name": "Natasha Korman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Burlington, Ontario",
+     "country": "CA",
+     "previous_school": "Nelson High School"
+    },
+    {
+     "name": "Ladina Luder",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Waldkirch, Switzerland",
+     "country": "CH",
+     "previous_school": "Wirtschaftsmittelschule Trogen"
+    },
+    {
+     "name": "Alessandra Nagayo",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Marshall McLuhan Catholic Secondary School"
+    },
+    {
+     "name": "Ariana Silva",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sunrise, Fla.",
+     "country": "US",
+     "previous_school": "Sagemont Preparatory School"
+    },
+    {
+     "name": "Kitty Tang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hong Kong, China",
+     "country": "CN",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Ket Vanderpool",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ksuowls.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Sydney Hermann",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ksuowls.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +217,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://ksuowls.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://ksuowls.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

@@ -10,25 +10,104 @@
  "city": null,
  "state": "PA",
  "website_url": "https://www.duq.edu",
- "athletics_url": "https://www.goduquesne.com",
+ "athletics_url": "https://goduquesne.com",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://goduquesne.com/sports/womens-golf",
+   "roster_url": "https://goduquesne.com/sports/womens-golf/roster",
+   "coaches_url": "https://goduquesne.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/duqwgolf",
+   "x_url": "https://x.com/DuqWGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://goduquesne.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Katie Caryl",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Erie, Pa.",
+     "country": "US",
+     "previous_school": "Mercyhurst Prep"
+    },
+    {
+     "name": "Nicol Chovanec",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Severna Park, Md.",
+     "country": "US",
+     "previous_school": "Severna Park"
+    },
+    {
+     "name": "Katie Fodale",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rochester, Mich.",
+     "country": "US",
+     "previous_school": "Rochester Adams"
+    },
+    {
+     "name": "Paige Meyers",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Wexford, Pa.",
+     "country": "US",
+     "previous_school": "Oakland Catholic"
+    },
+    {
+     "name": "Sasha Petrochko",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hermitage, Pa.",
+     "country": "US",
+     "previous_school": "Hickory"
+    },
+    {
+     "name": "Lindsey Powanda",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Pittsburgh, Pa.",
+     "country": "US",
+     "previous_school": "Mt. Lebanon"
+    },
+    {
+     "name": "Lilly Powell",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Southport, N.C.",
+     "country": "US",
+     "previous_school": "South Brunswick"
+    },
+    {
+     "name": "Abby Slankster",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Northville, Mich.",
+     "country": "US",
+     "previous_school": "Mercy"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Colleen Meyers",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "412-396-6565",
+     "source_url": "https://goduquesne.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Jess Meyers",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "412-396-6565",
+     "source_url": "https://goduquesne.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +115,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://goduquesne.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://goduquesne.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

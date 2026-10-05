@@ -10,12 +10,12 @@
  "city": null,
  "state": "MD",
  "website_url": "https://www.umd.edu",
- "athletics_url": "https://www.umterps.com",
+ "athletics_url": "https://umterps.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://umterps.com/sports/mens-golf",
+   "roster_url": "https://umterps.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://umterps.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Griffin Barke",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Crestwood, KY / South Oldham",
+     "country": "US",
+     "previous_school": "Crestwood, KY / South Oldham"
+    },
+    {
+     "name": "Charles David Beeson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Roswell, GA / Rivers Academy",
+     "country": "US",
+     "previous_school": "Roswell, GA / Rivers Academy"
+    },
+    {
+     "name": "Cabell Faulkner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Potomac, MD / Richard Montgomery High School",
+     "country": "US",
+     "previous_school": "Potomac, MD / Richard Montgomery High School"
+    },
+    {
+     "name": "Will Gregware",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Conard, CT / Conard",
+     "country": "US",
+     "previous_school": "Conard, CT / Conard"
+    },
+    {
+     "name": "Manato Nakatani",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tokyo, Japan / Robina State",
+     "country": "JP",
+     "previous_school": "Tokyo, Japan / Robina State"
+    },
+    {
+     "name": "Caden Piselli",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Milford, CT / Fairfield College Preparatory School",
+     "country": "US",
+     "previous_school": "Milford, CT / Fairfield College Preparatory School"
+    },
+    {
+     "name": "Emil Riegger",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fort Lauderdale, FL / Hinsdale Central (IL)",
+     "country": "US",
+     "previous_school": "Fort Lauderdale, FL / Hinsdale Central (IL)"
+    },
+    {
+     "name": "Robby Rosati",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stratford, CT / Fairfield College Preparatory School",
+     "country": "US",
+     "previous_school": "Stratford, CT / Fairfield College Preparatory School"
+    },
+    {
+     "name": "Benjamin Siriboury",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Clarksville, MD / River Hill",
+     "country": "US",
+     "previous_school": "Clarksville, MD / River Hill"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://umterps.com/sports/womens-golf",
+   "roster_url": "https://umterps.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://umterps.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Chananyu Chowiwattana",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Pathum Thani, Thailand / The American School of Bangkok",
+     "country": "TH",
+     "previous_school": "Pathum Thani, Thailand / The American School of Bangkok"
+    },
+    {
+     "name": "Julia Garcia",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "New Braunfels, TX / Saint Mary's Hall",
+     "country": "US",
+     "previous_school": "New Braunfels, TX / Saint Mary's Hall"
+    },
+    {
+     "name": "Nicha Kanpai",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Chiang Rai, Thailand / Chiang Rai Int'l School",
+     "country": "TH",
+     "previous_school": "Chiang Rai, Thailand / Chiang Rai Int'l School"
+    },
+    {
+     "name": "Emily McKee",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Oakville, ON / Garth Webb Secondary School",
+     "country": "CA",
+     "previous_school": "Oakville, ON / Garth Webb Secondary School"
+    },
+    {
+     "name": "Carolina Perez-Tasso",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Barcelona, Spain / International School of Brussels",
+     "country": "ES",
+     "previous_school": "Barcelona, Spain / International School of Brussels"
+    },
+    {
+     "name": "Anna Pillard",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Caen, France / Charles de Gaulle High School",
+     "country": "FR",
+     "previous_school": "Caen, France / Charles de Gaulle High School"
+    },
+    {
+     "name": "Noa Terroba Toro",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Malaga, Spain / Les Ortega y Gasset",
+     "country": "ES",
+     "previous_school": "Malaga, Spain / Les Ortega y Gasset"
+    },
+    {
+     "name": "Noa Zocco",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Monza, Italy / Collegio delle Guastalla",
+     "country": "IT",
+     "previous_school": "Monza, Italy / Collegio delle Guastalla"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://umterps.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://umterps.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

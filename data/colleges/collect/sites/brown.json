@@ -1,9 +1,233 @@
 {
  "slug": "brown",
  "athletics_url": "https://www.brownbears.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.brownbears.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://brownbears.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://brownbears.com/sports/mens-golf/roster",
+   "roster_source_url": "https://brownbears.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Dominick Beck",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Morristown, N.J.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Griffin Chiu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Los Altos, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Russell Chiu",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Los Altos, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Michael Clifford-Levy",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "New York, N.Y.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jonathan Conrad",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tampa, Fla.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Robert Giuffra III",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "New York, N.Y.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Grady Gore",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Basking Ridge, N.J.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "William Green",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Southampton, N.Y.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Adam Karoly",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Budapest, Hungary",
+     "country": "HU",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Maxwell McWilliams",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Zach Munno",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Sandy Hook, Conn.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://brownbears.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://brownbears.com/sports/womens-golf/roster",
+   "roster_source_url": "https://brownbears.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Angela Cai",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Oakville, Ontario",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kendace Lee",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bellaire, Texas",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kenna Lee",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bellaire, Texas",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Varsha Ramachandran",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Jose, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Kelley Tu",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Shanghai, China",
+     "country": "CN",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Miya Wu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Diego, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Claire Zhong",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Belmont, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://brownbears.com:443",
+ "requests": [
+  {
+   "url": "https://brownbears.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://brownbears.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://brownbears.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://brownbears.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://brownbears.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://brownbears.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

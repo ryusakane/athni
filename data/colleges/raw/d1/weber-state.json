@@ -10,43 +10,171 @@
  "city": null,
  "state": "UT",
  "website_url": "https://www.weber.edu",
- "athletics_url": "https://www.weberstatesports.com",
+ "athletics_url": "https://weberstatesports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://weberstatesports.com/sports/mens-golf",
+   "roster_url": "https://weberstatesports.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/weberstatemgolf",
+   "x_url": "https://x.com/WSUWildcatMGolf",
+   "facebook_url": "https://www.facebook.com/WeberStateMGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://weberstatesports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Eliott Auffret",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Paris, France / Lycée Jean Rostand, Chantilly",
+     "country": "FR",
+     "previous_school": "Paris, France / Lycée Jean Rostand, Chantilly"
+    },
+    {
+     "name": "Dean Browne",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Donoghmore, Ireland / Coachford College",
+     "country": "IE",
+     "previous_school": "Donoghmore, Ireland / Coachford College"
+    },
+    {
+     "name": "Jesus Castaneda",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Layton, UT / Northridge HS",
+     "country": "US",
+     "previous_school": "Layton, UT / Northridge HS"
+    },
+    {
+     "name": "Rishi Gupta",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Reno, NV / Galena HS",
+     "country": "US",
+     "previous_school": "Reno, NV / Galena HS"
+    },
+    {
+     "name": "Bobby Kincaid IV",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Nampa, ID / Nampa HS",
+     "country": "US",
+     "previous_school": "Nampa, ID / Nampa HS"
+    },
+    {
+     "name": "Markus Nanpei",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Tamuning, Guam / Father Dueñas Memorial School",
+     "country": "US",
+     "previous_school": "Tamuning, Guam / Father Dueñas Memorial School"
+    },
+    {
+     "name": "Luke Smith",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Holladay, UT / Olympus HS",
+     "country": "US",
+     "previous_school": "Holladay, UT / Olympus HS"
+    },
+    {
+     "name": "Ryan Takeshita",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Auburn, WA / Sumner HS",
+     "country": "US",
+     "previous_school": "Auburn, WA / Sumner HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://weberstatesports.com/sports/womens-golf",
+   "roster_url": "https://weberstatesports.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/weberstatewgolf",
+   "x_url": "https://x.com/WSUWildcatWGolf",
+   "facebook_url": "https://www.facebook.com/WeberStateWGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://weberstatesports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Payten Baca",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Denver, CO / Douglas County HS",
+     "country": "US",
+     "previous_school": "Denver, CO / Douglas County HS"
+    },
+    {
+     "name": "Braylyn Bayer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bonners Ferry, ID / Bonners Ferry HS",
+     "country": "US",
+     "previous_school": "Bonners Ferry, ID / Bonners Ferry HS"
+    },
+    {
+     "name": "Jade Gruher",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Camas, WA / Union HS",
+     "country": "US",
+     "previous_school": "Camas, WA / Union HS"
+    },
+    {
+     "name": "Erika Kobayashi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Portland, OR / Sunset HS",
+     "country": "US",
+     "previous_school": "Portland, OR / Sunset HS"
+    },
+    {
+     "name": "Cala Korman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Killarney, Manitoba, Canada / Killarney School",
+     "country": "CA",
+     "previous_school": "Killarney, Manitoba, Canada / Killarney School"
+    },
+    {
+     "name": "Elsa Krause",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Germany / Furth Golf Club",
+     "country": "DE",
+     "previous_school": "Germany / Furth Golf Club"
+    },
+    {
+     "name": "Salina Lui",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Salt Lake City, UT / Alta HS",
+     "country": "US",
+     "previous_school": "Salt Lake City, UT / Alta HS"
+    },
+    {
+     "name": "Vienna Scheffer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Victoria, British Columbia, Canada / Royal Bay HS",
+     "country": "CA",
+     "previous_school": "Victoria, British Columbia, Canada / Royal Bay HS"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +187,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://weberstatesports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://weberstatesports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

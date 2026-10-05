@@ -10,12 +10,12 @@
  "city": null,
  "state": "SD",
  "website_url": "https://www.sdstate.edu",
- "athletics_url": "https://www.gojacks.com",
+ "athletics_url": "https://gojacks.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gojacks.com/sports/mens-golf",
+   "roster_url": "https://gojacks.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gojacks.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Ty Adkins",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hutchinson, Kan.",
+     "country": "US",
+     "previous_school": "Wichita State"
+    },
+    {
+     "name": "Charlie Allen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Scottsdale, Ariz.",
+     "country": "US",
+     "previous_school": "Cactus Shadows H.S."
+    },
+    {
+     "name": "Riley Christensen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Sioux Falls, S.D.",
+     "country": "US",
+     "previous_school": "Harrisburg H.S."
+    },
+    {
+     "name": "Mason Eaton",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lakeville, Minn.",
+     "country": "US",
+     "previous_school": "Rosemount H.S."
+    },
+    {
+     "name": "Caleb Kern",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Edgerton, Wis.",
+     "country": "US",
+     "previous_school": "Edgerton H.S."
+    },
+    {
+     "name": "Jake Olson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Watertown, S.D.",
+     "country": "US",
+     "previous_school": "Watertown H.S."
+    },
+    {
+     "name": "Hayden Scott",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sioux Falls, S.D.",
+     "country": "US",
+     "previous_school": "Harrisburg H.S."
+    },
+    {
+     "name": "Drew Teeter",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Albert Lea, Minn.",
+     "country": "US",
+     "previous_school": "DMACC"
+    },
+    {
+     "name": "Jacob Wilson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Forest Lake, Minn.",
+     "country": "US",
+     "previous_school": "Mahtomedi H.S."
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gojacks.com/sports/womens-golf",
+   "roster_url": "https://gojacks.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gojacks.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Brynn Balliet",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Thornton, Colo.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Aja Blankenship",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Highlands Ranch, Colo.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Hannah Boraas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Alexandria, Minn.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Olivia Braun",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Aberdeen, S.D.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Riko Danjo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gold Coast, Australia",
+     "country": "AU",
+     "previous_school": null
+    },
+    {
+     "name": "Rylan Horning",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rapid City, S.D.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Molly O'Hara",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Newtownards, Northern Ireland",
+     "country": "GB",
+     "previous_school": null
+    },
+    {
+     "name": "Hannah Pettitt",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Urbandale, Iowa",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Samantha Stites",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tampa, Fla.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gojacks.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gojacks.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

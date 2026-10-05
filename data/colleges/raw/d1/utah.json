@@ -14,21 +14,93 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://utahutes.com/sports/mens-golf",
+   "roster_url": "https://utahutes.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/utesgolf",
+   "x_url": "https://x.com/UtesGolf",
+   "facebook_url": "https://www.facebook.com/UtesGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://utahutes.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Adam Croix",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Peoria, AZ",
+     "country": "US",
+     "previous_school": "Liberty High School"
+    },
+    {
+     "name": "Ivan Enguita",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Zaragoza, Spain",
+     "country": "ES",
+     "previous_school": "IES Ortega y Gasset"
+    },
+    {
+     "name": "Jaxon Erickson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Riverton, Utah",
+     "country": "US",
+     "previous_school": "Riverton High School"
+    },
+    {
+     "name": "Jan Farre",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Agramunt, Spain",
+     "country": "ES",
+     "previous_school": "Institut Centre d’Alt Rendiment Esportiu"
+    },
+    {
+     "name": "Jack Jerge",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Concord, Calif.",
+     "country": "US",
+     "previous_school": "De La Salle High School"
+    },
+    {
+     "name": "Sergio Jimenez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "Tajamar"
+    },
+    {
+     "name": "Gabriel Palacios",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Guatemala City, Guatemala",
+     "country": "GT",
+     "previous_school": "American School of Guatemala"
+    },
+    {
+     "name": "Will Pizza",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Draper, Utah",
+     "country": "US",
+     "previous_school": "Corner Canyon"
+    },
+    {
+     "name": "Rex Wilson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Burlington, Wash.",
+     "country": "US",
+     "previous_school": "Burlington-Edison High School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +108,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://utahutes.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

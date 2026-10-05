@@ -1,9 +1,154 @@
 {
  "slug": "pacific",
  "athletics_url": "https://www.pacifictigers.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.pacifictigers.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://pacifictigers.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/pacificmgolf",
+   "x_url": "https://x.com/Pacific_Golf",
+   "facebook_url": "https://www.facebook.com/pacificgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://pacifictigers.com/sports/mens-golf/roster",
+   "roster_source_url": "https://pacifictigers.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Felix Bouchard",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Montreal, Quebec",
+     "country": "CA",
+     "previous_school": "Kansas",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Liam Eyer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Jose, Calif.",
+     "country": "US",
+     "previous_school": "Santa Teresa HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ken Gao",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Perth, Western Australia",
+     "country": "AU",
+     "previous_school": "Odessa College",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Leonas Jung",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Saarbrucken, Germany",
+     "country": "DE",
+     "previous_school": "Lowenrot-Gymnasium",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Guillaume Paquette",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "La Minerve, Quebec",
+     "country": "CA",
+     "previous_school": "St. Mary's University",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Bradley Smolinski",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rancho Santa Margarita, Calif.",
+     "country": "US",
+     "previous_school": "Oregon State",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Josh Stuart",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Norman, Okla.",
+     "country": "US",
+     "previous_school": "Norman North HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Will Tanaka",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Trabuco Canyon, Callif.",
+     "country": null,
+     "previous_school": "Cal State Fullerton",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Aiden Tiet",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Richardson, Texas",
+     "country": "US",
+     "previous_school": "Garland Christian Academy",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "John Cook",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "209-946-2713",
+     "source_url": "https://pacifictigers.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://pacifictigers.com/staff-directory"
+     }
+    },
+    {
+     "name": "Chris Ebster",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://pacifictigers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Christopher Pond",
+     "title": "Director of Athletic Training",
+     "email": null,
+     "phone": null,
+     "source_url": "https://pacifictigers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Chris Ferguson",
+     "title": "Cabinet Ambassador",
+     "email": null,
+     "phone": null,
+     "source_url": "https://pacifictigers.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://pacifictigers.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://pacifictigers.com/",
+ "requests": [
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

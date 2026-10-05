@@ -12,12 +12,12 @@
  "city": null,
  "state": "CA",
  "website_url": "https://www.berkeley.edu",
- "athletics_url": "https://www.calbears.com",
+ "athletics_url": "https://calbears.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://calbears.com/sports/mens-golf",
+   "roster_url": "https://calbears.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -25,17 +25,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://calbears.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Callixte Alzas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Paris, France",
+     "country": "FR",
+     "previous_school": "Paris, France"
+    },
+    {
+     "name": "Charlie Bundy",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Bethesda, MD / Landon School",
+     "country": "US",
+     "previous_school": "Bethesda, MD / Landon School"
+    },
+    {
+     "name": "Xihuan Chang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Beijing, China / Beijing Huijia Private School",
+     "country": "CN",
+     "previous_school": "Beijing, China / Beijing Huijia Private School"
+    },
+    {
+     "name": "Graham Christopher",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Westlake Village, CA",
+     "country": "US",
+     "previous_school": "Westlake Village, CA"
+    },
+    {
+     "name": "Sihao Cong",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Irvine, CA / Cabrillo Point Academy",
+     "country": "US",
+     "previous_school": "Irvine, CA / Cabrillo Point Academy"
+    },
+    {
+     "name": "Trevor Cox",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Diego, CA / Cathedral Catholic HS",
+     "country": "US",
+     "previous_school": "San Diego, CA / Cathedral Catholic HS"
+    },
+    {
+     "name": "Noah Eisen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fairfield, CA",
+     "country": "US",
+     "previous_school": "Fairfield, CA"
+    },
+    {
+     "name": "Matthew Miyamoto",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Sacramento, CA / Jesuit HS",
+     "country": "US",
+     "previous_school": "Sacramento, CA / Jesuit HS"
+    },
+    {
+     "name": "Ziqin Zhou",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Shenzhen, China / Chongqing BI Academy",
+     "country": "CN",
+     "previous_school": "Shenzhen, China / Chongqing BI Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://calbears.com/sports/womens-golf",
+   "roster_url": "https://calbears.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -43,12 +115,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://calbears.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Constance Fouillet",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Rennes, France",
+     "country": "FR",
+     "previous_school": "Assomption Rennes"
+    },
+    {
+     "name": "Zoe Jiamanukookit",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": "Torrey Pines HS"
+    },
+    {
+     "name": "Jasmine Kahler",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Carlsbad, Calif.",
+     "country": "US",
+     "previous_school": "Carlsbad HS"
+    },
+    {
+     "name": "Claudia Lara Miravitlles",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Barcelona, Spain",
+     "country": "ES",
+     "previous_school": "St. Paul's School"
+    },
+    {
+     "name": "Sydney Silva",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Castro Valley, Calif.",
+     "country": "US",
+     "previous_school": "Bishop O'Dowd HS"
+    },
+    {
+     "name": "Michelle Woo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Fremont, Calif.",
+     "country": "US",
+     "previous_school": "Mission San Jose"
+    },
+    {
+     "name": "Giselle Zhao",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Saint-German-en-Laye, France",
+     "country": "FR",
+     "previous_school": "Institut Notre-Dame"
+    },
+    {
+     "name": "Camila Zignaigo-Saldarriaga",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lima, Peru",
+     "country": "PE",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +197,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://calbears.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://calbears.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

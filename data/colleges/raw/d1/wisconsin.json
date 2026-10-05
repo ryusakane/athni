@@ -10,12 +10,12 @@
  "city": null,
  "state": "WI",
  "website_url": "https://www.wisc.edu",
- "athletics_url": "https://www.uwbadgers.com",
+ "athletics_url": "https://uwbadgers.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://uwbadgers.com/sports/mens-golf",
+   "roster_url": "https://uwbadgers.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://uwbadgers.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "James Boustead",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cape Town, South Africa",
+     "country": "ZA",
+     "previous_school": null
+    },
+    {
+     "name": "Charles Erlandson",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Verona, Wis.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Cody Guetzke",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hartland, Wis.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Joseph Gutierrez",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Whittier, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "William Harned",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nashotah, Wis.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Vijay Kumar",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Windermere, Fla.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Braeden Nelson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "West Des Moines, Iowa",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Drew Sacia",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Milton, Ga.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jason Shwartz",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Wellington, Fla.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://uwbadgers.com/sports/womens-golf",
+   "roster_url": "https://uwbadgers.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://uwbadgers.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Elyssa Abdullah",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hinsdale, IL",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Hadley Ashton",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Erie, Colorado",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Jillian Bowman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Franklin, Tenn.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Kate Brody",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Grand Blanc, Mich.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Cara Carter",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Boise, Idaho",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Lauren Sammon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Murrieta, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Grace Slocum",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Traverse City, Mich.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Izzi Stricker",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Madison, Wis.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Tammy Wu",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Taichung, Taiwan",
+     "country": "TW",
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://uwbadgers.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://uwbadgers.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

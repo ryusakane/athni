@@ -1,9 +1,149 @@
 {
  "slug": "florida-am",
  "athletics_url": "https://www.famuathletics.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.famuathletics.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://famuathletics.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/FAMU_Golf",
+   "x_url": "https://x.com/FAMU_Golf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://famuathletics.com/sports/mens-golf/roster",
+   "roster_source_url": "https://famuathletics.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Taylor Bell",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tallahassee, Fla.",
+     "country": "US",
+     "previous_school": "Lawton Chiles HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Mikail Darmawan",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "South Tangerang, Indonesia",
+     "country": "ID",
+     "previous_school": "Kharisma Bangsa HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Emilio Garcia",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Orlando, Fla.",
+     "country": "US",
+     "previous_school": "Lake Nona HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Joshua Mitchell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Atanta, Ga.",
+     "country": "US",
+     "previous_school": "Riverwood International Charter School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Alexander Parker",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Tallahassee, Fla.",
+     "country": "US",
+     "previous_school": "Lawton Chiles HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Sascha Robinson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Plymouth, Mass.",
+     "country": "US",
+     "previous_school": "Thayer Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Vicente Rodriguez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "El Dorado Hills, Calif.",
+     "country": "US",
+     "previous_school": "Oak Ridge HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Andreas Roman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gibraltar, Spain",
+     "country": "ES",
+     "previous_school": "Cambridge School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Miguel Silveira",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lisbon, Portugal",
+     "country": "PT",
+     "previous_school": "Externato De Penafirme",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Skyler Woods",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kirtland, N.M.",
+     "country": "US",
+     "previous_school": "Kirtland Central HS",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Mike Rice",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "850.212.7801",
+     "source_url": "https://famuathletics.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://famuathletics.com/staff-directory"
+     }
+    },
+    {
+     "name": "Troy Stribling",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://famuathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://famuathletics.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://famuathletics.com/",
+ "requests": [
+  {
+   "url": "https://famuathletics.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://famuathletics.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://famuathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

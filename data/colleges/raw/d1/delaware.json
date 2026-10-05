@@ -10,12 +10,12 @@
  "city": null,
  "state": "DE",
  "website_url": "https://www.udel.edu",
- "athletics_url": "https://www.bluehens.com",
+ "athletics_url": "https://bluehens.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://bluehens.com/sports/mens-golf",
+   "roster_url": "https://bluehens.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://bluehens.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Pattrasuth Boonthumrongkit",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / Bangkok Prep",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / Bangkok Prep"
+    },
+    {
+     "name": "Jeffrey Homer",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wilmington, Del. / The Tatnall School",
+     "country": "US",
+     "previous_school": "Wilmington, Del. / The Tatnall School"
+    },
+    {
+     "name": "Matthew Homer",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wilmington, Del. / The Tatnall School",
+     "country": "US",
+     "previous_school": "Wilmington, Del. / The Tatnall School"
+    },
+    {
+     "name": "Ikk Iampongsai",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / St. Andrew’s",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / St. Andrew’s"
+    },
+    {
+     "name": "Caleb Itzoe",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenix, Md. / Calvert Hall",
+     "country": "US",
+     "previous_school": "Phoenix, Md. / Calvert Hall"
+    },
+    {
+     "name": "Shaun Mazzalupi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Wayne, Pa. / Radnor",
+     "country": "US",
+     "previous_school": "Wayne, Pa. / Radnor"
+    },
+    {
+     "name": "Michael Najburg",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Paris, France / Lycee Louis de Broglie",
+     "country": "FR",
+     "previous_school": "Paris, France / Lycee Louis de Broglie"
+    },
+    {
+     "name": "Ryan Wu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hsinchu City, Taiwan / Chupei Senior",
+     "country": "TW",
+     "previous_school": "Hsinchu City, Taiwan / Chupei Senior"
+    },
+    {
+     "name": "Chikun Xin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hainan, China / Future Leadership Academy",
+     "country": "CN",
+     "previous_school": "Hainan, China / Future Leadership Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://bluehens.com/sports/womens-golf",
+   "roster_url": "https://bluehens.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://bluehens.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Mary Grace Dunigan",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kennett Square, Pa. / Unionville",
+     "country": "US",
+     "previous_school": "Kennett Square, Pa. / Unionville"
+    },
+    {
+     "name": "Rhianna Gooneratne",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Plymouth Meeting, Pa. / Plymouth Whitemarsh",
+     "country": "US",
+     "previous_school": "Plymouth Meeting, Pa. / Plymouth Whitemarsh"
+    },
+    {
+     "name": "Hyunji Kim",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "London, England / Ark Putney Academy",
+     "country": "GB",
+     "previous_school": "London, England / Ark Putney Academy"
+    },
+    {
+     "name": "Marissa Malosh",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "South Fayette, Pa. / South Fayette High School",
+     "country": "US",
+     "previous_school": "South Fayette, Pa. / South Fayette High School"
+    },
+    {
+     "name": "Victoria Rivera",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Mayagüez, Puerto Rico / Immaculate Conception Academy",
+     "country": "US",
+     "previous_school": "Mayagüez, Puerto Rico / Immaculate Conception Academy"
+    },
+    {
+     "name": "Kate Roberts",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenixville, Pa. / Phoenixville Area",
+     "country": "US",
+     "previous_school": "Phoenixville, Pa. / Phoenixville Area"
+    },
+    {
+     "name": "Kayley Roberts",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Phoenixville, Pa. / Phoenixville Area",
+     "country": "US",
+     "previous_school": "Phoenixville, Pa. / Phoenixville Area"
+    },
+    {
+     "name": "Anushka Sawant",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "South Brunswick, N.J. / South Brunswick",
+     "country": "US",
+     "previous_school": "South Brunswick, N.J. / South Brunswick"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://bluehens.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://bluehens.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

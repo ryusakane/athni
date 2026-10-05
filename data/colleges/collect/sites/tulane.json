@@ -1,9 +1,113 @@
 {
  "slug": "tulane",
  "athletics_url": "https://www.tulanegreenwave.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.tulanegreenwave.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://tulanegreenwave.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://tulanegreenwave.com/sports/womens-golf/roster",
+   "roster_source_url": "https://tulanegreenwave.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Cristina Albertazzi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Turin, Italy / Atlas American School of Malaga",
+     "country": "IT",
+     "previous_school": "Turin, Italy / Atlas American School of Malaga",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Isabella Carter",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pearland, TX / Shadow Creek HS",
+     "country": "US",
+     "previous_school": "Pearland, TX / Shadow Creek HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Bella Crespo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Paramus, N.J. / Bergen County Technical",
+     "country": "US",
+     "previous_school": "Paramus, N.J. / Bergen County Technical",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sophia Macias",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Baton Rouge, LA / Episcopal HS",
+     "country": "US",
+     "previous_school": "Baton Rouge, LA / Episcopal HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Daniela Montolio Reyes",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Barcelona, Spain / St. Paul's School",
+     "country": "ES",
+     "previous_school": "Barcelona, Spain / St. Paul's School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Francesca Pompa",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Varese, Italy / Istituto Superiore Scolastico",
+     "country": "IT",
+     "previous_school": "Varese, Italy / Istituto Superiore Scolastico",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kali Yeske",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta, Canada / National Sport School",
+     "country": "CA",
+     "previous_school": "Calgary, Alberta, Canada / National Sport School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Sophia Yi-Ju Chen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan /",
+     "country": "TW",
+     "previous_school": "Taipei, Taiwan /",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://tulanegreenwave.com:443",
+ "requests": [
+  {
+   "url": "https://tulanegreenwave.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://tulanegreenwave.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://tulanegreenwave.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

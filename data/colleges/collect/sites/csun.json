@@ -1,9 +1,206 @@
 {
  "slug": "csun",
  "athletics_url": "https://www.GoMatadors.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gomatadors.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gomatadors.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gomatadors.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gomatadors.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Bryson Barnes",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Long Beach, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Tavin Boman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Diego, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Freddie Carcamo",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Calabasas, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Mason Ho",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Portland, OR",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Brecht Hulsman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Borne, Netherlands",
+     "country": "NL",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Dillon Jonke",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Kihei, Hawai'i",
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Liam Judkins",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Queenstown, New Zealand",
+     "country": "NZ",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ethan Posthumus",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Coquitlam, British Columbia, Canada",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gomatadors.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gomatadors.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gomatadors.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Sophie Cook",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Elk Grove, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Moanikeala Finau",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Walnut, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ashley Han",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stanton, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Meghan Paracuelles",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Folsom, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ellie Shirley",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Scottsdale, AZ",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Nicole Tanoue",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Honolulu, Hawai'i",
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Olivia Yoon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Diamond Bar, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gomatadors.com:443",
+ "requests": [
+  {
+   "url": "https://gomatadors.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

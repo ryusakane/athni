@@ -1,9 +1,283 @@
 {
  "slug": "utep",
  "athletics_url": "https://www.utepminers.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.utepminers.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://utepminers.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/utepmensgolf",
+   "x_url": "https://x.com/UTEPminergolf",
+   "facebook_url": "https://www.facebook.com/UTEPMGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://utepminers.com/sports/mens-golf/roster",
+   "roster_source_url": "https://utepminers.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Emilio Arellano",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Aguascalientes, Mexico",
+     "country": "MX",
+     "previous_school": "Wichita State",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Massimo De Giorgi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Basel, Switzerland",
+     "country": "CH",
+     "previous_school": "Lycée Jean Mermoz",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Julien Dulait",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Overijse, Belgium",
+     "country": "BE",
+     "previous_school": "GO! Atheneneum Etterbeek",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Patrick Foley",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lausanne, Switzerland",
+     "country": "CH",
+     "previous_school": "Gymnase Auguste Piccard",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Alexandre Godin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Saint Prix, France",
+     "country": "FR",
+     "previous_school": "Lycée Louis Armand",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Luke Harwick",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Guttenberg, Iowa",
+     "country": "US",
+     "previous_school": "University of Dubuque",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Marc Keller",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wollerau, Switzerland",
+     "country": "CH",
+     "previous_school": "UCF",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Valentin Luna",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Montigny-le-Bretonneux, France",
+     "country": "FR",
+     "previous_school": "New Mexico",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Viggo Olsson Mork",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden",
+     "country": "SE",
+     "previous_school": "Helsingborg Filbornaskolan HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Aaron Puetz",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "915-747-5347",
+     "source_url": "https://utepminers.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://utepminers.com/staff-directory"
+     }
+    },
+    {
+     "name": "Jackson Norwich",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://utepminers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "J.P. Hayes",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://utepminers.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://utepminers.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://utepminers.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/utepwomensgolf",
+   "x_url": "https://x.com/UTEPwgolf",
+   "facebook_url": "https://www.facebook.com/UTEP-Womens-Golf-288655077881701",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://utepminers.com/sports/womens-golf/roster",
+   "roster_source_url": "https://utepminers.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Atikan Cherdchoo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chon Buri, Thailand",
+     "country": "TH",
+     "previous_school": "Singsamut School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Camila Echavarri",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Querétaro, Mexico",
+     "country": "MX",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Essi Ekholm",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Vaasa, Finland",
+     "country": "FI",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Amelia Fridlund",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Karlskoga, Sweden",
+     "country": "SE",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Taline Kyoumjian",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Seyssins, France",
+     "country": "FR",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Luciana Origel",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Irapuato, Mexico",
+     "country": "MX",
+     "previous_school": "Instituto Cumbres Irapuato",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Taylor Tevis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bixby, Oklahoma",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Nichapas Thawinwan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phuket, Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Blanca Yrizar",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Sebastian, Spain",
+     "country": "ES",
+     "previous_school": null,
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Steve Sims",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "915-747-5395",
+     "source_url": "https://utepminers.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://utepminers.com/staff-directory"
+     }
+    },
+    {
+     "name": "Isabel Gutierrez",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://utepminers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Jackson Norwich",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://utepminers.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://utepminers.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://utepminers.com/splash.aspx?id=splash_1032",
+ "requests": [
+  {
+   "url": "https://utepminers.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://utepminers.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://utepminers.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://utepminers.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://utepminers.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://utepminers.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

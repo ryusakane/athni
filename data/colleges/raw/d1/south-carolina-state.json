@@ -14,21 +14,77 @@
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
+   "golf_url": "https://www.scsuathletics.com/sports/womens-golf",
+   "roster_url": "https://www.scsuathletics.com/sports/womens-golf/roster",
+   "coaches_url": "https://www.scsuathletics.com/staff-directory",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://www.scsuathletics.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Alyssa Danika Gonzalez",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "The Woodlands High School"
+    },
+    {
+     "name": "Alyssa Hardy",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "Stanton College Preparatory School"
+    },
+    {
+     "name": "Natalie Mahoney",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Atlanta, GA",
+     "country": "US",
+     "previous_school": "Stephenson High School"
+    },
+    {
+     "name": "Jane Mhonda",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, Md.",
+     "country": "US",
+     "previous_school": "Wilde Lake High School"
+    },
+    {
+     "name": "Sanaa Spear",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Snellville, Ga.",
+     "country": "US",
+     "previous_school": "Shiloh High School"
+    },
+    {
+     "name": "Yaíza Fernández Vijande",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Oviedo, Asturias, Spain",
+     "country": "ES",
+     "previous_school": "Instituto Aramo"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Edward Halsell",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.scsuathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +92,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://www.scsuathletics.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://www.scsuathletics.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

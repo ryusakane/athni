@@ -10,43 +10,99 @@
  "city": null,
  "state": "WY",
  "website_url": "https://www.uwyo.edu",
- "athletics_url": "https://www.gowyo.com",
+ "athletics_url": "https://gowyo.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
+   "golf_url": "https://gowyo.com/sports/mens-golf",
    "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "coaches_url": "https://gowyo.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/wyo_golf",
+   "x_url": "https://x.com/wyo_golf",
+   "facebook_url": "https://www.facebook.com/wyogolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": null,
-   "collected_at": null,
+   "collected_at": "2026-10-04",
    "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "coaches": [
+    {
+     "name": "Joe Jensen",
+     "title": "Head Men’s Golf Coach/Director of Jacoby Golf Course",
+     "email": null,
+     "phone": "(307) 760-9117",
+     "source_url": "https://gowyo.com/staff-directory"
+    },
+    {
+     "name": "Josey Stender",
+     "title": "Head Women’s Golf Coach",
+     "email": null,
+     "phone": "(307) 760-0332",
+     "source_url": "https://gowyo.com/staff-directory"
+    },
+    {
+     "name": "Rick Gasser",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gowyo.com/staff-directory"
+    },
+    {
+     "name": "Blake Isakson",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "(602) 456-9616",
+     "source_url": "https://gowyo.com/staff-directory"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
+   "golf_url": "https://gowyo.com/sports/womens-golf",
    "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "coaches_url": "https://gowyo.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/wyo_golf",
+   "x_url": "https://x.com/wyo_golf",
+   "facebook_url": "https://www.facebook.com/wyogolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": null,
-   "collected_at": null,
+   "collected_at": "2026-10-04",
    "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "coaches": [
+    {
+     "name": "Joe Jensen",
+     "title": "Head Men’s Golf Coach/Director of Jacoby Golf Course",
+     "email": null,
+     "phone": "(307) 760-9117",
+     "source_url": "https://gowyo.com/staff-directory"
+    },
+    {
+     "name": "Josey Stender",
+     "title": "Head Women’s Golf Coach",
+     "email": null,
+     "phone": "(307) 760-0332",
+     "source_url": "https://gowyo.com/staff-directory"
+    },
+    {
+     "name": "Rick Gasser",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gowyo.com/staff-directory"
+    },
+    {
+     "name": "Blake Isakson",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "(602) 456-9616",
+     "source_url": "https://gowyo.com/staff-directory"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +115,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gowyo.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

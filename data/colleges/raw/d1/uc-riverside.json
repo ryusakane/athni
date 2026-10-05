@@ -12,12 +12,12 @@
  "city": null,
  "state": "CA",
  "website_url": "https://www.ucr.edu",
- "athletics_url": "https://www.gohighlanders.com",
+ "athletics_url": "https://gohighlanders.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gohighlanders.com/sports/mens-golf",
+   "roster_url": "https://gohighlanders.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -25,30 +25,142 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gohighlanders.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Samuel Bonzoumet",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Riverside, Calif. / Riverside Poly HS",
+     "country": "US",
+     "previous_school": "Riverside, Calif. / Riverside Poly HS"
+    },
+    {
+     "name": "Brady Fonville",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Apple Valley, Calif. / Riverside Poly HS",
+     "country": "US",
+     "previous_school": "Apple Valley, Calif. / Riverside Poly HS"
+    },
+    {
+     "name": "Yuta Kida",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Caleb Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Fullerton, Calif. / Sunny Hills HS",
+     "country": "US",
+     "previous_school": "Fullerton, Calif. / Sunny Hills HS"
+    },
+    {
+     "name": "Ryo Murata",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Nagano, Japan / Montverde Academy",
+     "country": "JP",
+     "previous_school": "Nagano, Japan / Montverde Academy"
+    },
+    {
+     "name": "Ace Pascual",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Wai Yan Lin",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://gohighlanders.com/sports/womens-golf",
+   "roster_url": "https://gohighlanders.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "instagram_url": "https://www.instagram.com/UCRWomensGolf",
+   "x_url": "https://x.com/UCRWomensGolf",
+   "facebook_url": "https://www.facebook.com/UCRiversideWGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://gohighlanders.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Lauren Lee",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Diego, Calif. / Del Norte HS",
+     "country": "US",
+     "previous_school": "San Diego, Calif. / Del Norte HS"
+    },
+    {
+     "name": "Briana Nakano",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Jess Pilgrim",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "London, England / Dr. Challoners HS",
+     "country": "GB",
+     "previous_school": "London, England / Dr. Challoners HS"
+    },
+    {
+     "name": "Kaylin Rhee",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Walnut, Calif. / Walnut HS",
+     "country": "US",
+     "previous_school": "Walnut, Calif. / Walnut HS"
+    },
+    {
+     "name": "Emma Rynn",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null
+    },
+    {
+     "name": "Riley Shin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fullerton, Calif. / Orange Lutheran HS",
+     "country": "US",
+     "previous_school": "Fullerton, Calif. / Orange Lutheran HS"
+    },
+    {
+     "name": "Sophia Soto",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Riverside, Calif. / Point Loma Nazarene",
+     "country": "US",
+     "previous_school": "Riverside, Calif. / Point Loma Nazarene"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +173,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gohighlanders.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gohighlanders.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

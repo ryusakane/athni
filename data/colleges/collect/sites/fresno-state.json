@@ -1,9 +1,215 @@
 {
  "slug": "fresno-state",
  "athletics_url": "https://www.gobulldogs.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gobulldogs.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gobulldogs.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gobulldogs.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gobulldogs.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Nash Arthurs",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Peoria, Ariz.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Chris Bettencourt",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Clovis, Calif,",
+     "country": "US",
+     "previous_school": "Buchannan HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jonathan Chen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Carmel, Calif.",
+     "country": "US",
+     "previous_school": "Carmel HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Julian Monas",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cameron Park, Calif.",
+     "country": "US",
+     "previous_school": "Clarksville Charter HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Akira Ransi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Folsom HS",
+     "country": null,
+     "previous_school": "Folsom, Calif.",
+     "class_raw": "So."
+    },
+    {
+     "name": "Julian Rombouts",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Schoten, Belgium",
+     "country": "BE",
+     "previous_school": "Sint-Ludgardis HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Zack Tarter",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hanford, Calif.",
+     "country": "US",
+     "previous_school": "Sierra Pacific",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Von Wasson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Centralia, Wash.",
+     "country": "US",
+     "previous_school": "Centralia HS",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gobulldogs.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gobulldogs.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gobulldogs.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Janna Andaya",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Santa Clara, Calif.",
+     "country": "US",
+     "previous_school": "UC Riverside",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Joanna Bushnell Crist",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "La Quinta, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Makaia Germond",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Clovis, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lara Goerlich",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hanover, Germany",
+     "country": "DE",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Ivy Kim",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "North Hills, Calif.",
+     "country": "US",
+     "previous_school": "UC Riverside",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sara Rampoldi",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Mar Del Plata, Argentina",
+     "country": "AR",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Mia Solano",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Clovis, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ariya Soldwisch",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Maui, Hawai'i",
+     "country": null,
+     "previous_school": "CSUN",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gobulldogs.com:443",
+ "requests": [
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

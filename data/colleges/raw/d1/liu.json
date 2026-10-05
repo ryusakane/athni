@@ -16,39 +16,188 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://www.liuathletics.com/sports/mens-golf",
+   "roster_url": "https://www.liuathletics.com/sports/mens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "instagram_url": "https://www.instagram.com/LIUGolf",
+   "x_url": "https://x.com/LIUMGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://www.liuathletics.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jose María(Tote) Abaroa Dorador",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Luis Potosí",
+     "country": null,
+     "previous_school": "Montverde Academy"
+    },
+    {
+     "name": "Alessio Brunella",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rome, Italy",
+     "country": "IT",
+     "previous_school": "Sotogrande International"
+    },
+    {
+     "name": "Lucas Gilbart",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario",
+     "country": "CA",
+     "previous_school": "De La Salle College \"Oaklands\""
+    },
+    {
+     "name": "Mateo Kern",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Calgary, Alberta, Canada",
+     "country": "CA",
+     "previous_school": "Edge School"
+    },
+    {
+     "name": "Andres Manllo",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Monterrey, Mexico",
+     "country": "MX",
+     "previous_school": "Prepa Tec Santa Catarina"
+    },
+    {
+     "name": "Ramayush(Rama) Ray",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kolkata, West Bengal",
+     "country": null,
+     "previous_school": "La Martiniere For Boys"
+    },
+    {
+     "name": "Tom Winn",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Brisbane, Queensland, Australia",
+     "country": "AU",
+     "previous_school": "Villanova College"
+    },
+    {
+     "name": "Jason Wu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hong Kong",
+     "country": "HK",
+     "previous_school": "QSI International School of Shekou"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Kyle Stefan",
+     "title": "Director of Golf",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.liuathletics.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jimmy Tubbs",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.liuathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://www.liuathletics.com/sports/womens-golf",
+   "roster_url": "https://www.liuathletics.com/sports/womens-golf/roster",
    "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "instagram_url": "https://www.instagram.com/LIUWGolf",
+   "x_url": "https://x.com/LIUWomensGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://www.liuathletics.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Cecilia Arndt",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Columbus, Neb.",
+     "country": "US",
+     "previous_school": "Scotus Central Catholic"
+    },
+    {
+     "name": "Nielli Heggem",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Scottsbluff, Neb.",
+     "country": "US",
+     "previous_school": "Scottsbluff HS"
+    },
+    {
+     "name": "Hailey Holbdy",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Gibraltar, Mich.",
+     "country": "US",
+     "previous_school": "Windermere Preparatory School (Fla.)"
+    },
+    {
+     "name": "Vanessa Moreno Reyes",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chula Vista, Calif.",
+     "country": "US",
+     "previous_school": "Mater Dei Catholic"
+    },
+    {
+     "name": "Simran Singh",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Barrington, Ill.",
+     "country": "US",
+     "previous_school": "Barrington HS"
+    },
+    {
+     "name": "Evelyn Smith",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ascot, England",
+     "country": "GB",
+     "previous_school": "Charters"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Kyle Stefan",
+     "title": "Director of Golf",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.liuathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "To Be Announced",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.liuathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Jimmy Tubbs",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.liuathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +210,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

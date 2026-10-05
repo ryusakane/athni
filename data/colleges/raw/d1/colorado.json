@@ -10,12 +10,12 @@
  "city": null,
  "state": "CO",
  "website_url": "https://www.colorado.edu",
- "athletics_url": "https://www.cubuffs.com",
+ "athletics_url": "https://cubuffs.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://cubuffs.com/sports/mens-golf",
+   "roster_url": "https://cubuffs.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://cubuffs.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Gavin Amella",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Castle Rock, Colo. / Castle View",
+     "country": "US",
+     "previous_school": "Castle Rock, Colo. / Castle View"
+    },
+    {
+     "name": "Colt Farrow",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Andover, Kan. / Andover Central",
+     "country": "US",
+     "previous_school": "Andover, Kan. / Andover Central"
+    },
+    {
+     "name": "Ty Holbrook",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Granbury, Texas / Granbury",
+     "country": "US",
+     "previous_school": "Granbury, Texas / Granbury"
+    },
+    {
+     "name": "Brandon Knight",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Pleasanton, Calif. / Foothill",
+     "country": "US",
+     "previous_school": "Pleasanton, Calif. / Foothill"
+    },
+    {
+     "name": "Casey Kosney",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Roebuck, S.C. / Dorman",
+     "country": "US",
+     "previous_school": "Roebuck, S.C. / Dorman"
+    },
+    {
+     "name": "Tyler Long",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Evergreen, Colo. / Evergreen",
+     "country": "US",
+     "previous_school": "Evergreen, Colo. / Evergreen"
+    },
+    {
+     "name": "Parker Paxton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Riverton, Wyo. / Riverton",
+     "country": "US",
+     "previous_school": "Riverton, Wyo. / Riverton"
+    },
+    {
+     "name": "Jackson Rivera",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Rancho Santa Fe, Calif. / Torrey Pines/USC",
+     "country": "US",
+     "previous_school": "Rancho Santa Fe, Calif. / Torrey Pines/USC"
+    },
+    {
+     "name": "Asher Whitaker",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Wichita, Kan. / Mt. Carmel Catholic/Oklahoma",
+     "country": "US",
+     "previous_school": "Wichita, Kan. / Mt. Carmel Catholic/Oklahoma"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://cubuffs.com/sports/womens-golf",
+   "roster_url": "https://cubuffs.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://cubuffs.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Carolyn Fuller",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Phoenix, Ariz. / Pinnacle",
+     "country": "US",
+     "previous_school": "Phoenix, Ariz. / Pinnacle"
+    },
+    {
+     "name": "Brenna Higgins",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Centennial, Colo. / Valor Christian",
+     "country": "US",
+     "previous_school": "Centennial, Colo. / Valor Christian"
+    },
+    {
+     "name": "Araxy Kirokian",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lerma, Mexico / ICL Academy (Calif.)",
+     "country": "MX",
+     "previous_school": "Lerma, Mexico / ICL Academy (Calif.)"
+    },
+    {
+     "name": "Maya McVey",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Blue Springs, Mo. / Blue Springs South/Central Missouri",
+     "country": "US",
+     "previous_school": "Blue Springs, Mo. / Blue Springs South/Central Missouri"
+    },
+    {
+     "name": "Vanessa Ngo",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mission Viejo, Calif. / California Preparatory Academy",
+     "country": "US",
+     "previous_school": "Mission Viejo, Calif. / California Preparatory Academy"
+    },
+    {
+     "name": "Ellen O’Shaughnessy",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dublin, Ireland / Mount Sackville Secondary School, Sisters of St. Joseph of Cluny",
+     "country": "IE",
+     "previous_school": "Dublin, Ireland / Mount Sackville Secondary School, Sisters of St. Joseph of Cluny"
+    },
+    {
+     "name": "Teemapat Pateetin",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bangkaew, Thailand / Singapore International School of Bangkok",
+     "country": "TH",
+     "previous_school": "Bangkaew, Thailand / Singapore International School of Bangkok"
+    },
+    {
+     "name": "Isabella Piazza",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Phoenix, Ariz. / Xavier College Preparatory",
+     "country": "US",
+     "previous_school": "Phoenix, Ariz. / Xavier College Preparatory"
+    },
+    {
+     "name": "Ananthi Vivek",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chennai, India / Inventure Academy",
+     "country": "IN",
+     "previous_school": "Chennai, India / Inventure Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

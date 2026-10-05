@@ -1,9 +1,224 @@
 {
  "slug": "colorado-state",
  "athletics_url": "https://www.csurams.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.csurams.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://csurams.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://csurams.com/sports/mens-golf/roster",
+   "roster_source_url": "https://csurams.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Oliver Betschart",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Warwick, Bermuda / Homeschooled",
+     "country": "BM",
+     "previous_school": "Warwick, Bermuda / Homeschooled",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Charlie Doyle",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Colorado Springs, Colo. / Cheyenne Mountain",
+     "country": "US",
+     "previous_school": "Colorado Springs, Colo. / Cheyenne Mountain",
+     "class_raw": "So."
+    },
+    {
+     "name": "Lung-Jui Kao",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Koahsiung City, Taiwan / CTBC International Academy",
+     "country": "TW",
+     "previous_school": "Koahsiung City, Taiwan / CTBC International Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kent Karlstrom",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rancho Mirage, Calif. / ASU Digital Prep",
+     "country": "US",
+     "previous_school": "Rancho Mirage, Calif. / ASU Digital Prep",
+     "class_raw": "So."
+    },
+    {
+     "name": "Elijah Knudsen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mead, Colo. / Mead",
+     "country": "US",
+     "previous_school": "Mead, Colo. / Mead",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Florentin Meller",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Stuttgart, Germany / Löwenrot-Gymnasium",
+     "country": "DE",
+     "previous_school": "Stuttgart, Germany / Löwenrot-Gymnasium",
+     "class_raw": "So."
+    },
+    {
+     "name": "Owen Mullen",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Truro, Nova Scotia, Canada / Shattuck St. Mary's School",
+     "country": "CA",
+     "previous_school": "Truro, Nova Scotia, Canada / Shattuck St. Mary's School",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Jake Rodgers",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mulino, Oregon / Canby",
+     "country": "US",
+     "previous_school": "Mulino, Oregon / Canby",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Charlie Tucker",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Castle Pines, Colo. / Rock Canyon",
+     "country": "US",
+     "previous_school": "Castle Pines, Colo. / Rock Canyon",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://csurams.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/CSUwgolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://csurams.com/sports/womens-golf/roster",
+   "roster_source_url": "https://csurams.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Jacey Kage",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Honolulu, HI / Hawaii Baptist Academy",
+     "country": "US",
+     "previous_school": "Honolulu, HI / Hawaii Baptist Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kara Kaneshiro",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Honolulu, Hawaii / Kalani HS",
+     "country": "US",
+     "previous_school": "Honolulu, Hawaii / Kalani HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jacinda Lee",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Camas, Wash. / Camas",
+     "country": "US",
+     "previous_school": "Camas, Wash. / Camas",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Caroline McConnell",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "South Fayette, Pennsylvania / South Fayette",
+     "country": "US",
+     "previous_school": "South Fayette, Pennsylvania / South Fayette",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Inje Natchanun",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / Acellus Academy",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / Acellus Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ella Slicker",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Leawood, KS / Shawnee Mission East",
+     "country": "US",
+     "previous_school": "Leawood, KS / Shawnee Mission East",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Khemmanut Soralum",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / Acellus Academy",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / Acellus Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ebba Thalen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden / Celsiusskolan",
+     "country": "SE",
+     "previous_school": "Stockholm, Sweden / Celsiusskolan",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://csurams.com:443",
+ "requests": [
+  {
+   "url": "https://csurams.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://csurams.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://csurams.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://csurams.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://csurams.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://csurams.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

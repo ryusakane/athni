@@ -1,9 +1,252 @@
 {
  "slug": "longwood",
  "athletics_url": "https://longwoodlancers.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://longwoodlancers.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/longwood_mgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://longwoodlancers.com/sports/mens-golf/roster",
+   "roster_source_url": "https://longwoodlancers.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Harrison Beaudoin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Midlothian, Va.",
+     "country": "US",
+     "previous_school": "Midlothian",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Parker Brock",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Walker, Minn.",
+     "country": "US",
+     "previous_school": "South Dakota State",
+     "class_raw": "So."
+    },
+    {
+     "name": "Josh Cummins",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Christiansburg, Va.",
+     "country": "US",
+     "previous_school": "Christiansburg",
+     "class_raw": "So."
+    },
+    {
+     "name": "Matthew Hartley",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Stafford, Va.",
+     "country": "US",
+     "previous_school": "Colonial Forge",
+     "class_raw": "So."
+    },
+    {
+     "name": "Alexander Hoerner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dusseldorf, Germany",
+     "country": "DE",
+     "previous_school": "Theodor-Fliedner Gymnasium",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kai Krishnan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Nottingham, England",
+     "country": "GB",
+     "previous_school": "Rushcliffe Sixth Form",
+     "class_raw": "So."
+    },
+    {
+     "name": "Matthew Lyons",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Aurora, Ontario",
+     "country": "CA",
+     "previous_school": "St. Andrew's College",
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Charlie Spiller",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Richmond, Ky.",
+     "country": "US",
+     "previous_school": "Belmont",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Kevin Fillman",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://longwoodlancers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Brandon Washburn",
+     "title": "Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://longwoodlancers.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://longwoodlancers.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/longwoodwgolf",
+   "x_url": "https://x.com/LongwoodWGOLF",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://longwoodlancers.com/sports/womens-golf/roster",
+   "roster_source_url": "https://longwoodlancers.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Caraline Hartfield",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Naples, Fla.",
+     "country": "US",
+     "previous_school": "The Village School of Naples",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Madison Lehr",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mechanicsville, Va.",
+     "country": "US",
+     "previous_school": "Western Carolina",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Abbie Moore",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cheddar, England",
+     "country": "GB",
+     "previous_school": "Millfield School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Avery Nordman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Ottawa, Ontario",
+     "country": "CA",
+     "previous_school": "A.Y. Jackson Secondary School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Abigail Sheldon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Boca Raton, Fla.",
+     "country": "US",
+     "previous_school": "Ohio Connections Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Romy Wagner",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Munich, Germany",
+     "country": "DE",
+     "previous_school": "Karlsgymnasium Pasing",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Chiara Wippert",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Berlin, Germany",
+     "country": "DE",
+     "previous_school": "John F. Kennedy School Berlin",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Mai Wongvilaivarin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": "The American School of Bangkok, Green Valley Campus",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Megan Weaver",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://longwoodlancers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Brooks Ward",
+     "title": "Assistant Women’s Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://longwoodlancers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Robert Boyd",
+     "title": "Volunteer Assistant Women’s Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://longwoodlancers.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://longwoodlancers.com/",
- "requests": []
+ "requests": [
+  {
+   "url": "https://longwoodlancers.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://longwoodlancers.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://longwoodlancers.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

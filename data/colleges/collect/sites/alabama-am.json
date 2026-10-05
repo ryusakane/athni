@@ -1,9 +1,137 @@
 {
  "slug": "alabama-am",
  "athletics_url": "https://www.aamusports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.aamusports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://aamusports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/aamugolf",
+   "x_url": "https://x.com/AamuGolf",
+   "facebook_url": "https://www.facebook.com/aamugolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://aamusports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://aamusports.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Niall Bagnall",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Meath, Ireland",
+     "country": "IE",
+     "previous_school": "Saint Patrick's Classical School",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Samuel Boddie",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ocoee, Fla.",
+     "country": "US",
+     "previous_school": "Circle Christian School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Griffin Burns",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "James Fujita",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Honolulu, Hawaii",
+     "country": "US",
+     "previous_school": "Moanalua HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Amad Gardner",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lynchburg, Va.",
+     "country": "US",
+     "previous_school": "Liberty University Online Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Kourey Patterson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Los Angeles, Calif.",
+     "country": "US",
+     "previous_school": "Palisades Charter HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Duncan Reid",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lawrenceville, Ga.",
+     "country": "US",
+     "previous_school": "Brookwood HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Parker Sawatzky",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Olympia, Wash.",
+     "country": "US",
+     "previous_school": "Saint Martin's",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Michael Song",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Red Deer, Alberta, Canada",
+     "country": "CA",
+     "previous_school": "Chicago State",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Devins Jackson",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://aamusports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Greg Simpson",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://aamusports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://aamusports.com/",
+ "requests": [
+  {
+   "url": "https://aamusports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

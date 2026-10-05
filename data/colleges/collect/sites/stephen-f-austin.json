@@ -1,9 +1,95 @@
 {
  "slug": "stephen-f-austin",
  "athletics_url": "https://SFAjacks.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://sfajacks.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://sfajacks.com/sports/womens-golf/roster",
+   "roster_source_url": "https://sfajacks.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Celine Aramsatjakool",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ubon Ratchathani, Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Taryn Clayton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Canton, TX",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Marley Dickens",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "McKinney, TX",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Paige Hill",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tomball, TX",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Taylor Horacefield",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "League City, TX",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Juliana Taylor",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Houston, TX",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
  "athletics_url_final": "https://sfajacks.com/",
- "requests": []
+ "requests": [
+  {
+   "url": "https://sfajacks.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://sfajacks.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://sfajacks.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

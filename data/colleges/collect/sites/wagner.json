@@ -1,9 +1,227 @@
 {
  "slug": "wagner",
  "athletics_url": "https://www.wagnerathletics.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.wagnerathletics.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://wagnerathletics.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/wagnermensgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://wagnerathletics.com/sports/mens-golf/roster",
+   "roster_source_url": "https://wagnerathletics.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Cooper Joyce",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Toronto, Canada",
+     "country": "CA",
+     "previous_school": "RPS Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Juan Martinez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Veracruz, Mexico",
+     "country": "MX",
+     "previous_school": "Instituto Cumbres Veracruz / UTRGV",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jack McMahon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Elkridge, MD",
+     "country": "US",
+     "previous_school": "Mount Saint Joseph HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Anthony Rzeszutko",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "Tottenville HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Luke Salome",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "St. Peters Boys HS / St. Joseph by the Sea",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Chris Solari",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "Tottenville",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Emilio Zapiain",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greenwich, CT",
+     "country": "US",
+     "previous_school": "Spring Creek Academy",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jim Engles",
+     "title": "Director of Golf",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Alavid Melo Iturralde",
+     "title": "Men's Golf Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://wagnerathletics.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://wagnerathletics.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/wagnerwgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://wagnerathletics.com/sports/womens-golf/roster",
+   "roster_source_url": "https://wagnerathletics.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Palwasha Ali",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "Elwood John Glen HS / Sewanhaka HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Maria Jose Calleja Pineda",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Celaya, Guanajuato, Mexico",
+     "country": "MX",
+     "previous_school": "Centro Escolar EULER",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Marifer Calleja Pineda",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Celaya, Guanajuato, Mexico",
+     "country": "MX",
+     "previous_school": "Centro Escolar EULER",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Lani Park",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, MD",
+     "country": "US",
+     "previous_school": "Mount de Sales Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Leah Sheerin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Monroe, NY",
+     "country": "US",
+     "previous_school": "Monroe Woodbury HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lauren Silva",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Valencia, CA",
+     "country": "US",
+     "previous_school": "Valencia HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Izabella Sokolovic",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Chicago, IL",
+     "country": "US",
+     "previous_school": "Lincoln Park High School",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jim Engles",
+     "title": "Director of Golf",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Pedro Marchioni",
+     "title": "Women's Golf Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://wagnerathletics.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://wagnerathletics.com/",
+ "requests": [
+  {
+   "url": "https://wagnerathletics.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://wagnerathletics.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://wagnerathletics.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://wagnerathletics.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://wagnerathletics.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://wagnerathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

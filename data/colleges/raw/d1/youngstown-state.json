@@ -10,12 +10,12 @@
  "city": null,
  "state": "OH",
  "website_url": "https://www.ysu.edu",
- "athletics_url": "https://www.ysusports.com",
+ "athletics_url": "https://ysusports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ysusports.com/sports/mens-golf",
+   "roster_url": "https://ysusports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,97 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ysusports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jordan Kish",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Massillon, Ohio / Jackson",
+     "country": "US",
+     "previous_school": "Massillon, Ohio / Jackson"
+    },
+    {
+     "name": "Nathan Miller",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Canfield, Ohio / Canfield",
+     "country": "US",
+     "previous_school": "Canfield, Ohio / Canfield"
+    },
+    {
+     "name": "Bryar Moss",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Parker, Colo. / Ponderosa",
+     "country": "US",
+     "previous_school": "Parker, Colo. / Ponderosa"
+    },
+    {
+     "name": "Michael Porter",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "McDonald, Ohio / McDonald",
+     "country": "US",
+     "previous_school": "McDonald, Ohio / McDonald"
+    },
+    {
+     "name": "Ayden Richmond",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Geneva, Ohio / Geneva",
+     "country": "US",
+     "previous_school": "Geneva, Ohio / Geneva"
+    },
+    {
+     "name": "Jack Sacriponte",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Greensburg, Pa. / Greater Latrobe Senior",
+     "country": "US",
+     "previous_school": "Greensburg, Pa. / Greater Latrobe Senior"
+    },
+    {
+     "name": "Ryan Sam",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Canfield, Ohio / Boardman",
+     "country": "US",
+     "previous_school": "Canfield, Ohio / Boardman"
+    },
+    {
+     "name": "Nolan Shilling",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Murrysville, Pa. / Franklin Regional",
+     "country": "US",
+     "previous_school": "Murrysville, Pa. / Franklin Regional"
+    },
+    {
+     "name": "Rocco Turner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Youngstown, Ohio / Cardinal Mooney",
+     "country": "US",
+     "previous_school": "Youngstown, Ohio / Cardinal Mooney"
+    },
+    {
+     "name": "Josh Weiner",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Macedonia, Ohio / Walsh Jesuit",
+     "country": "US",
+     "previous_school": "Macedonia, Ohio / Walsh Jesuit"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ysusports.com/sports/womens-golf",
+   "roster_url": "https://ysusports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +121,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ysusports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Hailey Boss",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Canal Winchester, Ohio / Canal Winchester",
+     "country": "US",
+     "previous_school": "Canal Winchester, Ohio / Canal Winchester"
+    },
+    {
+     "name": "Maureen Burns",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Mount Notre Dame",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Mount Notre Dame"
+    },
+    {
+     "name": "Inés González Ortega",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Santander, Cantabria, Spain / Colegio Leonés Jesús Maestro",
+     "country": "ES",
+     "previous_school": "Santander, Cantabria, Spain / Colegio Leonés Jesús Maestro"
+    },
+    {
+     "name": "Eliza Mercer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Gahanna, Ohio / Gahanna Lincoln",
+     "country": "US",
+     "previous_school": "Gahanna, Ohio / Gahanna Lincoln"
+    },
+    {
+     "name": "Valentina Peña Anaya",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mexico City, Mexico / Kipling Esmeralda",
+     "country": "MX",
+     "previous_school": "Mexico City, Mexico / Kipling Esmeralda"
+    },
+    {
+     "name": "Sofia Perez Escarcena",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Estepona, Spain / I.E.S. Mediterráneo",
+     "country": "ES",
+     "previous_school": "Estepona, Spain / I.E.S. Mediterráneo"
+    },
+    {
+     "name": "Neeranuch Prajunpanich",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Samut Prakan, Thailand / Kasetsart University Laboratory School",
+     "country": "TH",
+     "previous_school": "Samut Prakan, Thailand / Kasetsart University Laboratory School"
+    },
+    {
+     "name": "Bella Saur",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Grove City, Ohio / Grove City",
+     "country": "US",
+     "previous_school": "Grove City, Ohio / Grove City"
+    },
+    {
+     "name": "Matilyn Zines",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hanoverton, Ohio / United",
+     "country": "US",
+     "previous_school": "Hanoverton, Ohio / United"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://ysusports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://ysusports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

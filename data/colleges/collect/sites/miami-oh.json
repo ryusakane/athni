@@ -1,9 +1,131 @@
 {
  "slug": "miami-oh",
  "athletics_url": "https://www.miamiredhawks.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.miamiredhawks.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://miamiredhawks.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://miamiredhawks.com/sports/mens-golf/roster",
+   "roster_source_url": "https://miamiredhawks.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Tyler Anderson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenix, Ariz. / Chaparral High",
+     "country": "US",
+     "previous_school": "Phoenix, Ariz. / Chaparral High",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Bric Baird",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Upper Arlington, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Upper Arlington, Ohio / Upper Arlington",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jack Callahan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Alpharetta, Ga. / Rivers Academy",
+     "country": "US",
+     "previous_school": "Alpharetta, Ga. / Rivers Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Joseph Canitano",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Milton, Ga. / Rivers Academy",
+     "country": "US",
+     "previous_school": "Milton, Ga. / Rivers Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Max Halflants",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Brussels, Belgium",
+     "country": "BE",
+     "previous_school": "Brussels, Belgium",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Liam Nelson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chicago, Ill. / St. Ignatius College Prep",
+     "country": "US",
+     "previous_school": "Chicago, Ill. / St. Ignatius College Prep",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Zach Radtke",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dublin, Ohio / Dublin Jerome",
+     "country": "US",
+     "previous_school": "Dublin, Ohio / Dublin Jerome",
+     "class_raw": "So."
+    },
+    {
+     "name": "Michael Stagnaro",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / St. Xavier",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / St. Xavier",
+     "class_raw": "So."
+    },
+    {
+     "name": "Dean Upholzer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Strongsville, Ohio / Strongsville",
+     "country": "US",
+     "previous_school": "Strongsville, Ohio / Strongsville",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nathan Vonderhaar",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mason, Ohio / Mason",
+     "country": "US",
+     "previous_school": "Mason, Ohio / Mason",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://miamiredhawks.com:443",
+ "requests": [
+  {
+   "url": "https://miamiredhawks.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://miamiredhawks.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://miamiredhawks.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

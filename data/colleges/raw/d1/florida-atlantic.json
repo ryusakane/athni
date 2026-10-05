@@ -10,12 +10,12 @@
  "city": null,
  "state": "FL",
  "website_url": "https://www.fau.edu",
- "athletics_url": "https://www.fausports.com",
+ "athletics_url": "https://fausports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://fausports.com/sports/mens-golf",
+   "roster_url": "https://fausports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,30 +23,158 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://fausports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Alexis Barnetche",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Sulpice de Faleyrens, France",
+     "country": "FR",
+     "previous_school": "St. Sulpice de Faleyrens, France"
+    },
+    {
+     "name": "Jack Brugman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Stellenbosch, South Africa / Paul Roos Gymnasium",
+     "country": "ZA",
+     "previous_school": "Stellenbosch, South Africa / Paul Roos Gymnasium"
+    },
+    {
+     "name": "Thomas Grenier",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Thetford Mines, Quebec, Canada",
+     "country": "CA",
+     "previous_school": "Thetford Mines, Quebec, Canada"
+    },
+    {
+     "name": "Tristan Rhodenizer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "Jupiter, Fla."
+    },
+    {
+     "name": "Ian Soderholm",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden /",
+     "country": "SE",
+     "previous_school": "Stockholm, Sweden /"
+    },
+    {
+     "name": "NaShawn Tyson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Stuart, Fla. / South Fork",
+     "country": "US",
+     "previous_school": "Stuart, Fla. / South Fork"
+    },
+    {
+     "name": "Christian Veilleux",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. /",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. /"
+    },
+    {
+     "name": "Conor Whalen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Trinity, Fla.",
+     "country": "US",
+     "previous_school": "Trinity, Fla."
+    },
+    {
+     "name": "Preston Worch",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Delray Beach, Fla.",
+     "country": "US",
+     "previous_school": "Delray Beach, Fla."
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://fausports.com/sports/womens-golf",
+   "roster_url": "https://fausports.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
-   "facebook_url": null,
+   "facebook_url": "https://www.facebook.com/FAUWGolf",
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://fausports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Maria Jose Cardona Estrada",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Manizalez, Colombia",
+     "country": "CO",
+     "previous_school": "Manizalez, Colombia"
+    },
+    {
+     "name": "Amelia Cobb",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ormond Beach, Fla. /",
+     "country": "US",
+     "previous_school": "Ormond Beach, Fla. /"
+    },
+    {
+     "name": "Clemence Da Costa",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lafrancaise, Fra",
+     "country": null,
+     "previous_school": "Lafrancaise, Fra"
+    },
+    {
+     "name": "Irene Garcia Sanchez",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Sotogrande, Spain",
+     "country": "ES",
+     "previous_school": "Sotogrande, Spain"
+    },
+    {
+     "name": "Tina Genoulaz",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Seilh, France /",
+     "country": "FR",
+     "previous_school": "Seilh, France /"
+    },
+    {
+     "name": "Charlotte Perkins",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sydney, Australia / Endeavour Sports HS",
+     "country": "AU",
+     "previous_school": "Sydney, Australia / Endeavour Sports HS"
+    },
+    {
+     "name": "Giulia Scarcello",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Vinovo, Italy / International School of Turin",
+     "country": "IT",
+     "previous_school": "Vinovo, Italy / International School of Turin"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +187,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://fausports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://fausports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

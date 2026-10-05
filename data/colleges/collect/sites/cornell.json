@@ -1,9 +1,121 @@
 {
  "slug": "cornell",
  "athletics_url": "https://www.cornellbigred.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.cornellbigred.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://cornellbigred.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://cornellbigred.com/sports/mens-golf/roster",
+   "roster_source_url": "https://cornellbigred.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Javier Benerofe",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Armonk, N.Y.",
+     "country": "US",
+     "previous_school": "Byram Hills High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "TJ Betlow",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Short Hills, N.J.",
+     "country": "US",
+     "previous_school": "Newark Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jack Burda",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fort Wayne, Ind.",
+     "country": "US",
+     "previous_school": "Homestead High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Shep Davis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Thomasville, Ga.",
+     "country": "US",
+     "previous_school": "Brookwood School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Tyler Debusschere",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wallingford, Pa.",
+     "country": "US",
+     "previous_school": "Strath Haven HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Toby Gu",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Zhuhai, China",
+     "country": "CN",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Asher Rush",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Adithya Venkataraghavan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Saratoga, Calif.",
+     "country": "US",
+     "previous_school": "Lynbrook High School",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Matt Baughan",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://cornellbigred.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://cornellbigred.com/",
+ "requests": [
+  {
+   "url": "https://cornellbigred.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://cornellbigred.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://cornellbigred.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

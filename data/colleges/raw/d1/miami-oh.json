@@ -13,12 +13,12 @@
  "city": null,
  "state": "OH",
  "website_url": "https://www.miamiOH.edu",
- "athletics_url": "https://www.miamiredhawks.com",
+ "athletics_url": "https://miamiredhawks.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://miamiredhawks.com/sports/mens-golf",
+   "roster_url": "https://miamiredhawks.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -26,12 +26,92 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://miamiredhawks.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Tyler Anderson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenix, Ariz. / Chaparral High",
+     "country": "US",
+     "previous_school": "Phoenix, Ariz. / Chaparral High"
+    },
+    {
+     "name": "Bric Baird",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Upper Arlington, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Upper Arlington, Ohio / Upper Arlington"
+    },
+    {
+     "name": "Jack Callahan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Alpharetta, Ga. / Rivers Academy",
+     "country": "US",
+     "previous_school": "Alpharetta, Ga. / Rivers Academy"
+    },
+    {
+     "name": "Joseph Canitano",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Milton, Ga. / Rivers Academy",
+     "country": "US",
+     "previous_school": "Milton, Ga. / Rivers Academy"
+    },
+    {
+     "name": "Max Halflants",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Brussels, Belgium",
+     "country": "BE",
+     "previous_school": "Brussels, Belgium"
+    },
+    {
+     "name": "Liam Nelson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chicago, Ill. / St. Ignatius College Prep",
+     "country": "US",
+     "previous_school": "Chicago, Ill. / St. Ignatius College Prep"
+    },
+    {
+     "name": "Zach Radtke",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dublin, Ohio / Dublin Jerome",
+     "country": "US",
+     "previous_school": "Dublin, Ohio / Dublin Jerome"
+    },
+    {
+     "name": "Michael Stagnaro",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / St. Xavier",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / St. Xavier"
+    },
+    {
+     "name": "Dean Upholzer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Strongsville, Ohio / Strongsville",
+     "country": "US",
+     "previous_school": "Strongsville, Ohio / Strongsville"
+    },
+    {
+     "name": "Nathan Vonderhaar",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mason, Ohio / Mason",
+     "country": "US",
+     "previous_school": "Mason, Ohio / Mason"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -39,6 +119,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://miamiredhawks.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

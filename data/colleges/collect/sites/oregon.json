@@ -1,9 +1,241 @@
 {
  "slug": "oregon",
  "athletics_url": "https://www.goducks.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.goducks.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://goducks.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/oregonmgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goducks.com/sports/mens-golf/roster",
+   "roster_source_url": "https://goducks.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Adam Anderson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Ventura, Calif.",
+     "country": "US",
+     "previous_school": "Buena High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Tim Chang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taichung City, Taiwan",
+     "country": "TW",
+     "previous_school": "IJGA Golf Academy (Fla.)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sebastian Desoisa",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gibraltar, United Kingdom",
+     "country": "GB",
+     "previous_school": "Prior Park School Gibraltar",
+     "class_raw": "So."
+    },
+    {
+     "name": "Carl-Hugo Eriksson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Vasteras, Sweden",
+     "country": "SE",
+     "previous_school": "Celciusskolan",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Von Gordon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Solvang, Calif.",
+     "country": "US",
+     "previous_school": "Santa Ynez HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jeffrey Kwak",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "La Mirada, Calif.",
+     "country": "US",
+     "previous_school": "Sunny Hills HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Oscar Lent",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Surrey, England",
+     "country": "GB",
+     "previous_school": "Epsom College",
+     "class_raw": "So."
+    },
+    {
+     "name": "Logan Park",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Eastvale, Calif.",
+     "country": "US",
+     "previous_school": "Diamond Bar HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ramil Saelim",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phitsanulok, Thailand",
+     "country": "TH",
+     "previous_school": "Dream City Christian School (Ariz.)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Teddy Vigna",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Goleta, Calif.",
+     "country": "US",
+     "previous_school": "Dos Pueblos",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://goducks.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/oregonwomensgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goducks.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goducks.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Tong An",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Shenzhen, China",
+     "country": "CN",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Trinity Beth",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Calvert City, Ky.",
+     "country": "US",
+     "previous_school": "Georgia",
+     "class_raw": "So."
+    },
+    {
+     "name": "Darae Chung",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wellington, New Zealand",
+     "country": "NZ",
+     "previous_school": "San Jose State",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Annika Ishiyama",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Costa Mesa, Calif.",
+     "country": "US",
+     "previous_school": "Houston",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Prim Prachnakorn",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Catherine Rao",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Camarillo, Calif.",
+     "country": "US",
+     "previous_school": "Princeton",
+     "class_raw": "5th"
+    },
+    {
+     "name": "Shyla Singh",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gold Coast, Australia",
+     "country": "AU",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Celina Yeo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Francisco, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Head Coach",
+     "title": "coachd@uoregon.edu",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goducks.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goducks.com:443",
+ "requests": [
+  {
+   "url": "https://goducks.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

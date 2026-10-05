@@ -10,12 +10,12 @@
  "city": null,
  "state": "OH",
  "website_url": "https://www.ohio.edu",
- "athletics_url": "https://www.ohiobobcats.com",
+ "athletics_url": "https://ohiobobcats.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ohiobobcats.com/sports/mgolf",
+   "roster_url": "https://ohiobobcats.com/sports/mgolf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,81 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ohiobobcats.com/sports/mgolf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Nick Baum",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Roaring Spring, Pa. / Central",
+     "country": "US",
+     "previous_school": "Roaring Spring, Pa. / Central"
+    },
+    {
+     "name": "Jack Flores",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Worthington, Ohio / Thomas Worthington",
+     "country": "US",
+     "previous_school": "Worthington, Ohio / Thomas Worthington"
+    },
+    {
+     "name": "Rylan Hall",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Stratford, Ontario, Canada / St. Michaels Catholic",
+     "country": "CA",
+     "previous_school": "Stratford, Ontario, Canada / St. Michaels Catholic"
+    },
+    {
+     "name": "Cole Jones",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lancaster, N.Y. / St. Mary’s",
+     "country": "US",
+     "previous_school": "Lancaster, N.Y. / St. Mary’s"
+    },
+    {
+     "name": "Gabriel Mainella",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ontario, Canada / Green Secondary",
+     "country": "CA",
+     "previous_school": "Richmond Hill, Ontario, Canada / Green Secondary"
+    },
+    {
+     "name": "Will Mangas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Upper Arlington, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Upper Arlington, Ohio / Upper Arlington"
+    },
+    {
+     "name": "Jack Marsh",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Worthington, Ohio / Thomas Worthington",
+     "country": "US",
+     "previous_school": "Worthington, Ohio / Thomas Worthington"
+    },
+    {
+     "name": "Mikey Schutte",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Elder",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Elder"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://ohiobobcats.com/sports/wgolf",
+   "roster_url": "https://ohiobobcats.com/sports/wgolf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +105,68 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://ohiobobcats.com/sports/wgolf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Katie Husted",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbus, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Columbus, Ohio / Upper Arlington"
+    },
+    {
+     "name": "Zoe Luebbers",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / St. Ursula Academy",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / St. Ursula Academy"
+    },
+    {
+     "name": "Morgan Rodgers",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Centerville, Ohio / Centerville",
+     "country": "US",
+     "previous_school": "Centerville, Ohio / Centerville"
+    },
+    {
+     "name": "Charlotte Soller",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Mariemont",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Mariemont"
+    },
+    {
+     "name": "Paige Treherne",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Lakota West",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Lakota West"
+    },
+    {
+     "name": "Ally Turner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Miamisburg, Ohio / Miamisburg High School",
+     "country": "US",
+     "previous_school": "Miamisburg, Ohio / Miamisburg High School"
+    },
+    {
+     "name": "Saylor Wharff",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Marietta, Ohio / Marietta Senior High School",
+     "country": "US",
+     "previous_school": "Marietta, Ohio / Marietta Senior High School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +179,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://ohiobobcats.com/sports/mgolf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://ohiobobcats.com/sports/wgolf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

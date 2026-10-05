@@ -1,9 +1,206 @@
 {
  "slug": "ohio",
  "athletics_url": "https://www.ohiobobcats.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.ohiobobcats.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://ohiobobcats.com/sports/mgolf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://ohiobobcats.com/sports/mgolf/roster",
+   "roster_source_url": "https://ohiobobcats.com/sports/mgolf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Nick Baum",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Roaring Spring, Pa. / Central",
+     "country": "US",
+     "previous_school": "Roaring Spring, Pa. / Central",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jack Flores",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Worthington, Ohio / Thomas Worthington",
+     "country": "US",
+     "previous_school": "Worthington, Ohio / Thomas Worthington",
+     "class_raw": "So."
+    },
+    {
+     "name": "Rylan Hall",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Stratford, Ontario, Canada / St. Michaels Catholic",
+     "country": "CA",
+     "previous_school": "Stratford, Ontario, Canada / St. Michaels Catholic",
+     "class_raw": "So."
+    },
+    {
+     "name": "Cole Jones",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lancaster, N.Y. / St. Mary’s",
+     "country": "US",
+     "previous_school": "Lancaster, N.Y. / St. Mary’s",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Gabriel Mainella",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ontario, Canada / Green Secondary",
+     "country": "CA",
+     "previous_school": "Richmond Hill, Ontario, Canada / Green Secondary",
+     "class_raw": "So."
+    },
+    {
+     "name": "Will Mangas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Upper Arlington, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Upper Arlington, Ohio / Upper Arlington",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Marsh",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Worthington, Ohio / Thomas Worthington",
+     "country": "US",
+     "previous_school": "Worthington, Ohio / Thomas Worthington",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mikey Schutte",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Elder",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Elder",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://ohiobobcats.com/sports/wgolf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://ohiobobcats.com/sports/wgolf/roster",
+   "roster_source_url": "https://ohiobobcats.com/sports/wgolf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Katie Husted",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbus, Ohio / Upper Arlington",
+     "country": "US",
+     "previous_school": "Columbus, Ohio / Upper Arlington",
+     "class_raw": "So."
+    },
+    {
+     "name": "Zoe Luebbers",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / St. Ursula Academy",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / St. Ursula Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Morgan Rodgers",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Centerville, Ohio / Centerville",
+     "country": "US",
+     "previous_school": "Centerville, Ohio / Centerville",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Charlotte Soller",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Mariemont",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Mariemont",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Paige Treherne",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio / Lakota West",
+     "country": "US",
+     "previous_school": "Cincinnati, Ohio / Lakota West",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ally Turner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Miamisburg, Ohio / Miamisburg High School",
+     "country": "US",
+     "previous_school": "Miamisburg, Ohio / Miamisburg High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Saylor Wharff",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Marietta, Ohio / Marietta Senior High School",
+     "country": "US",
+     "previous_school": "Marietta, Ohio / Marietta Senior High School",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://ohiobobcats.com:443",
+ "requests": [
+  {
+   "url": "https://ohiobobcats.com/sports/mgolf",
+   "status": 200
+  },
+  {
+   "url": "https://ohiobobcats.com/sports/mgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://ohiobobcats.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://ohiobobcats.com/sports/wgolf",
+   "status": 200
+  },
+  {
+   "url": "https://ohiobobcats.com/sports/wgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://ohiobobcats.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

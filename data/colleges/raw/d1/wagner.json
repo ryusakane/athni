@@ -10,43 +10,185 @@
  "city": null,
  "state": "NY",
  "website_url": "https://www.wagner.edu",
- "athletics_url": "https://www.wagnerathletics.com",
+ "athletics_url": "https://wagnerathletics.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
+   "golf_url": "https://wagnerathletics.com/sports/mens-golf",
+   "roster_url": "https://wagnerathletics.com/sports/mens-golf/roster",
+   "coaches_url": "https://wagnerathletics.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/wagnermensgolf",
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://wagnerathletics.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Cooper Joyce",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Toronto, Canada",
+     "country": "CA",
+     "previous_school": "RPS Academy"
+    },
+    {
+     "name": "Juan Martinez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Veracruz, Mexico",
+     "country": "MX",
+     "previous_school": "Instituto Cumbres Veracruz / UTRGV"
+    },
+    {
+     "name": "Jack McMahon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Elkridge, MD",
+     "country": "US",
+     "previous_school": "Mount Saint Joseph HS"
+    },
+    {
+     "name": "Anthony Rzeszutko",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "Tottenville HS"
+    },
+    {
+     "name": "Luke Salome",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "St. Peters Boys HS / St. Joseph by the Sea"
+    },
+    {
+     "name": "Chris Solari",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "Tottenville"
+    },
+    {
+     "name": "Emilio Zapiain",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greenwich, CT",
+     "country": "US",
+     "previous_school": "Spring Creek Academy"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jim Engles",
+     "title": "Director of Golf",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Alavid Melo Iturralde",
+     "title": "Men's Golf Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
+   "golf_url": "https://wagnerathletics.com/sports/womens-golf",
+   "roster_url": "https://wagnerathletics.com/sports/womens-golf/roster",
+   "coaches_url": "https://wagnerathletics.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/wagnerwgolf",
    "x_url": null,
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://wagnerathletics.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Palwasha Ali",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Staten Island, NY",
+     "country": "US",
+     "previous_school": "Elwood John Glen HS / Sewanhaka HS"
+    },
+    {
+     "name": "Maria Jose Calleja Pineda",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Celaya, Guanajuato, Mexico",
+     "country": "MX",
+     "previous_school": "Centro Escolar EULER"
+    },
+    {
+     "name": "Marifer Calleja Pineda",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Celaya, Guanajuato, Mexico",
+     "country": "MX",
+     "previous_school": "Centro Escolar EULER"
+    },
+    {
+     "name": "Lani Park",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, MD",
+     "country": "US",
+     "previous_school": "Mount de Sales Academy"
+    },
+    {
+     "name": "Leah Sheerin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Monroe, NY",
+     "country": "US",
+     "previous_school": "Monroe Woodbury HS"
+    },
+    {
+     "name": "Lauren Silva",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Valencia, CA",
+     "country": "US",
+     "previous_school": "Valencia HS"
+    },
+    {
+     "name": "Izabella Sokolovic",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Chicago, IL",
+     "country": "US",
+     "previous_school": "Lincoln Park High School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jim Engles",
+     "title": "Director of Golf",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Pedro Marchioni",
+     "title": "Women's Golf Graduate Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wagnerathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +201,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://wagnerathletics.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://wagnerathletics.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://wagnerathletics.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

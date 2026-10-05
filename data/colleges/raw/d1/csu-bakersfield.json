@@ -12,25 +12,97 @@
  "city": null,
  "state": "CA",
  "website_url": "https://www.csub.edu",
- "athletics_url": "https://www.gorunners.com",
+ "athletics_url": "https://gorunners.com/splash.aspx?id=splash_58",
  "programs": [
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://gorunners.com/sports/womens-golf",
+   "roster_url": "https://gorunners.com/sports/womens-golf/roster",
+   "coaches_url": "https://gorunners.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/csub_womens_golf",
+   "x_url": "https://x.com/csub_wgolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://gorunners.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Emma Braun",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bakersfield, Calif.",
+     "country": "US",
+     "previous_school": "Bakersfield Christian HS"
+    },
+    {
+     "name": "Fiona Clancy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "St. Augustine, Florida",
+     "country": "US",
+     "previous_school": "Beachside High School"
+    },
+    {
+     "name": "Melay Dittrich",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Spring, Texas",
+     "country": "US",
+     "previous_school": "Grand Oaks HS"
+    },
+    {
+     "name": "Rena Kaneko",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rancho Palos Verdes, Calif.",
+     "country": "US",
+     "previous_school": "Palos Verdes Peninsula HS"
+    },
+    {
+     "name": "Anna Kehrer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Upsala, Sweden",
+     "country": "SE",
+     "previous_school": "Celsiusskolan"
+    },
+    {
+     "name": "Sahya Kitabatake",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kobe, Japan",
+     "country": "JP",
+     "previous_school": "College of the Canyons"
+    },
+    {
+     "name": "Ashlee Kresha",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Bakersfield, Calif.",
+     "country": "US",
+     "previous_school": "Garces Memorial HS"
+    },
+    {
+     "name": "Kate Montemayor",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Long Beach, Calif.",
+     "country": "US",
+     "previous_school": "Long Beach Poly HS"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Katy Barrett Baxter",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gorunners.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -38,6 +110,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://gorunners.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://gorunners.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

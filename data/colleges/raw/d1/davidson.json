@@ -10,12 +10,12 @@
  "city": null,
  "state": "NC",
  "website_url": "https://www.davidson.edu",
- "athletics_url": "https://www.davidsonwildcats.com",
+ "athletics_url": "https://davidsonwildcats.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://davidsonwildcats.com/sports/mens-golf",
+   "roster_url": "https://davidsonwildcats.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,12 +23,84 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://davidsonwildcats.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Griffin Cheatwood",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Charlotte, N.C. / Charlotte Latin",
+     "country": "US",
+     "previous_school": "Charlotte, N.C. / Charlotte Latin"
+    },
+    {
+     "name": "Clayton Couey",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Peachtree Corners, Ga. / William & Reed Academy",
+     "country": "US",
+     "previous_school": "Peachtree Corners, Ga. / William & Reed Academy"
+    },
+    {
+     "name": "Nate Faulkner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Roanoke, Va. / Roanoke Valley Governors School",
+     "country": "US",
+     "previous_school": "Roanoke, Va. / Roanoke Valley Governors School"
+    },
+    {
+     "name": "Jesse Hellring",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Miami Beach, Fla. / Ransom Everglades School",
+     "country": "US",
+     "previous_school": "Miami Beach, Fla. / Ransom Everglades School"
+    },
+    {
+     "name": "Owen Jessop",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Westhampton Beach, N.Y. / Westhampton",
+     "country": "US",
+     "previous_school": "Westhampton Beach, N.Y. / Westhampton"
+    },
+    {
+     "name": "Benjamin Newfield",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Arlington, Va. / Yorktown",
+     "country": "US",
+     "previous_school": "Arlington, Va. / Yorktown"
+    },
+    {
+     "name": "Alexander Paschall",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Charlotte, N.C. / Charlotte Christian",
+     "country": "US",
+     "previous_school": "Charlotte, N.C. / Charlotte Christian"
+    },
+    {
+     "name": "Davis Sayman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Charlotte, N.C. / Charlotte Latin",
+     "country": "US",
+     "previous_school": "Charlotte, N.C. / Charlotte Latin"
+    },
+    {
+     "name": "Will Tharin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Rocky Mount, N.C. / Rocky Mount Academy",
+     "country": "US",
+     "previous_school": "Rocky Mount, N.C. / Rocky Mount Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +108,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

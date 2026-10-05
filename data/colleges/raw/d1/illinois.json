@@ -10,12 +10,12 @@
  "city": null,
  "state": "IL",
  "website_url": "https://illinois.edu",
- "athletics_url": "https://www.fightingillini.com",
+ "athletics_url": "https://fightingillini.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://fightingillini.com/sports/mens-golf",
+   "roster_url": "https://fightingillini.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,89 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://fightingillini.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Jake Birdwell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Blaine, Minnesota / Spring Lake Park High School",
+     "country": "US",
+     "previous_school": "Blaine, Minnesota / Spring Lake Park High School"
+    },
+    {
+     "name": "Max Herendeen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bellevue, Washington / Bishop Blanchet High School",
+     "country": "US",
+     "previous_school": "Bellevue, Washington / Bishop Blanchet High School"
+    },
+    {
+     "name": "Dane Huddleston",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Woodland, Washington / Woodland",
+     "country": "US",
+     "previous_school": "Woodland, Washington / Woodland"
+    },
+    {
+     "name": "Le Khanh Hung",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ho Chi Minh City, Vietnam / Montverde Academy (Fla.)",
+     "country": "VN",
+     "previous_school": "Ho Chi Minh City, Vietnam / Montverde Academy (Fla.)"
+    },
+    {
+     "name": "Trey Marrion",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chesapeake, Virginia / Great Bridge High School",
+     "country": "US",
+     "previous_school": "Chesapeake, Virginia / Great Bridge High School"
+    },
+    {
+     "name": "Dujuan Snyman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Gold Coast, Australia / Saint Stephens College",
+     "country": "AU",
+     "previous_school": "Gold Coast, Australia / Saint Stephens College"
+    },
+    {
+     "name": "Freddie Turnell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Somerset, England / Millfield School",
+     "country": "GB",
+     "previous_school": "Somerset, England / Millfield School"
+    },
+    {
+     "name": "Ethan Wilson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "St. Albert, Alberta, Canada / St. Albert Catholic High School",
+     "country": "CA",
+     "previous_school": "St. Albert, Alberta, Canada / St. Albert Catholic High School"
+    },
+    {
+     "name": "Harrison Zipfel",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Louis, Missouri / St. Louis University High School",
+     "country": "US",
+     "previous_school": "St. Louis, Missouri / St. Louis University High School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://fightingillini.com/sports/womens-golf",
+   "roster_url": "https://fightingillini.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +113,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://fightingillini.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Tavia Burgess",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mather, Calif.",
+     "country": "US",
+     "previous_school": "Granite Bay"
+    },
+    {
+     "name": "Lisa Copeland",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Naperville, Ill.",
+     "country": "US",
+     "previous_school": "Laurel Springs"
+    },
+    {
+     "name": "Eileen Lee",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Plano, Texas",
+     "country": "US",
+     "previous_school": "Plano West"
+    },
+    {
+     "name": "Erica Lee",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Arcadia, Calif.",
+     "country": "US",
+     "previous_school": "Arcadia"
+    },
+    {
+     "name": "Helen Liu",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Beijing, China",
+     "country": "CN",
+     "previous_school": "Hainan Haidian Foreign Language Shiyan School"
+    },
+    {
+     "name": "Alexis Myers",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Northbrook, Ill.",
+     "country": "US",
+     "previous_school": "Glenbrook North"
+    },
+    {
+     "name": "Meadow Tian",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Delaware, Ohio",
+     "country": "US",
+     "previous_school": "Olentangy"
+    },
+    {
+     "name": "Sofia Vargas",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Riverside, Calif.",
+     "country": "US",
+     "previous_school": "Elite Academic Academy"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +195,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://fightingillini.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://fightingillini.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

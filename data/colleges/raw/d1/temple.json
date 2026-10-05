@@ -10,12 +10,12 @@
  "city": null,
  "state": "PA",
  "website_url": "https://www.temple.edu",
- "athletics_url": "https://www.owlsports.com",
+ "athletics_url": "https://owlsports.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://owlsports.com/sports/mens-golf",
+   "roster_url": "https://owlsports.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,12 +23,108 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://owlsports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Eddie Gebhardt",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Swarthmore, Pa. / Strath Haven",
+     "country": "US",
+     "previous_school": "Swarthmore, Pa. / Strath Haven"
+    },
+    {
+     "name": "Max Jackson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cumberland, R.I. / La Salle HS",
+     "country": "US",
+     "previous_school": "Cumberland, R.I. / La Salle HS"
+    },
+    {
+     "name": "William Jun",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. / Jupiter",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. / Jupiter"
+    },
+    {
+     "name": "Nicholas Linkchorst",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Glen Mills, Pa. / West Chester Rustin",
+     "country": "US",
+     "previous_school": "Glen Mills, Pa. / West Chester Rustin"
+    },
+    {
+     "name": "Tommy Murdough",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Concord, Mass. / Concord-Carlisle",
+     "country": "US",
+     "previous_school": "Concord, Mass. / Concord-Carlisle"
+    },
+    {
+     "name": "Nicholas Pisarski",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Orlando, Fla. / Boone",
+     "country": "US",
+     "previous_school": "Orlando, Fla. / Boone"
+    },
+    {
+     "name": "Michael Quirk",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Glenside, Pa. / La Salle College HS",
+     "country": "US",
+     "previous_school": "Glenside, Pa. / La Salle College HS"
+    },
+    {
+     "name": "Travis Robertson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Palm Beach, Fla. / Benjamin School",
+     "country": "US",
+     "previous_school": "Palm Beach, Fla. / Benjamin School"
+    },
+    {
+     "name": "Cody Sutcliffe",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Plymouth Meeting, Pa. / La Salle College HS",
+     "country": "US",
+     "previous_school": "Plymouth Meeting, Pa. / La Salle College HS"
+    },
+    {
+     "name": "Mason Tomé",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "West Palm Beach, Fla. / Saint Andrew's Episcopal School",
+     "country": "US",
+     "previous_school": "West Palm Beach, Fla. / Saint Andrew's Episcopal School"
+    },
+    {
+     "name": "Matthew Vital",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethlehem, Pa. / Liberty",
+     "country": "US",
+     "previous_school": "Bethlehem, Pa. / Liberty"
+    },
+    {
+     "name": "Michael Vital",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethlehem, Pa. / Liberty",
+     "country": "US",
+     "previous_school": "Bethlehem, Pa. / Liberty"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -36,6 +132,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://owlsports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

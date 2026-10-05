@@ -1,9 +1,223 @@
 {
  "slug": "charlotte",
  "athletics_url": "https://www.charlotte49ers.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.charlotte49ers.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://charlotte49ers.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/CharlotteMGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://charlotte49ers.com/sports/mens-golf/roster",
+   "roster_source_url": "https://charlotte49ers.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Alex Bock",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Morganton, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Daniel Boone, Jr.",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fuquay-Varina, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Seb Cave",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Melbourne, England",
+     "country": "GB",
+     "previous_school": "UAB",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Chase Cline",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chapin, S.C.",
+     "country": "US",
+     "previous_school": "Western Carolina",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Frazer Jones",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Leicester, England",
+     "country": "GB",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Justin Matthews",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Little Britain, Ontario",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Eli Schmidly",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Charlotte, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Lake Williams",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Greenville, N.C.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://charlotte49ers.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/CharlotteWGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://charlotte49ers.com/sports/womens-golf/roster",
+   "roster_source_url": "https://charlotte49ers.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Wawa Booncharn",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand / NMJC",
+     "country": "TH",
+     "previous_school": "Bangkok, Thailand / NMJC",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Pinky Chaisilprungruang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phitsanulok, Thailand /",
+     "country": "TH",
+     "previous_school": "Phitsanulok, Thailand /",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Maia Hattrell",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Essex, England / New Hall",
+     "country": "GB",
+     "previous_school": "Essex, England / New Hall",
+     "class_raw": "So."
+    },
+    {
+     "name": "Emma Heyman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Oskarshamn, Sweden / Birgitta",
+     "country": "SE",
+     "previous_school": "Oskarshamn, Sweden / Birgitta",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Caroline Johnson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mooresville, N.C. / Pine Lake Prep",
+     "country": "US",
+     "previous_school": "Mooresville, N.C. / Pine Lake Prep",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Filippa Runge",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Malmo, Sweden / Svenska Juniortouren",
+     "country": "SE",
+     "previous_school": "Malmo, Sweden / Svenska Juniortouren",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Gracie Song",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Waxhaw, N.C. / Cuthbertson",
+     "country": "US",
+     "previous_school": "Waxhaw, N.C. / Cuthbertson",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ting Uang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taipei City, Taiwan /",
+     "country": "TW",
+     "previous_school": "Taipei City, Taiwan /",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Head Coach",
+     "title": "coach.cc@charlotte.edu",
+     "email": null,
+     "phone": null,
+     "source_url": "https://charlotte49ers.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://charlotte49ers.com:443",
+ "requests": [
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

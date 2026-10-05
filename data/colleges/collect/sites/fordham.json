@@ -1,9 +1,124 @@
 {
  "slug": "fordham",
  "athletics_url": "https://www.fordhamsports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.fordhamsports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://fordhamsports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": "https://x.com/Fordham_Golf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://fordhamsports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://fordhamsports.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Luke Brower",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Middlebury, Conn.",
+     "country": "US",
+     "previous_school": "Pomperaug High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kieran Cummins",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Loudonville, N.Y.",
+     "country": "US",
+     "previous_school": "Shaker",
+     "class_raw": "So."
+    },
+    {
+     "name": "AJ DePaolo",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cheshire, Conn.",
+     "country": "US",
+     "previous_school": "Cheshire",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Patrick Ginnity",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fitchburg, Mass.",
+     "country": "US",
+     "previous_school": "St. Bernard's (Choate Rosemary Hall)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Liam Howard",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Leesburg, Va.",
+     "country": "US",
+     "previous_school": "Loudoun County High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Eli Kaufman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Montville, N.J.",
+     "country": "US",
+     "previous_school": "Montville Township",
+     "class_raw": "So."
+    },
+    {
+     "name": "Tucker Silva",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Longmeadow, Mass.",
+     "country": "US",
+     "previous_school": "Choate Rosemary Hall",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jack St. Ledger",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Little Falls, N.J.",
+     "country": "US",
+     "previous_school": "Saint Peter's Prep",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Gary Murphy",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "718-817-4300",
+     "source_url": "https://fordhamsports.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://fordhamsports.com/staff-directory"
+     }
+    }
+   ],
+   "coaches_url": "https://fordhamsports.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://fordhamsports.com/",
+ "requests": [
+  {
+   "url": "https://fordhamsports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://fordhamsports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://fordhamsports.com/staff-directory",
+   "status": 200
+  }
+ ]
 }

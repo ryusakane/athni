@@ -1,9 +1,215 @@
 {
  "slug": "florida-atlantic",
  "athletics_url": "https://www.fausports.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.fausports.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://fausports.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://fausports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://fausports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Alexis Barnetche",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Sulpice de Faleyrens, France",
+     "country": "FR",
+     "previous_school": "St. Sulpice de Faleyrens, France",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Brugman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Stellenbosch, South Africa / Paul Roos Gymnasium",
+     "country": "ZA",
+     "previous_school": "Stellenbosch, South Africa / Paul Roos Gymnasium",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Thomas Grenier",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Thetford Mines, Quebec, Canada",
+     "country": "CA",
+     "previous_school": "Thetford Mines, Quebec, Canada",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Tristan Rhodenizer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "Jupiter, Fla.",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ian Soderholm",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Stockholm, Sweden /",
+     "country": "SE",
+     "previous_school": "Stockholm, Sweden /",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "NaShawn Tyson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Stuart, Fla. / South Fork",
+     "country": "US",
+     "previous_school": "Stuart, Fla. / South Fork",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Christian Veilleux",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. /",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. /",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Conor Whalen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Trinity, Fla.",
+     "country": "US",
+     "previous_school": "Trinity, Fla.",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Preston Worch",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Delray Beach, Fla.",
+     "country": "US",
+     "previous_school": "Delray Beach, Fla.",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://fausports.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": "https://www.facebook.com/FAUWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://fausports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://fausports.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Maria Jose Cardona Estrada",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Manizalez, Colombia",
+     "country": "CO",
+     "previous_school": "Manizalez, Colombia",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Amelia Cobb",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ormond Beach, Fla. /",
+     "country": "US",
+     "previous_school": "Ormond Beach, Fla. /",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Clemence Da Costa",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lafrancaise, Fra",
+     "country": null,
+     "previous_school": "Lafrancaise, Fra",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Irene Garcia Sanchez",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Sotogrande, Spain",
+     "country": "ES",
+     "previous_school": "Sotogrande, Spain",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Tina Genoulaz",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Seilh, France /",
+     "country": "FR",
+     "previous_school": "Seilh, France /",
+     "class_raw": "So."
+    },
+    {
+     "name": "Charlotte Perkins",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sydney, Australia / Endeavour Sports HS",
+     "country": "AU",
+     "previous_school": "Sydney, Australia / Endeavour Sports HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Giulia Scarcello",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Vinovo, Italy / International School of Turin",
+     "country": "IT",
+     "previous_school": "Vinovo, Italy / International School of Turin",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://fausports.com:443",
+ "requests": [
+  {
+   "url": "https://fausports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://fausports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://fausports.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://fausports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://fausports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://fausports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

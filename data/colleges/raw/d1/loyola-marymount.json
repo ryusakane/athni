@@ -12,25 +12,112 @@
  "city": null,
  "state": "CA",
  "website_url": "https://www.lmu.edu",
- "athletics_url": "https://www.lmulions.com",
+ "athletics_url": "https://lmulions.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
-   "facebook_url": null,
+   "golf_url": "https://lmulions.com/sports/mens-golf",
+   "roster_url": "https://lmulions.com/sports/mens-golf/roster",
+   "coaches_url": "https://lmulions.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/lmulionsGOLF",
+   "x_url": "https://x.com/lmulionsGOLF",
+   "facebook_url": "https://www.facebook.com/LMULionsGolf",
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://lmulions.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Nateesh Anatha Ganesh",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Malacca, Malaysia",
+     "country": "MY",
+     "previous_school": "Kaiser University"
+    },
+    {
+     "name": "Daniel Bullen",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Auchterarder, Scotland",
+     "country": "GB",
+     "previous_school": "Oregon"
+    },
+    {
+     "name": "Joey Buttress",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Perth, Australia",
+     "country": "AU",
+     "previous_school": "Illinois"
+    },
+    {
+     "name": "Pablo Garcia Terol",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Sant Cugat, Catalunya, Spain",
+     "country": "ES",
+     "previous_school": "Arkansas"
+    },
+    {
+     "name": "Ethan Hoffmann",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Diego, Calif.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Josh Ince",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Surrey, British Columbia, Canada",
+     "country": "CA",
+     "previous_school": null
+    },
+    {
+     "name": "Jonathan Oakes",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tarrytown, NY",
+     "country": "US",
+     "previous_school": "Kenyon College"
+    },
+    {
+     "name": "Adam Pedersen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ikast, Denmark",
+     "country": "DK",
+     "previous_school": "NC State"
+    },
+    {
+     "name": "Noah Peens",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ballito, South Africa",
+     "country": "ZA",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jason D'Amore",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://lmulions.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Michael McCabe",
+     "title": "Associate Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://lmulions.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -38,6 +125,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://lmulions.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://lmulions.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

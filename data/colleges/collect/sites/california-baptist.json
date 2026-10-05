@@ -1,9 +1,122 @@
 {
  "slug": "california-baptist",
  "athletics_url": "https://www.cbulancers.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.cbulancers.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://cbulancers.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/cbuwomensgolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://cbulancers.com/sports/womens-golf/roster",
+   "roster_source_url": "https://cbulancers.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Abby Abarcas",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Philippines",
+     "country": "PH",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Shuyi Cao",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "China",
+     "country": "CN",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Pusanisa Ekkantrong",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Damini Law Ghanshyani",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Paraguay",
+     "country": "PY",
+     "previous_school": null,
+     "class_raw": "R-Sr."
+    },
+    {
+     "name": "Nana Ishikawa",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Japan",
+     "country": "JP",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Crista Minoza",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Philippines",
+     "country": "PH",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lisa Shimmon",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fresno, CA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kornchanok Triyakul",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Burberry Zhang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Philippines",
+     "country": "PH",
+     "previous_school": null,
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://cbulancers.com:443",
+ "requests": [
+  {
+   "url": "https://cbulancers.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://cbulancers.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://cbulancers.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

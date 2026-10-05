@@ -10,12 +10,12 @@
  "city": null,
  "state": "OK",
  "website_url": "https://www.utulsa.edu",
- "athletics_url": "https://www.tulsahurricane.com",
+ "athletics_url": "https://tulsahurricane.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://tulsahurricane.com/sports/mens-golf",
+   "roster_url": "https://tulsahurricane.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,97 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://tulsahurricane.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Luke Beckman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "San Antonio, Texas"
+    },
+    {
+     "name": "Abe Bignell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kent, England",
+     "country": "GB",
+     "previous_school": "Kent, England"
+    },
+    {
+     "name": "Reuben Harvey",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Southwold, England",
+     "country": "GB",
+     "previous_school": "Southwold, England"
+    },
+    {
+     "name": "Thomas Herholtz",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Colorado Springs, Colo. / Cheyenne Mountain HS",
+     "country": "US",
+     "previous_school": "Colorado Springs, Colo. / Cheyenne Mountain HS"
+    },
+    {
+     "name": "Joshua Koekemoer",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Pretoria, South Africa / International Schooling",
+     "country": "ZA",
+     "previous_school": "Pretoria, South Africa / International Schooling"
+    },
+    {
+     "name": "Minas Manias",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Frisco, Texas / Legacy Christian Academy",
+     "country": "US",
+     "previous_school": "Frisco, Texas / Legacy Christian Academy"
+    },
+    {
+     "name": "Brady Meek",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Fort Worth, Texas / Trinity Valley School",
+     "country": "US",
+     "previous_school": "Fort Worth, Texas / Trinity Valley School"
+    },
+    {
+     "name": "CJ Phillips",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Edmond, Okla. / Edmond Santa Fe HS",
+     "country": "US",
+     "previous_school": "Edmond, Okla. / Edmond Santa Fe HS"
+    },
+    {
+     "name": "Ethan Roos",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Essex, England",
+     "country": "GB",
+     "previous_school": "Essex, England"
+    },
+    {
+     "name": "Matthew Wilson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nanaimo, BC, Canada / Wellington Secondary School",
+     "country": "CA",
+     "previous_school": "Nanaimo, BC, Canada / Wellington Secondary School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://tulsahurricane.com/sports/womens-golf",
+   "roster_url": "https://tulsahurricane.com/sports/womens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +121,76 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://tulsahurricane.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Sayers Allen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Spring Branch, Texas / Smithson Valley HS",
+     "country": "US",
+     "previous_school": "Spring Branch, Texas / Smithson Valley HS"
+    },
+    {
+     "name": "Eva Kiri Fevzer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Smlednik, Solvenia",
+     "country": null,
+     "previous_school": "Smlednik, Solvenia"
+    },
+    {
+     "name": "Hadley Neese",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Overland Park, Kan. / Blue Valley High School",
+     "country": "US",
+     "previous_school": "Overland Park, Kan. / Blue Valley High School"
+    },
+    {
+     "name": "Samantha Olson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Phoenix, Ariz. / Veritas Scholars Academy",
+     "country": "US",
+     "previous_school": "Phoenix, Ariz. / Veritas Scholars Academy"
+    },
+    {
+     "name": "Jeanne Pagnier",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Maxilly-sur-Léman France /",
+     "country": "FR",
+     "previous_school": "Maxilly-sur-Léman France /"
+    },
+    {
+     "name": "Madison Roach",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Naples, Fla. / George Washington University Online High School",
+     "country": "US",
+     "previous_school": "Naples, Fla. / George Washington University Online High School"
+    },
+    {
+     "name": "Zoe Shamy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. / Jupiter Community High School",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. / Jupiter Community High School"
+    },
+    {
+     "name": "Allyn Stephens",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Houston, Texas / The Kincaid School",
+     "country": "US",
+     "previous_school": "Houston, Texas / The Kincaid School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +203,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://tulsahurricane.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://tulsahurricane.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

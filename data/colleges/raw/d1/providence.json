@@ -10,12 +10,12 @@
  "city": null,
  "state": "RI",
  "website_url": "https://www.providence.edu",
- "athletics_url": "https://www.friars.com",
+ "athletics_url": "https://friars.com:443",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://friars.com/sports/mens-golf",
+   "roster_url": "https://friars.com/sports/mens-golf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -23,17 +23,81 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://friars.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Evan Buddenhagen",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Gloucester, Mass. / Kennesaw State",
+     "country": "US",
+     "previous_school": "Gloucester, Mass. / Kennesaw State"
+    },
+    {
+     "name": "Oliver Clark",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Baltimore, Md. / Franklin & Marshall College",
+     "country": "US",
+     "previous_school": "Baltimore, Md. / Franklin & Marshall College"
+    },
+    {
+     "name": "Callan Fahey",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Wheaton, Ill. / null",
+     "country": "US",
+     "previous_school": "Wheaton, Ill. / null"
+    },
+    {
+     "name": "Zac Georgantas",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Foxborough, Mass. / null",
+     "country": "US",
+     "previous_school": "Foxborough, Mass. / null"
+    },
+    {
+     "name": "Maurice Hoben III",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla. / null",
+     "country": "US",
+     "previous_school": "Jupiter, Fla. / null"
+    },
+    {
+     "name": "Christian Iwai",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Aurora, Ont. / Rhodes College",
+     "country": "CA",
+     "previous_school": "Aurora, Ont. / Rhodes College"
+    },
+    {
+     "name": "Campbell Skelly",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Charleston, S.C. / Rollins College",
+     "country": "US",
+     "previous_school": "Charleston, S.C. / Rollins College"
+    },
+    {
+     "name": "Will Spring",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Concord, Mass. / null",
+     "country": "US",
+     "previous_school": "Concord, Mass. / null"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
+   "golf_url": "https://friars.com/sports/wgolf",
+   "roster_url": "https://friars.com/sports/wgolf/roster",
    "coaches_url": null,
    "instagram_url": null,
    "x_url": null,
@@ -41,12 +105,100 @@
    "tiktok_url": null,
    "youtube_url": null,
    "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
+   "roster_source_url": "https://friars.com/sports/wgolf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Olivia Arone",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "West Newton, Mass. / Newton North High School",
+     "country": "US",
+     "previous_school": "West Newton, Mass. / Newton North High School"
+    },
+    {
+     "name": "Bailey Baio",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bradenton, Fla. / IMG Academy",
+     "country": "US",
+     "previous_school": "Bradenton, Fla. / IMG Academy"
+    },
+    {
+     "name": "Myla Bisceglia",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rye, N.Y. / Rye High School",
+     "country": "US",
+     "previous_school": "Rye, N.Y. / Rye High School"
+    },
+    {
+     "name": "Campbell Bridges",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Okatie, S.C. / Providence Academy",
+     "country": "US",
+     "previous_school": "Okatie, S.C. / Providence Academy"
+    },
+    {
+     "name": "Grace Catalano",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cazenovia, N.Y. / Christian Brothers Academy",
+     "country": "US",
+     "previous_school": "Cazenovia, N.Y. / Christian Brothers Academy"
+    },
+    {
+     "name": "Samantha Dunn",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Berlin, Conn. / Berlin High School",
+     "country": "US",
+     "previous_school": "Berlin, Conn. / Berlin High School"
+    },
+    {
+     "name": "Maddie Hyndman",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Palm Beach Gardens, Fla. / Oxbridge Academy",
+     "country": "US",
+     "previous_school": "Palm Beach Gardens, Fla. / Oxbridge Academy"
+    },
+    {
+     "name": "Claire McTaggart",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Barrington, R.I. / Barrington High School",
+     "country": "US",
+     "previous_school": "Barrington, R.I. / Barrington High School"
+    },
+    {
+     "name": "Prisha Pandey",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Edison, N.J. / ICL Academy California",
+     "country": "US",
+     "previous_school": "Edison, N.J. / ICL Academy California"
+    },
+    {
+     "name": "Emma Peifly",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madison, N.J. / Madison High School",
+     "country": "US",
+     "previous_school": "Madison, N.J. / Madison High School"
+    },
+    {
+     "name": "Annabel Widdifield",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "McLean, Va. / The Potomac School",
+     "country": "US",
+     "previous_school": "McLean, Va. / The Potomac School"
+    }
+   ],
    "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +211,16 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

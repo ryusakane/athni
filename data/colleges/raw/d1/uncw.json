@@ -12,43 +12,201 @@
  "city": null,
  "state": "NC",
  "website_url": "https://www.uncw.edu",
- "athletics_url": "https://www.uncwsports.com",
+ "athletics_url": "https://uncwsports.com",
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://uncwsports.com/sports/mens-golf",
+   "roster_url": "https://uncwsports.com/sports/mens-golf/roster",
+   "coaches_url": "https://uncwsports.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/UNCW_mensgolf",
+   "x_url": "https://x.com/UNCW_mensgolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://uncwsports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Ethan Boyette",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Wilson, N.C.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Cooper Burris",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kannapolis, N.C.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Bradley Davis Jr.",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Pilot Mountain, N.C.",
+     "country": "US",
+     "previous_school": "Gardner-Webb"
+    },
+    {
+     "name": "Luis de Minon",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "El Puerto de Santa Maria, Spain",
+     "country": "ES",
+     "previous_school": "IES Ortega y Gasset"
+    },
+    {
+     "name": "Cole MacMillan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Round Rock, Texas",
+     "country": "US",
+     "previous_school": "Mary Hardin-Baylor"
+    },
+    {
+     "name": "Will Ruth",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Moore, S.C.",
+     "country": "US",
+     "previous_school": null
+    },
+    {
+     "name": "Hunter Swidzinski",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Renfrew, Pa.",
+     "country": "US",
+     "previous_school": "Longwood"
+    },
+    {
+     "name": "Mauricio Tello",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lima, Peru",
+     "country": "PE",
+     "previous_school": null
+    },
+    {
+     "name": "Noah Yeary",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Greensboro, N.C.",
+     "country": "US",
+     "previous_school": null
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Blake Taylor",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uncwsports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Chris Byrd",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uncwsports.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://uncwsports.com/sports/womens-golf",
+   "roster_url": "https://uncwsports.com/sports/womens-golf/roster",
+   "coaches_url": "https://uncwsports.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/uncwwomensgolf",
+   "x_url": "https://x.com/UNCWWomensGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://uncwsports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Valencia Chang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Singapore",
+     "country": "SG",
+     "previous_school": "North Texas"
+    },
+    {
+     "name": "Kanchana Duangsam-Rudd",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Sarasota, Florida",
+     "country": "US",
+     "previous_school": "Montverde Academy"
+    },
+    {
+     "name": "Alexis Faieta",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tujunga, Calif.",
+     "country": "US",
+     "previous_school": "Notre Dame HS"
+    },
+    {
+     "name": "Ella Levy",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lausanne, Switzerland",
+     "country": "CH",
+     "previous_school": null
+    },
+    {
+     "name": "Eden Lohrbach",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ames, Iowa",
+     "country": "US",
+     "previous_school": "Nebraska"
+    },
+    {
+     "name": "Minouche Rooijmans",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Eersel, Netherlands",
+     "country": "NL",
+     "previous_school": null
+    },
+    {
+     "name": "Dagmar Soerensen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Klampenborg, Denmark",
+     "country": "DK",
+     "previous_school": "Oeregaard Gymnasium"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Cindy Ho",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "(910) 962-4163",
+     "source_url": "https://uncwsports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Phu Khine",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uncwsports.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -61,6 +219,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://uncwsports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://uncwsports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://uncwsports.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

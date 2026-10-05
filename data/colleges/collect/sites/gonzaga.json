@@ -1,9 +1,188 @@
 {
  "slug": "gonzaga",
  "athletics_url": "https://www.gozags.com",
- "checked_at": "2026-10-05",
- "programs": [],
- "home_status": "bot-wall",
- "athletics_url_final": "https://www.gozags.com/",
- "requests": []
+ "checked_at": "2026-10-04",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gozags.com/sports/mens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/ZagMGolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gozags.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gozags.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Jack Brayman",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Erie, Colo.",
+     "country": "US",
+     "previous_school": "Peak to Peak Charter",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Xuan-kai (Bruce) Chang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taipei City, Taiwan",
+     "country": "TW",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jayden Lizama",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Elk Grove, Calif.",
+     "country": "US",
+     "previous_school": "Franklin",
+     "class_raw": "So."
+    },
+    {
+     "name": "Charlie Olson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Newport Beach, Calif.",
+     "country": "US",
+     "previous_school": "Corona Del Mar",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Cooper Paull",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "The Woodlands",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Michael Vienneau",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Bowie",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gozags.com/sports/womens-golf",
+   "collected_at": "2026-10-04",
+   "instagram_url": "https://www.instagram.com/ZagWGOLF",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gozags.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gozags.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Islay Benoit",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Pensacola, Fla. / Pensacola Catholic",
+     "country": "US",
+     "previous_school": "Pensacola, Fla. / Pensacola Catholic",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Anna Duerr",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Olympia, Wash. / Capital",
+     "country": "US",
+     "previous_school": "Olympia, Wash. / Capital",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Brenna Preap",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Stockton, Calif. / Bear Creek",
+     "country": "US",
+     "previous_school": "Stockton, Calif. / Bear Creek",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Ashlee Xu",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mountain House, Calif. / Mountain House",
+     "country": "US",
+     "previous_school": "Mountain House, Calif. / Mountain House",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mariko Yonemura",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Waipahu, Hawaii / Mililani",
+     "country": "US",
+     "previous_school": "Waipahu, Hawaii / Mililani",
+     "class_raw": "So."
+    },
+    {
+     "name": "Esther Yoo",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Porter Ranch, Calif. / Notre Dame",
+     "country": "US",
+     "previous_school": "Porter Ranch, Calif. / Notre Dame",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Vanessa Zhang",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Pasadena, Calif. / La Salle College Preparatory",
+     "country": "US",
+     "previous_school": "Pasadena, Calif. / La Salle College Preparatory",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gozags.com:443",
+ "requests": [
+  {
+   "url": "https://gozags.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gozags.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gozags.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://gozags.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gozags.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gozags.com:443/staff-directory",
+   "status": 200
+  }
+ ]
 }

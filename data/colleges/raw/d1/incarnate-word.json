@@ -14,39 +14,182 @@
  "programs": [
   {
    "gender": "male",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://uiwcardinals.com/sports/mens-golf",
+   "roster_url": "https://uiwcardinals.com/sports/mens-golf/roster",
+   "coaches_url": "https://uiwcardinals.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/uiwmensgolf",
+   "x_url": "https://x.com/UIWMensGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://uiwcardinals.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Cole Cantu",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Smithson Valley HS"
+    },
+    {
+     "name": "Taylor Cussimanio",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Rouse HS"
+    },
+    {
+     "name": "Alex Kolodziejski",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Schertz, Texas",
+     "country": "US",
+     "previous_school": "Samuel Clemens HS"
+    },
+    {
+     "name": "William Mangione",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Dripping Springs HS"
+    },
+    {
+     "name": "Preston Mohon",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Southlake, Texas",
+     "country": "US",
+     "previous_school": "Southlake Carroll HS"
+    },
+    {
+     "name": "Rhys Nicholas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Angmering, England",
+     "country": "GB",
+     "previous_school": "The Angmering School"
+    },
+    {
+     "name": "Joel Talusen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Tuusula, Finland",
+     "country": "FI",
+     "previous_school": "Mäkelänrinne Sports High"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Thomas Kearney",
+     "title": "Head Men's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uiwcardinals.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Lyn McDonald",
+     "title": "Volunteer Assistant Men's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uiwcardinals.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   },
   {
    "gender": "female",
-   "golf_url": null,
-   "roster_url": null,
-   "coaches_url": null,
-   "instagram_url": null,
-   "x_url": null,
+   "golf_url": "https://uiwcardinals.com/sports/womens-golf",
+   "roster_url": "https://uiwcardinals.com/sports/womens-golf/roster",
+   "coaches_url": "https://uiwcardinals.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/uiwwomensgolf",
+   "x_url": "https://x.com/UIWWomensGolf",
    "facebook_url": null,
    "tiktok_url": null,
    "youtube_url": null,
-   "roster_season": null,
-   "roster_source_url": null,
-   "collected_at": null,
-   "roster": [],
-   "coaches": [],
-   "alumni_pros": [],
-   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
+   "roster_season": "2026-27",
+   "roster_source_url": "https://uiwcardinals.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-04",
+   "roster": [
+    {
+     "name": "Victoria Bauer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Klagenfurt, Austria",
+     "country": "AT",
+     "previous_school": "Ingeborg Bachmann Gymnsium"
+    },
+    {
+     "name": "Addison Braden",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Claudia Taylor Johnson HS"
+    },
+    {
+     "name": "Marissa Loya",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Reagan HS"
+    },
+    {
+     "name": "Claire McMyler",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Brandeis HS"
+    },
+    {
+     "name": "Aubrie Nolen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Southlake, Texas",
+     "country": "US",
+     "previous_school": "Southlake Carroll HS"
+    },
+    {
+     "name": "Isabella Saenz",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Johnson"
+    },
+    {
+     "name": "Jordan Sandoval",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "San Antonio, Texas",
+     "country": "US",
+     "previous_school": "Alamo Heights HS"
+    },
+    {
+     "name": "Arwen Settipalli",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Houston, Texas",
+     "country": "US",
+     "previous_school": "Memorial HS"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Arcadio (Archie) Ramos Jr.",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uiwcardinals.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
  "sources": [
@@ -59,6 +202,21 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://uiwcardinals.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://uiwcardinals.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://uiwcardinals.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }
