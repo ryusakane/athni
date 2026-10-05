@@ -23,6 +23,17 @@ export function latestRanking(program: Program | undefined): Ranking | null {
   )[0];
 }
 
+/**
+ * The college season a ranking belongs to. Seasons run fall to spring and span two calendar
+ * years, so a ranking dated from July onward opens a new season: 2026-08-31 → "2026–27",
+ * 2026-05-27 → "2025–26".
+ */
+export function rankingSeason(ranking: Ranking): string {
+  const year = Number(ranking.as_of.slice(0, 4));
+  const start = Number(ranking.as_of.slice(5, 7)) >= 7 ? year : year - 1;
+  return `${start}–${String(start + 1).slice(-2)}`;
+}
+
 export function rosterSummary(program: Program) {
   const byClass = Object.fromEntries(CLASS_YEARS.map((c) => [c, 0])) as Record<ClassYear, number>;
   for (const player of program.roster) if (player.class_year) byClass[player.class_year]++;

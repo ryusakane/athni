@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { Stat } from "@/components/golf/stat";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { CLASS_YEARS, collegeSlugs, getCollege, rosterSummary } from "@/lib/colleges/queries";
+import { CLASS_YEARS, collegeSlugs, getCollege, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
 import type { Program } from "@/lib/colleges/types";
 import { formatDate } from "@/lib/golf/format";
 
@@ -118,7 +118,9 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
               <li key={`${r.source}|${r.as_of}`}>
                 <span className="mr-2 text-lg font-semibold tabular-nums">#{r.rank}</span>
                 {r.source_url ? <ExternalLink href={r.source_url}>{r.source}</ExternalLink> : r.source}
-                <span className="ml-2 text-foreground/50">{formatDate(lang, r.as_of)}</span>
+                <span className="ml-2 text-foreground/50">
+                  {t.season(rankingSeason(r))} · {formatDate(lang, r.as_of)}
+                </span>
               </li>
             ))}
           </ul>

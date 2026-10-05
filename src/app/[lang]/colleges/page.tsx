@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { CollegeTable, type CollegeRow } from "@/components/colleges/college-table";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { latestRanking, listColleges, rosterSummary } from "@/lib/colleges/queries";
+import { latestRanking, listColleges, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
 import type { College, ProgramGender, Ranking } from "@/lib/colleges/types";
 import { formatDate } from "@/lib/golf/format";
 
@@ -19,8 +19,10 @@ function programCell(college: College, gender: ProgramGender) {
   const program = college.programs.find((p) => p.gender === gender);
   if (!program) return null;
   const roster = program.roster.length ? rosterSummary(program) : null;
+  const ranking = latestRanking(program);
   return {
-    rank: latestRanking(program)?.rank ?? null,
+    rank: ranking?.rank ?? null,
+    season: ranking ? rankingSeason(ranking) : null,
     roster: roster?.total ?? null,
     japanese: roster?.japanese.length ?? 0,
     collected: program.roster.length > 0 || program.coaches.length > 0,
@@ -65,10 +67,10 @@ export default async function CollegesPage({ params }: PageProps<"/[lang]/colleg
           <p key={`${r.source}|${r.as_of}`}>
             {r.source_url ? (
               <a href={r.source_url} className="underline" rel="noopener" target="_blank">
-                {dict.colleges.rankingNote(r.source, formatDate(lang, r.as_of))}
+                {dict.colleges.rankingNote(r.source, rankingSeason(r), formatDate(lang, r.as_of))}
               </a>
             ) : (
-              dict.colleges.rankingNote(r.source, formatDate(lang, r.as_of))
+              dict.colleges.rankingNote(r.source, rankingSeason(r), formatDate(lang, r.as_of))
             )}
           </p>
         ))}
