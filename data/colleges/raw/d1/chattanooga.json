@@ -16,7 +16,7 @@
    "gender": "male",
    "golf_url": "https://gomocs.com/sports/mens-golf",
    "roster_url": null,
-   "coaches_url": null,
+   "coaches_url": "https://gomocs.com/staff-directory",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -26,7 +26,29 @@
    "roster_source_url": null,
    "collected_at": "2026-10-05",
    "roster": [],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Blaine Woodruff",
+     "title": "Head Coach",
+     "email": "blaine-woodruff@utc.edu",
+     "phone": "424-346-2456",
+     "source_url": "https://gomocs.com/staff-directory"
+    },
+    {
+     "name": "Ryan Hogan",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "423-425-4625",
+     "source_url": "https://gomocs.com/staff-directory"
+    },
+    {
+     "name": "Billy Kennerly",
+     "title": "Asst. Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gomocs.com/staff-directory"
+    }
+   ],
    "alumni_pros": [
     {
      "name": "Liam Johnston",
@@ -43,7 +65,7 @@
    "gender": "female",
    "golf_url": "https://gomocs.com/sports/womens-golf",
    "roster_url": null,
-   "coaches_url": null,
+   "coaches_url": "https://gomocs.com/staff-directory",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -53,7 +75,22 @@
    "roster_source_url": null,
    "collected_at": "2026-10-05",
    "roster": [],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Annie Schmidt",
+     "title": "Head Coach",
+     "email": "annie-schmidt@utc.edu",
+     "phone": null,
+     "source_url": "https://gomocs.com/staff-directory"
+    },
+    {
+     "name": "Shelly Chen",
+     "title": "Asst. Coach",
+     "email": "shelly-chen@utc.edu",
+     "phone": null,
+     "source_url": "https://gomocs.com/staff-directory"
+    }
+   ],
    "alumni_pros": [
     {
      "name": "Agathe Sauzon",
@@ -115,6 +152,11 @@
    "url": "https://en.wikipedia.org/wiki/Liam_Johnston",
    "reuse_status": "ok",
    "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://gomocs.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
   }
  ]
 }

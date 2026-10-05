@@ -22,7 +22,19 @@ SITE_NOTE = "Official athletics site, public roster/staff pages. Site terms not 
 BLOCKED_NOTE = {
     "bot-wall": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet.",
     "robots-disallowed": "Athletics site's robots.txt disallows crawling; roster, coaches and team socials not collected.",
+    0: "Athletics site did not respond to our requests; roster, coaches and team socials not collected yet.",
+    403: "Athletics site refused automated requests; roster, coaches and team socials not collected yet.",
 }
+UNREAD_NOTE = "Roster and coaches could not be read from the athletics site (the page loads them in a way we can't parse yet)."
+
+
+def program_note(site, gender):
+    """Why a program with neither roster nor coaches has none, from the site's request log."""
+    path = "/womens-golf" if gender == "female" else "/mens-golf"
+    statuses = [r["status"] for r in site.get("requests", []) if path in r["url"]]
+    if any(st in ("bot-wall", 403) for st in statuses):
+        return BLOCKED_NOTE["bot-wall"]
+    return UNREAD_NOTE
 
 
 def load(path, default=None):
@@ -86,6 +98,8 @@ def main():
             prog["alumni_pros"] = alumni.get((s["slug"], g), op.get("alumni_pros", []))
             if status in BLOCKED_NOTE and not prog["roster"]:
                 prog["collection_note"] = BLOCKED_NOTE[status]
+            elif not prog["roster"] and not prog["coaches"]:
+                prog["collection_note"] = program_note(site, g)
             counts["rosters"] += bool(prog["roster"])
             counts["coaches"] += bool(prog["coaches"])
             for k in ["roster_source_url", "coaches_url"]:
