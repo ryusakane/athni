@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { PlayerActions } from "@/components/account/player-actions";
 import { Stat } from "@/components/golf/stat";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
@@ -56,6 +57,7 @@ export default async function PlayerPage({ params }: PageProps<"/[lang]/players/
           </div>
         ))}
       </dl>
+      <PlayerActions lang={lang} playerId={player.id} />
 
       <dl className="mt-8 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-6">
         <Stat label={dict.player.events} value={stats.events} />
