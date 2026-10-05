@@ -91,6 +91,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
     [program.coaches_url, t.coachesPage],
   ] as const;
   const rankings = [...program.rankings].sort((a, b) => b.as_of.localeCompare(a.as_of));
+  const alumniYears = program.alumni_pros.some((a) => a.final_college_year != null);
 
   return (
     <section className="mt-12 border-t border-black/10 pt-8 dark:border-white/10">
@@ -227,7 +228,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
                 <tr>
                   <th className={th}>{t.name}</th>
                   <th className={th}>{t.tour}</th>
-                  <th className={thNum}>{t.lastYear}</th>
+                  {alumniYears && <th className={thNum}>{t.lastYear}</th>}
                 </tr>
               </thead>
               <tbody>
@@ -237,7 +238,9 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
                       {a.source_url ? <ExternalLink href={a.source_url}>{a.name}</ExternalLink> : a.name}
                     </td>
                     <td className={`${td} text-foreground/70`}>{a.tours.join(", ") || "—"}</td>
-                    <td className={`${td} text-right tabular-nums`}>{a.final_college_year ?? "—"}</td>
+                    {alumniYears && (
+                      <td className={`${td} text-right tabular-nums`}>{a.final_college_year ?? "—"}</td>
+                    )}
                   </tr>
                 ))}
               </tbody>
