@@ -6,7 +6,6 @@ import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
 import {
-  isAdult,
   type PlayerClaim,
   type ResultRequest,
   type StudentProfile,
@@ -87,25 +86,19 @@ export function StudentDashboard({
   if (!data) return <p className="text-sm">{t.loading}</p>;
 
   const { student } = data;
-  const consented = student.parent_consent_at != null || isAdult(student.birth_date);
 
   return (
     <>
       {!asParent && (
-        <Section title={s.consentTitle}>
-          {isAdult(student.birth_date) ? (
-            <Notice tone="success">{s.adultNote}</Notice>
-          ) : student.parent_consent_at ? (
-            <Notice tone="success">{s.consentDone}</Notice>
-          ) : (
-            <ParentInvite lang={lang} code={student.parent_invite_code} />
-          )}
-          {data.parents.length > 0 && (
+        <Section title={s.sharing}>
+          <VisibilityToggle lang={lang} student={student} onChange={load} />
+          {data.parents.length > 0 ? (
             <p className="text-sm">
               {s.linkedParents}: {data.parents.map((p) => p.display_name).join(", ")}
             </p>
+          ) : (
+            <ParentInvite lang={lang} code={student.parent_invite_code} />
           )}
-          <VisibilityToggle lang={lang} student={student} consented={consented} onChange={load} />
         </Section>
       )}
       <ProfileForm lang={lang} student={student} onSaved={load} />
@@ -124,9 +117,9 @@ function ParentInvite({ lang, code }: { lang: Locale; code: string }) {
   const link = `${origin}/${lang}/signup/?role=parent&code=${code}`;
   return (
     <div className="space-y-2 text-sm">
-      <p>{s.consentPending}</p>
-      <p className="font-mono text-2xl font-bold tracking-widest">{code}</p>
-      <p>{s.consentLink}</p>
+      <p>{s.parentInvite}</p>
+      <p className="font-mono text-lg font-bold tracking-widest">{code}</p>
+      <p>{s.parentLink}</p>
       <p className="break-all rounded bg-foreground/5 px-2 py-1 font-mono text-xs">{link}</p>
     </div>
   );
@@ -135,12 +128,10 @@ function ParentInvite({ lang, code }: { lang: Locale; code: string }) {
 function VisibilityToggle({
   lang,
   student,
-  consented,
   onChange,
 }: {
   lang: Locale;
   student: StudentProfile;
-  consented: boolean;
   onChange: () => void;
 }) {
   const t = getAccountDictionary(lang);
@@ -159,12 +150,11 @@ function VisibilityToggle({
         <input
           type="checkbox"
           checked={student.visible_to_coaches}
-          disabled={!consented}
           onChange={(e) => toggle(e.target.checked)}
         />
         {t.student.visibility}
       </label>
-      {!consented && <p className="mt-1 text-xs text-foreground/60">{t.student.visibilityLocked}</p>}
+      <p className="mt-1 text-xs text-foreground/60">{t.student.visibilityNote}</p>
       {error && <Notice tone="error">{error}</Notice>}
     </div>
   );

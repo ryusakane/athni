@@ -26,7 +26,6 @@ export type StudentProfile = {
   handicap: number | null;
   video_url: string | null;
   parent_invite_code: string;
-  parent_consent_at: string | null;
   visible_to_coaches: boolean;
 };
 
@@ -74,11 +73,4 @@ export type TargetCollege = {
   college_name: string;
   status: TargetStatus;
   note: string | null;
-};
-
-export const isAdult = (birthDate: string | null) => {
-  if (!birthDate) return false;
-  const eighteen = new Date(birthDate);
-  eighteen.setFullYear(eighteen.getFullYear() + 18);
-  return eighteen <= new Date();
 };

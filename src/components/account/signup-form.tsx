@@ -6,7 +6,6 @@ import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
-import { isAdult } from "@/lib/supabase/account-types";
 import { buttonClass, Field, Input, Notice } from "./ui";
 
 type SignupRole = "student" | "parent" | "coach";
@@ -20,7 +19,6 @@ export function SignupForm({ lang }: { lang: Locale }) {
   const router = useRouter();
   const [role, setRole] = useState<SignupRole | null>(null);
   const [inviteCode, setInviteCode] = useState("");
-  const [birthDate, setBirthDate] = useState("");
   const [pending, setPending] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [sentTo, setSentTo] = useState<string | null>(null);
@@ -131,8 +129,6 @@ export function SignupForm({ lang }: { lang: Locale }) {
                   name="birth_date"
                   type="date"
                   required
-                  value={birthDate}
-                  onChange={(e) => setBirthDate(e.target.value)}
                 />
               </Field>
               <Field label={t.signup.graduationYear}>
@@ -145,7 +141,6 @@ export function SignupForm({ lang }: { lang: Locale }) {
                   defaultValue={thisYear + 1}
                 />
               </Field>
-              {!(birthDate && isAdult(birthDate)) && <Notice>{t.signup.minorNote}</Notice>}
             </>
           )}
 

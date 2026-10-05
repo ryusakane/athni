@@ -19,7 +19,7 @@ const en = {
   errorGeneric: "Something went wrong. Please try again.",
   roles: {
     student: { title: "Student athlete", body: "Build your profile, list the colleges you want, and link your tournament results." },
-    parent: { title: "Parent / guardian", body: "Link to your child's account and give consent for them to be seen by coaches." },
+    parent: { title: "Parent / guardian", body: "Link to your child's account to follow and help with their profile." },
     coach: { title: "College coach", body: "Search and save players. Sign up with your college (.edu) email to be verified." },
   },
   signup: {
@@ -29,8 +29,6 @@ const en = {
     haveAccount: "Already have an account?",
     birthDate: "Date of birth",
     graduationYear: "High school graduation year",
-    minorNote:
-      "If you are under 18, a parent or guardian must link to your account and give consent before coaches can see your profile.",
     collegeName: "College / university",
     coachTitle: "Title (e.g. Head Coach)",
     eduNote:
@@ -65,15 +63,12 @@ const en = {
     needLogin: "Please log in to see your account.",
   },
   student: {
-    consentTitle: "Parental consent",
-    consentPending:
-      "Coaches cannot see your profile until a parent or guardian links to your account and gives consent. Share this code with them:",
-    consentLink: "Or send them this sign-up link:",
-    consentDone: "Your parent or guardian has given consent.",
-    adultNote: "You are 18 or older, so parental consent is not required.",
+    sharing: "Sharing",
     linkedParents: "Linked parents",
+    parentInvite: "Optional: give this code to a parent or guardian so they can follow your profile.",
+    parentLink: "Or send them this sign-up link:",
     visibility: "Show my profile to verified college coaches",
-    visibilityLocked: "Available after parental consent.",
+    visibilityNote: "Coaches see your profile, academics and test scores. Your tournament results are public either way.",
     profile: "Profile",
     nameEn: "Name (English)",
     nameJa: "Name (Japanese)",
@@ -139,10 +134,6 @@ const en = {
     codeLabel: "Invite code",
     link: "Link",
     linkFailed: "That code was not found.",
-    consent: "I am this student's parent or guardian and consent to their profile being shown to verified US college coaches.",
-    giveConsent: "Give consent",
-    withdraw: "Withdraw consent",
-    consented: (date: string) => `Consent given on ${date}.`,
     viewing: "You can edit your child's profile below.",
   },
   coach: {
@@ -187,7 +178,7 @@ const ja: AccountDictionary = {
   errorGeneric: "エラーが発生しました。もう一度お試しください。",
   roles: {
     student: { title: "生徒（選手）", body: "プロフィールの作成、志望校リスト、大会成績の紐づけができます。" },
-    parent: { title: "保護者", body: "お子さまのアカウントと連携し、コーチへの公開に同意できます。" },
+    parent: { title: "保護者", body: "お子さまのアカウントと連携し、プロフィールを確認・サポートできます。" },
     coach: { title: "大学コーチ", body: "選手の検索と保存ができます。大学（.edu）のメールアドレスで登録すると認証されます。" },
   },
   signup: {
@@ -197,8 +188,6 @@ const ja: AccountDictionary = {
     haveAccount: "すでにアカウントをお持ちの方",
     birthDate: "生年月日",
     graduationYear: "高校卒業予定年",
-    minorNote:
-      "18歳未満の方は、保護者の方がアカウントを連携して同意するまで、コーチにはプロフィールが表示されません。",
     collegeName: "大学名",
     coachTitle: "役職（例: Head Coach）",
     eduNote:
@@ -233,15 +222,12 @@ const ja: AccountDictionary = {
     needLogin: "マイページを見るにはログインしてください。",
   },
   student: {
-    consentTitle: "保護者の同意",
-    consentPending:
-      "保護者の方がアカウントを連携して同意するまで、コーチにはプロフィールが表示されません。次のコードを保護者の方に伝えてください:",
-    consentLink: "または、この登録リンクを送ってください:",
-    consentDone: "保護者の方の同意が完了しています。",
-    adultNote: "18歳以上のため、保護者の同意は不要です。",
+    sharing: "公開設定",
     linkedParents: "連携している保護者",
+    parentInvite: "任意: このコードを保護者の方に伝えると、保護者の方もプロフィールを確認できます。",
+    parentLink: "または、この登録リンクを送ってください:",
     visibility: "認証済みの大学コーチにプロフィールを公開する",
-    visibilityLocked: "保護者の同意後に設定できます。",
+    visibilityNote: "コーチにはプロフィール、学業、テストのスコアが表示されます。大会成績は公式結果として、設定に関係なく公開されています。",
     profile: "プロフィール",
     nameEn: "名前（英語）",
     nameJa: "名前（日本語）",
@@ -307,10 +293,6 @@ const ja: AccountDictionary = {
     codeLabel: "招待コード",
     link: "連携する",
     linkFailed: "コードが見つかりませんでした。",
-    consent: "私はこの生徒の保護者であり、認証済みのアメリカの大学コーチにプロフィールが表示されることに同意します。",
-    giveConsent: "同意する",
-    withdraw: "同意を取り消す",
-    consented: (date: string) => `${date} に同意済み`,
     viewing: "お子さまのプロフィールはこの下で編集できます。",
   },
   coach: {

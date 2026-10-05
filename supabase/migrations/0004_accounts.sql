@@ -1,6 +1,6 @@
 -- Accounts: one site, a role chosen at signup.
 --   student  – a high school athlete; edits their own profile and college list.
---   parent   – a guardian linked to a student; gives consent for minors.
+--   parent   – a guardian linked to a student (optional); can view and help edit their profile.
 --   coach    – a US college coach; verified by a confirmed .edu email, saves players.
 --   hs_coach – a Japanese high school teacher/coach. Reserved: not offered at signup yet.
 -- The site is a static export, so every rule lives here in row level security.
@@ -33,8 +33,6 @@ create table student_profiles (
   video_url text,
   -- Code the student gives a parent so the parent can link to this account.
   parent_invite_code text not null unique default upper(substr(md5(gen_random_uuid()::text), 1, 8)),
-  -- Set when a linked parent gives consent. Required before coaches can see a minor.
-  parent_consent_at timestamptz,
   visible_to_coaches boolean not null default false,
   updated_at timestamptz not null default now()
 );
@@ -105,7 +103,6 @@ create table guardian_links (
   parent_id uuid not null references profiles (id) on delete cascade,
   student_id uuid not null references student_profiles (user_id) on delete cascade,
   relationship text,
-  consented_at timestamptz,
   created_at timestamptz not null default now(),
   primary key (parent_id, student_id)
 );
@@ -145,17 +142,6 @@ create function public.is_guardian_of(student uuid) returns boolean
 language sql stable security definer set search_path = public as $$
   select exists (
     select 1 from guardian_links where parent_id = auth.uid() and student_id = student
-  );
-$$;
-
--- Adults (18+ in Japan) need no parental consent; minors need it from a linked parent.
-create function public.student_has_consent(student uuid) returns boolean
-language sql stable security definer set search_path = public as $$
-  select exists (
-    select 1 from student_profiles s
-    where s.user_id = student
-      and (s.parent_consent_at is not null
-           or (s.birth_date is not null and s.birth_date <= current_date - interval '18 years'))
   );
 $$;
 
@@ -247,30 +233,7 @@ begin
 end;
 $$;
 
--- A linked parent gives (or withdraws) consent for the student's account.
-create function public.set_parent_consent(student uuid, consent boolean)
-returns void
-language plpgsql security definer set search_path = public as $$
-begin
-  if not public.is_guardian_of(student) then
-    raise exception 'not linked to this student';
-  end if;
-  update guardian_links
-  set consented_at = case when consent then now() else null end
-  where parent_id = auth.uid() and student_id = student;
-  update student_profiles
-  set parent_consent_at = case
-        when consent then coalesce(parent_consent_at, now())
-        when exists (select 1 from guardian_links
-                     where student_id = student and consented_at is not null) then parent_consent_at
-        else null
-      end,
-      visible_to_coaches = case when consent then visible_to_coaches else false end
-  where user_id = student;
-end;
-$$;
-
--- Columns users may not change themselves: role, consent, verification, invite code.
+-- Columns users may not change themselves: role, verification, invite code, review status.
 create function public.protect_account_columns() returns trigger
 language plpgsql as $$
 begin
@@ -280,7 +243,6 @@ begin
   if tg_table_name = 'profiles' then
     new.role := old.role;
   elsif tg_table_name = 'student_profiles' then
-    new.parent_consent_at := old.parent_consent_at;
     new.parent_invite_code := old.parent_invite_code;
     new.updated_at := now();
   elsif tg_table_name in ('player_claims', 'result_requests') then
@@ -327,20 +289,6 @@ create trigger force_pending before insert on player_claims
 create trigger force_pending before insert on result_requests
   for each row execute function public.force_pending();
 
--- A minor cannot be shown to coaches before consent.
-create function public.enforce_student_visibility() returns trigger
-language plpgsql security definer set search_path = public as $$
-begin
-  if new.visible_to_coaches and not public.student_has_consent(new.user_id) then
-    raise exception 'parent consent is required before the profile can be shown to coaches';
-  end if;
-  return new;
-end;
-$$;
-
-create trigger enforce_visibility before update on student_profiles
-  for each row execute function public.enforce_student_visibility();
-
 alter table profiles enable row level security;
 alter table student_profiles enable row level security;
 alter table coach_profiles enable row level security;
@@ -381,7 +329,7 @@ create policy "own coach profile update" on coach_profiles for update using (use
 create policy "own hs coach profile" on hs_coach_profiles for select using (user_id = auth.uid());
 create policy "own hs coach profile update" on hs_coach_profiles for update using (user_id = auth.uid());
 
--- guardian_links: created through link_child(), consent through set_parent_consent().
+-- guardian_links: created through link_child().
 create policy "own links" on guardian_links for select
   using (parent_id = auth.uid() or student_id = auth.uid());
 create policy "parent unlinks" on guardian_links for delete using (parent_id = auth.uid());
@@ -437,6 +385,4 @@ create policy "own saved players delete" on coach_saved_players for delete using
 -- and nobody may call verify_edu_coach() directly (it would let a coach verify themselves).
 revoke execute on function public.verify_edu_coach(uuid, text, timestamptz) from public, anon, authenticated;
 revoke execute on function public.link_child(text, text) from public, anon;
-revoke execute on function public.set_parent_consent(uuid, boolean) from public, anon;
 grant execute on function public.link_child(text, text) to authenticated;
-grant execute on function public.set_parent_consent(uuid, boolean) to authenticated;
