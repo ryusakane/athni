@@ -186,20 +186,53 @@ def parse_tables(text, gender):
                 email = next((a["href"][7:].split("?")[0] for a in tr.select('a[href^="mailto:"]')), None)
                 if is_coach(get("title")):
                     coaches.append({"name": get("name"), "title": get("title"), "email": email or get("email"), "phone": get("phone")})
-    if not players:
+    if not players and not coaches:
         return None
     return {"season": None, "players": players, "coaches": coaches, "parser": "table"}
 
 
+CARD_LABELS = {"Academic Year": "class", "Class": "class", "Hometown": "hometown", "Last School": "prev",
+               "Previous School": "prev", "High School": "hs"}
+
+
+def parse_cards(text, gender):
+    """Sidearm person cards (list view): name in h3, labelled stats ("Academic Year 3rd", "Hometown ...")."""
+    soup = BeautifulSoup(text, "lxml")
+    players = []
+    for card in soup.select(".s-person-card"):
+        h = card.select_one("h3")
+        if not h:
+            continue
+        vals = {}
+        for lab in card.select(".sr-only"):
+            k = CARD_LABELS.get(clean(lab.get_text(" ", strip=True)) or "")
+            if k and lab.parent:
+                vals[k] = clean(lab.parent.get_text(" ", strip=True)[len(lab.get_text(" ", strip=True)):])
+        if "class" not in vals and "hometown" not in vals:
+            continue  # a staff card
+        players.append(player(clean(h.get_text(" ", strip=True)), vals.get("class"), vals.get("hometown"),
+                              vals.get("prev"), vals.get("hs")))
+    if not players:
+        return None
+    return {"season": None, "players": players, "coaches": [], "parser": "cards"}
+
+
 def parse_roster(text, gender):
-    for fn in (parse_wmt, parse_sidearm, parse_tables):
+    found = []
+    for fn in (parse_wmt, parse_sidearm, parse_tables, parse_cards):
         try:
             r = fn(text, gender)
         except Exception as e:  # keep going with the next parser
             r = None
         if r and r["players"]:
+            if not r["coaches"]:
+                # players from cards, coaches from a staff table on the same page
+                r["coaches"] = next((x["coaches"] for x in found if x["coaches"]), [])
             return r
-    return None
+        if r:
+            found.append(r)
+    # coaches only (no roster published yet)
+    return next((x for x in found if x["coaches"]), None)
 
 
 # --- Staff directory (emails / phones for golf staff) ----------------------------------------
@@ -230,4 +263,28 @@ def parse_staff_directory(text, gender):
             title = texts[1] if len(texts) > 1 else None
             if name:
                 out.append({"name": name, "title": title, "email": mail, "phone": tel})
+    if not out:
+        out = _staff_groups(text, gender)
+    return out
+
+
+def _staff_groups(text, gender):
+    """Sidearm Nuxt staff directory: {groupName: "Men's Golf", groupItems: [{firstName, title, emailUsername, ...}]}."""
+    data = nuxt.decode(text)
+    if data is None:
+        return []
+    want = "women's golf" if gender == "female" else "men's golf"
+    out, seen = [], set()
+    for o in nuxt.walk(data):
+        if (o.get("groupName") or "").lower() != want or not isinstance(o.get("groupItems"), list):
+            continue
+        for m in o["groupItems"]:
+            if not isinstance(m, dict):
+                continue
+            name = clean(f"{m.get('firstName') or ''} {m.get('lastName') or ''}")
+            if not name or name in seen:
+                continue
+            seen.add(name)
+            email = clean(m.get("email")) or (f"{m['emailUsername']}@{m['emailDomain']}" if m.get("emailUsername") and m.get("emailDomain") else None)
+            out.append({"name": name, "title": clean(m.get("title")), "email": email, "phone": clean(m.get("phone"))})
     return out
