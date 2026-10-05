@@ -1,0 +1,186 @@
+{
+ "slug": "coppin-state",
+ "athletics_url": "https://www.coppinstatesports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://coppinstatesports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/CoppinStateGolf",
+   "x_url": "https://x.com/CoppinStateGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://coppinstatesports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://coppinstatesports.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Tzari Baines",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Victoria, British Columbia",
+     "country": "CA",
+     "previous_school": "Royal Bay Secondary",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Brent Chung",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Henderson, Nev.",
+     "country": "US",
+     "previous_school": "Coronado HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Marcos Cordoba",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Santo Domingo, Dominican Republic",
+     "country": "DO",
+     "previous_school": "HomeLife Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jevahn Sathasivam",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Colombo, Sri Lanka",
+     "country": "LK",
+     "previous_school": "Asian International School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mylhian Todem",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rouen, France",
+     "country": "FR",
+     "previous_school": "American International College",
+     "class_raw": "So."
+    },
+    {
+     "name": "Alexei Voice",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hanover, Md.",
+     "country": "US",
+     "previous_school": "Anne Arundel CC",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Elam Ruff",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://coppinstatesports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://coppinstatesports.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/CoppinStateGolf",
+   "x_url": "https://x.com/CoppinStateGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://coppinstatesports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://coppinstatesports.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Alina Amos",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Reidsville, N.C.",
+     "country": "US",
+     "previous_school": "Reidsville HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Angelique Espinosa",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Diego, Calif.",
+     "country": "US",
+     "previous_school": "Coleman Tech Charter HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jordyn Kyle",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Virginia Beach, Va.",
+     "country": "US",
+     "previous_school": "Atlantic Shores Christian School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Genesis Lewis",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Creedmoor, N.C.",
+     "country": "US",
+     "previous_school": "South Granville HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Isabelle Nguyen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Covington, Wash.",
+     "country": "US",
+     "previous_school": "Kentwood HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Elam Ruff",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://coppinstatesports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://coppinstatesports.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://coppinstatesports.com/",
+ "requests": [
+  {
+   "url": "https://coppinstatesports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://coppinstatesports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://coppinstatesports.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://coppinstatesports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://coppinstatesports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://coppinstatesports.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "slug": "saint-marys",
+ "athletics_url": "https://www.SMCGaels.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://smcgaels.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://smcgaels.com/sports/mens-golf/roster",
+   "roster_source_url": "https://smcgaels.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Landon Abalateo",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fair Oaks, Calif.",
+     "country": "US",
+     "previous_school": "Rio Americano HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matthew Almajano",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Fremont, Calif.",
+     "country": "US",
+     "previous_school": "Mission San Jose HS",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Sam Baumuller",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Los Gatos, Calif.",
+     "country": "US",
+     "previous_school": "Saint Francis HS",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Will Hardy",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Walnut Creek, Calif.",
+     "country": "US",
+     "previous_school": "De La Salle HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Inigo Izuzquiza",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Madrid, Spain | Coronado, Calif.",
+     "country": "US",
+     "previous_school": "UNLV",
+     "class_raw": "R-Sr."
+    },
+    {
+     "name": "Drew Krystyn",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Leawood, Kan.",
+     "country": "US",
+     "previous_school": "Blue Valley North HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Aidan Lee",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Pasadena, Calif.",
+     "country": "US",
+     "previous_school": "St. Francis HS",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Trey Tuyo",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Agoura Hills, Calif.",
+     "country": "US",
+     "previous_school": "Hillcrest Christian School",
+     "class_raw": "R-Fr."
+    },
+    {
+     "name": "Hudson Vedder",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Laguna Niguel, Calif.",
+     "country": "US",
+     "previous_school": "Central Michigan",
+     "class_raw": "So."
+    },
+    {
+     "name": "James Williams",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Martinez, Calif.",
+     "country": "US",
+     "previous_school": "De La Salle HS",
+     "class_raw": "R-Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Scott Hardy",
+     "title": "Head Coach",
+     "email": "shardy@stmarys-ca.edu",
+     "phone": "631-4954",
+     "source_url": "https://smcgaels.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jeremy Niederstadt",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://smcgaels.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://smcgaels.com:443",
+ "requests": [
+  {
+   "url": "https://smcgaels.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

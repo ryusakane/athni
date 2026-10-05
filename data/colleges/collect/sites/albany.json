@@ -1,0 +1,134 @@
+{
+ "slug": "albany",
+ "athletics_url": "https://www.ualbanysports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://ualbanysports.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/UAlbanyWGOLF",
+   "x_url": "https://x.com/UAlbanyWGOLF",
+   "facebook_url": "https://www.facebook.com/UAlbanyWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://ualbanysports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://ualbanysports.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Jessica Brown",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "London, England",
+     "country": "GB",
+     "previous_school": "Mossbourne Community Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sadhbh Bullock",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Limerick, Ireland",
+     "country": "IE",
+     "previous_school": "Lincoln Memorial University",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Mia Cepeda",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hauula, Hawaii",
+     "country": "US",
+     "previous_school": "Kahuki High & Intermediate",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nicole Criscone",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Clifton Park, N.Y.",
+     "country": "US",
+     "previous_school": "Albany Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sydney Fuke",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Kailua, Hawaii",
+     "country": "US",
+     "previous_school": "Punahou School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jasmine Furstenburg",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "George, Western Cape, South Africa",
+     "country": "ZA",
+     "previous_school": "Bramble Hill International School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Madison Kuratani",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kapolei, Hawaii",
+     "country": "US",
+     "previous_school": "Punahou School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Callie Taylor",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Quispamsis, New Brunswick, Canada",
+     "country": "CA",
+     "previous_school": "Appalachian State",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Colleen Cashman",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "954-684-9293",
+     "source_url": "https://ualbanysports.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://ualbanysports.com/staff-directory"
+     }
+    },
+    {
+     "name": "Thomas Strandemo",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "518-442-3339",
+     "source_url": "https://ualbanysports.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://ualbanysports.com/staff-directory"
+     }
+    }
+   ],
+   "coaches_url": "https://ualbanysports.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://ualbanysports.com/",
+ "requests": [
+  {
+   "url": "https://ualbanysports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://ualbanysports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://ualbanysports.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

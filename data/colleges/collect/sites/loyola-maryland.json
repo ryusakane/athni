@@ -1,0 +1,156 @@
+{
+ "slug": "loyola-maryland",
+ "athletics_url": "https://www.loyolagreyhounds.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://loyolagreyhounds.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/greyhoundsgolf",
+   "x_url": "https://x.com/GreyhoundsGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://loyolagreyhounds.com/sports/mens-golf/roster",
+   "roster_source_url": "https://loyolagreyhounds.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Michael Asselta",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ramsey, N.J.",
+     "country": "US",
+     "previous_school": "St. Joseph Regional",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Zach Berger",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Remsenburg, N.Y.",
+     "country": "US",
+     "previous_school": "Westhampton Beach",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matt Carpentier",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Pittsford, N.Y.",
+     "country": "US",
+     "previous_school": "Pittsford Mendon",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jack Geyer",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Havre de Grace, Md.",
+     "country": "US",
+     "previous_school": "C. Milton Wright",
+     "class_raw": "So."
+    },
+    {
+     "name": "Liam Moloney",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chester, N.Y.",
+     "country": "US",
+     "previous_school": "St. Joseph Regional",
+     "class_raw": "So."
+    },
+    {
+     "name": "Diego Neira",
+     "class_year": "JR",
+     "redshirt": true,
+     "hometown": "Caracas, Venezuela",
+     "country": "VE",
+     "previous_school": "Yale College",
+     "class_raw": "R-Jr."
+    },
+    {
+     "name": "Lorenzo Sanz",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Glen Arm, Md.",
+     "country": "US",
+     "previous_school": "Calvert Hall College",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Matthew Simpson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario",
+     "country": "CA",
+     "previous_school": "St. Michael's College School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Eli Spaulding",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Freeport, Maine",
+     "country": "US",
+     "previous_school": "Freeport",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Dustin Stocksdale",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ellicott City, Md.",
+     "country": "US",
+     "previous_school": "Centennial",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Chris Baloga",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "(410) 617-2683",
+     "source_url": "https://loyolagreyhounds.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://loyolagreyhounds.com/staff-directory"
+     }
+    },
+    {
+     "name": "Mike Mansfield",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://loyolagreyhounds.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Will Wears",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://loyolagreyhounds.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://loyolagreyhounds.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://loyolagreyhounds.com/",
+ "requests": [
+  {
+   "url": "https://loyolagreyhounds.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://loyolagreyhounds.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://loyolagreyhounds.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

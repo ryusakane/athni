@@ -1,0 +1,103 @@
+{
+ "slug": "south-carolina-state",
+ "athletics_url": "https://www.scsuathletics.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://www.scsuathletics.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://www.scsuathletics.com/sports/womens-golf/roster",
+   "roster_source_url": "https://www.scsuathletics.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Alyssa Danika Gonzalez",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "The Woodlands, Texas",
+     "country": "US",
+     "previous_school": "The Woodlands High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Alyssa Hardy",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "Stanton College Preparatory School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Natalie Mahoney",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Atlanta, GA",
+     "country": "US",
+     "previous_school": "Stephenson High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jane Mhonda",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Columbia, Md.",
+     "country": "US",
+     "previous_school": "Wilde Lake High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sanaa Spear",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Snellville, Ga.",
+     "country": "US",
+     "previous_school": "Shiloh High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Yaíza Fernández Vijande",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Oviedo, Asturias, Spain",
+     "country": "ES",
+     "previous_school": "Instituto Aramo",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Edward Halsell",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://www.scsuathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://www.scsuathletics.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://www.scsuathletics.com/",
+ "requests": [
+  {
+   "url": "https://www.scsuathletics.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://www.scsuathletics.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://www.scsuathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "slug": "uc-santa-barbara",
+ "athletics_url": "https://ucsbgauchos.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://ucsbgauchos.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/ucsb_golf",
+   "x_url": "https://x.com/ucsb_golf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://ucsbgauchos.com/sports/mens-golf/roster",
+   "roster_source_url": "https://ucsbgauchos.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Andrea Birolini",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Milan, Italy",
+     "country": "IT",
+     "previous_school": "Southlake Carroll HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Harrison Gahr",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Calabasas, Calif.",
+     "country": "US",
+     "previous_school": "Chaminade College Prep",
+     "class_raw": "So."
+    },
+    {
+     "name": "Dylan Ma",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Beijing, China",
+     "country": "CN",
+     "previous_school": "The Bolles School (Fla.)",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Andrew Reyes",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Perry, Ga.",
+     "country": "US",
+     "previous_school": "Rutgers University",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Zach Schwab",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Los Angeles, Calif.",
+     "country": "US",
+     "previous_school": "Windward School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jackson Turner",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Thousand Oaks, Calif.",
+     "country": "US",
+     "previous_school": "Westlake HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nick Waldock",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Westlake Village, Calif.",
+     "country": "US",
+     "previous_school": "Oaks Christian HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jack Watters",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Lake Travis HS",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Chris Massoletti",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ucsbgauchos.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Ryan Gay",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ucsbgauchos.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://ucsbgauchos.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://ucsbgauchos.com/splash.aspx?id=splash_17",
+ "requests": [
+  {
+   "url": "https://ucsbgauchos.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://ucsbgauchos.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://ucsbgauchos.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

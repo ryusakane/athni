@@ -1,0 +1,213 @@
+{
+ "slug": "marshall",
+ "athletics_url": "https://www.herdzone.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://herdzone.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://herdzone.com/sports/mens-golf/roster",
+   "roster_source_url": "https://herdzone.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Ben Bridges",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mount Vernon, Ohio",
+     "country": "US",
+     "previous_school": "Mount Vernon HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jake Dost",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Parker, Colo.",
+     "country": "US",
+     "previous_school": "Legend H.S.",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jackson Harris",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Powell, Ohio",
+     "country": "US",
+     "previous_school": "Olentangy Liberty",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Wes Lorish",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pittsburgh, Pa.",
+     "country": "US",
+     "previous_school": "Plum H.S.",
+     "class_raw": "So."
+    },
+    {
+     "name": "Carson O'Dell",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hurricane, W.Va.",
+     "country": "US",
+     "previous_school": "Hurricane H.S.",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Cael Ropietski",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sammy Shy",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Huntington, W.Va.",
+     "country": "US",
+     "previous_school": "Spring Valley",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Tanner Vest",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Shady Spring, W.Va.",
+     "country": "US",
+     "previous_school": "Shady Spring HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jackson Woodburn",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Scott Depot, W.Va.",
+     "country": "US",
+     "previous_school": "Winfield HS",
+     "class_raw": "R-So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Matt Grobe",
+     "title": "Men's Golf Head Men's Golf Coach",
+     "email": "grobe1@marshall.edu",
+     "phone": "----",
+     "source_url": "https://herdzone.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://herdzone.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://herdzone.com/sports/womens-golf/roster",
+   "roster_source_url": "https://herdzone.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Madison Borders",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bardstown, Ky.",
+     "country": "US",
+     "previous_school": "Thomas Nelson",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Anna Grace Brown",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Murrells Inlet, S.C.",
+     "country": "US",
+     "previous_school": "Waccamaw H.S.",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Savannah Hawkins",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Hurricane, W.Va.",
+     "country": "US",
+     "previous_school": "Hurricane",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Maddi Hudson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Dry Ridge, Kentucky",
+     "country": "US",
+     "previous_school": "Grant County",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Taylor Sargent",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Milton, W.Va.",
+     "country": "US",
+     "previous_school": "Cabell Midland",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Brooke Burkhammer",
+     "title": "Head Women's Golf Coach",
+     "email": "bellomy41@marshall.edu",
+     "phone": "----",
+     "source_url": "https://herdzone.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://herdzone.com:443",
+ "requests": [
+  {
+   "url": "https://herdzone.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

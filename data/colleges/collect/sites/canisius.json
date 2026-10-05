@@ -1,0 +1,133 @@
+{
+ "slug": "canisius",
+ "athletics_url": "https://www.gogriffs.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gogriffs.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/griffsgolf",
+   "x_url": "https://x.com/GriffsGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gogriffs.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gogriffs.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Andrew Burciul",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Thorold, Ontario",
+     "country": "CA",
+     "previous_school": "Denis Morris Catholic",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Chase Burgess",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Petitcodiac, New Brunswick",
+     "country": "CA",
+     "previous_school": "Petitcodiac Regional",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Adam Cichowski",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Elma, N.Y.",
+     "country": "US",
+     "previous_school": "Iroquois",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jake Dantonio",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lancaster, N.Y.",
+     "country": "US",
+     "previous_school": "St. Mary's",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Blake Furtney",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Pelham, Ontario",
+     "country": "CA",
+     "previous_school": "E.L. Crossley Secondary School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Matthew Santini",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Mississauga, Ontario",
+     "country": "CA",
+     "previous_school": "Bellarmine",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Alex Schickling",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hamburg, N.Y.",
+     "country": "US",
+     "previous_school": "Frontier",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Mikey Takacs",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Iowa City, Iowa",
+     "country": "US",
+     "previous_school": "Regina Catholic",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Cole Thompson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Beamsville, Ontario",
+     "country": "CA",
+     "previous_school": "Blessed Trinity",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Todd Hummel",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "(716) 888-3763",
+     "source_url": "https://gogriffs.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://gogriffs.com/staff-directory"
+     }
+    }
+   ],
+   "coaches_url": "https://gogriffs.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gogriffs.com/",
+ "requests": [
+  {
+   "url": "https://gogriffs.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

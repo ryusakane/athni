@@ -1,0 +1,50 @@
+{
+ "slug": "utah-state",
+ "athletics_url": "https://www.utahstateaggies.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://utahstateaggies.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/USUGolf",
+   "x_url": "https://x.com/USUGolf",
+   "facebook_url": "https://www.facebook.com/USUMensGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "coaches": [
+    {
+     "name": "Dean Johansen",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "753-6050",
+     "source_url": "https://utahstateaggies.com/staff-directory"
+    },
+    {
+     "name": "Erik Skinner",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://utahstateaggies.com/staff-directory"
+    }
+   ],
+   "coaches_url": "https://utahstateaggies.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://utahstateaggies.com/",
+ "requests": [
+  {
+   "url": "https://utahstateaggies.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://utahstateaggies.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://utahstateaggies.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

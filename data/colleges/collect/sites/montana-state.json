@@ -1,0 +1,119 @@
+{
+ "slug": "montana-state",
+ "athletics_url": "https://www.msubobcats.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://msubobcats.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://msubobcats.com/sports/womens-golf/roster",
+   "roster_source_url": "https://msubobcats.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Elvira Flodström",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sailor Graham",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Malibu, CA",
+     "country": "US",
+     "previous_school": "Malibu HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Eva Heinz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Goodyear, AZ",
+     "country": "US",
+     "previous_school": "Desert Edge HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Lauren Nau",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Scottsdale, AZ",
+     "country": "US",
+     "previous_school": "Horizon HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Nadia Sanz Ouezzani",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Norah Seidl",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sankt Pölten, Austria",
+     "country": "AT",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ashleigh Wilson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Denver, CO",
+     "country": "US",
+     "previous_school": "Rock Canyon HS",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Brittany Basye",
+     "title": "Head Women's Golf Coach",
+     "email": "bbasye@msubobcats.com",
+     "phone": "406.994.7216",
+     "source_url": "https://msubobcats.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Morgan Ryan",
+     "title": "Assistant Coach",
+     "email": "morgan.ryan@msubobcats.com",
+     "phone": "406.994.4126",
+     "source_url": "https://msubobcats.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://msubobcats.com:443",
+ "requests": [
+  {
+   "url": "https://msubobcats.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

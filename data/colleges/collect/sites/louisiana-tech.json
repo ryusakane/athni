@@ -1,0 +1,139 @@
+{
+ "slug": "louisiana-tech",
+ "athletics_url": "https://www.latechsports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://latechsports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://latechsports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://latechsports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Morton Bailey",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Crawley, England",
+     "country": "GB",
+     "previous_school": "Thomas Bennett Community College",
+     "class_raw": "3rd"
+    },
+    {
+     "name": "Abel Derksen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Gouda, Netherlands /",
+     "country": "NL",
+     "previous_school": "Washington",
+     "class_raw": "3rd"
+    },
+    {
+     "name": "Reda El Hali",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rabat, Morocco",
+     "country": "MA",
+     "previous_school": "Odessa College",
+     "class_raw": "3rd"
+    },
+    {
+     "name": "Amine El Omari",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Tampa, FL",
+     "country": "US",
+     "previous_school": "North Tampa Christian Academy",
+     "class_raw": "1st"
+    },
+    {
+     "name": "Hugo Griesheimer",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "St. Leon-Rot, Germany",
+     "country": "DE",
+     "previous_school": "Point University",
+     "class_raw": "Rs."
+    },
+    {
+     "name": "Jakub Janda",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Zruc-Zenec, Czech Republic /",
+     "country": "CZ",
+     "previous_school": "Houston",
+     "class_raw": "2nd"
+    },
+    {
+     "name": "Gray Kingrea",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "West Monroe, La.",
+     "country": "US",
+     "previous_school": "West Monroe HS",
+     "class_raw": "4th"
+    },
+    {
+     "name": "Alejandro Sanchez",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Mexico City, Mexico /",
+     "country": "MX",
+     "previous_school": null,
+     "class_raw": "5th"
+    },
+    {
+     "name": "Oskari Schuvalow",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Helsinki, Finland",
+     "country": "FI",
+     "previous_school": "Ranger College",
+     "class_raw": "4th"
+    },
+    {
+     "name": "Aidan Tudor",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "New Market, Md. /",
+     "country": "US",
+     "previous_school": "Sewanee",
+     "class_raw": "2nd"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Keenan Hickton",
+     "title": "Head Coach",
+     "email": "khickton@latech.edu",
+     "phone": null,
+     "source_url": "https://latechsports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://latechsports.com:443",
+ "requests": [
+  {
+   "url": "https://latechsports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

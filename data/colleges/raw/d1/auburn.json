@@ -1,13 +1,617 @@
 {
  "slug": "auburn",
  "name_en": "Auburn University",
+ "name_ja": null,
  "short_name": "Auburn",
  "aliases": [],
+ "nickname": "Tigers",
  "division": "D1",
+ "conference": "SEC",
+ "city": null,
+ "state": "AL",
+ "website_url": "https://www.auburn.edu",
+ "athletics_url": "https://auburntigers.com",
  "programs": [
   {
-   "gender": "male"
+   "gender": "male",
+   "golf_url": "https://auburntigers.com/sports/mens-golf",
+   "roster_url": "https://auburntigers.com/sports/mens-golf/roster",
+   "coaches_url": "https://auburntigers.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/auburnmgolf",
+   "x_url": "https://x.com/AuburnMGolf",
+   "facebook_url": "https://www.facebook.com/AuburnMGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://auburntigers.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Smith Summerlin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Raleigh, N.C.",
+     "country": "US",
+     "previous_school": "Broughton HS"
+    },
+    {
+     "name": "Hampton Beebe",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "West Palm Beach, Fla.",
+     "country": "US",
+     "previous_school": "Score Academy"
+    },
+    {
+     "name": "Alex Holder",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fort Wayne, Ind.",
+     "country": "US",
+     "previous_school": "Bishop Dwenger HS"
+    },
+    {
+     "name": "Jake Albert",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Blacksburg, Va.",
+     "country": "US",
+     "previous_school": "Blacksburg"
+    },
+    {
+     "name": "Logan Reilly",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lovettsville, Va.",
+     "country": "US",
+     "previous_school": "Bishop O'Connell"
+    },
+    {
+     "name": "Tyler Spielman",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cave Creek, Ariz.",
+     "country": "US",
+     "previous_school": "Brophy College Prep"
+    },
+    {
+     "name": "Billy Davis",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Spring Valley, Calif.",
+     "country": "US",
+     "previous_school": "Steele Canyon"
+    },
+    {
+     "name": "Cayden Pope",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lexington, Ky.",
+     "country": "US",
+     "previous_school": "Laurel Springs"
+    },
+    {
+     "name": "Josiah Gilbert",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Millbrook, Ala.",
+     "country": "US",
+     "previous_school": "Ezekiel Academy"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Nick Clinard",
+     "title": "Head Coach",
+     "email": "npc0004@auburn.edu",
+     "phone": "(334) 750-8720",
+     "source_url": "https://auburntigers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Chris Williams",
+     "title": "Associate Head Coach",
+     "email": "cfw0018@auburn.edu",
+     "phone": "(208) 310-1346",
+     "source_url": "https://auburntigers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "David Johnson",
+     "title": "Assistant Coach",
+     "email": "dsj0021@auburn.edu",
+     "phone": null,
+     "source_url": "https://auburntigers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Joan Alexander",
+     "title": "Director of Operations",
+     "email": "joanalexander@auburn.edu",
+     "phone": "(352) 333-9100",
+     "source_url": "https://auburntigers.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Blayne Barber",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Blayne_Barber"
+    },
+    {
+     "name": "Buddy Gardner",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Buddy_Gardner"
+    },
+    {
+     "name": "Dominic Bozzelli",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Dominic_Bozzelli"
+    },
+    {
+     "name": "Gary Christian",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "GB",
+     "source_url": "https://en.wikipedia.org/wiki/Gary_Christian"
+    },
+    {
+     "name": "Iain Steel",
+     "tours": [
+      "Asian Tour",
+      "DP World Tour",
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "MY",
+     "source_url": "https://en.wikipedia.org/wiki/Iain_Steel"
+    },
+    {
+     "name": "Jackson Koivun",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Jackson_Koivun"
+    },
+    {
+     "name": "James Mason",
+     "tours": [
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/James_Mason_(golfer)"
+    },
+    {
+     "name": "Jason Dufner",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Jason_Dufner"
+    },
+    {
+     "name": "Jimmy Green",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Jimmy_Green_(golfer)"
+    },
+    {
+     "name": "John Huston",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/John_Huston_(golfer)"
+    },
+    {
+     "name": "Jovan Rebula",
+     "tours": [
+      "Sunshine Tour"
+     ],
+     "final_college_year": null,
+     "country": "ZA",
+     "source_url": "https://en.wikipedia.org/wiki/Jovan_Rebula"
+    },
+    {
+     "name": "Lee Williams",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Lee_Williams_(golfer)"
+    },
+    {
+     "name": "Patton Kizzire",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Patton_Kizzire"
+    },
+    {
+     "name": "Ricky Smallridge",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Ricky_Smallridge"
+    },
+    {
+     "name": "Roland Thatcher",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour of Australasia"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Roland_Thatcher"
+    },
+    {
+     "name": "Will Claxton",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Will_Claxton"
+    }
+   ]
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://auburntigers.com/sports/womens-golf",
+   "roster_url": "https://auburntigers.com/sports/womens-golf/roster",
+   "coaches_url": "https://auburntigers.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/auburnwgolf",
+   "x_url": "https://x.com/AuburnWGolf",
+   "facebook_url": "https://www.facebook.com/AuburnWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://auburntigers.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Zara Anand",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "New Delhi, India",
+     "country": "IN",
+     "previous_school": "International Virtual Learning Academy"
+    },
+    {
+     "name": "Gia Raad",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Johannesburg, South Africa",
+     "country": "ZA",
+     "previous_school": "St. Mary's School"
+    },
+    {
+     "name": "Kallyn Black",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Greensboro, GA",
+     "country": "US",
+     "previous_school": "Rivers Academy"
+    },
+    {
+     "name": "Kate Barber",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Savannah, GA",
+     "country": "US",
+     "previous_school": "Savannah Country Day School"
+    },
+    {
+     "name": "Molly Brown Davidson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Springville, AL",
+     "country": "US",
+     "previous_school": "Alabama"
+    },
+    {
+     "name": "Charlotte Cantonis",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Tampa, FL",
+     "country": "US",
+     "previous_school": "Plant High School"
+    },
+    {
+     "name": "Frances Brown",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Mobile, AL",
+     "country": "US",
+     "previous_school": "UMS-Wright"
+    },
+    {
+     "name": "Balma Dávalos Guaita",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Castellón de la Plana, Spain",
+     "country": "ES",
+     "previous_school": null
+    },
+    {
+     "name": "Anne Fernandez",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Singapore",
+     "country": "SG",
+     "previous_school": "Windsor High School at Albany"
+    },
+    {
+     "name": "Anna Davis",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Spring Valley, CA",
+     "country": "US",
+     "previous_school": "Steele Canyon High School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Melissa Luellen",
+     "title": "Head Coach",
+     "email": "melissa.luellen@auburn.edu",
+     "phone": "(334)-750-0449",
+     "source_url": "https://auburntigers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Kim Hall",
+     "title": "Associate Head Coach",
+     "email": "kah0093@auburn.edu",
+     "phone": "(334) 750-2386",
+     "source_url": "https://auburntigers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "CJ Easley",
+     "title": "Assistant Coach",
+     "email": "cje0025@auburn.edu",
+     "phone": null,
+     "source_url": "https://auburntigers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Joan Alexander",
+     "title": "Director of Operations",
+     "email": "joanalexander@auburn.edu",
+     "phone": "(352) 333-9100",
+     "source_url": "https://auburntigers.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Anna Foster",
+     "tours": [
+      "LET"
+     ],
+     "final_college_year": null,
+     "country": "IE",
+     "source_url": "https://en.wikipedia.org/wiki/Anna_Foster_(golfer)"
+    },
+    {
+     "name": "Celeste Troche",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "PY",
+     "source_url": "https://en.wikipedia.org/wiki/Celeste_Troche"
+    },
+    {
+     "name": "Cydney Clanton",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Cydney_Clanton"
+    },
+    {
+     "name": "Danielle Downey",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Danielle_Downey"
+    },
+    {
+     "name": "Marta Sanz Barrio",
+     "tours": [
+      "LET"
+     ],
+     "final_college_year": null,
+     "country": "ES",
+     "source_url": "https://en.wikipedia.org/wiki/Marta_Sanz_Barrio"
+    },
+    {
+     "name": "Patricia Sanz Barrio",
+     "tours": [
+      "LET"
+     ],
+     "final_college_year": null,
+     "country": "ES",
+     "source_url": "https://en.wikipedia.org/wiki/Patricia_Sanz_Barrio"
+    },
+    {
+     "name": "Sophia Schubert",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Sophia_Schubert"
+    }
+   ]
   }
  ],
- "sources": []
+ "sources": [
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://auburntigers.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://auburntigers.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://auburntigers.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Anna_Foster_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Blayne_Barber",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Buddy_Gardner",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Celeste_Troche",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Cydney_Clanton",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Danielle_Downey",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dominic_Bozzelli",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gary_Christian",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Iain_Steel",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jackson_Koivun",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/James_Mason_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jason_Dufner",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jimmy_Green_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/John_Huston_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jovan_Rebula",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Lee_Williams_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Marta_Sanz_Barrio",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Patricia_Sanz_Barrio",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Patton_Kizzire",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ricky_Smallridge",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Roland_Thatcher",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Sophia_Schubert",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Will_Claxton",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  }
+ ]
 }

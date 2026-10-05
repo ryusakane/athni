@@ -1,0 +1,213 @@
+{
+ "slug": "st-johns",
+ "athletics_url": "https://www.redstormsports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://redstormsports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://redstormsports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://redstormsports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Matthew DiFiore",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Malverne, N.Y.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Joseph Dolezal",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Old Westbury, N.Y.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Curro Martinez",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Albacete, Spain",
+     "country": "ES",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Max McColgan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lincoln, Mass.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Eli Weidmann",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Murphys, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Josh Yan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Newburgh, N.Y,",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Phil Wildermuth",
+     "title": "Head Coach",
+     "email": "wildermp@stjohns.edu",
+     "phone": "2058",
+     "source_url": "https://redstormsports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://redstormsports.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": "https://x.com/StJohnsWGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://redstormsports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://redstormsports.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Olivia Baker",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Clairsville, Ohio",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Anna Graham",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rockvale, Tenn.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Taylor Hale",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Erie, Colo.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lily Huynh",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chatsworth, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kirsten Lee",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Mississauga, Ontario, Canada",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Laura Mizlerova",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Prague, Czech Republic",
+     "country": "CZ",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Chiara Pecchinotti",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Rome, Italy",
+     "country": "IT",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Pihla Pennanen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kerava, Finland",
+     "country": "FI",
+     "previous_school": null,
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Ambry Bishop-Santillo",
+     "title": "Head Coach",
+     "email": "bishopa@stjohns.edu",
+     "phone": "2558",
+     "source_url": "https://redstormsports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://redstormsports.com:443",
+ "requests": [
+  {
+   "url": "https://redstormsports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://redstormsports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://redstormsports.com:443/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://redstormsports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://redstormsports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://redstormsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

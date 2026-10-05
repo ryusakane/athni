@@ -1,0 +1,130 @@
+{
+ "slug": "siue",
+ "athletics_url": "https://www.siuecougars.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://siuecougars.com/sports/mgolf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/SIUEGolf",
+   "x_url": "https://x.com/SIUEGolf",
+   "facebook_url": "https://www.facebook.com/SIUE-Golf-278921648960208",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://siuecougars.com/sports/mgolf/roster",
+   "roster_source_url": "https://siuecougars.com/sports/mgolf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Preston Bily",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Indianola, Iowa",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Trey Boecker",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Beecher, Ill.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Max Bruening",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Belleville, Ill.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Parker Bruening",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Belleville, Ill.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jake Guse",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Rockford, Illinois",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Thomas Hereau",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Scales Mound, Ill.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Hayden Moore",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Geneseo, Ill.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Tomas Rascon",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Burlington, Iowa",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Rajan Roth",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wayland, Iowa",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Derrick Brown",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://siuecougars.com/sports/mgolf/roster"
+    }
+   ],
+   "coaches_url": "https://siuecougars.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://siuecougars.com/",
+ "requests": [
+  {
+   "url": "https://siuecougars.com/sports/mgolf",
+   "status": 200
+  },
+  {
+   "url": "https://siuecougars.com/sports/mgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://siuecougars.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

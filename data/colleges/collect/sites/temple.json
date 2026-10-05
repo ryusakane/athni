@@ -1,0 +1,164 @@
+{
+ "slug": "temple",
+ "athletics_url": "https://www.owlsports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://owlsports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://owlsports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://owlsports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Eddie Gebhardt",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Swarthmore, Pa.",
+     "country": "US",
+     "previous_school": "Strath Haven",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Max Jackson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cumberland, R.I.",
+     "country": "US",
+     "previous_school": "Rutgers Univ.",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "William Jun",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jupiter, Fla.",
+     "country": "US",
+     "previous_school": "South Florida",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nicholas Linkchorst",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Glen Mills, Pa.",
+     "country": "US",
+     "previous_school": "West Chester Rustin",
+     "class_raw": "So."
+    },
+    {
+     "name": "Tommy Murdough",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Concord, Mass.",
+     "country": "US",
+     "previous_school": "Rutgers Univ.",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Nicholas Pisarski",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Orlando, Fla.",
+     "country": "US",
+     "previous_school": "Boone",
+     "class_raw": "So."
+    },
+    {
+     "name": "Michael Quirk",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Glenside, Pa.",
+     "country": "US",
+     "previous_school": "La Salle College HS",
+     "class_raw": "Gr."
+    },
+    {
+     "name": "Travis Robertson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Palm Beach, Fla.",
+     "country": "US",
+     "previous_school": "Lafayette",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Cody Sutcliffe",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Plymouth Meeting, Pa.",
+     "country": "US",
+     "previous_school": "La Salle College HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mason Tomé",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "West Palm Beach, Fla.",
+     "country": "US",
+     "previous_school": "Saint Andrew's Episcopal School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Matthew Vital",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethlehem, Pa.",
+     "country": "US",
+     "previous_school": "Liberty",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Michael Vital",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bethlehem, Pa.",
+     "country": "US",
+     "previous_school": "Liberty",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Brian Quinn",
+     "title": "Head Coach",
+     "email": "bq@bqgolfacademy.com",
+     "phone": "610-941-9646",
+     "source_url": "https://owlsports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Matt Teesdale",
+     "title": "Assistant Coach",
+     "email": "matthew.teesdale@temple.edu",
+     "phone": null,
+     "source_url": "https://owlsports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://owlsports.com:443",
+ "requests": [
+  {
+   "url": "https://owlsports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://owlsports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://owlsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

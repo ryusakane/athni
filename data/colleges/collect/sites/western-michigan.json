@@ -1,0 +1,130 @@
+{
+ "slug": "western-michigan",
+ "athletics_url": "https://www.wmubroncos.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://wmubroncos.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/wmubroncogolf",
+   "x_url": "https://x.com/WMUGolf",
+   "facebook_url": "https://www.facebook.com/wmugolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://wmubroncos.com/sports/womens-golf/roster",
+   "roster_source_url": "https://wmubroncos.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Macy Beeson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Nobelsville, Ind.",
+     "country": "US",
+     "previous_school": "Lapel",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Bella Brooks",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Nicholasville, Ky.",
+     "country": "US",
+     "previous_school": "Lexington Catholic",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Danielle Daniy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Almaty, Kazakhstan",
+     "country": "KZ",
+     "previous_school": "St. Columba College (Ireland)",
+     "class_raw": "So."
+    },
+    {
+     "name": "Annie Flavin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Plymouth, Mich.",
+     "country": "US",
+     "previous_school": "Plymouth HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Lea Lemieux",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sudbury, Ontario",
+     "country": "CA",
+     "previous_school": "Lockerby Composite School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Lauren Lupinek",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Oconomowoc, Wis.",
+     "country": "US",
+     "previous_school": "Oconomowoc",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Katie Pill",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Oxford, Mich.",
+     "country": "US",
+     "previous_school": "Oxford HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Abigail Stendahl",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Maple Grove, Minn.",
+     "country": "US",
+     "previous_school": "Maple Grove HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Saanvi Venkatesh",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Marietta, Ga.",
+     "country": "US",
+     "previous_school": "George Walton",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Matt Zedrick",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://wmubroncos.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://wmubroncos.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://wmubroncos.com/",
+ "requests": [
+  {
+   "url": "https://wmubroncos.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://wmubroncos.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://wmubroncos.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "slug": "air-force",
+ "athletics_url": "https://www.goairforcefalcons.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://goairforcefalcons.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": "https://www.facebook.com/AFGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goairforcefalcons.com/sports/mens-golf/roster",
+   "roster_source_url": "https://goairforcefalcons.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Grant Baer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Argyle, TX",
+     "country": "US",
+     "previous_school": "John H. Guyer",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Carson Baker",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Overland Park, KS",
+     "country": "US",
+     "previous_school": "Blue Valley West",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Daniel Chazen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "San Diego, CA",
+     "country": "US",
+     "previous_school": "Classical Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Halloran",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Pinehurst, NC",
+     "country": "US",
+     "previous_school": "Pinecrest",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Eli Huntington",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Camas, WA",
+     "country": "US",
+     "previous_school": "Camas",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Karson Knox",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Wake Forest, NC",
+     "country": "US",
+     "previous_school": "North Raleigh Christian",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Grant Samuelson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Fort Collins, CO",
+     "country": "US",
+     "previous_school": "Fossil Ridge",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jackson Scaletta",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Anderson, SC",
+     "country": "US",
+     "previous_school": "Home School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ben Zeiler",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Del Mar, CA",
+     "country": "US",
+     "previous_school": "Classical Academy",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Tyler Goulding",
+     "title": "Head Coach",
+     "email": "Tyler.Goulding@afacademy.af.edu",
+     "phone": "719-333-4650",
+     "source_url": "https://goairforcefalcons.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jimmy Makloski",
+     "title": "Assistant Golf Coach",
+     "email": "James.makloski@afacademy.af.edu",
+     "phone": "719-333-4650",
+     "source_url": "https://goairforcefalcons.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goairforcefalcons.com:443",
+ "requests": [
+  {
+   "url": "https://goairforcefalcons.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goairforcefalcons.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goairforcefalcons.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

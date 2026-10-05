@@ -1,0 +1,112 @@
+{
+ "slug": "cleveland-state",
+ "athletics_url": "https://www.csuvikings.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://csuvikings.com/sports/mgolf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/csu_golf",
+   "x_url": "https://x.com/CSU_Golf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://csuvikings.com/sports/mgolf/roster",
+   "roster_source_url": "https://csuvikings.com/sports/mgolf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Troy Chapman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lexington, OH",
+     "country": "US",
+     "previous_school": "Lexington",
+     "class_raw": "So."
+    },
+    {
+     "name": "Dominik Cosic",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Concord Township, OH",
+     "country": "US",
+     "previous_school": "Lake Catholic HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ryan Dinan",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Akron, OH",
+     "country": "US",
+     "previous_school": "Coventry HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Gavin Leen",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Dayton, OH",
+     "country": "US",
+     "previous_school": "Archbishop Alter HS",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Dillon Pendergast",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Mogadore, OH",
+     "country": "US",
+     "previous_school": "Mogadore HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jackson Sommer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Westlake, OH",
+     "country": "US",
+     "previous_school": "Saint Ignatius",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Cameron Stafford",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Medina, OH",
+     "country": "US",
+     "previous_school": "Medina",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Steve Weir",
+     "title": "Director of Golf/Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://csuvikings.com/sports/mgolf/roster"
+    }
+   ],
+   "coaches_url": "https://csuvikings.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://csuvikings.com/",
+ "requests": [
+  {
+   "url": "https://csuvikings.com/sports/mgolf",
+   "status": 200
+  },
+  {
+   "url": "https://csuvikings.com/sports/mgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://csuvikings.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

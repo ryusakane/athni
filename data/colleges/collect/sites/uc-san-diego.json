@@ -1,0 +1,129 @@
+{
+ "slug": "uc-san-diego",
+ "athletics_url": "https://www.ucsdtritons.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://ucsdtritons.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/ucsdmgolf",
+   "x_url": "https://x.com/ucsdmgolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://ucsdtritons.com/sports/mens-golf/roster",
+   "roster_source_url": "https://ucsdtritons.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Justin Gill",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "San Marcos, Calif.",
+     "country": "US",
+     "previous_school": "San Marcos",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Cole Kim",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fullerton, Calif.",
+     "country": "US",
+     "previous_school": "Sunny Hills",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ethan Lien",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cupertino, Calif.",
+     "country": "US",
+     "previous_school": "Monta Vista",
+     "class_raw": "So."
+    },
+    {
+     "name": "Branden Wong",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Los Angeles, Calif.",
+     "country": "US",
+     "previous_school": "Harvard-Westlake Upper School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Austin Woods",
+     "class_year": "FR",
+     "redshirt": true,
+     "hometown": "Indian Wells, Calif.",
+     "country": "US",
+     "previous_school": "Palm Desert",
+     "class_raw": "R-Fr."
+    },
+    {
+     "name": "Hanjie Yu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Beijing, China",
+     "country": "CN",
+     "previous_school": "Renmin University",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jerry Zhu",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Irvine, Calif.",
+     "country": "US",
+     "previous_school": "University",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Fred Hanover",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "760-855-1444",
+     "source_url": "https://ucsdtritons.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://ucsdtritons.com/staff-directory"
+     }
+    },
+    {
+     "name": "Bill Cohn",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ucsdtritons.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Brian Lynn",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ucsdtritons.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://ucsdtritons.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://ucsdtritons.com/",
+ "requests": [
+  {
+   "url": "https://ucsdtritons.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://ucsdtritons.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://ucsdtritons.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

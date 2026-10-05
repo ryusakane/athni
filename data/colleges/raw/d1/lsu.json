@@ -1,13 +1,245 @@
 {
  "slug": "lsu",
  "name_en": "Louisiana State University",
+ "name_ja": null,
  "short_name": "LSU",
- "aliases": [],
+ "aliases": [
+  "Louisiana State"
+ ],
+ "nickname": null,
  "division": "D1",
+ "conference": "SEC",
+ "city": null,
+ "state": "LA",
+ "website_url": "https://www.lsu.edu",
+ "athletics_url": "https://lsusports.net",
  "programs": [
   {
-   "gender": "male"
+   "gender": "male",
+   "golf_url": "https://lsusports.net/sports/mg",
+   "roster_url": "https://lsusports.net/sports/mg/roster",
+   "coaches_url": "https://lsusports.net/staff-directory",
+   "instagram_url": "https://www.instagram.com/lsumensgolf",
+   "x_url": "https://x.com/LSUmensgolf",
+   "facebook_url": "https://www.facebook.com/lsumensgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://lsusports.net/sports/mg/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Austin Randall",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Prosper, Texas",
+     "country": "US",
+     "previous_school": "Walnut Grove HS"
+    },
+    {
+     "name": "John Doyle",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mitchelstown, Ireland",
+     "country": "IE",
+     "previous_school": "Christian Brothers' HS"
+    },
+    {
+     "name": "Árni Sveinsson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Garðabær, Iceland",
+     "country": "IS",
+     "previous_school": "Fjölbrautaskólinn í Garðabæ"
+    },
+    {
+     "name": "Jay Mendell",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lafayette, La.",
+     "country": "US",
+     "previous_school": "Ascension Episcopal School"
+    },
+    {
+     "name": "Noah McWilliams",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Benton, La.",
+     "country": "US",
+     "previous_school": "Benton HS"
+    },
+    {
+     "name": "Hudson Lawson",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Haleyville, Ala.",
+     "country": "US",
+     "previous_school": "Haleyville HS"
+    },
+    {
+     "name": "Dylan Kayne",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Paarl, South Africa",
+     "country": "ZA",
+     "previous_school": "Paarl Boys' HS"
+    },
+    {
+     "name": "Dan Hayes",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Manchester, England",
+     "country": "GB",
+     "previous_school": "Cheadle Hulme School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jake Amos",
+     "title": "Head Coach",
+     "email": "amosj@lsu.edu",
+     "phone": "(225) 578-3947",
+     "source_url": "https://lsusports.net/sports/mg/roster"
+    },
+    {
+     "name": "Jace Long",
+     "title": "Assistant Coach",
+     "email": "jacelong@lsu.edu",
+     "phone": "(225) 578-3947",
+     "source_url": "https://lsusports.net/sports/mg/roster"
+    },
+    {
+     "name": "Reece Coleman",
+     "title": "Assistant Coach",
+     "email": "rcolem11@lsu.edu",
+     "phone": "(225) 578-3947",
+     "source_url": "https://lsusports.net/sports/mg/roster"
+    }
+   ],
+   "alumni_pros": []
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://lsusports.net/sports/wg",
+   "roster_url": "https://lsusports.net/sports/wg/roster",
+   "coaches_url": "https://lsusports.net/staff-directory",
+   "instagram_url": "https://www.instagram.com/lsuwomensgolf",
+   "x_url": "https://x.com/LSUwomensgolf",
+   "facebook_url": "https://www.facebook.com/lsuwomensgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://lsusports.net/sports/wg/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Victoria Kristensen",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Thisted, Denmark",
+     "country": "DK",
+     "previous_school": "Sportstar College Ikast-Brande Handelsgymnasie"
+    },
+    {
+     "name": "Raegan Denton",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Adelaide, Australia",
+     "country": "AU",
+     "previous_school": "Henley HS"
+    },
+    {
+     "name": "Josefin Widal",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Halmstad, Sweden",
+     "country": "SE",
+     "previous_school": "Aspero Idrottsgymnasium"
+    },
+    {
+     "name": "Rocío Tejedo",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Castellon de Plana, Spain",
+     "country": "ES",
+     "previous_school": "Ortega y Gasset"
+    },
+    {
+     "name": "Ryleigh Knaub",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Debary, Fla.",
+     "country": "US",
+     "previous_school": "Lake Mary HS"
+    },
+    {
+     "name": "Lucia Iraola",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hondarribia, Spain",
+     "country": "ES",
+     "previous_school": "Colegio Leones Jesus Maestro"
+    },
+    {
+     "name": "Francesca Fiorellini",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rome, Italy",
+     "country": "IT",
+     "previous_school": "UCLA"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Garrett Runion",
+     "title": "Head Coach",
+     "email": "grunion@lsu.edu",
+     "phone": "(225) 578-3947",
+     "source_url": "https://lsusports.net/sports/wg/roster"
+    },
+    {
+     "name": "Alexis Rather",
+     "title": "Assistant Coach",
+     "email": "arathe1@lsu.edu",
+     "phone": "(225) 578-3947",
+     "source_url": "https://lsusports.net/sports/wg/roster"
+    },
+    {
+     "name": "Scott Seymour",
+     "title": "Assistant Coach",
+     "email": "sseymo5@lsu.edu",
+     "phone": null,
+     "source_url": "https://lsusports.net/sports/wg/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
- "sources": []
+ "sources": [
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://lsusports.net/sports/mg/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://lsusports.net/sports/wg/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://lsusports.net/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  }
+ ]
 }

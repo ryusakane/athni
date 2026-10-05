@@ -1,0 +1,144 @@
+{
+ "slug": "utah",
+ "athletics_url": "https://utahutes.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://utahutes.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/utesgolf",
+   "x_url": "https://x.com/UtesGolf",
+   "facebook_url": "https://www.facebook.com/UtesGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://utahutes.com/sports/mens-golf/roster",
+   "roster_source_url": "https://utahutes.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Adam Croix",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Peoria, AZ",
+     "country": "US",
+     "previous_school": "South Mountain Community College",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ivan Enguita",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Zaragoza, Spain",
+     "country": "ES",
+     "previous_school": "IES Ortega y Gasset",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jaxon Erickson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Riverton, Utah",
+     "country": "US",
+     "previous_school": "Riverton High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jan Farre",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Agramunt, Spain",
+     "country": "ES",
+     "previous_school": "Institut Centre d’Alt Rendiment Esportiu",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jack Jerge",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Concord, Calif.",
+     "country": "US",
+     "previous_school": "Saint Mary's/USC",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sergio Jimenez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "Tajamar",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Gabriel Palacios",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Guatemala City, Guatemala",
+     "country": "GT",
+     "previous_school": "American School of Guatemala",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Will Pizza",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Draper, Utah",
+     "country": "US",
+     "previous_school": "Corner Canyon",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Rex Wilson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Burlington, Wash.",
+     "country": "US",
+     "previous_school": "Western Washington",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Garrett Clegg",
+     "title": "Men's Golf Head Coach",
+     "email": "gclegg@huntsman.utah.edu",
+     "phone": "801-231-4400",
+     "source_url": "https://utahutes.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Keith Wilson",
+     "title": "Assistant Coach",
+     "email": "kwilson@huntsman.utah.edu",
+     "phone": null,
+     "source_url": "https://utahutes.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Dustin Pimm",
+     "title": "Men's Golf Volunteer Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://utahutes.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://utahutes.com/",
+ "requests": [
+  {
+   "url": "https://utahutes.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://utahutes.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://utahutes.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

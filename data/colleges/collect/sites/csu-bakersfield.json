@@ -1,0 +1,121 @@
+{
+ "slug": "csu-bakersfield",
+ "athletics_url": "https://www.gorunners.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://gorunners.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/csub_womens_golf",
+   "x_url": "https://x.com/csub_wgolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gorunners.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gorunners.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Emma Braun",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bakersfield, Calif.",
+     "country": "US",
+     "previous_school": "Bakersfield Christian HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Fiona Clancy",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "St. Augustine, Florida",
+     "country": "US",
+     "previous_school": "Beachside High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Melay Dittrich",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Spring, Texas",
+     "country": "US",
+     "previous_school": "Grand Oaks HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Rena Kaneko",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Rancho Palos Verdes, Calif.",
+     "country": "US",
+     "previous_school": "Palos Verdes Peninsula HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Anna Kehrer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Upsala, Sweden",
+     "country": "SE",
+     "previous_school": "Celsiusskolan",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sahya Kitabatake",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Kobe, Japan",
+     "country": "JP",
+     "previous_school": "College of the Canyons",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ashlee Kresha",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Bakersfield, Calif.",
+     "country": "US",
+     "previous_school": "Garces Memorial HS",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Kate Montemayor",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Long Beach, Calif.",
+     "country": "US",
+     "previous_school": "Long Beach Poly HS",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Katy Barrett Baxter",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gorunners.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://gorunners.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gorunners.com/splash.aspx?id=splash_58",
+ "requests": [
+  {
+   "url": "https://gorunners.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gorunners.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gorunners.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

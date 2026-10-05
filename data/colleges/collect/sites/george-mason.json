@@ -1,0 +1,50 @@
+{
+ "slug": "george-mason",
+ "athletics_url": "https://www.gomason.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gomason.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/Georgemasongolf",
+   "x_url": "https://x.com/Georgemasongolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "coaches": [
+    {
+     "name": "Greg Pieczynski",
+     "title": "Head Coach Men's Golf",
+     "email": null,
+     "phone": "(703) 993-3518",
+     "source_url": "https://gomason.com/staff-directory"
+    },
+    {
+     "name": "Nikita Gubenko",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gomason.com/staff-directory"
+    }
+   ],
+   "coaches_url": "https://gomason.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gomason.com/",
+ "requests": [
+  {
+   "url": "https://gomason.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gomason.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gomason.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

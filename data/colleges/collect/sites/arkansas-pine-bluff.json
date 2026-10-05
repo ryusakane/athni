@@ -1,0 +1,104 @@
+{
+ "slug": "arkansas-pine-bluff",
+ "athletics_url": "https://uapblionsroar.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://uapblionsroar.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://uapblionsroar.com/sports/mens-golf/roster",
+   "roster_source_url": "https://uapblionsroar.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "PHUDIT ARMORNJATURAPORN",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Rf."
+    },
+    {
+     "name": "ROBIN DUZMANN",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "FALKENBERG, SWEDEN",
+     "country": "SE",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "THOMAS LYAUDET",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": null,
+     "country": null,
+     "previous_school": "SANTIAGO, CHILE",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "JEREMY NGUYEN",
+     "class_year": null,
+     "redshirt": false,
+     "hometown": "Houston, TX",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Rf."
+    },
+    {
+     "name": "COLE WIESE",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "HIGH RIDGE, MO",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Roger \"The Legend\" Totten",
+     "title": "Deputy Athletics Director / Head Golf Coach",
+     "email": null,
+     "phone": "(870) 575-8544",
+     "source_url": "https://uapblionsroar.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://uapblionsroar.com/staff-directory"
+     }
+    },
+    {
+     "name": "Carl Smith",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uapblionsroar.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://uapblionsroar.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://uapblionsroar.com/",
+ "requests": [
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

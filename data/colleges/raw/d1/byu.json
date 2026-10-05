@@ -1,13 +1,573 @@
 {
  "slug": "byu",
  "name_en": "Brigham Young University",
+ "name_ja": null,
  "short_name": "BYU",
- "aliases": [],
+ "aliases": [
+  "Brigham Young"
+ ],
+ "nickname": "Cougars",
  "division": "D1",
+ "conference": "Big 12",
+ "city": null,
+ "state": "UT",
+ "website_url": "https://www.byu.edu",
+ "athletics_url": "https://byucougars.com",
  "programs": [
   {
-   "gender": "male"
+   "gender": "male",
+   "golf_url": "https://byucougars.com/sports/mens-golf",
+   "roster_url": "https://byucougars.com/sports/mens-golf/roster",
+   "coaches_url": "https://byucougars.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/byugolf",
+   "x_url": "https://x.com/byugolf",
+   "facebook_url": "https://www.facebook.com/BYUgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://byucougars.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Austin Shelley",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Salt Lake City, UT",
+     "country": "US",
+     "previous_school": "Skyline High School"
+    },
+    {
+     "name": "Lincoln Markham",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. George, UT",
+     "country": "US",
+     "previous_school": "Crimson Cliffs High School"
+    },
+    {
+     "name": "Drake Harvey",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Las Vegas, NV",
+     "country": "US",
+     "previous_school": "Somerset Academy Sky Pointe"
+    },
+    {
+     "name": "David Liechty",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Layton, UT",
+     "country": "US",
+     "previous_school": "Utah Tech University"
+    },
+    {
+     "name": "Cooper Jones",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Highland, Utah",
+     "country": "US",
+     "previous_school": "Lone Peak High School"
+    },
+    {
+     "name": "Angus Klintworth",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Johannesburg, South Africa",
+     "country": "ZA",
+     "previous_school": "Reddam House"
+    },
+    {
+     "name": "Jackson Mauss",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Draper, Utah",
+     "country": "US",
+     "previous_school": "Corner Canyon High School"
+    },
+    {
+     "name": "Peter Kim",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Salt Lake City, Utah",
+     "country": "US",
+     "previous_school": "Skyline High School"
+    },
+    {
+     "name": "Parker Bunn",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Ogden, Utah",
+     "country": "US",
+     "previous_school": "Oklahoma State University"
+    },
+    {
+     "name": "Kihei Akina",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Alpine, Utah",
+     "country": "US",
+     "previous_school": "Lone Peak High School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Todd Miller",
+     "title": "Men's Golf Head Coach",
+     "email": "todd_miller@byu.edu",
+     "phone": null,
+     "source_url": "https://byucougars.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Spencer Dunaway",
+     "title": "Men's Golf Associate Head Coach",
+     "email": "spencer.dunaway@byu.edu",
+     "phone": null,
+     "source_url": "https://byucougars.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Andy Miller",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Andy_Miller_(golfer)"
+    },
+    {
+     "name": "Bobby Clampett",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Bobby_Clampett"
+    },
+    {
+     "name": "Brad Sutterfield",
+     "tours": [
+      "Asian Tour",
+      "DP World Tour",
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Brad_Sutterfield"
+    },
+    {
+     "name": "Brent Franklin",
+     "tours": [
+      "JGTO"
+     ],
+     "final_college_year": null,
+     "country": "CA",
+     "source_url": "https://en.wikipedia.org/wiki/Brent_Franklin"
+    },
+    {
+     "name": "Buddy Allin",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Buddy_Allin"
+    },
+    {
+     "name": "Daniel Summerhays",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Daniel_Summerhays"
+    },
+    {
+     "name": "Dean Wilson",
+     "tours": [
+      "JGTO",
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Dean_Wilson_(golfer)"
+    },
+    {
+     "name": "Eduardo Herrera",
+     "tours": [
+      "Asian Tour",
+      "JGTO",
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "CO",
+     "source_url": "https://en.wikipedia.org/wiki/Eduardo_Herrera_(golfer)"
+    },
+    {
+     "name": "Jim Nelford",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "CA",
+     "source_url": "https://en.wikipedia.org/wiki/Jim_Nelford"
+    },
+    {
+     "name": "John Fought",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/John_Fought"
+    },
+    {
+     "name": "Johnny Miller",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Johnny_Miller"
+    },
+    {
+     "name": "Keith Clearwater",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Keith_Clearwater"
+    },
+    {
+     "name": "Mike Brannan",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Mike_Brannan"
+    },
+    {
+     "name": "Mike Reid",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Mike_Reid_(golfer)"
+    },
+    {
+     "name": "Mike Weir",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "CA",
+     "source_url": "https://en.wikipedia.org/wiki/Mike_Weir"
+    },
+    {
+     "name": "Pat McGowan",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Pat_McGowan"
+    },
+    {
+     "name": "Richard Zokol",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "CA",
+     "source_url": "https://en.wikipedia.org/wiki/Richard_Zokol"
+    },
+    {
+     "name": "Rick Fehr",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Rick_Fehr"
+    },
+    {
+     "name": "Rick Gibson",
+     "tours": [
+      "Asian Tour",
+      "JGTO",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "CA",
+     "source_url": "https://en.wikipedia.org/wiki/Rick_Gibson_(golfer)"
+    },
+    {
+     "name": "Zac Blair",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Americas"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Zac_Blair"
+    },
+    {
+     "name": "Óscar David Álvarez",
+     "tours": [
+      "PGA Tour Americas"
+     ],
+     "final_college_year": null,
+     "country": "CO",
+     "source_url": "https://en.wikipedia.org/wiki/%C3%93scar_David_%C3%81lvarez"
+    }
+   ]
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://byucougars.com/sports/womens-golf",
+   "roster_url": "https://byucougars.com/sports/womens-golf/roster",
+   "coaches_url": "https://byucougars.com/staff-directory",
+   "instagram_url": "https://www.instagram.com/byuwgolf",
+   "x_url": "https://x.com/byuwgolf",
+   "facebook_url": "https://www.facebook.com/BYUgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": "2026-27",
+   "roster_source_url": "https://byucougars.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Tatum Otto",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bellevue, Washington",
+     "country": "US",
+     "previous_school": "Bellevue High School"
+    },
+    {
+     "name": "Kate Walker",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. George, UT",
+     "country": "US",
+     "previous_school": "Crimson Cliffs High School"
+    },
+    {
+     "name": "Nya Palmer",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Las Vegas, Nevada",
+     "country": "US",
+     "previous_school": "Odyssey Charter School"
+    },
+    {
+     "name": "Berlin Long",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lehi, Utah",
+     "country": "US",
+     "previous_school": "Lone Peak High School"
+    },
+    {
+     "name": "Whitney Banz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Salt Lake City, Utah",
+     "country": "US",
+     "previous_school": "Westminster University"
+    },
+    {
+     "name": "María José \"MJ\" Barragán",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Morelia, Mexico",
+     "country": "MX",
+     "previous_school": "Prepa Anahuac Morelia"
+    },
+    {
+     "name": "Aadyn Long",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Alpine, Utah",
+     "country": "US",
+     "previous_school": "Lone Peak High School"
+    },
+    {
+     "name": "Ava Schroeder",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Twin Falls, Idaho",
+     "country": "US",
+     "previous_school": "Twin Falls High School"
+    },
+    {
+     "name": "Kanyanol (Naji) Aramkul",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Salaya, Thailand",
+     "country": "TH",
+     "previous_school": "Mahidol University International Demonstration School"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Alex White",
+     "title": "Assistant Coach",
+     "email": "alexandra.white@byu.edu",
+     "phone": null,
+     "source_url": "https://byucougars.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Carrie Roberts",
+     "title": "Head Coach",
+     "email": "carrie_roberts@byu.edu",
+     "phone": null,
+     "source_url": "https://byucougars.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": []
   }
  ],
- "sources": []
+ "sources": [
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://byucougars.com/staff-directory",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/%C3%93scar_David_%C3%81lvarez",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Andy_Miller_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bobby_Clampett",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Brad_Sutterfield",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Brent_Franklin",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Buddy_Allin",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Daniel_Summerhays",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Dean_Wilson_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Eduardo_Herrera_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jim_Nelford",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/John_Fought",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Johnny_Miller",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Keith_Clearwater",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mike_Brannan",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mike_Reid_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mike_Weir",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Pat_McGowan",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Richard_Zokol",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rick_Fehr",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Rick_Gibson_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Zac_Blair",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  }
+ ]
 }

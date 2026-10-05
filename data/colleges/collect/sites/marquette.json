@@ -1,0 +1,151 @@
+{
+ "slug": "marquette",
+ "athletics_url": "https://www.gomarquette.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gomarquette.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gomarquette.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gomarquette.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Ryan Banas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Winnetka, Ill.",
+     "country": "US",
+     "previous_school": "Loyola Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Mischa Candinas",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Geroldswil, Switzerland",
+     "country": "CH",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Vincent Cervantes",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Chandler, Ariz.",
+     "country": "US",
+     "previous_school": "Hamilton HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Wyatt Chapman",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Gilbert, Ariz.",
+     "country": "US",
+     "previous_school": "Hamilton HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Ondrej Chromcik",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ceský Tešín, Czechia",
+     "country": "CZ",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Sebastian Kawas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Doral, Fla.",
+     "country": "US",
+     "previous_school": "Christopher Columbus HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Regan Konen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Sugar Grove, Ill.",
+     "country": "US",
+     "previous_school": "Marmion Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Holden Orofino",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Fort Wayne, Ind.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Mason Schmidtke",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Sheboygan, Wis.",
+     "country": "US",
+     "previous_school": "Sheboygan North HS",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Steve Bailey",
+     "title": "Head Coach",
+     "email": "stephen.bailey@marquette.edu",
+     "phone": "288-5156",
+     "source_url": "https://gomarquette.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jordan Niebrugge",
+     "title": "Assistant Coach",
+     "email": "jordan.niebrugge@marquette.edu",
+     "phone": "288-3793",
+     "source_url": "https://gomarquette.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Josh Robinson",
+     "title": "Assistant Coach",
+     "email": "joshua.robinson@marquette.edu",
+     "phone": null,
+     "source_url": "https://gomarquette.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Ryan Little",
+     "title": "Assistant Director of Development, Athletics (MGOLF, MSOC, T&F, M/W TEN)",
+     "email": "ryan.little@marquette.edu",
+     "phone": "288-5512",
+     "source_url": "https://gomarquette.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gomarquette.com:443",
+ "requests": [
+  {
+   "url": "https://gomarquette.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

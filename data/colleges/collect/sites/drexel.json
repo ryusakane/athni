@@ -1,0 +1,121 @@
+{
+ "slug": "drexel",
+ "athletics_url": "https://www.drexeldragons.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://drexeldragons.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/DrexelGolf",
+   "x_url": "https://x.com/DrexelGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://drexeldragons.com/sports/mens-golf/roster",
+   "roster_source_url": "https://drexeldragons.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Harry Cohen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Franklin Lakes, N.J.",
+     "country": "US",
+     "previous_school": "Ramapo",
+     "class_raw": "So."
+    },
+    {
+     "name": "Nathan Crawford",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Port Saint Lucie, Fla.",
+     "country": "US",
+     "previous_school": "Morningside Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Nathan Guertler",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Merchantville, N.J.",
+     "country": "US",
+     "previous_school": "Haddon Heights",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "John Keba",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Emmaus, Pa.",
+     "country": "US",
+     "previous_school": "Allentown Central Catholic",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Luca Kleinschmidt",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wallingford, Pa.",
+     "country": "US",
+     "previous_school": "Strath Haven",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matt Normand",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lumberton, N.J.",
+     "country": "US",
+     "previous_school": "Rancocas Valley",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "John Stevenson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ambler, Pa.",
+     "country": "US",
+     "previous_school": "La Salle College High School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Caleb Walsh",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Center Valley, Pa.",
+     "country": "US",
+     "previous_school": "Southern Lehigh",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Scott Yurgalevicz",
+     "title": "Head Golf Coach",
+     "email": "sy646@drexel.edu",
+     "phone": null,
+     "source_url": "https://drexeldragons.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://drexeldragons.com:443",
+ "requests": [
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

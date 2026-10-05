@@ -1,0 +1,122 @@
+{
+ "slug": "rider",
+ "athletics_url": "https://www.gobroncs.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gobroncs.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": "https://x.com/RIDER_MGOLF",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gobroncs.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gobroncs.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Colby Bent",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Truro, Nova Scotia",
+     "country": "CA",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Luke Canino",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Washington Township, NJ",
+     "country": "US",
+     "previous_school": "Washington Township",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jules De Reu",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Guérande, France",
+     "country": "FR",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Rodrigo Garcia Teruel",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Mexico City, Mexico",
+     "country": "MX",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "JP Hoban",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Havertown, PA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Nathan Tallinder",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Madison, NJ",
+     "country": "US",
+     "previous_school": "Madison",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Gusto Veeratecha",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": null,
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jesse Neider",
+     "title": "Men's Golf Head Coach",
+     "email": null,
+     "phone": "609-896-7781",
+     "source_url": "https://gobroncs.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://gobroncs.com/staff-directory"
+     }
+    },
+    {
+     "name": "Allie Hadden",
+     "title": "Dietician",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gobroncs.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://gobroncs.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gobroncs.com/",
+ "requests": [
+  {
+   "url": "https://gobroncs.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

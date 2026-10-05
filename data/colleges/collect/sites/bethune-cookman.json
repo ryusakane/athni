@@ -1,0 +1,112 @@
+{
+ "slug": "bethune-cookman",
+ "athletics_url": "https://www.bcuathletics.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://bcuathletics.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/bcuwgolf",
+   "x_url": "https://x.com/bcugolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://bcuathletics.com/sports/womens-golf/roster",
+   "roster_source_url": "https://bcuathletics.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Mia Bernier",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Guaynabo, P.R.",
+     "country": "US",
+     "previous_school": "Lake Mary Prep [Fla.]",
+     "class_raw": "So."
+    },
+    {
+     "name": "Lana Bowen",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Ada, Okla.",
+     "country": "US",
+     "previous_school": "Deer Creek HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Hannah Butzer",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Canada",
+     "country": "CA",
+     "previous_school": "Chicago State",
+     "class_raw": "So."
+    },
+    {
+     "name": "Lathika Krishna",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bengaluru, India",
+     "country": "IN",
+     "previous_school": "LIU",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sanai Lambert",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Inglewood, Calif.",
+     "country": "US",
+     "previous_school": "Santa Monica Prep",
+     "class_raw": "So."
+    },
+    {
+     "name": "Vivian Luu",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Viera, FL",
+     "country": "US",
+     "previous_school": "Eastern Florida State",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Reese Wilson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Chicago, Ill.",
+     "country": "US",
+     "previous_school": "Butler",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Christopher Stokes",
+     "title": "Head Women's Golf Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://bcuathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://bcuathletics.com/",
+ "requests": [
+  {
+   "url": "https://bcuathletics.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://bcuathletics.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://bcuathletics.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

@@ -1,0 +1,112 @@
+{
+ "slug": "uic",
+ "athletics_url": "https://www.uicflames.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://uicflames.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/UIC_wgolf",
+   "x_url": "https://x.com/UIC_WGOLF",
+   "facebook_url": "https://www.facebook.com/uicwomensgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://uicflames.com/sports/womens-golf/roster",
+   "roster_source_url": "https://uicflames.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Anastassia Daudin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Biarritz, France",
+     "country": "FR",
+     "previous_school": "Jean Rostand Middle School Biarritz",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Alejandra Ereño",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Madrid, Spain",
+     "country": "ES",
+     "previous_school": "Colegio Nuestra Senora del Recuerdo",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Rowan Pies",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "St. Leon, Ind.",
+     "country": "US",
+     "previous_school": "East Central",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Camille Rosier",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Paris, France",
+     "country": "FR",
+     "previous_school": "Lycee International Charles De Gaulle",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Ava South",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Batesville, Ind.",
+     "country": "US",
+     "previous_school": "Batesville",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Sydney Terada",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Barrington, Ill.",
+     "country": "US",
+     "previous_school": "Barrington",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Josephine Zangrilli",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Munster, Ind.",
+     "country": "US",
+     "previous_school": "Munster",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Angela Rayhill",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://uicflames.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://uicflames.com/",
+ "requests": [
+  {
+   "url": "https://uicflames.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://uicflames.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://uicflames.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

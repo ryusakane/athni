@@ -1,13 +1,555 @@
 {
  "slug": "oklahoma",
  "name_en": "University of Oklahoma",
+ "name_ja": null,
  "short_name": "Oklahoma",
  "aliases": [],
+ "nickname": "Sooners",
  "division": "D1",
+ "conference": "SEC",
+ "city": null,
+ "state": "OK",
+ "website_url": "https://www.ou.edu",
+ "athletics_url": "https://soonersports.com",
  "programs": [
   {
-   "gender": "male"
+   "gender": "male",
+   "golf_url": "https://soonersports.com/sports/mens-golf",
+   "roster_url": "https://soonersports.com/sports/mens-golf/roster",
+   "coaches_url": null,
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": null,
+   "roster_source_url": "https://soonersports.com/sports/mens-golf/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Preston Albee",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Choctaw, Okla.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Cameron Cheek",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Owasso, Okla.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Ryder Cowan",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Edmond, Okla.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Lucas Gimenez",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Jacksonville, Fla.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "PJ Maybank III",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cheboygan, Mich.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Cayse Morgan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Cincinnati, Ohio",
+     "country": "US",
+     "previous_school": "Xavier"
+    },
+    {
+     "name": "Bradley Sawka",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Ellington, Conn.",
+     "country": "US",
+     "previous_school": "Connecticut"
+    },
+    {
+     "name": "Matthew Troutman",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Louisville, Ky.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Clark Van Gaalen",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Turlock, Calif.",
+     "country": "US",
+     "previous_school": "null"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jonathan Moore",
+     "title": "Head Coach",
+     "email": "jmoore1@ou.edu",
+     "phone": null,
+     "source_url": "https://soonersports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Ruben Sondjaja",
+     "title": "Associate Head Coach",
+     "email": "Ruben.Sondjaja-1@ou.edu",
+     "phone": null,
+     "source_url": "https://soonersports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Ryan Rainer",
+     "title": "Assistant Coach",
+     "email": "rainer@ou.edu",
+     "phone": null,
+     "source_url": "https://soonersports.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Abraham Ancer",
+     "tours": [
+      "LIV Golf",
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "MX",
+     "source_url": "https://en.wikipedia.org/wiki/Abraham_Ancer"
+    },
+    {
+     "name": "Andrew Magee",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Andrew_Magee"
+    },
+    {
+     "name": "Anthony Kim",
+     "tours": [
+      "DP World Tour",
+      "LIV Golf",
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Anthony_Kim"
+    },
+    {
+     "name": "Carlos del Moral",
+     "tours": [
+      "DP World Tour"
+     ],
+     "final_college_year": null,
+     "country": "ES",
+     "source_url": "https://en.wikipedia.org/wiki/Carlos_del_Moral"
+    },
+    {
+     "name": "Chris Gotterup",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Chris_Gotterup"
+    },
+    {
+     "name": "Craig Perks",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "NZ",
+     "source_url": "https://en.wikipedia.org/wiki/Craig_Perks"
+    },
+    {
+     "name": "Doug Martin",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Doug_Martin_(golfer)"
+    },
+    {
+     "name": "Glen Day",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Glen_Day"
+    },
+    {
+     "name": "Grant Waite",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions",
+      "PGA Tour of Australasia"
+     ],
+     "final_college_year": null,
+     "country": "NZ",
+     "source_url": "https://en.wikipedia.org/wiki/Grant_Waite"
+    },
+    {
+     "name": "Greg Turner",
+     "tours": [
+      "DP World Tour",
+      "PGA Tour Champions",
+      "PGA Tour of Australasia"
+     ],
+     "final_college_year": null,
+     "country": "NZ",
+     "source_url": "https://en.wikipedia.org/wiki/Greg_Turner"
+    },
+    {
+     "name": "Hunter Haas",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Hunter_Haas"
+    },
+    {
+     "name": "Jim Renner",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Jim_Renner"
+    },
+    {
+     "name": "Martin Flores",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Martin_Flores"
+    },
+    {
+     "name": "Matthew Lane",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour of Australasia"
+     ],
+     "final_college_year": null,
+     "country": "NZ",
+     "source_url": "https://en.wikipedia.org/wiki/Matthew_Lane"
+    },
+    {
+     "name": "Max McGreevy",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Max_McGreevy"
+    },
+    {
+     "name": "Todd Hamilton",
+     "tours": [
+      "JGTO",
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Todd_Hamilton"
+    },
+    {
+     "name": "William Kropp",
+     "tours": [
+      "PGA Tour Americas"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/William_Kropp"
+    }
+   ]
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://soonersports.com/sports/womens-golf",
+   "roster_url": "https://soonersports.com/sports/womens-golf/roster",
+   "coaches_url": null,
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_season": null,
+   "roster_source_url": "https://soonersports.com/sports/womens-golf/roster",
+   "collected_at": "2026-10-05",
+   "roster": [
+    {
+     "name": "Nancy Cox",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Ponte Vedra Beach, Fla.",
+     "country": "US",
+     "previous_school": "Florida Atlantic"
+    },
+    {
+     "name": "Ryan Donaldson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "McAlpin, Fla.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Valentina Marie Guertin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Boynton Beach, Fla",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Ellison Lundquist",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Furlong, Pa.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Anna Kate Nichols",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Little Rock, Ark.",
+     "country": "US",
+     "previous_school": "Arkansas"
+    },
+    {
+     "name": "Audrey Rischer",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Columbia, Mo.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "Satonkan (Earn) Thiengsri",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Chiangmai, Thailand",
+     "country": "TH",
+     "previous_school": "null"
+    },
+    {
+     "name": "Meg Tilma",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Wichita, Kan.",
+     "country": "US",
+     "previous_school": "null"
+    },
+    {
+     "name": "MaKayla Troutman",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Southlake, Texas",
+     "country": "US",
+     "previous_school": "null"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Veronique Drouin-Luttrell",
+     "title": "Head Coach",
+     "email": "vdrouin@ou.edu",
+     "phone": null,
+     "source_url": "https://soonersports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Tanner George",
+     "title": "Assistant Coach",
+     "email": "tgeorge@ou.edu",
+     "phone": null,
+     "source_url": "https://soonersports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Ryan Rainer",
+     "title": "Assistant Coach",
+     "email": "rainer@ou.edu",
+     "phone": null,
+     "source_url": "https://soonersports.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Betsy Cullen",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Betsy_Cullen"
+    },
+    {
+     "name": "Hannah Screen",
+     "tours": [
+      "LET"
+     ],
+     "final_college_year": null,
+     "country": "GB",
+     "source_url": "https://en.wikipedia.org/wiki/Hannah_Screen"
+    },
+    {
+     "name": "Isabelle Beisiegel",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "CA",
+     "source_url": "https://en.wikipedia.org/wiki/Isabelle_Beisiegel"
+    }
+   ]
   }
  ],
- "sources": []
+ "sources": [
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=MGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
+   "reuse_status": "unknown",
+   "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Abraham_Ancer",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Andrew_Magee",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Anthony_Kim",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Betsy_Cullen",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Carlos_del_Moral",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chris_Gotterup",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Craig_Perks",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Doug_Martin_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Glen_Day",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Grant_Waite",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Greg_Turner",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hannah_Screen",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hunter_Haas",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Isabelle_Beisiegel",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jim_Renner",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Martin_Flores",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Matthew_Lane",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Max_McGreevy",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Todd_Hamilton",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/William_Kropp",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://soonersports.com/sports/mens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://soonersports.com/sports/womens-golf/roster",
+   "reuse_status": "unknown",
+   "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  }
+ ]
 }
