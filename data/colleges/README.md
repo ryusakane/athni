@@ -124,5 +124,5 @@ cd ../../.. && python3 data/scripts/build_colleges.py
   - ロスター 578チーム (4,858人、日本出身 19人)、コーチ 572チーム、コーチのメールが載っているのは 298チーム、ゴルフ部の SNS 374チーム。
   - 取れなかった大学: Little Rock (robots.txt が全面不許可)、Missouri・Omaha・Tennessee Tech・Colgate (アクセス拒否・応答なし)。
 - ランキング: GCAA コーチ投票 男子 Top 25 (2026-09-25)、NCAA 選手権 2026 最終順位 (男女各30校)、Golf Channel プレシーズン (男子)。
-- プロになった卒業生: 132校・1,426人 (Wikipedia に記事のある選手のみ)。
+- プロになった卒業生: 137校・1,547人 (Wikipedia に記事のある選手のみ)。
 - 取れていない項目の件数は ISSUES.md。

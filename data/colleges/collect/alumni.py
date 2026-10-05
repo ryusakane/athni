@@ -34,6 +34,7 @@ TOURS = {
     "Symetra Tour golfers": "Epson Tour", "Ladies European Tour golfers": "LET", "LPGA of Japan Tour golfers": "JLPGA",
     "LPGA of Korea Tour golfers": "KLPGA", "ALPG Tour golfers": "WPGA Tour of Australasia",
 }
+WOMEN_TOURS = {"LPGA Tour", "Epson Tour", "LET", "JLPGA", "KLPGA", "WPGA Tour of Australasia"}
 NATIONALITY = {
     "American": "US", "Japanese": "JP", "South Korean": "KR", "Canadian": "CA", "English": "GB", "Scottish": "GB",
     "Welsh": "GB", "Northern Irish": "GB", "Irish": "IE", "Australian": "AU", "New Zealand": "NZ", "South African": "ZA",
@@ -75,16 +76,20 @@ def team_categories(gender):
         seen.add(c)
         subs, _ = category(c)
         for s in subs:
-            if s.endswith(word) and not s.startswith(("College ", "Junior college")):
-                teams.append(s)
-            elif s.startswith("College " + word.split()[0]) and "golfers in" in s:
+            if s.startswith("College " + word.split()[0]) and "golfers in" in s:
                 queue.append(s)
+            elif s.startswith(("College ", "Junior college")):
+                pass
+            elif s.endswith(word):
+                teams.append(s)
+            elif s.endswith(" golfers") and "men's" not in s and not s.endswith("American golfers"):
+                teams.append(s)  # team category without a gender ("Oklahoma State Cowboys golfers")
     return sorted(set(teams))
 
 
 def match_school(team, schools):
     """'Auburn Tigers men's golfers' -> (slug, nickname)."""
-    prefix = re.sub(r" (wo)?men's golfers$", "", team)
+    prefix = re.sub(r" ((wo)?men's )?golfers$", "", team)
     special = {"Miami RedHawks": "miami-oh", "Miami Hurricanes": "miami-fl", "Hawaii Rainbow Warriors": "hawaii",
                "Hawaiʻi Rainbow Warriors": "hawaii", "Hawaii Rainbow Wahine": "hawaii", "Loyola Ramblers": "loyola-chicago",
                "Loyola Greyhounds": "loyola-maryland", "St. John's Red Storm": "st-johns", "UTEP Miners": "utep",
@@ -103,7 +108,8 @@ def match_school(team, schools):
     if not best:
         return None, None
     nick = prefix[len(best[1]) + 1:]
-    if prefix == "Providence Argonauts" or nick.split()[0] in {"State", "Western", "City", "Panhandle", "Aiken", "Wesleyan", "Southern", "Monterey"}:
+    if prefix == "Providence Argonauts" or nick.split()[0] in {"State", "Western", "City", "Panhandle", "Aiken", "Wesleyan", "Southern", "Monterey",
+                                                                 "Christian"}:
         return None, None
     return best[0], nick
 
@@ -123,7 +129,8 @@ def golfer(title):
         if m and m.group(1) in NATIONALITY:
             country = NATIONALITY[m.group(1)]
             break
-    return {"title": title, "tours": tours, "country": country}
+    female = any(re.search(r"(female|women's) golfers$", c) for c in cats) or bool(set(tours) & WOMEN_TOURS)
+    return {"title": title, "tours": tours, "country": country, "gender": "female" if female else "male"}
 
 
 def main():
@@ -131,16 +138,22 @@ def main():
         schools = json.load(fh)
     genders = {s["slug"]: s["genders"] for s in schools}
     rows, nicknames, unmatched, members = [], {}, [], []
+    done = set()
     for gender in ("male", "female"):
         for team in team_categories(gender):
+            if team in done:
+                continue  # a gender-neutral team category can sit in both trees
+            done.add(team)
             slug, nick = match_school(team, schools)
-            if not slug or gender not in genders[slug]:
+            if not slug or ("men's" in team and gender not in genders[slug]):
                 unmatched.append(team)
                 continue
             if nick:
                 nicknames.setdefault(slug, nick)
             _, pages = category(team)
             members += [(slug, gender, team, p) for p in pages]
+            if "men's" not in team:
+                print("gender-neutral team category:", team, "->", slug, len(pages))
     titles = sorted({m[3] for m in members})
     print(len(titles), "golfer articles to read")
     with cf.ThreadPoolExecutor(2) as ex:
@@ -149,6 +162,10 @@ def main():
         g = info.get(title)
         if not g or not g["tours"]:
             continue
+        if "men's" not in team:
+            gender = g["gender"]  # gender-neutral team category: take it from the article
+            if gender not in genders[slug]:
+                continue
         rows.append({"slug": slug, "gender": gender, "name": re.sub(r" \(.*\)$", "", title), "tours": g["tours"],
                      "final_college_year": None, "country": g["country"], "source_url": wiki_url(title),
                      "team_category": wiki_url("Category:" + team)})
