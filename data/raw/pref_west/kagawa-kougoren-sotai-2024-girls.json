@@ -1,0 +1,96 @@
+{
+ "tournament": {
+  "id": "kagawa-kougoren-sotai-2024-girls",
+  "name": "第64回 香川県高等学校総合体育大会 ゴルフ競技 女子個人の部",
+  "name_en": null,
+  "organizer": "香川県高等学校体育連盟ゴルフ競技専門部 / 香川県高等学校ゴルフ連盟",
+  "event_type": "high_school",
+  "season_year": 2024,
+  "start_date": "2024-06-01",
+  "end_date": "2024-06-01",
+  "venue": "満濃ヒルズカントリークラブ",
+  "venue_prefecture": "香川県",
+  "level": "prefectural",
+  "region": "shikoku",
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": null,
+  "round_holes": [
+   18
+  ],
+  "source_url": "https://shsga.jp/kagawa/kagawa.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/kagawa/pdf/2024/64kensoutai.pdf"
+  ],
+  "field_size_total": 4
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "山﨑晴稀",
+   "school": "四学香川西",
+   "school_prefecture": "香川",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    73
+   ],
+   "total": 73,
+   "to_par": 1,
+   "note": "OUT 35 IN 38"
+  },
+  {
+   "rank": "2",
+   "player_name": "石川実愛",
+   "school": "四学香川西",
+   "school_prefecture": "香川",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    80
+   ],
+   "total": 80,
+   "to_par": 8,
+   "note": "OUT 38 IN 42"
+  },
+  {
+   "rank": "3",
+   "player_name": "山下微",
+   "school": "四学香川西",
+   "school_prefecture": "香川",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    89
+   ],
+   "total": 89,
+   "to_par": 17,
+   "note": "OUT 47 IN 42"
+  },
+  {
+   "rank": "4",
+   "player_name": "土井かれん",
+   "school": "高松中央",
+   "school_prefecture": "香川",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    95
+   ],
+   "total": 95,
+   "to_par": 23,
+   "note": "OUT 45 IN 50"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "Equal printed ranks marked T; 優勝 = 1",
+   "School names abbreviated as printed (四学香川西 = 四国学院大学香川西高, 高松中央 = 高松中央高)",
+   "Names: whitespace removed",
+   "Par 72 from the event yardage sheet (満濃ヒルズCC)"
+  ]
+ }
+}

@@ -1,0 +1,74 @@
+[
+ {
+  "name": "JGA 日本ゴルフ協会 championship pages (schedule, fullleaderboard.php, players.php, story)",
+  "url": "https://www.jga.or.jp/championship/champ_schedule2025/",
+  "organizer_type": "national_federation",
+  "region": null,
+  "publishes": "schedule, venues, full leaderboards (name, rounds, @ for amateurs; no school), player lists, articles",
+  "years_available": "1982-2026",
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows only /data/wp-admin/. Footer: 無断複製転載を禁ず (no unauthorized reproduction); facts (scores) transcribed only. Player profile pages contain birthdate/height etc. and were NOT used.",
+  "collected": true,
+  "reason": "Used for event dates/venues and the 2025 日本女子オープン leaderboard (its Golf Genius page is private)"
+ },
+ {
+  "name": "Golf Genius (JGA event portals)",
+  "url": "https://www.golfgenius.com/leagues/11642629451967155143/widgets/tournament_results",
+  "organizer_type": "results_platform",
+  "region": null,
+  "publishes": "tournament results with affiliation (school/club) for JGA amateur events and 2024 opens; romaji only for 2025 日本オープン, none for 2026 日本女子オープン",
+  "years_available": "2024-2026 checked",
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows only /player_profile_stats/ (and SemrushBot); result widgets allowed",
+  "collected": true,
+  "reason": "Primary source for 日本アマ 2024-2026, 日本女子アマ 2024-2026, 日本女子オープン 2024/2026, 日本オープン 2024/2025"
+ },
+ {
+  "name": "Golf Genius 2025 日本女子オープン results page",
+  "url": "https://www.golfgenius.com/pages/11870310226697701933",
+  "organizer_type": "results_platform",
+  "region": null,
+  "publishes": "private page (sign-in required)",
+  "years_available": "2025",
+  "robots_ok": true,
+  "terms_note": "private page, not accessed beyond the sign-in notice",
+  "collected": false,
+  "reason": "private; used jga.or.jp fullleaderboard instead"
+ },
+ {
+  "name": "日本オープン 2026",
+  "url": "https://www.golfgenius.com/pages/12963559476140493656",
+  "organizer_type": "national_federation",
+  "region": null,
+  "publishes": "entry only",
+  "years_available": "2026",
+  "robots_ok": true,
+  "terms_note": "",
+  "collected": false,
+  "reason": "scheduled 2026-10-15..18, not yet played"
+ },
+ {
+  "name": "日本パブリックゴルフ協会 (PGS) 全日本アマチュアゴルファーズ選手権 / 全日本女子アマチュアゴルファーズ選手権 (旧 パブリック選手権)",
+  "url": "https://pgs.or.jp/competitions/570",
+  "organizer_type": "national_federation",
+  "region": null,
+  "publishes": "block/final result PDFs (preliminaryResults, finalResults) on cloudfront",
+  "years_available": "2026 (competition ids 569/570); older via site",
+  "robots_ok": true,
+  "terms_note": "robots.txt returns 404 (no restrictions); terms not reviewed in detail",
+  "collected": false,
+  "reason": "Result PDFs on ddcfds20ftr8x.cloudfront.net return 403 \"distribution is configured to block access from your country\" (geo-blocked outside Japan); could not verify school affiliation is published"
+ },
+ {
+  "name": "JGA player profile (profile.php)",
+  "url": "https://www.jga.or.jp/profile.php",
+  "organizer_type": "national_federation",
+  "region": null,
+  "publishes": "birthdate, height, weight, blood type, hometown; school field empty",
+  "years_available": null,
+  "robots_ok": true,
+  "terms_note": "personal data beyond allowed fields",
+  "collected": false,
+  "reason": "contains data outside the allowed fields; school empty; not used"
+ }
+]

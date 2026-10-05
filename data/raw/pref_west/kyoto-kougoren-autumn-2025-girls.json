@@ -1,0 +1,83 @@
+{
+ "tournament": {
+  "id": "kyoto-kougoren-autumn-2025-girls",
+  "name": "令和7年度(第32回) 京都府高等学校・中学校ゴルフ選手権 秋季大会 高校女子の部",
+  "name_en": null,
+  "organizer": "京都府高等学校ゴルフ連盟",
+  "event_type": "high_school",
+  "season_year": 2025,
+  "start_date": "2025-10-24",
+  "end_date": "2025-10-24",
+  "venue": "瑞穂ゴルフ倶楽部",
+  "venue_prefecture": "京都府",
+  "level": "prefectural",
+  "region": "kansai",
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": 5860,
+  "round_holes": [
+   18
+  ],
+  "source_url": "https://sites.google.com/view/kyoto-kougoren/%E7%AB%B6%E6%8A%80%E5%A4%A7%E4%BC%9A%E6%83%85%E5%A0%B1",
+  "result_pdf_urls": [
+   "https://drive.google.com/file/d/17-lzJzkLLLDEtS5d4FL1RpS9bOSbmSiA/view"
+  ],
+  "field_size_total": 3
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "坂下 一花",
+   "school": "同志社国際",
+   "school_prefecture": "京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    77
+   ],
+   "total": 77,
+   "to_par": null,
+   "note": "OUT 39 IN 38"
+  },
+  {
+   "rank": "2",
+   "player_name": "野田 葵",
+   "school": "同志社国際",
+   "school_prefecture": "京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    79
+   ],
+   "total": 79,
+   "to_par": null,
+   "note": "OUT 41 IN 38"
+  },
+  {
+   "rank": "3",
+   "player_name": "大藪 優凛",
+   "school": "立命館宇治",
+   "school_prefecture": "京都",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    85
+   ],
+   "total": 85,
+   "to_par": null,
+   "note": "OUT 39 IN 46"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "Result PDF is a scanned image; transcribed manually from the rendered page - spot-check names",
+   "Published ranks sequential; ties decided by matching scorecard or playoff as noted on the sheet, kept as published",
+   "Par not printed on the result sheet; to_par null",
+   "(※) 高校総体資格 markers removed from names; school names as printed (abbreviated)",
+   "school_prefecture=京都 assumed (prefectural federation event)"
+  ]
+ }
+}

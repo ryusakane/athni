@@ -45,11 +45,12 @@ data/
 | players.csv | players | name_en_source |
 | courses.csv | courses | source_url |
 | course_tees.csv | course_tees | source_url |
-| tournaments.csv | tournaments | season_year, region, format, venue_ja, par, yardage, result_pdf_urls, complete, row_count, reuse_status, reuse_note |
-| tournament_results.csv | tournament_results | field_size, percentile (上位何%), strokes_behind_winner, avg_differential |
+| tournaments.csv | tournaments | event_type (junior / high_school / amateur / professional), season_year, region, format, venue_ja, par, yardage, result_pdf_urls, complete, row_count, field_size_total, reuse_status, reuse_note |
+| tournament_results.csv | tournament_results | amateur, field_size, percentile (上位何%), strokes_behind_winner, avg_differential |
 | rounds.csv | rounds | holes, weather_en, differential, weather_station |
 | team_results.csv / team_members.csv | (なし) | 団体戦。スキーマに団体の表がないため別ファイル |
 
+- 一般アマ・プロ大会 (日本アマ、地区オープン等) は高校生の行だけを書き起こしている。`position` は大会全体での順位、`field_size`・`percentile` は大会全体の人数 (`field_size_total`) で計算し、優勝者が高校生でない大会では `strokes_behind_winner` は空。
 - `position`/`tied`: 「T3」は position=3, tied=true。予選落ちは status=cut, position 空。
 - `graduation_year`: 学年と大会日付から算出 (4月始まりの学年度。3年生の夏 2025 → 卒業 2026年3月 = 2026)。
 - `differential`: WHS 方式 `113 / slope × (score − course rating)`。コースレート・スロープがわかるラウンドだけ。9ホールのラウンドは空。

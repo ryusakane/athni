@@ -1,0 +1,225 @@
+{
+ "tournament": {
+  "id": "tga-amateur-2025-boys",
+  "name": "第59回東北アマチュアゴルフ選手権競技",
+  "name_en": null,
+  "organizer": "東北ゴルフ連盟",
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-05-27",
+  "end_date": "2025-05-30",
+  "venue": "夏泊ゴルフリンクス",
+  "venue_prefecture": "青森県",
+  "level": "regional",
+  "region": "tohoku",
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": null,
+  "round_holes": [
+   18,
+   18,
+   18,
+   18
+  ],
+  "source_url": "https://www.tga.gr.jp/reports_result.php?q=1001583&r=4",
+  "result_pdf_urls": [],
+  "field_size_total": 115
+ },
+ "results": [
+  {
+   "rank": "14",
+   "player_name": "譚 傑升",
+   "school": "東北高等学校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    79,
+    72,
+    77,
+    71
+   ],
+   "total": 299,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "T21",
+   "player_name": "横田 彪五",
+   "school": "学法石川高校",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    75,
+    72,
+    78,
+    78
+   ],
+   "total": 303,
+   "to_par": 15,
+   "note": null
+  },
+  {
+   "rank": "T27",
+   "player_name": "塩谷 凜太郎",
+   "school": "八戸学院光星高等学校",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    82,
+    75,
+    79,
+    71
+   ],
+   "total": 307,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "T27",
+   "player_name": "黒田 倫太郎",
+   "school": "東北高等学校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    76,
+    81,
+    75,
+    75
+   ],
+   "total": 307,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "40",
+   "player_name": "齋藤 和瑛",
+   "school": "学法石川高校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    80,
+    75,
+    79,
+    82
+   ],
+   "total": 316,
+   "to_par": 28,
+   "note": null
+  },
+  {
+   "rank": "T54",
+   "player_name": "内野 誉",
+   "school": "東北高等学校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    78,
+    74,
+    89,
+    84
+   ],
+   "total": 325,
+   "to_par": 37,
+   "note": null
+  },
+  {
+   "rank": "T58",
+   "player_name": "桜庭 禄碩",
+   "school": "八戸聖ウルスラ学院高校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    78,
+    88,
+    82,
+    80
+   ],
+   "total": 328,
+   "to_par": 40,
+   "note": null
+  },
+  {
+   "rank": "60",
+   "player_name": "髙田 将",
+   "school": "八戸学院光星高等学校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    86,
+    79,
+    85,
+    80
+   ],
+   "total": 330,
+   "to_par": 42,
+   "note": null
+  },
+  {
+   "rank": "61",
+   "player_name": "峯田 竜空",
+   "school": "八戸学院光星高等学校",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    85,
+    81,
+    83,
+    82
+   ],
+   "total": 331,
+   "to_par": 43,
+   "note": null
+  },
+  {
+   "rank": "cut",
+   "player_name": "佐々木 琉月",
+   "school": "盛岡中央高校",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    90,
+    86
+   ],
+   "total": 176,
+   "to_par": 32,
+   "note": "missed cut after R2 (position 88)"
+  },
+  {
+   "rank": "cut",
+   "player_name": "藤原 天飛",
+   "school": "盛岡中央高校",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    88,
+    90
+   ],
+   "total": 178,
+   "to_par": 34,
+   "note": "missed cut after R2 (position 94)"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field",
+   "field_size_total = players on the R1 sheet excluding 欠場 (115); rounds available: 4",
+   "Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published",
+   "Tied positions T-prefixed using whole-field ties on the final sheet",
+   "Cut after R2; missed-cut HS players listed with rank 'cut'"
+  ]
+ }
+}

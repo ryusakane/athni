@@ -1,0 +1,98 @@
+{
+ "tournament": {
+  "id": "okinawaopen-okinawa-open-2025-mixed",
+  "name": "第4回 沖縄オープンゴルフ選手権 本選",
+  "name_en": null,
+  "organizer": "THE OKINAWA OPEN 実行委員会",
+  "event_type": "professional",
+  "season_year": 2025,
+  "start_date": "2025-07-11",
+  "end_date": "2025-07-11",
+  "venue": "かねひで喜瀬カントリークラブ",
+  "venue_prefecture": "沖縄県",
+  "level": "local",
+  "region": "kyushu",
+  "category": "mixed",
+  "format": "individual",
+  "par": 72,
+  "yardage": null,
+  "round_holes": [
+   18
+  ],
+  "source_url": "https://theokinawaopen.com/",
+  "result_pdf_urls": [
+   "https://theokinawaopen.com/content/images/2025/07/【沖縄オープン2025】成績表_総合の部.pdf"
+  ],
+  "field_size_total": 120
+ },
+ "results": [
+  {
+   "rank": "T41",
+   "player_name": "玉城 豪華",
+   "school": "エナジックスポーツ高等学院",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    73
+   ],
+   "total": 73,
+   "to_par": 1,
+   "note": "school as printed in the affiliation column of the official overall results PDF"
+  },
+  {
+   "rank": "T61",
+   "player_name": "新垣 くらら",
+   "school": "エナジックスポーツ高等学院",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    75
+   ],
+   "total": 75,
+   "to_par": 3,
+   "note": "school as printed in the affiliation column of the official overall results PDF; female player in the combined field"
+  },
+  {
+   "rank": "T73",
+   "player_name": "森下 雅頌",
+   "school": "甲南高等学校",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    77
+   ],
+   "total": 77,
+   "to_par": 5,
+   "note": "school as printed in the affiliation column of the official overall results PDF"
+  },
+  {
+   "rank": "T73",
+   "player_name": "當山 由菜",
+   "school": "エナジックスポーツ高等学院",
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    77
+   ],
+   "total": 77,
+   "to_par": 5,
+   "note": "school as printed in the affiliation column of the official overall results PDF; female player in the combined field"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "single-round (18 holes) final with a combined men/women, pro/amateur field of 120 (60 pros, 60 amateurs); separate pro/amateur division PDFs also exist",
+   "PDF text layout splits rank/name/affiliation across lines; ranks read manually from the layout",
+   "several amateurs have no affiliation printed (e.g. 東恩納 昊貴, 新垣 信莉, 金城 悠) - not included even if known HS students; 島尻 一慧 is a junior-high student (excluded)",
+   "grade not published",
+   "organizer taken from the current site footer (主催 THE OKINAWA OPEN 実行委員会); 2025 PDF does not print the organizer",
+   "2026 edition results PDFs (March 2026) print no affiliation, so no 2026 file"
+  ]
+ }
+}

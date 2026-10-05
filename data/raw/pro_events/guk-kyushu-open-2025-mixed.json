@@ -1,0 +1,77 @@
+{
+ "tournament": {
+  "id": "guk-kyushu-open-2025-mixed",
+  "name": "2025九州オープンゴルフ選手権競技 決勝",
+  "name_en": null,
+  "organizer": "九州ゴルフ連盟",
+  "event_type": "professional",
+  "season_year": 2025,
+  "start_date": "2025-07-30",
+  "end_date": "2025-08-02",
+  "venue": "玄海ゴルフクラブ",
+  "venue_prefecture": "福岡県",
+  "level": "regional",
+  "region": "kyushu",
+  "category": "mixed",
+  "format": "individual",
+  "par": 72,
+  "yardage": 7023,
+  "round_holes": [
+   18,
+   18,
+   18,
+   18
+  ],
+  "source_url": "https://www.guk.jp/info/22282",
+  "result_pdf_urls": [
+   "https://www.guk.jp/wp-content/uploads/2025/01/7cb3695e7455264d4f54de135c49768f.pdf"
+  ],
+  "field_size_total": 130
+ },
+ "results": [
+  {
+   "rank": "T13",
+   "player_name": "呉屋 陽星",
+   "school": "エナジックスポーツ高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    71,
+    70,
+    67,
+    70
+   ],
+   "total": 278,
+   "to_par": -10,
+   "note": "セカンドアマ (lost amateur playoff); listed affiliation カヌチャ; school/grade from GUK official daily report https://www.guk.jp/info/22282"
+  },
+  {
+   "rank": "T36",
+   "player_name": "山本 龍之介",
+   "school": "エナジックスポーツ高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    69,
+    69,
+    75,
+    71
+   ],
+   "total": 284,
+   "to_par": -4,
+   "note": "listed affiliation カヌチャ; school/grade from GUK official daily report https://www.guk.jp/info/22181"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "results PDF header says 参加者数 132名; GUK report says 130 players (38 amateurs) started R1 - used 130",
+   "PDF prints rank only on first row of a tie; T prefix added",
+   "cut-line results (R2) PDF link on the day-2 report returned HTML, not a PDF; amateurs who missed the cut (26) not checked - their schools are not shown anyway",
+   "only amateurs whose school is named in GUK reports are included; other amateurs (e.g. 宮城 ジョセフ, 小窪 都斗, 吉田 京介, 森 陽向, 池田 勝汰 who made the cut) have only club affiliation shown"
+  ]
+ }
+}

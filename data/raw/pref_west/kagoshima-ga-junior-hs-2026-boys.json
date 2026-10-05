@@ -1,0 +1,97 @@
+{
+ "tournament": {
+  "id": "kagoshima-ga-junior-hs-2026-boys",
+  "name": "第18回鹿児島県ジュニアゴルフ大会 高校生男子の部",
+  "name_en": null,
+  "organizer": "鹿児島県ゴルフ協会",
+  "event_type": "junior",
+  "season_year": 2026,
+  "start_date": "2026-04-02",
+  "end_date": "2026-04-02",
+  "venue": "かごしま空港36カントリークラブ",
+  "venue_prefecture": "鹿児島県",
+  "level": "prefectural",
+  "region": "kyushu",
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": [
+   18
+  ],
+  "source_url": "https://k-ga.jp/competition",
+  "result_pdf_urls": [
+   "https://k-ga.jp/admin/wp-content/uploads/2026_18th-junior-golf_result_boys.pdf"
+  ],
+  "field_size_total": 4
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "上野剣慎",
+   "school": null,
+   "school_prefecture": "鹿児島",
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    69
+   ],
+   "total": 69,
+   "to_par": null,
+   "note": "OUT 34 IN 35"
+  },
+  {
+   "rank": "2",
+   "player_name": "上木梨唯人",
+   "school": null,
+   "school_prefecture": "鹿児島",
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    78
+   ],
+   "total": 78,
+   "to_par": null,
+   "note": "OUT 38 IN 40"
+  },
+  {
+   "rank": "3",
+   "player_name": "岩川礼央",
+   "school": null,
+   "school_prefecture": "鹿児島",
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    83
+   ],
+   "total": 83,
+   "to_par": null,
+   "note": "OUT 43 IN 40"
+  },
+  {
+   "rank": "4",
+   "player_name": "祝儀園魁努",
+   "school": null,
+   "school_prefecture": "鹿児島",
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    83
+   ],
+   "total": 83,
+   "to_par": null,
+   "note": "OUT 37 IN 46"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "Published ranks are sequential (ties broken by countback; 優勝/準優勝 shown as 1/2), kept as published",
+   "No school/grade printed; identified as high-school players by the 高校(生)男子の部 division. school_prefecture assumed from the prefectural event",
+   "Girls played a combined 中高 女子の部 with no school shown, so girls are not included",
+   "Par not on the sheet; to_par null",
+   "Names: whitespace removed"
+  ]
+ }
+}

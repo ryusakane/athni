@@ -1,0 +1,131 @@
+{
+ "tournament": {
+  "id": "aomori-ga-amateur-2025-boys",
+  "name": "2025年度（第52回）青森県アマチュアゴルフ選手権競技（第19回東北ミッドアマ青森県予選）",
+  "name_en": null,
+  "organizer": "青森県ゴルフ連盟",
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-08-07",
+  "end_date": "2025-08-08",
+  "venue": "東奥カントリークラブ",
+  "venue_prefecture": "青森県",
+  "level": "prefectural",
+  "region": "tohoku",
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6840,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.tga.gr.jp/aomori/topics.php?y=2025",
+  "result_pdf_urls": [
+   "https://www.tga.gr.jp/pb/kyougikai/file/2025/1001730/seisekihyou_pdf_1r/111500-202508-seisekihyou_1r_20250807151223.pdf",
+   "https://www.tga.gr.jp/pb/kyougikai/file/2025/1001730/seisekihyou_pdf_2r/111500-202508-seisekihyou_2r_20250818161622.pdf"
+  ],
+  "field_size_total": 79
+ },
+ "results": [
+  {
+   "rank": "2",
+   "player_name": "塩谷 凜太郎",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    76,
+    72
+   ],
+   "total": 148,
+   "to_par": 4,
+   "note": "final round OUT 36 IN 36"
+  },
+  {
+   "rank": "6",
+   "player_name": "峯田 竜空",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    79,
+    72
+   ],
+   "total": 151,
+   "to_par": 7,
+   "note": "final round OUT 36 IN 36"
+  },
+  {
+   "rank": "9",
+   "player_name": "斎藤 優空",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    78,
+    75
+   ],
+   "total": 153,
+   "to_par": 9,
+   "note": "final round OUT 37 IN 38"
+  },
+  {
+   "rank": "15",
+   "player_name": "髙田 将",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    80,
+    77
+   ],
+   "total": 157,
+   "to_par": 13,
+   "note": "final round OUT 39 IN 38"
+  },
+  {
+   "rank": "48",
+   "player_name": "小泉 星空斗",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    82,
+    90
+   ],
+   "total": 172,
+   "to_par": 28,
+   "note": "final round OUT 48 IN 42"
+  },
+  {
+   "rank": "76",
+   "player_name": "野田 昊佑",
+   "school": "光星高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    91,
+    96
+   ],
+   "total": 187,
+   "to_par": 43,
+   "note": "final round OUT 48 IN 48"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "Final-round sheet is a scanned image; values transcribed manually from the image (round 1 cross-checked against the R1 text sheet where available)",
+   "Final sheet header says 参加者数 78; it lists 78 ranked players plus 1 棄権, so field_size_total=79 (starters)",
+   "Ranks are published without ties (countback); e.g. 2 and 3 both 148; kept as published"
+  ]
+ }
+}

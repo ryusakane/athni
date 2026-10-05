@@ -1,0 +1,76 @@
+{
+ "tournament": {
+  "id": "guk-kyushu-open-2024-mixed",
+  "name": "2024九州オープンゴルフ選手権競技 決勝",
+  "name_en": null,
+  "organizer": "九州ゴルフ連盟",
+  "event_type": "professional",
+  "season_year": 2024,
+  "start_date": "2024-06-13",
+  "end_date": "2024-06-16",
+  "venue": "大分カントリークラブ 月形コース",
+  "venue_prefecture": "大分県",
+  "level": "regional",
+  "region": "kyushu",
+  "category": "mixed",
+  "format": "individual",
+  "par": 72,
+  "yardage": 7214,
+  "round_holes": [
+   18,
+   18,
+   18,
+   18
+  ],
+  "source_url": "https://www.guk.jp/info/19544",
+  "result_pdf_urls": [
+   "https://www.guk.jp/wp-content/uploads/2024/01/0ff1183611ff533cbaba06cf3e64f701-2.pdf"
+  ],
+  "field_size_total": 130
+ },
+ "results": [
+  {
+   "rank": "T31",
+   "player_name": "呉屋 陽星",
+   "school": "エナジックスポーツ高等学院",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    71,
+    75,
+    74,
+    79
+   ],
+   "total": 299,
+   "to_par": 11,
+   "note": "listed affiliation カヌチャ; school/grade from GUK official report https://www.guk.jp/info/19544"
+  },
+  {
+   "rank": "T47",
+   "player_name": "東恩納 昊貴",
+   "school": "エナジックスポーツ高等学院",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    71,
+    81,
+    75,
+    77
+   ],
+   "total": 304,
+   "to_par": 16,
+   "note": "listed affiliation カヌチャ; school/grade from GUK official report https://www.guk.jp/info/19544"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "results PDF says 参加者数 132名; GUK report says 132 entered with 2 欠場 -> 130 started",
+   "PDF prints rank only on first row of a tie; T prefix added",
+   "27 amateurs started (13 made the cut); only those whose school is named in the GUK report are included (others: university/junior-high or not stated)"
+  ]
+ }
+}

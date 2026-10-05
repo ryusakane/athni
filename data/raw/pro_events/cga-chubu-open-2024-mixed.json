@@ -1,0 +1,91 @@
+{
+ "tournament": {
+  "id": "cga-chubu-open-2024-mixed",
+  "name": "2024年度（第53回）中部オープンゴルフ選手権競技 本戦",
+  "name_en": null,
+  "organizer": "中部ゴルフ連盟",
+  "event_type": "professional",
+  "season_year": 2024,
+  "start_date": "2024-07-10",
+  "end_date": "2024-07-12",
+  "venue": "緑ヶ丘カンツリークラブ",
+  "venue_prefecture": null,
+  "level": "regional",
+  "region": "chubu",
+  "category": "mixed",
+  "format": "individual",
+  "par": 70,
+  "yardage": 6772,
+  "round_holes": [
+   18,
+   18,
+   18
+  ],
+  "source_url": "http://www.cga.jp/competition/%e4%b8%ad%e9%83%a8%e3%82%aa%e3%83%bc%e3%83%97%e3%83%b3%e6%9c%ac%e6%88%a6%e3%80%80%ef%bc%93r%e6%88%90%e7%b8%be%e8%a1%a8%e6%8e%b2%e8%bc%89%e3%81%97%e3%81%be%e3%81%97%e3%81%9f/",
+  "result_pdf_urls": [
+   "http://www.cga.jp/wp-content/uploads/2024/07/op-honsen-3Rseiseki-2024.pdf",
+   "http://www.cga.jp/wp-content/uploads/2024/07/op-honsen-seiseki-2R-2024.pdf"
+  ],
+  "field_size_total": 117
+ },
+ "results": [
+  {
+   "rank": "T7",
+   "player_name": "松山 茉生",
+   "school": "福井工大福井高",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    64,
+    66,
+    75
+   ],
+   "total": 205,
+   "to_par": -5,
+   "note": "ベストアマ; listed affiliation グリーンヒル瑞浪GC; school/grade from the CGA official event report on the results page"
+  },
+  {
+   "rank": "T10",
+   "player_name": "矢野 仁貴",
+   "school": "名古屋高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    69,
+    68,
+    69
+   ],
+   "total": 206,
+   "to_par": -4,
+   "note": "2nd amateur; listed affiliation JGAジュニア; school/grade from the CGA official event report on the results page"
+  },
+  {
+   "rank": "T19",
+   "player_name": "酒井 遼也",
+   "school": "ルネサンス豊田高",
+   "school_prefecture": null,
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    67,
+    69,
+    73
+   ],
+   "total": 209,
+   "to_par": -1,
+   "note": "3rd amateur; listed affiliation JGAジュニア; school/grade from the CGA official event report on the results page"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "field_size_total=117 from the R2 results PDF (参加人数 117名); the CGA report says 120 entrants with 2 withdrawals before start; 80 made the cut (145)",
+   "PDF prints tied positions without T; T prefix added",
+   "venue prefecture not stated on the page; left null",
+   "other amateurs: 湯原 光 (university), 岩井 悠真 (university), 加藤 金次郎 (junior high), 椎名 将大 (not stated); amateurs who missed the cut have no school shown"
+  ]
+ }
+}

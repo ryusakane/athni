@@ -1,0 +1,216 @@
+[
+ {
+  "name": "北海道高等学校ゴルフ連盟",
+  "url": "http://kogoren.ciao.jp/",
+  "organizer_type": "hs_federation",
+  "region": "北海道",
+  "publishes": "HS tournament results",
+  "years_available": null,
+  "robots_ok": false,
+  "terms_note": "robots.txt: Disallow: / (all)",
+  "collected": false,
+  "reason": "robots.txt disallows all paths"
+ },
+ {
+  "name": "東北高等学校ゴルフ連盟",
+  "url": "http://tohoku-kougoren.jp/",
+  "organizer_type": "hs_federation",
+  "region": "東北",
+  "publishes": "summer championship, autumn, team qualifier, Tohoku junior PDFs",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt 404 (none); no terms page found",
+  "collected": true,
+  "reason": "summer championship 2025/2026 and Tohoku junior 15-17 2025/2026 collected; autumn 2025 PDFs are images (not transcribed); team qualifier not done"
+ },
+ {
+  "name": "関西高等学校ゴルフ連盟",
+  "url": "https://khgu.jp/",
+  "organizer_type": "hs_federation",
+  "region": "関西",
+  "publishes": "Kansai HS championship, fall final, junior qualifiers, 対抗戦",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "no robots.txt; no terms page found",
+  "collected": true,
+  "reason": "championship 2025/2026 and fall final 2025 collected; junior qualifier PDFs have vector-outline names; team 対抗戦 not done"
+ },
+ {
+  "name": "九州沖縄高等学校ゴルフ連盟",
+  "url": "http://kyushu-kougoren.jp/",
+  "organizer_type": "hs_federation",
+  "region": "九州",
+  "publishes": "新人戦, challenge, spring, team PDFs",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "no robots.txt; no terms page found",
+  "collected": true,
+  "reason": "新人戦 2025 collected; challenge/spring 2025 PDFs vector-outline text, team 2026 image - not transcribed"
+ },
+ {
+  "name": "北海道ゴルフ連盟",
+  "url": "https://www.hga.gr.jp/ (results at compe.hga.gr.jp)",
+  "organizer_type": "regional_golf_federation",
+  "region": "北海道",
+  "publishes": "Hokkaido junior / amateur results",
+  "years_available": null,
+  "robots_ok": null,
+  "terms_note": "compe.hga.gr.jp returns 403 to all requests incl. robots.txt",
+  "collected": false,
+  "reason": "results host returns 403"
+ },
+ {
+  "name": "東北ゴルフ連盟",
+  "url": "https://www.tga.gr.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "東北",
+  "publishes": "Tohoku amateur / women's amateur results (reports_result.php)",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt 404; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "amateur and women's amateur 2025/2026, HS-affiliated players only"
+ },
+ {
+  "name": "関東ゴルフ連盟",
+  "url": "https://www.kga.gr.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "関東",
+  "publishes": "関東ジュニア, KGA杯ジュニア, 関東アマ/女子アマ",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt 404; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "junior 15-17 and KGA杯 15-17 2025/2026 collected; 関東アマ/女子アマ skipped (affiliations are clubs, HS not identifiable)"
+ },
+ {
+  "name": "中部ゴルフ連盟",
+  "url": "https://www.cga.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "中部",
+  "publishes": "中部ジュニア (2025 PDF, 2026 Golf Genius), qualifiers, 中部アマ",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt 404; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "junior final 2025/2026 and 4 regional qualifiers 2025 collected; 中部アマ/女子アマ skipped (club affiliations)"
+ },
+ {
+  "name": "Golf Genius (CGA results host)",
+  "url": "https://www.golfgenius.com/",
+  "organizer_type": "results_platform",
+  "region": "中部",
+  "publishes": "CGA 2026 leaderboards",
+  "years_available": [
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows only /player_profile_stats/ (not used); robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "CGA junior 2026 leaderboards"
+ },
+ {
+  "name": "関西ゴルフ連盟",
+  "url": "https://www.kgu.gr.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "関西",
+  "publishes": "関西アマ/女子アマ, 関西ジュニア (via sponichi)",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows /wp-admin/ only; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "amateur/women's amateur 2025/2026 HS-affiliated only (complete=false: many juniors listed under clubs); junior 15-17 not collected (vector PDFs)"
+ },
+ {
+  "name": "スポニチ Plus Alpha (KGU junior results host)",
+  "url": "https://sponichi-plus-alpha.sponichi.net/",
+  "organizer_type": "results_platform",
+  "region": "関西",
+  "publishes": "関西ジュニア results PDFs",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows /contents-list/ only; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": false,
+  "reason": "PDFs render names as vector outlines; no OCR available - open issue"
+ },
+ {
+  "name": "中国ゴルフ連盟",
+  "url": "https://www.cgu.gr.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "中国",
+  "publishes": "中国ジュニア, 中国アマ/女子アマ",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows /wp-admin/ only; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "junior 15-17 2025/2026 collected; amateurs skipped (club affiliations)"
+ },
+ {
+  "name": "四国ゴルフ連盟",
+  "url": "https://www.sgu.gr.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "四国",
+  "publishes": "四国ジュニア, 四国アマ/女子アマ",
+  "years_available": [
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows /wp-admin/ only; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "junior 15-17 2026 collected; 2025 junior not found; amateurs skipped (club affiliations)"
+ },
+ {
+  "name": "九州ゴルフ連盟",
+  "url": "https://www.guk.jp/",
+  "organizer_type": "regional_golf_federation",
+  "region": "九州",
+  "publishes": "九州ジュニア, 九州アマ/女子アマ",
+  "years_available": [
+   2025,
+   2026
+  ],
+  "robots_ok": true,
+  "terms_note": "robots.txt disallows /wp-admin/ only; robots.txt checked; terms/利用規約 page not reviewed",
+  "collected": true,
+  "reason": "junior 15-17 2025/2026 collected; amateurs skipped (HS players listed as 九州沖縄高校ゴルフ連盟, no school)"
+ },
+ {
+  "name": "北海道ハイスクールゴルフ協会",
+  "url": "https://k-hga.jp/",
+  "organizer_type": "hs_federation",
+  "region": "北海道",
+  "publishes": null,
+  "years_available": null,
+  "robots_ok": null,
+  "terms_note": "consent required (per brief)",
+  "collected": false,
+  "reason": "not touched per instructions"
+ }
+]

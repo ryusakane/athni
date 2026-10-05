@@ -1,16 +1,4755 @@
 {
-  "_note": "英語表記の辞書。tournaments は id の正規表現で当てる ({year}=大会日付の年, {category}=Boys/Girls, {format}=Individual/Team)。players は氏名(空白なし)→確認済み英語表記。name_parts / schools は build 時に name_parts.json / school_names.json から読み込む。",
-  "tournaments": [
-    {"id_pattern": "^kougoren-summer-", "name_en": "{year} All-Japan High School Golf Championship ({category} {format})"},
-    {"id_pattern": "^kougoren-spring-", "name_en": "{year} All-Japan High School Golf Championship Spring Tournament ({category} {format})"},
-    {"id_pattern": "^jga-junior-", "name_en": "{year} Japan Junior Golf Championship, {category} Ages 15-17"},
-    {"id_pattern": "^kokusupo-", "name_en": "{year} National Sports Festival of Japan, Golf, Youth {category} {format}"},
-    {"id_pattern": "^kanto-kougoren-", "name_en": "{year} Kanto High School Golf Championship, Summer ({category} {format}; national qualifier)"},
-    {"id_pattern": "^chubu-kougoren-", "name_en": "{year} Chubu High School Golf Championship ({category} {format}; national qualifier)"},
-    {"id_pattern": "^chugoku-kougoren-", "name_en": "{year} Chugoku High School Golf Championship ({category} {format}; national qualifier)"},
-    {"id_pattern": "^shikoku-kougoren-summer-qualifier-", "name_en": "{year} Shikoku High School Golf Championship ({category} {format}; national qualifier)"},
-    {"id_pattern": "^shikoku-kougoren-summer-championship-", "name_en": "{year} Shikoku High School Golf Championship ({category} {format})"}
-  ],
-  "players": {},
-  "schools": {}
+ "_note": "英語表記の辞書。tournaments は id の正規表現で当てる ({year}=大会日付の年, {category}=Boys/Girls, {format}=Individual/Team)。players は氏名(空白なし)→確認済み英語表記。name_parts / schools は build 時に name_parts.json / school_names.json から読み込む。",
+ "tournaments": [
+  {
+   "id_pattern": "^kougoren-summer-",
+   "name_en": "{year} All-Japan High School Golf Championship ({category} {format})"
+  },
+  {
+   "id_pattern": "^kougoren-spring-",
+   "name_en": "{year} All-Japan High School Golf Championship Spring Tournament ({category} {format})"
+  },
+  {
+   "id_pattern": "^jga-junior-",
+   "name_en": "{year} Japan Junior Golf Championship, {category} Ages 15-17"
+  },
+  {
+   "id_pattern": "^kokusupo-",
+   "name_en": "{year} National Sports Festival of Japan, Golf, Youth {category} {format}"
+  },
+  {
+   "id_pattern": "^kanto-kougoren-",
+   "name_en": "{year} Kanto High School Golf Championship, Summer ({category} {format}; national qualifier)"
+  },
+  {
+   "id_pattern": "^chubu-kougoren-",
+   "name_en": "{year} Chubu High School Golf Championship ({category} {format}; national qualifier)"
+  },
+  {
+   "id_pattern": "^chugoku-kougoren-",
+   "name_en": "{year} Chugoku High School Golf Championship ({category} {format}; national qualifier)"
+  },
+  {
+   "id_pattern": "^shikoku-kougoren-summer-qualifier-",
+   "name_en": "{year} Shikoku High School Golf Championship ({category} {format}; national qualifier)"
+  },
+  {
+   "id_pattern": "^shikoku-kougoren-summer-championship-",
+   "name_en": "{year} Shikoku High School Golf Championship ({category} {format})"
+  },
+  {
+   "id_pattern": "^jga-japan-amateur-",
+   "name_en": "{year} Japan Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^jga-japan-womens-amateur-",
+   "name_en": "{year} Japan Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^jga-japan-open-",
+   "name_en": "{year} Japan Open Golf Championship"
+  },
+  {
+   "id_pattern": "^jga-japan-womens-open-",
+   "name_en": "{year} Japan Women's Open Golf Championship"
+  },
+  {
+   "id_pattern": "^cga-chubu-open-",
+   "name_en": "{year} Chubu Open Golf Championship"
+  },
+  {
+   "id_pattern": "^guk-kyushu-open-",
+   "name_en": "{year} Kyushu Open Golf Championship"
+  },
+  {
+   "id_pattern": "^okinawaopen-okinawa-open-",
+   "name_en": "{year} Okinawa Open Golf Championship"
+  },
+  {
+   "id_pattern": "^cga-junior-qualifier-aichi-",
+   "name_en": "{year} Chubu Junior Golf Championship, Aichi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^cga-junior-qualifier-gifu-",
+   "name_en": "{year} Chubu Junior Golf Championship, Gifu Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^cga-junior-qualifier-hokuriku-",
+   "name_en": "{year} Chubu Junior Golf Championship, Hokuriku Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^cga-junior-qualifier-mie-",
+   "name_en": "{year} Chubu Junior Golf Championship, Mie Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^cga-junior-",
+   "name_en": "{year} Chubu Junior Golf Championship ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^cgu-junior-",
+   "name_en": "{year} Chugoku Junior Golf Championship ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^guk-junior-",
+   "name_en": "{year} Kyushu Junior Golf Championship ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^sgu-junior-",
+   "name_en": "{year} Shikoku Junior Golf Championship ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^tohoku-junior-",
+   "name_en": "{year} Tohoku Junior Golf Championship ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kga-cup-junior-",
+   "name_en": "{year} KGA Cup Junior Golf Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kga-junior-",
+   "name_en": "{year} Kanto Junior Golf Championship ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kgu-amateur-",
+   "name_en": "{year} Kansai Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kgu-womens-amateur-",
+   "name_en": "{year} Kansai Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^tga-amateur-",
+   "name_en": "{year} Tohoku Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^tga-womens-amateur-",
+   "name_en": "{year} Tohoku Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kansai-kougoren-championship-",
+   "name_en": "{year} Kansai High School Golf Championship ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kansai-kougoren-fall-final-",
+   "name_en": "{year} Kansai High School Golf Championship Final ({category})"
+  },
+  {
+   "id_pattern": "^kyushu-kougoren-shinjin-",
+   "name_en": "{year} Kyushu-Okinawa High School Golf Championship, Underclassmen Tournament ({category} Individual)"
+  },
+  {
+   "id_pattern": "^tohoku-kougoren-summer-championship-",
+   "name_en": "{year} Tohoku High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-senbatsu-",
+   "name_en": "{year} Aichi Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-autumn-",
+   "name_en": "{year} Aichi Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-spring-",
+   "name_en": "{year} Aichi Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-summer-",
+   "name_en": "{year} Aichi Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-hsa-",
+   "name_en": "{year} Aichi Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-hsb-",
+   "name_en": "{year} Aichi Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-hs-",
+   "name_en": "{year} Aichi Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-junior-",
+   "name_en": "{year} Aichi Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^aichi-ga-womens-amateur-",
+   "name_en": "{year} Aichi Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^aichi-ga-amateur-",
+   "name_en": "{year} Aichi Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^aichi-ga-ladies-",
+   "name_en": "{year} Aichi Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^aichi-ga-kokusupo-selection-",
+   "name_en": "{year} Aichi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-kenmin-sports-",
+   "name_en": "{year} Aichi Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Aichi Qualifier"
+  },
+  {
+   "id_pattern": "^aichi-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Aichi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aichi-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Aichi ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Aichi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aichi-ga-hs-championship-",
+   "name_en": "{year} Aichi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-hs-sotai-",
+   "name_en": "{year} Aichi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aichi-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^aichi-ga-supokyo-junior-",
+   "name_en": "{year} Aichi Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-shinjinsen-",
+   "name_en": "{year} Aichi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-shinjin-",
+   "name_en": "{year} Aichi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-spring-",
+   "name_en": "{year} Aichi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-summer-",
+   "name_en": "{year} Aichi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-autumn-",
+   "name_en": "{year} Aichi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-championship-",
+   "name_en": "{year} Aichi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-shigaku-sotai-",
+   "name_en": "{year} Aichi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-sotai-",
+   "name_en": "{year} Aichi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aichi-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Aichi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-shinjinsen-",
+   "name_en": "{year} Aichi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-shinjin-",
+   "name_en": "{year} Aichi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-spring-",
+   "name_en": "{year} Aichi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-summer-",
+   "name_en": "{year} Aichi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-autumn-",
+   "name_en": "{year} Aichi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-championship-",
+   "name_en": "{year} Aichi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-shigaku-sotai-",
+   "name_en": "{year} Aichi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-sotai-",
+   "name_en": "{year} Aichi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aichi-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Aichi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-shinjinsen-",
+   "name_en": "{year} Aichi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-shinjin-",
+   "name_en": "{year} Aichi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-spring-",
+   "name_en": "{year} Aichi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-summer-",
+   "name_en": "{year} Aichi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-autumn-",
+   "name_en": "{year} Aichi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-championship-",
+   "name_en": "{year} Aichi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-shigaku-sotai-",
+   "name_en": "{year} Aichi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-sotai-",
+   "name_en": "{year} Aichi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aichi-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Aichi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-senbatsu-",
+   "name_en": "{year} Akita Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-autumn-",
+   "name_en": "{year} Akita Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-spring-",
+   "name_en": "{year} Akita Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-summer-",
+   "name_en": "{year} Akita Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-hsa-",
+   "name_en": "{year} Akita Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-hsb-",
+   "name_en": "{year} Akita Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-hs-",
+   "name_en": "{year} Akita Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^akita-ga-junior-",
+   "name_en": "{year} Akita Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^akita-ga-womens-amateur-",
+   "name_en": "{year} Akita Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^akita-ga-amateur-",
+   "name_en": "{year} Akita Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^akita-ga-ladies-",
+   "name_en": "{year} Akita Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^akita-ga-kokusupo-selection-",
+   "name_en": "{year} Akita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-kenmin-sports-",
+   "name_en": "{year} Akita Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Akita Qualifier"
+  },
+  {
+   "id_pattern": "^akita-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Akita Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^akita-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Akita ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Akita Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^akita-ga-hs-championship-",
+   "name_en": "{year} Akita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-hs-sotai-",
+   "name_en": "{year} Akita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^akita-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^akita-ga-supokyo-junior-",
+   "name_en": "{year} Akita Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-shinjinsen-",
+   "name_en": "{year} Akita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-shinjin-",
+   "name_en": "{year} Akita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-spring-",
+   "name_en": "{year} Akita High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-summer-",
+   "name_en": "{year} Akita High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-autumn-",
+   "name_en": "{year} Akita High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-championship-",
+   "name_en": "{year} Akita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-shigaku-sotai-",
+   "name_en": "{year} Akita Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^akita-hsgf-sotai-",
+   "name_en": "{year} Akita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^akita-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Akita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-shinjinsen-",
+   "name_en": "{year} Akita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-shinjin-",
+   "name_en": "{year} Akita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-spring-",
+   "name_en": "{year} Akita High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-summer-",
+   "name_en": "{year} Akita High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-autumn-",
+   "name_en": "{year} Akita High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-championship-",
+   "name_en": "{year} Akita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-shigaku-sotai-",
+   "name_en": "{year} Akita Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^akita-kougoren-sotai-",
+   "name_en": "{year} Akita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^akita-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Akita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-shinjinsen-",
+   "name_en": "{year} Akita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-shinjin-",
+   "name_en": "{year} Akita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-spring-",
+   "name_en": "{year} Akita High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-summer-",
+   "name_en": "{year} Akita High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-autumn-",
+   "name_en": "{year} Akita High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-championship-",
+   "name_en": "{year} Akita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-shigaku-sotai-",
+   "name_en": "{year} Akita Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^akita-kogoren-sotai-",
+   "name_en": "{year} Akita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^akita-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Akita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-senbatsu-",
+   "name_en": "{year} Aomori Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-autumn-",
+   "name_en": "{year} Aomori Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-spring-",
+   "name_en": "{year} Aomori Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-summer-",
+   "name_en": "{year} Aomori Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-hsa-",
+   "name_en": "{year} Aomori Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-hsb-",
+   "name_en": "{year} Aomori Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-hs-",
+   "name_en": "{year} Aomori Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-junior-",
+   "name_en": "{year} Aomori Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^aomori-ga-womens-amateur-",
+   "name_en": "{year} Aomori Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^aomori-ga-amateur-",
+   "name_en": "{year} Aomori Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^aomori-ga-ladies-",
+   "name_en": "{year} Aomori Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^aomori-ga-kokusupo-selection-",
+   "name_en": "{year} Aomori National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-kenmin-sports-",
+   "name_en": "{year} Aomori Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Aomori Qualifier"
+  },
+  {
+   "id_pattern": "^aomori-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Aomori Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aomori-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Aomori ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Aomori Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^aomori-ga-hs-championship-",
+   "name_en": "{year} Aomori High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-hs-sotai-",
+   "name_en": "{year} Aomori High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aomori-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^aomori-ga-supokyo-junior-",
+   "name_en": "{year} Aomori Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-shinjinsen-",
+   "name_en": "{year} Aomori High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-shinjin-",
+   "name_en": "{year} Aomori High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-spring-",
+   "name_en": "{year} Aomori High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-summer-",
+   "name_en": "{year} Aomori High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-autumn-",
+   "name_en": "{year} Aomori High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-championship-",
+   "name_en": "{year} Aomori High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-shigaku-sotai-",
+   "name_en": "{year} Aomori Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-sotai-",
+   "name_en": "{year} Aomori High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aomori-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Aomori National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-shinjinsen-",
+   "name_en": "{year} Aomori High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-shinjin-",
+   "name_en": "{year} Aomori High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-spring-",
+   "name_en": "{year} Aomori High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-summer-",
+   "name_en": "{year} Aomori High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-autumn-",
+   "name_en": "{year} Aomori High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-championship-",
+   "name_en": "{year} Aomori High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-shigaku-sotai-",
+   "name_en": "{year} Aomori Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-sotai-",
+   "name_en": "{year} Aomori High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aomori-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Aomori National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-shinjinsen-",
+   "name_en": "{year} Aomori High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-shinjin-",
+   "name_en": "{year} Aomori High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-spring-",
+   "name_en": "{year} Aomori High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-summer-",
+   "name_en": "{year} Aomori High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-autumn-",
+   "name_en": "{year} Aomori High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-championship-",
+   "name_en": "{year} Aomori High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-shigaku-sotai-",
+   "name_en": "{year} Aomori Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-sotai-",
+   "name_en": "{year} Aomori High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^aomori-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Aomori National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-senbatsu-",
+   "name_en": "{year} Fukui Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-autumn-",
+   "name_en": "{year} Fukui Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-spring-",
+   "name_en": "{year} Fukui Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-summer-",
+   "name_en": "{year} Fukui Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-hsa-",
+   "name_en": "{year} Fukui Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-hsb-",
+   "name_en": "{year} Fukui Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-hs-",
+   "name_en": "{year} Fukui Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-junior-",
+   "name_en": "{year} Fukui Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^fukui-ga-womens-amateur-",
+   "name_en": "{year} Fukui Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^fukui-ga-amateur-",
+   "name_en": "{year} Fukui Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^fukui-ga-ladies-",
+   "name_en": "{year} Fukui Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^fukui-ga-kokusupo-selection-",
+   "name_en": "{year} Fukui National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-kenmin-sports-",
+   "name_en": "{year} Fukui Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Fukui Qualifier"
+  },
+  {
+   "id_pattern": "^fukui-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Fukui Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukui-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Fukui ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Fukui Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukui-ga-hs-championship-",
+   "name_en": "{year} Fukui High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-hs-sotai-",
+   "name_en": "{year} Fukui High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukui-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^fukui-ga-supokyo-junior-",
+   "name_en": "{year} Fukui Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-shinjinsen-",
+   "name_en": "{year} Fukui High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-shinjin-",
+   "name_en": "{year} Fukui High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-spring-",
+   "name_en": "{year} Fukui High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-summer-",
+   "name_en": "{year} Fukui High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-autumn-",
+   "name_en": "{year} Fukui High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-championship-",
+   "name_en": "{year} Fukui High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-shigaku-sotai-",
+   "name_en": "{year} Fukui Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-sotai-",
+   "name_en": "{year} Fukui High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukui-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Fukui National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-shinjinsen-",
+   "name_en": "{year} Fukui High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-shinjin-",
+   "name_en": "{year} Fukui High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-spring-",
+   "name_en": "{year} Fukui High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-summer-",
+   "name_en": "{year} Fukui High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-autumn-",
+   "name_en": "{year} Fukui High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-championship-",
+   "name_en": "{year} Fukui High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-shigaku-sotai-",
+   "name_en": "{year} Fukui Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-sotai-",
+   "name_en": "{year} Fukui High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukui-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Fukui National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-shinjinsen-",
+   "name_en": "{year} Fukui High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-shinjin-",
+   "name_en": "{year} Fukui High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-spring-",
+   "name_en": "{year} Fukui High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-summer-",
+   "name_en": "{year} Fukui High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-autumn-",
+   "name_en": "{year} Fukui High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-championship-",
+   "name_en": "{year} Fukui High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-shigaku-sotai-",
+   "name_en": "{year} Fukui Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-sotai-",
+   "name_en": "{year} Fukui High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukui-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Fukui National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-senbatsu-",
+   "name_en": "{year} Gifu Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-autumn-",
+   "name_en": "{year} Gifu Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-spring-",
+   "name_en": "{year} Gifu Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-summer-",
+   "name_en": "{year} Gifu Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-hsa-",
+   "name_en": "{year} Gifu Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-hsb-",
+   "name_en": "{year} Gifu Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-hs-",
+   "name_en": "{year} Gifu Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-junior-",
+   "name_en": "{year} Gifu Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^gifu-ga-womens-amateur-",
+   "name_en": "{year} Gifu Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^gifu-ga-amateur-",
+   "name_en": "{year} Gifu Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^gifu-ga-ladies-",
+   "name_en": "{year} Gifu Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^gifu-ga-kokusupo-selection-",
+   "name_en": "{year} Gifu National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-kenmin-sports-",
+   "name_en": "{year} Gifu Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Gifu Qualifier"
+  },
+  {
+   "id_pattern": "^gifu-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Gifu Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gifu-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Gifu ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Gifu Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gifu-ga-hs-championship-",
+   "name_en": "{year} Gifu High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-hs-sotai-",
+   "name_en": "{year} Gifu High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gifu-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^gifu-ga-supokyo-junior-",
+   "name_en": "{year} Gifu Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-shinjinsen-",
+   "name_en": "{year} Gifu High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-shinjin-",
+   "name_en": "{year} Gifu High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-spring-",
+   "name_en": "{year} Gifu High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-summer-",
+   "name_en": "{year} Gifu High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-autumn-",
+   "name_en": "{year} Gifu High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-championship-",
+   "name_en": "{year} Gifu High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-shigaku-sotai-",
+   "name_en": "{year} Gifu Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-sotai-",
+   "name_en": "{year} Gifu High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gifu-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Gifu National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-shinjinsen-",
+   "name_en": "{year} Gifu High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-shinjin-",
+   "name_en": "{year} Gifu High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-spring-",
+   "name_en": "{year} Gifu High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-summer-",
+   "name_en": "{year} Gifu High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-autumn-",
+   "name_en": "{year} Gifu High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-championship-",
+   "name_en": "{year} Gifu High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-shigaku-sotai-",
+   "name_en": "{year} Gifu Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-sotai-",
+   "name_en": "{year} Gifu High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gifu-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Gifu National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-shinjinsen-",
+   "name_en": "{year} Gifu High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-shinjin-",
+   "name_en": "{year} Gifu High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-spring-",
+   "name_en": "{year} Gifu High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-summer-",
+   "name_en": "{year} Gifu High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-autumn-",
+   "name_en": "{year} Gifu High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-championship-",
+   "name_en": "{year} Gifu High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-shigaku-sotai-",
+   "name_en": "{year} Gifu Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-sotai-",
+   "name_en": "{year} Gifu High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gifu-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Gifu National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-senbatsu-",
+   "name_en": "{year} Gunma Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-autumn-",
+   "name_en": "{year} Gunma Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-spring-",
+   "name_en": "{year} Gunma Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-summer-",
+   "name_en": "{year} Gunma Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-hsa-",
+   "name_en": "{year} Gunma Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-hsb-",
+   "name_en": "{year} Gunma Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-hs-",
+   "name_en": "{year} Gunma Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-junior-",
+   "name_en": "{year} Gunma Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^gunma-ga-womens-amateur-",
+   "name_en": "{year} Gunma Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^gunma-ga-amateur-",
+   "name_en": "{year} Gunma Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^gunma-ga-ladies-",
+   "name_en": "{year} Gunma Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^gunma-ga-kokusupo-selection-",
+   "name_en": "{year} Gunma National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-kenmin-sports-",
+   "name_en": "{year} Gunma Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Gunma Qualifier"
+  },
+  {
+   "id_pattern": "^gunma-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Gunma Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gunma-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Gunma ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Gunma Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^gunma-ga-hs-championship-",
+   "name_en": "{year} Gunma High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-hs-sotai-",
+   "name_en": "{year} Gunma High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gunma-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^gunma-ga-supokyo-junior-",
+   "name_en": "{year} Gunma Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-shinjinsen-",
+   "name_en": "{year} Gunma High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-shinjin-",
+   "name_en": "{year} Gunma High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-spring-",
+   "name_en": "{year} Gunma High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-summer-",
+   "name_en": "{year} Gunma High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-autumn-",
+   "name_en": "{year} Gunma High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-championship-",
+   "name_en": "{year} Gunma High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-shigaku-sotai-",
+   "name_en": "{year} Gunma Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-sotai-",
+   "name_en": "{year} Gunma High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gunma-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Gunma National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-shinjinsen-",
+   "name_en": "{year} Gunma High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-shinjin-",
+   "name_en": "{year} Gunma High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-spring-",
+   "name_en": "{year} Gunma High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-summer-",
+   "name_en": "{year} Gunma High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-autumn-",
+   "name_en": "{year} Gunma High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-championship-",
+   "name_en": "{year} Gunma High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-shigaku-sotai-",
+   "name_en": "{year} Gunma Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-sotai-",
+   "name_en": "{year} Gunma High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gunma-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Gunma National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-shinjinsen-",
+   "name_en": "{year} Gunma High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-shinjin-",
+   "name_en": "{year} Gunma High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-spring-",
+   "name_en": "{year} Gunma High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-summer-",
+   "name_en": "{year} Gunma High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-autumn-",
+   "name_en": "{year} Gunma High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-championship-",
+   "name_en": "{year} Gunma High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-shigaku-sotai-",
+   "name_en": "{year} Gunma Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-sotai-",
+   "name_en": "{year} Gunma High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^gunma-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Gunma National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-senbatsu-",
+   "name_en": "{year} Ishikawa Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-autumn-",
+   "name_en": "{year} Ishikawa Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-spring-",
+   "name_en": "{year} Ishikawa Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-summer-",
+   "name_en": "{year} Ishikawa Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-hsa-",
+   "name_en": "{year} Ishikawa Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-hsb-",
+   "name_en": "{year} Ishikawa Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-hs-",
+   "name_en": "{year} Ishikawa Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-junior-",
+   "name_en": "{year} Ishikawa Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-womens-amateur-",
+   "name_en": "{year} Ishikawa Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-amateur-",
+   "name_en": "{year} Ishikawa Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-ladies-",
+   "name_en": "{year} Ishikawa Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-kokusupo-selection-",
+   "name_en": "{year} Ishikawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-kenmin-sports-",
+   "name_en": "{year} Ishikawa Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Ishikawa Qualifier"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Ishikawa Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Ishikawa ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Ishikawa Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-hs-championship-",
+   "name_en": "{year} Ishikawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-hs-sotai-",
+   "name_en": "{year} Ishikawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-ga-supokyo-junior-",
+   "name_en": "{year} Ishikawa Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-shinjinsen-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-shinjin-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-spring-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-summer-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-autumn-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-championship-",
+   "name_en": "{year} Ishikawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-shigaku-sotai-",
+   "name_en": "{year} Ishikawa Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-sotai-",
+   "name_en": "{year} Ishikawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ishikawa-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Ishikawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-shinjinsen-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-shinjin-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-spring-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-summer-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-autumn-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-championship-",
+   "name_en": "{year} Ishikawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-shigaku-sotai-",
+   "name_en": "{year} Ishikawa Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-sotai-",
+   "name_en": "{year} Ishikawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ishikawa-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Ishikawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-shinjinsen-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-shinjin-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-spring-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-summer-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-autumn-",
+   "name_en": "{year} Ishikawa High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-championship-",
+   "name_en": "{year} Ishikawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-shigaku-sotai-",
+   "name_en": "{year} Ishikawa Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-sotai-",
+   "name_en": "{year} Ishikawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ishikawa-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Ishikawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-senbatsu-",
+   "name_en": "{year} Miyagi Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-autumn-",
+   "name_en": "{year} Miyagi Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-spring-",
+   "name_en": "{year} Miyagi Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-summer-",
+   "name_en": "{year} Miyagi Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-hsa-",
+   "name_en": "{year} Miyagi Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-hsb-",
+   "name_en": "{year} Miyagi Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-hs-",
+   "name_en": "{year} Miyagi Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-junior-",
+   "name_en": "{year} Miyagi Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-womens-amateur-",
+   "name_en": "{year} Miyagi Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^miyagi-ga-amateur-",
+   "name_en": "{year} Miyagi Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^miyagi-ga-ladies-",
+   "name_en": "{year} Miyagi Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^miyagi-ga-kokusupo-selection-",
+   "name_en": "{year} Miyagi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-kenmin-sports-",
+   "name_en": "{year} Miyagi Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Miyagi Qualifier"
+  },
+  {
+   "id_pattern": "^miyagi-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Miyagi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Miyagi ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Miyagi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-hs-championship-",
+   "name_en": "{year} Miyagi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-hs-sotai-",
+   "name_en": "{year} Miyagi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^miyagi-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-ga-supokyo-junior-",
+   "name_en": "{year} Miyagi Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-shinjinsen-",
+   "name_en": "{year} Miyagi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-shinjin-",
+   "name_en": "{year} Miyagi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-spring-",
+   "name_en": "{year} Miyagi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-summer-",
+   "name_en": "{year} Miyagi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-autumn-",
+   "name_en": "{year} Miyagi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-championship-",
+   "name_en": "{year} Miyagi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-shigaku-sotai-",
+   "name_en": "{year} Miyagi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-sotai-",
+   "name_en": "{year} Miyagi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^miyagi-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Miyagi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-shinjinsen-",
+   "name_en": "{year} Miyagi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-shinjin-",
+   "name_en": "{year} Miyagi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-spring-",
+   "name_en": "{year} Miyagi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-summer-",
+   "name_en": "{year} Miyagi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-autumn-",
+   "name_en": "{year} Miyagi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-championship-",
+   "name_en": "{year} Miyagi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-shigaku-sotai-",
+   "name_en": "{year} Miyagi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-sotai-",
+   "name_en": "{year} Miyagi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^miyagi-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Miyagi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-shinjinsen-",
+   "name_en": "{year} Miyagi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-shinjin-",
+   "name_en": "{year} Miyagi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-spring-",
+   "name_en": "{year} Miyagi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-summer-",
+   "name_en": "{year} Miyagi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-autumn-",
+   "name_en": "{year} Miyagi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-championship-",
+   "name_en": "{year} Miyagi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-shigaku-sotai-",
+   "name_en": "{year} Miyagi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-sotai-",
+   "name_en": "{year} Miyagi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^miyagi-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Miyagi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-senbatsu-",
+   "name_en": "{year} Nagano Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-autumn-",
+   "name_en": "{year} Nagano Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-spring-",
+   "name_en": "{year} Nagano Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-summer-",
+   "name_en": "{year} Nagano Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-hsa-",
+   "name_en": "{year} Nagano Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-hsb-",
+   "name_en": "{year} Nagano Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-hs-",
+   "name_en": "{year} Nagano Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-junior-",
+   "name_en": "{year} Nagano Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^nagano-ga-womens-amateur-",
+   "name_en": "{year} Nagano Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^nagano-ga-amateur-",
+   "name_en": "{year} Nagano Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^nagano-ga-ladies-",
+   "name_en": "{year} Nagano Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^nagano-ga-kokusupo-selection-",
+   "name_en": "{year} Nagano National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-kenmin-sports-",
+   "name_en": "{year} Nagano Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Nagano Qualifier"
+  },
+  {
+   "id_pattern": "^nagano-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Nagano Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^nagano-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Nagano ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Nagano Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^nagano-ga-hs-championship-",
+   "name_en": "{year} Nagano High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-hs-sotai-",
+   "name_en": "{year} Nagano High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^nagano-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^nagano-ga-supokyo-junior-",
+   "name_en": "{year} Nagano Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-shinjinsen-",
+   "name_en": "{year} Nagano High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-shinjin-",
+   "name_en": "{year} Nagano High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-spring-",
+   "name_en": "{year} Nagano High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-summer-",
+   "name_en": "{year} Nagano High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-autumn-",
+   "name_en": "{year} Nagano High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-championship-",
+   "name_en": "{year} Nagano High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-shigaku-sotai-",
+   "name_en": "{year} Nagano Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-sotai-",
+   "name_en": "{year} Nagano High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^nagano-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Nagano National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-shinjinsen-",
+   "name_en": "{year} Nagano High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-shinjin-",
+   "name_en": "{year} Nagano High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-spring-",
+   "name_en": "{year} Nagano High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-summer-",
+   "name_en": "{year} Nagano High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-autumn-",
+   "name_en": "{year} Nagano High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-championship-",
+   "name_en": "{year} Nagano High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-shigaku-sotai-",
+   "name_en": "{year} Nagano Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-sotai-",
+   "name_en": "{year} Nagano High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^nagano-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Nagano National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-shinjinsen-",
+   "name_en": "{year} Nagano High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-shinjin-",
+   "name_en": "{year} Nagano High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-spring-",
+   "name_en": "{year} Nagano High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-summer-",
+   "name_en": "{year} Nagano High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-autumn-",
+   "name_en": "{year} Nagano High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-championship-",
+   "name_en": "{year} Nagano High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-shigaku-sotai-",
+   "name_en": "{year} Nagano Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-sotai-",
+   "name_en": "{year} Nagano High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^nagano-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Nagano National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-senbatsu-",
+   "name_en": "{year} Niigata Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-autumn-",
+   "name_en": "{year} Niigata Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-spring-",
+   "name_en": "{year} Niigata Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-summer-",
+   "name_en": "{year} Niigata Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-hsa-",
+   "name_en": "{year} Niigata Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-hsb-",
+   "name_en": "{year} Niigata Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-hs-",
+   "name_en": "{year} Niigata Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-junior-",
+   "name_en": "{year} Niigata Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^niigata-ga-womens-amateur-",
+   "name_en": "{year} Niigata Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^niigata-ga-amateur-",
+   "name_en": "{year} Niigata Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^niigata-ga-ladies-",
+   "name_en": "{year} Niigata Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^niigata-ga-kokusupo-selection-",
+   "name_en": "{year} Niigata National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-kenmin-sports-",
+   "name_en": "{year} Niigata Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Niigata Qualifier"
+  },
+  {
+   "id_pattern": "^niigata-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Niigata Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^niigata-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Niigata ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Niigata Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^niigata-ga-hs-championship-",
+   "name_en": "{year} Niigata High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-hs-sotai-",
+   "name_en": "{year} Niigata High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^niigata-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^niigata-ga-supokyo-junior-",
+   "name_en": "{year} Niigata Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-shinjinsen-",
+   "name_en": "{year} Niigata High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-shinjin-",
+   "name_en": "{year} Niigata High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-spring-",
+   "name_en": "{year} Niigata High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-summer-",
+   "name_en": "{year} Niigata High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-autumn-",
+   "name_en": "{year} Niigata High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-championship-",
+   "name_en": "{year} Niigata High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-shigaku-sotai-",
+   "name_en": "{year} Niigata Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-sotai-",
+   "name_en": "{year} Niigata High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^niigata-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Niigata National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-shinjinsen-",
+   "name_en": "{year} Niigata High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-shinjin-",
+   "name_en": "{year} Niigata High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-spring-",
+   "name_en": "{year} Niigata High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-summer-",
+   "name_en": "{year} Niigata High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-autumn-",
+   "name_en": "{year} Niigata High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-championship-",
+   "name_en": "{year} Niigata High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-shigaku-sotai-",
+   "name_en": "{year} Niigata Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-sotai-",
+   "name_en": "{year} Niigata High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^niigata-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Niigata National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-shinjinsen-",
+   "name_en": "{year} Niigata High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-shinjin-",
+   "name_en": "{year} Niigata High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-spring-",
+   "name_en": "{year} Niigata High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-summer-",
+   "name_en": "{year} Niigata High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-autumn-",
+   "name_en": "{year} Niigata High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-championship-",
+   "name_en": "{year} Niigata High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-shigaku-sotai-",
+   "name_en": "{year} Niigata Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-sotai-",
+   "name_en": "{year} Niigata High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^niigata-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Niigata National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-senbatsu-",
+   "name_en": "{year} Shizuoka Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-autumn-",
+   "name_en": "{year} Shizuoka Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-spring-",
+   "name_en": "{year} Shizuoka Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-summer-",
+   "name_en": "{year} Shizuoka Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-hsa-",
+   "name_en": "{year} Shizuoka Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-hsb-",
+   "name_en": "{year} Shizuoka Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-hs-",
+   "name_en": "{year} Shizuoka Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-junior-",
+   "name_en": "{year} Shizuoka Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-womens-amateur-",
+   "name_en": "{year} Shizuoka Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-amateur-",
+   "name_en": "{year} Shizuoka Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-ladies-",
+   "name_en": "{year} Shizuoka Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-kokusupo-selection-",
+   "name_en": "{year} Shizuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-kenmin-sports-",
+   "name_en": "{year} Shizuoka Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Shizuoka Qualifier"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Shizuoka Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Shizuoka ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Shizuoka Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-hs-championship-",
+   "name_en": "{year} Shizuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-hs-sotai-",
+   "name_en": "{year} Shizuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-ga-supokyo-junior-",
+   "name_en": "{year} Shizuoka Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-shinjinsen-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-shinjin-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-spring-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-summer-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-autumn-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-championship-",
+   "name_en": "{year} Shizuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-shigaku-sotai-",
+   "name_en": "{year} Shizuoka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-sotai-",
+   "name_en": "{year} Shizuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^shizuoka-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Shizuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-shinjinsen-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-shinjin-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-spring-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-summer-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-autumn-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-championship-",
+   "name_en": "{year} Shizuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-shigaku-sotai-",
+   "name_en": "{year} Shizuoka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-sotai-",
+   "name_en": "{year} Shizuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^shizuoka-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Shizuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-shinjinsen-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-shinjin-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-spring-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-summer-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-autumn-",
+   "name_en": "{year} Shizuoka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-championship-",
+   "name_en": "{year} Shizuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-shigaku-sotai-",
+   "name_en": "{year} Shizuoka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-sotai-",
+   "name_en": "{year} Shizuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^shizuoka-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Shizuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-senbatsu-",
+   "name_en": "{year} Tochigi Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-autumn-",
+   "name_en": "{year} Tochigi Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-spring-",
+   "name_en": "{year} Tochigi Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-summer-",
+   "name_en": "{year} Tochigi Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-hsa-",
+   "name_en": "{year} Tochigi Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-hsb-",
+   "name_en": "{year} Tochigi Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-hs-",
+   "name_en": "{year} Tochigi Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-junior-",
+   "name_en": "{year} Tochigi Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-womens-amateur-",
+   "name_en": "{year} Tochigi Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^tochigi-ga-amateur-",
+   "name_en": "{year} Tochigi Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^tochigi-ga-ladies-",
+   "name_en": "{year} Tochigi Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^tochigi-ga-kokusupo-selection-",
+   "name_en": "{year} Tochigi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-kenmin-sports-",
+   "name_en": "{year} Tochigi Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Tochigi Qualifier"
+  },
+  {
+   "id_pattern": "^tochigi-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Tochigi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Tochigi ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Tochigi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-hs-championship-",
+   "name_en": "{year} Tochigi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-hs-sotai-",
+   "name_en": "{year} Tochigi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^tochigi-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-ga-supokyo-junior-",
+   "name_en": "{year} Tochigi Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-shinjinsen-",
+   "name_en": "{year} Tochigi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-shinjin-",
+   "name_en": "{year} Tochigi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-spring-",
+   "name_en": "{year} Tochigi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-summer-",
+   "name_en": "{year} Tochigi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-autumn-",
+   "name_en": "{year} Tochigi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-championship-",
+   "name_en": "{year} Tochigi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-shigaku-sotai-",
+   "name_en": "{year} Tochigi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-sotai-",
+   "name_en": "{year} Tochigi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^tochigi-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Tochigi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-shinjinsen-",
+   "name_en": "{year} Tochigi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-shinjin-",
+   "name_en": "{year} Tochigi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-spring-",
+   "name_en": "{year} Tochigi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-summer-",
+   "name_en": "{year} Tochigi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-autumn-",
+   "name_en": "{year} Tochigi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-championship-",
+   "name_en": "{year} Tochigi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-shigaku-sotai-",
+   "name_en": "{year} Tochigi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-sotai-",
+   "name_en": "{year} Tochigi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^tochigi-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Tochigi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-shinjinsen-",
+   "name_en": "{year} Tochigi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-shinjin-",
+   "name_en": "{year} Tochigi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-spring-",
+   "name_en": "{year} Tochigi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-summer-",
+   "name_en": "{year} Tochigi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-autumn-",
+   "name_en": "{year} Tochigi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-championship-",
+   "name_en": "{year} Tochigi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-shigaku-sotai-",
+   "name_en": "{year} Tochigi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-sotai-",
+   "name_en": "{year} Tochigi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^tochigi-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Tochigi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-senbatsu-",
+   "name_en": "{year} Ehime Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-autumn-",
+   "name_en": "{year} Ehime Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-spring-",
+   "name_en": "{year} Ehime Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-summer-",
+   "name_en": "{year} Ehime Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-hsa-",
+   "name_en": "{year} Ehime Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-hsb-",
+   "name_en": "{year} Ehime Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-hs-",
+   "name_en": "{year} Ehime Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-junior-",
+   "name_en": "{year} Ehime Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^ehime-ga-womens-amateur-",
+   "name_en": "{year} Ehime Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^ehime-ga-amateur-",
+   "name_en": "{year} Ehime Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^ehime-ga-ladies-",
+   "name_en": "{year} Ehime Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^ehime-ga-kokusupo-selection-",
+   "name_en": "{year} Ehime National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-kenmin-sports-",
+   "name_en": "{year} Ehime Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Ehime Qualifier"
+  },
+  {
+   "id_pattern": "^ehime-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Ehime Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ehime-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Ehime ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Ehime Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^ehime-ga-hs-championship-",
+   "name_en": "{year} Ehime High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-hs-sotai-",
+   "name_en": "{year} Ehime High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ehime-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^ehime-ga-supokyo-junior-",
+   "name_en": "{year} Ehime Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-shinjinsen-",
+   "name_en": "{year} Ehime High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-shinjin-",
+   "name_en": "{year} Ehime High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-spring-",
+   "name_en": "{year} Ehime High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-summer-",
+   "name_en": "{year} Ehime High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-autumn-",
+   "name_en": "{year} Ehime High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-championship-",
+   "name_en": "{year} Ehime High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-shigaku-sotai-",
+   "name_en": "{year} Ehime Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-sotai-",
+   "name_en": "{year} Ehime High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ehime-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Ehime National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-shinjinsen-",
+   "name_en": "{year} Ehime High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-shinjin-",
+   "name_en": "{year} Ehime High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-spring-",
+   "name_en": "{year} Ehime High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-summer-",
+   "name_en": "{year} Ehime High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-autumn-",
+   "name_en": "{year} Ehime High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-championship-",
+   "name_en": "{year} Ehime High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-shigaku-sotai-",
+   "name_en": "{year} Ehime Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-sotai-",
+   "name_en": "{year} Ehime High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ehime-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Ehime National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-shinjinsen-",
+   "name_en": "{year} Ehime High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-shinjin-",
+   "name_en": "{year} Ehime High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-spring-",
+   "name_en": "{year} Ehime High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-summer-",
+   "name_en": "{year} Ehime High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-autumn-",
+   "name_en": "{year} Ehime High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-championship-",
+   "name_en": "{year} Ehime High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-shigaku-sotai-",
+   "name_en": "{year} Ehime Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-sotai-",
+   "name_en": "{year} Ehime High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^ehime-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Ehime National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-senbatsu-",
+   "name_en": "{year} Fukuoka Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-autumn-",
+   "name_en": "{year} Fukuoka Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-spring-",
+   "name_en": "{year} Fukuoka Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-summer-",
+   "name_en": "{year} Fukuoka Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-hsa-",
+   "name_en": "{year} Fukuoka Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-hsb-",
+   "name_en": "{year} Fukuoka Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-hs-",
+   "name_en": "{year} Fukuoka Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-junior-",
+   "name_en": "{year} Fukuoka Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-womens-amateur-",
+   "name_en": "{year} Fukuoka Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-amateur-",
+   "name_en": "{year} Fukuoka Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-ladies-",
+   "name_en": "{year} Fukuoka Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-kokusupo-selection-",
+   "name_en": "{year} Fukuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-kenmin-sports-",
+   "name_en": "{year} Fukuoka Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Fukuoka Qualifier"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Fukuoka Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Fukuoka ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Fukuoka Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-hs-championship-",
+   "name_en": "{year} Fukuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-hs-sotai-",
+   "name_en": "{year} Fukuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-ga-supokyo-junior-",
+   "name_en": "{year} Fukuoka Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-shinjinsen-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-shinjin-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-spring-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-summer-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-autumn-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-championship-",
+   "name_en": "{year} Fukuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-shigaku-sotai-",
+   "name_en": "{year} Fukuoka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-sotai-",
+   "name_en": "{year} Fukuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukuoka-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Fukuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-shinjinsen-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-shinjin-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-spring-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-summer-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-autumn-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-championship-",
+   "name_en": "{year} Fukuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-shigaku-sotai-",
+   "name_en": "{year} Fukuoka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-sotai-",
+   "name_en": "{year} Fukuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukuoka-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Fukuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-shinjinsen-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-shinjin-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-spring-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-summer-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-autumn-",
+   "name_en": "{year} Fukuoka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-championship-",
+   "name_en": "{year} Fukuoka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-shigaku-sotai-",
+   "name_en": "{year} Fukuoka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-sotai-",
+   "name_en": "{year} Fukuoka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^fukuoka-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Fukuoka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-senbatsu-",
+   "name_en": "{year} Hiroshima Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-autumn-",
+   "name_en": "{year} Hiroshima Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-spring-",
+   "name_en": "{year} Hiroshima Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-summer-",
+   "name_en": "{year} Hiroshima Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-hsa-",
+   "name_en": "{year} Hiroshima Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-hsb-",
+   "name_en": "{year} Hiroshima Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-hs-",
+   "name_en": "{year} Hiroshima Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-junior-",
+   "name_en": "{year} Hiroshima Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-womens-amateur-",
+   "name_en": "{year} Hiroshima Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-amateur-",
+   "name_en": "{year} Hiroshima Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-ladies-",
+   "name_en": "{year} Hiroshima Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-kokusupo-selection-",
+   "name_en": "{year} Hiroshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-kenmin-sports-",
+   "name_en": "{year} Hiroshima Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Hiroshima Qualifier"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Hiroshima Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Hiroshima ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Hiroshima Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-hs-championship-",
+   "name_en": "{year} Hiroshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-hs-sotai-",
+   "name_en": "{year} Hiroshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-ga-supokyo-junior-",
+   "name_en": "{year} Hiroshima Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-shinjinsen-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-shinjin-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-spring-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-summer-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-autumn-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-championship-",
+   "name_en": "{year} Hiroshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-shigaku-sotai-",
+   "name_en": "{year} Hiroshima Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-sotai-",
+   "name_en": "{year} Hiroshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^hiroshima-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Hiroshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-shinjinsen-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-shinjin-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-spring-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-summer-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-autumn-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-championship-",
+   "name_en": "{year} Hiroshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-shigaku-sotai-",
+   "name_en": "{year} Hiroshima Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-sotai-",
+   "name_en": "{year} Hiroshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^hiroshima-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Hiroshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-shinjinsen-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-shinjin-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-spring-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-summer-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-autumn-",
+   "name_en": "{year} Hiroshima High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-championship-",
+   "name_en": "{year} Hiroshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-shigaku-sotai-",
+   "name_en": "{year} Hiroshima Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-sotai-",
+   "name_en": "{year} Hiroshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^hiroshima-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Hiroshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-senbatsu-",
+   "name_en": "{year} Kagawa Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-autumn-",
+   "name_en": "{year} Kagawa Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-spring-",
+   "name_en": "{year} Kagawa Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-summer-",
+   "name_en": "{year} Kagawa Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-hsa-",
+   "name_en": "{year} Kagawa Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-hsb-",
+   "name_en": "{year} Kagawa Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-hs-",
+   "name_en": "{year} Kagawa Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-junior-",
+   "name_en": "{year} Kagawa Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-womens-amateur-",
+   "name_en": "{year} Kagawa Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kagawa-ga-amateur-",
+   "name_en": "{year} Kagawa Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kagawa-ga-ladies-",
+   "name_en": "{year} Kagawa Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^kagawa-ga-kokusupo-selection-",
+   "name_en": "{year} Kagawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-kenmin-sports-",
+   "name_en": "{year} Kagawa Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Kagawa Qualifier"
+  },
+  {
+   "id_pattern": "^kagawa-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Kagawa Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Kagawa ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Kagawa Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-hs-championship-",
+   "name_en": "{year} Kagawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-hs-sotai-",
+   "name_en": "{year} Kagawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagawa-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-ga-supokyo-junior-",
+   "name_en": "{year} Kagawa Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-shinjinsen-",
+   "name_en": "{year} Kagawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-shinjin-",
+   "name_en": "{year} Kagawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-spring-",
+   "name_en": "{year} Kagawa High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-summer-",
+   "name_en": "{year} Kagawa High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-autumn-",
+   "name_en": "{year} Kagawa High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-championship-",
+   "name_en": "{year} Kagawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-shigaku-sotai-",
+   "name_en": "{year} Kagawa Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-sotai-",
+   "name_en": "{year} Kagawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagawa-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Kagawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-shinjinsen-",
+   "name_en": "{year} Kagawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-shinjin-",
+   "name_en": "{year} Kagawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-spring-",
+   "name_en": "{year} Kagawa High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-summer-",
+   "name_en": "{year} Kagawa High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-autumn-",
+   "name_en": "{year} Kagawa High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-championship-",
+   "name_en": "{year} Kagawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-shigaku-sotai-",
+   "name_en": "{year} Kagawa Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-sotai-",
+   "name_en": "{year} Kagawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagawa-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kagawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-shinjinsen-",
+   "name_en": "{year} Kagawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-shinjin-",
+   "name_en": "{year} Kagawa High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-spring-",
+   "name_en": "{year} Kagawa High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-summer-",
+   "name_en": "{year} Kagawa High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-autumn-",
+   "name_en": "{year} Kagawa High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-championship-",
+   "name_en": "{year} Kagawa High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-shigaku-sotai-",
+   "name_en": "{year} Kagawa Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-sotai-",
+   "name_en": "{year} Kagawa High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagawa-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kagawa National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-senbatsu-",
+   "name_en": "{year} Kagoshima Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-autumn-",
+   "name_en": "{year} Kagoshima Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-spring-",
+   "name_en": "{year} Kagoshima Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-summer-",
+   "name_en": "{year} Kagoshima Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-hsa-",
+   "name_en": "{year} Kagoshima Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-hsb-",
+   "name_en": "{year} Kagoshima Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-hs-",
+   "name_en": "{year} Kagoshima Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-junior-",
+   "name_en": "{year} Kagoshima Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-womens-amateur-",
+   "name_en": "{year} Kagoshima Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-amateur-",
+   "name_en": "{year} Kagoshima Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-ladies-",
+   "name_en": "{year} Kagoshima Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-kokusupo-selection-",
+   "name_en": "{year} Kagoshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-kenmin-sports-",
+   "name_en": "{year} Kagoshima Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Kagoshima Qualifier"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Kagoshima Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Kagoshima ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Kagoshima Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-hs-championship-",
+   "name_en": "{year} Kagoshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-hs-sotai-",
+   "name_en": "{year} Kagoshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-ga-supokyo-junior-",
+   "name_en": "{year} Kagoshima Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-shinjinsen-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-shinjin-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-spring-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-summer-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-autumn-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-championship-",
+   "name_en": "{year} Kagoshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-shigaku-sotai-",
+   "name_en": "{year} Kagoshima Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-sotai-",
+   "name_en": "{year} Kagoshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagoshima-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Kagoshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-shinjinsen-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-shinjin-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-spring-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-summer-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-autumn-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-championship-",
+   "name_en": "{year} Kagoshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-shigaku-sotai-",
+   "name_en": "{year} Kagoshima Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-sotai-",
+   "name_en": "{year} Kagoshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagoshima-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kagoshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-shinjinsen-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-shinjin-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-spring-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-summer-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-autumn-",
+   "name_en": "{year} Kagoshima High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-championship-",
+   "name_en": "{year} Kagoshima High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-shigaku-sotai-",
+   "name_en": "{year} Kagoshima Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-sotai-",
+   "name_en": "{year} Kagoshima High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kagoshima-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kagoshima National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-senbatsu-",
+   "name_en": "{year} Kumamoto Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-autumn-",
+   "name_en": "{year} Kumamoto Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-spring-",
+   "name_en": "{year} Kumamoto Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-summer-",
+   "name_en": "{year} Kumamoto Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-hsa-",
+   "name_en": "{year} Kumamoto Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-hsb-",
+   "name_en": "{year} Kumamoto Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-hs-",
+   "name_en": "{year} Kumamoto Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-junior-",
+   "name_en": "{year} Kumamoto Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-womens-amateur-",
+   "name_en": "{year} Kumamoto Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-amateur-",
+   "name_en": "{year} Kumamoto Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-ladies-",
+   "name_en": "{year} Kumamoto Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-kokusupo-selection-",
+   "name_en": "{year} Kumamoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-kenmin-sports-",
+   "name_en": "{year} Kumamoto Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Kumamoto Qualifier"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Kumamoto Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Kumamoto ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Kumamoto Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-hs-championship-",
+   "name_en": "{year} Kumamoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-hs-sotai-",
+   "name_en": "{year} Kumamoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-ga-supokyo-junior-",
+   "name_en": "{year} Kumamoto Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-shinjinsen-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-shinjin-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-spring-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-summer-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-autumn-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-championship-",
+   "name_en": "{year} Kumamoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-shigaku-sotai-",
+   "name_en": "{year} Kumamoto Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-sotai-",
+   "name_en": "{year} Kumamoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kumamoto-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Kumamoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-shinjinsen-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-shinjin-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-spring-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-summer-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-autumn-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-championship-",
+   "name_en": "{year} Kumamoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-shigaku-sotai-",
+   "name_en": "{year} Kumamoto Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-sotai-",
+   "name_en": "{year} Kumamoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kumamoto-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kumamoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-shinjinsen-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-shinjin-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-spring-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-summer-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-autumn-",
+   "name_en": "{year} Kumamoto High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-championship-",
+   "name_en": "{year} Kumamoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-shigaku-sotai-",
+   "name_en": "{year} Kumamoto Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-sotai-",
+   "name_en": "{year} Kumamoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kumamoto-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kumamoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-senbatsu-",
+   "name_en": "{year} Kyoto Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-autumn-",
+   "name_en": "{year} Kyoto Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-spring-",
+   "name_en": "{year} Kyoto Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-summer-",
+   "name_en": "{year} Kyoto Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-hsa-",
+   "name_en": "{year} Kyoto Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-hsb-",
+   "name_en": "{year} Kyoto Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-hs-",
+   "name_en": "{year} Kyoto Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-junior-",
+   "name_en": "{year} Kyoto Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-womens-amateur-",
+   "name_en": "{year} Kyoto Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kyoto-ga-amateur-",
+   "name_en": "{year} Kyoto Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^kyoto-ga-ladies-",
+   "name_en": "{year} Kyoto Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^kyoto-ga-kokusupo-selection-",
+   "name_en": "{year} Kyoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-kenmin-sports-",
+   "name_en": "{year} Kyoto Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Kyoto Qualifier"
+  },
+  {
+   "id_pattern": "^kyoto-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Kyoto Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Kyoto ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Kyoto Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-hs-championship-",
+   "name_en": "{year} Kyoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-hs-sotai-",
+   "name_en": "{year} Kyoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kyoto-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-ga-supokyo-junior-",
+   "name_en": "{year} Kyoto Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-shinjinsen-",
+   "name_en": "{year} Kyoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-shinjin-",
+   "name_en": "{year} Kyoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-spring-",
+   "name_en": "{year} Kyoto High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-summer-",
+   "name_en": "{year} Kyoto High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-autumn-",
+   "name_en": "{year} Kyoto High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-championship-",
+   "name_en": "{year} Kyoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-shigaku-sotai-",
+   "name_en": "{year} Kyoto Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-sotai-",
+   "name_en": "{year} Kyoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kyoto-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Kyoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-shinjinsen-",
+   "name_en": "{year} Kyoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-shinjin-",
+   "name_en": "{year} Kyoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-spring-",
+   "name_en": "{year} Kyoto High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-summer-",
+   "name_en": "{year} Kyoto High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-autumn-",
+   "name_en": "{year} Kyoto High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-championship-",
+   "name_en": "{year} Kyoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-shigaku-sotai-",
+   "name_en": "{year} Kyoto Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-sotai-",
+   "name_en": "{year} Kyoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kyoto-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kyoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-shinjinsen-",
+   "name_en": "{year} Kyoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-shinjin-",
+   "name_en": "{year} Kyoto High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-spring-",
+   "name_en": "{year} Kyoto High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-summer-",
+   "name_en": "{year} Kyoto High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-autumn-",
+   "name_en": "{year} Kyoto High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-championship-",
+   "name_en": "{year} Kyoto High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-shigaku-sotai-",
+   "name_en": "{year} Kyoto Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-sotai-",
+   "name_en": "{year} Kyoto High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^kyoto-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Kyoto National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-senbatsu-",
+   "name_en": "{year} Mie Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-autumn-",
+   "name_en": "{year} Mie Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-spring-",
+   "name_en": "{year} Mie Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-summer-",
+   "name_en": "{year} Mie Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-hsa-",
+   "name_en": "{year} Mie Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-hsb-",
+   "name_en": "{year} Mie Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-hs-",
+   "name_en": "{year} Mie Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^mie-ga-junior-",
+   "name_en": "{year} Mie Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^mie-ga-womens-amateur-",
+   "name_en": "{year} Mie Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^mie-ga-amateur-",
+   "name_en": "{year} Mie Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^mie-ga-ladies-",
+   "name_en": "{year} Mie Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^mie-ga-kokusupo-selection-",
+   "name_en": "{year} Mie National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-kenmin-sports-",
+   "name_en": "{year} Mie Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Mie Qualifier"
+  },
+  {
+   "id_pattern": "^mie-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Mie Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^mie-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Mie ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Mie Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^mie-ga-hs-championship-",
+   "name_en": "{year} Mie High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-hs-sotai-",
+   "name_en": "{year} Mie High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^mie-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^mie-ga-supokyo-junior-",
+   "name_en": "{year} Mie Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-shinjinsen-",
+   "name_en": "{year} Mie High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-shinjin-",
+   "name_en": "{year} Mie High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-spring-",
+   "name_en": "{year} Mie High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-summer-",
+   "name_en": "{year} Mie High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-autumn-",
+   "name_en": "{year} Mie High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-championship-",
+   "name_en": "{year} Mie High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-shigaku-sotai-",
+   "name_en": "{year} Mie Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^mie-hsgf-sotai-",
+   "name_en": "{year} Mie High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^mie-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Mie National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-shinjinsen-",
+   "name_en": "{year} Mie High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-shinjin-",
+   "name_en": "{year} Mie High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-spring-",
+   "name_en": "{year} Mie High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-summer-",
+   "name_en": "{year} Mie High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-autumn-",
+   "name_en": "{year} Mie High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-championship-",
+   "name_en": "{year} Mie High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-shigaku-sotai-",
+   "name_en": "{year} Mie Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^mie-kougoren-sotai-",
+   "name_en": "{year} Mie High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^mie-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Mie National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-shinjinsen-",
+   "name_en": "{year} Mie High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-shinjin-",
+   "name_en": "{year} Mie High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-spring-",
+   "name_en": "{year} Mie High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-summer-",
+   "name_en": "{year} Mie High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-autumn-",
+   "name_en": "{year} Mie High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-championship-",
+   "name_en": "{year} Mie High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-shigaku-sotai-",
+   "name_en": "{year} Mie Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^mie-kogoren-sotai-",
+   "name_en": "{year} Mie High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^mie-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Mie National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-senbatsu-",
+   "name_en": "{year} Oita Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-autumn-",
+   "name_en": "{year} Oita Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-spring-",
+   "name_en": "{year} Oita Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-summer-",
+   "name_en": "{year} Oita Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-hsa-",
+   "name_en": "{year} Oita Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-hsb-",
+   "name_en": "{year} Oita Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-hs-",
+   "name_en": "{year} Oita Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^oita-ga-junior-",
+   "name_en": "{year} Oita Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^oita-ga-womens-amateur-",
+   "name_en": "{year} Oita Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^oita-ga-amateur-",
+   "name_en": "{year} Oita Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^oita-ga-ladies-",
+   "name_en": "{year} Oita Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^oita-ga-kokusupo-selection-",
+   "name_en": "{year} Oita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-kenmin-sports-",
+   "name_en": "{year} Oita Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Oita Qualifier"
+  },
+  {
+   "id_pattern": "^oita-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Oita Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^oita-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Oita ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Oita Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^oita-ga-hs-championship-",
+   "name_en": "{year} Oita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-hs-sotai-",
+   "name_en": "{year} Oita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^oita-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^oita-ga-supokyo-junior-",
+   "name_en": "{year} Oita Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-shinjinsen-",
+   "name_en": "{year} Oita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-shinjin-",
+   "name_en": "{year} Oita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-spring-",
+   "name_en": "{year} Oita High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-summer-",
+   "name_en": "{year} Oita High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-autumn-",
+   "name_en": "{year} Oita High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-championship-",
+   "name_en": "{year} Oita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-shigaku-sotai-",
+   "name_en": "{year} Oita Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^oita-hsgf-sotai-",
+   "name_en": "{year} Oita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^oita-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Oita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-shinjinsen-",
+   "name_en": "{year} Oita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-shinjin-",
+   "name_en": "{year} Oita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-spring-",
+   "name_en": "{year} Oita High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-summer-",
+   "name_en": "{year} Oita High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-autumn-",
+   "name_en": "{year} Oita High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-championship-",
+   "name_en": "{year} Oita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-shigaku-sotai-",
+   "name_en": "{year} Oita Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^oita-kougoren-sotai-",
+   "name_en": "{year} Oita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^oita-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Oita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-shinjinsen-",
+   "name_en": "{year} Oita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-shinjin-",
+   "name_en": "{year} Oita High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-spring-",
+   "name_en": "{year} Oita High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-summer-",
+   "name_en": "{year} Oita High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-autumn-",
+   "name_en": "{year} Oita High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-championship-",
+   "name_en": "{year} Oita High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-shigaku-sotai-",
+   "name_en": "{year} Oita Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^oita-kogoren-sotai-",
+   "name_en": "{year} Oita High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^oita-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Oita National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-senbatsu-",
+   "name_en": "{year} Okayama Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-autumn-",
+   "name_en": "{year} Okayama Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-spring-",
+   "name_en": "{year} Okayama Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-summer-",
+   "name_en": "{year} Okayama Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-hsa-",
+   "name_en": "{year} Okayama Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-hsb-",
+   "name_en": "{year} Okayama Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-hs-",
+   "name_en": "{year} Okayama Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-junior-",
+   "name_en": "{year} Okayama Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^okayama-ga-womens-amateur-",
+   "name_en": "{year} Okayama Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^okayama-ga-amateur-",
+   "name_en": "{year} Okayama Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^okayama-ga-ladies-",
+   "name_en": "{year} Okayama Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^okayama-ga-kokusupo-selection-",
+   "name_en": "{year} Okayama National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-kenmin-sports-",
+   "name_en": "{year} Okayama Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Okayama Qualifier"
+  },
+  {
+   "id_pattern": "^okayama-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Okayama Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^okayama-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Okayama ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Okayama Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^okayama-ga-hs-championship-",
+   "name_en": "{year} Okayama High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-hs-sotai-",
+   "name_en": "{year} Okayama High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^okayama-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^okayama-ga-supokyo-junior-",
+   "name_en": "{year} Okayama Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-shinjinsen-",
+   "name_en": "{year} Okayama High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-shinjin-",
+   "name_en": "{year} Okayama High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-spring-",
+   "name_en": "{year} Okayama High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-summer-",
+   "name_en": "{year} Okayama High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-autumn-",
+   "name_en": "{year} Okayama High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-championship-",
+   "name_en": "{year} Okayama High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-shigaku-sotai-",
+   "name_en": "{year} Okayama Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-sotai-",
+   "name_en": "{year} Okayama High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^okayama-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Okayama National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-shinjinsen-",
+   "name_en": "{year} Okayama High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-shinjin-",
+   "name_en": "{year} Okayama High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-spring-",
+   "name_en": "{year} Okayama High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-summer-",
+   "name_en": "{year} Okayama High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-autumn-",
+   "name_en": "{year} Okayama High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-championship-",
+   "name_en": "{year} Okayama High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-shigaku-sotai-",
+   "name_en": "{year} Okayama Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-sotai-",
+   "name_en": "{year} Okayama High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^okayama-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Okayama National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-shinjinsen-",
+   "name_en": "{year} Okayama High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-shinjin-",
+   "name_en": "{year} Okayama High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-spring-",
+   "name_en": "{year} Okayama High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-summer-",
+   "name_en": "{year} Okayama High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-autumn-",
+   "name_en": "{year} Okayama High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-championship-",
+   "name_en": "{year} Okayama High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-shigaku-sotai-",
+   "name_en": "{year} Okayama Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-sotai-",
+   "name_en": "{year} Okayama High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^okayama-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Okayama National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-senbatsu-",
+   "name_en": "{year} Osaka Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-autumn-",
+   "name_en": "{year} Osaka Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-spring-",
+   "name_en": "{year} Osaka Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-summer-",
+   "name_en": "{year} Osaka Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-hsa-",
+   "name_en": "{year} Osaka Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-hsb-",
+   "name_en": "{year} Osaka Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-hs-",
+   "name_en": "{year} Osaka Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-junior-",
+   "name_en": "{year} Osaka Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^osaka-ga-womens-amateur-",
+   "name_en": "{year} Osaka Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^osaka-ga-amateur-",
+   "name_en": "{year} Osaka Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^osaka-ga-ladies-",
+   "name_en": "{year} Osaka Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^osaka-ga-kokusupo-selection-",
+   "name_en": "{year} Osaka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-kenmin-sports-",
+   "name_en": "{year} Osaka Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Osaka Qualifier"
+  },
+  {
+   "id_pattern": "^osaka-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Osaka Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^osaka-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Osaka ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Osaka Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^osaka-ga-hs-championship-",
+   "name_en": "{year} Osaka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-hs-sotai-",
+   "name_en": "{year} Osaka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^osaka-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^osaka-ga-supokyo-junior-",
+   "name_en": "{year} Osaka Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-shinjinsen-",
+   "name_en": "{year} Osaka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-shinjin-",
+   "name_en": "{year} Osaka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-spring-",
+   "name_en": "{year} Osaka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-summer-",
+   "name_en": "{year} Osaka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-autumn-",
+   "name_en": "{year} Osaka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-championship-",
+   "name_en": "{year} Osaka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-shigaku-sotai-",
+   "name_en": "{year} Osaka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-sotai-",
+   "name_en": "{year} Osaka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^osaka-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Osaka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-shinjinsen-",
+   "name_en": "{year} Osaka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-shinjin-",
+   "name_en": "{year} Osaka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-spring-",
+   "name_en": "{year} Osaka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-summer-",
+   "name_en": "{year} Osaka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-autumn-",
+   "name_en": "{year} Osaka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-championship-",
+   "name_en": "{year} Osaka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-shigaku-sotai-",
+   "name_en": "{year} Osaka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-sotai-",
+   "name_en": "{year} Osaka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^osaka-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Osaka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-shinjinsen-",
+   "name_en": "{year} Osaka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-shinjin-",
+   "name_en": "{year} Osaka High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-spring-",
+   "name_en": "{year} Osaka High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-summer-",
+   "name_en": "{year} Osaka High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-autumn-",
+   "name_en": "{year} Osaka High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-championship-",
+   "name_en": "{year} Osaka High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-shigaku-sotai-",
+   "name_en": "{year} Osaka Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-sotai-",
+   "name_en": "{year} Osaka High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^osaka-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Osaka National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-senbatsu-",
+   "name_en": "{year} Yamaguchi Junior Selection Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-autumn-",
+   "name_en": "{year} Yamaguchi Junior Golf Autumn Tournament ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-spring-",
+   "name_en": "{year} Yamaguchi Junior Golf Championship, Spring ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-summer-",
+   "name_en": "{year} Yamaguchi Junior Golf Championship, Summer ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-hsa-",
+   "name_en": "{year} Yamaguchi Junior Golf Championship (High School {category} A)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-hsb-",
+   "name_en": "{year} Yamaguchi Junior Golf Championship (High School {category} B)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-hs-",
+   "name_en": "{year} Yamaguchi Junior Golf Tournament (High School {category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-junior-",
+   "name_en": "{year} Yamaguchi Junior Golf Championship ({category}, high school age)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-womens-amateur-",
+   "name_en": "{year} Yamaguchi Women's Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-amateur-",
+   "name_en": "{year} Yamaguchi Amateur Golf Championship"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-ladies-",
+   "name_en": "{year} Yamaguchi Ladies Golf Championship"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-kokusupo-selection-",
+   "name_en": "{year} Yamaguchi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-kenmin-sports-",
+   "name_en": "{year} Yamaguchi Prefectural Sports Festival, Golf ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-tohoku-amateur-qualifier-",
+   "name_en": "{year} Tohoku Amateur Golf Championship, Yamaguchi Qualifier"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-kanto-junior-qualifier-",
+   "name_en": "{year} Kanto Junior Golf Championship, Yamaguchi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-hokushinetsu-kokusupo-qualifier-",
+   "name_en": "{year} Hokushinetsu National Sports Festival Qualifier, Yamaguchi ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-kyushu-junior-qualifier-",
+   "name_en": "{year} Kyushu Junior Golf Championship, Yamaguchi Qualifier ({category} 15-17)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-hs-championship-",
+   "name_en": "{year} Yamaguchi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-hs-sotai-",
+   "name_en": "{year} Yamaguchi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-kumanichi-junior-",
+   "name_en": "{year} Kumanichi Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-ga-supokyo-junior-",
+   "name_en": "{year} Yamaguchi Sports Association Golf Tournament, Junior Division ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-shinjinsen-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-shinjin-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-spring-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-summer-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-autumn-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-championship-",
+   "name_en": "{year} Yamaguchi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-shigaku-sotai-",
+   "name_en": "{year} Yamaguchi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-sotai-",
+   "name_en": "{year} Yamaguchi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^yamaguchi-hsgf-kokusupo-boys-selection-",
+   "name_en": "{year} Yamaguchi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-shinjinsen-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-shinjin-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-spring-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-summer-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-autumn-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-championship-",
+   "name_en": "{year} Yamaguchi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-shigaku-sotai-",
+   "name_en": "{year} Yamaguchi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-sotai-",
+   "name_en": "{year} Yamaguchi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^yamaguchi-kougoren-kokusupo-boys-selection-",
+   "name_en": "{year} Yamaguchi National Sports Festival Golf Selection ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-shinjinsen-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-shinjin-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Underclassmen Tournament ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-spring-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Spring ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-summer-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Summer ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-autumn-",
+   "name_en": "{year} Yamaguchi High School Golf Championship, Autumn ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-championship-",
+   "name_en": "{year} Yamaguchi High School Golf Championship ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-shigaku-sotai-",
+   "name_en": "{year} Yamaguchi Private High Schools Athletic Meet, Golf ({category})"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-sotai-",
+   "name_en": "{year} Yamaguchi High School Athletic Meet, Golf ({category} Individual)"
+  },
+  {
+   "id_pattern": "^yamaguchi-kogoren-kokusupo-boys-selection-",
+   "name_en": "{year} Yamaguchi National Sports Festival Golf Selection ({category})"
+  }
+ ],
+ "players": {},
+ "schools": {}
 }

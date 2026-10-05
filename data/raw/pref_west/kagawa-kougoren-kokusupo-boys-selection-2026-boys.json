@@ -1,0 +1,130 @@
+{
+ "tournament": {
+  "id": "kagawa-kougoren-kokusupo-boys-selection-2026-boys",
+  "name": "2026年 国民スポーツ大会ゴルフ競技少年男子 香川県代表選手2次選考会",
+  "name_en": null,
+  "organizer": "香川県高等学校ゴルフ連盟",
+  "event_type": "high_school",
+  "season_year": 2026,
+  "start_date": "2026-06-20",
+  "end_date": "2026-06-21",
+  "venue": "坂出カントリークラブ",
+  "venue_prefecture": "香川県",
+  "level": "prefectural",
+  "region": "shikoku",
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://shsga.jp/kagawa/kagawa.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/kagawa/pdf/2026/R8_kokusupo.pdf"
+  ],
+  "field_size_total": 6
+ },
+ "results": [
+  {
+   "rank": "T1",
+   "player_name": "竹井一起",
+   "school": "四学香川西",
+   "school_prefecture": "香川",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    71,
+    81
+   ],
+   "total": 152,
+   "to_par": null,
+   "note": "R1 35/36, R2 38/43"
+  },
+  {
+   "rank": "T1",
+   "player_name": "堤恒瑛",
+   "school": "四学香川西",
+   "school_prefecture": "香川",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    70,
+    82
+   ],
+   "total": 152,
+   "to_par": null,
+   "note": "R1 35/35, R2 37/45"
+  },
+  {
+   "rank": "3",
+   "player_name": "平星颯真",
+   "school": "高松中央",
+   "school_prefecture": "香川",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    76,
+    78
+   ],
+   "total": 154,
+   "to_par": null,
+   "note": "R1 41/35, R2 40/38"
+  },
+  {
+   "rank": "4",
+   "player_name": "松村寿威",
+   "school": "高松中央",
+   "school_prefecture": "香川",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    78,
+    81
+   ],
+   "total": 159,
+   "to_par": null,
+   "note": "R1 41/37, R2 43/38"
+  },
+  {
+   "rank": "5",
+   "player_name": "塩田星",
+   "school": "四学香川西",
+   "school_prefecture": "香川",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    77,
+    83
+   ],
+   "total": 160,
+   "to_par": null,
+   "note": "R1 38/39, R2 42/41"
+  },
+  {
+   "rank": "6",
+   "player_name": "木村浩一郎",
+   "school": "高松中央",
+   "school_prefecture": "香川",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    83,
+    93
+   ],
+   "total": 176,
+   "to_par": null,
+   "note": "R1 44/39, R2 45/48"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": null,
+  "issues": [
+   "Par for 坂出CC not on the sheet; to_par null",
+   "Field: players advancing from the 1次選考会 (all high-school students)",
+   "Names: whitespace removed"
+  ]
+ }
+}

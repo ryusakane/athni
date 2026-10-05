@@ -1,0 +1,50 @@
+[
+ {
+  "name": "JJGA 特定非営利活動法人日本ジュニアゴルフ協会 — 決勝大会 results (石川遼カップ決勝, Jr.プレーヤーズ東西決勝, オールスター, 東横イン決勝, RMJ 宮里・青木・成田カップ, 小平智カップ決勝, スプリング/大東建託 東西決勝)",
+  "url": "https://www.jjga.org/result",
+  "organizer_type": "national_junior_association",
+  "region": "national",
+  "publishes": "Per-event result PDFs per division (8-9/10-11/12-14/15-18歳). 15-18 division rows: rank, to-par, name, grade (circled 1-3), 所在地 prefecture, OUT/IN per round, total. NO school names.",
+  "years_available": "2016-2026 finals (2024-2026 parsed: 24 events x boys/girls = 48 division files, 1015 rows)",
+  "robots_ok": true,
+  "terms_note": "robots.txt only disallows /wp/wp-admin/. JJGA Webサービス利用規約 (https://www.jjga.org/common/pdf/agreement.pdf) 第8条: all IP of the JJGA website belongs to JJGA/licensors and '当協会に無断で知的財産権を使用（複製、送信、譲渡、二次利用を含む）することは禁じます'. Same situation as k-hga.jp (consent required for reuse). Server also resets connections intermittently (handled with retries, >=1s spacing).",
+  "collected": false,
+  "reason": "Parsed and validated, but NOT written to data/raw/jjga pending the user's decision on the JJGA terms clause (unauthorized reproduction/secondary use prohibited, analogous to the k-hga exclusion). Also no school names: HS status inferred only from the 15-18 division + grade 1-3."
+ },
+ {
+  "name": "JJGA 地区大会 (regional qualifiers) results",
+  "url": "https://www.jjga.org/convention/2026/juniorplayers/",
+  "organizer_type": "national_junior_association",
+  "region": "national (many regional venues)",
+  "publishes": "Per-venue one-round result PDFs (convention/<year>/<series>/pdf/MMDD_<venue>_result.pdf) incl. 15-18歳の部; rows show rank, name, grade, OUT/IN/total only (no school, no prefecture)",
+  "years_available": "2024-2026 pages exist (~28 result PDFs per series per year, 5-6 series)",
+  "robots_ok": true,
+  "terms_note": "Same JJGA terms as above",
+  "collected": false,
+  "reason": "Same terms concern; also very thin identity data (no school/prefecture) so name matching would be unreliable. One sample PDF checked only."
+ },
+ {
+  "name": "JJGA SAHARA ranking (JJGAランキング)",
+  "url": "https://www.jjga.org/sahara-ranking/ranking",
+  "organizer_type": "national_junior_association",
+  "region": "national",
+  "publishes": "Ranking PDFs per age division incl. 15-18 boys/girls (e.g. 260907_rank_15-18boys.pdf)",
+  "years_available": "current snapshot (2026-09-07)",
+  "robots_ok": true,
+  "terms_note": "Same JJGA terms as above",
+  "collected": false,
+  "reason": "Points ranking, not tournament results (does not fit the per-tournament JSON format); terms concern."
+ },
+ {
+  "name": "JJGT 日本ジュニアゴルフツアー (社団法人日本ゴルフツアー協会)",
+  "url": "https://www.jjgt.net/result/index.php",
+  "organizer_type": "private_junior_tour",
+  "region": "national (mostly Kanto/Kansai qualifiers)",
+  "publishes": "Result PDFs (/tour-info/result/rNNNN.pdf): rank, name, prefecture, age division (18歳以下/16歳以下/14歳以下...), score, points",
+  "years_available": "2010-2026",
+  "robots_ok": true,
+  "terms_note": "robots.txt returns 404 (no restrictions). Terms page not reviewed in detail.",
+  "collected": false,
+  "reason": "No school or grade; age divisions are 'under 18 / under 16' (mix junior-high and HS), so HS players cannot be identified; fields are small and mostly elementary-age. Out of scope per brief (only HS-identifiable rows)."
+ }
+]
