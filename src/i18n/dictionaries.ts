@@ -145,7 +145,7 @@ const en = {
     roster: (season: string | null) => (season ? `Roster (${season})` : "Roster"),
     noRoster: "Roster not collected yet.",
     notCollected:
-      "This school's athletics website does not allow automated access, so its roster, coaches, and social accounts are not listed here yet. Please check the team page directly.",
+      "This team's roster, coaches, and social accounts are not listed here yet. Please check the team page directly.",
     total: "Players",
     international: "International",
     japanese: "Japanese players",
@@ -318,7 +318,7 @@ const ja: Dictionary = {
     roster: (season: string | null) => (season ? `ロスター（${season}）` : "ロスター"),
     noRoster: "ロスターは未収集です。",
     notCollected:
-      "この大学の体育局サイトは自動取得を許可していないため、ロスター・コーチ・SNSはまだ掲載していません。ゴルフ部ページで直接ご確認ください。",
+      "このチームのロスター・コーチ・SNSはまだ掲載していません。ゴルフ部ページで直接ご確認ください。",
     total: "部員",
     international: "留学生",
     japanese: "日本人選手",

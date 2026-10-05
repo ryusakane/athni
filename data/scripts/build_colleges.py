@@ -199,10 +199,18 @@ def main():
     colleges = load_colleges()
     attach_rankings(colleges, issues)
     report_gaps(colleges, issues)
+    notes = [f"- {c['slug']} ({p['gender']}): {p['collection_note']}" for c in colleges for p in c["programs"]
+             if p.get("collection_note")]
+    if notes:
+        issues.append("## Not collected (reason, internal only)\n\n" + "\n".join(notes))
     published = [c for c in colleges if c.pop("publishable")]
     for c in published:
         c.pop("aliases", None)
         c.pop("sources", None)
+        # 未収集の理由は社内用 (ISSUES.md) にだけ残し、サイトには「未収集」の印だけを渡す
+        for p in c["programs"]:
+            if p.get("collection_note"):
+                p["collection_note"] = "not collected"
     counts = write_sql(published)
     with open(SITE_OUT, "w", encoding="utf-8") as fh:
         json.dump({"generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d"), "colleges": published},
