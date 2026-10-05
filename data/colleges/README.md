@@ -86,7 +86,43 @@ data/colleges/
 `team` は raw の `name_en` / `short_name` / `aliases` と照合する。合わないものは ISSUES.md に出るので aliases を足す。
 サイトは各チームの一番新しいランキングを表示し、同じ日付なら Clippd Scoreboard (NCAA 公式) を優先する。
 
+## 収集 (collect/)
+
+`collect/` のスクリプトで集め、`raw/d1/` を書き出す。順に:
+
+```
+cd data/colleges/collect
+python3 schools.py         # NCAA Directory から D1 で男子/女子ゴルフ部のある大学 → schools.json
+python3 collect_sites.py   # 各校の体育局公式サイト → sites/<slug>.json (ゴルフ部ページ・SNS・ロスター・コーチ)
+python3 rankings.py        # GCAA コーチ投票 (男子) と NCAA 選手権の最終順位 (男女) → ../rankings/
+python3 alumni.py          # Wikipedia のチーム別カテゴリからプロになった卒業生 → alumni/d1.json
+python3 merge.py           # 上の結果を raw/d1/<slug>.json にまとめる
+cd ../../.. && python3 data/scripts/build_colleges.py
+```
+
+- 必要: `pip install requests beautifulsoup4 lxml`。取得したページは `collect/.cache/` に保存 (git 管理外)。
+- 取得はすべて `AthniDataBot` を名乗り、robots.txt に従い、同じサイトへは間隔をあけて1件ずつ。
+- 出典と再利用条件:
+  - **NCAA Directory** (どの大学がゴルフ部を持つか・カンファレンス・州・公式 URL): NCAA.org の規約は「内容の転載・転用には NCAA の書面の同意が必要」。使っているのは事実情報だけ。`reuse_status: unknown`。
+  - **各校の体育局公式サイト** (ロスター・コーチ・SNS): 公開ページ。各サイトの規約は個別に確認していない。`unknown`。
+  - **GCAA Coaches Poll** (gcaa.coach): 男子 D1 の Top 25。規約の記載なし。`unknown`。
+  - **Wikipedia** (NCAA 選手権の最終順位・プロになった卒業生・チームのニックネーム): CC BY-SA 4.0。出典表示が必要。`ok`。
+  - **Clippd Scoreboard** (NCAA 公式ランキング): 規約がクローラー・自動取得を禁止しているため**取得していない**。サイトにはリンクのみ。
+  - **WGCA (女子コーチ投票)**: サイトが自動アクセスを拒否するため未取得。女子の順位は NCAA 選手権の結果のみ。
+- コーチ: 公式サイトのロスター/コーチ欄に出ている人のうち、ヘッドコーチ・アシスタント・ディレクター・オブ・オペレーション等。
+  トレーナー・広報・栄養士などは除く。メール・電話は公式サイト (ロスター欄・スタッフディレクトリ) に載っているものだけ。
+- 国: 出身地の表記から判定 (米国の州 → US)。日本出身は `JP`。
+- プロになった卒業生: Wikipedia のチーム別カテゴリ (例: "Auburn Tigers men's golfers") の選手のうち、ツアーのカテゴリ
+  (PGA Tour golfers, LPGA Tour golfers, Korn Ferry Tour golfers, European Tour golfers, LIV Golf players, Japan Golf Tour golfers など) に入っている人。
+  Wikipedia に記事がある選手だけなので網羅的ではない。`final_college_year` は未収集。
+
 ## 現状
 
-- 2026-10-05: Golf Channel の男子プレシーズン Top 40 (2026-08-31) の40校を仮登録。Stanford 男子のみロスター・コーチを公式サイトから収集。
-  残りの D1 全校 (男子 約300・女子 約260) は収集中。
+- 2026-10-05: NCAA Directory の D1 ゴルフ部 338校 (男子311・女子290 = 601チーム) を登録。
+  - 体育局サイトの多く (約295校) はボット対策 (Imperva) でクラウドからのアクセスを拒否するため、それらは ryu の Mac から同じスクリプトで収集
+    (同じ AthniDataBot を名乗り robots.txt に従う。ボット対策の回避はしていない)。
+  - ロスター 578チーム (4,858人、日本出身 19人)、コーチ 572チーム、コーチのメールが載っているのは 298チーム、ゴルフ部の SNS 374チーム。
+  - 取れなかった大学: Little Rock (robots.txt が全面不許可)、Missouri・Omaha・Tennessee Tech・Colgate (アクセス拒否・応答なし)。
+- ランキング: GCAA コーチ投票 男子 Top 25 (2026-09-25)、NCAA 選手権 2026 最終順位 (男女各30校)、Golf Channel プレシーズン (男子)。
+- プロになった卒業生: 132校・1,426人 (Wikipedia に記事のある選手のみ)。
+- 取れていない項目の件数は ISSUES.md。

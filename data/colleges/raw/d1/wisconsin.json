@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Wisconsin",
  "aliases": [],
- "nickname": null,
+ "nickname": "Badgers",
  "division": "D1",
  "conference": "Big Ten",
  "city": null,
@@ -24,7 +24,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://uwbadgers.com/sports/mens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "James Boustead",
@@ -99,8 +99,33 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Mike Wilson",
+     "title": "Head Coach",
+     "email": "MWW@athletics.wisc.edu",
+     "phone": "608-224-9341",
+     "source_url": "https://uwbadgers.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Ross Thomson",
+     "title": "Associate Head Coach",
+     "email": "RMT@athletics.wisc.edu",
+     "phone": "608-513-3159",
+     "source_url": "https://uwbadgers.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Mario Tiziani",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Mario_Tiziani"
+    }
+   ]
   },
   {
    "gender": "female",
@@ -114,7 +139,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://uwbadgers.com/sports/womens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Elyssa Abdullah",
@@ -189,7 +214,22 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Todd Oehrlein",
+     "title": "Head Coach",
+     "email": "TSO@athletics.wisc.edu",
+     "phone": "608-265-3117",
+     "source_url": "https://uwbadgers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Morgan Lee",
+     "title": "Assistant Coach",
+     "email": "MEB@athletics.wisc.edu",
+     "phone": "608-345-6853",
+     "source_url": "https://uwbadgers.com/sports/womens-golf/roster"
+    }
+   ],
    "alumni_pros": []
   }
  ],
@@ -203,6 +243,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Mario_Tiziani",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   },
   {
    "url": "https://uwbadgers.com/sports/mens-golf/roster",

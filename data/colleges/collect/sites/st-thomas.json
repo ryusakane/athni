@@ -1,12 +1,12 @@
 {
  "slug": "st-thomas",
  "athletics_url": "https://www.Tommiesports.com",
- "checked_at": "2026-10-04",
+ "checked_at": "2026-10-05",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://tommiesports.com/sports/mgolf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -99,13 +99,35 @@
      "class_raw": "Sr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Matt Rachey",
+     "title": "Head Coach",
+     "email": "matt.rachey@stthomas.edu",
+     "phone": "612-202-8144",
+     "source_url": "https://tommiesports.com/sports/mgolf/roster"
+    },
+    {
+     "name": "Alex Kline",
+     "title": "Assistant Coach",
+     "email": "klin5813@stthomas.edu",
+     "phone": null,
+     "source_url": "https://tommiesports.com/sports/mgolf/roster"
+    },
+    {
+     "name": "Spencer Hutton",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://tommiesports.com/sports/mgolf/roster"
+    }
+   ],
    "coaches_url": null
   },
   {
    "gender": "female",
    "golf_url": "https://tommiesports.com/sports/wgolf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -198,7 +220,22 @@
      "class_raw": "Sr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Katie Hanneman",
+     "title": "Head Coach",
+     "email": "hann7247@stthomas.edu",
+     "phone": "651-962-5996",
+     "source_url": "https://tommiesports.com/sports/wgolf/roster"
+    },
+    {
+     "name": "Megan Welch",
+     "title": "Assistant Coach",
+     "email": "megan.welch@stthomas.edu",
+     "phone": "651-829-5199",
+     "source_url": "https://tommiesports.com/sports/wgolf/roster"
+    }
+   ],
    "coaches_url": null
   }
  ],

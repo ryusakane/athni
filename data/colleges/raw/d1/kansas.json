@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Kansas",
  "aliases": [],
- "nickname": null,
+ "nickname": "Jayhawks",
  "division": "D1",
  "conference": "Big 12",
  "city": null,
@@ -24,7 +24,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://kuathletics.com/sports/mens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Will Baker",
@@ -32,7 +32,7 @@
      "redshirt": false,
      "hometown": "Statham, Ga.",
      "country": "US",
-     "previous_school": "Prince Avenue Christian School"
+     "previous_school": "Clemson"
     },
     {
      "name": "Arthur Carlier",
@@ -48,7 +48,7 @@
      "redshirt": false,
      "hometown": "Pleasanton, Calif.",
      "country": "US",
-     "previous_school": "Amador Valley HS"
+     "previous_school": "UC Riverside"
     },
     {
      "name": "Alex Hogan",
@@ -107,8 +107,60 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Jamie Bermel",
+     "title": "Head Coach",
+     "email": "jayhawkgolf@ku.edu",
+     "phone": "864-7198",
+     "source_url": "https://kuathletics.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Tony Blake",
+     "title": "Associate Head Coach",
+     "email": "a.blake@ku.edu",
+     "phone": "393-7831",
+     "source_url": "https://kuathletics.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Chase Hanna",
+     "tours": [
+      "DP World Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Chase_Hanna"
+    },
+    {
+     "name": "Chris Thompson",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Chris_Thompson_(golfer)"
+    },
+    {
+     "name": "Gary Woodland",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Gary_Woodland"
+    },
+    {
+     "name": "Matt Gogel",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Matt_Gogel"
+    }
+   ]
   },
   {
    "gender": "female",
@@ -122,7 +174,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://kuathletics.com/sports/womens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Marieke Ebens",
@@ -146,7 +198,7 @@
      "redshirt": false,
      "hometown": "Gävle, Sweden",
      "country": "SE",
-     "previous_school": null
+     "previous_school": "Alabama"
     },
     {
      "name": "Hannah Hall",
@@ -186,7 +238,7 @@
      "redshirt": false,
      "hometown": "Trujillo, Peru",
      "country": "PE",
-     "previous_school": "Montero International"
+     "previous_school": "Augusta University"
     },
     {
      "name": "Anna Wallin",
@@ -205,8 +257,42 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Lindsay Kuhle",
+     "title": "Head Coach",
+     "email": "lkuhle@ku.edu",
+     "phone": "785-551-1683",
+     "source_url": "https://kuathletics.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Stephen Bidne",
+     "title": "Associate Head Coach",
+     "email": "Bidne@ku.edu",
+     "phone": "785-424-5359",
+     "source_url": "https://kuathletics.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Esme Hamilton",
+     "tours": [
+      "LET"
+     ],
+     "final_college_year": null,
+     "country": "GB",
+     "source_url": "https://en.wikipedia.org/wiki/Esme_Hamilton"
+    },
+    {
+     "name": "Marilynn Smith",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Marilynn_Smith"
+    }
+   ]
   }
  ],
  "sources": [
@@ -219,6 +305,36 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chase_Hanna",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Chris_Thompson_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Esme_Hamilton",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gary_Woodland",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Marilynn_Smith",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Matt_Gogel",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   },
   {
    "url": "https://kuathletics.com/sports/mens-golf/roster",

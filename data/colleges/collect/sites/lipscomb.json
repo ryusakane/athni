@@ -1,12 +1,12 @@
 {
  "slug": "lipscomb",
  "athletics_url": "https://www.lipscombsports.com",
- "checked_at": "2026-10-04",
+ "checked_at": "2026-10-05",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://lipscombsports.com/sports/mgolf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -90,13 +90,28 @@
      "class_raw": "Sr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Will Brewer",
+     "title": "Director of Golf",
+     "email": "will.brewer@lipscomb.edu",
+     "phone": "(615) 966-5097",
+     "source_url": "https://lipscombsports.com/sports/mgolf/roster"
+    },
+    {
+     "name": "Stoney Crouch",
+     "title": "Assistant Coach",
+     "email": "stoney.crouch@lipscomb.edu",
+     "phone": null,
+     "source_url": "https://lipscombsports.com/sports/mgolf/roster"
+    }
+   ],
    "coaches_url": null
   },
   {
    "gender": "female",
    "golf_url": "https://lipscombsports.com/sports/wgolf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -198,7 +213,29 @@
      "class_raw": "Fr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Kacey Dalpes",
+     "title": "Head Coach",
+     "email": "kacey.dalpes@lipscomb.edu",
+     "phone": null,
+     "source_url": "https://lipscombsports.com/sports/wgolf/roster"
+    },
+    {
+     "name": "Tzunami Polito",
+     "title": "Graduate Assistant",
+     "email": "tzunami.polito@lipscomb.edu",
+     "phone": null,
+     "source_url": "https://lipscombsports.com/sports/wgolf/roster"
+    },
+    {
+     "name": "Will Brewer",
+     "title": "Director of Golf",
+     "email": "will.brewer@lipscomb.edu",
+     "phone": "(615) 966-5097",
+     "source_url": "https://lipscombsports.com/sports/wgolf/roster"
+    }
+   ],
    "coaches_url": null
   }
  ],

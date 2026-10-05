@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Missouri",
  "aliases": [],
- "nickname": null,
+ "nickname": "Tigers",
  "division": "D1",
  "conference": "SEC",
  "city": null,
@@ -27,7 +27,73 @@
    "collected_at": null,
    "roster": [],
    "coaches": [],
-   "alumni_pros": []
+   "alumni_pros": [
+    {
+     "name": "Hayden Buckley",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Hayden_Buckley_(golfer)"
+    },
+    {
+     "name": "Jason Schultz",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Jason_Schultz_(golfer)"
+    },
+    {
+     "name": "Linus Lilliedahl",
+     "tours": [
+      "PGA Tour Americas"
+     ],
+     "final_college_year": null,
+     "country": "SE",
+     "source_url": "https://en.wikipedia.org/wiki/Linus_Lilliedahl"
+    },
+    {
+     "name": "Peter Malnati",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Peter_Malnati"
+    },
+    {
+     "name": "Ross Steelman",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Ross_Steelman"
+    },
+    {
+     "name": "Stan Utley",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Stan_Utley"
+    },
+    {
+     "name": "William Harrold",
+     "tours": [
+      "DP World Tour"
+     ],
+     "final_college_year": null,
+     "country": "GB",
+     "source_url": "https://en.wikipedia.org/wiki/William_Harrold"
+    }
+   ],
+   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
   },
   {
    "gender": "female",
@@ -44,7 +110,8 @@
    "collected_at": null,
    "roster": [],
    "coaches": [],
-   "alumni_pros": []
+   "alumni_pros": [],
+   "collection_note": "Athletics site blocks automated access (bot protection); roster, coaches and team socials not collected yet."
   }
  ],
  "sources": [
@@ -57,6 +124,41 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Hayden_Buckley_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Jason_Schultz_(golfer)",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Linus_Lilliedahl",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Peter_Malnati",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Ross_Steelman",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Stan_Utley",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/William_Harrold",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   }
  ]
 }

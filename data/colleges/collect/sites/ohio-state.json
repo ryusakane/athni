@@ -1,12 +1,12 @@
 {
  "slug": "ohio-state",
  "athletics_url": "https://ohiostatebuckeyes.com",
- "checked_at": "2026-10-04",
+ "checked_at": "2026-10-05",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://ohiostatebuckeyes.com/sports/mens-golf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -99,13 +99,35 @@
      "class_raw": "Jr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Jay Moseley",
+     "title": "Head Coach",
+     "email": "moseley.61@osu.edu",
+     "phone": "(614) 292-3575",
+     "source_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Trevor Johnson",
+     "title": "Assistant Coach",
+     "email": "johnson.12069@osu.edu",
+     "phone": null,
+     "source_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Amy Miller",
+     "title": "Director of Operations",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster"
+    }
+   ],
    "coaches_url": null
   },
   {
    "gender": "female",
    "golf_url": "https://ohiostatebuckeyes.com/sports/womens-golf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": null,
    "x_url": null,
    "facebook_url": null,
@@ -180,7 +202,29 @@
      "class_raw": "Fr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Lisa Strom",
+     "title": "Head Coach",
+     "email": "strom.3@osu.edu",
+     "phone": "(704) 453-3998",
+     "source_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Alejandra Cangrejo",
+     "title": "Assistant Coach",
+     "email": "CANGREJO.2@OSU.EDU",
+     "phone": null,
+     "source_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Amy Miller",
+     "title": "Director of Operations",
+     "email": null,
+     "phone": null,
+     "source_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster"
+    }
+   ],
    "coaches_url": null
   }
  ],

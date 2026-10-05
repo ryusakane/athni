@@ -1,12 +1,12 @@
 {
  "slug": "usc",
  "athletics_url": "https://usctrojans.com",
- "checked_at": "2026-10-04",
+ "checked_at": "2026-10-05",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://usctrojans.com/sports/mens-golf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": "https://www.instagram.com/uscmensgolf",
    "x_url": "https://x.com/USCMensGolf",
    "facebook_url": null,
@@ -90,13 +90,28 @@
      "class_raw": "So."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Mark Hankins",
+     "title": "Head Coach",
+     "email": "mark.hankins@usc.edu",
+     "phone": null,
+     "source_url": "https://usctrojans.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Kolton Lapa",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://usctrojans.com/sports/mens-golf/roster"
+    }
+   ],
    "coaches_url": null
   },
   {
    "gender": "female",
    "golf_url": "https://usctrojans.com/sports/womens-golf",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "instagram_url": "https://www.instagram.com/uscwomensgolf",
    "x_url": "https://x.com/USCWomensGolf",
    "facebook_url": null,
@@ -149,7 +164,7 @@
      "redshirt": false,
      "hometown": "Irvine, Calif.",
      "country": "US",
-     "previous_school": "Crean Lutheran HS",
+     "previous_school": "Northwestern",
      "class_raw": "Jr."
     },
     {
@@ -189,7 +204,29 @@
      "class_raw": "Fr."
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Justin Silverstein",
+     "title": "Head Coach",
+     "email": "j.silverstein@usc.edu",
+     "phone": "(213) 740-4555",
+     "source_url": "https://usctrojans.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Beth Wu",
+     "title": "Assistant Coach",
+     "email": "bethany.wu@usc.edu",
+     "phone": "(323) 578-0815",
+     "source_url": "https://usctrojans.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Carla Hayden",
+     "title": "Director of Operations",
+     "email": "carlahay@usc.edu",
+     "phone": null,
+     "source_url": "https://usctrojans.com/sports/womens-golf/roster"
+    }
+   ],
    "coaches_url": null
   }
  ],

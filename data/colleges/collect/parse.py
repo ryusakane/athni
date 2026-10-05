@@ -15,7 +15,7 @@ CLASS = [
     (r"^(r-?|rs-?|redshirt\s*)?(gr|grad|graduate|graduate student|5th|fifth[- ]year|5th[- ]year|5th year|6th year|super senior|gs|g|graduate student-athlete|grad student)\.?$", "GR"),
 ]
 COACH_TITLE = re.compile(r"coach|director of (golf )?operations|golf operations|director of golf|head|assistant|volunteer", re.I)
-NOT_COACH = re.compile(r"trainer|strength|performance|dietitian|manager|sport administrator|communications|nutrition|academic|equipment|sport psych|psycholog|athletic director|\bAD\b|sports information|video|creative|media|marketing|ticket|compliance|administrat", re.I)
+NOT_COACH = re.compile(r"trainer|strength|performance|dietitian|dietician|manager|sport administrator|therap|sports medicine|athletic training|athletic medicine|development|business|cabinet|ambassador|coordinator|supervisor|chief|faculty|scholar|eligibility|productions|athletics director|director of athletic|associate athletic|physician|oversight|content|p\.a\.s\.s|student-athlete experience|student assistant|communications|nutrition|academic|equipment|sport psych|psycholog|athletic director|\bAD\b|sports information|video|creative|media|marketing|ticket|compliance|administrat", re.I)
 
 
 def class_year(s):
@@ -145,7 +145,8 @@ def parse_sidearm(text, gender):
 # --- Plain tables (fallback) ------------------------------------------------------------------
 
 HEAD = {"name": re.compile(r"^(full )?name$|^player$", re.I), "class": re.compile(r"^(cl\.?|class|yr\.?|year|academic year|elig\.?)$", re.I),
-        "hometown": re.compile(r"hometown", re.I), "prev": re.compile(r"previous school|last school|high school|prev", re.I),
+        "hometown": re.compile(r"hometown", re.I), "prev": re.compile(r"previous school|last school|prev\.? school|transfer", re.I),
+        "hs": re.compile(r"high school|^hs$", re.I),
         "title": re.compile(r"^(title|position)$", re.I), "email": re.compile(r"e-?mail", re.I), "phone": re.compile(r"phone", re.I)}
 
 
@@ -166,9 +167,21 @@ def parse_tables(text, gender):
             cells = tr.find_all(["td", "th"])
             if len(cells) < len(heads) - 1:
                 continue
-            get = lambda k: clean(cells[col[k]].get_text(" ", strip=True)) if k in col and col[k] < len(cells) else None
+            # a leading header cell with no body cell under it (e.g. "Coaching Staff") shifts columns by one
+            shift = len(heads) - len(cells) if len(cells) < len(heads) else 0
+            get = lambda k: clean(cells[col[k] - shift].get_text(" ", strip=True)) if k in col and 0 <= col[k] - shift < len(cells) else None
+            if not get("name"):
+                continue
             if "class" in col or "hometown" in col:
-                players.append(player(get("name"), get("class"), get("hometown"), get("prev")))
+                home, prev, hs = get("hometown"), get("prev"), get("hs")
+                if home and "/" in heads[col["hometown"]]:
+                    # "Hometown / High School (Previous School)" in one column
+                    parts = [p.strip() for p in home.split(" / ", 1)]
+                    home = parts[0]
+                    school = parts[1] if len(parts) > 1 else None
+                    prev = prev if col.get("prev") != col["hometown"] else school
+                    hs = hs if col.get("hs") != col["hometown"] else school
+                players.append(player(get("name"), get("class"), home, prev, hs))
             elif "title" in col:
                 email = next((a["href"][7:].split("?")[0] for a in tr.select('a[href^="mailto:"]')), None)
                 if is_coach(get("title")):

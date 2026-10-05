@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Michigan State",
  "aliases": [],
- "nickname": null,
+ "nickname": "Spartans",
  "division": "D1",
  "conference": "Big Ten",
  "city": null,
@@ -24,7 +24,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://msuspartans.com/sports/mens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Lucas Acevedo",
@@ -40,7 +40,7 @@
      "redshirt": false,
      "hometown": "White Lake, Mich.",
      "country": "US",
-     "previous_school": "Lakeland"
+     "previous_school": "Ferris State"
     },
     {
      "name": "Connor Fox",
@@ -99,8 +99,59 @@
      "previous_school": "Traverse City West"
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Casey Lubahn",
+     "title": "Head Coach",
+     "email": "lubahn@ath.msu.edu",
+     "phone": "432-2950",
+     "source_url": "https://msuspartans.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Chad Kurmel",
+     "title": "Assistant Coach",
+     "email": "kurmelch@msu.edu",
+     "phone": null,
+     "source_url": "https://msuspartans.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Dan Ellis",
+     "title": "Assistant Coach",
+     "email": "ellisda8@ath.msu.edu",
+     "phone": "884-8917",
+     "source_url": "https://msuspartans.com/sports/mens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Gary Groh",
+     "tours": [
+      "PGA Tour",
+      "PGA Tour Champions"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Gary_Groh"
+    },
+    {
+     "name": "James Piot",
+     "tours": [
+      "LIV Golf"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/James_Piot"
+    },
+    {
+     "name": "Matt Harmon",
+     "tours": [
+      "PGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Matt_Harmon"
+    }
+   ]
   },
   {
    "gender": "female",
@@ -114,7 +165,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://msuspartans.com/sports/womens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Almendra Campoverde",
@@ -189,8 +240,78 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Stacy Slobodnik-Stoll",
+     "title": "Head Coach",
+     "email": "slobodni@ath.msu.edu",
+     "phone": "432-1438",
+     "source_url": "https://msuspartans.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Leila Raines",
+     "title": "Assistant Coach",
+     "email": "leila.raines@ath.msu.edu",
+     "phone": null,
+     "source_url": "https://msuspartans.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Barb Mucha",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Barb_Mucha"
+    },
+    {
+     "name": "Becky Iverson",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Becky_Iverson"
+    },
+    {
+     "name": "Bonnie Lauer",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Bonnie_Lauer"
+    },
+    {
+     "name": "Emily Glaser",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Emily_Glaser"
+    },
+    {
+     "name": "Joyce Kazmierski",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "US",
+     "source_url": "https://en.wikipedia.org/wiki/Joyce_Kazmierski"
+    },
+    {
+     "name": "Valery Plata",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "CO",
+     "source_url": "https://en.wikipedia.org/wiki/Valery_Plata"
+    }
+   ]
   }
  ],
  "sources": [
@@ -203,6 +324,51 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Barb_Mucha",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Becky_Iverson",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bonnie_Lauer",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Emily_Glaser",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Gary_Groh",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/James_Piot",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Joyce_Kazmierski",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Matt_Harmon",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Valery_Plata",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   },
   {
    "url": "https://msuspartans.com/sports/mens-golf/roster",

@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Bucknell",
  "aliases": [],
- "nickname": null,
+ "nickname": "Bison",
  "division": "D1",
  "conference": "Patriot League",
  "city": null,
@@ -24,7 +24,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://bucknellbison.com/sports/mens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Charlie Barrickman",
@@ -99,7 +99,15 @@
      "previous_school": "Gonzaga College HS (D.C.)"
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Michael Binney",
+     "title": "Head Coach",
+     "email": "mwb013@bucknell.edu",
+     "phone": "570-577-3075",
+     "source_url": "https://bucknellbison.com/sports/mens-golf/roster"
+    }
+   ],
    "alumni_pros": []
   },
   {
@@ -114,7 +122,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://bucknellbison.com/sports/womens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Sophia Bardunias",
@@ -205,8 +213,34 @@
      "previous_school": "Columbus Academy"
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Laura Tyler-Cook",
+     "title": "Head Coach",
+     "email": "ltc006@bucknell.edu",
+     "phone": "570-577-7347",
+     "source_url": "https://bucknellbison.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Ben Cook",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://bucknellbison.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Céline Herbin",
+     "tours": [
+      "LET",
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "FR",
+     "source_url": "https://en.wikipedia.org/wiki/C%C3%A9line_Herbin"
+    }
+   ]
   }
  ],
  "sources": [
@@ -229,6 +263,11 @@
    "url": "https://bucknellbison.com/sports/womens-golf/roster",
    "reuse_status": "unknown",
    "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/C%C3%A9line_Herbin",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   }
  ]
 }

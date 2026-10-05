@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Gonzaga",
  "aliases": [],
- "nickname": null,
+ "nickname": "Bulldogs",
  "division": "D1",
  "conference": "Pac-12",
  "city": null,
@@ -24,7 +24,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://gozags.com/sports/mens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Jack Brayman",
@@ -75,7 +75,22 @@
      "previous_school": "Bowie"
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Robert Gray",
+     "title": "Head Coach",
+     "email": "gray@gonzaga.edu",
+     "phone": "509-313-4081",
+     "source_url": "https://gozags.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Ross Button",
+     "title": "Assistant Men's Golf Coach",
+     "email": "buttonr@gonzaga.edu",
+     "phone": "509-313-4275",
+     "source_url": "https://gozags.com/sports/mens-golf/roster"
+    }
+   ],
    "alumni_pros": []
   },
   {
@@ -90,67 +105,92 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://gozags.com/sports/womens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Islay Benoit",
      "class_year": "JR",
      "redshirt": false,
-     "hometown": "Pensacola, Fla. / Pensacola Catholic",
+     "hometown": "Pensacola, Fla.",
      "country": "US",
-     "previous_school": "Pensacola, Fla. / Pensacola Catholic"
+     "previous_school": "Florida Gulf Coast"
     },
     {
      "name": "Anna Duerr",
      "class_year": "FR",
      "redshirt": false,
-     "hometown": "Olympia, Wash. / Capital",
+     "hometown": "Olympia, Wash.",
      "country": "US",
-     "previous_school": "Olympia, Wash. / Capital"
+     "previous_school": "Capital"
     },
     {
      "name": "Brenna Preap",
      "class_year": "GR",
      "redshirt": false,
-     "hometown": "Stockton, Calif. / Bear Creek",
+     "hometown": "Stockton, Calif.",
      "country": "US",
-     "previous_school": "Stockton, Calif. / Bear Creek"
+     "previous_school": "Grand Canyon"
     },
     {
      "name": "Ashlee Xu",
      "class_year": "FR",
      "redshirt": false,
-     "hometown": "Mountain House, Calif. / Mountain House",
+     "hometown": "Mountain House, Calif.",
      "country": "US",
-     "previous_school": "Mountain House, Calif. / Mountain House"
+     "previous_school": "Mountain House"
     },
     {
      "name": "Mariko Yonemura",
      "class_year": "SO",
      "redshirt": false,
-     "hometown": "Waipahu, Hawaii / Mililani",
+     "hometown": "Waipahu, Hawaii",
      "country": "US",
-     "previous_school": "Waipahu, Hawaii / Mililani"
+     "previous_school": "Mililani"
     },
     {
      "name": "Esther Yoo",
      "class_year": "SR",
      "redshirt": false,
-     "hometown": "Porter Ranch, Calif. / Notre Dame",
+     "hometown": "Porter Ranch, Calif.",
      "country": "US",
-     "previous_school": "Porter Ranch, Calif. / Notre Dame"
+     "previous_school": "Notre Dame"
     },
     {
      "name": "Vanessa Zhang",
      "class_year": "SR",
      "redshirt": false,
-     "hometown": "Pasadena, Calif. / La Salle College Preparatory",
+     "hometown": "Pasadena, Calif.",
      "country": "US",
-     "previous_school": "Pasadena, Calif. / La Salle College Preparatory"
+     "previous_school": "La Salle College Preparatory"
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Victoria Fallgren-Murphy",
+     "title": "Head Coach",
+     "email": "fallgren@gonzaga.edu",
+     "phone": "509-313-5640",
+     "source_url": "https://gozags.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Grace Lindgren",
+     "title": "Assistant Women's Golf Coach",
+     "email": "lindgreng@gonzaga.edu",
+     "phone": null,
+     "source_url": "https://gozags.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Bianca Pagdanganan",
+     "tours": [
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "PH",
+     "source_url": "https://en.wikipedia.org/wiki/Bianca_Pagdanganan"
+    }
+   ]
   }
  ],
  "sources": [
@@ -163,6 +203,11 @@
    "url": "https://web3.ncaa.org/directory/memberList?type=12&division=I&sportCode=WGO",
    "reuse_status": "unknown",
    "note": "NCAA Directory sport-sponsorship list (men's/women's golf, Division I): used for which schools sponsor golf, conference, state and official URLs. NCAA.org terms say its content may not be reposted without consent; only these facts are used."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Bianca_Pagdanganan",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   },
   {
    "url": "https://gozags.com/sports/mens-golf/roster",

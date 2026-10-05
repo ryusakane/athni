@@ -8,6 +8,9 @@ replaces collected fields. Run after schools.py and collect_sites.py:
 import glob
 import json
 import os
+import re
+
+import parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 RAW = os.path.join(os.path.dirname(HERE), "raw", "d1")
@@ -32,7 +35,8 @@ def load(path, default=None):
 def main():
     schools = load(os.path.join(HERE, "schools.json"))
     alumni = {}
-    for path in glob.glob(os.path.join(HERE, "alumni", "*.json")):
+    nicknames = load(os.path.join(HERE, "alumni", "nicknames.json"), {})
+    for path in glob.glob(os.path.join(HERE, "alumni", "d*.json")):
         for a in load(path, []):
             alumni.setdefault((a["slug"], a["gender"]), []).append({k: a.get(k) for k in
                                                                    ["name", "tours", "final_college_year", "country", "source_url"]})
@@ -48,7 +52,7 @@ def main():
             "name_ja": old.get("name_ja"),
             "short_name": s["short_name"],
             "aliases": sorted(set(s["aliases"]) | set(old.get("aliases", [])) - {s["short_name"], s["name_en"]}),
-            "nickname": old.get("nickname"),
+            "nickname": old.get("nickname") or nicknames.get(s["slug"]),
             "division": "D1",
             "conference": s["conference"],
             "city": old.get("city"),
@@ -72,7 +76,13 @@ def main():
             prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school"]}
                               for r in roster]
             coaches = sp.get("coaches") or op.get("coaches") or []
-            prog["coaches"] = [{k: c.get(k) for k in ["name", "title", "email", "phone", "source_url"]} for c in coaches]
+            prog["coaches"] = []
+            for c in coaches:
+                c = {k: c.get(k) for k in ["name", "title", "email", "phone", "source_url"]}
+                c["title"] = re.sub(r"\s*<br\s*/?>\s*", " / ", c["title"]) if c["title"] else None
+                if c["title"] and not parse.is_coach(c["title"], "coach"):
+                    continue
+                prog["coaches"].append(c)
             prog["alumni_pros"] = alumni.get((s["slug"], g), op.get("alumni_pros", []))
             if status in BLOCKED_NOTE and not prog["roster"]:
                 prog["collection_note"] = BLOCKED_NOTE[status]

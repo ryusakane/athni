@@ -4,7 +4,7 @@
  "name_ja": null,
  "short_name": "Charleston",
  "aliases": [],
- "nickname": null,
+ "nickname": "Cougars",
  "division": "D1",
  "conference": "CAA",
  "city": null,
@@ -24,7 +24,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://cofcsports.com/sports/mens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Loran Appel",
@@ -91,7 +91,22 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
+   "coaches": [
+    {
+     "name": "Mitch Krywulycz",
+     "title": "Head Coach",
+     "email": "krywulyczmj@cofc.edu",
+     "phone": "(706) 267-3819",
+     "source_url": "https://cofcsports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Corbin Sebens",
+     "title": "Associate Head Coach",
+     "email": "sebensc@cofc.edu",
+     "phone": "(706) 267-3819",
+     "source_url": "https://cofcsports.com/sports/mens-golf/roster"
+    }
+   ],
    "alumni_pros": []
   },
   {
@@ -106,7 +121,7 @@
    "youtube_url": null,
    "roster_season": null,
    "roster_source_url": "https://cofcsports.com/sports/womens-golf/roster",
-   "collected_at": "2026-10-04",
+   "collected_at": "2026-10-05",
    "roster": [
     {
      "name": "Sophie Bingel",
@@ -173,8 +188,43 @@
      "previous_school": null
     }
    ],
-   "coaches": [],
-   "alumni_pros": []
+   "coaches": [
+    {
+     "name": "Jamie Futrell",
+     "title": "Head Coach",
+     "email": "futrellj@cofc.edu",
+     "phone": "(843) 953-5642",
+     "source_url": "https://cofcsports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Kendall Turner",
+     "title": "Assistant Coach",
+     "email": "turnerkg@cofc.edu",
+     "phone": null,
+     "source_url": "https://cofcsports.com/sports/womens-golf/roster"
+    }
+   ],
+   "alumni_pros": [
+    {
+     "name": "Joanna Klatten",
+     "tours": [
+      "LET",
+      "LPGA Tour"
+     ],
+     "final_college_year": null,
+     "country": "FR",
+     "source_url": "https://en.wikipedia.org/wiki/Joanna_Klatten"
+    },
+    {
+     "name": "Laura Fünfstück",
+     "tours": [
+      "LET"
+     ],
+     "final_college_year": null,
+     "country": "DE",
+     "source_url": "https://en.wikipedia.org/wiki/Laura_F%C3%BCnfst%C3%BCck"
+    }
+   ]
   }
  ],
  "sources": [
@@ -197,6 +247,16 @@
    "url": "https://cofcsports.com/sports/womens-golf/roster",
    "reuse_status": "unknown",
    "note": "Official athletics site, public roster/staff pages. Site terms not reviewed individually."
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Joanna_Klatten",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
+  },
+  {
+   "url": "https://en.wikipedia.org/wiki/Laura_F%C3%BCnfst%C3%BCck",
+   "reuse_status": "ok",
+   "note": "Wikipedia, CC BY-SA 4.0 (attribution required)"
   }
  ]
 }
