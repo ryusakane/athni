@@ -1,0 +1,146 @@
+{
+ "slug": "west-virginia",
+ "athletics_url": "https://www.wvusports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://wvusports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://wvusports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://wvusports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Hogan Blais",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ottawa, Ontario",
+     "country": "CA",
+     "previous_school": "Ecole Secondaire Publique Louis-Riel",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Brody Burgess",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Victor, N.Y.",
+     "country": "US",
+     "previous_school": "Victor Central School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Aidan Dortch",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Dallas, Texas",
+     "country": "US",
+     "previous_school": "TCU",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Major Ewing",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Blacksburg, Va.",
+     "country": "US",
+     "previous_school": "Rivers Academy (Ga.)",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ryan Leach",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Williamsburg, Va.",
+     "country": "US",
+     "previous_school": "Jamestown High",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Jack Michael",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Huntington, W.Va.",
+     "country": "US",
+     "previous_school": "Cabell Midland High",
+     "class_raw": "So."
+    },
+    {
+     "name": "Gabe Schmitz",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hilton Head Island, S.C.",
+     "country": "US",
+     "previous_school": "Hilton Head Christian Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Michael Shivers",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Brentwood, Tenn.",
+     "country": "US",
+     "previous_school": "Gateway Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Harrison Thompson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Knoxville, Tenn",
+     "country": "US",
+     "previous_school": "Knoxville Catholic High",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Nick Turowski",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Harrison City, Pa.",
+     "country": "US",
+     "previous_school": "Penn Trafford High",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Sean Covich",
+     "title": "Head Coach",
+     "email": "Sean.Covich@mail.wvu.edu",
+     "phone": "(304) 293-3384",
+     "source_url": "https://wvusports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Will Koras",
+     "title": "Assistant Coach/Director of Player Development",
+     "email": "william.koras@mail.wvu.edu",
+     "phone": "(304) 293-3384",
+     "source_url": "https://wvusports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://wvusports.com:443",
+ "requests": [
+  {
+   "url": "https://wvusports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://wvusports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://wvusports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

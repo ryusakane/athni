@@ -1,0 +1,162 @@
+{
+ "slug": "ut-martin",
+ "athletics_url": "https://www.utmsports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://utmsports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://utmsports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://utmsports.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Luke Beadles",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nolensville, Tenn.",
+     "country": "US",
+     "previous_school": "Nolensville HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Bryce Harmon",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Knoxville, Tenn.",
+     "country": "US",
+     "previous_school": "Bearden HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Lucas Herring",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Nashville, Tenn.",
+     "country": "US",
+     "previous_school": "Methodist",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Conner Hill",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Nashville, Tenn.",
+     "country": "US",
+     "previous_school": "Christ Presbyterian Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Regan Kueker",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wamego, Kan.",
+     "country": "US",
+     "previous_school": "Wamego HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ian Lambert",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jackson, Mo.",
+     "country": "US",
+     "previous_school": "Jackson HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Jaden Morrell",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Knoxville, Tenn.",
+     "country": "US",
+     "previous_school": "Bearden HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Grant Phillips",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Marietta, Ga.",
+     "country": "US",
+     "previous_school": "Marietta HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Layton Richey",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bowling Green, Ky.",
+     "country": "US",
+     "previous_school": "Greenwood HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Drew Williams",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Greensboro, Ga.",
+     "country": "US",
+     "previous_school": "Lake Oconee Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "John-Gregory Wilson",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Bolivar, Tenn.",
+     "country": "US",
+     "previous_school": "University School of Jackson",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Austin Swafford",
+     "title": "Head Coach",
+     "email": "aswaffo9@utm.edu",
+     "phone": "731-881-7665",
+     "source_url": "https://utmsports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jerry Carpenter",
+     "title": "Volunteer Assistant",
+     "email": "jcarpen3@utm.edu",
+     "phone": "731-881-7665",
+     "source_url": "https://utmsports.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Scott Carpenter",
+     "title": "Volunteer Assistant",
+     "email": null,
+     "phone": "731-881-7665",
+     "source_url": "https://utmsports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://utmsports.com:443",
+ "requests": [
+  {
+   "url": "https://utmsports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://utmsports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://utmsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

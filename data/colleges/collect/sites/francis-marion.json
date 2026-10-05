@@ -1,0 +1,142 @@
+{
+ "slug": "francis-marion",
+ "athletics_url": "https://www.fmupatriots.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://fmupatriots.com/sports/mgolf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/francismariongolf",
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://fmupatriots.com/sports/mgolf/roster",
+   "roster_source_url": "https://fmupatriots.com/sports/mgolf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Ryan Bozard",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hollywood, SC",
+     "country": "US",
+     "previous_school": "West Ashley HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Simon DiMaggio",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hollywood, SC",
+     "country": "US",
+     "previous_school": "West Ashley HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Josh Dugard",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Orpington, Great Britain",
+     "country": "GB",
+     "previous_school": "Knole Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Matthew Griffiths",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cheshire, United Kingdom",
+     "country": "GB",
+     "previous_school": "Lymm HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Eli Jones",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Wrens, GA",
+     "country": "US",
+     "previous_school": "Thomas Jefferson Academy",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Cade Jordan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Conway, SC",
+     "country": "US",
+     "previous_school": "Conway HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Carson Jordan",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Conway, SC",
+     "country": "US",
+     "previous_school": "Conway HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Chan Lee",
+     "class_year": "SO",
+     "redshirt": true,
+     "hometown": "Cancun, Mexico",
+     "country": "MX",
+     "previous_school": "Heritage Academy",
+     "class_raw": "R-So."
+    },
+    {
+     "name": "Rohan Neat",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Ely, United Kingdom",
+     "country": "GB",
+     "previous_school": "Ely College",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Yu-Hsiang Shih",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Taiwan",
+     "country": "TW",
+     "previous_school": "Juang Jing Vocational HS",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Mark Gaynor",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "843-661-1352",
+     "source_url": "https://fmupatriots.com/sports/mgolf/roster",
+     "field_sources": {
+      "phone": "https://fmupatriots.com/staff-directory"
+     }
+    }
+   ],
+   "coaches_url": "https://fmupatriots.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://fmupatriots.com/",
+ "requests": [
+  {
+   "url": "https://fmupatriots.com/sports/mgolf",
+   "status": 200
+  },
+  {
+   "url": "https://fmupatriots.com/sports/mgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://fmupatriots.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

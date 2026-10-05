@@ -1,0 +1,117 @@
+{
+ "slug": "fiu",
+ "athletics_url": "https://www.fiusports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://fiusports.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/fiuwgolf",
+   "x_url": "https://x.com/fiuwgolf",
+   "facebook_url": "https://www.facebook.com/FIUWGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://fiusports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://fiusports.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Audur Bergrun Snorradottir",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mosfellsbaer, Iceland",
+     "country": "IS",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Gabriella Gomez",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Miami, Fla.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Manon Guille",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Aubigny, France",
+     "country": "FR",
+     "previous_school": "Wichita State/Abilene Christian",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Catalina Harvey",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Palm Harbor, Fla.",
+     "country": "US",
+     "previous_school": "Palm Harbor University",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Alisa Molokanova",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Moscow, Russia",
+     "country": "RU",
+     "previous_school": "Nika School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Amandine Seguin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Menton, France",
+     "country": "FR",
+     "previous_school": null,
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "John Koskinen",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://fiusports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Kera Healey",
+     "title": "Graduate Assistant",
+     "email": null,
+     "phone": null,
+     "source_url": "https://fiusports.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Gabriel Casanova",
+     "title": "Director, Athletic Training",
+     "email": null,
+     "phone": null,
+     "source_url": "https://fiusports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://fiusports.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://fiusports.com/",
+ "requests": [
+  {
+   "url": "https://fiusports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

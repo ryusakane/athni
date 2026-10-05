@@ -1,0 +1,82 @@
+{
+ "slug": "bradley",
+ "athletics_url": "https://www.bradleybraves.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://bradleybraves.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/bradleymensgolf",
+   "x_url": "https://x.com/BUMensGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "coaches": [
+    {
+     "name": "Jeff Roche",
+     "title": "Men's Golf Head Coach",
+     "email": null,
+     "phone": "309-677-4410",
+     "source_url": "https://bradleybraves.com/staff-directory"
+    },
+    {
+     "name": "Ethan Brue",
+     "title": "Assistant Men's Golf Coach, Recruiting Coordinator",
+     "email": null,
+     "phone": null,
+     "source_url": "https://bradleybraves.com/staff-directory"
+    }
+   ],
+   "coaches_url": "https://bradleybraves.com/staff-directory"
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://bradleybraves.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/bradleywgolf",
+   "x_url": "https://x.com/BradleyWGolf",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "coaches": [
+    {
+     "name": "Kara Blair",
+     "title": "Women's Golf Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://bradleybraves.com/staff-directory"
+    }
+   ],
+   "coaches_url": "https://bradleybraves.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://bradleybraves.com/",
+ "requests": [
+  {
+   "url": "https://bradleybraves.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://bradleybraves.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://bradleybraves.com/staff-directory",
+   "status": 200
+  },
+  {
+   "url": "https://bradleybraves.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://bradleybraves.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://bradleybraves.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

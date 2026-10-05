@@ -1,0 +1,146 @@
+{
+ "slug": "rhode-island",
+ "athletics_url": "https://www.gorhody.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gorhody.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/rhodygolf",
+   "x_url": "https://x.com/rhodygolf",
+   "facebook_url": "https://www.facebook.com/rhodygolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gorhody.com/sports/mens-golf/roster",
+   "roster_source_url": "https://gorhody.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Seb Carlsson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Narragansett, R.I.",
+     "country": "US",
+     "previous_school": "Narragansett",
+     "class_raw": "4th"
+    },
+    {
+     "name": "Tony Liu",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Bradenton, Fla.",
+     "country": "US",
+     "previous_school": "IMG Academy",
+     "class_raw": "4th"
+    },
+    {
+     "name": "Bennett Masterson",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Westerly, R.I.",
+     "country": "US",
+     "previous_school": "Avon Old Farms",
+     "class_raw": "4th"
+    },
+    {
+     "name": "Jack Quinn",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Litchfield, Maine",
+     "country": "US",
+     "previous_school": "Gardiner",
+     "class_raw": "1st"
+    },
+    {
+     "name": "Owen Rooney",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Buffalo, N.Y.",
+     "country": "US",
+     "previous_school": "IMG Academy",
+     "class_raw": "4th"
+    },
+    {
+     "name": "Mihir Roperia",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Cranberry, N.J.",
+     "country": "US",
+     "previous_school": "Princeton Day School",
+     "class_raw": "1st"
+    },
+    {
+     "name": "Josiah Tong",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Alberta, Canada",
+     "country": "CA",
+     "previous_school": "West Island College",
+     "class_raw": "4th"
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Gregg Burke",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "401-874-5278",
+     "source_url": "https://gorhody.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://gorhody.com/staff-directory"
+     }
+    },
+    {
+     "name": "Brandon Gillis",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": "603-809-5317",
+     "source_url": "https://gorhody.com/sports/mens-golf/roster",
+     "field_sources": {
+      "phone": "https://gorhody.com/staff-directory"
+     }
+    },
+    {
+     "name": "Chad Spencer",
+     "title": "Volunteer Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gorhody.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Trish Casey",
+     "title": "Chief Business Officer",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gorhody.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Shawn Pacifico",
+     "title": "Associate Athletic Therapist",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gorhody.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://gorhody.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gorhody.com/",
+ "requests": [
+  {
+   "url": "https://gorhody.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gorhody.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gorhody.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

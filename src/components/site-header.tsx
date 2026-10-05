@@ -6,6 +6,7 @@ export function SiteHeader({ lang, dict }: { lang: Locale; dict: Dictionary }) {
   const navItems = [
     { href: `/${lang}/players`, label: dict.nav.players },
     { href: `/${lang}/tournaments`, label: dict.nav.tournaments },
+    { href: `/${lang}/colleges`, label: dict.nav.colleges },
     { href: `/${lang}/about`, label: dict.nav.about },
     { href: `/${lang}/contact`, label: dict.nav.contact },
   ];

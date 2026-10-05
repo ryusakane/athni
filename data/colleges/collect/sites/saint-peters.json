@@ -1,0 +1,130 @@
+{
+ "slug": "saint-peters",
+ "athletics_url": "https://www.saintpeterspeacocks.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://saintpeterspeacocks.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/PeacocksGOLF",
+   "x_url": "https://x.com/PeacocksGOLF",
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://saintpeterspeacocks.com/sports/mens-golf/roster",
+   "roster_source_url": "https://saintpeterspeacocks.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Lorenzo Amendola",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "St. Albert, Canada",
+     "country": "CA",
+     "previous_school": "École Secondaire St. Albert Catholic High School",
+     "class_raw": "So."
+    },
+    {
+     "name": "Nick Campanella",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "East Brunswick, NJ",
+     "country": "US",
+     "previous_school": "Saint Joseph HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "PJ Foley",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Northfield, NJ",
+     "country": "US",
+     "previous_school": "Mainland Regional High School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Jack Hennelly",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Eatontown, NJ",
+     "country": "US",
+     "previous_school": "Monmouth Regional HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Isaiah Marsellie",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Linden, NJ",
+     "country": "US",
+     "previous_school": "Blair Academy",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Chad Maurer",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Guilderland, New York",
+     "country": "US",
+     "previous_school": "Guilderland High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Brennan McCabe",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Byram, NJ",
+     "country": "US",
+     "previous_school": "Pope John HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Mohit Sanagavarapu",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Edison, New Jersey",
+     "country": "US",
+     "previous_school": "Edison High School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Jeffery Yong",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Stockton, NJ",
+     "country": "US",
+     "previous_school": "Hunterdon Central HS",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Dr. Jim Stefankiewicz",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://saintpeterspeacocks.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://saintpeterspeacocks.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://saintpeterspeacocks.com/",
+ "requests": [
+  {
+   "url": "https://saintpeterspeacocks.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://saintpeterspeacocks.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://saintpeterspeacocks.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

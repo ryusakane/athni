@@ -1,0 +1,144 @@
+{
+ "slug": "uconn",
+ "athletics_url": "https://www.uconnhuskies.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://uconnhuskies.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://uconnhuskies.com/sports/mens-golf/roster",
+   "roster_source_url": "https://uconnhuskies.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Caden Blanchette",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Manchester, PA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Justin Burroughs",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Pensacola, FL",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "5th"
+    },
+    {
+     "name": "Matt Costello",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taunton, MA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Kai-Jun Huang",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan",
+     "country": "TW",
+     "previous_school": null,
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Brayden Jenard",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jupiter, FL",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Yves Koller",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Zurich, Switzerland",
+     "country": "CH",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Brennan Korn",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Scottsdale, AZ",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Matthew Oliveira",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Dartmouth, MA",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "RJ Shieh",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Taipei, Taiwan",
+     "country": "TW",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Dave Pezzino",
+     "title": "Head Coach",
+     "email": "david.pezzino@uconn.edu",
+     "phone": null,
+     "source_url": "https://uconnhuskies.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Chris Ayers",
+     "title": "Assistant Coach",
+     "email": "mwr25007@uconn.edu",
+     "phone": null,
+     "source_url": "https://uconnhuskies.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jon Wortmann",
+     "title": "Volunteer Coach",
+     "email": "jon.wortmann@uconn.edu",
+     "phone": null,
+     "source_url": "https://uconnhuskies.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://uconnhuskies.com:443",
+ "requests": [
+  {
+   "url": "https://uconnhuskies.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://uconnhuskies.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://uconnhuskies.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

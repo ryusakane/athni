@@ -1,0 +1,121 @@
+{
+ "slug": "new-orleans",
+ "athletics_url": "https://www.unoprivateers.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://privateersports.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/PrivateersGolf",
+   "x_url": "https://x.com/PrivateersGolf",
+   "facebook_url": "https://www.facebook.com/PrivateersGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://privateersports.com/sports/mens-golf/roster",
+   "roster_source_url": "https://privateersports.com/sports/mens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Ben Blanco",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Lafayette, La.",
+     "country": "US",
+     "previous_school": "Louisiana",
+     "class_raw": "So."
+    },
+    {
+     "name": "Taylor Boasberg",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "New Orleans, La.",
+     "country": "US",
+     "previous_school": "Jesuit HS",
+     "class_raw": "5th"
+    },
+    {
+     "name": "Jude Bourque",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lafayette, La.",
+     "country": "US",
+     "previous_school": "St. Thomas More HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Gabriel Gallego",
+     "class_year": "GR",
+     "redshirt": false,
+     "hometown": "Curitiba, Brazil",
+     "country": "BR",
+     "previous_school": "Colégio Marista Paranaense",
+     "class_raw": "5th"
+    },
+    {
+     "name": "Matthew Lotz",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Cape Town, South Africa",
+     "country": "ZA",
+     "previous_school": "Louisiana",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Adam Trahan",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Crowley, La.",
+     "country": "US",
+     "previous_school": "Episcopal School of Acadiana",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Baron Vollmer",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Gulf Shores, Ala.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Fynn Wanke",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Palos Verdes Estates, Calif.",
+     "country": "US",
+     "previous_school": null,
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Jeff Lorio",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://privateersports.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://privateersports.com/",
+ "requests": [
+  {
+   "url": "https://privateersports.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://privateersports.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://privateersports.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

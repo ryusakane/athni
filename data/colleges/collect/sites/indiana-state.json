@@ -1,0 +1,131 @@
+{
+ "slug": "indiana-state",
+ "athletics_url": "https://www.gosycamores.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://gosycamores.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": "https://x.com/IndStGolf",
+   "facebook_url": "https://www.facebook.com/IndStGolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://gosycamores.com/sports/womens-golf/roster",
+   "roster_source_url": "https://gosycamores.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Keira Brazeau",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Palatine, Ill.",
+     "country": "US",
+     "previous_school": "William Fremd",
+     "class_raw": "So."
+    },
+    {
+     "name": "Ava Brumagin",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Mount Carmel, Ill.",
+     "country": "US",
+     "previous_school": "Mount Carmel",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Gabby Cone",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Gilbert, Ariz.",
+     "country": "US",
+     "previous_school": "Perry HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Rosalie DiNunzio",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Clarence Center, N.Y.",
+     "country": "US",
+     "previous_school": "Clarence",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Nicole Feistl",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Cave Creek, Ariz.",
+     "country": "US",
+     "previous_school": "Cactus Shadows HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Sophia Florek",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Belleville, Ill.",
+     "country": "US",
+     "previous_school": "Mascoutah",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Alana Gilbert",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Jackson, Mo.",
+     "country": "US",
+     "previous_school": "Jackson HS",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Louise Standtke",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Lejre, Denmark",
+     "country": "DK",
+     "previous_school": "Evansville",
+     "class_raw": "Jr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Greg Towne",
+     "title": "Head Coach",
+     "email": null,
+     "phone": "8219",
+     "source_url": "https://gosycamores.com/sports/womens-golf/roster",
+     "field_sources": {
+      "phone": "https://gosycamores.com/staff-directory"
+     }
+    },
+    {
+     "name": "Dr. Andrew McDonald, MD",
+     "title": "Medical Director / Primary Care Sports Medicine Physcian",
+     "email": null,
+     "phone": null,
+     "source_url": "https://gosycamores.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://gosycamores.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://gosycamores.com/",
+ "requests": [
+  {
+   "url": "https://gosycamores.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://gosycamores.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gosycamores.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "slug": "depaul",
+ "athletics_url": "https://www.depaulbluedemons.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://depaulbluedemons.com/sports/mens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://depaulbluedemons.com/sports/mens-golf/roster",
+   "roster_source_url": "https://depaulbluedemons.com/sports/mens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Rizq Adam Rohizam",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Selangor, Malaysia",
+     "country": "MY",
+     "previous_school": "Missouri S&T",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Finlay Eager",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangor, Northern Ireland",
+     "country": "GB",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Rohan Gopaldas",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Suwanee, Ga.",
+     "country": "US",
+     "previous_school": "North Gwinett",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Dusty Karmin",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Highland Park, Ill.",
+     "country": "US",
+     "previous_school": "Rhodes College",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Adrian Larsson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Dubai, United Arab Emirates",
+     "country": "AE",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Matthew Rastogi",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Toronto, Ontario, Canada",
+     "country": "CA",
+     "previous_school": "Eastern Michigan",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Frederik Richardson",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Trondheim, Norway",
+     "country": "NO",
+     "previous_school": null,
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Hunter Simmons",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Grand Junction, Colo.",
+     "country": "US",
+     "previous_school": "Grand Junction",
+     "class_raw": "Fr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Ryan Jamison",
+     "title": "Head Coach",
+     "email": "rjamison@depaul.edu",
+     "phone": null,
+     "source_url": "https://depaulbluedemons.com/sports/mens-golf/roster"
+    },
+    {
+     "name": "Jeremy Wu",
+     "title": "Graduate Assistant",
+     "email": "JWU116@depaul.edu",
+     "phone": null,
+     "source_url": "https://depaulbluedemons.com/sports/mens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://depaulbluedemons.com:443",
+ "requests": [
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

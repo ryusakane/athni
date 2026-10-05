@@ -1,0 +1,119 @@
+{
+ "slug": "boston-university",
+ "athletics_url": "https://www.goterriers.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://goterriers.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/terriergolf",
+   "x_url": "https://x.com/terriergolf",
+   "facebook_url": "https://www.facebook.com/terriergolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goterriers.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goterriers.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Hibiki Adachi",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Tokyo, Japan",
+     "country": "JP",
+     "previous_school": "Montverde Academy (Fla.)",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Tatiana Ang",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Singapore",
+     "country": "SG",
+     "previous_school": "Lake Mary Prep (Fla.)",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Amy Han",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Dalian, China",
+     "country": "CN",
+     "previous_school": "King's College (New Zealand)",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Wendy Li",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Richmond Hill, Ont.",
+     "country": "CA",
+     "previous_school": "Richmond Hill",
+     "class_raw": "So."
+    },
+    {
+     "name": "Madison Takai",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Honolulu, Hawaii",
+     "country": "US",
+     "previous_school": "Punahou School",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Monica Wu",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hillsborough, Calif.",
+     "country": "US",
+     "previous_school": "IMG Academy",
+     "class_raw": "So."
+    },
+    {
+     "name": "Sophia Zhang",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Beijing, China",
+     "country": "CN",
+     "previous_school": "The Experimental High School Attached to Beijing Normal University",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Bruce Chalas",
+     "title": "Head Coach",
+     "email": "bchalas@bu.edu",
+     "phone": "(857) 777-6990",
+     "source_url": "https://goterriers.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Jillian Barend",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goterriers.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goterriers.com:443",
+ "requests": [
+  {
+   "url": "https://goterriers.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

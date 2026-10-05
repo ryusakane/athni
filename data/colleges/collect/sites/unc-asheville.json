@@ -1,0 +1,112 @@
+{
+ "slug": "unc-asheville",
+ "athletics_url": "https://www.uncabulldogs.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://uncabulldogs.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://uncabulldogs.com/sports/womens-golf/roster",
+   "roster_source_url": "https://uncabulldogs.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Jordyn Arts",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Trophy Club, Texas",
+     "country": "US",
+     "previous_school": "Byron Nelson HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Kate Bennett",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Palm Beach Gardens, Fla.",
+     "country": "US",
+     "previous_school": "Spring Creek Academy",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Sydney Craven",
+     "class_year": "SR",
+     "redshirt": true,
+     "hometown": "Pebble Beach, Calif.",
+     "country": "US",
+     "previous_school": "University of North Colorado / Robert Louis Stevenson",
+     "class_raw": "R-Sr."
+    },
+    {
+     "name": "Breanna Hoese",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Austin, Texas",
+     "country": "US",
+     "previous_school": "Longwood / Vandergrift HS",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Praelyn Jirasaraikul",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Bangkok, Thailand",
+     "country": "TH",
+     "previous_school": "D-PREP International School",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Ella Moynihan",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Tralee, Ireland",
+     "country": "IE",
+     "previous_school": "Gaelcholaiste Chiarrai",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Carly Sherman",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Bastrop, Texas",
+     "country": "US",
+     "previous_school": "Bastrop HS",
+     "class_raw": "So."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Laura Smith",
+     "title": "Head Coach",
+     "email": "lsmith26@unca.edu",
+     "phone": null,
+     "source_url": "https://uncabulldogs.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://uncabulldogs.com:443",
+ "requests": [
+  {
+   "url": "https://uncabulldogs.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://uncabulldogs.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://uncabulldogs.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}

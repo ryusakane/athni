@@ -1,0 +1,108 @@
+{
+ "slug": "portland-state",
+ "athletics_url": "https://goviks.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://goviks.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": "https://www.instagram.com/psuvikswgolf",
+   "x_url": "https://x.com/psuvikswgolf",
+   "facebook_url": "https://www.facebook.com/psuvikswgolf",
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://goviks.com/sports/womens-golf/roster",
+   "roster_source_url": "https://goviks.com/sports/womens-golf/roster",
+   "roster_season": "2026-27",
+   "parser": "sidearm",
+   "roster": [
+    {
+     "name": "Maddie Dustin",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "Salem, OR",
+     "country": "US",
+     "previous_school": "Hawai'i",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Caithlyn Ong",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Jakarta, Indonesia",
+     "country": "ID",
+     "previous_school": null,
+     "class_raw": "So."
+    },
+    {
+     "name": "Cynthia Valerie Ong",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Jakarta, Indonesia",
+     "country": "ID",
+     "previous_school": null,
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Francesca Tomp",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Eugene, OR",
+     "country": "US",
+     "previous_school": "North Eugene HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Momo Udom",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Portland, OR",
+     "country": "US",
+     "previous_school": "Westview HS",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Kaylee Shimizu",
+     "title": "Head Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goviks.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Payten Shimizu",
+     "title": "Assistant Coach",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goviks.com/sports/womens-golf/roster"
+    },
+    {
+     "name": "Mason Pownall",
+     "title": "Athletics Office Coordinator/Sport Supervisor",
+     "email": null,
+     "phone": null,
+     "source_url": "https://goviks.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": "https://goviks.com/staff-directory"
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://goviks.com/",
+ "requests": [
+  {
+   "url": "https://goviks.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://goviks.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://goviks.com/staff-directory",
+   "status": 200
+  }
+ ]
+}

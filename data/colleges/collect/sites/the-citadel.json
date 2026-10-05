@@ -1,0 +1,121 @@
+{
+ "slug": "the-citadel",
+ "athletics_url": "https://www.citadelsports.com",
+ "checked_at": "2026-10-05",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://citadelsports.com/sports/womens-golf",
+   "collected_at": "2026-10-05",
+   "instagram_url": null,
+   "x_url": null,
+   "facebook_url": null,
+   "tiktok_url": null,
+   "youtube_url": null,
+   "roster_url": "https://citadelsports.com/sports/womens-golf/roster",
+   "roster_source_url": "https://citadelsports.com/sports/womens-golf/roster",
+   "roster_season": null,
+   "parser": "table",
+   "roster": [
+    {
+     "name": "Lola Barnett",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Hatboro, Pa.",
+     "country": "US",
+     "previous_school": "Cleveland State / UNC Pembroke",
+     "class_raw": "Sr."
+    },
+    {
+     "name": "Teryn Dalton",
+     "class_year": "JR",
+     "redshirt": false,
+     "hometown": "York, S.C.",
+     "country": "US",
+     "previous_school": "Westminster Catawba Christian School",
+     "class_raw": "Jr."
+    },
+    {
+     "name": "Bianka Goerke",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Benson, Ariz.",
+     "country": "US",
+     "previous_school": "Benson HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Piper Meredith",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Hagerstown, Md.",
+     "country": "US",
+     "previous_school": "Boonsboro HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Madyson Riley",
+     "class_year": "SO",
+     "redshirt": false,
+     "hometown": "Hayden, Idaho",
+     "country": "US",
+     "previous_school": "Coeur d'Alene HS",
+     "class_raw": "So."
+    },
+    {
+     "name": "Taryn Smoak",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Lexington, S.C.",
+     "country": "US",
+     "previous_school": "Lexington HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Paige Tallent",
+     "class_year": "FR",
+     "redshirt": false,
+     "hometown": "Raleigh, N.C.",
+     "country": "US",
+     "previous_school": "Athens Drive Magnet HS",
+     "class_raw": "Fr."
+    },
+    {
+     "name": "Sofia Vargas",
+     "class_year": "SR",
+     "redshirt": false,
+     "hometown": "Lexington, Va.",
+     "country": "US",
+     "previous_school": "Rockbridge County HS",
+     "class_raw": "Sr."
+    }
+   ],
+   "coaches": [
+    {
+     "name": "Lori Bonacci",
+     "title": "Head Coach",
+     "email": "lori.hatcher@citadel.edu",
+     "phone": "843-864-5549",
+     "source_url": "https://citadelsports.com/sports/womens-golf/roster"
+    }
+   ],
+   "coaches_url": null
+  }
+ ],
+ "home_status": 200,
+ "athletics_url_final": "https://citadelsports.com:443",
+ "requests": [
+  {
+   "url": "https://citadelsports.com/sports/womens-golf",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com:443/staff-directory",
+   "status": 200
+  }
+ ]
+}
