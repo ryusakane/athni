@@ -15,7 +15,7 @@ const en = {
   home: {
     tagline:
       "Opening the door to US college athletics for every Japanese high school athlete.",
-    lead: "For every high school athlete in Japan. At a US college, you develop through top-level training and competition while earning a degree valued around the world. Your sport can take you pro, and your degree opens the door to leading companies: it's the best path to both. AthNi puts your high school record in front of US college coaches in English, and works with athletes, families, and coaches to make it happen.",
+    lead: "AthNi makes athletic recruitment to US colleges possible for every high school athlete in Japan, opening the door to world-class training and to careers at top companies.",
     ctaPlayers: "Browse players",
     ctaTournaments: "View tournaments",
   },
@@ -190,7 +190,7 @@ const ja: Dictionary = {
   },
   home: {
     tagline: "日本のすべての高校生アスリートに、アメリカ大学進学の門戸を。",
-    lead: "競技に打ち込むすべての高校生アスリートへ。アメリカの大学では、トップレベルの練習環境と試合で実力を伸ばしながら、世界で評価される学位を取得できます。競技ではプロへ、学位では一流企業への就職へ。どちらの道もひらける最良の選択肢です。AthNi は高校での成績を英語で米国大学のコーチに届け、選手・ご家族・指導者の皆さんと一緒に進学を実現します。",
+    lead: "AthNi は、すべての高校生アスリートに、世界トップの練習環境とトップ企業への就職の可能性をひらく、アメリカの大学へのアスリート推薦入学を実現します。",
     ctaPlayers: "選手を探す",
     ctaTournaments: "大会・成績を見る",
   },
