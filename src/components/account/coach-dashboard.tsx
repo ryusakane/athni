@@ -5,7 +5,7 @@ import { useCallback, useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
-import type { CoachProfile, StudentProfile } from "@/lib/supabase/account-types";
+import type { CoachProfile, StudentProfile, TeamInvite } from "@/lib/supabase/account-types";
 import { buttonClass, Field, Input, Notice, Section, secondaryButtonClass } from "./ui";
 
 type SavedRow = {
@@ -17,6 +17,9 @@ type Data = {
   coach: CoachProfile;
   saved: SavedRow[];
   students: StudentProfile[];
+  // Results staff confirmed belong to the student: student id → player ids.
+  confirmed: Map<string, string[]>;
+  team: TeamInvite[];
 };
 
 export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: string }) {
@@ -27,7 +30,7 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
 
   const load = useCallback(async () => {
     const supabase = getSupabase();
-    const [coach, saved, students] = await Promise.all([
+    const [coach, saved, students, claims, team] = await Promise.all([
       supabase.from("coach_profiles").select("*").eq("user_id", coachId).single(),
       supabase
         .from("coach_saved_players")
@@ -36,15 +39,23 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
         .order("created_at", { ascending: false }),
       // RLS returns rows only to verified coaches, and only students who opted in.
       supabase.from("student_profiles").select("*").eq("visible_to_coaches", true),
+      supabase.from("player_claims").select("student_id, player_id").eq("status", "approved"),
+      supabase.from("coach_team_invites").select("id, email, accepted_by").order("created_at"),
     ]);
     if (coach.error) {
       setStatus({ tone: "error", text: coach.error.message });
       return;
     }
+    const confirmed = new Map<string, string[]>();
+    for (const row of claims.data ?? []) {
+      confirmed.set(row.student_id, [...(confirmed.get(row.student_id) ?? []), row.player_id]);
+    }
     setData({
       coach: coach.data as CoachProfile,
       saved: (saved.data ?? []) as unknown as SavedRow[],
       students: (students.data ?? []) as StudentProfile[],
+      confirmed,
+      team: (team.data ?? []) as TeamInvite[],
     });
   }, [coachId]);
 
@@ -114,6 +125,16 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
                       .filter(Boolean)
                       .join(" · ")}
                   </p>
+                  <p className="text-xs text-foreground/50">{c.selfReported}</p>
+                  {(data.confirmed.get(s.user_id) ?? []).map((playerId) => (
+                    <Link
+                      key={playerId}
+                      href={`/${lang}/players/${playerId}/`}
+                      className="mt-1 inline-block rounded bg-green-600/10 px-2 py-0.5 text-xs font-medium text-green-800 hover:underline dark:text-green-300"
+                    >
+                      ✓ {c.resultsConfirmed}
+                    </Link>
+                  ))}
                   {s.bio && <p className="mt-1 text-foreground/70">{s.bio}</p>}
                   {s.video_url && (
                     <a href={s.video_url} target="_blank" rel="noreferrer" className="text-xs underline">
@@ -126,6 +147,11 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
           )}
         </Section>
       )}
+
+      {verified && data.coach.invited_by === null && (
+        <Team lang={lang} team={data.team} onChange={load} />
+      )}
+      {verified && data.coach.invited_by !== null && <p className="text-sm text-foreground/70">{c.teamMember}</p>}
 
       <form onSubmit={onSubmit}>
         <Section title={c.profile}>
@@ -144,5 +170,61 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
         </Section>
       </form>
     </>
+  );
+}
+
+// Assistants and other staff of a verified coach: their own accounts, invited by email.
+function Team({ lang, team, onChange }: { lang: Locale; team: TeamInvite[]; onChange: () => void }) {
+  const t = getAccountDictionary(lang);
+  const c = t.coach;
+  const [error, setError] = useState<string | null>(null);
+
+  async function invite(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const formEl = event.currentTarget;
+    const email = String(new FormData(formEl).get("email") ?? "").trim();
+    if (!email) return;
+    const { error } = await getSupabase().rpc("invite_team_member", { member_email: email });
+    setError(error ? error.message : null);
+    if (!error) formEl.reset();
+    onChange();
+  }
+
+  async function remove(id: string) {
+    // Removing the invite also ends that staff member's access (0007_identity_checks.sql).
+    await getSupabase().from("coach_team_invites").delete().eq("id", id);
+    onChange();
+  }
+
+  return (
+    <Section title={c.team}>
+      <p className="text-sm text-foreground/70">{c.teamLead}</p>
+      {team.length === 0 ? (
+        <p className="text-sm text-foreground/70">{c.teamNone}</p>
+      ) : (
+        <ul className="divide-y divide-black/5 text-sm dark:divide-white/10">
+          {team.map((row) => (
+            <li key={row.id} className="flex items-center justify-between gap-4 py-2">
+              <span className="break-all">
+                {row.email}
+                <span className="text-foreground/60"> · {row.accepted_by ? c.teamJoined : c.teamWaiting}</span>
+              </span>
+              <button type="button" onClick={() => remove(row.id)} className="whitespace-nowrap text-xs underline">
+                {t.remove}
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+      <form onSubmit={invite} className="flex items-end gap-3">
+        <Field label={c.teamEmail}>
+          <Input name="email" type="email" required autoComplete="off" />
+        </Field>
+        <button type="submit" className={secondaryButtonClass}>
+          {c.invite}
+        </button>
+      </form>
+      {error && <Notice tone="error">{error}</Notice>}
+    </Section>
   );
 }

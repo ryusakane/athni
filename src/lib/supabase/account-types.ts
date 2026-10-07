@@ -1,4 +1,5 @@
-// Row shapes of the account tables (supabase/migrations/0004_accounts.sql, 0006_name_kana.sql).
+// Row shapes of the account tables (supabase/migrations/0004_accounts.sql, 0006_name_kana.sql,
+// 0007_identity_checks.sql).
 
 export type Role = "student" | "parent" | "coach" | "hs_coach";
 
@@ -36,6 +37,14 @@ export type CoachProfile = {
   college_name: string | null;
   title: string | null;
   verification_status: "pending" | "verified" | "rejected";
+  verification_method: "staff_list" | "staff_review" | "team_invite" | null;
+  invited_by: string | null;
+};
+
+export type TeamInvite = {
+  id: string;
+  email: string;
+  accepted_by: string | null;
 };
 
 export type TestName = "toefl_ibt" | "ielts" | "duolingo" | "eiken" | "toeic" | "sat" | "act";
@@ -52,6 +61,7 @@ export type PlayerClaim = {
   id: string;
   student_id: string;
   player_id: string;
+  evidence_url: string | null;
   status: "pending" | "approved" | "rejected";
   reviewer_note: string | null;
 };
