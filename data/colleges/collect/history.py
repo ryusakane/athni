@@ -90,7 +90,7 @@ def season_page(golf, gender, season, log, offered=None):
         r = parse.parse_roster(text, gender, season)
         if not r or not r["players"]:
             continue
-        if "__NUXT_DATA__" in text and r["parser"] != "wmt":
+        if "__NUXT_DATA__" in text and "sidearm" not in text.lower() and r["parser"] != "wmt":
             continue  # a WMT page without that season's roster
         if r["parser"] != "wmt" and (norm_season(url[len(golf):]) != season or (r["season"] and r["season"] != season)):
             continue  # redirected to the current roster
