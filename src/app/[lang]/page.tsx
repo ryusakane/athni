@@ -16,16 +16,16 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
       <p className="mt-6 max-w-2xl text-lg text-foreground/70">{home.lead}</p>
       <div className="mt-10 flex flex-wrap gap-4">
         <Link
-          href={`/${lang}/players`}
+          href={`/${lang}/colleges/`}
           className="rounded-full bg-foreground px-6 py-3 text-sm font-medium text-background hover:opacity-90"
         >
-          {home.ctaPlayers}
+          {home.ctaColleges}
         </Link>
         <Link
-          href={`/${lang}/tournaments`}
+          href={`/${lang}/players/`}
           className="rounded-full border border-black/15 px-6 py-3 text-sm font-medium hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/10"
         >
-          {home.ctaTournaments}
+          {home.ctaPlayers}
         </Link>
       </div>
     </div>

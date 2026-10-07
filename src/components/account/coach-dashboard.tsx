@@ -121,7 +121,19 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
                     {s.name_en && s.name_ja && <span className="text-foreground/60"> · {s.name_ja}</span>}
                   </p>
                   <p className="text-foreground/70">
-                    {[s.school_name, s.graduation_year && `Class of ${s.graduation_year}`, s.gpa_us && `GPA ${s.gpa_us}`, s.gpa_jp && `GPA (JP 5.0) ${s.gpa_jp}`, s.handicap != null && `HCP ${s.handicap}`]
+                    {[s.school_name, s.graduation_year && `Class of ${s.graduation_year}`, s.entry_year && `Fall ${s.entry_year} start`, s.gpa_us && `GPA ${s.gpa_us}`, s.gpa_jp && `GPA (JP 5.0) ${s.gpa_jp}`]
+                      .filter(Boolean)
+                      .join(" · ")}
+                  </p>
+                  <p className="text-foreground/70">
+                    {[
+                      s.scoring_average != null && `Avg ${s.scoring_average}${s.scoring_rounds ? ` (${s.scoring_rounds} rds)` : ""}`,
+                      s.best_18 != null && `Best ${s.best_18}`,
+                      s.handicap != null && `HCP ${s.handicap}`,
+                      s.wagr_rank != null && `WAGR ${s.wagr_rank}`,
+                      s.driving_distance_yd != null && `${s.driving_distance_yd} yd`,
+                      s.target_divisions?.length > 0 && s.target_divisions.map((d) => d.toUpperCase()).join("/"),
+                    ]
                       .filter(Boolean)
                       .join(" · ")}
                   </p>

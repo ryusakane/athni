@@ -113,7 +113,7 @@ export function YearInput(props: ComponentProps<"input">) {
 
 // Typed year, then month and day pickers, so any past date is quick to enter (the native
 // date picker opens on today and needs many clicks to reach a birth year). The year moves
-// on to the month once four digits are in, and the month moves on to the day.
+// on to the month once four digits are in.
 export function DateSelect({
   name,
   required,
@@ -140,7 +140,6 @@ export function DateSelect({
     Array.from({ length: Math.abs(to - from) + 1 }, (_, i) => (from <= to ? from + i : from - i));
   const selectClass = `${inputClass} w-auto`;
   const monthRef = useRef<HTMLSelectElement>(null);
-  const dayRef = useRef<HTMLSelectElement>(null);
   return (
     <span className="flex gap-2">
       <YearInput
@@ -162,10 +161,8 @@ export function DateSelect({
         aria-label={labels.month}
         required={required}
         value={month}
-        onChange={(e) => {
-          setMonth(e.target.value);
-          if (e.target.value) dayRef.current?.focus();
-        }}
+        // No jump to the day here: typing "12" on a focused select fires a change at "1".
+        onChange={(e) => setMonth(e.target.value)}
         className={selectClass}
       >
         <option value="">{labels.month}</option>
@@ -173,7 +170,7 @@ export function DateSelect({
           <option key={n} value={pad(n)}>{n}</option>
         ))}
       </select>
-      <select ref={dayRef} aria-label={labels.day} required={required} value={day} onChange={(e) => setDay(e.target.value)} className={selectClass}>
+      <select aria-label={labels.day} required={required} value={day} onChange={(e) => setDay(e.target.value)} className={selectClass}>
         <option value="">{labels.day}</option>
         {range(1, daysInMonth).map((n) => (
           <option key={n} value={pad(n)}>{n}</option>
@@ -198,5 +195,25 @@ export function KanaInput(props: ComponentProps<"input">) {
         props.onBlur?.(e);
       }}
     />
+  );
+}
+
+// Year picker for a fixed range, newest first.
+export function YearSelect({
+  fromYear,
+  toYear,
+  placeholder,
+  ...props
+}: ComponentProps<"select"> & { fromYear: number; toYear: number; placeholder: string }) {
+  const years = Array.from({ length: toYear - fromYear + 1 }, (_, i) => toYear - i);
+  return (
+    <select {...props} className={`${inputClass} ${props.className ?? ""}`}>
+      <option value="">{placeholder}</option>
+      {years.map((y) => (
+        <option key={y} value={String(y)}>
+          {y}
+        </option>
+      ))}
+    </select>
   );
 }

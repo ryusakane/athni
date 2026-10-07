@@ -6,7 +6,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
-import { buttonClass, DateSelect, Field, Input, Notice, KanaInput, PasswordInput, YearInput } from "./ui";
+import { buttonClass, DateSelect, Field, Input, Notice, KanaInput, PasswordInput, YearSelect } from "./ui";
 
 type SignupRole = "student" | "parent" | "coach";
 const signupRoles: SignupRole[] = ["student", "parent", "coach"];
@@ -78,6 +78,8 @@ export function SignupForm({ lang }: { lang: Locale }) {
           // Kept apart as well, in the auth user's metadata, in case the parts are needed later.
           family_name: family,
           given_name: given,
+          family_kana: value("family_kana"),
+          given_kana: value("given_kana"),
           name_kana: fullKana,
           locale: lang,
           ...(role === "student" && (lang === "ja" ? { name_ja: fullName } : { name_en: fullName })),
@@ -192,7 +194,14 @@ export function SignupForm({ lang }: { lang: Locale }) {
                 />
               </Field>
               <Field label={t.signup.graduationYear}>
-                <YearInput name="graduation_year" required defaultValue={thisYear + 1} />
+                <YearSelect
+                  name="graduation_year"
+                  required
+                  fromYear={2000}
+                  toYear={thisYear + 6}
+                  defaultValue={String(thisYear + 1)}
+                  placeholder={t.year}
+                />
               </Field>
             </>
           )}
