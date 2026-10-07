@@ -6,7 +6,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
-import { buttonClass, Field, Input, Notice } from "./ui";
+import { buttonClass, DateSelect, Field, Input, Notice, KanaInput, PasswordInput, YearInput } from "./ui";
 
 type SignupRole = "student" | "parent" | "coach";
 const signupRoles: SignupRole[] = ["student", "parent", "coach"];
@@ -55,6 +55,15 @@ export function SignupForm({ lang }: { lang: Locale }) {
     const form = new FormData(event.currentTarget);
     const value = (name: string) => String(form.get(name) ?? "").trim();
     const email = value("email");
+    // Japanese order is family name first; English is given name first.
+    const family = value("family_name");
+    const given = value("given_name");
+    const fullName = lang === "ja" ? `${family} ${given}` : `${given} ${family}`;
+    const fullKana = [value("family_kana"), value("given_kana")].filter(Boolean).join(" ");
+    if (form.get("password") !== form.get("password_confirm")) {
+      setError(t.passwordMismatch);
+      return;
+    }
     setPending(true);
     setError(null);
     const { data, error } = await getSupabase().auth.signUp({
@@ -65,8 +74,13 @@ export function SignupForm({ lang }: { lang: Locale }) {
         // Read by handle_new_user() in 0004_accounts.sql to create the role's rows.
         data: {
           role,
-          display_name: value("display_name"),
+          display_name: fullName,
+          // Kept apart as well, in the auth user's metadata, in case the parts are needed later.
+          family_name: family,
+          given_name: given,
+          name_kana: fullKana,
           locale: lang,
+          ...(role === "student" && (lang === "ja" ? { name_ja: fullName } : { name_en: fullName })),
           ...(role === "student" && {
             birth_date: value("birth_date"),
             graduation_year: value("graduation_year"),
@@ -112,34 +126,73 @@ export function SignupForm({ lang }: { lang: Locale }) {
 
       {role && (
         <form onSubmit={onSubmit} className="mt-8 max-w-md space-y-4">
-          <Field label={t.displayName}>
-            <Input name="display_name" required autoComplete="name" />
-          </Field>
+          {lang === "ja" ? (
+            <>
+              <div className="grid grid-cols-2 gap-3">
+                <Field label={t.familyName}>
+                  <Input name="family_name" required autoComplete="family-name" placeholder="山田" />
+                </Field>
+                <Field label={t.givenName}>
+                  <Input name="given_name" required autoComplete="given-name" placeholder="太郎" />
+                </Field>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <Field label={t.familyKana}>
+                  <KanaInput name="family_kana" required placeholder="ヤマダ" />
+                </Field>
+                <Field label={t.givenKana}>
+                  <KanaInput name="given_kana" required placeholder="タロウ" />
+                </Field>
+              </div>
+              <p className="-mt-2 text-xs text-foreground/60">{t.nameKanaHint}</p>
+            </>
+          ) : (
+            <div className="grid grid-cols-2 gap-3">
+              <Field label={t.givenName}>
+                <Input name="given_name" required autoComplete="given-name" />
+              </Field>
+              <Field label={t.familyName}>
+                <Input name="family_name" required autoComplete="family-name" />
+              </Field>
+            </div>
+          )}
           <Field label={t.email} hint={role === "coach" ? t.signup.eduNote : undefined}>
             <Input name="email" type="email" required autoComplete="email" />
           </Field>
           <Field label={t.password} hint={t.passwordHint}>
-            <Input name="password" type="password" required minLength={8} autoComplete="new-password" />
+            <PasswordInput
+              name="password"
+              required
+              minLength={8}
+              autoComplete="new-password"
+              showLabel={t.showPassword}
+              hideLabel={t.hidePassword}
+            />
+          </Field>
+          <Field label={t.passwordConfirm}>
+            <PasswordInput
+              name="password_confirm"
+              required
+              minLength={8}
+              autoComplete="new-password"
+              showLabel={t.showPassword}
+              hideLabel={t.hidePassword}
+            />
           </Field>
 
           {role === "student" && (
             <>
               <Field label={t.signup.birthDate}>
-                <Input
+                <DateSelect
                   name="birth_date"
-                  type="date"
                   required
+                  fromYear={1950}
+                  toYear={thisYear}
+                  labels={{ year: t.year, month: t.month, day: t.day }}
                 />
               </Field>
               <Field label={t.signup.graduationYear}>
-                <Input
-                  name="graduation_year"
-                  type="number"
-                  required
-                  min={thisYear - 1}
-                  max={thisYear + 6}
-                  defaultValue={thisYear + 1}
-                />
+                <YearInput name="graduation_year" required defaultValue={thisYear + 1} />
               </Field>
             </>
           )}
