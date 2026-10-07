@@ -6,7 +6,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
-import { buttonClass, Field, Input, Notice } from "./ui";
+import { buttonClass, DateSelect, Field, Input, Notice, PasswordInput } from "./ui";
 
 type SignupRole = "student" | "parent" | "coach";
 const signupRoles: SignupRole[] = ["student", "parent", "coach"];
@@ -55,6 +55,10 @@ export function SignupForm({ lang }: { lang: Locale }) {
     const form = new FormData(event.currentTarget);
     const value = (name: string) => String(form.get(name) ?? "").trim();
     const email = value("email");
+    if (form.get("password") !== form.get("password_confirm")) {
+      setError(t.passwordMismatch);
+      return;
+    }
     setPending(true);
     setError(null);
     const { data, error } = await getSupabase().auth.signUp({
@@ -119,16 +123,35 @@ export function SignupForm({ lang }: { lang: Locale }) {
             <Input name="email" type="email" required autoComplete="email" />
           </Field>
           <Field label={t.password} hint={t.passwordHint}>
-            <Input name="password" type="password" required minLength={8} autoComplete="new-password" />
+            <PasswordInput
+              name="password"
+              required
+              minLength={8}
+              autoComplete="new-password"
+              showLabel={t.showPassword}
+              hideLabel={t.hidePassword}
+            />
+          </Field>
+          <Field label={t.passwordConfirm}>
+            <PasswordInput
+              name="password_confirm"
+              required
+              minLength={8}
+              autoComplete="new-password"
+              showLabel={t.showPassword}
+              hideLabel={t.hidePassword}
+            />
           </Field>
 
           {role === "student" && (
             <>
               <Field label={t.signup.birthDate}>
-                <Input
+                <DateSelect
                   name="birth_date"
-                  type="date"
                   required
+                  fromYear={1950}
+                  toYear={thisYear}
+                  labels={{ year: t.year, month: t.month, day: t.day }}
                 />
               </Field>
               <Field label={t.signup.graduationYear}>
@@ -136,7 +159,7 @@ export function SignupForm({ lang }: { lang: Locale }) {
                   name="graduation_year"
                   type="number"
                   required
-                  min={thisYear - 1}
+                  min={2000}
                   max={thisYear + 6}
                   defaultValue={thisYear + 1}
                 />

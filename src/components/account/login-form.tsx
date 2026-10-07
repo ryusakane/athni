@@ -7,7 +7,7 @@ import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
 import { Shell } from "./signup-form";
-import { buttonClass, Field, Input, Notice } from "./ui";
+import { buttonClass, Field, Input, Notice, PasswordInput } from "./ui";
 
 export function LoginForm({ lang }: { lang: Locale }) {
   const t = getAccountDictionary(lang);
@@ -57,7 +57,13 @@ export function LoginForm({ lang }: { lang: Locale }) {
         </Field>
         {mode === "login" && (
           <Field label={t.password}>
-            <Input name="password" type="password" required autoComplete="current-password" />
+            <PasswordInput
+              name="password"
+              required
+              autoComplete="current-password"
+              showLabel={t.showPassword}
+              hideLabel={t.hidePassword}
+            />
           </Field>
         )}
         {message && <Notice tone={message.tone}>{message.text}</Notice>}

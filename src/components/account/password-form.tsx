@@ -6,7 +6,7 @@ import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
 import { Shell } from "./signup-form";
-import { buttonClass, Field, Input, Notice } from "./ui";
+import { buttonClass, Field, Notice, PasswordInput } from "./ui";
 import { useAccount } from "./use-account";
 
 // Landing page for the password reset email; the link signs the user in first.
@@ -41,7 +41,12 @@ export function PasswordForm({ lang }: { lang: Locale }) {
 
   async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
-    const password = String(new FormData(event.currentTarget).get("password") ?? "");
+    const form = new FormData(event.currentTarget);
+    const password = String(form.get("password") ?? "");
+    if (password !== form.get("password_confirm")) {
+      setMessage({ tone: "error", text: t.passwordMismatch });
+      return;
+    }
     setPending(true);
     const { error } = await getSupabase().auth.updateUser({ password });
     setPending(false);
@@ -56,7 +61,24 @@ export function PasswordForm({ lang }: { lang: Locale }) {
     <Shell title={t.newPassword.title}>
       <form onSubmit={onSubmit} className="max-w-md space-y-4">
         <Field label={t.password} hint={t.passwordHint}>
-          <Input name="password" type="password" required minLength={8} autoComplete="new-password" />
+          <PasswordInput
+            name="password"
+            required
+            minLength={8}
+            autoComplete="new-password"
+            showLabel={t.showPassword}
+            hideLabel={t.hidePassword}
+          />
+        </Field>
+        <Field label={t.passwordConfirm}>
+          <PasswordInput
+            name="password_confirm"
+            required
+            minLength={8}
+            autoComplete="new-password"
+            showLabel={t.showPassword}
+            hideLabel={t.hidePassword}
+          />
         </Field>
         {message && <Notice tone={message.tone}>{message.text}</Notice>}
         <button type="submit" disabled={pending} className={buttonClass}>
