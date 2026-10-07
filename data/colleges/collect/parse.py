@@ -37,12 +37,15 @@ def clean(s):
     return s or None
 
 
-def player(name, cy, hometown=None, prev=None, high_school=None):
+def player(name, cy, hometown=None, prev=None, high_school=None, major=None):
     code, rs = class_year(cy)
     hometown = clean(hometown)
-    return {"name": clean(name), "class_year": code, "redshirt": rs, "hometown": hometown,
-            "country": geo.country(hometown), "previous_school": clean(prev) or clean(high_school),
-            "class_raw": clean(cy)}
+    out = {"name": clean(name), "class_year": code, "redshirt": rs, "hometown": hometown,
+           "country": geo.country(hometown), "previous_school": clean(prev) or clean(high_school),
+           "class_raw": clean(cy)}
+    if clean(major):
+        out["major"] = clean(major)
+    return out
 
 
 def is_coach(title, kind=None):
@@ -61,7 +64,7 @@ def _season_key(s):
     return int(m.group(1)) if m else 0
 
 
-def parse_wmt(text, gender):
+def parse_wmt(text, gender, season=None):
     data = nuxt.decode(text)
     if data is None:
         return None
@@ -81,7 +84,12 @@ def parse_wmt(text, gender):
     if not rosters:
         return None
     golf = [r for r in rosters.values() if "golf" in (r["sport"] or "golf").lower()]
-    best = max(golf or rosters.values(), key=lambda r: (_season_key(r["season"]), len(r["players"])))
+    pool = golf or list(rosters.values())
+    if season:
+        pool = [r for r in pool if r["season"] == season]
+        if not pool:
+            return None
+    best = max(pool, key=lambda r: (_season_key(r["season"]), len(r["players"])))
     players, seen = [], set()
     for o in best["players"]:
         p = o["player"]
@@ -91,7 +99,8 @@ def parse_wmt(text, gender):
         seen.add(name)
         cl = o.get("class_level")
         cy = cl.get("name") if isinstance(cl, dict) else None
-        players.append(player(name, cy, p.get("hometown"), p.get("previous_school"), p.get("high_school")))
+        players.append(player(name, cy, p.get("hometown"), p.get("previous_school"), p.get("high_school"),
+                              o.get("major") or p.get("major")))
     staff, seen = [], set()
     for o in sorted(best["staff"], key=lambda o: int(o.get("order") or 0)):
         m = o["staff_member"]
@@ -125,7 +134,8 @@ def parse_sidearm(text, gender):
         home = _txt(it, ".sidearm-roster-player-hometown")
         hs = _txt(it, ".sidearm-roster-player-highschool")
         prev = _txt(it, ".sidearm-roster-player-previous-school")
-        players.append(player(name, cy, home, prev, hs))
+        major = _txt(it, ".sidearm-roster-player-major")
+        players.append(player(name, cy, home, prev, hs, major))
     coaches = []
     for it in soup.select("li.sidearm-roster-coach, .sidearm-roster-coaches tr"):
         name = _txt(it, ".sidearm-roster-coach-name") or _txt(it, "th a") or _txt(it, "td a")
@@ -146,7 +156,7 @@ def parse_sidearm(text, gender):
 
 HEAD = {"name": re.compile(r"^(full )?name$|^player$", re.I), "class": re.compile(r"^(cl\.?|class|yr\.?|year|academic year|elig\.?)$", re.I),
         "hometown": re.compile(r"hometown", re.I), "prev": re.compile(r"previous school|last school|prev\.? school|transfer", re.I),
-        "hs": re.compile(r"high school|^hs$", re.I),
+        "hs": re.compile(r"high school|^hs$", re.I), "major": re.compile(r"^(academic )?major$", re.I),
         "title": re.compile(r"^(title|position)$", re.I), "email": re.compile(r"e-?mail", re.I), "phone": re.compile(r"phone", re.I)}
 
 
@@ -181,7 +191,7 @@ def parse_tables(text, gender):
                     school = parts[1] if len(parts) > 1 else None
                     prev = prev if col.get("prev") != col["hometown"] else school
                     hs = hs if col.get("hs") != col["hometown"] else school
-                players.append(player(get("name"), get("class"), home, prev, hs))
+                players.append(player(get("name"), get("class"), home, prev, hs, get("major")))
             elif "title" in col:
                 email = next((a["href"][7:].split("?")[0] for a in tr.select('a[href^="mailto:"]')), None)
                 if is_coach(get("title")):
@@ -192,7 +202,7 @@ def parse_tables(text, gender):
 
 
 CARD_LABELS = {"Academic Year": "class", "Class": "class", "Hometown": "hometown", "Last School": "prev",
-               "Previous School": "prev", "High School": "hs"}
+               "Previous School": "prev", "High School": "hs", "Major": "major"}
 
 
 def parse_cards(text, gender):
@@ -213,17 +223,18 @@ def parse_cards(text, gender):
             continue  # a staff card
         seen.add(name)
         players.append(player(name, vals.get("class"), vals.get("hometown"),
-                              vals.get("prev"), vals.get("hs")))
+                              vals.get("prev"), vals.get("hs"), vals.get("major")))
     if not players:
         return None
     return {"season": None, "players": players, "coaches": [], "parser": "cards"}
 
 
-def parse_roster(text, gender):
+def parse_roster(text, gender, season=None):
+    """season ("2016-17") keeps a WMT page to that season's roster instead of the newest one."""
     found = []
     for fn in (parse_wmt, parse_sidearm, parse_tables, parse_cards):
         try:
-            r = fn(text, gender)
+            r = fn(text, gender, season) if fn is parse_wmt else fn(text, gender)
         except Exception as e:  # keep going with the next parser
             r = None
         if r and r["players"]:

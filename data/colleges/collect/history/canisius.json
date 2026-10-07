@@ -1,0 +1,988 @@
+{
+ "slug": "canisius",
+ "checked_at": "2026-10-06",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gogriffs.com/sports/mens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Conor Balen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orchard Park, N.Y.",
+       "country": "US",
+       "previous_school": "Orchard Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/conor-balen/9095"
+      },
+      {
+       "name": "Chase Burgess",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Petitcodiac, New Brunswick",
+       "country": "CA",
+       "previous_school": "Petitcodiac Regional",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/chase-burgess/9096"
+      },
+      {
+       "name": "Adam Cichowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elma, N.Y.",
+       "country": "US",
+       "previous_school": "Iroquois",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/adam-cichowski/9101"
+      },
+      {
+       "name": "Jake Dantonio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lancaster, N.Y.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jake-dantonio/9097"
+      },
+      {
+       "name": "Blake Furtney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pelham, Ontario",
+       "country": "CA",
+       "previous_school": "E.L. Crossley Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/blake-furtney/9100"
+      },
+      {
+       "name": "Alex Schickling",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamburg, N.Y.",
+       "country": "US",
+       "previous_school": "Frontier",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/alex-schickling/9098"
+      },
+      {
+       "name": "Mikey Takacs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Iowa City, Iowa",
+       "country": "US",
+       "previous_school": "Regina Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mikey-takacs/9099"
+      },
+      {
+       "name": "Cole Thompson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beamsville, Ontario",
+       "country": "CA",
+       "previous_school": "Blessed Trinity",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/cole-thompson/9102"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/1392"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Conor Balen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orchard Park, N.Y.",
+       "country": "US",
+       "previous_school": "Orchard Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/conor-balen/8592"
+      },
+      {
+       "name": "Sean Barrett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Kenmore East",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/sean-barrett/8593"
+      },
+      {
+       "name": "Chase Burgess",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Petitcodiac, New Brunswick",
+       "country": "CA",
+       "previous_school": "Petitcodiac Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/chase-burgess/8599"
+      },
+      {
+       "name": "Jake Dantonio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lancaster, N.Y.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jake-dantonio/8594"
+      },
+      {
+       "name": "Ryan Edholm",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Sweet Home",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-edholm/8595"
+      },
+      {
+       "name": "Joey Maher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Geneva, N.Y.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/joey-maher/8596"
+      },
+      {
+       "name": "Ben Ramold",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ben-ramold/8669"
+      },
+      {
+       "name": "Alex Schickling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hamburg, N.Y.",
+       "country": "US",
+       "previous_school": "Frontier",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/alex-schickling/8597"
+      },
+      {
+       "name": "Mikey Takacs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Iowa City, Iowa",
+       "country": "US",
+       "previous_school": "Regina Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mikey-takacs/8598"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/1300"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Conor Balen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orchard Park, N.Y.",
+       "country": "US",
+       "previous_school": "Orchard Park",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/conor-balen/7865"
+      },
+      {
+       "name": "Sean Barrett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Kenmore East",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/sean-barrett/7870"
+      },
+      {
+       "name": "Jake Dantonio",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lancaster, N.Y.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jake-dantonio/7872"
+      },
+      {
+       "name": "Ryan Edholm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Sweet Home",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-edholm/7867"
+      },
+      {
+       "name": "Joey Maher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Geneva, N.Y.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/joey-maher/7868"
+      },
+      {
+       "name": "Ben Ramold",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ben-ramold/7869"
+      },
+      {
+       "name": "Alex Schickling",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamburg, N.Y.",
+       "country": "US",
+       "previous_school": "Frontier",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/alex-schickling/7873"
+      },
+      {
+       "name": "Mikey Takacs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Iowa City, Iowa",
+       "country": "US",
+       "previous_school": "Regina Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mikey-takacs/7871"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/1192"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Conor Balen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orchard Park, N.Y.",
+       "country": "US",
+       "previous_school": "Orchard Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/conor-balen/7389"
+      },
+      {
+       "name": "Shane Broad",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alden, N.Y.",
+       "country": "US",
+       "previous_school": "St. Joseph's",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/shane-broad/7380"
+      },
+      {
+       "name": "Mike Douglas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oswego, N.Y.",
+       "country": "US",
+       "previous_school": "Oswego",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mike-douglas/7436"
+      },
+      {
+       "name": "Ryan Edholm",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Sweet Home",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-edholm/7381"
+      },
+      {
+       "name": "Joey Maher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Geneva, N.Y.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/joey-maher/7382"
+      },
+      {
+       "name": "Ben Ramold",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ben-ramold/7383"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/1116"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Shane Broad",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alden, N.Y.",
+       "country": "US",
+       "previous_school": "St. Joseph's",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/shane-broad/6960"
+      },
+      {
+       "name": "Mike Donner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buffalo, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mike-donner/6961"
+      },
+      {
+       "name": "Ryan Edholm",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Sweet Home",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-edholm/7018"
+      },
+      {
+       "name": "Joey Maher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneva, N.Y.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/joey-maher/6965"
+      },
+      {
+       "name": "Ryan Misko",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Erie Cathedral Prep",
+       "class_raw": "Gr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-misko/6963"
+      },
+      {
+       "name": "Ben Ramold",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ben-ramold/6966"
+      },
+      {
+       "name": "Michael Wells",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/michael-wells/6964"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/1041"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Shane Broad",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alden, N.Y.",
+       "country": "US",
+       "previous_school": "St. Joseph's",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/shane-broad/6730"
+      },
+      {
+       "name": "Jaret Chipman",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Niagara Falls, Ontario",
+       "country": "CA",
+       "previous_school": "St. Michael Catholic",
+       "class_raw": "Gr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jaret-chipman/6731"
+      },
+      {
+       "name": "Mike Donner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buffalo, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mike-donner/6732"
+      },
+      {
+       "name": "Matt Genaway",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Darien Center, N.Y.",
+       "country": "US",
+       "previous_school": "Alexander",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/matt-genaway/6733"
+      },
+      {
+       "name": "David Hanes",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Elma, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Gr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/david-hanes/6734"
+      },
+      {
+       "name": "Luke Misko",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Erie Cathedral Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/luke-misko/6738"
+      },
+      {
+       "name": "Ryan Misko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Erie Cathedral Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-misko/6735"
+      },
+      {
+       "name": "Patrick Weir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Canisius",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/patrick-weir/6736"
+      },
+      {
+       "name": "Michael Wells",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/michael-wells/6737"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/1000"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Shane Broad",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alden, N.Y.",
+       "country": "US",
+       "previous_school": "St. Joseph's",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/shane-broad/5779"
+      },
+      {
+       "name": "Jaret Chipman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Niagara Falls, Ontario",
+       "country": "CA",
+       "previous_school": "St. Michael Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jaret-chipman/5772"
+      },
+      {
+       "name": "Mike Donner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buffalo, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mike-donner/5773"
+      },
+      {
+       "name": "Matt Genaway",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Darien Center, N.Y.",
+       "country": "US",
+       "previous_school": "Alexander",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/matt-genaway/5774"
+      },
+      {
+       "name": "David Hanes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elma, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/david-hanes/5775"
+      },
+      {
+       "name": "Ryan Misko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Erie Cathedral Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-misko/5776"
+      },
+      {
+       "name": "Patrick Weir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Canisius",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/patrick-weir/5777"
+      },
+      {
+       "name": "Michael Wells",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/michael-wells/5778"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/874"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jaret Chipman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Niagara Falls, Ontario",
+       "country": "CA",
+       "previous_school": "St. Michael Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jaret-chipman/5186"
+      },
+      {
+       "name": "John Dantonio",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lancaster, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/john-dantonio/5187"
+      },
+      {
+       "name": "Mike Donner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buffalo, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mike-donner/5294"
+      },
+      {
+       "name": "Matt Genaway",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Darien Center, N.Y.",
+       "country": "US",
+       "previous_school": "Alexander",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/matt-genaway/5188"
+      },
+      {
+       "name": "David Hanes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elma, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/david-hanes/5189"
+      },
+      {
+       "name": "Ryan Misko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Erie Cathedral Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-misko/5190"
+      },
+      {
+       "name": "Patrick Weir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Canisius",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/patrick-weir/5191"
+      },
+      {
+       "name": "Michael Wells",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/michael-wells/5192"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/752"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jaret Chipman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Niagara Falls, Ontario",
+       "country": "CA",
+       "previous_school": "St. Michael Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jaret-chipman/4787"
+      },
+      {
+       "name": "John Dantonio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lancaster, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/john-dantonio/4788"
+      },
+      {
+       "name": "Matt Genaway",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Darien Center, N.Y.",
+       "country": "US",
+       "previous_school": "Alexander",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/matt-genaway/4793"
+      },
+      {
+       "name": "David Hanes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elma, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/david-hanes/4790"
+      },
+      {
+       "name": "Mark Lesinski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mark-lesinski/4791"
+      },
+      {
+       "name": "Ryan Misko",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Erie Cathedral Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/ryan-misko/4792"
+      },
+      {
+       "name": "Patrick Weir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Canisius",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/patrick-weir/5091"
+      },
+      {
+       "name": "Michael Wells",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/michael-wells/4794"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/678"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gogriffs.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jaret Chipman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Niagara Falls, Ontario",
+       "country": "CA",
+       "previous_school": "St. Michael Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/jaret-chipman/2765"
+      },
+      {
+       "name": "Cory Cullen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buffalo, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/cory-cullen/2766"
+      },
+      {
+       "name": "John Dantonio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lancaster, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "So.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/john-dantonio/2767"
+      },
+      {
+       "name": "Michael Davern",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buffalo, N.Y.",
+       "country": "US",
+       "previous_school": "Kenmore East",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/michael-davern/2768"
+      },
+      {
+       "name": "David Hanes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elma, N.Y.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/david-hanes/2769"
+      },
+      {
+       "name": "Mark Lesinski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Getzville, N.Y.",
+       "country": "US",
+       "previous_school": "Williamsville North",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/mark-lesinski/2770"
+      },
+      {
+       "name": "Adam Weir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tonawanda, N.Y.",
+       "country": "US",
+       "previous_school": "Canisius",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/adam-weir/2771"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Todd Hummel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriffs.com/sports/mens-golf/roster/coaches/todd-hummel/295"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gogriffs.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  }
+ ]
+}

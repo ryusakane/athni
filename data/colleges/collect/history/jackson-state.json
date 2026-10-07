@@ -1,0 +1,401 @@
+{
+ "slug": "jackson-state",
+ "checked_at": "2026-10-06",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://gojsutigers.com/sports/mgolf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://gojsutigers.com/sports/mgolf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "JD Berndt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gadsden, Ala.",
+       "country": "US",
+       "previous_school": "Westbrook Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/jd-berndt/4596"
+      },
+      {
+       "name": "Trace Carpenter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kosciusko, Miss.",
+       "country": "US",
+       "previous_school": "East Mississippi CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/trace-carpenter/4597"
+      },
+      {
+       "name": "Ekam Singh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Academy of Art",
+       "class_raw": "So.",
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/ekam-singh/4599"
+      },
+      {
+       "name": "Kaden Tibbetts",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tahlequah, Okla.",
+       "country": "US",
+       "previous_school": "Tahlequah HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/kaden-tibbetts/4600"
+      },
+      {
+       "name": "Edward Wallace",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "Berea HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/edward-wallace/4601"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rob Ford II",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/coaches/rob-ford-ii/654"
+      },
+      {
+       "name": "Trinity Ahing",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gojsutigers.com/sports/mens-golf/roster/coaches/trinity-ahing/655"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://gojsutigers.com/sports/wgolf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://gojsutigers.com/sports/wgolf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddy Beeching",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Camberley, Surrey, England",
+       "country": "GB",
+       "previous_school": "Eastern Michigan",
+       "class_raw": "So.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/maddy-beeching/4606"
+      },
+      {
+       "name": "Jannel Calixterio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Houston, Texas",
+       "country": "US",
+       "previous_school": "Academy of Art",
+       "class_raw": "So.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/jannel-calixterio/4607"
+      },
+      {
+       "name": "Tihun Chapman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ellenwood, Ga.",
+       "country": "US",
+       "previous_school": "Druid Hills HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/tihun-chapman/4608"
+      },
+      {
+       "name": "Isabella Christy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paintsville, Ky.",
+       "country": "US",
+       "previous_school": "Academy of Art",
+       "class_raw": "So.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/isabella-christy/4609"
+      },
+      {
+       "name": "Simone Horton-Parham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Ala.",
+       "country": "US",
+       "previous_school": "James Clemens HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/simone-horton-parham/4612"
+      },
+      {
+       "name": "Josefina Serres-Scheffer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Necochea, Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Oklahoma Baptist",
+       "class_raw": "Jr.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/josefina-serres-scheffer/4610"
+      },
+      {
+       "name": "Alex Washington",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roswell, Ga.",
+       "country": "US",
+       "previous_school": "Fellowship Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gojsutigers.com/sports/womens-golf/roster/alex-washington/4611"
+      }
+     ],
+     "coaches": []
+    }
+   }
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2023",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2022-23",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2022",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2018",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/mgolf/roster/season/2016",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2023",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2022-23",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2022",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2018",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://gojsutigers.com/sports/wgolf/roster/season/2016",
+   "status": 200
+  }
+ ]
+}

@@ -1,0 +1,881 @@
+{
+ "slug": "new-haven",
+ "checked_at": "2026-10-06",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://newhavenchargers.com/sports/mens-golf",
+   "seasons": {
+    "2024-25": {
+     "url": "https://newhavenchargers.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aaron Browning",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Cuthbertson",
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/aaron-browning/15176"
+      },
+      {
+       "name": "Frank Ferru, Jr.",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woodstock, Ill.",
+       "country": "US",
+       "previous_school": "Woodstock North",
+       "class_raw": "So.",
+       "major": "Electrical & Computer Engineering",
+       "profile_url": null
+      },
+      {
+       "name": "Hermann Gavilan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/hermann-gavilan/15178"
+      },
+      {
+       "name": "Nick Gladden",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westampton, N.J.",
+       "country": "US",
+       "previous_school": "Rancocas Valley",
+       "class_raw": "Sr.",
+       "major": "Finance & Financial Analytics",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/nick-gladden/15179"
+      },
+      {
+       "name": "Jamie Hernandez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palma de Mallorca, Spain",
+       "country": "ES",
+       "previous_school": "Queens College",
+       "class_raw": "So.",
+       "major": "Engineering",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/jamie-hernandez/15184"
+      },
+      {
+       "name": "Alexander Mitrovich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spring Valley, Calif.",
+       "country": "US",
+       "previous_school": "Valhalla",
+       "class_raw": "Jr.",
+       "major": "Clinical Psychology",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/alexander-mitrovich/15181"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Evan DeLuca",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/coaches/evan-deluca/1791"
+      },
+      {
+       "name": "Sebastian Trujillo",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/coaches/sebastian-trujillo/1779"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://newhavenchargers.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aaron Browning",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Cuthbertson",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/aaron-browning/14082"
+      },
+      {
+       "name": "Aissa El Khadri",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kingdom of Morocco",
+       "country": "MA",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "So.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/aissa-el-khadri/14080"
+      },
+      {
+       "name": "Frank Ferru, Jr.",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Woodstock, Ill.",
+       "country": "US",
+       "previous_school": "Woodstock North",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Hermann Gavilan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/hermann-gavilan/14084"
+      },
+      {
+       "name": "Nick Gladden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Westampton, N.J.",
+       "country": "US",
+       "previous_school": "Rancocas Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/nick-gladden/14085"
+      },
+      {
+       "name": "Tyler Pickman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cheshire, Conn.",
+       "country": "US",
+       "previous_school": "Cheshire",
+       "class_raw": "Sr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/tyler-pickman/14081"
+      },
+      {
+       "name": "Ben Rich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/ben-rich/14086"
+      },
+      {
+       "name": "Jonathan Riddle",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Norwalk, Conn.",
+       "country": "US",
+       "previous_school": "Archbishop Stepinac",
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/jonathan-riddle/14087"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Cole Richter",
+       "title": "Interim Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/coaches/cole-richter/1759"
+      },
+      {
+       "name": "Sebastian Trujillo",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/coaches/sebastian-trujillo/1631"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://newhavenchargers.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Santiago Cervantes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Colegio Vista Hermosa",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/santiago-cervantes/13262"
+      },
+      {
+       "name": "Nicholas Coffinger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenwich, N.Y.",
+       "country": "US",
+       "previous_school": "Schuylerville",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/nicholas-coffinger/13263"
+      },
+      {
+       "name": "Aissa El Khadri",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kingdom of Morocco",
+       "country": "MA",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/aissa-el-khadri/13264"
+      },
+      {
+       "name": "Andrew Mahr",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/andrew-mahr/13260"
+      },
+      {
+       "name": "Tyler Pickman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cheshire, Conn.",
+       "country": "US",
+       "previous_school": "Cheshire",
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/tyler-pickman/13261"
+      },
+      {
+       "name": "Jacob Vougiatzis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tenafly, N.J.",
+       "country": "US",
+       "previous_school": "Tenafly",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/jacob-vougiatzis/13265"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Ward",
+       "title": "Head Men's & Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/mens-golf/roster/coaches/matt-ward/1463"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://newhavenchargers.com/sports/womens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://newhavenchargers.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gabriela Aya",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Anglo Colobiano",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/gabriela-aya/16409"
+      },
+      {
+       "name": "Erin Earl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Saffron Walden County Day",
+       "class_raw": "Sr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/erin-earl/16402"
+      },
+      {
+       "name": "Ella Hammond-Baveystock",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Crowthorne, United Kingdom",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/ella-hammond-baveystock/16410"
+      },
+      {
+       "name": "Abigail Hepler",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Poughkeepsie, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/abigail-hepler/16403"
+      },
+      {
+       "name": "Elizabeth Malcolm",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Parker, Co.",
+       "country": "US",
+       "previous_school": "Chaparral",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/elizabeth-malcolm/16408"
+      },
+      {
+       "name": "Sophia Silva",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Incarnate Word",
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/sophia-silva/16405"
+      },
+      {
+       "name": "Isabella Thomas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oxford, Conn.",
+       "country": "US",
+       "previous_school": "Laurelton Hall",
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/isabella-thomas/16406"
+      },
+      {
+       "name": "Cloe Wight",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jackson, N.J.",
+       "country": "US",
+       "previous_school": "Jackson Memorial",
+       "class_raw": "So.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/cloe-wight/16407"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Evan DeLuca",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/evan-deluca/1922"
+      },
+      {
+       "name": "Odette Font Garcia",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/odette-font-garcia/1923"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://newhavenchargers.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sofia Campo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pereira, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Chemical & Biomolecular Engineering",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/sofia-campo/15175"
+      },
+      {
+       "name": "Erin Earl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Saffron Walden County Day",
+       "class_raw": "Sr.",
+       "major": "Interior Design - Pre-Architecture",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/erin-earl/15167"
+      },
+      {
+       "name": "Wynter Flores",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Incarnate Word",
+       "class_raw": "Gr.",
+       "major": "Sport Management MS",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/wynter-flores/15168"
+      },
+      {
+       "name": "Mackenzie Gardner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Haven, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/mackenzie-gardner/15169"
+      },
+      {
+       "name": "Abigail Hepler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Poughkeepsie, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "major": "Forensic Science - Biology",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/abigail-hepler/15170"
+      },
+      {
+       "name": "Danielle Jastrab",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Camino, Calif.",
+       "country": "US",
+       "previous_school": "Eldorado",
+       "class_raw": "Jr.",
+       "major": "Biology",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/danielle-jastrab/15171"
+      },
+      {
+       "name": "Sophia Silva",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Incarnate Word",
+       "class_raw": "So.",
+       "major": "Fire Science",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/sophia-silva/15172"
+      },
+      {
+       "name": "Isabella Thomas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oxford, Conn.",
+       "country": "US",
+       "previous_school": "Laurelton Hall",
+       "class_raw": "So.",
+       "major": "Finance & Financial Analytics",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/isabella-thomas/15173"
+      },
+      {
+       "name": "Cloe Wight",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jackson, N.J.",
+       "country": "US",
+       "previous_school": "Jackson Memorial",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/cloe-wight/15174"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Evan DeLuca",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/evan-deluca/1790"
+      },
+      {
+       "name": "Sebastian Trujillo",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/sebastian-trujillo/1777"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://newhavenchargers.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Hannah Catallo-Stooks",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Pittsford, N.Y.",
+       "country": "US",
+       "previous_school": "Pittsford Sutherland",
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/hannah-catallo-stooks/14088"
+      },
+      {
+       "name": "Sofia Cova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": "German School of Rome",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/sofia-cova/14092"
+      },
+      {
+       "name": "Erin Earl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Saffron Walden County Day",
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/erin-earl/14093"
+      },
+      {
+       "name": "Wynter Flores",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Incarnate Word",
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/wynter-flores/14094"
+      },
+      {
+       "name": "Mackenzie Gardner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Haven, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/mackenzie-gardner/14089"
+      },
+      {
+       "name": "Abigail Hepler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Poughkeepsie, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/abigail-hepler/14090"
+      },
+      {
+       "name": "Danielle Jastrab",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Camino, Calif.",
+       "country": "US",
+       "previous_school": "Eldorado",
+       "class_raw": "So.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/danielle-jastrab/14091"
+      },
+      {
+       "name": "Sophia Silva",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Incarnate Word",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/sophia-silva/14095"
+      },
+      {
+       "name": "Isabella Thomas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oxford, Conn.",
+       "country": "US",
+       "previous_school": "Laurelton Hall",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/isabella-thomas/14096"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Cole Richter",
+       "title": "Interim Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/cole-richter/1760"
+      },
+      {
+       "name": "Sebastian Trujillo",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/sebastian-trujillo/1632"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://newhavenchargers.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Hannah Catallo-Stooks",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Pittsford, N.Y.",
+       "country": "US",
+       "previous_school": "Pittsford Sutherland",
+       "class_raw": "Gr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/hannah-catallo-stooks/13277"
+      },
+      {
+       "name": "Emily Florin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monroe, Conn.",
+       "country": "US",
+       "previous_school": "Masuk",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/emily-florin/13273"
+      },
+      {
+       "name": "Mackenzie Gardner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Haven, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/mackenzie-gardner/13272"
+      },
+      {
+       "name": "Abigail Hepler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Poughkeepsie, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/abigail-hepler/13275"
+      },
+      {
+       "name": "Danielle Jastrab",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camino, Calif.",
+       "country": "US",
+       "previous_school": "Eldorado",
+       "class_raw": "Fr.",
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/danielle-jastrab/13274"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Ward",
+       "title": "Head Men's & Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://newhavenchargers.com/sports/womens-golf/roster/coaches/matt-ward/1464"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2025",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2025",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2016",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/season/2016",
+   "status": 200
+  }
+ ]
+}

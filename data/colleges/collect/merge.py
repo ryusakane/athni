@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Write data/colleges/raw/d1/<slug>.json from schools.json + sites/<slug>.json (+ alumni/*.json).
+"""Write data/colleges/raw/d1/<slug>.json from schools.json + sites/<slug>.json (+ alumni/*.json, history/<slug>.json).
 
 Keeps hand-entered values already in a raw file (nickname, name_ja, city, extra aliases) and
 replaces collected fields. Run after schools.py and collect_sites.py:
@@ -37,6 +37,55 @@ def program_note(site, gender):
     return UNREAD_NOTE
 
 
+def key(name):
+    return re.sub(r"[^a-z]", "", (name or "").lower())
+
+
+def load_history():
+    """slug → gender → {"players": {key: person}, "coaches": {key: person}} from history/<slug>.json.
+
+    A person keeps the newest season's details (class, major, hometown, profile) and every season listed."""
+    out = {}
+    for path in glob.glob(os.path.join(HERE, "history", "*.json")):
+        h = load(path, {})
+        for prog in h.get("programs", []):
+            agg = out.setdefault(h["slug"], {}).setdefault(prog["gender"], {"players": {}, "coaches": {}})
+            for season in sorted(prog.get("seasons", {}), reverse=True):
+                page = prog["seasons"][season]
+                for kind, rows in (("players", page["players"]), ("coaches", page["coaches"])):
+                    for r in rows:
+                        k = key(r["name"])
+                        if not k:
+                            continue
+                        person = agg[kind].setdefault(k, {"name": r["name"], "seasons": [], "source_url": page["url"]})
+                        if season not in person["seasons"]:
+                            person["seasons"].append(season)
+                        for f in (["class_year", "major", "hometown", "country", "previous_school", "profile_url"]
+                                  if kind == "players" else ["title", "profile_url"]):
+                            if person.get(f) is None and r.get(f):
+                                person[f] = r[f]
+    for progs in out.values():
+        for agg in progs.values():
+            for kind in agg:
+                for person in agg[kind].values():
+                    person["seasons"].sort()
+    return out
+
+
+def career(person, slug, gender, history, current):
+    """Estimated end of a former player's time on the team: graduated, transferred (to another D1 team) or left."""
+    last = person["seasons"][-1]
+    for other, progs in history.items():
+        later = progs.get(gender, {}).get("players", {}).get(key(person["name"]))
+        if other != slug and later and later["seasons"][0] > last:
+            return "transferred", other
+    if key(person["name"]) in current:
+        return "current", None
+    if person.get("class_year") in ("SR", "GR"):
+        return "graduated", None
+    return "left", None
+
+
 def load(path, default=None):
     if not os.path.exists(path):
         return default
@@ -52,6 +101,11 @@ def main():
         for a in load(path, []):
             alumni.setdefault((a["slug"], a["gender"]), []).append({k: a.get(k) for k in
                                                                    ["name", "tours", "final_college_year", "country", "source_url"]})
+    links = load(os.path.join(HERE, "alumni", "tour_links.json"), {})
+    for rows in alumni.values():
+        for a in rows:
+            a["tour_links"] = links.get(a["source_url"], [])
+    history = load_history()
     os.makedirs(RAW, exist_ok=True)
     counts = {"files": 0, "rosters": 0, "coaches": 0}
     for s in schools:
@@ -85,7 +139,7 @@ def main():
             for k in ["golf_url", "roster_url", "coaches_url", *SOCIAL, "roster_season", "roster_source_url", "collected_at"]:
                 prog[k] = sp.get(k) if sp.get(k) is not None else op.get(k)
             roster = sp.get("roster") or op.get("roster") or []
-            prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school", "profile_url"]}
+            prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school", "major", "profile_url"]}
                               for r in roster]
             coaches = sp.get("coaches") or op.get("coaches") or []
             prog["coaches"] = []
@@ -96,6 +150,35 @@ def main():
                     continue
                 prog["coaches"].append(c)
             prog["alumni_pros"] = alumni.get((s["slug"], g), op.get("alumni_pros", []))
+            hist = history.get(s["slug"], {}).get(g)
+            if hist:
+                current = {key(r["name"]) for r in prog["roster"]}
+                for r in prog["roster"]:
+                    # majors are on past-season pages more often than on the current one
+                    r["major"] = r.get("major") or hist["players"].get(key(r["name"]), {}).get("major")
+                pros = {key(a["name"]): a for a in prog["alumni_pros"]}
+                former = []
+                newest = max((p["seasons"][-1] for p in hist["players"].values()), default=None)
+                for k, person in hist["players"].items():
+                    if not prog["roster"] and person["seasons"][-1] == newest:
+                        continue  # no current roster to tell whether they are still on the team
+                    status, to = career(person, s["slug"], g, history, current)
+                    if status == "current":
+                        continue
+                    pro = pros.get(k)
+                    former.append({**{f: person.get(f) for f in ["name", "seasons", "class_year", "major", "hometown", "country",
+                                                                "previous_school", "profile_url", "source_url"]},
+                                   "career_status": status, "transferred_to": to,
+                                   "tour_links": pro["tour_links"] if pro else []})
+                prog["former_players"] = sorted(former, key=lambda p: (p["seasons"][-1], p["name"]), reverse=True)
+                now = {key(c["name"]) for c in prog["coaches"]}
+                prog["past_coaches"] = sorted(
+                    ({f: c.get(f) for f in ["name", "title", "seasons", "profile_url", "source_url"]}
+                     for k, c in hist["coaches"].items() if k not in now),
+                    key=lambda c: (c["seasons"][-1], c["name"]), reverse=True)
+            else:
+                prog["former_players"] = op.get("former_players", [])
+                prog["past_coaches"] = op.get("past_coaches", [])
             if status in BLOCKED_NOTE and not prog["roster"]:
                 prog["collection_note"] = BLOCKED_NOTE[status]
             elif not prog["roster"] and not prog["coaches"]:

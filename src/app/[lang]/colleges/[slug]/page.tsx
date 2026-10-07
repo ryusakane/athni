@@ -4,8 +4,9 @@ import { ProgramOrder } from "@/components/colleges/program-order";
 import { Stat } from "@/components/golf/stat";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { CLASS_YEARS, collegeSlugs, getCollege, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
-import type { Program } from "@/lib/colleges/types";
+import Link from "next/link";
+import { CLASS_YEARS, collegeSlugs, getCollege, listColleges, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
+import type { Program, TourLink } from "@/lib/colleges/types";
 import { formatDate } from "@/lib/golf/format";
 
 export const dynamicParams = false;
@@ -41,6 +42,38 @@ function PersonLink({ href, children }: { href: string | null | undefined; child
   return href ? <ExternalLink href={href}>{children}</ExternalLink> : <>{children}</>;
 }
 
+/** Rankings get their short names; tours keep theirs. */
+const TOUR_LABELS: Record<string, string> = {
+  "Official World Golf Ranking": "OWGR",
+  "Women's World Golf Rankings": "Rolex Rankings",
+};
+
+function TourLinks({ links }: { links: TourLink[] }) {
+  return (
+    <div className="flex flex-wrap gap-1.5">
+      {links.map((l) => (
+        <a
+          key={l.tour}
+          href={l.url}
+          rel="noopener"
+          target="_blank"
+          className="whitespace-nowrap rounded-full border border-black/15 px-2 py-0.5 text-xs hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/10"
+        >
+          {TOUR_LABELS[l.tour] ?? l.tour} ↗
+        </a>
+      ))}
+    </div>
+  );
+}
+
+/** "2016-17" → "2016–17"; a run of seasons → "2016–17 – 2019–20". */
+function seasonSpan(seasons: string[]) {
+  const fmt = (s: string) => s.replace("-", "–");
+  const first = seasons[0];
+  const last = seasons.at(-1)!;
+  return first === last ? fmt(first) : `${fmt(first)} – ${fmt(last)}`;
+}
+
 const socials = [
   ["instagram_url", "Instagram"],
   ["x_url", "X"],
@@ -56,6 +89,7 @@ export default async function CollegePage({ params }: PageProps<"/[lang]/college
   if (!college) notFound();
   const dict = getDictionary(lang);
   const t = dict.college;
+  const names = Object.fromEntries((await listColleges()).colleges.map((c) => [c.slug, c.short_name ?? c.name_en]));
 
   const name = lang === "ja" && college.name_ja ? college.name_ja : college.name_en;
   const place = [college.city, college.state].filter(Boolean).join(", ");
@@ -83,7 +117,7 @@ export default async function CollegePage({ params }: PageProps<"/[lang]/college
         labels={{ male: dict.colleges.men, female: dict.colleges.women }}
       >
         {college.programs.map((program) => (
-          <ProgramSection key={program.gender} lang={lang} program={program} />
+          <ProgramSection key={program.gender} lang={lang} program={program} names={names} />
         ))}
       </ProgramOrder>
 
@@ -92,7 +126,15 @@ export default async function CollegePage({ params }: PageProps<"/[lang]/college
   );
 }
 
-function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program }) {
+function ProgramSection({
+  lang,
+  program,
+  names,
+}: {
+  lang: "en" | "ja";
+  program: Program;
+  names: Record<string, string>;
+}) {
   const dict = getDictionary(lang);
   const t = dict.college;
   const summary = rosterSummary(program);
@@ -103,6 +145,8 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
   ] as const;
   const rankings = [...program.rankings].sort((a, b) => b.as_of.localeCompare(a.as_of));
   const alumniYears = program.alumni_pros.some((a) => a.final_college_year != null);
+  const majors = program.roster.some((p) => p.major);
+  const formerMajors = program.former_players.some((p) => p.major);
 
   return (
     <section data-gender={program.gender} className="mt-12 border-t border-black/10 pt-8 dark:border-white/10">
@@ -208,6 +252,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
                     <th className={th}>{t.class}</th>
                     <th className={th}>{t.hometown}</th>
                     <th className={th}>{t.previousSchool}</th>
+                    {majors && <th className={th}>{t.major}</th>}
                   </tr>
                 </thead>
                 <tbody>
@@ -233,6 +278,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
                         </td>
                         <td className={`${td} text-foreground/70`}>{p.hometown ?? "—"}</td>
                         <td className={`${td} text-foreground/70`}>{p.previous_school ?? "—"}</td>
+                        {majors && <td className={`${td} text-foreground/70`}>{p.major ?? "—"}</td>}
                       </tr>
                     ))}
                 </tbody>
@@ -252,7 +298,7 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
               <thead className="border-b border-black/10 text-left text-foreground/60 dark:border-white/10">
                 <tr>
                   <th className={th}>{t.name}</th>
-                  <th className={th}>{t.tour}</th>
+                  <th className={th}>{t.tourProfiles}</th>
                   {alumniYears && <th className={thNum}>{t.lastYear}</th>}
                 </tr>
               </thead>
@@ -262,7 +308,13 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
                     <td className={`${td} font-medium`}>
                       {a.source_url ? <ExternalLink href={a.source_url}>{a.name}</ExternalLink> : a.name}
                     </td>
-                    <td className={`${td} text-foreground/70`}>{a.tours.join(", ") || "—"}</td>
+                    <td className={td}>
+                      {a.tour_links.length > 0 ? (
+                        <TourLinks links={a.tour_links} />
+                      ) : (
+                        <span className="text-foreground/70">{a.tours.join(", ") || "—"}</span>
+                      )}
+                    </td>
                     {alumniYears && (
                       <td className={`${td} text-right tabular-nums`}>{a.final_college_year ?? "—"}</td>
                     )}
@@ -273,6 +325,89 @@ function ProgramSection({ lang, program }: { lang: "en" | "ja"; program: Program
           </div>
         )}
       </div>
+
+      <div className="mt-8">
+        <h3 className="font-semibold">{t.formerPlayers}</h3>
+        {program.former_players.length === 0 ? (
+          <p className="mt-2 text-sm text-foreground/60">{t.noFormer}</p>
+        ) : (
+          <>
+            <p className="mt-1 text-xs text-foreground/60">{t.formerNote}</p>
+            <div className="mt-2 overflow-x-auto">
+              <table className="w-full text-sm">
+                <thead className="border-b border-black/10 text-left text-foreground/60 dark:border-white/10">
+                  <tr>
+                    <th className={th}>{t.player}</th>
+                    <th className={th}>{t.seasons}</th>
+                    {formerMajors && <th className={th}>{t.major}</th>}
+                    <th className={th}>{t.hometown}</th>
+                    <th className={th}>{t.afterCollege}</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {program.former_players.map((p) => (
+                    <tr
+                      key={p.name}
+                      className={`border-b border-black/5 align-top dark:border-white/5 ${p.country === "JP" ? "bg-red-500/5" : ""}`}
+                    >
+                      <td className={`${td} font-medium`}>
+                        <PersonLink href={p.profile_url ?? p.source_url}>{p.name}</PersonLink>
+                      </td>
+                      <td className={`${td} whitespace-nowrap tabular-nums`}>{seasonSpan(p.seasons)}</td>
+                      {formerMajors && <td className={`${td} text-foreground/70`}>{p.major ?? "—"}</td>}
+                      <td className={`${td} text-foreground/70`}>{p.hometown ?? "—"}</td>
+                      <td className={td}>
+                        <div className="text-foreground/70">
+                          {p.career_status === "transferred" && p.transferred_to ? (
+                            <Link href={`/${lang}/colleges/${p.transferred_to}/`} className={link}>
+                              {t.transferredTo(names[p.transferred_to] ?? p.transferred_to)}
+                            </Link>
+                          ) : (
+                            t.career[p.career_status]
+                          )}
+                        </div>
+                        {p.tour_links.length > 0 && (
+                          <div className="mt-1">
+                            <TourLinks links={p.tour_links} />
+                          </div>
+                        )}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        )}
+      </div>
+
+      {program.past_coaches.length > 0 && (
+        <div className="mt-8">
+          <h3 className="font-semibold">{t.pastCoaches}</h3>
+          <div className="mt-2 overflow-x-auto">
+            <table className="w-full text-sm">
+              <thead className="border-b border-black/10 text-left text-foreground/60 dark:border-white/10">
+                <tr>
+                  <th className={th}>{t.name}</th>
+                  <th className={th}>{t.position}</th>
+                  <th className={th}>{t.seasons}</th>
+                </tr>
+              </thead>
+              <tbody>
+                {program.past_coaches.map((c) => (
+                  <tr key={c.name} className="border-b border-black/5 dark:border-white/5">
+                    <td className={`${td} font-medium`}>
+                      <PersonLink href={c.profile_url ?? c.source_url}>{c.name}</PersonLink>
+                    </td>
+                    <td className={`${td} text-foreground/70`}>{c.title ?? "—"}</td>
+                    <td className={`${td} whitespace-nowrap tabular-nums`}>{seasonSpan(c.seasons)}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

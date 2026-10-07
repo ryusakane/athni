@@ -96,7 +96,9 @@ python3 schools.py         # NCAA Directory から D1 で男子/女子ゴルフ�
 python3 collect_sites.py   # 各校の体育局公式サイト → sites/<slug>.json (ゴルフ部ページ・SNS・ロスター・コーチ)
 python3 profiles.py        # 取得済みページから選手・コーチ個人のプロフィール URL (profile_url) を付ける
 python3 rankings.py        # GCAA コーチ投票 (男子) と NCAA 選手権の最終順位 (男女) → ../rankings/
+python3 history.py         # 過去シーズン (2016-17〜2025-26) のロスター・コーチ・専攻 → history/<slug>.json
 python3 alumni.py          # Wikipedia のチーム別カテゴリからプロになった卒業生 → alumni/d1.json
+python3 tour_links.py      # 卒業生の各ツアー公式プロフィールへのリンク → alumni/tour_links.json
 python3 merge.py           # 上の結果を raw/d1/<slug>.json にまとめる
 cd ../../.. && python3 data/scripts/build_colleges.py
 ```
@@ -108,6 +110,9 @@ cd ../../.. && python3 data/scripts/build_colleges.py
   - **各校の体育局公式サイト** (ロスター・コーチ・SNS): 公開ページ。各サイトの規約は個別に確認していない。`unknown`。
   - **GCAA Coaches Poll** (gcaa.coach): 男子 D1 の Top 25。規約の記載なし。`unknown`。
   - **Wikipedia** (NCAA 選手権の最終順位・プロになった卒業生・チームのニックネーム): CC BY-SA 4.0。出典表示が必要。`ok`。
+  - **ツアー公式サイト** (PGA TOUR・DP World Tour・LPGA・JGTO など): 規約で自動取得が禁止されているため、取得しない。成績は載せず、Wikipedia/Wikidata にある選手 ID からプロフィールへのリンクだけを作る。
+- 体育局サイトの多くはクラウドからの接続を遮断する (Imperva) ため、collect_sites.py と history.py は ryu さんの Mac で実行した。
+- 元選手の「その後」はロスターからの推定: 最後のシーズンが SR/GR なら卒業、その後ほかの D1 ロスターに載れば転校、それ以外は卒業前に退部。
   - **Clippd Scoreboard** (NCAA 公式ランキング): 規約がクローラー・自動取得を禁止しているため**取得していない**。サイトにはリンクのみ。
   - **WGCA (女子コーチ投票)**: サイトが自動アクセスを拒否するため未取得。女子の順位は NCAA 選手権の結果のみ。
 - コーチ: 公式サイトのロスター/コーチ欄に出ている人のうち、ヘッドコーチ・アシスタント・ディレクター・オブ・オペレーション等。
