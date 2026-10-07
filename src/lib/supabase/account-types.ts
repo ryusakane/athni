@@ -1,4 +1,4 @@
-// Row shapes of the account tables (supabase/migrations/0004_accounts.sql).
+// Row shapes of the account tables (supabase/migrations/0004_accounts.sql, 0006_name_kana.sql).
 
 export type Role = "student" | "parent" | "coach" | "hs_coach";
 
@@ -6,6 +6,7 @@ export type Profile = {
   id: string;
   role: Role;
   display_name: string;
+  name_kana: string | null;
   locale: "en" | "ja";
 };
 
@@ -13,6 +14,7 @@ export type StudentProfile = {
   user_id: string;
   name_ja: string | null;
   name_en: string | null;
+  name_kana: string | null;
   birth_date: string | null;
   graduation_year: number | null;
   gender: "male" | "female" | null;

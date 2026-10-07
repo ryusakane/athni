@@ -23,6 +23,8 @@ const en = {
   month: "Month",
   day: "Day",
   displayName: "Your name",
+  nameKana: "Name reading (katakana)",
+  nameKanaHint: "Katakana. Hiragana is converted automatically.",
   errorGeneric: "Something went wrong. Please try again.",
   roles: {
     student: { title: "Student athlete", body: "Build your profile, list the colleges you want, and link your tournament results." },
@@ -188,7 +190,9 @@ const ja: AccountDictionary = {
   year: "年",
   month: "月",
   day: "日",
-  displayName: "お名前",
+  displayName: "氏名（漢字）",
+  nameKana: "フリガナ",
+  nameKanaHint: "カタカナで入力してください（ひらがなは自動で変換されます）",
   errorGeneric: "エラーが発生しました。もう一度お試しください。",
   roles: {
     student: { title: "生徒（選手）", body: "プロフィールの作成、志望校リスト、大会成績の紐づけができます。" },

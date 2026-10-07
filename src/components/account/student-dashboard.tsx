@@ -14,7 +14,7 @@ import {
   type TestName,
   type TestScore,
 } from "@/lib/supabase/account-types";
-import { buttonClass, Field, Input, inputClass, Notice, Section, secondaryButtonClass } from "./ui";
+import { buttonClass, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearInput } from "./ui";
 
 const testNames: TestName[] = ["toefl_ibt", "ielts", "duolingo", "eiken", "toeic", "sat", "act"];
 const targetStatuses: TargetStatus[] = ["interested", "contacted", "applied", "offer", "committed", "dropped"];
@@ -186,6 +186,7 @@ function ProfileForm({
       .update({
         name_en: text("name_en"),
         name_ja: text("name_ja"),
+        name_kana: text("name_kana"),
         school_name: text("school_name"),
         prefecture: text("prefecture"),
         gender: text("gender"),
@@ -213,6 +214,9 @@ function ProfileForm({
           <Field label={s.nameJa}>
             <Input name="name_ja" defaultValue={student.name_ja ?? ""} placeholder="山田 太郎" />
           </Field>
+          <Field label={t.nameKana}>
+            <KanaInput name="name_kana" defaultValue={student.name_kana ?? ""} placeholder="ヤマダ タロウ" />
+          </Field>
           <Field label={s.school}>
             <Input name="school_name" defaultValue={student.school_name ?? ""} />
           </Field>
@@ -227,7 +231,7 @@ function ProfileForm({
             </select>
           </Field>
           <Field label={t.signup.graduationYear}>
-            <Input name="graduation_year" type="number" defaultValue={student.graduation_year ?? ""} />
+            <YearInput name="graduation_year" defaultValue={student.graduation_year ?? ""} />
           </Field>
         </div>
         <Field label={s.bio}>

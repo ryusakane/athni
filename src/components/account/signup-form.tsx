@@ -6,7 +6,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
-import { buttonClass, DateSelect, Field, Input, Notice, PasswordInput } from "./ui";
+import { buttonClass, DateSelect, Field, Input, Notice, KanaInput, PasswordInput, YearInput } from "./ui";
 
 type SignupRole = "student" | "parent" | "coach";
 const signupRoles: SignupRole[] = ["student", "parent", "coach"];
@@ -70,8 +70,10 @@ export function SignupForm({ lang }: { lang: Locale }) {
         data: {
           role,
           display_name: value("display_name"),
+          name_kana: value("name_kana"),
           locale: lang,
           ...(role === "student" && {
+            ...(lang === "ja" && { name_ja: value("display_name") }),
             birth_date: value("birth_date"),
             graduation_year: value("graduation_year"),
           }),
@@ -119,6 +121,11 @@ export function SignupForm({ lang }: { lang: Locale }) {
           <Field label={t.displayName}>
             <Input name="display_name" required autoComplete="name" />
           </Field>
+          {lang === "ja" && (
+            <Field label={t.nameKana} hint={t.nameKanaHint}>
+              <KanaInput name="name_kana" required placeholder="ヤマダ タロウ" />
+            </Field>
+          )}
           <Field label={t.email} hint={role === "coach" ? t.signup.eduNote : undefined}>
             <Input name="email" type="email" required autoComplete="email" />
           </Field>
@@ -155,14 +162,7 @@ export function SignupForm({ lang }: { lang: Locale }) {
                 />
               </Field>
               <Field label={t.signup.graduationYear}>
-                <Input
-                  name="graduation_year"
-                  type="number"
-                  required
-                  min={2000}
-                  max={thisYear + 6}
-                  defaultValue={thisYear + 1}
-                />
+                <YearInput name="graduation_year" required defaultValue={thisYear + 1} />
               </Field>
             </>
           )}
