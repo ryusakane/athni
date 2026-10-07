@@ -1,0 +1,146 @@
+{
+ "slug": "drake",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://godrakebulldogs.com/sports/mens-golf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://godrakebulldogs.com/sports/womens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Annabelle Bush",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Weldon Spring, Mo.",
+       "country": "US",
+       "previous_school": "St. Dominic",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/annabelle-bush/10503"
+      },
+      {
+       "name": "Kate Connolly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kate-connolly/10496"
+      },
+      {
+       "name": "Isabella Elgert",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb.",
+       "country": "US",
+       "previous_school": "Lincoln East",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/isabella-elgert/10504"
+      },
+      {
+       "name": "Alicia Henault",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint-Guillaume, Canada",
+       "country": "CA",
+       "previous_school": "Cegep Champlain St-Lawrence",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/alicia-henault/10497"
+      },
+      {
+       "name": "Amber Henson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/amber-henson/10498"
+      },
+      {
+       "name": "Rylee Heryford",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newton, Iowa",
+       "country": "US",
+       "previous_school": "Newton",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/rylee-heryford/10499"
+      },
+      {
+       "name": "Erika Holmberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/erika-holmberg/10500"
+      },
+      {
+       "name": "Julie Huggins",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "5th",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/julie-huggins/10501"
+      },
+      {
+       "name": "Alexis Reyes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "El Paso, Texas",
+       "country": "US",
+       "previous_school": "Indiana University High School",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/alexis-reyes/10502"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Smith",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/steve-smith/1586"
+      }
+     ]
+    }
+   },
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2024-25",
+   "status": "bot-wall"
+  }
+ ]
+}

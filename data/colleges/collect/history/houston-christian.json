@@ -1,0 +1,143 @@
+{
+ "slug": "houston-christian",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://hcuhuskies.com/sports/mens-golf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://hcuhuskies.com/sports/womens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://hcuhuskies.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Serena Churchill",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chiangmai, Thailand",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/serena-churchill/6751"
+      },
+      {
+       "name": "Alejandra Ferrer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/alejandra-ferrer/6745"
+      },
+      {
+       "name": "Hailey Hendershott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Brantford Collegiate Institute",
+       "class_raw": "Sr.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/hailey-hendershott/6746"
+      },
+      {
+       "name": "Abigail Inocian",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Allen, Texas",
+       "country": "US",
+       "previous_school": "Allen",
+       "class_raw": "Jr.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/abigail-inocian/6747"
+      },
+      {
+       "name": "Ploy Makmanee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/ploy-makmanee/6748"
+      },
+      {
+       "name": "Abigail O’Brien",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sugar Land, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Sara Pihlajamaki",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nokia, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/sara-pihlajamaki/6752"
+      },
+      {
+       "name": "Alyssa Stewart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mansfield, Texas",
+       "country": "US",
+       "previous_school": "Legacy",
+       "class_raw": "So.",
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/alyssa-stewart/6749"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jordan Jeffers",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/coaches/jordan-jeffers/1259"
+      },
+      {
+       "name": "David Shuster",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hcuhuskies.com/sports/womens-golf/roster/coaches/david-shuster/1260"
+      }
+     ]
+    }
+   },
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://hcuhuskies.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://hcuhuskies.com/sports/mens-golf/roster/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://hcuhuskies.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://hcuhuskies.com/sports/womens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://hcuhuskies.com/sports/womens-golf/roster/2024-25",
+   "status": "bot-wall"
+  }
+ ]
+}

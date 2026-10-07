@@ -1,0 +1,112 @@
+{
+ "slug": "cleveland-state",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://csuvikings.com/sports/mgolf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://csuvikings.com/sports/mgolf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dominik Cosic",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Concord Township, OH",
+       "country": "US",
+       "previous_school": "Lake Catholic HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/dominik-cosic/4866"
+      },
+      {
+       "name": "Ryan Dinan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Akron, OH",
+       "country": "US",
+       "previous_school": "Coventry HS",
+       "class_raw": "So.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/ryan-dinan/4867"
+      },
+      {
+       "name": "Trace Gibson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sugarcreek, OH",
+       "country": "US",
+       "previous_school": "Garaway HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/trace-gibson/4871"
+      },
+      {
+       "name": "Gavin Leen",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Dayton, OH",
+       "country": "US",
+       "previous_school": "Archbishop Alter HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/gavin-leen/5063"
+      },
+      {
+       "name": "Dillon Pendergast",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mogadore, OH",
+       "country": "US",
+       "previous_school": "Mogadore HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/dillon-pendergast/4868"
+      },
+      {
+       "name": "Ben Scheeff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Olmsted Township, OH",
+       "country": "US",
+       "previous_school": "Olmsted Falls HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/ben-scheeff/4869"
+      },
+      {
+       "name": "Brody Simms",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dayton, Ohio",
+       "country": "US",
+       "previous_school": "Archbishop Alter HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/brody-simms/4870"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Weir",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://csuvikings.com/sports/mens-golf/roster/coaches/steve-weir/547"
+      }
+     ]
+    }
+   },
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://csuvikings.com/sports/mgolf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://csuvikings.com/sports/mgolf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://csuvikings.com/sports/mgolf/roster/2024-25",
+   "status": "bot-wall"
+  }
+ ]
+}

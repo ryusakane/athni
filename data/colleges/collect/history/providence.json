@@ -1,0 +1,36 @@
+{
+ "slug": "providence",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://friars.com/sports/mens-golf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://friars.com/sports/wgolf",
+   "seasons": {},
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://friars.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2025-26",
+   "status": "bot-wall"
+  }
+ ]
+}

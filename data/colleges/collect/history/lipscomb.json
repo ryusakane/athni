@@ -1,0 +1,36 @@
+{
+ "slug": "lipscomb",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://lipscombsports.com/sports/mgolf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://lipscombsports.com/sports/wgolf",
+   "seasons": {},
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://lipscombsports.com/sports/mgolf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://lipscombsports.com/sports/mgolf/roster/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://lipscombsports.com/sports/wgolf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://lipscombsports.com/sports/wgolf/roster/2025-26",
+   "status": "bot-wall"
+  }
+ ]
+}

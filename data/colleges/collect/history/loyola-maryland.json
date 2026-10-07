@@ -1,0 +1,139 @@
+{
+ "slug": "loyola-maryland",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://loyolagreyhounds.com/sports/mens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://loyolagreyhounds.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Matt Carpentier",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pittsford, N.Y.",
+       "country": "US",
+       "previous_school": "Pittsford Mendon",
+       "class_raw": "So.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/matt-carpentier/13756"
+      },
+      {
+       "name": "Jack Geyer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Havre de Grace, Md.",
+       "country": "US",
+       "previous_school": "C. Milton Wright",
+       "class_raw": "Fr.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/jack-geyer/13763"
+      },
+      {
+       "name": "Liam Moloney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chester, N.Y.",
+       "country": "US",
+       "previous_school": "St. Joseph Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/liam-moloney/13762"
+      },
+      {
+       "name": "Diego Neira",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "Yale College",
+       "class_raw": "R-So.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/diego-neira/13840"
+      },
+      {
+       "name": "Gustavo Rangel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guaynabo, P.R.",
+       "country": "US",
+       "previous_school": "Colegio Marista de Guaynabo",
+       "class_raw": "Sr.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/gustavo-rangel/13757"
+      },
+      {
+       "name": "Jackson Roman",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Berlin, Conn.",
+       "country": "US",
+       "previous_school": "Hamden Hall Country Day",
+       "class_raw": "Gr.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/jackson-roman/13758"
+      },
+      {
+       "name": "Lorenzo Sanz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glen Arm, Md.",
+       "country": "US",
+       "previous_school": "Calvert Hall College",
+       "class_raw": "Sr.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/lorenzo-sanz/13759"
+      },
+      {
+       "name": "Eli Spaulding",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Freeport, Maine",
+       "country": "US",
+       "previous_school": "Freeport",
+       "class_raw": "So.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/eli-spaulding/13760"
+      },
+      {
+       "name": "Dustin Stocksdale",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ellicott City, Md.",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "Jr.",
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/dustin-stocksdale/13761"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Baloga",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/coaches/chris-baloga/4796"
+      },
+      {
+       "name": "Will Wears",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://loyolagreyhounds.com/sports/mens-golf/roster/coaches/will-wears/4802"
+      }
+     ]
+    }
+   },
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://loyolagreyhounds.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://loyolagreyhounds.com/sports/mens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://loyolagreyhounds.com/sports/mens-golf/roster/2024-25",
+   "status": "bot-wall"
+  }
+ ]
+}

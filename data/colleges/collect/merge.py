@@ -139,7 +139,7 @@ def main():
             for k in ["golf_url", "roster_url", "coaches_url", *SOCIAL, "roster_season", "roster_source_url", "collected_at"]:
                 prog[k] = sp.get(k) if sp.get(k) is not None else op.get(k)
             roster = sp.get("roster") or op.get("roster") or []
-            prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school", "profile_url"]}
+            prog["roster"] = [{k: r.get(k) for k in ["name", "class_year", "redshirt", "hometown", "country", "previous_school", "major", "profile_url"]}
                               for r in roster]
             coaches = sp.get("coaches") or op.get("coaches") or []
             prog["coaches"] = []
@@ -153,9 +153,15 @@ def main():
             hist = history.get(s["slug"], {}).get(g)
             if hist:
                 current = {key(r["name"]) for r in prog["roster"]}
+                for r in prog["roster"]:
+                    # majors are on past-season pages more often than on the current one
+                    r["major"] = r.get("major") or hist["players"].get(key(r["name"]), {}).get("major")
                 pros = {key(a["name"]): a for a in prog["alumni_pros"]}
                 former = []
+                newest = max((p["seasons"][-1] for p in hist["players"].values()), default=None)
                 for k, person in hist["players"].items():
+                    if not prog["roster"] and person["seasons"][-1] == newest:
+                        continue  # no current roster to tell whether they are still on the team
                     status, to = career(person, s["slug"], g, history, current)
                     if status == "current":
                         continue

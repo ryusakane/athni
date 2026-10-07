@@ -1,0 +1,163 @@
+{
+ "slug": "detroit-mercy",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://detroittitans.com/sports/mens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://detroittitans.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Harshan Juttu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Novi, Mich.",
+       "country": "US",
+       "previous_school": "Novi",
+       "class_raw": "So.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/harshan-juttu/7185"
+      },
+      {
+       "name": "Ryan Kruschka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Lyon, Mich.",
+       "country": "US",
+       "previous_school": "South Lyon East",
+       "class_raw": "So.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/ryan-kruschka/7186"
+      },
+      {
+       "name": "Peyton Lawley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lebanon, Ohio",
+       "country": "US",
+       "previous_school": "Lebanon",
+       "class_raw": "Fr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/peyton-lawley/7193"
+      },
+      {
+       "name": "Vincent Levesque",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Detroit, Mich.",
+       "country": "US",
+       "previous_school": "Detroit Jesuit",
+       "class_raw": "Sr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/vincent-levesque/7187"
+      },
+      {
+       "name": "Gowtham Nalluri",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Novi, Mich.",
+       "country": "US",
+       "previous_school": "Novi",
+       "class_raw": "Jr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/gowtham-nalluri/7188"
+      },
+      {
+       "name": "Ethan Oblak",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "West Bloomfield, Mich.",
+       "country": "US",
+       "previous_school": "Walled Lake Central",
+       "class_raw": "R-So.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/ethan-oblak/7189"
+      },
+      {
+       "name": "Spencer Shearer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Otsego, Mich.",
+       "country": "US",
+       "previous_school": "Otsego",
+       "class_raw": "Fr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/spencer-shearer/7192"
+      },
+      {
+       "name": "Bavake Sihota",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Caledon, Ont.",
+       "country": "CA",
+       "previous_school": "Independent Learning Center (Eastern Michigan)",
+       "class_raw": "Gr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/bavake-sihota/7517"
+      },
+      {
+       "name": "Mason Sokolowski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Northville, Mich.",
+       "country": "US",
+       "previous_school": "Northville",
+       "class_raw": "Jr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/mason-sokolowski/7190"
+      },
+      {
+       "name": "David Swab",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Royalton, Ohio",
+       "country": "US",
+       "previous_school": "North Royalton",
+       "class_raw": "Jr.",
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/david-swab/7191"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jordan McArleton",
+       "title": "Director Of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/coaches/jordan-mcarleton/1490"
+      },
+      {
+       "name": "Chuck Batcheller '87",
+       "title": "Assistant Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://detroittitans.com/sports/mens-golf/roster/coaches/chuck-batcheller-87/1491"
+      }
+     ]
+    }
+   },
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://detroittitans.com/sports/womens-golf",
+   "seasons": {},
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://detroittitans.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://detroittitans.com/sports/mens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://detroittitans.com/sports/mens-golf/roster/2024-25",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://detroittitans.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://detroittitans.com/sports/womens-golf/roster/2025-26",
+   "status": "bot-wall"
+  }
+ ]
+}

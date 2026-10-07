@@ -1,0 +1,26 @@
+{
+ "slug": "montana-state",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://msubobcats.com/sports/womens-golf",
+   "seasons": {},
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/season/2025-26",
+   "status": "bot-wall"
+  }
+ ]
+}

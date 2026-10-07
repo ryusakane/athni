@@ -1,0 +1,74 @@
+{
+ "slug": "byu",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://byucougars.com/sports/mens-golf",
+   "seasons": {}
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://byucougars.com/sports/womens-golf",
+   "seasons": {}
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/mens-golf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://byucougars.com/sports/womens-golf/roster/season/2023-24",
+   "status": 404
+  }
+ ]
+}

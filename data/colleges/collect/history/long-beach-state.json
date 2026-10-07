@@ -1,0 +1,40 @@
+{
+ "slug": "long-beach-state",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://longbeachstate.com/sports/mens-golf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://longbeachstate.com/sports/womens-golf",
+   "seasons": {},
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://longbeachstate.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://longbeachstate.com/sports/mens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://longbeachstate.com/sports/mens-golf/roster/season/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://longbeachstate.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://longbeachstate.com/sports/womens-golf/roster/2025-26",
+   "status": "bot-wall"
+  }
+ ]
+}

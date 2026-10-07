@@ -1,0 +1,123 @@
+{
+ "slug": "longwood",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://longwoodlancers.com/sports/mens-golf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://longwoodlancers.com/sports/womens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://longwoodlancers.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Madison Lehr",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mechanicsville, Va.",
+       "country": "US",
+       "previous_school": "Western Carolina",
+       "class_raw": "So.",
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/madison-lehr/6255"
+      },
+      {
+       "name": "Avery Nordman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario",
+       "country": "CA",
+       "previous_school": "A.Y. Jackson Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/avery-nordman/6257"
+      },
+      {
+       "name": "Emma Rynn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual School",
+       "class_raw": "Fr.",
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/emma-rynn/6258"
+      },
+      {
+       "name": "Abigail Sheldon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boca Raton, Fla.",
+       "country": "US",
+       "previous_school": "Ohio Connections Academy",
+       "class_raw": "So.",
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/abigail-sheldon/6253"
+      },
+      {
+       "name": "Caroline Tragesser",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Murrysville, Pa.",
+       "country": "US",
+       "previous_school": "Ohio Dominican",
+       "class_raw": "Gr.",
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/caroline-tragesser/6256"
+      },
+      {
+       "name": "Chiara Wippert",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "John F. Kennedy School Berlin",
+       "class_raw": "So.",
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/chiara-wippert/6254"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Megan Weaver",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/coaches/megan-weaver/1289"
+      },
+      {
+       "name": "Robert Boyd",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://longwoodlancers.com/sports/womens-golf/roster/coaches/robert-boyd/1290"
+      }
+     ]
+    }
+   },
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://longwoodlancers.com/sports/mens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/mens-golf/roster/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/womens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://longwoodlancers.com/sports/womens-golf/roster/2024-25",
+   "status": "bot-wall"
+  }
+ ]
+}

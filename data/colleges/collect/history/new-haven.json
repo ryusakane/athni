@@ -1,0 +1,40 @@
+{
+ "slug": "new-haven",
+ "checked_at": "2026-10-07",
+ "programs": [
+  {
+   "gender": "male",
+   "golf_url": "https://newhavenchargers.com/sports/mens-golf",
+   "seasons": {},
+   "blocked": true
+  },
+  {
+   "gender": "female",
+   "golf_url": "https://newhavenchargers.com/sports/womens-golf",
+   "seasons": {},
+   "blocked": true
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/mens-golf/roster/season/2025-26",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster",
+   "status": "bot-wall"
+  },
+  {
+   "url": "https://newhavenchargers.com/sports/womens-golf/roster/2025-26",
+   "status": "bot-wall"
+  }
+ ]
+}
