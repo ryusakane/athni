@@ -55,6 +55,11 @@ export function SignupForm({ lang }: { lang: Locale }) {
     const form = new FormData(event.currentTarget);
     const value = (name: string) => String(form.get(name) ?? "").trim();
     const email = value("email");
+    // Japanese order is family name first; English is given name first.
+    const family = value("family_name");
+    const given = value("given_name");
+    const fullName = lang === "ja" ? `${family} ${given}` : `${given} ${family}`;
+    const fullKana = [value("family_kana"), value("given_kana")].filter(Boolean).join(" ");
     if (form.get("password") !== form.get("password_confirm")) {
       setError(t.passwordMismatch);
       return;
@@ -69,11 +74,14 @@ export function SignupForm({ lang }: { lang: Locale }) {
         // Read by handle_new_user() in 0004_accounts.sql to create the role's rows.
         data: {
           role,
-          display_name: value("display_name"),
-          name_kana: value("name_kana"),
+          display_name: fullName,
+          // Kept apart as well, in the auth user's metadata, in case the parts are needed later.
+          family_name: family,
+          given_name: given,
+          name_kana: fullKana,
           locale: lang,
+          ...(role === "student" && (lang === "ja" ? { name_ja: fullName } : { name_en: fullName })),
           ...(role === "student" && {
-            ...(lang === "ja" && { name_ja: value("display_name") }),
             birth_date: value("birth_date"),
             graduation_year: value("graduation_year"),
           }),
@@ -118,13 +126,35 @@ export function SignupForm({ lang }: { lang: Locale }) {
 
       {role && (
         <form onSubmit={onSubmit} className="mt-8 max-w-md space-y-4">
-          <Field label={t.displayName}>
-            <Input name="display_name" required autoComplete="name" />
-          </Field>
-          {lang === "ja" && (
-            <Field label={t.nameKana} hint={t.nameKanaHint}>
-              <KanaInput name="name_kana" required placeholder="ヤマダ タロウ" />
-            </Field>
+          {lang === "ja" ? (
+            <>
+              <div className="grid grid-cols-2 gap-3">
+                <Field label={t.familyName}>
+                  <Input name="family_name" required autoComplete="family-name" placeholder="山田" />
+                </Field>
+                <Field label={t.givenName}>
+                  <Input name="given_name" required autoComplete="given-name" placeholder="太郎" />
+                </Field>
+              </div>
+              <div className="grid grid-cols-2 gap-3">
+                <Field label={t.familyKana}>
+                  <KanaInput name="family_kana" required placeholder="ヤマダ" />
+                </Field>
+                <Field label={t.givenKana}>
+                  <KanaInput name="given_kana" required placeholder="タロウ" />
+                </Field>
+              </div>
+              <p className="-mt-2 text-xs text-foreground/60">{t.nameKanaHint}</p>
+            </>
+          ) : (
+            <div className="grid grid-cols-2 gap-3">
+              <Field label={t.givenName}>
+                <Input name="given_name" required autoComplete="given-name" />
+              </Field>
+              <Field label={t.familyName}>
+                <Input name="family_name" required autoComplete="family-name" />
+              </Field>
+            </div>
           )}
           <Field label={t.email} hint={role === "coach" ? t.signup.eduNote : undefined}>
             <Input name="email" type="email" required autoComplete="email" />

@@ -1,5 +1,6 @@
 -- Japanese names need both kanji and a katakana reading (フリガナ).
--- Signup sends name_kana for every role, and name_ja for students signing up in Japanese.
+-- Signup sends name_kana for every role, and a student's name as name_ja (Japanese signup)
+-- or name_en (English signup).
 
 alter table profiles add column name_kana text;
 alter table student_profiles add column name_kana text;
@@ -25,10 +26,11 @@ begin
   );
 
   if chosen = 'student' then
-    insert into student_profiles (user_id, name_ja, name_kana, birth_date, graduation_year)
+    insert into student_profiles (user_id, name_ja, name_en, name_kana, birth_date, graduation_year)
     values (
       new.id,
       nullif(meta ->> 'name_ja', ''),
+      nullif(meta ->> 'name_en', ''),
       nullif(meta ->> 'name_kana', ''),
       nullif(meta ->> 'birth_date', '')::date,
       nullif(meta ->> 'graduation_year', '')::int

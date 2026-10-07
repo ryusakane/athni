@@ -24,6 +24,10 @@ const en = {
   day: "Day",
   displayName: "Your name",
   nameKana: "Name reading (katakana)",
+  familyName: "Last name",
+  givenName: "First name",
+  familyKana: "Last name (katakana)",
+  givenKana: "First name (katakana)",
   nameKanaHint: "Katakana. Hiragana is converted automatically.",
   errorGeneric: "Something went wrong. Please try again.",
   roles: {
@@ -192,6 +196,10 @@ const ja: AccountDictionary = {
   day: "日",
   displayName: "氏名（漢字）",
   nameKana: "フリガナ",
+  familyName: "姓",
+  givenName: "名",
+  familyKana: "セイ",
+  givenKana: "メイ",
   nameKanaHint: "カタカナで入力してください（ひらがなは自動で変換されます）",
   errorGeneric: "エラーが発生しました。もう一度お試しください。",
   roles: {
