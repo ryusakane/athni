@@ -1,10 +1,10 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
-import { secondaryButtonClass } from "./ui";
+import { Field, Input, secondaryButtonClass } from "./ui";
 import { useAccount } from "./use-account";
 
 // On a public player page: "Save player" for verified coaches, "This is me" for students.
@@ -15,6 +15,7 @@ export function PlayerActions({ lang, playerId }: { lang: Locale; playerId: stri
   const role = account.status === "signedIn" ? account.profile?.role : undefined;
   const userId = account.status === "signedIn" ? account.session.user.id : undefined;
   const [state, setState] = useState<{ canSave: boolean; saved: boolean; claimed: boolean } | null>(null);
+  const [claiming, setClaiming] = useState(false);
 
   useEffect(() => {
     if (!userId || (role !== "coach" && role !== "student")) return;
@@ -53,11 +54,16 @@ export function PlayerActions({ lang, playerId }: { lang: Locale; playerId: stri
     setState({ ...state!, saved: !state!.saved });
   }
 
-  async function claim() {
+  async function claim(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const evidence = String(new FormData(event.currentTarget).get("evidence_url") ?? "").trim();
     const { error } = await getSupabase()
       .from("player_claims")
-      .insert({ student_id: userId, player_id: playerId });
-    if (!error) setState({ ...state!, claimed: true });
+      .insert({ student_id: userId, player_id: playerId, evidence_url: evidence || null });
+    if (!error) {
+      setClaiming(false);
+      setState({ ...state!, claimed: true });
+    }
   }
 
   if (role === "coach" && state.canSave) {
@@ -67,9 +73,27 @@ export function PlayerActions({ lang, playerId }: { lang: Locale; playerId: stri
       </button>
     );
   }
+  if (role === "student" && claiming) {
+    // A link to results with the student's name helps staff confirm the claim.
+    return (
+      <form onSubmit={claim} className="mt-4 max-w-md space-y-3">
+        <Field label={t.evidence} hint={t.evidenceHint}>
+          <Input name="evidence_url" type="url" />
+        </Field>
+        <button type="submit" className={secondaryButtonClass}>
+          {t.sendClaim}
+        </button>
+      </form>
+    );
+  }
   if (role === "student") {
     return (
-      <button type="button" onClick={claim} disabled={state.claimed} className={`${secondaryButtonClass} mt-4`}>
+      <button
+        type="button"
+        onClick={() => setClaiming(true)}
+        disabled={state.claimed}
+        className={`${secondaryButtonClass} mt-4`}
+      >
         {state.claimed ? t.claimed : t.claim}
       </button>
     );

@@ -25,7 +25,7 @@ type ClaimRow = PlayerClaim & { players: { name_ja: string; name_en: string | nu
 
 type Data = {
   student: StudentProfile;
-  parents: { display_name: string }[];
+  parents: { id: string; display_name: string }[];
   tests: TestScore[];
   claims: ClaimRow[];
   requests: ResultRequest[];
@@ -67,7 +67,7 @@ export function StudentDashboard({
     }
     const parentIds = (links.data ?? []).map((l) => l.parent_id as string);
     const parents = parentIds.length
-      ? ((await supabase.from("profiles").select("display_name").in("id", parentIds)).data ?? [])
+      ? ((await supabase.from("profiles").select("id, display_name").in("id", parentIds)).data ?? [])
       : [];
     setData({
       student: student.data as StudentProfile,
@@ -94,13 +94,10 @@ export function StudentDashboard({
       {!asParent && (
         <Section title={s.sharing}>
           <VisibilityToggle lang={lang} student={student} onChange={load} />
-          {data.parents.length > 0 ? (
-            <p className="text-sm">
-              {s.linkedParents}: {data.parents.map((p) => p.display_name).join(", ")}
-            </p>
-          ) : (
-            <ParentInvite lang={lang} code={student.parent_invite_code} />
+          {data.parents.length > 0 && (
+            <LinkedParents lang={lang} studentId={studentId} parents={data.parents} onChange={load} />
           )}
+          <ParentInvite lang={lang} code={student.parent_invite_code} onChange={load} />
         </Section>
       )}
       <ProfileForm lang={lang} student={student} onSaved={load} />
@@ -113,8 +110,45 @@ export function StudentDashboard({
   );
 }
 
-function ParentInvite({ lang, code }: { lang: Locale; code: string }) {
+function LinkedParents({
+  lang,
+  studentId,
+  parents,
+  onChange,
+}: {
+  lang: Locale;
+  studentId: string;
+  parents: { id: string; display_name: string }[];
+  onChange: () => void;
+}) {
   const s = getAccountDictionary(lang).student;
+  async function unlink(parentId: string) {
+    await getSupabase().from("guardian_links").delete().eq("parent_id", parentId).eq("student_id", studentId);
+    onChange();
+  }
+  return (
+    <div className="space-y-1 text-sm">
+      <p className="font-medium">{s.linkedParents}</p>
+      <ul className="divide-y divide-black/5 dark:divide-white/10">
+        {parents.map((p) => (
+          <li key={p.id} className="flex items-center justify-between gap-4 py-2">
+            <span>{p.display_name}</span>
+            <button type="button" onClick={() => unlink(p.id)} className="whitespace-nowrap text-xs underline">
+              {s.unlinkParent}
+            </button>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
+function ParentInvite({ lang, code, onChange }: { lang: Locale; code: string; onChange: () => void }) {
+  const s = getAccountDictionary(lang).student;
+  async function rotate() {
+    await getSupabase().rpc("rotate_parent_invite_code");
+    onChange();
+  }
   const [origin, setOrigin] = useState("");
   // eslint-disable-next-line react-hooks/set-state-in-effect -- window is browser-only
   useEffect(() => setOrigin(window.location.origin), []);
@@ -125,6 +159,10 @@ function ParentInvite({ lang, code }: { lang: Locale; code: string }) {
       <p className="font-mono text-lg font-bold tracking-widest">{code}</p>
       <p>{s.parentLink}</p>
       <p className="break-all rounded bg-foreground/5 px-2 py-1 font-mono text-xs">{link}</p>
+      <button type="button" onClick={rotate} className={secondaryButtonClass}>
+        {s.newCode}
+      </button>
+      <p className="text-xs text-foreground/60">{s.newCodeNote}</p>
     </div>
   );
 }
