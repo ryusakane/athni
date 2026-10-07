@@ -1,4 +1,4 @@
-// Row shapes of the account tables (supabase/migrations/0004_accounts.sql, 0006_name_kana.sql).
+// Row shapes of the account tables (supabase/migrations/0004, 0006 and 0007).
 
 export type Role = "student" | "parent" | "coach" | "hs_coach";
 
@@ -9,6 +9,9 @@ export type Profile = {
   name_kana: string | null;
   locale: "en" | "ja";
 };
+
+export type Division = "d1" | "d2" | "d3" | "naia" | "njcaa";
+export type NcaaStatus = "not_registered" | "registered" | "certified";
 
 export type StudentProfile = {
   user_id: string;
@@ -27,6 +30,31 @@ export type StudentProfile = {
   ncaa_eligibility_id: string | null;
   handicap: number | null;
   video_url: string | null;
+  // Added in 0007_student_recruiting_fields.sql
+  family_name_ja: string | null;
+  given_name_ja: string | null;
+  family_name_kana: string | null;
+  given_name_kana: string | null;
+  family_name_en: string | null;
+  given_name_en: string | null;
+  hometown: string | null;
+  height_cm: number | null;
+  handedness: "right" | "left" | null;
+  class_rank: number | null;
+  class_size: number | null;
+  ncaa_status: NcaaStatus | null;
+  entry_year: number | null;
+  target_divisions: Division[];
+  scoring_average: number | null;
+  scoring_rounds: number | null;
+  best_18: number | null;
+  best_18_event: string | null;
+  driving_distance_yd: number | null;
+  wagr_rank: number | null;
+  home_course: string | null;
+  ranking_url: string | null;
+  coach_name: string | null;
+  coach_contact: string | null;
   parent_invite_code: string;
   visible_to_coaches: boolean;
 };

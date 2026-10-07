@@ -6,6 +6,8 @@ import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
 import {
+  type Division,
+  type NcaaStatus,
   type PlayerClaim,
   type ResultRequest,
   type StudentProfile,
@@ -14,7 +16,7 @@ import {
   type TestName,
   type TestScore,
 } from "@/lib/supabase/account-types";
-import { buttonClass, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
+import { buttonClass, DateSelect, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
 
 const testNames: TestName[] = ["toefl_ibt", "ielts", "duolingo", "eiken", "toeic", "sat", "act"];
 const targetStatuses: TargetStatus[] = ["interested", "contacted", "applied", "offer", "committed", "dropped"];
@@ -102,7 +104,9 @@ export function StudentDashboard({
         </Section>
       )}
       <ProfileForm lang={lang} student={student} onSaved={load} />
+      <AcademicsForm lang={lang} student={student} onSaved={load} />
       <TestScores lang={lang} studentId={studentId} tests={data.tests} onChange={load} />
+      <GolfForm lang={lang} student={student} onSaved={load} />
       <Results lang={lang} studentId={studentId} claims={data.claims} requests={data.requests} onChange={load} />
       <Targets lang={lang} studentId={studentId} targets={data.targets} onChange={load} />
     </>
@@ -160,68 +164,114 @@ function VisibilityToggle({
   );
 }
 
-function ProfileForm({
-  lang,
-  student,
-  onSaved,
-}: {
-  lang: Locale;
-  student: StudentProfile;
-  onSaved: () => void;
-}) {
-  const t = getAccountDictionary(lang);
-  const s = t.student;
-  const [status, setStatus] = useState<{ tone: "error" | "success"; text: string } | null>(null);
+type Status = { tone: "error" | "success"; text: string } | null;
 
-  async function onSubmit(event: FormEvent<HTMLFormElement>) {
-    event.preventDefault();
-    const form = new FormData(event.currentTarget);
-    const text = (name: string) => String(form.get(name) ?? "").trim() || null;
-    const num = (name: string) => {
-      const v = text(name);
-      return v == null ? null : Number(v);
-    };
-    const { error } = await getSupabase()
-      .from("student_profiles")
-      .update({
-        name_en: text("name_en"),
-        name_ja: text("name_ja"),
-        name_kana: text("name_kana"),
-        school_name: text("school_name"),
-        prefecture: text("prefecture"),
-        gender: text("gender"),
-        graduation_year: num("graduation_year"),
-        bio: text("bio"),
-        gpa_jp: num("gpa_jp"),
-        gpa_us: num("gpa_us"),
-        intended_major: text("intended_major"),
-        ncaa_eligibility_id: text("ncaa_eligibility_id"),
-        handicap: num("handicap"),
-        video_url: text("video_url"),
-      })
-      .eq("user_id", student.user_id);
+// Splits a name saved before the parts existed ("山田 太郎") at the first space.
+function splitName(full: string | null, givenFirst = false): [string, string] {
+  const [first = "", ...rest] = (full ?? "").trim().split(/\s+/);
+  const second = rest.join(" ");
+  return givenFirst ? [second, first] : [first, second];
+}
+
+// Reads a form, saves the given columns of student_profiles and reports back.
+function useSave(student: StudentProfile, onSaved: () => void, lang: Locale) {
+  const t = getAccountDictionary(lang);
+  const [status, setStatus] = useState<Status>(null);
+  async function save(values: Partial<StudentProfile>) {
+    const { error } = await getSupabase().from("student_profiles").update(values).eq("user_id", student.user_id);
     setStatus(error ? { tone: "error", text: error.message } : { tone: "success", text: t.saved });
     if (!error) onSaved();
   }
+  return { status, save };
+}
+
+function reader(form: FormData) {
+  const text = (name: string) => String(form.get(name) ?? "").trim() || null;
+  const num = (name: string) => {
+    const v = text(name);
+    return v == null ? null : Number(v);
+  };
+  return { text, num };
+}
+
+const joinName = (...parts: (string | null)[]) => parts.filter(Boolean).join(" ") || null;
+
+function SaveRow({ lang, status }: { lang: Locale; status: Status }) {
+  const t = getAccountDictionary(lang);
+  return (
+    <>
+      {status && <Notice tone={status.tone}>{status.text}</Notice>}
+      <button type="submit" className={buttonClass}>
+        {t.save}
+      </button>
+    </>
+  );
+}
+
+type FormProps = { lang: Locale; student: StudentProfile; onSaved: () => void };
+
+function ProfileForm({ lang, student, onSaved }: FormProps) {
+  const t = getAccountDictionary(lang);
+  const s = t.student;
+  const { status, save } = useSave(student, onSaved, lang);
+  const [familyJa, givenJa] = splitName(student.name_ja);
+  const [familyKana, givenKana] = splitName(student.name_kana);
+  const [familyEn, givenEn] = splitName(student.name_en, true);
+  const thisYear = new Date().getFullYear();
+
+  function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const { text, num } = reader(new FormData(event.currentTarget));
+    save({
+      family_name_ja: text("family_name_ja"),
+      given_name_ja: text("given_name_ja"),
+      family_name_kana: text("family_name_kana"),
+      given_name_kana: text("given_name_kana"),
+      family_name_en: text("family_name_en"),
+      given_name_en: text("given_name_en"),
+      // The joined names are what coach screens and result claims show.
+      name_ja: joinName(text("family_name_ja"), text("given_name_ja")),
+      name_kana: joinName(text("family_name_kana"), text("given_name_kana")),
+      name_en: joinName(text("given_name_en"), text("family_name_en")),
+      birth_date: text("birth_date"),
+      gender: text("gender") as StudentProfile["gender"],
+      hometown: text("hometown"),
+      height_cm: num("height_cm"),
+      handedness: text("handedness") as StudentProfile["handedness"],
+      bio: text("bio"),
+    });
+  }
 
   return (
-    <form onSubmit={onSubmit} className="space-y-6">
+    <form onSubmit={onSubmit}>
       <Section title={s.profile}>
         <div className="grid gap-4 sm:grid-cols-2">
-          <Field label={s.nameEn}>
-            <Input name="name_en" defaultValue={student.name_en ?? ""} placeholder="Taro Yamada" />
+          <Field label={s.familyNameJa}>
+            <Input name="family_name_ja" defaultValue={student.family_name_ja ?? familyJa} placeholder="山田" />
           </Field>
-          <Field label={s.nameJa}>
-            <Input name="name_ja" defaultValue={student.name_ja ?? ""} placeholder="山田 太郎" />
+          <Field label={s.givenNameJa}>
+            <Input name="given_name_ja" defaultValue={student.given_name_ja ?? givenJa} placeholder="太郎" />
           </Field>
-          <Field label={t.nameKana}>
-            <KanaInput name="name_kana" defaultValue={student.name_kana ?? ""} placeholder="ヤマダ タロウ" />
+          <Field label={t.familyKana}>
+            <KanaInput name="family_name_kana" defaultValue={student.family_name_kana ?? familyKana} placeholder="ヤマダ" />
           </Field>
-          <Field label={s.school}>
-            <Input name="school_name" defaultValue={student.school_name ?? ""} />
+          <Field label={t.givenKana}>
+            <KanaInput name="given_name_kana" defaultValue={student.given_name_kana ?? givenKana} placeholder="タロウ" />
           </Field>
-          <Field label={s.prefecture}>
-            <Input name="prefecture" defaultValue={student.prefecture ?? ""} />
+          <Field label={s.familyNameEn}>
+            <Input name="family_name_en" defaultValue={student.family_name_en ?? familyEn} placeholder="Yamada" />
+          </Field>
+          <Field label={s.givenNameEn}>
+            <Input name="given_name_en" defaultValue={student.given_name_en ?? givenEn} placeholder="Taro" />
+          </Field>
+          <Field label={s.birthDate}>
+            <DateSelect
+              name="birth_date"
+              defaultValue={student.birth_date}
+              fromYear={1950}
+              toYear={thisYear}
+              labels={{ year: t.year, month: t.month, day: t.day }}
+            />
           </Field>
           <Field label={s.gender}>
             <select name="gender" defaultValue={student.gender ?? ""} className={inputClass}>
@@ -230,45 +280,207 @@ function ProfileForm({
               <option value="female">{s.female}</option>
             </select>
           </Field>
-          <Field label={t.signup.graduationYear}>
-            <YearSelect
-              name="graduation_year"
-              fromYear={2000}
-              toYear={new Date().getFullYear() + 6}
-              defaultValue={student.graduation_year != null ? String(student.graduation_year) : ""}
-              placeholder={t.year}
-            />
+          <Field label={s.hometown}>
+            <Input name="hometown" defaultValue={student.hometown ?? ""} />
+          </Field>
+          <Field label={s.heightCm}>
+            <Input name="height_cm" type="number" min={100} max={250} defaultValue={student.height_cm ?? ""} />
+          </Field>
+          <Field label={s.handedness}>
+            <select name="handedness" defaultValue={student.handedness ?? ""} className={inputClass}>
+              <option value="">—</option>
+              <option value="right">{s.right}</option>
+              <option value="left">{s.left}</option>
+            </select>
           </Field>
         </div>
         <Field label={s.bio}>
           <textarea name="bio" rows={4} defaultValue={student.bio ?? ""} className={inputClass} />
         </Field>
+        <SaveRow lang={lang} status={status} />
       </Section>
+    </form>
+  );
+}
+
+const divisions: Division[] = ["d1", "d2", "d3", "naia", "njcaa"];
+const ncaaStatuses: NcaaStatus[] = ["not_registered", "registered", "certified"];
+
+function AcademicsForm({ lang, student, onSaved }: FormProps) {
+  const t = getAccountDictionary(lang);
+  const s = t.student;
+  const { status, save } = useSave(student, onSaved, lang);
+  const thisYear = new Date().getFullYear();
+
+  function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const form = new FormData(event.currentTarget);
+    const { text, num } = reader(form);
+    save({
+      school_name: text("school_name"),
+      prefecture: text("prefecture"),
+      graduation_year: num("graduation_year"),
+      entry_year: num("entry_year"),
+      gpa_jp: num("gpa_jp"),
+      gpa_us: num("gpa_us"),
+      class_rank: num("class_rank"),
+      class_size: num("class_size"),
+      intended_major: text("intended_major"),
+      target_divisions: form.getAll("target_divisions") as Division[],
+      ncaa_status: text("ncaa_status") as NcaaStatus | null,
+      ncaa_eligibility_id: text("ncaa_eligibility_id"),
+    });
+  }
+
+  return (
+    <form onSubmit={onSubmit}>
       <Section title={s.academics}>
         <div className="grid gap-4 sm:grid-cols-2">
+          <Field label={s.school}>
+            <Input name="school_name" defaultValue={student.school_name ?? ""} />
+          </Field>
+          <Field label={s.prefecture}>
+            <Input name="prefecture" defaultValue={student.prefecture ?? ""} />
+          </Field>
+          <Field label={t.signup.graduationYear}>
+            <YearSelect
+              name="graduation_year"
+              fromYear={2000}
+              toYear={thisYear + 6}
+              defaultValue={student.graduation_year != null ? String(student.graduation_year) : ""}
+              placeholder={t.year}
+            />
+          </Field>
+          <Field label={s.entryYear}>
+            <YearSelect
+              name="entry_year"
+              fromYear={thisYear}
+              toYear={thisYear + 7}
+              defaultValue={student.entry_year != null ? String(student.entry_year) : ""}
+              placeholder={t.year}
+            />
+          </Field>
           <Field label={s.gpaJp}>
             <Input name="gpa_jp" type="number" step="0.1" min="1" max="5" defaultValue={student.gpa_jp ?? ""} />
           </Field>
           <Field label={s.gpaUs}>
             <Input name="gpa_us" type="number" step="0.01" min="0" max="4" defaultValue={student.gpa_us ?? ""} />
           </Field>
+          <Field label={s.classRank}>
+            <Input name="class_rank" type="number" min={1} defaultValue={student.class_rank ?? ""} />
+          </Field>
+          <Field label={s.classSize}>
+            <Input name="class_size" type="number" min={1} defaultValue={student.class_size ?? ""} />
+          </Field>
           <Field label={s.major}>
             <Input name="intended_major" defaultValue={student.intended_major ?? ""} />
+          </Field>
+        </div>
+        <fieldset className="text-sm">
+          <legend className="mb-1 font-medium">{s.divisions}</legend>
+          <div className="flex flex-wrap gap-x-5 gap-y-2">
+            {divisions.map((d) => (
+              <label key={d} className="flex items-center gap-2">
+                <input
+                  type="checkbox"
+                  name="target_divisions"
+                  value={d}
+                  defaultChecked={student.target_divisions?.includes(d)}
+                />
+                {s.divisionNames[d]}
+              </label>
+            ))}
+          </div>
+        </fieldset>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label={s.ncaaStatus}>
+            <select name="ncaa_status" defaultValue={student.ncaa_status ?? ""} className={inputClass}>
+              <option value="">—</option>
+              {ncaaStatuses.map((v) => (
+                <option key={v} value={v}>
+                  {s.ncaaStatuses[v]}
+                </option>
+              ))}
+            </select>
           </Field>
           <Field label={s.ncaaId}>
             <Input name="ncaa_eligibility_id" defaultValue={student.ncaa_eligibility_id ?? ""} />
           </Field>
+        </div>
+        <p className="text-xs text-foreground/60">{s.ncaaNote}</p>
+        <SaveRow lang={lang} status={status} />
+      </Section>
+    </form>
+  );
+}
+
+function GolfForm({ lang, student, onSaved }: FormProps) {
+  const t = getAccountDictionary(lang);
+  const s = t.student;
+  const { status, save } = useSave(student, onSaved, lang);
+
+  function onSubmit(event: FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    const { text, num } = reader(new FormData(event.currentTarget));
+    save({
+      handicap: num("handicap"),
+      scoring_average: num("scoring_average"),
+      scoring_rounds: num("scoring_rounds"),
+      best_18: num("best_18"),
+      best_18_event: text("best_18_event"),
+      driving_distance_yd: num("driving_distance_yd"),
+      wagr_rank: num("wagr_rank"),
+      home_course: text("home_course"),
+      ranking_url: text("ranking_url"),
+      video_url: text("video_url"),
+      coach_name: text("coach_name"),
+      coach_contact: text("coach_contact"),
+    });
+  }
+
+  return (
+    <form onSubmit={onSubmit}>
+      <Section title={s.golf}>
+        <p className="text-sm text-foreground/70">{s.golfNote}</p>
+        <div className="grid gap-4 sm:grid-cols-2">
+          <Field label={s.scoringAverage}>
+            <Input name="scoring_average" type="number" step="0.1" min={50} max={150} defaultValue={student.scoring_average ?? ""} />
+          </Field>
+          <Field label={s.scoringRounds}>
+            <Input name="scoring_rounds" type="number" min={0} defaultValue={student.scoring_rounds ?? ""} />
+          </Field>
           <Field label={s.handicap}>
             <Input name="handicap" type="number" step="0.1" defaultValue={student.handicap ?? ""} />
+          </Field>
+          <Field label={s.drivingDistance}>
+            <Input name="driving_distance_yd" type="number" min={100} max={450} defaultValue={student.driving_distance_yd ?? ""} />
+          </Field>
+          <Field label={s.best18}>
+            <Input name="best_18" type="number" min={50} max={150} defaultValue={student.best_18 ?? ""} />
+          </Field>
+          <Field label={s.best18Event}>
+            <Input name="best_18_event" defaultValue={student.best_18_event ?? ""} />
+          </Field>
+          <Field label={s.wagrRank}>
+            <Input name="wagr_rank" type="number" min={1} defaultValue={student.wagr_rank ?? ""} />
+          </Field>
+          <Field label={s.homeCourse}>
+            <Input name="home_course" defaultValue={student.home_course ?? ""} />
+          </Field>
+          <Field label={s.rankingUrl}>
+            <Input name="ranking_url" type="url" defaultValue={student.ranking_url ?? ""} />
           </Field>
           <Field label={s.video}>
             <Input name="video_url" type="url" defaultValue={student.video_url ?? ""} />
           </Field>
+          <Field label={s.coachName}>
+            <Input name="coach_name" defaultValue={student.coach_name ?? ""} />
+          </Field>
+          <Field label={s.coachContact}>
+            <Input name="coach_contact" defaultValue={student.coach_contact ?? ""} />
+          </Field>
         </div>
-        {status && <Notice tone={status.tone}>{status.text}</Notice>}
-        <button type="submit" className={buttonClass}>
-          {t.save}
-        </button>
+        <SaveRow lang={lang} status={status} />
       </Section>
     </form>
   );

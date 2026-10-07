@@ -78,6 +78,8 @@ export function SignupForm({ lang }: { lang: Locale }) {
           // Kept apart as well, in the auth user's metadata, in case the parts are needed later.
           family_name: family,
           given_name: given,
+          family_kana: value("family_kana"),
+          given_kana: value("given_kana"),
           name_kana: fullKana,
           locale: lang,
           ...(role === "student" && (lang === "ja" ? { name_ja: fullName } : { name_en: fullName })),
