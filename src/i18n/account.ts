@@ -33,7 +33,10 @@ const en = {
   roles: {
     student: { title: "Student athlete", body: "Build your profile, list the colleges you want, and link your tournament results." },
     parent: { title: "Parent / guardian", body: "Link to your child's account to follow and help with their profile." },
-    coach: { title: "College coach", body: "Search and save players. Sign up with your college (.edu) email to be verified." },
+    coach: {
+      title: "College coach",
+      body: "Search and save players. For college coaching staff only; recruiting agents and services cannot register.",
+    },
   },
   signup: {
     title: "Create an account",
@@ -45,7 +48,7 @@ const en = {
     collegeName: "College / university",
     coachTitle: "Title (e.g. Head Coach)",
     eduNote:
-      "Coaches who sign up with a .edu email are verified once the email is confirmed. Other addresses are checked by our staff.",
+      "Use the email on your college's coaching staff page: you are verified once it is confirmed. Assistants and other staff can be invited by a verified coach. Other accounts are checked by our staff. Recruiting agents and services cannot register.",
     inviteCode: "Invite code from your child (optional)",
     inviteNote: "Your child can find this code on their account page. You can also add it later.",
     agree: "I agree to the handling of my information for college recruiting purposes.",
@@ -80,6 +83,9 @@ const en = {
     linkedParents: "Linked parents",
     parentInvite: "Optional: give this code to a parent or guardian so they can follow your profile.",
     parentLink: "Or send them this sign-up link:",
+    unlinkParent: "Unlink",
+    newCode: "Make a new code",
+    newCodeNote: "The old code stops working. Parents already linked stay linked.",
     visibility: "Show my profile to verified college coaches",
     visibilityNote: "Coaches see your profile, academics and test scores. Your tournament results are public either way.",
     profile: "Profile",
@@ -152,7 +158,7 @@ const en = {
   coach: {
     status: {
       pending:
-        "Your coach account is waiting for verification. Coaches using a .edu email are verified once their email is confirmed; other accounts are checked by our staff.",
+        "Your coach account is waiting for verification. An email listed on your college's coaching staff page, or one a verified coach invited, is verified once confirmed. Other accounts are checked by our staff.",
       verified: "Verified college coach.",
       rejected: "We could not verify this coach account. Please contact us.",
     },
@@ -164,12 +170,26 @@ const en = {
     browse: "Browse players",
     students: "Students open to coaches",
     studentsNone: "No students have opened their profile yet.",
+    resultsConfirmed: "Results confirmed by AthNi",
+    selfReported: "Entered by the student; not checked by AthNi.",
+    team: "Your staff",
+    teamLead:
+      "Assistants and other staff use their own account, never a shared login. Invite them with their email on your college domain; they are verified once they sign up as a college coach and confirm it. Recruiting agents cannot be invited.",
+    teamEmail: "Staff email",
+    invite: "Invite",
+    teamJoined: "Joined",
+    teamWaiting: "Not signed up yet",
+    teamNone: "No staff invited yet.",
+    teamMember: "You are verified as staff of a verified coach. Your access ends if they remove you.",
   },
   player: {
     save: "Save player",
     unsave: "Saved ✓",
     claim: "This is me",
     claimed: "Claim sent for review",
+    evidence: "Link that shows these results are yours (optional)",
+    evidenceHint: "For example your school's or federation's results page with your name.",
+    sendClaim: "Send for review",
   },
 };
 
@@ -205,7 +225,10 @@ const ja: AccountDictionary = {
   roles: {
     student: { title: "生徒（選手）", body: "プロフィールの作成、志望校リスト、大会成績の紐づけができます。" },
     parent: { title: "保護者", body: "お子さまのアカウントと連携し、プロフィールを確認・サポートできます。" },
-    coach: { title: "大学コーチ", body: "選手の検索と保存ができます。大学（.edu）のメールアドレスで登録すると認証されます。" },
+    coach: {
+      title: "大学コーチ",
+      body: "選手の検索と保存ができます。大学のコーチングスタッフ専用です。仲介エージェント・業者は登録できません。",
+    },
   },
   signup: {
     title: "アカウント作成",
@@ -217,7 +240,7 @@ const ja: AccountDictionary = {
     collegeName: "大学名",
     coachTitle: "役職（例: Head Coach）",
     eduNote:
-      ".edu のメールアドレスで登録したコーチは、メール確認後に自動で認証されます。それ以外のアドレスは運営が確認します。",
+      "大学のコーチ紹介ページに載っているメールアドレスで登録すると、メール確認後に自動で認証されます。アシスタントなどのスタッフは認証済みのコーチから招待できます。それ以外は運営が確認します。仲介エージェント・業者は登録できません。",
     inviteCode: "お子さまの招待コード（任意）",
     inviteNote: "コードはお子さまのマイページに表示されています。あとから追加することもできます。",
     agree: "大学進学支援のために私の情報が扱われることに同意します。",
@@ -252,6 +275,9 @@ const ja: AccountDictionary = {
     linkedParents: "連携している保護者",
     parentInvite: "任意: このコードを保護者の方に伝えると、保護者の方もプロフィールを確認できます。",
     parentLink: "または、この登録リンクを送ってください:",
+    unlinkParent: "連携を解除",
+    newCode: "コードを作り直す",
+    newCodeNote: "古いコードは使えなくなります。連携済みの保護者はそのままです。",
     visibility: "認証済みの大学コーチにプロフィールを公開する",
     visibilityNote: "コーチにはプロフィール、学業、テストのスコアが表示されます。大会成績は公式結果として、設定に関係なく公開されています。",
     profile: "プロフィール",
@@ -324,7 +350,7 @@ const ja: AccountDictionary = {
   coach: {
     status: {
       pending:
-        "コーチアカウントは認証待ちです。.edu のメールアドレスはメール確認後に自動で認証され、それ以外は運営が確認します。",
+        "コーチアカウントは認証待ちです。大学のコーチ紹介ページに載っているメールアドレス、または認証済みコーチから招待されたアドレスは、メール確認後に自動で認証されます。それ以外は運営が確認します。",
       verified: "認証済みの大学コーチです。",
       rejected: "このコーチアカウントは認証できませんでした。お問い合わせください。",
     },
@@ -336,12 +362,26 @@ const ja: AccountDictionary = {
     browse: "選手を探す",
     students: "コーチに公開中の生徒",
     studentsNone: "プロフィールを公開している生徒はまだいません。",
+    resultsConfirmed: "AthNi確認済みの成績",
+    selfReported: "生徒本人の入力です（AthNiでは確認していません）。",
+    team: "スタッフ",
+    teamLead:
+      "アシスタントなどのスタッフは、アカウントを共有せず各自のアカウントを使います。大学のドメインのメールアドレスで招待してください。そのアドレスで大学コーチとして登録しメールを確認すると認証されます。仲介エージェントは招待できません。",
+    teamEmail: "スタッフのメールアドレス",
+    invite: "招待する",
+    teamJoined: "登録済み",
+    teamWaiting: "未登録",
+    teamNone: "まだスタッフを招待していません。",
+    teamMember: "認証済みコーチのスタッフとして認証されています。そのコーチが招待を取り消すと利用できなくなります。",
   },
   player: {
     save: "選手を保存",
     unsave: "保存済み ✓",
     claim: "これは自分です",
     claimed: "確認を申請しました",
+    evidence: "自分の成績だとわかるリンク（任意）",
+    evidenceHint: "例: 名前が載っている学校や連盟の結果ページ",
+    sendClaim: "確認を申請する",
   },
 };
 
