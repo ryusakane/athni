@@ -1,36 +1,2464 @@
 {
  "slug": "lindenwood",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://lindenwoodlions.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ludvig Behring",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sollentuna, Sweden",
+       "country": "SE",
+       "previous_school": "Osterakers Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ludvig-behring/29010"
+      },
+      {
+       "name": "Santiago Juesas Benet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Colegio Leones",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/santiago-juesas-benet/28991"
+      },
+      {
+       "name": "Samuel Bergenstein",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Danderyd, Sweden",
+       "country": "SE",
+       "previous_school": "Danderyds Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/samuel-bergenstein/28993"
+      },
+      {
+       "name": "Sam Emrick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Peters, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sam-emrick/28998"
+      },
+      {
+       "name": "Francisco Gavilan Fernandez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Agora Lledo International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/francisco-gavilan-fernandez/29011"
+      },
+      {
+       "name": "Pedro Miyata",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carapicuiba, Brazil",
+       "country": "BR",
+       "previous_school": "Colégio Objetivo Carapicuíba",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/pedro-miyata/29012"
+      },
+      {
+       "name": "Yash Rao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fenton, Mo.",
+       "country": "US",
+       "previous_school": "Rockwood Summit",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/yash-rao/29006"
+      },
+      {
+       "name": "Owen Shy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Charles, Mo.",
+       "country": "US",
+       "previous_school": "St. Charles West",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/owen-shy/29013"
+      },
+      {
+       "name": "Jan Wdowka",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kamenice, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Artecon Praha",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/jan-wdowka/29014"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ray Farnell",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/ray-farnell/4201"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Santiago Juesas Benet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Colegio Leones",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/santiago-juesas-benet/28021"
+      },
+      {
+       "name": "Samuel Bergenstein",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Danderyd, Sweden",
+       "country": "SE",
+       "previous_school": "Danderyds Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/samuel-bergenstein/28005"
+      },
+      {
+       "name": "Sil Beyers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Puurs-Sint-Amands, Antwerp",
+       "country": null,
+       "previous_school": "Topsportschool Hasselt",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sil-beyers/28006"
+      },
+      {
+       "name": "Sam Emrick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Peters, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sam-emrick/28010"
+      },
+      {
+       "name": "Renato Filho",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Curitiba, Brazil",
+       "country": "BR",
+       "previous_school": "Coleio Bom Jesus",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/renato-filho/28012"
+      },
+      {
+       "name": "Mackenzie Holmes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kilmacolm, Scotland",
+       "country": "GB",
+       "previous_school": "St. Columbas",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/mackenzie-holmes/28015"
+      },
+      {
+       "name": "Tyler May",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fergus, Ontario",
+       "country": "CA",
+       "previous_school": "Centre Wellington District",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/tyler-may/28017"
+      },
+      {
+       "name": "Yash Rao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fenton, Mo.",
+       "country": "US",
+       "previous_school": "Rockwood Summit",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/yash-rao/28022"
+      },
+      {
+       "name": "Brennan Strubberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Washington, Mo.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brennan-strubberg/28018"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/4095"
+      },
+      {
+       "name": "Ray Farnell",
+       "title": "Men's Golf Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/ray-farnell/4099"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Juan Ballester",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Lycée français de Madrid",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/juan-ballester/25845"
+      },
+      {
+       "name": "Liam Bentein",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Belgium",
+       "country": "BE",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/liam-bentein/25830"
+      },
+      {
+       "name": "Samuel Bergenstein",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Danderyd, Sweden",
+       "country": "SE",
+       "previous_school": "Danderyds Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/samuel-bergenstein/25846"
+      },
+      {
+       "name": "Sil Beyers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Puurs-Sint-Amands, Antwerp",
+       "country": null,
+       "previous_school": "Topsportschool Hasselt",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sil-beyers/25831"
+      },
+      {
+       "name": "Jordan Breen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brooklin, Ontario",
+       "country": "CA",
+       "previous_school": "Brooklin",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/jordan-breen/25832"
+      },
+      {
+       "name": "Sam Emrick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Peters, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell Central",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sam-emrick/25835"
+      },
+      {
+       "name": "Renato Filho",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Curitiba, Brazil",
+       "country": "BR",
+       "previous_school": "Coleio Bom Jesus",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/renato-filho/25837"
+      },
+      {
+       "name": "Matthew Frith",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "St. Patrick's College Sutherland",
+       "class_raw": "Gr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/matthew-frith/25838"
+      },
+      {
+       "name": "Mackenzie Holmes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kilmacolm, Scotland",
+       "country": "GB",
+       "previous_school": "St. Columbas",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/mackenzie-holmes/25840"
+      },
+      {
+       "name": "Gabriel Lindahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "National High School of Golf",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/gabriel-lindahl/25847"
+      },
+      {
+       "name": "Tyler May",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fergus, Ontario",
+       "country": "CA",
+       "previous_school": "Centre Wellington District",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/tyler-may/25841"
+      },
+      {
+       "name": "Brennan Strubberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Washington, Mo.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brennan-strubberg/25842"
+      },
+      {
+       "name": "Alex White",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ill.",
+       "country": "US",
+       "previous_school": "Hillsboro",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alex-white/25844"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/3869"
+      },
+      {
+       "name": "Ray Farnell",
+       "title": "Men's Golf Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/ray-farnell/4100"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lucas Allder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sundsvall, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/lucas-allder/23891"
+      },
+      {
+       "name": "Liam Bentein",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Belgium",
+       "country": "BE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/liam-bentein/23892"
+      },
+      {
+       "name": "Sil Beyers",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Puurs-Sint-Amands, Antwerp",
+       "country": null,
+       "previous_school": "Topsportschool Hasselt",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sil-beyers/23893"
+      },
+      {
+       "name": "Jordan Breen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brooklin, Ontario",
+       "country": "CA",
+       "previous_school": "Brooklin",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/jordan-breen/23894"
+      },
+      {
+       "name": "Andrija Dordevic",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": "Savremena Gimnazija",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/andrija-dordevic/23896"
+      },
+      {
+       "name": "Sam Emrick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Peters, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sam-emrick/23897"
+      },
+      {
+       "name": "Renato Filho",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Curitiba, Brazil",
+       "country": "BR",
+       "previous_school": "Coleio Bom Jesus",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/renato-filho/23899"
+      },
+      {
+       "name": "Matthew Frith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "St. Patrick's College Sutherland",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/matthew-frith/23901"
+      },
+      {
+       "name": "John Gardner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Overland Park, Kan.",
+       "country": "US",
+       "previous_school": "Blue Valley Northwest",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/john-gardner/23902"
+      },
+      {
+       "name": "Mackenzie Holmes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kilmacolm, Scotland",
+       "country": "GB",
+       "previous_school": "St. Columbas",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/mackenzie-holmes/23903"
+      },
+      {
+       "name": "Tyler May",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fergus, Ontario",
+       "country": "CA",
+       "previous_school": "Centre Wellington District",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/tyler-may/23904"
+      },
+      {
+       "name": "Brennan Strubberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Washington, Mo.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brennan-strubberg/23905"
+      },
+      {
+       "name": "Brayden Wampler-Foust",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Charles, Mo.",
+       "country": "US",
+       "previous_school": "St. Charles West",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brayden-wampler-foust/23900"
+      },
+      {
+       "name": "Alex White",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ill.",
+       "country": "US",
+       "previous_school": "Hillsboro",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alex-white/23906"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/3638"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lucas Allder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sundsvall, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/lucas-allder/22919"
+      },
+      {
+       "name": "Adam Bain",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stouffville, Ontario",
+       "country": "CA",
+       "previous_school": "Stouffville District Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/adam-bain/22920"
+      },
+      {
+       "name": "Liam Bentein",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Belgium",
+       "country": "BE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/liam-bentein/22921"
+      },
+      {
+       "name": "Sil Beyers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Puurs-Sint-Amands, Antwerp",
+       "country": null,
+       "previous_school": "Topsportschool Hasselt",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/sil-beyers/23753"
+      },
+      {
+       "name": "Jordan Breen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brooklin, Ontario",
+       "country": "CA",
+       "previous_school": "Brooklin",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/jordan-breen/22922"
+      },
+      {
+       "name": "Cebrian Bruno",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santa Cruz de Tenerife, Spain",
+       "country": "ES",
+       "previous_school": "IES Anaga",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/cebrian-bruno/22923"
+      },
+      {
+       "name": "Andrija Dordevic",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": "Savremena Gimnazija",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/andrija-dordevic/22924"
+      },
+      {
+       "name": "Oscar Falth",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vegby, Sweeden",
+       "country": null,
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/oscar-falth/22932"
+      },
+      {
+       "name": "Renato Filho",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Curitiba, Brazil",
+       "country": "BR",
+       "previous_school": "Coleio Bom Jesus",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/renato-filho/22940"
+      },
+      {
+       "name": "Matthew Frith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "St. Patrick's College Sutherland",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/matthew-frith/22946"
+      },
+      {
+       "name": "John Gardner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Overland Park, Kan.",
+       "country": "US",
+       "previous_school": "Blue Valley Northwest",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/john-gardner/22934"
+      },
+      {
+       "name": "Mackenzie Holmes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kilmacolm, Scotland",
+       "country": "GB",
+       "previous_school": "St. Columbas",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/mackenzie-holmes/22948"
+      },
+      {
+       "name": "Tyler May",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fergus, Ontario",
+       "country": "CA",
+       "previous_school": "Centre Wellington District",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/tyler-may/22949"
+      },
+      {
+       "name": "Brennan Strubberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Washington, Mo.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brennan-strubberg/22950"
+      },
+      {
+       "name": "Brayden Wampler-Foust",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Charles, Mo.",
+       "country": "US",
+       "previous_school": "St. Charles West",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brayden-wampler-foust/22943"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/3514"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lucas Allder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sundsvall, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/lucas-allder/21440"
+      },
+      {
+       "name": "Adam Bain",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stouffville, Ontario",
+       "country": "CA",
+       "previous_school": "Stouffville District Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/adam-bain/21441"
+      },
+      {
+       "name": "Liam Bentein",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belgium",
+       "country": "BE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/liam-bentein/21442"
+      },
+      {
+       "name": "Jordan Breen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brooklin, Ontario",
+       "country": "CA",
+       "previous_school": "Brooklin",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/jordan-breen/21452"
+      },
+      {
+       "name": "Brandon Dahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake In The Hills, Ill.",
+       "country": "US",
+       "previous_school": "Crystal Lake South",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brandon-dahl/21443"
+      },
+      {
+       "name": "Robert Dean",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbia, Mo.",
+       "country": "US",
+       "previous_school": "Muriel Williams Battle",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/robert-dean/21444"
+      },
+      {
+       "name": "Andrija Dordevic",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": "Savremena Gimnazija",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/andrija-dordevic/21445"
+      },
+      {
+       "name": "Oscar Falth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vegby, Sweeden",
+       "country": null,
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/oscar-falth/21446"
+      },
+      {
+       "name": "John Gardner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Overland Park, Kan.",
+       "country": "US",
+       "previous_school": "Blue Valley Northwest",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/john-gardner/21453"
+      },
+      {
+       "name": "Gonzalo Gracia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/gonzalo-gracia/21447"
+      },
+      {
+       "name": "Joe MacNeil",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orillia, Ontario",
+       "country": "CA",
+       "previous_school": "Patrick Fogarty CSS",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/joe-macneil/21448"
+      },
+      {
+       "name": "Caleb Picker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow Mills, Mo.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/caleb-picker/21449"
+      },
+      {
+       "name": "Alvaro Puchades",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alvaro-puchades/21450"
+      },
+      {
+       "name": "Ville Vakiparta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tampere, Finland",
+       "country": "FI",
+       "previous_school": "Sammon Keskuslukio",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ville-vakiparta/21451"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/3304"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lucas Allder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sundsvall, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/lucas-allder/20220"
+      },
+      {
+       "name": "Adam Bain",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stouffville, Ontario",
+       "country": "CA",
+       "previous_school": "Stouffville District Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/adam-bain/20208"
+      },
+      {
+       "name": "Liam Bentein",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belgium",
+       "country": "BE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/liam-bentein/20217"
+      },
+      {
+       "name": "Brandon Dahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake In The Hills, Ill.",
+       "country": "US",
+       "previous_school": "Crystal Lake South",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brandon-dahl/20717"
+      },
+      {
+       "name": "Robert Dean",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbia, Mo.",
+       "country": "US",
+       "previous_school": "Muriel Williams Battle",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/robert-dean/20209"
+      },
+      {
+       "name": "Andrija Dordevic",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": "Savremena Gimnazija",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/andrija-dordevic/20218"
+      },
+      {
+       "name": "Oscar Falth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vegby, Sweeden",
+       "country": null,
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/oscar-falth/20215"
+      },
+      {
+       "name": "Gonzalo Gracia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/gonzalo-gracia/20214"
+      },
+      {
+       "name": "Joe MacNeil",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orillia, Ontario",
+       "country": "CA",
+       "previous_school": "Patrick Fogarty CSS",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/joe-macneil/20211"
+      },
+      {
+       "name": "Caleb Picker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow Mills, Mo.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/caleb-picker/20212"
+      },
+      {
+       "name": "Alvaro Puchades",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alvaro-puchades/20216"
+      },
+      {
+       "name": "Ville Vakiparta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tampere, Finland",
+       "country": "FI",
+       "previous_school": "Sammon Keskuslukio",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ville-vakiparta/20213"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/3126"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carlos Abril",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Castellon, Spain",
+       "country": "ES",
+       "previous_school": "Colegio San Cristobal",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/carlos-abril/11783"
+      },
+      {
+       "name": "Lucas Allder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sundsvall, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/lucas-allder/11781"
+      },
+      {
+       "name": "Adam Bain",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stouffville, Ontario",
+       "country": "CA",
+       "previous_school": "Stouffville District Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/adam-bain/11782"
+      },
+      {
+       "name": "Alejandro Canizares",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Cambridge House",
+       "class_raw": "Gr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alejandro-canizares/11772"
+      },
+      {
+       "name": "Brad Currier",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oakville, Ontario",
+       "country": "CA",
+       "previous_school": "Abbey Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brad-currier/11773"
+      },
+      {
+       "name": "Robert Dean",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbia, Mo.",
+       "country": "US",
+       "previous_school": "Muriel Williams Battle",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/robert-dean/11774"
+      },
+      {
+       "name": "Koke Edo Maeso",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Pureza de Maria",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/koke-edo-maeso/11775"
+      },
+      {
+       "name": "Ryan Elder",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wamego, Kan.",
+       "country": "US",
+       "previous_school": "Wamego",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ryan-elder/11784"
+      },
+      {
+       "name": "Markus Lindgren",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweeden",
+       "country": null,
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/markus-lindgren/11776"
+      },
+      {
+       "name": "Joe MacNeil",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orillia, Ontario",
+       "country": "CA",
+       "previous_school": "Patrick Fogarty CSS",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/joe-macneil/11785"
+      },
+      {
+       "name": "Caleb Picker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow Mills, Mo.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/caleb-picker/11777"
+      },
+      {
+       "name": "Ville Vakiparta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tampere, Finland",
+       "country": "FI",
+       "previous_school": "Sammon Keskuslukio",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ville-vakiparta/11778"
+      },
+      {
+       "name": "Yente Van Doren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ekeren, Belgium",
+       "country": "BE",
+       "previous_school": "KA 2 Top Sport School Hasselt",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/yente-van-doren/11779"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Schaub",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/coaches/derek-schaub/2975"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Christian Argyros",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "CBC",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/christian-argyros/9984"
+      },
+      {
+       "name": "Alejandro Canizares",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Cambridge House",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alejandro-canizares/9985"
+      },
+      {
+       "name": "Brad Currier",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oakville, Ontario",
+       "country": "CA",
+       "previous_school": "Abbey Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brad-currier/9986"
+      },
+      {
+       "name": "Robert Dean",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbia, Mo.",
+       "country": "US",
+       "previous_school": "Muriel Williams Battle",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/robert-dean/9987"
+      },
+      {
+       "name": "Koke Edo Maeso",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Pureza de Maria",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/koke-edo-maeso/9988"
+      },
+      {
+       "name": "Markus Lindgren",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweeden",
+       "country": null,
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/markus-lindgren/9997"
+      },
+      {
+       "name": "Caleb Picker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow Mills, Mo.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/caleb-picker/9995"
+      },
+      {
+       "name": "Ville Vakiparta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tampere, Finland",
+       "country": "FI",
+       "previous_school": "Sammon Keskuslukio",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ville-vakiparta/9996"
+      },
+      {
+       "name": "Yente Van Doren",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ekeren, Belgium",
+       "country": "BE",
+       "previous_school": "KA 2 Top Sport School Hasselt",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/yente-van-doren/9989"
+      },
+      {
+       "name": "Colton Wyllie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Markham, Ontario",
+       "country": "CA",
+       "previous_school": "Bill Crothers Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/colton-wyllie/9990"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Christian Argyros",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "CBC",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/christian-argyros/8343"
+      },
+      {
+       "name": "Garrett Blair",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lanigan, Saskatchewan",
+       "country": "CA",
+       "previous_school": "Lanigan Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/garrett-blair/8344"
+      },
+      {
+       "name": "Alejandro Canizares",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Cambridge House",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/alejandro-canizares/8353"
+      },
+      {
+       "name": "Brad Currier",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oakville, Ontario",
+       "country": "CA",
+       "previous_school": "Abbey Park",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/brad-currier/8346"
+      },
+      {
+       "name": "Robert Dean",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbia, Mo.",
+       "country": "US",
+       "previous_school": "Muriel Williams Battle",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/robert-dean/8354"
+      },
+      {
+       "name": "Ryan Dyck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Welland, Ontario",
+       "country": "CA",
+       "previous_school": "Notre Dame College School",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/ryan-dyck/8347"
+      },
+      {
+       "name": "Koke Edo Maeso",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "Pureza de Maria",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/koke-edo-maeso/8348"
+      },
+      {
+       "name": "Tyler McKay",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rossland, British Columbia",
+       "country": "CA",
+       "previous_school": "Rossland Secondary School",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/tyler-mckay/8349"
+      },
+      {
+       "name": "Justin Stacer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "Lindbergh",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/justin-stacer/8350"
+      },
+      {
+       "name": "Juan Torrente",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Colegio Parroquial San Bernardo",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/juan-torrente/8351"
+      },
+      {
+       "name": "Yente Van Doren",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ekeren, Belgium",
+       "country": "BE",
+       "previous_school": "KA 2 Top Sport School Hasselt",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/yente-van-doren/8352"
+      },
+      {
+       "name": "Colton Wyllie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Markham, Ontario",
+       "country": "CA",
+       "previous_school": "Bill Crothers Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/mens-golf/roster/colton-wyllie/8355"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://lindenwoodlions.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Andrea Alvarez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Veracruz, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Euler",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/andrea-alvarez/28770"
+      },
+      {
+       "name": "Isabella Buckley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "St. Joseph's Academy",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/isabella-buckley/28771"
+      },
+      {
+       "name": "Meredith Colby",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/meredith-colby/28773"
+      },
+      {
+       "name": "Jamie Daniels",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shorewood, Ill.",
+       "country": "US",
+       "previous_school": "Joliet West",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/jamie-daniels/28774"
+      },
+      {
+       "name": "Raegan Etnyre",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/raegan-etnyre/28775"
+      },
+      {
+       "name": "Sophia Lefler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tulsa, Okla.",
+       "country": "US",
+       "previous_school": "Jenks",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/sophia-lefler/28789"
+      },
+      {
+       "name": "KC Lenox",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Peters, Mo.",
+       "country": "US",
+       "previous_school": "St. Joseph's Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kc-lenox/28788"
+      },
+      {
+       "name": "Paula Mariana Sanchez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ibague, Colombia.",
+       "country": "CO",
+       "previous_school": "Colegio Ingles Ibague.",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/paula-mariana-sanchez/28779"
+      },
+      {
+       "name": "Laura Sanchez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/laura-sanchez/28784"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tavia Rutherford",
+       "title": "Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/coaches/tavia-rutherford/4172"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Andrea Alvarez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Veracruz, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Euler",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/andrea-alvarez/27984"
+      },
+      {
+       "name": "Isabella Buckley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "St. Joseph's Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/isabella-buckley/27998"
+      },
+      {
+       "name": "Meredith Colby",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/meredith-colby/27999"
+      },
+      {
+       "name": "Jamie Daniels",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shorewood, Ill.",
+       "country": "US",
+       "previous_school": "Joliet West",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/jamie-daniels/27986"
+      },
+      {
+       "name": "Raegan Etnyre",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/raegan-etnyre/28000"
+      },
+      {
+       "name": "Bailie Krause",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kilbourne, Ill.",
+       "country": "US",
+       "previous_school": "Illini Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/bailie-krause/28001"
+      },
+      {
+       "name": "Paula Mariana Sanchez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ibague, Colombia.",
+       "country": "CO",
+       "previous_school": "Colegio Ingles Ibague.",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/paula-mariana-sanchez/27989"
+      },
+      {
+       "name": "Laura Sanchez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/laura-sanchez/27994"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tavia Rutherford",
+       "title": "Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/coaches/tavia-rutherford/4094"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Andrea Alvarez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Veracruz, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Euler",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/andrea-alvarez/25929"
+      },
+      {
+       "name": "Rumbidzai Chisango",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "The Heritage School",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/rumbidzai-chisango/25918"
+      },
+      {
+       "name": "Jamie Daniels",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shorewood, Ill.",
+       "country": "US",
+       "previous_school": "Joliet West",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/jamie-daniels/25930"
+      },
+      {
+       "name": "Hannah Inchiostro",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Foristell, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/hannah-inchiostro/25920"
+      },
+      {
+       "name": "Paula Mariana Sanchez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ibague, Colombia.",
+       "country": "CO",
+       "previous_school": "Colegio Ingles Ibague.",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/paula-mariana-sanchez/25921"
+      },
+      {
+       "name": "Noelia Rodriguez Chicote",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "La Salle",
+       "class_raw": "Gr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/noelia-rodriguez-chicote/25925"
+      },
+      {
+       "name": "Laura Sanchez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/laura-sanchez/25931"
+      },
+      {
+       "name": "Lacey Schierl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ill.",
+       "country": "US",
+       "previous_school": "Routt Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/lacey-schierl/25926"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tavia Rutherford",
+       "title": "Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/coaches/tavia-rutherford/3877"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Rumbidzai Chisango",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "The Heritage School",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/rumbidzai-chisango/23981"
+      },
+      {
+       "name": "Kassidy Hull",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eldon, Mo.",
+       "country": "US",
+       "previous_school": "Eldon",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kassidy-hull/23982"
+      },
+      {
+       "name": "Hannah Inchiostro",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Foristell, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/hannah-inchiostro/23983"
+      },
+      {
+       "name": "Paula Mariana Sanchez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ibague, Colombia.",
+       "country": "CO",
+       "previous_school": "Colegio Ingles Ibague.",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/paula-mariana-sanchez/25288"
+      },
+      {
+       "name": "MacKenzie McCoy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Champaign, Ill.",
+       "country": "US",
+       "previous_school": "Champaign Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/mackenzie-mccoy/23984"
+      },
+      {
+       "name": "Becca Oertel",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Advanced Technologies Academy",
+       "class_raw": "Gr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/becca-oertel/23986"
+      },
+      {
+       "name": "Noelia Rodriguez Chicote",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "La Salle",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/noelia-rodriguez-chicote/23987"
+      },
+      {
+       "name": "Lacey Schierl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ill.",
+       "country": "US",
+       "previous_school": "Routt Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/lacey-schierl/23989"
+      },
+      {
+       "name": "Lillian Schlemmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valmeyer, Ill.",
+       "country": "US",
+       "previous_school": "Valmeyer",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/lillian-schlemmer/23990"
+      },
+      {
+       "name": "Addasyn Zeller",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Edwardsville, Ill.",
+       "country": "US",
+       "previous_school": "Edwardsville",
+       "class_raw": "Gr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/addasyn-zeller/23991"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Abby Weber",
+       "title": "Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/coaches/abby-weber/3650"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Rumbidzai Chisango",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "The Heritage School",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/rumbidzai-chisango/23010"
+      },
+      {
+       "name": "Kassidy Hull",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eldon, Mo.",
+       "country": "US",
+       "previous_school": "Eldon",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kassidy-hull/23017"
+      },
+      {
+       "name": "Hannah Inchiostro",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Foristell, Mo.",
+       "country": "US",
+       "previous_school": "Francis Howell",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/hannah-inchiostro/23018"
+      },
+      {
+       "name": "MacKenzie McCoy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Champaign, Ill.",
+       "country": "US",
+       "previous_school": "Champaign Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/mackenzie-mccoy/23019"
+      },
+      {
+       "name": "Alexis Montgomery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Maumelle, Ark.",
+       "country": "US",
+       "previous_school": "Maumelle",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/alexis-montgomery/23011"
+      },
+      {
+       "name": "McKenna Montgomery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "Westminster",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/mckenna-montgomery/23012"
+      },
+      {
+       "name": "Becca Oertel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Advanced Technologies Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/becca-oertel/23013"
+      },
+      {
+       "name": "Noelia Rodriguez Chicote",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "La Salle",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/noelia-rodriguez-chicote/23014"
+      },
+      {
+       "name": "Lacey Schierl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ill.",
+       "country": "US",
+       "previous_school": "Routt Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/lacey-schierl/23015"
+      },
+      {
+       "name": "Lillian Schlemmer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valmeyer, Ill.",
+       "country": "US",
+       "previous_school": "Valmeyer",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/lillian-schlemmer/23021"
+      },
+      {
+       "name": "Addasyn Zeller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edwardsville, Ill.",
+       "country": "US",
+       "previous_school": "Edwardsville",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/addasyn-zeller/23016"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Abby Weber",
+       "title": "Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/coaches/abby-weber/3515"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Rumbidzai Chisango",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "The Heritage School",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/rumbidzai-chisango/22439"
+      },
+      {
+       "name": "Josefina Haupt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "Cypress Bay",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/josefina-haupt/21432"
+      },
+      {
+       "name": "Alexis Montgomery",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maumelle, Ark.",
+       "country": "US",
+       "previous_school": "Maumelle",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/alexis-montgomery/21433"
+      },
+      {
+       "name": "McKenna Montgomery",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "Westminster",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/mckenna-montgomery/21434"
+      },
+      {
+       "name": "Becca Oertel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Advanced Technologies Academy",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/becca-oertel/21436"
+      },
+      {
+       "name": "Noelia Rodriguez Chicote",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "La Salle",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/noelia-rodriguez-chicote/21437"
+      },
+      {
+       "name": "Lacey Schierl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ill.",
+       "country": "US",
+       "previous_school": "Routt Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/lacey-schierl/21439"
+      },
+      {
+       "name": "Addasyn Zeller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edwardsville, Ill.",
+       "country": "US",
+       "previous_school": "Edwardsville",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/addasyn-zeller/21438"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Abby Weber",
+       "title": "Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/coaches/abby-weber/3382"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Reece Gentry",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "O'Fallon, Mo.",
+       "country": "US",
+       "previous_school": "St. Dominic's",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/reece-gentry/19973"
+      },
+      {
+       "name": "Josefina Haupt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "Cypress Bay",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/josefina-haupt/19968"
+      },
+      {
+       "name": "Alexis Montgomery",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maumelle, Ark.",
+       "country": "US",
+       "previous_school": "Maumelle",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/alexis-montgomery/19969"
+      },
+      {
+       "name": "McKenna Montgomery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "Westminster",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/mckenna-montgomery/19974"
+      },
+      {
+       "name": "Grace Mungle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Louis, Mo.",
+       "country": "US",
+       "previous_school": "Mehlville",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/grace-mungle/19975"
+      },
+      {
+       "name": "Becca Oertel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Advanced Technologies Academy",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/becca-oertel/19970"
+      },
+      {
+       "name": "Noelia Rodriguez Chicote",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain",
+       "country": "ES",
+       "previous_school": "La Salle",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/noelia-rodriguez-chicote/19976"
+      },
+      {
+       "name": "Kayleigh Stevens",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Concepcion, Chile",
+       "country": "CL",
+       "previous_school": "Almondale",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kayleigh-stevens/19971"
+      },
+      {
+       "name": "Addasyn Zeller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edwardsville, Ill.",
+       "country": "US",
+       "previous_school": "Edwardsville",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/addasyn-zeller/19972"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Josefina Haupt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "Cypress Bay",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/josefina-haupt/11764"
+      },
+      {
+       "name": "Dakota Limkemann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Point, Ill.",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/dakota-limkemann/11765"
+      },
+      {
+       "name": "Natalie Long",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Godfrey, Ill.",
+       "country": "US",
+       "previous_school": "Alton",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/natalie-long/11766"
+      },
+      {
+       "name": "Alexis Montgomery",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Maumelle, Ark.",
+       "country": "US",
+       "previous_school": "Maumelle",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/alexis-montgomery/11768"
+      },
+      {
+       "name": "Becca Oertel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Advanced Technologies Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/becca-oertel/11769"
+      },
+      {
+       "name": "Kayleigh Stevens",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Concepcion, Chile",
+       "country": "CL",
+       "previous_school": "Almondale",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kayleigh-stevens/11767"
+      },
+      {
+       "name": "Addasyn Zeller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edwardsville, Ill.",
+       "country": "US",
+       "previous_school": "Edwardsville",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/addasyn-zeller/11770"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maggie Bryant",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carbondale, Ill.",
+       "country": "US",
+       "previous_school": "Carbondale",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/maggie-bryant/9979"
+      },
+      {
+       "name": "Josefina Haupt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "Cypress Bay",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/josefina-haupt/9972"
+      },
+      {
+       "name": "Dakota Limkemann",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Point, Ill.",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/dakota-limkemann/9973"
+      },
+      {
+       "name": "Natalie Long",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Godfrey, Ill.",
+       "country": "US",
+       "previous_school": "Alton",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/natalie-long/9974"
+      },
+      {
+       "name": "Yolanda Rotzinger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/yolanda-rotzinger/9975"
+      },
+      {
+       "name": "Reagan Snavely",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wentzville, Mo.",
+       "country": "US",
+       "previous_school": "Timberland",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/reagan-snavely/9976"
+      },
+      {
+       "name": "Kayleigh Stevens",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Concepcion, Chile",
+       "country": "CL",
+       "previous_school": "Almondale",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kayleigh-stevens/9977"
+      },
+      {
+       "name": "Alexandra Wheeler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Richmond, Wisc.",
+       "country": "US",
+       "previous_school": "New Richmond",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/alexandra-wheeler/9978"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maggie Bryant",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Carbondale, Ill.",
+       "country": "US",
+       "previous_school": "Carbondale",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/maggie-bryant/8332"
+      },
+      {
+       "name": "Josefina Haupt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "Cypress Bay",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/josefina-haupt/8339"
+      },
+      {
+       "name": "Noelle Johnston",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mount Prospect, Ill.",
+       "country": "US",
+       "previous_school": "Prospect",
+       "class_raw": "Sr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/noelle-johnston/8333"
+      },
+      {
+       "name": "Dakota Limkemann",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Point, Ill.",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/dakota-limkemann/8334"
+      },
+      {
+       "name": "Natalie Long",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Godfrey, Ill.",
+       "country": "US",
+       "previous_school": "Alton",
+       "class_raw": "So.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/natalie-long/8335"
+      },
+      {
+       "name": "Yolanda Rotzinger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/yolanda-rotzinger/8336"
+      },
+      {
+       "name": "Madelyn Ryan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "O'Fallon, Ill.",
+       "country": "US",
+       "previous_school": "O'Fallon Township",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/madelyn-ryan/8340"
+      },
+      {
+       "name": "Reagan Snavely",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wentzville, Mo.",
+       "country": "US",
+       "previous_school": "Timberland",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/reagan-snavely/8337"
+      },
+      {
+       "name": "Kayleigh Stevens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Concepcion, Chile",
+       "country": "CL",
+       "previous_school": "Almondale",
+       "class_raw": "Fr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/kayleigh-stevens/8341"
+      },
+      {
+       "name": "Alexandra Wheeler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Richmond, Wisc.",
+       "country": "US",
+       "previous_school": "New Richmond",
+       "class_raw": "Jr.",
+       "profile_url": "https://lindenwoodlions.com/sports/womens-golf/roster/alexandra-wheeler/8338"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://lindenwoodlions.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://lindenwoodlions.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://lindenwoodlions.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

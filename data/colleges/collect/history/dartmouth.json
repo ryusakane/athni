@@ -1,36 +1,2170 @@
 {
  "slug": "dartmouth",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://dartmouthsports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Brand",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": "Collegiate School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/tyler-brand/41790"
+      },
+      {
+       "name": "Ian Davis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Makanda, Ill.",
+       "country": "US",
+       "previous_school": "Carbondale Community",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/ian-davis/41791"
+      },
+      {
+       "name": "Luke Harper",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "The Covenant School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/luke-harper/41792"
+      },
+      {
+       "name": "Cameron Keith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/cameron-keith/40950"
+      },
+      {
+       "name": "Colin Keith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/colin-keith/41793"
+      },
+      {
+       "name": "Fin Szafnauer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oxford, England",
+       "country": "GB",
+       "previous_school": "Magdalen College School",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/fin-szafnauer/40952"
+      },
+      {
+       "name": "Benjamin Wang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Dougherty Valley High School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/benjamin-wang/41794"
+      },
+      {
+       "name": "Aaron Zhang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/aaron-zhang/40953"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Brand",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": "Collegiate School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/tyler-brand/41790"
+      },
+      {
+       "name": "Ian Davis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Makanda, Ill.",
+       "country": "US",
+       "previous_school": "Carbondale Community",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/ian-davis/41791"
+      },
+      {
+       "name": "Alex Gu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Darien, Conn.",
+       "country": "US",
+       "previous_school": "Darien",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/alex-gu/39554"
+      },
+      {
+       "name": "Cameron Keith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/cameron-keith/40950"
+      },
+      {
+       "name": "Colin Keith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/colin-keith/41793"
+      },
+      {
+       "name": "Eli Kimche",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Park City, Utah",
+       "country": "US",
+       "previous_school": "Park City",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-kimche/39556"
+      },
+      {
+       "name": "Justin Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/justin-lee/39557"
+      },
+      {
+       "name": "Fin Szafnauer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oxford, England",
+       "country": "GB",
+       "previous_school": "Magdalen College School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/fin-szafnauer/40952"
+      },
+      {
+       "name": "Aaron Zhang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/aaron-zhang/40953"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Baker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charlie-baker/39097"
+      },
+      {
+       "name": "Tyler Brand",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": "Collegiate School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/tyler-brand/41790"
+      },
+      {
+       "name": "Ian Davis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Makanda, Ill.",
+       "country": "US",
+       "previous_school": "Carbondale Community",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/ian-davis/41791"
+      },
+      {
+       "name": "Alex Gu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Darien, Conn.",
+       "country": "US",
+       "previous_school": "Darien",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/alex-gu/39554"
+      },
+      {
+       "name": "Cameron Keith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/cameron-keith/40950"
+      },
+      {
+       "name": "Eli Kimche",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Park City, Utah",
+       "country": "US",
+       "previous_school": "Park City",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-kimche/39556"
+      },
+      {
+       "name": "Justin Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/justin-lee/39557"
+      },
+      {
+       "name": "Fin Szafnauer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oxford, England",
+       "country": "GB",
+       "previous_school": "Magdalen College School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/fin-szafnauer/40952"
+      },
+      {
+       "name": "Aaron Zhang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/aaron-zhang/40953"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Baker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charlie-baker/39097"
+      },
+      {
+       "name": "Jason Chen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Cupertino",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-chen/36316"
+      },
+      {
+       "name": "Alex Gu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Darien, Conn.",
+       "country": "US",
+       "previous_school": "Darien",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/alex-gu/39554"
+      },
+      {
+       "name": "Cameron Keith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/cameron-keith/40950"
+      },
+      {
+       "name": "Eli Kimche",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Park City, Utah",
+       "country": "US",
+       "previous_school": "Park City",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-kimche/39556"
+      },
+      {
+       "name": "Justin Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola HS",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/justin-lee/39557"
+      },
+      {
+       "name": "Charles Petrie",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Stamford, Lincolnshire, England",
+       "country": "GB",
+       "previous_school": "Uppingham",
+       "class_raw": "5th",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charles-petrie/36340"
+      },
+      {
+       "name": "Fin Szafnauer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oxford, England",
+       "country": "GB",
+       "previous_school": "Magdalen College School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/fin-szafnauer/40952"
+      },
+      {
+       "name": "Eli Thrasher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McLean, Va.",
+       "country": "US",
+       "previous_school": "Langley",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-thrasher/36320"
+      },
+      {
+       "name": "Mark Turner",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "5th",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/mark-turner/36341"
+      },
+      {
+       "name": "Aaron Zhang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/aaron-zhang/40953"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Baker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charlie-baker/39097"
+      },
+      {
+       "name": "Jason Chen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Cupertino",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-chen/36316"
+      },
+      {
+       "name": "Alex Gu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Darien, Conn.",
+       "country": "US",
+       "previous_school": "Darien",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/alex-gu/39554"
+      },
+      {
+       "name": "Eli Kimche",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Park City, Utah",
+       "country": "US",
+       "previous_school": "Park City",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-kimche/39556"
+      },
+      {
+       "name": "Justin Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola HS",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/justin-lee/39557"
+      },
+      {
+       "name": "Jason Liu",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Windsor, Conn.",
+       "country": "US",
+       "previous_school": "Loomis Chaffee",
+       "class_raw": "Gr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-liu/34674"
+      },
+      {
+       "name": "Charles Petrie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stamford, Lincolnshire, England",
+       "country": "GB",
+       "previous_school": "Uppingham",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charles-petrie/36340"
+      },
+      {
+       "name": "Eli Thrasher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McLean, Va.",
+       "country": "US",
+       "previous_school": "Langley",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-thrasher/36320"
+      },
+      {
+       "name": "James Turner",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "5th",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/james-turner/35185"
+      },
+      {
+       "name": "Mark Turner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/mark-turner/36341"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jason Chen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Cupertino",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-chen/36316"
+      },
+      {
+       "name": "Alex Gu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Darien, Conn.",
+       "country": "US",
+       "previous_school": "Darien",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/alex-gu/39554"
+      },
+      {
+       "name": "Jason Liu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Windsor, Conn.",
+       "country": "US",
+       "previous_school": "Loomis Chaffee",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-liu/34674"
+      },
+      {
+       "name": "Sam Ohno",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Episcopal School of Jacksonville",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/sam-ohno/32633"
+      },
+      {
+       "name": "Charles Petrie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stamford, Lincolnshire, England",
+       "country": "GB",
+       "previous_school": "Uppingham",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charles-petrie/36340"
+      },
+      {
+       "name": "Eli Thrasher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McLean, Va.",
+       "country": "US",
+       "previous_school": "Langley",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-thrasher/36320"
+      },
+      {
+       "name": "James Turner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/james-turner/35185"
+      },
+      {
+       "name": "Mark Turner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/mark-turner/36341"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Will Bednarz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Larkspur, Calif.",
+       "country": "US",
+       "previous_school": "Marin Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/will-bednarz/18719"
+      },
+      {
+       "name": "Jason Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Cupertino",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-chen/36316"
+      },
+      {
+       "name": "Riley Griffin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Providence, R.I.",
+       "country": "US",
+       "previous_school": "Moses Brown",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/riley-griffin/18720"
+      },
+      {
+       "name": "Jason Liu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Windsor, Conn.",
+       "country": "US",
+       "previous_school": "Loomis Chaffee",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-liu/34674"
+      },
+      {
+       "name": "Sam Ohno",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Episcopal School of Jacksonville",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/sam-ohno/32633"
+      },
+      {
+       "name": "Charles Petrie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stamford, Lincolnshire, England",
+       "country": "GB",
+       "previous_school": "Uppingham",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charles-petrie/36340"
+      },
+      {
+       "name": "Eli Thrasher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "McLean, Va.",
+       "country": "US",
+       "previous_school": "Langley",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/eli-thrasher/36320"
+      },
+      {
+       "name": "James Turner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/james-turner/35185"
+      },
+      {
+       "name": "Mark Turner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/mark-turner/36341"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Will Bednarz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Larkspur, Calif.",
+       "country": "US",
+       "previous_school": "Marin Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/will-bednarz/18719"
+      },
+      {
+       "name": "Riley Griffin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Providence, R.I.",
+       "country": "US",
+       "previous_school": "Moses Brown",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/riley-griffin/18720"
+      },
+      {
+       "name": "John Lazor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Belmont Hill",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/john-lazor/15471"
+      },
+      {
+       "name": "Jason Liu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Windsor, Conn.",
+       "country": "US",
+       "previous_school": "Loomis Chaffee",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-liu/34674"
+      },
+      {
+       "name": "Sam Ohno",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Episcopal School of Jacksonville",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/sam-ohno/32633"
+      },
+      {
+       "name": "Charles Petrie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stamford, Lincolnshire, England",
+       "country": "GB",
+       "previous_school": "Uppingham",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/charles-petrie/36340"
+      },
+      {
+       "name": "Reed Russ",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Greenhill School",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/reed-russ/15474"
+      },
+      {
+       "name": "James Turner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/james-turner/35185"
+      },
+      {
+       "name": "Mark Turner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/mark-turner/36341"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Will Bednarz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Larkspur, Calif.",
+       "country": "US",
+       "previous_school": "Marin Academy",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/will-bednarz/18719"
+      },
+      {
+       "name": "Riley Griffin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Providence, R.I.",
+       "country": "US",
+       "previous_school": "Moses Brown",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/riley-griffin/18720"
+      },
+      {
+       "name": "Ian Kelsey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Deerfield, Ill.",
+       "country": "US",
+       "previous_school": "Deerfield",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/ian-kelsey/7304"
+      },
+      {
+       "name": "John Lazor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Belmont Hill",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/john-lazor/15471"
+      },
+      {
+       "name": "Jason Liu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Windsor, Conn.",
+       "country": "US",
+       "previous_school": "Loomis Chaffee",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jason-liu/34674"
+      },
+      {
+       "name": "Sam Ohno",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Episcopal School of Jacksonville",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/sam-ohno/32633"
+      },
+      {
+       "name": "Reed Russ",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Greenhill School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/reed-russ/15474"
+      },
+      {
+       "name": "James Turner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "St. John's Prep",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/james-turner/35185"
+      },
+      {
+       "name": "Edric Wung",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McLean, Va.",
+       "country": "US",
+       "previous_school": "Langley",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/edric-wung/7331"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://dartmouthsports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Will Bednarz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Larkspur, Calif.",
+       "country": "US",
+       "previous_school": "Marin Academy",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/will-bednarz/18719"
+      },
+      {
+       "name": "Sean Fahey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Villanova, Pa.",
+       "country": "US",
+       "previous_school": "Episcopal Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/sean-fahey/6858"
+      },
+      {
+       "name": "Riley Griffin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Providence, R.I.",
+       "country": "US",
+       "previous_school": "Moses Brown",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/riley-griffin/18720"
+      },
+      {
+       "name": "Scott Jaster",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/scott-jaster/6867"
+      },
+      {
+       "name": "Ian Kelsey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Deerfield, Ill.",
+       "country": "US",
+       "previous_school": "Deerfield",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/ian-kelsey/7304"
+      },
+      {
+       "name": "Jeff Lang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Mass.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/jeff-lang/6872"
+      },
+      {
+       "name": "John Lazor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Belmont Hill",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/john-lazor/15471"
+      },
+      {
+       "name": "Reed Russ",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Greenhill School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/reed-russ/15474"
+      },
+      {
+       "name": "Edric Wung",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McLean, Va.",
+       "country": "US",
+       "previous_school": "Langley",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/edric-wung/7331"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rich Parker",
+       "title": "Bill Johnson Head Coach of Men's Golf",
+       "email": "Richard.S.Parker@dartmouth.edu",
+       "phone": "603-646-9178",
+       "profile_url": "https://dartmouthsports.com/sports/mens-golf/roster/coaches/rich-parker/10669"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://dartmouthsports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amanda Adams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Concord Academy",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/amanda-adams/41571"
+      },
+      {
+       "name": "Caroline Chung",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Placentia, Calif.",
+       "country": "US",
+       "previous_school": "Valencia",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/caroline-chung/41572"
+      },
+      {
+       "name": "Olivia Cong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Germantown, Md.",
+       "country": "US",
+       "previous_school": "Poolesville",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/olivia-cong/41573"
+      },
+      {
+       "name": "Hope Hall",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Baltimore, Md.",
+       "country": "US",
+       "previous_school": "Saint Andrew's",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/hope-hall/40237"
+      },
+      {
+       "name": "Sophia Li",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New York, N.Y.",
+       "country": "US",
+       "previous_school": "Hunter College High School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/sophia-li/41574"
+      },
+      {
+       "name": "Lauren Pham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/lauren-pham/41575"
+      },
+      {
+       "name": "Sophie Thai",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Los Altos, Calif.",
+       "country": "US",
+       "previous_school": "Los Altos",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/sophie-thai/40241"
+      },
+      {
+       "name": "Claire Wan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "St. Stephen’s Episcopal School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/claire-wan/41576"
+      },
+      {
+       "name": "Alissa Xu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ont.",
+       "country": "CA",
+       "previous_school": "Richmond Hill",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/alissa-xu/41577"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amanda Adams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Concord Academy",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/amanda-adams/41571"
+      },
+      {
+       "name": "Caroline Chung",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Placentia, Calif.",
+       "country": "US",
+       "previous_school": "Valencia",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/caroline-chung/41572"
+      },
+      {
+       "name": "Olivia Cong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Germantown, Md.",
+       "country": "US",
+       "previous_school": "Poolesville",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/olivia-cong/41573"
+      },
+      {
+       "name": "Hope Hall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Baltimore, Md.",
+       "country": "US",
+       "previous_school": "Saint Andrew's",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/hope-hall/40237"
+      },
+      {
+       "name": "Lauren Pham",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman High School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/lauren-pham/41575"
+      },
+      {
+       "name": "Kim Shen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Chattahoochee",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kim-shen/39338"
+      },
+      {
+       "name": "Victoria Tan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": "Lake Mary Prep",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/victoria-tan/39505"
+      },
+      {
+       "name": "Sophie Thai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Altos, Calif.",
+       "country": "US",
+       "previous_school": "Los Altos",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/sophie-thai/40241"
+      },
+      {
+       "name": "Alissa Xu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ont.",
+       "country": "CA",
+       "previous_school": "Richmond Hill",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/alissa-xu/41577"
+      },
+      {
+       "name": "Claire Xu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Federal Way, Wash.",
+       "country": "US",
+       "previous_school": "Decatur",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/claire-xu/39341"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caroline Chung",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Placentia, Calif.",
+       "country": "US",
+       "previous_school": "Valencia",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/caroline-chung/41572"
+      },
+      {
+       "name": "Hope Hall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Baltimore, Md.",
+       "country": "US",
+       "previous_school": "Saint Andrew's",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/hope-hall/40237"
+      },
+      {
+       "name": "Kim Shen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Chattahoochee",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kim-shen/39338"
+      },
+      {
+       "name": "Katherine Sung",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Palo Alto, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/katherine-sung/38361"
+      },
+      {
+       "name": "Victoria Tan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": "Lake Mary Prep",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/victoria-tan/39505"
+      },
+      {
+       "name": "Sophie Thai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Altos, Calif.",
+       "country": "US",
+       "previous_school": "Los Altos",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/sophie-thai/40241"
+      },
+      {
+       "name": "Penelope Tir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/penelope-tir/38363"
+      },
+      {
+       "name": "Alissa Xu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ont.",
+       "country": "CA",
+       "previous_school": "Richmond Hill",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/alissa-xu/41577"
+      },
+      {
+       "name": "Claire Xu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Federal Way, Wash.",
+       "country": "US",
+       "previous_school": "Decatur",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/claire-xu/39341"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Iris Cao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "Lambert",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/iris-cao/37069"
+      },
+      {
+       "name": "Hope Hall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Baltimore, Md.",
+       "country": "US",
+       "previous_school": "Saint Andrew's",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/hope-hall/40237"
+      },
+      {
+       "name": "Kim Shen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Chattahoochee",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kim-shen/39338"
+      },
+      {
+       "name": "Katherine Sung",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Palo Alto, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/katherine-sung/38361"
+      },
+      {
+       "name": "Sophie Thai",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Altos, Calif.",
+       "country": "US",
+       "previous_school": "Los Altos",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/sophie-thai/40241"
+      },
+      {
+       "name": "Penelope Tir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/penelope-tir/38363"
+      },
+      {
+       "name": "Claire Xu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Federal Way, Wash.",
+       "country": "US",
+       "previous_school": "Decatur",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/claire-xu/39341"
+      },
+      {
+       "name": "Samantha Yao",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/samantha-yao/36325"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mari Caldwell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Farmington, N.M.",
+       "country": "US",
+       "previous_school": "Farmington",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/mari-caldwell/34683"
+      },
+      {
+       "name": "Kristen Chen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-chen/34678"
+      },
+      {
+       "name": "Emilia Hoppe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/emilia-hoppe/35302"
+      },
+      {
+       "name": "Katherine Sung",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palo Alto, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/katherine-sung/38361"
+      },
+      {
+       "name": "Penelope Tir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/penelope-tir/38363"
+      },
+      {
+       "name": "Claire Xu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Federal Way, Wash.",
+       "country": "US",
+       "previous_school": "Decatur",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/claire-xu/39341"
+      },
+      {
+       "name": "Samantha Yao",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/samantha-yao/36325"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kristen Chen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-chen/34678"
+      },
+      {
+       "name": "Moon Cheong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/moon-cheong/32625"
+      },
+      {
+       "name": "Julianne Strauch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Advance, N.C.",
+       "country": "US",
+       "previous_school": "Forsyth Country Day",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/julianne-strauch/32626"
+      },
+      {
+       "name": "Katherine Sung",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palo Alto, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/katherine-sung/38361"
+      },
+      {
+       "name": "Penelope Tir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/penelope-tir/38363"
+      },
+      {
+       "name": "Samantha Yao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/samantha-yao/36325"
+      },
+      {
+       "name": "Angela Zhang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vancouver, British Columbia",
+       "country": "CA",
+       "previous_school": "York House School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/angela-zhang/32628"
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bethany Burns",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Signal Mountain, Tenn.",
+       "country": "US",
+       "previous_school": "Signal Mountain",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/bethany-burns/18726"
+      },
+      {
+       "name": "Kristen Chen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-chen/34678"
+      },
+      {
+       "name": "Moon Cheong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/moon-cheong/32625"
+      },
+      {
+       "name": "Kaitlyn Lees",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Agnes Irwin School",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kaitlyn-lees/18729"
+      },
+      {
+       "name": "Maddie Nelson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sammamish, Wash.",
+       "country": "US",
+       "previous_school": "Eastlake",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/maddie-nelson/18730"
+      },
+      {
+       "name": "Kristen Soh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Marymount",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-soh/18731"
+      },
+      {
+       "name": "Julianne Strauch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Advance, N.C.",
+       "country": "US",
+       "previous_school": "Forsyth Country Day",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/julianne-strauch/32626"
+      },
+      {
+       "name": "Samantha Yao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/samantha-yao/36325"
+      },
+      {
+       "name": "Angela Zhang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vancouver, British Columbia",
+       "country": "CA",
+       "previous_school": "York House School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/angela-zhang/32628"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf/Head Professional, HCC",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bethany Burns",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Signal Mountain, Tenn.",
+       "country": "US",
+       "previous_school": "Signal Mountain",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/bethany-burns/18726"
+      },
+      {
+       "name": "Kristen Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-chen/34678"
+      },
+      {
+       "name": "Moon Cheong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/moon-cheong/32625"
+      },
+      {
+       "name": "Kaitlyn Lees",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Agnes Irwin School",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kaitlyn-lees/18729"
+      },
+      {
+       "name": "Maddie Nelson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sammamish, Wash.",
+       "country": "US",
+       "previous_school": "Eastlake",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/maddie-nelson/18730"
+      },
+      {
+       "name": "Catharine Roddy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Trabuco Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/catharine-roddy/15479"
+      },
+      {
+       "name": "Kristen Soh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Marymount",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-soh/18731"
+      },
+      {
+       "name": "Julianne Strauch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Advance, N.C.",
+       "country": "US",
+       "previous_school": "Forsyth Country Day",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/julianne-strauch/32626"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf/Head Professional, HCC",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bethany Burns",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Signal Mountain, Tenn.",
+       "country": "US",
+       "previous_school": "Signal Mountain",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/bethany-burns/18726"
+      },
+      {
+       "name": "Moon Cheong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/moon-cheong/32625"
+      },
+      {
+       "name": "Isabelle Kane",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/isabelle-kane/6879"
+      },
+      {
+       "name": "Jessica Kittelberger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft School",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/jessica-kittelberger/6880"
+      },
+      {
+       "name": "Maddie Nelson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sammamish, Wash.",
+       "country": "US",
+       "previous_school": "Eastlake",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/maddie-nelson/18730"
+      },
+      {
+       "name": "Catharine Roddy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Trabuco Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/catharine-roddy/15479"
+      },
+      {
+       "name": "Kristen Soh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Marymount",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-soh/18731"
+      },
+      {
+       "name": "Julianne Strauch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Advance, N.C.",
+       "country": "US",
+       "previous_school": "Forsyth Country Day",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/julianne-strauch/32626"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf/Head Professional, HCC",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://dartmouthsports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hana Bradshaw",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Rancho Bernardo",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/hana-bradshaw/6431"
+      },
+      {
+       "name": "Bethany Burns",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Signal Mountain, Tenn.",
+       "country": "US",
+       "previous_school": "Signal Mountain",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/bethany-burns/18726"
+      },
+      {
+       "name": "Julia Calbi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Barrington, Ill.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/julia-calbi/6435"
+      },
+      {
+       "name": "Isabelle Kane",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/isabelle-kane/6879"
+      },
+      {
+       "name": "Jessica Kittelberger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/jessica-kittelberger/6880"
+      },
+      {
+       "name": "Maddie Nelson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sammamish, Wash.",
+       "country": "US",
+       "previous_school": "Eastlake",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/maddie-nelson/18730"
+      },
+      {
+       "name": "Catharine Roddy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Trabuco Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/catharine-roddy/15479"
+      },
+      {
+       "name": "Radi Sauro",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Worth, Fla.",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Jr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/radi-sauro/6452"
+      },
+      {
+       "name": "Tara Simmons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Goldsboro, N.C.",
+       "country": "US",
+       "previous_school": "Charles B Aycock",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/tara-simmons/6455"
+      },
+      {
+       "name": "Kristen Soh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Marymount",
+       "class_raw": "Fy.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/kristen-soh/18731"
+      },
+      {
+       "name": "Jamie Susanin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Radnor Senior",
+       "class_raw": "Sr.",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/jamie-susanin/6466"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alex Kirk",
+       "title": "Carolyn A. Pelzel ’54a Head Coach of Women's Golf/Head Professional, HCC",
+       "email": "alexander.k.kirk@dartmouth.edu",
+       "phone": "860-803-0173",
+       "profile_url": "https://dartmouthsports.com/sports/womens-golf/roster/coaches/alex-kirk/10632"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://dartmouthsports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://dartmouthsports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://dartmouthsports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://dartmouthsports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://dartmouthsports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

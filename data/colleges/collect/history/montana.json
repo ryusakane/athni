@@ -1,22 +1,1078 @@
 {
  "slug": "montana",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "female",
    "golf_url": "https://gogriz.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kate Bogenschutz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grafton, Wis.",
+       "country": "US",
+       "previous_school": "Cedarburg HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kate-bogenschutz/8340"
+      },
+      {
+       "name": "Bella Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Billings, Mont.",
+       "country": "US",
+       "previous_school": "Billings West HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/bella-johnson/8341"
+      },
+      {
+       "name": "Katie Lewis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Frenchtown, Mont.",
+       "country": "US",
+       "previous_school": "Frenchtown HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/katie-lewis/8342"
+      },
+      {
+       "name": "Salina Lui",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sandy, Utah",
+       "country": "US",
+       "previous_school": "Alta HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/salina-lui/8039"
+      },
+      {
+       "name": "Hannah Ports",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hannah-ports/7948"
+      },
+      {
+       "name": "Raina Ports",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/raina-ports/7949"
+      },
+      {
+       "name": "Anna Stensrud",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Missoula, Mont.",
+       "country": "US",
+       "previous_school": "Hellgate HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/anna-stensrud/8343"
+      },
+      {
+       "name": "Hope Torres",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Broomfield, Colo.",
+       "country": "US",
+       "previous_school": "Prospect Ridge Academy HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hope-torres/8344"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jimmy Mee",
+       "title": "Head Coach",
+       "email": "james.mee@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jimmy-mee/1888"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kate Bogenschutz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grafton, Wis.",
+       "country": "US",
+       "previous_school": "Cedarburg HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kate-bogenschutz/8340"
+      },
+      {
+       "name": "Madison Cecil",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Paul Lawrence Dunbar HS",
+       "class_raw": "5th",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/madison-cecil/7342"
+      },
+      {
+       "name": "Kylie Franklin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-franklin/7343"
+      },
+      {
+       "name": "Kendall Hayward",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kendall-hayward/7344"
+      },
+      {
+       "name": "Elle Higgins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centennial, Colo.",
+       "country": "US",
+       "previous_school": "Valor Christian HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/elle-higgins/7345"
+      },
+      {
+       "name": "Bella Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Billings, Mont.",
+       "country": "US",
+       "previous_school": "Billings West HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/bella-johnson/8341"
+      },
+      {
+       "name": "Hannah Ports",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hannah-ports/7948"
+      },
+      {
+       "name": "Raina Ports",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/raina-ports/7949"
+      },
+      {
+       "name": "Anna Stensrud",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Missoula, Mont.",
+       "country": "US",
+       "previous_school": "Hellgate HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/anna-stensrud/8343"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jimmy Mee",
+       "title": "Head Coach",
+       "email": "james.mee@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jimmy-mee/1888"
+      },
+      {
+       "name": "Jeff Allen",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jeff-allen/1694"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kate Bogenschutz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Grafton, Wis.",
+       "country": "US",
+       "previous_school": "Cedarburg HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kate-bogenschutz/8340"
+      },
+      {
+       "name": "Madison Cecil",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Paul Lawrence Dunbar HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/madison-cecil/7342"
+      },
+      {
+       "name": "Kylie Franklin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-franklin/7343"
+      },
+      {
+       "name": "Kendall Hayward",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kendall-hayward/7344"
+      },
+      {
+       "name": "Elle Higgins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Centennial, Colo.",
+       "country": "US",
+       "previous_school": "Valor Christian HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/elle-higgins/7345"
+      },
+      {
+       "name": "Tricia Joyce",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte Central HS",
+       "class_raw": "5th",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/tricia-joyce/6954"
+      },
+      {
+       "name": "Hannah Ports",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hannah-ports/7948"
+      },
+      {
+       "name": "Raina Ports",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/raina-ports/7949"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jimmy Mee",
+       "title": "Head Coach",
+       "email": "james.mee@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jimmy-mee/1888"
+      },
+      {
+       "name": "Jeff Allen",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jeff-allen/1694"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Meredith Boos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Waukesha, Wis.",
+       "country": "US",
+       "previous_school": "Catholic Memorial HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/meredith-boos/6539"
+      },
+      {
+       "name": "Madison Cecil",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Paul Lawrence Dunbar HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/madison-cecil/7342"
+      },
+      {
+       "name": "Kylie Franklin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-franklin/7343"
+      },
+      {
+       "name": "Kendall Hayward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kendall-hayward/7344"
+      },
+      {
+       "name": "Tricia Joyce",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte Central HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/tricia-joyce/6954"
+      },
+      {
+       "name": "Jessica Ponce",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beaverton, Ore.",
+       "country": "US",
+       "previous_school": "International School of Beaverton",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/jessica-ponce/6543"
+      },
+      {
+       "name": "Hannah Ports",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hannah-ports/7948"
+      },
+      {
+       "name": "Raina Ports",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oro Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/raina-ports/7949"
+      },
+      {
+       "name": "Emmy Sundby",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rapid City, S.D.",
+       "country": "US",
+       "previous_school": "Stevens HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/emmy-sundby/6544"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kris Nord",
+       "title": "Head Coach",
+       "email": "nordkm@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/kris-nord/536"
+      },
+      {
+       "name": "Jimmy Mee",
+       "title": "Assistant Coach",
+       "email": "james.mee@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jimmy-mee/1888"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Meredith Boos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waukesha, Wis.",
+       "country": "US",
+       "previous_school": "Catholic Memorial HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/meredith-boos/6539"
+      },
+      {
+       "name": "Madison Cecil",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Paul Lawrence Dunbar HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/madison-cecil/7342"
+      },
+      {
+       "name": "Kylie Esh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Missoula, Mont.",
+       "country": "US",
+       "previous_school": "Loyola Sacred Heart HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-esh/6140"
+      },
+      {
+       "name": "Kylie Franklin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-franklin/7343"
+      },
+      {
+       "name": "Tricia Joyce",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte Central HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/tricia-joyce/6954"
+      },
+      {
+       "name": "Jessica Ponce",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beaverton, Ore.",
+       "country": "US",
+       "previous_school": "International School of Beaverton",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/jessica-ponce/6543"
+      },
+      {
+       "name": "Allison Sobol",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eureka, Calif.",
+       "country": "US",
+       "previous_school": "St. Bernard's Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/allison-sobol/6144"
+      },
+      {
+       "name": "Emmy Sundby",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rapid City, S.D.",
+       "country": "US",
+       "previous_school": "Stevens HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/emmy-sundby/6544"
+      },
+      {
+       "name": "Brooklyn Van Bebber",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murietta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/brooklyn-van-bebber/6146"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kris Nord",
+       "title": "Head Coach",
+       "email": "nordkm@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/kris-nord/536"
+      },
+      {
+       "name": "Jimmy Mee",
+       "title": "Assistant Coach",
+       "email": "james.mee@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/jimmy-mee/1888"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teigan Avery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kalispell, Mont.",
+       "country": "US",
+       "previous_school": "Glacier HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/teigan-avery/5573"
+      },
+      {
+       "name": "Meredith Boos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waukesha, Wis.",
+       "country": "US",
+       "previous_school": "Catholic Memorial HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/meredith-boos/6539"
+      },
+      {
+       "name": "Faith D'Ortenzio",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Shadow Mountain HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kylie Esh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Missoula, Mont.",
+       "country": "US",
+       "previous_school": "Loyola Sacred Heart HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-esh/6140"
+      },
+      {
+       "name": "Margaret Harmon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Wheaton Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/margaret-harmon/5576"
+      },
+      {
+       "name": "Tricia Joyce",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte Central HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/tricia-joyce/6954"
+      },
+      {
+       "name": "Jessica Ponce",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beaverton, Ore.",
+       "country": "US",
+       "previous_school": "International School of Beaverton",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/jessica-ponce/6543"
+      },
+      {
+       "name": "Allison Sobol",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eureka, Calif.",
+       "country": "US",
+       "previous_school": "St. Bernard's Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/allison-sobol/6144"
+      },
+      {
+       "name": "Emmy Sundby",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rapid City, S.D.",
+       "country": "US",
+       "previous_school": "Stevens HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/emmy-sundby/6544"
+      },
+      {
+       "name": "Brooklyn Van Bebber",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murietta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/brooklyn-van-bebber/6146"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kris Nord",
+       "title": "Head Coach",
+       "email": "nordkm@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/kris-nord/536"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teigan Avery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kalispell, Mont.",
+       "country": "US",
+       "previous_school": "Glacier HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/teigan-avery/5573"
+      },
+      {
+       "name": "Faith D'Ortenzio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Shadow Mountain HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kylie Esh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Missoula, Mont.",
+       "country": "US",
+       "previous_school": "Loyola Sacred Heart HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-esh/6140"
+      },
+      {
+       "name": "Margaret Harmon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Wheaton Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/margaret-harmon/5576"
+      },
+      {
+       "name": "Tricia Joyce",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte Central HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/tricia-joyce/6954"
+      },
+      {
+       "name": "Jessica Ponce",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beaverton, Ore.",
+       "country": "US",
+       "previous_school": "International School of Beaverton",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/jessica-ponce/6543"
+      },
+      {
+       "name": "Allison Sobol",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eureka, Calif.",
+       "country": "US",
+       "previous_school": "St. Bernard's Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/allison-sobol/6144"
+      },
+      {
+       "name": "Emmy Sundby",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rapid City, S.D.",
+       "country": "US",
+       "previous_school": "Stevens HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/emmy-sundby/6544"
+      },
+      {
+       "name": "Brooklyn Van Bebber",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murietta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/brooklyn-van-bebber/6146"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kris Nord",
+       "title": "Head Coach",
+       "email": "nordkm@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/kris-nord/536"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teigan Avery",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kalispell, Mont.",
+       "country": "US",
+       "previous_school": "Glacier HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/teigan-avery/5573"
+      },
+      {
+       "name": "Baylee Barckley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Temescal Canyon HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/baylee-barckley/4760"
+      },
+      {
+       "name": "Faith D'Ortenzio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Shadow Mountain HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Kylie Esh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Missoula, Mont.",
+       "country": "US",
+       "previous_school": "Loyola Sacred Heart HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kylie-esh/6140"
+      },
+      {
+       "name": "Katie Schlichenmayer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Foothill HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/katie-schlichenmayer/4765"
+      },
+      {
+       "name": "Allison Sobol",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eureka, Calif.",
+       "country": "US",
+       "previous_school": "St. Bernard's Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/allison-sobol/6144"
+      },
+      {
+       "name": "Brooklyn Van Bebber",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murietta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/brooklyn-van-bebber/6146"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kris Nord",
+       "title": "Head Coach",
+       "email": "nordkm@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/kris-nord/536"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teigan Avery",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kalispell, Mont.",
+       "country": "US",
+       "previous_school": "Glacier HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/teigan-avery/5573"
+      },
+      {
+       "name": "Baylee Barckley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Temescal Canyon HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/baylee-barckley/4760"
+      },
+      {
+       "name": "Faith D'Ortenzio",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Shadow Mountain HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Hailey Hoagland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hailey-hoagland/4222"
+      },
+      {
+       "name": "Kari Opatz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eagan, Minn.",
+       "country": "US",
+       "previous_school": "Eastview HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kari-opatz/4223"
+      },
+      {
+       "name": "Abby Pfeifer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Puyallup, Wash.",
+       "country": "US",
+       "previous_school": "Emerald Ridge HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/abby-pfeifer/4224"
+      },
+      {
+       "name": "Caylyn Villatora",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lahaina, Hawaii",
+       "country": "US",
+       "previous_school": "Lahainaluna HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/caylyn-villatora/4225"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kris Nord",
+       "title": "Head Coach",
+       "email": "nordkm@mso.umt.edu",
+       "phone": "243-5348",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/coaches/kris-nord/536"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gogriz.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teigan Avery",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kalispell, Mont.",
+       "country": "US",
+       "previous_school": "Glacier HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/teigan-avery/5573"
+      },
+      {
+       "name": "Baylee Barckley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Temescal Canyon HS",
+       "class_raw": "So.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/baylee-barckley/4760"
+      },
+      {
+       "name": "Hailey Hoagland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Butte, Mont.",
+       "country": "US",
+       "previous_school": "Butte HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/hailey-hoagland/4222"
+      },
+      {
+       "name": "Amanda Kahn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Carlsbad HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/amanda-kahn/2708"
+      },
+      {
+       "name": "Kari Opatz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eagan, Minn.",
+       "country": "US",
+       "previous_school": "Eastview HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/kari-opatz/4223"
+      },
+      {
+       "name": "Abby Pfeifer",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Puyallup, Wash.",
+       "country": "US",
+       "previous_school": "Emerald Ridge HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/abby-pfeifer/4224"
+      },
+      {
+       "name": "Alexa Schendelman",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Gilbert, Ariz.",
+       "country": "US",
+       "previous_school": "Highland HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/alexa-schendelman/2710"
+      },
+      {
+       "name": "Caitlyn Villatora",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lahaina, Hawaii",
+       "country": "US",
+       "previous_school": "Lahainaluna HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/caitlyn-villatora/2712"
+      },
+      {
+       "name": "Caylyn Villatora",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lahaina, Hawaii",
+       "country": "US",
+       "previous_school": "Lahainaluna HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gogriz.com/sports/womens-golf/roster/caylyn-villatora/4225"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gogriz.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gogriz.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gogriz.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

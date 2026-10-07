@@ -1,22 +1,1260 @@
 {
  "slug": "louisiana-tech",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://latechsports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isaac Adams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Longview, Texas",
+       "country": "US",
+       "previous_school": "Christian Heritage Classical School",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/isaac-adams/14193"
+      },
+      {
+       "name": "Morton Bailey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Crawley, England",
+       "country": "GB",
+       "previous_school": "Thomas Bennett Community College",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/morton-bailey/14783"
+      },
+      {
+       "name": "Seth Campbell",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lovelady, Texas",
+       "country": "US",
+       "previous_school": "UT Tyler",
+       "class_raw": "Gr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/seth-campbell/14199"
+      },
+      {
+       "name": "Abel Derksen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gouda, Netherlands /",
+       "country": "NL",
+       "previous_school": "Washington",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/abel-derksen/14784"
+      },
+      {
+       "name": "Riley Hnatyshyn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Abita Springs, La.",
+       "country": "US",
+       "previous_school": "St. Paul's School",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/riley-hnatyshyn/14195"
+      },
+      {
+       "name": "Gray Kingrea",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Monroe, La.",
+       "country": "US",
+       "previous_school": "West Monroe HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/gray-kingrea/14785"
+      },
+      {
+       "name": "Alejandro Sanchez",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Mexico City, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/alejandro-sanchez/14786"
+      },
+      {
+       "name": "Oskari Schuvalow",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Helsinki, Finland",
+       "country": "FI",
+       "previous_school": "Ranger College",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/oskari-schuvalow/14787"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      },
+      {
+       "name": "James Swash",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/james-swash/3241"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isaac Adams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Longview, Texas",
+       "country": "US",
+       "previous_school": "Christian Heritage Classical School",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/isaac-adams/14193"
+      },
+      {
+       "name": "Morton Bailey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Crawley, England",
+       "country": "GB",
+       "previous_school": "Thomas Bennett Community College",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/morton-bailey/14783"
+      },
+      {
+       "name": "Riley Hnatyshyn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Abita Springs, La.",
+       "country": "US",
+       "previous_school": "St. Paul's School",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/riley-hnatyshyn/14195"
+      },
+      {
+       "name": "Gray Kingrea",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Monroe, La.",
+       "country": "US",
+       "previous_school": "West Monroe HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/gray-kingrea/14785"
+      },
+      {
+       "name": "Niilo Maki-Petaja",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Helsinki, Finland",
+       "country": "FI",
+       "previous_school": "Makelanrinteen Urheilulukio",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Jake Plumb",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cambridge, England",
+       "country": "GB",
+       "previous_school": "Impington International College",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/jake-plumb/13583"
+      },
+      {
+       "name": "Alejandro Sanchez",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Mexico City, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/alejandro-sanchez/14786"
+      },
+      {
+       "name": "Oskari Schuvalow",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Helsinki, Finland",
+       "country": "FI",
+       "previous_school": "Ranger College",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/oskari-schuvalow/14787"
+      },
+      {
+       "name": "Grant Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Montgomery, Ala.",
+       "country": "US",
+       "previous_school": "Montgomery Catholic Preparatory School",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/grant-smith/13586"
+      },
+      {
+       "name": "Joel Thomas Stephens",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Ruston, La.",
+       "country": "US",
+       "previous_school": "Cedar Creek School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/joel-thomas-stephens/13587"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      },
+      {
+       "name": "James Swash",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/james-swash/3241"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hunter Battles",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Muscle Shoals, Ala.",
+       "country": "US",
+       "previous_school": "Muscle Shoals HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-battles/12775"
+      },
+      {
+       "name": "Thomas Henson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hermann, Mo.",
+       "country": "US",
+       "previous_school": "Central Missouri",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/thomas-henson/12776"
+      },
+      {
+       "name": "Riley Hnatyshyn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Abita Springs, La.",
+       "country": "US",
+       "previous_school": "St. Paul's School",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/riley-hnatyshyn/14195"
+      },
+      {
+       "name": "Peyton Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "C.E. Byrd HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/peyton-johnson/12778"
+      },
+      {
+       "name": "Lake Juban",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hallsville, Texas",
+       "country": "US",
+       "previous_school": "Hallsville HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/lake-juban/12779"
+      },
+      {
+       "name": "Gray Kingrea",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Monroe, La.",
+       "country": "US",
+       "previous_school": "West Monroe HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/gray-kingrea/14785"
+      },
+      {
+       "name": "Niilo Maki-Petaja",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Helsinki, Finland",
+       "country": "FI",
+       "previous_school": "Makelanrinteen Urheilulukio",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Will Patrick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oneonta, Ala.",
+       "country": "US",
+       "previous_school": "Oneonta HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/will-patrick/12780"
+      },
+      {
+       "name": "Jake Plumb",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cambridge, England",
+       "country": "GB",
+       "previous_school": "Impington International College",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/jake-plumb/13583"
+      },
+      {
+       "name": "Reeves Pullin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Choudrant, La.",
+       "country": "US",
+       "previous_school": "Ruston HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/reeves-pullin/12781"
+      },
+      {
+       "name": "Alejandro Sanchez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/alejandro-sanchez/14786"
+      },
+      {
+       "name": "Grant Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Montgomery, Ala.",
+       "country": "US",
+       "previous_school": "Montgomery Catholic Preparatory School",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/grant-smith/13586"
+      },
+      {
+       "name": "Joel Thomas Stephens",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Ruston, La.",
+       "country": "US",
+       "previous_school": "Cedar Creek School",
+       "class_raw": "R-So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/joel-thomas-stephens/13587"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      },
+      {
+       "name": "James Swash",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/james-swash/3241"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hunter Battles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Muscle Shoals, Ala.",
+       "country": "US",
+       "previous_school": "Muscle Shoals HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-battles/12775"
+      },
+      {
+       "name": "Thomas Henson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hermann, Mo.",
+       "country": "US",
+       "previous_school": "Central Missouri",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/thomas-henson/12776"
+      },
+      {
+       "name": "Riley Hnatyshyn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Abita Springs, La.",
+       "country": "US",
+       "previous_school": "St. Paul's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/riley-hnatyshyn/14195"
+      },
+      {
+       "name": "Payne Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "Texas State",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/payne-johnson/9917"
+      },
+      {
+       "name": "Peyton Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "C.E. Byrd HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/peyton-johnson/12778"
+      },
+      {
+       "name": "Lake Juban",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hallsville, Texas",
+       "country": "US",
+       "previous_school": "Hallsville HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/lake-juban/12779"
+      },
+      {
+       "name": "Will Patrick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oneonta, Ala.",
+       "country": "US",
+       "previous_school": "Oneonta HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/will-patrick/12780"
+      },
+      {
+       "name": "Reeves Pullin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Choudrant, La.",
+       "country": "US",
+       "previous_school": "Ruston HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/reeves-pullin/12781"
+      },
+      {
+       "name": "Alejandro Sanchez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/alejandro-sanchez/14786"
+      },
+      {
+       "name": "Grant Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Montgomery, Ala.",
+       "country": "US",
+       "previous_school": "Montgomery Catholic Preparatory School",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/grant-smith/13586"
+      },
+      {
+       "name": "Joel Thomas Stephens",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ruston, La.",
+       "country": "US",
+       "previous_school": "Cedar Creek School",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/joel-thomas-stephens/13587"
+      },
+      {
+       "name": "James Swash",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Stockton On Tees, England",
+       "country": "GB",
+       "previous_school": "Egglescliffe Comprehensive",
+       "class_raw": "Gr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/james-swash/9922"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      },
+      {
+       "name": "Ryan Alford",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/ryan-alford/2919"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hunter Battles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Muscle Shoals, Ala.",
+       "country": "US",
+       "previous_school": "Muscle Shoals HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-battles/12775"
+      },
+      {
+       "name": "Blake Blaser",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/blake-blaser/9010"
+      },
+      {
+       "name": "Payne Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "Texas State",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/payne-johnson/9917"
+      },
+      {
+       "name": "Lake Juban",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hallsville, Texas",
+       "country": "US",
+       "previous_school": "Hallsville HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/lake-juban/12779"
+      },
+      {
+       "name": "Mac Murphy",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": "Calhoun CC",
+       "class_raw": "5th",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/mac-murphy/9013"
+      },
+      {
+       "name": "Sam Murphy",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": "Calhoun CC",
+       "class_raw": "5th",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/sam-murphy/9014"
+      },
+      {
+       "name": "Will Patrick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oneonta, Ala.",
+       "country": "US",
+       "previous_school": "Oneonta HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/will-patrick/12780"
+      },
+      {
+       "name": "Grant Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Montgomery, Ala.",
+       "country": "US",
+       "previous_school": "Montgomery Catholic Preparatory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/grant-smith/13586"
+      },
+      {
+       "name": "Joel Thomas Stephens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ruston, La.",
+       "country": "US",
+       "previous_school": "Cedar Creek School",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/joel-thomas-stephens/13587"
+      },
+      {
+       "name": "James Swash",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockton On Tees, England",
+       "country": "GB",
+       "previous_school": "Egglescliffe Comprehensive",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/james-swash/9922"
+      },
+      {
+       "name": "J.C. Wigglesworth",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "McKinney Boyd HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      },
+      {
+       "name": "Ryan Alford",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/ryan-alford/2919"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hunter Battles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Muscle Shoals, Ala.",
+       "country": "US",
+       "previous_school": "Muscle Shoals HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-battles/12775"
+      },
+      {
+       "name": "Blake Blaser",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/blake-blaser/9010"
+      },
+      {
+       "name": "Payne Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "C.E. Byrd HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/payne-johnson/9917"
+      },
+      {
+       "name": "Lake Juban",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hallsville, Texas",
+       "country": "US",
+       "previous_school": "Hallsville HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/lake-juban/12779"
+      },
+      {
+       "name": "Mac Murphy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/mac-murphy/9013"
+      },
+      {
+       "name": "Sam Murphy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/sam-murphy/9014"
+      },
+      {
+       "name": "Will Patrick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oneonta, Ala.",
+       "country": "US",
+       "previous_school": "Oneonta HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/will-patrick/12780"
+      },
+      {
+       "name": "James Swash",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stockton On Tees, England",
+       "country": "GB",
+       "previous_school": "Egglescliffe Comprehensive",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/james-swash/9922"
+      },
+      {
+       "name": "J.C. Wigglesworth",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "McKinney Boyd HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      },
+      {
+       "name": "Ryan Alford",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/ryan-alford/2919"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hunter Battles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Muscle Shoals, Ala.",
+       "country": "US",
+       "previous_school": "Muscle Shoals HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-battles/12775"
+      },
+      {
+       "name": "Blake Blaser",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/blake-blaser/9010"
+      },
+      {
+       "name": "Karsten Green",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midlothian, Texas",
+       "country": "US",
+       "previous_school": "Midlothian HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/karsten-green/3995"
+      },
+      {
+       "name": "Lake Juban",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hallsville, Texas",
+       "country": "US",
+       "previous_school": "Hallsville HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/lake-juban/12779"
+      },
+      {
+       "name": "Mac Murphy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/mac-murphy/9013"
+      },
+      {
+       "name": "Sam Murphy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/sam-murphy/9014"
+      },
+      {
+       "name": "Trey Poteet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Knoxville, Tenn.",
+       "country": "US",
+       "previous_school": "Knoxville Halls HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/trey-poteet/3996"
+      },
+      {
+       "name": "James Swash",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockton On Tees, England",
+       "country": "GB",
+       "previous_school": "Egglescliffe Comprehensive",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/james-swash/9922"
+      },
+      {
+       "name": "Judd Tilson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lubbock, Texas",
+       "country": "US",
+       "previous_school": "Lubbock Cooper HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/judd-tilson/3998"
+      },
+      {
+       "name": "J.C. Wigglesworth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "McKinney Boyd HS",
+       "class_raw": "So.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Alford",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "Calvary Baptist Academy",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/ryan-alford/3033"
+      },
+      {
+       "name": "Blake Blaser",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/blake-blaser/9010"
+      },
+      {
+       "name": "Nick Daniel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Covington, La.",
+       "country": "US",
+       "previous_school": "Archbishop Hannan HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/nick-daniel/3036"
+      },
+      {
+       "name": "Karsten Green",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Midlothian, Texas",
+       "country": "US",
+       "previous_school": "Midlothian HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/karsten-green/3995"
+      },
+      {
+       "name": "Trey Poteet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Knoxville, Tenn.",
+       "country": "US",
+       "previous_school": "Knoxville Halls HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/trey-poteet/3996"
+      },
+      {
+       "name": "James Swash",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockton On Tees, England",
+       "country": "GB",
+       "previous_school": "Egglescliffe Comprehensive",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/james-swash/9922"
+      },
+      {
+       "name": "Judd Tilson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lubbock, Texas",
+       "country": "US",
+       "previous_school": "Lubbock Cooper HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/judd-tilson/3998"
+      },
+      {
+       "name": "J.C. Wigglesworth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "McKinney Boyd HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Joacim Ahlund",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": "Borgarskolan",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/joacim-ahlund/3031"
+      },
+      {
+       "name": "Ryan Alford",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Shreveport, La.",
+       "country": "US",
+       "previous_school": "Calvary Baptist Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/ryan-alford/3033"
+      },
+      {
+       "name": "Sacha Aubert",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneve, Switzerland",
+       "country": "CH",
+       "previous_school": "AndrÃ© Malraux",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/sacha-aubert/1573"
+      },
+      {
+       "name": "Peyton Coursey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mansfield, Texas",
+       "country": "US",
+       "previous_school": "Mansfield HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/peyton-coursey/1574"
+      },
+      {
+       "name": "Nick Daniel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Covington, La.",
+       "country": "US",
+       "previous_school": "Archbishop Hannan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/nick-daniel/3036"
+      },
+      {
+       "name": "Hayden Frederick",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Mansfield, Texas",
+       "country": "US",
+       "previous_school": "Mansfield HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hayden-frederick/1576"
+      },
+      {
+       "name": "Hunter Glenn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Southlake Central HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-glenn/1577"
+      },
+      {
+       "name": "Karsten Green",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Midlothian, Texas",
+       "country": "US",
+       "previous_school": "Midlothian HS",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/karsten-green/3995"
+      },
+      {
+       "name": "Max Kettler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Stephen F. Austin",
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/max-kettler/1579"
+      },
+      {
+       "name": "Luke Neeley",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Mansfield, Texas",
+       "country": "US",
+       "previous_school": "Baylor",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/luke-neeley/1580"
+      },
+      {
+       "name": "Felix Palson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/felix-palson/3032"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Terry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/matt-terry/3240"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://latechsports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Joacim Ahlund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/joacim-ahlund/3031"
+      },
+      {
+       "name": "Hayden Frederick",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Mansfield, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hayden-frederick/1576"
+      },
+      {
+       "name": "Hunter Glenn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/hunter-glenn/1577"
+      },
+      {
+       "name": "Karsten Green",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Midlothian, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/karsten-green/3995"
+      },
+      {
+       "name": "Luke Neeley",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Mansfield, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/luke-neeley/1580"
+      },
+      {
+       "name": "Felix Palson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/felix-palson/3032"
+      },
+      {
+       "name": "John Lewis Sams",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coushatta, La.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/john-lewis-sams/1587"
+      },
+      {
+       "name": "Charles Neel White",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/charles-neel-white/1588"
+      },
+      {
+       "name": "Jacob Wyatt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bossier City, La.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/jacob-wyatt/1589"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Jenkins",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://latechsports.com/sports/mens-golf/roster/coaches/jeff-jenkins/119"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://latechsports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://latechsports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://latechsports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

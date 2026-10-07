@@ -1,36 +1,2082 @@
 {
  "slug": "fresno-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gobulldogs.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nash Arthurs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Peoria, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/nash-arthurs/16446"
+      },
+      {
+       "name": "Chris Bettencourt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif,",
+       "country": "US",
+       "previous_school": "Buchannan HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/chris-bettencourt/16447"
+      },
+      {
+       "name": "Jake Bettencourt",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jake-bettencourt/15743"
+      },
+      {
+       "name": "Jaden Hunter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rancho Sante Fe, Calif.",
+       "country": "US",
+       "previous_school": "Canyon Crest Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jaden-hunter/15744"
+      },
+      {
+       "name": "Akira Ransi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Folsom HS",
+       "country": null,
+       "previous_school": "Folsom, Calif.",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/akira-ransi/16448"
+      },
+      {
+       "name": "Zack Tarter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hanford, Calif.",
+       "country": "US",
+       "previous_school": "UC Davis",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/zack-tarter/16449"
+      },
+      {
+       "name": "Von Wasson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centralia, Wash.",
+       "country": "US",
+       "previous_school": "Centralia HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/von-wasson/16450"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Ben Leestma",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/ben-leestma/4773"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mason Benbrook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Carmichael, Calif.",
+       "country": "US",
+       "previous_school": "UC Santa Barbara",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/mason-benbrook/15022"
+      },
+      {
+       "name": "Chris Bettencourt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif,",
+       "country": "US",
+       "previous_school": "Buchannan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/chris-bettencourt/16447"
+      },
+      {
+       "name": "Jake Bettencourt",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jake-bettencourt/15743"
+      },
+      {
+       "name": "Ryan Firpo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis Senior HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/ryan-firpo/15024"
+      },
+      {
+       "name": "Jaden Hunter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rancho Sante Fe, Calif.",
+       "country": "US",
+       "previous_school": "Canyon Crest Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jaden-hunter/15744"
+      },
+      {
+       "name": "Joseph Lloyd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Utah",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/joseph-lloyd/15026"
+      },
+      {
+       "name": "Steven Rivera",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Bullard HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/steven-rivera/15250"
+      },
+      {
+       "name": "James Watney",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchannan HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/james-watney/15246"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Michael Cliff",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mason Benbrook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carmichael, Calif.",
+       "country": "US",
+       "previous_school": "UC Santa Barbara",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/mason-benbrook/15022"
+      },
+      {
+       "name": "Jake Bettencourt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jake-bettencourt/15743"
+      },
+      {
+       "name": "Ryan Firpo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis Senior HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/ryan-firpo/15024"
+      },
+      {
+       "name": "Jaden Hunter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Sante Fe, Calif.",
+       "country": "US",
+       "previous_school": "Canyon Crest Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jaden-hunter/15744"
+      },
+      {
+       "name": "Andrew Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/andrew-lee/14263"
+      },
+      {
+       "name": "Joseph Lloyd",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Utah",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/joseph-lloyd/15026"
+      },
+      {
+       "name": "Matthew Manganello",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "East Career and Technical Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-manganello/14265"
+      },
+      {
+       "name": "Matthew Sutherland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Rio Americano HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-sutherland/14266"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Lane Pulliam",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/lane-pulliam/4478"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Aberle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lodi, Calif.",
+       "country": "US",
+       "previous_school": "Lodi HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jake-aberle/14017"
+      },
+      {
+       "name": "Jake Bettencourt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jake-bettencourt/15743"
+      },
+      {
+       "name": "Jaden Hunter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Sante Fe, Calif.",
+       "country": "US",
+       "previous_school": "Canyon Crest Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jaden-hunter/15744"
+      },
+      {
+       "name": "Andrew Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/andrew-lee/14263"
+      },
+      {
+       "name": "Joseph Lloyd",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Utah",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/joseph-lloyd/15026"
+      },
+      {
+       "name": "Matthew Manganello",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "East Career and Technical Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-manganello/14265"
+      },
+      {
+       "name": "Ryan Mendez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Colorado",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/ryan-mendez/14016"
+      },
+      {
+       "name": "Matthew Sutherland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Rio Americano HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-sutherland/14266"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Lane Pulliam",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/lane-pulliam/4478"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Bettencourt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/jake-bettencourt/15743"
+      },
+      {
+       "name": "Michael Cliff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Fresno Christian HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/michael-cliff/11985"
+      },
+      {
+       "name": "Seldon Doyle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Thousand Oaks HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/seldon-doyle/11986"
+      },
+      {
+       "name": "Kevin Huff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Vista Del Lago HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/kevin-huff/11987"
+      },
+      {
+       "name": "Andrew Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/andrew-lee/14263"
+      },
+      {
+       "name": "Matthew Manganello",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "East Career and Technical Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-manganello/14265"
+      },
+      {
+       "name": "Lane Pulliam",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hanford, Calif.",
+       "country": "US",
+       "previous_school": "Hanford HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/lane-pulliam/11990"
+      },
+      {
+       "name": "Matthew Sutherland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Rio Americano HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-sutherland/14266"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Michael Cliff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/michael-cliff/11985"
+      },
+      {
+       "name": "Seldon Doyle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/seldon-doyle/11986"
+      },
+      {
+       "name": "Kevin Huff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/kevin-huff/11987"
+      },
+      {
+       "name": "Andrew Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/andrew-lee/14263"
+      },
+      {
+       "name": "Matthew Manganello",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-manganello/14265"
+      },
+      {
+       "name": "Lane Pulliam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hanford, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/lane-pulliam/11990"
+      },
+      {
+       "name": "Tommy Stephenson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/tommy-stephenson/10400"
+      },
+      {
+       "name": "Matthew Sutherland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-sutherland/14266"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Ben Leestma",
+       "title": "Volunteer Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/ben-leestma/2266"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Michael Cliff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/michael-cliff/11985"
+      },
+      {
+       "name": "Seldon Doyle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/seldon-doyle/11986"
+      },
+      {
+       "name": "Kevin Huff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/kevin-huff/11987"
+      },
+      {
+       "name": "Matthew Manganello",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-manganello/14265"
+      },
+      {
+       "name": "Lane Pulliam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hanford, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/lane-pulliam/11990"
+      },
+      {
+       "name": "Tommy Stephenson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/tommy-stephenson/10400"
+      },
+      {
+       "name": "Matthew Sutherland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/matthew-sutherland/14266"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Michael Cliff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/michael-cliff/11985"
+      },
+      {
+       "name": "Seldon Doyle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Thousand Oaks, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/seldon-doyle/11986"
+      },
+      {
+       "name": "Tyler Gardner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/tyler-gardner/9037"
+      },
+      {
+       "name": "Kevin Huff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/kevin-huff/11987"
+      },
+      {
+       "name": "Alex Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/alex-lee/9031"
+      },
+      {
+       "name": "Lane Pulliam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hanford, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/lane-pulliam/11990"
+      },
+      {
+       "name": "Cody Riecks",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Auburn, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/cody-riecks/9032"
+      },
+      {
+       "name": "Tommy Stephenson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/tommy-stephenson/10400"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Cody Neal",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Justin Avery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/justin-avery/5190"
+      },
+      {
+       "name": "John Burke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/john-burke/7410"
+      },
+      {
+       "name": "Michael Cliff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/michael-cliff/11985"
+      },
+      {
+       "name": "Griffin Cooper",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yerington, Nev.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/griffin-cooper/7387"
+      },
+      {
+       "name": "Greg Gildea",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vashon Island, Wash.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/greg-gildea/5191"
+      },
+      {
+       "name": "Kevin Huff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/kevin-huff/11987"
+      },
+      {
+       "name": "Alex Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/alex-lee/9031"
+      },
+      {
+       "name": "Lane Pulliam",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hanford, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/lane-pulliam/11990"
+      },
+      {
+       "name": "Cody Riecks",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Auburn, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/cody-riecks/9032"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      },
+      {
+       "name": "Cody Neal",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gobulldogs.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Justin Avery",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/justin-avery/5190"
+      },
+      {
+       "name": "Trevor Clayton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/trevor-clayton/4722"
+      },
+      {
+       "name": "Greg Gildea",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vashon Island, Wash.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/greg-gildea/5191"
+      },
+      {
+       "name": "Alex Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/alex-lee/9031"
+      },
+      {
+       "name": "Michael Li",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/michael-li/4736"
+      },
+      {
+       "name": "Cody Neal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lemoore, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/cody-neal/4725"
+      },
+      {
+       "name": "Cody Riecks",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auburn, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/cody-riecks/9032"
+      },
+      {
+       "name": "Russell Takeuchi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/russell-takeuchi/4727"
+      },
+      {
+       "name": "Troix Tonkham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ventura, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/troix-tonkham/4728"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chad Spencer",
+       "title": "Head Coach",
+       "email": "cspencer@mail.fresnostate.edu",
+       "phone": "559-278-2435",
+       "profile_url": "https://gobulldogs.com/sports/mens-golf/roster/coaches/chad-spencer/951"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gobulldogs.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amelia Garibaldi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stockton, Calif.",
+       "country": "US",
+       "previous_school": "Lodi HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/amelia-garibaldi/15768"
+      },
+      {
+       "name": "Lara Goerlich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hanover, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lara-goerlich/16440"
+      },
+      {
+       "name": "Hyojeong Kang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seoul, Korea",
+       "country": "KR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/hyojeong-kang/15879"
+      },
+      {
+       "name": "Katelyn Lehigh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Loveland, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/katelyn-lehigh/15769"
+      },
+      {
+       "name": "Sara Rampoldi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mar Del Plata, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/sara-rampoldi/16441"
+      },
+      {
+       "name": "Vunnisa Vu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/vunnisa-vu/15771"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Ritchie",
+       "title": "Head Coach",
+       "email": "maryritchie@mail.fresnostate.edu",
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/mary-ritchie/4860"
+      },
+      {
+       "name": "Gary Green",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/gary-green/4859"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Genevieve Akers",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Galt, CA",
+       "country": "US",
+       "previous_school": "San Joaquin Delta College",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/genevieve-akers/15803"
+      },
+      {
+       "name": "Berglind Erla Baldursdottir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Iceland",
+       "country": "IS",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/berglind-erla-baldursdottir/15804"
+      },
+      {
+       "name": "Amelia Garibaldi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockton, Calif.",
+       "country": "US",
+       "previous_school": "Lodi HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/amelia-garibaldi/15768"
+      },
+      {
+       "name": "Katelyn Lehigh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Loveland, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/katelyn-lehigh/15769"
+      },
+      {
+       "name": "Motoko Shimoji",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": "College of the Canyons",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/motoko-shimoji/15807"
+      },
+      {
+       "name": "Ashley Tarkanian",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gardnerville, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Manogue",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/ashley-tarkanian/15808"
+      },
+      {
+       "name": "Vunnisa Vu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/vunnisa-vu/15771"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Gary Green",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/gary-green/4859"
+      },
+      {
+       "name": "Mary Ritchie",
+       "title": "Head Coach",
+       "email": "maryritchie@mail.fresnostate.edu",
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/mary-ritchie/4860"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amelia Garibaldi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockton, Calif.",
+       "country": "US",
+       "previous_school": "Lodi HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/amelia-garibaldi/15768"
+      },
+      {
+       "name": "Katelyn Harris",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Antelope, Calif.",
+       "country": "US",
+       "previous_school": "Portland State",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/katelyn-harris/14246"
+      },
+      {
+       "name": "Katelyn Lehigh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Loveland, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/katelyn-lehigh/15769"
+      },
+      {
+       "name": "Meredith McDougal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "CSUB/Westmont College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/meredith-mcdougal/14321"
+      },
+      {
+       "name": "Motoko Shimoji",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": "College of the Canyons",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/motoko-shimoji/15807"
+      },
+      {
+       "name": "Vunnisa Vu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/vunnisa-vu/15771"
+      },
+      {
+       "name": "Sophia Yi-Ju Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taiwan",
+       "country": "TW",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Ferrero",
+       "title": "Head Coach",
+       "email": "lferrero@mail.fresnostate.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/staff-directory/lisa-ferrero/2861"
+      },
+      {
+       "name": "Gary Green",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/gary-green/4859"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Avery Foster",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Reedley College",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/avery-foster/14021"
+      },
+      {
+       "name": "Katelyn Harris",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Antelope, Calif.",
+       "country": "US",
+       "previous_school": "Portland State",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/katelyn-harris/14246"
+      },
+      {
+       "name": "Nicola Kaminski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Gatos, Calif.",
+       "country": "US",
+       "previous_school": "Point Loma",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/nicola-kaminski/12776"
+      },
+      {
+       "name": "Katelyn Lehigh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Loveland, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/katelyn-lehigh/15769"
+      },
+      {
+       "name": "Harriet Lynch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Essex, England",
+       "country": "GB",
+       "previous_school": "Coopers' Company & Coborn",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/harriet-lynch/11911"
+      },
+      {
+       "name": "Lory Paradis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blainville, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "Félix-Leclerc",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lory-paradis/11912"
+      },
+      {
+       "name": "Lydia Volkmer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "Theodore-Fontane High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lydia-volkmer/11913"
+      },
+      {
+       "name": "Jinyoung Yun",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wynn Vale, South Australia",
+       "country": "AU",
+       "previous_school": "Golden Grove HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jinyoung-yun/11914"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Ferrero",
+       "title": "Head Coach",
+       "email": "lferrero@mail.fresnostate.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/staff-directory/lisa-ferrero/2861"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Delana Basanisi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St. Marcellinus SS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/delana-basanisi/10832"
+      },
+      {
+       "name": "Jessica Hall",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Witton Le Wear, England",
+       "country": "GB",
+       "previous_school": "Durham Sixth Form Centre",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jessica-hall/10833"
+      },
+      {
+       "name": "Nicola Kaminski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Gatos, Calif.",
+       "country": "US",
+       "previous_school": "Point Loma",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/nicola-kaminski/12776"
+      },
+      {
+       "name": "Harriet Lynch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Essex, England",
+       "country": "GB",
+       "previous_school": "Coopers' Company & Coborn",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/harriet-lynch/11911"
+      },
+      {
+       "name": "Lory Paradis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Blainville, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "Félix-Leclerc",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lory-paradis/11912"
+      },
+      {
+       "name": "Morgan Polley",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/morgan-polley/11916"
+      },
+      {
+       "name": "Yu Shang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Singapore",
+       "country": "SG",
+       "previous_school": "CHIJ Katong Convent",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/yu-shang/11917"
+      },
+      {
+       "name": "Lydia Volkmer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "Theodore-Fontane High School",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lydia-volkmer/11913"
+      },
+      {
+       "name": "Jinyoung Yun",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wynn Vale, South Australia",
+       "country": "AU",
+       "previous_school": "Golden Grove HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jinyoung-yun/11914"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Ferrero",
+       "title": "Head Coach",
+       "email": "lferrero@mail.fresnostate.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/staff-directory/lisa-ferrero/2861"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Delana Basanisi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St. Marcellinus SS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/delana-basanisi/10832"
+      },
+      {
+       "name": "Jessica Hall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Witton Le Wear, England",
+       "country": "GB",
+       "previous_school": "Durham Sixth Form Centre",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jessica-hall/10833"
+      },
+      {
+       "name": "Harriet Lynch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Essex, England",
+       "country": "GB",
+       "previous_school": "Coopers' Company & Coborn",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/harriet-lynch/11911"
+      },
+      {
+       "name": "Lory Paradis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Blainville, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "Félix-Leclerc",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lory-paradis/11912"
+      },
+      {
+       "name": "Kristin Simonsen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Norges Toppidrettsgymnas Baerum",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kristin-simonsen/10220"
+      },
+      {
+       "name": "Brigitte Thibault",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rosemère, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "École Saint-Gabriel",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/brigitte-thibault/10221"
+      },
+      {
+       "name": "Lydia Volkmer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "Theodore-Fontane High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/lydia-volkmer/11913"
+      },
+      {
+       "name": "Jinyoung Yun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wynn Vale, South Australia",
+       "country": "AU",
+       "previous_school": "Golden Grove HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jinyoung-yun/11914"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Loftin",
+       "title": "Head Coach",
+       "email": "eloftin@csufresno.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/emily-loftin/2194"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Delana Basanisi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St. Marcellinus SS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/delana-basanisi/10832"
+      },
+      {
+       "name": "Dominika Gradecka",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oborniki Slaskie, Poland",
+       "country": "PL",
+       "previous_school": "Florida State",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/dominika-gradecka/9567"
+      },
+      {
+       "name": "Jessica Hall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Witton Le Wear, England",
+       "country": "GB",
+       "previous_school": "Durham Sixth Form Centre",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jessica-hall/10833"
+      },
+      {
+       "name": "Harriet Lynch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Essex, England",
+       "country": "GB",
+       "previous_school": "Coopers' Company & Coborn",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/harriet-lynch/11911"
+      },
+      {
+       "name": "Danielle Richman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/danielle-richman/9570"
+      },
+      {
+       "name": "Kristin Simonsen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Norges Toppidrettsgymnas Baerum",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kristin-simonsen/10220"
+      },
+      {
+       "name": "Brigitte Thibault",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rosemère, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "École Saint-Gabriel",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/brigitte-thibault/10221"
+      },
+      {
+       "name": "Jinyoung Yun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wynn Vale, South Australia",
+       "country": "AU",
+       "previous_school": "Golden Grove HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jinyoung-yun/11914"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Loftin",
+       "title": "Head Coach",
+       "email": "eloftin@csufresno.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/emily-loftin/2194"
+      },
+      {
+       "name": "Mimi Ho",
+       "title": "Assistant Coach",
+       "email": "mimimiuyeeho@mail.fresnostate.edu",
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/mimi-ho/1087"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Delana Basanisi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St. Marcellinus SS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/delana-basanisi/10832"
+      },
+      {
+       "name": "Dominika Gradecka",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oborniki Slaskie, Poland",
+       "country": "PL",
+       "previous_school": "Florida State",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/dominika-gradecka/9567"
+      },
+      {
+       "name": "Jessica Hall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Witton Le Wear, England",
+       "country": "GB",
+       "previous_school": "Durham Sixth Form Centre",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/jessica-hall/10833"
+      },
+      {
+       "name": "Harriet Lynch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Essex, England",
+       "country": "GB",
+       "previous_school": "Coopers' Company & Coborn",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/harriet-lynch/11911"
+      },
+      {
+       "name": "Danielle Richman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/danielle-richman/9570"
+      },
+      {
+       "name": "Kristin Simonsen",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Norges Toppidrettsgymnas Baerum",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kristin-simonsen/10220"
+      },
+      {
+       "name": "Kelsi Stieler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oakhurst, Calif.",
+       "country": "US",
+       "previous_school": "Yosemite HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kelsi-stieler/8873"
+      },
+      {
+       "name": "Brigitte Thibault",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rosemère, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "École Saint-Gabriel",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/brigitte-thibault/10221"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Loftin",
+       "title": "Head Coach",
+       "email": "eloftin@csufresno.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/emily-loftin/2194"
+      },
+      {
+       "name": "Mimi Ho",
+       "title": "Assistant Coach",
+       "email": "mimimiuyeeho@mail.fresnostate.edu",
+       "phone": null,
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/mimi-ho/1087"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Dominika Gradecka",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Oborniki Slaskie, Poland",
+       "country": "PL",
+       "previous_school": "Florida State",
+       "class_raw": "R-So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/dominika-gradecka/9567"
+      },
+      {
+       "name": "Mimi Ho",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "Discovery College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/mimi-ho/5076"
+      },
+      {
+       "name": "Alison Muirhead",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dubai, UAE",
+       "country": "AE",
+       "previous_school": "Dubai English Speaking College",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/alison-muirhead/5085"
+      },
+      {
+       "name": "Danielle Richman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/danielle-richman/9570"
+      },
+      {
+       "name": "Kristin Simonsen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Norges Toppidrettsgymnas Baerum",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kristin-simonsen/10220"
+      },
+      {
+       "name": "Samantha Spencer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Christ the King Secondary School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/samantha-spencer/5080"
+      },
+      {
+       "name": "Kelsi Stieler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oakhurst, Calif.",
+       "country": "US",
+       "previous_school": "Yosemite HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kelsi-stieler/8873"
+      },
+      {
+       "name": "Brigitte Thibault",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rosemère, Quebec, Canada",
+       "country": "CA",
+       "previous_school": "École Saint-Gabriel",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/brigitte-thibault/10221"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Loftin",
+       "title": "Head Coach",
+       "email": "eloftin@csufresno.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/emily-loftin/2194"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gobulldogs.com/sports/womens-golf/roster/2016-17",
+     "parser": "cards",
+     "players": [
+      {
+       "name": "Gudrun Bjorgvinsdottir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hafnarfjordur, Iceland",
+       "country": "IS",
+       "previous_school": "Flensborgarskolinn",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/gudrun-bjorgvinsdottir/4729"
+      },
+      {
+       "name": "Kaitlyn Ellis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Quinta, Calif.",
+       "country": "US",
+       "previous_school": "La Quinta",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kaitlyn-ellis/4730"
+      },
+      {
+       "name": "Mimi Ho",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "Discovery College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/mimi-ho/5076"
+      },
+      {
+       "name": "Joanna Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": "Saint Kentigern College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/joanna-kim/4732"
+      },
+      {
+       "name": "Hayden Mammen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Clovis HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/hayden-mammen/5042"
+      },
+      {
+       "name": "Danielle Richman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/danielle-richman/9570"
+      },
+      {
+       "name": "Kristin Simonsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Norges Toppidrettsgymnas Baerum",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kristin-simonsen/10220"
+      },
+      {
+       "name": "Samantha Spencer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Christ the King Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/samantha-spencer/5080"
+      },
+      {
+       "name": "Kelsi Stieler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oakhurst, Calif.",
+       "country": "US",
+       "previous_school": "Yosemite HS",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/kelsi-stieler/8873"
+      },
+      {
+       "name": "Yifei Wang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangzhou No. 47 Middle School",
+       "class_raw": "So.",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/yifei-wang/4735"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Loftin",
+       "title": "Head Coach",
+       "email": "eloftin@csufresno.edu",
+       "phone": "559-278-7323",
+       "profile_url": "https://gobulldogs.com/sports/womens-golf/roster/coaches/emily-loftin/2194"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gobulldogs.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gobulldogs.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gobulldogs.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gobulldogs.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gobulldogs.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

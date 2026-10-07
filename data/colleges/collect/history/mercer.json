@@ -1,36 +1,2101 @@
 {
  "slug": "mercer",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://mercerbears.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Curran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/ryan-curran/12553"
+      },
+      {
+       "name": "Teddy Dunn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Blythwood, SC",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/teddy-dunn/12554"
+      },
+      {
+       "name": "Albin Ekvall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Helsingborg, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/albin-ekvall/12555"
+      },
+      {
+       "name": "Josemaria Gutierrez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mex",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/josemaria-gutierrez/11978"
+      },
+      {
+       "name": "Cole Hanson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Grand Forks, N.D.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/cole-hanson/11971"
+      },
+      {
+       "name": "Connor Holcroft",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/connor-holcroft/11972"
+      },
+      {
+       "name": "Henry Robards",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/henry-robards/11973"
+      },
+      {
+       "name": "Phillips Swift",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, GA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/phillips-swift/12557"
+      },
+      {
+       "name": "Nathan Trodd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pietermaritzburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/nathan-trodd/11974"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Payne",
+       "title": "Head Coach",
+       "email": "payne_jc@mercer.edu",
+       "phone": "(478) 301-5349",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/coaches/jason-payne/3357"
+      },
+      {
+       "name": "Matt Ariza",
+       "title": "Assistant Coach",
+       "email": "Matthew.Ariza@live.mercer.edu",
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/coaches/matt-ariza/3247"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Curran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/ryan-curran/12553"
+      },
+      {
+       "name": "Charlie Fischer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orchard Park, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/charlie-fischer/11341"
+      },
+      {
+       "name": "Cole Hanson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grand Forks, N.D.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/cole-hanson/11971"
+      },
+      {
+       "name": "J.T. Herman",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hilton Head, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Connor Holcroft",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/connor-holcroft/11972"
+      },
+      {
+       "name": "Trey Mixon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/trey-mixon/11343"
+      },
+      {
+       "name": "Henry Robards",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/henry-robards/11973"
+      },
+      {
+       "name": "Rohan Singh",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/rohan-singh/11344"
+      },
+      {
+       "name": "Nathan Trodd",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pietermaritzburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/nathan-trodd/11974"
+      },
+      {
+       "name": "Jacob Uyesato",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corona, Cal.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jacob-uyesato/11345"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Payne",
+       "title": "Head Coach",
+       "email": "payne_jc@mercer.edu",
+       "phone": "(478) 301-5349",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/coaches/jason-payne/3357"
+      },
+      {
+       "name": "Martin Kjellser",
+       "title": "Assistant Coach",
+       "email": "Martin.Elliot.Kjellser@live.mercer.edu",
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/coaches/martin-kjellser/3125"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Fischer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orchard Park, N.Y.",
+       "country": "US",
+       "previous_school": "Orchard Park HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/charlie-fischer/11341"
+      },
+      {
+       "name": "Connor Holcroft",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/connor-holcroft/11972"
+      },
+      {
+       "name": "Tobias Jonsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huddinge, Sweden",
+       "country": "SE",
+       "previous_school": "Young Harris College",
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tobias-jonsson/10356"
+      },
+      {
+       "name": "August Jording",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten",
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/august-jording/10357"
+      },
+      {
+       "name": "Trey Mixon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "First Presbyterian Day School",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/trey-mixon/11343"
+      },
+      {
+       "name": "Jonathan Parker",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": "Columbus HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jonathan-parker/10359"
+      },
+      {
+       "name": "Rohan Singh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/rohan-singh/11344"
+      },
+      {
+       "name": "Gustav Sjoberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fagersta, Sweden",
+       "country": "SE",
+       "previous_school": "Iowa Western",
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/gustav-sjoberg/10360"
+      },
+      {
+       "name": "Jay Spivey",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "First Presbyterian Day School",
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jay-spivey/10361"
+      },
+      {
+       "name": "Jacob Uyesato",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Corona, Cal.",
+       "country": "US",
+       "previous_school": "Florida A&M University",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jacob-uyesato/11345"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Payne",
+       "title": "Head Coach",
+       "email": "payne_jc@mercer.edu",
+       "phone": "(478) 301-5349",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/coaches/jason-payne/3357"
+      },
+      {
+       "name": "Michael Terblanche",
+       "title": "Assistant Coach",
+       "email": "Michael.John.Terblanche@live.mercer.edu",
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/coaches/michael-terblanche/2953"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Holcroft",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/connor-holcroft/11972"
+      },
+      {
+       "name": "Tobias Jonsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huddinge, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tobias-jonsson/10356"
+      },
+      {
+       "name": "August Jording",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/august-jording/10357"
+      },
+      {
+       "name": "Trey Mixon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/trey-mixon/11343"
+      },
+      {
+       "name": "Rece Moore",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Dallas, GA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/rece-moore/9853"
+      },
+      {
+       "name": "Jonathan Parker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jonathan-parker/10359"
+      },
+      {
+       "name": "Gustav Sjoberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fagersta, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/gustav-sjoberg/10360"
+      },
+      {
+       "name": "Jay Spivey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jay-spivey/10361"
+      },
+      {
+       "name": "Ethan Werblo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orange City, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/ethan-werblo/9855"
+      }
+     ],
+     "coaches": []
+    },
+    "2021-22": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tobias Jonsson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huddinge, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tobias-jonsson/10356"
+      },
+      {
+       "name": "August Jording",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/august-jording/10357"
+      },
+      {
+       "name": "Trey Mixon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/trey-mixon/11343"
+      },
+      {
+       "name": "Kenny Park",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Cumming, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/kenny-park/9255"
+      },
+      {
+       "name": "Jonathan Parker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jonathan-parker/10359"
+      },
+      {
+       "name": "Martin Plukka",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/martin-plukka/9244"
+      },
+      {
+       "name": "Jay Spivey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jay-spivey/10361"
+      },
+      {
+       "name": "Bryce Werblo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orange City, FL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/bryce-werblo/9251"
+      },
+      {
+       "name": "Ethan Werblo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orange City, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/ethan-werblo/9855"
+      }
+     ],
+     "coaches": []
+    },
+    "2020-21": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Copp",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tyler-copp/7861"
+      },
+      {
+       "name": "Lino Galdin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nesmy, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/lino-galdin/7862"
+      },
+      {
+       "name": "August Jording",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/august-jording/10357"
+      },
+      {
+       "name": "Jun Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jun-kim/7863"
+      },
+      {
+       "name": "Daniel McKenzie",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/daniel-mckenzie/7864"
+      },
+      {
+       "name": "Nolan Miller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/nolan-miller/7865"
+      },
+      {
+       "name": "Jonathan Parker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jonathan-parker/10359"
+      },
+      {
+       "name": "Martin Plukka",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/martin-plukka/9244"
+      },
+      {
+       "name": "Jay Spivey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jay-spivey/10361"
+      },
+      {
+       "name": "Ethan Werblo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orange City, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/ethan-werblo/9855"
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Spencer Ball",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/spencer-ball/7194"
+      },
+      {
+       "name": "Tyler Copp",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tyler-copp/7861"
+      },
+      {
+       "name": "Lino Galdin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nesmy, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/lino-galdin/7862"
+      },
+      {
+       "name": "Jun Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jun-kim/7863"
+      },
+      {
+       "name": "Daniel McKenzie",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/daniel-mckenzie/7864"
+      },
+      {
+       "name": "Nolan Miller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/nolan-miller/7865"
+      },
+      {
+       "name": "Jonathan Parker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jonathan-parker/10359"
+      },
+      {
+       "name": "Martin Plukka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/martin-plukka/9244"
+      },
+      {
+       "name": "Kiko Rosete",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gijón, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/kiko-rosete/7200"
+      },
+      {
+       "name": "Jay Spivey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jay-spivey/10361"
+      },
+      {
+       "name": "Ethan Werblo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orange City, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/ethan-werblo/9855"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Spencer Ball",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/spencer-ball/7194"
+      },
+      {
+       "name": "Brennan Bogdanovich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/brennan-bogdanovich/5469"
+      },
+      {
+       "name": "Tyler Copp",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tyler-copp/7861"
+      },
+      {
+       "name": "Lino Galdin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nesmy, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/lino-galdin/7862"
+      },
+      {
+       "name": "Daniel McKenzie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/daniel-mckenzie/7864"
+      },
+      {
+       "name": "Nolan Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/nolan-miller/7865"
+      },
+      {
+       "name": "Martin Plukka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/martin-plukka/9244"
+      },
+      {
+       "name": "Kiko Rosete",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gijón, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/kiko-rosete/7200"
+      },
+      {
+       "name": "Hayes Rule",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eatonton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/hayes-rule/5474"
+      },
+      {
+       "name": "Stanton Schorr",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/stanton-schorr/5475"
+      },
+      {
+       "name": "Logan White",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Plano, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/logan-white/5476"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Spencer Ball",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/spencer-ball/7194"
+      },
+      {
+       "name": "Brennan Bogdanovich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/brennan-bogdanovich/5469"
+      },
+      {
+       "name": "Tyler Copp",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tyler-copp/7861"
+      },
+      {
+       "name": "Lino Galdin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nesmy, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/lino-galdin/7862"
+      },
+      {
+       "name": "Tim Hanzelko",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tim-hanzelko/5149"
+      },
+      {
+       "name": "Nolan Miller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/nolan-miller/7865"
+      },
+      {
+       "name": "Jerry Ren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jerry-ren/5150"
+      },
+      {
+       "name": "Kiko Rosete",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gijón, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/kiko-rosete/7200"
+      },
+      {
+       "name": "Hayes Rule",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eatonton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/hayes-rule/5474"
+      },
+      {
+       "name": "Stanton Schorr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/stanton-schorr/5475"
+      },
+      {
+       "name": "Logan White",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Plano, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/logan-white/5476"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://mercerbears.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jim Beatty",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stephens, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jim-beatty/3747"
+      },
+      {
+       "name": "Brennan Bogdanovich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/brennan-bogdanovich/5469"
+      },
+      {
+       "name": "Justin Connelly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McDonough, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/justin-connelly/3749"
+      },
+      {
+       "name": "William Gunst",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elmhurst, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/william-gunst/3755"
+      },
+      {
+       "name": "Tim Hanzelko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/tim-hanzelko/5149"
+      },
+      {
+       "name": "Jerry Ren",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/jerry-ren/5150"
+      },
+      {
+       "name": "Kiko Rosete",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gijón, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/kiko-rosete/7200"
+      },
+      {
+       "name": "Hayes Rule",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eatonton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/hayes-rule/5474"
+      },
+      {
+       "name": "Stanton Schorr",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/stanton-schorr/5475"
+      },
+      {
+       "name": "Sean Smothers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pompano Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/mens-golf/roster/sean-smothers/3754"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://mercerbears.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bhoomi Jagtap",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Flagler",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/bhoomi-jagtap/12718"
+      },
+      {
+       "name": "Riley Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aldie, Va.",
+       "country": "US",
+       "previous_school": "Eastern Michigan",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/riley-kim/12719"
+      },
+      {
+       "name": "Ella Mäki-Tanila",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Muurla, Finland",
+       "country": "FI",
+       "previous_school": "Salon lukio",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Katie Scheck",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ooltewah, Tenn.",
+       "country": "US",
+       "previous_school": "Penn State",
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/katie-scheck/11851"
+      },
+      {
+       "name": "Mahima Vurupatur",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": "Alpharetta HS",
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mahima-vurupatur/12720"
+      },
+      {
+       "name": "Tylar Whiting",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "South Daytona, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tylar-whiting/12721"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mikayla Dubnik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrayville, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mikayla-dubnik/11007"
+      },
+      {
+       "name": "Ella Mäki-Tanila",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Muurla, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Eujin Pyon",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/eujin-pyon/11008"
+      },
+      {
+       "name": "Analiese Raath",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lakeland, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/analiese-raath/11011"
+      },
+      {
+       "name": "Katie Scheck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ooltewah, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/katie-scheck/11851"
+      },
+      {
+       "name": "Emilia Väistö",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seinäjoki, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Mahima Vurupatur",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mahima-vurupatur/12720"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      },
+      {
+       "name": "Kim Smaha",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/kim-smaha/3161"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mikayla Dubnik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murrayville, Ga.",
+       "country": "US",
+       "previous_school": "North Hall HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mikayla-dubnik/11007"
+      },
+      {
+       "name": "Camilla Järvelä",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ella Mäki-Tanila",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Muurla, Finland",
+       "country": "FI",
+       "previous_school": "Salon lukio",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Eujin Pyon",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "Rutland HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/eujin-pyon/11008"
+      },
+      {
+       "name": "Tracy Rodriguez",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Nimes, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tracy-rodriguez/10239"
+      },
+      {
+       "name": "Katie Scheck",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ooltewah, Tenn.",
+       "country": "US",
+       "previous_school": "Penn State",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/katie-scheck/11851"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      },
+      {
+       "name": "Kim Smaha",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/kim-smaha/3161"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mikayla Dubnik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrayville, Ga.",
+       "country": "US",
+       "previous_school": "North Hall HS",
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mikayla-dubnik/11007"
+      },
+      {
+       "name": "Camilla Järvelä",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Carol Pyon",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "Rutland HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/carol-pyon/9841"
+      },
+      {
+       "name": "Eujin Pyon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "Rutland HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/eujin-pyon/11008"
+      },
+      {
+       "name": "Tracy Rodriguez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nimes, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tracy-rodriguez/10239"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      },
+      {
+       "name": "Kim Smaha",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/kim-smaha/3161"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mikayla Dubnik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrayville, Ga.",
+       "country": "US",
+       "previous_school": "North Hall HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mikayla-dubnik/11007"
+      },
+      {
+       "name": "Laila Hrindova",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": "Baylor",
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/laila-hrindova/9232"
+      },
+      {
+       "name": "Hailey Katona",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tilbury, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Georgia Southern",
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/hailey-katona/9239"
+      },
+      {
+       "name": "Carol Pyon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "Rutland HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/carol-pyon/9841"
+      },
+      {
+       "name": "Eujin Pyon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "Rutland HS",
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/eujin-pyon/11008"
+      },
+      {
+       "name": "Tracy Rodriguez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nimes, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tracy-rodriguez/10239"
+      },
+      {
+       "name": "Kate Song",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": "Johns Creek HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/kate-song/9238"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Laila Hrindova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/laila-hrindova/9232"
+      },
+      {
+       "name": "Lauren Lightfritz",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/lauren-lightfritz/7735"
+      },
+      {
+       "name": "Laura Pasalodos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/laura-pasalodos/7831"
+      },
+      {
+       "name": "Carol Pyon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/carol-pyon/9841"
+      },
+      {
+       "name": "Eujin Pyon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/eujin-pyon/11008"
+      },
+      {
+       "name": "Tracy Rodriguez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nimes, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tracy-rodriguez/10239"
+      },
+      {
+       "name": "Payton Schanen",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/payton-schanen/7738"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emily Haigwood",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roswell, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/emily-haigwood/7211"
+      },
+      {
+       "name": "Laila Hrindova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/laila-hrindova/9232"
+      },
+      {
+       "name": "Tiffany Kim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tiffany-kim/7207"
+      },
+      {
+       "name": "Lauren Lightfritz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/lauren-lightfritz/7735"
+      },
+      {
+       "name": "Carol Pyon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/carol-pyon/9841"
+      },
+      {
+       "name": "Tracy Rodriguez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nimes, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tracy-rodriguez/10239"
+      },
+      {
+       "name": "Payton Schanen",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/payton-schanen/7738"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Laila Hrindova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/laila-hrindova/9232"
+      },
+      {
+       "name": "Mary Janiga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wellington, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mary-janiga/5511"
+      },
+      {
+       "name": "Tiffany Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tiffany-kim/7207"
+      },
+      {
+       "name": "Karina Kukkonen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oulu, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/karina-kukkonen/5513"
+      },
+      {
+       "name": "Lauren Lightfritz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/lauren-lightfritz/7735"
+      },
+      {
+       "name": "Carol Pyon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/carol-pyon/9841"
+      },
+      {
+       "name": "Terese Romeo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/terese-romeo/5515"
+      },
+      {
+       "name": "Payton Schanen",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/payton-schanen/7738"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      },
+      {
+       "name": "Lauren Whyte",
+       "title": "Assistant Coach",
+       "email": "lauren.r.whyte@live.mercer.edu",
+       "phone": null,
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/lauren-whyte/1468"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hannah Mae Deems",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Taylorsville, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/hannah-mae-deems/5171"
+      },
+      {
+       "name": "Mary Janiga",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wellington, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mary-janiga/5511"
+      },
+      {
+       "name": "Tiffany Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tiffany-kim/7207"
+      },
+      {
+       "name": "Karina Kukkonen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oulu, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/karina-kukkonen/5513"
+      },
+      {
+       "name": "Lauren Lightfritz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/lauren-lightfritz/7735"
+      },
+      {
+       "name": "Terese Romeo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/terese-romeo/5515"
+      },
+      {
+       "name": "Payton Schanen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/payton-schanen/7738"
+      },
+      {
+       "name": "Jaelyn Tindal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/jaelyn-tindal/5177"
+      },
+      {
+       "name": "Jodee Tindal",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/jodee-tindal/5179"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://mercerbears.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hannah Mae Deems",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taylorsville, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/hannah-mae-deems/5171"
+      },
+      {
+       "name": "Marin Hanna",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moultrie, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/marin-hanna/3710"
+      },
+      {
+       "name": "Mary Janiga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wellington, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/mary-janiga/5511"
+      },
+      {
+       "name": "Tiffany Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/tiffany-kim/7207"
+      },
+      {
+       "name": "Lauren Lightfritz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/lauren-lightfritz/7735"
+      },
+      {
+       "name": "Terese Romeo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/terese-romeo/5515"
+      },
+      {
+       "name": "Payton Schanen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alpharetta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/payton-schanen/7738"
+      },
+      {
+       "name": "Jaelyn Tindal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/jaelyn-tindal/5177"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michele Drinkard",
+       "title": "Head Coach",
+       "email": "drinkard_sm@mercer.edu",
+       "phone": "(478) 301-5625",
+       "profile_url": "https://mercerbears.com/sports/womens-golf/roster/coaches/michele-drinkard/3388"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://mercerbears.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://mercerbears.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://mercerbears.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://mercerbears.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://mercerbears.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

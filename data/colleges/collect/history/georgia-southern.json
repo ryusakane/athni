@@ -1,36 +1,2202 @@
 {
  "slug": "georgia-southern",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gseagles.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Margaux Brejo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fontainebleau, France",
+       "country": "FR",
+       "previous_school": "Institut Privée FFGolf Terre Blanche",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/margaux-brejo/7982"
+      },
+      {
+       "name": "Keely Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McDonough, Ga.",
+       "country": "US",
+       "previous_school": "Emmanuel",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/keely-johnson/7983"
+      },
+      {
+       "name": "Ida Lundh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gislaved, Sweden",
+       "country": "SE",
+       "previous_school": "Nova Southeastern",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ida-lundh/7984"
+      },
+      {
+       "name": "Maddy Pytura",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Saint Leo",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/maddy-pytura/7379"
+      },
+      {
+       "name": "Haven Ward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Denver",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/haven-ward/7985"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Mia Kness",
+       "title": "Assistant Coach",
+       "email": "mkness@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mia-kness/1809"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kelsey Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dalian, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kelsey-chen/6719"
+      },
+      {
+       "name": "LoraLie Cowart",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": "Georgia",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/loralie-cowart/6717"
+      },
+      {
+       "name": "Mary Miller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Savannah, Ga.",
+       "country": "US",
+       "previous_school": "Savannah Christian Preparatory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/mary-miller/6718"
+      },
+      {
+       "name": "Regina Plascencia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": "Windemere Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/regina-plascencia/6706"
+      },
+      {
+       "name": "Louise Reau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Béziers, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/louise-reau/6707"
+      },
+      {
+       "name": "Avery Robinson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "First Presbyterian Day",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/avery-robinson/6708"
+      },
+      {
+       "name": "Abbey Schimpf",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": "UNC Charlotte",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abbey-schimpf/6709"
+      },
+      {
+       "name": "Drive Tunwannarux",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Georgia",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/drive-tunwannarux/7064"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Mia Kness",
+       "title": "Assistant Coach",
+       "email": "mkness@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mia-kness/1809"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Newton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Regina Plascencia",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": "Windemere Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/regina-plascencia/6706"
+      },
+      {
+       "name": "Louise Reau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Béziers, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/louise-reau/6707"
+      },
+      {
+       "name": "Avery Robinson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "First Presbyterian Day",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/avery-robinson/6708"
+      },
+      {
+       "name": "Abbey Schimpf",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": "UNC Charlotte",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abbey-schimpf/6709"
+      },
+      {
+       "name": "Alex Stevenson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": "Seminole State College",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alex-stevenson/5933"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      },
+      {
+       "name": "Emma von Hoffmann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spicewood, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-von-hoffmann/5937"
+      },
+      {
+       "name": "Haley Yerxa",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario",
+       "country": "CA",
+       "previous_school": "FGCU",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/haley-yerxa/5935"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Mia Kness",
+       "title": "Assistant Coach",
+       "email": "mkness@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mia-kness/1809"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Meiqi Gao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shanghai, China",
+       "country": "CN",
+       "previous_school": "HD Ningbo School",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/meiqi-gao/5446"
+      },
+      {
+       "name": "Sandra Menes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway /",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sandra-menes/5776"
+      },
+      {
+       "name": "Abby Newton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Taylor Oberparleiter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laurel Springs, N.J.",
+       "country": "US",
+       "previous_school": "Limestone",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/taylor-oberparleiter/5454"
+      },
+      {
+       "name": "Regina Plascencia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": "Windemere Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/regina-plascencia/6706"
+      },
+      {
+       "name": "Alex Stevenson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": "Seminole State College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alex-stevenson/5933"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      },
+      {
+       "name": "Haley Yerxa",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Ottawa, Ontario",
+       "country": "CA",
+       "previous_school": "FGCU",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/haley-yerxa/5935"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Cabe Waters",
+       "title": "Assistant Coach",
+       "email": "cwaters@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Meiqi Gao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shanghai, China",
+       "country": "CN",
+       "previous_school": "HD Ningbo School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/meiqi-gao/5446"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Madison Heideman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Largo, Fla.",
+       "country": "US",
+       "previous_school": "FAU",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/madison-heideman/4765"
+      },
+      {
+       "name": "Mia Kness",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Seton Hall",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/mia-kness/4869"
+      },
+      {
+       "name": "Abby Newton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Sarunchana Rattanasin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "St. Francis Xavier School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarunchana-rattanasin/4992"
+      },
+      {
+       "name": "Alex Stevenson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": "Seminole State College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alex-stevenson/5933"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Cabe Waters",
+       "title": "Assistant Coach",
+       "email": "cwaters@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Madison Heideman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Largo, Fla.",
+       "country": "US",
+       "previous_school": "FAU",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/madison-heideman/4765"
+      },
+      {
+       "name": "Hailey Katona",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tilbury, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Tilbury District",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/hailey-katona/4282"
+      },
+      {
+       "name": "Abby Newton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Savanah Satterfield",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chatsworth, Ga.",
+       "country": "US",
+       "previous_school": "North Murray",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/savanah-satterfield/4201"
+      },
+      {
+       "name": "Alberte Thuesen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Farum, Denmark",
+       "country": "DK",
+       "previous_school": "Marie Kruses Skole & Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alberte-thuesen/4202"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Head Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Kelly Welker",
+       "title": "Assistant Coach",
+       "email": "kwelker@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/kelly-welker/1001"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Madison Heideman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Largo, Fla.",
+       "country": "US",
+       "previous_school": "FAU",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/madison-heideman/4765"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Savanah Satterfield",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chatsworth, Ga.",
+       "country": "US",
+       "previous_school": "North Murray",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/savanah-satterfield/4201"
+      },
+      {
+       "name": "Alberte Thuesen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Farum, Denmark",
+       "country": "DK",
+       "previous_school": "Marie Kruses Skole & Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alberte-thuesen/4202"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Michael Butler",
+       "title": "Assistant Coach",
+       "email": "mcbutler@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/michael-butler/877"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Ansley Bowman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ansley-bowman/3392"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "R-So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Autumn Gabe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Walton",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/autumn-gabe/3394"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Natalie Petersen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holly Springs, N.C.",
+       "country": "US",
+       "previous_school": "Holly Springs",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/natalie-petersen/3398"
+      },
+      {
+       "name": "Savanah Satterfield",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chatsworth, Ga.",
+       "country": "US",
+       "previous_school": "North Murray",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/savanah-satterfield/4201"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Jenna Wylie",
+       "title": "Assistant Coach",
+       "email": "jlwylie@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/jenna-wylie/714"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ansley Bowman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ansley-bowman/3392"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Autumn Gabe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Walton",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/autumn-gabe/3394"
+      },
+      {
+       "name": "Ashlynn Joyner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lakeland, Fla.",
+       "country": "US",
+       "previous_school": "Lakeland Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ashlynn-joyner/2821"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Natalie Petersen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holly Springs, N.C.",
+       "country": "US",
+       "previous_school": "Holly Springs",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/natalie-petersen/3398"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Jenna Wylie",
+       "title": "Assistant Coach",
+       "email": "jlwylie@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/jenna-wylie/714"
+      },
+      {
+       "name": "Lauren Coe",
+       "title": "Graduate Assistant",
+       "email": "lc04390@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ansley Bowman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ansley-bowman/3392"
+      },
+      {
+       "name": "Lauren Coe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tarpon Springs, Fla.",
+       "country": "US",
+       "previous_school": "Palm Harbor University HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/lauren-coe/2284"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Iben Hvass",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fredericia, Denmark",
+       "country": "DK",
+       "previous_school": "Western Texas",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/iben-hvass/2280"
+      },
+      {
+       "name": "Ariana Macioce",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Xavier College Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ariana-macioce/2897"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Yeji Shin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norwood, N.J.",
+       "country": "US",
+       "previous_school": "Old Tappan",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/yeji-shin/2896"
+      },
+      {
+       "name": "Taylor Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Baton Rouge, La.",
+       "country": "US",
+       "previous_school": "Centenary College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/taylor-thompson/2283"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Kortnie Maxoutopoulis",
+       "title": "Graduate Assistant Coach",
+       "email": "km09458@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/kortnie-maxoutopoulis/404"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gseagles.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Margaux Brejo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fontainebleau, France",
+       "country": "FR",
+       "previous_school": "Institut Privée FFGolf Terre Blanche",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/margaux-brejo/7982"
+      },
+      {
+       "name": "Keely Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McDonough, Ga.",
+       "country": "US",
+       "previous_school": "Emmanuel",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/keely-johnson/7983"
+      },
+      {
+       "name": "Ida Lundh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gislaved, Sweden",
+       "country": "SE",
+       "previous_school": "Nova Southeastern",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ida-lundh/7984"
+      },
+      {
+       "name": "Maddy Pytura",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Saint Leo",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/maddy-pytura/7379"
+      },
+      {
+       "name": "Haven Ward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Denver",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/haven-ward/7985"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Mia Kness",
+       "title": "Assistant Coach",
+       "email": "mkness@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mia-kness/1809"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kelsey Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dalian, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kelsey-chen/6719"
+      },
+      {
+       "name": "LoraLie Cowart",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": "Georgia",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/loralie-cowart/6717"
+      },
+      {
+       "name": "Mary Miller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Savannah, Ga.",
+       "country": "US",
+       "previous_school": "Savannah Christian Preparatory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/mary-miller/6718"
+      },
+      {
+       "name": "Regina Plascencia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": "Windemere Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/regina-plascencia/6706"
+      },
+      {
+       "name": "Louise Reau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Béziers, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/louise-reau/6707"
+      },
+      {
+       "name": "Avery Robinson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "First Presbyterian Day",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/avery-robinson/6708"
+      },
+      {
+       "name": "Abbey Schimpf",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": "UNC Charlotte",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abbey-schimpf/6709"
+      },
+      {
+       "name": "Drive Tunwannarux",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Georgia",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/drive-tunwannarux/7064"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Mia Kness",
+       "title": "Assistant Coach",
+       "email": "mkness@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mia-kness/1809"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Newton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Regina Plascencia",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": "Windemere Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/regina-plascencia/6706"
+      },
+      {
+       "name": "Louise Reau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Béziers, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/louise-reau/6707"
+      },
+      {
+       "name": "Avery Robinson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macon, Ga.",
+       "country": "US",
+       "previous_school": "First Presbyterian Day",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/avery-robinson/6708"
+      },
+      {
+       "name": "Abbey Schimpf",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": "UNC Charlotte",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abbey-schimpf/6709"
+      },
+      {
+       "name": "Alex Stevenson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": "Seminole State College",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alex-stevenson/5933"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      },
+      {
+       "name": "Emma von Hoffmann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spicewood, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-von-hoffmann/5937"
+      },
+      {
+       "name": "Haley Yerxa",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario",
+       "country": "CA",
+       "previous_school": "FGCU",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/haley-yerxa/5935"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Mia Kness",
+       "title": "Assistant Coach",
+       "email": "mkness@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mia-kness/1809"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Meiqi Gao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shanghai, China",
+       "country": "CN",
+       "previous_school": "HD Ningbo School",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/meiqi-gao/5446"
+      },
+      {
+       "name": "Sandra Menes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway /",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sandra-menes/5776"
+      },
+      {
+       "name": "Abby Newton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Taylor Oberparleiter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laurel Springs, N.J.",
+       "country": "US",
+       "previous_school": "Limestone",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/taylor-oberparleiter/5454"
+      },
+      {
+       "name": "Regina Plascencia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Queretaro, Mexico",
+       "country": "MX",
+       "previous_school": "Windemere Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/regina-plascencia/6706"
+      },
+      {
+       "name": "Alex Stevenson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": "Seminole State College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alex-stevenson/5933"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      },
+      {
+       "name": "Haley Yerxa",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Ottawa, Ontario",
+       "country": "CA",
+       "previous_school": "FGCU",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/haley-yerxa/5935"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Cabe Waters",
+       "title": "Assistant Coach",
+       "email": "cwaters@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Meiqi Gao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shanghai, China",
+       "country": "CN",
+       "previous_school": "HD Ningbo School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/meiqi-gao/5446"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Madison Heideman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Largo, Fla.",
+       "country": "US",
+       "previous_school": "FAU",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/madison-heideman/4765"
+      },
+      {
+       "name": "Mia Kness",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Seton Hall",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/mia-kness/4869"
+      },
+      {
+       "name": "Abby Newton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Sarunchana Rattanasin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "St. Francis Xavier School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarunchana-rattanasin/4992"
+      },
+      {
+       "name": "Alex Stevenson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": "Seminole State College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alex-stevenson/5933"
+      },
+      {
+       "name": "Karlee Vardas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/karlee-vardas/6710"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mimi Burke",
+       "title": "Head Coach",
+       "email": "mburke@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/mimi-burke/1808"
+      },
+      {
+       "name": "Cabe Waters",
+       "title": "Assistant Coach",
+       "email": "cwaters@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Madison Heideman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Largo, Fla.",
+       "country": "US",
+       "previous_school": "FAU",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/madison-heideman/4765"
+      },
+      {
+       "name": "Hailey Katona",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tilbury, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Tilbury District",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/hailey-katona/4282"
+      },
+      {
+       "name": "Abby Newton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Statesboro, Ga.",
+       "country": "US",
+       "previous_school": "Bulloch Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/abby-newton/5931"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "5th Year",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Savanah Satterfield",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chatsworth, Ga.",
+       "country": "US",
+       "previous_school": "North Murray",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/savanah-satterfield/4201"
+      },
+      {
+       "name": "Alberte Thuesen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Farum, Denmark",
+       "country": "DK",
+       "previous_school": "Marie Kruses Skole & Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alberte-thuesen/4202"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Head Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Kelly Welker",
+       "title": "Assistant Coach",
+       "email": "kwelker@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/kelly-welker/1001"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Madison Heideman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Largo, Fla.",
+       "country": "US",
+       "previous_school": "FAU",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/madison-heideman/4765"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Savanah Satterfield",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chatsworth, Ga.",
+       "country": "US",
+       "previous_school": "North Murray",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/savanah-satterfield/4201"
+      },
+      {
+       "name": "Alberte Thuesen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Farum, Denmark",
+       "country": "DK",
+       "previous_school": "Marie Kruses Skole & Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/alberte-thuesen/4202"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Michael Butler",
+       "title": "Assistant Coach",
+       "email": "mcbutler@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/michael-butler/877"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Emma Bell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Braselton, Ga.",
+       "country": "US",
+       "previous_school": "Mill Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/emma-bell/4763"
+      },
+      {
+       "name": "Ansley Bowman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ansley-bowman/3392"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "R-So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Autumn Gabe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Walton",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/autumn-gabe/3394"
+      },
+      {
+       "name": "Kaysie Harrelson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tifton, Ga.",
+       "country": "US",
+       "previous_school": "Tift County",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/kaysie-harrelson/4764"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Natalie Petersen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holly Springs, N.C.",
+       "country": "US",
+       "previous_school": "Holly Springs",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/natalie-petersen/3398"
+      },
+      {
+       "name": "Savanah Satterfield",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chatsworth, Ga.",
+       "country": "US",
+       "previous_school": "North Murray",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/savanah-satterfield/4201"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Jenna Wylie",
+       "title": "Assistant Coach",
+       "email": "jlwylie@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/jenna-wylie/714"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ansley Bowman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail",
+       "class_raw": "Jr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ansley-bowman/3392"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Autumn Gabe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Walton",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/autumn-gabe/3394"
+      },
+      {
+       "name": "Ashlynn Joyner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lakeland, Fla.",
+       "country": "US",
+       "previous_school": "Lakeland Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ashlynn-joyner/2821"
+      },
+      {
+       "name": "Sarah Noonan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": "Vero Beach",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/sarah-noonan/4199"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Natalie Petersen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holly Springs, N.C.",
+       "country": "US",
+       "previous_school": "Holly Springs",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/natalie-petersen/3398"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Jenna Wylie",
+       "title": "Assistant Coach",
+       "email": "jlwylie@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/jenna-wylie/714"
+      },
+      {
+       "name": "Lauren Coe",
+       "title": "Graduate Assistant",
+       "email": "lc04390@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gseagles.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ansley Bowman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ansley-bowman/3392"
+      },
+      {
+       "name": "Lauren Coe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tarpon Springs, Fla.",
+       "country": "US",
+       "previous_school": "Palm Harbor University HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/lauren-coe/2284"
+      },
+      {
+       "name": "Julianna Collett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint Simons Island, Ga.",
+       "country": "US",
+       "previous_school": "Glynn Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/julianna-collett/4196"
+      },
+      {
+       "name": "Iben Hvass",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fredericia, Denmark",
+       "country": "DK",
+       "previous_school": "Western Texas",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/iben-hvass/2280"
+      },
+      {
+       "name": "Ariana Macioce",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Xavier College Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ariana-macioce/2897"
+      },
+      {
+       "name": "Ella Ofstedahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bedfordshire, England",
+       "country": "GB",
+       "previous_school": "Harlington Upper School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/ella-ofstedahl/4200"
+      },
+      {
+       "name": "Yeji Shin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norwood, N.J.",
+       "country": "US",
+       "previous_school": "Old Tappan",
+       "class_raw": "So.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/yeji-shin/2896"
+      },
+      {
+       "name": "Taylor Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Baton Rouge, La.",
+       "country": "US",
+       "previous_school": "Centenary College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/taylor-thompson/2283"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Emily Kuhfeld",
+       "title": "Women's Golf Coach",
+       "email": "ekuhfeld@georgiasouthern.edu",
+       "phone": "912-515-7524",
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/emily-kuhfeld/935"
+      },
+      {
+       "name": "Kortnie Maxoutopoulis",
+       "title": "Graduate Assistant Coach",
+       "email": "km09458@georgiasouthern.edu",
+       "phone": null,
+       "profile_url": "https://gseagles.com/sports/womens-golf/roster/coaches/kortnie-maxoutopoulis/404"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gseagles.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gseagles.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gseagles.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gseagles.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gseagles.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,36 +1,2592 @@
 {
  "slug": "oregon",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://goducks.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tim Chang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taichung City, Taiwan",
+       "country": "TW",
+       "previous_school": "IJGA Golf Academy (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tim-chang/18491"
+      },
+      {
+       "name": "Sebastian Desoisa",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gibraltar, United Kingdom",
+       "country": "GB",
+       "previous_school": "Prior Park School Gibraltar",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/sebastian-desoisa/18492"
+      },
+      {
+       "name": "Jay Gould-Healy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cork, Ireland",
+       "country": "IE",
+       "previous_school": "United World College SEA (Singapore)",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Shams Jahangir-Arshad",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Barbara, Calif.",
+       "country": "US",
+       "previous_school": "San Marcos HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Aiden Krafft",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Cibola HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/aiden-krafft/18109"
+      },
+      {
+       "name": "Jeffrey Kwak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "La Mirada, Calif.",
+       "country": "US",
+       "previous_school": "Santa Clara",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/jeffrey-kwak/18493"
+      },
+      {
+       "name": "Oscar Lent",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Surrey, England",
+       "country": "GB",
+       "previous_school": "Epsom College",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/oscar-lent/18494"
+      },
+      {
+       "name": "Casper Nerpin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Delaware",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/casper-nerpin/17794"
+      },
+      {
+       "name": "Kyreece Romero",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "California Connections Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kyreece-romero/18110"
+      },
+      {
+       "name": "Ramil Saelim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phitsanulok, Thailand",
+       "country": "TH",
+       "previous_school": "Dream City Christian School (Ariz.)",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/ramil-saelim/18495"
+      },
+      {
+       "name": "Teddy Vigna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Goleta, Calif.",
+       "country": "US",
+       "previous_school": "Dos Pueblos",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/teddy-vigna/18496"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Jeff Quinney",
+       "title": "Assistant Coach",
+       "email": "jmq@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/jeff-quinney/5588"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hugh Adams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stourbridge, England",
+       "country": "GB",
+       "previous_school": "Haybridge & The Golf College",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/hugh-adams/16867"
+      },
+      {
+       "name": "Matthew Broder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/matthew-broder/16868"
+      },
+      {
+       "name": "Daniel Bullen",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Auchterarder, Scotland",
+       "country": "GB",
+       "previous_school": "Glenalmond College",
+       "class_raw": "R-So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/daniel-bullen/16869"
+      },
+      {
+       "name": "Tim Chang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taichung City, Taiwan",
+       "country": "TW",
+       "previous_school": "IJGA Golf Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tim-chang/18491"
+      },
+      {
+       "name": "Eric Doyle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Cathedral Catholic HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/eric-doyle/16870"
+      },
+      {
+       "name": "Jay Gould-Healy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cork, Ireland",
+       "country": "IE",
+       "previous_school": "United World College SEA (Singapore)",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Gabriel Hari",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Jakarta, Indonesia",
+       "country": "ID",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gabriel-hari/16872"
+      },
+      {
+       "name": "Shams Jahangir-Arshad",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Barbara, Calif.",
+       "country": "US",
+       "previous_school": "San Marcos HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Thomas Jenkins Jr.",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Sonoma State",
+       "class_raw": "5th",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/thomas-jenkins-jr/16873"
+      },
+      {
+       "name": "Aiden Krafft",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Cibola HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/aiden-krafft/18109"
+      },
+      {
+       "name": "Jeffrey Kwak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Mirada, Calif.",
+       "country": "US",
+       "previous_school": "Santa Clara",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/jeffrey-kwak/18493"
+      },
+      {
+       "name": "Greyson Leach",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greyson-leach/16875"
+      },
+      {
+       "name": "Julian Monas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cameron Park, Calif.",
+       "country": "US",
+       "previous_school": "Clarksville Charter School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/julian-monas/16880"
+      },
+      {
+       "name": "Kyreece Romero",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "California Connections Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kyreece-romero/18110"
+      },
+      {
+       "name": "Ramil Saelim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phitsanulok, Thailand",
+       "country": "TH",
+       "previous_school": "Dream City Christian School (Ariz.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/ramil-saelim/18495"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Jeff Quinney",
+       "title": "Assistant Coach",
+       "email": "jmq@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/jeff-quinney/5588"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hugh Adams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stourbridge, England",
+       "country": "GB",
+       "previous_school": "Haybridge & The Golf College",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/hugh-adams/16867"
+      },
+      {
+       "name": "Owen Avrit",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "5th",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/owen-avrit/16234"
+      },
+      {
+       "name": "Matthew Broder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/matthew-broder/16868"
+      },
+      {
+       "name": "Daniel Bullen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Auchterarder, Scotland",
+       "country": "GB",
+       "previous_school": "Glenalmond College",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/daniel-bullen/16869"
+      },
+      {
+       "name": "Eric Doyle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Cathedral Catholic HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/eric-doyle/16870"
+      },
+      {
+       "name": "Jay Gould-Healy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cork, Ireland",
+       "country": "IE",
+       "previous_school": "United World College SEA (Singapore)",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Gabriel Hari",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Jakarta, Indonesia",
+       "country": "ID",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "R-So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gabriel-hari/16872"
+      },
+      {
+       "name": "Thomas Jenkins Jr.",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Sonoma State",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/thomas-jenkins-jr/16873"
+      },
+      {
+       "name": "Aiden Krafft",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Cibola HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/aiden-krafft/18109"
+      },
+      {
+       "name": "Greyson Leach",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greyson-leach/16875"
+      },
+      {
+       "name": "Kyreece Romero",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "California Connections Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kyreece-romero/18110"
+      },
+      {
+       "name": "Greg Solhaug",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stavern, Norway",
+       "country": "NO",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greg-solhaug/16242"
+      },
+      {
+       "name": "Nate Stember",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Lincoln HS",
+       "class_raw": "5th",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/nate-stember/16243"
+      },
+      {
+       "name": "Will Stribling",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Foothill HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/will-stribling/16244"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Jeff Quinney",
+       "title": "Assistant Coach",
+       "email": "jmq@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/jeff-quinney/5588"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Owen Avrit",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/owen-avrit/16234"
+      },
+      {
+       "name": "Daniel Bullen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auchterarder, Scotland",
+       "country": "GB",
+       "previous_school": "Glenalmond College",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/daniel-bullen/16869"
+      },
+      {
+       "name": "Eric Doyle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Cathedral Catholic HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/eric-doyle/16870"
+      },
+      {
+       "name": "Jay Gould-Healy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cork, Ireland",
+       "country": "IE",
+       "previous_school": "United World College SEA (Singapore)",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Gabriel Hari",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Jakarta, Indonesia",
+       "country": "ID",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gabriel-hari/16872"
+      },
+      {
+       "name": "Thomas Jenkins Jr.",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Sonoma State",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/thomas-jenkins-jr/16873"
+      },
+      {
+       "name": "Aiden Krafft",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Cibola HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/aiden-krafft/18109"
+      },
+      {
+       "name": "Greyson Leach",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greyson-leach/16875"
+      },
+      {
+       "name": "Gian Luca Martinez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gian-luca-martinez/15497"
+      },
+      {
+       "name": "Greg Solhaug",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stavern, Norway",
+       "country": "NO",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greg-solhaug/16242"
+      },
+      {
+       "name": "Nate Stember",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Lincoln HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/nate-stember/16243"
+      },
+      {
+       "name": "Will Stribling",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Foothill HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/will-stribling/16244"
+      },
+      {
+       "name": "Zikang Zhan",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Valencia College",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/zikang-zhan/15936"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Jeff Quinney",
+       "title": "Assistant Coach",
+       "email": "jmq@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/jeff-quinney/5588"
+      },
+      {
+       "name": "Justin Ahrens",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/justin-ahrens/4828"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Owen Avrit",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/owen-avrit/16234"
+      },
+      {
+       "name": "Eric Doyle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Cathedral Catholic HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/eric-doyle/16870"
+      },
+      {
+       "name": "Tom Gueant",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brie et Angonnes, France",
+       "country": "FR",
+       "previous_school": "Lycees Portes de I'Oisans",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-gueant/10823"
+      },
+      {
+       "name": "Gabriel Hari",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jakarta, Indonesia",
+       "country": "ID",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gabriel-hari/16872"
+      },
+      {
+       "name": "Jose Islas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pachuca, Mexico",
+       "country": "MX",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/jose-islas/10832"
+      },
+      {
+       "name": "Greyson Leach",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greyson-leach/16875"
+      },
+      {
+       "name": "Gian Luca Martinez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gian-luca-martinez/15497"
+      },
+      {
+       "name": "Yuki Moriyama",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kanagawa, Japan",
+       "country": "JP",
+       "previous_school": "American Heritage Academy (Nev.)",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/yuki-moriyama/10825"
+      },
+      {
+       "name": "Tom Parker",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "Christchurch Boys HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-parker/10826"
+      },
+      {
+       "name": "Craig Ronne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Klamath Falls, Ore.",
+       "country": "US",
+       "previous_school": "Klamath Union HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/craig-ronne/10827"
+      },
+      {
+       "name": "Padraic Sim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spanish Fort, Ala.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/padraic-sim/10828"
+      },
+      {
+       "name": "Greg Solhaug",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stavern, Norway",
+       "country": "NO",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greg-solhaug/16242"
+      },
+      {
+       "name": "Weilun Song",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harbin, China",
+       "country": "CN",
+       "previous_school": "Zhanhe Forestry Bureau HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/weilun-song/10837"
+      },
+      {
+       "name": "Nate Stember",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Lincoln HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/nate-stember/16243"
+      },
+      {
+       "name": "Will Stribling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Foothill HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/will-stribling/16244"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Jeff Quinney",
+       "title": "Assistant Coach",
+       "email": "jmq@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/jeff-quinney/5588"
+      },
+      {
+       "name": "Justin Ahrens",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/justin-ahrens/4828"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Owen Avrit",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/owen-avrit/16234"
+      },
+      {
+       "name": "Marcel Boet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "St. Andrews College",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/marcel-boet/10399"
+      },
+      {
+       "name": "Tom Gueant",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brie et Angonnes, France",
+       "country": "FR",
+       "previous_school": "Lycees Portes de I'Oisans",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-gueant/10823"
+      },
+      {
+       "name": "Edwin Kuang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/edwin-kuang/10401"
+      },
+      {
+       "name": "Gian Luca Martinez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gian-luca-martinez/15497"
+      },
+      {
+       "name": "Yuki Moriyama",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kanagawa, Japan",
+       "country": "JP",
+       "previous_school": "American Heritage Academy (Nev.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/yuki-moriyama/10825"
+      },
+      {
+       "name": "Tom Parker",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "Christchurch Boys HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-parker/10826"
+      },
+      {
+       "name": "Craig Ronne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Klamath Falls, Ore.",
+       "country": "US",
+       "previous_school": "Klamath Union HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/craig-ronne/10827"
+      },
+      {
+       "name": "Padraic Sim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spanish Fort, Ala.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/padraic-sim/10828"
+      },
+      {
+       "name": "Greg Solhaug",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stavern, Norway",
+       "country": "NO",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/greg-solhaug/16242"
+      },
+      {
+       "name": "Jake Sollon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Rider",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/jake-sollon/10411"
+      },
+      {
+       "name": "Nate Stember",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Lincoln HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/nate-stember/16243"
+      },
+      {
+       "name": "Will Stribling",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Foothill HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/will-stribling/16244"
+      },
+      {
+       "name": "Yin Ho Yue",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Shanghai American School",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/yin-ho-yue/10407"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Brad Lanning",
+       "title": "Assistant Coach",
+       "email": "bradleyl@uoregon.edu",
+       "phone": "541-743-6120",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/brad-lanning/3391"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marcel Boet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "St. Andrews College",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/marcel-boet/10399"
+      },
+      {
+       "name": "Kevin Geniza",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Crescent Valley HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kevin-geniza/9671"
+      },
+      {
+       "name": "Tom Gueant",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brie et Angonnes, France",
+       "country": "FR",
+       "previous_school": "Lycees Portes de I'Oisans",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-gueant/10823"
+      },
+      {
+       "name": "Edwin Kuang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/edwin-kuang/10401"
+      },
+      {
+       "name": "Kymer Li",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Long Beach State",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kymer-li/9674"
+      },
+      {
+       "name": "Gian Luca Martinez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/gian-luca-martinez/15497"
+      },
+      {
+       "name": "Tom Parker",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "Christchurch Boys HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-parker/10826"
+      },
+      {
+       "name": "Craig Ronne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Klamath Falls, Ore.",
+       "country": "US",
+       "previous_school": "Klamath Union HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/craig-ronne/10827"
+      },
+      {
+       "name": "Padraic Sim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spanish Fort, Ala.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/padraic-sim/10828"
+      },
+      {
+       "name": "Nate Stember",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Lincoln HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/nate-stember/16243"
+      },
+      {
+       "name": "Yin Ho Yue",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Shanghai American School",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/yin-ho-yue/10407"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Brad Lanning",
+       "title": "Assistant Coach",
+       "email": "bradleyl@uoregon.edu",
+       "phone": "541-743-6120",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/brad-lanning/3391"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marcel Boet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "St. Andrews College",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/marcel-boet/10399"
+      },
+      {
+       "name": "Sam Foust",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edina, Minn.",
+       "country": "US",
+       "previous_school": "Edina HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/sam-foust/8114"
+      },
+      {
+       "name": "Kevin Geniza",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Crescent Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kevin-geniza/9671"
+      },
+      {
+       "name": "Ryan Gronlund",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "SMU",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/ryan-gronlund/8116"
+      },
+      {
+       "name": "Tom Gueant",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brie et Angonnes, France",
+       "country": "FR",
+       "previous_school": "Lycees Portes de I'Oisans",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-gueant/10823"
+      },
+      {
+       "name": "Donald Kay",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Patrick Henry HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/donald-kay/8117"
+      },
+      {
+       "name": "Kymer Li",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Long Beach State",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kymer-li/9674"
+      },
+      {
+       "name": "Thomas Mulligan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "St. Mary's",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/thomas-mulligan/8119"
+      },
+      {
+       "name": "Tom Parker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "Christchurch Boys HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/tom-parker/10826"
+      },
+      {
+       "name": "Craig Ronne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Klamath Falls, Ore.",
+       "country": "US",
+       "previous_school": "Klamath Union HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/craig-ronne/10827"
+      },
+      {
+       "name": "Edwin Yi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beaumont, Calif.",
+       "country": "US",
+       "previous_school": "Lourus Academy HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/edwin-yi/8121"
+      },
+      {
+       "name": "Yin Ho Yue",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Shanghai American School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/yin-ho-yue/10407"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Brad Lanning",
+       "title": "Assistant Coach",
+       "email": "bradleyl@uoregon.edu",
+       "phone": "541-743-6120",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/brad-lanning/3391"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marcel Boet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Christchurch, New Zealand",
+       "country": "NZ",
+       "previous_school": "St. Andrews College",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/marcel-boet/10399"
+      },
+      {
+       "name": "Sam Foust",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edina, Minn.",
+       "country": "US",
+       "previous_school": "Edina HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/sam-foust/8114"
+      },
+      {
+       "name": "Kevin Geniza",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Crescent Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kevin-geniza/9671"
+      },
+      {
+       "name": "Ryan Gronlund",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "SMU",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/ryan-gronlund/8116"
+      },
+      {
+       "name": "Donald Kay",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Patrick Henry HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/donald-kay/8117"
+      },
+      {
+       "name": "Roberto Lebrija",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "La Jolla Country Day HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/roberto-lebrija/7534"
+      },
+      {
+       "name": "Kymer Li",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Long Beach State",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kymer-li/9674"
+      },
+      {
+       "name": "Thomas Mulligan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "St. Mary's",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/thomas-mulligan/8119"
+      },
+      {
+       "name": "Teddy Oitzman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "St. Augustine HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/teddy-oitzman/7535"
+      },
+      {
+       "name": "Norman Xiong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Temescal Canyon High School",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/norman-xiong/7536"
+      },
+      {
+       "name": "Edwin Yi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beaumont, Calif.",
+       "country": "US",
+       "previous_school": "Lourus Academy HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/edwin-yi/8121"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "Brad Lanning",
+       "title": "Assistant Coach",
+       "email": "bradleyl@uoregon.edu",
+       "phone": "541-743-6120",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/brad-lanning/3391"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goducks.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wyndham Clark",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/wyndham-clark/6065"
+      },
+      {
+       "name": "Sam Foust",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edina, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/sam-foust/8114"
+      },
+      {
+       "name": "Kevin Geniza",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/kevin-geniza/9671"
+      },
+      {
+       "name": "Ryan Gronlund",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/ryan-gronlund/8116"
+      },
+      {
+       "name": "Roberto Lebrija",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/roberto-lebrija/7534"
+      },
+      {
+       "name": "Nigel Lett",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Beaverton, Ore.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/nigel-lett/6049"
+      },
+      {
+       "name": "Thomas Lim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moorpark, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/thomas-lim/6050"
+      },
+      {
+       "name": "Teddy Oitzman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/teddy-oitzman/7535"
+      },
+      {
+       "name": "Sulman Raza",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Eugene, Ore.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/sulman-raza/6051"
+      },
+      {
+       "name": "Norman Xiong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/norman-xiong/7536"
+      },
+      {
+       "name": "Edwin Yi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beaumont, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/edwin-yi/8121"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Casey Martin",
+       "title": "Head Coach",
+       "email": "caseym@uoregon.edu",
+       "phone": "541-346-5155",
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/casey-martin/5586"
+      },
+      {
+       "name": "John Ellis",
+       "title": "Assistant Coach",
+       "email": "jellis2@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/mens-golf/roster/coaches/john-ellis/1480"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://goducks.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tong An",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shenzhen, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/tong-an/18537"
+      },
+      {
+       "name": "Darae Chung",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wellington, New Zealand",
+       "country": "NZ",
+       "previous_school": "San Jose State",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/darae-chung/18538"
+      },
+      {
+       "name": "Sophie Han",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/sophie-han/17770"
+      },
+      {
+       "name": "Annika Ishiyama",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Costa Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Houston",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/annika-ishiyama/18539"
+      },
+      {
+       "name": "Kiara Romero",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kiara-romero/17766"
+      },
+      {
+       "name": "Shyla Singh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gold Coast, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/shyla-singh/18540"
+      },
+      {
+       "name": "Yvonne Vinceri",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Idaho",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/yvonne-vinceri/17768"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tong An",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shenzhen, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/tong-an/18537"
+      },
+      {
+       "name": "Darae Chung",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wellington, New Zealand",
+       "country": "NZ",
+       "previous_school": "San Jose State",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/darae-chung/18538"
+      },
+      {
+       "name": "Ting-Hsuan Huang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taoyuan City, Taiwan",
+       "country": "TW",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Kiara Romero",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kiara-romero/17766"
+      },
+      {
+       "name": "Sonja Tang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Victoria, BC",
+       "country": "CA",
+       "previous_school": "University of British Columbia",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/sonja-tang/16934"
+      },
+      {
+       "name": "Karen Tsuru",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/karen-tsuru/16935"
+      },
+      {
+       "name": "Anika Varma",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/anika-varma/16936"
+      },
+      {
+       "name": "Yvonne Vinceri",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Idaho",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/yvonne-vinceri/17768"
+      },
+      {
+       "name": "Suvichaya Vinijchaitham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Khon Kaen, Thailand",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/suvichaya-vinijchaitham/16940"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Krissy Carman",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/krissy-carman/5247"
+      },
+      {
+       "name": "Kaleiya Romero",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/kaleiya-romero/5248"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ching-Tzu Chen",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "IMG Academy",
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Baylee Hammericksen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Medford, Ore.",
+       "country": "US",
+       "previous_school": "St. Mary's HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/baylee-hammericksen/15997"
+      },
+      {
+       "name": "Ting-Hsuan Huang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taoyuan City, Taiwan",
+       "country": "TW",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Minori Nagano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Seminole State College",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/minori-nagano/15998"
+      },
+      {
+       "name": "Ashleigh Park",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Irvine, Calif.",
+       "country": "US",
+       "previous_school": "Texas",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/ashleigh-park/15999"
+      },
+      {
+       "name": "Kiara Romero",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kiara-romero/17766"
+      },
+      {
+       "name": "Sonja Tang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Victoria, BC",
+       "country": "CA",
+       "previous_school": "University of British Columbia",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/sonja-tang/16934"
+      },
+      {
+       "name": "Karen Tsuru",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/karen-tsuru/16935"
+      },
+      {
+       "name": "Anika Varma",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/anika-varma/16936"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Krissy Carman",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/krissy-carman/5247"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Briana Chacon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/briana-chacon/12385"
+      },
+      {
+       "name": "Ching-Tzu Chen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Baylee Hammericksen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Medford, Ore.",
+       "country": "US",
+       "previous_school": "St. Mary's HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/baylee-hammericksen/15997"
+      },
+      {
+       "name": "Hsin-Yu (Cynthia) Lu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Taipei Municipal Heping HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Minori Nagano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Seminole State College",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/minori-nagano/15998"
+      },
+      {
+       "name": "Ashleigh Park",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Irvine, Calif.",
+       "country": "US",
+       "previous_school": "Texas",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/ashleigh-park/15999"
+      },
+      {
+       "name": "Brittany Shin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cape Coral, Fla.",
+       "country": "US",
+       "previous_school": "Cal State Fullerton",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/brittany-shin/12389"
+      },
+      {
+       "name": "Anika Varma",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/anika-varma/16936"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Monica Vaughn Fisher",
+       "title": "Assistant Coach",
+       "email": "mrvaughn@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/monica-vaughn-fisher/5615"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Briana Chacon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/briana-chacon/12385"
+      },
+      {
+       "name": "Ching-Tzu Chen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "IMG Academy",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Baylee Hammericksen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Medford, Ore.",
+       "country": "US",
+       "previous_school": "St. Mary's HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/baylee-hammericksen/15997"
+      },
+      {
+       "name": "Tze-Han (Heather) Lin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "Xiangshan HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Hsin-Yu (Cynthia) Lu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Taipei Municipal Heping HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Sofie Kibsgaard Nielsen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nykoebing Mors, Denmark",
+       "country": "DK",
+       "previous_school": "Herningsholm Erhvervsskole",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/sofie-kibsgaard-nielsen/10947"
+      },
+      {
+       "name": "Brittany Shin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cape Coral, Fla.",
+       "country": "US",
+       "previous_school": "Cal State Fullerton",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/brittany-shin/12389"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Monica Vaughn Fisher",
+       "title": "Assistant Coach",
+       "email": "mrvaughn@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/monica-vaughn-fisher/5615"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Briana Chacon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/briana-chacon/12385"
+      },
+      {
+       "name": "Ching-Tzu Chen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "IMG Academy",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Tze-Han (Heather) Lin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "Xiangshan HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Hsin-Yu (Cynthia) Lu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Taipei Municipal Heping HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Sofie Kibsgaard Nielsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nykoebing Mors, Denmark",
+       "country": "DK",
+       "previous_school": "Herningsholm Erhvervsskole",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/sofie-kibsgaard-nielsen/10947"
+      },
+      {
+       "name": "Alexis Phadungmartvorakul",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Taft, Calif.",
+       "country": "US",
+       "previous_school": "Ambassador Bilingual School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/alexis-phadungmartvorakul/10353"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Monica Vaughn Fisher",
+       "title": "Assistant Coach",
+       "email": "mrvaughn@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/monica-vaughn-fisher/5615"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Briana Chacon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/briana-chacon/12385"
+      },
+      {
+       "name": "Ching-Tzu Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "IMG Academy",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Tze-Han (Heather) Lin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "Xiangshan HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Amy Matsuoka",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Corona Del Mar",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/amy-matsuoka/8639"
+      },
+      {
+       "name": "Sofie Kibsgaard Nielsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nykoebing Mors, Denmark",
+       "country": "DK",
+       "previous_school": "Herningsholm Erhvervsskole",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/sofie-kibsgaard-nielsen/10947"
+      },
+      {
+       "name": "Alexis Phadungmartvorakul",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taft, Calif.",
+       "country": "US",
+       "previous_school": "Ambassador Bilingual School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/alexis-phadungmartvorakul/10353"
+      },
+      {
+       "name": "Bella Setio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "San Marino HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/bella-setio/8641"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Monica Vaughn Fisher",
+       "title": "Assistant Coach",
+       "email": "mrvaughn@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/monica-vaughn-fisher/5615"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madi Daniel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Bakersfield Christian",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/madi-daniel/8082"
+      },
+      {
+       "name": "Tze-Han (Heather) Lin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hsinchu, Taiwan",
+       "country": "TW",
+       "previous_school": "Xiangshan HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Amy Matsuoka",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Corona Del Mar",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/amy-matsuoka/8639"
+      },
+      {
+       "name": "Alexis Phadungmartvorakul",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taft, Calif.",
+       "country": "US",
+       "previous_school": "Ambassador Bilingual School",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/alexis-phadungmartvorakul/10353"
+      },
+      {
+       "name": "Petra Salko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Turku, Finland",
+       "country": "FI",
+       "previous_school": "Puolalanmaen Lukio",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/petra-salko/8085"
+      },
+      {
+       "name": "Kathleen Scavo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Benicia, Calif.",
+       "country": "US",
+       "previous_school": "Justin Siena HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kathleen-scavo/8086"
+      },
+      {
+       "name": "Bella Setio",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "San Marino HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/bella-setio/8641"
+      },
+      {
+       "name": "Simar Singh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Altos, Calif.",
+       "country": "US",
+       "previous_school": "Los Altos HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/simar-singh/8184"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Derek Radley",
+       "title": "Head Coach",
+       "email": "coachd@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/derek-radley/5614"
+      },
+      {
+       "name": "Monica Vaughn Fisher",
+       "title": "Assistant Coach",
+       "email": "mrvaughn@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/monica-vaughn-fisher/5615"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madi Daniel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Bakersfield Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/madi-daniel/8082"
+      },
+      {
+       "name": "Amy Matsuoka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Corona Del Mar",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/amy-matsuoka/8639"
+      },
+      {
+       "name": "Alexis Phadungmartvorakul",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taft, Calif.",
+       "country": "US",
+       "previous_school": "Ambassador Bilingual School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/alexis-phadungmartvorakul/10353"
+      },
+      {
+       "name": "Petra Salko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Turku, Finland",
+       "country": "FI",
+       "previous_school": "Puolalanmaen Lukio",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/petra-salko/8085"
+      },
+      {
+       "name": "Kathleen Scavo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Benicia, Calif.",
+       "country": "US",
+       "previous_school": "Justin Siena HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kathleen-scavo/8086"
+      },
+      {
+       "name": "Kelsey Ulep",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Whitney",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kelsey-ulep/7645"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ria Scott",
+       "title": "Head Coach",
+       "email": "riascott@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/ria-scott/1688"
+      },
+      {
+       "name": "Laura Cilek",
+       "title": "Associate Head Coach",
+       "email": "lcilek@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/laura-cilek/1689"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goducks.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Daniele Giles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Talent, Ore.",
+       "country": "US",
+       "previous_school": "Logos Public Charter School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/daniele-giles/6025"
+      },
+      {
+       "name": "Brooke Hamilton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": "St. Cuthbert's College",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/brooke-hamilton/6010"
+      },
+      {
+       "name": "Amy Matsuoka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Corona Del Mar",
+       "class_raw": "Fr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/amy-matsuoka/8639"
+      },
+      {
+       "name": "Brenna Murphy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Crescent Valley",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/brenna-murphy/6011"
+      },
+      {
+       "name": "Marcella Pranovia",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bali, Indonesia",
+       "country": "ID",
+       "previous_school": "Mater Dei (Santa Ana, Calif.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/marcella-pranovia/6012"
+      },
+      {
+       "name": "Petra Salko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Turku, Finland",
+       "country": "FI",
+       "previous_school": "Puolalanmaen Lukio",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/petra-salko/8085"
+      },
+      {
+       "name": "Cathleen Santoso",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "Presbyterian Ladies' College, Sydney",
+       "class_raw": "Sr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/cathleen-santoso/6014"
+      },
+      {
+       "name": "Kathleen Scavo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Benicia, Calif.",
+       "country": "US",
+       "previous_school": "Justin Siena HS",
+       "class_raw": "So.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kathleen-scavo/8086"
+      },
+      {
+       "name": "Kelsey Ulep",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Whitney",
+       "class_raw": "Jr.",
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/kelsey-ulep/7645"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ria Scott",
+       "title": "Head Coach",
+       "email": "riascott@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/ria-scott/1688"
+      },
+      {
+       "name": "Laura Cilek",
+       "title": "Assistant Coach",
+       "email": "lcilek@uoregon.edu",
+       "phone": null,
+       "profile_url": "https://goducks.com/sports/womens-golf/roster/coaches/laura-cilek/1689"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://goducks.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goducks.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://goducks.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goducks.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goducks.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

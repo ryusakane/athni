@@ -1,36 +1,2039 @@
 {
  "slug": "monmouth",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://monmouthhawks.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Bennett Brazier",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lakeshore, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Saint Annes",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/bennett-brazier/22477"
+      },
+      {
+       "name": "Alexander Dalmau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coral Gables, FL",
+       "country": "US",
+       "previous_school": "Riviera Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alexander-dalmau/22471"
+      },
+      {
+       "name": "Ethan Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jackson, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ethan-lee/22472"
+      },
+      {
+       "name": "Alex Menges",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wall Township, NJ",
+       "country": "US",
+       "previous_school": "Wall",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alex-menges/22473"
+      },
+      {
+       "name": "Patrick Scenna",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manasquan, NJ",
+       "country": "US",
+       "previous_school": "Wall Township",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-scenna/22474"
+      },
+      {
+       "name": "Luke Schaal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Invermere, British Columbia",
+       "country": "CA",
+       "previous_school": "David Thomson Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/luke-schaal/22475"
+      },
+      {
+       "name": "Patrick Sharpe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holmdel, NJ",
+       "country": "US",
+       "previous_school": "Holmdel",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-sharpe/22476"
+      },
+      {
+       "name": "Quinn Swienton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Joliet, IL",
+       "country": "US",
+       "previous_school": "Joliet Catholic Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/quinn-swienton/22478"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DeYoung",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/andrew-deyoung/8016"
+      },
+      {
+       "name": "Mark Bryson",
+       "title": "Director of Golf/Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/mark-bryson/8017"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alexander Dalmau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Coral Gables, FL",
+       "country": "US",
+       "previous_school": "Riviera Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alexander-dalmau/21896"
+      },
+      {
+       "name": "Colt Ingram",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aiken, SC",
+       "country": "US",
+       "previous_school": "Westminster Schools of Augusta",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colt-ingram/21897"
+      },
+      {
+       "name": "Ethan Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jackson, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ethan-lee/21898"
+      },
+      {
+       "name": "Colin McCullagh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Locust Valley, NY",
+       "country": "US",
+       "previous_school": "Locust Valley",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colin-mccullagh/21899"
+      },
+      {
+       "name": "Alex Menges",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wall Township, NJ",
+       "country": "US",
+       "previous_school": "Wall",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alex-menges/21900"
+      },
+      {
+       "name": "Patrick Scenna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Manasquan, NJ",
+       "country": "US",
+       "previous_school": "Wall Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-scenna/21903"
+      },
+      {
+       "name": "Luke Schaal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Invermere, British Columbia",
+       "country": "CA",
+       "previous_school": "David Thomson Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/luke-schaal/21901"
+      },
+      {
+       "name": "Patrick Sharpe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holmdel, NJ",
+       "country": "US",
+       "previous_school": "Holmdel",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-sharpe/21902"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DeYoung",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/andrew-deyoung/7908"
+      },
+      {
+       "name": "Mark Bryson",
+       "title": "Director of Golf/Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/mark-bryson/7909"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alexander Dalmau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coral Gables, FL",
+       "country": "US",
+       "previous_school": "Riviera Prep",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alexander-dalmau/20638"
+      },
+      {
+       "name": "Travis Dix",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Howell, NJ",
+       "country": "US",
+       "previous_school": "Howell",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/travis-dix/20639"
+      },
+      {
+       "name": "Colt Ingram",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aiken, SC",
+       "country": "US",
+       "previous_school": "Westminster Schools of Augusta",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colt-ingram/20640"
+      },
+      {
+       "name": "Ethan Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jackson, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ethan-lee/20641"
+      },
+      {
+       "name": "Colin McCullagh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Locust Valley, NY",
+       "country": "US",
+       "previous_school": "Locust Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colin-mccullagh/20642"
+      },
+      {
+       "name": "Alex Menges",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wall Township, NJ",
+       "country": "US",
+       "previous_school": "Wall",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alex-menges/20644"
+      },
+      {
+       "name": "Luke Schaal",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Invermere, British Columbia",
+       "country": "CA",
+       "previous_school": "David Thomson Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/luke-schaal/20643"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DeYoung",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/andrew-deyoung/7767"
+      },
+      {
+       "name": "Mark Bryson",
+       "title": "Director of Golf/Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/mark-bryson/7768"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alexander Dalmau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Coral Gables, FL",
+       "country": "US",
+       "previous_school": "Riviera Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/alexander-dalmau/16418"
+      },
+      {
+       "name": "Travis Dix",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Howell, NJ",
+       "country": "US",
+       "previous_school": "Howell",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/travis-dix/16312"
+      },
+      {
+       "name": "Colt Ingram",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aiken, SC",
+       "country": "US",
+       "previous_school": "Westminster Schools of Augusta",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colt-ingram/16313"
+      },
+      {
+       "name": "Ethan Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jackson, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ethan-lee/16419"
+      },
+      {
+       "name": "Matt McCormick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Shrewsbury, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/matt-mccormick/16314"
+      },
+      {
+       "name": "Colin McCullagh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Locust Valley, NY",
+       "country": "US",
+       "previous_school": "Locust Valley",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colin-mccullagh/16315"
+      },
+      {
+       "name": "Erik Stevens",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Annandale, NJ",
+       "country": "US",
+       "previous_school": "North Hunterdon",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/erik-stevens/16316"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bill Britton",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/bill-britton/6469"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Travis Dix",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Howell, NJ",
+       "country": "US",
+       "previous_school": "Howell",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/travis-dix/13558"
+      },
+      {
+       "name": "Colt Ingram",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aiken, SC",
+       "country": "US",
+       "previous_school": "Westminster Schools of Augusta",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colt-ingram/13564"
+      },
+      {
+       "name": "Matt McCormick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shrewsbury, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/matt-mccormick/13559"
+      },
+      {
+       "name": "Colin McCullagh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Locust Valley, NY",
+       "country": "US",
+       "previous_school": "Locust Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/colin-mccullagh/13563"
+      },
+      {
+       "name": "Ron Robinson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hatfield, PA",
+       "country": "US",
+       "previous_school": "North Penn",
+       "class_raw": "5th",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ron-robinson/13560"
+      },
+      {
+       "name": "Brendan Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sayville, NY",
+       "country": "US",
+       "previous_school": "Sayville",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/brendan-smith/13561"
+      },
+      {
+       "name": "Erik Stevens",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Annandale, NJ",
+       "country": "US",
+       "previous_school": "North Hunterdon",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/erik-stevens/13562"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bill Britton",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/bill-britton/3373"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jimmy Criscione",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paramus, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/jimmy-criscione/11027"
+      },
+      {
+       "name": "Travis Dix",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Howell, NJ",
+       "country": "US",
+       "previous_school": "Howell",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/travis-dix/11054"
+      },
+      {
+       "name": "Matt McCormick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shrewsbury, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/matt-mccormick/11028"
+      },
+      {
+       "name": "Rob McHugh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wayne, NJ",
+       "country": "US",
+       "previous_school": "Wayne Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/rob-mchugh/11029"
+      },
+      {
+       "name": "Glen-Michael Mihavetz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Montrose, CO",
+       "country": "US",
+       "previous_school": "Montrose",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/glen-michael-mihavetz/11030"
+      },
+      {
+       "name": "Ron Robinson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hatfield, PA",
+       "country": "US",
+       "previous_school": "North Penn",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ron-robinson/11031"
+      },
+      {
+       "name": "Chase Scholze",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stuart, FL",
+       "country": "US",
+       "previous_school": "Jensen Beach",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/chase-scholze/11032"
+      },
+      {
+       "name": "Brendan Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sayville, NY",
+       "country": "US",
+       "previous_school": "Sayville",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/brendan-smith/11033"
+      },
+      {
+       "name": "Erik Stevens",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Annandale, NJ",
+       "country": "US",
+       "previous_school": "North Hunterdon",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/erik-stevens/11034"
+      },
+      {
+       "name": "Chris Waldmann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Malvern, PA",
+       "country": "US",
+       "previous_school": "Archbishop Carroll",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/chris-waldmann/11055"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bill Britton",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/bill-britton/2302"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jimmy Criscione",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paramus, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/jimmy-criscione/9690"
+      },
+      {
+       "name": "Matt McCormick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shrewsbury, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/matt-mccormick/9942"
+      },
+      {
+       "name": "Rob McHugh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wayne, NJ",
+       "country": "US",
+       "previous_school": "Wayne Hills",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/rob-mchugh/9691"
+      },
+      {
+       "name": "Glen-Michael Mihavetz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Montrose, CO",
+       "country": "US",
+       "previous_school": "Montrose",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/glen-michael-mihavetz/9692"
+      },
+      {
+       "name": "Ron Robinson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hatfield, PA",
+       "country": "US",
+       "previous_school": "North Penn",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ron-robinson/9693"
+      },
+      {
+       "name": "Chase Scholze",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stuart, FL",
+       "country": "US",
+       "previous_school": "Jensen Beach",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/chase-scholze/9801"
+      },
+      {
+       "name": "Brendan Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sayville, NY",
+       "country": "US",
+       "previous_school": "Sayville",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/brendan-smith/9694"
+      },
+      {
+       "name": "Erik Stevens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Annandale, NJ",
+       "country": "US",
+       "previous_school": "North Hunterdon",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/erik-stevens/9802"
+      },
+      {
+       "name": "Andy Stock",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Danbury, CT",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/andy-stock/9695"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bill Britton",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/bill-britton/2137"
+      },
+      {
+       "name": "Dennis Shea",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/dennis-shea/2135"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jimmy Criscione",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paramus, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/jimmy-criscione/8772"
+      },
+      {
+       "name": "Drake Ferriter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ramsey, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/drake-ferriter/8773"
+      },
+      {
+       "name": "Patrick Lehrkinder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Little Silver, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-lehrkinder/8774"
+      },
+      {
+       "name": "Rob McHugh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wayne, NJ",
+       "country": "US",
+       "previous_school": "Wayne Hills",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/rob-mchugh/9113"
+      },
+      {
+       "name": "Glen-Michael Mihavetz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Montrose, CO",
+       "country": "US",
+       "previous_school": "Montrose",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/glen-michael-mihavetz/8775"
+      },
+      {
+       "name": "Ron Robinson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hatfield, PA",
+       "country": "US",
+       "previous_school": "North Penn",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ron-robinson/8776"
+      },
+      {
+       "name": "Brendan Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sayville, NY",
+       "country": "US",
+       "previous_school": "Sayville",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/brendan-smith/9112"
+      },
+      {
+       "name": "Andy Stock",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Danbury, CT",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/andy-stock/8777"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dennis Shea",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/dennis-shea/1984"
+      },
+      {
+       "name": "Mark Bryson",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/mark-bryson/1985"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kyle Burke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Sayville, NY",
+       "country": "US",
+       "previous_school": "Sayville [Sacred Heart]",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/kyle-burke/7077"
+      },
+      {
+       "name": "Jimmy Criscione",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paramus, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/jimmy-criscione/8527"
+      },
+      {
+       "name": "Drake Ferriter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ramsey, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/drake-ferriter/7078"
+      },
+      {
+       "name": "Patrick Lehrkinder",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Little Silver, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-lehrkinder/7079"
+      },
+      {
+       "name": "Chase Makowski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dallas, PA",
+       "country": "US",
+       "previous_school": "Holy Redeemer",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/chase-makowski/7081"
+      },
+      {
+       "name": "Glen-Michael Mihavetz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Montrose, CO",
+       "country": "US",
+       "previous_school": "Montrose",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/glen-michael-mihavetz/8528"
+      },
+      {
+       "name": "Ron Robinson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hatfield, PA",
+       "country": "US",
+       "previous_school": "North Penn",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/ron-robinson/8529"
+      },
+      {
+       "name": "Andy Stock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Danbury, CT",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/andy-stock/7082"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dennis Shea",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/dennis-shea/1840"
+      },
+      {
+       "name": "Mark Bryson",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/mark-bryson/1841"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://monmouthhawks.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kyle Burke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Sayville, NY",
+       "country": "US",
+       "previous_school": "Sayville [Sacred Heart]",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/kyle-burke/2789"
+      },
+      {
+       "name": "Drake Ferriter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ramsey, NJ",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/drake-ferriter/2790"
+      },
+      {
+       "name": "Jesse Hazam",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mechanicsburg, PA",
+       "country": "US",
+       "previous_school": "Mechanicsburg",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/jesse-hazam/2791"
+      },
+      {
+       "name": "Patrick Lehrkinder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Little Silver, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/patrick-lehrkinder/2792"
+      },
+      {
+       "name": "Nick Maff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bethlehem, PA",
+       "country": "US",
+       "previous_school": "Bethlehem Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/nick-maff/2793"
+      },
+      {
+       "name": "Chase Makowski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dallas, PA",
+       "country": "US",
+       "previous_school": "Holy Redeemer",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/chase-makowski/2794"
+      },
+      {
+       "name": "Andy Stock",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Danbury, CT",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/andy-stock/2795"
+      },
+      {
+       "name": "Tommy Whelan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/tommy-whelan/2796"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dennis Shea",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/dennis-shea/1308"
+      },
+      {
+       "name": "Mark Bryson",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/mens-golf/roster/coaches/mark-bryson/1309"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://monmouthhawks.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Brooke Bothwell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eden Prairie, MN",
+       "country": "US",
+       "previous_school": "Edina",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/brooke-bothwell/22411"
+      },
+      {
+       "name": "Hallie Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tunkhannock, PA",
+       "country": "US",
+       "previous_school": "Tunkhannock Area",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/hallie-brown/22469"
+      },
+      {
+       "name": "Addison Butler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nokesville, VA",
+       "country": "US",
+       "previous_school": "Brentsville",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/addison-butler/22412"
+      },
+      {
+       "name": "Alli Engart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harleysville, PA",
+       "country": "US",
+       "previous_school": "Souderton Area",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/alli-engart/22470"
+      },
+      {
+       "name": "Abigail Lynn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Furlong, PA",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/abigail-lynn/22413"
+      },
+      {
+       "name": "Delaney Nadeau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lee, NH",
+       "country": "US",
+       "previous_school": "Oyster River",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/delaney-nadeau/22414"
+      },
+      {
+       "name": "Sophia Ramirez Velandia",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Santander, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio San Pedro Claver",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/sophia-ramirez-velandia/22415"
+      },
+      {
+       "name": "Dannah Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Schenectady, NY",
+       "country": "US",
+       "previous_school": "Schalmont",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/dannah-smith/22416"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Bryson",
+       "title": "Director of Golf/Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/mark-bryson/8009"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Brooke Bothwell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eden Prairie, MN",
+       "country": "US",
+       "previous_school": "Edina",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/brooke-bothwell/21904"
+      },
+      {
+       "name": "Jess Brehm",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wall, NJ",
+       "country": "US",
+       "previous_school": "Wall Township",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/jess-brehm/21905"
+      },
+      {
+       "name": "Addison Butler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nokesville, VA",
+       "country": "US",
+       "previous_school": "Brentsville",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/addison-butler/21910"
+      },
+      {
+       "name": "Ava Lozito",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fairfield, NJ",
+       "country": "US",
+       "previous_school": "West Essex Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/ava-lozito/21906"
+      },
+      {
+       "name": "Abigail Lynn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Furlong, PA",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/abigail-lynn/21908"
+      },
+      {
+       "name": "Delaney Nadeau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lee, NH",
+       "country": "US",
+       "previous_school": "Oyster River",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/delaney-nadeau/21909"
+      },
+      {
+       "name": "Sophia Ramirez Velandia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Santander, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio San Pedro Claver",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/sophia-ramirez-velandia/21907"
+      },
+      {
+       "name": "Dannah Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Schenectady, NY",
+       "country": "US",
+       "previous_school": "Schalmont",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/dannah-smith/21911"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Bryson",
+       "title": "Director of Golf/Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/mark-bryson/7910"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Brooke Bothwell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eden Prairie, MN",
+       "country": "US",
+       "previous_school": "Edina",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/brooke-bothwell/20912"
+      },
+      {
+       "name": "Jess Brehm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wall, NJ",
+       "country": "US",
+       "previous_school": "Wall Township",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/jess-brehm/20633"
+      },
+      {
+       "name": "Mary Gersec",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "High Falls, NY",
+       "country": "US",
+       "previous_school": "Rondout Valley / Ithaca",
+       "class_raw": "Gr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mary-gersec/20911"
+      },
+      {
+       "name": "Angela Hyoju An",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Seoul, Korea",
+       "country": "KR",
+       "previous_school": "Lake Mary",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/angela-hyoju-an/20634"
+      },
+      {
+       "name": "Ava Lozito",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fairfield, NJ",
+       "country": "US",
+       "previous_school": "West Essex Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/ava-lozito/20635"
+      },
+      {
+       "name": "Liddie McCook",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Chester Springs, PA",
+       "country": "US",
+       "previous_school": "Downingtown East",
+       "class_raw": "Gr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/liddie-mccook/20636"
+      },
+      {
+       "name": "Sophia Ramirez Velandia",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Santander, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio San Pedro Claver",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/sophia-ramirez-velandia/20637"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Bryson",
+       "title": "Director of Golf/Women's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/mark-bryson/7714"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jess Brehm",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wall, NJ",
+       "country": "US",
+       "previous_school": "Wall Township",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/jess-brehm/15206"
+      },
+      {
+       "name": "Paige Diecidue",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/paige-diecidue/15207"
+      },
+      {
+       "name": "Angela Hyoju An",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seoul, Korea",
+       "country": "KR",
+       "previous_school": "Lake Mary",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/angela-hyoju-an/16427"
+      },
+      {
+       "name": "Ava Lozito",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairfield, NJ",
+       "country": "US",
+       "previous_school": "West Essex Regional",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/ava-lozito/15208"
+      },
+      {
+       "name": "Liddie McCook",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chester Springs, PA",
+       "country": "US",
+       "previous_school": "Downingtown East",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/liddie-mccook/15209"
+      },
+      {
+       "name": "Claire Orr",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mulberry, FL",
+       "country": "US",
+       "previous_school": "Mulberry",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/claire-orr/15210"
+      },
+      {
+       "name": "Sophia Ramirez Velandia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Santander, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio San Pedro Claver",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/sophia-ramirez-velandia/16426"
+      },
+      {
+       "name": "Mia Sutton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scotch Plains, NJ",
+       "country": "US",
+       "previous_school": "Wardlaw Hartridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mia-sutton/15211"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Bryson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/mark-bryson/4451"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jess Brehm",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wall, NJ",
+       "country": "US",
+       "previous_school": "Wall Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/jess-brehm/13566"
+      },
+      {
+       "name": "Paige Diecidue",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/paige-diecidue/13550"
+      },
+      {
+       "name": "Cassidy Gavaghan",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ambler, PA",
+       "country": "US",
+       "previous_school": "Hatboro-Horsham",
+       "class_raw": "5th",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/cassidy-gavaghan/13551"
+      },
+      {
+       "name": "Amanda Hart",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holmdel, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/amanda-hart/13552"
+      },
+      {
+       "name": "Ava Lozito",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairfield, NJ",
+       "country": "US",
+       "previous_school": "West Essex Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/ava-lozito/13565"
+      },
+      {
+       "name": "Mackenzie Matarese",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Keyport, NJ",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mackenzie-matarese/13553"
+      },
+      {
+       "name": "Liddie McCook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chester Springs, PA",
+       "country": "US",
+       "previous_school": "Downingtown East",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/liddie-mccook/13554"
+      },
+      {
+       "name": "Claire Orr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mulberry, FL",
+       "country": "US",
+       "previous_school": "Mulberry",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/claire-orr/13555"
+      },
+      {
+       "name": "Mia Sutton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scotch Plains, NJ",
+       "country": "US",
+       "previous_school": "Wardlaw Hartridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mia-sutton/13556"
+      },
+      {
+       "name": "Isabel Vance",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huntington, WV",
+       "country": "US",
+       "previous_school": "St. Joseph Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/isabel-vance/13557"
+      }
+     ],
+     "coaches": []
+    },
+    "2020-21": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Paige Diecidue",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/paige-diecidue/10864"
+      },
+      {
+       "name": "Cassidy Gavaghan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ambler, PA",
+       "country": "US",
+       "previous_school": "Hatboro-Horsham",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/cassidy-gavaghan/10865"
+      },
+      {
+       "name": "Amanda Hart",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holmdel, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/amanda-hart/10866"
+      },
+      {
+       "name": "Mackenzie Matarese",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Keyport, NJ",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mackenzie-matarese/10867"
+      },
+      {
+       "name": "Liddie McCook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chester Springs, PA",
+       "country": "US",
+       "previous_school": "Downingtown East",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/liddie-mccook/10868"
+      },
+      {
+       "name": "Claire Orr",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mulberry, FL",
+       "country": "US",
+       "previous_school": "Mulberry",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/claire-orr/10869"
+      },
+      {
+       "name": "Mia Sutton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scotch Plains, NJ",
+       "country": "US",
+       "previous_school": "Wardlaw Hartridge",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mia-sutton/10870"
+      },
+      {
+       "name": "Nicole Totland",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Tinton Falls, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "5th",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/nicole-totland/10871"
+      },
+      {
+       "name": "Isabel Vance",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Huntington, WV",
+       "country": "US",
+       "previous_school": "St. Joseph Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/isabel-vance/10872"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Melia",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/michelle-melia/2280"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Paige Diecidue",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/paige-diecidue/9796"
+      },
+      {
+       "name": "Cassidy Gavaghan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ambler, PA",
+       "country": "US",
+       "previous_school": "Hatboro-Horsham",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/cassidy-gavaghan/9792"
+      },
+      {
+       "name": "Amanda Hart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holmdel, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/amanda-hart/9793"
+      },
+      {
+       "name": "Mackenzie Matarese",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Keyport, NJ",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mackenzie-matarese/9794"
+      },
+      {
+       "name": "Liddie McCook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chester Springs, PA",
+       "country": "US",
+       "previous_school": "Downingtown East",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/liddie-mccook/9797"
+      },
+      {
+       "name": "Claire Orr",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mulberry, FL",
+       "country": "US",
+       "previous_school": "Mulberry",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/claire-orr/9798"
+      },
+      {
+       "name": "Mia Sutton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scotch Plains, NJ",
+       "country": "US",
+       "previous_school": "Wardlaw Hartridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mia-sutton/9799"
+      },
+      {
+       "name": "Nicole Totland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tinton Falls, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/nicole-totland/9795"
+      },
+      {
+       "name": "Isabel Vance",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huntington, WV",
+       "country": "US",
+       "previous_school": "St. Joseph Central",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/isabel-vance/9800"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Melia",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/michelle-melia/2168"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Katie Baron",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Matawan, NJ",
+       "country": "US",
+       "previous_school": "St. John Vianney",
+       "class_raw": "Gr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/katie-baron/9224"
+      },
+      {
+       "name": "Cassidy Gavaghan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ambler, PA",
+       "country": "US",
+       "previous_school": "Hatboro-Horsham",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/cassidy-gavaghan/8768"
+      },
+      {
+       "name": "Haley Goodling",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manheim, PA",
+       "country": "US",
+       "previous_school": "Manheim Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/haley-goodling/8769"
+      },
+      {
+       "name": "Amanda Hart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holmdel, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/amanda-hart/9223"
+      },
+      {
+       "name": "Mackenzie Matarese",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Keyport, NJ",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/mackenzie-matarese/9376"
+      },
+      {
+       "name": "Nicole Totland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tinton Falls, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/nicole-totland/8771"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Melia",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/michelle-melia/2041"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kaitlin Clancy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/kaitlin-clancy/7089"
+      },
+      {
+       "name": "Erin DiDonato",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hammonton, NJ",
+       "country": "US",
+       "previous_school": "Hammonton",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/erin-didonato/7090"
+      },
+      {
+       "name": "Faith Garcia",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stamford, CT",
+       "country": "US",
+       "previous_school": "Staples",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/faith-garcia/7091"
+      },
+      {
+       "name": "Cassidy Gavaghan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ambler, PA",
+       "country": "US",
+       "previous_school": "Hatboro-Horsham",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/cassidy-gavaghan/8530"
+      },
+      {
+       "name": "Haley Goodling",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manheim, PA",
+       "country": "US",
+       "previous_school": "Manheim Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/haley-goodling/7092"
+      },
+      {
+       "name": "Sarah Kokotajlo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ewing, NJ",
+       "country": "US",
+       "previous_school": "Ewing",
+       "class_raw": "Sr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/sarah-kokotajlo/7093"
+      },
+      {
+       "name": "Carla Puig Jou",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vilobi d'Onyar, Spain",
+       "country": "ES",
+       "previous_school": "Les Alzines",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/carla-puig-jou/8411"
+      },
+      {
+       "name": "Nicole Totland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tinton Falls, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/nicole-totland/7094"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Susan DeKalb",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/susan-dekalb/1876"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://monmouthhawks.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kaitlin Clancy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Smithtown, NY",
+       "country": "US",
+       "previous_school": "Smithtown West",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/kaitlin-clancy/2556"
+      },
+      {
+       "name": "Erin DiDonato",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hammonton, NJ",
+       "country": "US",
+       "previous_school": "Hammonton",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/erin-didonato/2558"
+      },
+      {
+       "name": "Faith Garcia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stamford, CT",
+       "country": "US",
+       "previous_school": "Staples",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/faith-garcia/2560"
+      },
+      {
+       "name": "Haley Goodling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manheim, PA",
+       "country": "US",
+       "previous_school": "Manheim Central",
+       "class_raw": "So.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/haley-goodling/2562"
+      },
+      {
+       "name": "Sarah Kokotajlo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ewing, NJ",
+       "country": "US",
+       "previous_school": "Ewing",
+       "class_raw": "Jr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/sarah-kokotajlo/2564"
+      },
+      {
+       "name": "Nicole Totland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tinton Falls, NJ",
+       "country": "US",
+       "previous_school": "Red Bank Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/nicole-totland/2565"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Susan DeKalb",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://monmouthhawks.com/sports/womens-golf/roster/coaches/susan-dekalb/1273"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://monmouthhawks.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://monmouthhawks.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://monmouthhawks.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://monmouthhawks.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://monmouthhawks.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

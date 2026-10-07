@@ -1,36 +1,1909 @@
 {
  "slug": "lehigh",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://lehighsports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2023-24": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jahan Bains",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Olympia, Wash.",
+       "country": "US",
+       "previous_school": "Charles Wright Academy",
+       "class_raw": "Jr.",
+       "major": "IDEAS",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/jahan-bains/18229"
+      },
+      {
+       "name": "Sam Barton",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Center Tuftonboro, N.H.",
+       "country": "US",
+       "previous_school": "Kingswood Regional",
+       "class_raw": "Gr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/sam-barton/17393"
+      },
+      {
+       "name": "Edmund Broderick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bayonne, N.J.",
+       "country": "US",
+       "previous_school": "St. Peter's Prep",
+       "class_raw": "Sr.",
+       "major": "Business Information Systems",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/edmund-broderick/17369"
+      },
+      {
+       "name": "Will Caronchi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Willow Springs, Ill.",
+       "country": "US",
+       "previous_school": "Lyons Twp.",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/will-caronchi/19670"
+      },
+      {
+       "name": "David Hurly",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Haverford School",
+       "class_raw": "Gr.",
+       "major": "Technical Entrepreneurship (BS in Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/david-hurly/17371"
+      },
+      {
+       "name": "Aiden LeBlanc",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macungie, Pa.",
+       "country": "US",
+       "previous_school": "Emmaus",
+       "class_raw": "So.",
+       "major": "Management",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/aiden-leblanc/19671"
+      },
+      {
+       "name": "Paulius Malcius",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lemont, Ill.",
+       "country": "US",
+       "previous_school": "Lemont Township",
+       "class_raw": "So.",
+       "major": "Computer Science",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/paulius-malcius/19672"
+      },
+      {
+       "name": "Aidan Oehrle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/aidan-oehrle/18233"
+      },
+      {
+       "name": "Matthew Quinn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Saint John's",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/matthew-quinn/20336"
+      },
+      {
+       "name": "Jake Roth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rockville, Md.",
+       "country": "US",
+       "previous_school": "Bullis School",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/jake-roth/19675"
+      },
+      {
+       "name": "Charles Schrohe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Riverside, Conn.",
+       "country": "US",
+       "previous_school": "Greenwich",
+       "class_raw": "Fy.",
+       "major": "Economics",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/charles-schrohe/20337"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "David Olexson",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/david-olexson/3397"
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Volunteer Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jahan Bains",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Olympia, Wash.",
+       "country": "US",
+       "previous_school": "Charles Wright Academy",
+       "class_raw": "So.",
+       "major": "IDEAS",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/jahan-bains/18229"
+      },
+      {
+       "name": "Sam Barton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Center Tuftonboro, N.H.",
+       "country": "US",
+       "previous_school": "Kingswood Regional",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/sam-barton/17393"
+      },
+      {
+       "name": "Edmund Broderick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bayonne, N.J.",
+       "country": "US",
+       "previous_school": "St. Peter's Prep",
+       "class_raw": "Jr.",
+       "major": "Business Information Systems",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/edmund-broderick/17369"
+      },
+      {
+       "name": "Will Caronchi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Willow Springs, Ill.",
+       "country": "US",
+       "previous_school": "Lyons Twp.",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/will-caronchi/19670"
+      },
+      {
+       "name": "Joseph Dotta",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Nevada State HS",
+       "class_raw": "Sr.",
+       "major": "Public Policy (BS in Journalism)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/joseph-dotta/16382"
+      },
+      {
+       "name": "David Hurly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Haverford School",
+       "class_raw": "Sr.",
+       "major": "Technical Entrepreneurship (BS in Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/david-hurly/17371"
+      },
+      {
+       "name": "Aiden LeBlanc",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macungie, Pa.",
+       "country": "US",
+       "previous_school": "Emmaus",
+       "class_raw": "Fy.",
+       "major": "Management",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/aiden-leblanc/19671"
+      },
+      {
+       "name": "Aidan Oehrle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/aidan-oehrle/18233"
+      },
+      {
+       "name": "Jake Roth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rockville, Md.",
+       "country": "US",
+       "previous_school": "Bullis School",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/jake-roth/19675"
+      },
+      {
+       "name": "Daniel Song",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Sr.",
+       "major": "Computer Science and Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/daniel-song/16385"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "David Olexson",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/david-olexson/3397"
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Volunteer Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alex Aurora",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamden, Conn.",
+       "country": "US",
+       "previous_school": "Hamden",
+       "class_raw": "Jr.",
+       "major": "Engineering",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/alex-aurora/15789"
+      },
+      {
+       "name": "Jahan Bains",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Olympia, Wash.",
+       "country": "US",
+       "previous_school": "Charles Wright Academy",
+       "class_raw": "Fy.",
+       "major": "IDEAS",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/jahan-bains/18229"
+      },
+      {
+       "name": "Sam Barton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Center Tuftonboro, N.H.",
+       "country": "US",
+       "previous_school": "Kingswood Regional",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/sam-barton/17393"
+      },
+      {
+       "name": "Edmund Broderick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bayonne, N.J.",
+       "country": "US",
+       "previous_school": "St. Peter's Prep",
+       "class_raw": "So.",
+       "major": "Business Information Systems",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/edmund-broderick/17369"
+      },
+      {
+       "name": "Joseph Dotta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Nevada State HS",
+       "class_raw": "Jr.",
+       "major": "Public Policy (BS in Journalism)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/joseph-dotta/16382"
+      },
+      {
+       "name": "David Hurly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Haverford School",
+       "class_raw": "Jr.",
+       "major": "Technical Entrepreneurship (BS in Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/david-hurly/17371"
+      },
+      {
+       "name": "Aidan Oehrle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/aidan-oehrle/18233"
+      },
+      {
+       "name": "Daniel Song",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Jr.",
+       "major": "Computer Science and Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/daniel-song/16385"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "Billy Johns",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/billy-johns/2758"
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Volunteer Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marco Arosemena",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Panama City, Panama",
+       "country": "PA",
+       "previous_school": "Academia Interamericana de Panama",
+       "class_raw": "Fy.",
+       "major": "Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/marco-arosemena/14694"
+      },
+      {
+       "name": "Sam Barton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Center Tuftonboro, N.H.",
+       "country": "US",
+       "previous_school": "Kingswood Regional",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/sam-barton/17393"
+      },
+      {
+       "name": "Edmund Broderick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bayonne, N.J.",
+       "country": "US",
+       "previous_school": "St. Peter's Prep",
+       "class_raw": "Fy.",
+       "major": "Business Information Systems",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/edmund-broderick/17369"
+      },
+      {
+       "name": "Joseph Dotta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Nevada State HS",
+       "class_raw": "So.",
+       "major": "Public Policy (BS in Journalism)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/joseph-dotta/16382"
+      },
+      {
+       "name": "AJ Gilpin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norwell, Mass.",
+       "country": "US",
+       "previous_school": "Hilton Head Prep (S.C.)",
+       "class_raw": "Fy.",
+       "major": "Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/aj-gilpin/14696"
+      },
+      {
+       "name": "David Hurly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Haverford School",
+       "class_raw": "So.",
+       "major": "Technical Entrepreneurship (BS in Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/david-hurly/17371"
+      },
+      {
+       "name": "Owen Quinn",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Wachusett Regional",
+       "class_raw": "5th",
+       "major": "Technical Entrepreneurship (BS in Accounting/Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/owen-quinn/14692"
+      },
+      {
+       "name": "Daniel Song",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "So.",
+       "major": "Computer Science and Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/daniel-song/16385"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "Billy Johns",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/billy-johns/2758"
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Volunteer Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alex Aurora",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamden, Conn.",
+       "country": "US",
+       "previous_school": "Hamden",
+       "class_raw": "Fy.",
+       "major": "Engineering",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/alex-aurora/15789"
+      },
+      {
+       "name": "Sam Barton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Center Tuftonboro, N.H.",
+       "country": "US",
+       "previous_school": "Kingswood Regional",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/sam-barton/17393"
+      },
+      {
+       "name": "Joseph Dotta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Nevada State HS",
+       "class_raw": "Fy.",
+       "major": "Public Policy (BS in Journalism)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/joseph-dotta/16382"
+      },
+      {
+       "name": "David Hurly",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Haverford School",
+       "class_raw": "Fy.",
+       "major": "Technical Entrepreneurship (BS in Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/david-hurly/17371"
+      },
+      {
+       "name": "Ryan Kelly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Annapolis, Md.",
+       "country": "US",
+       "previous_school": "Archbishop Spalding",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/ryan-kelly/14293"
+      },
+      {
+       "name": "Owen Quinn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Wachusett Regional",
+       "class_raw": "Sr.",
+       "major": "Technical Entrepreneurship (BS in Accounting/Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/owen-quinn/14692"
+      },
+      {
+       "name": "Daniel Song",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Fy.",
+       "major": "Computer Science and Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/daniel-song/16385"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "Billy Johns",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/billy-johns/2758"
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Volunteer Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lee Hammerschmidt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Armonk, N.Y.",
+       "country": "US",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/lee-hammerschmidt/13253"
+      },
+      {
+       "name": "Ryan Kelly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Annapolis, Md.",
+       "country": "US",
+       "previous_school": "Archbishop Spalding",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/ryan-kelly/14293"
+      },
+      {
+       "name": "Eamon Marone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Belvidere, N.J.",
+       "country": "US",
+       "previous_school": "Pope John XXIII Regional",
+       "class_raw": "Sr.",
+       "major": "Political Science",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/eamon-marone/13256"
+      },
+      {
+       "name": "Owen Quinn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Wachusett Regional",
+       "class_raw": "Jr.",
+       "major": "Technical Entrepreneurship (BS in Accounting/Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/owen-quinn/14692"
+      },
+      {
+       "name": "Max Redetzke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": "Lakeville South",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/max-redetzke/13259"
+      },
+      {
+       "name": "Michael Tanaka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wilmette, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Fy.",
+       "major": "Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/michael-tanaka/13260"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Anthony Cordaro",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "Fy.",
+       "major": "Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/anthony-cordaro/12470"
+      },
+      {
+       "name": "Lee Hammerschmidt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Armonk, N.Y.",
+       "country": "US",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/lee-hammerschmidt/13253"
+      },
+      {
+       "name": "Johnny Hsu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "The Walker School",
+       "class_raw": "Jr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/johnny-hsu/12463"
+      },
+      {
+       "name": "Billy Johns",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Johns Creek",
+       "class_raw": "Sr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/billy-johns/12464"
+      },
+      {
+       "name": "Ryan Kelly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Annapolis, Md.",
+       "country": "US",
+       "previous_school": "Archbishop Spalding",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/ryan-kelly/14293"
+      },
+      {
+       "name": "Eamon Marone",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Belvidere, N.J.",
+       "country": "US",
+       "previous_school": "Pope John XXIII Regional",
+       "class_raw": "Jr.",
+       "major": "Political Science",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/eamon-marone/13256"
+      },
+      {
+       "name": "Christopher Pollan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Radnor, Pa.",
+       "country": "US",
+       "previous_school": "Saint Stephens Episcopal (Fla.)",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/christopher-pollan/12467"
+      },
+      {
+       "name": "Owen Quinn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Wachusett Regional",
+       "class_raw": "So.",
+       "major": "Technical Entrepreneurship (BS in Accounting/Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/owen-quinn/14692"
+      },
+      {
+       "name": "Max Redetzke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": "Lakeville South",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/max-redetzke/13259"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://lehighsports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Joseph Ender",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Palo Verde",
+       "class_raw": "Fy.",
+       "major": "Business",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/joseph-ender/11836"
+      },
+      {
+       "name": "Lee Hammerschmidt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Armonk, N.Y.",
+       "country": "US",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/lee-hammerschmidt/13253"
+      },
+      {
+       "name": "Johnny Hsu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "The Walker School",
+       "class_raw": "So.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/johnny-hsu/12463"
+      },
+      {
+       "name": "Billy Johns",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Johns Creek",
+       "class_raw": "Jr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/billy-johns/12464"
+      },
+      {
+       "name": "Ryan Kelly",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Annapolis, Md.",
+       "country": "US",
+       "previous_school": "Archbishop Spalding",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/ryan-kelly/14293"
+      },
+      {
+       "name": "Eamon Marone",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Belvidere, N.J.",
+       "country": "US",
+       "previous_school": "Pope John XXIII Regional",
+       "class_raw": "So.",
+       "major": "Political Science",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/eamon-marone/13256"
+      },
+      {
+       "name": "Christopher Pollan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Radnor, Pa.",
+       "country": "US",
+       "previous_school": "Saint Stephens Episcopal (Fla.)",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/christopher-pollan/12467"
+      },
+      {
+       "name": "Owen Quinn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Wachusett Regional",
+       "class_raw": "Fy.",
+       "major": "Technical Entrepreneurship (BS in Accounting/Finance)",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/owen-quinn/14692"
+      },
+      {
+       "name": "Max Redetzke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": "Lakeville South",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/max-redetzke/13259"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Henry D'Alberto",
+       "title": "Head Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": "610-758-5176",
+       "profile_url": null
+      },
+      {
+       "name": "Joe Zelechoski",
+       "title": "Assistant Coach",
+       "email": "inlugolf@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/mens-golf/roster/coaches/joe-zelechoski/3044"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://lehighsports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2023-24": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Chang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Basking Ridge, N.J.",
+       "country": "US",
+       "previous_school": "Gill Saint Bernards",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophie-chang/18167"
+      },
+      {
+       "name": "Stefania Fedun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glenmoore, Pa.",
+       "country": "US",
+       "previous_school": "Owen J. Roberts",
+       "class_raw": "Fy.",
+       "major": "IDEAS",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/stefania-fedun/20364"
+      },
+      {
+       "name": "Olivia Lu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winter Garden, Fla.",
+       "country": "US",
+       "previous_school": "The First Academy",
+       "class_raw": "Fy.",
+       "major": "Architecture",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/olivia-lu/19683"
+      },
+      {
+       "name": "Madison Pineda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Carlos, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "Jr.",
+       "major": "Bioengineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/madison-pineda/18170"
+      },
+      {
+       "name": "Bella Scanapicco",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tinton Falls, N.J.",
+       "country": "US",
+       "previous_school": "Trinity Hall",
+       "class_raw": "Fy.",
+       "major": "Civil Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/bella-scanapicco/20370"
+      },
+      {
+       "name": "Venecia Zaia",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": "Vista Murrieta (UNC Asheville)",
+       "class_raw": "Sr.",
+       "major": "Earth and Environmental Science",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/venecia-zaia/17367"
+      },
+      {
+       "name": "Yuki Zhu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shanghai, China",
+       "country": "CN",
+       "previous_school": "Shanghai Pinghe School",
+       "class_raw": "So.",
+       "major": "Statistics",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/yuki-zhu/19685"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      },
+      {
+       "name": "Adam Benza",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/adam-benza/3042"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Chang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Basking Ridge, N.J.",
+       "country": "US",
+       "previous_school": "Gill Saint Bernards",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophie-chang/18167"
+      },
+      {
+       "name": "Hannah Foster",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/hannah-foster/16443"
+      },
+      {
+       "name": "Meghna Grover",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "The Atlanta International School",
+       "class_raw": "Jr.",
+       "major": "Industrial and Systems Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/meghna-grover/16444"
+      },
+      {
+       "name": "Marina Mendez Legarra",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burgos, Spain",
+       "country": "ES",
+       "previous_school": "The Hill School",
+       "class_raw": "Sr.",
+       "major": "Civil Engineering/Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/marina-mendez-legarra/16445"
+      },
+      {
+       "name": "Madison Pineda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Carlos, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "So.",
+       "major": "Bioengineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/madison-pineda/18170"
+      },
+      {
+       "name": "Iris Shin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rocky River, Ohio",
+       "country": "US",
+       "previous_school": "Rocky River",
+       "class_raw": "Sr.",
+       "major": "Molecular Biology",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/iris-shin/16447"
+      },
+      {
+       "name": "Sophia Taverna",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holmdel, N.J.",
+       "country": "US",
+       "previous_school": "Holmdel",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophia-taverna/16448"
+      },
+      {
+       "name": "Evelyn Wong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macungie, Pa.",
+       "country": "US",
+       "previous_school": "Shanghai American School - Pudong",
+       "class_raw": "Fy.",
+       "major": "Bioengineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/evelyn-wong/16449"
+      },
+      {
+       "name": "Yuki Zhu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shanghai, China",
+       "country": "CN",
+       "previous_school": "Shanghai Pinghe School",
+       "class_raw": "Fy.",
+       "major": "Statistics",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/yuki-zhu/19685"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      },
+      {
+       "name": "Adam Benza",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/adam-benza/3042"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Chang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Basking Ridge, N.J.",
+       "country": "US",
+       "previous_school": "Gill Saint Bernards",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophie-chang/18167"
+      },
+      {
+       "name": "Hannah Foster",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/hannah-foster/16443"
+      },
+      {
+       "name": "Meghna Grover",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "The Atlanta International School",
+       "class_raw": "So.",
+       "major": "Industrial and Systems Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/meghna-grover/16444"
+      },
+      {
+       "name": "Sophie Holland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "So.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophie-holland/15800"
+      },
+      {
+       "name": "Marina Mendez Legarra",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burgos, Spain",
+       "country": "ES",
+       "previous_school": "The Hill School",
+       "class_raw": "Jr.",
+       "major": "Civil Engineering/Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/marina-mendez-legarra/16445"
+      },
+      {
+       "name": "Madison Pineda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Carlos, Calif.",
+       "country": "US",
+       "previous_school": "Palo Alto",
+       "class_raw": "Fy.",
+       "major": "Bioengineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/madison-pineda/18170"
+      },
+      {
+       "name": "Mia Scarpati",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norwalk, Conn.",
+       "country": "US",
+       "previous_school": "Choate Rosemary Hall",
+       "class_raw": "Fy.",
+       "major": "Business",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/mia-scarpati/15806"
+      },
+      {
+       "name": "Iris Shin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rocky River, Ohio",
+       "country": "US",
+       "previous_school": "Rocky River",
+       "class_raw": "Jr.",
+       "major": "Molecular Biology",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/iris-shin/16447"
+      },
+      {
+       "name": "Sophia Taverna",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holmdel, N.J.",
+       "country": "US",
+       "previous_school": "Holmdel",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophia-taverna/16448"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      },
+      {
+       "name": "Adam Benza",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/adam-benza/3042"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Angela Ding",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Pacific Ridge",
+       "class_raw": "Sr.",
+       "major": "Marketing",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/angela-ding/14646"
+      },
+      {
+       "name": "Hannah Foster",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/hannah-foster/16443"
+      },
+      {
+       "name": "Meghna Grover",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "The Atlanta International School",
+       "class_raw": "Fy.",
+       "major": "Industrial and Systems Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/meghna-grover/16444"
+      },
+      {
+       "name": "Sophie Holland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "Fy.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophie-holland/15800"
+      },
+      {
+       "name": "Marina Mendez Legarra",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burgos, Spain",
+       "country": "ES",
+       "previous_school": "The Hill School",
+       "class_raw": "So.",
+       "major": "Civil Engineering/Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/marina-mendez-legarra/16445"
+      },
+      {
+       "name": "Iris Shin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rocky River, Ohio",
+       "country": "US",
+       "previous_school": "Rocky River",
+       "class_raw": "So.",
+       "major": "Molecular Biology",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/iris-shin/16447"
+      },
+      {
+       "name": "Sophia Taverna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holmdel, N.J.",
+       "country": "US",
+       "previous_school": "Holmdel",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/sophia-taverna/16448"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Angela Ding",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Pacific Ridge",
+       "class_raw": "Jr.",
+       "major": "Marketing",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/angela-ding/14646"
+      },
+      {
+       "name": "Hannah Foster",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "Fy.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/hannah-foster/16443"
+      },
+      {
+       "name": "Minuette Laessig",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Barto, Pa.",
+       "country": "US",
+       "previous_school": "Perkiomen School",
+       "class_raw": "Sr.",
+       "major": "Bioengineering and Biochemistry",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/minuette-laessig/14287"
+      },
+      {
+       "name": "Rebecca Markunas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glendale, N.Y.",
+       "country": "US",
+       "previous_school": "Archbishop Molloy",
+       "class_raw": "Sr.",
+       "major": "Finance and Accounting",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/rebecca-markunas/14288"
+      },
+      {
+       "name": "Marina Mendez Legarra",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burgos, Spain",
+       "country": "ES",
+       "previous_school": "The Hill School",
+       "class_raw": "Fy.",
+       "major": "Civil Engineering/Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/marina-mendez-legarra/16445"
+      },
+      {
+       "name": "Iris Shin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocky River, Ohio",
+       "country": "US",
+       "previous_school": "Rocky River",
+       "class_raw": "Fy.",
+       "major": "Molecular Biology",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/iris-shin/16447"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      },
+      {
+       "name": "Tricia Klein",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/tricia-klein/2512"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alexis Carras",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": "H.H. Dow",
+       "class_raw": "Fy.",
+       "major": "Arts and Sciences",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/alexis-carras/13232"
+      },
+      {
+       "name": "Angela Ding",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Pacific Ridge",
+       "class_raw": "So.",
+       "major": "Marketing",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/angela-ding/14646"
+      },
+      {
+       "name": "Reagan Jahn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "Sr.",
+       "major": "Supply Chain Management",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/reagan-jahn/13228"
+      },
+      {
+       "name": "Aileen Jeong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dublin, Calif.",
+       "country": "US",
+       "previous_school": "Dublin",
+       "class_raw": "Sr.",
+       "major": "Computer Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/aileen-jeong/13229"
+      },
+      {
+       "name": "Minuette Laessig",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barto, Pa.",
+       "country": "US",
+       "previous_school": "Perkiomen School",
+       "class_raw": "Jr.",
+       "major": "Bioengineering and Biochemistry",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/minuette-laessig/14287"
+      },
+      {
+       "name": "Rebecca Markunas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glendale, N.Y.",
+       "country": "US",
+       "previous_school": "Archbishop Molloy",
+       "class_raw": "Jr.",
+       "major": "Finance and Accounting",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/rebecca-markunas/14288"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      },
+      {
+       "name": "Billy Johns",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/billy-johns/2305"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alexis Browne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bethlehem, Pa.",
+       "country": "US",
+       "previous_school": "Carondelet (Calif.)",
+       "class_raw": "Fy.",
+       "major": "Finance and Economics",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/alexis-browne/12459"
+      },
+      {
+       "name": "Angela Ding",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Pacific Ridge",
+       "class_raw": "Fy.",
+       "major": "Marketing",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/angela-ding/14646"
+      },
+      {
+       "name": "Reagan Jahn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "Jr.",
+       "major": "Supply Chain Management",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/reagan-jahn/13228"
+      },
+      {
+       "name": "Aileen Jeong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, Calif.",
+       "country": "US",
+       "previous_school": "Dublin",
+       "class_raw": "Jr.",
+       "major": "Computer Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/aileen-jeong/13229"
+      },
+      {
+       "name": "Minuette Laessig",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barto, Pa.",
+       "country": "US",
+       "previous_school": "Perkiomen School",
+       "class_raw": "So.",
+       "major": "Bioengineering and Biochemistry",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/minuette-laessig/14287"
+      },
+      {
+       "name": "Rebecca Markunas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glendale, N.Y.",
+       "country": "US",
+       "previous_school": "Archbishop Molloy",
+       "class_raw": "So.",
+       "major": "Finance and Accounting",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/rebecca-markunas/14288"
+      },
+      {
+       "name": "Megan Moylan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North East, Pa.",
+       "country": "US",
+       "previous_school": "North East",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/megan-moylan/12458"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Head Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      },
+      {
+       "name": "Tricia Klein",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/tricia-klein/2169"
+      },
+      {
+       "name": "Karen Siegel",
+       "title": "Assistant Coach",
+       "email": "kps314@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/karen-siegel/2099"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://lehighsports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Reagan Jahn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "So.",
+       "major": "Supply Chain Management",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/reagan-jahn/13228"
+      },
+      {
+       "name": "Aileen Jeong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Calif.",
+       "country": "US",
+       "previous_school": "Dublin",
+       "class_raw": "So.",
+       "major": "Computer Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/aileen-jeong/13229"
+      },
+      {
+       "name": "Minuette Laessig",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barto, Pa.",
+       "country": "US",
+       "previous_school": "Perkiomen School",
+       "class_raw": "Fy.",
+       "major": "Bioengineering and Biochemistry",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/minuette-laessig/14287"
+      },
+      {
+       "name": "Rebecca Markunas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glendale, N.Y.",
+       "country": "US",
+       "previous_school": "Archbishop Molloy",
+       "class_raw": "Fy.",
+       "major": "Finance and Accounting",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/rebecca-markunas/14288"
+      },
+      {
+       "name": "Elizabeth McGarrigle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wernersville, Pa.",
+       "country": "US",
+       "previous_school": "Conrad Weiser",
+       "class_raw": "Sr.",
+       "major": "Industrial and Systems Engineering",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/elizabeth-mcgarrigle/11902"
+      },
+      {
+       "name": "Megan Moylan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North East, Pa.",
+       "country": "US",
+       "previous_school": "North East",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/megan-moylan/12458"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Judy Dwyer",
+       "title": "Head Coach",
+       "email": "jwd212@lehigh.edu",
+       "phone": "610-758-5220",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/judy-dwyer/1993"
+      },
+      {
+       "name": "Karen Siegel",
+       "title": "Assistant Coach",
+       "email": "kps314@lehigh.edu",
+       "phone": null,
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/karen-siegel/2099"
+      },
+      {
+       "name": "Mary Kate Lynch",
+       "title": "Assistant Coach",
+       "email": "mkw411@lehigh.edu",
+       "phone": "610-758-1890",
+       "profile_url": "https://lehighsports.com/sports/womens-golf/roster/coaches/mary-kate-lynch/3041"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://lehighsports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://lehighsports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/season/2025",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://lehighsports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://lehighsports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/season/2025",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://lehighsports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

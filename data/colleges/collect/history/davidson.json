@@ -1,22 +1,1139 @@
 {
  "slug": "davidson",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://davidsonwildcats.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Bode",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jackson-bode/11264"
+      },
+      {
+       "name": "Clayton Couey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "William & Reed Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/clayton-couey/12474"
+      },
+      {
+       "name": "Nate Faulkner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Roanoke, Va.",
+       "country": "US",
+       "previous_school": "Roanoke Valley Governors School",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/nate-faulkner/12475"
+      },
+      {
+       "name": "Owen Jessop",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westhampton Beach, N.Y.",
+       "country": "US",
+       "previous_school": "Westhampton",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/owen-jessop/12476"
+      },
+      {
+       "name": "Price Miller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Westminster School",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/price-miller/11267"
+      },
+      {
+       "name": "Benjamin Newfield",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arlington, Va.",
+       "country": "US",
+       "previous_school": "Yorktown",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/benjamin-newfield/12477"
+      },
+      {
+       "name": "Alexander Paschall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alexander-paschall/12478"
+      },
+      {
+       "name": "Davis Sayman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/davis-sayman/12479"
+      },
+      {
+       "name": "Will Tharin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rocky Mount, N.C.",
+       "country": "US",
+       "previous_school": "Rocky Mount Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-tharin/12480"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Bode",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jackson-bode/11264"
+      },
+      {
+       "name": "Clayton Couey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "William & Reed Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/clayton-couey/12474"
+      },
+      {
+       "name": "Will Davis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Wolfson",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-davis/10716"
+      },
+      {
+       "name": "Nate Faulkner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roanoke, Va.",
+       "country": "US",
+       "previous_school": "Roanoke Valley Governors School",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/nate-faulkner/12475"
+      },
+      {
+       "name": "Adam Lauer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/adam-lauer/10718"
+      },
+      {
+       "name": "Price Miller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Westminster School",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/price-miller/11267"
+      },
+      {
+       "name": "Benjamin Newfield",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Arlington, Va.",
+       "country": "US",
+       "previous_school": "Yorktown",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/benjamin-newfield/12477"
+      },
+      {
+       "name": "Davis Sayman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/davis-sayman/12479"
+      },
+      {
+       "name": "Joshua Stewart",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winter Springs, Fla.",
+       "country": "US",
+       "previous_school": "Oviedo",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/joshua-stewart/10722"
+      },
+      {
+       "name": "Will Tharin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rocky Mount, N.C.",
+       "country": "US",
+       "previous_school": "Rocky Mount Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-tharin/12480"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Bode",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jackson-bode/11264"
+      },
+      {
+       "name": "Will Davis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Wolfson",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-davis/10716"
+      },
+      {
+       "name": "Alex Heffner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Harrisburg, N.C.",
+       "country": "US",
+       "previous_school": "Hickory Ridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-heffner/9732"
+      },
+      {
+       "name": "Adam Lauer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/adam-lauer/10718"
+      },
+      {
+       "name": "Price Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Westminster School",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/price-miller/11267"
+      },
+      {
+       "name": "Benjamin Newfield",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Arlington, Va.",
+       "country": "US",
+       "previous_school": "Yorktown",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/benjamin-newfield/12477"
+      },
+      {
+       "name": "Davis Sayman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Latin",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/davis-sayman/12479"
+      },
+      {
+       "name": "Joshua Stewart",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winter Springs, Fla.",
+       "country": "US",
+       "previous_school": "Oviedo",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/joshua-stewart/10722"
+      },
+      {
+       "name": "Will Tharin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocky Mount, N.C.",
+       "country": "US",
+       "previous_school": "Rocky Mount Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-tharin/12480"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Bode",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jackson-bode/11264"
+      },
+      {
+       "name": "Will Davis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Wolfson",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-davis/10716"
+      },
+      {
+       "name": "Brian Garrett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "St. Mary's Hall",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/brian-garrett/8645"
+      },
+      {
+       "name": "Ethan Hall",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Morehead City, N.C.",
+       "country": "US",
+       "previous_school": "West Carteret",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/ethan-hall/8646"
+      },
+      {
+       "name": "Alex Heffner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Harrisburg, N.C.",
+       "country": "US",
+       "previous_school": "Hickory Ridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-heffner/9732"
+      },
+      {
+       "name": "Adam Lauer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/adam-lauer/10718"
+      },
+      {
+       "name": "Price Miller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Westminster School",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/price-miller/11267"
+      },
+      {
+       "name": "Joshua Stewart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winter Springs, Fla.",
+       "country": "US",
+       "previous_school": "Oviedo",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/joshua-stewart/10722"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      },
+      {
+       "name": "L.D. Simmons",
+       "title": "Volunteer Assistant Coach",
+       "email": "lsimmonsii@gmail.com",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Will Davis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Wolfson",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-davis/10716"
+      },
+      {
+       "name": "Viraj Garewal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/viraj-garewal/8065"
+      },
+      {
+       "name": "Brian Garrett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "St. Mary's Hall",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/brian-garrett/8645"
+      },
+      {
+       "name": "Ethan Hall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Morehead City, N.C.",
+       "country": "US",
+       "previous_school": "West Carteret",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/ethan-hall/8646"
+      },
+      {
+       "name": "Alex Heffner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Harrisburg, N.C.",
+       "country": "US",
+       "previous_school": "Hickory Ridge",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-heffner/9732"
+      },
+      {
+       "name": "Adam Lauer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/adam-lauer/10718"
+      },
+      {
+       "name": "Dean Naime",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cairo, Egypt",
+       "country": "EG",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/dean-naime/8070"
+      },
+      {
+       "name": "Clayton Tribus",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madison, Wisc.",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/clayton-tribus/8071"
+      },
+      {
+       "name": "Cole Walter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/cole-walter/8072"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      },
+      {
+       "name": "L.D. Simmons",
+       "title": "Volunteer Assistant Coach",
+       "email": "lsimmonsii@gmail.com",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Viraj Garewal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/viraj-garewal/8065"
+      },
+      {
+       "name": "Brian Garrett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "St. Mary's Hall",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/brian-garrett/8645"
+      },
+      {
+       "name": "Ethan Hall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Morehead City, N.C.",
+       "country": "US",
+       "previous_school": "West Carteret",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/ethan-hall/8646"
+      },
+      {
+       "name": "Alex Heffner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harrisburg, N.C.",
+       "country": "US",
+       "previous_school": "Hickory Ridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-heffner/9732"
+      },
+      {
+       "name": "Ben Morehead",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/ben-morehead/7502"
+      },
+      {
+       "name": "Dean Naime",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cairo, Egypt",
+       "country": "EG",
+       "previous_school": "IMG Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/dean-naime/8070"
+      },
+      {
+       "name": "Alex Ross",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-ross/7498"
+      },
+      {
+       "name": "Clayton Tribus",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madison, Wisc.",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/clayton-tribus/8071"
+      },
+      {
+       "name": "Cole Walter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/cole-walter/8072"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      },
+      {
+       "name": "L.D. Simmons",
+       "title": "Volunteer Assistant Coach",
+       "email": "lsimmonsii@gmail.com",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Michael Freeman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/michael-freeman/6940"
+      },
+      {
+       "name": "Viraj Garewal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/viraj-garewal/8065"
+      },
+      {
+       "name": "Brian Garrett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "St. Mary's Hall",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/brian-garrett/8645"
+      },
+      {
+       "name": "Ethan Hall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Morehead City, N.C.",
+       "country": "US",
+       "previous_school": "West Carteret",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/ethan-hall/8646"
+      },
+      {
+       "name": "Dean Naime",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cairo, Egypt",
+       "country": "EG",
+       "previous_school": "IMG Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/dean-naime/8070"
+      },
+      {
+       "name": "Alex Ross",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-ross/7498"
+      },
+      {
+       "name": "Will Simmons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-simmons/6943"
+      },
+      {
+       "name": "Clayton Tribus",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, Wisc.",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/clayton-tribus/8071"
+      },
+      {
+       "name": "Cole Walter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/cole-walter/8072"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mike Blasey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Landon School",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/mike-blasey/6320"
+      },
+      {
+       "name": "Kevin Carlock",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Caldwell Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/kevin-carlock/6321"
+      },
+      {
+       "name": "Hoke Carlton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/hoke-carlton/6322"
+      },
+      {
+       "name": "Michael Freeman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/michael-freeman/6940"
+      },
+      {
+       "name": "Viraj Garewal",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/viraj-garewal/8065"
+      },
+      {
+       "name": "Jack Lang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Mass.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jack-lang/6324"
+      },
+      {
+       "name": "Alex Ross",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-ross/7498"
+      },
+      {
+       "name": "Will Simmons",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-simmons/6943"
+      },
+      {
+       "name": "Clayton Tribus",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Wisc.",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/clayton-tribus/8071"
+      },
+      {
+       "name": "Cole Walter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/cole-walter/8072"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mike Blasey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Landon School",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/mike-blasey/6320"
+      },
+      {
+       "name": "Kevin Carlock",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Caldwell Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/kevin-carlock/6321"
+      },
+      {
+       "name": "Hoke Carlton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/hoke-carlton/6322"
+      },
+      {
+       "name": "Michael Freeman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/michael-freeman/6940"
+      },
+      {
+       "name": "Jack Lang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Mass.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jack-lang/6324"
+      },
+      {
+       "name": "Spencer Papciak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dunwoody, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/spencer-papciak/5987"
+      },
+      {
+       "name": "Alex Ross",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/alex-ross/7498"
+      },
+      {
+       "name": "Will Simmons",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-simmons/6943"
+      },
+      {
+       "name": "Nathan Tenpas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chevy Chase, Md.",
+       "country": "US",
+       "previous_school": "Chevy Chase",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/nathan-tenpas/5990"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mike Blasey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Landon School",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/mike-blasey/6320"
+      },
+      {
+       "name": "Kevin Carlock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Caldwell Academy",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/kevin-carlock/6321"
+      },
+      {
+       "name": "Hoke Carlton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/hoke-carlton/6322"
+      },
+      {
+       "name": "Michael Freeman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/michael-freeman/6940"
+      },
+      {
+       "name": "Jack Lang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, Mass.",
+       "country": "US",
+       "previous_school": "Lexington",
+       "class_raw": "So.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/jack-lang/6324"
+      },
+      {
+       "name": "Spencer Papciak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dunwoody, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/spencer-papciak/5987"
+      },
+      {
+       "name": "Andy Simmons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/andy-simmons/5095"
+      },
+      {
+       "name": "Will Simmons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/will-simmons/6943"
+      },
+      {
+       "name": "Nathan Tenpas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chevy Chase, Md.",
+       "country": "US",
+       "previous_school": "Chevy Chase",
+       "class_raw": "Jr.",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/nathan-tenpas/5990"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Straub",
+       "title": "Head Coach",
+       "email": "tistraub@davidson.edu",
+       "phone": "2585",
+       "profile_url": "https://davidsonwildcats.com/sports/mens-golf/roster/coaches/tim-straub/2301"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://davidsonwildcats.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://davidsonwildcats.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

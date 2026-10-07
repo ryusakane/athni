@@ -1,36 +1,2471 @@
 {
  "slug": "colorado",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://cubuffs.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Zeqian \"Michael\" Fang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shenzhen, People's Republic of China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/zeqian-michael-fang/17935"
+      },
+      {
+       "name": "Ty Holbrook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Granbury, Texas",
+       "country": "US",
+       "previous_school": "Granbury",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ty-holbrook/18415"
+      },
+      {
+       "name": "Brandon Knight",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/brandon-knight/18416"
+      },
+      {
+       "name": "Casey Kosney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roebuck, S.C.",
+       "country": "US",
+       "previous_school": "Dorman",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/casey-kosney/18417"
+      },
+      {
+       "name": "Tyler Long",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Evergreen, Colo.",
+       "country": "US",
+       "previous_school": "Evergreen",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/tyler-long/18418"
+      },
+      {
+       "name": "Parker Paxton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/parker-paxton/18419"
+      },
+      {
+       "name": "Jackson Rivera",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines/USC",
+       "class_raw": "Gr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jackson-rivera/18420"
+      },
+      {
+       "name": "Hunter Swanson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": "Northfield",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/hunter-swanson/17939"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Associate Head Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      },
+      {
+       "name": "Quinn Roche",
+       "title": "Director of Operations/Olympic Sports",
+       "email": "quinn.roche@colorado.edu",
+       "phone": "720-813-7686",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/staff/quinn-roche/374"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Justin Biwer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/justin-biwer/17389"
+      },
+      {
+       "name": "Tucker Clark",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paradise Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Arcadia/Notre Dame",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/tucker-clark/17390"
+      },
+      {
+       "name": "Freddy Eisenbeis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cologne, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Rodenkirchen",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/freddy-eisenbeis/17391"
+      },
+      {
+       "name": "Zeqian \"Michael\" Fang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shenzhen, People's Republic of China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/zeqian-michael-fang/17935"
+      },
+      {
+       "name": "Ty Holbrook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Granbury, Texas",
+       "country": "US",
+       "previous_school": "Granbury",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ty-holbrook/18415"
+      },
+      {
+       "name": "Jack Holland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hampton, Australia",
+       "country": "AU",
+       "previous_school": "Haileybury College",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-holland/17393"
+      },
+      {
+       "name": "Brandon Knight",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/brandon-knight/18416"
+      },
+      {
+       "name": "Dylan McDermott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Granite Bay, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/dylan-mcdermott/17395"
+      },
+      {
+       "name": "Parker Paxton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/parker-paxton/18419"
+      },
+      {
+       "name": "Hunter Swanson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": "Northfield",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/hunter-swanson/17939"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Associate Head Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Justin Biwer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/justin-biwer/17389"
+      },
+      {
+       "name": "Tucker Clark",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paradise Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Arcadia/Notre Dame",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/tucker-clark/17390"
+      },
+      {
+       "name": "Freddy Eisenbeis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cologne, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Rodenkirchen",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/freddy-eisenbeis/17391"
+      },
+      {
+       "name": "Wesley Erling",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Colorado Springs, Colo.",
+       "country": "US",
+       "previous_school": "Pine Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/wesley-erling/16600"
+      },
+      {
+       "name": "Ty Holbrook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Granbury, Texas",
+       "country": "US",
+       "previous_school": "Granbury",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ty-holbrook/18415"
+      },
+      {
+       "name": "Jack Holland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hampton, Australia",
+       "country": "AU",
+       "previous_school": "Haileybury College",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-holland/17393"
+      },
+      {
+       "name": "Robby Keilch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/robby-keilch/16597"
+      },
+      {
+       "name": "Brandon Knight",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/brandon-knight/18416"
+      },
+      {
+       "name": "Dylan McDermott",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Granite Bay, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/dylan-mcdermott/17395"
+      },
+      {
+       "name": "Hunter Swanson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": "Northfield",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/hunter-swanson/17939"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Assistant Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      },
+      {
+       "name": "Ashley Pauly",
+       "title": "Director of Operations/Olympic Sports",
+       "email": "ashley.pauly@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/ashley-pauly/4153"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Justin Biwer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/justin-biwer/17389"
+      },
+      {
+       "name": "Tucker Clark",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paradise Valley, Ariz.",
+       "country": "US",
+       "previous_school": "Arcadia/Notre Dame",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/tucker-clark/17390"
+      },
+      {
+       "name": "Freddy Eisenbeis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cologne, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Rodenkirchen",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/freddy-eisenbeis/17391"
+      },
+      {
+       "name": "Jack Holland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hampton, Australia",
+       "country": "AU",
+       "previous_school": "Haileybury College",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-holland/17393"
+      },
+      {
+       "name": "Jack Hughes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aspen, Colo.",
+       "country": "US",
+       "previous_school": "Aspen",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-hughes/16023"
+      },
+      {
+       "name": "Robby Keilch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/robby-keilch/16597"
+      },
+      {
+       "name": "Adam Matteson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Scripps Ranch",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/adam-matteson/16024"
+      },
+      {
+       "name": "Dylan McDermott",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Granite Bay, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/dylan-mcdermott/17395"
+      },
+      {
+       "name": "Hunter Swanson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": "Northfield",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/hunter-swanson/17939"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Assistant Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Justin Biwer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/justin-biwer/17389"
+      },
+      {
+       "name": "Freddy Eisenbeis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cologne, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Rodenkirchen",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/freddy-eisenbeis/17391"
+      },
+      {
+       "name": "Jack Holland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hampton, Australia",
+       "country": "AU",
+       "previous_school": "Haileybury College",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-holland/17393"
+      },
+      {
+       "name": "Jack Hughes",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Aspen, Colo.",
+       "country": "US",
+       "previous_school": "Aspen",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-hughes/16023"
+      },
+      {
+       "name": "Adam Matteson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Scripps Ranch",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/adam-matteson/16024"
+      },
+      {
+       "name": "Kristoffer Max",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holte, Denmark",
+       "country": "DK",
+       "previous_school": "Lyngby Business",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/kristoffer-max/15561"
+      },
+      {
+       "name": "Dylan McDermott",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Granite Bay, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/dylan-mcdermott/17395"
+      },
+      {
+       "name": "Canon Olkowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/canon-olkowski/15563"
+      },
+      {
+       "name": "John Paterson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras College",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/john-paterson/15564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Assistant Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Victor Bjorlow",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/victor-bjorlow/15131"
+      },
+      {
+       "name": "Christopher Bornhorst",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Newton, Mass.",
+       "country": "US",
+       "previous_school": "Buckingham, Brown & Nichols/Babson College",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/christopher-bornhorst/15191"
+      },
+      {
+       "name": "Jack Hughes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aspen, Colo.",
+       "country": "US",
+       "previous_school": "Aspen",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-hughes/16023"
+      },
+      {
+       "name": "Cole Krantz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Windsor, Colo.",
+       "country": "US",
+       "previous_school": "Windsor",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/cole-krantz/15133"
+      },
+      {
+       "name": "Andre Leveque",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/andre-leveque/15134"
+      },
+      {
+       "name": "Ross Macdonald",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Valor Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ross-macdonald/15135"
+      },
+      {
+       "name": "Jacob Mason",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westminster, Colo.",
+       "country": "US",
+       "previous_school": "Holy Family",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jacob-mason/15151"
+      },
+      {
+       "name": "Adam Matteson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Scripps Ranch",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/adam-matteson/16024"
+      },
+      {
+       "name": "Kristoffer Max",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holte, Denmark",
+       "country": "DK",
+       "previous_school": "Lyngby Business",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/kristoffer-max/15561"
+      },
+      {
+       "name": "Ryan Mendez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ryan-mendez/15152"
+      },
+      {
+       "name": "Daniel O'Loughlin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": "The Becket School",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Canon Olkowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/canon-olkowski/15563"
+      },
+      {
+       "name": "John Paterson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras College",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/john-paterson/15564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Assistant Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/gabbie-pelloni/3766"
+      },
+      {
+       "name": "Wilson Belk",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/wilson-belk/3589"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Victor Bjorlow",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/victor-bjorlow/15131"
+      },
+      {
+       "name": "Jack Hughes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aspen, Colo.",
+       "country": "US",
+       "previous_school": "Aspen",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jack-hughes/16023"
+      },
+      {
+       "name": "Cole Krantz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Windsor, Colo.",
+       "country": "US",
+       "previous_school": "Windsor",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/cole-krantz/15133"
+      },
+      {
+       "name": "Andre Leveque",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/andre-leveque/15134"
+      },
+      {
+       "name": "Ross Macdonald",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Valor Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ross-macdonald/15135"
+      },
+      {
+       "name": "Adam Matteson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Scripps Ranch",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/adam-matteson/16024"
+      },
+      {
+       "name": "Kristoffer Max",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holte, Denmark",
+       "country": "DK",
+       "previous_school": "Lyngby Business",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/kristoffer-max/15561"
+      },
+      {
+       "name": "Daniel O'Loughlin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": "The Becket School",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Canon Olkowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/canon-olkowski/15563"
+      },
+      {
+       "name": "John Paterson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras College",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/john-paterson/15564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Derek Tolan",
+       "title": "Assistant Coach",
+       "email": "Derek.Tolan@colorado.edu",
+       "phone": "303-523-8875",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/derek-tolan/4778"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/gabbie-pelloni/3766"
+      },
+      {
+       "name": "Wilson Belk",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/wilson-belk/3589"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wilson Belk",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Colorado Springs, Colo.",
+       "country": "US",
+       "previous_school": "Cheyenne Mountain",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/wilson-belk/12025"
+      },
+      {
+       "name": "Victor Bjorlow",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/victor-bjorlow/15131"
+      },
+      {
+       "name": "Cole Krantz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Windsor, Colo.",
+       "country": "US",
+       "previous_school": "Windsor",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/cole-krantz/15133"
+      },
+      {
+       "name": "Andre Leveque",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/andre-leveque/15134"
+      },
+      {
+       "name": "Ross Macdonald",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Valor Christian",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ross-macdonald/15135"
+      },
+      {
+       "name": "Adam Matteson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Scripps Ranch",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/adam-matteson/16024"
+      },
+      {
+       "name": "Kristoffer Max",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holte, Denmark",
+       "country": "DK",
+       "previous_school": "Lyngby Business",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/kristoffer-max/15561"
+      },
+      {
+       "name": "Daniel O'Loughlin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": "The Becket School",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Trevor Olkowski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grand Junction, Colo.",
+       "country": "US",
+       "previous_school": "Grand Junction",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/trevor-olkowski/12030"
+      },
+      {
+       "name": "John Paterson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras College",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/john-paterson/15564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Patrick Grady",
+       "title": "Assistant Coach",
+       "email": "patrick.grady@colorado.edu",
+       "phone": "303-507-3789",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/patrick-grady/3091"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/gabbie-pelloni/3766"
+      },
+      {
+       "name": "Spencer Painton",
+       "title": "Student-Assistant Coach",
+       "email": "spencer.painton@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/spencer-painton/3093"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wilson Belk",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Colorado Springs, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/wilson-belk/12025"
+      },
+      {
+       "name": "Victor Bjorlow",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/victor-bjorlow/15131"
+      },
+      {
+       "name": "Kade Crossland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buhl, Idaho",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/kade-crossland/11496"
+      },
+      {
+       "name": "Cole Krantz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Windsor, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/cole-krantz/15133"
+      },
+      {
+       "name": "Ross Macdonald",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ross-macdonald/15135"
+      },
+      {
+       "name": "Daniel O'Loughlin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Trevor Olkowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Grand Junction, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/trevor-olkowski/12030"
+      },
+      {
+       "name": "Spencer Painton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aurora, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/spencer-painton/11498"
+      },
+      {
+       "name": "Yannik Paul",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Viernheim, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/yannik-paul/11499"
+      },
+      {
+       "name": "John Souza",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/john-souza/11500"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Patrick Grady",
+       "title": "Assistant Coach",
+       "email": "patrick.grady@colorado.edu",
+       "phone": "303-507-3789",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/patrick-grady/3091"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://cubuffs.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wilson Belk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Colorado Springs, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/wilson-belk/12025"
+      },
+      {
+       "name": "Victor Bjorlow",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/victor-bjorlow/15131"
+      },
+      {
+       "name": "Kade Crossland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buhl, Idaho",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/kade-crossland/11496"
+      },
+      {
+       "name": "Ethan Freeman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ethan-freeman/11082"
+      },
+      {
+       "name": "Morten Toft Hansen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gilleleje, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/morten-toft-hansen/11087"
+      },
+      {
+       "name": "Ross Macdonald",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ross-macdonald/15135"
+      },
+      {
+       "name": "Spencer Painton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aurora, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/spencer-painton/11498"
+      },
+      {
+       "name": "Jeremy Paul",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Viernheim, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/jeremy-paul/11084"
+      },
+      {
+       "name": "Yannik Paul",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Viernheim, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/yannik-paul/11499"
+      },
+      {
+       "name": "Ryan Schmitz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenwood Village, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/ryan-schmitz/11090"
+      },
+      {
+       "name": "John Souza",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/john-souza/11500"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roy Edwards",
+       "title": "Head Coach",
+       "email": "roy.edwards@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/roy-edwards/4777"
+      },
+      {
+       "name": "Patrick Grady",
+       "title": "Assistant Coach",
+       "email": "patrick.grady@colorado.edu",
+       "phone": "303-507-3789",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/patrick-grady/3091"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/mens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://cubuffs.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Carolyn Fuller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/carolyn-fuller/18424"
+      },
+      {
+       "name": "Brenna Higgins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Centennial, Colo.",
+       "country": "US",
+       "previous_school": "Valor Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/brenna-higgins/18425"
+      },
+      {
+       "name": "Maya McVey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blue Springs, Mo.",
+       "country": "US",
+       "previous_school": "Blue Springs South/Central Missouri",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/maya-mcvey/18426"
+      },
+      {
+       "name": "Vanessa Ngo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mission Viejo, Calif.",
+       "country": "US",
+       "previous_school": "California Preparatory Academy",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/vanessa-ngo/18427"
+      },
+      {
+       "name": "Ellen O’Shaughnessy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "Mount Sackville Secondary School, Sisters of St. Joseph of Cluny",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/ellen-oshaughnessy/18428"
+      },
+      {
+       "name": "Teemapat Pateetin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkaew, Thailand",
+       "country": "TH",
+       "previous_school": "Singapore International School of Bangkok",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/teemapat-pateetin/18429"
+      },
+      {
+       "name": "Ananthi Vivek",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chennai, India",
+       "country": "IN",
+       "previous_school": "Inventure Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/ananthi-vivek/18430"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Madeleine Sheils",
+       "title": "Head Coach",
+       "email": "msheils@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/madeleine-sheils/4779"
+      },
+      {
+       "name": "Mia Landegren",
+       "title": "Assistant Coach",
+       "email": "mia.landegren@colorado.edu",
+       "phone": "720-908-7292",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/mia-landegren/4780"
+      },
+      {
+       "name": "Quinn Roche",
+       "title": "Director of Operations/Olympic Sports",
+       "email": "quinn.roche@colorado.edu",
+       "phone": "720-813-7686",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/staff/quinn-roche/374"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maria Eidhagen Harrouch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sandviken, Sweden",
+       "country": "SE",
+       "previous_school": "Vasaskolan / Pima CC (Ariz.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/maria-eidhagen-harrouch/17371"
+      },
+      {
+       "name": "Carolyn Fuller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/carolyn-fuller/18424"
+      },
+      {
+       "name": "Sydney Givens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Vandegrift",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/sydney-givens/17376"
+      },
+      {
+       "name": "Morgan Miller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/morgan-miller/17373"
+      },
+      {
+       "name": "Vanessa Ngo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mission Viejo, Calif.",
+       "country": "US",
+       "previous_school": "California Preparatory Academy",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/vanessa-ngo/18427"
+      },
+      {
+       "name": "Ellen O’Shaughnessy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "Mount Sackville Secondary School, Sisters of St. Joseph of Cluny",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/ellen-oshaughnessy/18428"
+      },
+      {
+       "name": "Francesca Sumcad",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Valley Christian",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/francesca-sumcad/17375"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Madeleine Sheils",
+       "title": "Head Coach",
+       "email": "msheils@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/madeleine-sheils/4779"
+      },
+      {
+       "name": "Mia Landegren",
+       "title": "Assistant Coach",
+       "email": "mia.landegren@colorado.edu",
+       "phone": "720-908-7292",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/mia-landegren/4780"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maria Eidhagen Harrouch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sandviken, Sweden",
+       "country": "SE",
+       "previous_school": "Vasaskolan / Pima CC (Ariz.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/maria-eidhagen-harrouch/17371"
+      },
+      {
+       "name": "Carolyn Fuller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/carolyn-fuller/18424"
+      },
+      {
+       "name": "Sabrina Iqbal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Pioneer / TCU",
+       "class_raw": "4th",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/sabrina-iqbal/16584"
+      },
+      {
+       "name": "Morgan Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/morgan-miller/17373"
+      },
+      {
+       "name": "Vanessa Ngo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mission Viejo, Calif.",
+       "country": "US",
+       "previous_school": "California Preparatory Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/vanessa-ngo/18427"
+      },
+      {
+       "name": "Hailey Schalk",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Erie, Colo.",
+       "country": "US",
+       "previous_school": "Holy Family",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/hailey-schalk/16583"
+      },
+      {
+       "name": "Francesca Sumcad",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Valley Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/francesca-sumcad/17375"
+      },
+      {
+       "name": "Lauren Waxer-Gooding",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "Jr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Madeleine Sheils",
+       "title": "Associate Head Coach",
+       "email": "msheils@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/madeleine-sheils/4779"
+      },
+      {
+       "name": "Ashley Pauly",
+       "title": "Director of Operations/Olympic Sports",
+       "email": "ashley.pauly@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/ashley-pauly/4153"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Malak Bouraeda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Carroll",
+       "class_raw": "4th",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/malak-bouraeda/15948"
+      },
+      {
+       "name": "Makenzie Cooper",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Litchfield Park, Ariz.",
+       "country": "US",
+       "previous_school": "Canyon View",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/makenzie-cooper/16092"
+      },
+      {
+       "name": "Haylin Harris",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel/Michigan State",
+       "class_raw": "4th",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/haylin-harris/16090"
+      },
+      {
+       "name": "Morgan Miller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/morgan-miller/17373"
+      },
+      {
+       "name": "Hailey Schalk",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Erie, Colo.",
+       "country": "US",
+       "previous_school": "Holy Family",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/hailey-schalk/16583"
+      },
+      {
+       "name": "Issy Simpson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "St. Margaret's Anglican Girls School",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/issy-simpson/15951"
+      },
+      {
+       "name": "Natalie Vo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "The Harker School",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/natalie-vo/15952"
+      },
+      {
+       "name": "Lauren Waxer-Gooding",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "So.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Madeleine Sheils",
+       "title": "Associate Head Coach",
+       "email": "msheils@colorado.edu",
+       "phone": null,
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/madeleine-sheils/4779"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Diane Baillieux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dongelberg, Belgium",
+       "country": "BE",
+       "previous_school": "Ecole International le Verseau/Baylor",
+       "class_raw": "4th",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/diane-baillieux/15540"
+      },
+      {
+       "name": "Malak Bouraeda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Carroll",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/malak-bouraeda/15948"
+      },
+      {
+       "name": "Ellie Gower",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Perth, Scotland",
+       "country": "GB",
+       "previous_school": "Notre Dame de Monbahus",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/ellie-gower/15534"
+      },
+      {
+       "name": "Alisha Lau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Richmond, B.C., Canada",
+       "country": "CA",
+       "previous_school": "JN Burnett Secondary",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/alisha-lau/15536"
+      },
+      {
+       "name": "Hailey Schalk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Erie, Colo.",
+       "country": "US",
+       "previous_school": "Holy Family",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/hailey-schalk/16583"
+      },
+      {
+       "name": "Issy Simpson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "St. Margaret's Anglican Girls School",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/issy-simpson/15951"
+      },
+      {
+       "name": "Natalie Vo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "The Harker School",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/natalie-vo/15952"
+      },
+      {
+       "name": "Lauren Waxer-Gooding",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "R-Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Brent Franklin",
+       "title": "Associate Head Coach",
+       "email": "brent.franklin@colorado.edu",
+       "phone": "303-735-0004",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/brent-franklin/3774"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Malak Bouraeda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Carroll",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/malak-bouraeda/15948"
+      },
+      {
+       "name": "Ellie Gower",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Perth, Scotland",
+       "country": "GB",
+       "previous_school": "Notre Dame de Monbahus",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/ellie-gower/15534"
+      },
+      {
+       "name": "Kirsty Hodgkins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Redcliffe State",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kirsty-hodgkins/14943"
+      },
+      {
+       "name": "Sophie Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Telford, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/sophie-johnson/14944"
+      },
+      {
+       "name": "Alisha Lau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, B.C., Canada",
+       "country": "CA",
+       "previous_school": "JN Burnett Secondary",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/alisha-lau/15536"
+      },
+      {
+       "name": "Elle Otten",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Palm Desert, Calif.",
+       "country": "US",
+       "previous_school": "Xavier College Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/elle-otten/14946"
+      },
+      {
+       "name": "Hailey Schalk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Erie, Colo.",
+       "country": "US",
+       "previous_school": "Holy Family",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/hailey-schalk/16583"
+      },
+      {
+       "name": "Issy Simpson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "St. Margaret's Anglican Girls School",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/issy-simpson/15951"
+      },
+      {
+       "name": "Lauren Waxer-Gooding",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kelsey Webster",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Boulder, Colo.",
+       "country": "US",
+       "previous_school": "Fairview",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kelsey-webster/14948"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Brent Franklin",
+       "title": "Associate Head Coach",
+       "email": "brent.franklin@colorado.edu",
+       "phone": "303-735-0004",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/brent-franklin/3774"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Malak Bouraeda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Carroll",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/malak-bouraeda/15948"
+      },
+      {
+       "name": "Ellie Gower",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Perth, Scotland",
+       "country": "GB",
+       "previous_school": "Notre Dame de Monbahus",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/ellie-gower/15534"
+      },
+      {
+       "name": "Kirsty Hodgkins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Redcliffe State",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kirsty-hodgkins/14943"
+      },
+      {
+       "name": "Sophie Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Telford, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/sophie-johnson/14944"
+      },
+      {
+       "name": "Alisha Lau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, B.C., Canada",
+       "country": "CA",
+       "previous_school": "JN Burnett Secondary",
+       "class_raw": "1st",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/alisha-lau/15536"
+      },
+      {
+       "name": "Elle Otten",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Palm Desert, Calif.",
+       "country": "US",
+       "previous_school": "Xavier College Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/elle-otten/14946"
+      },
+      {
+       "name": "Issy Simpson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "St. Margaret's Anglican Girls School",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/issy-simpson/15951"
+      },
+      {
+       "name": "Kelsey Webster",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boulder, Colo.",
+       "country": "US",
+       "previous_school": "Fairview",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kelsey-webster/14948"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Brent Franklin",
+       "title": "Associate Head Coach",
+       "email": "brent.franklin@colorado.edu",
+       "phone": "303-735-0004",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/brent-franklin/3774"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Malak Bouraeda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Carroll",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/malak-bouraeda/15948"
+      },
+      {
+       "name": "Kirsty Hodgkins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Redcliffe State",
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kirsty-hodgkins/14943"
+      },
+      {
+       "name": "Alisha Lau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, B.C., Canada",
+       "country": "CA",
+       "previous_school": "JN Burnett Secondary",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/alisha-lau/15536"
+      },
+      {
+       "name": "Jaclyn Murray",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aurora, Colo.",
+       "country": "US",
+       "previous_school": "Regis",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/jaclyn-murray/12043"
+      },
+      {
+       "name": "Haley Nist",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Meridian, Idaho",
+       "country": "US",
+       "previous_school": "Bishop Kelly",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/haley-nist/12047"
+      },
+      {
+       "name": "Elle Otten",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palm Desert, Calif.",
+       "country": "US",
+       "previous_school": "Xavier College Prep",
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/elle-otten/14946"
+      },
+      {
+       "name": "Gillian Vance",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lakewood, Colo.",
+       "country": "US",
+       "previous_school": "Dakota Ridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/gillian-vance/12045"
+      },
+      {
+       "name": "Kelsey Webster",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boulder, Colo.",
+       "country": "US",
+       "previous_school": "Fairview",
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kelsey-webster/14948"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Brent Franklin",
+       "title": "Assistant Coach",
+       "email": "brent.franklin@colorado.edu",
+       "phone": "303-735-0004",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/brent-franklin/3774"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Robyn Choi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gold Coast, Queensland, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/robyn-choi/11504"
+      },
+      {
+       "name": "Brittany Fan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pearl City, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/brittany-fan/11505"
+      },
+      {
+       "name": "Kirsty Hodgkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kirsty-hodgkins/14943"
+      },
+      {
+       "name": "Lauryn Keating",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elma, Wash.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/lauryn-keating/11508"
+      },
+      {
+       "name": "Alisha Lau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, B.C., Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/alisha-lau/15536"
+      },
+      {
+       "name": "Jaclyn Murray",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aurora, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/jaclyn-murray/12043"
+      },
+      {
+       "name": "Elle Otten",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palm Desert, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/elle-otten/14946"
+      },
+      {
+       "name": "Gillian Vance",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lakewood, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/gillian-vance/12045"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Brent Franklin",
+       "title": "Assistant Coach",
+       "email": "brent.franklin@colorado.edu",
+       "phone": "303-735-0004",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/brent-franklin/3774"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://cubuffs.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Robyn Choi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gold Coast, Queensland, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/robyn-choi/11504"
+      },
+      {
+       "name": "Brittany Fan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pearl City, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/brittany-fan/11505"
+      },
+      {
+       "name": "Tori Glenn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Pines, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "2nd",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/tori-glenn/10912"
+      },
+      {
+       "name": "Kirsty Hodgkins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/kirsty-hodgkins/14943"
+      },
+      {
+       "name": "Lauryn Keating",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elma, Wash.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/lauryn-keating/11508"
+      },
+      {
+       "name": "Esther Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Los Alamitos, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/esther-lee/10914"
+      },
+      {
+       "name": "Gillian Vance",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lakewood, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/gillian-vance/12045"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Anne Kelly",
+       "title": "Head Coach",
+       "email": "anne.kelly@colorado.edu",
+       "phone": "303-492-4455",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/anne-kelly/4151"
+      },
+      {
+       "name": "Brent Franklin",
+       "title": "Assistant Coach",
+       "email": "brent.franklin@colorado.edu",
+       "phone": "303-735-0004",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/brent-franklin/3774"
+      },
+      {
+       "name": "Gabbie Pelloni",
+       "title": "Director of Operations",
+       "email": "gabbie.pelloni@colorado.edu",
+       "phone": "303-492-6141",
+       "profile_url": "https://cubuffs.com/sports/womens-golf/roster/coaches/gabbie-pelloni/3766"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://cubuffs.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://cubuffs.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://cubuffs.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://cubuffs.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://cubuffs.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,36 +1,2272 @@
 {
  "slug": "bucknell",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://bucknellbison.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Henry Bolster",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Summit, N.J.",
+       "country": "US",
+       "previous_school": "Oratory Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/henry-bolster/14292"
+      },
+      {
+       "name": "Lyman Brackett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Goshen, Ky.",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/lyman-brackett/12882"
+      },
+      {
+       "name": "Jaxon Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lakewood Ranch, Fla.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jaxon-brown/14293"
+      },
+      {
+       "name": "Hunter Duncan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dunbarton, N.H.",
+       "country": "US",
+       "previous_school": "Taft School (Conn.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/hunter-duncan/14294"
+      },
+      {
+       "name": "Jack Hartman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bethesda, Md.",
+       "country": "US",
+       "previous_school": "Gonzaga College HS (D.C.)",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-hartman/14295"
+      },
+      {
+       "name": "James Key",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "The Benjamin School",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-key/12884"
+      },
+      {
+       "name": "Taylor Kuehn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/taylor-kuehn/14296"
+      },
+      {
+       "name": "Patrick Pritsios",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alexandria, Va.",
+       "country": "US",
+       "previous_school": "Gonzaga College HS (D.C.)",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/patrick-pritsios/14297"
+      },
+      {
+       "name": "Hayden Quinn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leesburg, Va.",
+       "country": "US",
+       "previous_school": "Riverside",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/hayden-quinn/12886"
+      },
+      {
+       "name": "James Robbins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Andover, Mass.",
+       "country": "US",
+       "previous_school": "North Andover",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-robbins/12887"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lyman Brackett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Goshen, Ky.",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/lyman-brackett/12882"
+      },
+      {
+       "name": "Jack Hartman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bethesda, Md.",
+       "country": "US",
+       "previous_school": "Gonzaga College HS (D.C.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-hartman/14295"
+      },
+      {
+       "name": "James Key",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "The Benjamin School",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-key/12884"
+      },
+      {
+       "name": "Jake Maddaloni",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jake-maddaloni/10594"
+      },
+      {
+       "name": "Patrick Pritsios",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alexandria, Va.",
+       "country": "US",
+       "previous_school": "Gonzaga College HS (D.C.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/patrick-pritsios/14297"
+      },
+      {
+       "name": "Hayden Quinn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Leesburg, Va.",
+       "country": "US",
+       "previous_school": "Riverside",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/hayden-quinn/12886"
+      },
+      {
+       "name": "James Robbins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Andover, Mass.",
+       "country": "US",
+       "previous_school": "North Andover",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-robbins/12887"
+      },
+      {
+       "name": "Michael Rudnick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/michael-rudnick/10597"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Barraza",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Parkland, Fla.",
+       "country": "US",
+       "previous_school": "Marjory Stoneman Douglas",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/andres-barraza/9594"
+      },
+      {
+       "name": "Lyman Brackett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Goshen, Ky.",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/lyman-brackett/12882"
+      },
+      {
+       "name": "Alex Creamean",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/alex-creamean/9602"
+      },
+      {
+       "name": "James Key",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "The Benjamin School",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-key/12884"
+      },
+      {
+       "name": "Jake Maddaloni",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jake-maddaloni/10594"
+      },
+      {
+       "name": "Hayden Quinn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Leesburg, Va.",
+       "country": "US",
+       "previous_school": "Riverside",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/hayden-quinn/12886"
+      },
+      {
+       "name": "James Robbins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Andover, Mass.",
+       "country": "US",
+       "previous_school": "North Andover",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-robbins/12887"
+      },
+      {
+       "name": "Michael Rudnick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/michael-rudnick/10597"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Barraza",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Parkland, Fla.",
+       "country": "US",
+       "previous_school": "Marjory Stoneman Douglas",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/andres-barraza/9594"
+      },
+      {
+       "name": "Jackson Bussell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lincolnshire, Ill.",
+       "country": "US",
+       "previous_school": "Adlai E. Stevenson",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jackson-bussell/8962"
+      },
+      {
+       "name": "Jack Gardner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-gardner/8963"
+      },
+      {
+       "name": "Josh Holtschlag",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn.",
+       "country": "US",
+       "previous_school": "Franklin Road Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/josh-holtschlag/8964"
+      },
+      {
+       "name": "James Key",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "The Benjamin School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-key/12884"
+      },
+      {
+       "name": "Jake Maddaloni",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jake-maddaloni/10594"
+      },
+      {
+       "name": "Max Orwicz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Canaan, Conn.",
+       "country": "US",
+       "previous_school": "New Canaan",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/max-orwicz/8966"
+      },
+      {
+       "name": "James Robbins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Andover, Mass.",
+       "country": "US",
+       "previous_school": "North Andover",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/james-robbins/12887"
+      },
+      {
+       "name": "Michael Rudnick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/michael-rudnick/10597"
+      },
+      {
+       "name": "Blake Wisdom",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Geneva, Wis.",
+       "country": "US",
+       "previous_school": "Badger",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/blake-wisdom/8968"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "John Bradbeer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rosemont, Pa.",
+       "country": "US",
+       "previous_school": "Harriton",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/john-bradbeer/8237"
+      },
+      {
+       "name": "Jackson Bussell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lincolnshire, Ill.",
+       "country": "US",
+       "previous_school": "Adlai E. Stevenson",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jackson-bussell/8962"
+      },
+      {
+       "name": "Dylan Ford",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Homewood, Ala.",
+       "country": "US",
+       "previous_school": "Homewood",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/dylan-ford/8229"
+      },
+      {
+       "name": "Jack Gardner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-gardner/8963"
+      },
+      {
+       "name": "Josh Holtschlag",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn.",
+       "country": "US",
+       "previous_school": "Franklin Road Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/josh-holtschlag/8964"
+      },
+      {
+       "name": "Jason Lohwater",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rochester, N.Y.",
+       "country": "US",
+       "previous_school": "Brighton",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jason-lohwater/8232"
+      },
+      {
+       "name": "Jake Maddaloni",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "The Haverford School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jake-maddaloni/10594"
+      },
+      {
+       "name": "Max Orwicz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Canaan, Conn.",
+       "country": "US",
+       "previous_school": "New Canaan",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/max-orwicz/8966"
+      },
+      {
+       "name": "Michael Rudnick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/michael-rudnick/10597"
+      },
+      {
+       "name": "Blake Wisdom",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Geneva, Wis.",
+       "country": "US",
+       "previous_school": "Badger",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/blake-wisdom/8968"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Bussell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lincolnshire, Ill.",
+       "country": "US",
+       "previous_school": "Adlai E. Stevenson",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jackson-bussell/8962"
+      },
+      {
+       "name": "Dylan Ford",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Homewood, Ala.",
+       "country": "US",
+       "previous_school": "Homewood",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/dylan-ford/8229"
+      },
+      {
+       "name": "Jack Gardner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-gardner/8963"
+      },
+      {
+       "name": "Josh Holtschlag",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn.",
+       "country": "US",
+       "previous_school": "Franklin Road Academy",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/josh-holtschlag/8964"
+      },
+      {
+       "name": "Jason Lohwater",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rochester, N.Y.",
+       "country": "US",
+       "previous_school": "Brighton",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jason-lohwater/8232"
+      },
+      {
+       "name": "Max Orwicz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Canaan, Conn.",
+       "country": "US",
+       "previous_school": "New Canaan",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/max-orwicz/8966"
+      },
+      {
+       "name": "Chris Tanabe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Quaker Valley",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/chris-tanabe/6841"
+      },
+      {
+       "name": "Blake Wisdom",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Geneva, Wis.",
+       "country": "US",
+       "previous_school": "Badger",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/blake-wisdom/8968"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Peter Bradbeer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rosemont, Pa.",
+       "country": "US",
+       "previous_school": "Friends Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/peter-bradbeer/6039"
+      },
+      {
+       "name": "Jackson Bussell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lincolnshire, Ill.",
+       "country": "US",
+       "previous_school": "Adlai E. Stevenson",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jackson-bussell/8962"
+      },
+      {
+       "name": "Dylan Ford",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Homewood, Ala.",
+       "country": "US",
+       "previous_school": "Homewood",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/dylan-ford/8229"
+      },
+      {
+       "name": "Jack Gardner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-gardner/8963"
+      },
+      {
+       "name": "Josh Holtschlag",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn.",
+       "country": "US",
+       "previous_school": "Franklin Road Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/josh-holtschlag/8964"
+      },
+      {
+       "name": "Jason Lohwater",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rochester, N.Y.",
+       "country": "US",
+       "previous_school": "Brighton",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jason-lohwater/8232"
+      },
+      {
+       "name": "Chris Tanabe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Quaker Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/chris-tanabe/6841"
+      },
+      {
+       "name": "Blake Wisdom",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Geneva, Wis.",
+       "country": "US",
+       "previous_school": "Badger",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/blake-wisdom/8968"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Peter Bradbeer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rosemont, Pa.",
+       "country": "US",
+       "previous_school": "Friends Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/peter-bradbeer/6039"
+      },
+      {
+       "name": "Carter Cook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "Community School of Davidson",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/carter-cook/4643"
+      },
+      {
+       "name": "Jubal Early",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Country Day",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jubal-early/4638"
+      },
+      {
+       "name": "Dylan Ford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Homewood, Ala.",
+       "country": "US",
+       "previous_school": "Homewood",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/dylan-ford/8229"
+      },
+      {
+       "name": "John Kalavritinos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Landon School",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/john-kalavritinos/5010"
+      },
+      {
+       "name": "Jason Lohwater",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rochester, N.Y.",
+       "country": "US",
+       "previous_school": "Brighton",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jason-lohwater/8232"
+      },
+      {
+       "name": "Connor O'Brien",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rowayton, Conn.",
+       "country": "US",
+       "previous_school": "Brien McMahon",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ashton Radvansky",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Houston, Texas",
+       "country": "US",
+       "previous_school": "Strake Jesuit",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/ashton-radvansky/4640"
+      },
+      {
+       "name": "J.P. Raftery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "Taft School",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Chris Tanabe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Quaker Valley",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/chris-tanabe/6841"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Peter Bradbeer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rosemont, Pa.",
+       "country": "US",
+       "previous_school": "Friends Central",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/peter-bradbeer/6039"
+      },
+      {
+       "name": "Jubal Early",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Country Day",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jubal-early/4638"
+      },
+      {
+       "name": "Jack Gregor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Wales, Pa.",
+       "country": "US",
+       "previous_school": "La Salle",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-gregor/970"
+      },
+      {
+       "name": "John Kalavritinos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Landon School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/john-kalavritinos/5010"
+      },
+      {
+       "name": "Connor O'Brien",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rowayton, Conn.",
+       "country": "US",
+       "previous_school": "Brien McMahon",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ashton Radvansky",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Houston, Texas",
+       "country": "US",
+       "previous_school": "Strake Jesuit",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/ashton-radvansky/4640"
+      },
+      {
+       "name": "J.P. Raftery",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "Taft School",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Chris Tanabe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Quaker Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/chris-tanabe/6841"
+      },
+      {
+       "name": "J.B. Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "Jupiter",
+       "class_raw": "Sr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://bucknellbison.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Peter Bradbeer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rosemont, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/peter-bradbeer/6039"
+      },
+      {
+       "name": "Jubal Early",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jubal-early/4638"
+      },
+      {
+       "name": "John Edler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fair Haven, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/john-edler/723"
+      },
+      {
+       "name": "Jack Gregor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Wales, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/jack-gregor/970"
+      },
+      {
+       "name": "D.J. Magee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Zachary Melnick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blue Bell, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/zachary-melnick/726"
+      },
+      {
+       "name": "Connor O'Brien",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rowayton, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Ashton Radvansky",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Houston, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/ashton-radvansky/4640"
+      },
+      {
+       "name": "J.P. Raftery",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenwich, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "J.B. Thompson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "C.J. Zachary",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hummelstown, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Binney",
+       "title": "Head Coach",
+       "email": "mwb013@bucknell.edu",
+       "phone": "570-577-3075",
+       "profile_url": "https://bucknellbison.com/sports/mens-golf/roster/coaches/michael-binney/1995"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://bucknellbison.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophia Bardunias",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Monte Vista",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sophia-bardunias/14166"
+      },
+      {
+       "name": "Erin Drahnak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glenshaw, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-drahnak/12893"
+      },
+      {
+       "name": "Joelle Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bowie, Md.",
+       "country": "US",
+       "previous_school": "Indian Creek School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/joelle-johnson/14167"
+      },
+      {
+       "name": "Paige Richter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Camp Hill, Pa.",
+       "country": "US",
+       "previous_school": "Camp Hill",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/paige-richter/12894"
+      },
+      {
+       "name": "Lila Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Saint David's School",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/lila-smith/14168"
+      },
+      {
+       "name": "Katherine Vice",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glen Head, N.Y.",
+       "country": "US",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katherine-vice/14169"
+      },
+      {
+       "name": "Katrina von Behren",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eagle, Idaho",
+       "country": "US",
+       "previous_school": "The Ambrose School",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katrina-von-behren/14170"
+      },
+      {
+       "name": "Darcy Wright",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "The Woodlands, Texas",
+       "country": "US",
+       "previous_school": "John Cooper School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/darcy-wright/14171"
+      },
+      {
+       "name": "Nicole Yun",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Limerick, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/nicole-yun/14172"
+      },
+      {
+       "name": "Caroline Zeiger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/caroline-zeiger/14173"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Laura Tyler-Cook",
+       "title": "Head Coach",
+       "email": "ltc006@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": null
+      },
+      {
+       "name": "Ben Cook",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophia Bardunias",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Monte Vista",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sophia-bardunias/14166"
+      },
+      {
+       "name": "Erin Drahnak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glenshaw, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-drahnak/12893"
+      },
+      {
+       "name": "Paige Richter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Camp Hill, Pa.",
+       "country": "US",
+       "previous_school": "Camp Hill",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/paige-richter/12894"
+      },
+      {
+       "name": "Lila Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Saint David's School",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/lila-smith/14168"
+      },
+      {
+       "name": "Tara Thomas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Villa Maria Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tara-thomas/10570"
+      },
+      {
+       "name": "Katherine Vice",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glen Head, N.Y.",
+       "country": "US",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katherine-vice/14169"
+      },
+      {
+       "name": "Katrina von Behren",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eagle, Idaho",
+       "country": "US",
+       "previous_school": "The Ambrose School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katrina-von-behren/14170"
+      },
+      {
+       "name": "Nicole Yun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Limerick, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/nicole-yun/14172"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Laura Tyler-Cook",
+       "title": "Head Coach",
+       "email": "ltc006@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": null
+      },
+      {
+       "name": "Ben Cook",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cristina Canales",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bilbao, Spain",
+       "country": "ES",
+       "previous_school": "American School of Bilbao",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/cristina-canales/9609"
+      },
+      {
+       "name": "Erin Drahnak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glenshaw, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-drahnak/12893"
+      },
+      {
+       "name": "Sofia Nogalo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "The Ursuline School (N.Y.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sofia-nogalo/9616"
+      },
+      {
+       "name": "Paige Richter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Camp Hill, Pa.",
+       "country": "US",
+       "previous_school": "Camp Hill",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/paige-richter/12894"
+      },
+      {
+       "name": "Lila Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Saint David's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/lila-smith/14168"
+      },
+      {
+       "name": "Tara Thomas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Villa Maria Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tara-thomas/10570"
+      },
+      {
+       "name": "Katherine Vice",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glen Head, N.Y.",
+       "country": "US",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katherine-vice/14169"
+      },
+      {
+       "name": "Kayla Yi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kayla-yi/9614"
+      },
+      {
+       "name": "Kelsey Yi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kelsey-yi/9615"
+      },
+      {
+       "name": "Nicole Yun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Limerick, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/nicole-yun/14172"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Laura Tyler-Cook",
+       "title": "Head Coach",
+       "email": "ltc006@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": null
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cristina Canales",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bilbao, Spain",
+       "country": "ES",
+       "previous_school": "American School of Bilbao",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/cristina-canales/9609"
+      },
+      {
+       "name": "Erin Drahnak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glenshaw, Pa.",
+       "country": "US",
+       "previous_school": "Fox Chapel",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-drahnak/12893"
+      },
+      {
+       "name": "Viveka Kurup",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Redwood Shores, Calif.",
+       "country": "US",
+       "previous_school": "Carlmont",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/viveka-kurup/8950"
+      },
+      {
+       "name": "Tatum McKelvey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Sewickley Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tatum-mckelvey/8951"
+      },
+      {
+       "name": "Sahana Paravantavida",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alexandria, Va.",
+       "country": "US",
+       "previous_school": "American School of Dubai (UAE)",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sahana-paravantavida/8952"
+      },
+      {
+       "name": "Paige Richter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camp Hill, Pa.",
+       "country": "US",
+       "previous_school": "Camp Hill",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/paige-richter/12894"
+      },
+      {
+       "name": "Morgan Sohosky",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bloomsburg, Pa.",
+       "country": "US",
+       "previous_school": "Bloomsburg",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-sohosky/8953"
+      },
+      {
+       "name": "Tara Thomas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Villa Maria Academy",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tara-thomas/10570"
+      },
+      {
+       "name": "Kayla Yi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kayla-yi/9614"
+      },
+      {
+       "name": "Kelsey Yi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kelsey-yi/9615"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Laura Tyler-Cook",
+       "title": "Head Coach",
+       "email": "ltc006@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cristina Canales",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bilbao, Spain",
+       "country": "ES",
+       "previous_school": "American School of Bilbao",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/cristina-canales/9609"
+      },
+      {
+       "name": "Morgan Hennessy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bronxville, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart (Conn.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-hennessy/8240"
+      },
+      {
+       "name": "Sun Woo Jeon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "South Island School",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sun-woo-jeon/8241"
+      },
+      {
+       "name": "Viveka Kurup",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Redwood Shores, Calif.",
+       "country": "US",
+       "previous_school": "Carlmont",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/viveka-kurup/8950"
+      },
+      {
+       "name": "Tatum McKelvey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Sewickley Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tatum-mckelvey/8951"
+      },
+      {
+       "name": "Sahana Paravantavida",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alexandria, Va.",
+       "country": "US",
+       "previous_school": "American School of Dubai (UAE)",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sahana-paravantavida/8952"
+      },
+      {
+       "name": "Morgan Sohosky",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bloomsburg, Pa.",
+       "country": "US",
+       "previous_school": "Bloomsburg",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-sohosky/8953"
+      },
+      {
+       "name": "Tara Thomas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Erie, Pa.",
+       "country": "US",
+       "previous_school": "Villa Maria Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tara-thomas/10570"
+      },
+      {
+       "name": "Kayla Yi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kayla-yi/9614"
+      },
+      {
+       "name": "Kelsey Yi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kelsey-yi/9615"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "To Be Announced",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/coaches/to-be-announced/1104"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cristina Canales",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bilbao, Spain",
+       "country": "ES",
+       "previous_school": "American School of Bilbao",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/cristina-canales/9609"
+      },
+      {
+       "name": "Morgan Hennessy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bronxville, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart (Conn.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-hennessy/8240"
+      },
+      {
+       "name": "Erin Holmes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cumberland, Maine",
+       "country": "US",
+       "previous_school": "Greely",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-holmes/6827"
+      },
+      {
+       "name": "Sun Woo Jeon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "South Island School",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sun-woo-jeon/8241"
+      },
+      {
+       "name": "Tatum McKelvey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Sewickley Academy",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tatum-mckelvey/8951"
+      },
+      {
+       "name": "Casey Morrow",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mars, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/casey-morrow/6830"
+      },
+      {
+       "name": "Sahana Paravantavida",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alexandria, Va.",
+       "country": "US",
+       "previous_school": "American School of Dubai (UAE)",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sahana-paravantavida/8952"
+      },
+      {
+       "name": "Morgan Sohosky",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bloomsburg, Pa.",
+       "country": "US",
+       "previous_school": "Bloomsburg",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-sohosky/8953"
+      },
+      {
+       "name": "Kayla Yi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kayla-yi/9614"
+      },
+      {
+       "name": "Kelsey Yi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auburn, Wash.",
+       "country": "US",
+       "previous_school": "Todd Beamer",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/kelsey-yi/9615"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Francisco",
+       "title": "Head Coach",
+       "email": "lef013@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/coaches/lisa-francisco/933"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Anna Dailey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wellesley, Mass.",
+       "country": "US",
+       "previous_school": "Barron Collier (Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/anna-dailey/6050"
+      },
+      {
+       "name": "Morgan Hennessy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bronxville, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart (Conn.)",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-hennessy/8240"
+      },
+      {
+       "name": "Erin Holmes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cumberland, Maine",
+       "country": "US",
+       "previous_school": "Greely",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-holmes/6827"
+      },
+      {
+       "name": "Sun Woo Jeon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "South Island School",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sun-woo-jeon/8241"
+      },
+      {
+       "name": "Meredith Langs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hilton Head Island, S.C.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/meredith-langs/6054"
+      },
+      {
+       "name": "Tatum McKelvey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sewickley, Pa.",
+       "country": "US",
+       "previous_school": "Sewickley Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/tatum-mckelvey/8951"
+      },
+      {
+       "name": "Casey Morrow",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mars, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/casey-morrow/6830"
+      },
+      {
+       "name": "Sahana Paravantavida",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alexandria, Va.",
+       "country": "US",
+       "previous_school": "American School of Dubai (UAE)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sahana-paravantavida/8952"
+      },
+      {
+       "name": "Sally Sohn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sally-sohn/6056"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Francisco",
+       "title": "Head Coach",
+       "email": "lef013@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/coaches/lisa-francisco/933"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Graysen Bright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rockville, Md.",
+       "country": "US",
+       "previous_school": "Thomas S. Wootton",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/graysen-bright/4627"
+      },
+      {
+       "name": "Katie Childers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Northville, Mich.",
+       "country": "US",
+       "previous_school": "Northville",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katie-childers/4628"
+      },
+      {
+       "name": "Anna Dailey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wellesley, Mass.",
+       "country": "US",
+       "previous_school": "Barron Collier (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/anna-dailey/6050"
+      },
+      {
+       "name": "Morgan Hennessy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bronxville, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart (Conn.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/morgan-hennessy/8240"
+      },
+      {
+       "name": "Erin Holmes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cumberland, Maine",
+       "country": "US",
+       "previous_school": "Greely",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-holmes/6827"
+      },
+      {
+       "name": "Sun Woo Jeon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "South Island School",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sun-woo-jeon/8241"
+      },
+      {
+       "name": "Eunbbie Kim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Winston Churchill",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/eunbbie-kim/4631"
+      },
+      {
+       "name": "Meredith Langs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hilton Head Island, S.C.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/meredith-langs/6054"
+      },
+      {
+       "name": "Casey Morrow",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mars, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/casey-morrow/6830"
+      },
+      {
+       "name": "Sally Sohn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/sally-sohn/6056"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Francisco",
+       "title": "Head Coach",
+       "email": "lef013@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/coaches/lisa-francisco/933"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Graysen Bright",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rockville, Md.",
+       "country": "US",
+       "previous_school": "Thomas S. Wootton",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/graysen-bright/4627"
+      },
+      {
+       "name": "Katie Childers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Northville, Mich.",
+       "country": "US",
+       "previous_school": "Northville",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katie-childers/4628"
+      },
+      {
+       "name": "Anna Dailey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wellesley, Mass.",
+       "country": "US",
+       "previous_school": "Barron Collier (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/anna-dailey/6050"
+      },
+      {
+       "name": "Lindsay Dodovich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/lindsay-dodovich/317"
+      },
+      {
+       "name": "Erin Holmes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cumberland, Maine",
+       "country": "US",
+       "previous_school": "Greely",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/erin-holmes/6827"
+      },
+      {
+       "name": "Eunbbie Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": "Winston Churchill",
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/eunbbie-kim/4631"
+      },
+      {
+       "name": "Meredith Langs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hilton Head Island, S.C.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/meredith-langs/6054"
+      },
+      {
+       "name": "Casey Morrow",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mars, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/casey-morrow/6830"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Francisco",
+       "title": "Head Coach",
+       "email": "lef013@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/coaches/lisa-francisco/933"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://bucknellbison.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katie Childers",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Northville, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/katie-childers/4628"
+      },
+      {
+       "name": "Anna Dailey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wellesley, Mass.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/anna-dailey/6050"
+      },
+      {
+       "name": "Lindsay Dodovich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/lindsay-dodovich/317"
+      },
+      {
+       "name": "Eunbbie Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Potomac, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/eunbbie-kim/4631"
+      },
+      {
+       "name": "Meredith Langs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hilton Head Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/meredith-langs/6054"
+      },
+      {
+       "name": "Emily Larson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arlington, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/emily-larson/311"
+      },
+      {
+       "name": "Nicole Mischler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ambler, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/nicole-mischler/312"
+      },
+      {
+       "name": "Callie Nelson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/callie-nelson/313"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Francisco",
+       "title": "Head Coach",
+       "email": "lef013@bucknell.edu",
+       "phone": "570-577-7347",
+       "profile_url": "https://bucknellbison.com/sports/womens-golf/roster/coaches/lisa-francisco/933"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://bucknellbison.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://bucknellbison.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://bucknellbison.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://bucknellbison.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://bucknellbison.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

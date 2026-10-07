@@ -1,36 +1,2243 @@
 {
  "slug": "cal-poly",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gopoly.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rafael Bobo-Lloret",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Marseille, France",
+       "country": "FR",
+       "previous_school": "Lycée Français",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kyle Dougherty",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Irvine, CA",
+       "country": "US",
+       "previous_school": "UC San Diego",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/kyle-dougherty/10322"
+      },
+      {
+       "name": "Jack Jarvis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Salinas, CA",
+       "country": "US",
+       "previous_school": "Salinas HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jack-jarvis/11133"
+      },
+      {
+       "name": "Nolan Kuszyk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Cañada Flintridge, CA",
+       "country": "US",
+       "previous_school": "La Cañada HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nolan-kuszyk/10317"
+      },
+      {
+       "name": "Sean Lehman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sean-lehman/10318"
+      },
+      {
+       "name": "Leo Metzger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santa Barbara, CA",
+       "country": "US",
+       "previous_school": "UC Davis",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/leo-metzger/11134"
+      },
+      {
+       "name": "Louis Pilod",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lyon, France",
+       "country": "FR",
+       "previous_school": "Lycée de Terre Blanche HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/louis-pilod/11135"
+      },
+      {
+       "name": "Reese Sato",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": "Vista Del Lago HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/reese-sato/11136"
+      },
+      {
+       "name": "Zihao Wang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Zhuhai, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/zihao-wang/11137"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Phil Rowe",
+       "title": "Head Coach",
+       "email": "phrowe@calpoly.edu",
+       "phone": "805-975-2971",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/phil-rowe/1301"
+      },
+      {
+       "name": "Eric Frazzetta",
+       "title": "Duan Family Men's Assistant Golf Coach",
+       "email": "efrazzet@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/eric-frazzetta/1177"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rafa Guerrero",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Granada, Spain",
+       "country": "ES",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/rafa-guerrero/9764"
+      },
+      {
+       "name": "Nolan Kuszyk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "La Cañada Flintridge, CA",
+       "country": "US",
+       "previous_school": "La Cañada HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nolan-kuszyk/10317"
+      },
+      {
+       "name": "Sean Lehman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sean-lehman/10318"
+      },
+      {
+       "name": "Parker Mapes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/parker-mapes/9759"
+      },
+      {
+       "name": "Leo Metzger",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Barbara, CA",
+       "country": "US",
+       "previous_school": "UC Davis",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/leo-metzger/11134"
+      },
+      {
+       "name": "Luke Montoya",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, CA",
+       "country": "US",
+       "previous_school": "Mission Prep HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/luke-montoya/9767"
+      },
+      {
+       "name": "Jackson Parrish",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Henderson, NV",
+       "country": "US",
+       "previous_school": "Liberty HS / Colorado School of Mines",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jackson-parrish/9760"
+      },
+      {
+       "name": "Louis Pilod",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lyon, France",
+       "country": "FR",
+       "previous_school": "Lycée de Terre Blanche HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/louis-pilod/11135"
+      },
+      {
+       "name": "Reese Sato",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": "Vista Del Lago HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/reese-sato/11136"
+      },
+      {
+       "name": "Baron Szeto",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moraga, CA",
+       "country": "US",
+       "previous_school": "Campolindo HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/baron-szeto/9763"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Phil Rowe",
+       "title": "Head Coach",
+       "email": "phrowe@calpoly.edu",
+       "phone": "805-975-2971",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/phil-rowe/1301"
+      },
+      {
+       "name": "Eric Frazzetta",
+       "title": "Duan Family Men's Assistant Golf Coach",
+       "email": "efrazzet@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/eric-frazzetta/1177"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Drew Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/drew-kim/8742"
+      },
+      {
+       "name": "Austin Liu",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Oak Park HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/austin-liu/8880"
+      },
+      {
+       "name": "Parker Mapes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/parker-mapes/9759"
+      },
+      {
+       "name": "Jackson Parrish",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Henderson, NV",
+       "country": "US",
+       "previous_school": "Liberty HS / Colorado School of Mines",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jackson-parrish/9760"
+      },
+      {
+       "name": "Louis Pilod",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lyon, France",
+       "country": "FR",
+       "previous_school": "Lycée de Terre Blanche HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/louis-pilod/11135"
+      },
+      {
+       "name": "Ben Quick",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Beaconsfield, England, United Kingdom",
+       "country": "GB",
+       "previous_school": "Dr Challoner's Grammar School",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/ben-quick/8747"
+      },
+      {
+       "name": "Reese Sato",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": "Vista Del Lago HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/reese-sato/11136"
+      },
+      {
+       "name": "Baron Szeto",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moraga, CA",
+       "country": "US",
+       "previous_school": "Campolindo HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/baron-szeto/9763"
+      },
+      {
+       "name": "Joey Zambri",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Camarillo, CA",
+       "country": "US",
+       "previous_school": "Camarillo HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/joey-zambri/8749"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Phil Rowe",
+       "title": "Head Coach",
+       "email": "phrowe@calpoly.edu",
+       "phone": "805-975-2971",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/phil-rowe/1301"
+      },
+      {
+       "name": "Eric Frazzetta",
+       "title": "Duan Family Men's Assistant Golf Coach",
+       "email": "efrazzet@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/eric-frazzetta/1177"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Drew Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/drew-kim/8742"
+      },
+      {
+       "name": "Ross Laird",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stenhousemuir, Scotland, United Kingdom",
+       "country": "GB",
+       "previous_school": "Larbert HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/ross-laird/8287"
+      },
+      {
+       "name": "Sean Lehman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sean-lehman/10318"
+      },
+      {
+       "name": "Austin Liu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Oak Park HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/austin-liu/8880"
+      },
+      {
+       "name": "David Llewellyn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mesquite, Nevada",
+       "country": "US",
+       "previous_school": "Clovis Online HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/david-llewellyn/8288"
+      },
+      {
+       "name": "Parker Mapes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/parker-mapes/9759"
+      },
+      {
+       "name": "Jackson Parrish",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Henderson, NV",
+       "country": "US",
+       "previous_school": "Liberty HS / Colorado School of Mines",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jackson-parrish/9760"
+      },
+      {
+       "name": "Ben Quick",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Beaconsfield, England, United Kingdom",
+       "country": "GB",
+       "previous_school": "Dr Challoner's Grammar School",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/ben-quick/8747"
+      },
+      {
+       "name": "Baron Szeto",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moraga, CA",
+       "country": "US",
+       "previous_school": "Campolindo HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/baron-szeto/9763"
+      },
+      {
+       "name": "Joey Zambri",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Camarillo, CA",
+       "country": "US",
+       "previous_school": "Camarillo HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/joey-zambri/8749"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Phil Rowe",
+       "title": "Head Coach",
+       "email": "phrowe@calpoly.edu",
+       "phone": "805-975-2971",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/phil-rowe/1301"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luke Adam",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Santa Maria, CA",
+       "country": "US",
+       "previous_school": "St. Joseph HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/luke-adam/7288"
+      },
+      {
+       "name": "Will Draper",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Chaminade HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/will-draper/7290"
+      },
+      {
+       "name": "Drew Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/drew-kim/8742"
+      },
+      {
+       "name": "Sean Lehman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sean-lehman/10318"
+      },
+      {
+       "name": "Austin Liu",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Oak Park HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/austin-liu/8880"
+      },
+      {
+       "name": "Parker Mapes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pleasanton, CA",
+       "country": "US",
+       "previous_school": "Amador Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/parker-mapes/9759"
+      },
+      {
+       "name": "Nicholas Mok",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nicholas-mok/7294"
+      },
+      {
+       "name": "Adil Bir Singh",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "New Public School HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/adil-bir-singh/7297"
+      },
+      {
+       "name": "Baron Szeto",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moraga, CA",
+       "country": "US",
+       "previous_school": "Campolindo HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/baron-szeto/9763"
+      },
+      {
+       "name": "Joey Zambri",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Camarillo, CA",
+       "country": "US",
+       "previous_school": "Camarillo HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/joey-zambri/8749"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Phil Rowe",
+       "title": "Head Coach",
+       "email": "phrowe@calpoly.edu",
+       "phone": "805-975-2971",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/phil-rowe/1301"
+      },
+      {
+       "name": "Vuk Rajcevic",
+       "title": "Assistant Coach",
+       "email": "rajcevic@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/vuk-rajcevic/731"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luke Adam",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Santa Maria, CA",
+       "country": "US",
+       "previous_school": "St. Joseph HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/luke-adam/7288"
+      },
+      {
+       "name": "Will Draper",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Chaminade HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/will-draper/7290"
+      },
+      {
+       "name": "Dominick Hoover",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Monterey, CA",
+       "country": "US",
+       "previous_school": "Palma HS/Monterey Peninsula College",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/dominick-hoover/6546"
+      },
+      {
+       "name": "Austin Liu",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Oak Park HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/austin-liu/8880"
+      },
+      {
+       "name": "Nicholas Mok",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nicholas-mok/7294"
+      },
+      {
+       "name": "Joseph Moles",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Santa Maria, CA",
+       "country": "US",
+       "previous_school": "Righetti HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/joseph-moles/5976"
+      },
+      {
+       "name": "Tanner Podres",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Laguna Niguel, CA",
+       "country": "US",
+       "previous_school": "Dana Hills HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/tanner-podres/5977"
+      },
+      {
+       "name": "Adil Bir Singh",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "New Public School HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/adil-bir-singh/7297"
+      },
+      {
+       "name": "Joey Zambri",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camarillo, CA",
+       "country": "US",
+       "previous_school": "Camarillo HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/joey-zambri/8749"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Phil Rowe",
+       "title": "Head Coach",
+       "email": "phrowe@calpoly.edu",
+       "phone": "805-975-2971",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/phil-rowe/1301"
+      },
+      {
+       "name": "Vuk Rajcevic",
+       "title": "Volunteer Assistant Coach",
+       "email": "rajcevic@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/vuk-rajcevic/731"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luke Adam",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Maria, CA",
+       "country": "US",
+       "previous_school": "St. Joseph HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/luke-adam/7288"
+      },
+      {
+       "name": "Cade Casaga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrieta, CA",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/cade-casaga/5958"
+      },
+      {
+       "name": "Sage Casaga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrieta, CA",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sage-casaga/5959"
+      },
+      {
+       "name": "Will Draper",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Chaminade HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/will-draper/7290"
+      },
+      {
+       "name": "Peter Faragia",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fresno, CA",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/peter-faragia/5961"
+      },
+      {
+       "name": "Dominick Hoover",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Monterey, CA",
+       "country": "US",
+       "previous_school": "Palma HS/Monterey Peninsula College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/dominick-hoover/6546"
+      },
+      {
+       "name": "Austin Liu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Oak Park HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/austin-liu/8880"
+      },
+      {
+       "name": "Bryce Loosigian",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fresno, CA",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/bryce-loosigian/5964"
+      },
+      {
+       "name": "Nicholas Mok",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nicholas-mok/7294"
+      },
+      {
+       "name": "Joseph Moles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Maria, CA",
+       "country": "US",
+       "previous_school": "Righetti HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/joseph-moles/5976"
+      },
+      {
+       "name": "Tanner Podres",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, CA",
+       "country": "US",
+       "previous_school": "Dana Hills HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/tanner-podres/5977"
+      },
+      {
+       "name": "Adil Bir Singh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "New Public School HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/adil-bir-singh/7297"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cade Casaga",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrieta, CA",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/cade-casaga/5958"
+      },
+      {
+       "name": "Sage Casaga",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murrieta, CA",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sage-casaga/5959"
+      },
+      {
+       "name": "Will Draper",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oak Park, CA",
+       "country": "US",
+       "previous_school": "Chaminade HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/will-draper/7290"
+      },
+      {
+       "name": "Peter Faragia",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Fresno, CA",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "Rs.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/peter-faragia/5961"
+      },
+      {
+       "name": "Dominick Hoover",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Monterey, CA",
+       "country": "US",
+       "previous_school": "Palma HS/Monterey Peninsula College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/dominick-hoover/6546"
+      },
+      {
+       "name": "Thomas Lehman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/thomas-lehman/1881"
+      },
+      {
+       "name": "Bryce Loosigian",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Fresno, CA",
+       "country": "US",
+       "previous_school": "Clovis North HS",
+       "class_raw": "Rs.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/bryce-loosigian/5964"
+      },
+      {
+       "name": "Tanner Podres",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, CA",
+       "country": "US",
+       "previous_school": "Dana Hills HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/tanner-podres/5977"
+      },
+      {
+       "name": "Adil Bir Singh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "New Public School HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/adil-bir-singh/7297"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Cartwright",
+       "title": "Head Coach",
+       "email": "lcartwri@calpoly.edu",
+       "phone": "805-756-5156",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/scott-cartwright/563"
+      },
+      {
+       "name": "Rich Massey",
+       "title": "Assistant Coach",
+       "email": "richtmassey@gmail.com",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/rich-massey/564"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sage Casaga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrieta, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sage-casaga/5959"
+      },
+      {
+       "name": "Jimmy Castles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cupertino, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jimmy-castles/1861"
+      },
+      {
+       "name": "Nathan Clark",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Upland, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nathan-clark/1862"
+      },
+      {
+       "name": "Nick Engelhardt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nick-engelhardt/1863"
+      },
+      {
+       "name": "Peter Faragia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/peter-faragia/5961"
+      },
+      {
+       "name": "Matthew Giombetti",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/matthew-giombetti/1866"
+      },
+      {
+       "name": "Thomas Lehman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/thomas-lehman/1881"
+      },
+      {
+       "name": "Bryce Loosigian",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fresno, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/bryce-loosigian/5964"
+      },
+      {
+       "name": "Mitch Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/mitch-martin/1870"
+      },
+      {
+       "name": "Tanner Podres",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Laguna Niguel, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Rs.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/tanner-podres/5977"
+      },
+      {
+       "name": "Grady Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/grady-smith/1872"
+      },
+      {
+       "name": "Ellis Tirado",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Cypress, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Rs.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/ellis-tirado/1856"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Cartwright",
+       "title": "Head Coach",
+       "email": "lcartwri@calpoly.edu",
+       "phone": "805-756-5156",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/coaches/scott-cartwright/563"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gopoly.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sage Casaga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrieta, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/sage-casaga/5959"
+      },
+      {
+       "name": "Jimmy Castles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cupertino, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jimmy-castles/1861"
+      },
+      {
+       "name": "Justin De Los Santos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chatsworth, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/justin-de-los-santos/1847"
+      },
+      {
+       "name": "Nick Engelhardt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/nick-engelhardt/1863"
+      },
+      {
+       "name": "Brandon In",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bakersfield, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/brandon-in/1849"
+      },
+      {
+       "name": "Thomas Lehman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/thomas-lehman/1881"
+      },
+      {
+       "name": "Court Lewis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Yorba Linda, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/court-lewis/1851"
+      },
+      {
+       "name": "Cole Nygren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Longmont, CO",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/cole-nygren/1853"
+      },
+      {
+       "name": "Tanner Podres",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/tanner-podres/5977"
+      },
+      {
+       "name": "Grady Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/grady-smith/1872"
+      },
+      {
+       "name": "Ellis Tirado",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cypress, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/ellis-tirado/1856"
+      },
+      {
+       "name": "Jordan Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Incline Village, NV",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jordan-wright/1857"
+      },
+      {
+       "name": "Jesse Yap",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Singapore",
+       "country": "SG",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/mens-golf/roster/jesse-yap/1858"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gopoly.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Taylor Baker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, CA",
+       "country": "US",
+       "previous_school": "Rio Americano HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/taylor-baker/11069"
+      },
+      {
+       "name": "Triana Fernando",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kirkland, WA",
+       "country": "US",
+       "previous_school": "TESLA Stem HS / Lake Washington HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/triana-fernando/11070"
+      },
+      {
+       "name": "Alex Flier",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Dwight Global",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/alex-flier/11071"
+      },
+      {
+       "name": "Nicole Koong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sammamish, WA",
+       "country": "US",
+       "previous_school": "Eastside Catholic High School",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/nicole-koong/10290"
+      },
+      {
+       "name": "Maddy Saysanasongkham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "Rancho Bernardo HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/maddy-saysanasongkham/11072"
+      },
+      {
+       "name": "Sara Torres",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Santa Francisca Romana School",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sara-torres/11073"
+      },
+      {
+       "name": "Sarah Yoo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Whitney HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sarah-yoo/11074"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Roberts",
+       "title": "Head Coach",
+       "email": "crober71@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/courtney-roberts/1288"
+      },
+      {
+       "name": "Beth Lillie",
+       "title": "Assistant Coach",
+       "email": "blillie@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/beth-lillie/1289"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kamille Dimayuga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buena Park, CA",
+       "country": "US",
+       "previous_school": "Troy HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/kamille-dimayuga/9768"
+      },
+      {
+       "name": "Triana Fernando",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kirkland, WA",
+       "country": "US",
+       "previous_school": "TESLA Stem HS / Lake Washington HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/triana-fernando/11070"
+      },
+      {
+       "name": "Jensen Jalufka",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Austin, TX",
+       "country": "US",
+       "previous_school": "Vandergrift HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jensen-jalufka/9770"
+      },
+      {
+       "name": "Jenny Keil",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Bangkok Patana International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jenny-keil/9777"
+      },
+      {
+       "name": "Nicole Koong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sammamish, WA",
+       "country": "US",
+       "previous_school": "Eastside Catholic High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/nicole-koong/10290"
+      },
+      {
+       "name": "Sara Torres",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Santa Francisca Romana School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sara-torres/11073"
+      },
+      {
+       "name": "Sarah Yoo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Whitney HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sarah-yoo/11074"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Roberts",
+       "title": "Head Coach",
+       "email": "crober71@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/courtney-roberts/1288"
+      },
+      {
+       "name": "Beth Lillie",
+       "title": "Assistant Coach",
+       "email": "blillie@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/beth-lillie/1289"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kamille Dimayuga",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buena Park, CA",
+       "country": "US",
+       "previous_school": "Troy HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/kamille-dimayuga/9768"
+      },
+      {
+       "name": "Triana Fernando",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kirkland, WA",
+       "country": "US",
+       "previous_school": "TESLA Stem HS / Lake Washington HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/triana-fernando/11070"
+      },
+      {
+       "name": "Jensen Jalufka",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Austin, TX",
+       "country": "US",
+       "previous_school": "Vandergrift HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jensen-jalufka/9770"
+      },
+      {
+       "name": "Nicole Neale",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dove Canyon, CA",
+       "country": "US",
+       "previous_school": "Tesoro HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/nicole-neale/8754"
+      },
+      {
+       "name": "Kaylee Sakoda",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Cypress, CA",
+       "country": "US",
+       "previous_school": "Troy HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/kaylee-sakoda/8757"
+      },
+      {
+       "name": "Sara Torres",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Santa Francisca Romana School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sara-torres/11073"
+      },
+      {
+       "name": "Carissa Wu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dublin, CA",
+       "country": "US",
+       "previous_school": "Carondelet HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/carissa-wu/8755"
+      },
+      {
+       "name": "Sarah Yoo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Whitney HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sarah-yoo/11074"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Roberts",
+       "title": "Head Coach",
+       "email": "crober71@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/courtney-roberts/1288"
+      },
+      {
+       "name": "Beth Lillie",
+       "title": "Assistant Coach",
+       "email": "blillie@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/beth-lillie/1289"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kamille Dimayuga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buena Park, CA",
+       "country": "US",
+       "previous_school": "Troy HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/kamille-dimayuga/9768"
+      },
+      {
+       "name": "Jensen Jalufka",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Austin, TX",
+       "country": "US",
+       "previous_school": "Vandergrift HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jensen-jalufka/9770"
+      },
+      {
+       "name": "Nicole Neale",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dove Canyon, CA",
+       "country": "US",
+       "previous_school": "Tesoro HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/nicole-neale/8754"
+      },
+      {
+       "name": "Elizabeth Scholtes",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Alameda, CA",
+       "country": "US",
+       "previous_school": "Alameda HS",
+       "class_raw": "5th",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/elizabeth-scholtes/8266"
+      },
+      {
+       "name": "Vanessa Wang",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Rowland Heights, CA",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "5th",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/vanessa-wang/8267"
+      },
+      {
+       "name": "Carissa Wu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, CA",
+       "country": "US",
+       "previous_school": "Carondelet HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/carissa-wu/8755"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Roberts",
+       "title": "Head Coach",
+       "email": "crober71@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/courtney-roberts/1288"
+      },
+      {
+       "name": "Beth Lillie",
+       "title": "Assistant Coach",
+       "email": "blillie@calpoly.edu",
+       "phone": null,
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/beth-lillie/1289"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caroline Cantlay",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Los Alamitos, CA",
+       "country": "US",
+       "previous_school": "Rosary Academy",
+       "class_raw": "5th",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/caroline-cantlay/7323"
+      },
+      {
+       "name": "Madi Daniel",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bakersfield, CA",
+       "country": "US",
+       "previous_school": "Bakersfield Christian HS (U. Oregon)",
+       "class_raw": "5th",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/madi-daniel/7324"
+      },
+      {
+       "name": "Kamille Dimayuga",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buena Park, CA",
+       "country": "US",
+       "previous_school": "Troy HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/kamille-dimayuga/9768"
+      },
+      {
+       "name": "Jensen Jalufka",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, TX",
+       "country": "US",
+       "previous_school": "Vandergrift HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jensen-jalufka/9770"
+      },
+      {
+       "name": "Nicole Neale",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dove Canyon, CA",
+       "country": "US",
+       "previous_school": "Tesoro HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/nicole-neale/8754"
+      },
+      {
+       "name": "Kaylyn Noh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocklin, CA",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/kaylyn-noh/7331"
+      },
+      {
+       "name": "Elizabeth Scholtes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alameda, CA",
+       "country": "US",
+       "previous_school": "Alameda HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/elizabeth-scholtes/8266"
+      },
+      {
+       "name": "Vanessa Wang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rowland Heights, CA",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/vanessa-wang/8267"
+      },
+      {
+       "name": "Carissa Wu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, CA",
+       "country": "US",
+       "previous_school": "Carondelet HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/carissa-wu/8755"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sofie Aagaard",
+       "title": "Head Coach",
+       "email": "saagaard@calpoly.edu",
+       "phone": "805-748-5616",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/sofie-aagaard/738"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caroline Cantlay",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Los Alamitos, CA",
+       "country": "US",
+       "previous_school": "Rosary Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/caroline-cantlay/7323"
+      },
+      {
+       "name": "Madi Daniel",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bakersfield, CA",
+       "country": "US",
+       "previous_school": "Bakersfield Christian HS (U. Oregon)",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/madi-daniel/7324"
+      },
+      {
+       "name": "Jensen Jalufka",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Austin, TX",
+       "country": "US",
+       "previous_school": "Vandergrift HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jensen-jalufka/9770"
+      },
+      {
+       "name": "Nicole Neale",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dove Canyon, CA",
+       "country": "US",
+       "previous_school": "Tesoro HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/nicole-neale/8754"
+      },
+      {
+       "name": "Elizabeth Scholtes",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Alameda, CA",
+       "country": "US",
+       "previous_school": "Alameda HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/elizabeth-scholtes/8266"
+      },
+      {
+       "name": "Vanessa Wang",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Rowland Heights, CA",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/vanessa-wang/8267"
+      },
+      {
+       "name": "Carissa Wu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, CA",
+       "country": "US",
+       "previous_school": "Carondelet HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/carissa-wu/8755"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sofie Aagaard",
+       "title": "Head Coach",
+       "email": "saagaard@calpoly.edu",
+       "phone": "805-748-5616",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/sofie-aagaard/738"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caroline Cantlay",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Alamitos, CA",
+       "country": "US",
+       "previous_school": "Rosary Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/caroline-cantlay/7323"
+      },
+      {
+       "name": "Tiffany Cha",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Ramon, CA",
+       "country": "US",
+       "previous_school": "Dougherty Valley HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/tiffany-cha/6267"
+      },
+      {
+       "name": "Madi Daniel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bakersfield, CA",
+       "country": "US",
+       "previous_school": "Bakersfield Christian HS (U. Oregon)",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/madi-daniel/7324"
+      },
+      {
+       "name": "Jensen Jalufka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, TX",
+       "country": "US",
+       "previous_school": "Vandergrift HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jensen-jalufka/9770"
+      },
+      {
+       "name": "Elizabeth Scholtes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alameda, CA",
+       "country": "US",
+       "previous_school": "Alameda HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/elizabeth-scholtes/8266"
+      },
+      {
+       "name": "Vanessa Wang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rowland Heights, CA",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/vanessa-wang/8267"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caroline Cantlay",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Alamitos, CA",
+       "country": "US",
+       "previous_school": "Rosary Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/caroline-cantlay/7323"
+      },
+      {
+       "name": "Tiffany Cha",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Ramon, CA",
+       "country": "US",
+       "previous_school": "Dougherty Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/tiffany-cha/6267"
+      },
+      {
+       "name": "Mallory Muehlbauer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "Mission Vista HS (BYU)",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/mallory-muehlbauer/4390"
+      },
+      {
+       "name": "Maya Pugatch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, CA",
+       "country": "US",
+       "previous_school": "St. Francis HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/maya-pugatch/4391"
+      },
+      {
+       "name": "Elizabeth Scholtes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alameda, CA",
+       "country": "US",
+       "previous_school": "Alameda HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/elizabeth-scholtes/8266"
+      },
+      {
+       "name": "Sienna Scibird",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Barbara, CA",
+       "country": "US",
+       "previous_school": "Bishop Diego HS",
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sienna-scibird/4393"
+      },
+      {
+       "name": "Vanessa Wang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rowland Heights, CA",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/vanessa-wang/8267"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sofie Aagaard",
+       "title": "Head Coach",
+       "email": "saagaard@calpoly.edu",
+       "phone": "805-748-5616",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/sofie-aagaard/738"
+      },
+      {
+       "name": "Sienna Starck",
+       "title": "Assistant Coach",
+       "email": "sstarck@calpoly.edu",
+       "phone": "805-756-5125",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/sienna-starck/126"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Bergland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Palos Verdes Estates, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sophie-bergland/4379"
+      },
+      {
+       "name": "Jamie Binns",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jamie-binns/4380"
+      },
+      {
+       "name": "Caroline Cantlay",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Alamitos, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/caroline-cantlay/7323"
+      },
+      {
+       "name": "Tiffany Cha",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Ramon, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/tiffany-cha/6267"
+      },
+      {
+       "name": "Desiree Gillaspy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orcutt, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/desiree-gillaspy/4383"
+      },
+      {
+       "name": "Jamie Harada",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Costa Mesa, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jamie-harada/4384"
+      },
+      {
+       "name": "Meridith Hirsch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fremont, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/meridith-hirsch/4385"
+      },
+      {
+       "name": "Mallory Muehlbauer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/mallory-muehlbauer/4390"
+      },
+      {
+       "name": "Sienna Scibird",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Barbara, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sienna-scibird/4393"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sofie Aagaard",
+       "title": "Head Coach",
+       "email": "saagaard@calpoly.edu",
+       "phone": "805-748-5616",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/coaches/sofie-aagaard/738"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gopoly.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Bergland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Palos Verdes Estates, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sophie-bergland/4379"
+      },
+      {
+       "name": "Jamie Binns",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jamie-binns/4380"
+      },
+      {
+       "name": "Tiffany Cha",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Ramon, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/tiffany-cha/6267"
+      },
+      {
+       "name": "Desiree Gillaspy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santa Maria, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/desiree-gillaspy/4372"
+      },
+      {
+       "name": "Jamie Harada",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Costa Mesa, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/jamie-harada/4384"
+      },
+      {
+       "name": "Meridith Hirsch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fremont, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/meridith-hirsch/4385"
+      },
+      {
+       "name": "Mallory Muehlbauer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/mallory-muehlbauer/4390"
+      },
+      {
+       "name": "Lucy Robson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stuart, FL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/lucy-robson/4376"
+      },
+      {
+       "name": "Sadie Strain",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arbuckle, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/sadie-strain/4377"
+      },
+      {
+       "name": "Elizabeth Walinder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Andrews, TX",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopoly.com/sports/womens-golf/roster/elizabeth-walinder/4378"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gopoly.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gopoly.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gopoly.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gopoly.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gopoly.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

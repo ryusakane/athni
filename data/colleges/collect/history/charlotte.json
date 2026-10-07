@@ -1,36 +1,2252 @@
 {
  "slug": "charlotte",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://charlotte49ers.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alex Bock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Morganton, N.C.",
+       "country": "US",
+       "previous_school": "Freedom",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/alex-bock/13569"
+      },
+      {
+       "name": "Daniel Boone, Jr.",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fuquay-Varina, N.C.",
+       "country": "US",
+       "previous_school": "Fuquay-Varina",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/daniel-boone-jr/13570"
+      },
+      {
+       "name": "Seb Cave",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, England",
+       "country": "GB",
+       "previous_school": "UAB",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/seb-cave/13571"
+      },
+      {
+       "name": "Chase Cline",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chapin, S.C.",
+       "country": "US",
+       "previous_school": "Western Carolina",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/chase-cline/13572"
+      },
+      {
+       "name": "Frazer Jones",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leicester, England",
+       "country": "GB",
+       "previous_school": "Loughborough",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/frazer-jones/13573"
+      },
+      {
+       "name": "Justin Matthews",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Little Britain, Ontario",
+       "country": "CA",
+       "previous_school": "Port Perry",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/justin-matthews/13574"
+      },
+      {
+       "name": "Eli Schmidly",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "R-So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/eli-schmidly/13575"
+      },
+      {
+       "name": "Connor Warren",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spruce Pine, N.C.",
+       "country": "US",
+       "previous_school": "Mitchell",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-warren/12746"
+      },
+      {
+       "name": "Lake Williams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, N.C.",
+       "country": "US",
+       "previous_school": "J.H. Rose",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/lake-williams/13576"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Cody Carroll",
+       "title": "Assistant Coach",
+       "email": "ccarro34@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/cody-carroll/2602"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caden Baker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/caden-baker/11877"
+      },
+      {
+       "name": "Alex Bock",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Morganton, N.C.",
+       "country": "US",
+       "previous_school": "Freedom",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/alex-bock/13569"
+      },
+      {
+       "name": "Daniel Boone, Jr.",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fuquay-Varina, N.C.",
+       "country": "US",
+       "previous_school": "Fuquay-Varina",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/daniel-boone-jr/13570"
+      },
+      {
+       "name": "Seb Cave",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Melbourne, England",
+       "country": "GB",
+       "previous_school": "UAB",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/seb-cave/13571"
+      },
+      {
+       "name": "Conor Gough",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-gough/11879"
+      },
+      {
+       "name": "Frazer Jones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Leicester, England",
+       "country": "GB",
+       "previous_school": "Loughborough",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/frazer-jones/13573"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, N.C.",
+       "country": "US",
+       "previous_school": "Jacksonville HS",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/tyler-jones/11881"
+      },
+      {
+       "name": "Justin Matthews",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Little Britain, Ontario",
+       "country": "CA",
+       "previous_school": "Port Perry",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/justin-matthews/13574"
+      },
+      {
+       "name": "Eli Schmidly",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/eli-schmidly/13575"
+      },
+      {
+       "name": "A.J. Shaffer",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Horse Shoe, N.C.",
+       "country": "US",
+       "previous_school": "West Henderson HS",
+       "class_raw": "R-Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Connor Warren",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spruce Pine, N.C.",
+       "country": "US",
+       "previous_school": "Mitchell",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-warren/12746"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Cody Carroll",
+       "title": "Assistant Coach",
+       "email": "ccarro34@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/cody-carroll/2602"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caden Baker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/caden-baker/11877"
+      },
+      {
+       "name": "Daniel Boone, Jr.",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fuquay-Varina, N.C.",
+       "country": "US",
+       "previous_school": "Fuquay-Varina",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/daniel-boone-jr/13570"
+      },
+      {
+       "name": "Conor Gough",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-gough/11879"
+      },
+      {
+       "name": "Tanner Guthrie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Auburn, Ala.",
+       "country": "US",
+       "previous_school": "CACC",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/tanner-guthrie/10784"
+      },
+      {
+       "name": "Frazer Jones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Leicester, England",
+       "country": "GB",
+       "previous_school": "Loughborough",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/frazer-jones/13573"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, N.C.",
+       "country": "US",
+       "previous_school": "Jacksonville HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/tyler-jones/11881"
+      },
+      {
+       "name": "Justin Matthews",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Little Britain, Ontario",
+       "country": "CA",
+       "previous_school": "Port Perry",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/justin-matthews/13574"
+      },
+      {
+       "name": "Eli Schmidly",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/eli-schmidly/13575"
+      },
+      {
+       "name": "A.J. Shaffer",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Horse Shoe, N.C.",
+       "country": "US",
+       "previous_school": "West Henderson HS",
+       "class_raw": "R-Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ollie Smith",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Brighton, England",
+       "country": "GB",
+       "previous_school": "Queens (NC)",
+       "class_raw": "5th",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/ollie-smith/10921"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Kyle Cornelius",
+       "title": "Assistant Coach",
+       "email": "kcorne11@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/kyle-cornelius/1819"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caden Baker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance HS",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/caden-baker/11877"
+      },
+      {
+       "name": "Dougie Ergood",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mount Laurel, N.J.",
+       "country": "US",
+       "previous_school": "North Carolina",
+       "class_raw": "Gr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/dougie-ergood/10151"
+      },
+      {
+       "name": "Conor Gough",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-gough/11879"
+      },
+      {
+       "name": "Tanner Guthrie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auburn, Ala.",
+       "country": "US",
+       "previous_school": "CACC",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/tanner-guthrie/10784"
+      },
+      {
+       "name": "Justin Matthews",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Little Britain, Ontario",
+       "country": "CA",
+       "previous_school": "Port Perry",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/justin-matthews/13574"
+      },
+      {
+       "name": "Carson Ownbey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Candler, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/carson-ownbey/10145"
+      },
+      {
+       "name": "Dongjin Park",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/dongjin-park/10146"
+      },
+      {
+       "name": "A.J. Shaffer",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Horse Shoe, N.C.",
+       "country": "US",
+       "previous_school": "West Henderson HS",
+       "class_raw": "R-Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ben Woodruff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huntersville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/ben-woodruff/10148"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Austin King",
+       "title": "Assistant Coach",
+       "email": "aking116@charlotte.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/austin-king/1605"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Armistead",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-armistead/7954"
+      },
+      {
+       "name": "Caden Baker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/caden-baker/11877"
+      },
+      {
+       "name": "Conor Gough",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-gough/11879"
+      },
+      {
+       "name": "Carson Ownbey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Candler, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/carson-ownbey/10145"
+      },
+      {
+       "name": "Dongjin Park",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Montverde Academy",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/dongjin-park/10146"
+      },
+      {
+       "name": "A.J. Shaffer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Horse Shoe, N.C.",
+       "country": "US",
+       "previous_school": "West Henderson HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Matt Sharpstene",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/matt-sharpstene/7960"
+      },
+      {
+       "name": "Eric Shea",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brantford, Ontario",
+       "country": "CA",
+       "previous_school": "St. Johns College",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/eric-shea/7961"
+      },
+      {
+       "name": "Trey Tobias",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": "Brentwood HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/trey-tobias/7962"
+      },
+      {
+       "name": "Ben Woodruff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Huntersville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/ben-woodruff/10148"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Austin King",
+       "title": "Assistant Coach",
+       "email": "aking116@charlotte.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/austin-king/1605"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Armistead",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-armistead/7954"
+      },
+      {
+       "name": "Caden Baker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/caden-baker/11877"
+      },
+      {
+       "name": "Conor Gough",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-gough/11879"
+      },
+      {
+       "name": "John Gough",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic HS",
+       "class_raw": "5th",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/john-gough/7168"
+      },
+      {
+       "name": "Carson Ownbey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Candler, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/carson-ownbey/10145"
+      },
+      {
+       "name": "Dongjin Park",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Montverde Academy",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/dongjin-park/10146"
+      },
+      {
+       "name": "A.J. Shaffer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Horse Shoe, N.C.",
+       "country": "US",
+       "previous_school": "West Henderson HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Matt Sharpstene",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/matt-sharpstene/7960"
+      },
+      {
+       "name": "Eric Shea",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brantford, Ontario",
+       "country": "CA",
+       "previous_school": "St. Johns College",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/eric-shea/7961"
+      },
+      {
+       "name": "Trey Tobias",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": "Brentwood HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/trey-tobias/7962"
+      },
+      {
+       "name": "Fisher Vollendorf",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tempe, Ariz.",
+       "country": "US",
+       "previous_school": "Fayetteville HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/fisher-vollendorf/7172"
+      },
+      {
+       "name": "Ben Woodruff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Huntersville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/ben-woodruff/10148"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Austin King",
+       "title": "Assistant Coach",
+       "email": "aking116@charlotte.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/austin-king/1605"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Armistead",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Christian",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-armistead/7954"
+      },
+      {
+       "name": "Marc Boucher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "St. Vincent's Castleknock College",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/marc-boucher/6451"
+      },
+      {
+       "name": "Phillip Choi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corinth, Texas",
+       "country": "US",
+       "previous_school": "Marcus HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/phillip-choi/6457"
+      },
+      {
+       "name": "John Gough",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/john-gough/7168"
+      },
+      {
+       "name": "Carson Ownbey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Candler, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/carson-ownbey/10145"
+      },
+      {
+       "name": "Dongjin Park",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/dongjin-park/10146"
+      },
+      {
+       "name": "Trey Tobias",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": "Brentwood HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/trey-tobias/7962"
+      },
+      {
+       "name": "Fisher Vollendorf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tempe, Ariz.",
+       "country": "US",
+       "previous_school": "Fayetteville HS",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/fisher-vollendorf/7172"
+      },
+      {
+       "name": "Ben Woodruff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huntersville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/ben-woodruff/10148"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Austin King",
+       "title": "Assistant Coach",
+       "email": "aking116@charlotte.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/austin-king/1605"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Armistead",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Christian",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-armistead/7954"
+      },
+      {
+       "name": "Marc Boucher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "St. Vincent's Castleknock College",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/marc-boucher/6451"
+      },
+      {
+       "name": "Harvey Byers",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kent, England",
+       "country": "GB",
+       "previous_school": "Whitgift School",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/harvey-byers/5704"
+      },
+      {
+       "name": "John Gough",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/john-gough/7168"
+      },
+      {
+       "name": "Carson Ownbey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Candler, N.C.",
+       "country": "US",
+       "previous_school": "Christ School",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/carson-ownbey/10145"
+      },
+      {
+       "name": "Trey Tobias",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": "Brentwood HS",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/trey-tobias/7962"
+      },
+      {
+       "name": "Fisher Vollendorf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tempe, Ariz.",
+       "country": "US",
+       "previous_school": "Fayetteville HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/fisher-vollendorf/7172"
+      },
+      {
+       "name": "Ben Woodruff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntersville, N.C.",
+       "country": "US",
+       "previous_school": "Hough HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/ben-woodruff/10148"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Austin King",
+       "title": "Assistant Coach",
+       "email": "aking116@charlotte.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/austin-king/1605"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Armistead",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/connor-armistead/7954"
+      },
+      {
+       "name": "Marc Boucher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "St. Vincent's Castleknock College",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/marc-boucher/6451"
+      },
+      {
+       "name": "Harvey Byers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kent, England",
+       "country": "GB",
+       "previous_school": "Whitgift School",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/harvey-byers/5704"
+      },
+      {
+       "name": "John Gough",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic HS",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/john-gough/7168"
+      },
+      {
+       "name": "Matty Lamb",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hexham, England",
+       "country": "GB",
+       "previous_school": "QEHS Hexham",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/matty-lamb/5087"
+      },
+      {
+       "name": "James Medley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Athens, Ala.",
+       "country": "US",
+       "previous_school": "Athens HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/james-medley/5088"
+      },
+      {
+       "name": "Conor Purcell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "Malahide Community School",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-purcell/5089"
+      },
+      {
+       "name": "Zack Swanson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Marvin Ridge HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/zack-swanson/5093"
+      },
+      {
+       "name": "Tyler Young",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Kennesaw, Ga.",
+       "country": "US",
+       "previous_school": "Mount Paran Christian",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/tyler-young/5090"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Austin King",
+       "title": "Assistant Coach",
+       "email": "aking116@charlotte.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/austin-king/1605"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://charlotte49ers.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marc Boucher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "St. Vincent's Castleknock College",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/marc-boucher/6451"
+      },
+      {
+       "name": "Seth Gandy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huntersville, N.C.",
+       "country": "US",
+       "previous_school": "Hough",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/seth-gandy/4183"
+      },
+      {
+       "name": "John Gough",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Slough, England",
+       "country": "GB",
+       "previous_school": "St. Joseph's Catholic HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/john-gough/7168"
+      },
+      {
+       "name": "Matty Lamb",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hexham, England",
+       "country": "GB",
+       "previous_school": "QEHS Hexham",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/matty-lamb/5087"
+      },
+      {
+       "name": "James Medley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Athens, Ala.",
+       "country": "US",
+       "previous_school": "Athens HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/james-medley/5088"
+      },
+      {
+       "name": "Conor Purcell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": "Malahide Community School",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/conor-purcell/5089"
+      },
+      {
+       "name": "Victor Wiggins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gastonia, N.C.",
+       "country": "US",
+       "previous_school": "Bridgeway Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/victor-wiggins/4185"
+      },
+      {
+       "name": "Tyler Young",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Kennesaw, Ga.",
+       "country": "US",
+       "previous_school": "Mount Paran Christian",
+       "class_raw": "R-So.",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/tyler-young/5090"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Cabbage",
+       "title": "Head Coach",
+       "email": "rcabbage@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/ryan-cabbage/2601"
+      },
+      {
+       "name": "Sam Hughes",
+       "title": "Assistant Coach",
+       "email": "shughe44@uncc.edu",
+       "phone": "704-687-0425",
+       "profile_url": "https://charlotte49ers.com/sports/mens-golf/roster/coaches/sam-hughes/405"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://charlotte49ers.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wawa Booncharn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "NMJC",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/wawa-booncharn/13559"
+      },
+      {
+       "name": "Pinky Chaisilprungruang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phitsanulok, Thailand /",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/pinky-chaisilprungruang/13560"
+      },
+      {
+       "name": "Mia Gray",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Conway, S.C.",
+       "country": "US",
+       "previous_school": "Carolina Forest",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/mia-gray/12690"
+      },
+      {
+       "name": "Maia Hattrell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Essex, England",
+       "country": "GB",
+       "previous_school": "New Hall",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/maia-hattrell/13561"
+      },
+      {
+       "name": "Emma Heyman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oskarshamn, Sweden",
+       "country": "SE",
+       "previous_school": "Idaho",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/emma-heyman/13562"
+      },
+      {
+       "name": "Caroline Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mooresville, N.C.",
+       "country": "US",
+       "previous_school": "Pine Lake Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/caroline-johnson/13563"
+      },
+      {
+       "name": "BB Rujiranan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/bb-rujiranan/12692"
+      },
+      {
+       "name": "Jette Schulze",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": "Loewenrot",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jette-schulze/12693"
+      },
+      {
+       "name": "Ilani Short",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Baylor",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ilani-short/12694"
+      },
+      {
+       "name": "Ting Uang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taipei City, Taiwan /",
+       "country": "TW",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ting-uang/13564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "C.C. McMahan",
+       "title": "Head Coach",
+       "email": "coach.cc@charlotte.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Rory Weinfurther",
+       "title": "Assistant Coach",
+       "email": "rweinfur@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/rory-weinfurther/2600"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Pinky Chaisilprungruang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phitsanulok, Thailand /",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/pinky-chaisilprungruang/13560"
+      },
+      {
+       "name": "Mia Gray",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Conway, S.C.",
+       "country": "US",
+       "previous_school": "Carolina Forest",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/mia-gray/12690"
+      },
+      {
+       "name": "Caroline Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mooresville, N.C.",
+       "country": "US",
+       "previous_school": "Pine Lake Prep",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/caroline-johnson/13563"
+      },
+      {
+       "name": "BB Rujiranan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/bb-rujiranan/12692"
+      },
+      {
+       "name": "Jette Schulze",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": "Loewenrot",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jette-schulze/12693"
+      },
+      {
+       "name": "Ilani Short",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Baylor",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ilani-short/12694"
+      },
+      {
+       "name": "Ting Uang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taipei City, Taiwan /",
+       "country": "TW",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ting-uang/13564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Ashburn",
+       "title": "Head Coach",
+       "email": "rashbur1@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ryan-ashburn/2419"
+      },
+      {
+       "name": "C.C. McMahan",
+       "title": "Assistant Coach",
+       "email": "coach.cc@charlotte.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kayla Bartemeyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mount Pleasant, S.C.",
+       "country": "US",
+       "previous_school": "JMU",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kayla-bartemeyer/10566"
+      },
+      {
+       "name": "Shelly Chen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Taipei City, Taiwan",
+       "country": "TW",
+       "previous_school": "UAB",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/shelly-chen/10567"
+      },
+      {
+       "name": "Mia Gray",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Conway, S.C.",
+       "country": "US",
+       "previous_school": "Carolina Forest",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/mia-gray/12690"
+      },
+      {
+       "name": "Caroline Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mooresville, N.C.",
+       "country": "US",
+       "previous_school": "Pine Lake Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/caroline-johnson/13563"
+      },
+      {
+       "name": "Polina Marina",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "1387",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/polina-marina/10568"
+      },
+      {
+       "name": "Kaiyuree Moodley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "South Carolina",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kaiyuree-moodley/10569"
+      },
+      {
+       "name": "Jette Schulze",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": "Loewenrot",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jette-schulze/12693"
+      },
+      {
+       "name": "Ilani Short",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Baylor",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ilani-short/12694"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Ashburn",
+       "title": "Head Coach",
+       "email": "rashbur1@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ryan-ashburn/2419"
+      },
+      {
+       "name": "C.C. McMahan",
+       "title": "Assistant Coach",
+       "email": "coach.cc@charlotte.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kayla Bartemeyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mount Pleasant, S.C.",
+       "country": "US",
+       "previous_school": "JMU",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kayla-bartemeyer/10566"
+      },
+      {
+       "name": "Shelly Chen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taipei City, Taiwan",
+       "country": "TW",
+       "previous_school": "UAB",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/shelly-chen/10567"
+      },
+      {
+       "name": "Caitlin Evans-Brand",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Narberth, Wales, UK",
+       "country": "GB",
+       "previous_school": "Coastal Carolina",
+       "class_raw": "5th",
+       "profile_url": null
+      },
+      {
+       "name": "Polina Marina",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "1387",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/polina-marina/10568"
+      },
+      {
+       "name": "Kaiyuree Moodley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "South Carolina",
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kaiyuree-moodley/10569"
+      },
+      {
+       "name": "Maia Samuelsson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Karlstad, Sweden",
+       "country": "SE",
+       "previous_school": "Jacksonville",
+       "class_raw": "R-So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/maia-samuelsson/10138"
+      },
+      {
+       "name": "Abbey Schimpf",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": "South Carolina",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/abbey-schimpf/10142"
+      },
+      {
+       "name": "Jette Schulze",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": "Loewenrot",
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jette-schulze/12693"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Ashburn",
+       "title": "Head Coach",
+       "email": "rashbur1@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ryan-ashburn/2419"
+      },
+      {
+       "name": "Ellen Secor",
+       "title": "Assistant Coach",
+       "email": "esecor@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ellen-secor/1603"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kayla Bartemeyer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mount Pleasant, S.C.",
+       "country": "US",
+       "previous_school": "JMU",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kayla-bartemeyer/10566"
+      },
+      {
+       "name": "Shelly Chen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taipei City, Taiwan",
+       "country": "TW",
+       "previous_school": "UAB",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/shelly-chen/10567"
+      },
+      {
+       "name": "Charlotte Lafourcade",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint Jean de Luz, France",
+       "country": "FR",
+       "previous_school": "Maryland",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/charlotte-lafourcade/8132"
+      },
+      {
+       "name": "Kaiyuree Moodley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "South Carolina",
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kaiyuree-moodley/10569"
+      },
+      {
+       "name": "Jennifer Rosenberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Laurel Hollow, N.Y.",
+       "country": "US",
+       "previous_school": "Tulane",
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jennifer-rosenberg/8131"
+      },
+      {
+       "name": "Maia Samuelsson",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Karlstad, Sweden",
+       "country": "SE",
+       "previous_school": "Jacksonville",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/maia-samuelsson/10138"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Ashburn",
+       "title": "Head Coach",
+       "email": "rashbur1@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ryan-ashburn/2419"
+      },
+      {
+       "name": "Ellen Secor",
+       "title": "Assistant Coach",
+       "email": "esecor@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ellen-secor/1603"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kennedy Carroll",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mount Pleasant, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kennedy-carroll/7153"
+      },
+      {
+       "name": "Jillian Farrell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dumbarton, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jillian-farrell/7154"
+      },
+      {
+       "name": "Cecilie Finne-Ipsen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ballerup, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ashley Fowler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Heidelberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ashley-fowler/7156"
+      },
+      {
+       "name": "Siarra Stout",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/siarra-stout/7157"
+      },
+      {
+       "name": "Ellinor Sudow",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lerberget, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ellinor-sudow/7158"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Holly Clark",
+       "title": "Head Coach",
+       "email": "Holly.Clark@uncc.edu",
+       "phone": "704-687-1084",
+       "profile_url": null
+      },
+      {
+       "name": "Nic Robinson",
+       "title": "Assistant Coach",
+       "email": "Nic.Robinson@uncc.edu",
+       "phone": "704-687-0475",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/nic-robinson/1053"
+      },
+      {
+       "name": "Ryan Cabbage",
+       "title": "Interim Head Coach / Director of Golf",
+       "email": "rcabbage@uncc.edu",
+       "phone": "704-687-1001",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ryan-cabbage/1148"
+      },
+      {
+       "name": "Ryan Ashburn",
+       "title": "Head Coach",
+       "email": "rashbur1@charlotte.edu",
+       "phone": null,
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/ryan-ashburn/2419"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Barnett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mableton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/madison-barnett/6459"
+      },
+      {
+       "name": "Kennedy Carroll",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mount Pleasant, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/kennedy-carroll/7153"
+      },
+      {
+       "name": "Jillian Farrell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dumbarton, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jillian-farrell/7154"
+      },
+      {
+       "name": "Cecilie Finne-Ipsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ballerup, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Ashley Fowler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Heidelberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ashley-fowler/7156"
+      },
+      {
+       "name": "Siarra Stout",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/siarra-stout/7157"
+      },
+      {
+       "name": "Ellinor Sudow",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lerberget, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ellinor-sudow/7158"
+      },
+      {
+       "name": "Tasa Torbica",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nova Gorica, Slovenia",
+       "country": "SI",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/tasa-torbica/6467"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Holly Clark",
+       "title": "Head Coach",
+       "email": "Holly.Clark@uncc.edu",
+       "phone": "704-687-1084",
+       "profile_url": null
+      },
+      {
+       "name": "Nic Robinson",
+       "title": "Assistant Coach",
+       "email": "Nic.Robinson@uncc.edu",
+       "phone": "704-687-0475",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/nic-robinson/1053"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Barnett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mableton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/madison-barnett/6459"
+      },
+      {
+       "name": "Jillian Farrell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dumbarton, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jillian-farrell/7154"
+      },
+      {
+       "name": "Cecilie Finne-Ipsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ballerup, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ashley Fowler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Heidelberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ashley-fowler/7156"
+      },
+      {
+       "name": "Mary Kate Hiller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/mary-kate-hiller/5575"
+      },
+      {
+       "name": "Siarra Stout",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/siarra-stout/7157"
+      },
+      {
+       "name": "Ellinor Sudow",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lerberget, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ellinor-sudow/7158"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Holly Clark",
+       "title": "Head Coach",
+       "email": "Holly.Clark@uncc.edu",
+       "phone": "704-687-1084",
+       "profile_url": null
+      },
+      {
+       "name": "Nic Robinson",
+       "title": "Assistant Coach",
+       "email": "Nic.Robinson@uncc.edu",
+       "phone": "704-687-0475",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/nic-robinson/1053"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Barnett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mableton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/madison-barnett/6459"
+      },
+      {
+       "name": "Lauren Decker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jeffersonville, Ind.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/lauren-decker/5079"
+      },
+      {
+       "name": "Jillian Farrell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dumbarton, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jillian-farrell/7154"
+      },
+      {
+       "name": "Ashley Fowler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Heidelberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ashley-fowler/7156"
+      },
+      {
+       "name": "Mary Kate Hiller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/mary-kate-hiller/5575"
+      },
+      {
+       "name": "Siarra Stout",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/siarra-stout/7157"
+      },
+      {
+       "name": "Ellinor Sudow",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lerberget, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ellinor-sudow/7158"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Holly Clark",
+       "title": "Head Coach",
+       "email": "Holly.Clark@uncc.edu",
+       "phone": "704-687-1084",
+       "profile_url": null
+      },
+      {
+       "name": "Nic Robinson",
+       "title": "Assistant Coach",
+       "email": "Nic.Robinson@uncc.edu",
+       "phone": "704-687-0475",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/nic-robinson/1053"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://charlotte49ers.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Barnett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mableton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/madison-barnett/6459"
+      },
+      {
+       "name": "Lauren Decker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jeffersonville, Ind.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/lauren-decker/5079"
+      },
+      {
+       "name": "Jillian Farrell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dumbarton, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/jillian-farrell/7154"
+      },
+      {
+       "name": "Ashley Fowler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Heidelberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ashley-fowler/7156"
+      },
+      {
+       "name": "Mary Kate Hiller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/mary-kate-hiller/5575"
+      },
+      {
+       "name": "Siarra Stout",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/siarra-stout/7157"
+      },
+      {
+       "name": "Ellinor Sudow",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lerberget, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/ellinor-sudow/7158"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Holly Clark",
+       "title": "Head Coach",
+       "email": "Holly.Clark@uncc.edu",
+       "phone": "704-687-1084",
+       "profile_url": null
+      },
+      {
+       "name": "Nic Robinson",
+       "title": "Assistant Coach",
+       "email": "Nic.Robinson@uncc.edu",
+       "phone": "704-687-0475",
+       "profile_url": "https://charlotte49ers.com/sports/womens-golf/roster/coaches/nic-robinson/1053"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://charlotte49ers.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://charlotte49ers.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://charlotte49ers.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://charlotte49ers.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://charlotte49ers.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,36 +1,2599 @@
 {
  "slug": "nc-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gopack.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Xander Goboy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chesapeake, Va.",
+       "country": "US",
+       "previous_school": "Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/xander-goboy/16962"
+      },
+      {
+       "name": "Joey Lenane",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dedham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/joey-lenane/15563"
+      },
+      {
+       "name": "Pearce Lewin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Tennessee",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/pearce-lewin/16963"
+      },
+      {
+       "name": "Rylan Shim",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Centreville, Va.",
+       "country": "US",
+       "previous_school": "Florida",
+       "class_raw": "R-So.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/rylan-shim/16964"
+      },
+      {
+       "name": "Hunter Stetson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Episcopal Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/hunter-stetson/16965"
+      },
+      {
+       "name": "Markus Varjun",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Tallinn, Estonia",
+       "country": "EE",
+       "previous_school": "Middle Tennessee",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/markus-varjun/15567"
+      },
+      {
+       "name": "Evan Woosley-Reed",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Shelbyville, Tenn.",
+       "country": "US",
+       "previous_school": "Tennessee",
+       "class_raw": "Sr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bo Andrews",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/bo-andrews/5341"
+      },
+      {
+       "name": "Kavan Eubank",
+       "title": "Assistant Men's Golf Coach",
+       "email": "kmeubank@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/kavan-eubank/5342"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tanner Cadieux",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Page",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/tanner-cadieux/14165"
+      },
+      {
+       "name": "Xander Goboy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chesapeake, Va.",
+       "country": "US",
+       "previous_school": "Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/xander-goboy/16962"
+      },
+      {
+       "name": "Joey Lenane",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dedham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/joey-lenane/15563"
+      },
+      {
+       "name": "Nick Mathews",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance",
+       "class_raw": "R-Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nick-mathews/14160"
+      },
+      {
+       "name": "Cade McLaughlin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Princeton, N.J.",
+       "country": "US",
+       "previous_school": "Kent School (Ct.)",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/cade-mclaughlin/14161"
+      },
+      {
+       "name": "Adam Pedersen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ikast, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Management First Year",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/adam-pedersen/14162"
+      },
+      {
+       "name": "Hunter Stetson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": "Episcopal Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/hunter-stetson/16965"
+      },
+      {
+       "name": "Michael Vick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Raleigh Charter",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/michael-vick/14163"
+      },
+      {
+       "name": "Jake Wiktor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "River Forest, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-wiktor/14164"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Jacob Hicks",
+       "title": "Assistant Coach",
+       "email": "jmhicks6@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/jacob-hicks/4849"
+      },
+      {
+       "name": "Easton Paxton",
+       "title": "Assistant Coach",
+       "email": "erpaxton@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/easton-paxton/4850"
+      },
+      {
+       "name": "Isabel Amezcua",
+       "title": "Director of Operations",
+       "email": "ijamezcu@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/isabel-amezcua/4862"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Choi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pincher Creek, Canada",
+       "country": "CA",
+       "previous_school": "St. Michael’s School",
+       "class_raw": "Sr.",
+       "major": "Accounting",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/ethan-choi/12550"
+      },
+      {
+       "name": "Carter Graf",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/carter-graf/12551"
+      },
+      {
+       "name": "Joey Lenane",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dedham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/joey-lenane/15563"
+      },
+      {
+       "name": "Nick Mathews",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance",
+       "class_raw": "R-Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nick-mathews/14160"
+      },
+      {
+       "name": "Cade McLaughlin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Princeton, N.J.",
+       "country": "US",
+       "previous_school": "Kent School (Ct.)",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/cade-mclaughlin/14161"
+      },
+      {
+       "name": "Spencer Oxendine",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt",
+       "class_raw": "Gr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/spencer-oxendine/12554"
+      },
+      {
+       "name": "Adam Pedersen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ikast, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Management First Year",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/adam-pedersen/14162"
+      },
+      {
+       "name": "Michael Vick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Raleigh Charter",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/michael-vick/14163"
+      },
+      {
+       "name": "Jake Wiktor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "River Forest, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-wiktor/14164"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Jacob Hicks",
+       "title": "Assistant Coach",
+       "email": "jmhicks6@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/jacob-hicks/4849"
+      },
+      {
+       "name": "Easton Paxton",
+       "title": "Assistant Coach",
+       "email": "erpaxton@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/easton-paxton/4850"
+      },
+      {
+       "name": "Jason Cox",
+       "title": "Director of Operations",
+       "email": "cjcox5@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/jason-cox/4525"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "William Bryant",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/william-bryant/11966"
+      },
+      {
+       "name": "Ethan Choi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pincher Creek, Canada",
+       "country": "CA",
+       "previous_school": "St. Michael’s School",
+       "class_raw": "Jr.",
+       "major": "Accounting",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/ethan-choi/12550"
+      },
+      {
+       "name": "Brandon Einstein",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clemmons, N.C.",
+       "country": "US",
+       "previous_school": "Forsyth Country Day",
+       "class_raw": "Sr.",
+       "major": "Anthropology",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/brandon-einstein/11607"
+      },
+      {
+       "name": "Carter Graf",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/carter-graf/12551"
+      },
+      {
+       "name": "Jake Herring",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Wilson, N.C.",
+       "country": "US",
+       "previous_school": "Fike",
+       "class_raw": "R-So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-herring/11603"
+      },
+      {
+       "name": "Michael La Sasso",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "St. David's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/michael-la-sasso/11839"
+      },
+      {
+       "name": "Joey Lenane",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dedham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/joey-lenane/15563"
+      },
+      {
+       "name": "Nick Mathews",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance",
+       "class_raw": "R-So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nick-mathews/14160"
+      },
+      {
+       "name": "Spencer Oxendine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/spencer-oxendine/12554"
+      },
+      {
+       "name": "Maximilian Steinlechner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Innsbruck, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/maximilian-steinlechner/11605"
+      },
+      {
+       "name": "Jake Wiktor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "River Forest, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-wiktor/14164"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Jeremy Alcorn",
+       "title": "Assistant Coach",
+       "email": "jalcorn@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/jeremy-alcorn/4119"
+      },
+      {
+       "name": "Jason Cox",
+       "title": "Director of Operations",
+       "email": "cjcox5@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/staff/jason-cox/3"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tim Bunten",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Concord, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "Gr.",
+       "major": "Parks, Recreation, Tourism & Sport Management Masters Program",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/tim-bunten/11224"
+      },
+      {
+       "name": "Ethan Choi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pincher Creek, Canada",
+       "country": "CA",
+       "previous_school": "St. Michael’s School",
+       "class_raw": "So.",
+       "major": "Accounting",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/ethan-choi/12550"
+      },
+      {
+       "name": "Thomas Deal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "William Amos Hough",
+       "class_raw": "Sr.",
+       "major": "Aerospace Engineering",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/thomas-deal/11217"
+      },
+      {
+       "name": "Brandon Einstein",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clemmons, N.C.",
+       "country": "US",
+       "previous_school": "Forsyth Country Day",
+       "class_raw": "Jr.",
+       "major": "Anthropology",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/brandon-einstein/11607"
+      },
+      {
+       "name": "Carter Graf",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/carter-graf/12551"
+      },
+      {
+       "name": "Jake Herring",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Wilson, N.C.",
+       "country": "US",
+       "previous_school": "Fike",
+       "class_raw": "R-Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-herring/11603"
+      },
+      {
+       "name": "Nick Mathews",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nick-mathews/14160"
+      },
+      {
+       "name": "Spencer Oxendine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/spencer-oxendine/12554"
+      },
+      {
+       "name": "Easton Paxton",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "Gr.",
+       "major": "Sport & Entertainment Venue Management Graduate Certificate",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/easton-paxton/11222"
+      },
+      {
+       "name": "Maximilian Steinlechner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Innsbruck, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/maximilian-steinlechner/11605"
+      },
+      {
+       "name": "Jake Wiktor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "River Forest, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-wiktor/14164"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Choi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pincher Creek, Canada",
+       "country": "CA",
+       "previous_school": "St. Michael’s School",
+       "class_raw": "Fr.",
+       "major": "Accounting",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/ethan-choi/12550"
+      },
+      {
+       "name": "Thomas Deal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "William Amos Hough",
+       "class_raw": "Jr.",
+       "major": "Aerospace Engineering",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/thomas-deal/11217"
+      },
+      {
+       "name": "Carter Graf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/carter-graf/12551"
+      },
+      {
+       "name": "Jake Herring",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wilson, N.C.",
+       "country": "US",
+       "previous_school": "Fike",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jake-herring/11603"
+      },
+      {
+       "name": "Nick Mathews",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mebane, N.C.",
+       "country": "US",
+       "previous_school": "Eastern Alamance",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nick-mathews/14160"
+      },
+      {
+       "name": "Spencer Oxendine",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/spencer-oxendine/12554"
+      },
+      {
+       "name": "Easton Paxton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "Sr.",
+       "major": "Sport & Entertainment Venue Management Graduate Certificate",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/easton-paxton/11222"
+      },
+      {
+       "name": "Christian Salzer",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sumter, S.C.",
+       "country": "US",
+       "previous_school": "Wilson Hall",
+       "class_raw": "Gr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/christian-salzer/10575"
+      },
+      {
+       "name": "Benjamin Shipp",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "Great Atlanta Christian",
+       "class_raw": "Gr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/benjamin-shipp/10576"
+      },
+      {
+       "name": "Maximilian Steinlechner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Innsbruck, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/maximilian-steinlechner/11605"
+      },
+      {
+       "name": "Andrew Wilmoth",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "St. David's School",
+       "class_raw": "Jr.",
+       "major": "Biological Science",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/andrew-wilmoth/10578"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": "mrmoot@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/matt-moot/3741"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thomas Deal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "William Amos Hough",
+       "class_raw": "So.",
+       "major": "Aerospace Engineering",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/thomas-deal/11217"
+      },
+      {
+       "name": "Carter Graf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/carter-graf/12551"
+      },
+      {
+       "name": "Brett McLamb",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Coats, N.C.",
+       "country": "US",
+       "previous_school": "Triton",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/brett-mclamb/9181"
+      },
+      {
+       "name": "Spencer Oxendine",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/spencer-oxendine/12554"
+      },
+      {
+       "name": "Easton Paxton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "Jr.",
+       "major": "Sport & Entertainment Venue Management Graduate Certificate",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/easton-paxton/11222"
+      },
+      {
+       "name": "Christian Salzer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sumter, S.C.",
+       "country": "US",
+       "previous_school": "Wilson Hall",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/christian-salzer/10575"
+      },
+      {
+       "name": "Benjamin Shipp",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "Great Atlanta Christian",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/benjamin-shipp/10576"
+      },
+      {
+       "name": "Maximilian Steinlechner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Innsbruck, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/maximilian-steinlechner/11605"
+      },
+      {
+       "name": "Andrew Wilmoth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "St. David's School",
+       "class_raw": "So.",
+       "major": "Biological Science",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/andrew-wilmoth/10578"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Van Williams",
+       "title": "Associate Head Coach",
+       "email": "vewillia@ncsu.edu",
+       "phone": "(919) 513-3554",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/van-williams/3435"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thomas Deal",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cornelius, N.C.",
+       "country": "US",
+       "previous_school": "William Amos Hough",
+       "class_raw": "Fr.",
+       "major": "Aerospace Engineering",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/thomas-deal/11217"
+      },
+      {
+       "name": "Stephen Franken",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Millbrook",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/stephen-franken/8402"
+      },
+      {
+       "name": "Justin Hood",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Matthews, S.C.",
+       "country": "US",
+       "previous_school": "Calhoun Academy",
+       "class_raw": "Sr.",
+       "major": "Professional Golf Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/justin-hood/8406"
+      },
+      {
+       "name": "Nolan Mills Jr.",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nolan-mills-jr/8408"
+      },
+      {
+       "name": "Easton Paxton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "So.",
+       "major": "Sport & Entertainment Venue Management Graduate Certificate",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/easton-paxton/11222"
+      },
+      {
+       "name": "Harrison Rhoades",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/harrison-rhoades/8407"
+      },
+      {
+       "name": "Davis Richards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "China Grove, N.C.",
+       "country": "US",
+       "previous_school": "South Rowan",
+       "class_raw": "Sr.",
+       "major": "Professional Golf Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/davis-richards/8410"
+      },
+      {
+       "name": "Christian Salzer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sumter, S.C.",
+       "country": "US",
+       "previous_school": "Wilson Hall",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/christian-salzer/10575"
+      },
+      {
+       "name": "Benjamin Shipp",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "Great Atlanta Christian",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/benjamin-shipp/10576"
+      },
+      {
+       "name": "Andrew Wilmoth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "St. David's School",
+       "class_raw": "Fr.",
+       "major": "Biological Science",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/andrew-wilmoth/10578"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Van Williams",
+       "title": "Assistant Coach",
+       "email": "vewillia@ncsu.edu",
+       "phone": "(919) 513-3554",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/van-williams/3435"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Dwight Cauthen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "So.",
+       "major": "Agricultural Science",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/dwight-cauthen/6180"
+      },
+      {
+       "name": "Stephen Franken",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Millbrook",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/stephen-franken/8402"
+      },
+      {
+       "name": "Justin Hood",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Matthews, S.C.",
+       "country": "US",
+       "previous_school": "Calhoun Academy",
+       "class_raw": "Jr.",
+       "major": "Professional Golf Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/justin-hood/8406"
+      },
+      {
+       "name": "Nolan Mills Jr.",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nolan-mills-jr/8408"
+      },
+      {
+       "name": "Easton Paxton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Riverton, Wyo.",
+       "country": "US",
+       "previous_school": "Riverton",
+       "class_raw": "Fr.",
+       "major": "Sport & Entertainment Venue Management Graduate Certificate",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/easton-paxton/11222"
+      },
+      {
+       "name": "Harrison Rhoades",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/harrison-rhoades/8407"
+      },
+      {
+       "name": "Davis Richards",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "China Grove, N.C.",
+       "country": "US",
+       "previous_school": "South Rowan",
+       "class_raw": "Jr.",
+       "major": "Professional Golf Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/davis-richards/8410"
+      },
+      {
+       "name": "Christian Salzer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sumter, S.C.",
+       "country": "US",
+       "previous_school": "Wilson Hall",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/christian-salzer/10575"
+      },
+      {
+       "name": "Benjamin Shipp",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "Great Atlanta Christian",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/benjamin-shipp/10576"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Press McPhaul",
+       "title": "Head Golf Coach",
+       "email": "ncstatemensgolf@ncsu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Van Williams",
+       "title": "Assistant Coach",
+       "email": "vewillia@ncsu.edu",
+       "phone": "(919) 513-3554",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/van-williams/3435"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gopack.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Dwight Cauthen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Fr.",
+       "major": "Agricultural Science",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/dwight-cauthen/6180"
+      },
+      {
+       "name": "Chad Cox",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Hickory Grove Baptist Christian",
+       "class_raw": "Sr.",
+       "major": "Parks, Recreation, and Tourism Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/chad-cox/4271"
+      },
+      {
+       "name": "Stephen Franken",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Millbrook",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/stephen-franken/8402"
+      },
+      {
+       "name": "Justin Hood",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Matthews, S.C.",
+       "country": "US",
+       "previous_school": "Calhoun Academy",
+       "class_raw": "So.",
+       "major": "Professional Golf Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/justin-hood/8406"
+      },
+      {
+       "name": "DK Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Marvin Ridge",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/dk-kim/4449"
+      },
+      {
+       "name": "Jacob McBride",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hartville, Ohio",
+       "country": "US",
+       "previous_school": "Uniontown Lake",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/jacob-mcbride/4275"
+      },
+      {
+       "name": "Nolan Mills Jr.",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/nolan-mills-jr/8408"
+      },
+      {
+       "name": "Harrison Rhoades",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/harrison-rhoades/8407"
+      },
+      {
+       "name": "Davis Richards",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "China Grove, N.C.",
+       "country": "US",
+       "previous_school": "South Rowan",
+       "class_raw": "So.",
+       "major": "Professional Golf Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/davis-richards/8410"
+      },
+      {
+       "name": "Christian Salzer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sumter, S.C.",
+       "country": "US",
+       "previous_school": "Wilson Hall",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/christian-salzer/10575"
+      },
+      {
+       "name": "Benjamin Shipp",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Duluth, Ga.",
+       "country": "US",
+       "previous_school": "Great Atlanta Christian",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/benjamin-shipp/10576"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Richard Sykes",
+       "title": "Head Golf Coach",
+       "email": "ersykes@ncsu.edu",
+       "phone": "(919) 515-3317",
+       "profile_url": "https://gopack.com/sports/mens-golf/roster/coaches/richard-sykes/364"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gopack.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Violeta Fernandez-Tagle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cadiz, Spain",
+       "country": "ES",
+       "previous_school": "Chattanooga",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Giulia Foresta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": "Chattanooga",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/giulia-foresta/16905"
+      },
+      {
+       "name": "Ellie Hildreth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wrightsville Beach, N.C.",
+       "country": "US",
+       "previous_school": "Hoggard",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/ellie-hildreth/16906"
+      },
+      {
+       "name": "Lea Ludwig",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oftersheim, Germany",
+       "country": "DE",
+       "previous_school": "Kurpfalz-Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-ludwig/16907"
+      },
+      {
+       "name": "Marie Eline Madsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Viborg, Denmark",
+       "country": "DK",
+       "previous_school": "Midtbyens Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/marie-eline-madsen/16908"
+      },
+      {
+       "name": "Lindsay McGrath",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oakville, Ontario, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lindsay-mcgrath/16909"
+      },
+      {
+       "name": "Vania Simont",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/vania-simont/15444"
+      },
+      {
+       "name": "Leena Stephens",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spring, Texas",
+       "country": "US",
+       "previous_school": "Woodlands High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/leena-stephens/15445"
+      },
+      {
+       "name": "Elizabeth Sullivan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "St. Pius X Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/elizabeth-sullivan/16911"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Darby Sligh",
+       "title": "Head Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Courtney Gunter",
+       "title": "Assistant Coach",
+       "email": "cbgunte2@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/courtney-gunter/5332"
+      },
+      {
+       "name": "Ulrika Migliaccio",
+       "title": "Assistant Coach",
+       "email": "uemiglia@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ulrika-migliaccio/5333"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jaclyn Kenzel",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Southern Pines, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Gr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/jaclyn-kenzel/13359"
+      },
+      {
+       "name": "Lea Ludwig",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oftersheim, Germany",
+       "country": "DE",
+       "previous_school": "Kurpfalz-Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-ludwig/16907"
+      },
+      {
+       "name": "Marie Eline Madsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Viborg, Denmark",
+       "country": "DK",
+       "previous_school": "Midtbyens Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/marie-eline-madsen/16908"
+      },
+      {
+       "name": "Lauren Olivares Leon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Celaya, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "major": "Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lauren-olivares-leon/13361"
+      },
+      {
+       "name": "Vania Simont",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/vania-simont/15444"
+      },
+      {
+       "name": "Leena Stephens",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spring, Texas",
+       "country": "US",
+       "previous_school": "Woodlands High School",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/leena-stephens/15445"
+      },
+      {
+       "name": "Caitlin Whitehead",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kendal, England",
+       "country": "GB",
+       "previous_school": "Arizona",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/caitlin-whitehead/13365"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Darby Sligh",
+       "title": "Head Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Courtney Gunter",
+       "title": "Assistant Coach",
+       "email": "cbgunte2@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/courtney-gunter/5332"
+      },
+      {
+       "name": "Ulrika Migliaccio",
+       "title": "Assistant Coach",
+       "email": "uemiglia@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ulrika-migliaccio/5333"
+      },
+      {
+       "name": "Isabel Amezcua",
+       "title": "Director of Operations",
+       "email": "ijamezcu@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/isabel-amezcua/4862"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isabel Amezcua",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "New Braunfels High School",
+       "class_raw": "Sr.",
+       "major": "Communication",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/isabel-amezcua/12561"
+      },
+      {
+       "name": "Jaclyn Kenzel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southern Pines, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/jaclyn-kenzel/13359"
+      },
+      {
+       "name": "Lea Ludwig",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oftersheim, Germany",
+       "country": "DE",
+       "previous_school": "Kurpfalz-Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-ludwig/16907"
+      },
+      {
+       "name": "Sofia Migliaccio",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Athens Drive",
+       "class_raw": "Sr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/sofia-migliaccio/12563"
+      },
+      {
+       "name": "Lauren Olivares Leon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Celaya, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "major": "Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lauren-olivares-leon/13361"
+      },
+      {
+       "name": "Ellise Rymer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gainsborough, England",
+       "country": "GB",
+       "previous_school": "North Lindsey College",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/ellise-rymer/12567"
+      },
+      {
+       "name": "Vania Simont",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/vania-simont/15444"
+      },
+      {
+       "name": "Leena Stephens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spring, Texas",
+       "country": "US",
+       "previous_school": "Woodlands High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/leena-stephens/15445"
+      },
+      {
+       "name": "Caitlin Whitehead",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kendal, England",
+       "country": "GB",
+       "previous_school": "Arizona",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/caitlin-whitehead/13365"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Darby Sligh",
+       "title": "Head Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Ulrika Migliaccio",
+       "title": "Assistant Coach",
+       "email": "uemiglia@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ulrika-migliaccio/5333"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isabel Amezcua",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "New Braunfels High School",
+       "class_raw": "Jr.",
+       "major": "Communication",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/isabel-amezcua/12561"
+      },
+      {
+       "name": "Natalie Armbruester",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Zurich, Switzerland",
+       "country": "CH",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/natalie-armbruester/11847"
+      },
+      {
+       "name": "Pilar Berchot",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio del Libertador",
+       "class_raw": "Sr.",
+       "major": "Psychology",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/pilar-berchot/11848"
+      },
+      {
+       "name": "Inja Fric",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ljubljana, Slovenia",
+       "country": "SI",
+       "previous_school": "Gimnazija Šiška-Ljubljana",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/inja-fric/11849"
+      },
+      {
+       "name": "Jaclyn Kenzel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southern Pines, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/jaclyn-kenzel/13359"
+      },
+      {
+       "name": "Sofia Migliaccio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Athens Drive",
+       "class_raw": "Jr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/sofia-migliaccio/12563"
+      },
+      {
+       "name": "Lauren Olivares Leon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Celaya, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lauren-olivares-leon/13361"
+      },
+      {
+       "name": "Vania Simont",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/vania-simont/15444"
+      },
+      {
+       "name": "Caitlin Whitehead",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kendal, England",
+       "country": "GB",
+       "previous_school": "Arizona",
+       "class_raw": "So.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/caitlin-whitehead/13365"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Darby Sligh",
+       "title": "Associate Head Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Ulrika Migliaccio",
+       "title": "Volunteer Assistant Coach",
+       "email": "uemiglia@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ulrika-migliaccio/5333"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isabel Amezcua",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "New Braunfels High School",
+       "class_raw": "So.",
+       "major": "Communication",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/isabel-amezcua/12561"
+      },
+      {
+       "name": "Natalie Armbruester",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Zurich, Switzerland",
+       "country": "CH",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/natalie-armbruester/11847"
+      },
+      {
+       "name": "Pilar Berchot",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio del Libertador",
+       "class_raw": "Jr.",
+       "major": "Psychology",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/pilar-berchot/11848"
+      },
+      {
+       "name": "Inja Fric",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ljubljana, Slovenia",
+       "country": "SI",
+       "previous_school": "Gimnazija Šiška-Ljubljana",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/inja-fric/11849"
+      },
+      {
+       "name": "Lea Klimentova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Súkromné Slovanské Gymnázium",
+       "class_raw": "Sr.",
+       "major": "Parks, Recreation and Tourism Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-klimentova/10865"
+      },
+      {
+       "name": "Nicole Kramer",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "R-Jr.",
+       "major": "Biological Sciences",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/nicole-kramer/10866"
+      },
+      {
+       "name": "Lauren Olivares Leon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Celaya, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lauren-olivares-leon/13361"
+      },
+      {
+       "name": "Ryann Sinclair",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Mooresville, N.C.",
+       "country": "US",
+       "previous_school": "Davidson Day School",
+       "class_raw": "R-So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/ryann-sinclair/10868"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Darby Sligh",
+       "title": "Assistant Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Ulrika Migliaccio",
+       "title": "Volunteer Assistant Coach",
+       "email": "uemiglia@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ulrika-migliaccio/5333"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isabel Amezcua",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "New Braunfels High School",
+       "class_raw": "Fr.",
+       "major": "Communication",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/isabel-amezcua/12561"
+      },
+      {
+       "name": "Natalie Armbruester",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Zurich, Switzerland",
+       "country": "CH",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/natalie-armbruester/11847"
+      },
+      {
+       "name": "Pilar Berchot",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio del Libertador",
+       "class_raw": "So.",
+       "major": "Psychology",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/pilar-berchot/11848"
+      },
+      {
+       "name": "Inja Fric",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ljubljana, Slovenia",
+       "country": "SI",
+       "previous_school": "Gimnazija Šiška-Ljubljana",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/inja-fric/11849"
+      },
+      {
+       "name": "Lea Klimentova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Súkromné Slovanské Gymnázium",
+       "class_raw": "Jr.",
+       "major": "Parks, Recreation and Tourism Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-klimentova/10865"
+      },
+      {
+       "name": "Nicole Kramer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "R-So.",
+       "major": "Biological Sciences",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/nicole-kramer/10866"
+      },
+      {
+       "name": "Shirley Ou",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Sandhills Community College",
+       "class_raw": "Sr.",
+       "major": "Accounting",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/shirley-ou/10592"
+      },
+      {
+       "name": "Ryann Sinclair",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Mooresville, N.C.",
+       "country": "US",
+       "previous_school": "Davidson Day School",
+       "class_raw": "R-Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/ryann-sinclair/10868"
+      },
+      {
+       "name": "Monika Vicario",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bamberg, Germany",
+       "country": "DE",
+       "previous_school": "Clavius-Gymnasium",
+       "class_raw": "Sr.",
+       "major": "Applied Nutrition",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/monika-vicario/9558"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Darby Sligh",
+       "title": "Assistant Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Ashlee Dean",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ashlee-dean/3593"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natalie Armbruester",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Zurich, Switzerland",
+       "country": "CH",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/natalie-armbruester/11847"
+      },
+      {
+       "name": "Pilar Berchot",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio del Libertador",
+       "class_raw": "Fr.",
+       "major": "Psychology",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/pilar-berchot/11848"
+      },
+      {
+       "name": "Inja Fric",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ljubljana, Slovenia",
+       "country": "SI",
+       "previous_school": "Gimnazija Šiška-Ljubljana",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/inja-fric/11849"
+      },
+      {
+       "name": "Lea Klimentova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Súkromné Slovanské Gymnázium",
+       "class_raw": "So.",
+       "major": "Parks, Recreation and Tourism Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-klimentova/10865"
+      },
+      {
+       "name": "Nicole Kramer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "So.",
+       "major": "Biological Sciences",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/nicole-kramer/10866"
+      },
+      {
+       "name": "Shirley Ou",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Sandhills Community College",
+       "class_raw": "Jr.",
+       "major": "Accounting",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/shirley-ou/10592"
+      },
+      {
+       "name": "Mim Sangkapong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Gardner-Webb",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/mim-sangkapong/8760"
+      },
+      {
+       "name": "Ryann Sinclair",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mooresville, N.C.",
+       "country": "US",
+       "previous_school": "Davidson Day School",
+       "class_raw": "Fr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/ryann-sinclair/10868"
+      },
+      {
+       "name": "Emily Song",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Song Family School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/emily-song/8765"
+      },
+      {
+       "name": "Monika Vicario",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bamberg, Germany",
+       "country": "DE",
+       "previous_school": "Clavius-Gymnasium",
+       "class_raw": "Jr.",
+       "major": "Applied Nutrition",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/monika-vicario/9558"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Darby Sligh",
+       "title": "Assistant Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Ashlee Dean",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/ashlee-dean/3593"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "India Clyburn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cleethorpes, England",
+       "country": "GB",
+       "previous_school": "Tollbar Business and Enterprise College",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/india-clyburn/7864"
+      },
+      {
+       "name": "Lea Klimentova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Súkromné Slovanské Gymnázium",
+       "class_raw": "Fr.",
+       "major": "Parks, Recreation and Tourism Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/lea-klimentova/10865"
+      },
+      {
+       "name": "Naomi Ko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Victoria, B.C., Canada",
+       "country": "CA",
+       "previous_school": "Claremont Secondary School",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/naomi-ko/7866"
+      },
+      {
+       "name": "Laura Kowohl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kronau, Germany",
+       "country": "DE",
+       "previous_school": "Privatgymnasium St.Leon-Rot",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/laura-kowohl/7867"
+      },
+      {
+       "name": "Nicole Kramer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "Fr.",
+       "major": "Biological Sciences",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/nicole-kramer/10866"
+      },
+      {
+       "name": "Christina Lu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory School",
+       "class_raw": "Jr.",
+       "major": "Sport Management & Nutrition Science",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/christina-lu/7868"
+      },
+      {
+       "name": "Mim Sangkapong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Gardner-Webb",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/mim-sangkapong/8760"
+      },
+      {
+       "name": "Monika Vicario",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bamberg, Germany",
+       "country": "DE",
+       "previous_school": "Clavius-Gymnasium",
+       "class_raw": "So.",
+       "major": "Applied Nutrition",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/monika-vicario/9558"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Darby Sligh",
+       "title": "Assistant Coach",
+       "email": "desligh@ncsu.edu",
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/darby-sligh/5331"
+      },
+      {
+       "name": "Rachael Taylor",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/rachael-taylor/1956"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "India Clyburn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cleethorpes, England",
+       "country": "GB",
+       "previous_school": "Tollbar Business and Enterprise College",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/india-clyburn/7864"
+      },
+      {
+       "name": "Crystal Huang",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "ShunDe GuangDong, China",
+       "country": "CN",
+       "previous_school": "GuangDong Country Garden School",
+       "class_raw": "R-Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/crystal-huang/6205"
+      },
+      {
+       "name": "Naomi Ko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Victoria, B.C., Canada",
+       "country": "CA",
+       "previous_school": "Claremont Secondary School",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/naomi-ko/7866"
+      },
+      {
+       "name": "Laura Kowohl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kronau, Germany",
+       "country": "DE",
+       "previous_school": "Privatgymnasium St.Leon-Rot",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/laura-kowohl/7867"
+      },
+      {
+       "name": "Christina Lu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory School",
+       "class_raw": "So.",
+       "major": "Sport Management & Nutrition Science",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/christina-lu/7868"
+      },
+      {
+       "name": "Cecily Overbey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "High Point, N.C.",
+       "country": "US",
+       "previous_school": "Wesleyan Christian Academy",
+       "class_raw": "Sr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/cecily-overbey/6209"
+      },
+      {
+       "name": "Mim Sangkapong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Gardner-Webb",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/mim-sangkapong/8760"
+      },
+      {
+       "name": "Monika Vicario",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bamberg, Germany",
+       "country": "DE",
+       "previous_school": "Clavius-Gymnasium",
+       "class_raw": "Fr.",
+       "major": "Applied Nutrition",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/monika-vicario/9558"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Rachael Taylor",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/rachael-taylor/1956"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gopack.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sarah Bae",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "High Point",
+       "class_raw": "Sr.",
+       "major": "International Studies",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/sarah-bae/4327"
+      },
+      {
+       "name": "Leonie Bettel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vienna, Austria",
+       "country": "AT",
+       "previous_school": "GRG 3 Landstraßer Gymnasium",
+       "class_raw": "So.",
+       "major": "Civil Engineering/Math",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/leonie-bettel/4328"
+      },
+      {
+       "name": "India Clyburn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cleethorpes, England",
+       "country": "GB",
+       "previous_school": "Tollbar Business and Enterprise College",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/india-clyburn/7864"
+      },
+      {
+       "name": "Crystal Huang",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "ShunDe GuangDong, China",
+       "country": "CN",
+       "previous_school": "GuangDong Country Garden School",
+       "class_raw": "R-So.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/crystal-huang/6205"
+      },
+      {
+       "name": "Naomi Ko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Victoria, B.C., Canada",
+       "country": "CA",
+       "previous_school": "Claremont Secondary School",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/naomi-ko/7866"
+      },
+      {
+       "name": "Laura Kowohl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kronau, Germany",
+       "country": "DE",
+       "previous_school": "Privatgymnasium St.Leon-Rot",
+       "class_raw": "So.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/laura-kowohl/7867"
+      },
+      {
+       "name": "Christina Lu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Lake Mary Preparatory School",
+       "class_raw": "Fr.",
+       "major": "Sport Management & Nutrition Science",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/christina-lu/7868"
+      },
+      {
+       "name": "Cecily Overbey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "High Point, N.C.",
+       "country": "US",
+       "previous_school": "Wesleyan Christian Academy",
+       "class_raw": "Jr.",
+       "major": "Business Administration",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/cecily-overbey/6209"
+      },
+      {
+       "name": "Stephanie Pribonic",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wake Forest, N.C.",
+       "country": "US",
+       "previous_school": "Wakefield",
+       "class_raw": "Sr.",
+       "major": "Chemical Engineering",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/stephanie-pribonic/4334"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Page Marsh",
+       "title": "Head Coach",
+       "email": "page_marsh@ncsu.edu",
+       "phone": "(919) 513-4169",
+       "profile_url": "https://gopack.com/sports/womens-golf/roster/coaches/page-marsh/4209"
+      },
+      {
+       "name": "Kristin Paulson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gopack.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gopack.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gopack.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gopack.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gopack.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

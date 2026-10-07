@@ -1,22 +1,1343 @@
 {
  "slug": "liberty",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://libertyflames.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Evan Barbin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/evan-barbin/15983"
+      },
+      {
+       "name": "Andrew Gregory",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Inman, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/andrew-gregory/15984"
+      },
+      {
+       "name": "Silas Haarer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Middlebury, Ind.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/silas-haarer/16686"
+      },
+      {
+       "name": "Blake Hogan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Forest, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/blake-hogan/16687"
+      },
+      {
+       "name": "Ike Joy",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ike-joy/15986"
+      },
+      {
+       "name": "Luke Libbey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/luke-libbey/16688"
+      },
+      {
+       "name": "Michael Lugiano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jackson Township, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/michael-lugiano/16689"
+      },
+      {
+       "name": "Brett Reid",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Spicer, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/brett-reid/15989"
+      },
+      {
+       "name": "Josh Ryan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Norristown, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/josh-ryan/15990"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Clint Lowe",
+       "title": "Assistant Coach",
+       "email": "clowe21@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/clint-lowe/2589"
+      },
+      {
+       "name": "Hope Krekoska",
+       "title": "Director of Operations (VB, MG)",
+       "email": "hekrekoska@liberty.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Evan Barbin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/evan-barbin/15983"
+      },
+      {
+       "name": "Sawyer Chamblee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ahoskie, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/sawyer-chamblee/15238"
+      },
+      {
+       "name": "Garret Ebbert",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/garret-ebbert/15564"
+      },
+      {
+       "name": "Andrew Gregory",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Inman, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/andrew-gregory/15984"
+      },
+      {
+       "name": "Pascal Gunther",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/pascal-gunther/15232"
+      },
+      {
+       "name": "Blake Hogan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Forest, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/blake-hogan/16687"
+      },
+      {
+       "name": "Ike Joy",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ike-joy/15986"
+      },
+      {
+       "name": "Luke Libbey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/luke-libbey/16688"
+      },
+      {
+       "name": "Michael Lugiano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jackson Township, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/michael-lugiano/16689"
+      },
+      {
+       "name": "Tien “Tim” Ming Lo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kota Kinabalu, Sabah, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/tien-tim-ming-lo/15234"
+      },
+      {
+       "name": "Brett Reid",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spicer, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/brett-reid/15989"
+      },
+      {
+       "name": "Josh Ryan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Norristown, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/josh-ryan/15990"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Clint Lowe",
+       "title": "Assistant Coach",
+       "email": "clowe21@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/clint-lowe/2589"
+      },
+      {
+       "name": "Ashley Pereira",
+       "title": "Director of Operations (VB, MG)",
+       "email": "amdykema@liberty.edu",
+       "phone": "(434) 592-7568",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/staff/ashley-pereira/251"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Austin Barbin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/austin-barbin/14420"
+      },
+      {
+       "name": "Evan Barbin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/evan-barbin/15983"
+      },
+      {
+       "name": "Camden Braidech",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/camden-braidech/14427"
+      },
+      {
+       "name": "Andrew Gregory",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Inman, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/andrew-gregory/15984"
+      },
+      {
+       "name": "Pascal Gunther",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/pascal-gunther/15232"
+      },
+      {
+       "name": "Ike Joy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ike-joy/15986"
+      },
+      {
+       "name": "Tien “Tim” Ming Lo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kota Kinabalu, Sabah, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/tien-tim-ming-lo/15234"
+      },
+      {
+       "name": "Brett Reid",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spicer, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/brett-reid/15989"
+      },
+      {
+       "name": "Josh Ryan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norristown, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/josh-ryan/15990"
+      },
+      {
+       "name": "Isaac Simmons",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Huddleston, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaac-simmons/14426"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Clint Lowe",
+       "title": "Assistant Coach",
+       "email": "clowe21@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/clint-lowe/2589"
+      },
+      {
+       "name": "Ashley Pereira",
+       "title": "Director of Operations (VB, MG)",
+       "email": "amdykema@liberty.edu",
+       "phone": "(434) 592-7568",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/staff/ashley-pereira/251"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Austin Barbin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/austin-barbin/14420"
+      },
+      {
+       "name": "Evan Barbin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/evan-barbin/15983"
+      },
+      {
+       "name": "Ryan Davidson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flowery Branch, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ryan-davidson/13075"
+      },
+      {
+       "name": "Ike Joy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ike-joy/15986"
+      },
+      {
+       "name": "Tien “Tim” Ming Lo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kota Kinabalu, Sabah, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/tien-tim-ming-lo/15234"
+      },
+      {
+       "name": "Connor Polender",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Bluff, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/connor-polender/2261"
+      },
+      {
+       "name": "Brett Reid",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spicer, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/brett-reid/15989"
+      },
+      {
+       "name": "Josh Ryan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norristown, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/josh-ryan/15990"
+      },
+      {
+       "name": "Isaac Simmons",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Huddleston, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaac-simmons/14426"
+      },
+      {
+       "name": "Jonathan Yaun",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Minneola, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/jonathan-yaun/2271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Clint Lowe",
+       "title": "Assistant Coach",
+       "email": "clowe21@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/clint-lowe/2589"
+      },
+      {
+       "name": "Ashley Pereira",
+       "title": "Director of Operations (VB, MG)",
+       "email": "amdykema@liberty.edu",
+       "phone": "(434) 592-7568",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/staff/ashley-pereira/251"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Austin Barbin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/austin-barbin/14420"
+      },
+      {
+       "name": "Zach Barbin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/zach-barbin/3556"
+      },
+      {
+       "name": "Austin Duncan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/austin-duncan/12743"
+      },
+      {
+       "name": "Grant Gobezie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/grant-gobezie/12744"
+      },
+      {
+       "name": "Eugene Hong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/eugene-hong/12491"
+      },
+      {
+       "name": "Ike Joy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ike-joy/15986"
+      },
+      {
+       "name": "Philip Miller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Centerville, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/philip-miller/2255"
+      },
+      {
+       "name": "Connor Polender",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Bluff, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/connor-polender/2261"
+      },
+      {
+       "name": "Brett Reid",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spicer, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/brett-reid/15989"
+      },
+      {
+       "name": "Isaac Simmons",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Huddleston, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaac-simmons/14426"
+      },
+      {
+       "name": "Kieran Vincent",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kieran-vincent/3536"
+      },
+      {
+       "name": "Jonathan Yaun",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Minneola, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/jonathan-yaun/2271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Jeremy Alcorn",
+       "title": "Assistant Coach",
+       "email": "jealcorn@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeremy-alcorn/2125"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Zach Barbin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/zach-barbin/3556"
+      },
+      {
+       "name": "Ervin Chang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ervin-chang/3511"
+      },
+      {
+       "name": "Alexandre Fuchs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mouans-Sartoux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/alexandre-fuchs/3562"
+      },
+      {
+       "name": "Eugene Hong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/eugene-hong/12491"
+      },
+      {
+       "name": "Kevin Latchayya",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camerata Picena, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kevin-latchayya/2596"
+      },
+      {
+       "name": "Philip Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centerville, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/philip-miller/2255"
+      },
+      {
+       "name": "Connor Polender",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Bluff, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/connor-polender/2261"
+      },
+      {
+       "name": "Isaac Simmons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huddleston, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaac-simmons/14426"
+      },
+      {
+       "name": "Kieran Vincent",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kieran-vincent/3536"
+      },
+      {
+       "name": "Jonathan Yaun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Minneola, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/jonathan-yaun/2271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Jeremy Alcorn",
+       "title": "Assistant Coach",
+       "email": "jealcorn@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeremy-alcorn/2125"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Zach Barbin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/zach-barbin/3556"
+      },
+      {
+       "name": "Ervin Chang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ervin-chang/3511"
+      },
+      {
+       "name": "Alexandre Fuchs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mouans-Sartoux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/alexandre-fuchs/3562"
+      },
+      {
+       "name": "Kevin Latchayya",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camerata Picena, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kevin-latchayya/2596"
+      },
+      {
+       "name": "Philip Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centerville, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/philip-miller/2255"
+      },
+      {
+       "name": "Connor Polender",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Bluff, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/connor-polender/2261"
+      },
+      {
+       "name": "Isaac Simmons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huddleston, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaac-simmons/14426"
+      },
+      {
+       "name": "Kieran Vincent",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kieran-vincent/3536"
+      },
+      {
+       "name": "Blake Wheeler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fort Myers, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/blake-wheeler/2597"
+      },
+      {
+       "name": "Jonathan Yaun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Minneola, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/jonathan-yaun/2271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Jeremy Alcorn",
+       "title": "Assistant Coach",
+       "email": "jealcorn@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeremy-alcorn/2125"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Zach Barbin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/zach-barbin/3556"
+      },
+      {
+       "name": "Ervin Chang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ervin-chang/3511"
+      },
+      {
+       "name": "Alexandre Fuchs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mouans-Sartoux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/alexandre-fuchs/3562"
+      },
+      {
+       "name": "Mitchell Klooz",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Laurel, Neb.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/mitchell-klooz/3519"
+      },
+      {
+       "name": "Gabe Lench",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/gabe-lench/3524"
+      },
+      {
+       "name": "Philip Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centerville, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/philip-miller/2255"
+      },
+      {
+       "name": "Connor Polender",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Bluff, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/connor-polender/2261"
+      },
+      {
+       "name": "Isaac Simmons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huddleston, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaac-simmons/14426"
+      },
+      {
+       "name": "Kieran Vincent",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kieran-vincent/3536"
+      },
+      {
+       "name": "Jonathan Yaun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Minneola, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/jonathan-yaun/2271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Andrew Nelson",
+       "title": "Assistant Coach",
+       "email": "arnelson@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/andrew-nelson/1334"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Zach Barbin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elkton, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/zach-barbin/3556"
+      },
+      {
+       "name": "Hutson Chandler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/hutson-chandler/3505"
+      },
+      {
+       "name": "Ervin Chang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ervin-chang/3511"
+      },
+      {
+       "name": "Mickey DeMorat",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Merritt Island, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/mickey-demorat/3515"
+      },
+      {
+       "name": "Alexandre Fuchs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mouans-Sartoux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/alexandre-fuchs/3562"
+      },
+      {
+       "name": "Mitchell Klooz",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Laurel, Neb.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/mitchell-klooz/3519"
+      },
+      {
+       "name": "Gabe Lench",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/gabe-lench/3524"
+      },
+      {
+       "name": "Isaiah Logue",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fairfield, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaiah-logue/3527"
+      },
+      {
+       "name": "Payton Taylor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/payton-taylor/3531"
+      },
+      {
+       "name": "Kieran Vincent",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kieran-vincent/3536"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Andrew Nelson",
+       "title": "Assistant Coach",
+       "email": "arnelson@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/andrew-nelson/1334"
+      },
+      {
+       "name": "Jayson Arrell",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jayson-arrell/1394"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://libertyflames.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Abrahamsen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Setauket, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/tyler-abrahamsen/4125"
+      },
+      {
+       "name": "Hutson Chandler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/hutson-chandler/3505"
+      },
+      {
+       "name": "Ervin Chang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/ervin-chang/3511"
+      },
+      {
+       "name": "Mickey DeMorat",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Merritt Island, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/mickey-demorat/3515"
+      },
+      {
+       "name": "Mitchell Klooz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laurel, Neb.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/mitchell-klooz/3519"
+      },
+      {
+       "name": "Gabe Lench",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/gabe-lench/3524"
+      },
+      {
+       "name": "Isaiah Logue",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fairfield, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/isaiah-logue/3527"
+      },
+      {
+       "name": "Josiah Singleton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brookneal, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/josiah-singleton/4442"
+      },
+      {
+       "name": "Payton Taylor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vero Beach, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/payton-taylor/3531"
+      },
+      {
+       "name": "Kieran Vincent",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/kieran-vincent/3536"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jeff Thomas",
+       "title": "Head Golf Coach",
+       "email": "jthomas5@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/jeff-thomas/2725"
+      },
+      {
+       "name": "Andrew Nelson",
+       "title": "Assistant Coach",
+       "email": "arnelson@liberty.edu",
+       "phone": null,
+       "profile_url": "https://libertyflames.com/sports/mens-golf/roster/coaches/andrew-nelson/1334"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://libertyflames.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://libertyflames.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://libertyflames.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

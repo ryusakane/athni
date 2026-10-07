@@ -1,0 +1,975 @@
+{
+ "slug": "the-citadel",
+ "checked_at": "2026-10-06",
+ "programs": [
+  {
+   "gender": "female",
+   "golf_url": "https://citadelsports.com/sports/womens-golf",
+   "seasons": {
+    "2025-26": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chaela Barnett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Surfside Beach, S.C.",
+       "country": "US",
+       "previous_school": "Youngstown State",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/chaela-barnett/10493"
+      },
+      {
+       "name": "Lola Barnett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hatboro, Pa.",
+       "country": "US",
+       "previous_school": "Cleveland State / UNC Pembroke",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/lola-barnett/11034"
+      },
+      {
+       "name": "Teryn Dalton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": "Westminster Catawba Christian School",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/teryn-dalton/11035"
+      },
+      {
+       "name": "Naomi Huang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/naomi-huang/10495"
+      },
+      {
+       "name": "Kenzie McCallum",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Loris, S.C.",
+       "country": "US",
+       "previous_school": "Loris HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/kenzie-mccallum/10496"
+      },
+      {
+       "name": "Maggie Parmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/maggie-parmer/10497"
+      },
+      {
+       "name": "Madyson Riley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hayden, Idaho",
+       "country": "US",
+       "previous_school": "Coeur d'Alene HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/madyson-riley/11036"
+      },
+      {
+       "name": "Sofia Vargas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Va.",
+       "country": "US",
+       "previous_school": "Rockbridge County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sofia-vargas/11037"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chaela Barnett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Surfside Beach, S.C.",
+       "country": "US",
+       "previous_school": "Youngstown State",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/chaela-barnett/10493"
+      },
+      {
+       "name": "Teryn Dalton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": "Westminster Catawba Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/teryn-dalton/11035"
+      },
+      {
+       "name": "Naomi Huang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/naomi-huang/10495"
+      },
+      {
+       "name": "Kenzie McCallum",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Loris, S.C.",
+       "country": "US",
+       "previous_school": "Loris HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/kenzie-mccallum/10496"
+      },
+      {
+       "name": "Maggie Parmer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/maggie-parmer/10497"
+      },
+      {
+       "name": "Lauren Sommerfeld",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/lauren-sommerfeld/10026"
+      },
+      {
+       "name": "Sofia Vargas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, Va.",
+       "country": "US",
+       "previous_school": "Rockbridge County HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sofia-vargas/11037"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Paige Gilstrap",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/paige-gilstrap/9513"
+      },
+      {
+       "name": "Naomi Huang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/naomi-huang/10495"
+      },
+      {
+       "name": "Megan Ikeda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Windermere Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/megan-ikeda/9515"
+      },
+      {
+       "name": "Kenzie McCallum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Loris, S.C.",
+       "country": "US",
+       "previous_school": "Loris HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/kenzie-mccallum/10496"
+      },
+      {
+       "name": "Maggie Parmer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/maggie-parmer/10497"
+      },
+      {
+       "name": "Lauren Sommerfeld",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/lauren-sommerfeld/10026"
+      },
+      {
+       "name": "Sofia Vargas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Va.",
+       "country": "US",
+       "previous_school": "Rockbridge County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sofia-vargas/11037"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mirabella Calabrase",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Concord, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mirabella-calabrase/7925"
+      },
+      {
+       "name": "Paige Gilstrap",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/paige-gilstrap/9513"
+      },
+      {
+       "name": "Naomi Huang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/naomi-huang/10495"
+      },
+      {
+       "name": "Megan Ikeda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Windermere Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/megan-ikeda/9515"
+      },
+      {
+       "name": "Kenzie McCallum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Loris, S.C.",
+       "country": "US",
+       "previous_school": "Loris HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/kenzie-mccallum/10496"
+      },
+      {
+       "name": "Maggie Parmer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/maggie-parmer/10497"
+      },
+      {
+       "name": "Lauren Sommerfeld",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/lauren-sommerfeld/10026"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mirabella Calabrase",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Concord, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mirabella-calabrase/7925"
+      },
+      {
+       "name": "Paige Gilstrap",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/paige-gilstrap/9513"
+      },
+      {
+       "name": "Jesse Harbaugh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Plant HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/jesse-harbaugh/7478"
+      },
+      {
+       "name": "Megan Ikeda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Windermere Prep",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/megan-ikeda/9515"
+      },
+      {
+       "name": "Sarah Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": "York Comprehensive HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sarah-smith/7480"
+      },
+      {
+       "name": "Lauren Sommerfeld",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/lauren-sommerfeld/10026"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      },
+      {
+       "name": "Tom Gibbs",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/coaches/tom-gibbs/1539"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mackenzie Battle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aberdeen, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mackenzie-battle/7104"
+      },
+      {
+       "name": "Mirabella Calabrase",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Concord, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mirabella-calabrase/7925"
+      },
+      {
+       "name": "Hayley Dettenmayer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/hayley-dettenmayer/7106"
+      },
+      {
+       "name": "Paige Gilstrap",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McGregor HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/paige-gilstrap/9513"
+      },
+      {
+       "name": "Jesse Harbaugh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Plant HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/jesse-harbaugh/7478"
+      },
+      {
+       "name": "Megan Ikeda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Windermere, Fla.",
+       "country": "US",
+       "previous_school": "Windermere Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/megan-ikeda/9515"
+      },
+      {
+       "name": "Ashlee Richardson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Simpsonville, S.C.",
+       "country": "US",
+       "previous_school": "Greenville Senior HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/ashlee-richardson/7108"
+      },
+      {
+       "name": "Nadia Sandler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Bend, Ind.",
+       "country": "US",
+       "previous_school": "Penn HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/nadia-sandler/7109"
+      },
+      {
+       "name": "Sarah Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": "York Comprehensive HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sarah-smith/7480"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      },
+      {
+       "name": "Tom Gibbs",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/coaches/tom-gibbs/1539"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mackenzie Battle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aberdeen, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mackenzie-battle/7104"
+      },
+      {
+       "name": "Mirabella Calabrase",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Concord, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mirabella-calabrase/7925"
+      },
+      {
+       "name": "Hayley Dettenmayer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/hayley-dettenmayer/7106"
+      },
+      {
+       "name": "Jesse Harbaugh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Plant HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/jesse-harbaugh/7478"
+      },
+      {
+       "name": "Andrea Hoos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Thornton, Colo.",
+       "country": "US",
+       "previous_school": "Legacy",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/andrea-hoos/6618"
+      },
+      {
+       "name": "Ashlee Richardson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Simpsonville, S.C.",
+       "country": "US",
+       "previous_school": "Greenville Senior HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/ashlee-richardson/7108"
+      },
+      {
+       "name": "Nadia Sandler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "South Bend, Ind.",
+       "country": "US",
+       "previous_school": "Penn HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/nadia-sandler/7109"
+      },
+      {
+       "name": "Sarah Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": "York Comprehensive HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sarah-smith/7480"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      },
+      {
+       "name": "Tom Gibbs",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/coaches/tom-gibbs/1539"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mackenzie Battle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aberdeen, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/mackenzie-battle/7104"
+      },
+      {
+       "name": "Erin Buckman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hillsborough, N.J.",
+       "country": "US",
+       "previous_school": "Hillsborough High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/erin-buckman/6126"
+      },
+      {
+       "name": "Hayley Dettenmayer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/hayley-dettenmayer/7106"
+      },
+      {
+       "name": "Marina Grimal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "Teresiano del Pilar",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/marina-grimal/6120"
+      },
+      {
+       "name": "Jesse Harbaugh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Plant HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/jesse-harbaugh/7478"
+      },
+      {
+       "name": "Andrea Hoos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Thornton, Colo.",
+       "country": "US",
+       "previous_school": "Legacy",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/andrea-hoos/6618"
+      },
+      {
+       "name": "Ashlee Richardson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Simpsonville, S.C.",
+       "country": "US",
+       "previous_school": "Greenville Senior HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/ashlee-richardson/7108"
+      },
+      {
+       "name": "Nadia Sandler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Bend, Ind.",
+       "country": "US",
+       "previous_school": "Penn HS",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/nadia-sandler/7109"
+      },
+      {
+       "name": "Sarah Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "York, S.C.",
+       "country": "US",
+       "previous_school": "York Comprehensive HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sarah-smith/7480"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      },
+      {
+       "name": "Tom Gibbs",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/coaches/tom-gibbs/1539"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hayley Dettenmayer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Jack Britt HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/hayley-dettenmayer/7106"
+      },
+      {
+       "name": "Marina Grimal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "Teresiano del Pilar",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/marina-grimal/6120"
+      },
+      {
+       "name": "Andrea Hoos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Thornton, Colo.",
+       "country": "US",
+       "previous_school": "Legacy",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/andrea-hoos/6618"
+      },
+      {
+       "name": "Cameron Little",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Saint Mary's School",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/cameron-little/6592"
+      },
+      {
+       "name": "Ashlee Richardson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Simpsonville, S.C.",
+       "country": "US",
+       "previous_school": "Greenville Senior HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/ashlee-richardson/7108"
+      },
+      {
+       "name": "Nadia Sandler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Bend, Ind.",
+       "country": "US",
+       "previous_school": "Penn HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/nadia-sandler/7109"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://citadelsports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marina Grimal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "Teresiano del Pilar",
+       "class_raw": "So.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/marina-grimal/6120"
+      },
+      {
+       "name": "Andrea Hoos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Thornton, Colo.",
+       "country": "US",
+       "previous_school": "Legacy",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/andrea-hoos/6618"
+      },
+      {
+       "name": "Cameron Little",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Saint Mary's School",
+       "class_raw": "Jr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/cameron-little/6592"
+      },
+      {
+       "name": "Bailey Richardson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aynor, S.C.",
+       "country": "US",
+       "previous_school": "Aynor",
+       "class_raw": "Fr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/bailey-richardson/4029"
+      },
+      {
+       "name": "Laura Simpson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Brooklyn Casey",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/laura-simpson/4024"
+      },
+      {
+       "name": "Renata Sucha",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brno, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Granville HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/renata-sucha/4025"
+      },
+      {
+       "name": "Sara Winch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Wando",
+       "class_raw": "Sr.",
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/sara-winch/4026"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lori Bonacci",
+       "title": "Head Coach",
+       "email": "lori.hatcher@citadel.edu",
+       "phone": "843-864-5549",
+       "profile_url": "https://citadelsports.com/staff-directory/lori-bonacci/71"
+      },
+      {
+       "name": "Tom Gibbs",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://citadelsports.com/sports/womens-golf/roster/coaches/tom-gibbs/1539"
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "requests": [
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2025-26",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://citadelsports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
+  }
+ ]
+}

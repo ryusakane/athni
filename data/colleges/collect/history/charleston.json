@@ -1,18 +1,2308 @@
 {
  "slug": "charleston",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://cofcsports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Loran Appel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Numansdorp, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/loran-appel/8556"
+      },
+      {
+       "name": "Johan Bredenkamp",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/johan-bredenkamp/8801"
+      },
+      {
+       "name": "Miles Eubanks",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Warrenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/miles-eubanks/7888"
+      },
+      {
+       "name": "Michael Gavin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hilton Head, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/michael-gavin/8557"
+      },
+      {
+       "name": "Marno Lange",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kempton Park, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/marno-lange/8558"
+      },
+      {
+       "name": "Jules Lauer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint German, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jules-lauer/8559"
+      },
+      {
+       "name": "Nevill Ruiter",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bergen, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/nevill-ruiter/7889"
+      },
+      {
+       "name": "William Brun Solum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tønsberg, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/william-brun-solum/7892"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "Corbin Sebens",
+       "title": "Associate Head Coach",
+       "email": "sebensc@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/corbin-sebens/1398"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Loran Appel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Numansdorp, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/loran-appel/8556"
+      },
+      {
+       "name": "Tim Bertenbreiter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ratinge, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/tim-bertenbreiter/6873"
+      },
+      {
+       "name": "Benedikt Boensch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Zirndorf, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/benedikt-boensch/6879"
+      },
+      {
+       "name": "Miles Eubanks",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Warrenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/miles-eubanks/7888"
+      },
+      {
+       "name": "Nevill Ruiter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bergen, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/nevill-ruiter/7889"
+      },
+      {
+       "name": "Waymon Thomas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mt. Pleasant, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/waymon-thomas/6876"
+      },
+      {
+       "name": "Jack Tickle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bristol, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jack-tickle/6877"
+      },
+      {
+       "name": "Kieron van Wyk",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ruimsig, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/kieron-van-wyk/6878"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "Corbin Sebens",
+       "title": "Assistant Coach",
+       "email": "sebensc@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/corbin-sebens/1398"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Loran Appel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Numansdorp, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/loran-appel/8556"
+      },
+      {
+       "name": "Tim Bertenbreiter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ratinge, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/tim-bertenbreiter/6873"
+      },
+      {
+       "name": "Max Dupree",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensboro, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/max-dupree/6238"
+      },
+      {
+       "name": "Miles Eubanks",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Warrenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/miles-eubanks/7888"
+      },
+      {
+       "name": "Zach Reuland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/zach-reuland/6239"
+      },
+      {
+       "name": "Nevill Ruiter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bergen, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/nevill-ruiter/7889"
+      },
+      {
+       "name": "Waymon Thomas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mt. Pleasant, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/waymon-thomas/6876"
+      },
+      {
+       "name": "Jack Tickle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bristol, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jack-tickle/6877"
+      },
+      {
+       "name": "Kieron van Wyk",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ruimsig, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/kieron-van-wyk/6878"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "JP van der Walt",
+       "title": "Assistant Coach",
+       "email": "vanderwaltjp@cofc.edu",
+       "phone": "(334) 737-8494",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/jp-van-der-walt/1010"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kyle Bachkosky",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Peachtree City, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/kyle-bachkosky/5681"
+      },
+      {
+       "name": "Tim Bertenbreiter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ratinge, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/tim-bertenbreiter/6873"
+      },
+      {
+       "name": "Max Dupree",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greensboro, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/max-dupree/6238"
+      },
+      {
+       "name": "Cameron Johnstone",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Troon, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/cameron-johnstone/5676"
+      },
+      {
+       "name": "Sebastian Nielsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Birkerød, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/sebastian-nielsen/5682"
+      },
+      {
+       "name": "Zach Reuland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/zach-reuland/6239"
+      },
+      {
+       "name": "Nevill Ruiter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bergen, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/nevill-ruiter/7889"
+      },
+      {
+       "name": "Kieron van Wyk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ruimsig, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/kieron-van-wyk/6878"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "JP van der Walt",
+       "title": "Assistant Coach",
+       "email": "vanderwaltjp@cofc.edu",
+       "phone": "(334) 737-8494",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/jp-van-der-walt/1010"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tim Bertenbreiter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ratinge, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/tim-bertenbreiter/6873"
+      },
+      {
+       "name": "Patrick Golden",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/patrick-golden/5231"
+      },
+      {
+       "name": "Cameron Johnstone",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Troon, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/cameron-johnstone/5676"
+      },
+      {
+       "name": "Jack Parrott",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jack-parrott/5233"
+      },
+      {
+       "name": "Zach Reuland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/zach-reuland/6239"
+      },
+      {
+       "name": "Nevill Ruiter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bergen, Netherlands",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/nevill-ruiter/7889"
+      },
+      {
+       "name": "Ty Sullivan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/ty-sullivan/5251"
+      },
+      {
+       "name": "Kieron van Wyk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ruimsig, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/kieron-van-wyk/6878"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "JP van der Walt",
+       "title": "Assistant Coach",
+       "email": "vanderwaltjp@cofc.edu",
+       "phone": "(334) 737-8494",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/jp-van-der-walt/1010"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cameron Akers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/cameron-akers/4619"
+      },
+      {
+       "name": "Christian Baliker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/christian-baliker/4608"
+      },
+      {
+       "name": "Hunter Dunagan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Augusta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/hunter-dunagan/4609"
+      },
+      {
+       "name": "Raphael Geissler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Karlsruhe, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/raphael-geissler/4610"
+      },
+      {
+       "name": "Patrick Golden",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/patrick-golden/5231"
+      },
+      {
+       "name": "Luke Hackworth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/luke-hackworth/4612"
+      },
+      {
+       "name": "Dawson Holmes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aspen, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/dawson-holmes/4613"
+      },
+      {
+       "name": "Zach Reuland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/zach-reuland/6239"
+      },
+      {
+       "name": "Michael Sass",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/michael-sass/4616"
+      },
+      {
+       "name": "Logan Sowell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kershaw, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/logan-sowell/4617"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Asarch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/connor-asarch/4300"
+      },
+      {
+       "name": "Christian Baliker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/christian-baliker/4608"
+      },
+      {
+       "name": "Hunter Dunagan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Augusta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/hunter-dunagan/4609"
+      },
+      {
+       "name": "Raphael Geissler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Karlsruhe, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/raphael-geissler/4610"
+      },
+      {
+       "name": "Patrick Golden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/patrick-golden/5231"
+      },
+      {
+       "name": "Luke Hackworth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/luke-hackworth/4612"
+      },
+      {
+       "name": "Dawson Holmes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aspen, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/dawson-holmes/4613"
+      },
+      {
+       "name": "Brady Pevarnik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Latrobe, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/brady-pevarnik/4573"
+      },
+      {
+       "name": "Jye Pickin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlestown, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jye-pickin/4408"
+      },
+      {
+       "name": "Michael Sass",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/michael-sass/4616"
+      },
+      {
+       "name": "Logan Sowell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kershaw, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/logan-sowell/4617"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "Jason Meyer",
+       "title": "Assistant Coach",
+       "email": "meyerjw@cofc.edu",
+       "phone": "(309) 265-8797",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/jason-meyer/710"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Asarch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/connor-asarch/4300"
+      },
+      {
+       "name": "Christian Baliker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/christian-baliker/4608"
+      },
+      {
+       "name": "Jake Budde",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jake-budde/3846"
+      },
+      {
+       "name": "Hunter Dunagan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Augusta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/hunter-dunagan/4609"
+      },
+      {
+       "name": "Raphael Geissler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Karlsruhe, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/raphael-geissler/4610"
+      },
+      {
+       "name": "Patrick Golden",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/patrick-golden/5231"
+      },
+      {
+       "name": "Michael Sass",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/michael-sass/4616"
+      },
+      {
+       "name": "Logan Sowell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kershaw, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/logan-sowell/4617"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mitch Krywulycz",
+       "title": "Head Coach",
+       "email": "krywulyczmj@cofc.edu",
+       "phone": "(706) 267-3819",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mitch-krywulycz/1397"
+      },
+      {
+       "name": "Alex Ellis",
+       "title": "Assistant Coach",
+       "email": "awellis@cofc.edu",
+       "phone": "(512) 633-6076",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/alex-ellis/564"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Christian Baliker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/christian-baliker/4608"
+      },
+      {
+       "name": "Reed Bentley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spartanburg, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/reed-bentley/3400"
+      },
+      {
+       "name": "Jake Budde",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jake-budde/3846"
+      },
+      {
+       "name": "Hunter Dunagan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Augusta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/hunter-dunagan/4609"
+      },
+      {
+       "name": "Jack Foyle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jack-foyle/3417"
+      },
+      {
+       "name": "Raphael Geissler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Karlsruhe, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/raphael-geissler/4610"
+      },
+      {
+       "name": "Patrick Golden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/patrick-golden/5231"
+      },
+      {
+       "name": "Colin Hamilton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/colin-hamilton/3396"
+      },
+      {
+       "name": "Michael Sass",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/michael-sass/4616"
+      },
+      {
+       "name": "Logan Sowell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kershaw, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/logan-sowell/4617"
+      },
+      {
+       "name": "Fitz Woodrow IV",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/fitz-woodrow-iv/3399"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark McEntire",
+       "title": "Head Coach",
+       "email": "mcentirem@cofc.edu",
+       "phone": "(843) 725-0103",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mark-mcentire/470"
+      },
+      {
+       "name": "Alex Ellis",
+       "title": "Assistant Coach",
+       "email": "awellis@cofc.edu",
+       "phone": "(512) 633-6076",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/alex-ellis/564"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://cofcsports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Christian Baliker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/christian-baliker/4608"
+      },
+      {
+       "name": "Zach Bishop",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Travelers Rest, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/zach-bishop/1810"
+      },
+      {
+       "name": "Parker Derby",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/parker-derby/1812"
+      },
+      {
+       "name": "Hunter Dunagan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Augusta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/hunter-dunagan/4609"
+      },
+      {
+       "name": "Jack Foyle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/jack-foyle/3417"
+      },
+      {
+       "name": "Colin Hamilton",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/colin-hamilton/3396"
+      },
+      {
+       "name": "Matthew Mahle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/matthew-mahle/1821"
+      },
+      {
+       "name": "Philip Oweida",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/philip-oweida/1823"
+      },
+      {
+       "name": "William Rainey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/william-rainey/1825"
+      },
+      {
+       "name": "Michael Sass",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/michael-sass/4616"
+      },
+      {
+       "name": "Logan Sowell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kershaw, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/logan-sowell/4617"
+      },
+      {
+       "name": "Fitz Woodrow IV",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/fitz-woodrow-iv/3399"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark McEntire",
+       "title": "Head Coach",
+       "email": "mcentirem@cofc.edu",
+       "phone": "(843) 725-0103",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/mark-mcentire/470"
+      },
+      {
+       "name": "Alex Ellis",
+       "title": "Assistant Coach",
+       "email": "awellis@cofc.edu",
+       "phone": "(512) 633-6076",
+       "profile_url": "https://cofcsports.com/sports/mens-golf/roster/coaches/alex-ellis/564"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://cofcsports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adrian Anderson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/adrian-anderson/7701"
+      },
+      {
+       "name": "Carys Fennessy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dover, NH",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/carys-fennessy/8547"
+      },
+      {
+       "name": "Molly Hardwick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/molly-hardwick/8548"
+      },
+      {
+       "name": "Raegan Propes",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/raegan-propes/7703"
+      },
+      {
+       "name": "Taylor Sieg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Summit, NJ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/taylor-sieg/8549"
+      },
+      {
+       "name": "Amy Staveley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Filey, North Yorkshire, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/amy-staveley/7705"
+      },
+      {
+       "name": "Emilie von Finckenstein",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emilie-von-finckenstein/8550"
+      },
+      {
+       "name": "Emilia von Glahn",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Bonn, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emilia-von-glahn/8551"
+      },
+      {
+       "name": "Immy Williamson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chester, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/immy-williamson/7710"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Jodee Parrott",
+       "title": "Assistant Coach",
+       "email": "tindaljr@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jodee-parrott/1251"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adrian Anderson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/adrian-anderson/7701"
+      },
+      {
+       "name": "Molly Hardwick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/molly-hardwick/8548"
+      },
+      {
+       "name": "Raegan Propes",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/raegan-propes/7703"
+      },
+      {
+       "name": "Emma Schimpf",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emma-schimpf/6882"
+      },
+      {
+       "name": "Taylor Sieg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Summit, NJ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/taylor-sieg/8549"
+      },
+      {
+       "name": "Amy Staveley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Filey, North Yorkshire, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/amy-staveley/7705"
+      },
+      {
+       "name": "Mary Kathryn Talledo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spartanburg, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/mary-kathryn-talledo/6883"
+      },
+      {
+       "name": "Emilie von Finckenstein",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emilie-von-finckenstein/8550"
+      },
+      {
+       "name": "Emilia von Glahn",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Bonn, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emilia-von-glahn/8551"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Jodee Parrott",
+       "title": "Assistant Coach",
+       "email": "tindaljr@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jodee-parrott/1251"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adrian Anderson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/adrian-anderson/7701"
+      },
+      {
+       "name": "Isabella Britt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chesnee, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/isabella-britt/6302"
+      },
+      {
+       "name": "Emily Dunlap",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emily-dunlap/6303"
+      },
+      {
+       "name": "Viktoria Hund",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bremen, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/viktoria-hund/6304"
+      },
+      {
+       "name": "Othilie Lied",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/othilie-lied/6305"
+      },
+      {
+       "name": "Raegan Propes",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/raegan-propes/7703"
+      },
+      {
+       "name": "Emma Schimpf",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emma-schimpf/6882"
+      },
+      {
+       "name": "Mary Kathryn Talledo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spartanburg, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/mary-kathryn-talledo/6883"
+      },
+      {
+       "name": "Emilie von Finckenstein",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emilie-von-finckenstein/8550"
+      },
+      {
+       "name": "Emilia von Glahn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bonn, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emilia-von-glahn/8551"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Jodee Parrott",
+       "title": "Assistant Coach",
+       "email": "tindaljr@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jodee-parrott/1251"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adrian Anderson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/adrian-anderson/7701"
+      },
+      {
+       "name": "Isabella Britt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chesnee, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/isabella-britt/6302"
+      },
+      {
+       "name": "Emily Dunlap",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emily-dunlap/6303"
+      },
+      {
+       "name": "Viktoria Hund",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bremen, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/viktoria-hund/6304"
+      },
+      {
+       "name": "Smith Knaffle",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/smith-knaffle/5668"
+      },
+      {
+       "name": "Othilie Lied",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/othilie-lied/6305"
+      },
+      {
+       "name": "Raegan Propes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/raegan-propes/7703"
+      },
+      {
+       "name": "Emma Schimpf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emma-schimpf/6882"
+      },
+      {
+       "name": "Mary Kathryn Talledo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spartanburg, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/mary-kathryn-talledo/6883"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Isabella Britt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chesnee, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/isabella-britt/6302"
+      },
+      {
+       "name": "Kirsty Brodie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blairgowrie, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/kirsty-brodie/5238"
+      },
+      {
+       "name": "Emily Dunlap",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emily-dunlap/6303"
+      },
+      {
+       "name": "Viktoria Hund",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bremen, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/viktoria-hund/6304"
+      },
+      {
+       "name": "Smith Knaffle",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Murrells Inlet, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/smith-knaffle/5668"
+      },
+      {
+       "name": "Othilie Lied",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/othilie-lied/6305"
+      },
+      {
+       "name": "Emma Schimpf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emma-schimpf/6882"
+      },
+      {
+       "name": "Mary Kathryn Talledo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spartanburg, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/mary-kathryn-talledo/6883"
+      },
+      {
+       "name": "Jodee Tindal",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/jodee-tindal/5242"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kirsty Brodie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blairgowrie, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/kirsty-brodie/5238"
+      },
+      {
+       "name": "Emily Dunlap",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emily-dunlap/6303"
+      },
+      {
+       "name": "Olivia Hamilton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oakenshaw, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/olivia-hamilton/4623"
+      },
+      {
+       "name": "Viktoria Hund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bremen, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/viktoria-hund/6304"
+      },
+      {
+       "name": "Victoria Huskey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/victoria-huskey/4624"
+      },
+      {
+       "name": "Othilie Lied",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/othilie-lied/6305"
+      },
+      {
+       "name": "Jodee Tindal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/jodee-tindal/5242"
+      },
+      {
+       "name": "Clarissa von Stosch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kassel, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/clarissa-von-stosch/4626"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kirsty Brodie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Blairgowrie, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/kirsty-brodie/5238"
+      },
+      {
+       "name": "Chloe Currie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/chloe-currie/4290"
+      },
+      {
+       "name": "Emily Dunlap",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/emily-dunlap/6303"
+      },
+      {
+       "name": "Savanah Goodman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Easley, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/savanah-goodman/4291"
+      },
+      {
+       "name": "Olivia Hamilton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oakenshaw, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/olivia-hamilton/4623"
+      },
+      {
+       "name": "Victoria Huskey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/victoria-huskey/4624"
+      },
+      {
+       "name": "Yuki Nakayama",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kawasaki, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/yuki-nakayama/4294"
+      },
+      {
+       "name": "Anna-Theresa Rottluff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Jodee Tindal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/jodee-tindal/5242"
+      },
+      {
+       "name": "Clarissa von Stosch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kassel, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/clarissa-von-stosch/4626"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kirsty Brodie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Blairgowrie, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/kirsty-brodie/5238"
+      },
+      {
+       "name": "Anna Buchanan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Athens, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/anna-buchanan/3820"
+      },
+      {
+       "name": "Chloe Currie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/chloe-currie/4290"
+      },
+      {
+       "name": "Savanah Goodman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Easley, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/savanah-goodman/4291"
+      },
+      {
+       "name": "Olivia Hamilton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oakenshaw, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/olivia-hamilton/4623"
+      },
+      {
+       "name": "Victoria Huskey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/victoria-huskey/4624"
+      },
+      {
+       "name": "Yuki Nakayama",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kawasaki, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/yuki-nakayama/4294"
+      },
+      {
+       "name": "Isi Nilsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/isi-nilsson/3826"
+      },
+      {
+       "name": "Anna-Theresa Rottluff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Jodee Tindal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rock Hill, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/jodee-tindal/5242"
+      },
+      {
+       "name": "Clarissa von Stosch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kassel, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/clarissa-von-stosch/4626"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Anna Buchanan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Athens, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/anna-buchanan/3820"
+      },
+      {
+       "name": "Chloe Currie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mississauga, Ontario, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/chloe-currie/4290"
+      },
+      {
+       "name": "Josefine Garton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/josefine-garton/3461"
+      },
+      {
+       "name": "Savanah Goodman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Easley, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/savanah-goodman/4291"
+      },
+      {
+       "name": "Olivia Hamilton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oakenshaw, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/olivia-hamilton/4623"
+      },
+      {
+       "name": "Victoria Huskey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/victoria-huskey/4624"
+      },
+      {
+       "name": "Yuki Nakayama",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kawasaki, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/yuki-nakayama/4294"
+      },
+      {
+       "name": "Isi Nilsson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/isi-nilsson/3826"
+      },
+      {
+       "name": "Anna-Theresa Rottluff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Clarissa von Stosch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kassel, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/clarissa-von-stosch/4626"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://cofcsports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Vici Drechsler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Munich, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/vici-drechsler/1794"
+      },
+      {
+       "name": "Laura Fuenfstueck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Langen, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/laura-fuenfstueck/1795"
+      },
+      {
+       "name": "Josefine Garton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/josefine-garton/3461"
+      },
+      {
+       "name": "Savanah Goodman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Easley, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/savanah-goodman/4291"
+      },
+      {
+       "name": "Mary Fran Hillow",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/mary-fran-hillow/1799"
+      },
+      {
+       "name": "Victoria Huskey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/victoria-huskey/4624"
+      },
+      {
+       "name": "Anna-Theresa Rottluff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dusseldorf, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jamie Futrell",
+       "title": "Head Coach",
+       "email": "futrellj@cofc.edu",
+       "phone": "(843) 953-5642",
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/jamie-futrell/1393"
+      },
+      {
+       "name": "Fred Lux",
+       "title": "Assistant Coach",
+       "email": "luxfe@cofc.edu",
+       "phone": null,
+       "profile_url": "https://cofcsports.com/sports/womens-golf/roster/coaches/fred-lux/912"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Volunteer Assistant Coach",
+       "email": "ccbuford@cofc.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
@@ -22,15 +2312,87 @@
   },
   {
    "url": "https://cofcsports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://cofcsports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://cofcsports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://cofcsports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

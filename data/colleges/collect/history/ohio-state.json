@@ -1,36 +1,2386 @@
 {
  "slug": "ohio-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://ohiostatebuckeyes.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Finley Bartlett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Wyoming High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/finley-bartlett/13509"
+      },
+      {
+       "name": "Timotej Formanek",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnasium Jana Palacha",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/timotej-formanek/13510"
+      },
+      {
+       "name": "Vaughn Harber",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Blacklick, Ohio",
+       "country": "US",
+       "previous_school": "St. Francis DeSales",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/vaughn-harber/13511"
+      },
+      {
+       "name": "Giedrius Mackelis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vilnius, Lithuania",
+       "country": "LT",
+       "previous_school": "The American International School of Vilnius",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/giedrius-mackelis/13512"
+      },
+      {
+       "name": "Topher Reed",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fairview Park, Ohio",
+       "country": "US",
+       "previous_school": "St. Ignatius",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/topher-reed/12792"
+      },
+      {
+       "name": "Tyler Sabo",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-sabo/13513"
+      },
+      {
+       "name": "Jack Vojtko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stow, Ohio",
+       "country": "US",
+       "previous_school": "Archbishop Hoban",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-vojtko/13514"
+      },
+      {
+       "name": "Joe Wilson IV",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "West Chester, Ohio",
+       "country": "US",
+       "previous_school": "Lakota East",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/joe-wilson-iv/13515"
+      },
+      {
+       "name": "Jaime Yzaga",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Lima, Perú",
+       "country": null,
+       "previous_school": "Santa Maria Marianistas",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jaime-yzaga/13516"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Jimmy Beck",
+       "title": "Assistant Coach",
+       "email": "beck.948@osu.edu",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jimmy-beck/2205"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Timotej Formanek",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnasium Jana Palacha",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/timotej-formanek/13510"
+      },
+      {
+       "name": "Tyler Groomes",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Jerome",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-groomes/11418"
+      },
+      {
+       "name": "Vaughn Harber",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Blacklick, Ohio",
+       "country": "US",
+       "previous_school": "St. Francis DeSales",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/vaughn-harber/13511"
+      },
+      {
+       "name": "Drew Mulcahy",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Gladstone, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/drew-mulcahy/11419"
+      },
+      {
+       "name": "Topher Reed",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fairview Park, Ohio",
+       "country": "US",
+       "previous_school": "St. Ignatius",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/topher-reed/12792"
+      },
+      {
+       "name": "Tyler Sabo",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-sabo/13513"
+      },
+      {
+       "name": "Jacob Tarkany",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Cactus Shadows",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jacob-tarkany/11422"
+      },
+      {
+       "name": "Jack Vojtko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stow, Ohio",
+       "country": "US",
+       "previous_school": "Archbishop Hoban",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-vojtko/13514"
+      },
+      {
+       "name": "Joe Wilson IV",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Chester, Ohio",
+       "country": "US",
+       "previous_school": "Lakota East",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/joe-wilson-iv/13515"
+      },
+      {
+       "name": "Jaime Yzaga",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lima, Perú",
+       "country": null,
+       "previous_school": "Santa Maria Marianistas",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jaime-yzaga/13516"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Jimmy Beck",
+       "title": "Assistant Coach",
+       "email": "beck.948@osu.edu",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jimmy-beck/2205"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Chandler",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "5th",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jackson-chandler/9706"
+      },
+      {
+       "name": "Tyler Groomes",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Jerome",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-groomes/11418"
+      },
+      {
+       "name": "Maxwell Moldovan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Uniontown, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/maxwell-moldovan/9707"
+      },
+      {
+       "name": "Drew Mulcahy",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Gladstone, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/drew-mulcahy/11419"
+      },
+      {
+       "name": "Topher Reed",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairview Park, Ohio",
+       "country": "US",
+       "previous_school": "St. Ignatius",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/topher-reed/12792"
+      },
+      {
+       "name": "Tyler Sabo",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-sabo/13513"
+      },
+      {
+       "name": "Patrick Schmucking",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Wiesbaden, Germany",
+       "country": "DE",
+       "previous_school": "Humboldtschule Wiesbaden",
+       "class_raw": "5th",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/patrick-schmucking/9711"
+      },
+      {
+       "name": "Neal Shipley",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Pittsburgh Central Catholic",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/neal-shipley/9712"
+      },
+      {
+       "name": "Jacob Tarkany",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Cactus Shadows",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jacob-tarkany/11422"
+      },
+      {
+       "name": "Jack Vojtko",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stow, Ohio",
+       "country": "US",
+       "previous_school": "Archbishop Hoban",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-vojtko/13514"
+      },
+      {
+       "name": "Adam Wallin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Timmele, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/adam-wallin/9714"
+      },
+      {
+       "name": "Joe Wilson IV",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Chester, Ohio",
+       "country": "US",
+       "previous_school": "Lakota East",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/joe-wilson-iv/13515"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Jimmy Beck",
+       "title": "Assistant Coach",
+       "email": "beck.948@osu.edu",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jimmy-beck/2205"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JonErik Alford",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Mount Pisgah Christian School",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jonerik-alford/3415"
+      },
+      {
+       "name": "Jackson Chandler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jackson-chandler/9706"
+      },
+      {
+       "name": "Jackson Chandler",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "5th",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jackson-chandler/9706"
+      },
+      {
+       "name": "Tyler Groomes",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Jerome",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-groomes/11418"
+      },
+      {
+       "name": "Maxwell Moldovan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Uniontown, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/maxwell-moldovan/9707"
+      },
+      {
+       "name": "Drew Mulcahy",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Gladstone, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/drew-mulcahy/11419"
+      },
+      {
+       "name": "Topher Reed",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairview Park, Ohio",
+       "country": "US",
+       "previous_school": "St. Ignatius",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/topher-reed/12792"
+      },
+      {
+       "name": "Tyler Sabo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-sabo/13513"
+      },
+      {
+       "name": "Patrick Schmucking",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wiesbaden, Germany",
+       "country": "DE",
+       "previous_school": "Humboldtschule Wiesbaden",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/patrick-schmucking/9711"
+      },
+      {
+       "name": "Neal Shipley",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Pittsburgh Central Catholic",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/neal-shipley/9712"
+      },
+      {
+       "name": "Jacob Tarkany",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Cactus Shadows",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jacob-tarkany/11422"
+      },
+      {
+       "name": "Adam Wallin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Timmele, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/adam-wallin/9714"
+      },
+      {
+       "name": "Joe Wilson IV",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Chester, Ohio",
+       "country": "US",
+       "previous_school": "Lakota East",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/joe-wilson-iv/13515"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JonErik Alford",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Mount Pisgah Christian School",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jonerik-alford/3415"
+      },
+      {
+       "name": "Jackson Chandler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jackson-chandler/9706"
+      },
+      {
+       "name": "Grant Engle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Shawnee",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/grant-engle/3635"
+      },
+      {
+       "name": "Tyler Groomes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Jerome",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/tyler-groomes/11418"
+      },
+      {
+       "name": "Maxwell Moldovan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Uniontown, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/maxwell-moldovan/9707"
+      },
+      {
+       "name": "Drew Mulcahy",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Gladstone, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/drew-mulcahy/11419"
+      },
+      {
+       "name": "Patrick Schmucking",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wiesbaden, Germany",
+       "country": "DE",
+       "previous_school": "Humboldtschule Wiesbaden",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/patrick-schmucking/9711"
+      },
+      {
+       "name": "Marco Steyn",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "Tuks Sport",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/marco-steyn/3655"
+      },
+      {
+       "name": "Jacob Tarkany",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Cactus Shadows",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jacob-tarkany/11422"
+      },
+      {
+       "name": "Adam Wallin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Timmele, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/adam-wallin/9714"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JonErik Alford",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Mount Pisgah Christian School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jonerik-alford/3415"
+      },
+      {
+       "name": "Jackson Chandler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jackson-chandler/9706"
+      },
+      {
+       "name": "Grant Engle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Shawnee",
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/grant-engle/3635"
+      },
+      {
+       "name": "Laken Hinton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/laken-hinton/1499"
+      },
+      {
+       "name": "Felix Kvarnstrom",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/felix-kvarnstrom/1504"
+      },
+      {
+       "name": "Maxwell Moldovan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Uniontown, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/maxwell-moldovan/9707"
+      },
+      {
+       "name": "Drew Mulcahy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gladstone, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/drew-mulcahy/11419"
+      },
+      {
+       "name": "Patrick Schmucking",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wiesbaden, Germany",
+       "country": "DE",
+       "previous_school": "Humboldtschule Wiesbaden",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/patrick-schmucking/9711"
+      },
+      {
+       "name": "Kevin Stone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/kevin-stone/1517"
+      },
+      {
+       "name": "Elis Svard",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sodertalje, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/elis-svard/1520"
+      },
+      {
+       "name": "Adam Wallin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Timmele, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/adam-wallin/9714"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JonErik Alford",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Mount Pisgah Christian School",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jonerik-alford/3415"
+      },
+      {
+       "name": "Jackson Chandler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jackson-chandler/9706"
+      },
+      {
+       "name": "Caleb Davern",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grove City, Ohio",
+       "country": "US",
+       "previous_school": "Central Crossing",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/caleb-davern/4032"
+      },
+      {
+       "name": "Grant Engle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Shawnee",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/grant-engle/3635"
+      },
+      {
+       "name": "Laken Hinton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/laken-hinton/1499"
+      },
+      {
+       "name": "Felix Kvarnstrom",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/felix-kvarnstrom/1504"
+      },
+      {
+       "name": "Jack Mancinotti",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "St. John's Jesuit",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-mancinotti/4044"
+      },
+      {
+       "name": "Jake Miller",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Richmond, Ind.",
+       "country": "US",
+       "previous_school": "Richmond",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jake-miller/4047"
+      },
+      {
+       "name": "Patrick Schmucking",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wiesbaden, Germany",
+       "country": "DE",
+       "previous_school": "Humboldtschule Wiesbaden",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/patrick-schmucking/9711"
+      },
+      {
+       "name": "Kevin Stone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/kevin-stone/1517"
+      },
+      {
+       "name": "Justin Wick",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/justin-wick/4058"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JonErik Alford",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Mount Pisgah Christian School",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jonerik-alford/3415"
+      },
+      {
+       "name": "Grant Engle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Shawnee",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/grant-engle/3635"
+      },
+      {
+       "name": "Will Grimmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Mariemont",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/will-grimmer/7079"
+      },
+      {
+       "name": "Laken Hinton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/laken-hinton/1499"
+      },
+      {
+       "name": "Jack Mancinotti",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "St. John's Jesuit",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-mancinotti/4044"
+      },
+      {
+       "name": "Caleb Ramirez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blythe, Calif.",
+       "country": "US",
+       "previous_school": "Mount Olive Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/caleb-ramirez/7089"
+      },
+      {
+       "name": "Kevin Stone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/kevin-stone/1517"
+      },
+      {
+       "name": "Will Voetsch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Vernon, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/will-voetsch/7096"
+      },
+      {
+       "name": "Daniel Wetterich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "LaSalle",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/daniel-wetterich/7099"
+      },
+      {
+       "name": "Justin Wick",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/justin-wick/4058"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JonErik Alford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Johns Creek, Ga.",
+       "country": "US",
+       "previous_school": "Mount Pisgah Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jonerik-alford/3415"
+      },
+      {
+       "name": "Jeg Coughlin III",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Delaware, Ohio",
+       "country": "US",
+       "previous_school": "Village Academy",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jeg-coughlin-iii/7542"
+      },
+      {
+       "name": "Will Grimmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Mariemont",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/will-grimmer/7079"
+      },
+      {
+       "name": "Jack Mancinotti",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "St. John's Jesuit",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-mancinotti/4044"
+      },
+      {
+       "name": "Caleb Ramirez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blythe, Calif.",
+       "country": "US",
+       "previous_school": "Mount Olive Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/caleb-ramirez/7089"
+      },
+      {
+       "name": "Kevin Stone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/kevin-stone/1517"
+      },
+      {
+       "name": "Will Voetsch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Vernon, N.J.",
+       "country": "US",
+       "previous_school": "Delbarton School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/will-voetsch/7096"
+      },
+      {
+       "name": "Daniel Wetterich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "LaSalle",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/daniel-wetterich/7099"
+      },
+      {
+       "name": "Josh Wick",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington H.S.",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/josh-wick/7571"
+      },
+      {
+       "name": "Justin Wick",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/justin-wick/4058"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Addison Coll",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arlington, Va.",
+       "country": "US",
+       "previous_school": "Gonzaga College H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/addison-coll/7226"
+      },
+      {
+       "name": "Jeg Coughlin III",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Delaware, Ohio",
+       "country": "US",
+       "previous_school": "Village Academy",
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jeg-coughlin-iii/7542"
+      },
+      {
+       "name": "Clark Engle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Springfield Shawnee H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/clark-engle/7232"
+      },
+      {
+       "name": "Will Grimmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Mariemont",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/will-grimmer/7079"
+      },
+      {
+       "name": "Jack Mancinotti",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "St. John's Jesuit",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/jack-mancinotti/4044"
+      },
+      {
+       "name": "Caleb Ramirez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blythe, Calif.",
+       "country": "US",
+       "previous_school": "Mount Olive Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/caleb-ramirez/7089"
+      },
+      {
+       "name": "Max Rosenthal",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Eden Prairie, Minn.",
+       "country": "US",
+       "previous_school": "Eden Prairie H.S.",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/max-rosenthal/7247"
+      },
+      {
+       "name": "Daniel Wetterich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "LaSalle",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/daniel-wetterich/7099"
+      },
+      {
+       "name": "Josh Wick",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington H.S.",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/josh-wick/7571"
+      },
+      {
+       "name": "Justin Wick",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/justin-wick/4058"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Moseley",
+       "title": "Head Coach",
+       "email": "moseley.61@osu.edu",
+       "phone": "(614) 292-3575",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/jay-moseley/2441"
+      },
+      {
+       "name": "Brad Smith",
+       "title": "Assistant Coach",
+       "email": "smith.5841@osu.edu",
+       "phone": "(614) 867-0032",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/coaches/brad-smith/1548"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://ohiostatebuckeyes.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Eppelstun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Batemans Bay, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/sophie-eppelstun/13552"
+      },
+      {
+       "name": "Kary Hollenbaugh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kary-hollenbaugh/12498"
+      },
+      {
+       "name": "Marina Joyce-Moreno",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Argentona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Nellie Ong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/nellie-ong/13554"
+      },
+      {
+       "name": "Matilde Santilli",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ottershaw, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/matilde-santilli/13555"
+      },
+      {
+       "name": "Mandy Song",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/mandy-song/13556"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Strom",
+       "title": "Head Coach",
+       "email": "strom.3@osu.edu",
+       "phone": "(704) 453-3998",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/lisa-strom/2461"
+      },
+      {
+       "name": "Alejandra Cangrejo",
+       "title": "Assistant Coach",
+       "email": "CANGREJO.2@OSU.EDU",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/alejandra-cangrejo/2460"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kavya Ajjarapu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lutz, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kavya-ajjarapu/11450"
+      },
+      {
+       "name": "Faith Choi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Frederick, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/faith-choi/11451"
+      },
+      {
+       "name": "Kary Hollenbaugh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kary-hollenbaugh/12498"
+      },
+      {
+       "name": "Marina Joyce-Moreno",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Argentona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Chloe Lam",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Johns, New Zealand",
+       "country": "NZ",
+       "previous_school": "King's College",
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/chloe-lam/12177"
+      },
+      {
+       "name": "Nellie Ong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/nellie-ong/13554"
+      },
+      {
+       "name": "Mandy Song",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/mandy-song/13556"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Strom",
+       "title": "Head Coach",
+       "email": "strom.3@osu.edu",
+       "phone": "(704) 453-3998",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/lisa-strom/2461"
+      },
+      {
+       "name": "Alejandra Cangrejo",
+       "title": "Assistant Coach",
+       "email": "CANGREJO.2@OSU.EDU",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/alejandra-cangrejo/2460"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kavya Ajjarapu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lutz, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kavya-ajjarapu/11450"
+      },
+      {
+       "name": "Jillian Bourdage",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Tamarac, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jillian-bourdage/9721"
+      },
+      {
+       "name": "Faith Choi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Frederick, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/faith-choi/11451"
+      },
+      {
+       "name": "Kary Hollenbaugh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kary-hollenbaugh/12498"
+      },
+      {
+       "name": "Emily Hummer",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington High School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/emily-hummer/9724"
+      },
+      {
+       "name": "Caley McGinty",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Bristol, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/caley-mcginty/9725"
+      },
+      {
+       "name": "Kailie Vongsaga",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Diamond Bar, California",
+       "country": "US",
+       "previous_school": "University of Arizona",
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kailie-vongsaga/9726"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lisa Strom",
+       "title": "Head Coach",
+       "email": "strom.3@osu.edu",
+       "phone": "(704) 453-3998",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/lisa-strom/2461"
+      },
+      {
+       "name": "Alejandra Cangrejo",
+       "title": "Assistant Coach",
+       "email": "CANGREJO.2@OSU.EDU",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/alejandra-cangrejo/2460"
+      },
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/amy-miller/2443"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jillian Bourdage",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Tamarac, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jillian-bourdage/9721"
+      },
+      {
+       "name": "Faith Choi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Frederick, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/faith-choi/11451"
+      },
+      {
+       "name": "Kary Hollenbaugh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kary-hollenbaugh/12498"
+      },
+      {
+       "name": "Emily Hummer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington High School",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/emily-hummer/9724"
+      },
+      {
+       "name": "Caley McGinty",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bristol, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/caley-mcginty/9725"
+      },
+      {
+       "name": "Lauren Peter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lauren-peter/532"
+      },
+      {
+       "name": "Aneka Seumanutafa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Emmitsburg, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/aneka-seumanutafa/538"
+      },
+      {
+       "name": "Kailie Vongsaga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Diamond Bar, California",
+       "country": "US",
+       "previous_school": "University of Arizona",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kailie-vongsaga/9726"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/amy-miller/2443"
+      },
+      {
+       "name": "Alejandra Cangrejo",
+       "title": "Assistant Coach",
+       "email": "CANGREJO.2@OSU.EDU",
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/alejandra-cangrejo/2460"
+      },
+      {
+       "name": "Lisa Strom",
+       "title": "Head Coach",
+       "email": "strom.3@osu.edu",
+       "phone": "(704) 453-3998",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/lisa-strom/2461"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jillian Bourdage",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Tamarac, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jillian-bourdage/9721"
+      },
+      {
+       "name": "Faith Choi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Frederick, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/faith-choi/11451"
+      },
+      {
+       "name": "Emily Hummer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington High School",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/emily-hummer/9724"
+      },
+      {
+       "name": "Kristin Jamieson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kristin-jamieson/7989"
+      },
+      {
+       "name": "Lauren Peter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lauren-peter/532"
+      },
+      {
+       "name": "Alexis Phadungmartvorakul",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bakersfield, California",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alexis-phadungmartvorakul/7997"
+      },
+      {
+       "name": "Aneka Seumanutafa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Emmitsburg, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/aneka-seumanutafa/538"
+      },
+      {
+       "name": "Skylar Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buford, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/skylar-thompson/8003"
+      },
+      {
+       "name": "Kailie Vongsaga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Diamond Bar, California",
+       "country": "US",
+       "previous_school": "University of Arizona",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kailie-vongsaga/9726"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Miller",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/amy-miller/2443"
+      },
+      {
+       "name": "Lisa Strom",
+       "title": "Head Coach",
+       "email": "strom.3@osu.edu",
+       "phone": "(704) 453-3998",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/coaches/lisa-strom/2461"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jillian Bourdage",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Tamarac, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jillian-bourdage/9721"
+      },
+      {
+       "name": "Emily Hummer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington High School",
+       "class_raw": "R-So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/emily-hummer/9724"
+      },
+      {
+       "name": "Kristin Jamieson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kristin-jamieson/7989"
+      },
+      {
+       "name": "Lauren Peter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lauren-peter/532"
+      },
+      {
+       "name": "Alanis Sakuma",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kapolei, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alanis-sakuma/2265"
+      },
+      {
+       "name": "Aneka Seumanutafa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Emmitsburg, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/aneka-seumanutafa/538"
+      },
+      {
+       "name": "Skylar Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buford, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/skylar-thompson/8003"
+      },
+      {
+       "name": "Kailie Vongsaga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Diamond Bar, California",
+       "country": "US",
+       "previous_school": "University of Arizona",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kailie-vongsaga/9726"
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kristin Jamieson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/kristin-jamieson/7989"
+      },
+      {
+       "name": "Lauren Peter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lauren-peter/532"
+      },
+      {
+       "name": "Alanis Sakuma",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kapolei, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alanis-sakuma/2265"
+      },
+      {
+       "name": "Yukie Sasaki",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hiroshima, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/yukie-sasaki/192"
+      },
+      {
+       "name": "Sofia Seldemirova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sofia, Bulgaria",
+       "country": "BG",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/sofia-seldemirova/195"
+      },
+      {
+       "name": "Aneka Seumanutafa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Emmitsburg, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/aneka-seumanutafa/538"
+      },
+      {
+       "name": "Adeena Shears",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Parkersburg, W.Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/adeena-shears/225"
+      },
+      {
+       "name": "Skylar Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buford, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/skylar-thompson/8003"
+      },
+      {
+       "name": "Alex Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midlothian, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alex-wright/232"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jaclyn Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jaclyn-lee/5299"
+      },
+      {
+       "name": "Lexie Long",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lexie-long/5301"
+      },
+      {
+       "name": "Lauren Peter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lauren-peter/532"
+      },
+      {
+       "name": "Alanis Sakuma",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kapolei, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alanis-sakuma/2265"
+      },
+      {
+       "name": "Yukie Sasaki",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hiroshima, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/yukie-sasaki/192"
+      },
+      {
+       "name": "Niki Schroeder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Avon Lake, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/niki-schroeder/5309"
+      },
+      {
+       "name": "Sofia Seldemirova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sofia, Bulgaria",
+       "country": "BG",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/sofia-seldemirova/195"
+      },
+      {
+       "name": "Aneka Seumanutafa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Emmitsburg, Md.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/aneka-seumanutafa/538"
+      },
+      {
+       "name": "Adeena Shears",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Parkersburg, W.Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/adeena-shears/225"
+      },
+      {
+       "name": "Skylar Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buford, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/skylar-thompson/8003"
+      },
+      {
+       "name": "Alex Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midlothian, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alex-wright/232"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jaclyn Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jaclyn-lee/5299"
+      },
+      {
+       "name": "Lexie Long",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/lexie-long/5301"
+      },
+      {
+       "name": "Alanis Sakuma",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kapolei, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alanis-sakuma/2265"
+      },
+      {
+       "name": "Niki Schroeder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Avon Lake, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/niki-schroeder/5309"
+      },
+      {
+       "name": "Sofia Seldemirova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sofia, Bulgaria",
+       "country": "BG",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/sofia-seldemirova/195"
+      },
+      {
+       "name": "Adeena Shears",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Parkersburg, W.Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/adeena-shears/225"
+      },
+      {
+       "name": "Alex Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midlothian, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alex-wright/232"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Zoe-Beth Brake",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Whakatane, New Zealand",
+       "country": "NZ",
+       "previous_school": "Trident H.S.",
+       "class_raw": "R-Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Jaclyn Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jaclyn-lee/5299"
+      },
+      {
+       "name": "Katja Pogacar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ljubljana, Slovenia",
+       "country": "SI",
+       "previous_school": "Gimnazija Poljane",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/katja-pogacar/12"
+      },
+      {
+       "name": "Jessica Porvasnik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hinckley, Ohio",
+       "country": "US",
+       "previous_school": "Highland H.S.",
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/jessica-porvasnik/17"
+      },
+      {
+       "name": "Niki Schroeder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Avon Lake, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/niki-schroeder/5309"
+      },
+      {
+       "name": "Adeena Shears",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Parkersburg, W.Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/adeena-shears/225"
+      },
+      {
+       "name": "Alex Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midlothian, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/alex-wright/232"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://ohiostatebuckeyes.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

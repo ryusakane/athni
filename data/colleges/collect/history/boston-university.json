@@ -1,22 +1,982 @@
 {
  "slug": "boston-university",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "female",
    "golf_url": "https://goterriers.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hibiki Adachi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Montverde Academy (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hibiki-adachi/27483"
+      },
+      {
+       "name": "Amy Han",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dalian, China",
+       "country": "CN",
+       "previous_school": "King's College (New Zealand)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/amy-han/27484"
+      },
+      {
+       "name": "Wendy Li",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ont.",
+       "country": "CA",
+       "previous_school": "Richmond Hill",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/wendy-li/27485"
+      },
+      {
+       "name": "Annika Manjunath",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Coffman",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/annika-manjunath/26885"
+      },
+      {
+       "name": "Madison Takai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/madison-takai/27486"
+      },
+      {
+       "name": "Monica Wu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hillsborough, Calif.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/monica-wu/27487"
+      },
+      {
+       "name": "Sophia Zhang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "The Experimental High School Attached to Beijing Normal University",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/sophia-zhang/27488"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Claire Edwards",
+       "title": "Assistant Coach",
+       "email": "caedwar1@bu.edu",
+       "phone": "(317) 694-2010",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/claire-edwards/8385"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hibiki Adachi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Montverde Academy (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hibiki-adachi/27483"
+      },
+      {
+       "name": "Christy Chen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangzhou Foreign Language School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/christy-chen/25815"
+      },
+      {
+       "name": "Meiqi Gao",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Taiwan",
+       "country": "TW",
+       "previous_school": "HD Ningbo School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/meiqi-gao/25816"
+      },
+      {
+       "name": "Amy Han",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dalian, China",
+       "country": "CN",
+       "previous_school": "King's College (New Zealand)",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/amy-han/27484"
+      },
+      {
+       "name": "Annika Manjunath",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Coffman",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/annika-manjunath/26885"
+      },
+      {
+       "name": "Madison Takai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/madison-takai/27486"
+      },
+      {
+       "name": "Victoria Takai",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/victoria-takai/25820"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Claire Edwards",
+       "title": "Assistant Coach",
+       "email": "caedwar1@bu.edu",
+       "phone": "(317) 694-2010",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/claire-edwards/8385"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hibiki Adachi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Montverde Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hibiki-adachi/27483"
+      },
+      {
+       "name": "Christy Chen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangzhou Foreign Language School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/christy-chen/25815"
+      },
+      {
+       "name": "Meiqi Gao",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taiwan",
+       "country": "TW",
+       "previous_school": "HD Ningbo School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/meiqi-gao/25816"
+      },
+      {
+       "name": "Amy Han",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dalian, China",
+       "country": "CN",
+       "previous_school": "King's College (New Zealand)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/amy-han/27484"
+      },
+      {
+       "name": "Annika Manjunath",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Coffman",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/annika-manjunath/26885"
+      },
+      {
+       "name": "Madison Takai",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/madison-takai/27486"
+      },
+      {
+       "name": "Victoria Takai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/victoria-takai/25820"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Claire Edwards",
+       "title": "Volunteer Assistant Coach",
+       "email": "caedwar1@bu.edu",
+       "phone": "(317) 694-2010",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/claire-edwards/8385"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andrea Balaguer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dorado, Puerto Rico",
+       "country": "US",
+       "previous_school": "Colegio Marista de Guaynabo",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/andrea-balaguer/24689"
+      },
+      {
+       "name": "Christy Chen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangzhou Foreign Language School",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/christy-chen/25815"
+      },
+      {
+       "name": "Alice Fan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Wesley College",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/alice-fan/23494"
+      },
+      {
+       "name": "Kristen Min Ju Kim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Sonora (Calif.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/kristen-min-ju-kim/23495"
+      },
+      {
+       "name": "Flair Kuan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Zhuhai, China",
+       "country": "CN",
+       "previous_school": "Pui Ching",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/flair-kuan/23496"
+      },
+      {
+       "name": "Annika Manjunath",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Coffman",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/annika-manjunath/26885"
+      },
+      {
+       "name": "Victoria Takai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/victoria-takai/25820"
+      },
+      {
+       "name": "Monica Yu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Reedley College",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/monica-yu/23498"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Claire Edwards",
+       "title": "Assistant Coach",
+       "email": "caedwar1@bu.edu",
+       "phone": "(317) 694-2010",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/claire-edwards/8385"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Christy Chen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangzhou Foreign Language School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/christy-chen/25815"
+      },
+      {
+       "name": "Alice Fan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Wesley College",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/alice-fan/23494"
+      },
+      {
+       "name": "Hanako Kawasaki",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ho Chi Minh City, Vietnam",
+       "country": "VN",
+       "previous_school": "British International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hanako-kawasaki/20573"
+      },
+      {
+       "name": "Kristen Min Ju Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Sonora (Calif.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/kristen-min-ju-kim/23495"
+      },
+      {
+       "name": "Flair Kuan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Zhuhai, China",
+       "country": "CN",
+       "previous_school": "Pui Ching",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/flair-kuan/23496"
+      },
+      {
+       "name": "Victoria Takai",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/victoria-takai/25820"
+      },
+      {
+       "name": "Monica Yu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Reedley College",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/monica-yu/23498"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Courtney Leddy",
+       "title": "Assistant Director, Student-Athlete Support Services",
+       "email": "cmleddy@bu.edu",
+       "phone": "(617) 358-3382",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/courtney-leddy/6825"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alice Fan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Wesley College",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/alice-fan/23494"
+      },
+      {
+       "name": "Zhangcheng Guo",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Gr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/zhangcheng-guo/17954"
+      },
+      {
+       "name": "Hanako Kawasaki",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ho Chi Minh City, Vietnam",
+       "country": "VN",
+       "previous_school": "British International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hanako-kawasaki/20573"
+      },
+      {
+       "name": "Kristen Min Ju Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Sonora (Calif.)",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/kristen-min-ju-kim/23495"
+      },
+      {
+       "name": "Flair Kuan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Zhuhai, China",
+       "country": "CN",
+       "previous_school": "Pui Ching",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/flair-kuan/23496"
+      },
+      {
+       "name": "Monica Yu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Reedley College",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/monica-yu/23498"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Katerina Doleckova",
+       "title": "Volunteer Assistant Coach",
+       "email": "kackad@bu.edu",
+       "phone": null,
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/katerina-doleckova/5706"
+      },
+      {
+       "name": "Tylor Hart",
+       "title": "Assistant Director, Student-Athlete Support Services",
+       "email": "tahart@bu.edu",
+       "phone": "(617) 353-3382",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/tylor-hart/5700"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katerina Doleckova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Louny, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnazium Vaclava Hlavateho",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/katerina-doleckova/14233"
+      },
+      {
+       "name": "Alice Fan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Wesley College",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/alice-fan/23494"
+      },
+      {
+       "name": "Zhangcheng Guo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/zhangcheng-guo/17954"
+      },
+      {
+       "name": "Hanako Kawasaki",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ho Chi Minh City, Vietnam",
+       "country": "VN",
+       "previous_school": "British International School",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hanako-kawasaki/20573"
+      },
+      {
+       "name": "Kristen Min Ju Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Sonora (Calif.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/kristen-min-ju-kim/23495"
+      },
+      {
+       "name": "Saeros Oskarsdottir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kopavogur, Iceland",
+       "country": "IS",
+       "previous_school": "Commercial College of Iceland",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/saeros-oskarsdottir/14236"
+      },
+      {
+       "name": "Abby Parsons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hutchinson, Minn.",
+       "country": "US",
+       "previous_school": "Union Pines",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/abby-parsons/14237"
+      },
+      {
+       "name": "Annie Sritragul",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Nebraska",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/annie-sritragul/14238"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Megan Carter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blackshear, Ga.",
+       "country": "US",
+       "previous_school": "Ware County",
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/megan-carter/12603"
+      },
+      {
+       "name": "Katerina Doleckova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louny, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnazium Vaclava Hlavateho",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/katerina-doleckova/14233"
+      },
+      {
+       "name": "Zhangcheng Guo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/zhangcheng-guo/17954"
+      },
+      {
+       "name": "Hanako Kawasaki",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ho Chi Minh City, Vietnam",
+       "country": "VN",
+       "previous_school": "British International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/hanako-kawasaki/20573"
+      },
+      {
+       "name": "Saeros Oskarsdottir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kopavogur, Iceland",
+       "country": "IS",
+       "previous_school": "Commercial College of Iceland",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/saeros-oskarsdottir/14236"
+      },
+      {
+       "name": "Abby Parsons",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hutchinson, Minn.",
+       "country": "US",
+       "previous_school": "Union Pines",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/abby-parsons/14237"
+      },
+      {
+       "name": "Annie Sritragul",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Nebraska",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/annie-sritragul/14238"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Molly-Kate Carven",
+       "title": "Assistant Director, Student-Athlete Support Services",
+       "email": "mkcarven@bu.edu",
+       "phone": "(617) 358-3382",
+       "profile_url": null
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Megan Carter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blackshear, Ga.",
+       "country": "US",
+       "previous_school": "Ware County",
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/megan-carter/12603"
+      },
+      {
+       "name": "Katerina Doleckova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louny, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnazium Vaclava Hlavateho",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/katerina-doleckova/14233"
+      },
+      {
+       "name": "Zhangcheng Guo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/zhangcheng-guo/17954"
+      },
+      {
+       "name": "Saeros Oskarsdottir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kopavogur, Iceland",
+       "country": "IS",
+       "previous_school": "Commercial College of Iceland",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/saeros-oskarsdottir/14236"
+      },
+      {
+       "name": "Abby Parsons",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hutchinson, Minn.",
+       "country": "US",
+       "previous_school": "Union Pines",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/abby-parsons/14237"
+      },
+      {
+       "name": "Phyllis Tang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/phyllis-tang/9521"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Adela Cejnarova",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/adela-cejnarova/4197"
+      },
+      {
+       "name": "Molly-Kate Carven",
+       "title": "Assistant Director, Student-Athlete Support Services",
+       "email": "mkcarven@bu.edu",
+       "phone": "(617) 358-3382",
+       "profile_url": null
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goterriers.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Megan Carter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Blackshear, Ga.",
+       "country": "US",
+       "previous_school": "Ware County",
+       "class_raw": "So.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/megan-carter/12603"
+      },
+      {
+       "name": "Adela Cejnarova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/adela-cejnarova/6573"
+      },
+      {
+       "name": "Zhangcheng Guo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/zhangcheng-guo/17954"
+      },
+      {
+       "name": "Saeros Oskarsdottir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kopavogur, Iceland",
+       "country": "IS",
+       "previous_school": "Commercial College of Iceland",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/saeros-oskarsdottir/14236"
+      },
+      {
+       "name": "Abby Parsons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hutchinson, Minn.",
+       "country": "US",
+       "previous_school": "Union Pines",
+       "class_raw": "Fr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/abby-parsons/14237"
+      },
+      {
+       "name": "Phyllis Tang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/phyllis-tang/9521"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Chalas",
+       "title": "Head Coach",
+       "email": "bchalas@bu.edu",
+       "phone": "(857) 777-6990",
+       "profile_url": "https://goterriers.com/staff-directory/bruce-chalas/89"
+      },
+      {
+       "name": "Val Altieri",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goterriers.com/sports/womens-golf/roster/coaches/val-altieri/895"
+      },
+      {
+       "name": "Molly-Kate Carven",
+       "title": "Assistant Director, Student-Athlete Support Services",
+       "email": "mkcarven@bu.edu",
+       "phone": "(617) 358-3382",
+       "profile_url": null
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://goterriers.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goterriers.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goterriers.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

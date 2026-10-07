@@ -1,36 +1,2070 @@
 {
  "slug": "appalachian-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://appstatesports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Rob Bergevin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Washington, N.C.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/rob-bergevin/10453"
+      },
+      {
+       "name": "Cole Bergheim",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Red Deer, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "Hunting Hills",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/cole-bergheim/10454"
+      },
+      {
+       "name": "Aidan Browning",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/aidan-browning/10455"
+      },
+      {
+       "name": "Max Cranford",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newton, N.C.",
+       "country": "US",
+       "previous_school": "Wofford",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/max-cranford/10463"
+      },
+      {
+       "name": "James Gradisek",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/james-gradisek/10456"
+      },
+      {
+       "name": "Herman Huus",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Finstadjordet, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/herman-huus/10457"
+      },
+      {
+       "name": "Alex Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Thomasville, N.C.",
+       "country": "US",
+       "previous_school": "Sandhills C.C.",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/alex-martin/10459"
+      },
+      {
+       "name": "Charlie O'Shea",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Country Day",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/charlie-o-shea/10460"
+      },
+      {
+       "name": "Ben Read",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Banchory, Scotland",
+       "country": "GB",
+       "previous_school": "Sandhills Community College",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ben-read/10461"
+      },
+      {
+       "name": "Jack Seward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Florence, S.C.",
+       "country": "US",
+       "previous_school": "Trinity Collegiate",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-seward/10462"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Michael Cole",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/john-michael-cole/1689"
+      },
+      {
+       "name": "Holt Allison",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/holt-allison/1751"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Rob Bergevin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Washington, N.C.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/rob-bergevin/9502"
+      },
+      {
+       "name": "Cole Bergheim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Red Deer, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "Hunting Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/cole-bergheim/9503"
+      },
+      {
+       "name": "Aidan Browning",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/aidan-browning/9504"
+      },
+      {
+       "name": "Colin Browning",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/colin-browning/9505"
+      },
+      {
+       "name": "Josh Buxbaum",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Wake Forest, N.C.",
+       "country": "US",
+       "previous_school": "Wake Forest",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/josh-buxbaum/9506"
+      },
+      {
+       "name": "James Gradisek",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/james-gradisek/9507"
+      },
+      {
+       "name": "Herman Huus",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Finstadjordet, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/herman-huus/9508"
+      },
+      {
+       "name": "Ben Locker",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ben-locker/9509"
+      },
+      {
+       "name": "Alex Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Thomasville, N.C.",
+       "country": "US",
+       "previous_school": "Sandhills C.C.",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/alex-martin/9510"
+      },
+      {
+       "name": "Charlie O'Shea",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Country Day",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/charlie-o-shea/9546"
+      },
+      {
+       "name": "Ben Read",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Banchory, Scotland",
+       "country": "GB",
+       "previous_school": "Sandhills Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ben-read/9830"
+      },
+      {
+       "name": "Jack Seward",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Florence, S.C.",
+       "country": "US",
+       "previous_school": "Trinity Collegiate",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-seward/9511"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alan Cress",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/alan-cress/1494"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Addison Beam",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cherryville, N.C.",
+       "country": "US",
+       "previous_school": "Highland School of Technology",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/addison-beam/8542"
+      },
+      {
+       "name": "Rob Bergevin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Washington, N.C.",
+       "country": "US",
+       "previous_school": "Washington",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/rob-bergevin/8553"
+      },
+      {
+       "name": "Cole Bergheim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Red Deer, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "Hunting Hills",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/cole-bergheim/8543"
+      },
+      {
+       "name": "Aidan Browning",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/aidan-browning/8544"
+      },
+      {
+       "name": "Colin Browning",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/colin-browning/8545"
+      },
+      {
+       "name": "Josh Buxbaum",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Wake Forest, N.C.",
+       "country": "US",
+       "previous_school": "Wake Forest",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/josh-buxbaum/8546"
+      },
+      {
+       "name": "James Gradisek",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/james-gradisek/8547"
+      },
+      {
+       "name": "Sverrir Haraldsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mosfellsbær, Iceland",
+       "country": "IS",
+       "previous_school": "Framhaldsskólinn í Mosfellsbæ",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/sverrir-haraldsson/8548"
+      },
+      {
+       "name": "Herman Huus",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Finstadjordet, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/herman-huus/8549"
+      },
+      {
+       "name": "Ben Locker",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ben-locker/8550"
+      },
+      {
+       "name": "Alex Martin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Thomasville, N.C.",
+       "country": "US",
+       "previous_school": "Sandhills C.C.",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/alex-martin/8551"
+      },
+      {
+       "name": "Jack Seward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Florence, S.C.",
+       "country": "US",
+       "previous_school": "Trinity Collegiate",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-seward/8552"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alan Cress",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/alan-cress/1349"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Addison Beam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cherryville, N.C.",
+       "country": "US",
+       "previous_school": "Highland School of Technology",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/addison-beam/7810"
+      },
+      {
+       "name": "Cole Bergheim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Red Deer, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "Hunting Hills",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/cole-bergheim/7818"
+      },
+      {
+       "name": "Aidan Browning",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/aidan-browning/7819"
+      },
+      {
+       "name": "Colin Browning",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/colin-browning/7811"
+      },
+      {
+       "name": "Josh Buxbaum",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Wake Forest, N.C.",
+       "country": "US",
+       "previous_school": "Wake Forest",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/josh-buxbaum/7812"
+      },
+      {
+       "name": "James Gradisek",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/james-gradisek/7813"
+      },
+      {
+       "name": "Sverrir Haraldsson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mosfellsbær, Iceland",
+       "country": "IS",
+       "previous_school": "Framhaldsskólinn í Mosfellsbæ",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/sverrir-haraldsson/7814"
+      },
+      {
+       "name": "Herman Huus",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Finstadjordet, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/herman-huus/7817"
+      },
+      {
+       "name": "Lukas Jönsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ahus, Sweden",
+       "country": "SE",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ben Locker",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ben-locker/7816"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alan Cress",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/alan-cress/1235"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Addison Beam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cherryville, N.C.",
+       "country": "US",
+       "previous_school": "Highland School of Technology",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/addison-beam/6923"
+      },
+      {
+       "name": "Colin Browning",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/colin-browning/6932"
+      },
+      {
+       "name": "Josh Buxbaum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wake Forest, N.C.",
+       "country": "US",
+       "previous_school": "Wake Forest",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/josh-buxbaum/6939"
+      },
+      {
+       "name": "James Gradisek",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/james-gradisek/6940"
+      },
+      {
+       "name": "Sverrir Haraldsson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mosfellsbær, Iceland",
+       "country": "IS",
+       "previous_school": "Framhaldsskólinn í Mosfellsbæ",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/sverrir-haraldsson/6925"
+      },
+      {
+       "name": "Lukas Jönsson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ahus, Sweden",
+       "country": "SE",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Jake Lane",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Fort St. John, British Columbia, Canada",
+       "country": "CA",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "S-Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jake-lane/6928"
+      },
+      {
+       "name": "Ben Locker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ben-locker/6941"
+      },
+      {
+       "name": "Ryan Marter",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Wofford",
+       "class_raw": "Gr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/ryan-marter/6938"
+      },
+      {
+       "name": "Justin Morgan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": "Cape Fear Community College",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/justin-morgan/6936"
+      },
+      {
+       "name": "Timothius Tirto Tamardi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Surabaya, Indonesia",
+       "country": "ID",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/timothius-tirto-tamardi/6930"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Alan Cress",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/alan-cress/1170"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Addison Beam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cherryville, N.C.",
+       "country": "US",
+       "previous_school": "Highland School of Technology",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/addison-beam/6457"
+      },
+      {
+       "name": "Jack Brea",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-brea/6458"
+      },
+      {
+       "name": "Colin Browning",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/colin-browning/6467"
+      },
+      {
+       "name": "Sverrir Haraldsson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mosfellsbær, Iceland",
+       "country": "IS",
+       "previous_school": "Framhaldsskólinn í Mosfellsbæ",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/sverrir-haraldsson/6459"
+      },
+      {
+       "name": "Lukas Jönsson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ahus, Sweden",
+       "country": "SE",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Xander Kline",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin School",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/xander-kline/6465"
+      },
+      {
+       "name": "Jake Lane",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fort St. John, British Columbia, Canada",
+       "country": "CA",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jake-lane/6461"
+      },
+      {
+       "name": "Dylan Lukes",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "S-Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/dylan-lukes/6462"
+      },
+      {
+       "name": "Justin Morgan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Denver, N.C.",
+       "country": "US",
+       "previous_school": "Cape Fear Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/justin-morgan/6466"
+      },
+      {
+       "name": "Timothius Tirto Tamardi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Surabaya, Indonesia",
+       "country": "ID",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/timothius-tirto-tamardi/6463"
+      },
+      {
+       "name": "Drew Wood",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/drew-wood/6464"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Allison",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/jason-allison/1031"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Addison Beam",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cherryville, N.C.",
+       "country": "US",
+       "previous_school": "Highland School of Technology",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/addison-beam/5990"
+      },
+      {
+       "name": "Jack Brea",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-brea/5991"
+      },
+      {
+       "name": "Nicholas Gunnell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hamptonville, N.C.",
+       "country": "US",
+       "previous_school": "Starmount High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/nicholas-gunnell/5992"
+      },
+      {
+       "name": "Sverrir Haraldsson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mosfellsbær, Iceland",
+       "country": "IS",
+       "previous_school": "Framhaldsskólinn í Mosfellsbæ",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/sverrir-haraldsson/6023"
+      },
+      {
+       "name": "Lukas Jönsson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ahus, Sweden",
+       "country": "SE",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Jake Lane",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fort St. John, British Columbia, Canada",
+       "country": "CA",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jake-lane/5994"
+      },
+      {
+       "name": "Dylan Lukes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/dylan-lukes/5995"
+      },
+      {
+       "name": "Timothius Tirto Tamardi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Surabaya, Indonesia",
+       "country": "ID",
+       "previous_school": "Bethune-Cookman",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/timothius-tirto-tamardi/5998"
+      },
+      {
+       "name": "Drew Wood",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/drew-wood/5999"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Allison",
+       "title": "Interim Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/jason-allison/998"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Brea",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-brea/5358"
+      },
+      {
+       "name": "Alex Burris",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Grimsley",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/alex-burris/5360"
+      },
+      {
+       "name": "Julian Cepeda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "University of Motevallo",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/julian-cepeda/5372"
+      },
+      {
+       "name": "Nicholas Gunnell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamptonville, N.C.",
+       "country": "US",
+       "previous_school": "Starmount High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/nicholas-gunnell/6024"
+      },
+      {
+       "name": "Logan McNeely",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Conover, N.C.",
+       "country": "US",
+       "previous_school": "Newton-Conover",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/logan-mcneely/5365"
+      },
+      {
+       "name": "Candler Rice",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Carolina Day",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/candler-rice/5367"
+      },
+      {
+       "name": "Noah Schneider",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jackson, Mich.",
+       "country": "US",
+       "previous_school": "Jackson Christian",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/noah-schneider/5368"
+      },
+      {
+       "name": "Tripp Summerlin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Summerfield, N.C.",
+       "country": "US",
+       "previous_school": "Rockingham County",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/tripp-summerlin/5370"
+      },
+      {
+       "name": "Chance Watson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newland, N.C.",
+       "country": "US",
+       "previous_school": "Avery County",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/chance-watson/5371"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bo Redman",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/bo-redman/948"
+      },
+      {
+       "name": "Clint Mayo",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/clint-mayo/947"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://appstatesports.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Christian Bailey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Matthews, N.C.",
+       "country": "US",
+       "previous_school": "Porter Ridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/christian-bailey/4620"
+      },
+      {
+       "name": "Jack Brea",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Myers Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/jack-brea/4731"
+      },
+      {
+       "name": "Walter Brinker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sanford, N.C.",
+       "country": "US",
+       "previous_school": "Lee County",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/walter-brinker/3641"
+      },
+      {
+       "name": "Alex Burris",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Grimsley",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/alex-burris/3642"
+      },
+      {
+       "name": "Dylan Lukes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/dylan-lukes/4909"
+      },
+      {
+       "name": "Logan McNeely",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Conover, N.C.",
+       "country": "US",
+       "previous_school": "Newton-Conover",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/logan-mcneely/4619"
+      },
+      {
+       "name": "Candler Rice",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Asheville, N.C.",
+       "country": "US",
+       "previous_school": "Carolina Day",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/candler-rice/4618"
+      },
+      {
+       "name": "Noah Schneider",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jackson, Mich.",
+       "country": "US",
+       "previous_school": "Jackson Christian",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/noah-schneider/3647"
+      },
+      {
+       "name": "Tripp Summerlin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Summerfield, N.C.",
+       "country": "US",
+       "previous_school": "Rockingham County",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/tripp-summerlin/3649"
+      },
+      {
+       "name": "Chance Watson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newland, N.C.",
+       "country": "US",
+       "previous_school": "Avery County",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/chance-watson/3650"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bo Redman",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/mens-golf/roster/coaches/bo-redman/688"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://appstatesports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zoe Duval",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cumming, Ga.",
+       "country": "US",
+       "previous_school": "Lambert",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/zoe-duval/10452"
+      },
+      {
+       "name": "Kendal Graham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Anderson, S.C.",
+       "country": "US",
+       "previous_school": "Queens",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/kendal-graham/10618"
+      },
+      {
+       "name": "Salem Lee",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Asheboro, N.C.",
+       "country": "US",
+       "previous_school": "Asheboro",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/salem-lee/10448"
+      },
+      {
+       "name": "Ona Lukes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/ona-lukes/10449"
+      },
+      {
+       "name": "Maria Pinedo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Neiva, Huila, Colombia",
+       "country": "CO",
+       "previous_school": "Bellevue",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/maria-pinedo/10496"
+      },
+      {
+       "name": "Alisa Pressley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hoschton, Ga.",
+       "country": "US",
+       "previous_school": "Cherokee Bluffs",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/alisa-pressley/10451"
+      },
+      {
+       "name": "Addi Ritter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Afton, Va.",
+       "country": "US",
+       "previous_school": "Western Albemarle",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/addi-ritter/10450"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chan Metts",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/chan-metts/1658"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mary-Sears Brown",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Longwood",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mary-sears-brown/9487"
+      },
+      {
+       "name": "Makena Dubois",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canton, Ga.",
+       "country": "US",
+       "previous_school": "Creekview",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/makena-dubois/9488"
+      },
+      {
+       "name": "Salem Lee",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Asheboro, N.C.",
+       "country": "US",
+       "previous_school": "Asheboro",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/salem-lee/9489"
+      },
+      {
+       "name": "Ona Lukes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/ona-lukes/9490"
+      },
+      {
+       "name": "Layla Meric",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cuthbertson",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/layla-meric/9491"
+      },
+      {
+       "name": "Jacquelyn Taylor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Glasgow, Prince Edward Island, Canada",
+       "country": "CA",
+       "previous_school": "Bluefield",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/jacquelyn-taylor/9492"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chan Metts",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/chan-metts/1568"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sara Adams",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Whispering Pines, N.C.",
+       "country": "US",
+       "previous_school": "Union Pines",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sara-adams/8554"
+      },
+      {
+       "name": "Mary-Sears Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Longwood",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mary-sears-brown/8564"
+      },
+      {
+       "name": "Makena Dubois",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canton, Ga.",
+       "country": "US",
+       "previous_school": "Creekview",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/makena-dubois/8563"
+      },
+      {
+       "name": "Salem Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Asheboro, N.C.",
+       "country": "US",
+       "previous_school": "Asheboro",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/salem-lee/8561"
+      },
+      {
+       "name": "Ona Lukes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/ona-lukes/8565"
+      },
+      {
+       "name": "Layla Meric",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cuthbertson",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/layla-meric/8556"
+      },
+      {
+       "name": "Braelyn Pippin",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Tusculum",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/braelyn-pippin/8557"
+      },
+      {
+       "name": "Callie Taylor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Quispamsis, New Brunswick, Canada",
+       "country": "CA",
+       "previous_school": "Kennebecasis Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/callie-taylor/8562"
+      },
+      {
+       "name": "Jacquelyn Taylor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Glasgow, Prince Edward Island, Canada",
+       "country": "CA",
+       "previous_school": "Bluefield",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/jacquelyn-taylor/8559"
+      },
+      {
+       "name": "Hannah Wang",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangdong Vocational Institute of Sports",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/hannah-wang/8560"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Dabule",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/brittany-dabule/1350"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sara Adams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Whispering Pines, N.C.",
+       "country": "US",
+       "previous_school": "Union Pines",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sara-adams/7861"
+      },
+      {
+       "name": "Shani Brynard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stellenbosch, South Africa",
+       "country": "ZA",
+       "previous_school": "Charleston Southern",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/shani-brynard/7857"
+      },
+      {
+       "name": "Layla Meric",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cuthbertson",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/layla-meric/7851"
+      },
+      {
+       "name": "Braelyn Pippin",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Waxhaw, N.C.",
+       "country": "US",
+       "previous_school": "Tusculum",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/braelyn-pippin/7858"
+      },
+      {
+       "name": "Ekaterina Prokhorova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Russian Federation",
+       "country": null,
+       "previous_school": "Plekhanov",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/ekaterina-prokhorova/7855"
+      },
+      {
+       "name": "Jacquelyn Taylor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Glasgow, Prince Edward Island, Canada",
+       "country": "CA",
+       "previous_school": "Bluefield",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/jacquelyn-taylor/7853"
+      },
+      {
+       "name": "Hannah Wang",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangdong Vocational Institute of Sports",
+       "class_raw": "R-So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/hannah-wang/7854"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Dabule",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/brittany-dabule/1331"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mary-Sears Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mary-sears-brown/7009"
+      },
+      {
+       "name": "Sarah Hardin",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "West Jefferson, N.C.",
+       "country": "US",
+       "previous_school": "Ashe County",
+       "class_raw": "S-Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sarah-hardin/7257"
+      },
+      {
+       "name": "Layla Meric",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cuthbertson",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/layla-meric/7010"
+      },
+      {
+       "name": "Meghan Mitchell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Canaan, Conn.",
+       "country": "US",
+       "previous_school": "New Canaan",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/meghan-mitchell/7007"
+      },
+      {
+       "name": "Jacquelyn Taylor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Glasgow, Prince Edward Island, Canada",
+       "country": "CA",
+       "previous_school": "Bluefield",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/jacquelyn-taylor/7011"
+      },
+      {
+       "name": "Hannah Wang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangdong Vocational Institute of Sports",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/hannah-wang/7005"
+      },
+      {
+       "name": "Kayla Ward",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Garner, N.C.",
+       "country": "US",
+       "previous_school": "Garner Magnet",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/kayla-ward/7004"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Heather Brown",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/heather-brown/1111"
+      },
+      {
+       "name": "Savanna Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/savanna-wood/1112"
+      },
+      {
+       "name": "Yue Xu",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/yue-xu/1166"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mogie Adamchik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Leesville Road",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mogie-adamchik/6468"
+      },
+      {
+       "name": "Abby Bolt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodstock, Ga.",
+       "country": "US",
+       "previous_school": "Woodstock",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/abby-bolt/6469"
+      },
+      {
+       "name": "Melany Chong",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mississauga, Canada",
+       "country": "CA",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Gr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/melany-chong/6470"
+      },
+      {
+       "name": "Carrie Catherine Ganim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Page",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/carrie-catherine-ganim/6471"
+      },
+      {
+       "name": "Sarah Hardin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Jefferson, N.C.",
+       "country": "US",
+       "previous_school": "Ashe County",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sarah-hardin/6472"
+      },
+      {
+       "name": "Meghan Mitchell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Canaan, Conn.",
+       "country": "US",
+       "previous_school": "New Canaan",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/meghan-mitchell/6473"
+      },
+      {
+       "name": "Ava Tharpe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roaring River, N.C.",
+       "country": "US",
+       "previous_school": "East Wilkes",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/ava-tharpe/6718"
+      },
+      {
+       "name": "Hannah Wang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangdong Vocational Institute of Sports",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/hannah-wang/6474"
+      },
+      {
+       "name": "Kayla Ward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Garner, N.C.",
+       "country": "US",
+       "previous_school": "Garner Magnet",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/kayla-ward/6475"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Heather Brown",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/heather-brown/1032"
+      },
+      {
+       "name": "Savanna Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/savanna-wood/1033"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mogie Adamchik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Leesville Road",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mogie-adamchik/5980"
+      },
+      {
+       "name": "Abby Bolt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodstock, Ga.",
+       "country": "US",
+       "previous_school": "Woodstock",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/abby-bolt/5981"
+      },
+      {
+       "name": "Melany Chong",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Mississauga, Canada",
+       "country": "CA",
+       "previous_school": "Heritage Academy",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/melany-chong/5982"
+      },
+      {
+       "name": "Carrie Catherine Ganim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Page",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/carrie-catherine-ganim/5989"
+      },
+      {
+       "name": "Sarah Hardin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Jefferson, N.C.",
+       "country": "US",
+       "previous_school": "Ashe County",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sarah-hardin/5983"
+      },
+      {
+       "name": "Meghan Mitchell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Canaan, Conn.",
+       "country": "US",
+       "previous_school": "New Canaan",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/meghan-mitchell/5985"
+      },
+      {
+       "name": "Hannah Wang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Guangdong Vocational Institute of Sports",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/hannah-wang/5987"
+      },
+      {
+       "name": "Kayla Ward",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Garner, N.C.",
+       "country": "US",
+       "previous_school": "Garner Magnet",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/kayla-ward/5984"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Heather Brown",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/heather-brown/945"
+      },
+      {
+       "name": "Savanna Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/savanna-wood/946"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mogie Adamchik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Leesville Road",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mogie-adamchik/5344"
+      },
+      {
+       "name": "Abby Bolt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woodstock, Ga.",
+       "country": "US",
+       "previous_school": "Woodstock",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/abby-bolt/5345"
+      },
+      {
+       "name": "Melany Chong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mississauga, Canada",
+       "country": "CA",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/melany-chong/5347"
+      },
+      {
+       "name": "Joliana Elias",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jamestown, N.C.",
+       "country": "US",
+       "previous_school": "Penn-Griffin School for the Arts",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/joliana-elias/5349"
+      },
+      {
+       "name": "Sarah Hardin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Jefferson, N.C.",
+       "country": "US",
+       "previous_school": "Ashe County",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sarah-hardin/5350"
+      },
+      {
+       "name": "Patricia Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Granite Falls, N.C.",
+       "country": "US",
+       "previous_school": "South Caldwell",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/patricia-thompson/5352"
+      },
+      {
+       "name": "Kayla Ward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Garner, N.C.",
+       "country": "US",
+       "previous_school": "Garner Magnet",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/kayla-ward/5353"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Heather Brown",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/heather-brown/817"
+      },
+      {
+       "name": "Savanna Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/savanna-wood/911"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://appstatesports.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mogie Adamchik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Leesville Road",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/mogie-adamchik/4621"
+      },
+      {
+       "name": "Abby Bolt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woodstock, Ga.",
+       "country": "US",
+       "previous_school": "Woodstock",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/abby-bolt/4622"
+      },
+      {
+       "name": "Melany Chong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mississauga, Canada",
+       "country": "CA",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/melany-chong/73"
+      },
+      {
+       "name": "Joliana Elias",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jamestown, N.C.",
+       "country": "US",
+       "previous_school": "Penn-Griffin School for the Arts",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/joliana-elias/75"
+      },
+      {
+       "name": "Sarah Hardin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Jefferson, N.C.",
+       "country": "US",
+       "previous_school": "Ashe County",
+       "class_raw": "So.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/sarah-hardin/4623"
+      },
+      {
+       "name": "Patricia Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Granite Falls, N.C.",
+       "country": "US",
+       "previous_school": "South Caldwell",
+       "class_raw": "Sr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/patricia-thompson/77"
+      },
+      {
+       "name": "Kayla Ward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Garner, N.C.",
+       "country": "US",
+       "previous_school": "Garner Magnet",
+       "class_raw": "Fr.",
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/kayla-ward/5208"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Heather Brown",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/heather-brown/12"
+      },
+      {
+       "name": "Savanna Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://appstatesports.com/sports/womens-golf/roster/coaches/savanna-wood/799"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://appstatesports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://appstatesports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://appstatesports.com/sports/mens-golf/roster/season/2016",
+   "status": 200
   },
   {
    "url": "https://appstatesports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://appstatesports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://appstatesports.com/sports/womens-golf/roster/season/2016",
+   "status": 200
   }
  ]
 }

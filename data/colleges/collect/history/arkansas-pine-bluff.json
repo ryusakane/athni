@@ -1,22 +1,610 @@
 {
  "slug": "arkansas-pine-bluff",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://uapblionsroar.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://uapblionsroar.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "TIMUR ALALIN",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "KYIV, UKRAINE",
+       "country": "UA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/timur-alalin/4774"
+      },
+      {
+       "name": "JONATHON BAUMANN",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "HARKER HEIGHTS, TEXAS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jonathon-baumann/4775"
+      },
+      {
+       "name": "JULES DE REU",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "GURANDE, FRANCE",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jules-de-reu/4776"
+      },
+      {
+       "name": "ROBIN DUZMANN",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "FALKENBERG, SWEDEN",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/robin-duzmann/4777"
+      },
+      {
+       "name": "THOMAS LYAUDET",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": "SANTIAGO, CHILE",
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/thomas-lyaudet/4781"
+      },
+      {
+       "name": "JUAN MELIDA",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "SANTIAGO, CHILE",
+       "country": "CL",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/juan-melida/4778"
+      },
+      {
+       "name": "ANGEL PEREZ",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "MURCIA, SPAIN",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/angel-perez/4779"
+      },
+      {
+       "name": "COLE WIESE",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "HIGH RIDGE, MO",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/cole-wiese/4780"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Carl Smith",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/carl-smith/847"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://uapblionsroar.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "TIMUR ALALIN",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "KYIV, UKRAINE",
+       "country": "UA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/timur-alalin/4449"
+      },
+      {
+       "name": "JONATHON BAUMANN",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "HARKER HEIGHTS, TEXAS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jonathon-baumann/4454"
+      },
+      {
+       "name": "JULES DE REU",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "GURANDE, FRANCE",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jules-de-reu/4451"
+      },
+      {
+       "name": "ROBIN DUZMANN",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "FALKENBERG, SWEDEN",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/robin-duzmann/4609"
+      },
+      {
+       "name": "JUAN MELIDA",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "SANTIAGO, CHILE",
+       "country": "CL",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/juan-melida/4455"
+      },
+      {
+       "name": "ANGEL PEREZ",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "MURCIA, SPAIN",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/angel-perez/4452"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Carl Smith",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/carl-smith/774"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://uapblionsroar.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "JARED CHARBONNEAU",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "EUGENE, OR.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jared-charbonneau/3844"
+      },
+      {
+       "name": "ISAMAEL GARCIA",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "LEON, MEXICO",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/isamael-garcia/3849"
+      },
+      {
+       "name": "KOHLIN HICKS",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "KANSAS CITY, MO.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/kohlin-hicks/3845"
+      },
+      {
+       "name": "JAIME MOLINER",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": "MADRID, SPAIN",
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jaime-moliner/3846"
+      },
+      {
+       "name": "PATRICK MWENDAPOLE",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "LUSAKA, ZAMBIA",
+       "country": "ZM",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/patrick-mwendapole/3847"
+      },
+      {
+       "name": "ANGEL PEREZ",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "MURCIA, SPAIN",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/angel-perez/3850"
+      },
+      {
+       "name": "LI SU",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "MELBOURNE, AUSTRALIA",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/li-su/3848"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roger \"The Legend\" Totten",
+       "title": "Senior Associate Director Athletics/ Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/roger-the-legend-totten/622"
+      },
+      {
+       "name": "Carl Smith",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/carl-smith/623"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://uapblionsroar.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jared Charbonneau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eugene, OR",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jared-charbonneau/3632"
+      },
+      {
+       "name": "Kohlin Hicks",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kansas City, MO/ Lee Summit North HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/kohlin-hicks/3480"
+      },
+      {
+       "name": "Justin Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Merced, CA./ College Park HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/justin-lee/3481"
+      },
+      {
+       "name": "Grayson Martin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "White Hall, AR / White Hall HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/grayson-martin/3482"
+      },
+      {
+       "name": "Joshua McCray",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Memphis, TN / White Station HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/joshua-mccray/3483"
+      },
+      {
+       "name": "Jaime Moliner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madrid, Spain / University of Northwestern Ohio",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/jaime-moliner/3487"
+      },
+      {
+       "name": "Patrick Mwendapole",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lusaka, Zambia / New Mexico Military Institute",
+       "country": "ZM",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/patrick-mwendapole/3486"
+      },
+      {
+       "name": "Nikolas Pitiris",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nicosia, Cyprus/ Lykeio Kykou HS",
+       "country": "CY",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/nikolas-pitiris/3484"
+      },
+      {
+       "name": "Houston Sowell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fort Smith, Arkansas/ Greenwood HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/houston-sowell/3485"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roger \"The Legend\" Totten",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/roger-the-legend-totten/551"
+      },
+      {
+       "name": "Carl Smith",
+       "title": null,
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/carl-smith/552"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://uapblionsroar.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Cade Cleveland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buffalo, TX.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/cade-cleveland/2866"
+      },
+      {
+       "name": "George Faulkner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Freshwater, Isle of Wight, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/george-faulkner/2867"
+      },
+      {
+       "name": "Niklas Frimodig",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/niklas-frimodig/2857"
+      },
+      {
+       "name": "Kohlin Hicks",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kansas City, MO/ Lee Summit North HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/kohlin-hicks/2864"
+      },
+      {
+       "name": "Justin Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Merced, CA./ College Park HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/justin-lee/2865"
+      },
+      {
+       "name": "Dustin Maenaga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, AR",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/dustin-maenaga/2858"
+      },
+      {
+       "name": "Tristan Maharaj",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/tristan-maharaj/2859"
+      },
+      {
+       "name": "Grayson Martin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "White Hall, AR / White Hall HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/grayson-martin/2860"
+      },
+      {
+       "name": "Joshua McCray",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Memphis, TN / White Station HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/joshua-mccray/2861"
+      },
+      {
+       "name": "Houston Sowell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fort Smith, Arkansas/ Greenwood HS",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/houston-sowell/2863"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Roger \"The Legend\" Totten",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/roger-the-legend-totten/434"
+      },
+      {
+       "name": "Carl Smith",
+       "title": null,
+       "email": null,
+       "phone": null,
+       "profile_url": "https://uapblionsroar.com/sports/mens-golf/roster/coaches/carl-smith/435"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://uapblionsroar.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://uapblionsroar.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2023",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2023",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2021",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2020",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2018",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2017",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://uapblionsroar.com/sports/mens-golf/roster/season/2016",
+   "status": 404
   }
  ]
 }

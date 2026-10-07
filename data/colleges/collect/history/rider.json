@@ -1,22 +1,1034 @@
 {
  "slug": "rider",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gobroncs.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Andrew Bilson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lititz, PA",
+       "country": "US",
+       "previous_school": "Manheim Township",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/andrew-bilson/8763"
+      },
+      {
+       "name": "Luke Canino",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Washington Township, NJ",
+       "country": "US",
+       "previous_school": "Washington Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/luke-canino/8770"
+      },
+      {
+       "name": "Jacob Delaney",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockton, CA",
+       "country": "US",
+       "previous_school": "Saint Mary’s",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jacob-delaney/8764"
+      },
+      {
+       "name": "Zachary Fisher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/zachary-fisher/8765"
+      },
+      {
+       "name": "Ryan Jones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canton, NY",
+       "country": "US",
+       "previous_school": "Canton Central",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/ryan-jones/8766"
+      },
+      {
+       "name": "Sebastian Pell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Center Rutland, VT",
+       "country": "US",
+       "previous_school": "Rutland",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/sebastian-pell/8768"
+      },
+      {
+       "name": "Riley Richards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Montpelier, VT",
+       "country": "US",
+       "previous_school": "U-32",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/riley-richards/8767"
+      },
+      {
+       "name": "Nathan Tallinder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, NJ",
+       "country": "US",
+       "previous_school": "Madison",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nathan-tallinder/8769"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jesse Neider",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jesse-neider/1492"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Andrew Bilson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lititz, PA",
+       "country": "US",
+       "previous_school": "Manheim Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/andrew-bilson/7989"
+      },
+      {
+       "name": "Jacob Delaney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockton, CA",
+       "country": "US",
+       "previous_school": "Saint Mary’s",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jacob-delaney/7990"
+      },
+      {
+       "name": "Zachary Fisher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/zachary-fisher/7991"
+      },
+      {
+       "name": "Louie Giovacchini",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Windermere, FL",
+       "country": "US",
+       "previous_school": "Windermere",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/louie-giovacchini/7838"
+      },
+      {
+       "name": "Ryan Jones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canton, NY",
+       "country": "US",
+       "previous_school": "Canton Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/ryan-jones/7992"
+      },
+      {
+       "name": "Joey Lostumbo",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Gr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/joey-lostumbo/7839"
+      },
+      {
+       "name": "Riley Richards",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "East Montpelier, VT",
+       "country": "US",
+       "previous_school": "U-32",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/riley-richards/7993"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jesse Neider",
+       "title": "Men's Golf Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jesse-neider/1335"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Pelle Ahlqvist",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Habo, Joenkoeping, Sweden",
+       "country": "SE",
+       "previous_school": "Sandagymnasiet",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/pelle-ahlqvist/7484"
+      },
+      {
+       "name": "Connor Bekefi",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Toms River, NJ",
+       "country": "US",
+       "previous_school": "Toms River North",
+       "class_raw": "Gr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/connor-bekefi/7280"
+      },
+      {
+       "name": "Louie Giovacchini",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Windermere, FL",
+       "country": "US",
+       "previous_school": "Windermere",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/louie-giovacchini/7275"
+      },
+      {
+       "name": "Nick Hano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Warrington, PA",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nick-hano/7276"
+      },
+      {
+       "name": "Joey Lostumbo",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Gr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/joey-lostumbo/7279"
+      },
+      {
+       "name": "Mike McCrone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/mike-mccrone/7277"
+      },
+      {
+       "name": "Ben Ortwein",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Easton, PA",
+       "country": "US",
+       "previous_school": "Notre Dame Green Pond",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/ben-ortwein/7278"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/1242"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/1243"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Connor Bekefi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Toms River, NJ",
+       "country": "US",
+       "previous_school": "Toms River North",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/connor-bekefi/6890"
+      },
+      {
+       "name": "Zander Gibson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Concord, OH",
+       "country": "US",
+       "previous_school": "Notre Dame Cathedral Latin",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/zander-gibson/6891"
+      },
+      {
+       "name": "Louie Giovacchini",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Windermere, FL",
+       "country": "US",
+       "previous_school": "Windermere",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/louie-giovacchini/6892"
+      },
+      {
+       "name": "Nick Hano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Warrington, PA",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nick-hano/6893"
+      },
+      {
+       "name": "Joey Lostumbo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/joey-lostumbo/6894"
+      },
+      {
+       "name": "Mike McCrone",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/mike-mccrone/6897"
+      },
+      {
+       "name": "Ben Ortwein",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Easton, PA",
+       "country": "US",
+       "previous_school": "Notre Dame Green Pond",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/ben-ortwein/6898"
+      },
+      {
+       "name": "Jack Urban",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Upper St. Clair, PA",
+       "country": "US",
+       "previous_school": "Upper St. Clair",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jack-urban/6895"
+      },
+      {
+       "name": "Rick van der Nat",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Noordwijk, The Netherlands",
+       "country": "NL",
+       "previous_school": "Visser 't Hooft",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/rick-van-der-nat/6896"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/1131"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/1132"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Connor Bekefi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Toms River, NJ",
+       "country": "US",
+       "previous_school": "Toms River North",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/connor-bekefi/6344"
+      },
+      {
+       "name": "Austin Devereux",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Brielle, NJ",
+       "country": "US",
+       "previous_school": "Manasquan",
+       "class_raw": "Gr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/austin-devereux/6346"
+      },
+      {
+       "name": "Zander Gibson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Concord, OH",
+       "country": "US",
+       "previous_school": "Notre Dame Cathedral Latin",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/zander-gibson/6443"
+      },
+      {
+       "name": "Louie Giovacchini",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Windermere, FL",
+       "country": "US",
+       "previous_school": "Windermere",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/louie-giovacchini/6440"
+      },
+      {
+       "name": "Nick Hano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Warrington, PA",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nick-hano/6349"
+      },
+      {
+       "name": "Joey Lostumbo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flemington, NJ",
+       "country": "US",
+       "previous_school": "Hunterdon Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/joey-lostumbo/6442"
+      },
+      {
+       "name": "Jack Urban",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Upper St. Clair, PA",
+       "country": "US",
+       "previous_school": "Upper St. Clair",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jack-urban/6441"
+      },
+      {
+       "name": "Rick van der Nat",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Noordwijk, The Netherlands",
+       "country": "NL",
+       "previous_school": "Visser 't Hooft",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/rick-van-der-nat/6351"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/1023"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/1024"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Nathan Bazant",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "Gr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nathan-bazant/6177"
+      },
+      {
+       "name": "Connor Bekefi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Toms River, NJ",
+       "country": "US",
+       "previous_school": "Toms River North",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/connor-bekefi/5997"
+      },
+      {
+       "name": "Shawn Blandine",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ringwood, NJ",
+       "country": "US",
+       "previous_school": "Don Bosco",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/shawn-blandine/6002"
+      },
+      {
+       "name": "Austin Devereux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brielle, NJ",
+       "country": "US",
+       "previous_school": "Manasquan",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/austin-devereux/5998"
+      },
+      {
+       "name": "Thomas Durkin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suffield, CT",
+       "country": "US",
+       "previous_school": "Suffield",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/thomas-durkin/5999"
+      },
+      {
+       "name": "Andrew Forjan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "York, PA",
+       "country": "US",
+       "previous_school": "York Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/andrew-forjan/6000"
+      },
+      {
+       "name": "Nick Hano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Warrington, PA",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nick-hano/6003"
+      },
+      {
+       "name": "Griffin Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holland, PA",
+       "country": "US",
+       "previous_school": "Council Rock South",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/griffin-smith/6001"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/961"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/962"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Nathan Bazant",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nathan-bazant/5218"
+      },
+      {
+       "name": "Connor Bekefi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Toms River, NJ",
+       "country": "US",
+       "previous_school": "Toms River North",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/connor-bekefi/5462"
+      },
+      {
+       "name": "Austin Devereux",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brielle, NJ",
+       "country": "US",
+       "previous_school": "Manasquan",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/austin-devereux/5219"
+      },
+      {
+       "name": "Thomas Durkin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suffield, CT",
+       "country": "US",
+       "previous_school": "Suffield",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/thomas-durkin/5220"
+      },
+      {
+       "name": "Andrew Forjan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "York, PA",
+       "country": "US",
+       "previous_school": "York Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/andrew-forjan/5221"
+      },
+      {
+       "name": "Griffin Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holland, PA",
+       "country": "US",
+       "previous_school": "Council Rock South",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/griffin-smith/5222"
+      },
+      {
+       "name": "Jake Sollon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jake-sollon/5223"
+      },
+      {
+       "name": "Forrest Swisher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Titusville, NJ",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/forrest-swisher/5224"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/833"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/834"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Nathan Bazant",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Trinity",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/nathan-bazant/4937"
+      },
+      {
+       "name": "Austin Devereux",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brielle, NJ",
+       "country": "US",
+       "previous_school": "Manasquan",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/austin-devereux/4528"
+      },
+      {
+       "name": "Thomas Durkin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suffield, CT",
+       "country": "US",
+       "previous_school": "Suffield",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/thomas-durkin/4529"
+      },
+      {
+       "name": "Andrew Forjan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "York, PA",
+       "country": "US",
+       "previous_school": "York Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/andrew-forjan/4530"
+      },
+      {
+       "name": "Griffin Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holland, PA",
+       "country": "US",
+       "previous_school": "Council Rock South",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/griffin-smith/4532"
+      },
+      {
+       "name": "Jake Sollon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jake-sollon/4533"
+      },
+      {
+       "name": "Forrest Swisher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Titusville, NJ",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/forrest-swisher/4534"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/696"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/697"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Austin Devereux",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brielle, NJ",
+       "country": "US",
+       "previous_school": "Manasquan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/austin-devereux/4315"
+      },
+      {
+       "name": "Thomas Durkin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Suffield, CT",
+       "country": "US",
+       "previous_school": "Suffield",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/thomas-durkin/4317"
+      },
+      {
+       "name": "Andrew Forjan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "York, PA",
+       "country": "US",
+       "previous_school": "York Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/andrew-forjan/4316"
+      },
+      {
+       "name": "Drew Guarino",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burlington, NJ",
+       "country": "US",
+       "previous_school": "Burlington Township",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/drew-guarino/1737"
+      },
+      {
+       "name": "Eder Moreno",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Santa Helena",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/eder-moreno/1738"
+      },
+      {
+       "name": "Griffin Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holland, PA",
+       "country": "US",
+       "previous_school": "Council Rock South",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/griffin-smith/4062"
+      },
+      {
+       "name": "Jake Sollon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jake-sollon/1739"
+      },
+      {
+       "name": "Forrest Swisher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Titusville, NJ",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/forrest-swisher/1741"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/223"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/224"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gobroncs.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sam DiGaetano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Titusville, NJ",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/sam-digaetano/1627"
+      },
+      {
+       "name": "Drew Guarino",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burlington, NJ",
+       "country": "US",
+       "previous_school": "Burlington Township",
+       "class_raw": "So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/drew-guarino/1631"
+      },
+      {
+       "name": "Parker Mann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blauvelt, NY",
+       "country": "US",
+       "previous_school": "Tappan Zee",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/parker-mann/1632"
+      },
+      {
+       "name": "Eder Moreno",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Santa Helena",
+       "class_raw": "R-So.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/eder-moreno/1636"
+      },
+      {
+       "name": "Aaron Simone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Niskayuna, NY",
+       "country": "US",
+       "previous_school": "Niskayuna",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/aaron-simone/1637"
+      },
+      {
+       "name": "Jake Sollon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Venetia, PA",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/jake-sollon/1638"
+      },
+      {
+       "name": "Forrest Swisher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Titusville, NJ",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/forrest-swisher/1640"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Barry",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/jason-barry/197"
+      },
+      {
+       "name": "Ryan Siegler",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobroncs.com/sports/mens-golf/roster/coaches/ryan-siegler/198"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gobroncs.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gobroncs.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gobroncs.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

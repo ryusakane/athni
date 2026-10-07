@@ -1,22 +1,1338 @@
 {
  "slug": "quinnipiac",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "female",
    "golf_url": "https://gobobcats.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alexia Egdahl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Placentia, CA",
+       "country": "US",
+       "previous_school": "Orange Lutheran",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexia-egdahl/15573"
+      },
+      {
+       "name": "Mason Egdahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Placentia, CA",
+       "country": "US",
+       "previous_school": "Orange Lutheran",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/mason-egdahl/14874"
+      },
+      {
+       "name": "Tekla Fine-Lease",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Essex, NY",
+       "country": "US",
+       "previous_school": "Queensbury",
+       "class_raw": "R-FY",
+       "profile_url": null
+      },
+      {
+       "name": "Marisa Flores",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paramus, NJ",
+       "country": "US",
+       "previous_school": "Immaculate Heart Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/marisa-flores/15575"
+      },
+      {
+       "name": "Sophia Fujita",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Torrance, CA",
+       "country": "US",
+       "previous_school": "North Torrance",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/sophia-fujita/15576"
+      },
+      {
+       "name": "Samantha Galantini",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Orange, NJ",
+       "country": "US",
+       "previous_school": "West Orange",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/samantha-galantini/15577"
+      },
+      {
+       "name": "Amy Goddard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Toronto, Canada",
+       "country": "CA",
+       "previous_school": "Holy Name of Mary College",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/amy-goddard/15578"
+      },
+      {
+       "name": "Vaidehi Shah",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bridgewater, NJ",
+       "country": "US",
+       "previous_school": "Bridgewater - Raritan",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/vaidehi-shah/15579"
+      },
+      {
+       "name": "Natalie Spiska",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jersey City, NJ",
+       "country": "US",
+       "previous_school": "St. Dominic Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/natalie-spiska/15580"
+      },
+      {
+       "name": "Sandhya Vaikuntam",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eugene, OR",
+       "country": "US",
+       "previous_school": "Marist Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/sandhya-vaikuntam/14873"
+      },
+      {
+       "name": "Michelle Wong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, California",
+       "country": "US",
+       "previous_school": "South Island School",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/michelle-wong/15581"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Jen O'Neal",
+       "title": "Women's Golf Assistant Coach",
+       "email": "jennifer.oneal@qu.edu",
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Volunteer Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alexia Egdahl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Placentia, CA",
+       "country": "US",
+       "previous_school": "Orange Lutheran",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexia-egdahl/15573"
+      },
+      {
+       "name": "Tekla Fine-Lease",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Essex, NY",
+       "country": "US",
+       "previous_school": "Queensbury",
+       "class_raw": "FY",
+       "profile_url": null
+      },
+      {
+       "name": "Marisa Flores",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paramus, NJ",
+       "country": "US",
+       "previous_school": "Immaculate Heart Academy",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/marisa-flores/15575"
+      },
+      {
+       "name": "Sophia Fujita",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Torrance, CA",
+       "country": "US",
+       "previous_school": "North Torrance",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/sophia-fujita/15576"
+      },
+      {
+       "name": "Samantha Galantini",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Orange, NJ",
+       "country": "US",
+       "previous_school": "West Orange",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/samantha-galantini/15577"
+      },
+      {
+       "name": "Amy Goddard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Toronto, Canada",
+       "country": "CA",
+       "previous_school": "Holy Name of Mary College",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/amy-goddard/15578"
+      },
+      {
+       "name": "Vaidehi Shah",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bridgewater, NJ",
+       "country": "US",
+       "previous_school": "Bridgewater - Raritan",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/vaidehi-shah/15579"
+      },
+      {
+       "name": "Natalie Spiska",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jersey City, NJ",
+       "country": "US",
+       "previous_school": "St. Dominic Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/natalie-spiska/15580"
+      },
+      {
+       "name": "Sandhya Vaikuntam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eugene, OR",
+       "country": "US",
+       "previous_school": "Marist Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/sandhya-vaikuntam/14873"
+      },
+      {
+       "name": "Meg Yoshida",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rancho Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Palos Verdes",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/meg-yoshida/14064"
+      },
+      {
+       "name": "Fuge Zhang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tianjin, China",
+       "country": "CN",
+       "previous_school": "Maple Leaf International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/fuge-zhang/14065"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Corinne Halliday",
+       "title": "Women's Golf Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/corinne-halliday/9109"
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Volunteer Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Riley Carey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glastonbury, Conn.",
+       "country": "US",
+       "previous_school": "Glastonbury",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/riley-carey/12957"
+      },
+      {
+       "name": "Alexia Egdahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Placentia, CA",
+       "country": "US",
+       "previous_school": "Orange Lutheran",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexia-egdahl/15573"
+      },
+      {
+       "name": "Samantha Galantini",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Orange, NJ",
+       "country": "US",
+       "previous_school": "West Orange",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/samantha-galantini/15577"
+      },
+      {
+       "name": "Emily Luu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mullica Hill, N.J.",
+       "country": "US",
+       "previous_school": "Clearview Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/emily-luu/12958"
+      },
+      {
+       "name": "Leeyen Peralta",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Brea, Calif.",
+       "country": "US",
+       "previous_school": "Cornelia Connelly",
+       "class_raw": "Gr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/leeyen-peralta/12959"
+      },
+      {
+       "name": "Natalie Spiska",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jersey City, NJ",
+       "country": "US",
+       "previous_school": "St. Dominic Academy",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/natalie-spiska/15580"
+      },
+      {
+       "name": "Aimee Uchida",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Torrance, Calif.",
+       "country": "US",
+       "previous_school": "Torrance",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/aimee-uchida/12960"
+      },
+      {
+       "name": "Sandhya Vaikuntam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eugene, OR",
+       "country": "US",
+       "previous_school": "Marist Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/sandhya-vaikuntam/14873"
+      },
+      {
+       "name": "Meg Yoshida",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rancho Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Palos Verdes",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/meg-yoshida/14064"
+      },
+      {
+       "name": "Fuge Zhang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tianjin, China",
+       "country": "CN",
+       "previous_school": "Maple Leaf International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/fuge-zhang/14065"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Corinne Halliday",
+       "title": "Women's Golf Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/corinne-halliday/9109"
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Volunteer Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Riley Carey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glastonbury, Conn.",
+       "country": "US",
+       "previous_school": "Glastonbury",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/riley-carey/12957"
+      },
+      {
+       "name": "Emily Luu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mullica Hill, N.J.",
+       "country": "US",
+       "previous_school": "Clearview Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/emily-luu/12958"
+      },
+      {
+       "name": "Leeyen Peralta",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brea, Calif.",
+       "country": "US",
+       "previous_school": "Cornelia Connelly",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/leeyen-peralta/12959"
+      },
+      {
+       "name": "Kaylee Sakoda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaylee-sakoda/12329"
+      },
+      {
+       "name": "Elena Spangle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brooklyn, Conn.",
+       "country": "US",
+       "previous_school": "Marianapolis Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-spangle/12335"
+      },
+      {
+       "name": "Aimee Uchida",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Torrance, Calif.",
+       "country": "US",
+       "previous_school": "Torrance",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/aimee-uchida/12960"
+      },
+      {
+       "name": "Sandhya Vaikuntam",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eugene, OR",
+       "country": "US",
+       "previous_school": "Marist Catholic",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/sandhya-vaikuntam/14873"
+      },
+      {
+       "name": "Meg Yoshida",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Palos Verdes",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/meg-yoshida/14064"
+      },
+      {
+       "name": "Fuge Zhang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tianjin, China",
+       "country": "CN",
+       "previous_school": "Maple Leaf International School",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/fuge-zhang/14065"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mia Grzywinski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Farmington, Conn.",
+       "country": "US",
+       "previous_school": "Farmington",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/mia-grzywinski/11738"
+      },
+      {
+       "name": "Elyse Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "La Palma, Calif.",
+       "country": "US",
+       "previous_school": "John F. Kennedy",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elyse-kim/11746"
+      },
+      {
+       "name": "Darby Lillibridge",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva Community High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/darby-lillibridge/11739"
+      },
+      {
+       "name": "Elena Lopez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clarence, N.Y.",
+       "country": "US",
+       "previous_school": "Clarence High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-lopez/11740"
+      },
+      {
+       "name": "Emily Luu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mullica Hill, N.J.",
+       "country": "US",
+       "previous_school": "Clearview Regional",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/emily-luu/12958"
+      },
+      {
+       "name": "Leeyen Peralta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brea, Calif.",
+       "country": "US",
+       "previous_school": "Cornelia Connelly",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/leeyen-peralta/12959"
+      },
+      {
+       "name": "Kaylee Sakoda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaylee-sakoda/12329"
+      },
+      {
+       "name": "Amanda Tully",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brewster, N.Y.",
+       "country": "US",
+       "previous_school": "Carmel High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/amanda-tully/11744"
+      },
+      {
+       "name": "Aimee Uchida",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Torrance, Calif.",
+       "country": "US",
+       "previous_school": "Torrance",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/aimee-uchida/12960"
+      },
+      {
+       "name": "Meg Yoshida",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rancho Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "Palos Verdes",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/meg-yoshida/14064"
+      },
+      {
+       "name": "Fuge Zhang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tianjin, China",
+       "country": "CN",
+       "previous_school": "Maple Leaf International School",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/fuge-zhang/14065"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mia Grzywinski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Farmington, Conn.",
+       "country": "US",
+       "previous_school": "Farmington",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/mia-grzywinski/11738"
+      },
+      {
+       "name": "Darby Lillibridge",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva Community High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/darby-lillibridge/11739"
+      },
+      {
+       "name": "Elena Lopez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clarence, N.Y.",
+       "country": "US",
+       "previous_school": "Clarence High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-lopez/11740"
+      },
+      {
+       "name": "Emily Luu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mullica Hill, N.J.",
+       "country": "US",
+       "previous_school": "Clearview Regional",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/emily-luu/12958"
+      },
+      {
+       "name": "Leeyen Peralta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brea, Calif.",
+       "country": "US",
+       "previous_school": "Cornelia Connelly",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/leeyen-peralta/12959"
+      },
+      {
+       "name": "Kaylee Sakoda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaylee-sakoda/12329"
+      },
+      {
+       "name": "Amanda Tully",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brewster, N.Y.",
+       "country": "US",
+       "previous_school": "Carmel High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/amanda-tully/11744"
+      },
+      {
+       "name": "Elena Ybarra",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Arturo Soria",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-ybarra/10192"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kaelyn Chi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suffern, N.Y.",
+       "country": "US",
+       "previous_school": "Suffern",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaelyn-chi/8135"
+      },
+      {
+       "name": "Mia Grzywinski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Farmington, Conn.",
+       "country": "US",
+       "previous_school": "Farmington",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/mia-grzywinski/11738"
+      },
+      {
+       "name": "Queenie Lai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Sha Tin College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/queenie-lai/8136"
+      },
+      {
+       "name": "Darby Lillibridge",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva Community High School",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/darby-lillibridge/11739"
+      },
+      {
+       "name": "Elena Lopez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarence, N.Y.",
+       "country": "US",
+       "previous_school": "Clarence High School",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-lopez/11740"
+      },
+      {
+       "name": "Leeyen Peralta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brea, Calif.",
+       "country": "US",
+       "previous_school": "Cornelia Connelly",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/leeyen-peralta/12959"
+      },
+      {
+       "name": "Kaylee Sakoda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaylee-sakoda/12329"
+      },
+      {
+       "name": "Alexandra Sazhin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "Greenwich",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexandra-sazhin/8140"
+      },
+      {
+       "name": "Amanda Tully",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brewster, N.Y.",
+       "country": "US",
+       "previous_school": "Carmel High School",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/amanda-tully/11744"
+      },
+      {
+       "name": "Elena Ybarra",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Arturo Soria",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-ybarra/10192"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Julia Kemmling",
+       "title": "Women's Golf Assistant Coach",
+       "email": "julia.kemmling@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/julia-kemmling/9388"
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kaelyn Chi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suffern, N.Y.",
+       "country": "US",
+       "previous_school": "Suffern",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaelyn-chi/8135"
+      },
+      {
+       "name": "Julia Kemmling",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Berlin, Conn.",
+       "country": "US",
+       "previous_school": "Berlin",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/julia-kemmling/7591"
+      },
+      {
+       "name": "Queenie Lai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Sha Tin College",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/queenie-lai/8136"
+      },
+      {
+       "name": "Darby Lillibridge",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva Community High School",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/darby-lillibridge/11739"
+      },
+      {
+       "name": "Elena Lopez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarence, N.Y.",
+       "country": "US",
+       "previous_school": "Clarence High School",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-lopez/11740"
+      },
+      {
+       "name": "Casey Oppenheimer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Conshocken, Pa.",
+       "country": "US",
+       "previous_school": "AIM Academy",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/casey-oppenheimer/7599"
+      },
+      {
+       "name": "Alexandra Sazhin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "Greenwich",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexandra-sazhin/8140"
+      },
+      {
+       "name": "Luciana Tobia-Palza",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "La Paz, Bolivia",
+       "country": "BO",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Amanda Tully",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brewster, N.Y.",
+       "country": "US",
+       "previous_school": "Carmel High School",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/amanda-tully/11744"
+      },
+      {
+       "name": "Elena Ybarra",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Arturo Soria",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-ybarra/10192"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Jenn Whaley",
+       "title": "Women's Golf Assistant Coach",
+       "email": "jennifer.whaley@qu.edu",
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/jenn-whaley/2435"
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Chase",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, WI",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/abby-chase/7265"
+      },
+      {
+       "name": "Kaelyn Chi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suffern, N.Y.",
+       "country": "US",
+       "previous_school": "Suffern",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/kaelyn-chi/8135"
+      },
+      {
+       "name": "Julia Kemmling",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berlin, Conn.",
+       "country": "US",
+       "previous_school": "Berlin",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/julia-kemmling/7591"
+      },
+      {
+       "name": "Queenie Lai",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Sha Tin College",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/queenie-lai/8136"
+      },
+      {
+       "name": "Devan McCarrie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Yardley, PA",
+       "country": "US",
+       "previous_school": "MMI Preparatory School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/devan-mccarrie/7267"
+      },
+      {
+       "name": "Estefania Morales",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/estefania-morales/7268"
+      },
+      {
+       "name": "Alexandra Sazhin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "Greenwich",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexandra-sazhin/8140"
+      },
+      {
+       "name": "Hannah Slocum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norwich, Connecticut",
+       "country": "US",
+       "previous_school": "Norwich Free Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/hannah-slocum/7270"
+      },
+      {
+       "name": "Luciana Tobia-Palza",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "La Paz, Bolivia",
+       "country": "BO",
+       "previous_school": "IMG Academy",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Elena Ybarra",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Arturo Soria",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/elena-ybarra/10192"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Jenn Whaley",
+       "title": "Women's Golf Assistant Coach",
+       "email": "jennifer.whaley@qu.edu",
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/jenn-whaley/2435"
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gobobcats.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Chase",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beaver Dam, WI",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/abby-chase/7265"
+      },
+      {
+       "name": "Julia Kemmling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berlin, Conn.",
+       "country": "US",
+       "previous_school": "Berlin",
+       "class_raw": "So.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/julia-kemmling/7591"
+      },
+      {
+       "name": "Devan McCarrie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Yardley, PA",
+       "country": "US",
+       "previous_school": "MMI Preparatory School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/devan-mccarrie/7267"
+      },
+      {
+       "name": "Estefania Morales",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "IMG Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/estefania-morales/7268"
+      },
+      {
+       "name": "Emily Ribbins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grand Cayman, Cayman Islands",
+       "country": "KY",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/emily-ribbins/4514"
+      },
+      {
+       "name": "Alexandra Sazhin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "Greenwich",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/alexandra-sazhin/8140"
+      },
+      {
+       "name": "Nicole Scola",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westerly, RI",
+       "country": "US",
+       "previous_school": "The Prout School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/nicole-scola/4515"
+      },
+      {
+       "name": "Hannah Slocum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norwich, Connecticut",
+       "country": "US",
+       "previous_school": "Norwich Free Academy",
+       "class_raw": "FY",
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/hannah-slocum/7270"
+      },
+      {
+       "name": "Luciana Tobia-Palza",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Paz, Bolivia",
+       "country": "BO",
+       "previous_school": "IMG Academy",
+       "class_raw": "So.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John O'Connor",
+       "title": "Women's Golf Head Coach",
+       "email": "john.o'connor@qu.edu",
+       "phone": "(203) 582-3911",
+       "profile_url": null
+      },
+      {
+       "name": "Kerry Brown",
+       "title": "Women's Golf Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      },
+      {
+       "name": "Suzy Whaley",
+       "title": "Women's Golf Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gobobcats.com/sports/womens-golf/roster/coaches/suzy-whaley/8830"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gobobcats.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gobobcats.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gobobcats.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

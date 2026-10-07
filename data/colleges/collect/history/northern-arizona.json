@@ -1,22 +1,1073 @@
 {
  "slug": "northern-arizona",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "female",
    "golf_url": "https://nauathletics.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ava Bates",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Surrey, England",
+       "country": "GB",
+       "previous_school": "Tomlinscote School",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ava-bates/7535"
+      },
+      {
+       "name": "Frankie Dezis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Norton Hill School",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/frankie-dezis/7536"
+      },
+      {
+       "name": "Amy Hodgkins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Mueller College",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/amy-hodgkins/7537"
+      },
+      {
+       "name": "Sumin Kang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Queenstown, New Zealand",
+       "country": "NZ",
+       "previous_school": "Wakatipu",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sumin-kang/7538"
+      },
+      {
+       "name": "Lydia Lin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Windermere Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lydia-lin/7783"
+      },
+      {
+       "name": "Nina Lukyanenko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/nina-lukyanenko/7539"
+      },
+      {
+       "name": "Lizzie Neale",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nelson, New Zealand",
+       "country": "NZ",
+       "previous_school": "Nelson College for Girls",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lizzie-neale/7540"
+      },
+      {
+       "name": "Glafira Pomazkova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Lyceum 15",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/glafira-pomazkova/7541"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/964"
+      },
+      {
+       "name": "Grace Lindgren",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/grace-lindgren/965"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ava Bates",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Surrey, England",
+       "country": "GB",
+       "previous_school": "Tomlinscote School",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ava-bates/6936"
+      },
+      {
+       "name": "Frankie Dezis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Norton Hill School",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/frankie-dezis/6930"
+      },
+      {
+       "name": "Amy Hodgkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Mueller College",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/amy-hodgkins/6931"
+      },
+      {
+       "name": "Sumin Kang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Queenstown, New Zealand",
+       "country": "NZ",
+       "previous_school": "Wakatipu",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sumin-kang/6935"
+      },
+      {
+       "name": "Nina Lukyanenko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/nina-lukyanenko/6932"
+      },
+      {
+       "name": "Lizzie Neale",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nelson, New Zealand",
+       "country": "NZ",
+       "previous_school": "Nelson College for Girls",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lizzie-neale/6933"
+      },
+      {
+       "name": "Ellena Slater",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kent, England",
+       "country": "GB",
+       "previous_school": "Maidstone Grammar School for Girls",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ellena-slater/6934"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/852"
+      },
+      {
+       "name": "Grace Lindgren",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/grace-lindgren/853"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Frankie Dezis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Norton Hill School",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/frankie-dezis/6463"
+      },
+      {
+       "name": "Lorel Hayward",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "Gr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lorel-hayward/6458"
+      },
+      {
+       "name": "Amy Hodgkins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Mueller College",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/amy-hodgkins/6464"
+      },
+      {
+       "name": "Nina Lukyanenko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/nina-lukyanenko/6459"
+      },
+      {
+       "name": "Ekaterina Malakhova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "No. 2005",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ekaterina-malakhova/6460"
+      },
+      {
+       "name": "Lizzie Neale",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nelson, New Zealand",
+       "country": "NZ",
+       "previous_school": "Nelson College for Girls",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lizzie-neale/6461"
+      },
+      {
+       "name": "Ellena Slater",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kent, England",
+       "country": "GB",
+       "previous_school": "Maidstone Grammar School for Girls",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ellena-slater/6462"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/786"
+      },
+      {
+       "name": "Kiley Rodrigues",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/kiley-rodrigues/787"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aleksandra Chekalina",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Pokrovsk",
+       "class_raw": "5th",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/aleksandra-chekalina/5655"
+      },
+      {
+       "name": "Ashley Croft",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Southend-on-sea, Essex, England",
+       "country": "GB",
+       "previous_school": "St. Bernard's",
+       "class_raw": "5th",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ashley-croft/5656"
+      },
+      {
+       "name": "Lorel Hayward",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lorel-hayward/5657"
+      },
+      {
+       "name": "Nina Lukyanenko",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/nina-lukyanenko/5697"
+      },
+      {
+       "name": "Ekaterina Malakhova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "No. 2005",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ekaterina-malakhova/5658"
+      },
+      {
+       "name": "Lizzie Neale",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nelson, New Zealand",
+       "country": "NZ",
+       "previous_school": "Nelson College for Girls",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lizzie-neale/5698"
+      },
+      {
+       "name": "Ellena Slater",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kent, England",
+       "country": "GB",
+       "previous_school": "Maidstone Grammar School for Girls",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ellena-slater/5699"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/631"
+      },
+      {
+       "name": "Kiley Rodrigues",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/kiley-rodrigues/683"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aleksandra Chekalina",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Pokrovsk",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/aleksandra-chekalina/5206"
+      },
+      {
+       "name": "Ashley Croft",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southend-on-sea, Essex, England",
+       "country": "GB",
+       "previous_school": "St. Bernard's",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ashley-croft/5207"
+      },
+      {
+       "name": "Alyza Flores",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vail, Ariz.",
+       "country": "US",
+       "previous_school": "Cienega",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/alyza-flores/5208"
+      },
+      {
+       "name": "Lorel Hayward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lorel-hayward/5209"
+      },
+      {
+       "name": "Elle Kocourkova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hrebec, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Sportovni Gymnasium",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/elle-kocourkova/5210"
+      },
+      {
+       "name": "Ekaterina Malakhova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "No. 2005",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ekaterina-malakhova/5211"
+      },
+      {
+       "name": "Kimberlee Tottori",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Seattle",
+       "class_raw": "Gr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/kimberlee-tottori/5212"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/546"
+      },
+      {
+       "name": "Klara Kucharova",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/klara-kucharova/549"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aleksandra Chekalina",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Pokrovsk",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/aleksandra-chekalina/4741"
+      },
+      {
+       "name": "Ashley Croft",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southend-on-sea, Essex, England",
+       "country": "GB",
+       "previous_school": "St. Bernard's",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ashley-croft/4742"
+      },
+      {
+       "name": "Alyza Flores",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vail, Ariz.",
+       "country": "US",
+       "previous_school": "Cienega",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/alyza-flores/4743"
+      },
+      {
+       "name": "Lorel Hayward",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lorel-hayward/4744"
+      },
+      {
+       "name": "Elle Kocourkova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hrebec, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Sportovni Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/elle-kocourkova/4745"
+      },
+      {
+       "name": "Klara Kucharova",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Secondary School for the Administration of the EU",
+       "class_raw": "Gr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/klara-kucharova/4748"
+      },
+      {
+       "name": "Ekaterina Malakhova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "No. 2005",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ekaterina-malakhova/4747"
+      },
+      {
+       "name": "Sara Padilla",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sara-padilla/4746"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/458"
+      },
+      {
+       "name": "Kelly Moore",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/kelly-moore/461"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aleksandra Chekalina",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Pokrovsk",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/aleksandra-chekalina/4304"
+      },
+      {
+       "name": "Ashley Croft",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southend-on-sea, Essex, England",
+       "country": "GB",
+       "previous_school": "St. Bernard's",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ashley-croft/4305"
+      },
+      {
+       "name": "Alyza Flores",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vail, Ariz.",
+       "country": "US",
+       "previous_school": "Cienega",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/alyza-flores/4312"
+      },
+      {
+       "name": "Lorel Hayward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lorel-hayward/4311"
+      },
+      {
+       "name": "Lexi Keene",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Stockdale",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lexi-keene/4306"
+      },
+      {
+       "name": "Elle Kocourkova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hrebec, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Sportovni Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/elle-kocourkova/4307"
+      },
+      {
+       "name": "Morgan Messick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Canyon Del Oro",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/morgan-messick/4313"
+      },
+      {
+       "name": "Sara Padilla",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sara-padilla/4308"
+      },
+      {
+       "name": "Emma Reyes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Ridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/emma-reyes/4309"
+      },
+      {
+       "name": "Loren Skibba",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Verona, Wisc.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/loren-skibba/4310"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/394"
+      },
+      {
+       "name": "Barbora Bakova",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/barbora-bakova/395"
+      },
+      {
+       "name": "Langley Vannoy",
+       "title": "Golf Operations Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/langley-vannoy/396"
+      },
+      {
+       "name": "Kelly Moore",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/kelly-moore/440"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aleksandra Chekalina",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Pokrovsk",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/aleksandra-chekalina/3908"
+      },
+      {
+       "name": "Ashley Croft",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southend-on-sea, Essex, England",
+       "country": "GB",
+       "previous_school": "St. Bernard's",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/ashley-croft/3909"
+      },
+      {
+       "name": "Lexi Keene",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Stockdale",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lexi-keene/3905"
+      },
+      {
+       "name": "Elle Kocourkova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hrebec, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Sportovni Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/elle-kocourkova/3911"
+      },
+      {
+       "name": "Sara Padilla",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Loyola University Chicago",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sara-padilla/3910"
+      },
+      {
+       "name": "Emma Reyes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Ridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/emma-reyes/3906"
+      },
+      {
+       "name": "Loren Skibba",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Verona, Wisc.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/loren-skibba/3907"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/306"
+      },
+      {
+       "name": "Langley Vannoy",
+       "title": "Golf Operations Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/langley-vannoy/307"
+      },
+      {
+       "name": "Barbora Bakova",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/barbora-bakova/309"
+      },
+      {
+       "name": "Kelly Moore",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/kelly-moore/389"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carly Akine",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Mountain Ridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/carly-akine/3329"
+      },
+      {
+       "name": "Sofia Anokhina",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Perspectiva",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sofia-anokhina/3330"
+      },
+      {
+       "name": "Sierra Bezdicek",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Colbert, Wash.",
+       "country": "US",
+       "previous_school": "Mt. Spokane",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sierra-bezdicek/3331"
+      },
+      {
+       "name": "Lexi Keene",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Stockdale",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/lexi-keene/3419"
+      },
+      {
+       "name": "Emma Reyes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Ridge",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/emma-reyes/3332"
+      },
+      {
+       "name": "Kaitlyn Saum",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Red Mountain",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/kaitlyn-saum/3333"
+      },
+      {
+       "name": "Loren Skibba",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Verona, Wisc.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/loren-skibba/3334"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/232"
+      },
+      {
+       "name": "Langley Vannoy",
+       "title": "Graduate Assistant - Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/langley-vannoy/233"
+      },
+      {
+       "name": "Michael Frye",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/michael-frye/252"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://nauathletics.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carly Akine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Mountain Ridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/carly-akine/2139"
+      },
+      {
+       "name": "Sofia Anokhina",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "Perspectiva",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sofia-anokhina/2140"
+      },
+      {
+       "name": "Sierra Bezdicek",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Colbert, Wash.",
+       "country": "US",
+       "previous_school": "Mt. Spokane",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/sierra-bezdicek/2141"
+      },
+      {
+       "name": "Kim Cifuentes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gilbert, Ariz.",
+       "country": "US",
+       "previous_school": "Campo Verde",
+       "class_raw": "Sr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/kim-cifuentes/2142"
+      },
+      {
+       "name": "Morgan Messick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Canyon Del Oro",
+       "class_raw": "So.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/morgan-messick/2143"
+      },
+      {
+       "name": "Emma Reyes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Ridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/emma-reyes/2144"
+      },
+      {
+       "name": "Kaitlyn Saum",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mesa, Ariz.",
+       "country": "US",
+       "previous_school": "Red Mountain",
+       "class_raw": "Jr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/kaitlyn-saum/2145"
+      },
+      {
+       "name": "Loren Skibba",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Verona, Wisc.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "Fr.",
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/loren-skibba/2146"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brad Bedortha",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/brad-bedortha/117"
+      },
+      {
+       "name": "Langley Vannoy",
+       "title": "Graduate Assistant - Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nauathletics.com/sports/womens-golf/roster/coaches/langley-vannoy/220"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://nauathletics.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://nauathletics.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://nauathletics.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

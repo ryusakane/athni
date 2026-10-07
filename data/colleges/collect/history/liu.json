@@ -1,36 +1,1513 @@
 {
  "slug": "liu",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://www.liuathletics.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Javier Cobiella Lajo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Runnymede College",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/javier-cobiella-lajo/6560"
+      },
+      {
+       "name": "Max Fischer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "Waverley College",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/max-fischer/6561"
+      },
+      {
+       "name": "Mateo Kern",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "Edge School",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/mateo-kern/6559"
+      },
+      {
+       "name": "Taimur Malik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nairobi, Kenya",
+       "country": "KE",
+       "previous_school": "Braeburn Garden Estate",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/taimur-malik/6555"
+      },
+      {
+       "name": "Andres Manllo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": "Prepa Tec Santa Catarina",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/andres-manllo/6558"
+      },
+      {
+       "name": "Marcelo Mexsen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Torreon, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Cumbres de Torreon",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/marcelo-mexsen/6554"
+      },
+      {
+       "name": "Arjun Singh Bhatia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "Saint Kabir",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/arjun-singh-bhatia/6556"
+      },
+      {
+       "name": "Tom Winn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Villanova College",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/tom-winn/6557"
+      },
+      {
+       "name": "Jason Wu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hong Kong",
+       "country": "HK",
+       "previous_school": "QSI International School of Shekou",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jason-wu/6562"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Director of Men's & Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/972"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carlo Edoardo Lasi",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Turin, Italy",
+       "country": "IT",
+       "previous_school": "Istituto Sociale",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/carlo-edoardo-lasi/5312"
+      },
+      {
+       "name": "Taimur Malik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nairobi, Kenya",
+       "country": "KE",
+       "previous_school": "Braeburn Garden Estate",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/taimur-malik/5313"
+      },
+      {
+       "name": "Marcelo Mexsen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Torreon, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Cumbres de Torreon",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/marcelo-mexsen/5314"
+      },
+      {
+       "name": "Ramayush Ray",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kolkata, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/ramayush-ray/5315"
+      },
+      {
+       "name": "Arjun Singh Bhatia",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "Saint Kabir",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/arjun-singh-bhatia/5310"
+      },
+      {
+       "name": "André Ulvenes Kleppe",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sotra, Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Metis",
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Stewart Walker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Whistler, B.C.",
+       "country": "CA",
+       "previous_school": "Whistler Secondary",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/stewart-walker/5316"
+      },
+      {
+       "name": "Tom Winn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Villanova College",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/tom-winn/5317"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/784"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carlo Edoardo Lasi",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Turin, Italy",
+       "country": "IT",
+       "previous_school": "Istituto Sociale",
+       "class_raw": "R-So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/carlo-edoardo-lasi/3904"
+      },
+      {
+       "name": "Taimur Malik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nairobi, Kenya",
+       "country": "KE",
+       "previous_school": "Indian Hills CC",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/taimur-malik/3903"
+      },
+      {
+       "name": "Marcelo Mexsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Torreon, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Cumbres de Torreon",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/marcelo-mexsen/3905"
+      },
+      {
+       "name": "Ary Mohan",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Mumbai, Maharashtra, India",
+       "country": "IN",
+       "previous_school": "Delhi Public School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/ary-mohan/3906"
+      },
+      {
+       "name": "Jan Rybczynski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Swiebodzin, Poland",
+       "country": "PL",
+       "previous_school": "Ogólnoksztalcace im. Edwarda Dembowskiego",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jan-rybczynski/3907"
+      },
+      {
+       "name": "Arjun Singh Bhatia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chandigarh, India",
+       "country": "IN",
+       "previous_school": "Saint Kabir",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/arjun-singh-bhatia/4425"
+      },
+      {
+       "name": "André Ulvenes Kleppe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sotra, Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Metis",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Stewart Walker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Whistler, B.C.",
+       "country": "CA",
+       "previous_school": "Whistler Secondary",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/stewart-walker/3902"
+      },
+      {
+       "name": "Lewis Wright",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brentwood Essex, England",
+       "country": "GB",
+       "previous_school": "St Martin's School",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/lewis-wright/3909"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/539"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carlo Edoardo Lasi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Turin, Italy",
+       "country": "IT",
+       "previous_school": "Istituto Sociale",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/carlo-edoardo-lasi/2844"
+      },
+      {
+       "name": "Jesse Macnaughtan",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sydney, NSW, Castle Hill, Australia",
+       "country": "AU",
+       "previous_school": "Indian Hills CC",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jesse-macnaughtan/2840"
+      },
+      {
+       "name": "Marcelo Mexsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Torreon, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Cumbres de Torreon",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/marcelo-mexsen/2847"
+      },
+      {
+       "name": "Ary Mohan",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Mumbai, Maharashtra, India",
+       "country": "IN",
+       "previous_school": "Delhi Public School",
+       "class_raw": "R-So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/ary-mohan/2843"
+      },
+      {
+       "name": "Jan Rybczynski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Swiebodzin, Poland",
+       "country": "PL",
+       "previous_school": "Ogólnoksztalcace im. Edwarda Dembowskiego",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jan-rybczynski/2842"
+      },
+      {
+       "name": "André Ulvenes Kleppe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sotra, Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Metis",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kyle Underwood",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "East Ballina, NSW, Australia",
+       "country": "AU",
+       "previous_school": "Emmanuel Anglican College",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/kyle-underwood/2839"
+      },
+      {
+       "name": "Lewis Wright",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brentwood Essex, England",
+       "country": "GB",
+       "previous_school": "St Martin's School",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/lewis-wright/2846"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/410"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lukas Gabura",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Súkromné Gymnázium",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/lukas-gabura/2427"
+      },
+      {
+       "name": "Carlo Edoardo Lasi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Turin, Italy",
+       "country": "IT",
+       "previous_school": "Istituto Sociale",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/carlo-edoardo-lasi/2428"
+      },
+      {
+       "name": "Jesse Macnaughtan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, NSW, Castle Hill, Australia",
+       "country": "AU",
+       "previous_school": "Oakhill College",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jesse-macnaughtan/2422"
+      },
+      {
+       "name": "Ary Mohan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mumbai, Maharashtra, India",
+       "country": "IN",
+       "previous_school": "Delhi Public School",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/ary-mohan/2430"
+      },
+      {
+       "name": "Jan Rybczynski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Swiebodzin, Poland",
+       "country": "PL",
+       "previous_school": "Ogólnoksztalcace im. Edwarda Dembowskiego",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jan-rybczynski/2423"
+      },
+      {
+       "name": "André Ulvenes Kleppe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sotra, Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Metis",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Kyle Underwood",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "East Ballina, NSW, Australia",
+       "country": "AU",
+       "previous_school": "Emmanuel Anglican College",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/kyle-underwood/2425"
+      },
+      {
+       "name": "Lewis Wright",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brentwood Essex, England",
+       "country": "GB",
+       "previous_school": "St Martin's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/lewis-wright/2429"
+      },
+      {
+       "name": "Abelardo Yépez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valencia, Venezuela",
+       "country": "VE",
+       "previous_school": "Instituto de Educación Activa IDEA",
+       "class_raw": "Sr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/356"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jayden Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "St. Patrick's College Sutherland",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jayden-brown/1124"
+      },
+      {
+       "name": "Kona Kagawashi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/kona-kagawashi/1628"
+      },
+      {
+       "name": "Jesse Macnaughtan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sydney, NSW, Castle Hill, Australia",
+       "country": "AU",
+       "previous_school": "Oakhill College",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jesse-macnaughtan/1631"
+      },
+      {
+       "name": "Jan Rybczynski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Swiebodzin, Poland",
+       "country": "PL",
+       "previous_school": "Ogólnoksztalcace im. Edwarda Dembowskiego",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jan-rybczynski/1630"
+      },
+      {
+       "name": "Manuel Sosa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valencia, Venezuela",
+       "country": "VE",
+       "previous_school": "Instituto de Educacion Activa",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/manuel-sosa/1128"
+      },
+      {
+       "name": "André Ulvenes Kleppe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sotra, Bergen, Norway",
+       "country": "NO",
+       "previous_school": "Metis",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kyle Underwood",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "East Ballina, NSW, Australia",
+       "country": "AU",
+       "previous_school": "Emmanuel Anglican College",
+       "class_raw": "R-So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/kyle-underwood/1129"
+      },
+      {
+       "name": "Abelardo Yépez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Venezuela",
+       "country": "VE",
+       "previous_school": "Instituto de Educación Activa IDEA",
+       "class_raw": "Jr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/177"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://www.liuathletics.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jayden Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "St. Patrick's College Sutherland",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/jayden-brown/525"
+      },
+      {
+       "name": "Erik Carlstrom",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Locust Valley, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/erik-carlstrom/710"
+      },
+      {
+       "name": "Pei En (Andrew) Huang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roslyn, N.Y.",
+       "country": "US",
+       "previous_school": "Roslyn",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/pei-en-andrew-huang/530"
+      },
+      {
+       "name": "Manuel Sosa",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Venezuela",
+       "country": "VE",
+       "previous_school": "Instituto de Educacion Activa",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/manuel-sosa/526"
+      },
+      {
+       "name": "Kyle Underwood",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Ballina, NSW, Australia",
+       "country": "AU",
+       "previous_school": "Emmanuel Anglican College",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/kyle-underwood/529"
+      },
+      {
+       "name": "Abelardo Yépez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Venezuela",
+       "country": "VE",
+       "previous_school": "Instituto de Educación Activa IDEA",
+       "class_raw": "So.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/mens-golf/roster/coaches/ben-belfield/76"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://www.liuathletics.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Cecilia Arndt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, Neb.",
+       "country": "US",
+       "previous_school": "Scotus Central Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/cecilia-arndt/6548"
+      },
+      {
+       "name": "Alexa Garrett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wichita, Kan.",
+       "country": "US",
+       "previous_school": "Kapaun Mount Carmel",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/alexa-garrett/6552"
+      },
+      {
+       "name": "Nielli Heggem",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsbluff, Neb.",
+       "country": "US",
+       "previous_school": "Scottsbluff HS",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/nielli-heggem/6549"
+      },
+      {
+       "name": "Hailey Holbdy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gibraltar, Mich.",
+       "country": "US",
+       "previous_school": "Windermere Preparatory School (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/hailey-holbdy/6551"
+      },
+      {
+       "name": "Vanessa Moreno Reyes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chula Vista, Calif.",
+       "country": "US",
+       "previous_school": "Mater Dei Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/vanessa-moreno-reyes/6550"
+      },
+      {
+       "name": "Simran Singh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barrington, Ill.",
+       "country": "US",
+       "previous_school": "Barrington HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/simran-singh/6553"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sara Detlefsen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/sara-detlefsen/969"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Cecilia Arndt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Neb.",
+       "country": "US",
+       "previous_school": "Scotus Central Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/cecilia-arndt/5296"
+      },
+      {
+       "name": "Alexa Garrett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wichita, Kan.",
+       "country": "US",
+       "previous_school": "Kapaun Mount Carmel",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/alexa-garrett/5297"
+      },
+      {
+       "name": "Nielli Heggem",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsbluff, Neb.",
+       "country": "US",
+       "previous_school": "Scottsbluff HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/nielli-heggem/5298"
+      },
+      {
+       "name": "Hailey Holbdy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gibraltar, Mich.",
+       "country": "US",
+       "previous_school": "Windermere Preparatory School (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/hailey-holbdy/5299"
+      },
+      {
+       "name": "Vanessa Moreno Reyes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chula Vista, Calif.",
+       "country": "US",
+       "previous_school": "Mater Dei Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/vanessa-moreno-reyes/5303"
+      },
+      {
+       "name": "Simran Singh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barrington, Ill.",
+       "country": "US",
+       "previous_school": "Barrington HS",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/simran-singh/5302"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sara Detlefsen",
+       "title": "Head Women’s Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/sara-detlefsen/853"
+      },
+      {
+       "name": "Ben Belfield",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/ben-belfield/777"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Vera Arrébola Granes",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sevilla, Andalucia, Spain",
+       "country": "ES",
+       "previous_school": "IES Nestor Almendros",
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Clarice Bell",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Holden, M.E.",
+       "country": null,
+       "previous_school": "Orono",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/clarice-bell/4032"
+      },
+      {
+       "name": "Emily Byrne",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Formby, Liverpool, England",
+       "country": "GB",
+       "previous_school": "Limestone",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/emily-byrne/4028"
+      },
+      {
+       "name": "Alexa Garrett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wichita, Kan.",
+       "country": "US",
+       "previous_school": "Kapaun Mount Carmel",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/alexa-garrett/4262"
+      },
+      {
+       "name": "Hailey Holbdy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gibraltar, Mich.",
+       "country": "US",
+       "previous_school": "Windermere Preparatory School (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/hailey-holbdy/4084"
+      },
+      {
+       "name": "Lathika Krishna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangalore, India",
+       "country": "IN",
+       "previous_school": "National Public School Indiranagar",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/lathika-krishna/4264"
+      },
+      {
+       "name": "Laine Leonard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Montgomery, I.L.",
+       "country": null,
+       "previous_school": "Yorkville",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/laine-leonard/4033"
+      },
+      {
+       "name": "Dina Rami",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Boone",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/dina-rami/4031"
+      },
+      {
+       "name": "Simran Singh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barrington, Ill.",
+       "country": "US",
+       "previous_school": "Barrington HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/simran-singh/4085"
+      },
+      {
+       "name": "Maja Toth",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Budapest, Hungary",
+       "country": "HU",
+       "previous_school": "Rabun Gap Nacoochee School",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/maja-toth/4030"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Belfield",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/ben-belfield/666"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Vera Arrébola Granes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sevilla, Andalucia, Spain",
+       "country": "ES",
+       "previous_school": "IES Nestor Almendros",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Clarice Bell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holden, M.E.",
+       "country": null,
+       "previous_school": "Orono",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/clarice-bell/2962"
+      },
+      {
+       "name": "Emily Byrne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Formby, Liverpool, England",
+       "country": "GB",
+       "previous_school": "Formby",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/emily-byrne/2961"
+      },
+      {
+       "name": "Juliana De Leon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Presentation",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/juliana-de-leon/2957"
+      },
+      {
+       "name": "Lexi DeLorimiere",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Flower Mound",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/lexi-delorimiere/2956"
+      },
+      {
+       "name": "Ashlee Garrett",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "St. Pius X",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/ashlee-garrett/2955"
+      },
+      {
+       "name": "Dina Rami",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Boone",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/dina-rami/2960"
+      },
+      {
+       "name": "Maja Toth",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Budapest, Hungary",
+       "country": "HU",
+       "previous_school": "Rabun Gap Nacoochee School",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/maja-toth/2959"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lily Bartell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/lily-bartell/493"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Valencia Andov",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pekanbaru, Indonesia",
+       "country": "ID",
+       "previous_school": "Cambridge International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/valencia-andov/2498"
+      },
+      {
+       "name": "Vera Arrébola Granes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sevilla, Andalucia, Spain",
+       "country": "ES",
+       "previous_school": "IES Nestor Almendros",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Juliana De Leon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Presentation",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/juliana-de-leon/2635"
+      },
+      {
+       "name": "Lexi DeLorimiere",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Flower Mound",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/lexi-delorimiere/2492"
+      },
+      {
+       "name": "Ashlee Garrett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "St. Pius X",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/ashlee-garrett/2493"
+      },
+      {
+       "name": "Aida Gonzalez",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "Sevilla",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/aida-gonzalez/2497"
+      },
+      {
+       "name": "Theresa Morrissey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Parrish, Fla.",
+       "country": "US",
+       "previous_school": "Bayshore",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/theresa-morrissey/2494"
+      },
+      {
+       "name": "Dina Rami",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Boone",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/dina-rami/2499"
+      },
+      {
+       "name": "Shannon Rhoden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Lake Nona",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/shannon-rhoden/2500"
+      },
+      {
+       "name": "Maja Toth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Budapest, Hungary",
+       "country": "HU",
+       "previous_school": "Rabun Gap Nacoochee School",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/maja-toth/2495"
+      },
+      {
+       "name": "Julia Towne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eustis, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/julia-towne/2496"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lily Bartell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/lily-bartell/378"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Vera Arrébola Granes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sevilla, Andalucia, Spain",
+       "country": "ES",
+       "previous_school": "IES Nestor Almendros",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Juliana De Leon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Presentation",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/juliana-de-leon/1132"
+      },
+      {
+       "name": "Lexi DeLorimiere",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Flower Mound",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/lexi-delorimiere/1133"
+      },
+      {
+       "name": "Ashlee Garrett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "St. Pius X",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/ashlee-garrett/1134"
+      },
+      {
+       "name": "Aida Gonzalez",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "Sevilla",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/aida-gonzalez/1135"
+      },
+      {
+       "name": "Theresa Morrissey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Parrish, Fla.",
+       "country": "US",
+       "previous_school": "Bayshore",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/theresa-morrissey/1689"
+      },
+      {
+       "name": "Claire Pohalski",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Huntington, N.Y.",
+       "country": "US",
+       "previous_school": "Nassau C.C.",
+       "class_raw": "Gr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/claire-pohalski/1137"
+      },
+      {
+       "name": "Maja Toth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Budapest, Hungary",
+       "country": "HU",
+       "previous_school": "Rabun Gap Nacoochee School",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/maja-toth/1690"
+      },
+      {
+       "name": "Julia Towne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eustis, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "Jr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/julia-towne/1138"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lois Kim",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/lois-kim/178"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://www.liuathletics.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Vera Arrébola Granes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sevilla, Andalucia, Spain",
+       "country": "ES",
+       "previous_school": "IES Nestor Almendros",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Juliana De Leon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Calif.",
+       "country": "US",
+       "previous_school": "Presentation",
+       "class_raw": "Fr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/juliana-de-leon/532"
+      },
+      {
+       "name": "Lexi DeLorimiere",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Flower Mound",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/lexi-delorimiere/533"
+      },
+      {
+       "name": "Ashlee Garrett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "St. Pius X",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/ashlee-garrett/534"
+      },
+      {
+       "name": "Aida Gonzalez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "Sevilla",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/aida-gonzalez/535"
+      },
+      {
+       "name": "Claire Pohalski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huntington, N.Y.",
+       "country": "US",
+       "previous_school": "Nassau C.C.",
+       "class_raw": "Sr.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/claire-pohalski/537"
+      },
+      {
+       "name": "Julia Towne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eustis, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "So.",
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/julia-towne/538"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lois Kim",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://www.liuathletics.com/sports/womens-golf/roster/coaches/lois-kim/78"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://www.liuathletics.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://www.liuathletics.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/mens-golf/roster/season/2016",
+   "status": 200
   },
   {
    "url": "https://www.liuathletics.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://www.liuathletics.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://www.liuathletics.com/sports/womens-golf/roster/season/2016",
+   "status": 200
   }
  ]
 }

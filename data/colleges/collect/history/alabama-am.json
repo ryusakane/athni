@@ -1,22 +1,710 @@
 {
  "slug": "alabama-am",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://aamusports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Niall Bagnall",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Meath, Ireland",
+       "country": "IE",
+       "previous_school": "Saint Patrick's Classical School",
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/niall-bagnall/7496"
+      },
+      {
+       "name": "Samuel Boddie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ocoee, Fla.",
+       "country": "US",
+       "previous_school": "Circle Christian School",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/samuel-boddie/7497"
+      },
+      {
+       "name": "James Fujita",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Moanalua HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/james-fujita/7501"
+      },
+      {
+       "name": "Lukas Lange",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ludwigsburg Baden-Württemberg, Germany",
+       "country": "DE",
+       "previous_school": "West Virginia Tech",
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/lukas-lange/7498"
+      },
+      {
+       "name": "Kourey Patterson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Palisades Charter HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/kourey-patterson/7499"
+      },
+      {
+       "name": "Vicente Rodriguez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Santa Barbara City College",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/vicente-rodriguez/7500"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Devins Jackson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/devins-jackson/985"
+      },
+      {
+       "name": "Greg Simpson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/greg-simpson/986"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Emilio Angel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Gimnasio Vermont",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/emilio-angel/6802"
+      },
+      {
+       "name": "Niall Bagnall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Meath, Ireland",
+       "country": "IE",
+       "previous_school": "Saint Patrick's Classical School",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/niall-bagnall/6803"
+      },
+      {
+       "name": "Samuel Boddie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ocoee, Fla.",
+       "country": "US",
+       "previous_school": "Circle Christian School",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/samuel-boddie/6804"
+      },
+      {
+       "name": "Bryson Hannah",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lilburn, Ga.",
+       "country": "US",
+       "previous_school": "Parkview HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/bryson-hannah/6805"
+      },
+      {
+       "name": "Lukas Lange",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ludwigsburg Baden-Württemberg, Germany",
+       "country": "DE",
+       "previous_school": "West Virginia Tech",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/lukas-lange/6807"
+      },
+      {
+       "name": "Kourey Patterson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Palisades Charter HS",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/kourey-patterson/6806"
+      },
+      {
+       "name": "Fabian Sanchez Torres",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cajica, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Cambridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/fabian-sanchez-torres/6808"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Devins Jackson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/devins-jackson/893"
+      },
+      {
+       "name": "Greg Simpson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/greg-simpson/929"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Emilio Angel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Gimnasio Vermont",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/emilio-angel/6154"
+      },
+      {
+       "name": "Niall Bagnall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Meath, Ireland",
+       "country": "IE",
+       "previous_school": "Saint Patrick's Classical School",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/niall-bagnall/6155"
+      },
+      {
+       "name": "Samuel Boddie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ocoee, Fla.",
+       "country": "US",
+       "previous_school": "Circle Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/samuel-boddie/6162"
+      },
+      {
+       "name": "Gage Flowers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Springfield, Ga.",
+       "country": "US",
+       "previous_school": "South Effingham HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/gage-flowers/6247"
+      },
+      {
+       "name": "Bryson Hannah",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lilburn, Ga.",
+       "country": "US",
+       "previous_school": "Parkview HS",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/bryson-hannah/6251"
+      },
+      {
+       "name": "Kourey Patterson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Palisades Charter HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/kourey-patterson/6163"
+      },
+      {
+       "name": "Juan D. Rey G",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Francisco, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Hispano Americano",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/juan-d-rey-g/6252"
+      },
+      {
+       "name": "Fabian Sanchez Torres",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cajica, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Cambridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/fabian-sanchez-torres/6161"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Devins Jackson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/devins-jackson/825"
+      },
+      {
+       "name": "Jason Johnson Jr.",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Emilio Angel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/emilio-angel/5526"
+      },
+      {
+       "name": "Niall Bagnall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Meath, Ireland",
+       "country": "IE",
+       "previous_school": "Saint Patrick's Classical School",
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/niall-bagnall/5527"
+      },
+      {
+       "name": "Kim Byeongkwan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Won Ju, South Korea",
+       "country": "KR",
+       "previous_school": "Montverde Academy",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/kim-byeongkwan/5522"
+      },
+      {
+       "name": "Felipe Gomez Lopez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bogota, Columbia",
+       "country": null,
+       "previous_school": "Gimnasio Compestre",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/felipe-gomez-lopez/5520"
+      },
+      {
+       "name": "Jason Johnson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "Southview HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/jason-johnson/5521"
+      },
+      {
+       "name": "Adric Kimbrough",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/adric-kimbrough/5523"
+      },
+      {
+       "name": "Juan Ray Gaitan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/juan-ray-gaitan/5524"
+      },
+      {
+       "name": "Fabian Sanchez Torres",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cajica, Colombia",
+       "country": "CO",
+       "previous_school": "Cambridge HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/fabian-sanchez-torres/5525"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dwayne Robinson",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/dwayne-robinson/723"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kim Byeongkwan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Won Ju, South Korea",
+       "country": "KR",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/kim-byeongkwan/5155"
+      },
+      {
+       "name": "Felipe Gomez Lopez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bogota, Columbia",
+       "country": null,
+       "previous_school": "Gimnasio Compestre",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/felipe-gomez-lopez/5153"
+      },
+      {
+       "name": "Jason Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "Southview HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/jason-johnson/5150"
+      },
+      {
+       "name": "Adric Kimbrough",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/adric-kimbrough/5151"
+      },
+      {
+       "name": "Conner McMillan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oxford, Ind.",
+       "country": "US",
+       "previous_school": "Benton Central HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/conner-mcmillan/5152"
+      },
+      {
+       "name": "Juan Ray Gaitan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/juan-ray-gaitan/5156"
+      },
+      {
+       "name": "Fabian Sanchez Torres",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cajica, Colombia",
+       "country": "CO",
+       "previous_school": "Cambridge HS",
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/fabian-sanchez-torres/5157"
+      },
+      {
+       "name": "Riley Webster",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gurley, Ala.",
+       "country": "US",
+       "previous_school": "Madison County HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/riley-webster/5158"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dwayne Robinson",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/coaches/dwayne-robinson/662"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Torrance Allen II",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ellenwood, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/torrance-allen-ii/4952"
+      },
+      {
+       "name": "Reginald Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jonesboro, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/reginald-brown/4953"
+      },
+      {
+       "name": "Robert Coker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westbloomfield, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/robert-coker/4954"
+      },
+      {
+       "name": "Jason Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Toledo, Ohio",
+       "country": "US",
+       "previous_school": "Southview HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/jason-johnson/4955"
+      },
+      {
+       "name": "Adric Kimbrough",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/adric-kimbrough/4956"
+      },
+      {
+       "name": "Conner McMillan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oxford, Ind.",
+       "country": "US",
+       "previous_school": "Benton Central HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/conner-mcmillan/4957"
+      },
+      {
+       "name": "MacKenzie Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Detroit, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/mackenzie-smith/4958"
+      },
+      {
+       "name": "Nylan Washington",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Decatur, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/nylan-washington/4959"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://aamusports.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Reginald Brown",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/reginald-brown/3918"
+      },
+      {
+       "name": "Blake Hampton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/blake-hampton/3916"
+      },
+      {
+       "name": "Jason Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/jason-johnson/3919"
+      },
+      {
+       "name": "Conner McMillan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/conner-mcmillan/3920"
+      },
+      {
+       "name": "Paul San",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/paul-san/3915"
+      },
+      {
+       "name": "Nylan Washington",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://aamusports.com/sports/mens-golf/roster/nylan-washington/3917"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://aamusports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://aamusports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2020",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2017",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://aamusports.com/sports/mens-golf/roster/season/2016",
+   "status": 200
   }
  ]
 }

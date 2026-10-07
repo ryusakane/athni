@@ -1,36 +1,2001 @@
 {
  "slug": "siena",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://sienasaints.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Michael Broeker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mequon, WI",
+       "country": "US",
+       "previous_school": "Marquette University HS",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-broeker/10636"
+      },
+      {
+       "name": "Gavin Crowley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Littleton, CO",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/gavin-crowley/10637"
+      },
+      {
+       "name": "Will Eddy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westford, MA",
+       "country": "US",
+       "previous_school": "Westford Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/will-eddy/10642"
+      },
+      {
+       "name": "Austin Giroux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newport, VT",
+       "country": "US",
+       "previous_school": "North Country Union",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/austin-giroux/10638"
+      },
+      {
+       "name": "Connor Kiel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairport, NY",
+       "country": "US",
+       "previous_school": "Fairport",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/connor-kiel/10639"
+      },
+      {
+       "name": "Colton Lusk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canonsburg, PA",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/colton-lusk/10643"
+      },
+      {
+       "name": "Michael McConie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Huntington, NY",
+       "country": "US",
+       "previous_school": "Chaminade",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-mcconie/10640"
+      },
+      {
+       "name": "KC Nickel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waunakee, WI",
+       "country": "US",
+       "previous_school": "Waunakee",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/kc-nickel/10641"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/4930"
+      },
+      {
+       "name": "Brody Yates",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/brody-yates/4932"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Michael Broeker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mequon, WI",
+       "country": "US",
+       "previous_school": "Marquette University HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-broeker/9613"
+      },
+      {
+       "name": "Dan Brooks",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dudley, MA",
+       "country": "US",
+       "previous_school": "Shepherd Hill Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/dan-brooks/9608"
+      },
+      {
+       "name": "Gavin Crowley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Littleton, CO",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/gavin-crowley/9609"
+      },
+      {
+       "name": "Austin Giroux",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newport, VT",
+       "country": "US",
+       "previous_school": "North Country Union",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/austin-giroux/9610"
+      },
+      {
+       "name": "Connor Kiel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairport, NY",
+       "country": "US",
+       "previous_school": "Fairport",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/connor-kiel/9614"
+      },
+      {
+       "name": "Nick Lyons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Albany Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nick-lyons/9611"
+      },
+      {
+       "name": "Michael McConie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huntington, NY",
+       "country": "US",
+       "previous_school": "Chaminade",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-mcconie/9612"
+      },
+      {
+       "name": "KC Nickel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waunakee, WI",
+       "country": "US",
+       "previous_school": "Waunakee",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/kc-nickel/9615"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/4777"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/4778"
+      },
+      {
+       "name": "Brody Yates",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/brody-yates/4779"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dan Brooks",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dudley, MA",
+       "country": "US",
+       "previous_school": "Shepherd Hill Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/dan-brooks/9216"
+      },
+      {
+       "name": "Gavin Crowley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Littleton, CO",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/gavin-crowley/9222"
+      },
+      {
+       "name": "Nolan Crowley",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Saratoga Springs, NY",
+       "country": "US",
+       "previous_school": "Saratoga Springs",
+       "class_raw": "5th",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nolan-crowley/9217"
+      },
+      {
+       "name": "Matthew Ferrari",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Croton-On-Hudson, NY",
+       "country": "US",
+       "previous_school": "Croton-Harmon",
+       "class_raw": "5th",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/matthew-ferrari/9212"
+      },
+      {
+       "name": "Austin Giroux",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport, VT",
+       "country": "US",
+       "previous_school": "North Country Union",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/austin-giroux/9219"
+      },
+      {
+       "name": "Alex Kelley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Latham, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/alex-kelley/9214"
+      },
+      {
+       "name": "Nick Lyons",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Albany Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nick-lyons/9221"
+      },
+      {
+       "name": "Michael McConie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntington, NY",
+       "country": "US",
+       "previous_school": "Chaminade",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-mcconie/9223"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/4699"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/4700"
+      },
+      {
+       "name": "Brody Yates",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/brody-yates/4757"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dan Brooks",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dudley, MA",
+       "country": "US",
+       "previous_school": "Shepherd Hill Regional",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/dan-brooks/8623"
+      },
+      {
+       "name": "Nolan Crowley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saratoga Springs, NY",
+       "country": "US",
+       "previous_school": "Saratoga Springs",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nolan-crowley/8624"
+      },
+      {
+       "name": "Matthew Ferrari",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Croton-On-Hudson, NY",
+       "country": "US",
+       "previous_school": "Croton-Harmon",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/matthew-ferrari/8625"
+      },
+      {
+       "name": "Austin Giroux",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newport, VT",
+       "country": "US",
+       "previous_school": "North Country Union",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/austin-giroux/8632"
+      },
+      {
+       "name": "Alex Kelley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Latham, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/alex-kelley/8626"
+      },
+      {
+       "name": "Nick Lyons",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Albany Academy",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nick-lyons/8628"
+      },
+      {
+       "name": "Jack Tobin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southborough, MA",
+       "country": "US",
+       "previous_school": "Algonquin Regional High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-tobin/8629"
+      },
+      {
+       "name": "Moritz Weigold",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nuremburg, Germany",
+       "country": "DE",
+       "previous_school": "Gill St. Bernards HS (NJ)",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/moritz-weigold/8630"
+      },
+      {
+       "name": "Brody Yates",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Essex Junction, VT",
+       "country": "US",
+       "previous_school": "Essex",
+       "class_raw": "Gr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/brody-yates/8631"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/4580"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/4581"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dan Brooks",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dudley, MA",
+       "country": "US",
+       "previous_school": "Shepherd Hill Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/dan-brooks/8158"
+      },
+      {
+       "name": "Nolan Crowley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saratoga Springs, NY",
+       "country": "US",
+       "previous_school": "Saratoga Springs",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nolan-crowley/8149"
+      },
+      {
+       "name": "Matthew Ferrari",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Croton-On-Hudson, NY",
+       "country": "US",
+       "previous_school": "Croton-Harmon",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/matthew-ferrari/8150"
+      },
+      {
+       "name": "Alex Kelley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Latham, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/alex-kelley/8159"
+      },
+      {
+       "name": "Andy Knoll",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/andy-knoll/8152"
+      },
+      {
+       "name": "Nick Lyons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Albany Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nick-lyons/8157"
+      },
+      {
+       "name": "Jack Tobin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southborough, MA",
+       "country": "US",
+       "previous_school": "Algonquin Regional High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-tobin/8153"
+      },
+      {
+       "name": "Moritz Weigold",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nuremburg, Germany",
+       "country": "DE",
+       "previous_school": "Gill St. Bernards HS (NJ)",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/moritz-weigold/8154"
+      },
+      {
+       "name": "Pudge Williams",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Washington, DC",
+       "country": "US",
+       "previous_school": "Gonzaga College",
+       "class_raw": "Gr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/pudge-williams/8155"
+      },
+      {
+       "name": "Brody Yates",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Essex Junction, VT",
+       "country": "US",
+       "previous_school": "Essex",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/brody-yates/8156"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/4512"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/4513"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hudson, NH",
+       "country": "US",
+       "previous_school": "Alvirne",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-brown/6781"
+      },
+      {
+       "name": "Nolan Crowley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saratoga Springs, NY",
+       "country": "US",
+       "previous_school": "Saratoga Springs",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nolan-crowley/6782"
+      },
+      {
+       "name": "Matthew Ferrari",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Croton-On-Hudson, NY",
+       "country": "US",
+       "previous_school": "Croton-Harmon",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/matthew-ferrari/6783"
+      },
+      {
+       "name": "Jack Hamilton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wayne, PA",
+       "country": "US",
+       "previous_school": "Radnor",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-hamilton/6790"
+      },
+      {
+       "name": "Ryan Kelley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Latham, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/ryan-kelley/6784"
+      },
+      {
+       "name": "Andy Knoll",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/andy-knoll/6789"
+      },
+      {
+       "name": "Jack Tobin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southborough, MA",
+       "country": "US",
+       "previous_school": "Algonquin Regional High School",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-tobin/6785"
+      },
+      {
+       "name": "Moritz Weigold",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nuremburg, Germany",
+       "country": "DE",
+       "previous_school": "Gill St. Bernards HS (NJ)",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/moritz-weigold/6786"
+      },
+      {
+       "name": "Pudge Williams",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Washington, DC",
+       "country": "US",
+       "previous_school": "Gonzaga College",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/pudge-williams/6787"
+      },
+      {
+       "name": "Brody Yates",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Essex Junction, VT",
+       "country": "US",
+       "previous_school": "Essex",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/brody-yates/6788"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/3437"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/3438"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hudson, NH",
+       "country": "US",
+       "previous_school": "Alvirne",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-brown/5589"
+      },
+      {
+       "name": "Nolan Crowley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saratoga Springs, NY",
+       "country": "US",
+       "previous_school": "Saratoga Springs",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/nolan-crowley/5594"
+      },
+      {
+       "name": "Matthew Ferrari",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Croton-On-Hudson, NY",
+       "country": "US",
+       "previous_school": "Croton-Harmon",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/matthew-ferrari/5593"
+      },
+      {
+       "name": "Ryan Kelley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Latham, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/ryan-kelley/6762"
+      },
+      {
+       "name": "Jack Tobin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southborough, MA",
+       "country": "US",
+       "previous_school": "Algonquin Regional High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-tobin/5592"
+      },
+      {
+       "name": "Moritz Weigold",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nuremburg, Germany",
+       "country": "DE",
+       "previous_school": "Gill St. Bernards HS (NJ)",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/moritz-weigold/5595"
+      },
+      {
+       "name": "Pudge Williams",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Washington, DC",
+       "country": "US",
+       "previous_school": "Gonzaga College",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/pudge-williams/5591"
+      },
+      {
+       "name": "Brody Yates",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Essex Junction, VT",
+       "country": "US",
+       "previous_school": "Essex",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/brody-yates/6761"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/1390"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/1391"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Bellardini",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jamesville, NY",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-bellardini/5209"
+      },
+      {
+       "name": "Jack Brown",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hudson, NH",
+       "country": "US",
+       "previous_school": "Alvirne",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-brown/5210"
+      },
+      {
+       "name": "Tanner Donovan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/tanner-donovan/5211"
+      },
+      {
+       "name": "Jack Downey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Troy, NY",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-downey/5212"
+      },
+      {
+       "name": "Jared Nelson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rutland, VT",
+       "country": "US",
+       "previous_school": "Rutland",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jared-nelson/5217"
+      },
+      {
+       "name": "James Pelcher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Baldwinsville, NY",
+       "country": "US",
+       "previous_school": "Charles W Baker",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/james-pelcher/5214"
+      },
+      {
+       "name": "Brad Whitaker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kensington, MD",
+       "country": "US",
+       "previous_school": "Gonzaga College",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/brad-whitaker/5216"
+      },
+      {
+       "name": "Pudge Williams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Washington, DC",
+       "country": "US",
+       "previous_school": "Gonzaga College",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/pudge-williams/5215"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/1317"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/1323"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Bellardini",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jamesville, NY",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-bellardini/850"
+      },
+      {
+       "name": "Jack Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hudson, NH",
+       "country": "US",
+       "previous_school": "Alvirne",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-brown/851"
+      },
+      {
+       "name": "Michael Christifulli",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paradise Valley, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-christifulli/852"
+      },
+      {
+       "name": "Tanner Donovan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/tanner-donovan/853"
+      },
+      {
+       "name": "Jack Downey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Troy, NY",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-downey/854"
+      },
+      {
+       "name": "Jake Holt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "Pine View School",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jake-holt/855"
+      },
+      {
+       "name": "James Pelcher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Baldwinsville, NY",
+       "country": "US",
+       "previous_school": "Charles W Baker",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/james-pelcher/856"
+      },
+      {
+       "name": "Pudge Williams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Washington, DC",
+       "country": "US",
+       "previous_school": "Gonzaga College",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/pudge-williams/857"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/96"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://sienasaints.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Bellardini",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jamesville, NY",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-bellardini/858"
+      },
+      {
+       "name": "Michael Christifulli",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paradise Valley, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/michael-christifulli/859"
+      },
+      {
+       "name": "Tanner Donovan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Loudonville, NY",
+       "country": "US",
+       "previous_school": "Shaker",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/tanner-donovan/860"
+      },
+      {
+       "name": "Jack Downey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Troy, NY",
+       "country": "US",
+       "previous_school": "Troy",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jack-downey/861"
+      },
+      {
+       "name": "Jake Holt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "Pine View School",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/jake-holt/862"
+      },
+      {
+       "name": "Scott Kim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "River Edge, NJ",
+       "country": "US",
+       "previous_school": "River Dell Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/scott-kim/863"
+      },
+      {
+       "name": "Matthew Parrottino",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Slingerlands, NY",
+       "country": "US",
+       "previous_school": "Voorheesville",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/matthew-parrottino/864"
+      },
+      {
+       "name": "James Pelcher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Baldwinsville, NY",
+       "country": "US",
+       "previous_school": "Charles W Baker",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/james-pelcher/865"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steven Jensen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/steven-jensen/97"
+      },
+      {
+       "name": "Eric Keeler",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/eric-keeler/98"
+      },
+      {
+       "name": "Michael Shine",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/mens-golf/roster/coaches/michael-shine/99"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://sienasaints.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Emely Kintzel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Falkensee, Germany",
+       "country": "DE",
+       "previous_school": "Marie-Curie-Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emely-kintzel/10699"
+      },
+      {
+       "name": "Julia Kret",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yonkers, NY",
+       "country": "US",
+       "previous_school": "The Ursuline School",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/julia-kret/10700"
+      },
+      {
+       "name": "Emily Rensch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chambersburg, PA",
+       "country": "US",
+       "previous_school": "Chambersburg Area",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emily-rensch/10704"
+      },
+      {
+       "name": "Isabella Silva",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, CA",
+       "country": "US",
+       "previous_school": "Valencia",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-silva/10701"
+      },
+      {
+       "name": "Mackenzie Whitney",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westminster, MA",
+       "country": "US",
+       "previous_school": "Oakmont Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/mackenzie-whitney/10702"
+      },
+      {
+       "name": "Chelsea Woods",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Hampton, CT",
+       "country": "US",
+       "previous_school": "East Hampton",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/chelsea-woods/10703"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Noel Gebauer",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/noel-gebauer/5037"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Manoela Barcellos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Itatiba, Brazil",
+       "country": "BR",
+       "previous_school": "Colégio NEXT",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/manoela-barcellos/9616"
+      },
+      {
+       "name": "Jillian Barend",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Attleboro, MA",
+       "country": "US",
+       "previous_school": "North Attleboro",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/jillian-barend/9617"
+      },
+      {
+       "name": "Emely Kintzel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Falkensee, Germany",
+       "country": "DE",
+       "previous_school": "Marie-Curie-Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emely-kintzel/9618"
+      },
+      {
+       "name": "Julia Kret",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yonkers, NY",
+       "country": "US",
+       "previous_school": "The Ursuline School",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/julia-kret/9621"
+      },
+      {
+       "name": "Isabella Silva",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, CA",
+       "country": "US",
+       "previous_school": "Valencia",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-silva/9619"
+      },
+      {
+       "name": "Mackenzie Whitney",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Westminster, MA",
+       "country": "US",
+       "previous_school": "Oakmont Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/mackenzie-whitney/9620"
+      },
+      {
+       "name": "Chelsea Woods",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Hampton, CT",
+       "country": "US",
+       "previous_school": "East Hampton",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/chelsea-woods/9622"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Noel Gebauer",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/noel-gebauer/4802"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Manoela Barcellos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Itatiba, Brazil",
+       "country": "BR",
+       "previous_school": "Colégio NEXT",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/manoela-barcellos/9067"
+      },
+      {
+       "name": "Jillian Barend",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Attleboro, MA",
+       "country": "US",
+       "previous_school": "North Attleboro",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/jillian-barend/9068"
+      },
+      {
+       "name": "Emely Kintzel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Falkensee, Germany",
+       "country": "DE",
+       "previous_school": "Marie-Curie-Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emely-kintzel/9071"
+      },
+      {
+       "name": "Isabella Silva",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, CA",
+       "country": "US",
+       "previous_school": "Valencia",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-silva/9072"
+      },
+      {
+       "name": "Mackenzie Whitney",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westminster, MA",
+       "country": "US",
+       "previous_school": "Oakmont Regional",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/mackenzie-whitney/9070"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Evan Drew",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/evan-drew/4680"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Manoela Barcellos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Itatiba, Brazil",
+       "country": "BR",
+       "previous_school": "Colégio NEXT",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/manoela-barcellos/8617"
+      },
+      {
+       "name": "Jillian Barend",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Attleboro, MA",
+       "country": "US",
+       "previous_school": "North Attleboro",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/jillian-barend/8618"
+      },
+      {
+       "name": "Isabella Diaz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ballston Spa, NY",
+       "country": "US",
+       "previous_school": "Ballston Spa",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-diaz/8619"
+      },
+      {
+       "name": "Emily Nash",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lunenburg, MA",
+       "country": "US",
+       "previous_school": "Lunenburg (Elon)",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emily-nash/8620"
+      },
+      {
+       "name": "Margot Osterman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scituate, MA",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/margot-osterman/8621"
+      },
+      {
+       "name": "Mackenzie Whitney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westminster, MA",
+       "country": "US",
+       "previous_school": "Oakmont Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/mackenzie-whitney/8622"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/4578"
+      },
+      {
+       "name": "Mike Behan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mike-behan/4579"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Manoela Barcellos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Itatiba, Brazil",
+       "country": "BR",
+       "previous_school": "Colégio NEXT",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/manoela-barcellos/8444"
+      },
+      {
+       "name": "Jillian Barend",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Attleboro, MA",
+       "country": "US",
+       "previous_school": "North Attleboro",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/jillian-barend/8188"
+      },
+      {
+       "name": "Isabella Diaz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ballston Spa, NY",
+       "country": "US",
+       "previous_school": "Ballston Spa",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-diaz/8184"
+      },
+      {
+       "name": "Lena Kaufman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rochester, NY",
+       "country": "US",
+       "previous_school": "Pittsford Sutherland",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/lena-kaufman/8185"
+      },
+      {
+       "name": "Emily Nash",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lunenburg, MA",
+       "country": "US",
+       "previous_school": "Lunenburg (Elon)",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emily-nash/8186"
+      },
+      {
+       "name": "Margot Osterman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scituate, MA",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/margot-osterman/8187"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/4516"
+      },
+      {
+       "name": "Mike Behan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mike-behan/4517"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Abigail Chai-Onn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Miami, FL",
+       "country": "US",
+       "previous_school": "Coral Reef Senior",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/abigail-chai-onn/6791"
+      },
+      {
+       "name": "Grace Cuttone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bernardsville, NJ",
+       "country": "US",
+       "previous_school": "Mount Saint Mary Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/grace-cuttone/6792"
+      },
+      {
+       "name": "Isabella Diaz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ballston Spa, NY",
+       "country": "US",
+       "previous_school": "Ballston Spa",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-diaz/6793"
+      },
+      {
+       "name": "Lena Kaufman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rochester, NY",
+       "country": "US",
+       "previous_school": "Pittsford Sutherland",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/lena-kaufman/6794"
+      },
+      {
+       "name": "Emily Nash",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lunenburg, MA",
+       "country": "US",
+       "previous_school": "Lunenburg (Elon)",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emily-nash/8134"
+      },
+      {
+       "name": "Margot Osterman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scituate, MA",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/margot-osterman/6796"
+      },
+      {
+       "name": "Ashlee Sample",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Monument, CO",
+       "country": "US",
+       "previous_school": "Palmer Ridge",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/ashlee-sample/6795"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/3439"
+      },
+      {
+       "name": "Mike Behan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mike-behan/3440"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Abigail Chai-Onn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miami, FL",
+       "country": "US",
+       "previous_school": "Coral Reef Senior",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/abigail-chai-onn/5626"
+      },
+      {
+       "name": "Grace Cuttone",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bernardsville, NJ",
+       "country": "US",
+       "previous_school": "Mount Saint Mary Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/grace-cuttone/5627"
+      },
+      {
+       "name": "Isabella Diaz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ballston Spa, NY",
+       "country": "US",
+       "previous_school": "Ballston Spa",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/isabella-diaz/5631"
+      },
+      {
+       "name": "Marisa Fiorina",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oakland, NJ",
+       "country": "US",
+       "previous_school": "Indian Hills",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/marisa-fiorina/5628"
+      },
+      {
+       "name": "Lena Kaufman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rochester, NY",
+       "country": "US",
+       "previous_school": "Pittsford Sutherland",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/lena-kaufman/5629"
+      },
+      {
+       "name": "Kaity Rittner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Algonac, MI",
+       "country": "US",
+       "previous_school": "Lutheran HS North",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/kaity-rittner/5630"
+      },
+      {
+       "name": "Ashlee Sample",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monument, CO",
+       "country": "US",
+       "previous_school": "Palmer Ridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/ashlee-sample/5632"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/1408"
+      },
+      {
+       "name": "Mike Behan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mike-behan/1409"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Abigail Chai-Onn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Miami, FL",
+       "country": "US",
+       "previous_school": "Coral Reef Senior",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/abigail-chai-onn/5218"
+      },
+      {
+       "name": "Grace Cuttone",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bernardsville, NJ",
+       "country": "US",
+       "previous_school": "Mount Saint Mary Academy",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/grace-cuttone/5219"
+      },
+      {
+       "name": "Marisa Fiorina",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oakland, NJ",
+       "country": "US",
+       "previous_school": "Indian Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/marisa-fiorina/5220"
+      },
+      {
+       "name": "Lena Kaufman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rochester, NY",
+       "country": "US",
+       "previous_school": "Pittsford Sutherland",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/lena-kaufman/5224"
+      },
+      {
+       "name": "Ashley Nguyen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orange County, CA",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/ashley-nguyen/5221"
+      },
+      {
+       "name": "Sara Riso",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hamburg, NY",
+       "country": "US",
+       "previous_school": "Mt. Mercy Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/sara-riso/5222"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/1318"
+      },
+      {
+       "name": "Mike Behan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mike-behan/1319"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Abigail Chai-Onn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Miami, FL",
+       "country": "US",
+       "previous_school": "Coral Reef Senior",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/abigail-chai-onn/2268"
+      },
+      {
+       "name": "Grace Cuttone",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bernardsville, NJ",
+       "country": "US",
+       "previous_school": "Mount Saint Mary Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/grace-cuttone/2269"
+      },
+      {
+       "name": "Marisa Fiorina",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oakland, NJ",
+       "country": "US",
+       "previous_school": "Indian Hills",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/marisa-fiorina/2270"
+      },
+      {
+       "name": "Ashley Nguyen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orange County, CA",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/ashley-nguyen/2271"
+      },
+      {
+       "name": "Sara Riso",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamburg, NY",
+       "country": "US",
+       "previous_school": "Mt. Mercy Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/sara-riso/2272"
+      },
+      {
+       "name": "Emma Rupert",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clifton Park, NY",
+       "country": "US",
+       "previous_school": "Shenendehowa",
+       "class_raw": "Jr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/emma-rupert/2273"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/164"
+      },
+      {
+       "name": "Mike Behan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mike-behan/168"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://sienasaints.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kristen Bromley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pittsford, NY",
+       "country": "US",
+       "previous_school": "Pittsford",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/kristen-bromley/2274"
+      },
+      {
+       "name": "Marisa Fiorina",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oakland, NJ",
+       "country": "US",
+       "previous_school": "Indian Hills",
+       "class_raw": "Fr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/marisa-fiorina/2275"
+      },
+      {
+       "name": "Ashley Nguyen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orange County, CA",
+       "country": "US",
+       "previous_school": "Mater Dei",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/ashley-nguyen/2276"
+      },
+      {
+       "name": "Sara Riso",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hamburg, NY",
+       "country": "US",
+       "previous_school": "Mt. Mercy Academy",
+       "class_raw": "So.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/sara-riso/2277"
+      },
+      {
+       "name": "Stephanie Sullivan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Williston, NY",
+       "country": "US",
+       "previous_school": "Sacred Heart Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/stephanie-sullivan/2278"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Dave Wronowski",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/dave-wronowski/165"
+      },
+      {
+       "name": "Mary Fletcher",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://sienasaints.com/sports/womens-golf/roster/coaches/mary-fletcher/169"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://sienasaints.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://sienasaints.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://sienasaints.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://sienasaints.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://sienasaints.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

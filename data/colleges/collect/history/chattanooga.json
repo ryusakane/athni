@@ -1,28 +1,90 @@
 {
  "slug": "chattanooga",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gomocs.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {}
   },
   {
    "gender": "female",
    "golf_url": "https://gomocs.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {}
   }
  ],
  "requests": [
   {
    "url": "https://gomocs.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/season/2025",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://gomocs.com/sports/mens-golf/roster/season/2023",
+   "status": 200
   },
   {
    "url": "https://gomocs.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/season/2025-26",
+   "status": 404
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/season/2025",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://gomocs.com/sports/womens-golf/roster/season/2023",
+   "status": 200
   }
  ]
 }

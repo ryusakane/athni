@@ -1,22 +1,1268 @@
 {
  "slug": "saint-marys",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://smcgaels.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Matthew Almajano",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Fremont, Calif. /",
+       "country": "US",
+       "previous_school": "Mission San Jose HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/matthew-almajano/7536"
+      },
+      {
+       "name": "Sam Baumuller",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Los Gatos, Calif. /",
+       "country": "US",
+       "previous_school": "Saint Francis HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/sam-baumuller/7537"
+      },
+      {
+       "name": "Mitchell Hoey",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Alamo, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/mitchell-hoey/7234"
+      },
+      {
+       "name": "Inigo Izuzquiza",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Madrid, Spain | Coronado, Calif.",
+       "country": "US",
+       "previous_school": "UNLV",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/inigo-izuzquiza/7538"
+      },
+      {
+       "name": "Avery Lazarski",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Las Vegas, Nev. /",
+       "country": "US",
+       "previous_school": "Bishop Gorman HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/avery-lazarski/7236"
+      },
+      {
+       "name": "Aidan Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pasadena, Calif. /",
+       "country": "US",
+       "previous_school": "St. Francis HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/aidan-lee/7741"
+      },
+      {
+       "name": "Winston Shen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Palos Verdes, Calif.",
+       "country": "US",
+       "previous_school": "University of San Diego",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/winston-shen/7268"
+      },
+      {
+       "name": "Trey Tuyo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif. /",
+       "country": "US",
+       "previous_school": "Hillcrest Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/trey-tuyo/7539"
+      },
+      {
+       "name": "James Williams",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Martinez, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/james-williams/7540"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Matthew Almajano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fremont, Calif. /",
+       "country": "US",
+       "previous_school": "Mission San Jose HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/matthew-almajano/7536"
+      },
+      {
+       "name": "Sam Baumuller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Gatos, Calif. /",
+       "country": "US",
+       "previous_school": "Saint Francis HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/sam-baumuller/7537"
+      },
+      {
+       "name": "Ian Bruchhauser",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Temecula, Calif.",
+       "country": "US",
+       "previous_school": "Northern Illinois",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ian-bruchhauser/6580"
+      },
+      {
+       "name": "Mitchell Hoey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/mitchell-hoey/7234"
+      },
+      {
+       "name": "Inigo Izuzquiza",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain | Coronado, Calif.",
+       "country": "US",
+       "previous_school": "UNLV",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/inigo-izuzquiza/7538"
+      },
+      {
+       "name": "Avery Lazarski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev. /",
+       "country": "US",
+       "previous_school": "Bishop Gorman HS",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/avery-lazarski/7236"
+      },
+      {
+       "name": "Aidan Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pasadena, Calif. /",
+       "country": "US",
+       "previous_school": "St. Francis HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/aidan-lee/7741"
+      },
+      {
+       "name": "Zack Missigman",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Goodyear, Ariz. /",
+       "country": "US",
+       "previous_school": "Brophy College Prep",
+       "class_raw": "Gr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/zack-missigman/6575"
+      },
+      {
+       "name": "Go Nakatsukasa",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "University of Utah",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/go-nakatsukasa/6579"
+      },
+      {
+       "name": "Connor Reis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Claremont, Calif. /",
+       "country": "US",
+       "previous_school": "Claremont HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/connor-reis/6576"
+      },
+      {
+       "name": "James Williams",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Martinez, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/james-williams/7540"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kristian Bressum",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Randers, Denmark /",
+       "country": "DK",
+       "previous_school": "Randers Statsskole",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/kristian-bressum/4339"
+      },
+      {
+       "name": "Jonathan Curran",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz. /",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/jonathan-curran/4340"
+      },
+      {
+       "name": "Henry Fitzhugh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Gabriel, Calif.",
+       "country": "US",
+       "previous_school": "UC Irvine",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/henry-fitzhugh/4341"
+      },
+      {
+       "name": "Ryan Hartanto",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif. /",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ryan-hartanto/4342"
+      },
+      {
+       "name": "Mitchell Hoey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/mitchell-hoey/7234"
+      },
+      {
+       "name": "Jack Jerge",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pleasant Hill, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/jack-jerge/4347"
+      },
+      {
+       "name": "Avery Lazarski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev. /",
+       "country": "US",
+       "previous_school": "Bishop Gorman HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/avery-lazarski/7236"
+      },
+      {
+       "name": "Aidan Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pasadena, Calif. /",
+       "country": "US",
+       "previous_school": "St. Francis HS",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/aidan-lee/7741"
+      },
+      {
+       "name": "Zack Missigman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Goodyear, Ariz. /",
+       "country": "US",
+       "previous_school": "Brophy College Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/zack-missigman/6575"
+      },
+      {
+       "name": "Connor Reis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Claremont, Calif. /",
+       "country": "US",
+       "previous_school": "Claremont HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/connor-reis/6576"
+      },
+      {
+       "name": "James Watney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif. /",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/james-watney/4349"
+      },
+      {
+       "name": "James Williams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Martinez, Calif. /",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/james-williams/7540"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Ashbrook",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": "Righetti",
+       "class_raw": "Gr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-ashbrook/4005"
+      },
+      {
+       "name": "Kristian Bressum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Randers, Denmark",
+       "country": "DK",
+       "previous_school": "Randers Statsskole",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/kristian-bressum/4339"
+      },
+      {
+       "name": "Jonathan Curran",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/jonathan-curran/4340"
+      },
+      {
+       "name": "Dylan De Prosperis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": "IIS Tommaso Salvini",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-de-prosperis/4008"
+      },
+      {
+       "name": "Henry Fitzhugh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Gabriel, Calif.",
+       "country": "US",
+       "previous_school": "St. Francis HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/henry-fitzhugh/4341"
+      },
+      {
+       "name": "Ryan Hartanto",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ryan-hartanto/4342"
+      },
+      {
+       "name": "Mitchell Hoey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/mitchell-hoey/7234"
+      },
+      {
+       "name": "Ronnie Hun",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Macao",
+       "country": null,
+       "previous_school": "Macau Pui Ching School",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ronnie-hun/4011"
+      },
+      {
+       "name": "Aidan Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pasadena, Calif.",
+       "country": "US",
+       "previous_school": "St. Francis HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/aidan-lee/7741"
+      },
+      {
+       "name": "Zack Missigman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Goodyear, Ariz.",
+       "country": "US",
+       "previous_school": "Brophy College Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/zack-missigman/6575"
+      },
+      {
+       "name": "Connor Reis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Claremont, Calif.",
+       "country": "US",
+       "previous_school": "Claremont HS",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/connor-reis/6576"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Ashbrook",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": "Righetti",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-ashbrook/4005"
+      },
+      {
+       "name": "Kristian Bressum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Randers, Denmark",
+       "country": "DK",
+       "previous_school": "Randers Statsskole",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/kristian-bressum/4339"
+      },
+      {
+       "name": "Jonathan Curran",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/jonathan-curran/4340"
+      },
+      {
+       "name": "Dylan De Prosperis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": "IIS Tommaso Salvini",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-de-prosperis/4008"
+      },
+      {
+       "name": "Ash Hakim",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Monte Vista",
+       "class_raw": "5th",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ash-hakim/2728"
+      },
+      {
+       "name": "Ryan Hartanto",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ryan-hartanto/4342"
+      },
+      {
+       "name": "Mitchell Hoey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "De La Salle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/mitchell-hoey/7234"
+      },
+      {
+       "name": "Ronnie Hun",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Macao",
+       "country": null,
+       "previous_school": "Macau Pui Ching School",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ronnie-hun/4011"
+      },
+      {
+       "name": "Zack Missigman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Goodyear, Ariz.",
+       "country": "US",
+       "previous_school": "Brophy College Prep",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/zack-missigman/6575"
+      },
+      {
+       "name": "Connor Reis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Claremont, Calif.",
+       "country": "US",
+       "previous_school": "Claremont HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/connor-reis/6576"
+      },
+      {
+       "name": "Michael Slesinski",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Fremont, Calif.",
+       "country": "US",
+       "previous_school": "Irvington",
+       "class_raw": "Gr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/michael-slesinski/2732"
+      },
+      {
+       "name": "Dylan VanderVeer",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge",
+       "class_raw": "Gr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-vanderveer/2733"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Ashbrook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": "Righetti",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-ashbrook/4005"
+      },
+      {
+       "name": "Jonathan Curran",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/jonathan-curran/4340"
+      },
+      {
+       "name": "Dylan De Prosperis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": "IIS Tommaso Salvini",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-de-prosperis/4008"
+      },
+      {
+       "name": "Ethan Farnam",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Crystal Lake, Ill.",
+       "country": "US",
+       "previous_school": "Prairie Ridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-farnam/1486"
+      },
+      {
+       "name": "Ash Hakim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Monte Vista",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ash-hakim/2728"
+      },
+      {
+       "name": "Ryan Hartanto",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ryan-hartanto/4342"
+      },
+      {
+       "name": "Blake Hathcoat",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Clovis North",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/blake-hathcoat/1489"
+      },
+      {
+       "name": "Ronnie Hun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Macao",
+       "country": null,
+       "previous_school": "Macau Pui Ching School",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ronnie-hun/4011"
+      },
+      {
+       "name": "Zack Missigman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Goodyear, Ariz.",
+       "country": "US",
+       "previous_school": "Brophy College Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/zack-missigman/6575"
+      },
+      {
+       "name": "Evan Peterson",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/evan-peterson/1491"
+      },
+      {
+       "name": "Michael Slesinski",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Fremont, Calif.",
+       "country": "US",
+       "previous_school": "Irvington",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/michael-slesinski/2732"
+      },
+      {
+       "name": "Dylan VanderVeer",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-vanderveer/2733"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Ashbrook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": "Righetti",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-ashbrook/4005"
+      },
+      {
+       "name": "Jonathan Curran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/jonathan-curran/4340"
+      },
+      {
+       "name": "Ethan Farnam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Crystal Lake, Ill.",
+       "country": "US",
+       "previous_school": "Prairie Ridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-farnam/1486"
+      },
+      {
+       "name": "Ryan Grauman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "The Athenian School",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ryan-grauman/1150"
+      },
+      {
+       "name": "Ash Hakim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Monte Vista",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ash-hakim/2728"
+      },
+      {
+       "name": "Blake Hathcoat",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Clovis North",
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/blake-hathcoat/1489"
+      },
+      {
+       "name": "Ronnie Hun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Macao",
+       "country": null,
+       "previous_school": "Macau Pui Ching School",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ronnie-hun/4011"
+      },
+      {
+       "name": "Jeffrey Inouye-Wong",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay",
+       "class_raw": "R-Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kent Kao",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Pinole, Calif.",
+       "country": "US",
+       "previous_school": "Miramonte",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/kent-kao/921"
+      },
+      {
+       "name": "Evan Peterson",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/evan-peterson/1491"
+      },
+      {
+       "name": "Michael Slesinski",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Fremont, Calif.",
+       "country": "US",
+       "previous_school": "Irvington",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/michael-slesinski/2732"
+      },
+      {
+       "name": "Dylan VanderVeer",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-vanderveer/2733"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Cody Robinson",
+       "title": "Assistant Coach",
+       "email": "dkr3@stmarys-ca.edu",
+       "phone": null,
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/cody-robinson/168"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ethan Ashbrook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": "Righetti",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-ashbrook/4005"
+      },
+      {
+       "name": "Ethan Farnam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Crystal Lake, Ill.",
+       "country": "US",
+       "previous_school": "Prairie Ridge",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ethan-farnam/1486"
+      },
+      {
+       "name": "Ryan Grauman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alamo, Calif.",
+       "country": "US",
+       "previous_school": "The Athenian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ryan-grauman/1150"
+      },
+      {
+       "name": "Ash Hakim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif.",
+       "country": "US",
+       "previous_school": "Monte Vista",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ash-hakim/2728"
+      },
+      {
+       "name": "Blake Hathcoat",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Clovis North",
+       "class_raw": "Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/blake-hathcoat/1489"
+      },
+      {
+       "name": "Jeffrey Inouye-Wong",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Granite Bay",
+       "class_raw": "R-Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kent Kao",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Pinole, Calif.",
+       "country": "US",
+       "previous_school": "Miramonte",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/kent-kao/921"
+      },
+      {
+       "name": "Evan Peterson",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/evan-peterson/1491"
+      },
+      {
+       "name": "Michael Slesinski",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Fremont, Calif.",
+       "country": "US",
+       "previous_school": "Irvington",
+       "class_raw": "R-So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/michael-slesinski/2732"
+      },
+      {
+       "name": "Dylan VanderVeer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge",
+       "class_raw": "R-So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-vanderveer/2733"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Cody Robinson",
+       "title": "Assistant Coach",
+       "email": "dkr3@stmarys-ca.edu",
+       "phone": null,
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/cody-robinson/168"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://smcgaels.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Roman Aragon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mission Viejo, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/roman-aragon/80"
+      },
+      {
+       "name": "Connor Blick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Danville, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/connor-blick/81"
+      },
+      {
+       "name": "Perry Cohen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/perry-cohen/82"
+      },
+      {
+       "name": "Ash Hakim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Ramon, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/ash-hakim/2728"
+      },
+      {
+       "name": "Blake Hathcoat",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/blake-hathcoat/1489"
+      },
+      {
+       "name": "Jeffrey Inouye-Wong",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "R-So.",
+       "profile_url": null
+      },
+      {
+       "name": "Evan Peterson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "R-So.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/evan-peterson/1491"
+      },
+      {
+       "name": "Pavan Sagoo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England /",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/pavan-sagoo/87"
+      },
+      {
+       "name": "Michael Slesinski",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Fremont, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/michael-slesinski/2732"
+      },
+      {
+       "name": "Dylan VanderVeer",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "El Dorado Hills, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/dylan-vanderveer/2733"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Hardy",
+       "title": "Head Coach",
+       "email": "shardy@stmarys-ca.edu",
+       "phone": "631-4954",
+       "profile_url": "https://smcgaels.com/sports/mens-golf/roster/coaches/scott-hardy/2832"
+      },
+      {
+       "name": "Jeremy Niederstadt",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://smcgaels.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://smcgaels.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://smcgaels.com/sports/mens-golf/roster/season/2016",
+   "status": 404
   }
  ]
 }

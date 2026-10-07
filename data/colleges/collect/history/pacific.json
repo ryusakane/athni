@@ -1,22 +1,1233 @@
 {
  "slug": "pacific",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://pacifictigers.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Felix Bouchard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Montreal, Quebec",
+       "country": "CA",
+       "previous_school": "Kansas",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/felix-bouchard/5877"
+      },
+      {
+       "name": "Brasen Briones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/brasen-briones/5712"
+      },
+      {
+       "name": "Ian Fritz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/ian-fritz/5713"
+      },
+      {
+       "name": "Deitrek Gill",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Wellington, Kan.",
+       "country": "US",
+       "previous_school": "Wellington High School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/deitrek-gill/5714"
+      },
+      {
+       "name": "Daniel Henely",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Pima Community College",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/daniel-henely/5715"
+      },
+      {
+       "name": "Timothy Jung",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corona, Calif.",
+       "country": "US",
+       "previous_school": "Edison",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/timothy-jung/5716"
+      },
+      {
+       "name": "Travis Robbie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gold Coast, Australia",
+       "country": "AU",
+       "previous_school": "New Mexico Junior College",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/travis-robbie/5731"
+      },
+      {
+       "name": "Josh Stuart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norman, Okla.",
+       "country": "US",
+       "previous_school": "Norman North HS",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/josh-stuart/5718"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/1131"
+      },
+      {
+       "name": "Andy Moren",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/andy-moren/1132"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carlos Astiazaran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Salpointe Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/carlos-astiazaran/5448"
+      },
+      {
+       "name": "Justin Bai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chongqing, China",
+       "country": "CN",
+       "previous_school": "Washington",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/justin-bai/5454"
+      },
+      {
+       "name": "Brasen Briones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Ironwood Ridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/brasen-briones/5455"
+      },
+      {
+       "name": "Ian Fritz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/ian-fritz/5449"
+      },
+      {
+       "name": "Deitrek Gill",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wellington, Kan.",
+       "country": "US",
+       "previous_school": "Wellington High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/deitrek-gill/5450"
+      },
+      {
+       "name": "Daniel Henely",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Pima Community College",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/daniel-henely/5451"
+      },
+      {
+       "name": "Timothy Jung",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Corona, Calif.",
+       "country": "US",
+       "previous_school": "Edison",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/timothy-jung/5452"
+      },
+      {
+       "name": "Samuel Pampling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Edward S. Marcus",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/samuel-pampling/5453"
+      },
+      {
+       "name": "Travis Robbie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gold Coast, Australia",
+       "country": "AU",
+       "previous_school": "New Mexico Junior College",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/travis-robbie/5456"
+      },
+      {
+       "name": "Josh Stuart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norman, Okla.",
+       "country": "US",
+       "previous_school": "Norman North HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/josh-stuart/5457"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/1076"
+      },
+      {
+       "name": "Andy Moren",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/andy-moren/1077"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carlos Astiazaran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Salpointe Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/carlos-astiazaran/4944"
+      },
+      {
+       "name": "Alex Barclay",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/alex-barclay/4938"
+      },
+      {
+       "name": "Ian Fritz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/ian-fritz/4939"
+      },
+      {
+       "name": "Deitrek Gill",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wellington, Kan.",
+       "country": "US",
+       "previous_school": "Wellington High School",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/deitrek-gill/5279"
+      },
+      {
+       "name": "Daniel Henely",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Pima Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/daniel-henely/4945"
+      },
+      {
+       "name": "Petr Janik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Havírov, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnázium Studentská",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/petr-janik/4940"
+      },
+      {
+       "name": "Timothy Jung",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Corona, Calif.",
+       "country": "US",
+       "previous_school": "Edison",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/timothy-jung/4941"
+      },
+      {
+       "name": "Haakon Mathiesen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett School",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/haakon-mathiesen/4942"
+      },
+      {
+       "name": "Samuel Pampling",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Edward S. Marcus",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/samuel-pampling/4946"
+      },
+      {
+       "name": "Maverick Pavletich",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Grace Memorial",
+       "class_raw": "5th",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/maverick-pavletich/4943"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/991"
+      },
+      {
+       "name": "Andy Moren",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/andy-moren/992"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alex Barclay",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/alex-barclay/4612"
+      },
+      {
+       "name": "Ian Fritz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Henderson, Nev.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/ian-fritz/4620"
+      },
+      {
+       "name": "Petr Janik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Havírov, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnázium Studentská",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/petr-janik/4613"
+      },
+      {
+       "name": "Timothy Jung",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corona, Calif.",
+       "country": "US",
+       "previous_school": "Edison",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/timothy-jung/4621"
+      },
+      {
+       "name": "Griffin Long",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/griffin-long/4614"
+      },
+      {
+       "name": "Haakon Mathiesen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett School",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/haakon-mathiesen/4615"
+      },
+      {
+       "name": "Thomas O'Rourke",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Radford",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/thomas-o-rourke/4616"
+      },
+      {
+       "name": "Maverick Pavletich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Grace Memorial",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/maverick-pavletich/4617"
+      },
+      {
+       "name": "Leonardo Rigamonti",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eupilio, Italy",
+       "country": "IT",
+       "previous_school": "Liceo Scientifico G.B. Grassi",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/leonardo-rigamonti/4618"
+      },
+      {
+       "name": "Tyler Ward",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Central Catholic",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-ward/4619"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/934"
+      },
+      {
+       "name": "Andy Moren",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/andy-moren/935"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alex Barclay",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/alex-barclay/3963"
+      },
+      {
+       "name": "Petr Janik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Havírov, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnázium Studentská",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/petr-janik/3964"
+      },
+      {
+       "name": "Riley Killip",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Olympia, Wash.",
+       "country": "US",
+       "previous_school": "Olympia",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/riley-killip/3965"
+      },
+      {
+       "name": "Griffin Long",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/griffin-long/3966"
+      },
+      {
+       "name": "Haakon Mathiesen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett School",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/haakon-mathiesen/3967"
+      },
+      {
+       "name": "Thomas O'Rourke",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Radford",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/thomas-o-rourke/3968"
+      },
+      {
+       "name": "Maverick Pavletich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Grace Memorial",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/maverick-pavletich/3969"
+      },
+      {
+       "name": "Leonardo Rigamonti",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eupilio, Italy",
+       "country": "IT",
+       "previous_school": "Liceo Scientifico G.B. Grassi",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/leonardo-rigamonti/3970"
+      },
+      {
+       "name": "Tyler Ward",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Central Catholic",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-ward/3971"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/826"
+      },
+      {
+       "name": "Andy Moren",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/andy-moren/827"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alex Barclay",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": "Foothill",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/alex-barclay/3567"
+      },
+      {
+       "name": "Petr Janik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Havírov, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Gymnázium Studentská",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/petr-janik/3568"
+      },
+      {
+       "name": "Riley Killip",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Olympia, Wash.",
+       "country": "US",
+       "previous_school": "Olympia",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/riley-killip/3572"
+      },
+      {
+       "name": "Griffin Long",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/griffin-long/3569"
+      },
+      {
+       "name": "Haakon Mathiesen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett School",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/haakon-mathiesen/3575"
+      },
+      {
+       "name": "Thomas O'Rourke",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Radford",
+       "class_raw": "R-So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/thomas-o-rourke/3573"
+      },
+      {
+       "name": "Maverick Pavletich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Grace Memorial",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/maverick-pavletich/3570"
+      },
+      {
+       "name": "Leonardo Rigamonti",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eupilio, Italy",
+       "country": "IT",
+       "previous_school": "Liceo Scientifico G.B. Grassi",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/leonardo-rigamonti/3574"
+      },
+      {
+       "name": "Tyler Ward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Central Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-ward/3571"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/742"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alex Barclay",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pleasanton, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/alex-barclay/3403"
+      },
+      {
+       "name": "Tyler Burnes",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-burnes/3267"
+      },
+      {
+       "name": "Beau Forest",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Redding, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/beau-forest/3268"
+      },
+      {
+       "name": "Austin Fox",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Folsom, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/austin-fox/3269"
+      },
+      {
+       "name": "Petr Janik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Havírov, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/petr-janik/3275"
+      },
+      {
+       "name": "Griffin Long",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/griffin-long/3273"
+      },
+      {
+       "name": "Maverick Pavletich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/maverick-pavletich/3274"
+      },
+      {
+       "name": "Daniel Peña",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Casey Scott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Indio, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/casey-scott/3271"
+      },
+      {
+       "name": "Tyler Ward",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-ward/3272"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/632"
+      },
+      {
+       "name": "Nicholas Ziccardi",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/nicholas-ziccardi/635"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tyler Burnes",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-burnes/865"
+      },
+      {
+       "name": "Beau Forest",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Redding, Calif.",
+       "country": "US",
+       "previous_school": "University Prep",
+       "class_raw": "R-So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/beau-forest/866"
+      },
+      {
+       "name": "Austin Fox",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Folsom, Calif.",
+       "country": "US",
+       "previous_school": "Vista del Lago",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/austin-fox/867"
+      },
+      {
+       "name": "Jee Horsangchai",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Barton Community College",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/jee-horsangchai/869"
+      },
+      {
+       "name": "Mateo Leon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Quito, Ecuador",
+       "country": "EC",
+       "previous_school": "American School of Quito",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/mateo-leon/870"
+      },
+      {
+       "name": "Daniel Peña",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Peter Johansen",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Julian Rippert",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Munich, Germany",
+       "country": "DE",
+       "previous_school": "Munich International",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/julian-rippert/872"
+      },
+      {
+       "name": "Casey Scott",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Indio, Calif.",
+       "country": "US",
+       "previous_school": "Palm Desert",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/casey-scott/873"
+      },
+      {
+       "name": "Tyler Ward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Central Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-ward/874"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/144"
+      },
+      {
+       "name": "Nicholas Ziccardi",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/nicholas-ziccardi/145"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tyler Burnes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-burnes/854"
+      },
+      {
+       "name": "Beau Forest",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Redding, Calif.",
+       "country": "US",
+       "previous_school": "University Prep",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/beau-forest/855"
+      },
+      {
+       "name": "Austin Fox",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Folsom, Calif.",
+       "country": "US",
+       "previous_school": "Vista del Lago",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/austin-fox/856"
+      },
+      {
+       "name": "Taiga Fujii",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Toyamashi Toyama Prefecture, Japan",
+       "country": "JP",
+       "previous_school": "Gardner-Webb",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/taiga-fujii/857"
+      },
+      {
+       "name": "Jee Horsangchai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "T.bangpho Nua, Thailand",
+       "country": "TH",
+       "previous_school": "Barton Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/jee-horsangchai/858"
+      },
+      {
+       "name": "Jesper Kasanen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/jesper-kasanen/859"
+      },
+      {
+       "name": "Mateo Leon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Quito, Ecuador",
+       "country": "EC",
+       "previous_school": "American School of Quito",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/mateo-leon/860"
+      },
+      {
+       "name": "Anthony Madrid",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockton, Calif.",
+       "country": "US",
+       "previous_school": "St. Mary's HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/anthony-madrid/861"
+      },
+      {
+       "name": "Daniel Peña",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Peter Johansen",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Julian Rippert",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Munich, Germany",
+       "country": "DE",
+       "previous_school": "Munich International",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/julian-rippert/863"
+      },
+      {
+       "name": "Casey Scott",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Indio, Calif.",
+       "country": "US",
+       "previous_school": "Palm Desert",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/casey-scott/864"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://pacifictigers.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tyler Burnes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bakersfield, Calif.",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/tyler-burnes/843"
+      },
+      {
+       "name": "James Feutz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "University Place, Wash.",
+       "country": "US",
+       "previous_school": "Bellarmine Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/james-feutz/844"
+      },
+      {
+       "name": "Beau Forest",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Redding, Calif.",
+       "country": "US",
+       "previous_school": "University Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/beau-forest/845"
+      },
+      {
+       "name": "Austin Fox",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Folsom, Calif.",
+       "country": "US",
+       "previous_school": "Vista del Lago",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/austin-fox/846"
+      },
+      {
+       "name": "Geoff Fry",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "McNeese State",
+       "class_raw": "Sr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/geoff-fry/847"
+      },
+      {
+       "name": "Jesper Kasanen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "IMG Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/jesper-kasanen/848"
+      },
+      {
+       "name": "Mateo Leon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Quito, Ecuador",
+       "country": "EC",
+       "previous_school": "American School of Quito",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/mateo-leon/849"
+      },
+      {
+       "name": "Anthony Madrid",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stockton, Calif.",
+       "country": "US",
+       "previous_school": "St. Mary's HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/anthony-madrid/850"
+      },
+      {
+       "name": "Daniel Peña",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Modesto, Calif.",
+       "country": "US",
+       "previous_school": "Peter Johansen",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Julian Rippert",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Munich, Germany",
+       "country": "DE",
+       "previous_school": "Munich International",
+       "class_raw": "So.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/julian-rippert/852"
+      },
+      {
+       "name": "Casey Scott",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Indio, Calif.",
+       "country": "US",
+       "previous_school": "Palm Desert",
+       "class_raw": "Fr.",
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/casey-scott/853"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Cook",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/john-cook/147"
+      },
+      {
+       "name": "Nicholas Ziccardi",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/nicholas-ziccardi/148"
+      },
+      {
+       "name": "Ben Mackie",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://pacifictigers.com/sports/mens-golf/roster/coaches/ben-mackie/149"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://pacifictigers.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://pacifictigers.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://pacifictigers.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

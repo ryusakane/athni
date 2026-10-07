@@ -1,36 +1,2217 @@
 {
  "slug": "seton-hall",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://shupirates.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jack Bosworth",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/jack-bosworth/7584"
+      },
+      {
+       "name": "George Fricker",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Woodbridge, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/george-fricker/7585"
+      },
+      {
+       "name": "Blake Goodnight",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/blake-goodnight/7855"
+      },
+      {
+       "name": "Will Hennessee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tulsa, Okla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/will-hennessee/7856"
+      },
+      {
+       "name": "Jace Hulett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boerne, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/jace-hulett/7592"
+      },
+      {
+       "name": "David Lally",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wicklow, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/david-lally/7587"
+      },
+      {
+       "name": "Luke Nolan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/luke-nolan/7858"
+      },
+      {
+       "name": "Eli Shah",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/eli-shah/7859"
+      },
+      {
+       "name": "Isaiah Williams",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flemington, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/isaiah-williams/7860"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.T. Harper",
+       "title": "Head Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      },
+      {
+       "name": "Gary Dunne",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/gary-dunne/3941"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jack Bosworth",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/jack-bosworth/7584"
+      },
+      {
+       "name": "George Fricker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodbridge, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/george-fricker/7585"
+      },
+      {
+       "name": "Will Hennessee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tulsa, Okla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/will-hennessee/7856"
+      },
+      {
+       "name": "Patrick Kahanek",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/patrick-kahanek/7203"
+      },
+      {
+       "name": "David Lally",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wicklow, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/david-lally/7587"
+      },
+      {
+       "name": "Joshua Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/joshua-lee/7205"
+      },
+      {
+       "name": "Luke Nolan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/luke-nolan/7858"
+      },
+      {
+       "name": "Angus O'Brien",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Barwon Heads, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Eli Shah",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/eli-shah/7859"
+      },
+      {
+       "name": "Isaiah Williams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flemington, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/isaiah-williams/7860"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.T. Harper",
+       "title": "Head Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      },
+      {
+       "name": "Gary Dunne",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/gary-dunne/3941"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jack Bosworth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/jack-bosworth/7584"
+      },
+      {
+       "name": "George Fricker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodbridge, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/george-fricker/7585"
+      },
+      {
+       "name": "Brody Hanley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/brody-hanley/7036"
+      },
+      {
+       "name": "Patrick Kahanek",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/patrick-kahanek/7203"
+      },
+      {
+       "name": "David Lally",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wicklow, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/david-lally/7587"
+      },
+      {
+       "name": "Joshua Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/joshua-lee/7205"
+      },
+      {
+       "name": "Angus O'Brien",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barwon Heads, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Eli Shah",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newtown Square, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/eli-shah/7859"
+      },
+      {
+       "name": "Wanxi Sun",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Danville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wanxi-sun/7040"
+      },
+      {
+       "name": "Isaiah Williams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flemington, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/isaiah-williams/7860"
+      },
+      {
+       "name": "Wenliang Xie",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wenliang-xie/7041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.T. Harper",
+       "title": "Head Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      },
+      {
+       "name": "Gary Dunne",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/gary-dunne/3941"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jack Bosworth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/jack-bosworth/7584"
+      },
+      {
+       "name": "George Fricker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woodbridge, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/george-fricker/7585"
+      },
+      {
+       "name": "Brody Hanley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/brody-hanley/7036"
+      },
+      {
+       "name": "David Lally",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wicklow, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/david-lally/7587"
+      },
+      {
+       "name": "Joshua Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/joshua-lee/7205"
+      },
+      {
+       "name": "Angus O'Brien",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barwon Heads, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Wanxi Sun",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Danville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wanxi-sun/7040"
+      },
+      {
+       "name": "Wenliang Xie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wenliang-xie/7041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.T. Harper",
+       "title": "Head Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      },
+      {
+       "name": "Gary Dunne",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/gary-dunne/3941"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Acevedo",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/andres-acevedo/5397"
+      },
+      {
+       "name": "Brody Hanley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/brody-hanley/7036"
+      },
+      {
+       "name": "Ian Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johor, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/ian-lee/5400"
+      },
+      {
+       "name": "Joshua Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/joshua-lee/7205"
+      },
+      {
+       "name": "Angus O'Brien",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barwon Heads, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Peter Tyler Po",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nasipit Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/peter-tyler-po/5401"
+      },
+      {
+       "name": "Deven Ramachandran",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Rafael, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/deven-ramachandran/5402"
+      },
+      {
+       "name": "Hunter Ramee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Warren, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/hunter-ramee/5403"
+      },
+      {
+       "name": "Wanxi Sun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Danville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wanxi-sun/7040"
+      },
+      {
+       "name": "Gregor Tait",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Martlesham Heath, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gregor-tait/5405"
+      },
+      {
+       "name": "Wenliang Xie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wenliang-xie/7041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Clay White",
+       "title": "Head Coach",
+       "email": "clay.white@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/clay-white/3543"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      },
+      {
+       "name": "J.T. Harper",
+       "title": "Volunteer Assistant Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Acevedo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/andres-acevedo/5397"
+      },
+      {
+       "name": "James Bosworth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Simsbury, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/james-bosworth/4061"
+      },
+      {
+       "name": "Brody Hanley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/brody-hanley/7036"
+      },
+      {
+       "name": "Ian Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johor, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/ian-lee/5400"
+      },
+      {
+       "name": "Alex McAuley",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Douglas, Isle of Man",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-mcauley/4090"
+      },
+      {
+       "name": "Peter Tyler Po",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nasipit Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/peter-tyler-po/5401"
+      },
+      {
+       "name": "Deven Ramachandran",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Rafael, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/deven-ramachandran/5402"
+      },
+      {
+       "name": "Hunter Ramee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Warren, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/hunter-ramee/5403"
+      },
+      {
+       "name": "Wanxi Sun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Danville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wanxi-sun/7040"
+      },
+      {
+       "name": "Gregor Tait",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Martlesham Heath, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gregor-tait/5405"
+      },
+      {
+       "name": "Wenliang Xie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wenliang-xie/7041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Clay White",
+       "title": "Head Coach",
+       "email": "clay.white@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/clay-white/3543"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      },
+      {
+       "name": "J.T. Harper",
+       "title": "Volunteer Assistant Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Acevedo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/andres-acevedo/5397"
+      },
+      {
+       "name": "James Bosworth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Simsbury, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/james-bosworth/4061"
+      },
+      {
+       "name": "Alex Chalk",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Castle Douglas, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-chalk/2840"
+      },
+      {
+       "name": "Ian Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Johor, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/ian-lee/5400"
+      },
+      {
+       "name": "Alex McAuley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Douglas, Isle of Man",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-mcauley/4090"
+      },
+      {
+       "name": "Peter Tyler Po",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nasipit Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/peter-tyler-po/5401"
+      },
+      {
+       "name": "Deven Ramachandran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Rafael, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/deven-ramachandran/5402"
+      },
+      {
+       "name": "Hunter Ramee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Warren, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/hunter-ramee/5403"
+      },
+      {
+       "name": "Gregor Tait",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Martlesham Heath, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gregor-tait/5405"
+      },
+      {
+       "name": "Wenliang Xie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/wenliang-xie/7041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Clay White",
+       "title": "Head Coach",
+       "email": "clay.white@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/clay-white/3543"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      },
+      {
+       "name": "J.T. Harper",
+       "title": "Volunteer Assistant Coach",
+       "email": "jt.harper@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": null
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Acevedo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/andres-acevedo/5397"
+      },
+      {
+       "name": "Alex Chalk",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castle Douglas, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-chalk/2840"
+      },
+      {
+       "name": "Alex McAuley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Douglas, Isle of Man",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-mcauley/4090"
+      },
+      {
+       "name": "Gen Nagai",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mandaue Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gen-nagai/2657"
+      },
+      {
+       "name": "Peter Tyler Po",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nasipit Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/peter-tyler-po/5401"
+      },
+      {
+       "name": "Deven Ramachandran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Rafael, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/deven-ramachandran/5402"
+      },
+      {
+       "name": "Hunter Ramee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Warren, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/hunter-ramee/5403"
+      },
+      {
+       "name": "Gregor Tait",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Martlesham Heath, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gregor-tait/5405"
+      },
+      {
+       "name": "Chris Yeom",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Flushing, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/chris-yeom/2659"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Clay White",
+       "title": "Head Coach",
+       "email": "clay.white@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/clay-white/3543"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andres Acevedo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/andres-acevedo/5397"
+      },
+      {
+       "name": "Alex Chalk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Douglas, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-chalk/2840"
+      },
+      {
+       "name": "Alex McAuley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Douglas, Isle of Man",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-mcauley/4090"
+      },
+      {
+       "name": "Gen Nagai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mandaue Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gen-nagai/2657"
+      },
+      {
+       "name": "Gregor Tait",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Martlesham Heath, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gregor-tait/5405"
+      },
+      {
+       "name": "Chris Yeom",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flushing, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/chris-yeom/2659"
+      },
+      {
+       "name": "Linus Yip",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/linus-yip/1316"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Clay White",
+       "title": "Head Coach",
+       "email": "clay.white@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/clay-white/3543"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://shupirates.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alex Chalk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Castle Douglas, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-chalk/2840"
+      },
+      {
+       "name": "Lloyd Jefferson Go",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guadalupe Cebu, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/lloyd-jefferson-go/998"
+      },
+      {
+       "name": "Alex McAuley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Douglas, Isle of Man",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/alex-mcauley/4090"
+      },
+      {
+       "name": "Gen Nagai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mandaue Cebu City, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/gen-nagai/2657"
+      },
+      {
+       "name": "Kevin O'Brien",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wexford, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Chris Yeom",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flushing, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/chris-yeom/2659"
+      },
+      {
+       "name": "Linus Yip",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/linus-yip/1316"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Clay White",
+       "title": "Head Coach",
+       "email": "clay.white@shu.edu",
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/clay-white/3543"
+      },
+      {
+       "name": "Ian Lagowitz",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": "(973) 275-2935",
+       "profile_url": "https://shupirates.com/sports/mens-golf/roster/coaches/ian-lagowitz/3939"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://shupirates.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marta Aguilar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Casares Malaga, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/marta-aguilar/7863"
+      },
+      {
+       "name": "Anne-Sofie Ekman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Copenhagen, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Renee Rane",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Delhi, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/renee-rane/7864"
+      },
+      {
+       "name": "Isabella Stewart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wicklow, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/isabella-stewart/7865"
+      },
+      {
+       "name": "Lara Todorovic",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lara-todorovic/7581"
+      },
+      {
+       "name": "Kasumi Tran",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Swansea, Wales",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/kasumi-tran/7866"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jackie Mullens",
+       "title": "Head Coach",
+       "email": "jacquelyn.mullens1@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/jackie-mullens/3942"
+      },
+      {
+       "name": "Tom Grant",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/tom-grant/3948"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Marta Aguilar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Casares Malaga, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/marta-aguilar/7863"
+      },
+      {
+       "name": "Anne-Sofie Ekman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Copenhagen, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Amelie Gras",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elancourt, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/amelie-gras/7217"
+      },
+      {
+       "name": "Renee Rane",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Delhi, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/renee-rane/7864"
+      },
+      {
+       "name": "Ana Sarrias Pro",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cadiz, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ana-sarrias-pro/7214"
+      },
+      {
+       "name": "Lara Todorovic",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lara-todorovic/7581"
+      },
+      {
+       "name": "Kasumi Tran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Swansea, Wales",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/kasumi-tran/7866"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Anne-Sofie Ekman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Copenhagen, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Renee Rane",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Delhi, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/renee-rane/7864"
+      },
+      {
+       "name": "Ana Sarrias Pro",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cadiz, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ana-sarrias-pro/7214"
+      },
+      {
+       "name": "Lara Todorovic",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lara-todorovic/7581"
+      },
+      {
+       "name": "Kasumi Tran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Swansea, Wales",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/kasumi-tran/7866"
+      },
+      {
+       "name": "Ginevra Zavagli",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ginevra-zavagli/7004"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ludovica Busetto",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Padova, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ludovica-busetto/6789"
+      },
+      {
+       "name": "Anne-Sofie Ekman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Copenhagen, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Sarah Fouratt",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sarah-fouratt/6790"
+      },
+      {
+       "name": "Ana Sarrias Pro",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cadiz, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ana-sarrias-pro/7214"
+      },
+      {
+       "name": "Lara Todorovic",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belgrade, Serbia",
+       "country": "RS",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lara-todorovic/7581"
+      },
+      {
+       "name": "Ginevra Zavagli",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ginevra-zavagli/7004"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sasha Amelang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Houston, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sasha-amelang/5371"
+      },
+      {
+       "name": "Margot Bechadergue",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Aix-en-Provence, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/margot-bechadergue/5375"
+      },
+      {
+       "name": "Ludovica Busetto",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Padova, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ludovica-busetto/6789"
+      },
+      {
+       "name": "Sarah Fouratt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sarah-fouratt/6790"
+      },
+      {
+       "name": "Ana Sarrias Pro",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cadiz, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ana-sarrias-pro/7214"
+      },
+      {
+       "name": "Ginevra Zavagli",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ginevra-zavagli/7004"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sasha Amelang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Houston, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sasha-amelang/5371"
+      },
+      {
+       "name": "Ludovica Busetto",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Padova, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ludovica-busetto/6789"
+      },
+      {
+       "name": "Sarah Fouratt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sarah-fouratt/6790"
+      },
+      {
+       "name": "Mia Kness",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/mia-kness/4072"
+      },
+      {
+       "name": "Carolina Ronchel Salas",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Huelva, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/carolina-ronchel-salas/4073"
+      },
+      {
+       "name": "Maddie Sager",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Phoenixville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/maddie-sager/4074"
+      },
+      {
+       "name": "Lizzie Win",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sylvania, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lizzie-win/4075"
+      },
+      {
+       "name": "Ginevra Zavagli",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rome, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ginevra-zavagli/7004"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      },
+      {
+       "name": "Jackie Mullens",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/jackie-mullens/1476"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ludovica Busetto",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Padova, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/ludovica-busetto/6789"
+      },
+      {
+       "name": "Sarah Fouratt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sarah-fouratt/6790"
+      },
+      {
+       "name": "Mia Kness",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/mia-kness/4072"
+      },
+      {
+       "name": "Carolina Ronchel Salas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huelva, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/carolina-ronchel-salas/4073"
+      },
+      {
+       "name": "Maddie Sager",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenixville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/maddie-sager/4074"
+      },
+      {
+       "name": "Sammie Staudt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coatesville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sammie-staudt/2852"
+      },
+      {
+       "name": "Lizzie Win",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sylvania, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lizzie-win/4075"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      },
+      {
+       "name": "Jackie Mullens",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/jackie-mullens/1476"
+      },
+      {
+       "name": "Debby Murphy",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/debby-murphy/415"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maria Contreras Luna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Estepona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/maria-contreras-luna/2549"
+      },
+      {
+       "name": "Sarah Fouratt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Maria, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sarah-fouratt/6790"
+      },
+      {
+       "name": "Mia Kness",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/mia-kness/4072"
+      },
+      {
+       "name": "Carolina Ronchel Salas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Huelva, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/carolina-ronchel-salas/4073"
+      },
+      {
+       "name": "Maddie Sager",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenixville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/maddie-sager/4074"
+      },
+      {
+       "name": "Sammie Staudt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Coatesville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sammie-staudt/2852"
+      },
+      {
+       "name": "Gianna Tomeo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/gianna-tomeo/2546"
+      },
+      {
+       "name": "Lizzie Win",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sylvania, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lizzie-win/4075"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      },
+      {
+       "name": "Jackie Mullens",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/jackie-mullens/1476"
+      },
+      {
+       "name": "Debby Murphy",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/debby-murphy/415"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Macky Fouse",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aliquippa, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/macky-fouse/1289"
+      },
+      {
+       "name": "Jamie Greene",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Troy, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/jamie-greene/1290"
+      },
+      {
+       "name": "Mia Kness",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/mia-kness/4072"
+      },
+      {
+       "name": "Cassie Pantelas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/cassie-pantelas/1291"
+      },
+      {
+       "name": "Maddie Sager",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenixville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/maddie-sager/4074"
+      },
+      {
+       "name": "Sammie Staudt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coatesville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sammie-staudt/2852"
+      },
+      {
+       "name": "Gianna Tomeo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/gianna-tomeo/2546"
+      },
+      {
+       "name": "Lizzie Win",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sylvania, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lizzie-win/4075"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Natalie Desjardins",
+       "title": "Head Coach",
+       "email": "natalie.desjardins@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/natalie-desjardins/3745"
+      },
+      {
+       "name": "Debby Murphy",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/debby-murphy/415"
+      },
+      {
+       "name": "Kim Polivko",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/kim-polivko/257"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://shupirates.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Macky Fouse",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aliquippa, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/macky-fouse/1289"
+      },
+      {
+       "name": "Jamie Greene",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Troy, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/jamie-greene/1290"
+      },
+      {
+       "name": "Cassie Pantelas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/cassie-pantelas/1291"
+      },
+      {
+       "name": "Maddie Sager",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenixville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/maddie-sager/4074"
+      },
+      {
+       "name": "Sammie Staudt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Coatesville, Pa.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/sammie-staudt/2852"
+      },
+      {
+       "name": "Gianna Tomeo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/gianna-tomeo/2546"
+      },
+      {
+       "name": "Lizzie Win",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sylvania, Ohio",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/lizzie-win/4075"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sara Doell",
+       "title": "Head Coach",
+       "email": "sara.doell@shu.edu",
+       "phone": "(973) 275-2925",
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/sara-doell/255"
+      },
+      {
+       "name": "Debby Murphy",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/debby-murphy/415"
+      },
+      {
+       "name": "Kim Polivko",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://shupirates.com/sports/womens-golf/roster/coaches/kim-polivko/257"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://shupirates.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://shupirates.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://shupirates.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://shupirates.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://shupirates.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,36 +1,2334 @@
 {
  "slug": "florida-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://seminoles.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jack Bigham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "Roundwood Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jack-bigham/8050"
+      },
+      {
+       "name": "Carson Brewer",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra",
+       "class_raw": "R-So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/carson-brewer/8560"
+      },
+      {
+       "name": "Shawn Coultoff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winter Garden, Fla.",
+       "country": "US",
+       "previous_school": "West Orange HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/shawn-coultoff/8561"
+      },
+      {
+       "name": "Wilmer Edero",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Linköping, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/wilmer-edero/8562"
+      },
+      {
+       "name": "Drew Jones",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Florida High",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/drew-jones/8563"
+      },
+      {
+       "name": "Patrick McCann",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Gr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/patrick-mccann/8054"
+      },
+      {
+       "name": "Andrew McLauchlan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Neptune Beach, Fla.",
+       "country": "US",
+       "previous_school": "The Bolles School",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/andrew-mclauchlan/8055"
+      },
+      {
+       "name": "Tyler Weaver",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newmarket, England",
+       "country": "GB",
+       "previous_school": "Culford School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/tyler-weaver/8564"
+      },
+      {
+       "name": "Jack Whaley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Doncaster, England",
+       "country": "GB",
+       "previous_school": "Wath Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jack-whaley/8565"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Trey Jones",
+       "title": "Head Coach and Director of Golf",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7289",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/trey-jones/1134"
+      },
+      {
+       "name": "Matt Whall",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/matt-whall/1022"
+      },
+      {
+       "name": "Brandon Smith",
+       "title": "Assistant Coach",
+       "email": "bsmith21@fsu.edu",
+       "phone": "214-597-9890",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/brandon-smith/1136"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gray Albright",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "Gr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/gray-albright/7207"
+      },
+      {
+       "name": "Jack Bigham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "Roundwood Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jack-bigham/8050"
+      },
+      {
+       "name": "Carson Brewer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/carson-brewer/8560"
+      },
+      {
+       "name": "Luke Clanton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hialeah, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/luke-clanton/7211"
+      },
+      {
+       "name": "Wilmer Edero",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Linköping, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/wilmer-edero/8562"
+      },
+      {
+       "name": "Drew Jones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Florida High",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/drew-jones/8563"
+      },
+      {
+       "name": "Michael Mays",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/michael-mays/7215"
+      },
+      {
+       "name": "Patrick McCann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/patrick-mccann/8054"
+      },
+      {
+       "name": "Andrew McLauchlan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Neptune Beach, Fla.",
+       "country": "US",
+       "previous_school": "The Bolles School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/andrew-mclauchlan/8055"
+      },
+      {
+       "name": "Tyler Weaver",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newmarket, England",
+       "country": "GB",
+       "previous_school": "Culford School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/tyler-weaver/8564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Trey Jones",
+       "title": "Head Coach and Director of Golf",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7289",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/trey-jones/1134"
+      },
+      {
+       "name": "Matt Whall",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/matt-whall/1022"
+      },
+      {
+       "name": "Ryan Heisey",
+       "title": "Assistant Coach",
+       "email": "rh22w@fsu.edu",
+       "phone": "252-571-5353",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/ryan-heisey/815"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gray Albright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/gray-albright/7207"
+      },
+      {
+       "name": "Cole Anderson",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Camden, Maine",
+       "country": "US",
+       "previous_school": "Camden Hills Regional",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/cole-anderson/6691"
+      },
+      {
+       "name": "Jack Bigham",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "Roundwood Park",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jack-bigham/8050"
+      },
+      {
+       "name": "Carson Brewer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/carson-brewer/8560"
+      },
+      {
+       "name": "Luke Clanton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hialeah, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/luke-clanton/7211"
+      },
+      {
+       "name": "Wilmer Edero",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Linköping, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/wilmer-edero/8562"
+      },
+      {
+       "name": "Frederik Kjettrup",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aabybro, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/frederik-kjettrup/6694"
+      },
+      {
+       "name": "Sam Kodak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Naples",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/sam-kodak/6695"
+      },
+      {
+       "name": "Michael Mays",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/michael-mays/7215"
+      },
+      {
+       "name": "Patrick McCann",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/patrick-mccann/8054"
+      },
+      {
+       "name": "Brett Roberts",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coral Springs, Fla.",
+       "country": "US",
+       "previous_school": "St. Thomas Aquinas",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/brett-roberts/6698"
+      },
+      {
+       "name": "James Tureskis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Naples",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/james-tureskis/6699"
+      },
+      {
+       "name": "Tyler Weaver",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newmarket, England",
+       "country": "GB",
+       "previous_school": "Culford School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/tyler-weaver/8564"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Trey Jones",
+       "title": "Head Coach and Director of Golf",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7289",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/trey-jones/1134"
+      },
+      {
+       "name": "Matt Whall",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/matt-whall/1022"
+      },
+      {
+       "name": "Ryan Heisey",
+       "title": "Assistant Coach",
+       "email": "rh22w@fsu.edu",
+       "phone": "252-571-5353",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/ryan-heisey/815"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gray Albright",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/gray-albright/7207"
+      },
+      {
+       "name": "Cole Anderson",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Camden, Maine",
+       "country": "US",
+       "previous_school": "Camden Hills Regional",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/cole-anderson/6691"
+      },
+      {
+       "name": "Jack Bigham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "Roundwood Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jack-bigham/8050"
+      },
+      {
+       "name": "Luke Clanton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hialeah, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/luke-clanton/7211"
+      },
+      {
+       "name": "Frederik Kjettrup",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aabybro, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/frederik-kjettrup/6694"
+      },
+      {
+       "name": "Sam Kodak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Naples",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/sam-kodak/6695"
+      },
+      {
+       "name": "Michael Mays",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/michael-mays/7215"
+      },
+      {
+       "name": "Patrick McCann",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/patrick-mccann/8054"
+      },
+      {
+       "name": "Brett Roberts",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Coral Springs, Fla.",
+       "country": "US",
+       "previous_school": "St. Thomas Aquinas",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/brett-roberts/6698"
+      },
+      {
+       "name": "James Tureskis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Naples",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/james-tureskis/6699"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Trey Jones",
+       "title": "Head Coach and Director of Golf",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7289",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/trey-jones/1134"
+      },
+      {
+       "name": "Ryan Heisey",
+       "title": "Assistant Coach",
+       "email": "rh22w@fsu.edu",
+       "phone": "252-571-5353",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/ryan-heisey/815"
+      },
+      {
+       "name": "Gigi Ebert",
+       "title": "Director of Golf Operations",
+       "email": "gebert@fsu.edu",
+       "phone": null,
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/coaches/gigi-ebert/569"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gray Albright",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/gray-albright/7207"
+      },
+      {
+       "name": "Cole Anderson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Camden, Maine",
+       "country": "US",
+       "previous_school": "Camden Hills Regional",
+       "class_raw": "R-So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/cole-anderson/6691"
+      },
+      {
+       "name": "Dan Bradbury",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wakefield, England",
+       "country": "GB",
+       "previous_school": "Kettlethorpe",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/dan-bradbury/4112"
+      },
+      {
+       "name": "Connor Futrell",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/connor-futrell/4104"
+      },
+      {
+       "name": "Frederik Kjettrup",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aabybro, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/frederik-kjettrup/6694"
+      },
+      {
+       "name": "Alberto Martinez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage-Plantation",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/alberto-martinez/4081"
+      },
+      {
+       "name": "Michael Mays",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/michael-mays/7215"
+      },
+      {
+       "name": "Patrick McCann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/patrick-mccann/8054"
+      },
+      {
+       "name": "Brett Roberts",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coral Springs, Fla.",
+       "country": "US",
+       "previous_school": "St. Thomas Aquinas",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/brett-roberts/6698"
+      },
+      {
+       "name": "Michael Sakane",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Setegaya, Japan",
+       "country": "JP",
+       "previous_school": "Kokushikan",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/michael-sakane/4159"
+      },
+      {
+       "name": "Calvin Sierota",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Melbourne, Fla.",
+       "country": "US",
+       "previous_school": "Viera",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/calvin-sierota/4089"
+      },
+      {
+       "name": "Joshua Stewart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winter Springs, Fla.",
+       "country": "US",
+       "previous_school": "Oviedo",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/joshua-stewart/4143"
+      },
+      {
+       "name": "James Tureskis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Naples",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/james-tureskis/6699"
+      },
+      {
+       "name": "Fletcher Wunderlich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Port St. Lucie, Fla.",
+       "country": "US",
+       "previous_school": "Port St. Lucie",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/fletcher-wunderlich/4116"
+      }
+     ],
+     "coaches": []
+    },
+    "2020-21": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gray Albright",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/gray-albright/7207"
+      },
+      {
+       "name": "Cole Anderson",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Camden, Maine",
+       "country": "US",
+       "previous_school": "Camden Hills Regional",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/cole-anderson/6691"
+      },
+      {
+       "name": "Connor Futrell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/connor-futrell/4104"
+      },
+      {
+       "name": "Frederik Kjettrup",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aabybro, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/frederik-kjettrup/6694"
+      },
+      {
+       "name": "Alan Klenor",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Longboat Key, Fla.",
+       "country": "US",
+       "previous_school": "Saint Stephens Episcopal",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/alan-klenor/4317"
+      },
+      {
+       "name": "Jamie Li",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jamie-li/4355"
+      },
+      {
+       "name": "Alberto Martinez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage-Plantation",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/alberto-martinez/4081"
+      },
+      {
+       "name": "Vincent Norrman",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Fredrika Brebergymnasiet",
+       "class_raw": "Gr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/vincent-norrman/4363"
+      },
+      {
+       "name": "John Pak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scotch Plains, N.J.",
+       "country": "US",
+       "previous_school": "Scotch Plains-Fanwood",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/john-pak/4358"
+      },
+      {
+       "name": "Greyson Porter",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Shorecrest Prep",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/greyson-porter/4348"
+      },
+      {
+       "name": "Brett Roberts",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Coral Springs, Fla.",
+       "country": "US",
+       "previous_school": "St. Thomas Aquinas",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/brett-roberts/6698"
+      },
+      {
+       "name": "Calvin Sierota",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, Fla.",
+       "country": "US",
+       "previous_school": "Viera",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/calvin-sierota/4089"
+      },
+      {
+       "name": "James Tureskis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Naples",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/james-tureskis/6699"
+      },
+      {
+       "name": "Fletcher Wunderlich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Port St. Lucie, Fla.",
+       "country": "US",
+       "previous_school": "Port St. Lucie",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/fletcher-wunderlich/4116"
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cole Anderson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camden, Maine",
+       "country": "US",
+       "previous_school": "Camden Hills Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/cole-anderson/6691"
+      },
+      {
+       "name": "Alan Klenor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Longboat Key, Fla.",
+       "country": "US",
+       "previous_school": "Saint Stephens Episcopal",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/alan-klenor/4317"
+      },
+      {
+       "name": "Jamie Li",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jamie-li/4355"
+      },
+      {
+       "name": "Alberto Martinez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage-Plantation",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/alberto-martinez/4081"
+      },
+      {
+       "name": "John Pak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scotch Plains, N.J.",
+       "country": "US",
+       "previous_school": "Scotch Plains-Fanwood",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/john-pak/4358"
+      },
+      {
+       "name": "Greyson Porter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Shorecrest Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/greyson-porter/4348"
+      },
+      {
+       "name": "Calvin Sierota",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Melbourne, Fla.",
+       "country": "US",
+       "previous_school": "Viera",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/calvin-sierota/4089"
+      },
+      {
+       "name": "Fletcher Wunderlich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Port St. Lucie, Fla.",
+       "country": "US",
+       "previous_school": "Port St. Lucie",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/fletcher-wunderlich/4116"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bennett Baker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/bennett-baker/5124"
+      },
+      {
+       "name": "Corey Carlson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Green Cove Springs, Fla.",
+       "country": "US",
+       "previous_school": "Clay",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/corey-carlson/5131"
+      },
+      {
+       "name": "Jake Carter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aiken, S.C.",
+       "country": "US",
+       "previous_school": "South Aiken",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jake-carter/5137"
+      },
+      {
+       "name": "Jonathan Keppler",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw Mountain",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jonathan-keppler/5143"
+      },
+      {
+       "name": "Jamie Li",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jamie-li/4355"
+      },
+      {
+       "name": "Alberto Martinez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage-Plantation",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/alberto-martinez/4081"
+      },
+      {
+       "name": "John Pak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scotch Plains, N.J.",
+       "country": "US",
+       "previous_school": "Scotch Plains-Fanwood",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/john-pak/4358"
+      },
+      {
+       "name": "Greyson Porter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Shorecrest Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/greyson-porter/4348"
+      },
+      {
+       "name": "Parker Reddig",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Minneapolis, Minn.",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary’s",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/parker-reddig/5146"
+      },
+      {
+       "name": "Calvin Sierota",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Melbourne, Fla.",
+       "country": "US",
+       "previous_school": "Viera",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/calvin-sierota/4089"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bennett Baker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/bennett-baker/5124"
+      },
+      {
+       "name": "Corey Carlson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Green Cove Springs, Fla.",
+       "country": "US",
+       "previous_school": "Clay",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/corey-carlson/5131"
+      },
+      {
+       "name": "Jake Carter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aiken, S.C.",
+       "country": "US",
+       "previous_school": "South Aiken",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jake-carter/5137"
+      },
+      {
+       "name": "Harry Ellis",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Wildern School",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/harry-ellis/3737"
+      },
+      {
+       "name": "Jonathan Keppler",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw Mountain",
+       "class_raw": "R-So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jonathan-keppler/5143"
+      },
+      {
+       "name": "Jamie Li",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jamie-li/4355"
+      },
+      {
+       "name": "John Pak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scotch Plains, N.J.",
+       "country": "US",
+       "previous_school": "Scotch Plains-Fanwood",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/john-pak/4358"
+      },
+      {
+       "name": "Greyson Porter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Shorecrest Prep",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/greyson-porter/4348"
+      },
+      {
+       "name": "Parker Reddig",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Minneapolis, Minn.",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary’s",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/parker-reddig/5146"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://seminoles.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Anthony Alex",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "St. John's Virtual School",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/anthony-alex/6035"
+      },
+      {
+       "name": "Bennett Baker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "Chiles",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/bennett-baker/5124"
+      },
+      {
+       "name": "Tyler Bakich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valrico, Fla.",
+       "country": "US",
+       "previous_school": "Newsome",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/tyler-bakich/6061"
+      },
+      {
+       "name": "Corey Carlson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Green Cove Springs, Fla.",
+       "country": "US",
+       "previous_school": "Clay",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/corey-carlson/5131"
+      },
+      {
+       "name": "Jake Carter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aiken, S.C.",
+       "country": "US",
+       "previous_school": "South Aiken",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jake-carter/5137"
+      },
+      {
+       "name": "Cristobal Del Solar",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Renaca, Vina del Mar, Chile",
+       "country": "CL",
+       "previous_school": "IMG Academy",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/cristobal-del-solar/6063"
+      },
+      {
+       "name": "Harry Ellis",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Wildern School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/harry-ellis/3737"
+      },
+      {
+       "name": "Jonathan Keppler",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Marietta, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw Mountain",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jonathan-keppler/5143"
+      },
+      {
+       "name": "Josh Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orange Park, Fla.",
+       "country": "US",
+       "previous_school": "Fleming Island HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/josh-lee/6058"
+      },
+      {
+       "name": "Jamie Li",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bath, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/jamie-li/4355"
+      },
+      {
+       "name": "Greyson Porter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Shorecrest Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/mens-golf/roster/greyson-porter/4348"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://seminoles.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Haley Davis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Forest",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/haley-davis/8566"
+      },
+      {
+       "name": "Sophia Fullbrook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Albans, England",
+       "country": "GB",
+       "previous_school": "St. Albans School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sophia-fullbrook/8567"
+      },
+      {
+       "name": "Alexandra Gazzoli",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palm Coast, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual School / Mantanzas",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/alexandra-gazzoli/8568"
+      },
+      {
+       "name": "Madison Hewlett",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Oldsmar, Fla.",
+       "country": "US",
+       "previous_school": "East Lake",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/madison-hewlett/8513"
+      },
+      {
+       "name": "Haruhi Nakatani",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Robina State High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/haruhi-nakatani/8569"
+      },
+      {
+       "name": "Layla Pedrique",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/layla-pedrique/8570"
+      },
+      {
+       "name": "Elin Pudas Remler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Filbornaskolan High School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/elin-pudas-remler/8571"
+      },
+      {
+       "name": "Freya Russell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Troon, Scotland",
+       "country": "GB",
+       "previous_school": "Marr College High School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/freya-russell/8572"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      },
+      {
+       "name": "Matt Whall",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/matt-whall/1022"
+      },
+      {
+       "name": "Brandon Smith",
+       "title": "Assistant Coach",
+       "email": "bsmith21@fsu.edu",
+       "phone": "214-597-9890",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/brandon-smith/1136"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katherine Cook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Thomasville, Ga.",
+       "country": "US",
+       "previous_school": "Brookwood",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/katherine-cook/6492"
+      },
+      {
+       "name": "Sophia Fullbrook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Albans, England",
+       "country": "GB",
+       "previous_school": "St. Albans School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sophia-fullbrook/8567"
+      },
+      {
+       "name": "Alexandra Gazzoli",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palm Coast, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual School / Mantanzas",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/alexandra-gazzoli/8568"
+      },
+      {
+       "name": "Madison Hewlett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oldsmar, Fla.",
+       "country": "US",
+       "previous_school": "East Lake",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/madison-hewlett/8513"
+      },
+      {
+       "name": "Layla Pedrique",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "Florida Virtual School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/layla-pedrique/7930"
+      },
+      {
+       "name": "Elin Pudas Remler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Filbornaskolan High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/elin-pudas-remler/7931"
+      },
+      {
+       "name": "Freya Russell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Troon, Scotland",
+       "country": "GB",
+       "previous_school": "Marr College High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/freya-russell/8572"
+      },
+      {
+       "name": "Mirabel Ting",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Dolphin Stem Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/mirabel-ting/6505"
+      },
+      {
+       "name": "Kaylah Williams",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Fairmont",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kaylah-williams/6496"
+      },
+      {
+       "name": "Lottie Woad",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Farnham, England",
+       "country": "GB",
+       "previous_school": "Weydon School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/lottie-woad/6497"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      },
+      {
+       "name": "Matt Whall",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/matt-whall/1022"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bella Bugg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Franklin, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/bella-bugg/8936"
+      },
+      {
+       "name": "Katherine Cook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Thomasville, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/katherine-cook/6492"
+      },
+      {
+       "name": "Charlotte Heath",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bailiff Bridge, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/charlotte-heath/8933"
+      },
+      {
+       "name": "Madison Hewlett",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Oldsmar, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/madison-hewlett/8513"
+      },
+      {
+       "name": "Alice Hodge",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Larchmont, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/alice-hodge/8931"
+      },
+      {
+       "name": "Mirabel Ting",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/mirabel-ting/6505"
+      },
+      {
+       "name": "Kaylah Williams",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kaylah-williams/6496"
+      },
+      {
+       "name": "Lottie Woad",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Farnham, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/lottie-woad/6497"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katherine Cook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Thomasville, Ga.",
+       "country": "US",
+       "previous_school": "Brookwood",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/katherine-cook/6492"
+      },
+      {
+       "name": "Charlotte Heath",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bailiff Bridge, England",
+       "country": "GB",
+       "previous_school": "Brighouse High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/charlotte-heath/8933"
+      },
+      {
+       "name": "Madison Hewlett",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Oldsmar, Fla.",
+       "country": "US",
+       "previous_school": "East Lake",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/madison-hewlett/8513"
+      },
+      {
+       "name": "Alice Hodge",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Larchmont, N.Y.",
+       "country": "US",
+       "previous_school": "The Ursuline School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/alice-hodge/8931"
+      },
+      {
+       "name": "Kaylah Williams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Fairmont",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kaylah-williams/6496"
+      },
+      {
+       "name": "Amelia Williamson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": "Norwich School for Girls",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amelia-williamson/5870"
+      },
+      {
+       "name": "Lottie Woad",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Farnham, England",
+       "country": "GB",
+       "previous_school": "Weydon School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/lottie-woad/6497"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      },
+      {
+       "name": "Ryan Heisey",
+       "title": "Assistant Coach",
+       "email": "rh22w@fsu.edu",
+       "phone": "252-571-5353",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/ryan-heisey/815"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cecilie Finne-Ipsen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ballerup, Denmark",
+       "country": "DK",
+       "previous_school": "Falkonergaardens Gymnasium",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Charlotte Heath",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bailiff Bridge, England",
+       "country": "GB",
+       "previous_school": "Brighouse High School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/charlotte-heath/8933"
+      },
+      {
+       "name": "Madison Hewlett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oldsmar, Fla.",
+       "country": "US",
+       "previous_school": "East Lake",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/madison-hewlett/8513"
+      },
+      {
+       "name": "Alice Hodge",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Larchmont, N.Y.",
+       "country": "US",
+       "previous_school": "The Ursuline School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/alice-hodge/8931"
+      },
+      {
+       "name": "Elle Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Inman, S.C.",
+       "country": "US",
+       "previous_school": "Spartanburg",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/elle-johnson/5351"
+      },
+      {
+       "name": "Beatrice Wallin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Olofstrop, Sweden",
+       "country": "SE",
+       "previous_school": "Korrespondensgymnasiet",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/beatrice-wallin/5337"
+      },
+      {
+       "name": "Kaylah Williams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Fairmont",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kaylah-williams/6496"
+      },
+      {
+       "name": "Amelia Williamson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": "Norwich School for Girls",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amelia-williamson/5870"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlotte Heath",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bailiff Bridge, England",
+       "country": "GB",
+       "previous_school": "Brighouse High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/charlotte-heath/8933"
+      },
+      {
+       "name": "Alice Hodge",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Larchmont, N.Y.",
+       "country": "US",
+       "previous_school": "The Ursuline School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/alice-hodge/8931"
+      },
+      {
+       "name": "Elle Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Inman, S.C.",
+       "country": "US",
+       "previous_school": "Spartanburg",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/elle-johnson/5351"
+      },
+      {
+       "name": "Kathleen Sumner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kathleen-sumner/768"
+      },
+      {
+       "name": "Beatrice Wallin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Olofstrop, Sweden",
+       "country": "SE",
+       "previous_school": "Korrespondensgymnasiet",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/beatrice-wallin/5337"
+      },
+      {
+       "name": "Amelia Williamson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": "Norwich School for Girls",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amelia-williamson/5870"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amanda Doherty",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "The Galloway School",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amanda-doherty/6140"
+      },
+      {
+       "name": "Elle Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Inman, S.C.",
+       "country": "US",
+       "previous_school": "Spartanburg",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/elle-johnson/5351"
+      },
+      {
+       "name": "Puk Lyng Thomsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Frederikshavn, Denmark",
+       "country": "DK",
+       "previous_school": "Frederikshavn Business School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/puk-lyng-thomsen/6150"
+      },
+      {
+       "name": "Sandra Salonen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "Mäkelänrinteen Lukio",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sandra-salonen/6152"
+      },
+      {
+       "name": "Kathleen Sumner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kathleen-sumner/768"
+      },
+      {
+       "name": "Beatrice Wallin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Olofstrop, Sweden",
+       "country": "SE",
+       "previous_school": "Korrespondensgymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/beatrice-wallin/5337"
+      },
+      {
+       "name": "Amelia Williamson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": "Norwich School for Girls",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amelia-williamson/5870"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amanda Doherty",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "The Galloway School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amanda-doherty/6140"
+      },
+      {
+       "name": "Frida Kinhult",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fiskebäckskil, Sweden",
+       "country": "SE",
+       "previous_school": "Korrespondensgymnasiet",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/frida-kinhult/3710"
+      },
+      {
+       "name": "Puk Lyng Thomsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Frederikshavn, Denmark",
+       "country": "DK",
+       "previous_school": "Frederikshavn Business School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/puk-lyng-thomsen/6150"
+      },
+      {
+       "name": "Ashley Mangan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clermont, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/ashley-mangan/3700"
+      },
+      {
+       "name": "Sandra Salonen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "Mäkelänrinteen Lukio",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sandra-salonen/6152"
+      },
+      {
+       "name": "Kathleen Sumner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kathleen-sumner/768"
+      },
+      {
+       "name": "Beatrice Wallin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Olofstrop, Sweden",
+       "country": "SE",
+       "previous_school": "Korrespondensgymnasiet",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/beatrice-wallin/5337"
+      },
+      {
+       "name": "Amelia Williamson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norwich, England",
+       "country": "GB",
+       "previous_school": "Norwich School for Girls",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amelia-williamson/5870"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Amanda Doherty",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "The Galloway School",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amanda-doherty/6140"
+      },
+      {
+       "name": "Lexie Flerlage",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venice, Fla.",
+       "country": "US",
+       "previous_school": "Venice",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/lexie-flerlage/1505"
+      },
+      {
+       "name": "Kayla Jones",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Milton, Ga.",
+       "country": "US",
+       "previous_school": "Milton",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kayla-jones/1500"
+      },
+      {
+       "name": "Ashley Mangan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clermont, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/ashley-mangan/3700"
+      },
+      {
+       "name": "Kim Metraux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lausanne, Switzerland",
+       "country": "CH",
+       "previous_school": "Gymnase de Chamblandes",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kim-metraux/1481"
+      },
+      {
+       "name": "Morgane Metraux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lausanne, Switzerland",
+       "country": "CH",
+       "previous_school": "Auguste Piccard High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/morgane-metraux/1512"
+      },
+      {
+       "name": "Sandra Salonen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "Mäkelänrinteen Lukio",
+       "class_raw": "So.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sandra-salonen/6152"
+      },
+      {
+       "name": "Kathleen Sumner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kathleen-sumner/768"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://seminoles.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sherrell Buckley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Weston, Fla.",
+       "country": "US",
+       "previous_school": "Cypress Bay",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sherrell-buckley/4265"
+      },
+      {
+       "name": "Matilda Castren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "Haukilahden Urheilulukio/Haukilahti Sports HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/matilda-castren/4249"
+      },
+      {
+       "name": "Amanda Doherty",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "The Galloway School",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/amanda-doherty/6140"
+      },
+      {
+       "name": "Lexie Flerlage",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Venice, Fla.",
+       "country": "US",
+       "previous_school": "Venice",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/lexie-flerlage/1505"
+      },
+      {
+       "name": "Lydia Gumm",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Radcliff, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin",
+       "class_raw": "Sr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/lydia-gumm/4246"
+      },
+      {
+       "name": "Kayla Jones",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Milton, Ga.",
+       "country": "US",
+       "previous_school": "Milton",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kayla-jones/1500"
+      },
+      {
+       "name": "Ashley Mangan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clermont, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/ashley-mangan/3700"
+      },
+      {
+       "name": "Kim Metraux",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lausanne, Switzerland",
+       "country": "CH",
+       "previous_school": "Gymnase de Chamblandes",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/kim-metraux/1481"
+      },
+      {
+       "name": "Morgane Metraux",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lausanne, Switzerland",
+       "country": "CH",
+       "previous_school": "Auguste Piccard High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/morgane-metraux/1512"
+      },
+      {
+       "name": "Sandra Salonen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Espoo, Finland",
+       "country": "FI",
+       "previous_school": "Mäkelänrinteen Lukio",
+       "class_raw": "Fr.",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/sandra-salonen/6152"
+      },
+      {
+       "name": "Anna Sophia Böhmer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cali, Colombia",
+       "country": "CO",
+       "previous_school": "Montverde Academy (Montverde, Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Amy Bond",
+       "title": "Head Coach",
+       "email": "golfrecruiting@fsu.edu",
+       "phone": "850-644-7290",
+       "profile_url": "https://seminoles.com/sports/womens-golf/roster/coaches/amy-bond/1137"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://seminoles.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://seminoles.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://seminoles.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://seminoles.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://seminoles.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

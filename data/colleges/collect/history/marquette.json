@@ -1,22 +1,1172 @@
 {
  "slug": "marquette",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gomarquette.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Banas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/ryan-banas/8879"
+      },
+      {
+       "name": "Mischa Candinas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geroldswil, Switzerland",
+       "country": "CH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/mischa-candinas/8880"
+      },
+      {
+       "name": "Vincent Cervantes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/vincent-cervantes/8881"
+      },
+      {
+       "name": "Wyatt Chapman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gilbert, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/wyatt-chapman/8882"
+      },
+      {
+       "name": "Will Hemauer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Marquette University HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/will-hemauer/8308"
+      },
+      {
+       "name": "Sebastian Kawas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Doral, Fla.",
+       "country": "US",
+       "previous_school": "Christopher Columbus HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/sebastian-kawas/8883"
+      },
+      {
+       "name": "Regan Konen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sugar Grove, Ill.",
+       "country": "US",
+       "previous_school": "Marmion Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/regan-konen/8884"
+      },
+      {
+       "name": "Mason Schmidtke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sheboygan, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan North HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/mason-schmidtke/8885"
+      },
+      {
+       "name": "Johan Widal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Halmstad, Sweden",
+       "country": "SE",
+       "previous_school": "Aspero HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/johan-widal/8311"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Jordan Niebrugge",
+       "title": "Assistant Coach",
+       "email": "jordan.niebrugge@marquette.edu",
+       "phone": "288-3793",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/jordan-niebrugge/2156"
+      },
+      {
+       "name": "Josh Robinson",
+       "title": "Assistant Coach",
+       "email": "joshua.robinson@marquette.edu",
+       "phone": null,
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/josh-robinson/2157"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Patrick Adler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/patrick-adler/7970"
+      },
+      {
+       "name": "Ryan Banas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/ryan-banas/8879"
+      },
+      {
+       "name": "Vincent Cervantes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/vincent-cervantes/8881"
+      },
+      {
+       "name": "Wyatt Chapman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gilbert, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/wyatt-chapman/8882"
+      },
+      {
+       "name": "Will Hemauer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Marquette University HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/will-hemauer/8308"
+      },
+      {
+       "name": "Sebastian Kawas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Doral, Fla.",
+       "country": "US",
+       "previous_school": "Christopher Columbus HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/sebastian-kawas/8883"
+      },
+      {
+       "name": "Max Lyons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Sandra Day O'Connor",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/max-lyons/7975"
+      },
+      {
+       "name": "Mason Schmidtke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sheboygan, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan North HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/mason-schmidtke/8885"
+      },
+      {
+       "name": "Johan Widal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Halmstad, Sweden",
+       "country": "SE",
+       "previous_school": "Aspero HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/johan-widal/8311"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Jordan Niebrugge",
+       "title": "Assistant Coach",
+       "email": "jordan.niebrugge@marquette.edu",
+       "phone": "288-3793",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/jordan-niebrugge/2156"
+      },
+      {
+       "name": "Josh Robinson",
+       "title": "Assistant Coach",
+       "email": "joshua.robinson@marquette.edu",
+       "phone": null,
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/josh-robinson/2157"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Patrick Adler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/patrick-adler/7970"
+      },
+      {
+       "name": "Ryan Banas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/ryan-banas/8879"
+      },
+      {
+       "name": "Wyatt Chapman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gilbert, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/wyatt-chapman/8882"
+      },
+      {
+       "name": "Will Hemauer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Marquette University HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/will-hemauer/8308"
+      },
+      {
+       "name": "Sebastian Kawas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Doral, Fla.",
+       "country": "US",
+       "previous_school": "Christopher Columbus HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/sebastian-kawas/8883"
+      },
+      {
+       "name": "Aidan Lafferty",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North",
+       "class_raw": "Gr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/aidan-lafferty/7482"
+      },
+      {
+       "name": "Max Lyons",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Sandra Day O'Connor",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/max-lyons/7975"
+      },
+      {
+       "name": "Josh Robinson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lisburn, Northern Ireland",
+       "country": "GB",
+       "previous_school": "Royal Belfast Academical Institution",
+       "class_raw": "Gr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/josh-robinson/7484"
+      },
+      {
+       "name": "Scott Schlader",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/scott-schlader/7485"
+      },
+      {
+       "name": "Mason Schmidtke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sheboygan, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan North HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/mason-schmidtke/8885"
+      },
+      {
+       "name": "Bhoom Sima-Aree",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Mahidol University International Demonstration School",
+       "class_raw": "Gr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Jace Long",
+       "title": "Associate Head Coach",
+       "email": "jace.long@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/jace-long/1876"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Patrick Adler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/patrick-adler/7970"
+      },
+      {
+       "name": "Nicolás Evangelio",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Logroño, Spain",
+       "country": "ES",
+       "previous_school": "Sagrado Corazon Jesuitas",
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Will Hemauer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Marquette University HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/will-hemauer/8308"
+      },
+      {
+       "name": "Aidan Lafferty",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/aidan-lafferty/7482"
+      },
+      {
+       "name": "Tyler Leach",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Spring Valley, Wis.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "Gr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/tyler-leach/7260"
+      },
+      {
+       "name": "Max Lyons",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Sandra Day O'Connor",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/max-lyons/7975"
+      },
+      {
+       "name": "Josh Robinson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lisburn, Northern Ireland",
+       "country": "GB",
+       "previous_school": "Royal Belfast Academical Institution",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/josh-robinson/7484"
+      },
+      {
+       "name": "Scott Schlader",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/scott-schlader/7485"
+      },
+      {
+       "name": "Bhoom Sima-Aree",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Mahidol University International Demonstration School",
+       "class_raw": "Sr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Jace Long",
+       "title": "Assistant Coach",
+       "email": "jace.long@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/jace-long/1876"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Patrick Adler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/patrick-adler/7970"
+      },
+      {
+       "name": "Connor Brown",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/connor-brown/6569"
+      },
+      {
+       "name": "Hunter Eichhorn",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Carney, Mich.",
+       "country": "US",
+       "previous_school": "Carney-Nadeau",
+       "class_raw": "Gr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/hunter-eichhorn/6570"
+      },
+      {
+       "name": "Nicolás Evangelio",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Logroño, Spain",
+       "country": "ES",
+       "previous_school": "Sagrado Corazon Jesuitas",
+       "class_raw": "R-Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Aidan Lafferty",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North",
+       "class_raw": "R-So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/aidan-lafferty/7482"
+      },
+      {
+       "name": "Tyler Leach",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Spring Valley, Wis.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/tyler-leach/7260"
+      },
+      {
+       "name": "Max Lyons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Sandra Day O'Connor",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/max-lyons/7975"
+      },
+      {
+       "name": "Josh Robinson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Lisburn, Northern Ireland",
+       "country": "GB",
+       "previous_school": "Royal Belfast Academical Institution",
+       "class_raw": "R-So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/josh-robinson/7484"
+      },
+      {
+       "name": "Scott Schlader",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/scott-schlader/7485"
+      },
+      {
+       "name": "Bhoom Sima-Aree",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Mahidol University International Demonstration School",
+       "class_raw": "R-Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Men's Golf Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Jace Long",
+       "title": "Assistant Coach",
+       "email": "jace.long@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/jace-long/1876"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Brown",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "R-So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/connor-brown/6569"
+      },
+      {
+       "name": "Hunter Eichhorn",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Carney, Mich.",
+       "country": "US",
+       "previous_school": "Carney-Nadeau",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/hunter-eichhorn/6570"
+      },
+      {
+       "name": "Nicolás Evangelio",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Logroño, Spain",
+       "country": "ES",
+       "previous_school": "Sagrado Corazon Jesuitas",
+       "class_raw": "R-So.",
+       "profile_url": null
+      },
+      {
+       "name": "Aidan Lafferty",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/aidan-lafferty/7482"
+      },
+      {
+       "name": "Tyler Leach",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Spring Valley, Wis.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "R-So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/tyler-leach/7260"
+      },
+      {
+       "name": "Josh Robinson",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Lisburn, Northern Ireland",
+       "country": "GB",
+       "previous_school": "Royal Belfast Academical Institution",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/josh-robinson/7484"
+      },
+      {
+       "name": "Scott Schlader",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/scott-schlader/7485"
+      },
+      {
+       "name": "Bhoom Sima-Aree",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Mahidol University International Demonstration School",
+       "class_raw": "R-Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Men's Golf Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Chris Williams",
+       "title": "Assistant Coach",
+       "email": "christopher.f.williams@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/chris-williams/582"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Matthew Bachmann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sheboygan Falls, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan Falls",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matthew-bachmann/4847"
+      },
+      {
+       "name": "Connor Brown",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/connor-brown/6569"
+      },
+      {
+       "name": "Hunter Eichhorn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Carney, Mich.",
+       "country": "US",
+       "previous_school": "Carney-Nadeau",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/hunter-eichhorn/6570"
+      },
+      {
+       "name": "Aidan Lafferty",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/aidan-lafferty/7482"
+      },
+      {
+       "name": "Tyler Leach",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spring Valley, Wis.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/tyler-leach/7260"
+      },
+      {
+       "name": "Matt Murlick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matt-murlick/4851"
+      },
+      {
+       "name": "Josh Robinson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lisburn, Northern Ireland",
+       "country": "GB",
+       "previous_school": "Royal Belfast Academical Institution",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/josh-robinson/7484"
+      },
+      {
+       "name": "Bhoom Sima-Aree",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Mahidol University International Demonstration School",
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Men's Golf Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Chris Williams",
+       "title": "Assistant Coach",
+       "email": "christopher.f.williams@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/chris-williams/582"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Matthew Bachmann",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sheboygan Falls, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan Falls",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matthew-bachmann/4847"
+      },
+      {
+       "name": "Connor Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/connor-brown/6569"
+      },
+      {
+       "name": "Hunter Eichhorn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carney, Mich.",
+       "country": "US",
+       "previous_school": "Carney-Nadeau",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/hunter-eichhorn/6570"
+      },
+      {
+       "name": "Oliver Farrell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Worcestershire, England",
+       "country": "GB",
+       "previous_school": "Pershore",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/oliver-farrell/4361"
+      },
+      {
+       "name": "Austin Kendziorski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sussex, Wis.",
+       "country": "US",
+       "previous_school": "Hamilton",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/austin-kendziorski/4362"
+      },
+      {
+       "name": "Tyler Leach",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spring Valley, Wis.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/tyler-leach/7260"
+      },
+      {
+       "name": "Charlie Maleki",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/charlie-maleki/4363"
+      },
+      {
+       "name": "Matt Murlick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matt-murlick/4851"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Men's Golf Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Trake Carpenter",
+       "title": "Assistant Coach",
+       "email": "trake.carpenter@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/trake-carpenter/377"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Matthew Bachmann",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sheboygan Falls, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan Falls",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matthew-bachmann/4847"
+      },
+      {
+       "name": "Hunter Eichhorn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carney, Mich.",
+       "country": "US",
+       "previous_school": "Carney-Nadeau",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/hunter-eichhorn/6570"
+      },
+      {
+       "name": "Oliver Farrell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Worcestershire, England",
+       "country": "GB",
+       "previous_school": "Pershore",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/oliver-farrell/4361"
+      },
+      {
+       "name": "Austin Kendziorski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sussex, Wis.",
+       "country": "US",
+       "previous_school": "Hamilton",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/austin-kendziorski/4362"
+      },
+      {
+       "name": "Garrett Loomis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "River Falls, Wis.",
+       "country": "US",
+       "previous_school": "River Falls",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/garrett-loomis/1107"
+      },
+      {
+       "name": "Charlie Maleki",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/charlie-maleki/4363"
+      },
+      {
+       "name": "Ferdinand Müller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Reinnigen, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Unterrieden",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Matt Murlick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "New Trier",
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matt-murlick/4851"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Men's Golf Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Trake Carpenter",
+       "title": "Assistant Coach",
+       "email": "trake.carpenter@marquette.edu",
+       "phone": "288-4653",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/trake-carpenter/377"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gomarquette.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Matthew Bachmann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sheboygan Falls, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matthew-bachmann/4847"
+      },
+      {
+       "name": "Oliver Farrell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Worcestershire, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/oliver-farrell/4361"
+      },
+      {
+       "name": "Austin Kendziorski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sussex, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/austin-kendziorski/4362"
+      },
+      {
+       "name": "Henry Klongland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stoughton, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/henry-klongland/1114"
+      },
+      {
+       "name": "Garrett Loomis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "River Falls, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/garrett-loomis/1107"
+      },
+      {
+       "name": "Charlie Maleki",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/charlie-maleki/4363"
+      },
+      {
+       "name": "Ferdinand Müller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Reinnigen, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Matt Murlick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/matt-murlick/4851"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Bailey",
+       "title": "Men's Golf Head Coach",
+       "email": "stephen.bailey@marquette.edu",
+       "phone": "288-5156",
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/steve-bailey/2155"
+      },
+      {
+       "name": "Gator Todd",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomarquette.com/sports/mens-golf/roster/coaches/gator-todd/53"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gomarquette.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gomarquette.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gomarquette.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

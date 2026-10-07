@@ -1,36 +1,1952 @@
 {
  "slug": "green-bay",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://greenbayphoenix.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Caeden Bolander",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/caeden-bolander/4666"
+      },
+      {
+       "name": "Mason Haupt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "De Pere, Wis.",
+       "country": "US",
+       "previous_school": "West De Pere",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/mason-haupt/4667"
+      },
+      {
+       "name": "Lincoln Hottmann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "DeForest, Wis.",
+       "country": "US",
+       "previous_school": "DeForest HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/lincoln-hottmann/4674"
+      },
+      {
+       "name": "Trent Meyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Nebagamon, Wis.",
+       "country": "US",
+       "previous_school": "Northwestern",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/trent-meyer/4668"
+      },
+      {
+       "name": "Logan Pechinski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/logan-pechinski/4669"
+      },
+      {
+       "name": "Max Reis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "De Pere, Wis.",
+       "country": "US",
+       "previous_school": "West De Pere",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-reis/4670"
+      },
+      {
+       "name": "Logan Suter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hartland, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/logan-suter/4671"
+      },
+      {
+       "name": "Brett Wieland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Milton, Wis.",
+       "country": "US",
+       "previous_school": "Milton",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/brett-wieland/4672"
+      },
+      {
+       "name": "Yinta Yang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Conway, Ark.",
+       "country": "US",
+       "previous_school": "Arkansas Connections Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/yinta-yang/4673"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/670"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/rick-warpinski/671"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Caeden Bolander",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista High School",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/caeden-bolander/4301"
+      },
+      {
+       "name": "Mason Haupt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "De Pere, Wis.",
+       "country": "US",
+       "previous_school": "West De Pere",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/mason-haupt/4306"
+      },
+      {
+       "name": "Trent Meyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Nebagamon, Wis.",
+       "country": "US",
+       "previous_school": "Northwestern",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/trent-meyer/4302"
+      },
+      {
+       "name": "Logan Pechinski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/logan-pechinski/4303"
+      },
+      {
+       "name": "Max Reis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "De Pere, Wis.",
+       "country": "US",
+       "previous_school": "West De Pere",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-reis/4304"
+      },
+      {
+       "name": "Logan Suter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hartland, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/logan-suter/4309"
+      },
+      {
+       "name": "Brett Wieland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Milton, Wis.",
+       "country": "US",
+       "previous_school": "Milton",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/brett-wieland/4307"
+      },
+      {
+       "name": "Yinta Yang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Conway, Ark.",
+       "country": "US",
+       "previous_school": "Arkansas Connections Academy",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/yinta-yang/4305"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/612"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/rick-warpinski/613"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Caeden Bolander",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Vista High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/caeden-bolander/3934"
+      },
+      {
+       "name": "Joe Forsting",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edgerton, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/joe-forsting/3927"
+      },
+      {
+       "name": "Zak Kulka",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/zak-kulka/3929"
+      },
+      {
+       "name": "Trent Meyer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Nebagamon, Wis.",
+       "country": "US",
+       "previous_school": "Northwestern",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/trent-meyer/3930"
+      },
+      {
+       "name": "Logan Pechinski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/logan-pechinski/3931"
+      },
+      {
+       "name": "Max Reis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "De Pere, Wis.",
+       "country": "US",
+       "previous_school": "West De Pere",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-reis/3932"
+      },
+      {
+       "name": "Yinta Yang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Conway, Ark.",
+       "country": "US",
+       "previous_school": "Arkansas Connections Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/yinta-yang/3933"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/548"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/rick-warpinski/566"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joe Forsting",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edgerton, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/joe-forsting/3579"
+      },
+      {
+       "name": "Caden Jacobson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wisconsin Dells, Wis.",
+       "country": "US",
+       "previous_school": "IMG Academy Florida",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/caden-jacobson/3762"
+      },
+      {
+       "name": "Zak Kulka",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/zak-kulka/3580"
+      },
+      {
+       "name": "Trent Meyer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Nebagamon, Wis.",
+       "country": "US",
+       "previous_school": "Northwestern",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/trent-meyer/3591"
+      },
+      {
+       "name": "Logan Pechinski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/logan-pechinski/3761"
+      },
+      {
+       "name": "Max Reis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "De Pere, Wis.",
+       "country": "US",
+       "previous_school": "West De Pere",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-reis/3590"
+      },
+      {
+       "name": "Austin Schnell",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mishicot, Wis.",
+       "country": "US",
+       "previous_school": "Mishicot",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/austin-schnell/3581"
+      },
+      {
+       "name": "Ryan Schuelke",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Manawa, Wis.",
+       "country": "US",
+       "previous_school": "Manawa",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ryan-schuelke/3582"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/496"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ian Behringer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manitowoc, Wis.",
+       "country": "US",
+       "previous_school": "Roncalli",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ian-behringer/3411"
+      },
+      {
+       "name": "Joe Forsting",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edgerton, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/joe-forsting/3416"
+      },
+      {
+       "name": "Zak Kulka",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/zak-kulka/3412"
+      },
+      {
+       "name": "Max Pasher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-pasher/3413"
+      },
+      {
+       "name": "Austin Schnell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mishicot, Wis.",
+       "country": "US",
+       "previous_school": "Mishicot",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/austin-schnell/3414"
+      },
+      {
+       "name": "Ryan Schuelke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manawa, Wis.",
+       "country": "US",
+       "previous_school": "Manawa",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ryan-schuelke/3415"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/461"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ian Behringer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manitowoc, Wis.",
+       "country": "US",
+       "previous_school": "Roncalli",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ian-behringer/3177"
+      },
+      {
+       "name": "Kyle Bengston",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Minoqua, Wis.",
+       "country": "US",
+       "previous_school": "Lakeland Union",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/kyle-bengston/3210"
+      },
+      {
+       "name": "Ben Gilles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ben-gilles/3178"
+      },
+      {
+       "name": "Zak Kulka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/zak-kulka/3180"
+      },
+      {
+       "name": "Max Pasher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-pasher/3181"
+      },
+      {
+       "name": "Austin Schnell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mishicot, Wis.",
+       "country": "US",
+       "previous_school": "Mishicot",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/austin-schnell/3182"
+      },
+      {
+       "name": "Ryan Schuelke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manawa, Wis.",
+       "country": "US",
+       "previous_school": "Manawa",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ryan-schuelke/3183"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/432"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ian Behringer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Manitowoc, Wis.",
+       "country": "US",
+       "previous_school": "Roncalli",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ian-behringer/2903"
+      },
+      {
+       "name": "Ben Gilles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ben-gilles/2895"
+      },
+      {
+       "name": "George Kneiser",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/george-kneiser/2896"
+      },
+      {
+       "name": "Zak Kulka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/zak-kulka/2902"
+      },
+      {
+       "name": "Max Pasher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-pasher/2897"
+      },
+      {
+       "name": "Brady Sarauer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fond du Lac, Wis.",
+       "country": "US",
+       "previous_school": "Fond du Lac",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/brady-sarauer/2898"
+      },
+      {
+       "name": "Austin Schnell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mishicot, Wis.",
+       "country": "US",
+       "previous_school": "Mishicot",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/austin-schnell/2899"
+      },
+      {
+       "name": "Ryan Schuelke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manawa, Wis.",
+       "country": "US",
+       "previous_school": "Manawa",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ryan-schuelke/2900"
+      },
+      {
+       "name": "Patrick Sicula",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Whitefish Bay, Wis.",
+       "country": "US",
+       "previous_school": "Whitefish Bay",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/patrick-sicula/2901"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/392"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ben Gilles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ben-gilles/2625"
+      },
+      {
+       "name": "Bennett Hutson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Onalaska, Wis.",
+       "country": "US",
+       "previous_school": "Onalaska",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/bennett-hutson/2626"
+      },
+      {
+       "name": "George Kneiser",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/george-kneiser/2627"
+      },
+      {
+       "name": "Max Pasher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-pasher/2628"
+      },
+      {
+       "name": "Brady Sarauer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fond du Lac, Wis.",
+       "country": "US",
+       "previous_school": "Fond du Lac",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/brady-sarauer/2629"
+      },
+      {
+       "name": "Austin Schnell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mishicot, Wis.",
+       "country": "US",
+       "previous_school": "Mishicot",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/austin-schnell/2649"
+      },
+      {
+       "name": "Ryan Schuelke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Manawa, Wis.",
+       "country": "US",
+       "previous_school": "Manawa",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ryan-schuelke/2650"
+      },
+      {
+       "name": "Patrick Sicula",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Whitefish Bay, Wis.",
+       "country": "US",
+       "previous_school": "Whitefish Bay",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/patrick-sicula/2630"
+      },
+      {
+       "name": "Jeff Stemper",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Troy, Wis.",
+       "country": "US",
+       "previous_school": "Catholic Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/jeff-stemper/2631"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/341"
+      },
+      {
+       "name": "Matt Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/matt-wood/342"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jimmy Albright",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Cato, Wis.",
+       "country": "US",
+       "previous_school": "Roncalli",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/jimmy-albright/2198"
+      },
+      {
+       "name": "Ben Gilles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ben-gilles/2396"
+      },
+      {
+       "name": "Bennett Hutson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Onalaska, Wis.",
+       "country": "US",
+       "previous_school": "Onalaska",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/bennett-hutson/2199"
+      },
+      {
+       "name": "George Kneiser",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/george-kneiser/2200"
+      },
+      {
+       "name": "Max Pasher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/max-pasher/2397"
+      },
+      {
+       "name": "Brady Sarauer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fond du Lac, Wis.",
+       "country": "US",
+       "previous_school": "Fond du Lac",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/brady-sarauer/2201"
+      },
+      {
+       "name": "Patrick Sicula",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Whitefish Bay, Wis.",
+       "country": "US",
+       "previous_school": "Whitefish Bay",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/patrick-sicula/2202"
+      },
+      {
+       "name": "Jeff Stemper",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "East Troy, Wis.",
+       "country": "US",
+       "previous_school": "Catholic Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/jeff-stemper/2203"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/256"
+      },
+      {
+       "name": "Matt Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/matt-wood/290"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jimmy Albright",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Cato, Wis.",
+       "country": "US",
+       "previous_school": "Roncalli",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/jimmy-albright/1080"
+      },
+      {
+       "name": "Joe Du Chateau",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Fond du Lac, Wis",
+       "country": "US",
+       "previous_school": "Fond du Lac",
+       "class_raw": "Rs.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/joe-du-chateau/1081"
+      },
+      {
+       "name": "Bennett Hutson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Onalaska, Wis.",
+       "country": "US",
+       "previous_school": "Onalaska",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/bennett-hutson/1082"
+      },
+      {
+       "name": "George Kneiser",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/george-kneiser/1083"
+      },
+      {
+       "name": "Ryan Reinke",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Brillion, Wis. (Brillion)",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Rs.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/ryan-reinke/1084"
+      },
+      {
+       "name": "Brady Sarauer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fond du Lac, Wis.",
+       "country": "US",
+       "previous_school": "Fond du Lac",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/brady-sarauer/1085"
+      },
+      {
+       "name": "Patrick Sicula",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Whitefish Bay, Wis.",
+       "country": "US",
+       "previous_school": "Whitefish Bay",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/patrick-sicula/1086"
+      },
+      {
+       "name": "Jeff Stemper",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Troy, Wis.",
+       "country": "US",
+       "previous_school": "Catholic Central",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/jeff-stemper/1087"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/mens-golf/roster/coaches/lee-reinke/106"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://greenbayphoenix.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ellie Frisch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Middleton, Wis.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ellie-frisch/4675"
+      },
+      {
+       "name": "Avary Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Apple Valley, Minn.",
+       "country": "US",
+       "previous_school": "Apple Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/avary-johnson/4679"
+      },
+      {
+       "name": "Keanna Keen",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Brookfield, Ill.",
+       "country": "US",
+       "previous_school": "Riverside Brookfield HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/keanna-keen/4680"
+      },
+      {
+       "name": "Riley Pechinski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/riley-pechinski/4676"
+      },
+      {
+       "name": "Jordan Shipshock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waunakee, Wis.",
+       "country": "US",
+       "previous_school": "Waunakee",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/jordan-shipshock/4677"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/672"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/rick-warpinski/673"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ellie Frisch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Middleton, Wis.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ellie-frisch/4310"
+      },
+      {
+       "name": "Caylie Kotlowski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stoughton, Wis.",
+       "country": "US",
+       "previous_school": "Stoughton",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/caylie-kotlowski/4311"
+      },
+      {
+       "name": "Lexi Meade",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Eau Claire, Wis.",
+       "country": "US",
+       "previous_school": "Memorial",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lexi-meade/4312"
+      },
+      {
+       "name": "Riley Pechinski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/riley-pechinski/4313"
+      },
+      {
+       "name": "Jordan Shipshock",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waunakee, Wis.",
+       "country": "US",
+       "previous_school": "Waunakee",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/jordan-shipshock/4314"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/614"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/rick-warpinski/615"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Hannah Dunk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Janesville, Wis.",
+       "country": "US",
+       "previous_school": "Milton High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/hannah-dunk/3939"
+      },
+      {
+       "name": "Ellie Frisch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Middleton, Wis.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ellie-frisch/3936"
+      },
+      {
+       "name": "Caylie Kotlowski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stoughton, Wis.",
+       "country": "US",
+       "previous_school": "Stoughton",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/caylie-kotlowski/3937"
+      },
+      {
+       "name": "Lexi Meade",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Eau Claire, Wis.",
+       "country": "US",
+       "previous_school": "Memorial",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lexi-meade/3941"
+      },
+      {
+       "name": "Riley Pechinski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stevens Point, Wis.",
+       "country": "US",
+       "previous_school": "SPASH",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/riley-pechinski/3940"
+      },
+      {
+       "name": "Grace Welch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/grace-welch/3938"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/549"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/rick-warpinski/565"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ellie Frisch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Middleton, Wis.",
+       "country": "US",
+       "previous_school": "Middleton",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ellie-frisch/3592"
+      },
+      {
+       "name": "Caylie Kotlowski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stoughton, Wis.",
+       "country": "US",
+       "previous_school": "Stoughton",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/caylie-kotlowski/3584"
+      },
+      {
+       "name": "Ashley Kulka",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ashley-kulka/3585"
+      },
+      {
+       "name": "Isabelle Maleki",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/isabelle-maleki/3586"
+      },
+      {
+       "name": "Courtney Matschke",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Franklin, Wis.",
+       "country": "US",
+       "previous_school": "Franklin",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/courtney-matschke/3587"
+      },
+      {
+       "name": "Lauren Shorter",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Fitchburg, Wis.",
+       "country": "US",
+       "previous_school": "Verona Area",
+       "class_raw": "Gr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lauren-shorter/3588"
+      },
+      {
+       "name": "Grace Welch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/grace-welch/3589"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/497"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jenna Anderson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dousman, Wis.",
+       "country": "US",
+       "previous_school": "Kettle Moraine High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/jenna-anderson/3535"
+      },
+      {
+       "name": "Caylie Kotlowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stoughton, Wis.",
+       "country": "US",
+       "previous_school": "Stoughton",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/caylie-kotlowski/3423"
+      },
+      {
+       "name": "Ashley Kulka",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ashley-kulka/3417"
+      },
+      {
+       "name": "Isabelle Maleki",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/isabelle-maleki/3418"
+      },
+      {
+       "name": "Courtney Matschke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Franklin, Wis.",
+       "country": "US",
+       "previous_school": "Franklin",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/courtney-matschke/3419"
+      },
+      {
+       "name": "Lauren Shorter",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Fitchburg, Wis.",
+       "country": "US",
+       "previous_school": "Verona Area",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lauren-shorter/3420"
+      },
+      {
+       "name": "Katie Warpinski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Green Bay, Wis.",
+       "country": "US",
+       "previous_school": "Preble",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/katie-warpinski/3421"
+      },
+      {
+       "name": "Grace Welch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/grace-welch/3422"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/462"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Leah Hansen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Denmark, Wis.",
+       "country": "US",
+       "previous_school": "Denmark",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/leah-hansen/3184"
+      },
+      {
+       "name": "Ashley Kulka",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ashley-kulka/3185"
+      },
+      {
+       "name": "Isabelle Maleki",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/isabelle-maleki/3187"
+      },
+      {
+       "name": "Courtney Matschke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Franklin, Wis.",
+       "country": "US",
+       "previous_school": "Franklin",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/courtney-matschke/3188"
+      },
+      {
+       "name": "Lori Meyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Appleton, Wis.",
+       "country": "US",
+       "previous_school": "Freedom",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lori-meyer/3189"
+      },
+      {
+       "name": "Lauren Shorter",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Fitchburg, Wis.",
+       "country": "US",
+       "previous_school": "Verona Area",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lauren-shorter/3190"
+      },
+      {
+       "name": "Katie Warpinski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Green Bay, Wis.",
+       "country": "US",
+       "previous_school": "Preble",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/katie-warpinski/3191"
+      },
+      {
+       "name": "Grace Welch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/grace-welch/3211"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/433"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Leah Hansen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Denmark, Wis.",
+       "country": "US",
+       "previous_school": "Denmark",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/leah-hansen/2904"
+      },
+      {
+       "name": "Ashley Kulka",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "R-So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ashley-kulka/2905"
+      },
+      {
+       "name": "Alix Larson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/alix-larson/2906"
+      },
+      {
+       "name": "Isabelle Maleki",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/isabelle-maleki/2907"
+      },
+      {
+       "name": "Courtney Matschke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Franklin, Wis.",
+       "country": "US",
+       "previous_school": "Franklin",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/courtney-matschke/2908"
+      },
+      {
+       "name": "Lori Meyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Appleton, Wis.",
+       "country": "US",
+       "previous_school": "Freedom",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lori-meyer/2909"
+      },
+      {
+       "name": "Lauren Shorter",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Fitchburg, Wis.",
+       "country": "US",
+       "previous_school": "Verona Area",
+       "class_raw": "R-So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lauren-shorter/2910"
+      },
+      {
+       "name": "Katie Warpinski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Green Bay, Wis.",
+       "country": "US",
+       "previous_school": "Preble",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/katie-warpinski/2911"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/394"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Leah Hansen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Denmark, Wis.",
+       "country": "US",
+       "previous_school": "Denmark",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/leah-hansen/2632"
+      },
+      {
+       "name": "Ashley Kulka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ashley-kulka/2633"
+      },
+      {
+       "name": "Alix Larson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/alix-larson/2634"
+      },
+      {
+       "name": "Isabelle Maleki",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mequon, Wis.",
+       "country": "US",
+       "previous_school": "Homestead",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/isabelle-maleki/2646"
+      },
+      {
+       "name": "Courtney Matschke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Franklin, Wis.",
+       "country": "US",
+       "previous_school": "Franklin",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/courtney-matschke/2647"
+      },
+      {
+       "name": "Lori Meyer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Appleton, Wis.",
+       "country": "US",
+       "previous_school": "Freedom",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lori-meyer/2635"
+      },
+      {
+       "name": "Lauren Shorter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fitchburg, Wis.",
+       "country": "US",
+       "previous_school": "Verona Area",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lauren-shorter/2648"
+      },
+      {
+       "name": "Katie Warpinski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Green Bay, Wis.",
+       "country": "US",
+       "previous_school": "Preble",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/katie-warpinski/2636"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/343"
+      },
+      {
+       "name": "Matt Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/matt-wood/344"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/rick-warpinski/345"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Leah Birch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kenosha, Wis.",
+       "country": "US",
+       "previous_school": "Wetosha Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/leah-birch/2303"
+      },
+      {
+       "name": "Emily Grunder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pardeeville, Wis.",
+       "country": "US",
+       "previous_school": "Portage",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/emily-grunder/2304"
+      },
+      {
+       "name": "Leah Hansen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Denmark, Wis.",
+       "country": "US",
+       "previous_school": "Denmark",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/leah-hansen/2394"
+      },
+      {
+       "name": "Ashley Kulka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Wis.",
+       "country": "US",
+       "previous_school": "Beaver Dam",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/ashley-kulka/2392"
+      },
+      {
+       "name": "Alix Larson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "So.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/alix-larson/2305"
+      },
+      {
+       "name": "Lori Meyer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Appleton, Wis.",
+       "country": "US",
+       "previous_school": "Freedom",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/lori-meyer/2393"
+      },
+      {
+       "name": "Katie Warpinski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Green Bay, Wis.",
+       "country": "US",
+       "previous_school": "Preble",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/katie-warpinski/2395"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/275"
+      },
+      {
+       "name": "Matt Wood",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/matt-wood/291"
+      },
+      {
+       "name": "Rick Warpinski",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/rick-warpinski/292"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Leah Birch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kenosha, Wis.",
+       "country": "US",
+       "previous_school": "Wetosha Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/leah-birch/591"
+      },
+      {
+       "name": "Emily Grunder",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pardeeville, Wis.",
+       "country": "US",
+       "previous_school": "Portage",
+       "class_raw": "Jr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/emily-grunder/592"
+      },
+      {
+       "name": "Alix Larson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oconomowoc, Wis.",
+       "country": "US",
+       "previous_school": "Oconomowoc",
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/alix-larson/596"
+      },
+      {
+       "name": "Sophia Mazurek",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Germantown, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/sophia-mazurek/597"
+      },
+      {
+       "name": "Avery Steen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Luck, Wis.",
+       "country": "US",
+       "previous_school": "Luck",
+       "class_raw": "Sr.",
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/avery-steen/598"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Lee Reinke",
+       "title": "Director of Men's and Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://greenbayphoenix.com/sports/womens-golf/roster/coaches/lee-reinke/54"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://greenbayphoenix.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://greenbayphoenix.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://greenbayphoenix.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

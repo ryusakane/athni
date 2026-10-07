@@ -1,36 +1,2367 @@
 {
  "slug": "louisville",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gocards.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adam Buchanan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/adam-buchanan/16439"
+      },
+      {
+       "name": "Cooper Claycomb",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/cooper-claycomb/16329"
+      },
+      {
+       "name": "Easton Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/easton-johnson/16330"
+      },
+      {
+       "name": "Patrick Keeling",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/patrick-keeling/18138"
+      },
+      {
+       "name": "Clay Pendergrass",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky,",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/clay-pendergrass/16332"
+      },
+      {
+       "name": "Brady Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/brady-smith/18139"
+      },
+      {
+       "name": "Andrew Tan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/andrew-tan/16334"
+      },
+      {
+       "name": "Warren Thomis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/warren-thomis/18140"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Ryan Hand",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachhand@GoCards.com",
+       "phone": "852-2519",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-hand/3254"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cooper Claycomb",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/cooper-claycomb/16329"
+      },
+      {
+       "name": "Easton Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/easton-johnson/16330"
+      },
+      {
+       "name": "Patrick Keeling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/patrick-keeling/18138"
+      },
+      {
+       "name": "Sebastian Moss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pearland, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/sebastian-moss/15192"
+      },
+      {
+       "name": "Clay Pendergrass",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Ky,",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/clay-pendergrass/16332"
+      },
+      {
+       "name": "Mads Røddik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aarhus, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/mads-rddik/15194"
+      },
+      {
+       "name": "Brady Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/brady-smith/18139"
+      },
+      {
+       "name": "Andrew Tan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/andrew-tan/16334"
+      },
+      {
+       "name": "Warren Thomis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/warren-thomis/18140"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Ryan Hand",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachhand@GoCards.com",
+       "phone": "852-2519",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-hand/3254"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Brimfield",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jackson-brimfield/14143"
+      },
+      {
+       "name": "Cooper Claycomb",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/cooper-claycomb/16329"
+      },
+      {
+       "name": "Easton Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/easton-johnson/16330"
+      },
+      {
+       "name": "Patrick Keeling",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/patrick-keeling/18138"
+      },
+      {
+       "name": "Max Kennedy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/max-kennedy/14144"
+      },
+      {
+       "name": "Elias Kennon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Old Greenwich, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/elias-kennon/14150"
+      },
+      {
+       "name": "Sebastian Moss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pearland, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/sebastian-moss/15192"
+      },
+      {
+       "name": "Clay Pendergrass",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky,",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/clay-pendergrass/16332"
+      },
+      {
+       "name": "Mads Røddik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aarhus, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/mads-rddik/15194"
+      },
+      {
+       "name": "Andrew Tan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/andrew-tan/16334"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Ryan Hand",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachhand@GoCards.com",
+       "phone": "852-2519",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-hand/3254"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Brimfield",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jackson-brimfield/14143"
+      },
+      {
+       "name": "Walker Franklin",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Westminster, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/walker-franklin/13324"
+      },
+      {
+       "name": "Pierce Grieve",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/pierce-grieve/13325"
+      },
+      {
+       "name": "Max Kennedy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/max-kennedy/14144"
+      },
+      {
+       "name": "C.M. Mixon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Sebastian Moss",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pearland, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/sebastian-moss/15192"
+      },
+      {
+       "name": "Mads Røddik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aarhus, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/mads-rddik/15194"
+      },
+      {
+       "name": "Andrew Tan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/andrew-tan/16334"
+      },
+      {
+       "name": "Jay Williams",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Jeffersonville, Ind.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jay-williams/13330"
+      },
+      {
+       "name": "Jiri Zuska",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kladno, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jiri-zuska/13329"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Ryan Hand",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachhand@GoCards.com",
+       "phone": "852-2519",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-hand/3254"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jackson Brimfield",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jackson-brimfield/14143"
+      },
+      {
+       "name": "Chris Francoeur",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Amesbury, Mass.",
+       "country": "US",
+       "previous_school": "Rhode Island",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/chris-francoeur/12543"
+      },
+      {
+       "name": "Walker Franklin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westminster, Colo. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/walker-franklin/13324"
+      },
+      {
+       "name": "Pierce Grieve",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/pierce-grieve/13325"
+      },
+      {
+       "name": "Max Kennedy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/max-kennedy/14144"
+      },
+      {
+       "name": "C.M. Mixon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Sebastian Moss",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pearland, Texas /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/sebastian-moss/15192"
+      },
+      {
+       "name": "Hugh O'Hare",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Belfast, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Nick Tenuta",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Mt. Prospect, Illinois /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/nick-tenuta/12541"
+      },
+      {
+       "name": "Jiri Zuska",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kladno, Czech Republic /",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jiri-zuska/13329"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Matt Wernecke",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachwernecke@gocards.com",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Walker Franklin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westminster, Colo. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/walker-franklin/13324"
+      },
+      {
+       "name": "Trevor Johnson",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Brentwood, Tenn. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/trevor-johnson/11483"
+      },
+      {
+       "name": "Max Kennedy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/max-kennedy/14144"
+      },
+      {
+       "name": "C.M. Mixon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Devin Morley",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/devin-morley/11485"
+      },
+      {
+       "name": "John Murphy",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Kinsale, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/john-murphy/11486"
+      },
+      {
+       "name": "Hugh O'Hare",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Belfast, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Matthias Schmid",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Maxhuette, Germany /",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/matthias-schmid/11488"
+      },
+      {
+       "name": "Nick Tenuta",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mt. Prospect, Illinois /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/nick-tenuta/12541"
+      },
+      {
+       "name": "Jiri Zuska",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kladno, Czech Republic /",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jiri-zuska/13329"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Matt Wernecke",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachwernecke@gocards.com",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Keegan de Lange",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Pretoria, South Africa",
+       "country": "ZA",
+       "previous_school": "null",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/keegan-de-lange/9967"
+      },
+      {
+       "name": "Trevor Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/trevor-johnson/11483"
+      },
+      {
+       "name": "C.M. Mixon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Devin Morley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/devin-morley/11485"
+      },
+      {
+       "name": "John Murphy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kinsale, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/john-murphy/11486"
+      },
+      {
+       "name": "Hugh O'Hare",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Belfast, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": null
+      },
+      {
+       "name": "Matthias Schmid",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Maxhuette, Germany /",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/matthias-schmid/11488"
+      },
+      {
+       "name": "Nick Tenuta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mt. Prospect, Illinois /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/nick-tenuta/12541"
+      },
+      {
+       "name": "Jiri Zuska",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kladno, Czech Republic /",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jiri-zuska/13329"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Blagg",
+       "title": "Head Men's Golf Coach",
+       "email": "coachblagg@GoCards.com",
+       "phone": "502-852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ryan-blagg/3253"
+      },
+      {
+       "name": "Matt Wernecke",
+       "title": "Assistant Men's Golf Coach",
+       "email": "coachwernecke@gocards.com",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Keegan de Lange",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pretoria, South Africa",
+       "country": "ZA",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/keegan-de-lange/9967"
+      },
+      {
+       "name": "Trevor Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/trevor-johnson/11483"
+      },
+      {
+       "name": "Devin Morley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/devin-morley/11485"
+      },
+      {
+       "name": "John Murphy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kinsale, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/john-murphy/11486"
+      },
+      {
+       "name": "Hugh O'Hare",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Belfast, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Matthias Schmid",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maxhuette, Germany /",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/matthias-schmid/11488"
+      },
+      {
+       "name": "Nick Tenuta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mt. Prospect, Illinois /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/nick-tenuta/12541"
+      },
+      {
+       "name": "Simon Zach",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/simon-zach/9144"
+      },
+      {
+       "name": "Jiri Zuska",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kladno, Czech Republic /",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jiri-zuska/13329"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Crabtree",
+       "title": "Head Coach",
+       "email": "markc@GoCards.com",
+       "phone": "852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/mark-crabtree/729"
+      },
+      {
+       "name": "Justin Tereshko",
+       "title": "Assistant Coach",
+       "email": "justint@GoCards.com",
+       "phone": "852-2519",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/justin-tereshko/732"
+      },
+      {
+       "name": "Erin Horn",
+       "title": "Director of Golf Operations",
+       "email": "erin@GoCards.com",
+       "phone": "852-4572",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/erin-horn/676"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Keegan de Lange",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pretoria, South Africa",
+       "country": "ZA",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/keegan-de-lange/9967"
+      },
+      {
+       "name": "Erik Dulik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Great Falls, Va.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/erik-dulik/7137"
+      },
+      {
+       "name": "Trevor Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/trevor-johnson/11483"
+      },
+      {
+       "name": "Devin Morley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/devin-morley/11485"
+      },
+      {
+       "name": "John Murphy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kinsale, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/john-murphy/11486"
+      },
+      {
+       "name": "Hugh O'Hare",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belfast, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Nicolas Platret",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dracy LeFort, France",
+       "country": "FR",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/nicolas-platret/7140"
+      },
+      {
+       "name": "Matthias Schmid",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Maxhuette, Germany /",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/matthias-schmid/11488"
+      },
+      {
+       "name": "Simon Zach",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/simon-zach/9144"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Crabtree",
+       "title": "Head Coach",
+       "email": "markc@GoCards.com",
+       "phone": "852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/mark-crabtree/729"
+      },
+      {
+       "name": "Justin Tereshko",
+       "title": "Assistant Coach",
+       "email": "justint@GoCards.com",
+       "phone": "852-2519",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/justin-tereshko/732"
+      },
+      {
+       "name": "Erin Horn",
+       "title": "Director of Golf Operations",
+       "email": "erin@GoCards.com",
+       "phone": "852-4572",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/erin-horn/676"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gocards.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Keegan de Lange",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pretoria, South Africa",
+       "country": "ZA",
+       "previous_school": "null",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/keegan-de-lange/9967"
+      },
+      {
+       "name": "Erik Dulik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Great Falls, Va.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/erik-dulik/7137"
+      },
+      {
+       "name": "Trevor Johnson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/trevor-johnson/11483"
+      },
+      {
+       "name": "JD Lehman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/jd-lehman/6355"
+      },
+      {
+       "name": "Devin Morley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/devin-morley/11485"
+      },
+      {
+       "name": "Nicolas Platret",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dracy LeFort, France",
+       "country": "FR",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/nicolas-platret/7140"
+      },
+      {
+       "name": "Simon Zach",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": "null",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/simon-zach/9144"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mark Crabtree",
+       "title": "Head Coach",
+       "email": "markc@GoCards.com",
+       "phone": "852-8452",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/mark-crabtree/729"
+      },
+      {
+       "name": "Aaron O'Callaghan",
+       "title": "Associate Head Coach",
+       "email": "aarono@GoCards.com",
+       "phone": "744-5352",
+       "profile_url": null
+      },
+      {
+       "name": "Ted Schulz",
+       "title": "Volunteer Assistant Coach",
+       "email": "ted@GoCards.com",
+       "phone": null,
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/ted-schulz/730"
+      },
+      {
+       "name": "Erin Horn",
+       "title": "Director of Golf Operations",
+       "email": "erin@GoCards.com",
+       "phone": "852-4572",
+       "profile_url": "https://gocards.com/sports/mens-golf/roster/coaches/erin-horn/676"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gocards.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bailey Burkett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Liberty North",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/bailey-burkett/18156"
+      },
+      {
+       "name": "Emree Cameron",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nevada, Mo.",
+       "country": "US",
+       "previous_school": "Nevada HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/emree-cameron/16354"
+      },
+      {
+       "name": "Millie Cottrell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ascot, Wales",
+       "country": "GB",
+       "previous_school": "Gordon's School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/millie-cottrell/18157"
+      },
+      {
+       "name": "Veronika Exposito",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "The Woodlands, Texas",
+       "country": "US",
+       "previous_school": "The Woodlands",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/veronika-exposito/18158"
+      },
+      {
+       "name": "Thienna Huynh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lilburn, GA /",
+       "country": "US",
+       "previous_school": "UNLV",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/thienna-huynh/16339"
+      },
+      {
+       "name": "Madison Moman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palm Beach Gardens, Fla.",
+       "country": "US",
+       "previous_school": "Palm Beach Virtual",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/madison-moman/18159"
+      },
+      {
+       "name": "Suzie Tran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Poulsbo, Wash. /",
+       "country": "US",
+       "previous_school": "Michigan",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/suzie-tran/18160"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Tristyn Stasi",
+       "title": "Assistant Coach",
+       "email": "Tristyn@gocards.com",
+       "phone": null,
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/tristyn-stasi/3259"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Beatriz Barrios",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Chattanooga",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/beatriz-barrios/15322"
+      },
+      {
+       "name": "Gabbi Bentancourt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/gabbi-bentancourt/15323"
+      },
+      {
+       "name": "Bailey Burkett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Liberty North",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/bailey-burkett/18156"
+      },
+      {
+       "name": "Millie Cottrell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ascot, Wales",
+       "country": "GB",
+       "previous_school": "Gordon's School",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/millie-cottrell/18157"
+      },
+      {
+       "name": "Veronika Exposito",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "The Woodlands, Texas",
+       "country": "US",
+       "previous_school": "The Woodlands",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/veronika-exposito/18158"
+      },
+      {
+       "name": "Carmen Griffiths",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aboyne, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carmen-griffiths/15325"
+      },
+      {
+       "name": "Thienna Huynh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lilburn, GA /",
+       "country": "US",
+       "previous_school": "UNLV",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/thienna-huynh/16339"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Addie Baggarly",
+       "title": "Assistant Coach",
+       "email": "addison@gocards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/addie-baggarly/2926"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Beatriz Barrios",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Chattanooga",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/beatriz-barrios/15322"
+      },
+      {
+       "name": "Gabbi Bentancourt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/gabbi-bentancourt/15323"
+      },
+      {
+       "name": "Millie Cottrell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ascot, Wales",
+       "country": "GB",
+       "previous_school": "Gordon's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/millie-cottrell/18157"
+      },
+      {
+       "name": "Carmen Griffiths",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aboyne, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carmen-griffiths/15325"
+      },
+      {
+       "name": "Carly Haines",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rye Brook, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart Greenwich",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carly-haines/14167"
+      },
+      {
+       "name": "Molly Lyne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cary, Ill.",
+       "country": "US",
+       "previous_school": "Cary-Grove",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/molly-lyne/14168"
+      },
+      {
+       "name": "Hana Ryskova",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Frydek-Mistek, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Grammar School Of Dana Emil Zatopek",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/hana-ryskova/14169"
+      },
+      {
+       "name": "Rylee Suttor",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Shelbyville, Ky.",
+       "country": "US",
+       "previous_school": "Centre College",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/rylee-suttor/14170"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Addie Baggarly",
+       "title": "Assistant Coach",
+       "email": "addison@gocards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/addie-baggarly/2926"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gabbi Bentancourt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/gabbi-bentancourt/15323"
+      },
+      {
+       "name": "Agustina Gomez Cisterna",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "IMG Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/agustina-gomez-cisterna/13252"
+      },
+      {
+       "name": "Carmen Griffiths",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aboyne, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carmen-griffiths/15325"
+      },
+      {
+       "name": "Carly Haines",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rye Brook, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart Greenwich",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carly-haines/14167"
+      },
+      {
+       "name": "Ryann Honea",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "San Angelo Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/ryann-honea/13259"
+      },
+      {
+       "name": "Molly Lyne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cary, Ill.",
+       "country": "US",
+       "previous_school": "Cary-Grove",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/molly-lyne/14168"
+      },
+      {
+       "name": "Mairead Martin",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Kanturk, County Cork, Ireland",
+       "country": "IE",
+       "previous_school": "Scoil Mhuire",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/mairead-martin/13256"
+      },
+      {
+       "name": "Hana Ryskova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Frydek-Mistek, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Grammar School Of Dana Emil Zatopek",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/hana-ryskova/14169"
+      },
+      {
+       "name": "Rylee Suttor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Shelbyville, Ky.",
+       "country": "US",
+       "previous_school": "Centre College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/rylee-suttor/14170"
+      },
+      {
+       "name": "Lauren Thibodeau",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hampstead, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-thibodeau/13258"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Liz Fernandes",
+       "title": "Assistant Coach",
+       "email": "Liz@gocards.com",
+       "phone": null,
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/liz-fernandes/2585"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gabbi Bentancourt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": "Centennial",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/gabbi-bentancourt/15323"
+      },
+      {
+       "name": "Agustina Gomez Cisterna",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "IMG Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/agustina-gomez-cisterna/13252"
+      },
+      {
+       "name": "Kendall Griffin",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sebring, Fla.",
+       "country": "US",
+       "previous_school": "Abeka Academy",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/kendall-griffin/12556"
+      },
+      {
+       "name": "Carmen Griffiths",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aboyne, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carmen-griffiths/15325"
+      },
+      {
+       "name": "Carly Haines",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rye Brook, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart Greenwich",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carly-haines/14167"
+      },
+      {
+       "name": "Molly Lyne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cary, Ill.",
+       "country": "US",
+       "previous_school": "Cary-Grove",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/molly-lyne/14168"
+      },
+      {
+       "name": "Mairead Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kanturk, County Cork, Ireland",
+       "country": "IE",
+       "previous_school": "Scoil Mhuire",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/mairead-martin/13256"
+      },
+      {
+       "name": "Hana Ryskova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Frydek-Mistek, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Grammar School Of Dana Emil Zatopek",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/hana-ryskova/14169"
+      },
+      {
+       "name": "Lauren Thibodeau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hampstead, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-thibodeau/13258"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach (3rd Season)",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Rob Bennett",
+       "title": "Assistant Coach",
+       "email": "coachbennett@GoCards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/rob-bennett/2248"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Margot Bechadergue",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aix-en-Provence, France",
+       "country": "FR",
+       "previous_school": "Collège Roquepertuse",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/margot-bechadergue/11429"
+      },
+      {
+       "name": "Agustina Gomez Cisterna",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "IMG Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/agustina-gomez-cisterna/13252"
+      },
+      {
+       "name": "Carly Haines",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rye Brook, N.Y.",
+       "country": "US",
+       "previous_school": "Sacred Heart Greenwich",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/carly-haines/14167"
+      },
+      {
+       "name": "Lauren Hartlage",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-hartlage/11431"
+      },
+      {
+       "name": "Molly Lyne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cary, Ill.",
+       "country": "US",
+       "previous_school": "Cary-Grove",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/molly-lyne/14168"
+      },
+      {
+       "name": "Mairead Martin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kanturk, County Cork, Ireland",
+       "country": "IE",
+       "previous_school": "Scoil Mhuire",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/mairead-martin/13256"
+      },
+      {
+       "name": "Hana Ryskova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Frydek-Mistek, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Grammar School Of Dana Emil Zatopek",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/hana-ryskova/14169"
+      },
+      {
+       "name": "Lauren Thibodeau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hampstead, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-thibodeau/13258"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach (2nd Season)",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Margot Bechadergue",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aix-en-Provence, France",
+       "country": "FR",
+       "previous_school": "Collège Roquepertuse",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/margot-bechadergue/11429"
+      },
+      {
+       "name": "Agustina Gomez Cisterna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "IMG Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/agustina-gomez-cisterna/13252"
+      },
+      {
+       "name": "Lauren Hartlage",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-hartlage/11431"
+      },
+      {
+       "name": "Mairead Martin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kanturk, County Cork, Ireland",
+       "country": "IE",
+       "previous_school": "Scoil Mhuire",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/mairead-martin/13256"
+      },
+      {
+       "name": "Meghan Nay",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Canton, Ga.",
+       "country": "US",
+       "previous_school": "Creekview",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/meghan-nay/9638"
+      },
+      {
+       "name": "Hana Ryskova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Frydek-Mistek, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Grammar School Of Dana Emil Zatopek",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/hana-ryskova/14169"
+      },
+      {
+       "name": "Delaney Shah",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Potomac, Md.",
+       "country": "US",
+       "previous_school": "Wootton",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/delaney-shah/9639"
+      },
+      {
+       "name": "Lauren Thibodeau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hampstead, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-thibodeau/13258"
+      },
+      {
+       "name": "Linda Trockel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/linda-trockel/9641"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Whitney Young",
+       "title": "Head Coach (2nd Season)",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Dori Carter",
+       "title": "Assistant Coach",
+       "email": "dori@GoCards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/dori-carter/1923"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Margot Bechadergue",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aix-en-Provence, France",
+       "country": "FR",
+       "previous_school": "Collège Roquepertuse",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/margot-bechadergue/11429"
+      },
+      {
+       "name": "Olivia Cason",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/olivia-cason/8790"
+      },
+      {
+       "name": "Kristin Engle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barbourville, Ky.",
+       "country": "US",
+       "previous_school": "Barbourville",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/kristin-engle/8791"
+      },
+      {
+       "name": "Lauren Hartlage",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-hartlage/11431"
+      },
+      {
+       "name": "Mairead Martin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kanturk, County Cork, Ireland",
+       "country": "IE",
+       "previous_school": "Scoil Mhuire",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/mairead-martin/13256"
+      },
+      {
+       "name": "Meghan Nay",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Canton, Ga.",
+       "country": "US",
+       "previous_school": "Creekview",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/meghan-nay/9638"
+      },
+      {
+       "name": "Delaney Shah",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Potomac, Md.",
+       "country": "US",
+       "previous_school": "Wootton",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/delaney-shah/9639"
+      },
+      {
+       "name": "Lauren Thibodeau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hampstead, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-thibodeau/13258"
+      },
+      {
+       "name": "Linda Trockel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/linda-trockel/9641"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Trimble",
+       "title": "Head Coach",
+       "email": "courtney@GoCards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/courtney-trimble/675"
+      },
+      {
+       "name": "Whitney Young",
+       "title": "Assistant Coach",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Erin Horn",
+       "title": "Director of Golf Operations",
+       "email": "erin@GoCards.com",
+       "phone": "852-4572",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/erin-horn/676"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Margot Bechadergue",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aix-en-Provence, France",
+       "country": "FR",
+       "previous_school": "Collège Roquepertuse",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/margot-bechadergue/11429"
+      },
+      {
+       "name": "Olivia Cason",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/olivia-cason/8790"
+      },
+      {
+       "name": "Kristin Engle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barbourville, Ky.",
+       "country": "US",
+       "previous_school": "Barbourville",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/kristin-engle/8791"
+      },
+      {
+       "name": "Lauren Hartlage",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-hartlage/11431"
+      },
+      {
+       "name": "Meghan Nay",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Canton, Ga.",
+       "country": "US",
+       "previous_school": "Creekview",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/meghan-nay/9638"
+      },
+      {
+       "name": "Delaney Shah",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Potomac, Md.",
+       "country": "US",
+       "previous_school": "Wootton",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/delaney-shah/9639"
+      },
+      {
+       "name": "Molly Skapik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Miamisburg, Ohio",
+       "country": "US",
+       "previous_school": "Miamisburg",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/molly-skapik/7025"
+      },
+      {
+       "name": "Jordan Susce",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Spain Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/jordan-susce/7028"
+      },
+      {
+       "name": "Linda Trockel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/linda-trockel/9641"
+      },
+      {
+       "name": "Jacqueline Twitty",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chapin, S.C.",
+       "country": "US",
+       "previous_school": "Chapin",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/jacqueline-twitty/7026"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Trimble",
+       "title": "Head Coach",
+       "email": "courtney@GoCards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/courtney-trimble/675"
+      },
+      {
+       "name": "Whitney Young",
+       "title": "Assistant Coach",
+       "email": "whitney@GoCards.com",
+       "phone": "852-8295",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/whitney-young/3258"
+      },
+      {
+       "name": "Lydia Gumm",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/lydia-gumm/601"
+      },
+      {
+       "name": "Erin Horn",
+       "title": "Director of Golf Operations",
+       "email": "erin@GoCards.com",
+       "phone": "852-4572",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/erin-horn/676"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gocards.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Olivia Cason",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/olivia-cason/8790"
+      },
+      {
+       "name": "Shannon Gramley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sharon, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/shannon-gramley/6453"
+      },
+      {
+       "name": "Lauren Hartlage",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/lauren-hartlage/11431"
+      },
+      {
+       "name": "Ellen Kehoe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Taylor County",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/ellen-kehoe/6454"
+      },
+      {
+       "name": "Meghan Nay",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Canton, Ga.",
+       "country": "US",
+       "previous_school": "Creekview",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/meghan-nay/9638"
+      },
+      {
+       "name": "Louise Oxner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "Greenville",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/louise-oxner/6456"
+      },
+      {
+       "name": "Delaney Shah",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Potomac, Md.",
+       "country": "US",
+       "previous_school": "Wootton",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/delaney-shah/9639"
+      },
+      {
+       "name": "Molly Skapik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miamisburg, Ohio",
+       "country": "US",
+       "previous_school": "Miamisburg",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/molly-skapik/7025"
+      },
+      {
+       "name": "Jacqueline Twitty",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chapin, S.C.",
+       "country": "US",
+       "previous_school": "Chapin",
+       "class_raw": "So.",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/jacqueline-twitty/7026"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Courtney Trimble",
+       "title": "Head Coach",
+       "email": "courtney@GoCards.com",
+       "phone": "852-1768",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/courtney-trimble/675"
+      },
+      {
+       "name": "Mary Bryan",
+       "title": "Assistant Coach",
+       "email": "mary@GoCards.com",
+       "phone": null,
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/mary-bryan/336"
+      },
+      {
+       "name": "Erin Horn",
+       "title": "Director of Golf Operations",
+       "email": "erin@GoCards.com",
+       "phone": "852-4572",
+       "profile_url": "https://gocards.com/sports/womens-golf/roster/coaches/erin-horn/676"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gocards.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gocards.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gocards.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gocards.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gocards.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

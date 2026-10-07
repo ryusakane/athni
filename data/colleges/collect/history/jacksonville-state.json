@@ -1,36 +1,2586 @@
 {
  "slug": "jacksonville-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://jaxstatesports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Stanley Campbell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, Eng.",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/stanley-campbell/7320"
+      },
+      {
+       "name": "Will Drake",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cullman, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/will-drake/7905"
+      },
+      {
+       "name": "Ryley Heath",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ryley-heath/7301"
+      },
+      {
+       "name": "Cole Lindeman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Priceville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/cole-lindeman/7906"
+      },
+      {
+       "name": "Karel Marik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Karlovy Vary, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/karel-marik/7907"
+      },
+      {
+       "name": "Ricardo Matho",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Corrientes, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ricardo-matho/7303"
+      },
+      {
+       "name": "Tyler Neidel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/tyler-neidel/7908"
+      },
+      {
+       "name": "Richie Reck",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Middletown, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/richie-reck/7305"
+      },
+      {
+       "name": "Ben Shedd",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cullman, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ben-shedd/7909"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sylas Elliott",
+       "title": "Head Men's Golf Coach",
+       "email": "elliott@jsu.edu",
+       "phone": "256-782-5834",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/sylas-elliott/1378"
+      },
+      {
+       "name": "Jake Tiffin",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/jake-tiffin/1289"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Santiago Bailleres",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chascomus, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/santiago-bailleres/6675"
+      },
+      {
+       "name": "Benjamin Boquete",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/benjamin-boquete/6676"
+      },
+      {
+       "name": "Ryley Heath",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ryley-heath/7301"
+      },
+      {
+       "name": "Ricardo Matho",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Corrientes, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ricardo-matho/7303"
+      },
+      {
+       "name": "David Melichar",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/david-melichar/6680"
+      },
+      {
+       "name": "Richie Reck",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Middletown, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/richie-reck/7305"
+      },
+      {
+       "name": "Gabriel Restrepo",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/gabriel-restrepo/6682"
+      },
+      {
+       "name": "Ben Shedd",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cullman, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ben-shedd/7909"
+      },
+      {
+       "name": "Devin Speight",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mt. Juliet, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "5th",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/devin-speight/6683"
+      },
+      {
+       "name": "Simon Wallen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vasteras, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/simon-wallen/6685"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Sylas Elliott",
+       "title": "Head Men's Golf Coach",
+       "email": "elliott@jsu.edu",
+       "phone": "256-782-5834",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/sylas-elliott/1378"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Santiago Bailleres",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chascomus, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/santiago-bailleres/6675"
+      },
+      {
+       "name": "Benjamin Boquete",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/benjamin-boquete/6676"
+      },
+      {
+       "name": "Trent Cade",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ocean Isle Beach, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/trent-cade/5996"
+      },
+      {
+       "name": "Ryley Heath",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ryley-heath/7301"
+      },
+      {
+       "name": "Erik Jansson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vasteras, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/erik-jansson/5979"
+      },
+      {
+       "name": "Isaac MacNaughton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Truro, Nova Scotia",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/isaac-macnaughton/5995"
+      },
+      {
+       "name": "Ricardo Matho",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Corrientes, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ricardo-matho/7303"
+      },
+      {
+       "name": "David Melichar",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/david-melichar/6680"
+      },
+      {
+       "name": "Richie Reck",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Middletown, N.J.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/richie-reck/7305"
+      },
+      {
+       "name": "Gabriel Restrepo",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/gabriel-restrepo/6682"
+      },
+      {
+       "name": "Devin Speight",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mt. Juliet, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/devin-speight/6683"
+      },
+      {
+       "name": "Bautista Vivas Tronconi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Parana, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/bautista-vivas-tronconi/5993"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Brice",
+       "title": "Head Men's Golf Coach",
+       "email": "mbrice@jsu.edu",
+       "phone": "256-782-5834",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/michael-brice/1092"
+      },
+      {
+       "name": "Noah Hume",
+       "title": "Men's Golf Assistant Coach",
+       "email": "nhume@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/noah-hume/1093"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Santiago Bailleres",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chascomus, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/santiago-bailleres/6675"
+      },
+      {
+       "name": "Jackson Bowman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gadsden, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jackson-bowman/5516"
+      },
+      {
+       "name": "Parker Crawford",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Rockmart, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/parker-crawford/5038"
+      },
+      {
+       "name": "Ryley Heath",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ryley-heath/7301"
+      },
+      {
+       "name": "Noah Hume",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/noah-hume/5501"
+      },
+      {
+       "name": "Erik Jansson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vasteras, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/erik-jansson/5979"
+      },
+      {
+       "name": "Ricardo Matho",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Corrientes, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ricardo-matho/7303"
+      },
+      {
+       "name": "David Melichar",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/david-melichar/6680"
+      },
+      {
+       "name": "Ross Napier",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hartselle, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ross-napier/5505"
+      },
+      {
+       "name": "Gabriel Restrepo",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/gabriel-restrepo/6682"
+      },
+      {
+       "name": "Devin Speight",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mt. Juliet, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/devin-speight/6683"
+      },
+      {
+       "name": "Bautista Vivas Tronconi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Parana, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/bautista-vivas-tronconi/5993"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michael Brice",
+       "title": "Head Men's Golf Coach",
+       "email": "mbrice@jsu.edu",
+       "phone": "256-782-5834",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/michael-brice/1092"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "title": "Men's Golf Assistant Coach",
+       "email": "pfreundtthurn@stu.jsu.edu",
+       "phone": null,
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Santiago Bailleres",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chascomus, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/santiago-bailleres/6675"
+      },
+      {
+       "name": "Karsten Bryan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Golden, Miss.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/karsten-bryan/5037"
+      },
+      {
+       "name": "Parker Crawford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rockmart, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/parker-crawford/5038"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Noah Hume",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/noah-hume/5501"
+      },
+      {
+       "name": "Erik Jansson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vasteras, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/erik-jansson/5979"
+      },
+      {
+       "name": "Ricardo Matho",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corrientes, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ricardo-matho/7303"
+      },
+      {
+       "name": "David Melichar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Prague, Czech Republic",
+       "country": "CZ",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/david-melichar/6680"
+      },
+      {
+       "name": "Ross Napier",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hartselle, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ross-napier/5505"
+      },
+      {
+       "name": "Justin Olive",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Florence, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/justin-olive/5042"
+      },
+      {
+       "name": "Maximo Portais",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/maximo-portais/5032"
+      },
+      {
+       "name": "Gabriel Restrepo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/gabriel-restrepo/6682"
+      },
+      {
+       "name": "Nicholas Sawyer",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Centre, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/nicholas-sawyer/5034"
+      },
+      {
+       "name": "Jackson Singletary",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alabaster, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jackson-singletary/5035"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Juan Pablo Francavilla",
+       "title": "Golf Graduate Assistant",
+       "email": "jfrancavilla@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/juan-pablo-francavilla/972"
+      },
+      {
+       "name": "Max Basler",
+       "title": "Golf Graduate Assistant",
+       "email": "mbasler@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/max-basler/973"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Max Basler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Konigswinter, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/max-basler/4745"
+      },
+      {
+       "name": "Jesus Dario Montenegro",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mar del Plata, Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jesus-dario-montenegro/4746"
+      },
+      {
+       "name": "Juan Pablo Francavilla",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/juan-pablo-francavilla/4747"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Noah Hume",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/noah-hume/5501"
+      },
+      {
+       "name": "Alessandro Lamarca",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Zug, Switzerland",
+       "country": "CH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/alessandro-lamarca/4754"
+      },
+      {
+       "name": "Luca Maroto",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Walldorf, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/luca-maroto/4756"
+      },
+      {
+       "name": "Ross Napier",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hartselle, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/ross-napier/5505"
+      },
+      {
+       "name": "Maximo Portais",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/maximo-portais/5032"
+      },
+      {
+       "name": "Gabriel Restrepo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/gabriel-restrepo/6682"
+      },
+      {
+       "name": "Nicholas Sawyer",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Centre, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/nicholas-sawyer/5034"
+      },
+      {
+       "name": "Jackson Singletary",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alabaster, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jackson-singletary/5035"
+      },
+      {
+       "name": "Quim Vidal Mora",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/quim-vidal-mora/4753"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Jacob Joiner",
+       "title": "Assistant Golf Coach",
+       "email": "jmjoiner@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/jacob-joiner/871"
+      },
+      {
+       "name": "Paula Vega",
+       "title": "Golf Graduate Assistant",
+       "email": "pvegadiaz@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/paula-vega/870"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Naheul Barrer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cordoba, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/naheul-barrer/4226"
+      },
+      {
+       "name": "Max Basler",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Konigswinter, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/max-basler/4745"
+      },
+      {
+       "name": "Thomas Burchmann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Yerba Buena, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/thomas-burchmann/4206"
+      },
+      {
+       "name": "Layton Bussey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/layton-bussey/4207"
+      },
+      {
+       "name": "Jesus Dario Montenegro",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mar del Plata, Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jesus-dario-montenegro/4746"
+      },
+      {
+       "name": "Juan Pablo Francavilla",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/juan-pablo-francavilla/4747"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Noah Hume",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/noah-hume/5501"
+      },
+      {
+       "name": "Cole New",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/cole-new/4228"
+      },
+      {
+       "name": "Maximo Portais",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/maximo-portais/5032"
+      },
+      {
+       "name": "Nicholas Sawyer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Centre, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/nicholas-sawyer/5034"
+      },
+      {
+       "name": "Jackson Singletary",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alabaster, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jackson-singletary/5035"
+      },
+      {
+       "name": "Quim Vidal Mora",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/quim-vidal-mora/4753"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Jacob Joiner",
+       "title": "Assistant Golf Coach",
+       "email": "jmjoiner@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/jacob-joiner/871"
+      },
+      {
+       "name": "Paula Vega",
+       "title": "Golf Graduate Assistant",
+       "email": "pvegadiaz@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/paula-vega/870"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Max Basler",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Konigswinter, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/max-basler/4745"
+      },
+      {
+       "name": "Thomas Burchmann",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Yerba Buena, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/thomas-burchmann/4206"
+      },
+      {
+       "name": "Layton Bussey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/layton-bussey/4207"
+      },
+      {
+       "name": "Jesus Dario Montenegro",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mar del Plata, Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jesus-dario-montenegro/4746"
+      },
+      {
+       "name": "Juan Pablo Francavilla",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/juan-pablo-francavilla/4747"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Noah Hume",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/noah-hume/5501"
+      },
+      {
+       "name": "Stewart Miller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oneonta, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/stewart-miller/3947"
+      },
+      {
+       "name": "Maximo Portais",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/maximo-portais/5032"
+      },
+      {
+       "name": "J. Michael Riley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/j-michael-riley/3787"
+      },
+      {
+       "name": "Sergio Ronchel Salas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huelva, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/sergio-ronchel-salas/3790"
+      },
+      {
+       "name": "Benedikt Thalmayr",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ouching, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/benedikt-thalmayr/3788"
+      },
+      {
+       "name": "Quim Vidal Mora",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/quim-vidal-mora/4753"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Halley Morell",
+       "title": "Assistant Golf Coach",
+       "email": "hmorell@jsu.edu",
+       "phone": "(256) 782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/halley-morell/717"
+      },
+      {
+       "name": "Paula Vega",
+       "title": "Golf Graduate Assistant",
+       "email": "pvegadiaz@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/paula-vega/870"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Max Basler",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Konigswinter, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/max-basler/4745"
+      },
+      {
+       "name": "Nicolas Berbeo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/nicolas-berbeo/3440"
+      },
+      {
+       "name": "Thomas Burchmann",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yerba Buena, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/thomas-burchmann/4206"
+      },
+      {
+       "name": "Layton Bussey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/layton-bussey/4207"
+      },
+      {
+       "name": "Jesus Dario Montenegro",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mar del Plata, Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jesus-dario-montenegro/4746"
+      },
+      {
+       "name": "Juan Pablo Francavilla",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/juan-pablo-francavilla/4747"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Stewart Miller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oneonta, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/stewart-miller/3947"
+      },
+      {
+       "name": "Daniel Pico",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/daniel-pico/3445"
+      },
+      {
+       "name": "Maximo Portais",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/maximo-portais/5032"
+      },
+      {
+       "name": "J. Michael Riley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/j-michael-riley/3787"
+      },
+      {
+       "name": "Benedikt Thalmayr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ouching, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/benedikt-thalmayr/3788"
+      },
+      {
+       "name": "Quim Vidal Mora",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/quim-vidal-mora/4753"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Jamie Mist",
+       "title": "Golf Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/jamie-mist/655"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://jaxstatesports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Camilo Aguado",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/camilo-aguado/3067"
+      },
+      {
+       "name": "Max Basler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Konigswinter, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/max-basler/4745"
+      },
+      {
+       "name": "Nicolas Berbeo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/nicolas-berbeo/3440"
+      },
+      {
+       "name": "Thomas Burchmann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yerba Buena, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/thomas-burchmann/4206"
+      },
+      {
+       "name": "Layton Bussey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/layton-bussey/4207"
+      },
+      {
+       "name": "Patricio Freundt-Thurne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Bo Hayes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gadsden, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/bo-hayes/3069"
+      },
+      {
+       "name": "Thomas Lawton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wilmslow, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/thomas-lawton/3070"
+      },
+      {
+       "name": "Jamie Mist",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hayling Island, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/jamie-mist/3071"
+      },
+      {
+       "name": "Daniel Pico",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bucaramanga, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/daniel-pico/3445"
+      },
+      {
+       "name": "J. Michael Riley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/j-michael-riley/3787"
+      },
+      {
+       "name": "William Skaggs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fort Payne, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/william-skaggs/3074"
+      },
+      {
+       "name": "Benedikt Thalmayr",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ouching, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/benedikt-thalmayr/3788"
+      },
+      {
+       "name": "Pablo Torres",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/pablo-torres/3076"
+      },
+      {
+       "name": "Scott Wright",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/scott-wright/3134"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/mens-golf/roster/coaches/james-hobbs/915"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://jaxstatesports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rachel Camp",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Peachtree City, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/rachel-camp/7309"
+      },
+      {
+       "name": "Lara El Chaib",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Abu Dhabi, United Arab Emirates",
+       "country": "AE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/lara-el-chaib/7914"
+      },
+      {
+       "name": "Julie Ulvenes Kleppe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/julie-ulvenes-kleppe/7915"
+      },
+      {
+       "name": "Sandra Menes",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/sandra-menes/7312"
+      },
+      {
+       "name": "Ebby Somers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ebby-somers/7313"
+      },
+      {
+       "name": "Ashley Stevenson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Fontainebleau, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ashley-stevenson/7916"
+      },
+      {
+       "name": "Rebekka Stutley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Adelaide, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/rebekka-stutley/7315"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Robbie Fields",
+       "title": "Women's Golf Head Coach",
+       "email": "rafields@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/robbie-fields/1381"
+      },
+      {
+       "name": "Shelly Chen",
+       "title": "Graduate Assistant",
+       "email": "pchen1@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/shelly-chen/1288"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rachel Camp",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Peachtree City, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/rachel-camp/7309"
+      },
+      {
+       "name": "Emilie Clausen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Naestved, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/emilie-clausen/6670"
+      },
+      {
+       "name": "Lara El Chaib",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Abu Dhabi, United Arab Emirates",
+       "country": "AE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/lara-el-chaib/7914"
+      },
+      {
+       "name": "Sandra Menes",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/sandra-menes/7312"
+      },
+      {
+       "name": "Paula Perez Cubinas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Girona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-perez-cubinas/6667"
+      },
+      {
+       "name": "Ebby Somers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ebby-somers/7313"
+      },
+      {
+       "name": "Ashley Stevenson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fontainebleau, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ashley-stevenson/7916"
+      },
+      {
+       "name": "Rebekka Stutley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Adelaide, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/rebekka-stutley/7315"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Robbie Fields",
+       "title": "Women's Golf Head Coach",
+       "email": "rafields@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/robbie-fields/1381"
+      },
+      {
+       "name": "Shelly Chen",
+       "title": "Graduate Assistant",
+       "email": "pchen1@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/shelly-chen/1288"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rachel Camp",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Peachtree City, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/rachel-camp/7309"
+      },
+      {
+       "name": "Jinger Heath",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Decatur, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/jinger-heath/5974"
+      },
+      {
+       "name": "Sandra Menes",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Bergen, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Rf.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/sandra-menes/7312"
+      },
+      {
+       "name": "Paula Perez Cubinas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Girona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-perez-cubinas/6667"
+      },
+      {
+       "name": "Ebby Somers",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ebby-somers/7313"
+      },
+      {
+       "name": "Ashley Stevenson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fontainebleau, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ashley-stevenson/7916"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Robbie Fields",
+       "title": "Women's Golf Head Coach",
+       "email": "rafields@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/robbie-fields/1381"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luciana Calbimonte",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cochabamba, Bolivia",
+       "country": "BO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/luciana-calbimonte/5485"
+      },
+      {
+       "name": "Rachel Camp",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Peachtree City, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/rachel-camp/7309"
+      },
+      {
+       "name": "Anna Herrlein",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Benito, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/anna-herrlein/5483"
+      },
+      {
+       "name": "Paula Perez Cubinas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Girona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-perez-cubinas/6667"
+      },
+      {
+       "name": "Ebby Somers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ebby-somers/7313"
+      },
+      {
+       "name": "Claire Vermette",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/claire-vermette/5481"
+      },
+      {
+       "name": "Aaron Whitley",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Osprey, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/aaron-whitley/5482"
+      },
+      {
+       "name": "Anna Ymbern Quinoa",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint Cugat Del Valles, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/anna-ymbern-quinoa/5484"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Robbie Fields",
+       "title": "Women's Golf Head Coach",
+       "email": "rafields@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/robbie-fields/1381"
+      },
+      {
+       "name": "Nicole Page",
+       "title": "Women's Golf Assistant Coach",
+       "email": "npage@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/nicole-page/1014"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Valentina Curet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santiago del Estero, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-curet/5043"
+      },
+      {
+       "name": "Libby Kilbride",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sheffield, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/libby-kilbride/5048"
+      },
+      {
+       "name": "Ana Perez Altuna",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ana-perez-altuna/5044"
+      },
+      {
+       "name": "Paula Perez Cubinas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Girona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-perez-cubinas/6667"
+      },
+      {
+       "name": "Berta Sanchez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/berta-sanchez/5045"
+      },
+      {
+       "name": "Claire Vermette",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/claire-vermette/5481"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Juan Pablo Francavilla",
+       "title": "Golf Graduate Assistant",
+       "email": "jfrancavilla@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/juan-pablo-francavilla/972"
+      },
+      {
+       "name": "Max Basler",
+       "title": "Golf Graduate Assistant",
+       "email": "mbasler@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/max-basler/973"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Valentina Curet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santiago del Estero, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-curet/5043"
+      },
+      {
+       "name": "Hanna Dyar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/hanna-dyar/4763"
+      },
+      {
+       "name": "Layne Dyar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/layne-dyar/4759"
+      },
+      {
+       "name": "Javiera Espinosa Vallarino",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/javiera-espinosa-vallarino/4760"
+      },
+      {
+       "name": "Ana Perez Altuna",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ana-perez-altuna/5044"
+      },
+      {
+       "name": "Berta Sanchez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/berta-sanchez/5045"
+      },
+      {
+       "name": "Claire Vermette",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/claire-vermette/5481"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Jacob Joiner",
+       "title": "Assistant Golf Coach",
+       "email": "jmjoiner@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/jacob-joiner/871"
+      },
+      {
+       "name": "Paula Vega",
+       "title": "Golf Graduate Assistant",
+       "email": "pvegadiaz@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/paula-vega/870"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chloe Borders",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/chloe-borders/4217"
+      },
+      {
+       "name": "Valentina Curet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santiago del Estero, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-curet/5043"
+      },
+      {
+       "name": "Layne Dyar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/layne-dyar/4759"
+      },
+      {
+       "name": "Javiera Espinosa Vallarino",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/javiera-espinosa-vallarino/4760"
+      },
+      {
+       "name": "Pia Ohlenbusch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nurnberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/pia-ohlenbusch/4221"
+      },
+      {
+       "name": "Ana Perez Altuna",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ana-perez-altuna/5044"
+      },
+      {
+       "name": "Madilyn Turner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/madilyn-turner/4223"
+      },
+      {
+       "name": "Claire Vermette",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/claire-vermette/5481"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Jacob Joiner",
+       "title": "Assistant Golf Coach",
+       "email": "jmjoiner@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/jacob-joiner/871"
+      },
+      {
+       "name": "Paula Vega",
+       "title": "Golf Graduate Assistant",
+       "email": "pvegadiaz@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/paula-vega/870"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chloe Borders",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/chloe-borders/4217"
+      },
+      {
+       "name": "Valentina Curet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santiago del Estero, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-curet/5043"
+      },
+      {
+       "name": "Layne Dyar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/layne-dyar/4759"
+      },
+      {
+       "name": "Javiera Espinosa Vallarino",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/javiera-espinosa-vallarino/4760"
+      },
+      {
+       "name": "Pia Ohlenbusch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nurnberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/pia-ohlenbusch/4221"
+      },
+      {
+       "name": "Ana Perez Altuna",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ana-perez-altuna/5044"
+      },
+      {
+       "name": "Madilyn Turner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/madilyn-turner/4223"
+      },
+      {
+       "name": "Paula Vega",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Medellin, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-vega/3799"
+      },
+      {
+       "name": "Claire Vermette",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/claire-vermette/5481"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Halley Morell",
+       "title": "Assistant Golf Coach",
+       "email": "hmorell@jsu.edu",
+       "phone": "(256) 782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/halley-morell/717"
+      },
+      {
+       "name": "Paula Vega",
+       "title": "Golf Graduate Assistant",
+       "email": "pvegadiaz@stu.jsu.edu",
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/paula-vega/870"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chloe Borders",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/chloe-borders/4217"
+      },
+      {
+       "name": "Valentina Curet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santiago del Estero, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-curet/5043"
+      },
+      {
+       "name": "Layne Dyar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/layne-dyar/4759"
+      },
+      {
+       "name": "Javiera Espinosa Vallarino",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/javiera-espinosa-vallarino/4760"
+      },
+      {
+       "name": "Valentina Giraldo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ibague, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-giraldo/3458"
+      },
+      {
+       "name": "Pia Ohlenbusch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nurnberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/pia-ohlenbusch/4221"
+      },
+      {
+       "name": "Ana Perez Altuna",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/ana-perez-altuna/5044"
+      },
+      {
+       "name": "Madilyn Turner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/madilyn-turner/4223"
+      },
+      {
+       "name": "Paula Vega",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Medellin, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-vega/3799"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/james-hobbs/915"
+      },
+      {
+       "name": "Jamie Mist",
+       "title": "Golf Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/jamie-mist/655"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://jaxstatesports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chloe Borders",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/chloe-borders/4217"
+      },
+      {
+       "name": "Layne Dyar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "White Plains, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/layne-dyar/4759"
+      },
+      {
+       "name": "Javiera Espinosa Vallarino",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/javiera-espinosa-vallarino/4760"
+      },
+      {
+       "name": "Valentina Giraldo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ibague, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/valentina-giraldo/3458"
+      },
+      {
+       "name": "Karina Kukkonen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oulu, Finland",
+       "country": "FI",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/karina-kukkonen/3080"
+      },
+      {
+       "name": "Pia Ohlenbusch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nurnberg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/pia-ohlenbusch/4221"
+      },
+      {
+       "name": "Madilyn Turner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/madilyn-turner/4223"
+      },
+      {
+       "name": "Angie Varona",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Jose, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/angie-varona/3082"
+      },
+      {
+       "name": "Paula Vega",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Medellin, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/paula-vega/3799"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "James Hobbs",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": "jhobbs@jsu.edu",
+       "phone": "256-782-5840",
+       "profile_url": "https://jaxstatesports.com/sports/womens-golf/roster/coaches/james-hobbs/915"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://jaxstatesports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://jaxstatesports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://jaxstatesports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://jaxstatesports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://jaxstatesports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

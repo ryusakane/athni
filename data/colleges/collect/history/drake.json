@@ -1,12 +1,942 @@
 {
  "slug": "drake",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://godrakebulldogs.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Luke Bohmer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Temecula, Calif.",
+       "country": "US",
+       "previous_school": "Linfield Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/luke-bohmer/10494"
+      },
+      {
+       "name": "Sammy Bonaobra",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Broken Arrow, Okla.",
+       "country": "US",
+       "previous_school": "Union",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/sammy-bonaobra/10495"
+      },
+      {
+       "name": "Dylan Drogemuller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Frankfort, Ill.",
+       "country": "US",
+       "previous_school": "Lincoln-Way East",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/dylan-drogemuller/10488"
+      },
+      {
+       "name": "Sam Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/sam-johnson/10489"
+      },
+      {
+       "name": "Parker Payne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Noble, Okla.",
+       "country": "US",
+       "previous_school": "Noble",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/parker-payne/10490"
+      },
+      {
+       "name": "Chase Pickering",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tucson, Ariz.",
+       "country": "US",
+       "previous_school": "Sabino",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/chase-pickering/10493"
+      },
+      {
+       "name": "Nate Spear",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burlington, Iowa",
+       "country": "US",
+       "previous_school": "Burlington",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nate-spear/10491"
+      },
+      {
+       "name": "Jake Weissenburger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clive, Iowa",
+       "country": "US",
+       "previous_school": "Des Moines Christian",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jake-weissenburger/10492"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/1585"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dylan Drogemuller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Frankfort, Ill.",
+       "country": "US",
+       "previous_school": "Lincoln-Way East",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/dylan-drogemuller/10132"
+      },
+      {
+       "name": "Jack Dumas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "LeClaire, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jack-dumas/10133"
+      },
+      {
+       "name": "Nikko Ganas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Schaumburg, Ill.",
+       "country": "US",
+       "previous_school": "James B. Conant",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nikko-ganas/10134"
+      },
+      {
+       "name": "Sam Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/sam-johnson/10138"
+      },
+      {
+       "name": "Parker Payne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Noble, Okla.",
+       "country": "US",
+       "previous_school": "Noble",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/parker-payne/10139"
+      },
+      {
+       "name": "Nate Spear",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burlington, Iowa",
+       "country": "US",
+       "previous_school": "Burlington",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nate-spear/10135"
+      },
+      {
+       "name": "Jake Weissenburger",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clive, Iowa",
+       "country": "US",
+       "previous_school": "Des Moines Christian",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jake-weissenburger/10136"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/1508"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dylan Drogemuller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Frankfort, Ill.",
+       "country": "US",
+       "previous_school": "Lincoln-Way East",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/dylan-drogemuller/9480"
+      },
+      {
+       "name": "Jack Dumas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "LeClaire, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jack-dumas/9475"
+      },
+      {
+       "name": "Nikko Ganas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Schaumburg, Ill.",
+       "country": "US",
+       "previous_school": "James B. Conant",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nikko-ganas/9476"
+      },
+      {
+       "name": "Emil Riegger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hinsdale, Ill.",
+       "country": "US",
+       "previous_school": "Hinsdale Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/emil-riegger/9481"
+      },
+      {
+       "name": "Nate Spear",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burlington, Iowa",
+       "country": "US",
+       "previous_school": "Burlington",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nate-spear/9477"
+      },
+      {
+       "name": "Silvester Tan",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Perth, Australia",
+       "country": "AU",
+       "previous_school": "Como Secondary",
+       "class_raw": "5th",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/silvester-tan/9478"
+      },
+      {
+       "name": "Jake Weissenburger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clive, Iowa",
+       "country": "US",
+       "previous_school": "Des Moines Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jake-weissenburger/9482"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/1382"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Dumas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "LeClaire, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jack-dumas/9135"
+      },
+      {
+       "name": "Nikko Ganas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Schaumburg, Ill.",
+       "country": "US",
+       "previous_school": "James B. Conant",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nikko-ganas/9136"
+      },
+      {
+       "name": "Cale Leonard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ottumwa, Iowa",
+       "country": "US",
+       "previous_school": "Ottumwa",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/cale-leonard/9141"
+      },
+      {
+       "name": "Shayne Patel",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "Gr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/shayne-patel/9137"
+      },
+      {
+       "name": "Nick Pittman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Urbandale, Iowa",
+       "country": "US",
+       "previous_school": "Johnston",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nick-pittman/9138"
+      },
+      {
+       "name": "Lucas Scherf",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Grinnell, Iowa",
+       "country": "US",
+       "previous_school": "Grinnell",
+       "class_raw": "Gr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/lucas-scherf/9139"
+      },
+      {
+       "name": "Nate Spear",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burlington, Iowa",
+       "country": "US",
+       "previous_school": "Burlington",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nate-spear/9142"
+      },
+      {
+       "name": "Silvester Tan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Perth, Australia",
+       "country": "AU",
+       "previous_school": "Como Secondary",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/silvester-tan/9140"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/1291"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Dumas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "LeClaire, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jack-dumas/8394"
+      },
+      {
+       "name": "Nikko Ganas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Schaumburg, Ill.",
+       "country": "US",
+       "previous_school": "James B. Conant",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nikko-ganas/8395"
+      },
+      {
+       "name": "Zac Jenkins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Warfield, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/zac-jenkins/8388"
+      },
+      {
+       "name": "Tim Lim",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hoffman Estates, Ill.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "Gr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tim-lim/8389"
+      },
+      {
+       "name": "Shayne Patel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/shayne-patel/8390"
+      },
+      {
+       "name": "Nick Pittman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Urbandale, Iowa",
+       "country": "US",
+       "previous_school": "Johnston",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nick-pittman/8391"
+      },
+      {
+       "name": "Lucas Scherf",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grinnell, Iowa",
+       "country": "US",
+       "previous_school": "Grinnell",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/lucas-scherf/8392"
+      },
+      {
+       "name": "Silvester Tan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Perth, Australia",
+       "country": "AU",
+       "previous_school": "Como Secondary",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/silvester-tan/8393"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/1149"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Will Ellegard",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/will-ellegard/7728"
+      },
+      {
+       "name": "Zac Jenkins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Warfield, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/zac-jenkins/7721"
+      },
+      {
+       "name": "Tim Lim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hoffman Estates, Ill.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tim-lim/7722"
+      },
+      {
+       "name": "Kyle MacDonald",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario",
+       "country": "CA",
+       "previous_school": "King's Christian College",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/kyle-macdonald/7723"
+      },
+      {
+       "name": "Shayne Patel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/shayne-patel/7724"
+      },
+      {
+       "name": "Nick Pittman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Urbandale, Iowa",
+       "country": "US",
+       "previous_school": "Johnston",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nick-pittman/7725"
+      },
+      {
+       "name": "Lucas Scherf",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grinnell, Iowa",
+       "country": "US",
+       "previous_school": "Grinnell",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/lucas-scherf/7726"
+      },
+      {
+       "name": "Silvester Tan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Perth, Australia",
+       "country": "AU",
+       "previous_school": "Como Secondary",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/silvester-tan/7727"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/1026"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zac Jenkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Warfield, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/zac-jenkins/6634"
+      },
+      {
+       "name": "Tim Lim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hoffman Estates, Ill.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tim-lim/6635"
+      },
+      {
+       "name": "Kyle MacDonald",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario",
+       "country": "CA",
+       "previous_school": "King's Christian College",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/kyle-macdonald/6636"
+      },
+      {
+       "name": "Shayne Patel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/shayne-patel/6637"
+      },
+      {
+       "name": "Nick Pittman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Urbandale, Iowa",
+       "country": "US",
+       "previous_school": "Johnston",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/nick-pittman/6640"
+      },
+      {
+       "name": "Lucas Scherf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grinnell, Iowa",
+       "country": "US",
+       "previous_school": "Grinnell",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/lucas-scherf/6638"
+      },
+      {
+       "name": "Silvester Tan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Perth, Australia",
+       "country": "AU",
+       "previous_school": "Como Secondary",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/silvester-tan/6650"
+      },
+      {
+       "name": "Chase Wicklund",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/chase-wicklund/6639"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/953"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tommi Avant",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tommi-avant/6127"
+      },
+      {
+       "name": "Zac Jenkins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Warfield, England",
+       "country": "GB",
+       "previous_school": "Wellington College",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/zac-jenkins/6139"
+      },
+      {
+       "name": "Tim Lim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hoffman Estates, Ill.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tim-lim/6128"
+      },
+      {
+       "name": "Kyle MacDonald",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario",
+       "country": "CA",
+       "previous_school": "King's Christian College",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/kyle-macdonald/6129"
+      },
+      {
+       "name": "Shayne Patel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/shayne-patel/6137"
+      },
+      {
+       "name": "Arjun Reddy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tulsa, Okla.",
+       "country": "US",
+       "previous_school": "Holland Hall",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/arjun-reddy/6130"
+      },
+      {
+       "name": "Lucas Scherf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Grinnell, Iowa",
+       "country": "US",
+       "previous_school": "Grinnell",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/lucas-scherf/6138"
+      },
+      {
+       "name": "Chase Wicklund",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/chase-wicklund/6131"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/845"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tommi Avant",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tommi-avant/5560"
+      },
+      {
+       "name": "Drew Ison",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Sante Fe",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/drew-ison/5561"
+      },
+      {
+       "name": "Jack Kennedy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jack-kennedy/5562"
+      },
+      {
+       "name": "Matt Lavery",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Peoria, Ill.",
+       "country": "US",
+       "previous_school": "Dunlap",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/matt-lavery/5563"
+      },
+      {
+       "name": "Tim Lim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hoffman Estates, Ill.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tim-lim/5739"
+      },
+      {
+       "name": "Kyle MacDonald",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario",
+       "country": "CA",
+       "previous_school": "King's Christian College",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/kyle-macdonald/5564"
+      },
+      {
+       "name": "Arjun Reddy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tulsa, Okla.",
+       "country": "US",
+       "previous_school": "Holland Hall",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/arjun-reddy/5565"
+      },
+      {
+       "name": "Chase Wicklund",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/chase-wicklund/5566"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/709"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tommi Avant",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "Hamilton",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/tommi-avant/5148"
+      },
+      {
+       "name": "Drew Ison",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Sante Fe",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/drew-ison/5149"
+      },
+      {
+       "name": "Jack Kennedy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/jack-kennedy/5150"
+      },
+      {
+       "name": "Matt Lavery",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Peoria, Ill.",
+       "country": "US",
+       "previous_school": "Dunlap",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/matt-lavery/5151"
+      },
+      {
+       "name": "Kyle MacDonald",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario",
+       "country": "CA",
+       "previous_school": "King's Christian College",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/kyle-macdonald/5168"
+      },
+      {
+       "name": "Arjun Reddy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tulsa, Okla.",
+       "country": "US",
+       "previous_school": "Holland Hall",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/arjun-reddy/5152"
+      },
+      {
+       "name": "Karter Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Detroit Lakes, Minn.",
+       "country": "US",
+       "previous_school": "Detroit Lakes",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/karter-smith/5153"
+      },
+      {
+       "name": "Chase Wicklund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/chase-wicklund/5167"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Lewis",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/mens-golf/roster/coaches/matt-lewis/629"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
@@ -116,23 +1046,913 @@
        "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/steve-smith/1586"
       }
      ]
+    },
+    "2024-25": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kate Connolly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kate-connolly/10140"
+      },
+      {
+       "name": "Alicia Henault",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint-Guillaume, Canada",
+       "country": "CA",
+       "previous_school": "Cegep Champlain St-Lawrence",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/alicia-henault/10147"
+      },
+      {
+       "name": "Amber Henson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/amber-henson/10141"
+      },
+      {
+       "name": "Rylee Heryford",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newton, Iowa",
+       "country": "US",
+       "previous_school": "Newton",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/rylee-heryford/10142"
+      },
+      {
+       "name": "Erika Holmberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/erika-holmberg/10143"
+      },
+      {
+       "name": "Julie Huggins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/julie-huggins/10144"
+      },
+      {
+       "name": "Alexis Reyes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "El Paso, Texas",
+       "country": "US",
+       "previous_school": "Indiana University High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/alexis-reyes/10146"
+      },
+      {
+       "name": "Ellee Seung",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lantana, Texas",
+       "country": "US",
+       "previous_school": "Liberty Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/ellee-seung/10148"
+      },
+      {
+       "name": "Gracie Tribolet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lewisville, Texas",
+       "country": "US",
+       "previous_school": "Hebron",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/gracie-tribolet/10145"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Smith",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/steve-smith/1509"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kate Connolly",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kate-connolly/9390"
+      },
+      {
+       "name": "Amber Henson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/amber-henson/9383"
+      },
+      {
+       "name": "Rylee Heryford",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newton, Iowa",
+       "country": "US",
+       "previous_school": "Newton",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/rylee-heryford/9384"
+      },
+      {
+       "name": "Erika Holmberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/erika-holmberg/9385"
+      },
+      {
+       "name": "Julie Huggins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "Boulder Creek",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/julie-huggins/9391"
+      },
+      {
+       "name": "Kelly Kavanagh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arlington Heights, Ill.",
+       "country": "US",
+       "previous_school": "Prospect",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kelly-kavanagh/9386"
+      },
+      {
+       "name": "Abby Marting",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Dubuque",
+       "class_raw": "Gr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/abby-marting/9387"
+      },
+      {
+       "name": "Aayushi Sarkar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodbury, Minn.",
+       "country": "US",
+       "previous_school": "Woodbury",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aayushi-sarkar/9388"
+      },
+      {
+       "name": "Gracie Tribolet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lewisville, Texas",
+       "country": "US",
+       "previous_school": "Hebron",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/gracie-tribolet/9389"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Smith",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/steve-smith/1367"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kristen Giles",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario",
+       "country": "CA",
+       "previous_school": "Georgetown",
+       "class_raw": "Gr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kristen-giles/9042"
+      },
+      {
+       "name": "Amber Henson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/amber-henson/9048"
+      },
+      {
+       "name": "Rylee Heryford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newton, Iowa",
+       "country": "US",
+       "previous_school": "Newton",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/rylee-heryford/9049"
+      },
+      {
+       "name": "Erika Holmberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bettendorf, Iowa",
+       "country": "US",
+       "previous_school": "Pleasant Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/erika-holmberg/9047"
+      },
+      {
+       "name": "Kelly Kavanagh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arlington Heights, Ill.",
+       "country": "US",
+       "previous_school": "Prospect",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kelly-kavanagh/9043"
+      },
+      {
+       "name": "Abby Marting",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Dubuque",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/abby-marting/9044"
+      },
+      {
+       "name": "Aayushi Sarkar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodbury, Minn.",
+       "country": "US",
+       "previous_school": "Woodbury",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aayushi-sarkar/9045"
+      },
+      {
+       "name": "Gracie Tribolet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lewisville, Texas",
+       "country": "US",
+       "previous_school": "Hebron",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/gracie-tribolet/9046"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Smith",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/steve-smith/1272"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kristen Giles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario",
+       "country": "CA",
+       "previous_school": "Georgetown",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kristen-giles/8425"
+      },
+      {
+       "name": "Kelly Kavanagh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Arlington Heights, Ill.",
+       "country": "US",
+       "previous_school": "Prospect",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kelly-kavanagh/8426"
+      },
+      {
+       "name": "Haeri Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buffalo Grove, Ill.",
+       "country": "US",
+       "previous_school": "Buffalo Grove",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/haeri-lee/8427"
+      },
+      {
+       "name": "Abby Marting",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Dubuque",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/abby-marting/8428"
+      },
+      {
+       "name": "Sam Paulak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Park Hill",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sam-paulak/8429"
+      },
+      {
+       "name": "Aayushi Sarkar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woodbury, Minn.",
+       "country": "US",
+       "previous_school": "Woodbury",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aayushi-sarkar/8430"
+      },
+      {
+       "name": "Gracie Tribolet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lewisville, Texas",
+       "country": "US",
+       "previous_school": "Hebron",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/gracie-tribolet/8431"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Smith",
+       "title": "Interim Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/steve-smith/1215"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kristen Giles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario",
+       "country": "CA",
+       "previous_school": "Georgetown",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kristen-giles/7729"
+      },
+      {
+       "name": "Kelly Kavanagh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Arlington Heights, Ill.",
+       "country": "US",
+       "previous_school": "Prospect",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kelly-kavanagh/7735"
+      },
+      {
+       "name": "Haeri Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buffalo Grove, Ill.",
+       "country": "US",
+       "previous_school": "Buffalo Grove",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/haeri-lee/7730"
+      },
+      {
+       "name": "Abby Marting",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Dubuque",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/abby-marting/7731"
+      },
+      {
+       "name": "Lexi Meade",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eau Claire, Wis.",
+       "country": "US",
+       "previous_school": "Memorial",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/lexi-meade/7732"
+      },
+      {
+       "name": "Sam Paulak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Park Hill",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sam-paulak/7733"
+      },
+      {
+       "name": "Aayushi Sarkar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Woodbury, Minn.",
+       "country": "US",
+       "previous_school": "Woodbury",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aayushi-sarkar/7734"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachael Pruett-Hornbaker",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/rachael-pruett-hornbaker/1027"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Aimee Gerschke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Milwaukee, Wis.",
+       "country": "US",
+       "previous_school": "St. Thomas More",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aimee-gerschke/6657"
+      },
+      {
+       "name": "Kristen Giles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario",
+       "country": "CA",
+       "previous_school": "Georgetown",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kristen-giles/6658"
+      },
+      {
+       "name": "Sigurlaug Jonsdottir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hafnarfjordur, Iceland",
+       "country": "IS",
+       "previous_school": "Flensborgarskolinn",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sigurlaug-jonsdottir/6659"
+      },
+      {
+       "name": "Reilly Krohe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/reilly-krohe/6660"
+      },
+      {
+       "name": "Haeri Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Buffalo Grove, Ill.",
+       "country": "US",
+       "previous_school": "Buffalo Grove",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/haeri-lee/6661"
+      },
+      {
+       "name": "Abby Marting",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Dubuque",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/abby-marting/6665"
+      },
+      {
+       "name": "Lexi Meade",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eau Claire, Wis.",
+       "country": "US",
+       "previous_school": "Memorial",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/lexi-meade/6664"
+      },
+      {
+       "name": "Erica Olberding",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Dowling Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/erica-olberding/6662"
+      },
+      {
+       "name": "Sam Paulak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Park Hill",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sam-paulak/6663"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachael Pruett-Hornbaker",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/rachael-pruett-hornbaker/954"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Grace Dunn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brookfield, Wis.",
+       "country": "US",
+       "previous_school": "Brookfield Central",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/grace-dunn/6115"
+      },
+      {
+       "name": "Aimee Gerschke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "South Milwaukee, Wis.",
+       "country": "US",
+       "previous_school": "St. Thomas More",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aimee-gerschke/6116"
+      },
+      {
+       "name": "Kristen Giles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ontario",
+       "country": "CA",
+       "previous_school": "Georgetown",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/kristen-giles/6121"
+      },
+      {
+       "name": "Sigurlaug Jonsdottir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hafnarfjordur, Iceland",
+       "country": "IS",
+       "previous_school": "Flensborgarskolinn",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sigurlaug-jonsdottir/6117"
+      },
+      {
+       "name": "Reilly Krohe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/reilly-krohe/6118"
+      },
+      {
+       "name": "Haeri Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Buffalo Grove, Ill.",
+       "country": "US",
+       "previous_school": "Buffalo Grove",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/haeri-lee/6120"
+      },
+      {
+       "name": "Erica Olberding",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Dowling Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/erica-olberding/6171"
+      },
+      {
+       "name": "Sam Paulak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Park Hill",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sam-paulak/6119"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachael Pruett-Hornbaker",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/rachael-pruett-hornbaker/841"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Nicole Blanchard",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pocatello, Idaho",
+       "country": "US",
+       "previous_school": "Century",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/nicole-blanchard/5553"
+      },
+      {
+       "name": "Grace Dunn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brookfield, Wis.",
+       "country": "US",
+       "previous_school": "Brookfield Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/grace-dunn/5554"
+      },
+      {
+       "name": "Aimee Gerschke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Milwaukee, Wis.",
+       "country": "US",
+       "previous_school": "St. Thomas More",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aimee-gerschke/5555"
+      },
+      {
+       "name": "Madison Glennie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Countryside",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/madison-glennie/5556"
+      },
+      {
+       "name": "Sigurlaug Jonsdottir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hafnarfjordur, Iceland",
+       "country": "IS",
+       "previous_school": "Flensborgarskolinn",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sigurlaug-jonsdottir/5557"
+      },
+      {
+       "name": "Reilly Krohe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/reilly-krohe/5558"
+      },
+      {
+       "name": "Brooke Miller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pomona, Calif.",
+       "country": "US",
+       "previous_school": "Diamond Bar",
+       "class_raw": "Sr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/brooke-miller/5559"
+      },
+      {
+       "name": "Sam Paulak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kansas City, Mo.",
+       "country": "US",
+       "previous_school": "Park Hill",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sam-paulak/5740"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachael Pruett-Hornbaker",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/rachael-pruett-hornbaker/708"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Nicole Blanchard",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pocatello, Idaho",
+       "country": "US",
+       "previous_school": "Century",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/nicole-blanchard/5383"
+      },
+      {
+       "name": "Grace Dunn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brookfield, Wis.",
+       "country": "US",
+       "previous_school": "Brookfield Central",
+       "class_raw": "So.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/grace-dunn/5142"
+      },
+      {
+       "name": "Aimee Gerschke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Milwaukee, Wis.",
+       "country": "US",
+       "previous_school": "St. Thomas More",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/aimee-gerschke/5145"
+      },
+      {
+       "name": "Madison Glennie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clearwater, Fla.",
+       "country": "US",
+       "previous_school": "Countryside",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/madison-glennie/5143"
+      },
+      {
+       "name": "Sigurlaug Jonsdottir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hafnarfjordur, Iceland",
+       "country": "IS",
+       "previous_school": "Flensborgarskolinn",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/sigurlaug-jonsdottir/5146"
+      },
+      {
+       "name": "Reilly Krohe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "Geneva",
+       "class_raw": "Fr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/reilly-krohe/5147"
+      },
+      {
+       "name": "Brooke Miller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pomona, Calif.",
+       "country": "US",
+       "previous_school": "Diamond Bar",
+       "class_raw": "Jr.",
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/brooke-miller/5144"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachael Pruett-Hornbaker",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://godrakebulldogs.com/sports/womens-golf/roster/coaches/rachael-pruett-hornbaker/628"
+      }
+     ]
     }
-   },
-   "blocked": true
+   }
   }
  ],
  "requests": [
   {
    "url": "https://godrakebulldogs.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://godrakebulldogs.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2025-26",
@@ -140,7 +1960,39 @@
   },
   {
    "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2024-25",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://godrakebulldogs.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

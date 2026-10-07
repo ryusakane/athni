@@ -1,36 +1,2418 @@
 {
  "slug": "eastern-kentucky",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://ekusports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Justin Begley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/justin-begley/11757"
+      },
+      {
+       "name": "Jameson Corbin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glasgow, Ky.",
+       "country": "US",
+       "previous_school": "Barren County HS",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jameson-corbin/11758"
+      },
+      {
+       "name": "Jackson Finney",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jackson-finney/11759"
+      },
+      {
+       "name": "Anders Larson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pine Island, MN",
+       "country": "US",
+       "previous_school": "Tennessee Tech",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/anders-larson/11760"
+      },
+      {
+       "name": "Jacob Lewallen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wylie, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jacob-lewallen/11764"
+      },
+      {
+       "name": "Gehrig Sexton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/gehrig-sexton/11761"
+      },
+      {
+       "name": "Carl Space",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, Ky",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/carl-space/11762"
+      },
+      {
+       "name": "Zach Watterson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beattyville, Ky.",
+       "country": "US",
+       "previous_school": "Lee County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/zach-watterson/11763"
+      },
+      {
+       "name": "Hristo Yanakiev",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Bankya, Bulgaria",
+       "country": "BG",
+       "previous_school": "Kansas",
+       "class_raw": "Rf.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/hristo-yanakiev/11765"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pat Stephens",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/pat-stephens/1807"
+      },
+      {
+       "name": "Noah Combs",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/noah-combs/1808"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Justin Begley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/justin-begley/10807"
+      },
+      {
+       "name": "Jameson Corbin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glasgow, Ky.",
+       "country": "US",
+       "previous_school": "Barren County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jameson-corbin/10814"
+      },
+      {
+       "name": "Jackson Finney",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "R-So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jackson-finney/10815"
+      },
+      {
+       "name": "Connor Gdovin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mayfield, OH",
+       "country": "US",
+       "previous_school": "Bowling Green",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/connor-gdovin/10817"
+      },
+      {
+       "name": "Anders Larson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pine Island, MN",
+       "country": "US",
+       "previous_school": "Tennessee Tech",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/anders-larson/10816"
+      },
+      {
+       "name": "Isaac Meador",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lafayette, Tenn.",
+       "country": "US",
+       "previous_school": "Campbellsville University Harrodsburg",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/isaac-meador/10808"
+      },
+      {
+       "name": "Camden Robertson",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Texarkana, Texas",
+       "country": "US",
+       "previous_school": "Kentucky Wesleyan",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/camden-robertson/10809"
+      },
+      {
+       "name": "Gehrig Sexton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/gehrig-sexton/10810"
+      },
+      {
+       "name": "Carl Space",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/carl-space/10813"
+      },
+      {
+       "name": "Kannon Tucker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Somerset, Ky.",
+       "country": "US",
+       "previous_school": "Bellarmine University",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/kannon-tucker/10811"
+      },
+      {
+       "name": "Zach Watterson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beattyville, Ky.",
+       "country": "US",
+       "previous_school": "Lee County HS",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/zach-watterson/10812"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pat Stephens",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/pat-stephens/1764"
+      },
+      {
+       "name": "Noah Combs",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/noah-combs/1765"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alec Barker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Morehead, Ky.",
+       "country": "US",
+       "previous_school": "Newbury HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/alec-barker/9660"
+      },
+      {
+       "name": "Justin Begley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County HS",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/justin-begley/9653"
+      },
+      {
+       "name": "Joe Benton",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Irvine, Ky.",
+       "country": "US",
+       "previous_school": "Estill County HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/joe-benton/9654"
+      },
+      {
+       "name": "Pablo Carrascosa Vivas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chiclana de la Frontera, Spain",
+       "country": "ES",
+       "previous_school": "IES Pablo Ruiz Picasso",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/pablo-carrascosa-vivas/9655"
+      },
+      {
+       "name": "Malik Dao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Notre-Dame-de-l'Île-Perrot, Quebec",
+       "country": "CA",
+       "previous_school": "Ecole Secondaire du Chene-Bleu",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/malik-dao/9656"
+      },
+      {
+       "name": "Jason Kolbas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb.",
+       "country": "US",
+       "previous_school": "Iowa Western",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jason-kolbas/9662"
+      },
+      {
+       "name": "Isaac Meador",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lafayette, Tenn.",
+       "country": "US",
+       "previous_school": "Campbellsville University Harrodsburg",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/isaac-meador/9734"
+      },
+      {
+       "name": "Camden Robertson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Texarkana, Texas",
+       "country": "US",
+       "previous_school": "Kentucky Wesleyan",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/camden-robertson/9657"
+      },
+      {
+       "name": "Gehrig Sexton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/gehrig-sexton/9658"
+      },
+      {
+       "name": "Reese Sexton",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/reese-sexton/9659"
+      },
+      {
+       "name": "Kannon Tucker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Somerset, Ky.",
+       "country": "US",
+       "previous_school": "Bellarmine University",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/kannon-tucker/9736"
+      },
+      {
+       "name": "Zach Watterson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beattyville, Ky.",
+       "country": "US",
+       "previous_school": "Lee County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/zach-watterson/9661"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Justin Tereshko",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/justin-tereshko/1485"
+      },
+      {
+       "name": "Matt Ariza",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/matt-ariza/1514"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Justin Begley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/justin-begley/9164"
+      },
+      {
+       "name": "Joe Benton",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Irvine, Ky.",
+       "country": "US",
+       "previous_school": "Estill County HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/joe-benton/9075"
+      },
+      {
+       "name": "Cade Burdette",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/cade-burdette/9076"
+      },
+      {
+       "name": "Pablo Carrascosa Vivas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chiclana de la Frontera, Spain",
+       "country": "ES",
+       "previous_school": "IES Pablo Ruiz Picasso",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/pablo-carrascosa-vivas/9077"
+      },
+      {
+       "name": "Malik Dao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Notre-Dame-de-l'Île-Perrot, Quebec",
+       "country": "CA",
+       "previous_school": "Ecole Secondaire du Chene-Bleu",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/malik-dao/9085"
+      },
+      {
+       "name": "Wil Griffin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hot Springs, Ark.",
+       "country": "US",
+       "previous_school": "Lakeside High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/wil-griffin/9078"
+      },
+      {
+       "name": "Francesco Guarneri",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": "University of the Cumberlands",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/francesco-guarneri/9079"
+      },
+      {
+       "name": "Matt Jordan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Franklin, Ind.",
+       "country": "US",
+       "previous_school": "Vincennes University",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/matt-jordan/9080"
+      },
+      {
+       "name": "Camden Robertson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Texarkana, Texas",
+       "country": "US",
+       "previous_school": "Kentucky Wesleyan",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/camden-robertson/9361"
+      },
+      {
+       "name": "Gehrig Sexton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/gehrig-sexton/9084"
+      },
+      {
+       "name": "Reese Sexton",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/reese-sexton/9081"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Justin Tereshko",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/justin-tereshko/1418"
+      },
+      {
+       "name": "Chip McDaniel",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/chip-mcdaniel/1409"
+      },
+      {
+       "name": "Morgan Lehotsky",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/morgan-lehotsky/1385"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joe Benton",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Irvine, Ky.",
+       "country": "US",
+       "previous_school": "Estill County HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/joe-benton/8701"
+      },
+      {
+       "name": "Cade Burdette",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/cade-burdette/8702"
+      },
+      {
+       "name": "Pablo Carrascosa Vivas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chiclana de la Frontera, Spain",
+       "country": "ES",
+       "previous_school": "IES Pablo Ruiz Picasso",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/pablo-carrascosa-vivas/8703"
+      },
+      {
+       "name": "Willis Gaer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Theodore Roosevelt HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/willis-gaer/8704"
+      },
+      {
+       "name": "Wil Griffin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hot Springs, Ark.",
+       "country": "US",
+       "previous_school": "Lakeside High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/wil-griffin/8812"
+      },
+      {
+       "name": "Francesco Guarneri",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": "University of the Cumberlands",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/francesco-guarneri/8707"
+      },
+      {
+       "name": "Matt Jordan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Franklin, Ind.",
+       "country": "US",
+       "previous_school": "Vincennes University",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/matt-jordan/8709"
+      },
+      {
+       "name": "Lake Leroux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbia, Mo.",
+       "country": "US",
+       "previous_school": "Wichita State University",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/lake-leroux/8708"
+      },
+      {
+       "name": "Reese Sexton",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/reese-sexton/8706"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mike Whitson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/mike-whitson/1332"
+      },
+      {
+       "name": "Will Sallee",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/will-sallee/1333"
+      },
+      {
+       "name": "Morgan Lehotsky",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/morgan-lehotsky/1368"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Billy Basham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "St. Xavier High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/billy-basham/8311"
+      },
+      {
+       "name": "Joe Benton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Irvine, Ky.",
+       "country": "US",
+       "previous_school": "Estill County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/joe-benton/8318"
+      },
+      {
+       "name": "Cade Burdette",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/cade-burdette/8312"
+      },
+      {
+       "name": "Pablo Carrascosa Vivas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chiclana de la Frontera, Spain",
+       "country": "ES",
+       "previous_school": "IES Pablo Ruiz Picasso",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/pablo-carrascosa-vivas/8313"
+      },
+      {
+       "name": "Willis Gaer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Theodore Roosevelt HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/willis-gaer/8314"
+      },
+      {
+       "name": "Henry Lane",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lafayette High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/henry-lane/8319"
+      },
+      {
+       "name": "Markus Lindgren",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sollentuna, Sweden",
+       "country": "SE",
+       "previous_school": "Lindenwood University",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/markus-lindgren/8315"
+      },
+      {
+       "name": "Andreas Nielsen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ikast, Denmark",
+       "country": "DK",
+       "previous_school": "Parkland College",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/andreas-nielsen/8316"
+      },
+      {
+       "name": "Axel Nordborg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/axel-nordborg/8317"
+      },
+      {
+       "name": "Reese Sexton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monticello, Ky.",
+       "country": "US",
+       "previous_school": "Wayne County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/reese-sexton/8321"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mike Whitson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/mike-whitson/1253"
+      },
+      {
+       "name": "Will Sallee",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/will-sallee/1280"
+      },
+      {
+       "name": "Tom Giacchini",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/tom-giacchini/1252"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Billy Basham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "St. Xavier High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/billy-basham/7707"
+      },
+      {
+       "name": "Cade Burdette",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/cade-burdette/7712"
+      },
+      {
+       "name": "Pablo Carrascosa Vivas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chiclana de la Frontera, Spain",
+       "country": "ES",
+       "previous_school": "IES Pablo Ruiz Picasso",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/pablo-carrascosa-vivas/7713"
+      },
+      {
+       "name": "Willis Gaer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Theodore Roosevelt HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/willis-gaer/7708"
+      },
+      {
+       "name": "Markus Lindgren",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sollentuna, Sweden",
+       "country": "SE",
+       "previous_school": "Lindenwood University",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/markus-lindgren/7711"
+      },
+      {
+       "name": "Tyler Lippert",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Maysville, Ky.",
+       "country": "US",
+       "previous_school": "Mason County High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/tyler-lippert/7709"
+      },
+      {
+       "name": "Andreas Nielsen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ikast, Denmark",
+       "country": "DK",
+       "previous_school": "Parkland College",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/andreas-nielsen/7710"
+      },
+      {
+       "name": "Axel Nordborg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/axel-nordborg/7714"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mike Whitson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/mike-whitson/1156"
+      },
+      {
+       "name": "Tom Giacchini",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/tom-giacchini/1154"
+      },
+      {
+       "name": "Will Sallee",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/will-sallee/1181"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Austin Bagshaw",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ohio",
+       "country": "US",
+       "previous_school": "Hillsboro High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/austin-bagshaw/7301"
+      },
+      {
+       "name": "Billy Basham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "St. Xavier High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/billy-basham/7302"
+      },
+      {
+       "name": "Martin Eliasson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Norrkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/martin-eliasson/7309"
+      },
+      {
+       "name": "Willis Gaer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Theodore Roosevelt HS",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/willis-gaer/7304"
+      },
+      {
+       "name": "Kyle Jury",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/kyle-jury/7305"
+      },
+      {
+       "name": "Edvin Lindgren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Avesta, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/edvin-lindgren/7306"
+      },
+      {
+       "name": "Erik Lindwall",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Soderkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Atvidaberg High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/erik-lindwall/7307"
+      },
+      {
+       "name": "Tyler Lippert",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Maysville, Ky.",
+       "country": "US",
+       "previous_school": "Mason County High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/tyler-lippert/7308"
+      },
+      {
+       "name": "Andreas Nielsen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ikast, Denmark",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/andreas-nielsen/7310"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mike Whitson",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/mike-whitson/1056"
+      },
+      {
+       "name": "Tom Giacchini",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/tom-giacchini/1054"
+      },
+      {
+       "name": "Sofie Levin",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/sofie-levin/1055"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Austin Bagshaw",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ohio",
+       "country": "US",
+       "previous_school": "Hillsboro High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/austin-bagshaw/6880"
+      },
+      {
+       "name": "Billy Basham",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "St. Xavier High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/billy-basham/6881"
+      },
+      {
+       "name": "Jared Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "South Warren High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jared-brown/6882"
+      },
+      {
+       "name": "Noah Combs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pikeville, Ky.",
+       "country": "US",
+       "previous_school": "Pikeville High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/noah-combs/6883"
+      },
+      {
+       "name": "Willis Gaer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Des Moines, Iowa",
+       "country": "US",
+       "previous_school": "Theodore Roosevelt HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/willis-gaer/6899"
+      },
+      {
+       "name": "Kyle Jury",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/kyle-jury/6884"
+      },
+      {
+       "name": "Edvin Lindgren",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Avesta, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/edvin-lindgren/6885"
+      },
+      {
+       "name": "Erik Lindwall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Soderkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Atvidaberg High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/erik-lindwall/6886"
+      },
+      {
+       "name": "Tyler Lippert",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maysville, Ky.",
+       "country": "US",
+       "previous_school": "Mason County High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/tyler-lippert/6887"
+      },
+      {
+       "name": "Will Sallee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lafayette High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/will-sallee/6888"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pat Stephens",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/pat-stephens/954"
+      },
+      {
+       "name": "Tom Giacchini",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/tom-giacchini/955"
+      },
+      {
+       "name": "Sofie Levin",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/sofie-levin/958"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://ekusports.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Austin Bagshaw",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hillsboro, Ohio",
+       "country": "US",
+       "previous_school": "Hillsboro High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/austin-bagshaw/6238"
+      },
+      {
+       "name": "Billy Basham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "St. Xavier High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/billy-basham/6246"
+      },
+      {
+       "name": "Jared Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "South Warren High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/jared-brown/6239"
+      },
+      {
+       "name": "Noah Combs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pikeville, Ky.",
+       "country": "US",
+       "previous_school": "Pikeville High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/noah-combs/6240"
+      },
+      {
+       "name": "Kyle Jury",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elizabethtown, Ky.",
+       "country": "US",
+       "previous_school": "Elizabethtown High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/kyle-jury/6242"
+      },
+      {
+       "name": "Edvin Lindgren",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Avesta, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/edvin-lindgren/6247"
+      },
+      {
+       "name": "Erik Lindwall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Soderkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Atvidaberg High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/erik-lindwall/6243"
+      },
+      {
+       "name": "Tyler Lippert",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Maysville, Ky.",
+       "country": "US",
+       "previous_school": "Mason County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/tyler-lippert/6248"
+      },
+      {
+       "name": "Travis Rose",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "West Jessamine High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/travis-rose/6244"
+      },
+      {
+       "name": "Will Sallee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lafayette High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/will-sallee/6245"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pat Stephens",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/pat-stephens/800"
+      },
+      {
+       "name": "Tom Giacchini",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/tom-giacchini/801"
+      },
+      {
+       "name": "Daniel DeLuca",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/mens-golf/roster/coaches/daniel-deluca/853"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://ekusports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddi-Jo Benton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ravenna, Ky.",
+       "country": "US",
+       "previous_school": "Estill County High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/maddi-jo-benton/11720"
+      },
+      {
+       "name": "Cami Beuret",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Porrentruy, Switzerland",
+       "country": "CH",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/cami-beuret/11726"
+      },
+      {
+       "name": "Lanie Campbell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ethridge, Tenn.",
+       "country": "US",
+       "previous_school": "Middle Tennessee State University",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/lanie-campbell/11727"
+      },
+      {
+       "name": "Imogen Jessen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Adelaide, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/imogen-jessen/11721"
+      },
+      {
+       "name": "Mary Keene Marrs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lexington Christian Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mary-keene-marrs/11722"
+      },
+      {
+       "name": "Claira Ramsey Eden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/claira-ramsey-eden/11723"
+      },
+      {
+       "name": "Elizabeth Tucci",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Market, Md.",
+       "country": "US",
+       "previous_school": "Oakdale High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elizabeth-tucci/11724"
+      },
+      {
+       "name": "Karra Tucker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville North Hopkins High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/karra-tucker/11725"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1798"
+      },
+      {
+       "name": "Sean Moore",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/sean-moore/1863"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddi-Jo Benton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ravenna, Ky.",
+       "country": "US",
+       "previous_school": "Estill County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/maddi-jo-benton/10872"
+      },
+      {
+       "name": "Grace Clark",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Shelbyville, Ky.",
+       "country": "US",
+       "previous_school": "Shelby County High School",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/grace-clark/10866"
+      },
+      {
+       "name": "Imogen Jessen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Adelaide, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/imogen-jessen/10871"
+      },
+      {
+       "name": "Mary Keene Marrs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lexington Christian Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mary-keene-marrs/10867"
+      },
+      {
+       "name": "Claira Ramsey Eden",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/claira-ramsey-eden/10868"
+      },
+      {
+       "name": "Dili Sitanonth",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Texas Southern",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/dili-sitanonth/10869"
+      },
+      {
+       "name": "Elizabeth Tucci",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Market, Md.",
+       "country": "US",
+       "previous_school": "Oakdale High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elizabeth-tucci/10870"
+      },
+      {
+       "name": "Karra Tucker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville North Hopkins High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/karra-tucker/10873"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1672"
+      },
+      {
+       "name": "Evan Cox",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/evan-cox/1797"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Grace Clark",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Shelbyville, Ky.",
+       "country": "US",
+       "previous_school": "Shelby County High School",
+       "class_raw": "R-So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/grace-clark/9641"
+      },
+      {
+       "name": "Alice Daag",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Birgittaskolan HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/alice-daag/9642"
+      },
+      {
+       "name": "Rylea Marcum",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Western Kentucky University",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/rylea-marcum/9643"
+      },
+      {
+       "name": "Mary Keene Marrs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lexington Christian Academy",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mary-keene-marrs/9644"
+      },
+      {
+       "name": "Mattie Jo Neeley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mattie-jo-neeley/9645"
+      },
+      {
+       "name": "Elisa Orduna Shackleton",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "I.E.S Miguel Catalan",
+       "class_raw": "Gr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elisa-orduna-shackleton/9646"
+      },
+      {
+       "name": "Claira Ramsey Eden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/claira-ramsey-eden/9648"
+      },
+      {
+       "name": "Dili Sitanonth",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nonthaburi, Thailand",
+       "country": "TH",
+       "previous_school": "Texas Southern",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/dili-sitanonth/9682"
+      },
+      {
+       "name": "Elizabeth Tucci",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Market, Md.",
+       "country": "US",
+       "previous_school": "Oakdale High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elizabeth-tucci/9647"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1478"
+      },
+      {
+       "name": "Evan Cox",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/evan-cox/1488"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Grace Clark",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Shelbyville, Ky.",
+       "country": "US",
+       "previous_school": "Shelby County High School",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/grace-clark/9069"
+      },
+      {
+       "name": "Alice Daag",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Birgittaskolan HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/alice-daag/9070"
+      },
+      {
+       "name": "Maddie Hensley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eminence, Ky.",
+       "country": "US",
+       "previous_school": "Henry County High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/maddie-hensley/9071"
+      },
+      {
+       "name": "Rylea Marcum",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Western Kentucky University",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/rylea-marcum/9072"
+      },
+      {
+       "name": "Mary Keene Marrs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Lexington Christian Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mary-keene-marrs/9082"
+      },
+      {
+       "name": "Mattie Jo Neeley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mattie-jo-neeley/9073"
+      },
+      {
+       "name": "Elisa Orduna Shackleton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "I.E.S Miguel Catalan",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elisa-orduna-shackleton/9074"
+      },
+      {
+       "name": "Elizabeth Tucci",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Market, Md.",
+       "country": "US",
+       "previous_school": "Oakdale High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elizabeth-tucci/9083"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1380"
+      },
+      {
+       "name": "Chip McDaniel",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/chip-mcdaniel/1408"
+      },
+      {
+       "name": "Morgan Lehotsky",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/morgan-lehotsky/1382"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Grace Clark",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shelbyville, Ky.",
+       "country": "US",
+       "previous_school": "Shelby County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/grace-clark/8699"
+      },
+      {
+       "name": "Alice Daag",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Birgittaskolan HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/alice-daag/8692"
+      },
+      {
+       "name": "Vilma Efraimsson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ulricehamn, Sweden",
+       "country": "SE",
+       "previous_school": "Barton Community College",
+       "class_raw": "Gr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/vilma-efraimsson/8693"
+      },
+      {
+       "name": "Maddie Hensley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eminence, Ky.",
+       "country": "US",
+       "previous_school": "Henry County High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/maddie-hensley/8694"
+      },
+      {
+       "name": "Ragnhildur Kristinsdottir",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Reykjavik, Iceland",
+       "country": "IS",
+       "previous_school": "The Commercial College of Iceland",
+       "class_raw": "Gr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/ragnhildur-kristinsdottir/8695"
+      },
+      {
+       "name": "Rylea Marcum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Western Kentucky University",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/rylea-marcum/8696"
+      },
+      {
+       "name": "Mattie Jo Neeley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central HS",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mattie-jo-neeley/8697"
+      },
+      {
+       "name": "Elisa Orduna Shackleton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "I.E.S Miguel Catalan",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elisa-orduna-shackleton/8698"
+      },
+      {
+       "name": "Carlee Shoemaker",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Central City, Ky.",
+       "country": "US",
+       "previous_school": "University of the Cumberlands",
+       "class_raw": "Gr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/carlee-shoemaker/8700"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1328"
+      },
+      {
+       "name": "Will Sallee",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/will-sallee/1330"
+      },
+      {
+       "name": "Morgan Lehotsky",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/morgan-lehotsky/1367"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alice Daag",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Birgittaskolan HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/alice-daag/8322"
+      },
+      {
+       "name": "Vilma Efraimsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ulricehamn, Sweden",
+       "country": "SE",
+       "previous_school": "Barton Community College",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/vilma-efraimsson/8323"
+      },
+      {
+       "name": "Maddie Hensley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eminence, Ky.",
+       "country": "US",
+       "previous_school": "Henry County High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/maddie-hensley/8324"
+      },
+      {
+       "name": "Bailey Hubbard",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/bailey-hubbard/8325"
+      },
+      {
+       "name": "Ragnhildur Kristinsdottir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Reykjavik, Iceland",
+       "country": "IS",
+       "previous_school": "The Commercial College of Iceland",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/ragnhildur-kristinsdottir/8326"
+      },
+      {
+       "name": "Rylea Marcum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Western Kentucky University",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/rylea-marcum/8513"
+      },
+      {
+       "name": "Diana McDonald",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Kingston, Ontario",
+       "country": "CA",
+       "previous_school": "Wingate University",
+       "class_raw": "Gr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/diana-mcdonald/8395"
+      },
+      {
+       "name": "Mattie Jo Neeley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mattie-jo-neeley/8329"
+      },
+      {
+       "name": "Elisa Orduna Shackleton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "I.E.S Miguel Catalan",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elisa-orduna-shackleton/8327"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1255"
+      },
+      {
+       "name": "Will Sallee",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/will-sallee/1279"
+      },
+      {
+       "name": "Sean Moore",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/sean-moore/1276"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Alice Daag",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Linkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Birgittaskolan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/alice-daag/8071"
+      },
+      {
+       "name": "Vilma Efraimsson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ulricehamn, Sweden",
+       "country": "SE",
+       "previous_school": "Barton Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/vilma-efraimsson/7704"
+      },
+      {
+       "name": "Mikayla Groonwald",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cottage Grove, Wis.",
+       "country": "US",
+       "previous_school": "Monona Grove High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mikayla-groonwald/7700"
+      },
+      {
+       "name": "Maddie Hensley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Eminence, Ky.",
+       "country": "US",
+       "previous_school": "Henry County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/maddie-hensley/7706"
+      },
+      {
+       "name": "Bailey Hubbard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/bailey-hubbard/7701"
+      },
+      {
+       "name": "Ragnhildur Kristinsdottir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Reykjavik, Iceland",
+       "country": "IS",
+       "previous_school": "The Commercial College of Iceland",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/ragnhildur-kristinsdottir/7702"
+      },
+      {
+       "name": "Elisa Orduna Shackleton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Zaragoza, Spain",
+       "country": "ES",
+       "previous_school": "I.E.S Miguel Catalan",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elisa-orduna-shackleton/7705"
+      },
+      {
+       "name": "Samantha Sandland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Thunderbird High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/samantha-sandland/7703"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1151"
+      },
+      {
+       "name": "Will Sallee",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/will-sallee/1182"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mikayla Groonwald",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cottage Grove, Wis.",
+       "country": "US",
+       "previous_school": "Monona Grove High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mikayla-groonwald/7319"
+      },
+      {
+       "name": "Bailey Hubbard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Manchester, Ky.",
+       "country": "US",
+       "previous_school": "Clay County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/bailey-hubbard/7346"
+      },
+      {
+       "name": "Ragnhildur Kristinsdottir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Reykjavik, Iceland",
+       "country": "IS",
+       "previous_school": "The Commercial College of Iceland",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/ragnhildur-kristinsdottir/7320"
+      },
+      {
+       "name": "Amanda Lindahl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ulricehamn, Sweden",
+       "country": "SE",
+       "previous_school": "Sven Eriksongymnasiet",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/amanda-lindahl/7321"
+      },
+      {
+       "name": "Elsa Moberly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Somerset, Ky.",
+       "country": "US",
+       "previous_school": "Mississippi State University",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elsa-moberly/7322"
+      },
+      {
+       "name": "Hannabeth Owens",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Crab Orchard, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/hannabeth-owens/7323"
+      },
+      {
+       "name": "Samantha Sandland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Thunderbird High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/samantha-sandland/7324"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mandy Moore",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mandy-moore/1060"
+      },
+      {
+       "name": "Sofie Levin",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/sofie-levin/1058"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kailey Boyer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/kailey-boyer/6760"
+      },
+      {
+       "name": "Mikayla Groonwald",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cottage Grove, Wis.",
+       "country": "US",
+       "previous_school": "Monona Grove High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mikayla-groonwald/6761"
+      },
+      {
+       "name": "Ragnhildur Kristinsdottir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Reykjavik, Iceland",
+       "country": "IS",
+       "previous_school": "The Commercial College of Iceland",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/ragnhildur-kristinsdottir/6766"
+      },
+      {
+       "name": "Amanda Lindahl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ulricehamn, Sweden",
+       "country": "SE",
+       "previous_school": "Sven Eriksongymnasiet",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/amanda-lindahl/6762"
+      },
+      {
+       "name": "Elsa Moberly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Somerset, Ky.",
+       "country": "US",
+       "previous_school": "Mississippi State University",
+       "class_raw": "Jr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elsa-moberly/6763"
+      },
+      {
+       "name": "Hannabeth Owens",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Crab Orchard, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/hannabeth-owens/6764"
+      },
+      {
+       "name": "Samantha Sandland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Thunderbird High School",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/samantha-sandland/6765"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mike Whitson",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mike-whitson/919"
+      },
+      {
+       "name": "Sofie Levin",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/sofie-levin/957"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://ekusports.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kailey Boyer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Madison Central High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/kailey-boyer/6288"
+      },
+      {
+       "name": "Mikayla Groonwald",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cottage Grove, Wis.",
+       "country": "US",
+       "previous_school": "Monona Grove High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/mikayla-groonwald/6281"
+      },
+      {
+       "name": "Sofie Levin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/sofie-levin/6278"
+      },
+      {
+       "name": "Amanda Lindahl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ulricehamn, Sweden",
+       "country": "SE",
+       "previous_school": "Sven Eriksongymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/amanda-lindahl/6279"
+      },
+      {
+       "name": "Elsa Moberly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Somerset, Ky.",
+       "country": "US",
+       "previous_school": "Mississippi State University",
+       "class_raw": "So.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/elsa-moberly/6287"
+      },
+      {
+       "name": "Hannabeth Owens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Crab Orchard, Ky.",
+       "country": "US",
+       "previous_school": "Rockcastle County High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/hannabeth-owens/6286"
+      },
+      {
+       "name": "Samantha Sandland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Thunderbird High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/samantha-sandland/6289"
+      },
+      {
+       "name": "Emilie Simmons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Marseille, France",
+       "country": "FR",
+       "previous_school": "Honore Daumier High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/emilie-simmons/6280"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mike Whitson",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/mike-whitson/816"
+      },
+      {
+       "name": "Daniel DeLuca",
+       "title": "Graduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://ekusports.com/sports/womens-golf/roster/coaches/daniel-deluca/852"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://ekusports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://ekusports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://ekusports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://ekusports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://ekusports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

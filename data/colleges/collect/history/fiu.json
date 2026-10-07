@@ -1,22 +1,897 @@
 {
  "slug": "fiu",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "female",
    "golf_url": "https://fiusports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gabriella Gomez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miami, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/gabriella-gomez/13373"
+      },
+      {
+       "name": "Catalina Harvey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palm Harbor, Fla.",
+       "country": "US",
+       "previous_school": "Palm Harbor University",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/catalina-harvey/13374"
+      },
+      {
+       "name": "Emma Jaczkovics",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Szada, Hungary",
+       "country": "HU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/emma-jaczkovics/13380"
+      },
+      {
+       "name": "Hoi Ki Lau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Keiser",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/hoi-ki-lau/13375"
+      },
+      {
+       "name": "Salysa Mason",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Surrey, England",
+       "country": "GB",
+       "previous_school": "Seminole State",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/salysa-mason/13376"
+      },
+      {
+       "name": "Romane Poissonnier",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bondues, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/romane-poissonnier/13379"
+      },
+      {
+       "name": "Amandine Seguin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Menton, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/amandine-seguin/13377"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Koskinen",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/john-koskinen/3391"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gabriella Gomez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Miami, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/gabriella-gomez/12808"
+      },
+      {
+       "name": "Catalina Harvey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palm Harbor, Fla.",
+       "country": "US",
+       "previous_school": "Palm Harbor University",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/catalina-harvey/12941"
+      },
+      {
+       "name": "Karissa Kilby",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/karissa-kilby/12809"
+      },
+      {
+       "name": "Hoi Ki Lau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "Keiser",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/hoi-ki-lau/12939"
+      },
+      {
+       "name": "Salysa Mason",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Surrey, England",
+       "country": "GB",
+       "previous_school": "Seminole State",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/salysa-mason/12940"
+      },
+      {
+       "name": "Amandine Seguin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Menton, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/amandine-seguin/12942"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Koskinen",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/john-koskinen/3300"
+      },
+      {
+       "name": "Alizee Vidal",
+       "title": "Assistant Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/alizee-vidal/3320"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gabriella Gomez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Miami, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/gabriella-gomez/11064"
+      },
+      {
+       "name": "Riley Hamilton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Reidsville, N.C.",
+       "country": "US",
+       "previous_school": "East Carolina",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/riley-hamilton/11056"
+      },
+      {
+       "name": "Karissa Kilby",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/karissa-kilby/11058"
+      },
+      {
+       "name": "Sarah Loza",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": "Orlando, Florida",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/sarah-loza/11065"
+      },
+      {
+       "name": "Kelly Shanahan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Parkland, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage School",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/kelly-shanahan/11060"
+      },
+      {
+       "name": "Arlynn Spence",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lakeland, Fla.",
+       "country": "US",
+       "previous_school": "Lakeland Senior HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/arlynn-spence/11061"
+      },
+      {
+       "name": "Anika Veintemilla",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": "Baylor",
+       "class_raw": "Gr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/anika-veintemilla/11066"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Koskinen",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/john-koskinen/3091"
+      },
+      {
+       "name": "Joseph Vogel",
+       "title": "Assistant Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/3092"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jenna Chun",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Highland Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Northern Colorado",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/jenna-chun/10424"
+      },
+      {
+       "name": "Riley Hamilton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Reidsville, N.C.",
+       "country": "US",
+       "previous_school": "East Carolina",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/riley-hamilton/10403"
+      },
+      {
+       "name": "Millburn Ho",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Rancho Solano Preparatory School",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/millburn-ho/10400"
+      },
+      {
+       "name": "Karissa Kilby",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/karissa-kilby/10401"
+      },
+      {
+       "name": "Kelly Shanahan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Parkland, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/kelly-shanahan/10404"
+      },
+      {
+       "name": "Arlynn Spence",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lakeland, Fla.",
+       "country": "US",
+       "previous_school": "Lakeland Senior HS",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/arlynn-spence/10402"
+      },
+      {
+       "name": "Casey Yu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Rancho Bernardo HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/casey-yu/10405"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Koskinen",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/john-koskinen/3076"
+      },
+      {
+       "name": "Joseph Vogel",
+       "title": "Assistant Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/3077"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carolina Andrade",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Windermere Prep (Winter Garden, Fla)",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-andrade/9508"
+      },
+      {
+       "name": "Ema Dobiasova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "High School Bajkalská",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/ema-dobiasova/9510"
+      },
+      {
+       "name": "Millburn Ho",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Rancho Solano Preparatory School",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/millburn-ho/9511"
+      },
+      {
+       "name": "Jordyn Hodgson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Lake Nona HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/jordyn-hodgson/9515"
+      },
+      {
+       "name": "Karissa Kilby",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Punahou School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/karissa-kilby/9516"
+      },
+      {
+       "name": "Helena Noel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Tampa Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/helena-noel/9517"
+      },
+      {
+       "name": "Arlynn Spence",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lakeland, Fla.",
+       "country": "US",
+       "previous_school": "Lakeland Senior HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/arlynn-spence/9518"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joseph Vogel",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/2838"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carolina Andrade",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Windermere Prep (Winter Garden, Fla)",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-andrade/7942"
+      },
+      {
+       "name": "Agueda Cortilla",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "Lleó XII",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/agueda-cortilla/7943"
+      },
+      {
+       "name": "Ema Dobiasova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "High School Bajkalská",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/ema-dobiasova/7946"
+      },
+      {
+       "name": "Millburn Ho",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Rancho Solano Preparatory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/millburn-ho/7948"
+      },
+      {
+       "name": "Hannah Mitterberger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vienna, Austria",
+       "country": "AT",
+       "previous_school": "Sotogrande International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/hannah-mitterberger/7949"
+      },
+      {
+       "name": "Gabriela Powel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "William T. Dwyer",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/gabriela-powel/7944"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joseph Vogel",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/1753"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carolina Andrade",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Windermere Prep (Winter Garden, Fla)",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-andrade/6810"
+      },
+      {
+       "name": "Agueda Cortilla",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "Lleó XII",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/agueda-cortilla/6811"
+      },
+      {
+       "name": "Valentina Gilly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "Colegio Jefferson",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/valentina-gilly/6812"
+      },
+      {
+       "name": "Hannah Leiner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pompano Beach, Fla.",
+       "country": "US",
+       "previous_school": "North Broward Prep",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/hannah-leiner/6813"
+      },
+      {
+       "name": "Gabriela Powel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "William T. Dwyer",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/gabriela-powel/6814"
+      },
+      {
+       "name": "Ana Maria Rengifo",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Los Nogales",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/ana-maria-rengifo/6815"
+      },
+      {
+       "name": "Michelle Rodriguez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miami, Fla.",
+       "country": "US",
+       "previous_school": "South Florida",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/michelle-rodriguez/7070"
+      },
+      {
+       "name": "Carolina Rotzinger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation of Puebla",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-rotzinger/6816"
+      },
+      {
+       "name": "Diana Velez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dorado, Puerto Rico",
+       "country": "US",
+       "previous_school": "Academia Maria Reina (San Juan)",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/diana-velez/6817"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joseph Vogel",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/1530"
+      },
+      {
+       "name": "Carla Jane",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/carla-jane/1532"
+      },
+      {
+       "name": "Nika Salemi",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/nika-salemi/1531"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Carolina Andrade",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Windermere Prep (Winter Garden, Fla)",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-andrade/5277"
+      },
+      {
+       "name": "Agueda Cortilla",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "Lleó XII",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/agueda-cortilla/5278"
+      },
+      {
+       "name": "Valentina Gilly",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "Colegio Jefferson",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/valentina-gilly/6547"
+      },
+      {
+       "name": "Katerina Krasova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ricany, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Masarykovo Klasicke Gymnazium",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/katerina-krasova/5273"
+      },
+      {
+       "name": "Hannah Leiner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pompano Beach, Fla.",
+       "country": "US",
+       "previous_school": "North Broward Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/hannah-leiner/5280"
+      },
+      {
+       "name": "Gabriela Powel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "William T. Dwyer",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/gabriela-powel/5279"
+      },
+      {
+       "name": "Ana Maria Rengifo",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Los Nogales",
+       "class_raw": "R-So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/ana-maria-rengifo/5274"
+      },
+      {
+       "name": "Carolina Rotzinger",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation of Puebla",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-rotzinger/5275"
+      },
+      {
+       "name": "Diana Velez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dorado, Puerto Rico",
+       "country": "US",
+       "previous_school": "Academia Maria Reina (San Juan)",
+       "class_raw": "So.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/diana-velez/5276"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joseph Vogel",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/418"
+      },
+      {
+       "name": "Carla Jane",
+       "title": "Graduate Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/carla-jane/461"
+      },
+      {
+       "name": "Nika Salemi",
+       "title": "Director of Operations",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/nika-salemi/420"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://fiusports.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Coralia Arias",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Quito, Ecuador",
+       "country": "EC",
+       "previous_school": "American School of Quito",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coralia-arias/4977"
+      },
+      {
+       "name": "Katerina Krasova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ricany, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Masarykovo Klasicke Gymnazium",
+       "class_raw": "Jr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/katerina-krasova/4978"
+      },
+      {
+       "name": "Ana Maria Rengifo",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Los Nogales",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/ana-maria-rengifo/4979"
+      },
+      {
+       "name": "Carolina Rotzinger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation of Puebla",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/carolina-rotzinger/4981"
+      },
+      {
+       "name": "Camila Serrano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "Gimnasio La Montaña/ IMG Academy-Bradenton",
+       "class_raw": "Sr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/camila-serrano/4980"
+      },
+      {
+       "name": "Diana Velez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dorado, Puerto Rico",
+       "country": "US",
+       "previous_school": "Academia Maria Reina (San Juan)",
+       "class_raw": "Fr.",
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/diana-velez/4982"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joseph Vogel",
+       "title": "Head Coach, Women's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/joseph-vogel/301"
+      },
+      {
+       "name": "Lucia Fernandez",
+       "title": "GA Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fiusports.com/sports/womens-golf/roster/coaches/lucia-fernandez/305"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://fiusports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://fiusports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://fiusports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,36 +1,2113 @@
 {
  "slug": "eastern-michigan",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://emueagles.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Box",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leicester, England",
+       "country": "GB",
+       "previous_school": "Hutchinson CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/charlie-box/18031"
+      },
+      {
+       "name": "Tim Chan",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "New Mexico JC / VCU",
+       "class_raw": "Gr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tim-chan/17094"
+      },
+      {
+       "name": "Joshua Hess",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Schattdorf, Switzerland",
+       "country": "CH",
+       "previous_school": "Montverde Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/joshua-hess/18032"
+      },
+      {
+       "name": "Rory McDonald-O'Brien",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Shrewsbury, England",
+       "country": "GB",
+       "previous_school": "South Carolina Aiken",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Leo Mihaich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bell Ville, Argentina",
+       "country": "AR",
+       "previous_school": "Oklahoma Christian",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/leo-mihaich/17099"
+      },
+      {
+       "name": "Robby Turnbull",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": "Selwyn College",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/robby-turnbull/18033"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andy Walker",
+       "title": "Head Coach",
+       "email": "awalk128@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/andy-walker/2462"
+      },
+      {
+       "name": "Ryan Yip",
+       "title": "Assistant Coach",
+       "email": "ryip@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/ryan-yip/2463"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "James Baxter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Highlands School & Sixth Form",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/james-baxter/16273"
+      },
+      {
+       "name": "Tim Chan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hong Kong, China",
+       "country": "CN",
+       "previous_school": "New Mexico JC / VCU",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tim-chan/17094"
+      },
+      {
+       "name": "Pietro Fenoglio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Torino, Italy",
+       "country": "IT",
+       "previous_school": "TCU",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/pietro-fenoglio/16269"
+      },
+      {
+       "name": "Lucas Hughes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bend, Ore.",
+       "country": "US",
+       "previous_school": "Grand Canyon",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/lucas-hughes/16493"
+      },
+      {
+       "name": "Rory McDonald-O'Brien",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shrewsbury, England",
+       "country": "GB",
+       "previous_school": "South Carolina Aiken",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Matthew Rastogi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario",
+       "country": "CA",
+       "previous_school": "Bayview Glen Independent",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/matthew-rastogi/16275"
+      },
+      {
+       "name": "Daniel Robles Delval",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Albacete, Spain",
+       "country": "ES",
+       "previous_school": "Rogers State",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/daniel-robles-delval/16291"
+      },
+      {
+       "name": "Bavake Sihota",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caledon, Ontario",
+       "country": "CA",
+       "previous_school": "Michigan",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/bavake-sihota/16292"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andy Walker",
+       "title": "Head Coach",
+       "email": "awalk128@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/andy-walker/2462"
+      },
+      {
+       "name": "Ryan Yip",
+       "title": "Assistant Coach",
+       "email": "ryip@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/ryan-yip/2463"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Victor Caliguri",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Elder",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/victor-caliguri/15034"
+      },
+      {
+       "name": "Patrick Deardorff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/patrick-deardorff/15035"
+      },
+      {
+       "name": "Cooper Eberle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond Ky.",
+       "country": null,
+       "previous_school": "Madison Central",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cooper-eberle/15036"
+      },
+      {
+       "name": "Zander Gibson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Concord, Ohio",
+       "country": "US",
+       "previous_school": "Rider",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zander-gibson/15112"
+      },
+      {
+       "name": "Logan Graf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Alberta",
+       "country": "CA",
+       "previous_school": "HJ Cody",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/logan-graf/15037"
+      },
+      {
+       "name": "Nathaniel Gray Lamont",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guelph, Ontario",
+       "country": "CA",
+       "previous_school": "Guelph Collegiate Vocational Institute",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/nathaniel-gray-lamont/15038"
+      },
+      {
+       "name": "Cam Kellett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, Ontario",
+       "country": "CA",
+       "previous_school": "Nevada",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cam-kellett/15039"
+      },
+      {
+       "name": "Avery Mahoney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario",
+       "country": "CA",
+       "previous_school": "Notre Dame Catholic Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/avery-mahoney/15113"
+      },
+      {
+       "name": "Ryan Somerville",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aurora, Ontario",
+       "country": "CA",
+       "previous_school": "Aurora",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ryan-somerville/15040"
+      },
+      {
+       "name": "Sam Yono II",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Bloomfield, Mich.",
+       "country": "US",
+       "previous_school": "Brother Rice",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/sam-yono-ii/15041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Victor Caliguri",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Elder",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/victor-caliguri/15034"
+      },
+      {
+       "name": "Patrick Deardorff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/patrick-deardorff/15035"
+      },
+      {
+       "name": "Cooper Eberle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond Ky.",
+       "country": null,
+       "previous_school": "Madison Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cooper-eberle/15036"
+      },
+      {
+       "name": "Logan Graf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sylvan Lake, Alberta",
+       "country": "CA",
+       "previous_school": "HJ Cody",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/logan-graf/15037"
+      },
+      {
+       "name": "Nathaniel Gray Lamont",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guelph, Ontario",
+       "country": "CA",
+       "previous_school": "Guelph Collegiate Vocational Institute",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/nathaniel-gray-lamont/15038"
+      },
+      {
+       "name": "Cam Kellett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, Ontario",
+       "country": "CA",
+       "previous_school": "Nevada",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cam-kellett/15039"
+      },
+      {
+       "name": "Ryan Somerville",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aurora, Ontario",
+       "country": "CA",
+       "previous_school": "Aurora",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ryan-somerville/15040"
+      },
+      {
+       "name": "Sam Yono II",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Bloomfield, Mich.",
+       "country": "US",
+       "previous_school": "Brother Rice",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/sam-yono-ii/15041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ty Celone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Long Sault, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St Joseph's Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ty-celone/13807"
+      },
+      {
+       "name": "Cougar Collins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caledon, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Mayfield Secondary",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cougar-collins/13808"
+      },
+      {
+       "name": "Patrick Deardorff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/patrick-deardorff/15035"
+      },
+      {
+       "name": "Cam Kellett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, Ontario",
+       "country": "CA",
+       "previous_school": "Nevada",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cam-kellett/15039"
+      },
+      {
+       "name": "Zack Mason",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Blyth Academy Lawrence Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zack-mason/13811"
+      },
+      {
+       "name": "MJ Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rockford, Ill.",
+       "country": "US",
+       "previous_school": "Winnebago",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/mj-smith/13813"
+      },
+      {
+       "name": "Blaise Vanitvelt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fenton Mich.",
+       "country": null,
+       "previous_school": "Monteverde Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/blaise-vanitvelt/13814"
+      },
+      {
+       "name": "Max Watson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/max-watson/13815"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ty Celone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Long Sault, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St Joseph's Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ty-celone/13807"
+      },
+      {
+       "name": "Cougar Collins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caledon, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Mayfield Secondary",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cougar-collins/13808"
+      },
+      {
+       "name": "Patrick Deardorff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/patrick-deardorff/15035"
+      },
+      {
+       "name": "Tony Fuentes",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "East Lansing, Mich.",
+       "country": "US",
+       "previous_school": "East Lansing",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tony-fuentes/13093"
+      },
+      {
+       "name": "Zack Mason",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Blyth Academy Lawrence Park",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zack-mason/13811"
+      },
+      {
+       "name": "Luke Pelak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mattawan, Mich.",
+       "country": "US",
+       "previous_school": "Mattawan",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/luke-pelak/13095"
+      },
+      {
+       "name": "Tyler Rayman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Otsego, Mich.",
+       "country": "US",
+       "previous_school": "Otsego",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tyler-rayman/13096"
+      },
+      {
+       "name": "MJ Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rockford, Ill.",
+       "country": "US",
+       "previous_school": "Winnebago",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/mj-smith/13813"
+      },
+      {
+       "name": "Blaise Vanitvelt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fenton Mich.",
+       "country": null,
+       "previous_school": "Monteverde Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/blaise-vanitvelt/13814"
+      },
+      {
+       "name": "Max Watson",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/max-watson/13815"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ty Celone",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Long Sault, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St Joseph's Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ty-celone/13807"
+      },
+      {
+       "name": "Cougar Collins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caledon, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Mayfield Secondary",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cougar-collins/13808"
+      },
+      {
+       "name": "Tony Fuentes",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "East Lansing, Mich.",
+       "country": "US",
+       "previous_school": "East Lansing",
+       "class_raw": "R-So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tony-fuentes/13093"
+      },
+      {
+       "name": "Zack Mason",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Blyth Academy Lawrence Park",
+       "class_raw": "R-So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zack-mason/13811"
+      },
+      {
+       "name": "Luke Pelak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mattawan, Mich.",
+       "country": "US",
+       "previous_school": "Mattawan",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/luke-pelak/13095"
+      },
+      {
+       "name": "Tyler Rayman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Otsego, Mich.",
+       "country": "US",
+       "previous_school": "Otsego",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tyler-rayman/13096"
+      },
+      {
+       "name": "Zach Sudinsky",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "Stephen F. Austin",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zach-sudinsky/12700"
+      },
+      {
+       "name": "Max Watson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/max-watson/13815"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Beau Breault",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hartland, Mich.",
+       "country": "US",
+       "previous_school": "Hartland",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/beau-breault/8845"
+      },
+      {
+       "name": "Ty Celone",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Long Sault, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St Joseph's Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ty-celone/13807"
+      },
+      {
+       "name": "Cougar Collins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Caledon, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Mayfield Secondary",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cougar-collins/13808"
+      },
+      {
+       "name": "Tony Fuentes",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "East Lansing, Mich.",
+       "country": "US",
+       "previous_school": "East Lansing",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tony-fuentes/13093"
+      },
+      {
+       "name": "Zack Mason",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Blyth Academy Lawrence Park",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zack-mason/13811"
+      },
+      {
+       "name": "Tyler Rayman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Otsego, Mich.",
+       "country": "US",
+       "previous_school": "Otsego",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tyler-rayman/13096"
+      },
+      {
+       "name": "Zach Sudinsky",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "Stephen F. Austin",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zach-sudinsky/12700"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Beau Breault",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hartland, Mich.",
+       "country": "US",
+       "previous_school": "Hartland",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/beau-breault/8845"
+      },
+      {
+       "name": "Ty Celone",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Long Sault, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St Joseph's Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/ty-celone/13807"
+      },
+      {
+       "name": "Cougar Collins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Caledon, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Mayfield Secondary",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/cougar-collins/13808"
+      },
+      {
+       "name": "Tony Fuentes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Lansing, Mich.",
+       "country": "US",
+       "previous_school": "East Lansing",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tony-fuentes/13093"
+      },
+      {
+       "name": "Tyler Lewis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ortonville, Mich.",
+       "country": "US",
+       "previous_school": "Mott CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tyler-lewis/8254"
+      },
+      {
+       "name": "Zack Mason",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Blyth Academy Lawrence Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zack-mason/13811"
+      },
+      {
+       "name": "Nick Park",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Howell, Mich.",
+       "country": "US",
+       "previous_school": "Oakland",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/nick-park/8255"
+      },
+      {
+       "name": "Tyler Rayman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Otsego, Mich.",
+       "country": "US",
+       "previous_school": "Otsego",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tyler-rayman/13096"
+      },
+      {
+       "name": "Nic Ross",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dundas, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Highland Secondary",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/nic-ross/8256"
+      },
+      {
+       "name": "Zach Sudinsky",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "Stephen F. Austin",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/zach-sudinsky/12700"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://emueagles.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "John Boncoddo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brantford, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St. John's College",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/john-boncoddo/7679"
+      },
+      {
+       "name": "Beau Breault",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hartland, Mich.",
+       "country": "US",
+       "previous_school": "Hartland",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/beau-breault/8845"
+      },
+      {
+       "name": "Kyle Gorospe",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Ontario, Canada",
+       "country": "CA",
+       "previous_school": "St. Marcellinus S.S.",
+       "class_raw": "Rf.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/kyle-gorospe/6714"
+      },
+      {
+       "name": "Joey Kremer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Senator O'Connor",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/joey-kremer/7682"
+      },
+      {
+       "name": "Tyler Lewis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ortonville, Mich.",
+       "country": "US",
+       "previous_school": "Mott CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/tyler-lewis/8254"
+      },
+      {
+       "name": "Jake McNulty",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Port Perry, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "VCU",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/jake-mcnulty/7683"
+      },
+      {
+       "name": "Jared Multer",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Battle Creek, Mich.",
+       "country": "US",
+       "previous_school": "Grand Rapids C.C.",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/jared-multer/7694"
+      },
+      {
+       "name": "Nick Park",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Howell, Mich.",
+       "country": "US",
+       "previous_school": "Oakland",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/nick-park/8255"
+      },
+      {
+       "name": "Kyle Rodes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Plymouth, Mich.",
+       "country": "US",
+       "previous_school": "Plymouth",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/kyle-rodes/7685"
+      },
+      {
+       "name": "Nic Ross",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dundas, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Highland Secondary",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/nic-ross/8256"
+      },
+      {
+       "name": "Philippe Weppernig",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lucerne, Switzerland",
+       "country": "CH",
+       "previous_school": "Owens C.C.",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/philippe-weppernig/7687"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Bruce Cunningham",
+       "title": "Head Coach",
+       "email": "bruce.cunningham@emich.edu",
+       "phone": "734.487.6703",
+       "profile_url": "https://emueagles.com/sports/mens-golf/roster/coaches/bruce-cunningham/1867"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://emueagles.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Savannah de Bock",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ecaussinnes-d'enghien, Belgium",
+       "country": "BE",
+       "previous_school": "Georgia",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/savannah-de-bock/18039"
+      },
+      {
+       "name": "Julianna Go",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Juan, Philippines",
+       "country": "PH",
+       "previous_school": "King",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/julianna-go/18040"
+      },
+      {
+       "name": "Angelica Holman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fort Pierce, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State / Georgia",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/angelica-holman/17103"
+      },
+      {
+       "name": "Janae Leovao",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oceanside, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/janae-leovao/17106"
+      },
+      {
+       "name": "Jasmine Leovao",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oceanside, Calif.",
+       "country": "US",
+       "previous_school": "Long Beach State",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/jasmine-leovao/17107"
+      },
+      {
+       "name": "Ammy Raemmuang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phitsanulok, Thailand",
+       "country": "TH",
+       "previous_school": "St. Nicholas School",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/ammy-raemmuang/17108"
+      },
+      {
+       "name": "Baiyok Sukterm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bang Yi, Thailand",
+       "country": "TH",
+       "previous_school": "Barton CC / Lindsey Wilson",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/baiyok-sukterm/18043"
+      },
+      {
+       "name": "Erina Tan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Belmont, Western Australia",
+       "country": "AU",
+       "previous_school": "Mount Lawley Senior",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/erina-tan/18044"
+      },
+      {
+       "name": "Grace Thanintorndamrongdej",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Kasetsart University Laboratory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/grace-thanintorndamrongdej/17110"
+      },
+      {
+       "name": "Mariana Vega",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barranquilla, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Karl C. Parrish",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/mariana-vega/18045"
+      },
+      {
+       "name": "Matilde Zocchi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Turin, Italy",
+       "country": "IT",
+       "previous_school": "Liceo Vittoria",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/matilde-zocchi/18046"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Josh Brewer",
+       "title": "Head Coach",
+       "email": "jbrewe19@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/josh-brewer/2464"
+      },
+      {
+       "name": "Caterina Don",
+       "title": "Assistant Coach",
+       "email": "cdon1@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/caterina-don/2465"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maddysun Beeching",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camberley, Surrey, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/maddysun-beeching/16287"
+      },
+      {
+       "name": "Savannah de Bock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ecaussinnes-d'enghien, Belgium",
+       "country": "BE",
+       "previous_school": "Georgia",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/savannah-de-bock/18039"
+      },
+      {
+       "name": "Julianna Go",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Juan, Philippines",
+       "country": "PH",
+       "previous_school": "King",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/julianna-go/18040"
+      },
+      {
+       "name": "Angelica Holman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fort Pierce, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State / Georgia",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/angelica-holman/17103"
+      },
+      {
+       "name": "Riley Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aldie, Va.",
+       "country": "US",
+       "previous_school": "Lightridge",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/riley-kim/16187"
+      },
+      {
+       "name": "Erina Tan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belmont, Western Australia",
+       "country": "AU",
+       "previous_school": "Mount Lawley Senior",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/erina-tan/18044"
+      },
+      {
+       "name": "Mariana Vega",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barranquilla, Colombia",
+       "country": "CO",
+       "previous_school": "Colegio Karl C. Parrish",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/mariana-vega/18045"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Josh Brewer",
+       "title": "Head Coach",
+       "email": "jbrewe19@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/josh-brewer/2464"
+      },
+      {
+       "name": "Caterina Don",
+       "title": "Assistant Coach",
+       "email": "cdon1@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/caterina-don/2465"
+      },
+      {
+       "name": "Anna Watson",
+       "title": "Graduate Assistant",
+       "email": "awatso39@emich.edu",
+       "phone": "734.487.1050",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/anna-watson/2165"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natai Apichonlati",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The Regent's International School",
+       "class_raw": "Gr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/natai-apichonlati/14996"
+      },
+      {
+       "name": "Alyssa DiMarcantonio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Maple, Ontario",
+       "country": "CA",
+       "previous_school": "Tommy Douglas Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/alyssa-dimarcantonio/14997"
+      },
+      {
+       "name": "Grace Halcrow",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario",
+       "country": "CA",
+       "previous_school": "Simon Fraser/Glenville State",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/grace-halcrow/15885"
+      },
+      {
+       "name": "Riley Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aldie, Va.",
+       "country": "US",
+       "previous_school": "Lightridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/riley-kim/16187"
+      },
+      {
+       "name": "Gabriella Tapp",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Lyon, Mich",
+       "country": "US",
+       "previous_school": "South Lyon",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/gabriella-tapp/15002"
+      },
+      {
+       "name": "Anna Watson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/anna-watson/14998"
+      },
+      {
+       "name": "Sophia Wygonik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westland, Mich.",
+       "country": "US",
+       "previous_school": "Livonia Franklin",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/sophia-wygonik/14999"
+      },
+      {
+       "name": "Paige Zolciak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Perrysburg, Ohio",
+       "country": "US",
+       "previous_school": "St. Ursula Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/paige-zolciak/15000"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Stephanie Jennings",
+       "title": "Head Women's Golf Coach",
+       "email": "stephanie.jennings@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": null
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natai Apichonlati",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The Regent's International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/natai-apichonlati/14996"
+      },
+      {
+       "name": "Alyssa DiMarcantonio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maple, Ontario",
+       "country": "CA",
+       "previous_school": "Tommy Douglas Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/alyssa-dimarcantonio/14997"
+      },
+      {
+       "name": "Kyleigh Dull",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fremont, Ohio",
+       "country": "US",
+       "previous_school": "Lakota",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/kyleigh-dull/14399"
+      },
+      {
+       "name": "Adeline Lau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sa Rawak, Malaysia",
+       "country": "MY",
+       "previous_school": "Michigan Dearborn",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/adeline-lau/14400"
+      },
+      {
+       "name": "Olivia Loberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bend, Ore.",
+       "country": "US",
+       "previous_school": "Summit",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/olivia-loberg/14401"
+      },
+      {
+       "name": "Anna Watson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/anna-watson/14998"
+      },
+      {
+       "name": "Sophia Wygonik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Westland, Mich.",
+       "country": "US",
+       "previous_school": "Livonia Franklin",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/sophia-wygonik/14999"
+      },
+      {
+       "name": "Paige Zolciak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Perrysburg, Ohio",
+       "country": "US",
+       "previous_school": "St. Ursula Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/paige-zolciak/15000"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Stephanie Jennings",
+       "title": "Head Women's Golf Coach",
+       "email": "stephanie.jennings@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": null
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natai Apichonlati",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The Regent's International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/natai-apichonlati/14996"
+      },
+      {
+       "name": "Alyssa DiMarcantonio",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Maple, Ontario",
+       "country": "CA",
+       "previous_school": "Tommy Douglas Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/alyssa-dimarcantonio/14997"
+      },
+      {
+       "name": "Kyleigh Dull",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fremont, Ohio",
+       "country": "US",
+       "previous_school": "Lakota",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/kyleigh-dull/14399"
+      },
+      {
+       "name": "Adeline Lau",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Sa Rawak, Malaysia",
+       "country": "MY",
+       "previous_school": "Michigan Dearborn",
+       "class_raw": "R-So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/adeline-lau/14400"
+      },
+      {
+       "name": "Olivia Loberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bend, Ore.",
+       "country": "US",
+       "previous_school": "Summit",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/olivia-loberg/14401"
+      },
+      {
+       "name": "Tatyana Nyambane",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nairobi, Kenya",
+       "country": "KE",
+       "previous_school": "Nord Anglia International School Dubai",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/tatyana-nyambane/13831"
+      },
+      {
+       "name": "Anna Watson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/anna-watson/14998"
+      },
+      {
+       "name": "Sophia Wygonik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westland, Mich.",
+       "country": "US",
+       "previous_school": "Livonia Franklin",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/sophia-wygonik/14999"
+      },
+      {
+       "name": "Paige Zolciak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Perrysburg, Ohio",
+       "country": "US",
+       "previous_school": "St. Ursula Academy",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/paige-zolciak/15000"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Stephanie Jennings",
+       "title": "Head Women's Golf Coach",
+       "email": "stephanie.jennings@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": null
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natai Apichonlati",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The Regent's International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/natai-apichonlati/14996"
+      },
+      {
+       "name": "Maria Connelly",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Waterville, Ohio",
+       "country": "US",
+       "previous_school": "Anthony Wayne",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/maria-connelly/13109"
+      },
+      {
+       "name": "Adeline Lau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sa Rawak, Malaysia",
+       "country": "MY",
+       "previous_school": "Michigan Dearborn",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/adeline-lau/14400"
+      },
+      {
+       "name": "Olivia Loberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bend, Ore.",
+       "country": "US",
+       "previous_school": "Summit",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/olivia-loberg/14401"
+      },
+      {
+       "name": "Tatyana Nyambane",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nairobi, Kenya",
+       "country": "KE",
+       "previous_school": "Nord Anglia International School Dubai",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/tatyana-nyambane/13831"
+      },
+      {
+       "name": "Preaw Sripatrprasite",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Siam International",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/preaw-sripatrprasite/13103"
+      },
+      {
+       "name": "Anna Watson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ashland, Ohio",
+       "country": "US",
+       "previous_school": "Ashland",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/anna-watson/14998"
+      },
+      {
+       "name": "Sophia Wygonik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westland, Mich.",
+       "country": "US",
+       "previous_school": "Livonia Franklin",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/sophia-wygonik/14999"
+      },
+      {
+       "name": "Paige Zolciak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Perrysburg, Ohio",
+       "country": "US",
+       "previous_school": "St. Ursula Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/paige-zolciak/15000"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Stephanie Jennings",
+       "title": "Head Women's Golf Coach",
+       "email": "stephanie.jennings@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": null
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natai Apichonlati",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The Regent's International School",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/natai-apichonlati/14996"
+      },
+      {
+       "name": "Maria Connelly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Waterville, Ohio",
+       "country": "US",
+       "previous_school": "Anthony Wayne",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/maria-connelly/13109"
+      },
+      {
+       "name": "Katelin Lawson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "LaSalle, Ontario",
+       "country": "CA",
+       "previous_school": "Tampa",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/katelin-lawson/12705"
+      },
+      {
+       "name": "Abby Livingston",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Novi, Mich.",
+       "country": "US",
+       "previous_school": "Novi",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/abby-livingston/12706"
+      },
+      {
+       "name": "Olivia Loberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bend, Ore.",
+       "country": "US",
+       "previous_school": "Summit",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/olivia-loberg/14401"
+      },
+      {
+       "name": "Preaw Sripatrprasite",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Siam International",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/preaw-sripatrprasite/13103"
+      },
+      {
+       "name": "Julia Stevenson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Milford, Mich.",
+       "country": "US",
+       "previous_school": "Milford",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/julia-stevenson/12708"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Stephanie Jennings",
+       "title": "Head Women's Golf Coach",
+       "email": "stephanie.jennings@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": null
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natai Apichonlati",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The Regent's International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/natai-apichonlati/14996"
+      },
+      {
+       "name": "Kritsuda Apiwatthanadol",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Somtawin Witead Suska Huaymongkhon School",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/kritsuda-apiwatthanadol/8852"
+      },
+      {
+       "name": "Maria Connelly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Waterville, Ohio",
+       "country": "US",
+       "previous_school": "Anthony Wayne",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/maria-connelly/13109"
+      },
+      {
+       "name": "Penelope Guilleux",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint Maur Des Fosse, France",
+       "country": "FR",
+       "previous_school": "Arsonval",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/penelope-guilleux/10199"
+      },
+      {
+       "name": "Katelin Lawson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "LaSalle, Ontario",
+       "country": "CA",
+       "previous_school": "Tampa",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/katelin-lawson/12705"
+      },
+      {
+       "name": "Abby Livingston",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Novi, Mich.",
+       "country": "US",
+       "previous_school": "Novi",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/abby-livingston/12706"
+      },
+      {
+       "name": "Preaw Sripatrprasite",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Siam International",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/preaw-sripatrprasite/13103"
+      },
+      {
+       "name": "Julia Stevenson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Milford, Mich.",
+       "country": "US",
+       "previous_school": "Milford",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/julia-stevenson/12708"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Stephanie Jennings",
+       "title": "Head Women's Golf Coach",
+       "email": "stephanie.jennings@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": null
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kritsuda Apiwatthanadol",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Somtawin Witead Suska Huaymongkhon School",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/kritsuda-apiwatthanadol/8852"
+      },
+      {
+       "name": "Thelma Beck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Baden, France",
+       "country": "FR",
+       "previous_school": "Lycee Sainte Anne",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/thelma-beck/8247"
+      },
+      {
+       "name": "Maria Connelly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waterville, Ohio",
+       "country": "US",
+       "previous_school": "Anthony Wayne",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/maria-connelly/13109"
+      },
+      {
+       "name": "Penelope Guilleux",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saint Maur Des Fosse, France",
+       "country": "FR",
+       "previous_school": "Arsonval",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/penelope-guilleux/10199"
+      },
+      {
+       "name": "Katelin Lawson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "LaSalle, Ontario",
+       "country": "CA",
+       "previous_school": "Tampa",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/katelin-lawson/12705"
+      },
+      {
+       "name": "Preaw Sripatrprasite",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Siam International",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/preaw-sripatrprasite/13103"
+      },
+      {
+       "name": "Julia Stevenson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Milford, Mich.",
+       "country": "US",
+       "previous_school": "Milford",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/julia-stevenson/12708"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pina Gentile",
+       "title": "Head Coach",
+       "email": "jgentil2@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/pina-gentile/1265"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://emueagles.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kritsuda Apiwatthanadol",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Somtawin Witead Suska Huaymongkhon School",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/kritsuda-apiwatthanadol/8852"
+      },
+      {
+       "name": "Thelma Beck",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Baden, France",
+       "country": "FR",
+       "previous_school": "Lycee Sainte Anne",
+       "class_raw": "Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/thelma-beck/8247"
+      },
+      {
+       "name": "Maria Connelly",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waterville, Ohio",
+       "country": "US",
+       "previous_school": "Anthony Wayne",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/maria-connelly/13109"
+      },
+      {
+       "name": "Penelope Guilleux",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint Maur Des Fosse, France",
+       "country": "FR",
+       "previous_school": "Arsonval",
+       "class_raw": "So.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/penelope-guilleux/10199"
+      },
+      {
+       "name": "Brenna Hammond",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "West Bloomfield, Mich.",
+       "country": "US",
+       "previous_school": "Detroit Mercy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/brenna-hammond/7439"
+      },
+      {
+       "name": "Kelsey Murphy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Plymouth, Mich.",
+       "country": "US",
+       "previous_school": "Plymouth",
+       "class_raw": "Sr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/kelsey-murphy/7440"
+      },
+      {
+       "name": "Julia Stevenson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Milford, Mich.",
+       "country": "US",
+       "previous_school": "Milford",
+       "class_raw": "Fr.",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/julia-stevenson/12708"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pina Gentile",
+       "title": "Head Coach",
+       "email": "jgentil2@emich.edu",
+       "phone": "734.487.6435",
+       "profile_url": "https://emueagles.com/sports/womens-golf/roster/coaches/pina-gentile/1265"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://emueagles.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://emueagles.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://emueagles.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://emueagles.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://emueagles.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

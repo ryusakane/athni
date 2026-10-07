@@ -1,36 +1,2028 @@
 {
  "slug": "csun",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gomatadors.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bryson Barnes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Long Beach, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/bryson-barnes/7277"
+      },
+      {
+       "name": "Tavin Boman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tavin-boman/7280"
+      },
+      {
+       "name": "Domenic De Luca",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Toronto, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/domenic-de-luca/6917"
+      },
+      {
+       "name": "Nick Fry",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Laguna Hills, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/nick-fry/6918"
+      },
+      {
+       "name": "Dillon Jonke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kihei, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/dillon-jonke/7281"
+      },
+      {
+       "name": "Liam Judkins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Queenstown, New Zealand",
+       "country": "NZ",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/liam-judkins/7282"
+      },
+      {
+       "name": "Ethan Posthumus",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Coquitlam, British Columbia, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/ethan-posthumus/7283"
+      },
+      {
+       "name": "Yuo Torii",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Osaka, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/yuo-torii/6921"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "James Driscoll",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/james-driscoll/1449"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      },
+      {
+       "name": "Tom Hutchison",
+       "title": "Director of Operations",
+       "email": "thomas.hutchison@csun.edu",
+       "phone": "6651",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/staff/tom-hutchison/233"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bryson Barnes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Long Beach, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/bryson-barnes/7277"
+      },
+      {
+       "name": "Tavin Boman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tavin-boman/7280"
+      },
+      {
+       "name": "Domenic De Luca",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Toronto, Canada",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/domenic-de-luca/6917"
+      },
+      {
+       "name": "Nick Fry",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Laguna Hills, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/nick-fry/6918"
+      },
+      {
+       "name": "Dillon Jonke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kihei, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/dillon-jonke/7281"
+      },
+      {
+       "name": "Liam Judkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Queenstown, New Zealand",
+       "country": "NZ",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/liam-judkins/7282"
+      },
+      {
+       "name": "Yuo Torii",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Osaka, Japan",
+       "country": "JP",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/yuo-torii/6921"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "James Driscoll",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/james-driscoll/1449"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thomas Burou",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/thomas-burou/6156"
+      },
+      {
+       "name": "Dillon Jonke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kihei, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/dillon-jonke/7281"
+      },
+      {
+       "name": "Liam Judkins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Queenstown, New Zealand",
+       "country": "NZ",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/liam-judkins/7282"
+      },
+      {
+       "name": "Brandon McDonough",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/brandon-mcdonough/6157"
+      },
+      {
+       "name": "Antoine Sale",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Chateau d'opera, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/antoine-sale/6155"
+      },
+      {
+       "name": "Felix Schrott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bolzano, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/felix-schrott/6158"
+      },
+      {
+       "name": "Eirik Thomassen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rygge, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/eirik-thomassen/6159"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      },
+      {
+       "name": "Tom Hutchison",
+       "title": "Director of Operations",
+       "email": "thomas.hutchison@csun.edu",
+       "phone": "6651",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/staff/tom-hutchison/233"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nick Burns",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Agoura Hills, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/nick-burns/5804"
+      },
+      {
+       "name": "Thomas Burou",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/thomas-burou/6156"
+      },
+      {
+       "name": "Nick Fowlkes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stevenson Ranch, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/nick-fowlkes/5799"
+      },
+      {
+       "name": "Paul-Louis Gachet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ian MacKay",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bothell, WA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/ian-mackay/5801"
+      },
+      {
+       "name": "Brandon McDonough",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/brandon-mcdonough/6157"
+      },
+      {
+       "name": "Felix Schrott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bolzano, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/felix-schrott/6158"
+      },
+      {
+       "name": "Eirik Thomassen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rygge, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/eirik-thomassen/6159"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Blake Brothers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/blake-brothers/5387"
+      },
+      {
+       "name": "Thomas Burou",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/thomas-burou/6156"
+      },
+      {
+       "name": "Nick Fowlkes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stevenson Ranch, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/nick-fowlkes/5799"
+      },
+      {
+       "name": "Paul-Louis Gachet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ian MacKay",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bothell, WA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/ian-mackay/5801"
+      },
+      {
+       "name": "Brandon McDonough",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/brandon-mcdonough/6157"
+      },
+      {
+       "name": "Felix Schrott",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bolzano, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/felix-schrott/6158"
+      },
+      {
+       "name": "Eirik Thomassen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rygge, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/eirik-thomassen/6159"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gabriel Barnes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Olympia, WA",
+       "country": "US",
+       "previous_school": "Capital HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/gabriel-barnes/4526"
+      },
+      {
+       "name": "Blake Brothers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Odessa College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/blake-brothers/5387"
+      },
+      {
+       "name": "Paul-Louis Gachet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycée Assomption",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Tomas Helgo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stavanger, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Stavanger AS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tomas-helgo/4530"
+      },
+      {
+       "name": "Brandon McDonough",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": "Santa Monica HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/brandon-mcdonough/6157"
+      },
+      {
+       "name": "Eirik Thomassen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rygge, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Fredrikstad",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/eirik-thomassen/6159"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      },
+      {
+       "name": "Kevin Bailey",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/kevin-bailey/788"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gabriel Barnes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Olympia, WA",
+       "country": "US",
+       "previous_school": "Capital HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/gabriel-barnes/4526"
+      },
+      {
+       "name": "Blake Brothers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Odessa College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/blake-brothers/5387"
+      },
+      {
+       "name": "Mats Ege",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kristiansand, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Stavanger AS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/mats-ege/4032"
+      },
+      {
+       "name": "Sevian Frangipane",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hackettstown, NJ",
+       "country": "US",
+       "previous_school": "Hackettstown HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/sevian-frangipane/4027"
+      },
+      {
+       "name": "Paul-Louis Gachet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycée Assomption",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Tomas Helgo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stavanger, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Stavanger AS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tomas-helgo/4530"
+      },
+      {
+       "name": "Brandon McDonough",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Monica, CA",
+       "country": "US",
+       "previous_school": "Santa Monica HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/brandon-mcdonough/6157"
+      },
+      {
+       "name": "Eirik Thomassen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rygge, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Fredrikstad",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/eirik-thomassen/6159"
+      },
+      {
+       "name": "Michael Zhang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "University City HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/michael-zhang/4030"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gabriel Barnes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Olympia, WA",
+       "country": "US",
+       "previous_school": "Capital HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/gabriel-barnes/4526"
+      },
+      {
+       "name": "Luis Calderon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "St. Augustine HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/luis-calderon/3423"
+      },
+      {
+       "name": "Sevian Frangipane",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hackettstown, NJ",
+       "country": "US",
+       "previous_school": "Hackettstown HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/sevian-frangipane/4027"
+      },
+      {
+       "name": "Paul-Louis Gachet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycée Assomption",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Tomas Helgo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stavanger, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Stavanger AS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tomas-helgo/4530"
+      },
+      {
+       "name": "Ryan Hoffenberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Simi Valley, CA",
+       "country": "US",
+       "previous_school": "Royal HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/ryan-hoffenberg/3428"
+      },
+      {
+       "name": "Jason McGuinness",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Northamptonshire, England",
+       "country": "GB",
+       "previous_school": "College of the Canyons",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/jason-mcguinness/3425"
+      },
+      {
+       "name": "Tomas Skajem",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Oslo Handelsgymnasium",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tomas-skajem/3426"
+      },
+      {
+       "name": "Michael Zhang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "University City HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/michael-zhang/4030"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Gabriel Barnes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Olympia, WA",
+       "country": "US",
+       "previous_school": "Capital HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/gabriel-barnes/4526"
+      },
+      {
+       "name": "Luis Calderon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "St. Augustine HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/luis-calderon/3423"
+      },
+      {
+       "name": "Trym Falch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sandnes, Norway",
+       "country": "NO",
+       "previous_school": "Brevard College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/trym-falch/2923"
+      },
+      {
+       "name": "Sevian Frangipane",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hackettstown, NJ",
+       "country": "US",
+       "previous_school": "Hackettstown HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/sevian-frangipane/4027"
+      },
+      {
+       "name": "Jason McGuinness",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Northamptonshire, England",
+       "country": "GB",
+       "previous_school": "College of the Canyons",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/jason-mcguinness/3425"
+      },
+      {
+       "name": "Felix Mory",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bourghelles, France",
+       "country": "FR",
+       "previous_school": "Santa Barbara CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/felix-mory/2918"
+      },
+      {
+       "name": "Tomas Skajem",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Oslo Handelsgymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tomas-skajem/3426"
+      },
+      {
+       "name": "Joey Varnam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "La Jolla HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/joey-varnam/2924"
+      },
+      {
+       "name": "Michael Zhang",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "University City HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/michael-zhang/4030"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gomatadors.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luis Calderon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "St. Augustine HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/luis-calderon/3423"
+      },
+      {
+       "name": "Sam Engel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Desert Mountain HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/sam-engel/2475"
+      },
+      {
+       "name": "Trym Falch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sandnes, Norway",
+       "country": "NO",
+       "previous_school": "Brevard College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/trym-falch/2923"
+      },
+      {
+       "name": "Sevian Frangipane",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hackettstown, NJ",
+       "country": "US",
+       "previous_school": "Hackettstown HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/sevian-frangipane/4027"
+      },
+      {
+       "name": "Tavit Garabedian",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glendale, CA",
+       "country": "US",
+       "previous_school": "Glendale College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tavit-garabedian/2482"
+      },
+      {
+       "name": "Felix Mory",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bourghelles, France",
+       "country": "FR",
+       "previous_school": "Santa Barbara CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/felix-mory/2918"
+      },
+      {
+       "name": "Tomas Skajem",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Oslo Handelsgymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/tomas-skajem/3426"
+      },
+      {
+       "name": "Joey Varnam",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "La Jolla HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/joey-varnam/2924"
+      },
+      {
+       "name": "Michael Zhang",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Diego, CA",
+       "country": "US",
+       "previous_school": "University City HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/michael-zhang/4030"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Bracken",
+       "title": "Head Coach",
+       "email": "james.b.bracken@csun.edu",
+       "phone": "3228",
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/jim-bracken/1448"
+      },
+      {
+       "name": "Kevin Bailey",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/kevin-bailey/788"
+      },
+      {
+       "name": "Garry Finneran",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/mens-golf/roster/coaches/garry-finneran/1450"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gomatadors.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sophie Cook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elk Grove, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/sophie-cook/7289"
+      },
+      {
+       "name": "Lily McGowan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/lily-mcgowan/6913"
+      },
+      {
+       "name": "Meghan Paracuelles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/meghan-paracuelles/7291"
+      },
+      {
+       "name": "Gracie Piar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Alton, IL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/gracie-piar/6908"
+      },
+      {
+       "name": "Ellie Shirley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ellie-shirley/7292"
+      },
+      {
+       "name": "Ariya Soldwisch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maui, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ariya-soldwisch/6910"
+      },
+      {
+       "name": "Nicole Tanoue",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/nicole-tanoue/7293"
+      },
+      {
+       "name": "Kim Turgut",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kim-turgut/6912"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Lynn",
+       "title": "Head Coach",
+       "email": "michelle.winkler@csun.edu",
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/michelle-lynn/1452"
+      },
+      {
+       "name": "Tom Hutchison",
+       "title": "Director of Operations",
+       "email": "thomas.hutchison@csun.edu",
+       "phone": "6651",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/staff/tom-hutchison/233"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Meghan Paracuelles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/meghan-paracuelles/7291"
+      },
+      {
+       "name": "Gracie Piar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "East Alton, IL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/gracie-piar/6908"
+      },
+      {
+       "name": "Ellie Shirley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ellie-shirley/7292"
+      },
+      {
+       "name": "Ariya Soldwisch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Maui, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ariya-soldwisch/6910"
+      },
+      {
+       "name": "Nicole Tanoue",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/nicole-tanoue/7293"
+      },
+      {
+       "name": "Kim Turgut",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kim-turgut/6912"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Lynn",
+       "title": "Head Coach",
+       "email": "michelle.winkler@csun.edu",
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/michelle-lynn/1452"
+      },
+      {
+       "name": "Tom Hutchison",
+       "title": "Director of Operations",
+       "email": "thomas.hutchison@csun.edu",
+       "phone": "6651",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/staff/tom-hutchison/233"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Elle Laur",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Encino, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/elle-laur/6165"
+      },
+      {
+       "name": "Meghan Paracuelles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Folsom, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/meghan-paracuelles/7291"
+      },
+      {
+       "name": "Gracie Piar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Alton, IL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/gracie-piar/6908"
+      },
+      {
+       "name": "Ellie Shirley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ellie-shirley/7292"
+      },
+      {
+       "name": "Nicole Tanoue",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawai'i",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/nicole-tanoue/7293"
+      },
+      {
+       "name": "Kim Turgut",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kim-turgut/6912"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Lynn",
+       "title": "Head Coach",
+       "email": "michelle.winkler@csun.edu",
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/michelle-lynn/1452"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grace Bettis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pacifica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/grace-bettis/5787"
+      },
+      {
+       "name": "Elle Laur",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Encino, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/elle-laur/6165"
+      },
+      {
+       "name": "Gracie Piar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Alton, IL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/gracie-piar/6908"
+      },
+      {
+       "name": "Fernanda Sosa Stackpole",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/fernanda-sosa-stackpole/5790"
+      },
+      {
+       "name": "Kim Turgut",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kim-turgut/6912"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Lynn",
+       "title": "Head Coach",
+       "email": "michelle.winkler@csun.edu",
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/michelle-lynn/1452"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grace Bettis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pacifica, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/grace-bettis/5787"
+      },
+      {
+       "name": "Hanne Sofie Borgen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jessheim, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/hanne-sofie-borgen/5396"
+      },
+      {
+       "name": "Julia Johansson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Boraas, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/julia-johansson/5397"
+      },
+      {
+       "name": "Elle Laur",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Encino, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/elle-laur/6165"
+      },
+      {
+       "name": "Julia Myklebust",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/julia-myklebust/5399"
+      },
+      {
+       "name": "Tiffany Pak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Camarillo, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/tiffany-pak/5400"
+      },
+      {
+       "name": "Kiran Sangha",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Mateo, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kiran-sangha/5401"
+      },
+      {
+       "name": "Fernanda Sosa Stackpole",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/fernanda-sosa-stackpole/5790"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Michelle Lynn",
+       "title": "Interim Head Coach",
+       "email": "michelle.winkler@csun.edu",
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/michelle-lynn/1452"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grace Bettis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pacifica, CA",
+       "country": "US",
+       "previous_school": "St. Ignatius Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/grace-bettis/5787"
+      },
+      {
+       "name": "Hanne Sofie Borgen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jessheim, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/hanne-sofie-borgen/5396"
+      },
+      {
+       "name": "Julia Johansson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boraas, Sweden",
+       "country": "SE",
+       "previous_school": "Sven Eriksongymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/julia-johansson/5397"
+      },
+      {
+       "name": "Elle Laur",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Encino, CA",
+       "country": "US",
+       "previous_school": "Oakwood School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/elle-laur/6165"
+      },
+      {
+       "name": "Julia Myklebust",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/julia-myklebust/5399"
+      },
+      {
+       "name": "Tiffany Pak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camarillo, Calif.",
+       "country": "US",
+       "previous_school": "Camarillo HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/tiffany-pak/5400"
+      },
+      {
+       "name": "Ashley Phelps",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burbank, CA",
+       "country": "US",
+       "previous_school": "Burroughs HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ashley-phelps/4519"
+      },
+      {
+       "name": "Kiran Sangha",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Mateo, Calif.",
+       "country": "US",
+       "previous_school": "San Mateo HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kiran-sangha/5401"
+      },
+      {
+       "name": "Brianna Steger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Altadena, CA",
+       "country": "US",
+       "previous_school": "La Salle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brianna-steger/4521"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Gina Umeck *",
+       "title": "Head Coach",
+       "email": "gina.umeck@csun.edu",
+       "phone": "7006",
+       "profile_url": null
+      },
+      {
+       "name": "Shenna De Leon",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/shenna-de-leon/785"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grace Bettis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pacifica, CA",
+       "country": "US",
+       "previous_school": "St. Ignatius Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/grace-bettis/5787"
+      },
+      {
+       "name": "Araceli Esquivel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tucson, AZ",
+       "country": "US",
+       "previous_school": "Salpointe Catholic HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/araceli-esquivel/3999"
+      },
+      {
+       "name": "Julia Johansson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boraas, Sweden",
+       "country": "SE",
+       "previous_school": "Sven Eriksongymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/julia-johansson/5397"
+      },
+      {
+       "name": "Ashley Phelps",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burbank, CA",
+       "country": "US",
+       "previous_school": "Burroughs HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ashley-phelps/4519"
+      },
+      {
+       "name": "Kiran Sangha",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Mateo, Calif.",
+       "country": "US",
+       "previous_school": "San Mateo HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kiran-sangha/5401"
+      },
+      {
+       "name": "Brianna Steger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Altadena, CA",
+       "country": "US",
+       "previous_school": "La Salle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brianna-steger/4521"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Gina Umeck *",
+       "title": "Head Coach",
+       "email": "gina.umeck@csun.edu",
+       "phone": "7006",
+       "profile_url": null
+      },
+      {
+       "name": "Jane Rah",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/jane-rah/588"
+      },
+      {
+       "name": "Shenna De Leon",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/coaches/shenna-de-leon/785"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Michelle Duan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Reno, NV",
+       "country": "US",
+       "previous_school": "Nevada",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/michelle-duan/3357"
+      },
+      {
+       "name": "Brooke Hamilton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": "Oregon",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brooke-hamilton/3358"
+      },
+      {
+       "name": "Ashley Phelps",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burbank, CA",
+       "country": "US",
+       "previous_school": "Burroughs HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ashley-phelps/4519"
+      },
+      {
+       "name": "Kiran Sangha",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Mateo, Calif.",
+       "country": "US",
+       "previous_school": "San Mateo HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kiran-sangha/5401"
+      },
+      {
+       "name": "Brianna Steger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Altadena, CA",
+       "country": "US",
+       "previous_school": "La Salle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brianna-steger/4521"
+      },
+      {
+       "name": "Kayla Yn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arcadia, CA",
+       "country": "US",
+       "previous_school": "Illinois-Springfield",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kayla-yn/3361"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Gina Umeck *",
+       "title": "Head Coach",
+       "email": "gina.umeck@csun.edu",
+       "phone": "7006",
+       "profile_url": null
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Shenna DeLeon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pomona, CA",
+       "country": "US",
+       "previous_school": "Diamond Ranch HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/shenna-deleon/3045"
+      },
+      {
+       "name": "Alice Duan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Reno, NV",
+       "country": "US",
+       "previous_school": "Robert McQueen HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/alice-duan/3044"
+      },
+      {
+       "name": "Michelle Duan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Reno, NV",
+       "country": "US",
+       "previous_school": "Nevada",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/michelle-duan/3357"
+      },
+      {
+       "name": "Brooke Hamilton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": "Oregon",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brooke-hamilton/3358"
+      },
+      {
+       "name": "Ashley Phelps",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burbank, CA",
+       "country": "US",
+       "previous_school": "Burroughs HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ashley-phelps/4519"
+      },
+      {
+       "name": "Brianna Steger",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Altadena, CA",
+       "country": "US",
+       "previous_school": "La Salle HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brianna-steger/4521"
+      },
+      {
+       "name": "Kayla Yn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arcadia, CA",
+       "country": "US",
+       "previous_school": "Illinois-Springfield",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kayla-yn/3361"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Gina Umeck *",
+       "title": "Head Coach",
+       "email": "gina.umeck@csun.edu",
+       "phone": "7006",
+       "profile_url": null
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gomatadors.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Savanah Cooper",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sedona, AZ",
+       "country": "US",
+       "previous_school": "Mesa Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/savanah-cooper/2525"
+      },
+      {
+       "name": "Shenna DeLeon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pomona, CA",
+       "country": "US",
+       "previous_school": "Diamond Ranch HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/shenna-deleon/3045"
+      },
+      {
+       "name": "Alice Duan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Reno, NV",
+       "country": "US",
+       "previous_school": "Robert McQueen HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/alice-duan/3044"
+      },
+      {
+       "name": "Brianna Steger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Altadena, CA",
+       "country": "US",
+       "previous_school": "La Salle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/brianna-steger/4521"
+      },
+      {
+       "name": "Ysabel Tran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Santa Margarita, CA",
+       "country": "US",
+       "previous_school": "Troy HS",
+       "class_raw": "So.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/ysabel-tran/2522"
+      },
+      {
+       "name": "Kayla Yn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arcadia, CA",
+       "country": "US",
+       "previous_school": "Illinois-Springfield",
+       "class_raw": "Jr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/kayla-yn/3361"
+      },
+      {
+       "name": "Chaiwon Youn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "University of Albany",
+       "class_raw": "Sr.",
+       "profile_url": "https://gomatadors.com/sports/womens-golf/roster/chaiwon-youn/2523"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Gina Umeck *",
+       "title": "Head Coach",
+       "email": "gina.umeck@csun.edu",
+       "phone": "7006",
+       "profile_url": null
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gomatadors.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gomatadors.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gomatadors.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gomatadors.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gomatadors.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,36 +1,2380 @@
 {
  "slug": "elon",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://elonphoenix.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tanner Berry",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, OH",
+       "country": "US",
+       "previous_school": "St. Xavier HS",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/tanner-berry/11019"
+      },
+      {
+       "name": "William Carr",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Broughton HS",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-carr/11020"
+      },
+      {
+       "name": "Landon Durham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, FL",
+       "country": "US",
+       "previous_school": "Savannah Country Day School",
+       "class_raw": "Sr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/landon-durham/11015"
+      },
+      {
+       "name": "Jennings Glenn",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Broughton HS",
+       "class_raw": "R-Sr.",
+       "major": "Accounting (Masters)",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jennings-glenn/11016"
+      },
+      {
+       "name": "Dylan Lewis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wilmington, NC",
+       "country": "US",
+       "previous_school": "Hoggard HS",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dylan-lewis/11021"
+      },
+      {
+       "name": "Martin Saquicoray",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "IES Ortega y Gasset",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/martin-saquicoray/11022"
+      },
+      {
+       "name": "Bence Somogyi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Budapest, Hungary",
+       "country": "HU",
+       "previous_school": "Lauder Javne HS",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bence-somogyi/11023"
+      },
+      {
+       "name": "Jack Wieler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bluffton, SC",
+       "country": "US",
+       "previous_school": "Marvin Ridge HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jack-wieler/11018"
+      },
+      {
+       "name": "Drew Yeagley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waxhaw, NC",
+       "country": "US",
+       "previous_school": "Marvin Ridge HS",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/drew-yeagley/11024"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/1601"
+      },
+      {
+       "name": "Roddy Guest",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/roddy-guest/1602"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Juan Callejo Ropero",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "CIS – Endicott International",
+       "class_raw": "Sr.",
+       "major": "Business Analytics",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/juan-callejo-ropero/10249"
+      },
+      {
+       "name": "Matthew Doyle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Summerville, SC",
+       "country": "US",
+       "previous_school": "Daniel Hand",
+       "class_raw": "Sr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/matthew-doyle/10250"
+      },
+      {
+       "name": "Landon Durham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, FL",
+       "country": "US",
+       "previous_school": "Savannah Country Day School",
+       "class_raw": "Jr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/landon-durham/10251"
+      },
+      {
+       "name": "Timmy Gannon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Charlotte Country Day School",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/timmy-gannon/10252"
+      },
+      {
+       "name": "Jennings Glenn",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Broughton HS",
+       "class_raw": "R-Jr.",
+       "major": "Accounting (Masters)",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jennings-glenn/10253"
+      },
+      {
+       "name": "Bronson Myers",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Columbia, SC",
+       "country": "US",
+       "previous_school": "Hammond School",
+       "class_raw": "R-Sr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bronson-myers/10254"
+      },
+      {
+       "name": "Bizzell Pate",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pinehurst, NC",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bizzell-pate/10257"
+      },
+      {
+       "name": "Garrett Risner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holly Springs, NC",
+       "country": "US",
+       "previous_school": "Apex Friendship",
+       "class_raw": "Sr.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/garrett-risner/10255"
+      },
+      {
+       "name": "Jack Wieler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bluffton, SC",
+       "country": "US",
+       "previous_school": "Marvin Ridge HS",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jack-wieler/10256"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/1462"
+      },
+      {
+       "name": "Roddy Guest",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/roddy-guest/1464"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Juan Callejo Ropero",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "CIS – Endicott International",
+       "class_raw": "Jr.",
+       "major": "Business Analytics",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/juan-callejo-ropero/9597"
+      },
+      {
+       "name": "Matthew Doyle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Summerville, SC",
+       "country": "US",
+       "previous_school": "Daniel Hand",
+       "class_raw": "Jr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/matthew-doyle/9598"
+      },
+      {
+       "name": "Landon Durham",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, FL",
+       "country": "US",
+       "previous_school": "Savannah Country Day School",
+       "class_raw": "So.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/landon-durham/9599"
+      },
+      {
+       "name": "Timmy Gannon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Charlotte Country Day School",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/timmy-gannon/9600"
+      },
+      {
+       "name": "Jennings Glenn",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Broughton HS",
+       "class_raw": "R-So.",
+       "major": "Accounting (Masters)",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jennings-glenn/9601"
+      },
+      {
+       "name": "Bronson Myers",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Columbia, SC",
+       "country": "US",
+       "previous_school": "Hammond School",
+       "class_raw": "R-Jr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bronson-myers/9602"
+      },
+      {
+       "name": "Pedro Rabadan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Colegio CEU San Pablo Sanchinarro",
+       "class_raw": "Sr.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/pedro-rabadan/9603"
+      },
+      {
+       "name": "Garrett Risner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holly Springs, NC",
+       "country": "US",
+       "previous_school": "Apex Friendship",
+       "class_raw": "Jr.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/garrett-risner/9604"
+      },
+      {
+       "name": "Oliver Rotermund",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "R-So.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/oliver-rotermund/9605"
+      },
+      {
+       "name": "Jack Wieler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bluffton, SC",
+       "country": "US",
+       "previous_school": "Marvin Ridge HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jack-wieler/9606"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/1348"
+      },
+      {
+       "name": "Brad Hastings",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/brad-hastings/1349"
+      },
+      {
+       "name": "Roddy Guest",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/roddy-guest/1351"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Juan Callejo Ropero",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "CIS – Endicott International",
+       "class_raw": "So.",
+       "major": "Business Analytics",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/juan-callejo-ropero/8771"
+      },
+      {
+       "name": "Cristian Del Vecchio",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Oyster Bay, N.Y.",
+       "country": "US",
+       "previous_school": "Friends Academy",
+       "class_raw": "Gr.",
+       "major": "Entrepreneurship",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/cristian-del-vecchio/8772"
+      },
+      {
+       "name": "Matthew Doyle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Summerville, SC",
+       "country": "US",
+       "previous_school": "Daniel Hand",
+       "class_raw": "So.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/matthew-doyle/8773"
+      },
+      {
+       "name": "Landon Durham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, FL",
+       "country": "US",
+       "previous_school": "Savannah Country Day School",
+       "class_raw": "Fr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/landon-durham/8778"
+      },
+      {
+       "name": "Timmy Gannon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Charlotte Country Day School",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/timmy-gannon/8774"
+      },
+      {
+       "name": "Jennings Glenn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Broughton HS",
+       "class_raw": "So.",
+       "major": "Accounting (Masters)",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jennings-glenn/8779"
+      },
+      {
+       "name": "Bronson Myers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbia, SC",
+       "country": "US",
+       "previous_school": "Hammond School",
+       "class_raw": "Sr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bronson-myers/8775"
+      },
+      {
+       "name": "Pedro Rabadan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Colegio CEU San Pablo Sanchinarro",
+       "class_raw": "Jr.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/pedro-rabadan/8776"
+      },
+      {
+       "name": "Garrett Risner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holly Springs, NC",
+       "country": "US",
+       "previous_school": "Apex Friendship",
+       "class_raw": "Jr.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/garrett-risner/8777"
+      },
+      {
+       "name": "Oliver Rotermund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "Fr.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/oliver-rotermund/8780"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/1200"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Juan Callejo Ropero",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "CIS – Endicott International",
+       "class_raw": "Fr.",
+       "major": "Business Analytics",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/juan-callejo-ropero/8333"
+      },
+      {
+       "name": "Dawson Daniels",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "High Point Christian Academy",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dawson-daniels/8324"
+      },
+      {
+       "name": "Cristian Del Vecchio",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oyster Bay, N.Y.",
+       "country": "US",
+       "previous_school": "Friends Academy",
+       "class_raw": "Sr.",
+       "major": "Entrepreneurship",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/cristian-del-vecchio/8325"
+      },
+      {
+       "name": "Matthew Doyle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Summerville, SC",
+       "country": "US",
+       "previous_school": "Daniel Hand",
+       "class_raw": "Fr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/matthew-doyle/8334"
+      },
+      {
+       "name": "Josef Dransfeld",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/josef-dransfeld/8326"
+      },
+      {
+       "name": "Max Ferrari",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Framingham, Mass.",
+       "country": "US",
+       "previous_school": "Saint Mary's College",
+       "class_raw": "Gr.",
+       "major": "Finance and Project Management",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/max-ferrari/8327"
+      },
+      {
+       "name": "William Frodigh",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Westwood",
+       "class_raw": "R-Sr.",
+       "major": "Project Management",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-frodigh/8328"
+      },
+      {
+       "name": "Timmy Gannon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Charlotte Country Day School",
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/timmy-gannon/8335"
+      },
+      {
+       "name": "Graham Hutchinson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Prosper",
+       "class_raw": "Gr.",
+       "major": "Economics",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/graham-hutchinson/8329"
+      },
+      {
+       "name": "Bronson Myers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbia, SC",
+       "country": "US",
+       "previous_school": "Hammond School",
+       "class_raw": "Jr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bronson-myers/8330"
+      },
+      {
+       "name": "Pedro Rabadan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Colegio CEU San Pablo Sanchinarro",
+       "class_raw": "So.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/pedro-rabadan/8331"
+      },
+      {
+       "name": "Garrett Risner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holly Springs, NC",
+       "country": "US",
+       "previous_school": "Apex Friendship",
+       "class_raw": "So.",
+       "major": "Undecided",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/garrett-risner/8332"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/1122"
+      },
+      {
+       "name": "Dan Ruyle",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/dan-ruyle/1153"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dustin Blank",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elon, N.C.",
+       "country": "US",
+       "previous_school": "The Burlington School",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dustin-blank/6168"
+      },
+      {
+       "name": "Dawson Daniels",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "High Point Christian Academy",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dawson-daniels/6169"
+      },
+      {
+       "name": "Cristian Del Vecchio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oyster Bay, N.Y.",
+       "country": "US",
+       "previous_school": "Friends Academy",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/cristian-del-vecchio/6170"
+      },
+      {
+       "name": "Josef Dransfeld",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/josef-dransfeld/6171"
+      },
+      {
+       "name": "Max Ferrari",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Framingham, Mass.",
+       "country": "US",
+       "previous_school": "Saint Mary's College",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/max-ferrari/6172"
+      },
+      {
+       "name": "William Frodigh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Westwood",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-frodigh/6173"
+      },
+      {
+       "name": "Graham Hutchinson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Prosper",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/graham-hutchinson/6174"
+      },
+      {
+       "name": "Quade Lukes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/quade-lukes/6175"
+      },
+      {
+       "name": "Bronson Myers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbia, SC",
+       "country": "US",
+       "previous_school": "Hammond School",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/bronson-myers/6261"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/930"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dustin Blank",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elon, N.C.",
+       "country": "US",
+       "previous_school": "The Burlington School",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dustin-blank/5735"
+      },
+      {
+       "name": "Dawson Daniels",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "High Point Christian Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dawson-daniels/5743"
+      },
+      {
+       "name": "Cristian Del Vecchio",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oyster Bay, N.Y.",
+       "country": "US",
+       "previous_school": "Friends Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/cristian-del-vecchio/5744"
+      },
+      {
+       "name": "Josef Dransfeld",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/josef-dransfeld/5745"
+      },
+      {
+       "name": "Max Ferrari",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Framingham, Mass.",
+       "country": "US",
+       "previous_school": "Saint Mary's College",
+       "class_raw": "R-So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/max-ferrari/5742"
+      },
+      {
+       "name": "William Frodigh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Westwood",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-frodigh/5736"
+      },
+      {
+       "name": "William Harwood",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Ben Lippen School",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-harwood/5737"
+      },
+      {
+       "name": "Graham Hutchinson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Prosper",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/graham-hutchinson/5738"
+      },
+      {
+       "name": "Philip Loeb",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Connections Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/philip-loeb/5739"
+      },
+      {
+       "name": "Quade Lukes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/quade-lukes/5740"
+      },
+      {
+       "name": "Steven Segrist",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glenwood, Md.",
+       "country": "US",
+       "previous_school": "Glenelg High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/steven-segrist/5741"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/838"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dustin Blank",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elon, N.C.",
+       "country": "US",
+       "previous_school": "The Burlington School",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dustin-blank/5172"
+      },
+      {
+       "name": "Patrick Frodigh",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Westwood",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/patrick-frodigh/5164"
+      },
+      {
+       "name": "William Frodigh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Westwood",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-frodigh/5226"
+      },
+      {
+       "name": "William Harwood",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Ben Lippen School",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-harwood/5165"
+      },
+      {
+       "name": "Graham Hutchinson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Prosper",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/graham-hutchinson/5173"
+      },
+      {
+       "name": "Jake Leavitt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodstock, Md.",
+       "country": "US",
+       "previous_school": "Mount Saint Joseph",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jake-leavitt/5166"
+      },
+      {
+       "name": "Philip Loeb",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Connections Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/philip-loeb/5167"
+      },
+      {
+       "name": "Quade Lukes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Durham Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/quade-lukes/5174"
+      },
+      {
+       "name": "Charlie May",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Topsfield, Mass.",
+       "country": "US",
+       "previous_school": "Masconomet Regional",
+       "class_raw": "Gr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/charlie-may/5168"
+      },
+      {
+       "name": "Logan Membrino",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra High School",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/logan-membrino/5169"
+      },
+      {
+       "name": "Robert Seebold",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Danville, Pa.",
+       "country": "US",
+       "previous_school": "Danville Area",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/robert-seebold/5170"
+      },
+      {
+       "name": "Steven Segrist",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glenwood, Md.",
+       "country": "US",
+       "previous_school": "Glenelg High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/steven-segrist/5171"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/705"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://elonphoenix.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Dex Blank",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elon, N.C.",
+       "country": "US",
+       "previous_school": "The Elon School",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/dex-blank/4764"
+      },
+      {
+       "name": "Patrick Frodigh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westwood, Mass.",
+       "country": "US",
+       "previous_school": "Westwood",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/patrick-frodigh/4846"
+      },
+      {
+       "name": "William Harwood",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbia, S.C.",
+       "country": "US",
+       "previous_school": "Ben Lippen School",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-harwood/4771"
+      },
+      {
+       "name": "William Knibbs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kingston, Jamaica",
+       "country": "JM",
+       "previous_school": "Woodberry Forest School (Va.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/william-knibbs/4824"
+      },
+      {
+       "name": "Jake Leavitt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodstock, Md.",
+       "country": "US",
+       "previous_school": "Mount Saint Joseph",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jake-leavitt/4765"
+      },
+      {
+       "name": "Philip Loeb",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Connections Academy",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/philip-loeb/4766"
+      },
+      {
+       "name": "Jared Mactas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodcliff Lake, N.J.",
+       "country": "US",
+       "previous_school": "Pascack Hills",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/jared-mactas/4767"
+      },
+      {
+       "name": "Charlie May",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Topsfield, Mass.",
+       "country": "US",
+       "previous_school": "Masconomet Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/charlie-may/4768"
+      },
+      {
+       "name": "Logan Membrino",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/logan-membrino/4772"
+      },
+      {
+       "name": "Robert Seebold",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Danville, Pa.",
+       "country": "US",
+       "previous_school": "Danville Area",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/robert-seebold/4769"
+      },
+      {
+       "name": "Steven Segrist",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glenwood, Md.",
+       "country": "US",
+       "previous_school": "Glenelg High School",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/steven-segrist/4770"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Don Hill",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/mens-golf/roster/coaches/don-hill/624"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://elonphoenix.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lilli Downer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/lilli-downer/11071"
+      },
+      {
+       "name": "Garland Gould",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Saint Mary's School",
+       "class_raw": "So.",
+       "major": "Biology",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/garland-gould/11065"
+      },
+      {
+       "name": "Emma Hansen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Notre Dame Catholic Secondary School",
+       "class_raw": "So.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/emma-hansen/11066"
+      },
+      {
+       "name": "Sakura Kawakami",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rotorua, New Zealand",
+       "country": "NZ",
+       "previous_school": "ICademy Middle East",
+       "class_raw": "Sr.",
+       "major": "Business Analytics & Project Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sakura-kawakami/11067"
+      },
+      {
+       "name": "Ashley Lafontaine",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Nepean HS",
+       "class_raw": "Sr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/ashley-lafontaine/11068"
+      },
+      {
+       "name": "Lara Rieke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Düsseldorf, Germany",
+       "country": "DE",
+       "previous_school": "Goerres-Gymnasium",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/lara-rieke/11072"
+      },
+      {
+       "name": "Annie Wu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Taichung, Taiwan",
+       "country": "TW",
+       "previous_school": "CTBC International Academy",
+       "class_raw": "Sr.",
+       "major": "Entrepreneurship",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annie-wu/11069"
+      },
+      {
+       "name": "Kelly Zhao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Richmond Hill HS",
+       "class_raw": "So.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/kelly-zhao/11070"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/1603"
+      },
+      {
+       "name": "LoraLie Cowart",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/loralie-cowart/1605"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Andrea Asmundsdottir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Akureyri, Iceland",
+       "country": "IS",
+       "previous_school": "Menntaskólinn á Akureyri",
+       "class_raw": "Sr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/andrea-asmundsdottir/10240"
+      },
+      {
+       "name": "Garland Gould",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, NC",
+       "country": "US",
+       "previous_school": "Saint Mary's School",
+       "class_raw": "Fr.",
+       "major": "Biology",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/garland-gould/10247"
+      },
+      {
+       "name": "Emma Hansen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burlington, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Notre Dame Catholic Secondary School",
+       "class_raw": "Fr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/emma-hansen/10248"
+      },
+      {
+       "name": "Sakura Kawakami",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rotorua, New Zealand",
+       "country": "NZ",
+       "previous_school": "ICademy Middle East",
+       "class_raw": "Jr.",
+       "major": "Business Analytics & Project Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sakura-kawakami/10241"
+      },
+      {
+       "name": "Ashley Lafontaine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Nepean HS",
+       "class_raw": "Jr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/ashley-lafontaine/10242"
+      },
+      {
+       "name": "Charlotte Scully",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chadds Ford, PA",
+       "country": "US",
+       "previous_school": "Unionville HS",
+       "class_raw": "Sr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/charlotte-scully/10244"
+      },
+      {
+       "name": "Annie Wu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taichung, Taiwan",
+       "country": "TW",
+       "previous_school": "CTBC International Academy",
+       "class_raw": "Jr.",
+       "major": "Entrepreneurship",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annie-wu/10245"
+      },
+      {
+       "name": "Kelly Zhao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Richmond Hill HS",
+       "class_raw": "Fr.",
+       "major": "Undeclared",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/kelly-zhao/10246"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/1459"
+      },
+      {
+       "name": "Lori Beth Adams",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/lori-beth-adams/1460"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Annabelle Ackroyd",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "William Aberhart",
+       "class_raw": "Gr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annabelle-ackroyd/9615"
+      },
+      {
+       "name": "Andrea Asmundsdottir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Akureyri, Iceland",
+       "country": "IS",
+       "previous_school": "Menntaskólinn á Akureyri",
+       "class_raw": "Jr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/andrea-asmundsdottir/9616"
+      },
+      {
+       "name": "Lotte Fox",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Wakefield",
+       "class_raw": "Sr.",
+       "major": "Project Management and Supply Chain Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/lotte-fox/9617"
+      },
+      {
+       "name": "Sakura Kawakami",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rotorua, New Zealand",
+       "country": "NZ",
+       "previous_school": "ICademy Middle East",
+       "class_raw": "So.",
+       "major": "Business Analytics & Project Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sakura-kawakami/9618"
+      },
+      {
+       "name": "Ashley Lafontaine",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Nepean HS",
+       "class_raw": "So.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/ashley-lafontaine/9619"
+      },
+      {
+       "name": "Apple Ngamwong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Wentworth College",
+       "class_raw": "Sr.",
+       "major": "Engineering",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/apple-ngamwong/9620"
+      },
+      {
+       "name": "Phoebe Peng",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guangzhou, China",
+       "country": "CN",
+       "previous_school": "Meisha Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/phoebe-peng/9985"
+      },
+      {
+       "name": "Charlotte Scully",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chadds Ford, PA",
+       "country": "US",
+       "previous_school": "Unionville HS",
+       "class_raw": "Jr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/charlotte-scully/9621"
+      },
+      {
+       "name": "Annie Wu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taichung, Taiwan",
+       "country": "TW",
+       "previous_school": "CTBC International Academy",
+       "class_raw": "So.",
+       "major": "Entrepreneurship",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annie-wu/9622"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/1354"
+      },
+      {
+       "name": "Lori Beth Adams",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/lori-beth-adams/1355"
+      },
+      {
+       "name": "Roddy Guest",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/roddy-guest/1396"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Annabelle Ackroyd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "William Aberhart",
+       "class_raw": "Sr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annabelle-ackroyd/8781"
+      },
+      {
+       "name": "Andrea Asmundsdottir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Akureyri, Iceland",
+       "country": "IS",
+       "previous_school": "Menntaskólinn á Akureyri",
+       "class_raw": "So.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/andrea-asmundsdottir/8782"
+      },
+      {
+       "name": "Lotte Fox",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Wakefield",
+       "class_raw": "Jr.",
+       "major": "Project Management and Supply Chain Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/lotte-fox/8783"
+      },
+      {
+       "name": "Sakura Kawakami",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rotorua, New Zealand",
+       "country": "NZ",
+       "previous_school": "ICademy Middle East",
+       "class_raw": "Fr.",
+       "major": "Business Analytics & Project Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sakura-kawakami/8788"
+      },
+      {
+       "name": "Katie Kennedy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sherman Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Harvard-Westlake",
+       "class_raw": "So.",
+       "major": "Sociology",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/katie-kennedy/8784"
+      },
+      {
+       "name": "Ashley Lafontaine",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ottawa, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Nepean HS",
+       "class_raw": "Fr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/ashley-lafontaine/8789"
+      },
+      {
+       "name": "Apple Ngamwong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Wentworth College",
+       "class_raw": "Jr.",
+       "major": "Engineering",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/apple-ngamwong/8785"
+      },
+      {
+       "name": "Charlotte Scully",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chadds Ford, PA",
+       "country": "US",
+       "previous_school": "Unionville HS",
+       "class_raw": "So.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/charlotte-scully/8786"
+      },
+      {
+       "name": "Annie Wu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taichung, Taiwan",
+       "country": "TW",
+       "previous_school": "CTBC International Academy",
+       "class_raw": "Fr.",
+       "major": "Entrepreneurship",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annie-wu/8791"
+      },
+      {
+       "name": "Svarin Yuenyong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "Sr.",
+       "major": "Economic Consulting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/svarin-yuenyong/8787"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/1202"
+      },
+      {
+       "name": "Lori Beth Adams",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/lori-beth-adams/1203"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Annabelle Ackroyd",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "William Aberhart",
+       "class_raw": "Jr.",
+       "major": "Strategic Communications",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/annabelle-ackroyd/8320"
+      },
+      {
+       "name": "Andrea Asmundsdottir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Akureyri, Iceland",
+       "country": "IS",
+       "previous_school": "Menntaskólinn á Akureyri",
+       "class_raw": "Fr.",
+       "major": "Marketing",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/andrea-asmundsdottir/8321"
+      },
+      {
+       "name": "Lotte Fox",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Wakefield",
+       "class_raw": "So.",
+       "major": "Project Management and Supply Chain Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/lotte-fox/8314"
+      },
+      {
+       "name": "Faith Francioso",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wantagh, N.Y.",
+       "country": "US",
+       "previous_school": "Wantagh",
+       "class_raw": "Sr.",
+       "major": "Marketing and Sport Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/faith-francioso/8315"
+      },
+      {
+       "name": "Katie Kennedy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sherman Oaks, Calif.",
+       "country": "US",
+       "previous_school": "Harvard-Westlake",
+       "class_raw": "Fr.",
+       "major": "Sociology",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/katie-kennedy/8322"
+      },
+      {
+       "name": "Sophia Mancuso",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jamison, Pa.",
+       "country": "US",
+       "previous_school": "Central Bucks East",
+       "class_raw": "Sr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sophia-mancuso/8316"
+      },
+      {
+       "name": "Apple Ngamwong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Wentworth College",
+       "class_raw": "So.",
+       "major": "Engineering",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/apple-ngamwong/8317"
+      },
+      {
+       "name": "Charlotte Scully",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chadds Ford, PA",
+       "country": "US",
+       "previous_school": "Unionville HS",
+       "class_raw": "Fr.",
+       "major": "Accounting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/charlotte-scully/8323"
+      },
+      {
+       "name": "Adel Vadkerti",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Komarom, Hungary",
+       "country": "HU",
+       "previous_school": "Komaromi Jokai Mor Gimnazium",
+       "class_raw": "Gr.",
+       "major": "Sport Management",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/adel-vadkerti/8318"
+      },
+      {
+       "name": "Svarin Yuenyong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "Jr.",
+       "major": "Economic Consulting",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/svarin-yuenyong/8319"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/1121"
+      },
+      {
+       "name": "Lori Beth Adams",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/lori-beth-adams/1147"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Cosette Anderson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bellevue, Wash.",
+       "country": "US",
+       "previous_school": "Saddlebrook Prep",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/cosette-anderson/6263"
+      },
+      {
+       "name": "Haley Bookholdt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, N.J.",
+       "country": "US",
+       "previous_school": "Northern Burlington Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/haley-bookholdt/6264"
+      },
+      {
+       "name": "Emily Cohen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Darien, Conn.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/emily-cohen/6273"
+      },
+      {
+       "name": "Michaela Cox",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/michaela-cox/6265"
+      },
+      {
+       "name": "Faith Francioso",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wantagh, N.Y.",
+       "country": "US",
+       "previous_school": "Wantagh",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/faith-francioso/6266"
+      },
+      {
+       "name": "Sidney Kadlic",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sidney-kadlic/6267"
+      },
+      {
+       "name": "Audrey Kennett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Corte Madera, Calif.",
+       "country": "US",
+       "previous_school": "Redwood",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/audrey-kennett/6268"
+      },
+      {
+       "name": "Sophia Mancuso",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jamison, Pa.",
+       "country": "US",
+       "previous_school": "Central Bucks East",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sophia-mancuso/6269"
+      },
+      {
+       "name": "Emily Nash",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lunenburg, Mass.",
+       "country": "US",
+       "previous_school": "Lunenburg",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/emily-nash/6272"
+      },
+      {
+       "name": "Rae Spears",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Plymouth, Minn.",
+       "country": "US",
+       "previous_school": "Providence Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/rae-spears/6270"
+      },
+      {
+       "name": "Adel Vadkerti",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Komarom, Hungary",
+       "country": "HU",
+       "previous_school": "Komaromi Jokai Mor Gimnazium",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/adel-vadkerti/6271"
+      },
+      {
+       "name": "Svarin Yuenyong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/svarin-yuenyong/6274"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/956"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Isabella Abdullah",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hinsdale, Ill.",
+       "country": "US",
+       "previous_school": "Benet Academy",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/isabella-abdullah/5784"
+      },
+      {
+       "name": "Cosette Anderson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bellevue, Wash.",
+       "country": "US",
+       "previous_school": "Saddlebrook Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/cosette-anderson/5793"
+      },
+      {
+       "name": "Haley Bookholdt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, N.J.",
+       "country": "US",
+       "previous_school": "Northern Burlington Regional",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/haley-bookholdt/5785"
+      },
+      {
+       "name": "Michaela Cox",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/michaela-cox/5786"
+      },
+      {
+       "name": "Meghan Fahey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "The Agnes Irwin School",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/meghan-fahey/5794"
+      },
+      {
+       "name": "Faith Francioso",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wantagh, N.Y.",
+       "country": "US",
+       "previous_school": "Wantagh",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/faith-francioso/5795"
+      },
+      {
+       "name": "Aurelia Hamm",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cannes, France",
+       "country": "FR",
+       "previous_school": "CREPS Chateney-Malabry",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/aurelia-hamm/5787"
+      },
+      {
+       "name": "Sidney Kadlic",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sidney-kadlic/5796"
+      },
+      {
+       "name": "Audrey Kennett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Corte Madera, Calif.",
+       "country": "US",
+       "previous_school": "Redwood",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/audrey-kennett/5788"
+      },
+      {
+       "name": "Sophia Mancuso",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jamison, Pa.",
+       "country": "US",
+       "previous_school": "Central Bucks East",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/sophia-mancuso/5797"
+      },
+      {
+       "name": "Katherine Reilly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Potomac Falls, Va.",
+       "country": "US",
+       "previous_school": "Flint Hill School",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/katherine-reilly/5790"
+      },
+      {
+       "name": "Rae Spears",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Plymouth, Minn.",
+       "country": "US",
+       "previous_school": "Providence Academy",
+       "class_raw": "R-So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/rae-spears/5791"
+      },
+      {
+       "name": "Adel Vadkerti",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Komarom, Hungary",
+       "country": "HU",
+       "previous_school": "Komaromi Jokai Mor Gimnazium",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/adel-vadkerti/5792"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/846"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Isabella Abdullah",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hinsdale, Ill.",
+       "country": "US",
+       "previous_school": "Benet Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/isabella-abdullah/5283"
+      },
+      {
+       "name": "Haley Bookholdt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, N.J.",
+       "country": "US",
+       "previous_school": "Northern Burlington Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/haley-bookholdt/5284"
+      },
+      {
+       "name": "Michaela Cox",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/michaela-cox/5286"
+      },
+      {
+       "name": "Aurelia Hamm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cannes, France",
+       "country": "FR",
+       "previous_school": "CREPS Chateney-Malabry",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/aurelia-hamm/5277"
+      },
+      {
+       "name": "Audrey Kennett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corte Madera, Calif.",
+       "country": "US",
+       "previous_school": "Redwood",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/audrey-kennett/5287"
+      },
+      {
+       "name": "Hilda Kristjansdottir",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kopavogur, Iceland",
+       "country": "IS",
+       "previous_school": "Commercial College of Iceland",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/hilda-kristjansdottir/5278"
+      },
+      {
+       "name": "Heather Munro",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dundee, Scotland",
+       "country": "GB",
+       "previous_school": "Grove Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/heather-munro/5279"
+      },
+      {
+       "name": "Anali Otazo Rodas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Asuncion, Paraguay",
+       "country": "PY",
+       "previous_school": "Colegio San Cristobal",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/anali-otazo-rodas/5280"
+      },
+      {
+       "name": "Katherine Reilly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Potomac Falls, Va.",
+       "country": "US",
+       "previous_school": "Flint Hill School",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/katherine-reilly/5281"
+      },
+      {
+       "name": "Rae Spears",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Plymouth, Minn.",
+       "country": "US",
+       "previous_school": "Providence Academy",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/rae-spears/5282"
+      },
+      {
+       "name": "Adel Vadkerti",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Komarom, Hungary",
+       "country": "HU",
+       "previous_school": "Komaromi Jokai Mor Gimnazium",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/adel-vadkerti/5285"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/742"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://elonphoenix.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kelsey Badmaev",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Blythewood, S.C.",
+       "country": "US",
+       "previous_school": "Provost Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/kelsey-badmaev/4781"
+      },
+      {
+       "name": "Aurelia Hamm",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cannes, France",
+       "country": "FR",
+       "previous_school": "CREPS Chateney-Malabry",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/aurelia-hamm/4782"
+      },
+      {
+       "name": "Hilda Kristjansdottir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kopavogur, Iceland",
+       "country": "IS",
+       "previous_school": "Commercial College of Iceland",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/hilda-kristjansdottir/4783"
+      },
+      {
+       "name": "Heather Munro",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dundee, Scotland",
+       "country": "GB",
+       "previous_school": "Grove Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/heather-munro/4784"
+      },
+      {
+       "name": "Anali Otazo Rodas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Asuncion, Paraguay",
+       "country": "PY",
+       "previous_school": "Colegio San Cristobal",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/anali-otazo-rodas/4826"
+      },
+      {
+       "name": "Katherine Reilly",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Potomac Falls, Va.",
+       "country": "US",
+       "previous_school": "Flint Hill School",
+       "class_raw": "So.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/katherine-reilly/4786"
+      },
+      {
+       "name": "Rae Spears",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Plymouth, Minn.",
+       "country": "US",
+       "previous_school": "Providence Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/rae-spears/4825"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Dockrill",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://elonphoenix.com/sports/womens-golf/roster/coaches/chris-dockrill/631"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://elonphoenix.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://elonphoenix.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2020",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://elonphoenix.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://elonphoenix.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2020",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://elonphoenix.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

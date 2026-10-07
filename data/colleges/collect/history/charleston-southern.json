@@ -1,36 +1,1922 @@
 {
  "slug": "charleston-southern",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://csusports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Spencer Benton",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Gilbert, S.C.",
+       "country": "US",
+       "previous_school": "Francis Marion / Winthrop",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/spencer-benton/6143"
+      },
+      {
+       "name": "Bailey Bjornson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Surrey, B.C., Canada",
+       "country": "CA",
+       "previous_school": "Simon Fraser",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/bailey-bjornson/6151"
+      },
+      {
+       "name": "Agib Hughes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Abuja, Nigeria",
+       "country": "NG",
+       "previous_school": "North Carolina A&T",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/agib-hughes/6698"
+      },
+      {
+       "name": "Dewi John",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bristol, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/dewi-john/6144"
+      },
+      {
+       "name": "Chase McBride",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint Augustine, FL",
+       "country": "US",
+       "previous_school": "Nease High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/chase-mcbride/6699"
+      },
+      {
+       "name": "Owen Newberry",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Crofton, MD",
+       "country": "US",
+       "previous_school": "Crofton High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/owen-newberry/6700"
+      },
+      {
+       "name": "Alex North",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alex-north/6701"
+      },
+      {
+       "name": "Harrison Parker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mountain Brook, AL",
+       "country": "US",
+       "previous_school": "Mountain Brook HS",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/harrison-parker/6702"
+      },
+      {
+       "name": "Michael Rauscher",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Rankweil, Austria",
+       "country": "AT",
+       "previous_school": "BORGL St. Pölten",
+       "class_raw": "R-So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/michael-rauscher/6147"
+      },
+      {
+       "name": "Theodor Takman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oppegaard, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/theodor-takman/6148"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scooter Clark",
+       "title": "Head Golf Coach",
+       "email": "lclark@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/scooter-clark/705"
+      },
+      {
+       "name": "Logan Miyamoto",
+       "title": "Assistant Coach",
+       "email": "lmiyamoto@csuniv.edu",
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/logan-miyamoto/712"
+      },
+      {
+       "name": "Victoria Morelli",
+       "title": "Graduate Assistant Coach",
+       "email": "mvmorelli@student.csuniv.edu",
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/victoria-morelli/714"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Spencer Benton",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Gilbert, S.C.",
+       "country": "US",
+       "previous_school": "Gray Collegiate Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/spencer-benton/6143"
+      },
+      {
+       "name": "Dewi John",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bristol, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/dewi-john/6144"
+      },
+      {
+       "name": "Layne Lambert",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/layne-lambert/5426"
+      },
+      {
+       "name": "Alex North",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras HS",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alex-north/6701"
+      },
+      {
+       "name": "Harrison Parker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mountain Brook, AL",
+       "country": "US",
+       "previous_school": "Mountain Brook HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/harrison-parker/6702"
+      },
+      {
+       "name": "Michael Rauscher",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Rankweil, Austria",
+       "country": "AT",
+       "previous_school": "BORGL St. Pölten",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/michael-rauscher/6147"
+      },
+      {
+       "name": "Theodor Takman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oppegaard, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/theodor-takman/6148"
+      },
+      {
+       "name": "Griffin Tarver",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tega Cay, S.C.",
+       "country": "US",
+       "previous_school": "Fort Mill HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/griffin-tarver/5431"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Carroll",
+       "title": "Interim Head Coach",
+       "email": "bcarroll@csuniv.edu",
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/ben-carroll/635"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ben Carroll",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Blacksburg, VA",
+       "country": "US",
+       "previous_school": "Blacksburg HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/ben-carroll/4925"
+      },
+      {
+       "name": "Jules Gentil",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Limoges, France",
+       "country": "FR",
+       "previous_school": "Morningside Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/jules-gentil/4934"
+      },
+      {
+       "name": "Dewi John",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bristol, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/dewi-john/6144"
+      },
+      {
+       "name": "Layne Lambert",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/layne-lambert/5426"
+      },
+      {
+       "name": "Palmer Mason",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Irmo, S.C.",
+       "country": "US",
+       "previous_school": "Gray Collegiate Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/palmer-mason/4928"
+      },
+      {
+       "name": "Alex North",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Andrews, Scotland",
+       "country": "GB",
+       "previous_school": "Madras HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alex-north/6701"
+      },
+      {
+       "name": "Michael Rauscher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rankweil, Austria",
+       "country": "AT",
+       "previous_school": "BORGL St. Pölten",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/michael-rauscher/6147"
+      },
+      {
+       "name": "Theodor Takman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oppegaard, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/theodor-takman/6148"
+      },
+      {
+       "name": "Griffin Tarver",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tega Cay, S.C.",
+       "country": "US",
+       "previous_school": "Fort Mill HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/griffin-tarver/5431"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chan Metts",
+       "title": "Head Golf Coach",
+       "email": "cmetts@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/chan-metts/513"
+      },
+      {
+       "name": "Isaac Samples",
+       "title": "Assistant Coach",
+       "email": "isamples@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/isaac-samples/512"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "David Amm",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "Home School",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/david-amm/4235"
+      },
+      {
+       "name": "Ben Carroll",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Blacksburg, VA",
+       "country": "US",
+       "previous_school": "Blacksburg HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/ben-carroll/4925"
+      },
+      {
+       "name": "Dewi John",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bristol, England",
+       "country": "GB",
+       "previous_school": "Millfield School",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/dewi-john/6144"
+      },
+      {
+       "name": "Layne Lambert",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "R-So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/layne-lambert/5426"
+      },
+      {
+       "name": "Palmer Mason",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Irmo, S.C.",
+       "country": "US",
+       "previous_school": "Gray Collegiate Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/palmer-mason/4928"
+      },
+      {
+       "name": "Luke Shamblin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/luke-shamblin/4230"
+      },
+      {
+       "name": "Theodor Takman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oppegaard, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/theodor-takman/6148"
+      },
+      {
+       "name": "Griffin Tarver",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tega Cay, S.C.",
+       "country": "US",
+       "previous_school": "Fort Mill HS",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/griffin-tarver/5431"
+      },
+      {
+       "name": "Keegan Vaugh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Myrtle Beach, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/keegan-vaugh/4232"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jordan Jeffers",
+       "title": "Head Coach",
+       "email": "jjeffers@csuniv.edu",
+       "phone": "(843) 863-7122",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/jordan-jeffers/376"
+      },
+      {
+       "name": "Isaac Samples",
+       "title": "Assistant Coach",
+       "email": "isamples@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/isaac-samples/512"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ben Carroll",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Blacksburg, VA",
+       "country": "US",
+       "previous_school": "Blacksburg HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/ben-carroll/4925"
+      },
+      {
+       "name": "Caleb Loudin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Summerville, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/caleb-loudin/3737"
+      },
+      {
+       "name": "Palmer Mason",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Irmo, S.C.",
+       "country": "US",
+       "previous_school": "Gray Collegiate Academy",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/palmer-mason/4928"
+      },
+      {
+       "name": "Luke Shamblin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/luke-shamblin/4230"
+      },
+      {
+       "name": "Alan Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winchendon, Mass.",
+       "country": "US",
+       "previous_school": "Hilton Head Prep School",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alan-smith/3739"
+      },
+      {
+       "name": "Griffin Tarver",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tega Cay, S.C.",
+       "country": "US",
+       "previous_school": "Fort Mill HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/griffin-tarver/5431"
+      },
+      {
+       "name": "Frederik Topgaard",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlottenlund, Denmark /",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/frederik-topgaard/3740"
+      },
+      {
+       "name": "Colin Trahan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Augusta, S.C.",
+       "country": "US",
+       "previous_school": "Fox Creek HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/colin-trahan/3741"
+      },
+      {
+       "name": "Keegan Vaugh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Myrtle Beach, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/keegan-vaugh/4232"
+      },
+      {
+       "name": "Ethan Willis",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/ethan-willis/3926"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jordan Jeffers",
+       "title": "Head Coach",
+       "email": "jjeffers@csuniv.edu",
+       "phone": "(843) 863-7122",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/jordan-jeffers/376"
+      },
+      {
+       "name": "Isaac Samples",
+       "title": "Assistant Coach",
+       "email": "isamples@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/isaac-samples/512"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Beeck",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sheboygan Falls, Wis.",
+       "country": "US",
+       "previous_school": "Sheboygan Falls",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/tyler-beeck/3043"
+      },
+      {
+       "name": "Ben Carroll",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Blacksburg, VA",
+       "country": "US",
+       "previous_school": "Blacksburg HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/ben-carroll/4925"
+      },
+      {
+       "name": "Jake Carter",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Aiken, S.C.",
+       "country": "US",
+       "previous_school": "South Aiken High School",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/jake-carter/3039"
+      },
+      {
+       "name": "Parker Jones",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Trussville, Ala.",
+       "country": "US",
+       "previous_school": "Fort Walton Beach",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/parker-jones/3040"
+      },
+      {
+       "name": "Caleb Loudin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Summerville, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/caleb-loudin/3737"
+      },
+      {
+       "name": "Palmer Mason",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Irmo, S.C.",
+       "country": "US",
+       "previous_school": "Gray Collegiate Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/palmer-mason/4928"
+      },
+      {
+       "name": "Alan Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winchendon, Mass.",
+       "country": "US",
+       "previous_school": "Hilton Head Prep School",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alan-smith/3739"
+      },
+      {
+       "name": "Frederik Topgaard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlottenlund, Denmark /",
+       "country": "DK",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/frederik-topgaard/3740"
+      },
+      {
+       "name": "Colin Trahan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Augusta, S.C.",
+       "country": "US",
+       "previous_school": "Fox Creek HS",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/colin-trahan/3741"
+      },
+      {
+       "name": "Keegan Vaugh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Myrtle Beach, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/keegan-vaugh/4232"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Payne",
+       "title": "Head Coach",
+       "email": "jpayne@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/jason-payne/176"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chris Finnie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lockerbie, Scotland",
+       "country": "GB",
+       "previous_school": "Lockerbie Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/chris-finnie/2593"
+      },
+      {
+       "name": "Elliot Gothe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vaxholm, Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osteraker",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/elliot-gothe/2594"
+      },
+      {
+       "name": "Parker Jones",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Trussville, Ala.",
+       "country": "US",
+       "previous_school": "Fort Walton Beach",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/parker-jones/3040"
+      },
+      {
+       "name": "Johnny Komara",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hunstville, Ala.",
+       "country": "US",
+       "previous_school": "Huntsville",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/johnny-komara/1203"
+      },
+      {
+       "name": "Brandon McBride",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "May River",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/brandon-mcbride/1204"
+      },
+      {
+       "name": "Connor Moore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "Bluffton",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/connor-moore/2597"
+      },
+      {
+       "name": "Alan Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winchendon, Mass.",
+       "country": "US",
+       "previous_school": "Hilton Head Prep School",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alan-smith/3739"
+      },
+      {
+       "name": "Brandon Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Cimarron Memorial",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/brandon-smith/2599"
+      },
+      {
+       "name": "Derrick Villarreal",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pewaukee, Wisc.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/derrick-villarreal/1209"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Payne",
+       "title": "Head Coach",
+       "email": "jpayne@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/coaches/jason-payne/176"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Elliot Gothe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vaxholm, Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osteraker",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/elliot-gothe/2594"
+      },
+      {
+       "name": "Art Griffin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Placid, N.Y.",
+       "country": "US",
+       "previous_school": "Hilton Head Preparatory (Lafayette College)",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/art-griffin/1193"
+      },
+      {
+       "name": "Connor Moore",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "Bluffton",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/connor-moore/2597"
+      },
+      {
+       "name": "Dylan Patscot",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Wales, Wisc.",
+       "country": "US",
+       "previous_school": "Kettle Moraine",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/dylan-patscot/1196"
+      },
+      {
+       "name": "Alex Scott",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/alex-scott/1197"
+      },
+      {
+       "name": "Derrick Villarreal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pewaukee, Wisc.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/derrick-villarreal/1209"
+      },
+      {
+       "name": "Jacques Wilson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Minnetonka, Minn.",
+       "country": "US",
+       "previous_school": "Minnetonka (University of Kansas)",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/jacques-wilson/1199"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://csusports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Austin Campbell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Tex.",
+       "country": "US",
+       "previous_school": "Lake Travis",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/austin-campbell/1181"
+      },
+      {
+       "name": "David Eller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Bishop England",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/david-eller/1182"
+      },
+      {
+       "name": "Jake Ezell",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Austin, Tex.",
+       "country": "US",
+       "previous_school": "Lake Travis",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/jake-ezell/1183"
+      },
+      {
+       "name": "Elliot Gothe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vaxholm, Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osteraker",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/elliot-gothe/2594"
+      },
+      {
+       "name": "Art Griffin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Placid, N.Y.",
+       "country": "US",
+       "previous_school": "Hilton Head Preparatory (Lafayette College)",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/art-griffin/1193"
+      },
+      {
+       "name": "Austin James",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bath, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Napanee District Secondary School",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/austin-james/1187"
+      },
+      {
+       "name": "Dylan Patscot",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Wales, Wisc.",
+       "country": "US",
+       "previous_school": "Kettle Moraine",
+       "class_raw": "R-So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/dylan-patscot/1196"
+      },
+      {
+       "name": "Derrick Villarreal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pewaukee, Wisc.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/derrick-villarreal/1209"
+      },
+      {
+       "name": "Jacques Wilson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Minnetonka, Minn.",
+       "country": "US",
+       "previous_school": "Minnetonka (University of Kansas)",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/mens-golf/roster/jacques-wilson/1199"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://csusports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chayse Cool",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Goose Creek, S.C.",
+       "country": "US",
+       "previous_school": "Stratford HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/chayse-cool/6138"
+      },
+      {
+       "name": "Summer Griffiths",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Liverpool, UK",
+       "country": "GB",
+       "previous_school": "Garden City CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/summer-griffiths/6704"
+      },
+      {
+       "name": "IY Ibnu",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Taiping, Malaysia",
+       "country": "MY",
+       "previous_school": "Bellevue",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/iy-ibnu/6141"
+      },
+      {
+       "name": "Katie Stephens",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Middlesbrough, England",
+       "country": "GB",
+       "previous_school": "Stokesley School",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/katie-stephens/6139"
+      },
+      {
+       "name": "Eugenie Varet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Maule, France",
+       "country": "FR",
+       "previous_school": "The University of Texas Permian Basin",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/eugenie-varet/6140"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scooter Clark",
+       "title": "Head Golf Coach",
+       "email": "lclark@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/scooter-clark/705"
+      },
+      {
+       "name": "Logan Miyamoto",
+       "title": "Assistant Coach",
+       "email": "lmiyamoto@csuniv.edu",
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/logan-miyamoto/712"
+      },
+      {
+       "name": "Victoria Morelli",
+       "title": "Graduate Assistant Coach",
+       "email": "mvmorelli@student.csuniv.edu",
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/victoria-morelli/714"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chayse Cool",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Goose Creek, S.C.",
+       "country": "US",
+       "previous_school": "Stratford HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/chayse-cool/6138"
+      },
+      {
+       "name": "Odette Font Garcia",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mallorca, Spain",
+       "country": "ES",
+       "previous_school": "Collegio Madre Alberta",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/odette-font-garcia/5421"
+      },
+      {
+       "name": "Isabella Galla",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jupiter, Fla.",
+       "country": "US",
+       "previous_school": "Jupiter HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/isabella-galla/5779"
+      },
+      {
+       "name": "Katie Stephens",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Middlesbrough, England",
+       "country": "GB",
+       "previous_school": "Stokesley School",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/katie-stephens/6139"
+      },
+      {
+       "name": "Eugenie Varet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Maule, France",
+       "country": "FR",
+       "previous_school": "Collège de la Mauldre",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/eugenie-varet/6140"
+      },
+      {
+       "name": "Paige Zolciak",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Perrysburg, Ohio",
+       "country": "US",
+       "previous_school": "St. Ursula Academy",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/paige-zolciak/5794"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Carroll",
+       "title": "Interim Head Coach",
+       "email": "bcarroll@csuniv.edu",
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/ben-carroll/635"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chayse Cool",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Goose Creek, S.C.",
+       "country": "US",
+       "previous_school": "Stratford HS",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/chayse-cool/6138"
+      },
+      {
+       "name": "Caroline Engelbredt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Koge, Denmark",
+       "country": "DK",
+       "previous_school": "Herlufsholm Skole & Gods.",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/caroline-engelbredt/4917"
+      },
+      {
+       "name": "Odette Font Garcia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mallorca, Spain",
+       "country": "ES",
+       "previous_school": "Collegio Madre Alberta",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/odette-font-garcia/5421"
+      },
+      {
+       "name": "Madison Freeman",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Spring, Texas",
+       "country": "US",
+       "previous_school": "Klein HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/madison-freeman/4918"
+      },
+      {
+       "name": "Katie Stephens",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Middlesbrough, England",
+       "country": "GB",
+       "previous_school": "Stokesley School",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/katie-stephens/6139"
+      },
+      {
+       "name": "Eugenie Varet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maule, France",
+       "country": "FR",
+       "previous_school": "Collège de la Mauldre",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/eugenie-varet/6140"
+      },
+      {
+       "name": "Elsie Verhoeven",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nethen, Belgium",
+       "country": "BE",
+       "previous_school": "GO! Next SportSchool Hasselt",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/elsie-verhoeven/4920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chan Metts",
+       "title": "Head Golf Coach",
+       "email": "cmetts@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/chan-metts/513"
+      },
+      {
+       "name": "Isaac Samples",
+       "title": "Assistant Coach",
+       "email": "isamples@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/isaac-samples/512"
+      },
+      {
+       "name": "Isabell Friberg",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/staff/isabell-friberg/123"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chayse Cool",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Goose Creek, S.C.",
+       "country": "US",
+       "previous_school": "Stratford HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/chayse-cool/6138"
+      },
+      {
+       "name": "Caroline Engelbredt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Koge, Denmark",
+       "country": "DK",
+       "previous_school": "Herlufsholm Skole & Gods.",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/caroline-engelbredt/4917"
+      },
+      {
+       "name": "Madison Freeman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spring, Texas",
+       "country": "US",
+       "previous_school": "Klein HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/madison-freeman/4918"
+      },
+      {
+       "name": "Isabell Friberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Svedala, Sweden",
+       "country": "SE",
+       "previous_school": "Vellinge Golfsynasium, Sundsgymnasiet",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/isabell-friberg/4239"
+      },
+      {
+       "name": "Laerke Jensen",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hobro, Denmark",
+       "country": "DK",
+       "previous_school": "Tradium Mariagerfjord",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/laerke-jensen/4242"
+      },
+      {
+       "name": "Libby Singleton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kingwood, Texas",
+       "country": "US",
+       "previous_school": "Kingwood HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/libby-singleton/4240"
+      },
+      {
+       "name": "Katie Stephens",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Middlesbrough, England",
+       "country": "GB",
+       "previous_school": "Stokesley School",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/katie-stephens/6139"
+      },
+      {
+       "name": "Elsie Verhoeven",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nethen, Belgium",
+       "country": "BE",
+       "previous_school": "GO! Next SportSchool Hasselt",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/elsie-verhoeven/4920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jordan Jeffers",
+       "title": "Head Coach",
+       "email": "jjeffers@csuniv.edu",
+       "phone": "(843) 863-7122",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/jordan-jeffers/376"
+      },
+      {
+       "name": "Isaac Samples",
+       "title": "Assistant Coach",
+       "email": "isamples@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/isaac-samples/512"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Shani Brynard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stellenbosch, South Africa",
+       "country": "ZA",
+       "previous_school": "Rhenish Girls School",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/shani-brynard/3712"
+      },
+      {
+       "name": "Caroline Engelbredt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Koge, Denmark",
+       "country": "DK",
+       "previous_school": "Herlufsholm Skole & Gods.",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/caroline-engelbredt/4917"
+      },
+      {
+       "name": "Madison Freeman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spring, Texas",
+       "country": "US",
+       "previous_school": "Klein HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/madison-freeman/4918"
+      },
+      {
+       "name": "Isabell Friberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Svedala, Sweden",
+       "country": "SE",
+       "previous_school": "Vellinge Golfsynasium, Sundsgymnasiet",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/isabell-friberg/4239"
+      },
+      {
+       "name": "Libby Singleton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kingwood, Texas",
+       "country": "US",
+       "previous_school": "Kingwood HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/libby-singleton/4240"
+      },
+      {
+       "name": "Kathryn Thorne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "May River HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/kathryn-thorne/3710"
+      },
+      {
+       "name": "Erica Whitehouse",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Mechanicsville, Va.",
+       "country": "US",
+       "previous_school": "Atlee HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/erica-whitehouse/3925"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jordan Jeffers",
+       "title": "Head Coach",
+       "email": "jjeffers@csuniv.edu",
+       "phone": "(843) 863-7122",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/jordan-jeffers/376"
+      },
+      {
+       "name": "Isaac Samples",
+       "title": "Assistant Coach",
+       "email": "isamples@csuniv.edu",
+       "phone": "(843) 863-7556",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/coaches/isaac-samples/512"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Caroline Engelbredt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Koge, Denmark",
+       "country": "DK",
+       "previous_school": "Herlufsholm Skole & Gods.",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/caroline-engelbredt/4917"
+      },
+      {
+       "name": "Madison Frank",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hilton Head Island, S.C.",
+       "country": "US",
+       "previous_school": "Hilton Head Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/madison-frank/3061"
+      },
+      {
+       "name": "Isabell Friberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Svedala, Sweden",
+       "country": "SE",
+       "previous_school": "Vellinge Golfsynasium, Sundsgymnasiet",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/isabell-friberg/4239"
+      },
+      {
+       "name": "Sarah Hameed",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gilbert, Arizona",
+       "country": "US",
+       "previous_school": "Gilbert Classical Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/sarah-hameed/3055"
+      },
+      {
+       "name": "Daniela Intriago",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": "Unidad Educativa Delta",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/daniela-intriago/3056"
+      },
+      {
+       "name": "Kathryn Thorne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "May River HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/kathryn-thorne/3710"
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Sarah Hameed",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gilbert, Arizona",
+       "country": "US",
+       "previous_school": "Gilbert Classical Academy",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/sarah-hameed/3055"
+      },
+      {
+       "name": "Ellen Hume",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Roundwood Park",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/ellen-hume/2601"
+      },
+      {
+       "name": "Daniela Intriago",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": "Unidad Educativa Delta",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/daniela-intriago/3056"
+      },
+      {
+       "name": "Rian Moores",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cheshire, England",
+       "country": "GB",
+       "previous_school": "Weaverham",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/rian-moores/2635"
+      },
+      {
+       "name": "Nicole Stewart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kent, England",
+       "country": "GB",
+       "previous_school": "Cranbrook Grammar School",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/nicole-stewart/2636"
+      },
+      {
+       "name": "Kathryn Thorne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "May River HS",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/kathryn-thorne/3710"
+      },
+      {
+       "name": "Raven Turner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Fort Dorchester HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/raven-turner/2720"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andriel Aimua",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodbury, Minn.",
+       "country": "US",
+       "previous_school": "East Ridge",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/andriel-aimua/1697"
+      },
+      {
+       "name": "Xuss Boira",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alpicat, Spain",
+       "country": "ES",
+       "previous_school": "Jesuites Lleida, Col legi Claver",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/xuss-boira/1698"
+      },
+      {
+       "name": "Sarah Hameed",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gilbert, Arizona",
+       "country": "US",
+       "previous_school": "Gilbert Classical Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/sarah-hameed/3055"
+      },
+      {
+       "name": "Ellen Hume",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Roundwood Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/ellen-hume/2601"
+      },
+      {
+       "name": "Daniela Intriago",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": "Unidad Educativa Delta",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/daniela-intriago/3056"
+      },
+      {
+       "name": "Sydney Merchant",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary",
+       "class_raw": "So.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/sydney-merchant/1702"
+      },
+      {
+       "name": "Natalie Nelson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Minnetonka, Minnesota",
+       "country": "US",
+       "previous_school": "Minnetonka",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/natalie-nelson/1703"
+      },
+      {
+       "name": "Kathryn Thorne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C.",
+       "country": "US",
+       "previous_school": "May River HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/kathryn-thorne/3710"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andriel Aimua",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodbury, Minn.",
+       "country": "US",
+       "previous_school": "East Ridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/andriel-aimua/1697"
+      },
+      {
+       "name": "Xuss Boira",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alpicat, Spain",
+       "country": "ES",
+       "previous_school": "Jesuites Lleida, Col legi Claver",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/xuss-boira/1698"
+      },
+      {
+       "name": "Emelie Flink",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jonkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Sandagymnaseit",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/emelie-flink/1693"
+      },
+      {
+       "name": "Daniela Intriago",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guayaquil, Ecuador",
+       "country": "EC",
+       "previous_school": "Unidad Educativa Delta",
+       "class_raw": "Fr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/daniela-intriago/3056"
+      },
+      {
+       "name": "Hayley McNeill",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Batemans Bay, Australia",
+       "country": "AU",
+       "previous_school": "Carroll College",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/hayley-mcneill/1695"
+      },
+      {
+       "name": "Milleina Ohara",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/milleina-ohara/1696"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://csusports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Hannah Barger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elberton, Ga.",
+       "country": "US",
+       "previous_school": "Elbert Co.",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/hannah-barger/1682"
+      },
+      {
+       "name": "Emelie Flink",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jonkoping, Sweden",
+       "country": "SE",
+       "previous_school": "Sandagymnaseit",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/emelie-flink/1693"
+      },
+      {
+       "name": "Beth Anne Gallagher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oyster Bay, N.Y.",
+       "country": "US",
+       "previous_school": "Oyster Bay",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/beth-anne-gallagher/1684"
+      },
+      {
+       "name": "Savannah Hallman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mt. Pleasant, S.C.",
+       "country": "US",
+       "previous_school": "Wando",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/savannah-hallman/1685"
+      },
+      {
+       "name": "Bella Johnson-Schmitz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corpus Christi, Tex.",
+       "country": "US",
+       "previous_school": "Mary Carroll",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Hayley McNeill",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Batemans Bay, Australia",
+       "country": "AU",
+       "previous_school": "Carroll College",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/hayley-mcneill/1695"
+      },
+      {
+       "name": "Milleina Ohara",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tokyo, Japan",
+       "country": "JP",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/milleina-ohara/1696"
+      },
+      {
+       "name": "Natthakan Teeratrakul",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pathumthani, Thailand",
+       "country": "TH",
+       "previous_school": "Saipanya Rangsit School",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/natthakan-teeratrakul/1689"
+      },
+      {
+       "name": "Shelby Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Uhrichsville, Ohio",
+       "country": "US",
+       "previous_school": "Claymont",
+       "class_raw": "Sr.",
+       "profile_url": "https://csusports.com/sports/womens-golf/roster/shelby-thompson/1690"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://csusports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://csusports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://csusports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://csusports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://csusports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

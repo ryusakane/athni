@@ -1,36 +1,2492 @@
 {
  "slug": "murray-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://goracers.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lennon Albans",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": "Toots Hill Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/lennon-albans/11981"
+      },
+      {
+       "name": "Sam Guest",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Martha Layne Collins HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/sam-guest/11982"
+      },
+      {
+       "name": "Aidan Hahn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "St. Mary HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/aidan-hahn/11983"
+      },
+      {
+       "name": "Derek Limberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Trinity HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/derek-limberg/11269"
+      },
+      {
+       "name": "Brock Montgomery",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Upper Sandusky, Ohio",
+       "country": "US",
+       "previous_school": "Upper Sandusky HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/brock-montgomery/11984"
+      },
+      {
+       "name": "Trey Wall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-wall/11986"
+      },
+      {
+       "name": "Jakob Wellman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jakob-wellman/11272"
+      },
+      {
+       "name": "Tyler Wirth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Grange, Ky.",
+       "country": "US",
+       "previous_school": "Oldham County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-wirth/11987"
+      },
+      {
+       "name": "Rocco Zakutney",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "St. Mary HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/rocco-zakutney/11988"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jacob Miller",
+       "title": "Head Coach",
+       "email": "jmiller134@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/jacob-miller/2106"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lennon Albans",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": "Toots Hill Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/lennon-albans/11981"
+      },
+      {
+       "name": "Kamaren Cunningham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dover, Tenn.",
+       "country": "US",
+       "previous_school": "Stewart County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/kamaren-cunningham/10557"
+      },
+      {
+       "name": "Sam Guest",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Martha Layne Collins HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/sam-guest/11982"
+      },
+      {
+       "name": "Trey Lewis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Ky.",
+       "country": "US",
+       "previous_school": "Ohio County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-lewis/10558"
+      },
+      {
+       "name": "Derek Limberg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Trinity HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/derek-limberg/11269"
+      },
+      {
+       "name": "Jay Nimmo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jay-nimmo/10560"
+      },
+      {
+       "name": "Peyton Purvis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/peyton-purvis/10564"
+      },
+      {
+       "name": "Trey Wall",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-wall/11986"
+      },
+      {
+       "name": "Jakob Wellman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jakob-wellman/11272"
+      },
+      {
+       "name": "Tyler Wirth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "La Grange, Ky.",
+       "country": "US",
+       "previous_school": "Oldham County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-wirth/11987"
+      },
+      {
+       "name": "Rocco Zakutney",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "St. Mary HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/rocco-zakutney/11988"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jacob Miller",
+       "title": "Head Coach",
+       "email": "jmiller134@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/jacob-miller/2106"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lennon Albans",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nottingham, England",
+       "country": "GB",
+       "previous_school": "Toots Hill Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/lennon-albans/11981"
+      },
+      {
+       "name": "Walker Beck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newburgh, Ind.",
+       "country": "US",
+       "previous_school": "Castle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/walker-beck/9920"
+      },
+      {
+       "name": "Kamaren Cunningham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dover, Tenn.",
+       "country": "US",
+       "previous_school": "Stewart County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/kamaren-cunningham/10557"
+      },
+      {
+       "name": "Brady Haake",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gilbert, Ariz.",
+       "country": "US",
+       "previous_school": "Gilbert HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/brady-haake/9928"
+      },
+      {
+       "name": "Trey Lewis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Ky.",
+       "country": "US",
+       "previous_school": "Ohio County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-lewis/10558"
+      },
+      {
+       "name": "Derek Limberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Trinity HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/derek-limberg/11269"
+      },
+      {
+       "name": "Jay Nimmo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jay-nimmo/10560"
+      },
+      {
+       "name": "Tyler Powell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-powell/9925"
+      },
+      {
+       "name": "Trey Wall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-wall/11986"
+      },
+      {
+       "name": "Jakob Wellman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jakob-wellman/11272"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jacob Miller",
+       "title": "Head Coach",
+       "email": "jmiller134@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/jacob-miller/2106"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Walker Beck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newburgh, Ind.",
+       "country": "US",
+       "previous_school": "Castle HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/walker-beck/9920"
+      },
+      {
+       "name": "John Buchanan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/john-buchanan/9398"
+      },
+      {
+       "name": "Kamaren Cunningham",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dover, Tenn.",
+       "country": "US",
+       "previous_school": "Stewart County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/kamaren-cunningham/10557"
+      },
+      {
+       "name": "Carson Holmes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/carson-holmes/9400"
+      },
+      {
+       "name": "Trey Lewis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Ky.",
+       "country": "US",
+       "previous_school": "Ohio County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-lewis/10558"
+      },
+      {
+       "name": "Derek Limberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Trinity HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/derek-limberg/11269"
+      },
+      {
+       "name": "Jay Nimmo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jay-nimmo/10560"
+      },
+      {
+       "name": "Tyler Powell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-powell/9925"
+      },
+      {
+       "name": "Drew Wallace",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Crestwood, Ky.",
+       "country": "US",
+       "previous_school": "North Oldham HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/drew-wallace/9406"
+      },
+      {
+       "name": "Jakob Wellman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/jakob-wellman/11272"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jacob Miller",
+       "title": "Head Coach",
+       "email": "jmiller134@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/jacob-miller/2106"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Abernathy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clinton, Ky.",
+       "country": "US",
+       "previous_school": "Hickman County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-abernathy/8960"
+      },
+      {
+       "name": "Walker Beck",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newburgh, Ind.",
+       "country": "US",
+       "previous_school": "Castle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/walker-beck/9920"
+      },
+      {
+       "name": "John Buchanan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/john-buchanan/9398"
+      },
+      {
+       "name": "Connor Coombs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Central City, Ky.",
+       "country": "US",
+       "previous_school": "Muhlenberg County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/connor-coombs/8963"
+      },
+      {
+       "name": "Kamaren Cunningham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dover, Tenn.",
+       "country": "US",
+       "previous_school": "Stewart County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/kamaren-cunningham/10557"
+      },
+      {
+       "name": "Quinn Eaton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/quinn-eaton/8964"
+      },
+      {
+       "name": "Carson Holmes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/carson-holmes/9400"
+      },
+      {
+       "name": "Trey Lewis",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Beaver Dam, Ky.",
+       "country": "US",
+       "previous_school": "Ohio County HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-lewis/10558"
+      },
+      {
+       "name": "Derek Limberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Trinity HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/derek-limberg/11269"
+      },
+      {
+       "name": "Tyler Powell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-powell/9925"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daniel DeLuca",
+       "title": "Head Coach",
+       "email": "ddeluca1@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/daniel-deluca/1374"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tyler Abernathy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clinton, Ky.",
+       "country": "US",
+       "previous_school": "Hickman County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-abernathy/8960"
+      },
+      {
+       "name": "Dalton Bagwell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/dalton-bagwell/8566"
+      },
+      {
+       "name": "Walker Beck",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newburgh, Ind.",
+       "country": "US",
+       "previous_school": "Castle HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/walker-beck/9920"
+      },
+      {
+       "name": "John Buchanan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/john-buchanan/9398"
+      },
+      {
+       "name": "Connor Coombs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Central City, Ky.",
+       "country": "US",
+       "previous_school": "Muhlenberg County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/connor-coombs/8963"
+      },
+      {
+       "name": "Quinn Eaton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/quinn-eaton/8964"
+      },
+      {
+       "name": "Avery Edwards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/avery-edwards/8571"
+      },
+      {
+       "name": "Carson Holmes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/carson-holmes/9400"
+      },
+      {
+       "name": "Austin Knight",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Hopkinsville HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/austin-knight/8573"
+      },
+      {
+       "name": "Trey Lewis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beaver Dam, Ky.",
+       "country": "US",
+       "previous_school": "Ohio County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/trey-lewis/10558"
+      },
+      {
+       "name": "Tyler Powell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/tyler-powell/9925"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Eddie Hunt",
+       "title": "Head Coach",
+       "email": "ehunt@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/eddie-hunt/1305"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Dalton Bagwell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/dalton-bagwell/8566"
+      },
+      {
+       "name": "Walker Beck",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newburgh, Ind.",
+       "country": "US",
+       "previous_school": "Castle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/walker-beck/9920"
+      },
+      {
+       "name": "James Boone",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/james-boone/8165"
+      },
+      {
+       "name": "John Buchanan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/john-buchanan/9398"
+      },
+      {
+       "name": "Connor Coombs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Central City, Ky.",
+       "country": "US",
+       "previous_school": "Muhlenberg County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/connor-coombs/8963"
+      },
+      {
+       "name": "Quinn Eaton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/quinn-eaton/8964"
+      },
+      {
+       "name": "Avery Edwards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/avery-edwards/8571"
+      },
+      {
+       "name": "Carson Holmes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/carson-holmes/9400"
+      },
+      {
+       "name": "Austin Knight",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Hopkinsville HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/austin-knight/8573"
+      },
+      {
+       "name": "Justin Wendling",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lithia, Fla.",
+       "country": "US",
+       "previous_school": "Newsome HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/justin-wendling/8172"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Eddie Hunt",
+       "title": "Head Coach",
+       "email": "ehunt@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/eddie-hunt/1305"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Dalton Bagwell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/dalton-bagwell/8566"
+      },
+      {
+       "name": "James Boone",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/james-boone/8165"
+      },
+      {
+       "name": "John Buchanan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/john-buchanan/9398"
+      },
+      {
+       "name": "Connor Coombs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Central City, Ky.",
+       "country": "US",
+       "previous_school": "Muhlenberg County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/connor-coombs/8963"
+      },
+      {
+       "name": "Quinn Eaton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/quinn-eaton/8964"
+      },
+      {
+       "name": "Avery Edwards",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/avery-edwards/8571"
+      },
+      {
+       "name": "Carson Holmes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Christian County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/carson-holmes/9400"
+      },
+      {
+       "name": "Austin Knight",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Hopkinsville HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/austin-knight/8573"
+      },
+      {
+       "name": "Cole Manion",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clarkson, Ky.",
+       "country": "US",
+       "previous_school": "Grayson County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/cole-manion/7739"
+      },
+      {
+       "name": "Justin Wendling",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lithia, Fla.",
+       "country": "US",
+       "previous_school": "Newsome HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/justin-wendling/8172"
+      },
+      {
+       "name": "Gabe Wheeler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sikeston, Mo",
+       "country": "US",
+       "previous_school": "Sikeston HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/gabe-wheeler/7741"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Eddie Hunt",
+       "title": "Head Coach",
+       "email": "ehunt@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/eddie-hunt/1305"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rhett Cardwell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Morganfield, Ky.",
+       "country": "US",
+       "previous_school": "Union County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/rhett-cardwell/7241"
+      },
+      {
+       "name": "Connor Coombs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Central City, Ky.",
+       "country": "US",
+       "previous_school": "Muhlenberg County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/connor-coombs/8963"
+      },
+      {
+       "name": "Lance Davis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Graves County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/lance-davis/7235"
+      },
+      {
+       "name": "Quinn Eaton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Benton, Ky.",
+       "country": "US",
+       "previous_school": "Marshall County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/quinn-eaton/8964"
+      },
+      {
+       "name": "Avery Edwards",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/avery-edwards/8571"
+      },
+      {
+       "name": "Austin Knight",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Hopkinsville HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/austin-knight/8573"
+      },
+      {
+       "name": "Cole Manion",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarkson, Ky.",
+       "country": "US",
+       "previous_school": "Grayson County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/cole-manion/7739"
+      },
+      {
+       "name": "Justin Wendling",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lithia, Fla.",
+       "country": "US",
+       "previous_school": "Newsome HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/justin-wendling/8172"
+      },
+      {
+       "name": "Gabe Wheeler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sikeston, Mo",
+       "country": "US",
+       "previous_school": "Sikeston HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/gabe-wheeler/7741"
+      },
+      {
+       "name": "Paul Wynstra",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Mayfield HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/paul-wynstra/7357"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Eddie Hunt",
+       "title": "Head Coach",
+       "email": "ehunt@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/eddie-hunt/1305"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goracers.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nick Choate",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cadiz, Ky",
+       "country": "US",
+       "previous_school": "Trigg County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/nick-choate/5600"
+      },
+      {
+       "name": "Lance Davis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Graves County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/lance-davis/7235"
+      },
+      {
+       "name": "Avery Edwards",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "McCracken County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/avery-edwards/8571"
+      },
+      {
+       "name": "Austin Knight",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "Hopkinsville HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/austin-knight/8573"
+      },
+      {
+       "name": "Cole Manion",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarkson, Ky.",
+       "country": "US",
+       "previous_school": "Grayson County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/cole-manion/7739"
+      },
+      {
+       "name": "Daniel Taylor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Princeton, Ky.",
+       "country": "US",
+       "previous_school": "Caldwell County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/daniel-taylor/5602"
+      },
+      {
+       "name": "Justin Wendling",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lithia, Fla.",
+       "country": "US",
+       "previous_school": "Newsome HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/justin-wendling/8172"
+      },
+      {
+       "name": "Gabe Wheeler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sikeston, Mo",
+       "country": "US",
+       "previous_school": "Sikeston HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/gabe-wheeler/7741"
+      },
+      {
+       "name": "Matthew Winder",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Calloway County HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/matthew-winder/4802"
+      },
+      {
+       "name": "Matthew Zakutney",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "St. Mary's HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/matthew-zakutney/5605"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Eddie Hunt",
+       "title": "Head Coach",
+       "email": "ehunt@murraystate.edu",
+       "phone": "(270) 809-6287",
+       "profile_url": "https://goracers.com/sports/mens-golf/roster/coaches/eddie-hunt/1305"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://goracers.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alyvia Boddie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ocoee, Fla.",
+       "country": "US",
+       "previous_school": "Circle Christian School",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/alyvia-boddie/11939"
+      },
+      {
+       "name": "Kylah Lunsford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Henry Clay HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/kylah-lunsford/11940"
+      },
+      {
+       "name": "Joska Nelis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Haarlem, Netherlands /",
+       "country": "NL",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/joska-nelis/11941"
+      },
+      {
+       "name": "Patti Patterson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "St. John Paul II HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/patti-patterson/11942"
+      },
+      {
+       "name": "Ella Scherer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vine Grove, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ella-scherer/11943"
+      },
+      {
+       "name": "Elin Tynan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pontyclun, Wales",
+       "country": "GB",
+       "previous_school": "The College Merthyr Tydfil",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/elin-tynan/11944"
+      },
+      {
+       "name": "Tina Von Arx",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Solothurn, Switzerland",
+       "country": "CH",
+       "previous_school": "Kantonsschule Solothurn",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/tina-von-arx/11945"
+      },
+      {
+       "name": "Katherine Weir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madison-North Hopkins HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/katherine-weir/10475"
+      },
+      {
+       "name": "Kaitlyn Zieba",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hanson, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville-North Hopkins HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/kaitlyn-zieba/11263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Philip Nelson",
+       "title": "Head Coach",
+       "email": "pnelson5@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/philip-nelson/2099"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alyvia Boddie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ocoee, Fla.",
+       "country": "US",
+       "previous_school": "Circle Christian School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/alyvia-boddie/11939"
+      },
+      {
+       "name": "Jadyn Gracie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta",
+       "country": "CA",
+       "previous_school": "All Saints School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/jadyn-gracie/10479"
+      },
+      {
+       "name": "Eliza Mae Kho",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Riam Road Secondary School",
+       "class_raw": "Gr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/eliza-mae-kho/10472"
+      },
+      {
+       "name": "Patti Patterson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "St. John Paul II HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/patti-patterson/11942"
+      },
+      {
+       "name": "Ella Scherer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vine Grove, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ella-scherer/11943"
+      },
+      {
+       "name": "Elin Tynan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pontyclun, Wales",
+       "country": "GB",
+       "previous_school": "The College Merthyr Tydfil",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/elin-tynan/11944"
+      },
+      {
+       "name": "Tina Von Arx",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Solothurn, Switzerland",
+       "country": "CH",
+       "previous_school": "Kantonsschule Solothurn",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/tina-von-arx/11945"
+      },
+      {
+       "name": "Katherine Weir",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madison-North Hopkins HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/katherine-weir/10475"
+      },
+      {
+       "name": "Ellie West",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Graves County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ellie-west/10476"
+      },
+      {
+       "name": "Kaitlyn Zieba",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hanson, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville-North Hopkins HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/kaitlyn-zieba/11263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Philip Nelson",
+       "title": "Head Coach",
+       "email": "pnelson5@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/philip-nelson/2099"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Payton Carter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/payton-carter/9930"
+      },
+      {
+       "name": "Dylan Elliot",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/dylan-elliot/9931"
+      },
+      {
+       "name": "Lauren Gilchrist",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Marion, Ky.",
+       "country": "US",
+       "previous_school": "Crittenden County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lauren-gilchrist/9932"
+      },
+      {
+       "name": "Eliza Mae Kho",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Riam Road Secondary School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/eliza-mae-kho/10472"
+      },
+      {
+       "name": "Patti Patterson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "St. John Paul II HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/patti-patterson/11942"
+      },
+      {
+       "name": "Emma Payne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emma-payne/9934"
+      },
+      {
+       "name": "Ella Scherer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vine Grove, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ella-scherer/11943"
+      },
+      {
+       "name": "Emily Shimkus",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cave Creek, Ariz.",
+       "country": "US",
+       "previous_school": "Cactus Shadows HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emily-shimkus/9939"
+      },
+      {
+       "name": "McKenna Stahl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "South Warren HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/mckenna-stahl/9935"
+      },
+      {
+       "name": "Katherine Weir",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madison-North Hopkins HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/katherine-weir/10475"
+      },
+      {
+       "name": "Ellie West",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Graves County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ellie-west/10476"
+      },
+      {
+       "name": "Kaitlyn Zieba",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hanson, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville-North Hopkins HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/kaitlyn-zieba/11263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Philip Nelson",
+       "title": "Head Coach",
+       "email": "pnelson5@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/philip-nelson/2099"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Payton Carter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/payton-carter/9930"
+      },
+      {
+       "name": "Dylan Elliot",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/dylan-elliot/9931"
+      },
+      {
+       "name": "Alma Garcia",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oaxaca, Mexico",
+       "country": "MX",
+       "previous_school": "Media Superior Tecnologíal HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/alma-garcia/9411"
+      },
+      {
+       "name": "Lauren Gilchrist",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Marion, Ky.",
+       "country": "US",
+       "previous_school": "Crittenden County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lauren-gilchrist/9932"
+      },
+      {
+       "name": "Eliza Mae Kho",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Riam Road Secondary School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/eliza-mae-kho/10472"
+      },
+      {
+       "name": "Emma Payne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emma-payne/9934"
+      },
+      {
+       "name": "Ana Picchi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Entreolivos HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ana-picchi/9415"
+      },
+      {
+       "name": "McKenna Stahl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "South Warren HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/mckenna-stahl/9935"
+      },
+      {
+       "name": "Katherine Weir",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madison-North Hopkins HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/katherine-weir/10475"
+      },
+      {
+       "name": "Ellie West",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Graves County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ellie-west/10476"
+      },
+      {
+       "name": "Kaitlyn Zieba",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hanson, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville-North Hopkins HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/kaitlyn-zieba/11263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Philip Nelson",
+       "title": "Head Coach",
+       "email": "pnelson5@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/philip-nelson/2099"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Payton Carter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/payton-carter/9930"
+      },
+      {
+       "name": "Dylan Elliot",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/dylan-elliot/9931"
+      },
+      {
+       "name": "Emmie Eriksson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Malmo, Sweden",
+       "country": "SE",
+       "previous_school": "Malmo Secondary School.",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emmie-eriksson/8950"
+      },
+      {
+       "name": "Alma Garcia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oaxaca, Mexico",
+       "country": "MX",
+       "previous_school": "Media Superior Tecnologíal HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/alma-garcia/9411"
+      },
+      {
+       "name": "Lauren Gilchrist",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marion, Ky.",
+       "country": "US",
+       "previous_school": "Crittenden County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lauren-gilchrist/9932"
+      },
+      {
+       "name": "Eliza Mae Kho",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Riam Road Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/eliza-mae-kho/10472"
+      },
+      {
+       "name": "Emma Payne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emma-payne/9934"
+      },
+      {
+       "name": "Ana Picchi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Entreolivos HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ana-picchi/9415"
+      },
+      {
+       "name": "McKenna Stahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "South Warren HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/mckenna-stahl/9935"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Velvet Milkman",
+       "title": "Head Coach",
+       "email": "vmilkman@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/velvet-milkman/1372"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Payton Carter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/payton-carter/9930"
+      },
+      {
+       "name": "Madison Cecil",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Paul Lawrence Dunbar HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/madison-cecil/8561"
+      },
+      {
+       "name": "Charli Jo Doss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "Paducah Tilghman HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/charli-jo-doss/8556"
+      },
+      {
+       "name": "Emmie Eriksson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Malmo, Sweden",
+       "country": "SE",
+       "previous_school": "Malmo Secondary School.",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emmie-eriksson/8950"
+      },
+      {
+       "name": "Sarah Forsythe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/sarah-forsythe/8559"
+      },
+      {
+       "name": "Lauren Gilchrist",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Marion, Ky.",
+       "country": "US",
+       "previous_school": "Crittenden County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lauren-gilchrist/9932"
+      },
+      {
+       "name": "Eliza Mae Kho",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Riam Road Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/eliza-mae-kho/10472"
+      },
+      {
+       "name": "Briana McMinn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "O'Fallon, Ill.",
+       "country": "US",
+       "previous_school": "O'Fallon HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/briana-mcminn/8564"
+      },
+      {
+       "name": "Emma Payne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Owensboro, Ky.",
+       "country": "US",
+       "previous_school": "Owensboro Catholic HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/emma-payne/9934"
+      },
+      {
+       "name": "Ana Picchi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Entreolivos HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ana-picchi/9415"
+      },
+      {
+       "name": "Lucila Puente Rodriguez de Austria",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "San Antonio Maria Claret HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lucila-puente-rodriguez-de-austria/8729"
+      },
+      {
+       "name": "Raeysha Surendran",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Selangor, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Kota Kemuning",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/raeysha-surendran/8560"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Velvet Milkman",
+       "title": "Head Coach",
+       "email": "vmilkman@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/velvet-milkman/1372"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Payton Carter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/payton-carter/9930"
+      },
+      {
+       "name": "Charli Jo Doss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "Paducah Tilghman HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/charli-jo-doss/8556"
+      },
+      {
+       "name": "Sarah Forsythe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/sarah-forsythe/8559"
+      },
+      {
+       "name": "Eliza Mae Kho",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Miri, Malaysia",
+       "country": "MY",
+       "previous_school": "Riam Road Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/eliza-mae-kho/10472"
+      },
+      {
+       "name": "Ana Picchi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "Entreolivos HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/ana-picchi/9415"
+      },
+      {
+       "name": "Lucila Puente Rodriguez de Austria",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "San Antonio Maria Claret HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lucila-puente-rodriguez-de-austria/8729"
+      },
+      {
+       "name": "Raeysha Surendran",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Selangor, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Kota Kemuning",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/raeysha-surendran/8560"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Velvet Milkman",
+       "title": "Head Coach",
+       "email": "vmilkman@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/velvet-milkman/1372"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Payton Carter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/payton-carter/9930"
+      },
+      {
+       "name": "Taylor Church",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/taylor-church/7746"
+      },
+      {
+       "name": "Charli Jo Doss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "Paducah Tilghman HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/charli-jo-doss/8556"
+      },
+      {
+       "name": "Sarah Forsythe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/sarah-forsythe/8559"
+      },
+      {
+       "name": "Linette Holmslykke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vejle, Denmark",
+       "country": "DK",
+       "previous_school": "Campus Vejle",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/linette-holmslykke/7748"
+      },
+      {
+       "name": "Nadine Innes",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Rhyl HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/nadine-innes/7749"
+      },
+      {
+       "name": "Anna Moore",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "University Heights",
+       "class_raw": "Gr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/anna-moore/7751"
+      },
+      {
+       "name": "Lucila Puente Rodriguez de Austria",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "San Antonio Maria Claret HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lucila-puente-rodriguez-de-austria/8729"
+      },
+      {
+       "name": "Earlena Sheets",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Calloway County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/earlena-sheets/7753"
+      },
+      {
+       "name": "Raeysha Surendran",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Selangor, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Kota Kemuning",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/raeysha-surendran/8560"
+      },
+      {
+       "name": "Jane Watts",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Versailles, Ky.",
+       "country": "US",
+       "previous_school": "Woodford County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/jane-watts/7755"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Velvet Milkman",
+       "title": "Head Coach",
+       "email": "vmilkman@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/velvet-milkman/1372"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Belen Amoros Benet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Spain /",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/belen-amoros-benet/7233"
+      },
+      {
+       "name": "Taylor Church",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Henderson, Ky.",
+       "country": "US",
+       "previous_school": "Henderson County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/taylor-church/7746"
+      },
+      {
+       "name": "Charli Jo Doss",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "Paducah Tilghman HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/charli-jo-doss/8556"
+      },
+      {
+       "name": "Moa Folke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tranas, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/moa-folke/7223"
+      },
+      {
+       "name": "Sarah Forsythe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/sarah-forsythe/8559"
+      },
+      {
+       "name": "Linette Holmslykke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vejle, Denmark",
+       "country": "DK",
+       "previous_school": "Campus Vejle",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/linette-holmslykke/7748"
+      },
+      {
+       "name": "Nadine Innes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Rhyl HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/nadine-innes/7749"
+      },
+      {
+       "name": "Leah Rose Judd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensburg, Ky.",
+       "country": "US",
+       "previous_school": "Green County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/leah-rose-judd/7226"
+      },
+      {
+       "name": "Anna Moore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "University Heights",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/anna-moore/7751"
+      },
+      {
+       "name": "Lucila Puente Rodriguez de Austria",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "San Antonio Maria Claret HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lucila-puente-rodriguez-de-austria/8729"
+      },
+      {
+       "name": "Earlena Sheets",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Calloway County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/earlena-sheets/7753"
+      },
+      {
+       "name": "Raeysha Surendran",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Selangor, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Kota Kemuning",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/raeysha-surendran/8560"
+      },
+      {
+       "name": "Jane Watts",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Versailles, Ky.",
+       "country": "US",
+       "previous_school": "Woodford County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/jane-watts/7755"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Velvet Milkman",
+       "title": "Head Coach",
+       "email": "vmilkman@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/velvet-milkman/1372"
+      },
+      {
+       "name": "Will Snodgrass",
+       "title": "Assistant Coach",
+       "email": "wsnodgrass@murraystate.edu",
+       "phone": "(270) 809-2238",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/will-snodgrass/1083"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goracers.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charli Jo Doss",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "Paducah Tilghman HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/charli-jo-doss/8556"
+      },
+      {
+       "name": "Moa Folke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tranas, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/moa-folke/7223"
+      },
+      {
+       "name": "Linette Holmslykke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vejle, Denmark",
+       "country": "DK",
+       "previous_school": "Campus Vejle",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/linette-holmslykke/7748"
+      },
+      {
+       "name": "Nadine Innes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Rhyl HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/nadine-innes/7749"
+      },
+      {
+       "name": "Leah Rose Judd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greensburg, Ky.",
+       "country": "US",
+       "previous_school": "Green County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/leah-rose-judd/7226"
+      },
+      {
+       "name": "Sydney Kelley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paducah, Ky.",
+       "country": "US",
+       "previous_school": "Heath HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/sydney-kelley/5594"
+      },
+      {
+       "name": "Anna Moore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, Ky.",
+       "country": "US",
+       "previous_school": "University Heights",
+       "class_raw": "Jr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/anna-moore/7751"
+      },
+      {
+       "name": "Lucila Puente Rodriguez de Austria",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sevilla, Spain",
+       "country": "ES",
+       "previous_school": "San Antonio Maria Claret HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/lucila-puente-rodriguez-de-austria/8729"
+      },
+      {
+       "name": "Earlena Sheets",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mayfield, Ky.",
+       "country": "US",
+       "previous_school": "Calloway County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/earlena-sheets/7753"
+      },
+      {
+       "name": "Raeysha Surendran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Selangor, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Kota Kemuning",
+       "class_raw": "Fr.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/raeysha-surendran/8560"
+      },
+      {
+       "name": "Jane Watts",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Versailles, Ky.",
+       "country": "US",
+       "previous_school": "Woodford County HS",
+       "class_raw": "So.",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/jane-watts/7755"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Velvet Milkman",
+       "title": "Head Coach",
+       "email": "vmilkman@murraystate.edu",
+       "phone": "(270) 809-5408",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/velvet-milkman/1372"
+      },
+      {
+       "name": "Will Snodgrass",
+       "title": "Assistant Coach",
+       "email": "wsnodgrass@murraystate.edu",
+       "phone": "(270) 809-2238",
+       "profile_url": "https://goracers.com/sports/womens-golf/roster/coaches/will-snodgrass/1083"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://goracers.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goracers.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://goracers.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goracers.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goracers.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

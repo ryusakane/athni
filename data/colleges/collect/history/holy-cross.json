@@ -1,36 +1,2629 @@
 {
  "slug": "holy-cross",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://goholycross.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Leo Chu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scarsdale, N.Y.",
+       "country": "US",
+       "previous_school": "Scarsdale",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/leo-chu/16456"
+      },
+      {
+       "name": "Alex Elia",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wilton, Conn.",
+       "country": "US",
+       "previous_school": "Wilton",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/alex-elia/16449"
+      },
+      {
+       "name": "Brian Glennon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "Milton Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/brian-glennon/16450"
+      },
+      {
+       "name": "Lars-Belvin Larsson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Malmo, Sweden",
+       "country": "SE",
+       "previous_school": "Northfield Mount Hermon",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/lars-belvin-larsson/16451"
+      },
+      {
+       "name": "Ryan Scollins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wrentham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ryan-scollins/16453"
+      },
+      {
+       "name": "John Scully",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Winchester",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/john-scully/16457"
+      },
+      {
+       "name": "Rohan Shastry",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Allen, Texas",
+       "country": "US",
+       "previous_school": "Allen",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/rohan-shastry/16458"
+      },
+      {
+       "name": "Ben Snyder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newton, Mass.",
+       "country": "US",
+       "previous_school": "Rivers",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ben-snyder/16454"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/1712"
+      },
+      {
+       "name": "Kevin Taylor",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/kevin-taylor/1808"
+      },
+      {
+       "name": "Leo Kling",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/leo-kling/1714"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Owen Egan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Winchester",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/owen-egan/15356"
+      },
+      {
+       "name": "Alex Elia",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wilton, Conn.",
+       "country": "US",
+       "previous_school": "Wilton",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/alex-elia/15357"
+      },
+      {
+       "name": "Brian Glennon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "Milton Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/brian-glennon/15358"
+      },
+      {
+       "name": "Lars-Belvin Larsson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Malmo, Sweden",
+       "country": "SE",
+       "previous_school": "Northfield Mount Hermon",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/lars-belvin-larsson/15359"
+      },
+      {
+       "name": "James O'Connor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rye, N.Y.",
+       "country": "US",
+       "previous_school": "Brunswick (Conn.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/james-o-connor/15366"
+      },
+      {
+       "name": "Thomas O'Neill",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oradell, N.J.",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/thomas-o-neill/15360"
+      },
+      {
+       "name": "Grant Passi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/grant-passi/15361"
+      },
+      {
+       "name": "Nolan Schuermann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/nolan-schuermann/15362"
+      },
+      {
+       "name": "Ryan Scollins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wrentham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ryan-scollins/15363"
+      },
+      {
+       "name": "Ben Snyder",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newton, Mass.",
+       "country": "US",
+       "previous_school": "Rivers",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ben-snyder/15364"
+      },
+      {
+       "name": "Matthew Williams",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "St. Sebastian's",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/matthew-williams/15365"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/1556"
+      },
+      {
+       "name": "Kyle Gallo",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/kyle-gallo/1557"
+      },
+      {
+       "name": "Leo Kling",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/leo-kling/1558"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Owen Egan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Winchester",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/owen-egan/14544"
+      },
+      {
+       "name": "Alex Elia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wilton, Conn.",
+       "country": "US",
+       "previous_school": "Wilton",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/alex-elia/14551"
+      },
+      {
+       "name": "Brian Glennon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "Milton Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/brian-glennon/14545"
+      },
+      {
+       "name": "Lars-Belvin Larsson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Malmo, Sweden",
+       "country": "SE",
+       "previous_school": "Northfield Mount Hermon",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/lars-belvin-larsson/14546"
+      },
+      {
+       "name": "Thomas O'Neill",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oradell, N.J.",
+       "country": "US",
+       "previous_school": "Bergen Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/thomas-o-neill/14552"
+      },
+      {
+       "name": "Grant Passi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/grant-passi/14547"
+      },
+      {
+       "name": "Nolan Schuermann",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/nolan-schuermann/14548"
+      },
+      {
+       "name": "Ryan Scollins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wrentham, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ryan-scollins/14553"
+      },
+      {
+       "name": "Ben Snyder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newton, Mass.",
+       "country": "US",
+       "previous_school": "Rivers",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ben-snyder/14549"
+      },
+      {
+       "name": "Matthew Williams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "St. Sebastian's",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/matthew-williams/14550"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/1437"
+      },
+      {
+       "name": "Kyle Gallo",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/kyle-gallo/1476"
+      },
+      {
+       "name": "Leo Kling",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/leo-kling/1477"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tommy Beutz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chanhassen, Minn.",
+       "country": "US",
+       "previous_school": "Benilde-St. Margaret's",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/tommy-beutz/13498"
+      },
+      {
+       "name": "Owen Egan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Winchester",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/owen-egan/13500"
+      },
+      {
+       "name": "Christian Emmerich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Swampscott, Mass.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/christian-emmerich/13501"
+      },
+      {
+       "name": "Brian Glennon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "Milton Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/brian-glennon/13507"
+      },
+      {
+       "name": "Henry Horgan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newport, R.I.",
+       "country": "US",
+       "previous_school": "Oxbridge Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/henry-horgan/13502"
+      },
+      {
+       "name": "Lars-Belvin Larsson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Malmo, Sweden",
+       "country": "SE",
+       "previous_school": "Northfield Mount Hermon",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/lars-belvin-larsson/13508"
+      },
+      {
+       "name": "Grant Passi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/grant-passi/13503"
+      },
+      {
+       "name": "Nolan Schuermann",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/nolan-schuermann/13504"
+      },
+      {
+       "name": "Ben Snyder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newton, Mass.",
+       "country": "US",
+       "previous_school": "Rivers",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ben-snyder/13509"
+      },
+      {
+       "name": "Juan Suau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guaynabo, Puerto Rico",
+       "country": "US",
+       "previous_school": "Colegio San Ignacio de Loyola",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/juan-suau/13505"
+      },
+      {
+       "name": "Matthew Williams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hingham, Mass.",
+       "country": "US",
+       "previous_school": "St. Sebastian's",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/matthew-williams/13510"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/1275"
+      },
+      {
+       "name": "Leo Kling",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/leo-kling/1281"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tommy Beutz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chanhassen, Minn.",
+       "country": "US",
+       "previous_school": "Benilde-St. Margaret's",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/tommy-beutz/12816"
+      },
+      {
+       "name": "John Bowen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/john-bowen/12817"
+      },
+      {
+       "name": "Owen Egan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winchester, Mass.",
+       "country": "US",
+       "previous_school": "Winchester",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/owen-egan/12823"
+      },
+      {
+       "name": "Christian Emmerich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Swampscott, Mass.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/christian-emmerich/12818"
+      },
+      {
+       "name": "Collin Fitzpatrick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Marion, Mass.",
+       "country": "US",
+       "previous_school": "Old Rochester Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/collin-fitzpatrick/12819"
+      },
+      {
+       "name": "Henry Horgan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newport, R.I.",
+       "country": "US",
+       "previous_school": "Oxbridge Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/henry-horgan/12820"
+      },
+      {
+       "name": "Grant Passi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Cedar Park",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/grant-passi/12824"
+      },
+      {
+       "name": "Jack Phelan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Williston Northampton",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jack-phelan/12821"
+      },
+      {
+       "name": "Nolan Schuermann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/nolan-schuermann/12825"
+      },
+      {
+       "name": "Juan Suau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Guaynabo, Puerto Rico",
+       "country": "US",
+       "previous_school": "Colegio San Ignacio de Loyola",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/juan-suau/12822"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/1146"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tommy Beutz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chanhassen, Minn.",
+       "country": "US",
+       "previous_school": "Benilde-St. Margaret's",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/tommy-beutz/11723"
+      },
+      {
+       "name": "John Bowen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/john-bowen/11627"
+      },
+      {
+       "name": "Paul Carey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Walpole, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/paul-carey/11978"
+      },
+      {
+       "name": "Christian Emmerich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Swampscott, Mass.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/christian-emmerich/11628"
+      },
+      {
+       "name": "Collin Fitzpatrick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Marion, Mass.",
+       "country": "US",
+       "previous_school": "Old Rochester Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/collin-fitzpatrick/11629"
+      },
+      {
+       "name": "Henry Horgan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport, R.I.",
+       "country": "US",
+       "previous_school": "Oxbridge Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/henry-horgan/11630"
+      },
+      {
+       "name": "Jack Phelan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "East Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Williston Northampton",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jack-phelan/11631"
+      },
+      {
+       "name": "Connor Phillips",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Longmeadow",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/connor-phillips/11632"
+      },
+      {
+       "name": "Juan Suau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guaynabo, Puerto Rico",
+       "country": "US",
+       "previous_school": "Colegio San Ignacio de Loyola",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/juan-suau/11633"
+      },
+      {
+       "name": "Harrison Thayer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Burlington, Vt.",
+       "country": "US",
+       "previous_school": "Rice Memorial",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/harrison-thayer/11634"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/988"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "John Bowen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/john-bowen/10751"
+      },
+      {
+       "name": "Joe Brosseau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Springfield, Mass.",
+       "country": "US",
+       "previous_school": "Cathedral",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-brosseau/10752"
+      },
+      {
+       "name": "Christian Emmerich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Swampscott, Mass.",
+       "country": "US",
+       "previous_school": "St. Mary's",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/christian-emmerich/10754"
+      },
+      {
+       "name": "Collin Fitzpatrick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marion, Mass.",
+       "country": "US",
+       "previous_school": "Old Rochester Regional",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/collin-fitzpatrick/10755"
+      },
+      {
+       "name": "Henry Horgan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newport, R.I.",
+       "country": "US",
+       "previous_school": "Oxbridge Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/henry-horgan/10756"
+      },
+      {
+       "name": "Jack Phelan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Williston Northampton",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jack-phelan/10757"
+      },
+      {
+       "name": "Connor Phillips",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Longmeadow",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/connor-phillips/10758"
+      },
+      {
+       "name": "Peter Radler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winnetka, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/peter-radler/10759"
+      },
+      {
+       "name": "Juan Suau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guaynabo, Puerto Rico",
+       "country": "US",
+       "previous_school": "Colegio San Ignacio de Loyola",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/juan-suau/10760"
+      },
+      {
+       "name": "Harrison Thayer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "South Burlington, Vt.",
+       "country": "US",
+       "previous_school": "Rice Memorial",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/harrison-thayer/10761"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/872"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "John Bowen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hobe Sound, Fla.",
+       "country": "US",
+       "previous_school": "Benjamin",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/john-bowen/5419"
+      },
+      {
+       "name": "Joe Brosseau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Springfield, Mass.",
+       "country": "US",
+       "previous_school": "Cathedral",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-brosseau/5421"
+      },
+      {
+       "name": "Paul Carey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Walpole, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/paul-carey/5423"
+      },
+      {
+       "name": "Joe Egan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": "Northridge Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-egan/5425"
+      },
+      {
+       "name": "Collin Fitzpatrick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Marion, Mass.",
+       "country": "US",
+       "previous_school": "Old Rochester Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/collin-fitzpatrick/5430"
+      },
+      {
+       "name": "Jake Peer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woburn, Mass.",
+       "country": "US",
+       "previous_school": "Arlington Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jake-peer/5433"
+      },
+      {
+       "name": "Jack Phelan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Williston Northampton",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jack-phelan/5436"
+      },
+      {
+       "name": "Connor Phillips",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Longmeadow",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/connor-phillips/5437"
+      },
+      {
+       "name": "Harrison Thayer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Burlington, Vt.",
+       "country": "US",
+       "previous_school": "Rice Memorial",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/harrison-thayer/5438"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/375"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joe Blando, Jr.",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manhasset, N.Y.",
+       "country": "US",
+       "previous_school": "Manhasset",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Joe Brosseau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Springfield, Mass.",
+       "country": "US",
+       "previous_school": "Cathedral",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-brosseau/5106"
+      },
+      {
+       "name": "Ryan Camille",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Timonium, Md.",
+       "country": "US",
+       "previous_school": "Calvert Hall",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ryan-camille/5124"
+      },
+      {
+       "name": "Paul Carey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Walpole, Mass.",
+       "country": "US",
+       "previous_school": "Xaverian Brothers",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/paul-carey/5132"
+      },
+      {
+       "name": "Tom Dzwonczyk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Abington, Pa.",
+       "country": "US",
+       "previous_school": "Holy Cross",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/tom-dzwonczyk/5133"
+      },
+      {
+       "name": "Joe Egan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": "Northridge Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-egan/5134"
+      },
+      {
+       "name": "Ryan McGuirk",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Mass.",
+       "country": "US",
+       "previous_school": "St. Sebastian's",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/ryan-mcguirk/5137"
+      },
+      {
+       "name": "Trevor Merril",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Akron, Ohio",
+       "country": "US",
+       "previous_school": "Walsh Jesuit",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/trevor-merril/5139"
+      },
+      {
+       "name": "Jake Peer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woburn, Mass.",
+       "country": "US",
+       "previous_school": "Arlington Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jake-peer/5141"
+      },
+      {
+       "name": "Connor Phillips",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Longmeadow, Mass.",
+       "country": "US",
+       "previous_school": "Longmeadow",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/connor-phillips/5144"
+      },
+      {
+       "name": "Harrison Thayer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Burlington, Vt.",
+       "country": "US",
+       "previous_school": "Rice Memorial",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/harrison-thayer/5145"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/353"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goholycross.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joe Blando, Jr.",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manhasset, N.Y.",
+       "country": "US",
+       "previous_school": "Manhasset",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Joe Brosseau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Springfield, Mass.",
+       "country": "US",
+       "previous_school": "Cathedral",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-brosseau/4759"
+      },
+      {
+       "name": "Sean Dain",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oswego, N.Y.",
+       "country": "US",
+       "previous_school": "Oswego",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/sean-dain/4787"
+      },
+      {
+       "name": "Tom Dzwonczyk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Abington, Pa.",
+       "country": "US",
+       "previous_school": "Holy Cross",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/tom-dzwonczyk/4819"
+      },
+      {
+       "name": "Joe Egan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": "Northridge Prep",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/joe-egan/4821"
+      },
+      {
+       "name": "Drew Gerety",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Melrose, Mass.",
+       "country": "US",
+       "previous_school": "Austin Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/drew-gerety/4845"
+      },
+      {
+       "name": "Jack Katarincic",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Shady Side Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jack-katarincic/4863"
+      },
+      {
+       "name": "Connor McGuirk",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Mass.",
+       "country": "US",
+       "previous_school": "St. Sebastian's",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/connor-mcguirk/4866"
+      },
+      {
+       "name": "Trevor Merril",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Akron, Ohio",
+       "country": "US",
+       "previous_school": "Walsh Jesuit",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/trevor-merril/4878"
+      },
+      {
+       "name": "Cameron Murray",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Traverse City, Mich.",
+       "country": "US",
+       "previous_school": "Traverse City West",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/cameron-murray/4882"
+      },
+      {
+       "name": "Jake Peer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woburn, Mass.",
+       "country": "US",
+       "previous_school": "Arlington Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/jake-peer/4885"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/mens-golf/roster/coaches/steve-napoli/341"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://goholycross.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lillian Bateman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Western Springs, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lillian-bateman/16437"
+      },
+      {
+       "name": "Tess Breslin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary’s",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tess-breslin/16438"
+      },
+      {
+       "name": "Sophia Cellura",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rochester, N.Y.",
+       "country": "US",
+       "previous_school": "Mercy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/sophia-cellura/16439"
+      },
+      {
+       "name": "Phoebe Chamian",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Belmont, Mass.",
+       "country": "US",
+       "previous_school": "Belmont",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/phoebe-chamian/16440"
+      },
+      {
+       "name": "Lily Dessel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barrington, R.I.",
+       "country": "US",
+       "previous_school": "Barrington",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lily-dessel/16447"
+      },
+      {
+       "name": "Caroline Gola",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Wales, Pa.",
+       "country": "US",
+       "previous_school": "Mount St. Joseph Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caroline-gola/16441"
+      },
+      {
+       "name": "Kate Hong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Old Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "Sacred Heart-Greenwich",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kate-hong/16442"
+      },
+      {
+       "name": "Julianna Megan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hooksett, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/julianna-megan/16443"
+      },
+      {
+       "name": "Caleigh Noonan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "St. Joseph’s Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caleigh-noonan/16444"
+      },
+      {
+       "name": "Sophie Quinones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coral Springs, Fla.",
+       "country": "US",
+       "previous_school": "Broward Virtual",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/sophie-quinones/16445"
+      },
+      {
+       "name": "Lily Staiti",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rutland, Mass.",
+       "country": "US",
+       "previous_school": "Wachusett Regional",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lily-staiti/16448"
+      },
+      {
+       "name": "Neve Thanner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "St. Pius X Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/neve-thanner/16446"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/steve-napoli/1709"
+      },
+      {
+       "name": "Tim Bibaud",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/1710"
+      },
+      {
+       "name": "Connor Champoux",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/connor-champoux/1746"
+      },
+      {
+       "name": "Leo Kling",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/leo-kling/1809"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lillian Bateman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Western Springs, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lillian-bateman/15367"
+      },
+      {
+       "name": "Tess Breslin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary’s",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tess-breslin/15487"
+      },
+      {
+       "name": "Sophia Cellura",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rochester, N.Y.",
+       "country": "US",
+       "previous_school": "Mercy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/sophia-cellura/15377"
+      },
+      {
+       "name": "Phoebe Chamian",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Belmont, Mass.",
+       "country": "US",
+       "previous_school": "Belmont",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/phoebe-chamian/15368"
+      },
+      {
+       "name": "Carly Costaregni",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Miami, Fla.",
+       "country": "US",
+       "previous_school": "Portsmouth Abbey (R.I.)",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/carly-costaregni/15369"
+      },
+      {
+       "name": "Caroline Gola",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Wales, Pa.",
+       "country": "US",
+       "previous_school": "Mount St. Joseph Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caroline-gola/15371"
+      },
+      {
+       "name": "Manuela Herrera",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/manuela-herrera/15372"
+      },
+      {
+       "name": "Kate Hong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Old Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "Sacred Heart-Greenwich",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kate-hong/15373"
+      },
+      {
+       "name": "Julianna Megan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hooksett, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/julianna-megan/15374"
+      },
+      {
+       "name": "Caleigh Noonan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "St. Joseph’s Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caleigh-noonan/15375"
+      },
+      {
+       "name": "Sophie Quinones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Coral Springs, Fla.",
+       "country": "US",
+       "previous_school": "Broward Virtual",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/sophie-quinones/15378"
+      },
+      {
+       "name": "Neve Thanner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "St. Pius X Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/neve-thanner/15376"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/steve-napoli/1559"
+      },
+      {
+       "name": "Tim Bibaud",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/1560"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lillian Bateman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Western Springs, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lillian-bateman/14554"
+      },
+      {
+       "name": "Phoebe Chamian",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Belmont, Mass.",
+       "country": "US",
+       "previous_school": "Belmont",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/phoebe-chamian/14557"
+      },
+      {
+       "name": "Carly Costaregni",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Miami, Fla.",
+       "country": "US",
+       "previous_school": "Portsmouth Abbey (R.I.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/carly-costaregni/14571"
+      },
+      {
+       "name": "Lauren Dohoney",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cranston, R.I.",
+       "country": "US",
+       "previous_school": "St. Mary Academy - Bay View",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lauren-dohoney/14559"
+      },
+      {
+       "name": "Liz Garfield",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "K12 International Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/liz-garfield/14560"
+      },
+      {
+       "name": "Caroline Gola",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Wales, Pa.",
+       "country": "US",
+       "previous_school": "Mount St. Joseph Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caroline-gola/14561"
+      },
+      {
+       "name": "Tate Hadges",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Easton, Mass.",
+       "country": "US",
+       "previous_school": "Oliver Ames",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tate-hadges/14562"
+      },
+      {
+       "name": "Manuela Herrera",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/manuela-herrera/14564"
+      },
+      {
+       "name": "Kate Hong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Old Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "Sacred Heart-Greenwich",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kate-hong/14565"
+      },
+      {
+       "name": "Julianna Megan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hooksett, N.H.",
+       "country": "US",
+       "previous_school": "Pinkerton Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/julianna-megan/14572"
+      },
+      {
+       "name": "Caleigh Noonan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "St. Joseph’s Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caleigh-noonan/14567"
+      },
+      {
+       "name": "Neve Thanner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "St. Pius X Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/neve-thanner/14570"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/steve-napoli/1439"
+      },
+      {
+       "name": "Tim Bibaud",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/1479"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lillian Bateman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Western Springs, Ill.",
+       "country": "US",
+       "previous_school": "Fenwick",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lillian-bateman/13526"
+      },
+      {
+       "name": "Tess Breslin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dubuque, Iowa",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary’s",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tess-breslin/13529"
+      },
+      {
+       "name": "Kaitlyn Browne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southampton, N.Y.",
+       "country": "US",
+       "previous_school": "Saint Anthony’s",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kaitlyn-browne/13511"
+      },
+      {
+       "name": "Phoebe Chamian",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Belmont, Mass.",
+       "country": "US",
+       "previous_school": "Belmont",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/phoebe-chamian/13528"
+      },
+      {
+       "name": "Ellie De Andrade",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cohasset, Mass.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/ellie-de-andrade/13512"
+      },
+      {
+       "name": "Lauren Dohoney",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cranston, R.I.",
+       "country": "US",
+       "previous_school": "St. Mary Academy - Bay View",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lauren-dohoney/13513"
+      },
+      {
+       "name": "Liz Garfield",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "K12 International Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/liz-garfield/13514"
+      },
+      {
+       "name": "Caroline Gola",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Wales, Pa.",
+       "country": "US",
+       "previous_school": "Mount St. Joseph Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caroline-gola/13524"
+      },
+      {
+       "name": "Tate Hadges",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Easton, Mass.",
+       "country": "US",
+       "previous_school": "Oliver Ames",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tate-hadges/13515"
+      },
+      {
+       "name": "Bridget Hayden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ladera Ranch, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/bridget-hayden/13516"
+      },
+      {
+       "name": "Antonia Herrera",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/antonia-herrera/13517"
+      },
+      {
+       "name": "Manuela Herrera",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/manuela-herrera/13518"
+      },
+      {
+       "name": "Kate Hong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Old Greenwich, Conn.",
+       "country": "US",
+       "previous_school": "Sacred Heart-Greenwich",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kate-hong/13525"
+      },
+      {
+       "name": "Annie Kilmartin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Syracuse, N.Y.",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/annie-kilmartin/13519"
+      },
+      {
+       "name": "Katya King",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Celebration, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/katya-king/13520"
+      },
+      {
+       "name": "Caleigh Noonan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "St. Joseph’s Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caleigh-noonan/13523"
+      },
+      {
+       "name": "Ellen O'Leary",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rocky River, Ohio",
+       "country": "US",
+       "previous_school": "Magnificat",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/ellen-o-leary/13521"
+      },
+      {
+       "name": "Caroline Tamasi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pennington, N.J.",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caroline-tamasi/13522"
+      },
+      {
+       "name": "Neve Thanner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "St. Pius X Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/neve-thanner/13527"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Steve Napoli",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/steve-napoli/1336"
+      },
+      {
+       "name": "Vincent Sasso",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/vincent-sasso/1455"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kaitlyn Browne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southampton, N.Y.",
+       "country": "US",
+       "previous_school": "Saint Anthony’s",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kaitlyn-browne/12848"
+      },
+      {
+       "name": "Ellie De Andrade",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cohasset, Mass.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/ellie-de-andrade/12842"
+      },
+      {
+       "name": "Lauren Dohoney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cranston, R.I.",
+       "country": "US",
+       "previous_school": "St. Mary Academy - Bay View",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lauren-dohoney/12843"
+      },
+      {
+       "name": "Liz Garfield",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "K12 International Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/liz-garfield/12828"
+      },
+      {
+       "name": "Tate Hadges",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Easton, Mass.",
+       "country": "US",
+       "previous_school": "Oliver Ames",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tate-hadges/12836"
+      },
+      {
+       "name": "Bridget Hayden",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ladera Ranch, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/bridget-hayden/12837"
+      },
+      {
+       "name": "Antonia Herrera",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/antonia-herrera/12831"
+      },
+      {
+       "name": "Manuela Herrera",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/manuela-herrera/12844"
+      },
+      {
+       "name": "Annie Kilmartin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Syracuse, N.Y.",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/annie-kilmartin/12845"
+      },
+      {
+       "name": "Katya King",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Celebration, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/katya-king/12839"
+      },
+      {
+       "name": "Ellen O'Leary",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocky River, Ohio",
+       "country": "US",
+       "previous_school": "Magnificat",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/ellen-o-leary/12846"
+      },
+      {
+       "name": "Caroline Tamasi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pennington, N.J.",
+       "country": "US",
+       "previous_school": "Hopewell Valley Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/caroline-tamasi/12847"
+      },
+      {
+       "name": "Mary Anne Wiley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bow, N.H.",
+       "country": "US",
+       "previous_school": "Bishop Brady",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/mary-anne-wiley/12833"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Bibaud",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/1147"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Liz Garfield",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairfield, Conn.",
+       "country": "US",
+       "previous_school": "K12 International Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/liz-garfield/11725"
+      },
+      {
+       "name": "Tate Hadges",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Easton, Mass.",
+       "country": "US",
+       "previous_school": "Oliver Ames",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tate-hadges/11726"
+      },
+      {
+       "name": "Bridget Hayden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ladera Ranch, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/bridget-hayden/11727"
+      },
+      {
+       "name": "Antonia Herrera",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/antonia-herrera/11636"
+      },
+      {
+       "name": "Katya King",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Celebration, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/katya-king/11969"
+      },
+      {
+       "name": "Kit Mullen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burlington, Conn.",
+       "country": "US",
+       "previous_school": "Northwest Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kit-mullen/11638"
+      },
+      {
+       "name": "Emily Rodricks",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Yarmouth, Mass.",
+       "country": "US",
+       "previous_school": "Sturgis East Charter",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/emily-rodricks/11639"
+      },
+      {
+       "name": "Lauren Schonewolf",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cape Elizabeth, Maine",
+       "country": "US",
+       "previous_school": "Cape Elizabeth",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lauren-schonewolf/11641"
+      },
+      {
+       "name": "Mary Anne Wiley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bow, N.H.",
+       "country": "US",
+       "previous_school": "Bishop Brady",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/mary-anne-wiley/11640"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Bibaud",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/989"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddy Belden",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Worcester Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maddy-belden/10820"
+      },
+      {
+       "name": "Stephanie Browne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southampton, N.Y.",
+       "country": "US",
+       "previous_school": "St. Anthony's",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/stephanie-browne/10827"
+      },
+      {
+       "name": "Erin Eason",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Milford, Conn.",
+       "country": "US",
+       "previous_school": "Lauralton Hall",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/erin-eason/10844"
+      },
+      {
+       "name": "Jackie Gonzalez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Roxbury, Mass.",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/jackie-gonzalez/10855"
+      },
+      {
+       "name": "Antonia Herrera",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "American Heritage",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/antonia-herrera/10863"
+      },
+      {
+       "name": "Katya King",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Celebration, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/katya-king/11298"
+      },
+      {
+       "name": "Kit Mullen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burlington, Conn.",
+       "country": "US",
+       "previous_school": "Northwest Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kit-mullen/10887"
+      },
+      {
+       "name": "Emily Rodricks",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "South Yarmouth, Mass.",
+       "country": "US",
+       "previous_school": "Sturgis East Charter",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/emily-rodricks/10895"
+      },
+      {
+       "name": "Mary Anne Wiley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bow, N.H.",
+       "country": "US",
+       "previous_school": "Bishop Brady",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/mary-anne-wiley/10920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Bibaud",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/915"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddy Belden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Worcester Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maddy-belden/4669"
+      },
+      {
+       "name": "Stephanie Browne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southampton, N.Y.",
+       "country": "US",
+       "previous_school": "St. Anthony's",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/stephanie-browne/4670"
+      },
+      {
+       "name": "Tess Gallant",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marshfield, Mass.",
+       "country": "US",
+       "previous_school": "Notre Dame",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tess-gallant/4671"
+      },
+      {
+       "name": "Jackie Gonzalez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Roxbury, Mass.",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/jackie-gonzalez/4672"
+      },
+      {
+       "name": "Lexi Hummel-Paez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Albuquerque Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lexi-hummel-paez/4673"
+      },
+      {
+       "name": "Kit Mullen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burlington, Conn.",
+       "country": "US",
+       "previous_school": "Northwest Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/kit-mullen/4674"
+      },
+      {
+       "name": "Emily Rodricks",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Yarmouth, Mass.",
+       "country": "US",
+       "previous_school": "Sturgis East Charter",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/emily-rodricks/4676"
+      },
+      {
+       "name": "Lauren Schonewolf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cape Elizabeth, Maine",
+       "country": "US",
+       "previous_school": "Cape Elizabeth",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lauren-schonewolf/4677"
+      },
+      {
+       "name": "Mary Anne Wiley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bow, N.H.",
+       "country": "US",
+       "previous_school": "Bishop Brady",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/mary-anne-wiley/4679"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Bibaud",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/322"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddy Belden",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Worcester Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maddy-belden/4311"
+      },
+      {
+       "name": "Stephanie Browne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southampton, N.Y.",
+       "country": "US",
+       "previous_school": "St. Anthony's",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/stephanie-browne/4312"
+      },
+      {
+       "name": "Tess Gallant",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Marshfield, Mass.",
+       "country": "US",
+       "previous_school": "Notre Dame",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/tess-gallant/4313"
+      },
+      {
+       "name": "Jackie Gonzalez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Roxbury, Mass.",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/jackie-gonzalez/4314"
+      },
+      {
+       "name": "Maxine Harney",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Medford, Mass.",
+       "country": "US",
+       "previous_school": "Medford",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maxine-harney/4315"
+      },
+      {
+       "name": "Lexi Hummel-Paez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Albuquerque Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lexi-hummel-paez/4316"
+      },
+      {
+       "name": "Emily Rodricks",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Yarmouth, Mass.",
+       "country": "US",
+       "previous_school": "Sturgis East Charter",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/emily-rodricks/4317"
+      },
+      {
+       "name": "Lauren Schonewolf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cape Elizabeth, Maine",
+       "country": "US",
+       "previous_school": "Cape Elizabeth",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lauren-schonewolf/4318"
+      },
+      {
+       "name": "Lindsay Sullivan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Worcester, Mass.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lindsay-sullivan/4319"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Bibaud",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/295"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goholycross.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Maddy Belden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holden, Mass.",
+       "country": "US",
+       "previous_school": "Worcester Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maddy-belden/4067"
+      },
+      {
+       "name": "Stephanie Browne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southampton, N.Y.",
+       "country": "US",
+       "previous_school": "St. Anthony's",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/stephanie-browne/4068"
+      },
+      {
+       "name": "Maddy Glynn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pittsford, N.Y.",
+       "country": "US",
+       "previous_school": "Our Lady of Mercy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maddy-glynn/4069"
+      },
+      {
+       "name": "Jackie Gonzalez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Roxbury, Mass.",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/jackie-gonzalez/4070"
+      },
+      {
+       "name": "Maxine Harney",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Medford, Mass.",
+       "country": "US",
+       "previous_school": "Medford",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/maxine-harney/4071"
+      },
+      {
+       "name": "Mackenzie Horl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Garden City, N.Y.",
+       "country": "US",
+       "previous_school": "Garden City",
+       "class_raw": "Sr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/mackenzie-horl/4072"
+      },
+      {
+       "name": "Lexi Hummel-Paez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Albuquerque Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lexi-hummel-paez/4073"
+      },
+      {
+       "name": "Lindsay Sullivan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Worcester, Mass.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/lindsay-sullivan/4074"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tim Bibaud",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goholycross.com/sports/womens-golf/roster/coaches/tim-bibaud/281"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://goholycross.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goholycross.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://goholycross.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goholycross.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goholycross.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

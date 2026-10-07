@@ -1,22 +1,1108 @@
 {
  "slug": "kansas-city",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://kcroos.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Harry Bent",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gullane, Scotland",
+       "country": "GB",
+       "previous_school": "North Berwick",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/harry-bent/5230"
+      },
+      {
+       "name": "Saxxon Ford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brisbane, Queensland, Australia",
+       "country": "AU",
+       "previous_school": "Hill International",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/saxxon-ford/5231"
+      },
+      {
+       "name": "Mason Haley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Enid, Okla.",
+       "country": "US",
+       "previous_school": "Enid HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mason-haley/4949"
+      },
+      {
+       "name": "Luke Leonetti",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Topeka, Kan.",
+       "country": "US",
+       "previous_school": "Washburn Rural HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/luke-leonetti/4950"
+      },
+      {
+       "name": "Ed Procter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/ed-procter/4951"
+      },
+      {
+       "name": "Ben Solum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Olathe, Kan.",
+       "country": "US",
+       "previous_school": "Blaine HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/ben-solum/4952"
+      },
+      {
+       "name": "Jack Spencer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carl Junction, Mo.",
+       "country": "US",
+       "previous_school": "Carl Junction HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/jack-spencer/5232"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adam Challoner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/adam-challoner/4758"
+      },
+      {
+       "name": "Max Cooper",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Palo Verde HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/max-cooper/4759"
+      },
+      {
+       "name": "Mason Haley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Enid, Okla.",
+       "country": "US",
+       "previous_school": "Enid HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mason-haley/4949"
+      },
+      {
+       "name": "Luke Leonetti",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Topeka, Kan.",
+       "country": "US",
+       "previous_school": "Washburn Rural HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/luke-leonetti/4950"
+      },
+      {
+       "name": "Ed Procter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/ed-procter/4951"
+      },
+      {
+       "name": "Joshuaa Robards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newcastle, New South Wales, Australia",
+       "country": "AU",
+       "previous_school": "Kotara HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/joshuaa-robards/4761"
+      },
+      {
+       "name": "Ben Solum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Olathe, Kan.",
+       "country": "US",
+       "previous_school": "Blaine HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/ben-solum/4952"
+      },
+      {
+       "name": "Myles Tarvin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Olathe, Kan.",
+       "country": "US",
+       "previous_school": "Olathe West HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/myles-tarvin/4766"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adam Challoner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland /",
+       "country": "IE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/adam-challoner/4758"
+      },
+      {
+       "name": "Max Cooper",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Palo Verde HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/max-cooper/4759"
+      },
+      {
+       "name": "Lucas Dutartre",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paris, France /",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/lucas-dutartre/4357"
+      },
+      {
+       "name": "Mesa Falleur",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Muskogee, Okla.",
+       "country": "US",
+       "previous_school": "Sallisaw HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mesa-falleur/4358"
+      },
+      {
+       "name": "Daniel Gutgesell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Overland Park, Kan.",
+       "country": "US",
+       "previous_school": "Olathe East HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gutgesell/4359"
+      },
+      {
+       "name": "Luke Leonetti",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Topeka, Kan.",
+       "country": "US",
+       "previous_school": "Washburn Rural HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/luke-leonetti/4950"
+      },
+      {
+       "name": "Maxence Mugnier",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Garches, France",
+       "country": "FR",
+       "previous_school": "Ecole Diagonale School",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/maxence-mugnier/4361"
+      },
+      {
+       "name": "Joshuaa Robards",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newcastle, New South Wales, Australia",
+       "country": "AU",
+       "previous_school": "Kotara HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/joshuaa-robards/4761"
+      },
+      {
+       "name": "Blake Saffell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wellington, Kan.",
+       "country": "US",
+       "previous_school": "Wellington HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/blake-saffell/4483"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maxence Catherine",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Aix en provence, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "Gr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/maxence-catherine/4186"
+      },
+      {
+       "name": "Lucas Dutartre",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paris, France /",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/lucas-dutartre/4357"
+      },
+      {
+       "name": "Mesa Falleur",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Muskogee, Okla.",
+       "country": "US",
+       "previous_school": "Sallisaw HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mesa-falleur/4358"
+      },
+      {
+       "name": "Daniel Gutgesell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Overland Park, Kan.",
+       "country": "US",
+       "previous_school": "Olathe East HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gutgesell/4359"
+      },
+      {
+       "name": "Luke Leonetti",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Topeka, Kan.",
+       "country": "US",
+       "previous_school": "Washburn Rural HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/luke-leonetti/4950"
+      },
+      {
+       "name": "Thomas Luger",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Leawood, Kan.",
+       "country": "US",
+       "previous_school": "Shawnee Mission East HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/thomas-luger/4182"
+      },
+      {
+       "name": "Daniel Maurer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-maurer/4183"
+      },
+      {
+       "name": "Hugo Mongalvy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint Cloud, France",
+       "country": "FR",
+       "previous_school": "Diagonale School",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/hugo-mongalvy/4184"
+      },
+      {
+       "name": "Maxence Mugnier",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Garches, France",
+       "country": "FR",
+       "previous_school": "Ecole Diagonale School",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/maxence-mugnier/4361"
+      },
+      {
+       "name": "Bruno Pardo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/bruno-pardo/4189"
+      },
+      {
+       "name": "Joshuaa Robards",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newcastle, New South Wales, Australia",
+       "country": "AU",
+       "previous_school": "Kotara HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/joshuaa-robards/4761"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "George Clarke",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Staffordshire, England /",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/george-clarke/3974"
+      },
+      {
+       "name": "Daniel Gaspar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Twin Falls, Idaho",
+       "country": "US",
+       "previous_school": "Twin Falls HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gaspar/3969"
+      },
+      {
+       "name": "Daniel Gutgesell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Overland Park, Kan.",
+       "country": "US",
+       "previous_school": "Olathe East HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gutgesell/4359"
+      },
+      {
+       "name": "Thomas Luger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Leawood, Kan.",
+       "country": "US",
+       "previous_school": "Shawnee Mission East HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/thomas-luger/4182"
+      },
+      {
+       "name": "Daniel Maurer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Puebla, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-maurer/4183"
+      },
+      {
+       "name": "Hugo Mongalvy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint Cloud, France",
+       "country": "FR",
+       "previous_school": "Diagonale School",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/hugo-mongalvy/4184"
+      },
+      {
+       "name": "Joshuaa Robards",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newcastle, New South Wales, Australia",
+       "country": "AU",
+       "previous_school": "Kotara HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/joshuaa-robards/4761"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maxence Catherine",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aix en provence, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/maxence-catherine/4186"
+      },
+      {
+       "name": "Paul Foulquie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/paul-foulquie/3667"
+      },
+      {
+       "name": "Daniel Gaspar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Twin Falls, Idaho",
+       "country": "US",
+       "previous_school": "Twin Falls HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gaspar/3969"
+      },
+      {
+       "name": "Arnaud Lagraulet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Saint Joseph de Tivoli",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/arnaud-lagraulet/3669"
+      },
+      {
+       "name": "Thomas Luger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leawood, Kan.",
+       "country": "US",
+       "previous_school": "Shawnee Mission East HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/thomas-luger/4182"
+      },
+      {
+       "name": "Vitek Novak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Karlovy Vary, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Prvn? Česk? gymn?zium v Karlov?ch Varech",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/vitek-novak/3672"
+      },
+      {
+       "name": "McCain Schellhardt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mccain-schellhardt/3673"
+      },
+      {
+       "name": "Corey Teaford",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Santa Claus, Ind.",
+       "country": "US",
+       "previous_school": "Heritage Hills High School",
+       "class_raw": "Gr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/corey-teaford/3776"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Andy Smith",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/andy-smith/1028"
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maxence Catherine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aix en provence, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/maxence-catherine/4186"
+      },
+      {
+       "name": "Paul Foulquie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/paul-foulquie/3667"
+      },
+      {
+       "name": "Daniel Gaspar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Twin Falls, Idaho",
+       "country": "US",
+       "previous_school": "Twin Falls HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gaspar/3969"
+      },
+      {
+       "name": "Sam Humphreys",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/sam-humphreys/3329"
+      },
+      {
+       "name": "Arnaud Lagraulet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Saint Joseph de Tivoli",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/arnaud-lagraulet/3669"
+      },
+      {
+       "name": "Thomas Luger",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Leawood, Kan.",
+       "country": "US",
+       "previous_school": "Shawnee Mission East HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/thomas-luger/4182"
+      },
+      {
+       "name": "Vitek Novak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Karlovy Vary, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Prvn? Česk? gymn?zium v Karlov?ch Varech",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/vitek-novak/3672"
+      },
+      {
+       "name": "McCain Schellhardt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mccain-schellhardt/3673"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Andy Smith",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/andy-smith/1028"
+      },
+      {
+       "name": "Jack Hermeston",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/jack-hermeston/1410"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Maxence Catherine",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aix en provence, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/maxence-catherine/4186"
+      },
+      {
+       "name": "Paul Foulquie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Lycee Audiberti",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/paul-foulquie/3667"
+      },
+      {
+       "name": "Daniel Gaspar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Twin Falls, Idaho",
+       "country": "US",
+       "previous_school": "Twin Falls HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/daniel-gaspar/3969"
+      },
+      {
+       "name": "Sam Humphreys",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond North HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/sam-humphreys/3329"
+      },
+      {
+       "name": "Arnaud Lagraulet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Saint Joseph de Tivoli",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/arnaud-lagraulet/3669"
+      },
+      {
+       "name": "Francois Lagraulet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycee St. Joseph de Tivoli",
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/francois-lagraulet/1597"
+      },
+      {
+       "name": "Raphael Lapierre-Messier",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ibertown, Quebec",
+       "country": "CA",
+       "previous_school": "C?gep de Saint-Jean-sur-Richelieu",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Taylor Larsen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Garden City, Kan.",
+       "country": "US",
+       "previous_school": "Garden City HS",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/taylor-larsen/1599"
+      },
+      {
+       "name": "Thomas Luger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Leawood, Kan.",
+       "country": "US",
+       "previous_school": "Shawnee Mission East HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/thomas-luger/4182"
+      },
+      {
+       "name": "Vitek Novak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Karlovy Vary, Czech Republic",
+       "country": "CZ",
+       "previous_school": "Prvn? Česk? gymn?zium v Karlov?ch Varech",
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/vitek-novak/3672"
+      },
+      {
+       "name": "McCain Schellhardt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mccain-schellhardt/3673"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      },
+      {
+       "name": "Andy Smith",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/coaches/andy-smith/1028"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Paul Foulquie",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/paul-foulquie/3667"
+      },
+      {
+       "name": "Sam Humphreys",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/sam-humphreys/3329"
+      },
+      {
+       "name": "Francois Lagraulet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/francois-lagraulet/1597"
+      },
+      {
+       "name": "Raphael Lapierre-Messier",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ibertown, Quebec",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Taylor Larsen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Garden City, Kan.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/taylor-larsen/1599"
+      },
+      {
+       "name": "McCain Schellhardt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mccain-schellhardt/3673"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://kcroos.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nick Auer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wichita, Kan.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/nick-auer/1398"
+      },
+      {
+       "name": "Jakob Garstecki",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Germantown, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/jakob-garstecki/1399"
+      },
+      {
+       "name": "Jack Hermeston",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newcastle, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/jack-hermeston/1400"
+      },
+      {
+       "name": "Sam Humphreys",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/sam-humphreys/3329"
+      },
+      {
+       "name": "Francois Lagraulet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/francois-lagraulet/1597"
+      },
+      {
+       "name": "McCain Schellhardt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/mccain-schellhardt/3673"
+      },
+      {
+       "name": "Matthew Sieg",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Osseo, Wis.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/matthew-sieg/1404"
+      },
+      {
+       "name": "Thibault Vieilledent",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cannes, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://kcroos.com/sports/mens-golf/roster/thibault-vieilledent/1405"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "J.W. VanDenBorn",
+       "title": "Director of Golf/Head Coach",
+       "email": "vandenbornj@umkc.edu",
+       "phone": "816-235-5989",
+       "profile_url": null
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://kcroos.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://kcroos.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://kcroos.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

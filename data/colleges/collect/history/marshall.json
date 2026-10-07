@@ -1,36 +1,2069 @@
 {
  "slug": "marshall",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://herdzone.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ben Bridges",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ohio",
+       "country": "US",
+       "previous_school": "Mount Vernon HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ben-bridges/11243"
+      },
+      {
+       "name": "Cameron Jarvis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Barboursville, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-jarvis/10922"
+      },
+      {
+       "name": "Wes Lorish",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Plum H.S.",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/wes-lorish/11245"
+      },
+      {
+       "name": "Jack Minutoli",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Lake Highland Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/jack-minutoli/10998"
+      },
+      {
+       "name": "Cael Ropietski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cael-ropietski/11247"
+      },
+      {
+       "name": "Sammy Shy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/sammy-shy/11248"
+      },
+      {
+       "name": "Clayton Thomas",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/clayton-thomas/10925"
+      },
+      {
+       "name": "Tanner Vest",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shady Spring, W.Va.",
+       "country": "US",
+       "previous_school": "Shady Spring HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tanner-vest/11249"
+      },
+      {
+       "name": "Jackson Woodburn",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Scott Depot, W.Va.",
+       "country": "US",
+       "previous_school": "Winfield HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/jackson-woodburn/11250"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "J.F. Aber",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "Wittenberg",
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ryan Bilby",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Follansbee, W.Va.",
+       "country": "US",
+       "previous_school": "Brooke HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ryan-bilby/9181"
+      },
+      {
+       "name": "Ben Bridges",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ohio",
+       "country": "US",
+       "previous_school": "Mount Vernon HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ben-bridges/11243"
+      },
+      {
+       "name": "Cameron Jarvis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barboursville, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-jarvis/10922"
+      },
+      {
+       "name": "Joseph Kalaskey",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "South Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/joseph-kalaskey/9184"
+      },
+      {
+       "name": "Cael Ropietski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cael-ropietski/11247"
+      },
+      {
+       "name": "Sammy Shy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Spring Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/sammy-shy/11248"
+      },
+      {
+       "name": "Clayton Thomas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/clayton-thomas/10925"
+      },
+      {
+       "name": "Tanner Vest",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shady Spring, W.Va.",
+       "country": "US",
+       "previous_school": "Shady Spring HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tanner-vest/11249"
+      },
+      {
+       "name": "Jackson Woodburn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scott Depot, W.Va.",
+       "country": "US",
+       "previous_school": "Winfield HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/jackson-woodburn/11250"
+      },
+      {
+       "name": "Andrew Wyss",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/andrew-wyss/9187"
+      },
+      {
+       "name": "Bennett Zeitner",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/bennett-zeitner/9188"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Bilby",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Follansbee, W.Va.",
+       "country": "US",
+       "previous_school": "Brooke HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ryan-bilby/9181"
+      },
+      {
+       "name": "Ben Bridges",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mount Vernon, Ohio",
+       "country": "US",
+       "previous_school": "Mount Vernon HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ben-bridges/11243"
+      },
+      {
+       "name": "Cameron Jarvis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Barboursville, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-jarvis/10922"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Worthington Christian HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tyler-jones/7587"
+      },
+      {
+       "name": "Joseph Kalaskey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/joseph-kalaskey/9184"
+      },
+      {
+       "name": "Clayton Thomas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/clayton-thomas/10925"
+      },
+      {
+       "name": "Tanner Vest",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shady Spring, W.Va.",
+       "country": "US",
+       "previous_school": "Shady Spring HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tanner-vest/11249"
+      },
+      {
+       "name": "Andrew Wyss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/andrew-wyss/9187"
+      },
+      {
+       "name": "Bennett Zeitner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/bennett-zeitner/9188"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      },
+      {
+       "name": "Noah Mullens",
+       "title": "Assistant Coach, Men's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/noah-mullens/907"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Bilby",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Follansbee, W.Va.",
+       "country": "US",
+       "previous_school": "Brooke HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ryan-bilby/9181"
+      },
+      {
+       "name": "Christian Boyd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charles Town, W.Va.",
+       "country": "US",
+       "previous_school": "West Virginia University",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/christian-boyd/7183"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Worthington Christian HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tyler-jones/7587"
+      },
+      {
+       "name": "Joseph Kalaskey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "South Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/joseph-kalaskey/9184"
+      },
+      {
+       "name": "Kyle Mitchell",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/kyle-mitchell/7186"
+      },
+      {
+       "name": "Clayton Thomas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/clayton-thomas/10925"
+      },
+      {
+       "name": "Andrew Wyss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/andrew-wyss/9187"
+      },
+      {
+       "name": "Bennett Zeitner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/bennett-zeitner/9188"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      },
+      {
+       "name": "Noah Mullens",
+       "title": "Assistant Coach, Men's Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/noah-mullens/907"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Bilby",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Follansbee, W.Va.",
+       "country": "US",
+       "previous_school": "Brooke HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ryan-bilby/9181"
+      },
+      {
+       "name": "Christian Boyd",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charles Town, W.Va.",
+       "country": "US",
+       "previous_school": "West Virginia University",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/christian-boyd/7183"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Worthington Christian HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tyler-jones/7587"
+      },
+      {
+       "name": "Joseph Kalaskey",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "South Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/joseph-kalaskey/9184"
+      },
+      {
+       "name": "Layne Lambert",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/layne-lambert/6622"
+      },
+      {
+       "name": "Kyle Mitchell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/kyle-mitchell/7186"
+      },
+      {
+       "name": "Brett Montgomery",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Harpster, Ohio",
+       "country": "US",
+       "previous_school": "Upper Sandusky HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brett-montgomery/6624"
+      },
+      {
+       "name": "Noah Mullens",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Milton, W.Va.",
+       "country": "US",
+       "previous_school": "Southern Wesleyan University",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/noah-mullens/6625"
+      },
+      {
+       "name": "Brad Plaziak",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Cambridge HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brad-plaziak/6626"
+      },
+      {
+       "name": "Isaac Prine",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vienna, W.Va.",
+       "country": "US",
+       "previous_school": "Parkersburg HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/isaac-prine/6627"
+      },
+      {
+       "name": "Clayton Thomas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/clayton-thomas/10925"
+      },
+      {
+       "name": "Andrew Wyss",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/andrew-wyss/9187"
+      },
+      {
+       "name": "Bennett Zeitner",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/bennett-zeitner/9188"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      },
+      {
+       "name": "Cole Moore",
+       "title": "Volunteer Assistant, Men's Golf",
+       "email": "moore738@marshall.edu",
+       "phone": "-----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/cole-moore/705"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Christian Boyd",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charles Town, W.Va.",
+       "country": "US",
+       "previous_school": "West Virginia University",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/christian-boyd/7183"
+      },
+      {
+       "name": "Matt Hoffman",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Westerville South HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/matt-hoffman/5956"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Worthington Christian HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tyler-jones/7587"
+      },
+      {
+       "name": "Joseph Kalaskey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/joseph-kalaskey/9184"
+      },
+      {
+       "name": "Layne Lambert",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Metrolina Christian Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/layne-lambert/6622"
+      },
+      {
+       "name": "Kyle Mitchell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/kyle-mitchell/7186"
+      },
+      {
+       "name": "Brett Montgomery",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harpster, Ohio",
+       "country": "US",
+       "previous_school": "Upper Sandusky HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brett-montgomery/6624"
+      },
+      {
+       "name": "Noah Mullens",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Milton, W.Va.",
+       "country": "US",
+       "previous_school": "Southern Wesleyan University",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/noah-mullens/6625"
+      },
+      {
+       "name": "Brad Plaziak",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Cambridge HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brad-plaziak/6626"
+      },
+      {
+       "name": "Isaac Prine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vienna, W.Va.",
+       "country": "US",
+       "previous_school": "Parkersburg HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/isaac-prine/6627"
+      },
+      {
+       "name": "Cameron Root",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-root/5962"
+      },
+      {
+       "name": "Will Straub",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Catholic HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/will-straub/5963"
+      },
+      {
+       "name": "Andrew Wyss",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canton, Ohio",
+       "country": "US",
+       "previous_school": "Jackson HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/andrew-wyss/9187"
+      },
+      {
+       "name": "Bennett Zeitner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/bennett-zeitner/9188"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      },
+      {
+       "name": "Cole Moore",
+       "title": "Volunteer Assistant, Men's Golf",
+       "email": "moore738@marshall.edu",
+       "phone": "-----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/cole-moore/705"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Christian Boyd",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charles Town, W.Va.",
+       "country": "US",
+       "previous_school": "West Virginia University",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/christian-boyd/7183"
+      },
+      {
+       "name": "Matt Hoffman",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Westerville South HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/matt-hoffman/5956"
+      },
+      {
+       "name": "Tyler Jones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Worthington Christian HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/tyler-jones/7587"
+      },
+      {
+       "name": "Kyle Mitchell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/kyle-mitchell/7186"
+      },
+      {
+       "name": "Cole Moore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spencer, W.Va.",
+       "country": "US",
+       "previous_school": "Roane County HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cole-moore/5499"
+      },
+      {
+       "name": "Noah Mullens",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Milton, W.Va.",
+       "country": "US",
+       "previous_school": "Southern Wesleyan University",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/noah-mullens/6625"
+      },
+      {
+       "name": "Brad Plaziak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Cambridge HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brad-plaziak/6626"
+      },
+      {
+       "name": "Isaac Prine",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vienna, W.Va.",
+       "country": "US",
+       "previous_school": "Parkersburg HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/isaac-prine/6627"
+      },
+      {
+       "name": "Ben Roeder",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": "Herbert Henry Dow HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ben-roeder/5502"
+      },
+      {
+       "name": "Cameron Root",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-root/5962"
+      },
+      {
+       "name": "Will Straub",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Catholic HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/will-straub/5963"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thomas Frazier",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Huntington HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/thomas-frazier/4928"
+      },
+      {
+       "name": "Matt Hoffman",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Westerville South HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/matt-hoffman/5956"
+      },
+      {
+       "name": "Kyle Mitchell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/kyle-mitchell/7186"
+      },
+      {
+       "name": "Camden Moore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spencer, W.Va.",
+       "country": "US",
+       "previous_school": "Roane County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/camden-moore/4930"
+      },
+      {
+       "name": "Cole Moore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spencer, W.Va.",
+       "country": "US",
+       "previous_school": "Roane County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cole-moore/5499"
+      },
+      {
+       "name": "Brad Plaziak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Cambridge HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brad-plaziak/6626"
+      },
+      {
+       "name": "Isaac Prine",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vienna, W.Va.",
+       "country": "US",
+       "previous_school": "Parkersburg HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/isaac-prine/6627"
+      },
+      {
+       "name": "Ben Roeder",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": "Herbert Henry Dow HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ben-roeder/5502"
+      },
+      {
+       "name": "Cameron Root",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-root/5962"
+      },
+      {
+       "name": "Will Straub",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Catholic HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/will-straub/5963"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://herdzone.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thomas Frazier",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Huntington, W.Va.",
+       "country": "US",
+       "previous_school": "Huntington HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/thomas-frazier/4928"
+      },
+      {
+       "name": "Matt Hoffman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Westerville, Ohio",
+       "country": "US",
+       "previous_school": "Westerville South HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/matt-hoffman/5956"
+      },
+      {
+       "name": "Camden Moore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spencer, W.Va.",
+       "country": "US",
+       "previous_school": "Roane County HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/camden-moore/4930"
+      },
+      {
+       "name": "Cole Moore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spencer, W.Va.",
+       "country": "US",
+       "previous_school": "Roane County HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cole-moore/5499"
+      },
+      {
+       "name": "Brad Plaziak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Cambridge HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/brad-plaziak/6626"
+      },
+      {
+       "name": "Ben Roeder",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": "Herbert Henry Dow HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/ben-roeder/5502"
+      },
+      {
+       "name": "Cameron Root",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Columbus, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/cameron-root/5962"
+      },
+      {
+       "name": "Will Straub",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Charlotte Catholic HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/will-straub/5963"
+      },
+      {
+       "name": "Alex Weiss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pickerington, Ohio",
+       "country": "US",
+       "previous_school": "Pickerington HS North",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/alex-weiss/2049"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Grobe",
+       "title": "Men's Golf Head Men's Golf Coach",
+       "email": "grobe1@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/mens-golf/roster/coaches/matt-grobe/2257"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://herdzone.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Borders",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bardstown, Ky.",
+       "country": "US",
+       "previous_school": "Thomas Nelson",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/madison-borders/11251"
+      },
+      {
+       "name": "Abbey Bull",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia /",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/abbey-bull/10886"
+      },
+      {
+       "name": "Savannah Hawkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hurricane, W.Va.",
+       "country": "US",
+       "previous_school": "Hurricane",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/savannah-hawkins/11252"
+      },
+      {
+       "name": "Maddi Hudson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Kentucky",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/maddi-hudson/11253"
+      },
+      {
+       "name": "Olivia Kochan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Plano West",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/olivia-kochan/10889"
+      },
+      {
+       "name": "Taylor Sargent",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Milton, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/taylor-sargent/11254"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Borders",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bardstown, Ky.",
+       "country": "US",
+       "previous_school": "Thomas Nelson",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/madison-borders/11251"
+      },
+      {
+       "name": "Abbey Bull",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia /",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/abbey-bull/10886"
+      },
+      {
+       "name": "Savannah Hawkins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hurricane, W.Va.",
+       "country": "US",
+       "previous_school": "Hurricane",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/savannah-hawkins/11252"
+      },
+      {
+       "name": "Maddi Hudson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Kentucky",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/maddi-hudson/11253"
+      },
+      {
+       "name": "Olivia Kochan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Plano West",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/olivia-kochan/10889"
+      },
+      {
+       "name": "Emily McLatchey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/emily-mclatchey/9168"
+      },
+      {
+       "name": "Katie Potter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Lyon, Mich.",
+       "country": "US",
+       "previous_school": "South Lyon HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/katie-potter/9169"
+      },
+      {
+       "name": "Taylor Sargent",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Milton, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/taylor-sargent/11254"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Madison Borders",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bardstown, Ky.",
+       "country": "US",
+       "previous_school": "Thomas Nelson",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/madison-borders/11251"
+      },
+      {
+       "name": "Kylie Bowes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kylie-bowes/7604"
+      },
+      {
+       "name": "Abbey Bull",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sydney, Australia /",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/abbey-bull/10886"
+      },
+      {
+       "name": "Maddi Hudson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Kentucky",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/maddi-hudson/11253"
+      },
+      {
+       "name": "Olivia Kochan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Plano West",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/olivia-kochan/10889"
+      },
+      {
+       "name": "Kasey McIlvaine",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kasey-mcilvaine/8018"
+      },
+      {
+       "name": "Emily McLatchey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/emily-mclatchey/9168"
+      },
+      {
+       "name": "Katie Potter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "South Lyon, Mich.",
+       "country": "US",
+       "previous_school": "South Lyon HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/katie-potter/9169"
+      },
+      {
+       "name": "Taylor Sargent",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Milton, W.Va.",
+       "country": "US",
+       "previous_school": "Cabell Midland",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/taylor-sargent/11254"
+      },
+      {
+       "name": "Hanna Shrout",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/hanna-shrout/7610"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kylie Bowes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bluffton, S.C. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kylie-bowes/7604"
+      },
+      {
+       "name": "Abbey Bull",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia /",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/abbey-bull/10886"
+      },
+      {
+       "name": "Olivia Kochan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Plano West",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/olivia-kochan/10889"
+      },
+      {
+       "name": "Emily McLatchey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/emily-mclatchey/9168"
+      },
+      {
+       "name": "Katie Potter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Lyon, Mich.",
+       "country": "US",
+       "previous_school": "South Lyon HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/katie-potter/9169"
+      },
+      {
+       "name": "Makena Rauch",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moscow, Idaho",
+       "country": "US",
+       "previous_school": "Moscow HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/makena-rauch/7239"
+      },
+      {
+       "name": "Hanna Shrout",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/hanna-shrout/7610"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Torren Kalaskey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/torren-kalaskey/6612"
+      },
+      {
+       "name": "Emily McLatchey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winter Park, Fla.",
+       "country": "US",
+       "previous_school": "Winter Park HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/emily-mclatchey/9168"
+      },
+      {
+       "name": "Katie Potter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Lyon, Mich.",
+       "country": "US",
+       "previous_school": "South Lyon HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/katie-potter/9169"
+      },
+      {
+       "name": "Stormy Randazzo",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Rowlett, Texas",
+       "country": "US",
+       "previous_school": "Rowlett HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/stormy-randazzo/6613"
+      },
+      {
+       "name": "Makena Rauch",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow, Idaho",
+       "country": "US",
+       "previous_school": "Moscow HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/makena-rauch/7239"
+      },
+      {
+       "name": "Jackie Schmidt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Galt, Calif.",
+       "country": "US",
+       "previous_school": "Liberty Ranch HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/jackie-schmidt/6615"
+      },
+      {
+       "name": "Hanna Shrout",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/hanna-shrout/7610"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Torren Kalaskey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/torren-kalaskey/6612"
+      },
+      {
+       "name": "Kerri Parks",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Flushing, Mich.",
+       "country": "US",
+       "previous_school": "Flushing HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kerri-parks/5999"
+      },
+      {
+       "name": "Stormy Randazzo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rowlett, Texas",
+       "country": "US",
+       "previous_school": "Rowlett HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/stormy-randazzo/6613"
+      },
+      {
+       "name": "Makena Rauch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Idaho",
+       "country": "US",
+       "previous_school": "Moscow HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/makena-rauch/7239"
+      },
+      {
+       "name": "Jackie Schmidt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Galt, Calif.",
+       "country": "US",
+       "previous_school": "Liberty Ranch HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/jackie-schmidt/6615"
+      },
+      {
+       "name": "Hanna Shrout",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Proctorville, Ohio",
+       "country": "US",
+       "previous_school": "Fairland HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/hanna-shrout/7610"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Shelby Brauckmuller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Auburndale, Fla.",
+       "country": "US",
+       "previous_school": "Annika Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/shelby-brauckmuller/5472"
+      },
+      {
+       "name": "Torren Kalaskey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/torren-kalaskey/6612"
+      },
+      {
+       "name": "Kerri Parks",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flushing, Mich.",
+       "country": "US",
+       "previous_school": "Flushing HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kerri-parks/5999"
+      },
+      {
+       "name": "Stormy Randazzo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rowlett, Texas",
+       "country": "US",
+       "previous_school": "Rowlett HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/stormy-randazzo/6613"
+      },
+      {
+       "name": "Makena Rauch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Moscow, Idaho",
+       "country": "US",
+       "previous_school": "Moscow HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/makena-rauch/7239"
+      },
+      {
+       "name": "Peyton Schaffer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pittsburgh, Pa.",
+       "country": "US",
+       "previous_school": "BAVEL Online HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/peyton-schaffer/5478"
+      },
+      {
+       "name": "Jackie Schmidt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Galt, Calif.",
+       "country": "US",
+       "previous_school": "Liberty Ranch HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/jackie-schmidt/6615"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Shelby Brauckmuller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Auburndale, Fla.",
+       "country": "US",
+       "previous_school": "Annika Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/shelby-brauckmuller/5472"
+      },
+      {
+       "name": "Ylva Forslund",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vreta Kloster, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/ylva-forslund/4921"
+      },
+      {
+       "name": "Torren Kalaskey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charleston, W.Va.",
+       "country": "US",
+       "previous_school": "George Washington HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/torren-kalaskey/6612"
+      },
+      {
+       "name": "Kerri Parks",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flushing, Mich.",
+       "country": "US",
+       "previous_school": "Flushing HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kerri-parks/5999"
+      },
+      {
+       "name": "Stormy Randazzo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rowlett, Texas",
+       "country": "US",
+       "previous_school": "Rowlett HS",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/stormy-randazzo/6613"
+      },
+      {
+       "name": "Jackie Schmidt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Galt, Calif.",
+       "country": "US",
+       "previous_school": "Liberty Ranch HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/jackie-schmidt/6615"
+      },
+      {
+       "name": "Sarfina Seretharan",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Kuala Lumpur, Malaysia /",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/sarfina-seretharan/4924"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Shelby Brauckmuller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Auburndale, Fla.",
+       "country": "US",
+       "previous_school": "Annika Academy",
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/shelby-brauckmuller/5472"
+      },
+      {
+       "name": "Ylva Forslund",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vreta Kloster, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/ylva-forslund/4921"
+      },
+      {
+       "name": "Leigha Holt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holly Springs, N.C.",
+       "country": "US",
+       "previous_school": "Holly Springs HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/leigha-holt/2640"
+      },
+      {
+       "name": "Kerri Parks",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flushing, Mich.",
+       "country": "US",
+       "previous_school": "Flushing HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/kerri-parks/5999"
+      },
+      {
+       "name": "Stormy Randazzo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rowlett, Texas",
+       "country": "US",
+       "previous_school": "Rowlett HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/stormy-randazzo/6613"
+      },
+      {
+       "name": "Sarfina Seretharan",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Kuala Lumpur, Malaysia /",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/sarfina-seretharan/4924"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://herdzone.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Shelby Brauckmuller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auburndale, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/shelby-brauckmuller/5472"
+      },
+      {
+       "name": "Ylva Forslund",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vreta Kloster, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/ylva-forslund/4921"
+      },
+      {
+       "name": "Leigha Holt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holly Springs, N.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/leigha-holt/2640"
+      },
+      {
+       "name": "Pimrawee Huang",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nakornpatom, Thailand",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/pimrawee-huang/5805"
+      },
+      {
+       "name": "Sarfina Seretharan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kuala Lumpur, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/sarfina-seretharan/4924"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brooke Burkhammer",
+       "title": "Head Women's Golf Coach",
+       "email": "bellomy41@marshall.edu",
+       "phone": "----",
+       "profile_url": "https://herdzone.com/sports/womens-golf/roster/coaches/brooke-burkhammer/2258"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://herdzone.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://herdzone.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://herdzone.com/sports/mens-golf/roster/season/2016",
+   "status": 200
   },
   {
    "url": "https://herdzone.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://herdzone.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://herdzone.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

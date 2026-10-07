@@ -1,36 +1,2394 @@
 {
  "slug": "north-carolina",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://goheels.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Carson Bertagnole",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/carson-bertagnole/28390"
+      },
+      {
+       "name": "Mack Edwards",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Woodberry Forest School (Woodberry Forest, Va.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/mack-edwards/28391"
+      },
+      {
+       "name": "Misha Golod",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kyiv, Ukraine",
+       "country": "UA",
+       "previous_school": "Windermere Prep (Windermere, Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/misha-golod/28392"
+      },
+      {
+       "name": "Ethan Paschal",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Terry Sanford High School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ethan-paschal/28393"
+      },
+      {
+       "name": "Andrew Riley",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "St. Johns, Fla.",
+       "country": "US",
+       "previous_school": "Creekside High School",
+       "class_raw": "Gr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/andrew-riley/27353"
+      },
+      {
+       "name": "Hampton Roberts",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/hampton-roberts/27346"
+      },
+      {
+       "name": "Grant Roscich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glen Ellyn, Ill.",
+       "country": "US",
+       "previous_school": "Glenbard West",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/grant-roscich/28394"
+      },
+      {
+       "name": "Sihan Sandhu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ashburn, Va.",
+       "country": "US",
+       "previous_school": "Laurel Springs School (West Chester, Pa.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/sihan-sandhu/28395"
+      },
+      {
+       "name": "Niall Sheils Donegan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mill Valley, Calif.",
+       "country": "US",
+       "previous_school": "Tamalpais High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/niall-sheils-donegan/28396"
+      },
+      {
+       "name": "Keaton Vo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Anderson High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/keaton-vo/27349"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Johnny and Tricia Thompson Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Noah Goldman",
+       "title": "Assistant Coach",
+       "email": "goldmn@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/noah-goldman/4718"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "David Ford",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/david-ford/27343"
+      },
+      {
+       "name": "Maxwell Ford",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/maxwell-ford/26115"
+      },
+      {
+       "name": "Misha Golod",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kyiv, Ukraine",
+       "country": "UA",
+       "previous_school": "Windermere Prep (Windermere, Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/misha-golod/28392"
+      },
+      {
+       "name": "Ethan Paschal",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fayetteville, N.C.",
+       "country": "US",
+       "previous_school": "Terry Sanford High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ethan-paschal/28393"
+      },
+      {
+       "name": "Hampton Roberts",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/hampton-roberts/27346"
+      },
+      {
+       "name": "Grant Roscich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glen Ellyn, Ill.",
+       "country": "US",
+       "previous_school": "Glenbard West",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/grant-roscich/28394"
+      },
+      {
+       "name": "Sihan Sandhu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ashburn, Va.",
+       "country": "US",
+       "previous_school": "Laurel Springs School (West Chester, Pa.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/sihan-sandhu/28395"
+      },
+      {
+       "name": "Ryan Smith",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Classical Academy (Escondido, Calif.)",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-smith/26117"
+      },
+      {
+       "name": "Keaton Vo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Anderson High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/keaton-vo/27349"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Noah Goldman",
+       "title": "Assistant Coach",
+       "email": "goldmn@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/noah-goldman/4718"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "David Ford",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/david-ford/27343"
+      },
+      {
+       "name": "Maxwell Ford",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/maxwell-ford/26115"
+      },
+      {
+       "name": "Peter Fountain",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/peter-fountain/24651"
+      },
+      {
+       "name": "Austin Greaser",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Vandalia, Ohio",
+       "country": "US",
+       "previous_school": "Vandalia Butler",
+       "class_raw": "Gr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-greaser/24652"
+      },
+      {
+       "name": "Dylan Menante",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Sage Creek",
+       "class_raw": "5th",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/dylan-menante/24653"
+      },
+      {
+       "name": "Nanu Mohan",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School (Concord, N.C.)",
+       "class_raw": "R-So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/nanu-mohan/24654"
+      },
+      {
+       "name": "Kenan Poole",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Gr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/kenan-poole/24655"
+      },
+      {
+       "name": "Hampton Roberts",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Panther Creek",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/hampton-roberts/27346"
+      },
+      {
+       "name": "Ryan Smith",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Classical Academy (Escondido, Calif.)",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-smith/26117"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Noah Goldman",
+       "title": "Assistant Coach",
+       "email": "goldmn@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/noah-goldman/4718"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Burnett",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lafayette, Calif.",
+       "country": "US",
+       "previous_school": "Campolindo (Moraga, Calif.)",
+       "class_raw": "5th",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-burnett/23890"
+      },
+      {
+       "name": "Luke Edwards",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Cary Christian",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/luke-edwards/23891"
+      },
+      {
+       "name": "David Ford",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/david-ford/27343"
+      },
+      {
+       "name": "Peter Fountain",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/peter-fountain/24651"
+      },
+      {
+       "name": "Austin Greaser",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vandalia, Ohio",
+       "country": "US",
+       "previous_school": "Vandalia Butler",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-greaser/24652"
+      },
+      {
+       "name": "George McNeely",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmel, Calif.",
+       "country": "US",
+       "previous_school": "Carmel",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/george-mcneely/23895"
+      },
+      {
+       "name": "Dylan Menante",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Sage Creek",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/dylan-menante/24653"
+      },
+      {
+       "name": "Nanu Mohan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School (Concord, N.C.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/nanu-mohan/24654"
+      },
+      {
+       "name": "Kenan Poole",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/kenan-poole/24655"
+      },
+      {
+       "name": "Ryan Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Classical Academy (Escondido, Calif.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-smith/26117"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Matt Clark",
+       "title": "Associate Head Coach",
+       "email": "coachclark@unc.edu",
+       "phone": "910-540-2015",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/matt-clark/4011"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Burnett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lafayette, Calif.",
+       "country": "US",
+       "previous_school": "Campolindo (Moraga, Calif.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-burnett/23890"
+      },
+      {
+       "name": "Luke Edwards",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "Cary Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/luke-edwards/23891"
+      },
+      {
+       "name": "Dougie Ergood",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mount Laurel, N.J.",
+       "country": "US",
+       "previous_school": "Lenape (Medford Township, N.J.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/dougie-ergood/22730"
+      },
+      {
+       "name": "David Ford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Peachtree Corners, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/david-ford/27343"
+      },
+      {
+       "name": "Peter Fountain",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/peter-fountain/24651"
+      },
+      {
+       "name": "Ryan Gerard",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-gerard/22732"
+      },
+      {
+       "name": "Austin Greaser",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vandalia, Ohio",
+       "country": "US",
+       "previous_school": "Vandalia Butler",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-greaser/24652"
+      },
+      {
+       "name": "George McNeely",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Carmel, Calif.",
+       "country": "US",
+       "previous_school": "Carmel",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/george-mcneely/23895"
+      },
+      {
+       "name": "Nanu Mohan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Cannon School (Concord, N.C.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/nanu-mohan/24654"
+      },
+      {
+       "name": "Kenan Poole",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/kenan-poole/24655"
+      },
+      {
+       "name": "Ryan Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Classical Academy (Escondido, Calif.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-smith/26117"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Matt Clark",
+       "title": "Assistant Coach",
+       "email": "coachclark@unc.edu",
+       "phone": "910-540-2015",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/matt-clark/4011"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Burnett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lafayette, Calif.",
+       "country": "US",
+       "previous_school": "Campolindo (Moraga, Calif.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-burnett/23890"
+      },
+      {
+       "name": "Luis Castro",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sta. Rosa, Laguna, Philippines",
+       "country": "PH",
+       "previous_school": "Learning Links Academy of Leadership and Entrepreneurship",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/luis-castro/22113"
+      },
+      {
+       "name": "Mason Elmore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/mason-elmore/22114"
+      },
+      {
+       "name": "Dougie Ergood",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mount Laurel, N.J.",
+       "country": "US",
+       "previous_school": "Lenape (Medford Township, N.J.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/dougie-ergood/22730"
+      },
+      {
+       "name": "Peter Fountain",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/peter-fountain/24651"
+      },
+      {
+       "name": "Ryan Gerard",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-gerard/22732"
+      },
+      {
+       "name": "Austin Greaser",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vandalia, Ohio",
+       "country": "US",
+       "previous_school": "Vandalia Butler",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-greaser/24652"
+      },
+      {
+       "name": "Austin Hitt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Longwood, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-hitt/22118"
+      },
+      {
+       "name": "George McNeely",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carmel, Calif.",
+       "country": "US",
+       "previous_school": "Carmel",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/george-mcneely/23895"
+      },
+      {
+       "name": "Kenan Poole",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/kenan-poole/24655"
+      },
+      {
+       "name": "Ryan Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Classical Academy (Escondido, Calif.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-smith/26117"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Matt Clark",
+       "title": "Assistant Coach",
+       "email": "coachclark@unc.edu",
+       "phone": "910-540-2015",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/matt-clark/4011"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Burnett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lafayette, Calif.",
+       "country": "US",
+       "previous_school": "Campolindo (Moraga, Calif.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-burnett/23890"
+      },
+      {
+       "name": "Luis Castro",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sta. Rosa, Laguna, Philippines",
+       "country": "PH",
+       "previous_school": "Learning Links Academy of Leadership and Entrepreneurship",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/luis-castro/22113"
+      },
+      {
+       "name": "Mason Elmore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/mason-elmore/22114"
+      },
+      {
+       "name": "Dougie Ergood",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mount Laurel, N.J.",
+       "country": "US",
+       "previous_school": "Lenape (Medford Township, N.J.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/dougie-ergood/22730"
+      },
+      {
+       "name": "Ryan Gerard",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-gerard/22732"
+      },
+      {
+       "name": "Austin Greaser",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vandalia, Ohio",
+       "country": "US",
+       "previous_school": "Vandalia Butler",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-greaser/24652"
+      },
+      {
+       "name": "Austin Hitt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Longwood, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-hitt/22118"
+      },
+      {
+       "name": "George McNeely",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carmel, Calif.",
+       "country": "US",
+       "previous_school": "Carmel",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/george-mcneely/23895"
+      },
+      {
+       "name": "Kenan Poole",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/kenan-poole/24655"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Matt Clark",
+       "title": "Assistant Coach",
+       "email": "coachclark@unc.edu",
+       "phone": "910-540-2015",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/matt-clark/4011"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Burnett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lafayette, Calif.",
+       "country": "US",
+       "previous_school": "Campolindo (Moraga, Calif.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-burnett/23890"
+      },
+      {
+       "name": "Luis Castro",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sta. Rosa, Laguna, Philippines",
+       "country": "PH",
+       "previous_school": "Learning Links Academy of Leadership and Entrepreneurship",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/luis-castro/22113"
+      },
+      {
+       "name": "Mason Elmore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/mason-elmore/22114"
+      },
+      {
+       "name": "Dougie Ergood",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mount Laurel, N.J.",
+       "country": "US",
+       "previous_school": "Lenape (Medford Township, N.J.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/dougie-ergood/22730"
+      },
+      {
+       "name": "Preyer Fountain",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/preyer-fountain/14748"
+      },
+      {
+       "name": "Ryan Gerard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-gerard/22732"
+      },
+      {
+       "name": "Austin Hitt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Longwood, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-hitt/22118"
+      },
+      {
+       "name": "Joshua Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest (Southern Pines, N.C.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/joshua-martin/14751"
+      },
+      {
+       "name": "Tailin Song",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines (San Diego, Calif.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/tailin-song/14752"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Matt Clark",
+       "title": "Assistant Coach",
+       "email": "coachclark@unc.edu",
+       "phone": "910-540-2015",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/matt-clark/4011"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mason Elmore",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Ardrey Kell",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/mason-elmore/22114"
+      },
+      {
+       "name": "Preyer Fountain",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/preyer-fountain/14748"
+      },
+      {
+       "name": "Ryan Gerard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Ravenscroft",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ryan-gerard/22732"
+      },
+      {
+       "name": "Ben Griffin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "East Chapel Hill",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ben-griffin/13091"
+      },
+      {
+       "name": "Austin Hitt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Longwood, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-hitt/22118"
+      },
+      {
+       "name": "Joshua Martin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest (Southern Pines, N.C.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/joshua-martin/14751"
+      },
+      {
+       "name": "Jose Montaño",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cochabamba, Bolivia",
+       "country": "BO",
+       "previous_school": "IMG Academy, Bradenton, Fla.",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "William Register",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter Williams",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/william-register/13095"
+      },
+      {
+       "name": "Tailin Song",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines (San Diego, Calif.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/tailin-song/14752"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Andrew DiBitetto",
+       "title": "Head Coach",
+       "email": "afdibite@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/andrew-dibitetto/4717"
+      },
+      {
+       "name": "Matt Clark",
+       "title": "Assistant Coach",
+       "email": "coachclark@unc.edu",
+       "phone": "910-540-2015",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/coaches/matt-clark/4011"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goheels.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Davis Bateman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Charlotte, N.C.",
+       "country": "US",
+       "previous_school": "Providence Day School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/davis-bateman/6391"
+      },
+      {
+       "name": "Henry Do",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Canton, Mich.",
+       "country": "US",
+       "previous_school": "Greenhills School, Ann Arbor, Mich.",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/henry-do/6392"
+      },
+      {
+       "name": "Preyer Fountain",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Broughton",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/preyer-fountain/14748"
+      },
+      {
+       "name": "Ben Griffin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chapel Hill, N.C.",
+       "country": "US",
+       "previous_school": "East Chapel Hill",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/ben-griffin/13091"
+      },
+      {
+       "name": "Austin Hitt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Longwood, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/austin-hitt/22118"
+      },
+      {
+       "name": "Joshua Martin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest (Southern Pines, N.C.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/joshua-martin/14751"
+      },
+      {
+       "name": "Zach Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Pinecrest High School (Southern Pines, N.C.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/zach-martin/6400"
+      },
+      {
+       "name": "Jose Montaño",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cochabamba, Bolivia",
+       "country": "BO",
+       "previous_school": "IMG Academy, Bradenton, Fla.",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "William Register",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter Williams",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/william-register/13095"
+      },
+      {
+       "name": "Tailin Song",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rancho Santa Fe, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines (San Diego, Calif.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/mens-golf/roster/tailin-song/14752"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://goheels.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thanchanok (Ing) Iadpluem",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Surat Thani, Thailand",
+       "country": "TH",
+       "previous_school": "St. Peters' Golf Academy (Cambridge, New Zealand)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/thanchanok-ing-iadpluem/28382"
+      },
+      {
+       "name": "Inez Ng",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Singapore, Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/inez-ng/27079"
+      },
+      {
+       "name": "Marie Prats-Rigual",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Perpignan, France",
+       "country": "FR",
+       "previous_school": "Lycée Bellevue (Toulouse, France)",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Grace Ridenour",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cary, N.C.",
+       "country": "US",
+       "previous_school": "Crossroads Flex High School (Cary)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/grace-ridenour/28384"
+      },
+      {
+       "name": "Reagan Southerland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/reagan-southerland/28385"
+      },
+      {
+       "name": "Megan Streicher",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Somerset College High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/megan-streicher/27083"
+      },
+      {
+       "name": "Katie Vu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairfax Station, Va.",
+       "country": "US",
+       "previous_school": "Robinson Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/katie-vu/28386"
+      },
+      {
+       "name": "Helen Yeung",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarksville, Md.",
+       "country": "US",
+       "previous_school": "River High School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/helen-yeung/28387"
+      },
+      {
+       "name": "Ellen Yu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greensboro, N.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/ellen-yu/27086"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Aimee Neff",
+       "title": "Bobby Galloway Head Coach",
+       "email": "coachneff@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/aimee-neff/4714"
+      },
+      {
+       "name": "Katherine Hamski",
+       "title": "Assistant Coach",
+       "email": "keperry@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/katherine-hamski/4715"
+      },
+      {
+       "name": "Justine Fournand",
+       "title": "Assistant Coach",
+       "email": "justinef@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/justine-fournand/4716"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thanchanok (Ing) Iadpluem",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Surat Thani, Thailand",
+       "country": "TH",
+       "previous_school": "St. Peters' Golf Academy (Cambridge, New Zealand)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/thanchanok-ing-iadpluem/28382"
+      },
+      {
+       "name": "Inez Ng",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Singapore, Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/inez-ng/27079"
+      },
+      {
+       "name": "Marie Prats-Rigual",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Perpignan, France",
+       "country": "FR",
+       "previous_school": "Lycée Bellevue (Toulouse, France)",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Riley Quartermain",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Haverford (Havertown, Pa.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/riley-quartermain/27105"
+      },
+      {
+       "name": "Reagan Southerland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/reagan-southerland/28385"
+      },
+      {
+       "name": "Megan Streicher",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Somerset College High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/megan-streicher/27083"
+      },
+      {
+       "name": "Katie Vu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairfax Station, Va.",
+       "country": "US",
+       "previous_school": "Robinson Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/katie-vu/28386"
+      },
+      {
+       "name": "Helen Yeung",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarksville, Md.",
+       "country": "US",
+       "previous_school": "River High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/helen-yeung/28387"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Aimee Neff",
+       "title": "Head Coach",
+       "email": "coachneff@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/aimee-neff/4714"
+      },
+      {
+       "name": "Katherine Hamski",
+       "title": "Assistant Coach",
+       "email": "keperry@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/katherine-hamski/4715"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natalia Aseguinolaza",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Sebastian, Guipuzcoa, Spain",
+       "country": "ES",
+       "previous_school": "St. Patrick's English School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/natalia-aseguinolaza/24484"
+      },
+      {
+       "name": "Thanchanok (Ing) Iadpluem",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Surat Thani, Thailand",
+       "country": "TH",
+       "previous_school": "St. Peters' Golf Academy (Cambridge, New Zealand)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/thanchanok-ing-iadpluem/28382"
+      },
+      {
+       "name": "Crista Izuzquiza",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Coronado (Coronado, Calif.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/crista-izuzquiza/24485"
+      },
+      {
+       "name": "Inez Ng",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Singapore, Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/inez-ng/27079"
+      },
+      {
+       "name": "Vilde Nystrøm",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stavanger, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Stavanger School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/vilde-nystrm/24487"
+      },
+      {
+       "name": "Riley Quartermain",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Haverford (Havertown, Pa.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/riley-quartermain/24488"
+      },
+      {
+       "name": "Kayla Smith",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter M. Williams",
+       "class_raw": "5th",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kayla-smith/24489"
+      },
+      {
+       "name": "Reagan Southerland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Rivers Academy (Alpharetta, Ga.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/reagan-southerland/28385"
+      },
+      {
+       "name": "Megan Streicher",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Somerset College High School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/megan-streicher/27083"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Aimee Neff",
+       "title": "Head Coach",
+       "email": "coachneff@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/aimee-neff/4714"
+      },
+      {
+       "name": "Katherine Hamski",
+       "title": "Assistant Coach",
+       "email": "keperry@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/katherine-hamski/4715"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Natalia Aseguinolaza",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Sebastian, Guipuzcoa, Spain",
+       "country": "ES",
+       "previous_school": "St. Patrick's English School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/natalia-aseguinolaza/24484"
+      },
+      {
+       "name": "Aleks Golde",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/aleks-golde/23901"
+      },
+      {
+       "name": "Crista Izuzquiza",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Coronado (Coronado, Calif.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/crista-izuzquiza/24485"
+      },
+      {
+       "name": "Krista Junkkari",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elimäki, Finland",
+       "country": "FI",
+       "previous_school": "Elimäki Upper Secondary School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/krista-junkkari/23903"
+      },
+      {
+       "name": "Inez Ng",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Singapore, Singapore",
+       "country": "SG",
+       "previous_school": "Singapore Sports School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/inez-ng/27079"
+      },
+      {
+       "name": "Vilde Nystrøm",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stavanger, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett Stavanger School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/vilde-nystrm/24487"
+      },
+      {
+       "name": "Riley Quartermain",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Haverford (Havertown, Pa.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/riley-quartermain/24488"
+      },
+      {
+       "name": "Kayla Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter M. Williams",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kayla-smith/24489"
+      },
+      {
+       "name": "Megan Streicher",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cape Town, South Africa",
+       "country": "ZA",
+       "previous_school": "Somerset College High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/megan-streicher/27083"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Aimee Neff",
+       "title": "Head Coach",
+       "email": "coachneff@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/aimee-neff/4714"
+      },
+      {
+       "name": "Emily Loftin",
+       "title": "Assistant Coach",
+       "email": "coachloftin@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/emily-loftin/4143"
+      },
+      {
+       "name": "Katherine Hamski",
+       "title": "Volunteer Assistant",
+       "email": "keperry@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/katherine-hamski/4715"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nicole Adam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "The O'Neal School (Southern Pines, N.C.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/nicole-adam/22554"
+      },
+      {
+       "name": "Natalia Aseguinolaza",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Sebastian, Guipuzcoa, Spain",
+       "country": "ES",
+       "previous_school": "St. Patrick's English School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/natalia-aseguinolaza/24484"
+      },
+      {
+       "name": "Aleks Golde",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/aleks-golde/23901"
+      },
+      {
+       "name": "Crista Izuzquiza",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Coronado (Coronado, Calif.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/crista-izuzquiza/24485"
+      },
+      {
+       "name": "Krista Junkkari",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elimäki, Finland",
+       "country": "FI",
+       "previous_school": "Elimäki Upper Secondary School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/krista-junkkari/23903"
+      },
+      {
+       "name": "Stephany Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santiago, Dominican Republic",
+       "country": "DO",
+       "previous_school": "Santiago Christian",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/stephany-kim/22563"
+      },
+      {
+       "name": "Nicole Lu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Montverde Academy (Montverde, Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/nicole-lu/22559"
+      },
+      {
+       "name": "Riley Quartermain",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bryn Mawr, Pa.",
+       "country": "US",
+       "previous_school": "Haverford (Havertown, Pa.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/riley-quartermain/24488"
+      },
+      {
+       "name": "Kayla Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter M. Williams",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kayla-smith/24489"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Aimee Neff",
+       "title": "Head Coach",
+       "email": "coachneff@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/aimee-neff/4714"
+      },
+      {
+       "name": "Emily Loftin",
+       "title": "Assistant Coach",
+       "email": "coachloftin@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/emily-loftin/4143"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nicole Adam",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "The O'Neal School (Southern Pines, N.C.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/nicole-adam/22554"
+      },
+      {
+       "name": "Natalia Aseguinolaza",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Sebastian, Guipuzcoa, Spain",
+       "country": "ES",
+       "previous_school": "St. Patrick's English School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/natalia-aseguinolaza/24484"
+      },
+      {
+       "name": "Ava Bergner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ketsch, Germany",
+       "country": "DE",
+       "previous_school": "St. Leon-Rot",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/ava-bergner/21513"
+      },
+      {
+       "name": "Aleks Golde",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/aleks-golde/23901"
+      },
+      {
+       "name": "Crista Izuzquiza",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Coronado (Coronado, Calif.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/crista-izuzquiza/24485"
+      },
+      {
+       "name": "Krista Junkkari",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elimäki, Finland",
+       "country": "FI",
+       "previous_school": "Elimäki Upper Secondary School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/krista-junkkari/23903"
+      },
+      {
+       "name": "Nicole Lu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Montverde Academy (Montverde, Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/nicole-lu/22559"
+      },
+      {
+       "name": "Kayla Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter M. Williams",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kayla-smith/24489"
+      },
+      {
+       "name": "Jennifer Zhou",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kunming, China",
+       "country": "CN",
+       "previous_school": "Lake Mary Prep School (Lake Mary, Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/jennifer-zhou/21519"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jan Mann",
+       "title": "Head Coach",
+       "email": "janmann@uncaa.unc.edu",
+       "phone": "919-357-3735",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/jan-mann/3568"
+      },
+      {
+       "name": "Kristen Simpson",
+       "title": "Associate Head Coach",
+       "email": "kristensimpson@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/kristen-simpson/3569"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ava Bergner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ketsch, Germany",
+       "country": "DE",
+       "previous_school": "St. Leon-Rot",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/ava-bergner/21513"
+      },
+      {
+       "name": "Aleks Golde",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Atlanta, Ga.",
+       "country": "US",
+       "previous_school": "Pace Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/aleks-golde/23901"
+      },
+      {
+       "name": "Krista Junkkari",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elimäki, Finland",
+       "country": "FI",
+       "previous_school": "Elimäki Upper Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/krista-junkkari/23903"
+      },
+      {
+       "name": "Nicole Lu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Montverde Academy (Montverde, Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/nicole-lu/22559"
+      },
+      {
+       "name": "Mariana Ocano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": "St. Petersburg",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/mariana-ocano/16734"
+      },
+      {
+       "name": "Kayla Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burlington, N.C.",
+       "country": "US",
+       "previous_school": "Walter M. Williams",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kayla-smith/24489"
+      },
+      {
+       "name": "Brynn Walker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. David's, Pa.",
+       "country": "US",
+       "previous_school": "Radnor",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/brynn-walker/16736"
+      },
+      {
+       "name": "Jennifer Zhou",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kunming, China",
+       "country": "CN",
+       "previous_school": "Lake Mary Prep School (Lake Mary, Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/jennifer-zhou/21519"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jan Mann",
+       "title": "Head Coach",
+       "email": "janmann@uncaa.unc.edu",
+       "phone": "919-357-3735",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/jan-mann/3568"
+      },
+      {
+       "name": "Kristen Simpson",
+       "title": "Associate Head Coach",
+       "email": "kristensimpson@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/kristen-simpson/3569"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ava Bergner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ketsch, Germany",
+       "country": "DE",
+       "previous_school": "St. Leon-Rot",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/ava-bergner/21513"
+      },
+      {
+       "name": "Nicole Lu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": "Montverde Academy (Montverde, Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/nicole-lu/22559"
+      },
+      {
+       "name": "Mariana Ocano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": "St. Petersburg",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/mariana-ocano/16734"
+      },
+      {
+       "name": "Clementina Rodriguez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/clementina-rodriguez/14792"
+      },
+      {
+       "name": "Roshnee Sharma",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Providence Day School",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/roshnee-sharma/14793"
+      },
+      {
+       "name": "Brynn Walker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. David's, Pa.",
+       "country": "US",
+       "previous_school": "Radnor",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/brynn-walker/16736"
+      },
+      {
+       "name": "Kelly Whaley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Farmington, Conn.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kelly-whaley/14795"
+      },
+      {
+       "name": "Jennifer Zhou",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kunming, China",
+       "country": "CN",
+       "previous_school": "Lake Mary Prep School (Lake Mary, Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/jennifer-zhou/21519"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jan Mann",
+       "title": "Head Coach",
+       "email": "janmann@uncaa.unc.edu",
+       "phone": "919-357-3735",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/jan-mann/3568"
+      },
+      {
+       "name": "Kristen Simpson",
+       "title": "Associate Head Coach",
+       "email": "kristensimpson@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/kristen-simpson/3569"
+      },
+      {
+       "name": "Bryana Nguyen",
+       "title": "Volunteer Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/bryana-nguyen/3234"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ava Bergner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ketsch, Germany",
+       "country": "DE",
+       "previous_school": "St. Leon-Rot",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/ava-bergner/21513"
+      },
+      {
+       "name": "Bryana Nguyen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Columbia, Md.",
+       "country": "US",
+       "previous_school": "Atholton",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/bryana-nguyen/13500"
+      },
+      {
+       "name": "Mariana Ocano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": "St. Petersburg",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/mariana-ocano/16734"
+      },
+      {
+       "name": "Clementina Rodriguez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caracas, Venezuela",
+       "country": "VE",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/clementina-rodriguez/14792"
+      },
+      {
+       "name": "Roshnee Sharma",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Providence Day School",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/roshnee-sharma/14793"
+      },
+      {
+       "name": "Brynn Walker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. David's, Pa.",
+       "country": "US",
+       "previous_school": "Radnor",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/brynn-walker/16736"
+      },
+      {
+       "name": "Kelly Whaley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Farmington, Conn.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kelly-whaley/14795"
+      },
+      {
+       "name": "Cheni Xu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Zhuhai, China",
+       "country": "CN",
+       "previous_school": "Saint Stephen's College",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/cheni-xu/13505"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jan Mann",
+       "title": "Head Coach",
+       "email": "janmann@uncaa.unc.edu",
+       "phone": "919-357-3735",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/jan-mann/3568"
+      },
+      {
+       "name": "Aimee Neff",
+       "title": "Associate Head Coach",
+       "email": "aimeeneff@unc.edu",
+       "phone": null,
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/aimee-neff/2209"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://goheels.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Killian Casson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenville, N.C.",
+       "country": "US",
+       "previous_school": "Junius H. Rose",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/killian-casson/6561"
+      },
+      {
+       "name": "Leslie Cloots",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Antwerp, Belgium",
+       "country": "BE",
+       "previous_school": "Koninklijk Antheneum 2 Topsportschool",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/leslie-cloots/6562"
+      },
+      {
+       "name": "Lexi Harkins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Crystal Lake, Ill.",
+       "country": "US",
+       "previous_school": "Crystal Lake Central",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/lexi-harkins/6563"
+      },
+      {
+       "name": "Rachel Jones",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Asheboro, NC",
+       "country": "US",
+       "previous_school": "Southwestern Randolph High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/rachel-jones/6564"
+      },
+      {
+       "name": "Bryana Nguyen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbia, Md.",
+       "country": "US",
+       "previous_school": "Atholton",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/bryana-nguyen/13500"
+      },
+      {
+       "name": "Mariana Ocano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Petersburg, Fla.",
+       "country": "US",
+       "previous_school": "St. Petersburg",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/mariana-ocano/16734"
+      },
+      {
+       "name": "Roshnee Sharma",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Providence Day School",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/roshnee-sharma/14793"
+      },
+      {
+       "name": "Brynn Walker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. David's, Pa.",
+       "country": "US",
+       "previous_school": "Radnor",
+       "class_raw": "Fr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/brynn-walker/16736"
+      },
+      {
+       "name": "Kelly Whaley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Farmington, Conn.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "So.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/kelly-whaley/14795"
+      },
+      {
+       "name": "Cheni Xu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Zhuhai, China",
+       "country": "CN",
+       "previous_school": "Saint Stephen's College",
+       "class_raw": "Jr.",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/cheni-xu/13505"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jan Mann",
+       "title": "Head Coach",
+       "email": "janmann@uncaa.unc.edu",
+       "phone": "919-357-3735",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/jan-mann/3568"
+      },
+      {
+       "name": "Leah Buchmann",
+       "title": "Associate Head Coach",
+       "email": "buchmann@unc.edu",
+       "phone": "919-843-4063",
+       "profile_url": "https://goheels.com/sports/womens-golf/roster/coaches/leah-buchmann/628"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://goheels.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goheels.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://goheels.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://goheels.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://goheels.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

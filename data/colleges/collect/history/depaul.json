@@ -1,22 +1,1152 @@
 {
  "slug": "depaul",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://depaulbluedemons.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Leif Breede",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/leif-breede/4170"
+      },
+      {
+       "name": "North Chery",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Haven, Conn.",
+       "country": "US",
+       "previous_school": "Hamden Hall Country Day",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/north-chery/4171"
+      },
+      {
+       "name": "Billy Gneiser",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Darien, Ill.",
+       "country": "US",
+       "previous_school": "Hinsdale South",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/billy-gneiser/4167"
+      },
+      {
+       "name": "Rohan Gopaldas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": "North Gwinett",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/rohan-gopaldas/4557"
+      },
+      {
+       "name": "Dominic Lucchesi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grayslake, Ill.",
+       "country": "US",
+       "previous_school": "Grayslake Central",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/dominic-lucchesi/4169"
+      },
+      {
+       "name": "Jack Mann",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Avoch, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/jack-mann/4172"
+      },
+      {
+       "name": "Sam Mortell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": "Miami (Ohio)",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/sam-mortell/4173"
+      },
+      {
+       "name": "Matthew Rastogi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Toronto, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Eastern Michigan",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/matthew-rastogi/4559"
+      },
+      {
+       "name": "Austin Scott",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Daniel Island, S.C.",
+       "country": "US",
+       "previous_school": "Clemson",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/austin-scott/4175"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Jamison",
+       "title": "Head Coach",
+       "email": "rjamison@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/ryan-jamison/750"
+      },
+      {
+       "name": "Jeremy Wu",
+       "title": "Graduate Assistant",
+       "email": "JWU116@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/jeremy-wu/751"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Paul Costello",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland",
+       "country": "IE",
+       "previous_school": "Colaiste Bhaile Chlair",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/paul-costello/3914"
+      },
+      {
+       "name": "Billy Gneiser",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Darien, Ill.",
+       "country": "US",
+       "previous_school": "Hinsdale South",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/billy-gneiser/4167"
+      },
+      {
+       "name": "Rohan Gopaldas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": "North Gwinett",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/rohan-gopaldas/4557"
+      },
+      {
+       "name": "Ryder Henares",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Orange County, Calif.",
+       "country": "US",
+       "previous_school": "LMU",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/ryder-henares/3916"
+      },
+      {
+       "name": "Dominic Lucchesi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Grayslake, Ill.",
+       "country": "US",
+       "previous_school": "Grayslake Central",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/dominic-lucchesi/4169"
+      },
+      {
+       "name": "Pablo Riveiro Quintans",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Santiago de Compostela, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/pablo-riveiro-quintans/3957"
+      },
+      {
+       "name": "Hank Schaefer",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "Mount St. Mary's",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/hank-schaefer/3921"
+      },
+      {
+       "name": "Alex Vekich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/alex-vekich/3918"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Mark Haines",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/mark-haines/638"
+      },
+      {
+       "name": "Kyle Stefan",
+       "title": "Volunteer Instructional Assistant",
+       "email": "KSTEFAN@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/kyle-stefan/612"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Paul Costello",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland",
+       "country": "IE",
+       "previous_school": "Colaiste Bhaile Chlair",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/paul-costello/3914"
+      },
+      {
+       "name": "Conor Glennon",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Glasson, Westmeath, Ireland",
+       "country": "IE",
+       "previous_school": "Marist College (Ireland)",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/conor-glennon/3224"
+      },
+      {
+       "name": "Billy Gneiser",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Darien, Ill.",
+       "country": "US",
+       "previous_school": "Hinsdale South",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/billy-gneiser/4167"
+      },
+      {
+       "name": "David Griggs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles East",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/david-griggs/3226"
+      },
+      {
+       "name": "Ryder Henares",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Orange County, Calif.",
+       "country": "US",
+       "previous_school": "LMU",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/ryder-henares/3916"
+      },
+      {
+       "name": "Noah Kolar",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Grand Rapids, Mich.",
+       "country": "US",
+       "previous_school": "Forest Hills Northern",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/noah-kolar/3227"
+      },
+      {
+       "name": "Aarjav Patel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/aarjav-patel/3228"
+      },
+      {
+       "name": "Alex Vekich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/alex-vekich/3918"
+      },
+      {
+       "name": "Artemiy Yalovenko",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "UCF",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/artemiy-yalovenko/3230"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Cameron Karney",
+       "title": "Assistant Coach",
+       "email": "ckarney@depaul.edu",
+       "phone": "(773) 325-7526",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/cameron-karney/521"
+      },
+      {
+       "name": "Kyle Stefan",
+       "title": "Volunteer Instructional Assistant",
+       "email": "KSTEFAN@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/kyle-stefan/612"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Paul Costello",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Galway, Ireland",
+       "country": "IE",
+       "previous_school": "Colaiste Bhaile Chlair",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/paul-costello/3914"
+      },
+      {
+       "name": "Conor Glennon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glasson, Westmeath, Ireland",
+       "country": "IE",
+       "previous_school": "Marist College (Ireland)",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/conor-glennon/3224"
+      },
+      {
+       "name": "Billy Gneiser",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Darien, Ill.",
+       "country": "US",
+       "previous_school": "Hinsdale South",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/billy-gneiser/4167"
+      },
+      {
+       "name": "David Griggs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles East",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/david-griggs/3226"
+      },
+      {
+       "name": "Cameron Karney",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Crystal Lake, Ill.",
+       "country": "US",
+       "previous_school": "Western Illinois",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/cameron-karney/3050"
+      },
+      {
+       "name": "Noah Kolar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grand Rapids, Mich.",
+       "country": "US",
+       "previous_school": "Forest Hills Northern",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/noah-kolar/3227"
+      },
+      {
+       "name": "Aarjav Patel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/aarjav-patel/3228"
+      },
+      {
+       "name": "Alex Vekich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/alex-vekich/3918"
+      },
+      {
+       "name": "Artemiy Yalovenko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "UCF",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/artemiy-yalovenko/3230"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Michael Schachner",
+       "title": "Assistant Coach",
+       "email": "mschachn@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/michael-schachner/446"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grant Boyson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Neenah, Wis.",
+       "country": "US",
+       "previous_school": "St. Mary Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/grant-boyson/2592"
+      },
+      {
+       "name": "Paul Costello",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Galway, Ireland",
+       "country": "IE",
+       "previous_school": "Colaiste Bhaile Chlair",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/paul-costello/3914"
+      },
+      {
+       "name": "Nik Gatmaytan",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "De La Salle Santiago Zobel",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/nik-gatmaytan/2593"
+      },
+      {
+       "name": "Conor Glennon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glasson, Westmeath, Ireland",
+       "country": "IE",
+       "previous_school": "Marist College (Ireland)",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/conor-glennon/3224"
+      },
+      {
+       "name": "David Griggs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles East",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/david-griggs/3226"
+      },
+      {
+       "name": "Noah Kolar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grand Rapids, Mich.",
+       "country": "US",
+       "previous_school": "Forest Hills Northern",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/noah-kolar/3227"
+      },
+      {
+       "name": "Aarjav Patel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/aarjav-patel/3228"
+      },
+      {
+       "name": "Alex Vekich",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Desert Mountain",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/alex-vekich/3918"
+      },
+      {
+       "name": "Artemiy Yalovenko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "UCF",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/artemiy-yalovenko/3230"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Michael Schachner",
+       "title": "Assistant Coach",
+       "email": "mschachn@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/michael-schachner/446"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grant Boyson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Neenah, Wis.",
+       "country": "US",
+       "previous_school": "St. Mary Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/grant-boyson/2592"
+      },
+      {
+       "name": "Perry Chong",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": "Marist",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/perry-chong/2261"
+      },
+      {
+       "name": "Nik Gatmaytan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "De La Salle Santiago Zobel",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/nik-gatmaytan/2593"
+      },
+      {
+       "name": "Conor Glennon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glasson, Westmeath, Ireland",
+       "country": "IE",
+       "previous_school": "Marist College (Ireland)",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/conor-glennon/3224"
+      },
+      {
+       "name": "David Griggs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles East",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/david-griggs/3226"
+      },
+      {
+       "name": "Noah Kolar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grand Rapids, Mich.",
+       "country": "US",
+       "previous_school": "Forest Hills Northern",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/noah-kolar/3227"
+      },
+      {
+       "name": "Artemiy Yalovenko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Moscow, Russia",
+       "country": "RU",
+       "previous_school": "UCF",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/artemiy-yalovenko/3230"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Michael Schachner",
+       "title": "Assistant Coach",
+       "email": "mschachn@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/michael-schachner/446"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grant Boyson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Neenah, Wis.",
+       "country": "US",
+       "previous_school": "St. Mary Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/grant-boyson/2592"
+      },
+      {
+       "name": "Perry Chong",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": "Marist",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/perry-chong/2261"
+      },
+      {
+       "name": "Nik Gatmaytan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "De La Salle Santiago Zobel",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/nik-gatmaytan/2593"
+      },
+      {
+       "name": "Conor Glennon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glasson, Westmeath, Ireland",
+       "country": "IE",
+       "previous_school": "Marist College (Ireland)",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/conor-glennon/3224"
+      },
+      {
+       "name": "Ronnie Griggs",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles East",
+       "class_raw": "Gr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/ronnie-griggs/2011"
+      },
+      {
+       "name": "Noah Kolar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Grand Rapids, Mich.",
+       "country": "US",
+       "previous_school": "Forest Hills Northern",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/noah-kolar/3227"
+      },
+      {
+       "name": "Stephen Sul",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Matawan, N.J.",
+       "country": "US",
+       "previous_school": "Old Bridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/stephen-sul/2015"
+      },
+      {
+       "name": "Campbell Wolf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mechanicsburg, Pa.",
+       "country": "US",
+       "previous_school": "Cumberland Valley",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/campbell-wolf/2012"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Michael Schachner",
+       "title": "Assistant Coach",
+       "email": "mschachn@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/michael-schachner/446"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grant Boyson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Neenah, Wis.",
+       "country": "US",
+       "previous_school": "St. Mary Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/grant-boyson/2592"
+      },
+      {
+       "name": "Perry Chong",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": "Marist",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/perry-chong/2261"
+      },
+      {
+       "name": "Nik Gatmaytan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "De La Salle Santiago Zobel",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/nik-gatmaytan/2593"
+      },
+      {
+       "name": "Ronnie Griggs",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles East",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/ronnie-griggs/2011"
+      },
+      {
+       "name": "Joe McCarthy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/joe-mccarthy/1646"
+      },
+      {
+       "name": "Charlie Spencer-White",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Llandrindod Wells, U.K.",
+       "country": "GB",
+       "previous_school": "Heritage Academy (S.C.)",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Bobby Thomas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": "Lakeville North",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/bobby-thomas/1648"
+      },
+      {
+       "name": "Campbell Wolf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mechanicsburg, Pa.",
+       "country": "US",
+       "previous_school": "Cumberland Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/campbell-wolf/2012"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Jared Steger",
+       "title": "Assistant Coach",
+       "email": "jared.steger@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/jared-steger/198"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Garret Buckley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Novi, Mich.",
+       "country": "US",
+       "previous_school": "Novi, Mich. / Loyola-Chicago",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/garret-buckley/334"
+      },
+      {
+       "name": "Perry Chong",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Chicago, Ill.",
+       "country": "US",
+       "previous_school": "Chicago, Ill. /",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/perry-chong/2261"
+      },
+      {
+       "name": "Nik Gatmaytan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "Quezon City, Philippines /",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/nik-gatmaytan/2593"
+      },
+      {
+       "name": "Ronnie Griggs",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": "St. Charles, Ill. / null",
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/ronnie-griggs/2011"
+      },
+      {
+       "name": "Joe McCarthy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Cincinnati, Ohio / null",
+       "class_raw": "Fr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/joe-mccarthy/1646"
+      },
+      {
+       "name": "Charlie Spencer-White",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Llandrindod Wells, U.K.",
+       "country": "GB",
+       "previous_school": "Llandrindod Wells, U.K. / null",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Bobby Thomas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": "Lakeville, Minn. / null",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/bobby-thomas/1648"
+      },
+      {
+       "name": "Freddy Thomas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": "Lakeville, Minn. / null",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/freddy-thomas/341"
+      },
+      {
+       "name": "Kyle Vincze",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "North Reading, Mass.",
+       "country": "US",
+       "previous_school": "North Reading, Mass. / null",
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/kyle-vincze/342"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Marty Schiene",
+       "title": "Head Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      },
+      {
+       "name": "Jared Steger",
+       "title": "Assistant Coach",
+       "email": "jared.steger@depaul.edu",
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/jared-steger/198"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Garret Buckley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Novi, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/garret-buckley/334"
+      },
+      {
+       "name": "Fredrik Eineren",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/fredrik-eineren/344"
+      },
+      {
+       "name": "Jonathan Goldstein",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Northbrook, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/jonathan-goldstein/345"
+      },
+      {
+       "name": "Ronnie Griggs",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "St. Charles, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/ronnie-griggs/2011"
+      },
+      {
+       "name": "Jonathan Hewett",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clacton-on-Sea, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/jonathan-hewett/347"
+      },
+      {
+       "name": "James Lelliott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Worthing, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/james-lelliott/348"
+      },
+      {
+       "name": "Charlie Spencer-White",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Llandrindod Wells, U.K.",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Bobby Thomas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/bobby-thomas/1648"
+      },
+      {
+       "name": "Freddy Thomas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lakeville, Minn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/freddy-thomas/341"
+      },
+      {
+       "name": "Kyle Vincze",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Reading, Mass.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/kyle-vincze/342"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Betty Kaufmann",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/betty-kaufmann/55"
+      },
+      {
+       "name": "Marty Schiene",
+       "title": "Assistant Coach",
+       "email": "mschiene@depaul.edu",
+       "phone": "(773) 325-7520",
+       "profile_url": "https://depaulbluedemons.com/sports/mens-golf/roster/coaches/marty-schiene/613"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://depaulbluedemons.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://depaulbluedemons.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

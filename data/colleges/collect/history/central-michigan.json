@@ -1,36 +1,1591 @@
 {
  "slug": "central-michigan",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://cmuchippewas.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://cmuchippewas.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jeffrey Andrus",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clawson, Mich.",
+       "country": "US",
+       "previous_school": "Royal Oak Shrine",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-andrus/7206"
+      },
+      {
+       "name": "Orlando Coons",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Reno, Nev.",
+       "country": "US",
+       "previous_school": "Galena",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/orlando-coons/7207"
+      },
+      {
+       "name": "Keith Hunter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Hamburg, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Wallace State Community College",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/keith-hunter/7208"
+      },
+      {
+       "name": "Nicholas Kilgore",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Shadow Ridge",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/nicholas-kilgore/7209"
+      },
+      {
+       "name": "Easton Phillips",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coronado, Calif.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/easton-phillips/7210"
+      },
+      {
+       "name": "Jeffrey Sager",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Alma, Mich.",
+       "country": "US",
+       "previous_school": "Alma",
+       "class_raw": "R-So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-sager/7211"
+      },
+      {
+       "name": "Hudson Vedder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/hudson-vedder/7220"
+      },
+      {
+       "name": "Philippe Yturralde",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "La Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Steele Canyon",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/philippe-yturralde/7701"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kevin Jennings",
+       "title": "Head Coach",
+       "email": "jenni5k@cmich.edu",
+       "phone": "(989) 774-2128",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/coaches/kevin-jennings/1519"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://cmuchippewas.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jeffrey Andrus",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clawson, Mich.",
+       "country": "US",
+       "previous_school": "Royal Oak Shrine",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-andrus/7206"
+      },
+      {
+       "name": "Orlando Coons",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Reno, Nev.",
+       "country": "US",
+       "previous_school": "Galena",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/orlando-coons/7207"
+      },
+      {
+       "name": "Keith Hunter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Hamburg, Ontario, Canada",
+       "country": "CA",
+       "previous_school": "Wallace State Community College",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/keith-hunter/7208"
+      },
+      {
+       "name": "Nicholas Kilgore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Shadow Ridge",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/nicholas-kilgore/7209"
+      },
+      {
+       "name": "Easton Phillips",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Coronado, Calif.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/easton-phillips/7210"
+      },
+      {
+       "name": "Jeffrey Sager",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alma, Mich.",
+       "country": "US",
+       "previous_school": "Alma",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-sager/7211"
+      },
+      {
+       "name": "Philippe Yturralde",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "La Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Steele Canyon",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/philippe-yturralde/7701"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kevin Jennings",
+       "title": "Head Coach",
+       "email": "jenni5k@cmich.edu",
+       "phone": "(989) 774-2128",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/coaches/kevin-jennings/1519"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://cmuchippewas.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jeffrey Andrus",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clawson, Mich.",
+       "country": "US",
+       "previous_school": "Royal Oak Shrine",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-andrus/7206"
+      },
+      {
+       "name": "Orlando Coons",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Reno, Nev.",
+       "country": "US",
+       "previous_school": "Galena",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/orlando-coons/7207"
+      },
+      {
+       "name": "Tyler Frechette",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Traverse City, Mich.",
+       "country": "US",
+       "previous_school": "Traverse City West",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/tyler-frechette/5219"
+      },
+      {
+       "name": "Arie Jackman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caledonia, Mich.",
+       "country": "US",
+       "previous_school": "Grand Rapids CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/arie-jackman/5220"
+      },
+      {
+       "name": "Nicholas Kilgore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Shadow Ridge",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/nicholas-kilgore/7209"
+      },
+      {
+       "name": "Easton Phillips",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coronado, Calif.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/easton-phillips/7210"
+      },
+      {
+       "name": "Trey Rusthoven",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Peters, Mo.",
+       "country": "US",
+       "previous_school": "Fort Zumwalt East",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/trey-rusthoven/5225"
+      },
+      {
+       "name": "Jeffrey Sager",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alma, Mich.",
+       "country": "US",
+       "previous_school": "Alma",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-sager/7211"
+      },
+      {
+       "name": "Philippe Yturralde",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Steele Canyon",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/philippe-yturralde/7701"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kevin Jennings",
+       "title": "Head Coach",
+       "email": "jenni5k@cmich.edu",
+       "phone": "(989) 774-2128",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/coaches/kevin-jennings/1519"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://cmuchippewas.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jeffrey Andrus",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clawson, Mich.",
+       "country": "US",
+       "previous_school": "Royal Oak Shrine",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jeffrey-andrus/7206"
+      },
+      {
+       "name": "Orlando Coons",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Reno, Nev.",
+       "country": "US",
+       "previous_school": "Galena",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/orlando-coons/7207"
+      },
+      {
+       "name": "Tyler Frechette",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Traverse City, Mich.",
+       "country": "US",
+       "previous_school": "Traverse City West",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/tyler-frechette/5219"
+      },
+      {
+       "name": "Arie Jackman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caledonia, Mich.",
+       "country": "US",
+       "previous_school": "Grand Rapids CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/arie-jackman/5220"
+      },
+      {
+       "name": "Ethan Jaehn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mesquite, Nev.",
+       "country": "US",
+       "previous_school": "Summit",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/ethan-jaehn/4235"
+      },
+      {
+       "name": "Nicholas Kilgore",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Shadow Ridge",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/nicholas-kilgore/7209"
+      },
+      {
+       "name": "Easton Phillips",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Coronado, Calif.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/easton-phillips/7210"
+      },
+      {
+       "name": "Jonathon Scott",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Salem, Ore.",
+       "country": "US",
+       "previous_school": "Sprague",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/jonathon-scott/4239"
+      },
+      {
+       "name": "Philippe Yturralde",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "La Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Steele Canyon",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/philippe-yturralde/7701"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kevin Jennings",
+       "title": "Head Coach",
+       "email": "jenni5k@cmich.edu",
+       "phone": "(989) 774-2128",
+       "profile_url": "https://cmuchippewas.com/sports/mens-golf/roster/coaches/kevin-jennings/1519"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://cmuchippewas.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lauren Davis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coopersville, Mich.",
+       "country": "US",
+       "previous_school": "Coopersville",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/lauren-davis/7198"
+      },
+      {
+       "name": "Zoe Dull",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spring Lake, Mich.",
+       "country": "US",
+       "previous_school": "Spring Lake",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/zoe-dull/7690"
+      },
+      {
+       "name": "Alexis McMurray",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Oakville, Ont..",
+       "country": null,
+       "previous_school": "Minnesota",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/alexis-mcmurray/7199"
+      },
+      {
+       "name": "Brooke Morris",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canton, Mich.",
+       "country": "US",
+       "previous_school": "Plymouth",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/brooke-morris/7692"
+      },
+      {
+       "name": "Rachel Niskanen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Negaunee, Mich.",
+       "country": "US",
+       "previous_school": "Negaunee",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-niskanen/7693"
+      },
+      {
+       "name": "Lexi Schulman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vernon Hills, Ill.",
+       "country": "US",
+       "previous_school": "Vernon Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/lexi-schulman/7694"
+      },
+      {
+       "name": "Evanka Shah",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mumbai, India",
+       "country": "IN",
+       "previous_school": "BKC",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/evanka-shah/7695"
+      },
+      {
+       "name": "Ella Zanatta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hamilton, Ont.",
+       "country": "CA",
+       "previous_school": "Westmount Secondary",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ella-zanatta/7204"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Williams",
+       "title": "Coach",
+       "email": "willi33r@cmich.edu",
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/ryan-williams/1513"
+      },
+      {
+       "name": "Ashley Goh",
+       "title": "Graduate Assistant",
+       "email": "goh1a@cmich.edu",
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/staff/ashley-goh/304"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lauren Davis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Coopersville, Mich.",
+       "country": "US",
+       "previous_school": "Coopersville",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/lauren-davis/7198"
+      },
+      {
+       "name": "Hailey Katona",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Tilbury, Ont.",
+       "country": "CA",
+       "previous_school": "Mercer/Georgia Southern",
+       "class_raw": "Gr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/hailey-katona/6255"
+      },
+      {
+       "name": "Alexis McMurray",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Oakville, Ont..",
+       "country": null,
+       "previous_school": "Minnesota",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/alexis-mcmurray/7199"
+      },
+      {
+       "name": "Brooke Morris",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canton, Mich.",
+       "country": "US",
+       "previous_school": "Plymouth",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/brooke-morris/7692"
+      },
+      {
+       "name": "Rachel Niskanen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Negaunee, Mich.",
+       "country": "US",
+       "previous_school": "Negaunee",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-niskanen/7693"
+      },
+      {
+       "name": "Lexi Schulman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vernon Hills, Ill.",
+       "country": "US",
+       "previous_school": "Vernon Hills",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/lexi-schulman/7694"
+      },
+      {
+       "name": "Evanka Shah",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mumbai, India",
+       "country": "IN",
+       "previous_school": "BKC",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/evanka-shah/7695"
+      },
+      {
+       "name": "Ella Zanatta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamilton, Ont.",
+       "country": "CA",
+       "previous_school": "Westmount Secondary",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ella-zanatta/7204"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Williams",
+       "title": "Coach",
+       "email": "willi33r@cmich.edu",
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/ryan-williams/1513"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mackenzie Baustad",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Can.",
+       "country": "CA",
+       "previous_school": "Centennial",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/mackenzie-baustad/5204"
+      },
+      {
+       "name": "Ashley Goh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johor Bahru, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Sultan Ismail",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-goh/5205"
+      },
+      {
+       "name": "Hailey Katona",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tilbury, Ont.",
+       "country": "CA",
+       "previous_school": "Mercer/Georgia Southern",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/hailey-katona/6255"
+      },
+      {
+       "name": "Rachel Kauflin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Wauwatosa West",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-kauflin/5206"
+      },
+      {
+       "name": "Madison Liles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/madison-liles/5207"
+      },
+      {
+       "name": "Alexis McMurray",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Oakville, Ont..",
+       "country": null,
+       "previous_school": "Minnesota",
+       "class_raw": "R-So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/alexis-mcmurray/7199"
+      },
+      {
+       "name": "Rachel Niskanen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Negaunee, Mich.",
+       "country": "US",
+       "previous_school": "Negaunee",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-niskanen/7693"
+      },
+      {
+       "name": "Lexi Schulman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vernon Hills, Ill.",
+       "country": "US",
+       "previous_school": "Vernon Hills",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/lexi-schulman/7694"
+      },
+      {
+       "name": "Evanka Shah",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mumbai, India",
+       "country": "IN",
+       "previous_school": "BKC",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/evanka-shah/7695"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Williams",
+       "title": "Coach",
+       "email": "willi33r@cmich.edu",
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/ryan-williams/1513"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Casilda Allendesalazar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pozuelo de Alarcon, Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Canton (Ohio) Central Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/casilda-allendesalazar/4264"
+      },
+      {
+       "name": "Mackenzie Baustad",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Can.",
+       "country": "CA",
+       "previous_school": "Centennial",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/mackenzie-baustad/5204"
+      },
+      {
+       "name": "Padgett Chitty",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": "Valdosta",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/padgett-chitty/4266"
+      },
+      {
+       "name": "Ashley Goh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johor Bahru, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Sultan Ismail",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-goh/5205"
+      },
+      {
+       "name": "Rachel Kauflin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Wauwatosa West",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-kauflin/5206"
+      },
+      {
+       "name": "Ashley Liles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-liles/4269"
+      },
+      {
+       "name": "Madison Liles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/madison-liles/5207"
+      },
+      {
+       "name": "Claudia Salvador",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Villanueva de la Cañada, Madrid, Spain",
+       "country": "ES",
+       "previous_school": "SEK el Castillo",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/claudia-salvador/4270"
+      },
+      {
+       "name": "Zoe Vartyan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vienna, Austria",
+       "country": "AT",
+       "previous_school": "Lycee Francais Vienna",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/zoe-vartyan/4271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ryan Williams",
+       "title": "Head Coach",
+       "email": "willi33r@cmich.edu",
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/ryan-williams/1513"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Casilda Allendesalazar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pozuelo de Alarcon, Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Canton (Ohio) Central Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/casilda-allendesalazar/4264"
+      },
+      {
+       "name": "Mackenzie Baustad",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Can.",
+       "country": "CA",
+       "previous_school": "Centennial",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/mackenzie-baustad/5204"
+      },
+      {
+       "name": "Padgett Chitty",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": "Valdosta",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/padgett-chitty/4266"
+      },
+      {
+       "name": "Ashley Goh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Johor Bahru, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Sultan Ismail",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-goh/5205"
+      },
+      {
+       "name": "Rachel Kauflin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Wauwatosa West",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-kauflin/5206"
+      },
+      {
+       "name": "Ashley Liles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-liles/4269"
+      },
+      {
+       "name": "Claudia Salvador",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Villanueva de la Cañada, Madrid, Spain",
+       "country": "ES",
+       "previous_school": "SEK el Castillo",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/claudia-salvador/4270"
+      },
+      {
+       "name": "Zoe Vartyan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vienna, Austria",
+       "country": "AT",
+       "previous_school": "Lycee Francais Vienna",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/zoe-vartyan/4271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Earle",
+       "title": "Head Coach",
+       "email": "earle2j@cmich.edu",
+       "phone": "(386) 405-7083",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/jim-earle/1518"
+      },
+      {
+       "name": "Jami Laude",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/jami-laude/709"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Mackenzie Baustad",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Calgary, Alberta, Can.",
+       "country": "CA",
+       "previous_school": "Centennial",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/mackenzie-baustad/5204"
+      },
+      {
+       "name": "Julia Bice",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sand Lake, Mich.",
+       "country": "US",
+       "previous_school": "Howard City Tri County",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/julia-bice/3124"
+      },
+      {
+       "name": "Padgett Chitty",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": "Valdosta",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/padgett-chitty/4266"
+      },
+      {
+       "name": "Meghan Deardorff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/meghan-deardorff/3126"
+      },
+      {
+       "name": "Ashley Goh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Johor Bahru, Malaysia",
+       "country": "MY",
+       "previous_school": "SMK Sultan Ismail",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-goh/5205"
+      },
+      {
+       "name": "Rachel Kauflin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wauwatosa, Wis.",
+       "country": "US",
+       "previous_school": "Wauwatosa West",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-kauflin/5206"
+      },
+      {
+       "name": "Jami Laude",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": "Skyline HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/jami-laude/3127"
+      },
+      {
+       "name": "Ashley Liles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-liles/4269"
+      },
+      {
+       "name": "Claudia Salvador",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Villanueva de la Cañada, Madrid, Spain",
+       "country": "ES",
+       "previous_school": "SEK el Castillo",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/claudia-salvador/4270"
+      },
+      {
+       "name": "Zoe Vartyan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Vienna, Austria",
+       "country": "AT",
+       "previous_school": "Lycee Francais Vienna",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/zoe-vartyan/4271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Earle",
+       "title": "Head Coach",
+       "email": "earle2j@cmich.edu",
+       "phone": "(386) 405-7083",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/jim-earle/1518"
+      },
+      {
+       "name": "Bria Colosky",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/bria-colosky/580"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Julia Bice",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sand Lake, Mich.",
+       "country": "US",
+       "previous_school": "Howard City Tri County",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/julia-bice/3124"
+      },
+      {
+       "name": "Padgett Chitty",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valdosta, Ga.",
+       "country": "US",
+       "previous_school": "Valdosta",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/padgett-chitty/4266"
+      },
+      {
+       "name": "Meghan Deardorff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/meghan-deardorff/3126"
+      },
+      {
+       "name": "Jami Laude",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": "Skyline HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/jami-laude/3127"
+      },
+      {
+       "name": "Rachel Leucuta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-leucuta/2803"
+      },
+      {
+       "name": "Ashley Liles",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/ashley-liles/4269"
+      },
+      {
+       "name": "Claudia Salvador",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Villanueva de la Cañada, Madrid, Spain",
+       "country": "ES",
+       "previous_school": "SEK el Castillo",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/claudia-salvador/4270"
+      },
+      {
+       "name": "Danielle Staskowski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Pontiac Notre Dame Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/danielle-staskowski/2806"
+      },
+      {
+       "name": "Zoe Vartyan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vienna, Austria",
+       "country": "AT",
+       "previous_school": "Lycee Francais Vienna",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/zoe-vartyan/4271"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Earle",
+       "title": "Head Coach",
+       "email": "earle2j@cmich.edu",
+       "phone": "(386) 405-7083",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/jim-earle/1518"
+      },
+      {
+       "name": "Bria Colosky",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/bria-colosky/580"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Julia Bice",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sand Lake, Mich.",
+       "country": "US",
+       "previous_school": "Howard City Tri County",
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/julia-bice/3124"
+      },
+      {
+       "name": "Bria Colosky",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Farwell, Mich.",
+       "country": "US",
+       "previous_school": "Farwell HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/bria-colosky/2031"
+      },
+      {
+       "name": "Meghan Deardorff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston HS",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/meghan-deardorff/3126"
+      },
+      {
+       "name": "Holly Hines",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Three Rivers, Mich.",
+       "country": "US",
+       "previous_school": "Three Rivers HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/holly-hines/908"
+      },
+      {
+       "name": "Jami Laude",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": "Skyline HS",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/jami-laude/3127"
+      },
+      {
+       "name": "Rachel Leucuta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North HS",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-leucuta/2803"
+      },
+      {
+       "name": "Danielle Sawyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grafton, Ont.",
+       "country": "CA",
+       "previous_school": "St. Mary Catholic Secondary HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/danielle-sawyer/2036"
+      },
+      {
+       "name": "Amanda Walsh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": "Midland HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/amanda-walsh/912"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jim Earle",
+       "title": "Head Coach",
+       "email": "earle2j@cmich.edu",
+       "phone": "(386) 405-7083",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/jim-earle/1518"
+      },
+      {
+       "name": "Devanshi Naik",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/devanshi-naik/346"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bria Colosky",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Farwell, Mich.",
+       "country": "US",
+       "previous_school": "Farwell HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/bria-colosky/2031"
+      },
+      {
+       "name": "Meghan Deardorff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": "Clarkston HS",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/meghan-deardorff/3126"
+      },
+      {
+       "name": "Holly Hines",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Three Rivers, Mich.",
+       "country": "US",
+       "previous_school": "Three Rivers HS",
+       "class_raw": "5th",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/holly-hines/908"
+      },
+      {
+       "name": "Jami Laude",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": "Skyline HS",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/jami-laude/3127"
+      },
+      {
+       "name": "Rachel Leucuta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": "Downers Grove North HS",
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-leucuta/2803"
+      },
+      {
+       "name": "Danielle Sawyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grafton, Ont.",
+       "country": "CA",
+       "previous_school": "St. Mary Catholic Secondary HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/danielle-sawyer/2036"
+      },
+      {
+       "name": "Amanda Walsh",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": "Midland HS",
+       "class_raw": "5th",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/amanda-walsh/912"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Cheryl Stacy",
+       "title": "Head Coach",
+       "email": "stacy1ca@cmich.edu",
+       "phone": "(734) 649-6317",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/cheryl-stacy/1517"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://cmuchippewas.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bria Colosky",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Farwell, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/bria-colosky/2031"
+      },
+      {
+       "name": "Meghan Deardorff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clarkston, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/meghan-deardorff/3126"
+      },
+      {
+       "name": "Holly Hines",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Three Rivers, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/holly-hines/908"
+      },
+      {
+       "name": "Natalie Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clinton Township",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/natalie-johnson/916"
+      },
+      {
+       "name": "Jami Laude",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ann Arbor, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/jami-laude/3127"
+      },
+      {
+       "name": "Rachel Leucuta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Downers Grove, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/rachel-leucuta/2803"
+      },
+      {
+       "name": "Katie Logan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southgate, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/katie-logan/919"
+      },
+      {
+       "name": "Danielle Sawyer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grafton, Ont.",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/danielle-sawyer/2036"
+      },
+      {
+       "name": "Amanda Walsh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midland, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/amanda-walsh/912"
+      },
+      {
+       "name": "Kristen Wolfe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grand Blanc, Mich.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/kristen-wolfe/922"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Cheryl Stacy",
+       "title": "Head Coach",
+       "email": "stacy1ca@cmich.edu",
+       "phone": "(734) 649-6317",
+       "profile_url": "https://cmuchippewas.com/sports/womens-golf/roster/coaches/cheryl-stacy/1517"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://cmuchippewas.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://cmuchippewas.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/mens-golf/roster/season/2016",
+   "status": 200
   },
   {
    "url": "https://cmuchippewas.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://cmuchippewas.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://cmuchippewas.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

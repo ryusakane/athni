@@ -1,26 +1,1033 @@
 {
  "slug": "montana-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "female",
    "golf_url": "https://msubobcats.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Peyton DeBruin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Houston, TX",
+       "country": "US",
+       "previous_school": "Homeschool",
+       "class_raw": "Fr.",
+       "major": "Kinesiology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/peyton-debruin/7202"
+      },
+      {
+       "name": "Sailor Graham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Malibu, CA",
+       "country": "US",
+       "previous_school": "Malibu HS",
+       "class_raw": "Fr.",
+       "major": "Undecided",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/sailor-graham/8022"
+      },
+      {
+       "name": "Lauren Greeny",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pullman, WA",
+       "country": "US",
+       "previous_school": "Pullman HS",
+       "class_raw": "Sr.",
+       "major": "Business",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-greeny/7159"
+      },
+      {
+       "name": "Eva Heinz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Goodyear, AZ",
+       "country": "US",
+       "previous_school": "Desert Edge HS",
+       "class_raw": "Jr.",
+       "major": "Sociology-Criminology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/eva-heinz/8023"
+      },
+      {
+       "name": "Maddie Montoya",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boise, ID",
+       "country": "US",
+       "previous_school": "Borah HS",
+       "class_raw": "Sr.",
+       "major": "University Studies",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/maddie-montoya/7161"
+      },
+      {
+       "name": "Lauren Nau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, AZ",
+       "country": "US",
+       "previous_school": "Horizon HS",
+       "class_raw": "Fr.",
+       "major": "Business Marketing",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-nau/8024"
+      },
+      {
+       "name": "Norah Seidl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sankt Pölten, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/norah-seidl/8025"
+      },
+      {
+       "name": "Ashleigh Wilson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Denver, CO",
+       "country": "US",
+       "previous_school": "Rock Canyon HS",
+       "class_raw": "Fr.",
+       "major": "University Studies",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/ashleigh-wilson/8026"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Joey Lovell",
+       "title": "Assistant Coach",
+       "email": "joey.lovell@msubobcats.com",
+       "phone": null,
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/joey-lovell/1266"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lauren Greeny",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pullman, WA",
+       "country": "US",
+       "previous_school": "Pullman HS",
+       "class_raw": "Jr.",
+       "major": "Business",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-greeny/7159"
+      },
+      {
+       "name": "Eva Heinz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Goodyear, AZ",
+       "country": "US",
+       "previous_school": "Desert Edge HS",
+       "class_raw": "So.",
+       "major": "Sociology-Criminology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/eva-heinz/8023"
+      },
+      {
+       "name": "Maddie Montoya",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Boise, ID",
+       "country": "US",
+       "previous_school": "Borah HS",
+       "class_raw": "Jr.",
+       "major": "University Studies",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/maddie-montoya/7161"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Joey Lovell",
+       "title": "Assistant Coach",
+       "email": "joey.lovell@msubobcats.com",
+       "phone": null,
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/joey-lovell/1266"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lauren Basye",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gilbert, AZ",
+       "country": "US",
+       "previous_school": "Highland HS",
+       "class_raw": "So.",
+       "major": "Environmental Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-basye/6170"
+      },
+      {
+       "name": "Hannah Boraas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alexandria, MN",
+       "country": "US",
+       "previous_school": "Alexandria Area HS",
+       "class_raw": "Fr.",
+       "major": "Business Marketing",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hannah-boraas/6177"
+      },
+      {
+       "name": "Belle Brezovski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "St. Albert, Alberta, Canada",
+       "country": "CA",
+       "previous_school": "St. Albert Catholic HS",
+       "class_raw": "Fr.",
+       "major": "Psychology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/belle-brezovski/6176"
+      },
+      {
+       "name": "Jordan Briggs",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Livermore, CA",
+       "country": "US",
+       "previous_school": "Granada HS",
+       "class_raw": "R-Jr.",
+       "major": "Exercise Science",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/jordan-briggs/6171"
+      },
+      {
+       "name": "Lauren Greeny",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pullman, WA",
+       "country": "US",
+       "previous_school": "Pullman HS",
+       "class_raw": "So.",
+       "major": "Business",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-greeny/7159"
+      },
+      {
+       "name": "Eva Heinz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Goodyear, AZ",
+       "country": "US",
+       "previous_school": "Desert Edge HS",
+       "class_raw": "Fr.",
+       "major": "Sociology-Criminology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/eva-heinz/8023"
+      },
+      {
+       "name": "Maddie Montoya",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boise, ID",
+       "country": "US",
+       "previous_school": "Borah HS",
+       "class_raw": "So.",
+       "major": "University Studies",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/maddie-montoya/7161"
+      },
+      {
+       "name": "Scarlet Weidig",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Belen Heredia, Costa Rica",
+       "country": "CR",
+       "previous_school": "Lincoln School of Costa Rica",
+       "class_raw": "R-Jr.",
+       "major": "Architecture",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/scarlet-weidig/6174"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Joey Lovell",
+       "title": "Assistant Coach",
+       "email": "joey.lovell@msubobcats.com",
+       "phone": null,
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/joey-lovell/1266"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kameryn Basye",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Sr.",
+       "major": "Business Finance",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kameryn-basye/5744"
+      },
+      {
+       "name": "Lauren Basye",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gilbert, AZ",
+       "country": "US",
+       "previous_school": "Highland HS",
+       "class_raw": "Fr.",
+       "major": "Environmental Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-basye/6170"
+      },
+      {
+       "name": "Jordan Briggs",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Livermore, CA",
+       "country": "US",
+       "previous_school": "Granada HS",
+       "class_raw": "R-So.",
+       "major": "Exercise Science",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/jordan-briggs/6171"
+      },
+      {
+       "name": "Lauren Greeny",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pullman, WA",
+       "country": "US",
+       "previous_school": "Pullman HS",
+       "class_raw": "Fr.",
+       "major": "Business",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lauren-greeny/7159"
+      },
+      {
+       "name": "Maddie Montoya",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boise, ID",
+       "country": "US",
+       "previous_school": "Borah HS",
+       "class_raw": "Fr.",
+       "major": "University Studies",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/maddie-montoya/7161"
+      },
+      {
+       "name": "Cora Rosanova",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "R-So.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/cora-rosanova/5747"
+      },
+      {
+       "name": "Scarlet Weidig",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Belen Heredia, Costa Rica",
+       "country": "CR",
+       "previous_school": "Lincoln School of Costa Rica",
+       "class_raw": "R-So.",
+       "major": "Architecture",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/scarlet-weidig/6174"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Joey Lovell",
+       "title": "Assistant Coach",
+       "email": "joey.lovell@msubobcats.com",
+       "phone": null,
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/joey-lovell/1266"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kameryn Basye",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "R-Jr.",
+       "major": "Business Finance",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kameryn-basye/5744"
+      },
+      {
+       "name": "Jordan Briggs",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Livermore, CA",
+       "country": "US",
+       "previous_school": "Granada HS",
+       "class_raw": "Rf.",
+       "major": "Exercise Science",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/jordan-briggs/6171"
+      },
+      {
+       "name": "Hailey Oster",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Camas, Wash.",
+       "country": "US",
+       "previous_school": "Camas HS",
+       "class_raw": "Sr.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hailey-oster/5500"
+      },
+      {
+       "name": "Lucia Prieto Romano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "British School of Seville",
+       "class_raw": "Sr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lucia-prieto-romano/5501"
+      },
+      {
+       "name": "Sofia Rodriguez Todd",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/sofia-rodriguez-todd/5502"
+      },
+      {
+       "name": "Cora Rosanova",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Rf.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/cora-rosanova/5747"
+      },
+      {
+       "name": "Hannah Rosanova",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Sr.",
+       "major": "Business Accounting",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hannah-rosanova/5504"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Joey Lovell",
+       "title": "Assistant Coach",
+       "email": "joey.lovell@msubobcats.com",
+       "phone": null,
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/joey-lovell/1266"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bailey Anderson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Queen Creek, AZ",
+       "country": "US",
+       "previous_school": "Campo Verde HS",
+       "class_raw": "Fr.",
+       "major": "Sociology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/bailey-anderson/4902"
+      },
+      {
+       "name": "Kameryn Basye",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Jr.",
+       "major": "Business Finance",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kameryn-basye/5744"
+      },
+      {
+       "name": "Jordan Briggs",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Livermore, CA",
+       "country": "US",
+       "previous_school": "Granada HS",
+       "class_raw": "Fr.",
+       "major": "Exercise Science",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/jordan-briggs/6171"
+      },
+      {
+       "name": "Annika Danenhauer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "So.",
+       "major": "Graphic Design",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/annika-danenhauer/4894"
+      },
+      {
+       "name": "Kelly Hooper",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spokane, WA",
+       "country": "US",
+       "previous_school": "Gonzaga Prep",
+       "class_raw": "Sr.",
+       "major": "Civil Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kelly-hooper/4896"
+      },
+      {
+       "name": "Hailey Oster",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Camas, Wash.",
+       "country": "US",
+       "previous_school": "Camas HS",
+       "class_raw": "Jr.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hailey-oster/5500"
+      },
+      {
+       "name": "Lucia Prieto Romano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "British School of Seville",
+       "class_raw": "Jr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lucia-prieto-romano/5501"
+      },
+      {
+       "name": "Sofia Rodriguez Todd",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/sofia-rodriguez-todd/5502"
+      },
+      {
+       "name": "Cora Rosanova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/cora-rosanova/5747"
+      },
+      {
+       "name": "Hannah Rosanova",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Jr.",
+       "major": "Business Accounting",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hannah-rosanova/5504"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Annika Danenhauer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Fr.",
+       "major": "Graphic Design",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/annika-danenhauer/4894"
+      },
+      {
+       "name": "Delaney Elliott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Superior, CO",
+       "country": "US",
+       "previous_school": "Monarch HS",
+       "class_raw": "Sr.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/delaney-elliott/4504"
+      },
+      {
+       "name": "Kelly Hooper",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Spokane, WA",
+       "country": "US",
+       "previous_school": "Gonzaga Prep",
+       "class_raw": "Sr.",
+       "major": "Civil Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kelly-hooper/4896"
+      },
+      {
+       "name": "Lilly Navarre",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tacoma, WA",
+       "country": "US",
+       "previous_school": "Bellermine Prep",
+       "class_raw": "Sr.",
+       "major": "Kinesiology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lilly-navarre/4506"
+      },
+      {
+       "name": "Hailey Oster",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Camas, Wash.",
+       "country": "US",
+       "previous_school": "Camas HS",
+       "class_raw": "So.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hailey-oster/5500"
+      },
+      {
+       "name": "Lucia Prieto Romano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "British School of Seville",
+       "class_raw": "So.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lucia-prieto-romano/5501"
+      },
+      {
+       "name": "Sofia Rodriguez Todd",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/sofia-rodriguez-todd/5502"
+      },
+      {
+       "name": "Hannah Rosanova",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "So.",
+       "major": "Business Accounting",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hannah-rosanova/5504"
+      },
+      {
+       "name": "Coral Schulz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Whitefish, MT",
+       "country": "US",
+       "previous_school": "Whitefish HS",
+       "class_raw": "Sr.",
+       "major": "English Teaching",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coral-schulz/4511"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Kelly Gillum Smith",
+       "title": "Assistant Coach",
+       "email": "Kelly.smith26@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/kelly-gillum-smith/786"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Clare Dittemore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Roseburg, OR",
+       "country": "US",
+       "previous_school": "Roseburg HS",
+       "class_raw": "Sr.",
+       "major": "Sustainable Foods & Bioenergy Systems",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/clare-dittemore/4081"
+      },
+      {
+       "name": "Delaney Elliott",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Superior, CO",
+       "country": "US",
+       "previous_school": "Monarch HS",
+       "class_raw": "Jr.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/delaney-elliott/4504"
+      },
+      {
+       "name": "Kelly Hooper",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Spokane, WA",
+       "country": "US",
+       "previous_school": "Gonzaga Prep",
+       "class_raw": "Jr.",
+       "major": "Civil Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kelly-hooper/4896"
+      },
+      {
+       "name": "Lilly Navarre",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tacoma, WA",
+       "country": "US",
+       "previous_school": "Bellermine Prep",
+       "class_raw": "Jr.",
+       "major": "Kinesiology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lilly-navarre/4506"
+      },
+      {
+       "name": "Hailey Oster",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Camas, Wash.",
+       "country": "US",
+       "previous_school": "Camas HS",
+       "class_raw": "Fr.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hailey-oster/5500"
+      },
+      {
+       "name": "Lucia Prieto Romano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Seville, Spain",
+       "country": "ES",
+       "previous_school": "British School of Seville",
+       "class_raw": "Fr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lucia-prieto-romano/5501"
+      },
+      {
+       "name": "Sofia Rodriguez Todd",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/sofia-rodriguez-todd/5502"
+      },
+      {
+       "name": "Hannah Rosanova",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bozeman, MT",
+       "country": "US",
+       "previous_school": "Bozeman HS",
+       "class_raw": "Fr.",
+       "major": "Business Accounting",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/hannah-rosanova/5504"
+      },
+      {
+       "name": "Coral Schulz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Whitefish, MT",
+       "country": "US",
+       "previous_school": "Whitefish HS",
+       "class_raw": "Jr.",
+       "major": "English Teaching",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coral-schulz/4511"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Travis Amendt",
+       "title": "Assistant Coach",
+       "email": "travis.amendt@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/travis-amendt/649"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Clare Dittemore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Roseburg, OR",
+       "country": "US",
+       "previous_school": "Roseburg HS",
+       "class_raw": "Jr.",
+       "major": "Sustainable Foods & Bioenergy Systems",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/clare-dittemore/4081"
+      },
+      {
+       "name": "Delaney Elliott",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Superior, CO",
+       "country": "US",
+       "previous_school": "Monarch HS",
+       "class_raw": "So.",
+       "major": "Elementary Education",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/delaney-elliott/4504"
+      },
+      {
+       "name": "Kelly Hooper",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spokane, WA",
+       "country": "US",
+       "previous_school": "Gonzaga Prep",
+       "class_raw": "So.",
+       "major": "Civil Engineering",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/kelly-hooper/4896"
+      },
+      {
+       "name": "Pari Keller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, OH",
+       "country": "US",
+       "previous_school": "Indian Hill HS",
+       "class_raw": "Jr.",
+       "major": "Business Marketing",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/pari-keller/3690"
+      },
+      {
+       "name": "Lilly Navarre",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tacoma, WA",
+       "country": "US",
+       "previous_school": "Bellermine Prep",
+       "class_raw": "So.",
+       "major": "Kinesiology",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/lilly-navarre/4506"
+      },
+      {
+       "name": "Coral Schulz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Whitefish, MT",
+       "country": "US",
+       "previous_school": "Whitefish HS",
+       "class_raw": "So.",
+       "major": "English Teaching",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coral-schulz/4511"
+      },
+      {
+       "name": "Jaylee Tait",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Littleton, CO",
+       "country": "US",
+       "previous_school": "Columbine HS",
+       "class_raw": "Sr.",
+       "major": "Business Management",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/jaylee-tait/3693"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      },
+      {
+       "name": "Travis Amendt",
+       "title": "Assistant Coach",
+       "email": "travis.amendt@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/travis-amendt/649"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://msubobcats.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Clare Dittemore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Roseburg, OR",
+       "country": "US",
+       "previous_school": "Roseburg HS",
+       "class_raw": "So.",
+       "major": "Sustainable Foods & Bioenergy Systems",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/clare-dittemore/3386"
+      },
+      {
+       "name": "Pari Keller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, OH",
+       "country": "US",
+       "previous_school": "Indian Hill HS",
+       "class_raw": "So.",
+       "major": "Business Marketing",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/pari-keller/3690"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Brittany Basye",
+       "title": "Head Women's Golf Coach",
+       "email": "bbasye@msubobcats.com",
+       "phone": "406.994.7216",
+       "profile_url": "https://msubobcats.com/sports/womens-golf/roster/coaches/brittany-basye/1433"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://msubobcats.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://msubobcats.com/sports/womens-golf/roster/2025-26",
    "status": 200
   },
   {
-   "url": "https://msubobcats.com/sports/womens-golf/roster/season/2025-26",
-   "status": "bot-wall"
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://msubobcats.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

@@ -1,22 +1,1215 @@
 {
  "slug": "drexel",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://drexeldragons.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Nathan Guertler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Merchantville, N.J.",
+       "country": "US",
+       "previous_school": "Haddon Heights",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/nathan-guertler/11881"
+      },
+      {
+       "name": "John Keba",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Emmaus, Pa.",
+       "country": "US",
+       "previous_school": "Allentown Central Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/john-keba/11882"
+      },
+      {
+       "name": "Kevin Lydon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Doylestown, Pa.",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/kevin-lydon/11341"
+      },
+      {
+       "name": "Isaiah Marseille",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Linden, N.J.",
+       "country": "US",
+       "previous_school": "Mercersburg Academy",
+       "class_raw": "Rs.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/isaiah-marseille/10920"
+      },
+      {
+       "name": "Matt Normand",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lumberton, N.J.",
+       "country": "US",
+       "previous_school": "Rancocas Valley",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/matt-normand/11883"
+      },
+      {
+       "name": "John Stevenson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ambler, Pa.",
+       "country": "US",
+       "previous_school": "La Salle College High School",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/john-stevenson/11884"
+      },
+      {
+       "name": "Caleb Taylor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodbine, Md.",
+       "country": "US",
+       "previous_school": "Glenelg",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/caleb-taylor/11345"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Yurgalevicz",
+       "title": "Head Golf Coach",
+       "email": "sy646@drexel.edu",
+       "phone": null,
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/scott-yurgalevicz/1934"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Brockton English",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shelby Township Michigan",
+       "country": null,
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brockton-english/10610"
+      },
+      {
+       "name": "Nathan Guertler",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Merchantville, N.J.",
+       "country": "US",
+       "previous_school": "Haddon Heights",
+       "class_raw": "Rs.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/nathan-guertler/11881"
+      },
+      {
+       "name": "John Keba",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Emmaus, Pa.",
+       "country": "US",
+       "previous_school": "Allentown Central Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/john-keba/11882"
+      },
+      {
+       "name": "Kevin Lydon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Doylestown, Pa.",
+       "country": "US",
+       "previous_school": "Central Bucks West",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/kevin-lydon/11341"
+      },
+      {
+       "name": "Isaiah Marseille",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Linden, N.J.",
+       "country": "US",
+       "previous_school": "Mercersburg Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/isaiah-marseille/10920"
+      },
+      {
+       "name": "Griffin Mitchell",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Gr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/griffin-mitchell/10612"
+      },
+      {
+       "name": "Drue Nicholas",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Egg Harbor Township, N.J.",
+       "country": "US",
+       "previous_school": "St. Augustine",
+       "class_raw": "Gr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/drue-nicholas/10613"
+      },
+      {
+       "name": "Matt Normand",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Lumberton, N.J.",
+       "country": "US",
+       "previous_school": "Rancocas Valley",
+       "class_raw": "Rs.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/matt-normand/11883"
+      },
+      {
+       "name": "John Stevenson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ambler, Pa.",
+       "country": "US",
+       "previous_school": "La Salle College High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/john-stevenson/11884"
+      },
+      {
+       "name": "Caleb Taylor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodbine, Md.",
+       "country": "US",
+       "previous_school": "Glenelg",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/caleb-taylor/11345"
+      },
+      {
+       "name": "Andrew Wallace",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Penn Valley, Pa.",
+       "country": "US",
+       "previous_school": "Harriton",
+       "class_raw": "Gr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/andrew-wallace/10616"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bank Apinyawuttikul",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/bank-apinyawuttikul/10129"
+      },
+      {
+       "name": "Brockton English",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shelby Township Michigan",
+       "country": null,
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brockton-english/10610"
+      },
+      {
+       "name": "Nathan Guertler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Merchantville, N.J.",
+       "country": "US",
+       "previous_school": "Haddon Heights",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/nathan-guertler/11881"
+      },
+      {
+       "name": "Liam Hart",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Holland, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "Gr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/liam-hart/10131"
+      },
+      {
+       "name": "Oscar Maxfield",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Salt Lake City, Utah",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "Gr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/oscar-maxfield/10132"
+      },
+      {
+       "name": "Griffin Mitchell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/griffin-mitchell/10612"
+      },
+      {
+       "name": "Drue Nicholas",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Egg Harbor Township, N.J.",
+       "country": "US",
+       "previous_school": "St. Augustine",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/drue-nicholas/10613"
+      },
+      {
+       "name": "Matt Normand",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lumberton, N.J.",
+       "country": "US",
+       "previous_school": "Rancocas Valley",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/matt-normand/11883"
+      },
+      {
+       "name": "Tafadzwa Nyamukondiwa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "Harare",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/tafadzwa-nyamukondiwa/10135"
+      },
+      {
+       "name": "Caleb Taylor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Woodbine, Md.",
+       "country": "US",
+       "previous_school": "Glenelg",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/caleb-taylor/11345"
+      },
+      {
+       "name": "Andrew Wallace",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Penn Valley, Pa.",
+       "country": "US",
+       "previous_school": "Harriton",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/andrew-wallace/10616"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bank Apinyawuttikul",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/bank-apinyawuttikul/10129"
+      },
+      {
+       "name": "Brockton English",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Shelby Township Michigan",
+       "country": null,
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brockton-english/10610"
+      },
+      {
+       "name": "Liam Hart",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Holland, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/liam-hart/10131"
+      },
+      {
+       "name": "Oscar Maxfield",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Salt Lake City, Utah",
+       "country": "US",
+       "previous_school": "Highland",
+       "class_raw": "Gr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/oscar-maxfield/10132"
+      },
+      {
+       "name": "Griffin Mitchell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/griffin-mitchell/10612"
+      },
+      {
+       "name": "Drue Nicholas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Egg Harbor Township, N.J.",
+       "country": "US",
+       "previous_school": "St. Augustine",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/drue-nicholas/10613"
+      },
+      {
+       "name": "Tafadzwa Nyamukondiwa",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "Harare",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/tafadzwa-nyamukondiwa/10135"
+      },
+      {
+       "name": "Ben Pochet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Royersford, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/ben-pochet/9670"
+      },
+      {
+       "name": "Caleb Taylor",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Woodbine, Md.",
+       "country": "US",
+       "previous_school": "Glenelg",
+       "class_raw": "Rs.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/caleb-taylor/11345"
+      },
+      {
+       "name": "Andrew Wallace",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Penn Valley, Pa.",
+       "country": "US",
+       "previous_school": "Harriton",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/andrew-wallace/10616"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      },
+      {
+       "name": "Jeffrey Cunningham",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/jeffrey-cunningham/1605"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bank Apinyawuttikul",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/bank-apinyawuttikul/10129"
+      },
+      {
+       "name": "Jeffrey Cunningham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Newman",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/jeffrey-cunningham/9084"
+      },
+      {
+       "name": "Brockton English",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Shelby Township Michigan",
+       "country": null,
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brockton-english/10610"
+      },
+      {
+       "name": "Angelo Giantsopoulos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario",
+       "country": "CA",
+       "previous_school": "Holy Trinity",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/angelo-giantsopoulos/9085"
+      },
+      {
+       "name": "Liam Hart",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Holland, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/liam-hart/10131"
+      },
+      {
+       "name": "Griffin Mitchell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/griffin-mitchell/10612"
+      },
+      {
+       "name": "Drue Nicholas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Egg Harbor Township, N.J.",
+       "country": "US",
+       "previous_school": "St. Augustine",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/drue-nicholas/10613"
+      },
+      {
+       "name": "Tafadzwa Nyamukondiwa",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Harare, Zimbabwe",
+       "country": "ZW",
+       "previous_school": "Harare",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/tafadzwa-nyamukondiwa/10135"
+      },
+      {
+       "name": "Ben Pochet",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Royersford, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/ben-pochet/9670"
+      },
+      {
+       "name": "Caleb Taylor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Woodbine, Md.",
+       "country": "US",
+       "previous_school": "Glenelg",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/caleb-taylor/11345"
+      },
+      {
+       "name": "Andrew Wallace",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Penn Valley, Pa.",
+       "country": "US",
+       "previous_school": "Harriton",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/andrew-wallace/10616"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Bank Apinyawuttikul",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Keerapat International School",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/bank-apinyawuttikul/10129"
+      },
+      {
+       "name": "Alex Butler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Norriton, Pa.",
+       "country": "US",
+       "previous_school": "St. Joseph's Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/alex-butler/7914"
+      },
+      {
+       "name": "Stephen Cerbara",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Langhorne, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/stephen-cerbara/7915"
+      },
+      {
+       "name": "Jeffrey Cunningham",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Newman",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/jeffrey-cunningham/9084"
+      },
+      {
+       "name": "Angelo Giantsopoulos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario",
+       "country": "CA",
+       "previous_school": "Holy Trinity",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/angelo-giantsopoulos/9085"
+      },
+      {
+       "name": "Liam Hart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Holland, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/liam-hart/10131"
+      },
+      {
+       "name": "Griffin Mitchell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Albany, Ohio",
+       "country": "US",
+       "previous_school": "Columbus Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/griffin-mitchell/10612"
+      },
+      {
+       "name": "Ben Pochet",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Royersford, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/ben-pochet/9670"
+      },
+      {
+       "name": "Connor Schmidt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/connor-schmidt/7920"
+      },
+      {
+       "name": "Andrew Wallace",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Penn Valley, Pa.",
+       "country": "US",
+       "previous_school": "Harriton",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/andrew-wallace/10616"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Alex Butler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "East Norriton, Pa.",
+       "country": "US",
+       "previous_school": "St. Joseph's Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/alex-butler/7914"
+      },
+      {
+       "name": "Stephen Cerbara",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Langhorne, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/stephen-cerbara/7915"
+      },
+      {
+       "name": "David Colleran",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wayne, Pa.",
+       "country": "US",
+       "previous_school": "Radnor",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/david-colleran/7457"
+      },
+      {
+       "name": "Jeffrey Cunningham",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Newman",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/jeffrey-cunningham/9084"
+      },
+      {
+       "name": "Angelo Giantsopoulos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario",
+       "country": "CA",
+       "previous_school": "Holy Trinity",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/angelo-giantsopoulos/9085"
+      },
+      {
+       "name": "Liam Hart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Holland, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/liam-hart/10131"
+      },
+      {
+       "name": "Ben Pochet",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Royersford, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/ben-pochet/9670"
+      },
+      {
+       "name": "Connor Schmidt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/connor-schmidt/7920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Brendan Bacskai",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brendan-bacskai/6877"
+      },
+      {
+       "name": "Alex Butler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "East Norriton, Pa.",
+       "country": "US",
+       "previous_school": "St. Joseph's Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/alex-butler/7914"
+      },
+      {
+       "name": "Stephen Cerbara",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Langhorne, Pa.",
+       "country": "US",
+       "previous_school": "Holy Ghost",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/stephen-cerbara/7915"
+      },
+      {
+       "name": "Michael Cook",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/michael-cook/6879"
+      },
+      {
+       "name": "Jeffrey Cunningham",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Newman",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/jeffrey-cunningham/9084"
+      },
+      {
+       "name": "Angelo Giantsopoulos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario",
+       "country": "CA",
+       "previous_school": "Holy Trinity",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/angelo-giantsopoulos/9085"
+      },
+      {
+       "name": "Ben Pochet",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Royersford, Pa.",
+       "country": "US",
+       "previous_school": "Spring-Ford",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/ben-pochet/9670"
+      },
+      {
+       "name": "Connor Schmidt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/connor-schmidt/7920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Brendan Bacskai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brendan-bacskai/6877"
+      },
+      {
+       "name": "Alex Butler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Norriton, Pa.",
+       "country": "US",
+       "previous_school": "St. Joseph's Prep",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/alex-butler/7914"
+      },
+      {
+       "name": "Michael Cook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/michael-cook/6879"
+      },
+      {
+       "name": "Jeffrey Cunningham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Newman",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/jeffrey-cunningham/9084"
+      },
+      {
+       "name": "Aaron Fricke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Denver, Pa.",
+       "country": "US",
+       "previous_school": "Garden Spot",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/aaron-fricke/5930"
+      },
+      {
+       "name": "Angelo Giantsopoulos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond Hill, Ontario",
+       "country": "CA",
+       "previous_school": "Holy Trinity",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/angelo-giantsopoulos/9085"
+      },
+      {
+       "name": "Adam Mistretta",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Livermore, Calif.",
+       "country": "US",
+       "previous_school": "Livermore",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/adam-mistretta/5931"
+      },
+      {
+       "name": "Connor Schmidt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/connor-schmidt/7920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://drexeldragons.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Brendan Bacskai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Malvern Prep",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brendan-bacskai/6877"
+      },
+      {
+       "name": "Alex Butler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Norriton, Pa.",
+       "country": "US",
+       "previous_school": "St. Joseph's Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/alex-butler/7914"
+      },
+      {
+       "name": "Michael Cook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Berwyn, Pa.",
+       "country": "US",
+       "previous_school": "Conestoga",
+       "class_raw": "So.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/michael-cook/6879"
+      },
+      {
+       "name": "Yoseph Dance",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": "American School of Doha (Qatar)",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/yoseph-dance/4807"
+      },
+      {
+       "name": "Brian Fischer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Yorktown, N.Y.",
+       "country": "US",
+       "previous_school": "Yorktown",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/brian-fischer/4808"
+      },
+      {
+       "name": "Scott Forrester",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cheltenham, Pa.",
+       "country": "US",
+       "previous_school": "Cheltenham",
+       "class_raw": "Sr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/scott-forrester/4809"
+      },
+      {
+       "name": "Aaron Fricke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Denver, Pa.",
+       "country": "US",
+       "previous_school": "Garden Spot",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/aaron-fricke/5930"
+      },
+      {
+       "name": "Adam Mistretta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Livermore, Calif.",
+       "country": "US",
+       "previous_school": "Livermore",
+       "class_raw": "Jr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/adam-mistretta/5931"
+      },
+      {
+       "name": "Connor Schmidt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Venetia, Pa.",
+       "country": "US",
+       "previous_school": "Peters Township",
+       "class_raw": "Fr.",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/connor-schmidt/7920"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Ben Feld",
+       "title": "Head Golf Coach",
+       "email": "bmf36@drexel.edu",
+       "phone": "215-895-6083",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/ben-feld/1734"
+      },
+      {
+       "name": "AJ DiGennaro",
+       "title": "Assistant Coach",
+       "email": "ajd98@drexel.edu",
+       "phone": "215-895-6908",
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/aj-digennaro/1735"
+      },
+      {
+       "name": "Christopher Crawford",
+       "title": "Undergraduate Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://drexeldragons.com/sports/mens-golf/roster/coaches/christopher-crawford/882"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://drexeldragons.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://drexeldragons.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://drexeldragons.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

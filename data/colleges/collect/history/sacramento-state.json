@@ -1,36 +1,2182 @@
 {
  "slug": "sacramento-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://hornetsports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jake Aberle",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lodi, Calif.",
+       "country": "US",
+       "previous_school": "Fresno State",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jake-aberle/10608"
+      },
+      {
+       "name": "Jai Bahl",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Gurugram, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jai-bahl/10609"
+      },
+      {
+       "name": "Mason Benbrook",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carmichael, Calif.",
+       "country": "US",
+       "previous_school": "Fresno State",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/mason-benbrook/10615"
+      },
+      {
+       "name": "Patrick Dumag",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Sierra JC",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/patrick-dumag/10610"
+      },
+      {
+       "name": "Zach Mate",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Cosumnes Oaks HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-mate/10611"
+      },
+      {
+       "name": "Zach Matzke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gold River, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-matzke/10612"
+      },
+      {
+       "name": "Luke Price",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/luke-price/10616"
+      },
+      {
+       "name": "Gabriel Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Truckee, Calif.",
+       "country": "US",
+       "previous_school": "Truckee HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/gabriel-smith/10613"
+      },
+      {
+       "name": "Max Thomas",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/max-thomas/10614"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/1512"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jake Aberle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lodi, Calif.",
+       "country": "US",
+       "previous_school": "Fresno State",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jake-aberle/9793"
+      },
+      {
+       "name": "Jai Bahl",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Gurugram, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jai-bahl/9794"
+      },
+      {
+       "name": "Luke Dugger",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Holy Names",
+       "class_raw": "Gr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/luke-dugger/9795"
+      },
+      {
+       "name": "Patrick Dumag",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Sierra JC",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/patrick-dumag/9796"
+      },
+      {
+       "name": "Zach Mate",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Cosumnes Oaks HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-mate/9797"
+      },
+      {
+       "name": "Zach Matzke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gold River, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-matzke/9798"
+      },
+      {
+       "name": "Gabriel Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Truckee, Calif.",
+       "country": "US",
+       "previous_school": "Truckee HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/gabriel-smith/9799"
+      },
+      {
+       "name": "Max Thomas",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/max-thomas/9800"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/1349"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jake Aberle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lodi, Calif.",
+       "country": "US",
+       "previous_school": "Fresno State",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jake-aberle/8400"
+      },
+      {
+       "name": "Jai Bahl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gurugram, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jai-bahl/8401"
+      },
+      {
+       "name": "Luke Dugger",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Holy Names",
+       "class_raw": "Gr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/luke-dugger/8402"
+      },
+      {
+       "name": "Patrick Dumag",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Sierra JC",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/patrick-dumag/8404"
+      },
+      {
+       "name": "Zach Mate",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Cosumnes Oaks HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-mate/8396"
+      },
+      {
+       "name": "Zach Matzke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gold River, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-matzke/8403"
+      },
+      {
+       "name": "Jeffrey Perry",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pismo Beach, Calif.",
+       "country": "US",
+       "previous_school": "Cal Lutheran",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeffrey-perry/8397"
+      },
+      {
+       "name": "Gabriel Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Truckee, Calif.",
+       "country": "US",
+       "previous_school": "Truckee HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/gabriel-smith/8398"
+      },
+      {
+       "name": "Keaton Sutherland",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/keaton-sutherland/8399"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/1159"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Riley Bell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Yuba City, Calif.",
+       "country": "US",
+       "previous_school": "River Valley HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/riley-bell/7928"
+      },
+      {
+       "name": "Coleman Dupre",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coleman-dupre/7933"
+      },
+      {
+       "name": "Joe Fowler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Placerville, Calif.",
+       "country": "US",
+       "previous_school": "Ponderosa HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/joe-fowler/7929"
+      },
+      {
+       "name": "Casey Leebrick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, Calif.",
+       "country": "US",
+       "previous_school": "York College (Pa.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/casey-leebrick/7930"
+      },
+      {
+       "name": "Zach Mate",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Cosumnes Oaks HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-mate/7934"
+      },
+      {
+       "name": "Jeffrey Perry",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pismo Beach, Calif.",
+       "country": "US",
+       "previous_school": "Cal Lutheran",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeffrey-perry/7931"
+      },
+      {
+       "name": "Gabriel Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Truckee, Calif.",
+       "country": "US",
+       "previous_school": "Truckee HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/gabriel-smith/7935"
+      },
+      {
+       "name": "Keaton Sutherland",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/keaton-sutherland/7932"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/1055"
+      },
+      {
+       "name": "Aaron Beverly",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/aaron-beverly/1056"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Blaze Akana",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ewa Beach, Hawaii",
+       "country": "US",
+       "previous_school": "Kamehameha-Kapalama HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/blaze-akana/7491"
+      },
+      {
+       "name": "Riley Bell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Yuba City, Calif.",
+       "country": "US",
+       "previous_school": "River Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/riley-bell/7492"
+      },
+      {
+       "name": "Jeff Carr",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Arroyo Grande HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeff-carr/7493"
+      },
+      {
+       "name": "Ethan Davidson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Calabasas, Calif.",
+       "country": "US",
+       "previous_school": "Calabasas HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/ethan-davidson/7494"
+      },
+      {
+       "name": "Joe Fowler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Placerville, Calif.",
+       "country": "US",
+       "previous_school": "Ponderosa HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/joe-fowler/7495"
+      },
+      {
+       "name": "Casey Leebrick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, Calif.",
+       "country": "US",
+       "previous_school": "York College (Pa.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/casey-leebrick/7496"
+      },
+      {
+       "name": "Jeffrey Perry",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pismo Beach, Calif.",
+       "country": "US",
+       "previous_school": "Cal Lutheran",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeffrey-perry/7497"
+      },
+      {
+       "name": "Keaton Sutherland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/keaton-sutherland/7498"
+      },
+      {
+       "name": "Jonathan Tanihana",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "American River JC",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jonathan-tanihana/7499"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Men's Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/986"
+      },
+      {
+       "name": "Aaron Beverly",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/aaron-beverly/987"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Blaze Akana",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ewa Beach, Hawaii",
+       "country": "US",
+       "previous_school": "Kamehameha-Kapalama HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/blaze-akana/1727"
+      },
+      {
+       "name": "Riley Bell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yuba City, Calif.",
+       "country": "US",
+       "previous_school": "River Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/riley-bell/1728"
+      },
+      {
+       "name": "Jeff Carr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Arroyo Grande HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeff-carr/1729"
+      },
+      {
+       "name": "Ethan Davidson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Calabasas, Calif.",
+       "country": "US",
+       "previous_school": "Calabasas HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/ethan-davidson/1730"
+      },
+      {
+       "name": "Joe Fowler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Placerville, Calif.",
+       "country": "US",
+       "previous_school": "Ponderosa HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/joe-fowler/1731"
+      },
+      {
+       "name": "Christian James",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Utah",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/christian-james/1732"
+      },
+      {
+       "name": "Casey Leebrick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, Calif.",
+       "country": "US",
+       "previous_school": "York College (Pa.)",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/casey-leebrick/1733"
+      },
+      {
+       "name": "Jeffrey Perry",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pismo Beach, Calif.",
+       "country": "US",
+       "previous_school": "Cal Lutheran",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeffrey-perry/1734"
+      },
+      {
+       "name": "Keaton Sutherland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/keaton-sutherland/1735"
+      },
+      {
+       "name": "Jonathan Tanihana",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "American River JC",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jonathan-tanihana/1736"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/135"
+      },
+      {
+       "name": "Aaron Beverly",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/aaron-beverly/136"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Riley Bell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yuba City, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/riley-bell/1717"
+      },
+      {
+       "name": "Jeff Carr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Arroyo Grande HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeff-carr/1718"
+      },
+      {
+       "name": "Ethan Davidson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Calabasas, Calif.",
+       "country": "US",
+       "previous_school": "Calabasas HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/ethan-davidson/1719"
+      },
+      {
+       "name": "Josh Diaz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Discovery Bay, Calif.",
+       "country": "US",
+       "previous_school": "Heritage HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/josh-diaz/1720"
+      },
+      {
+       "name": "Joe Fowler",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Placerville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/joe-fowler/1721"
+      },
+      {
+       "name": "Christian James",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/christian-james/1722"
+      },
+      {
+       "name": "Casey Leebrick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Luis Obispo, Calif.",
+       "country": "US",
+       "previous_school": "San Luis Obispo HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/casey-leebrick/1723"
+      },
+      {
+       "name": "Eric Olsem",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "El Camino HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/eric-olsem/1724"
+      },
+      {
+       "name": "Keaton Sutherland",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/keaton-sutherland/1725"
+      },
+      {
+       "name": "Jonathan Tanihana",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "John F. Kennedy HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jonathan-tanihana/1726"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Landon Azevedo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hilmar, Calif.",
+       "country": "US",
+       "previous_school": "Hilmar HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/landon-azevedo/1706"
+      },
+      {
+       "name": "Riley Bell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yuba City, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/riley-bell/1707"
+      },
+      {
+       "name": "Jeff Carr",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Arroyo Grande HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeff-carr/1708"
+      },
+      {
+       "name": "Ethan Davidson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Calabasas, Calif.",
+       "country": "US",
+       "previous_school": "Calabasas HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/ethan-davidson/1709"
+      },
+      {
+       "name": "Josh Diaz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Discovery Bay, Calif.",
+       "country": "US",
+       "previous_school": "Heritage HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/josh-diaz/1710"
+      },
+      {
+       "name": "Devyn Fitchhorn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fairfield, Calif.",
+       "country": "US",
+       "previous_school": "Vanden HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/devyn-fitchhorn/1711"
+      },
+      {
+       "name": "Joe Fowler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Placerville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/joe-fowler/1712"
+      },
+      {
+       "name": "Christian James",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/christian-james/1713"
+      },
+      {
+       "name": "Eric Olsem",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "El Camino HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/eric-olsem/1715"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/145"
+      },
+      {
+       "name": "Taylor Knoll",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/taylor-knoll/146"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Landon Azevedo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hilmar, Calif.",
+       "country": "US",
+       "previous_school": "Hilmar HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/landon-azevedo/1697"
+      },
+      {
+       "name": "Jeff Carr",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Arroyo Grande, Calif.",
+       "country": "US",
+       "previous_school": "Arroyo Grande HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/jeff-carr/1698"
+      },
+      {
+       "name": "Wonje Choi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/wonje-choi/1699"
+      },
+      {
+       "name": "Devyn Fitchhorn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairfield, Calif.",
+       "country": "US",
+       "previous_school": "Vanden HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/devyn-fitchhorn/1700"
+      },
+      {
+       "name": "Zach Liberatore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-liberatore/1701"
+      },
+      {
+       "name": "Brandon Michaels",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carlsbad, Calif.",
+       "country": "US",
+       "previous_school": "Pacific Academy HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/brandon-michaels/1702"
+      },
+      {
+       "name": "Eric Olsem",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "El Camino HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/eric-olsem/1703"
+      },
+      {
+       "name": "Ash Patel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Oakmont HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/ash-patel/1704"
+      },
+      {
+       "name": "Zak Sievers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zak-sievers/1705"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/148"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://hornetsports.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Landon Azevedo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hilmar, Calif.",
+       "country": "US",
+       "previous_school": "Hilmar HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/landon-azevedo/1688"
+      },
+      {
+       "name": "Cody Bates",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McKinleyville, Calif.",
+       "country": "US",
+       "previous_school": "McKinleyville HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/cody-bates/1689"
+      },
+      {
+       "name": "Aaron Beverly",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fairfield, Calif.",
+       "country": "US",
+       "previous_school": "Armijo HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/aaron-beverly/1690"
+      },
+      {
+       "name": "Wonje Choi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Diego, Calif.",
+       "country": "US",
+       "previous_school": "Torrey Pines HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/wonje-choi/1691"
+      },
+      {
+       "name": "Connor Day",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Oakmont HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/connor-day/1692"
+      },
+      {
+       "name": "Devyn Fitchhorn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairfield, Calif.",
+       "country": "US",
+       "previous_school": "Vanden HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/devyn-fitchhorn/1693"
+      },
+      {
+       "name": "Zach Liberatore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elk Grove, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/zach-liberatore/1694"
+      },
+      {
+       "name": "Robert Parden",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saratoga, Calif.",
+       "country": "US",
+       "previous_school": "Saratoga HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/robert-parden/1695"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kamden Brakel",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/kamden-brakel/149"
+      },
+      {
+       "name": "David Sutherland",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/mens-golf/roster/coaches/david-sutherland/151"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://hornetsports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Darla May Dela Torre",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairfield, Calif.",
+       "country": "US",
+       "previous_school": "Rodriguez HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/darla-may-dela-torre/10617"
+      },
+      {
+       "name": "Florencia Dufey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": "Colegio Highlands",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/florencia-dufey/10618"
+      },
+      {
+       "name": "Tova Hatton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Svedala, Sweden",
+       "country": "SE",
+       "previous_school": "Ystad Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/tova-hatton/10619"
+      },
+      {
+       "name": "Ashley Koga",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ashley-koga/10620"
+      },
+      {
+       "name": "Ella Kraft",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ella-kraft/10621"
+      },
+      {
+       "name": "Sophia Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Vacaville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sophia-lee/10622"
+      },
+      {
+       "name": "Jocelyn Tseng",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Taipei, Taiwan",
+       "country": "TW",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/jocelyn-tseng/10623"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/1513"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/1514"
+      },
+      {
+       "name": "Sneha Sharan",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/sneha-sharan/1656"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Genevieve Cha",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "McClatchy HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/genevieve-cha/10075"
+      },
+      {
+       "name": "Darla May Dela Torre",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairfield, Calif.",
+       "country": "US",
+       "previous_school": "Rodriguez HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/darla-may-dela-torre/9789"
+      },
+      {
+       "name": "Florencia Dufey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": "Colegio Highlands",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/florencia-dufey/9784"
+      },
+      {
+       "name": "Tova Hatton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Svedala, Sweden",
+       "country": "SE",
+       "previous_school": "Ystad Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/tova-hatton/9790"
+      },
+      {
+       "name": "Ashley Koga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ashley-koga/9785"
+      },
+      {
+       "name": "Ella Kraft",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ella-kraft/9786"
+      },
+      {
+       "name": "Caitlin Maurice",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Omokoroa, New Zealand",
+       "country": "NZ",
+       "previous_school": "Tauranga Girls College",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/caitlin-maurice/9787"
+      },
+      {
+       "name": "Sneha Sharan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bengaluru, India",
+       "country": "IN",
+       "previous_school": "Army Public School",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sneha-sharan/9788"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/1347"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/1348"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Genevieve Cha",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "McClatchy HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/genevieve-cha/8466"
+      },
+      {
+       "name": "Guadalupe Dabos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tandil, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio San Ignacio",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/guadalupe-dabos/8467"
+      },
+      {
+       "name": "Florencia Dufey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santiago, Chile",
+       "country": "CL",
+       "previous_school": "Colegio Highlands",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/florencia-dufey/8560"
+      },
+      {
+       "name": "Ashley Koga",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ashley-koga/8561"
+      },
+      {
+       "name": "Jennifer Koga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/jennifer-koga/8468"
+      },
+      {
+       "name": "Ella Kraft",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ella-kraft/8469"
+      },
+      {
+       "name": "Caitlin Maurice",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Omokoroa, New Zealand",
+       "country": "NZ",
+       "previous_school": "Tauranga Girls College",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/caitlin-maurice/8470"
+      },
+      {
+       "name": "Sneha Sharan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bengaluru, India",
+       "country": "IN",
+       "previous_school": "Army Public School",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sneha-sharan/8471"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/1176"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/1177"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tess Blair",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "South Jordan, Utah",
+       "country": "US",
+       "previous_school": "Bingham HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/tess-blair/7938"
+      },
+      {
+       "name": "Genevieve Cha",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "McClatchy HS",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/genevieve-cha/7939"
+      },
+      {
+       "name": "Guadalupe Dabos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tandil, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio San Ignacio",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/guadalupe-dabos/7940"
+      },
+      {
+       "name": "Jennifer Koga",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/jennifer-koga/7941"
+      },
+      {
+       "name": "Ella Kraft",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/ella-kraft/7944"
+      },
+      {
+       "name": "Sienna Lyford",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "UC Irvine",
+       "class_raw": "Gr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sienna-lyford/7945"
+      },
+      {
+       "name": "Caitlin Maurice",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omokoroa, New Zealand",
+       "country": "NZ",
+       "previous_school": "Tauranga Girls College",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/caitlin-maurice/7942"
+      },
+      {
+       "name": "Sneha Sharan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bengaluru, India",
+       "country": "IN",
+       "previous_school": "Army Public School",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sneha-sharan/7943"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/1057"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/1058"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tess Blair",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Jordan, Utah",
+       "country": "US",
+       "previous_school": "Bingham HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/tess-blair/7735"
+      },
+      {
+       "name": "Genevieve Cha",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "McClatchy HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/genevieve-cha/7736"
+      },
+      {
+       "name": "Guadalupe Dabos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tandil, Argentina",
+       "country": "AR",
+       "previous_school": "Colegio San Ignacio",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/guadalupe-dabos/7737"
+      },
+      {
+       "name": "Jennifer Koga",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/jennifer-koga/7738"
+      },
+      {
+       "name": "Miki Manta",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/miki-manta/7739"
+      },
+      {
+       "name": "Caitlin Maurice",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omokoroa, New Zealand",
+       "country": "NZ",
+       "previous_school": "Tauranga Girls College",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/caitlin-maurice/7740"
+      },
+      {
+       "name": "Sneha Sharan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bengaluru, India",
+       "country": "IN",
+       "previous_school": "Army Public School",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sneha-sharan/7741"
+      },
+      {
+       "name": "Sydney Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sydney-smith/7742"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/1012"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/1013"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tess Blair",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Jordan, Utah",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/tess-blair/3755"
+      },
+      {
+       "name": "Guadalupe Dabos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tandil, Argentina",
+       "country": "AR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/guadalupe-dabos/3756"
+      },
+      {
+       "name": "Jennifer Koga",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/jennifer-koga/3757"
+      },
+      {
+       "name": "Miki Manta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/miki-manta/3758"
+      },
+      {
+       "name": "Sydney Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sydney-smith/3759"
+      },
+      {
+       "name": "Corinne Vidén",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Streteredsskolan",
+       "class_raw": "Jr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/643"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/644"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sofie Babic",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Laholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sofie-babic/3746"
+      },
+      {
+       "name": "Tess Blair",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Jordan, Utah",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/tess-blair/3747"
+      },
+      {
+       "name": "Amelia Hicks",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Inderkum HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/amelia-hicks/3749"
+      },
+      {
+       "name": "Nishtha Madan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gurgaon, India",
+       "country": "IN",
+       "previous_school": "The Shri Ram School",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/nishtha-madan/3751"
+      },
+      {
+       "name": "Miki Manta",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/miki-manta/3752"
+      },
+      {
+       "name": "Sydney Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sydney-smith/3753"
+      },
+      {
+       "name": "Corinne Viden",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kallered, Sweden",
+       "country": "SE",
+       "previous_school": "Streteredsskolan",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/corinne-viden/3754"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/645"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/646"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sofie Babic",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sofie-babic/3737"
+      },
+      {
+       "name": "Julia Becker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/julia-becker/3738"
+      },
+      {
+       "name": "Katie Dunaway",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Brophy Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/katie-dunaway/3739"
+      },
+      {
+       "name": "Amelia Hicks",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Inderkum HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/amelia-hicks/3740"
+      },
+      {
+       "name": "Danielle Lozano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/danielle-lozano/3741"
+      },
+      {
+       "name": "Nishtha Madan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gurgaon, India",
+       "country": "IN",
+       "previous_school": "The Shri Ram School",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/nishtha-madan/3742"
+      },
+      {
+       "name": "Miki Manta",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/miki-manta/3743"
+      },
+      {
+       "name": "Sydney Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sydney-smith/3744"
+      },
+      {
+       "name": "Corinne Viden",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kallered, Sweden",
+       "country": "SE",
+       "previous_school": "Streteredsskolan",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/corinne-viden/3745"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/647"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/648"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sofie Babic",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Laholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sofie-babic/3729"
+      },
+      {
+       "name": "Julia Becker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/julia-becker/3730"
+      },
+      {
+       "name": "Katie Dunaway",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Brophy Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/katie-dunaway/3731"
+      },
+      {
+       "name": "Amelia Hicks",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Inderkum HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/amelia-hicks/3732"
+      },
+      {
+       "name": "Danielle Lozano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/danielle-lozano/3733"
+      },
+      {
+       "name": "Astha Madan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gurgoan, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/astha-madan/3734"
+      },
+      {
+       "name": "Nishtha Madan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gurgaon, India",
+       "country": "IN",
+       "previous_school": "The Shri Ram School",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/nishtha-madan/3735"
+      },
+      {
+       "name": "Corinne Viden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kallered, Sweden",
+       "country": "SE",
+       "previous_school": "Streteredsskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/corinne-viden/3736"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/649"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/650"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://hornetsports.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sofie Babic",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Laholm, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/sofie-babic/3720"
+      },
+      {
+       "name": "Chloe Bartek",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vancouver, Wash.",
+       "country": "US",
+       "previous_school": "Columbia River HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/chloe-bartek/3721"
+      },
+      {
+       "name": "Julia Becker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Faith Lutheran HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/julia-becker/3722"
+      },
+      {
+       "name": "Katie Dunaway",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Brophy Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/katie-dunaway/3723"
+      },
+      {
+       "name": "Amelia Hicks",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Inderkum HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/amelia-hicks/3724"
+      },
+      {
+       "name": "Danielle Lozano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rocklin, Calif.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/danielle-lozano/3725"
+      },
+      {
+       "name": "Astha Madan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gurgoan, India",
+       "country": "IN",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/astha-madan/3726"
+      },
+      {
+       "name": "Nishtha Madan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gurgaon, India",
+       "country": "IN",
+       "previous_school": "The Shri Ram School",
+       "class_raw": "Fr.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/nishtha-madan/3727"
+      },
+      {
+       "name": "Julia Peters",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Chico, Calif.",
+       "country": "US",
+       "previous_school": "Pleasant Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/julia-peters/3728"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Sutherland",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/david-sutherland/651"
+      },
+      {
+       "name": "Cindy Mah-Lyford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://hornetsports.com/sports/womens-golf/roster/coaches/cindy-mah-lyford/652"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://hornetsports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://hornetsports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://hornetsports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://hornetsports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://hornetsports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

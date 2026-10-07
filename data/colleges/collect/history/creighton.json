@@ -1,36 +1,2320 @@
 {
  "slug": "creighton",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gocreighton.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "JJ Bordeaux",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "University Place, Wash.",
+       "country": "US",
+       "previous_school": "Bellarmine Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jj-bordeaux/9418"
+      },
+      {
+       "name": "Kolby Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Westside",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kolby-brown/8858"
+      },
+      {
+       "name": "Grant Feldman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/grant-feldman/8859"
+      },
+      {
+       "name": "Gavin Gerch",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb.",
+       "country": "US",
+       "previous_school": "Southeast",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/gavin-gerch/8860"
+      },
+      {
+       "name": "Henry Kuehne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palm Beach Gardens, Fla.",
+       "country": "US",
+       "previous_school": "Palm Beach Gardens",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/henry-kuehne/9419"
+      },
+      {
+       "name": "Brock Kuhlman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Columbus, Neb.",
+       "country": "US",
+       "previous_school": "Columbus",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brock-kuhlman/9420"
+      },
+      {
+       "name": "Jacob Kutner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Palm Beach Gardens, Fla.",
+       "country": "US",
+       "previous_school": "Palm Beach Gardens",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jacob-kutner/8863"
+      },
+      {
+       "name": "Radley Mauney",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sioux Falls, S.D.",
+       "country": "US",
+       "previous_school": "O'Gorman",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/radley-mauney/9421"
+      },
+      {
+       "name": "Owen Price",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tacoma, Wash.",
+       "country": "US",
+       "previous_school": "Bellarmine",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-price/9422"
+      },
+      {
+       "name": "Carson Wright",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wichita, Kan.",
+       "country": "US",
+       "previous_school": "Goddard Eisenhower",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/carson-wright/9423"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Wes Bernt",
+       "title": "Head Coach",
+       "email": "wesleybernt@creighton.edu",
+       "phone": null,
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/wes-bernt/4483"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Boor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Creighton Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-boor/8305"
+      },
+      {
+       "name": "Kolby Brown",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Westside",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kolby-brown/8858"
+      },
+      {
+       "name": "Cole Davis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cole-davis/8307"
+      },
+      {
+       "name": "Grant Feldman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/grant-feldman/8859"
+      },
+      {
+       "name": "Gavin Gerch",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb.",
+       "country": "US",
+       "previous_school": "Southeast",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/gavin-gerch/8860"
+      },
+      {
+       "name": "Henry Kuehne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palm Beach Gardens, Fla.",
+       "country": "US",
+       "previous_school": "Palm Beach Gardens",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/henry-kuehne/9419"
+      },
+      {
+       "name": "Brock Kuhlman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Columbus, Neb.",
+       "country": "US",
+       "previous_school": "Columbus",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brock-kuhlman/9420"
+      },
+      {
+       "name": "Jacob Kutner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Palm Beach Gardens, Fla.",
+       "country": "US",
+       "previous_school": "Palm Beach Gardens",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jacob-kutner/8863"
+      },
+      {
+       "name": "Kyle Leydon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Commerce City, Colo.",
+       "country": "US",
+       "previous_school": "Brighton",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kyle-leydon/8679"
+      },
+      {
+       "name": "Owen Mackin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lake Oswego, Ore.",
+       "country": "US",
+       "previous_school": "Jesuit",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-mackin/8311"
+      },
+      {
+       "name": "Radley Mauney",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Sioux Falls, S.D.",
+       "country": "US",
+       "previous_school": "O'Gorman",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/radley-mauney/9421"
+      },
+      {
+       "name": "Owen Price",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tacoma, Wash.",
+       "country": "US",
+       "previous_school": "Bellarmine",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-price/9422"
+      },
+      {
+       "name": "Carson Wright",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wichita, Kan.",
+       "country": "US",
+       "previous_school": "Goddard Eisenhower",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/carson-wright/9423"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Wes Bernt",
+       "title": "Head Coach",
+       "email": "wesleybernt@creighton.edu",
+       "phone": null,
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/wes-bernt/4483"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Boor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Creighton Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-boor/8305"
+      },
+      {
+       "name": "Kolby Brown",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Westside",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kolby-brown/8858"
+      },
+      {
+       "name": "Shaun Campbell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tauranga, New Zealand",
+       "country": "NZ",
+       "previous_school": "Aquinas College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/shaun-campbell/7999"
+      },
+      {
+       "name": "Cole Davis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cole-davis/8307"
+      },
+      {
+       "name": "Grant Feldman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/grant-feldman/8859"
+      },
+      {
+       "name": "Jake Kluver",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Norfolk, Neb.",
+       "country": "US",
+       "previous_school": "Norfolk",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-kluver/8002"
+      },
+      {
+       "name": "Brock Kuhlman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Neb.",
+       "country": "US",
+       "previous_school": "Columbus",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brock-kuhlman/9420"
+      },
+      {
+       "name": "Kyle Leydon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Commerce City, Colo.",
+       "country": "US",
+       "previous_school": "Brighton",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kyle-leydon/8679"
+      },
+      {
+       "name": "Owen Mackin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Oswego, Ore.",
+       "country": "US",
+       "previous_school": "Jesuit",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-mackin/8311"
+      },
+      {
+       "name": "Radley Mauney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sioux Falls, S.D.",
+       "country": "US",
+       "previous_school": "O'Gorman",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/radley-mauney/9421"
+      },
+      {
+       "name": "Owen Price",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tacoma, Wash.",
+       "country": "US",
+       "previous_school": "Bellarmine",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-price/9422"
+      },
+      {
+       "name": "Jackson Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dakota Dunes, S.D.",
+       "country": "US",
+       "previous_school": "Sioux City (Iowa) Bishop Heelan",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jackson-thompson/8004"
+      },
+      {
+       "name": "Charlie Zielinski",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Skutt Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/charlie-zielinski/8005"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Wes Bernt",
+       "title": "Head Coach",
+       "email": "wesleybernt@creighton.edu",
+       "phone": null,
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/wes-bernt/4483"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Boor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Creighton Prep",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-boor/8305"
+      },
+      {
+       "name": "Kolby Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Westside",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kolby-brown/8858"
+      },
+      {
+       "name": "Shaun Campbell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tauranga, New Zealand",
+       "country": "NZ",
+       "previous_school": "Aquinas College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/shaun-campbell/7999"
+      },
+      {
+       "name": "Cole Davis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Marshalltown, Iowa",
+       "country": "US",
+       "previous_school": "Marshalltown",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cole-davis/8307"
+      },
+      {
+       "name": "Grant Feldman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Westlake",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/grant-feldman/8859"
+      },
+      {
+       "name": "Jake Kluver",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Norfolk, Neb.",
+       "country": "US",
+       "previous_school": "Norfolk",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-kluver/8002"
+      },
+      {
+       "name": "Owen Mackin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Oswego, Ore.",
+       "country": "US",
+       "previous_school": "Jesuit",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-mackin/8311"
+      },
+      {
+       "name": "Cade McCallum",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grand Island, Neb.",
+       "country": "US",
+       "previous_school": "Senior HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cade-mccallum/7615"
+      },
+      {
+       "name": "Tristan Nelko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Plymouth, Minn.",
+       "country": "US",
+       "previous_school": "Wayzata",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/tristan-nelko/7620"
+      },
+      {
+       "name": "Ethan Olson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/ethan-olson/7616"
+      },
+      {
+       "name": "Jack Olson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jack-olson/7617"
+      },
+      {
+       "name": "Jackson Thompson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dakota Dunes, S.D.",
+       "country": "US",
+       "previous_school": "Sioux City (Iowa) Bishop Heelan",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jackson-thompson/8004"
+      },
+      {
+       "name": "Charlie Zielinski",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Skutt Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/charlie-zielinski/8005"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Wes Bernt",
+       "title": "Head Coach",
+       "email": "wesleybernt@creighton.edu",
+       "phone": null,
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/wes-bernt/4483"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Boor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Creighton Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-boor/8305"
+      },
+      {
+       "name": "Shaun Campbell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tauranga, New Zealand",
+       "country": "NZ",
+       "previous_school": "Aquinas College",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/shaun-campbell/7999"
+      },
+      {
+       "name": "Jake Kluver",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norfolk, Neb.",
+       "country": "US",
+       "previous_school": "Norfolk",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-kluver/8002"
+      },
+      {
+       "name": "Tucker Knaak",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Plainview, Neb.",
+       "country": "US",
+       "previous_school": "Plainview",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/tucker-knaak/7185"
+      },
+      {
+       "name": "Owen Mackin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Oswego, Ore.",
+       "country": "US",
+       "previous_school": "Jesuit",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/owen-mackin/8311"
+      },
+      {
+       "name": "Cade McCallum",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grand Island, Neb.",
+       "country": "US",
+       "previous_school": "Senior HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cade-mccallum/7615"
+      },
+      {
+       "name": "Ethan Olson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/ethan-olson/7616"
+      },
+      {
+       "name": "Jack Olson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jack-olson/7617"
+      },
+      {
+       "name": "Jackson Thompson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dakota Dunes, S.D.",
+       "country": "US",
+       "previous_school": "Sioux City (Iowa) Bishop Heelan",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jackson-thompson/8004"
+      },
+      {
+       "name": "Nate Vontz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/nate-vontz/7190"
+      },
+      {
+       "name": "Charlie Zielinski",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Skutt Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/charlie-zielinski/8005"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Judd Cornell",
+       "title": "Head Coach",
+       "email": "JuddCornell@creighton.edu",
+       "phone": "(402) 670-0104",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/judd-cornell/4101"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Kluver",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norfolk, Neb.",
+       "country": "US",
+       "previous_school": "Norfolk",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jake-kluver/8002"
+      },
+      {
+       "name": "Tucker Knaak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Plainview, Neb.",
+       "country": "US",
+       "previous_school": "Plainview",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/tucker-knaak/7185"
+      },
+      {
+       "name": "Cade McCallum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grand Island, Neb.",
+       "country": "US",
+       "previous_school": "Senior HS",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cade-mccallum/7615"
+      },
+      {
+       "name": "Ethan Olson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/ethan-olson/7616"
+      },
+      {
+       "name": "Jack Olson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jack-olson/7617"
+      },
+      {
+       "name": "Brandt Radloff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blair, Neb.",
+       "country": "US",
+       "previous_school": "Blair",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brandt-radloff/6845"
+      },
+      {
+       "name": "Jackson Thompson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dakota Dunes, S.D.",
+       "country": "US",
+       "previous_school": "Sioux City (Iowa) Bishop Heelan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jackson-thompson/8004"
+      },
+      {
+       "name": "Joe Torkelson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Portland, Ore. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/joe-torkelson/6846"
+      },
+      {
+       "name": "Nate Vontz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/nate-vontz/7190"
+      },
+      {
+       "name": "Kevin Wahle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wildwood, Mo.",
+       "country": "US",
+       "previous_school": "DeSmet",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kevin-wahle/6848"
+      },
+      {
+       "name": "Charlie Zielinski",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Skutt Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/charlie-zielinski/8005"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Judd Cornell",
+       "title": "Head Coach",
+       "email": "JuddCornell@creighton.edu",
+       "phone": "(402) 670-0104",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/judd-cornell/4101"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Tucker Knaak",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Plainview, Neb.",
+       "country": "US",
+       "previous_school": "Plainview",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/tucker-knaak/7185"
+      },
+      {
+       "name": "Cade McCallum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grand Island, Neb.",
+       "country": "US",
+       "previous_school": "Senior HS",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/cade-mccallum/7615"
+      },
+      {
+       "name": "Andrew McCormick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Denver, Colo. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/andrew-mccormick/6448"
+      },
+      {
+       "name": "Ethan Olson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/ethan-olson/7616"
+      },
+      {
+       "name": "Jack Olson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fargo, N.D.",
+       "country": "US",
+       "previous_school": "Davies",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jack-olson/7617"
+      },
+      {
+       "name": "Brandt Radloff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blair, Neb.",
+       "country": "US",
+       "previous_school": "Blair",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brandt-radloff/6845"
+      },
+      {
+       "name": "Joe Torkelson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Portland, Ore. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/joe-torkelson/6846"
+      },
+      {
+       "name": "Nate Vontz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/nate-vontz/7190"
+      },
+      {
+       "name": "Kevin Wahle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wildwood, Mo.",
+       "country": "US",
+       "previous_school": "DeSmet",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kevin-wahle/6848"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Judd Cornell",
+       "title": "Head Coach",
+       "email": "JuddCornell@creighton.edu",
+       "phone": "(402) 670-0104",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/judd-cornell/4101"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Brad Keyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brad-keyer/5267"
+      },
+      {
+       "name": "Tucker Knaak",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Plainview, Neb.",
+       "country": "US",
+       "previous_school": "Plainview",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/tucker-knaak/7185"
+      },
+      {
+       "name": "Ben Krapfl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Indianola, Iowa",
+       "country": "US",
+       "previous_school": "Indianola",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/ben-krapfl/5272"
+      },
+      {
+       "name": "Andrew McCormick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Denver, Colo. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/andrew-mccormick/6448"
+      },
+      {
+       "name": "Koy Potthoff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsbluff, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/koy-potthoff/5269"
+      },
+      {
+       "name": "Joe Torkelson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Portland, Ore. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/joe-torkelson/6846"
+      },
+      {
+       "name": "Nate Vontz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/nate-vontz/7190"
+      },
+      {
+       "name": "Kevin Wahle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wildwood, Mo.",
+       "country": "US",
+       "previous_school": "DeSmet",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kevin-wahle/6848"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Bolton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grosse Pointe, Mich.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/charlie-bolton/4976"
+      },
+      {
+       "name": "Mason Jensen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ames, Iowa",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/mason-jensen/4977"
+      },
+      {
+       "name": "Brad Keyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "San Jose State",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/brad-keyer/5267"
+      },
+      {
+       "name": "Andrew McCormick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Denver, Colo.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/andrew-mccormick/6448"
+      },
+      {
+       "name": "Trey Petitt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/trey-petitt/4979"
+      },
+      {
+       "name": "Koy Potthoff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsbluff, Neb.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/koy-potthoff/5269"
+      },
+      {
+       "name": "Joe Torkelson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Portland, Ore. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/joe-torkelson/6846"
+      },
+      {
+       "name": "Nate Vontz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/nate-vontz/7190"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Wiemers",
+       "title": "Head Coach",
+       "email": "ChrisWiemers@creighton.edu",
+       "phone": "(402) 280-5813",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/chris-wiemers/1818"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gocreighton.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Charlie Bolton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grosse Pointe, Mich. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/charlie-bolton/4976"
+      },
+      {
+       "name": "Kade Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oberlin, Kan.",
+       "country": "US",
+       "previous_school": "Oberlin",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/kade-brown/3622"
+      },
+      {
+       "name": "Jonah Buss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Combine Locks, Wis. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/jonah-buss/3623"
+      },
+      {
+       "name": "Alex Greenagle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Independence, Minn. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/alex-greenagle/3624"
+      },
+      {
+       "name": "Andrew Holloway",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsbluff, Neb.",
+       "country": "US",
+       "previous_school": "Scottsbluff Senior",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/andrew-holloway/3625"
+      },
+      {
+       "name": "Mason Jensen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ames, Iowa /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/mason-jensen/4977"
+      },
+      {
+       "name": "Josh McCollum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/josh-mccollum/3627"
+      },
+      {
+       "name": "Andrew McCormick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Denver, Colo. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/andrew-mccormick/6448"
+      },
+      {
+       "name": "Michael Mozilo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pasadena, Calif. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/michael-mozilo/3628"
+      },
+      {
+       "name": "Trey Petitt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lincoln, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/trey-petitt/4979"
+      },
+      {
+       "name": "Koy Potthoff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsbluff, Neb. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/koy-potthoff/5269"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chris Wiemers",
+       "title": "Head Coach",
+       "email": "ChrisWiemers@creighton.edu",
+       "phone": "(402) 280-5813",
+       "profile_url": "https://gocreighton.com/sports/mens-golf/roster/coaches/chris-wiemers/1818"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gocreighton.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Aeschleman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Highlands Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Mountain Vista",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/abby-aeschleman/9100"
+      },
+      {
+       "name": "Morgan Becker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fort Worth, Texas",
+       "country": "US",
+       "previous_school": "Oklahoma Baptist",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/morgan-becker/8849"
+      },
+      {
+       "name": "Annie Dawson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Xavier Preparatory",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/annie-dawson/9101"
+      },
+      {
+       "name": "Julia Karmazin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Elkhorn North",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/julia-karmazin/9102"
+      },
+      {
+       "name": "Kayla Maletto",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sinking Spring, Pa.",
+       "country": "US",
+       "previous_school": "Wilson",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kayla-maletto/9103"
+      },
+      {
+       "name": "Katharine Marshall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Elburn, Ill.",
+       "country": "US",
+       "previous_school": "Kaneland",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katharine-marshall/9104"
+      },
+      {
+       "name": "Karsen Morrison",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Platte, Neb.",
+       "country": "US",
+       "previous_school": "North Platte",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/karsen-morrison/9105"
+      },
+      {
+       "name": "Madison Murnan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Marian",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/madison-murnan/9106"
+      },
+      {
+       "name": "Adysn Schachtel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Alcuin School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/adysn-schachtel/9107"
+      },
+      {
+       "name": "Kinsley Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Saint Mary's School",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kinsley-smith/9108"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Aeschleman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Highlands Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Mountain Vista",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/abby-aeschleman/9100"
+      },
+      {
+       "name": "Morgan Becker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fort Worth, Texas",
+       "country": "US",
+       "previous_school": "Oklahoma Baptist",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/morgan-becker/8849"
+      },
+      {
+       "name": "Annie Dawson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Xavier Preparatory",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/annie-dawson/9101"
+      },
+      {
+       "name": "Julia Karmazin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Elkhorn North",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/julia-karmazin/9102"
+      },
+      {
+       "name": "Kayla Maletto",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sinking Spring, Pa.",
+       "country": "US",
+       "previous_school": "Wilson",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kayla-maletto/9103"
+      },
+      {
+       "name": "Katharine Marshall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Elburn, Ill.",
+       "country": "US",
+       "previous_school": "Kaneland",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katharine-marshall/9104"
+      },
+      {
+       "name": "Karsen Morrison",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Platte, Neb.",
+       "country": "US",
+       "previous_school": "North Platte",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/karsen-morrison/9105"
+      },
+      {
+       "name": "Kinsley Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Raleigh, N.C.",
+       "country": "US",
+       "previous_school": "Saint Mary's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kinsley-smith/9108"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Abby Aeschleman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Highlands Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Mountain Vista",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/abby-aeschleman/9100"
+      },
+      {
+       "name": "Katie Berrian",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Regis Jesuit",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-berrian/7880"
+      },
+      {
+       "name": "Annie Dawson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Xavier Preparatory",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/annie-dawson/9101"
+      },
+      {
+       "name": "Eleanor Hudepohl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/eleanor-hudepohl/7881"
+      },
+      {
+       "name": "Katharine Marshall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elburn, Ill.",
+       "country": "US",
+       "previous_school": "Kaneland",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katharine-marshall/9104"
+      },
+      {
+       "name": "Karsen Morrison",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Platte, Neb.",
+       "country": "US",
+       "previous_school": "North Platte",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/karsen-morrison/9105"
+      },
+      {
+       "name": "Annika Yturralde",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Steele Canyon",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/annika-yturralde/7882"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katie Allen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-allen/7492"
+      },
+      {
+       "name": "Katie Berrian",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Regis Jesuit",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-berrian/7880"
+      },
+      {
+       "name": "Mia Gaboriau",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Coppell",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/mia-gaboriau/7498"
+      },
+      {
+       "name": "Eleanor Hudepohl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/eleanor-hudepohl/7881"
+      },
+      {
+       "name": "Katherine Lemke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katherine-lemke/7495"
+      },
+      {
+       "name": "Claire Orcutt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mankato, Minn.",
+       "country": "US",
+       "previous_school": "Loyola Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/claire-orcutt/7496"
+      },
+      {
+       "name": "Gabby Tremblay",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hayward, Wis.",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary's (Minn.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/gabby-tremblay/7497"
+      },
+      {
+       "name": "Annika Yturralde",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "La Mesa, Calif.",
+       "country": "US",
+       "previous_school": "Steele Canyon",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/annika-yturralde/7882"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katie Allen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-allen/7492"
+      },
+      {
+       "name": "Katie Berrian",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Regis Jesuit",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-berrian/7880"
+      },
+      {
+       "name": "Kristin Goertz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Duchesne Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kristin-goertz/7196"
+      },
+      {
+       "name": "Eleanor Hudepohl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Ursuline Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/eleanor-hudepohl/7881"
+      },
+      {
+       "name": "Katherine Lemke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneva, Ill.",
+       "country": "US",
+       "previous_school": "St. Francis",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katherine-lemke/7495"
+      },
+      {
+       "name": "Claire Orcutt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mankato, Minn.",
+       "country": "US",
+       "previous_school": "Loyola Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/claire-orcutt/7496"
+      },
+      {
+       "name": "Darby Rickel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Spokane, Wash.",
+       "country": "US",
+       "previous_school": "Lewis and Clark",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/darby-rickel/7198"
+      },
+      {
+       "name": "Gabby Tremblay",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hayward, Wis.",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary's (Minn.)",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/gabby-tremblay/7497"
+      },
+      {
+       "name": "Katie Wilson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-wilson/7200"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katie Allen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-allen/7492"
+      },
+      {
+       "name": "Katie Berrian",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Regis Jesuit",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-berrian/7880"
+      },
+      {
+       "name": "Kristin Goertz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Duchesne Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kristin-goertz/7196"
+      },
+      {
+       "name": "Margaret Hickey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/margaret-hickey/6854"
+      },
+      {
+       "name": "Amelia Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castle Pines, Colo.",
+       "country": "US",
+       "previous_school": "Rock Canyon",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/amelia-lee/6855"
+      },
+      {
+       "name": "Claire Orcutt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mankato, Minn.",
+       "country": "US",
+       "previous_school": "Loyola Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/claire-orcutt/7496"
+      },
+      {
+       "name": "Darby Rickel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Spokane, Wash.",
+       "country": "US",
+       "previous_school": "Lewis and Clark",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/darby-rickel/7198"
+      },
+      {
+       "name": "Gabby Tremblay",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hayward, Wis.",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary's (Minn.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/gabby-tremblay/7497"
+      },
+      {
+       "name": "Katie Wilson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-wilson/7200"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katie Allen",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-allen/7492"
+      },
+      {
+       "name": "Delaney Benson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Littleton, Colo.",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/delaney-benson/6428"
+      },
+      {
+       "name": "Kristin Goertz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Duchesne Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kristin-goertz/7196"
+      },
+      {
+       "name": "Margaret Hickey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/margaret-hickey/6854"
+      },
+      {
+       "name": "Amelia Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castle Pines, Colo.",
+       "country": "US",
+       "previous_school": "Rock Canyon",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/amelia-lee/6855"
+      },
+      {
+       "name": "Claire Orcutt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mankato, Minn.",
+       "country": "US",
+       "previous_school": "Loyola Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/claire-orcutt/7496"
+      },
+      {
+       "name": "Gabby Tremblay",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hayward, Wis.",
+       "country": "US",
+       "previous_school": "Shattuck-St. Mary's (Minn.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/gabby-tremblay/7497"
+      },
+      {
+       "name": "Katie Wilson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-wilson/7200"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Katie Allen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Phoenix, Ariz.",
+       "country": "US",
+       "previous_school": "Pinnacle",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-allen/7492"
+      },
+      {
+       "name": "Delaney Benson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Littleton, Colo.",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/delaney-benson/6428"
+      },
+      {
+       "name": "Sydney Gillespie",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Highlands Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Christian College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/sydney-gillespie/5131"
+      },
+      {
+       "name": "Kristin Goertz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Duchesne Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kristin-goertz/7196"
+      },
+      {
+       "name": "Rachel Grenko",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sioux City, Iowa",
+       "country": "US",
+       "previous_school": "Hinton",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/rachel-grenko/5132"
+      },
+      {
+       "name": "Margaret Hickey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/margaret-hickey/6854"
+      },
+      {
+       "name": "Kelsey Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sioux Falls, S.D.",
+       "country": "US",
+       "previous_school": "O'Gorman",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kelsey-johnson/5134"
+      },
+      {
+       "name": "Caroline Lake",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/caroline-lake/5135"
+      },
+      {
+       "name": "Amelia Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Pines, Colo.",
+       "country": "US",
+       "previous_school": "Rock Canyon",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/amelia-lee/6855"
+      },
+      {
+       "name": "Katie Wilson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Preparatory",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/katie-wilson/7200"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Delaney Benson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Littleton, Colo.",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/delaney-benson/6428"
+      },
+      {
+       "name": "Sarah Eversman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/sarah-eversman/3837"
+      },
+      {
+       "name": "Sydney Gillespie",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Highlands Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Christian College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/sydney-gillespie/5131"
+      },
+      {
+       "name": "Rachel Grenko",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sioux City, Iowa",
+       "country": "US",
+       "previous_school": "Hinton",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/rachel-grenko/5132"
+      },
+      {
+       "name": "Margaret Hickey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Glencoe, Ill.",
+       "country": "US",
+       "previous_school": "Loyola Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/margaret-hickey/6854"
+      },
+      {
+       "name": "Kelsey Johnson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sioux Falls, S.D.",
+       "country": "US",
+       "previous_school": "O'Gorman",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kelsey-johnson/5134"
+      },
+      {
+       "name": "Caroline Lake",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/caroline-lake/5135"
+      },
+      {
+       "name": "Amelia Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Castle Pines, Colo.",
+       "country": "US",
+       "previous_school": "Rock Canyon",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/amelia-lee/6855"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gocreighton.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Delaney Benson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Littleton, Colo.",
+       "country": "US",
+       "previous_school": "Heritage",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/delaney-benson/6428"
+      },
+      {
+       "name": "Sarah Eversman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": "Notre Dame Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/sarah-eversman/3837"
+      },
+      {
+       "name": "Sydney Gillespie",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Highlands Ranch, Colo.",
+       "country": "US",
+       "previous_school": "Christian College",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/sydney-gillespie/5131"
+      },
+      {
+       "name": "Rachel Grenko",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sioux City, Iowa",
+       "country": "US",
+       "previous_school": "Hinton",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/rachel-grenko/5132"
+      },
+      {
+       "name": "Kelsey Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sioux Falls, S.D.",
+       "country": "US",
+       "previous_school": "O'Gorman",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kelsey-johnson/5134"
+      },
+      {
+       "name": "Caroline Lake",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, Wis.",
+       "country": "US",
+       "previous_school": "Edgewood",
+       "class_raw": "So.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/caroline-lake/5135"
+      },
+      {
+       "name": "Annie Pearson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Omaha, Neb.",
+       "country": "US",
+       "previous_school": "Elkhorn South",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/annie-pearson/3550"
+      },
+      {
+       "name": "Kelsey Petersen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Loveland, Colo.",
+       "country": "US",
+       "previous_school": "Loveland",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/kelsey-petersen/3551"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Debbie Conry",
+       "title": "Head Coach",
+       "email": "dmcbluejayGolf@aol.com",
+       "phone": "(402) 280-1722",
+       "profile_url": "https://gocreighton.com/sports/womens-golf/roster/coaches/debbie-conry/4448"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gocreighton.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gocreighton.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gocreighton.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gocreighton.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gocreighton.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

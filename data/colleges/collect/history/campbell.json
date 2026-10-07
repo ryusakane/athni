@@ -1,36 +1,2274 @@
 {
  "slug": "campbell",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gocamels.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Adrian Bergqvist",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Birgittaskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/adrian-bergqvist/11105"
+      },
+      {
+       "name": "Petter Dale",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Herdla, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/petter-dale/11075"
+      },
+      {
+       "name": "Malik Dao",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Notre-Dame-de’I’ll-Perrot, Quebec",
+       "country": "CA",
+       "previous_school": "Eastern Kentucky",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/malik-dao/11076"
+      },
+      {
+       "name": "Logan Graf",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Sylvan Lake, Alberta",
+       "country": "CA",
+       "previous_school": "Eastern Michigan",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/logan-graf/11077"
+      },
+      {
+       "name": "Erik Johansson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "Sundsgymnasiet",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/erik-johansson/11078"
+      },
+      {
+       "name": "Benjamin Killingstad",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Blommenholm, Norway",
+       "country": "NO",
+       "previous_school": "NTG",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/benjamin-killingstad/11079"
+      },
+      {
+       "name": "Joachim Larsen Tegner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lier, Norway",
+       "country": "NO",
+       "previous_school": "Wang Top Sport",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/joachim-larsen-tegner/11080"
+      },
+      {
+       "name": "William Sundborn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Top Sport Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/william-sundborn/11106"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Matt Moot",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/1294"
+      },
+      {
+       "name": "John Crooks",
+       "title": "Director of Golf",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/1293"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Henric Bjelke",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Calmare Internationella Skola",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henric-bjelke/10541"
+      },
+      {
+       "name": "Petter Dale",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Herdla, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/petter-dale/10542"
+      },
+      {
+       "name": "Malik Dao",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Notre-Dame-de’I’ll-Perrot, Quebec",
+       "country": "CA",
+       "previous_school": "Eastern Kentucky",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/malik-dao/10549"
+      },
+      {
+       "name": "Logan Graf",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Sylvan Lake, Alberta",
+       "country": "CA",
+       "previous_school": "Eastern Michigan",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/logan-graf/10548"
+      },
+      {
+       "name": "Erik Johansson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "Sundsgymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/erik-johansson/10543"
+      },
+      {
+       "name": "Benjamin Killingstad",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Blommenholm, Norway",
+       "country": "NO",
+       "previous_school": "NTG",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/benjamin-killingstad/10547"
+      },
+      {
+       "name": "Joachim Larsen Tegner",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lier, Norway",
+       "country": "NO",
+       "previous_school": "Wang Top Sport",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/joachim-larsen-tegner/10544"
+      },
+      {
+       "name": "Garnet Manley III",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": "Jefferson Forest",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/garnet-manley-iii/10545"
+      },
+      {
+       "name": "Douglas Nordlof",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saltsjobaden, Sweden",
+       "country": "SE",
+       "previous_school": "Bluefield State",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/douglas-nordlof/10546"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/1186"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/1187"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Henric Bjelke",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Calmare Internationella Skola",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henric-bjelke/9871"
+      },
+      {
+       "name": "Alejandro Cogollo",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "IES Joaquin Blume",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/alejandro-cogollo/9872"
+      },
+      {
+       "name": "Petter Dale",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Herdla, Norway",
+       "country": "NO",
+       "previous_school": "Wang Toppidrett",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/petter-dale/9877"
+      },
+      {
+       "name": "Tim Holmberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/tim-holmberg/9873"
+      },
+      {
+       "name": "Erik Johansson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "Sundsgymnasiet",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/erik-johansson/9878"
+      },
+      {
+       "name": "Joachim Larsen Tegner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lier, Norway",
+       "country": "NO",
+       "previous_school": "Wang Top Sport",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/joachim-larsen-tegner/9879"
+      },
+      {
+       "name": "Garnet Manley III",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": "Jefferson Forest",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/garnet-manley-iii/9874"
+      },
+      {
+       "name": "Douglas Nordlof",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saltsjobaden, Sweden",
+       "country": "SE",
+       "previous_school": "Bluefield State",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/douglas-nordlof/9875"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/1065"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/1067"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Henric Bjelke",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Calmare Internationella Skola",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henric-bjelke/9337"
+      },
+      {
+       "name": "Edwin Blomander",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eksjo, Sweden",
+       "country": "SE",
+       "previous_school": "Rogers State",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/edwin-blomander/9338"
+      },
+      {
+       "name": "Claude Churchward",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Calignac, France",
+       "country": "FR",
+       "previous_school": "Lycee George Sand Nerac",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/claude-churchward/9339"
+      },
+      {
+       "name": "Alejandro Cogollo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "IES Joaquin Blume",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/alejandro-cogollo/9340"
+      },
+      {
+       "name": "Petter Hagberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Avesta, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/petter-hagberg/9341"
+      },
+      {
+       "name": "Tim Holmberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/tim-holmberg/9346"
+      },
+      {
+       "name": "Rasmus Jonasson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Kitas Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/rasmus-jonasson/9342"
+      },
+      {
+       "name": "Romain Lanteri",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Reunion Island, France",
+       "country": "FR",
+       "previous_school": "Academie International des Metiers du Golf",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/romain-lanteri/9343"
+      },
+      {
+       "name": "Henrik Lilja",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henrik-lilja/9344"
+      },
+      {
+       "name": "Garnet Manley III",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": "Jefferson Forest",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/garnet-manley-iii/9345"
+      },
+      {
+       "name": "Douglas Nordlof",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saltsjobaden, Sweden",
+       "country": "SE",
+       "previous_school": "Bluefield State",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/douglas-nordlof/9347"
+      },
+      {
+       "name": "Amadeus Susanto",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yogyakarta, Indonesia",
+       "country": "ID",
+       "previous_school": "Hills Golf Academy (Australia)",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/amadeus-susanto/9348"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/963"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/974"
+      },
+      {
+       "name": "Ashley Sease",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/ashley-sease/964"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Henric Bjelke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oslo, Norway",
+       "country": "NO",
+       "previous_school": "Calmare Internationella Skola",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henric-bjelke/8734"
+      },
+      {
+       "name": "Edwin Blomander",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eksjo, Sweden",
+       "country": "SE",
+       "previous_school": "Rogers State",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/edwin-blomander/8727"
+      },
+      {
+       "name": "Claude Churchward",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Calignac, France",
+       "country": "FR",
+       "previous_school": "Lycee George Sand Nerac",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/claude-churchward/8728"
+      },
+      {
+       "name": "Alejandro Cogollo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "IES Joaquin Blume",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/alejandro-cogollo/8729"
+      },
+      {
+       "name": "Petter Hagberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Avesta, Sweden",
+       "country": "SE",
+       "previous_school": "Bildningscentrum Facetten",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/petter-hagberg/8735"
+      },
+      {
+       "name": "Rasmus Jonasson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Kitas Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/rasmus-jonasson/8736"
+      },
+      {
+       "name": "Romain Lanteri",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Reunion Island, France",
+       "country": "FR",
+       "previous_school": "Academie International des Metiers du Golf",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/romain-lanteri/8730"
+      },
+      {
+       "name": "Henrik Lilja",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henrik-lilja/8731"
+      },
+      {
+       "name": "Garnet Manley III",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": "Jefferson Forest",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/garnet-manley-iii/8732"
+      },
+      {
+       "name": "Jump Winwon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Hilton Head (S.C.) Preparatory",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/jump-winwon/8733"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/853"
+      },
+      {
+       "name": "Ashley Sease",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/ashley-sease/854"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Edwin Blomander",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eksjo, Sweden",
+       "country": "SE",
+       "previous_school": "Rogers State",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/edwin-blomander/8291"
+      },
+      {
+       "name": "Claude Churchward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Calignac, France",
+       "country": "FR",
+       "previous_school": "Lycee George Sand Nerac",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/claude-churchward/8285"
+      },
+      {
+       "name": "Alejandro Cogollo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "IES Joaquin Blume",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/alejandro-cogollo/8286"
+      },
+      {
+       "name": "Josh Hetherington",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Darwin",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/josh-hetherington/8287"
+      },
+      {
+       "name": "Romain Lanteri",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Reunion Island, France",
+       "country": "FR",
+       "previous_school": "Academie International des Metiers du Golf",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/romain-lanteri/8288"
+      },
+      {
+       "name": "Henrik Lilja",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henrik-lilja/8289"
+      },
+      {
+       "name": "Garnet Manley III",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lynchburg, Va.",
+       "country": "US",
+       "previous_school": "Jefferson Forest",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/garnet-manley-iii/8292"
+      },
+      {
+       "name": "Pontus Nyholm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/pontus-nyholm/8290"
+      },
+      {
+       "name": "Jump Winwon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Hilton Head (S.C.) Preparatory",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/jump-winwon/8293"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/786"
+      },
+      {
+       "name": "Ashley Sease",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/ashley-sease/833"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Claude Churchward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Calignac, France",
+       "country": "FR",
+       "previous_school": "Lycee George Sand Nerac",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/claude-churchward/7535"
+      },
+      {
+       "name": "Alejandro Cogollo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Barcelona, Spain",
+       "country": "ES",
+       "previous_school": "IES Joaquin Blume",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/alejandro-cogollo/7536"
+      },
+      {
+       "name": "Josh Hetherington",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Darwin",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/josh-hetherington/7529"
+      },
+      {
+       "name": "Romain Lanteri",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Reunion Island, France",
+       "country": "FR",
+       "previous_school": "Academie International des Metiers du Golf",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/romain-lanteri/7530"
+      },
+      {
+       "name": "Henrik Lilja",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henrik-lilja/7531"
+      },
+      {
+       "name": "Pontus Nyholm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/pontus-nyholm/7532"
+      },
+      {
+       "name": "Max Theodorakis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Danbury, Conn.",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/max-theodorakis/7533"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/635"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/636"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Josh Hetherington",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Darwin",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/josh-hetherington/7185"
+      },
+      {
+       "name": "Ray Kraivixien",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Bangkok Prep International School",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/ray-kraivixien/7186"
+      },
+      {
+       "name": "Romain Lanteri",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Reunion Island, France",
+       "country": "FR",
+       "previous_school": "Academie International des Metiers du Golf",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/romain-lanteri/7304"
+      },
+      {
+       "name": "Henrik Lilja",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/henrik-lilja/7191"
+      },
+      {
+       "name": "Brett McLamb",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Coats, N.C.",
+       "country": "US",
+       "previous_school": "Triton",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/brett-mclamb/7187"
+      },
+      {
+       "name": "Pontus Nyholm",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/pontus-nyholm/7188"
+      },
+      {
+       "name": "Jesper Svensson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Balsta, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/jesper-svensson/7189"
+      },
+      {
+       "name": "Max Theodorakis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Danbury, Conn.",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/max-theodorakis/7190"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/551"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/552"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/c-c-buford/553"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Josh Hetherington",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Darwin",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/josh-hetherington/6039"
+      },
+      {
+       "name": "Ray Kraivixien",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Bangkok Prep International School",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/ray-kraivixien/6040"
+      },
+      {
+       "name": "Carl Kreibich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cologne, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Koln-Pesch",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/carl-kreibich/6041"
+      },
+      {
+       "name": "Thomas La Morte",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Demarest, N.J.",
+       "country": "US",
+       "previous_school": "Northern Valley Regional",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/thomas-la-morte/6042"
+      },
+      {
+       "name": "Brett McLamb",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Coats, N.C.",
+       "country": "US",
+       "previous_school": "Triton",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/brett-mclamb/6043"
+      },
+      {
+       "name": "Pontus Nyholm",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/pontus-nyholm/6045"
+      },
+      {
+       "name": "Jesper Svensson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Balsta, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/jesper-svensson/6046"
+      },
+      {
+       "name": "Max Theodorakis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Danbury, Conn.",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/max-theodorakis/6372"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/427"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/428"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/c-c-buford/429"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gocamels.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gaston Bertinotti",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cordoba, Argentina",
+       "country": "AR",
+       "previous_school": "Rosarito Vera Penaloza",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/gaston-bertinotti/2367"
+      },
+      {
+       "name": "Josh Goheen",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greely, Ontario",
+       "country": "CA",
+       "previous_school": "Louis Riel",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/josh-goheen/2368"
+      },
+      {
+       "name": "Craig Hornberger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lancaster, Pa.",
+       "country": "US",
+       "previous_school": "Manheim Township",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/craig-hornberger/2369"
+      },
+      {
+       "name": "Ray Kraivixien",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Bangkok Prep International School",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/ray-kraivixien/2370"
+      },
+      {
+       "name": "Carl Kreibich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cologne, Germany",
+       "country": "DE",
+       "previous_school": "Gymnasium Koln-Pesch",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/carl-kreibich/2371"
+      },
+      {
+       "name": "Thomas La Morte",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Demarest, N.J.",
+       "country": "US",
+       "previous_school": "Northern Valley Regional",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/thomas-la-morte/2372"
+      },
+      {
+       "name": "Brett McLamb",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Coats, N.C.",
+       "country": "US",
+       "previous_school": "Triton",
+       "class_raw": "Rs.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/brett-mclamb/2373"
+      },
+      {
+       "name": "Jeremy Nevius",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Metuchen, N.J.",
+       "country": "US",
+       "previous_school": "Metuchen",
+       "class_raw": "Rs.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/jeremy-nevius/2374"
+      },
+      {
+       "name": "Jesper Svensson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Balsta, Sweden",
+       "country": "SE",
+       "previous_school": "National School of Golf",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/jesper-svensson/2375"
+      },
+      {
+       "name": "Max Theodorakis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Danbury, Conn.",
+       "country": "US",
+       "previous_school": "Danbury",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/max-theodorakis/2376"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/john-crooks/313"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/matt-moot/314"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/mens-golf/roster/coaches/c-c-buford/315"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://gocamels.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lohaijany Castillo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Jose, Costa Rica",
+       "country": "CR",
+       "previous_school": "St. Jude School",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/lohaijany-castillo/11671"
+      },
+      {
+       "name": "Taylah Ellems",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Merici College",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/taylah-ellems/11081"
+      },
+      {
+       "name": "Izabella Grimbrandt",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/izabella-grimbrandt/11082"
+      },
+      {
+       "name": "Fanni Gronlund",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kirkkonummi, Finland",
+       "country": "FI",
+       "previous_school": "Haukilahti",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/fanni-gronlund/11083"
+      },
+      {
+       "name": "Isabella Hahne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kungsbacka, Sweden",
+       "country": "SE",
+       "previous_school": "Kitas Gymnasium",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabella-hahne/11084"
+      },
+      {
+       "name": "Evie McCallum",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Limekilns, Scotland",
+       "country": "GB",
+       "previous_school": "St George’s",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/evie-mccallum/11085"
+      },
+      {
+       "name": "Jade Potter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edinburgh, Scotland",
+       "country": "GB",
+       "previous_school": "Loretto",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/jade-potter/11086"
+      },
+      {
+       "name": "Linn Svedlund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/linn-svedlund/11087"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Director of Golf | Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/1295"
+      },
+      {
+       "name": "Valeria Patino",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/valeria-patino/1296"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mira Berglund",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oernskoeldsvik, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/mira-berglund/10520"
+      },
+      {
+       "name": "Taylah Ellems",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Merici College",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/taylah-ellems/10521"
+      },
+      {
+       "name": "Izabella Grimbrandt",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/izabella-grimbrandt/10522"
+      },
+      {
+       "name": "Fanni Gronlund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kirkkonummi, Finland",
+       "country": "FI",
+       "previous_school": "Haukilahti",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/fanni-gronlund/10539"
+      },
+      {
+       "name": "Isabella Hahne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kungsbacka, Sweden",
+       "country": "SE",
+       "previous_school": "Kitas Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabella-hahne/10523"
+      },
+      {
+       "name": "Evie McCallum",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Limekilns, Scotland",
+       "country": "GB",
+       "previous_school": "St George’s",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/evie-mccallum/10540"
+      },
+      {
+       "name": "Alicia Olsson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Amal, Sweden",
+       "country": "SE",
+       "previous_school": "Filbornaskolan",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/alicia-olsson/10524"
+      },
+      {
+       "name": "Jade Potter",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edinburgh, Scotland",
+       "country": "GB",
+       "previous_school": "Loretto",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/jade-potter/10525"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/1180"
+      },
+      {
+       "name": "Valeria Patino",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/valeria-patino/1204"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mira Berglund",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Oernskoeldsvik, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/mira-berglund/9867"
+      },
+      {
+       "name": "Taylah Ellems",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Merici College",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/taylah-ellems/9862"
+      },
+      {
+       "name": "Izabella Grimbrandt",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "R-So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/izabella-grimbrandt/9863"
+      },
+      {
+       "name": "Isabella Hahne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kungsbacka, Sweden",
+       "country": "SE",
+       "previous_school": "Kitas Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabella-hahne/9864"
+      },
+      {
+       "name": "Sanna Lundmark",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Skellefeå, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/sanna-lundmark/9865"
+      },
+      {
+       "name": "Alicia Olsson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Amal, Sweden",
+       "country": "SE",
+       "previous_school": "Filbornaskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/alicia-olsson/9869"
+      },
+      {
+       "name": "Jade Potter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edinburgh, Scotland",
+       "country": "GB",
+       "previous_school": "Loretto",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/jade-potter/9870"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/1063"
+      },
+      {
+       "name": "Ashley Sease",
+       "title": "Associate Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/ashley-sease/1064"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tomita Arejola",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "Fairleigh Dickinson",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/tomita-arejola/9349"
+      },
+      {
+       "name": "Taylah Ellems",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Merici College",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/taylah-ellems/9350"
+      },
+      {
+       "name": "Patricia Garre Munoz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murcia, Spain",
+       "country": "ES",
+       "previous_school": "IES Ortega y Gasset",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/patricia-garre-munoz/9351"
+      },
+      {
+       "name": "Izabella Grimbrandt",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/izabella-grimbrandt/9352"
+      },
+      {
+       "name": "Isabella Hahne",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kungsbacka, Sweden",
+       "country": "SE",
+       "previous_school": "Kitas Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabella-hahne/9354"
+      },
+      {
+       "name": "Sanna Lundmark",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Skellefeå, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/sanna-lundmark/9353"
+      },
+      {
+       "name": "Emily Martin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gold Coast, Australia",
+       "country": "AU",
+       "previous_school": "St. Andrews Lutheran College",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-martin/9355"
+      },
+      {
+       "name": "Silka Solomon",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Lake Ginninderra College",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/silka-solomon/9356"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/965"
+      },
+      {
+       "name": "Ashley Sease",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/ashley-sease/975"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tomita Arejola",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "Fairleigh Dickinson",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/tomita-arejola/8737"
+      },
+      {
+       "name": "Taylah Ellems",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canberra, Australia",
+       "country": "AU",
+       "previous_school": "Merici College",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/taylah-ellems/8744"
+      },
+      {
+       "name": "Julie Fiedler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "New Bern, N.C.",
+       "country": "US",
+       "previous_school": "New Bern",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/julie-fiedler/8745"
+      },
+      {
+       "name": "Patricia Garre Munoz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murcia, Spain",
+       "country": "ES",
+       "previous_school": "IES Ortega y Gasset",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/patricia-garre-munoz/8738"
+      },
+      {
+       "name": "Izabella Grimbrandt",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/izabella-grimbrandt/8746"
+      },
+      {
+       "name": "Emily Hawkins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, N.C.",
+       "country": "US",
+       "previous_school": "Veritas Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-hawkins/8739"
+      },
+      {
+       "name": "Sanna Lundmark",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Skellefeå, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/sanna-lundmark/8740"
+      },
+      {
+       "name": "Emily Mollard",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Les Contamines-Montjoie, France",
+       "country": "FR",
+       "previous_school": "University of Exeter",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-mollard/8741"
+      },
+      {
+       "name": "Anna Nordfors",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-nordfors/8742"
+      },
+      {
+       "name": "Alice Sundberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Djursholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osterakers Gymnasium",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/alice-sundberg/8743"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/855"
+      },
+      {
+       "name": "Lyndsey Hunnell",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/lyndsey-hunnell/856"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tomita Arejola",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "Fairleigh Dickinson",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/tomita-arejola/8300"
+      },
+      {
+       "name": "Isabell Ekstrom",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan Uppsala Kommun",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabell-ekstrom/8294"
+      },
+      {
+       "name": "Patricia Garre Munoz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murcia, Spain",
+       "country": "ES",
+       "previous_school": "IES Ortega y Gasset",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/patricia-garre-munoz/8295"
+      },
+      {
+       "name": "Emily Hawkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, N.C.",
+       "country": "US",
+       "previous_school": "Veritas Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-hawkins/8296"
+      },
+      {
+       "name": "Sasha Hayes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winston-Salem, N.C.",
+       "country": "US",
+       "previous_school": "Reagan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/sasha-hayes/8297"
+      },
+      {
+       "name": "Sanna Lundmark",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Skellefeå, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/sanna-lundmark/8301"
+      },
+      {
+       "name": "Emily Mollard",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Les Contamines-Montjoie, France",
+       "country": "FR",
+       "previous_school": "University of Exeter",
+       "class_raw": "Gr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-mollard/8302"
+      },
+      {
+       "name": "Anna Nordfors",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-nordfors/8298"
+      },
+      {
+       "name": "Alice Sundberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Djursholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osterakers Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/alice-sundberg/8299"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/788"
+      },
+      {
+       "name": "Lyndsey Hunnell",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/lyndsey-hunnell/790"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Desiree Andersson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Helsingborg",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/desiree-andersson/7521"
+      },
+      {
+       "name": "Isabell Ekstrom",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan Uppsala Kommun",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabell-ekstrom/7522"
+      },
+      {
+       "name": "Patricia Garre Munoz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murcia, Spain",
+       "country": "ES",
+       "previous_school": "IES Ortega y Gasset",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/patricia-garre-munoz/7527"
+      },
+      {
+       "name": "Emily Hawkins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, N.C.",
+       "country": "US",
+       "previous_school": "Veritas Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-hawkins/7523"
+      },
+      {
+       "name": "Sasha Hayes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Winston-Salem, N.C.",
+       "country": "US",
+       "previous_school": "Reagan",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/sasha-hayes/7528"
+      },
+      {
+       "name": "Anna Nordfors",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-nordfors/7524"
+      },
+      {
+       "name": "Alice Sundberg",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Djursholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osterakers Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/alice-sundberg/7525"
+      },
+      {
+       "name": "Stacey White",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Cannon Hill Anglican College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/stacey-white/7526"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/632"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/matt-moot/634"
+      },
+      {
+       "name": "Lyndsey Hunnell",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/lyndsey-hunnell/678"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Desiree Andersson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Helsingborg",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/desiree-andersson/7192"
+      },
+      {
+       "name": "Isabell Ekstrom",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan Uppsala Kommun",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabell-ekstrom/7193"
+      },
+      {
+       "name": "Emily Hawkins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, N.C.",
+       "country": "US",
+       "previous_school": "Veritas Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/emily-hawkins/7196"
+      },
+      {
+       "name": "Anna Nordfors",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "Katrinelundsgymnasiet",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-nordfors/7197"
+      },
+      {
+       "name": "Alice Sundberg",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Djursholm, Sweden",
+       "country": "SE",
+       "previous_school": "Osterakers Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/alice-sundberg/7198"
+      },
+      {
+       "name": "Anna Svanka",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Riga, Latvia",
+       "country": "LV",
+       "previous_school": "Riga State Gymnasium",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-svanka/7194"
+      },
+      {
+       "name": "Stacey White",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Cannon Hill Anglican College",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/stacey-white/7195"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/554"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/c-c-buford/555"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/matt-moot/556"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Desiree Andersson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Helsingborg",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/desiree-andersson/6373"
+      },
+      {
+       "name": "Isabell Ekstrom",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Uppsala, Sweden",
+       "country": "SE",
+       "previous_school": "Celsiusskolan Uppsala Kommun",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/isabell-ekstrom/6378"
+      },
+      {
+       "name": "Ayelen Irizar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Rosario Vera Peñaloza",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/ayelen-irizar/6374"
+      },
+      {
+       "name": "Annelie Sjoholm",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Vasteras, Sweden",
+       "country": "SE",
+       "previous_school": "Rig Golf Gymnasium",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/annelie-sjoholm/6375"
+      },
+      {
+       "name": "Anna Svanka",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Riga, Latvia",
+       "country": "LV",
+       "previous_school": "Riga State Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-svanka/6376"
+      },
+      {
+       "name": "Stacey White",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Cannon Hill Anglican College",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/stacey-white/6377"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/424"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/c-c-buford/425"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/matt-moot/426"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gocamels.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Desiree Andersson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hollviken, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Helsingborg",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/desiree-andersson/4354"
+      },
+      {
+       "name": "Ayelen Irizar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buenos Aires, Argentina",
+       "country": "AR",
+       "previous_school": "Rosario Vera Peñaloza",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/ayelen-irizar/4355"
+      },
+      {
+       "name": "Louise Latorre",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pau, France",
+       "country": "FR",
+       "previous_school": "Saint Cricq",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/louise-latorre/4356"
+      },
+      {
+       "name": "Annelie Sjoholm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Vasteras, Sweden",
+       "country": "SE",
+       "previous_school": "Rig Golf Gymnasium",
+       "class_raw": "Jr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/annelie-sjoholm/4357"
+      },
+      {
+       "name": "Anna Svanka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Riga, Latvia",
+       "country": "LV",
+       "previous_school": "Riga State Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/anna-svanka/4358"
+      },
+      {
+       "name": "Nadine White",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Cannon Hill Anglican College",
+       "class_raw": "Sr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/nadine-white/4359"
+      },
+      {
+       "name": "Stacey White",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Brisbane, Australia",
+       "country": "AU",
+       "previous_school": "Cannon Hill Anglican College",
+       "class_raw": "Fr.",
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/stacey-white/4360"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "John Crooks",
+       "title": "Head Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/john-crooks/80"
+      },
+      {
+       "name": "C.C. Buford",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/c-c-buford/84"
+      },
+      {
+       "name": "Matt Moot",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://gocamels.com/sports/womens-golf/roster/coaches/matt-moot/86"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gocamels.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gocamels.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://gocamels.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gocamels.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gocamels.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

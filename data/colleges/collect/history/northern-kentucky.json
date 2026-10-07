@@ -1,36 +1,2545 @@
 {
  "slug": "northern-kentucky",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://nkunorse.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zack Beard",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/zack-beard/6894"
+      },
+      {
+       "name": "Micah Bertram",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Louisville, KY",
+       "country": "US",
+       "previous_school": "Ballard HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/micah-bertram/6895"
+      },
+      {
+       "name": "Grant Broughton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Owensboro, KY",
+       "country": "US",
+       "previous_school": "Daviess County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/grant-broughton/6901"
+      },
+      {
+       "name": "Mason Butler",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Florence, KY",
+       "country": "US",
+       "previous_school": "Thomas More",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/mason-butler/6896"
+      },
+      {
+       "name": "Caleb Eaglin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cold Spring, KY",
+       "country": "US",
+       "previous_school": "Newport Central Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/caleb-eaglin/6897"
+      },
+      {
+       "name": "Brady Holmes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Amarillo, TX",
+       "country": "US",
+       "previous_school": "Tascosa",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/brady-holmes/6898"
+      },
+      {
+       "name": "Michael Long",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Louisville, KY",
+       "country": "US",
+       "previous_school": "Austin Peay",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/michael-long/6900"
+      },
+      {
+       "name": "Isaac Moody",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "LaGrange, KY",
+       "country": "US",
+       "previous_school": "Oldham County HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/isaac-moody/6899"
+      },
+      {
+       "name": "Xander Tucker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bardstown, KY",
+       "country": "US",
+       "previous_school": "Bethlehem HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/xander-tucker/6902"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/david-shearer/2164"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zack Beard",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/zack-beard/6109"
+      },
+      {
+       "name": "Micah Bertram",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louisville, KY",
+       "country": "US",
+       "previous_school": "Ballard HS",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/micah-bertram/6110"
+      },
+      {
+       "name": "Mason Butler",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Florence, KY",
+       "country": "US",
+       "previous_school": "Thomas More",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/mason-butler/6116"
+      },
+      {
+       "name": "Caleb Eaglin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cold Spring, KY",
+       "country": "US",
+       "previous_school": "Newport Central Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/caleb-eaglin/6117"
+      },
+      {
+       "name": "Cooper Eberle",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, Ky.",
+       "country": "US",
+       "previous_school": "Eastern Michigan",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/cooper-eberle/6433"
+      },
+      {
+       "name": "Justin Gabbard",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fort Thomas, KY",
+       "country": "US",
+       "previous_school": "Xavier",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/justin-gabbard/6115"
+      },
+      {
+       "name": "Brady Holmes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Amarillo, TX",
+       "country": "US",
+       "previous_school": "Tascosa",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/brady-holmes/6118"
+      },
+      {
+       "name": "Tyler Mitts",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/tyler-mitts/6111"
+      },
+      {
+       "name": "Isaac Moody",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "LaGrange, KY",
+       "country": "US",
+       "previous_school": "Oldham County HS",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/isaac-moody/6112"
+      },
+      {
+       "name": "Luke Muller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fort Thomas, Ky.",
+       "country": "US",
+       "previous_school": "Highlands HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/luke-muller/6113"
+      },
+      {
+       "name": "Evan Stewart",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hebron, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/evan-stewart/6114"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/david-shearer/2059"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zack Beard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/zack-beard/5870"
+      },
+      {
+       "name": "Micah Bertram",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, KY",
+       "country": "US",
+       "previous_school": "Ballard HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/micah-bertram/5878"
+      },
+      {
+       "name": "Jackson Hill",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville-North Hopkins",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jackson-hill/5871"
+      },
+      {
+       "name": "Ryan Mitts",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Gr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ryan-mitts/5872"
+      },
+      {
+       "name": "Tyler Mitts",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/tyler-mitts/5873"
+      },
+      {
+       "name": "Isaac Moody",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "LaGrange, KY",
+       "country": "US",
+       "previous_school": "Oldham County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/isaac-moody/5879"
+      },
+      {
+       "name": "Luke Muller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fort Thomas, Ky.",
+       "country": "US",
+       "previous_school": "Highlands HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/luke-muller/5874"
+      },
+      {
+       "name": "Miles Parroco",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Ballard HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/miles-parroco/5875"
+      },
+      {
+       "name": "Nick Sawyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Centre, Ala.",
+       "country": "US",
+       "previous_school": "Jacksonville State",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/nick-sawyer/5876"
+      },
+      {
+       "name": "Evan Stewart",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hebron, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/evan-stewart/5877"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/david-shearer/1999"
+      },
+      {
+       "name": "Alex Doss",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/alex-doss/2014"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zack Beard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "St. Xavier",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/zack-beard/5527"
+      },
+      {
+       "name": "Alex Doss",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Gr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/alex-doss/5521"
+      },
+      {
+       "name": "Jackson Hill",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madisonville, Ky.",
+       "country": "US",
+       "previous_school": "Madisonville-North Hopkins",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jackson-hill/5528"
+      },
+      {
+       "name": "Jack Kuhlman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jack-kuhlman/5522"
+      },
+      {
+       "name": "Ryan Mitts",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ryan-mitts/5523"
+      },
+      {
+       "name": "Tyler Mitts",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/tyler-mitts/5524"
+      },
+      {
+       "name": "Luke Muller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fort Thomas, Ky.",
+       "country": "US",
+       "previous_school": "Highlands HS",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/luke-muller/5525"
+      },
+      {
+       "name": "Miles Parroco",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Ballard HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/miles-parroco/5526"
+      },
+      {
+       "name": "Nick Sawyer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centre, Ala.",
+       "country": "US",
+       "previous_school": "Jacksonville State",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/nick-sawyer/5529"
+      },
+      {
+       "name": "Evan Stewart",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hebron, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/evan-stewart/5530"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/david-shearer/1924"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Ryan Butler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ryan-butler/5319"
+      },
+      {
+       "name": "Alex Doss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/alex-doss/5314"
+      },
+      {
+       "name": "Avery Green",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/avery-green/5315"
+      },
+      {
+       "name": "Brady Howell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Kentucky",
+       "country": "US",
+       "previous_school": "Henry Clay",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/brady-howell/5316"
+      },
+      {
+       "name": "Jack Kuhlman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dublin, Ohio",
+       "country": "US",
+       "previous_school": "Dublin Jerome",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jack-kuhlman/5320"
+      },
+      {
+       "name": "Ryan Mitts",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ryan-mitts/5317"
+      },
+      {
+       "name": "Tyler Mitts",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/tyler-mitts/5321"
+      },
+      {
+       "name": "Luke Muller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fort Thomas, Ky.",
+       "country": "US",
+       "previous_school": "Highlands HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/luke-muller/5322"
+      },
+      {
+       "name": "Miles Parroco",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Prospect, Ky.",
+       "country": "US",
+       "previous_school": "Ballard HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/miles-parroco/5323"
+      },
+      {
+       "name": "Evan Stewart",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hebron, Ky.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/evan-stewart/5324"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/daryl-landrum/1878"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/larry-travis/1880"
+      },
+      {
+       "name": "David Shearer",
+       "title": "Assistant Men's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/david-shearer/1903"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joseph Clark",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pearisburg, Va.",
+       "country": "US",
+       "previous_school": "Giles High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/joseph-clark/4841"
+      },
+      {
+       "name": "Ty Debonis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "McNicholas",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ty-debonis/4842"
+      },
+      {
+       "name": "Alex Doss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/alex-doss/4843"
+      },
+      {
+       "name": "Avery Green",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/avery-green/4844"
+      },
+      {
+       "name": "Logan Griffin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Verona, Kentucky",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-griffin/4845"
+      },
+      {
+       "name": "Brady Howell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, Kentucky",
+       "country": "US",
+       "previous_school": "Henry Clay",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/brady-howell/4846"
+      },
+      {
+       "name": "Cameron Madden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mason, Ohio",
+       "country": "US",
+       "previous_school": "Mason",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/cameron-madden/4850"
+      },
+      {
+       "name": "Ryan Mitts",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ryan-mitts/4847"
+      },
+      {
+       "name": "Ian Rivers",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Syracuse, New York",
+       "country": "US",
+       "previous_school": "East Syracuse Minoa",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ian-rivers/4848"
+      },
+      {
+       "name": "Jacob Vrolijk",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-vrolijk/4849"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/daryl-landrum/1790"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/larry-travis/1792"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/becky-landrum/1791"
+      },
+      {
+       "name": "Macy Wright",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/macy-wright/1793"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Jack Bies",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jasper, IN",
+       "country": "US",
+       "previous_school": "Jasper High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jack-bies/4499"
+      },
+      {
+       "name": "Joseph Clark",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pearisburg, Va.",
+       "country": "US",
+       "previous_school": "Giles High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/joseph-clark/4319"
+      },
+      {
+       "name": "Ty Debonis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "McNicholas",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ty-debonis/4320"
+      },
+      {
+       "name": "Alex Doss",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/alex-doss/4321"
+      },
+      {
+       "name": "Avery Green",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/avery-green/4322"
+      },
+      {
+       "name": "Logan Griffin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Verona, Kentucky",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-griffin/4323"
+      },
+      {
+       "name": "Brady Howell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, Kentucky",
+       "country": "US",
+       "previous_school": "Henry Clay",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/brady-howell/4324"
+      },
+      {
+       "name": "Ryan Mitts",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Williamstown, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ryan-mitts/4456"
+      },
+      {
+       "name": "Ian Rivers",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Syracuse, New York",
+       "country": "US",
+       "previous_school": "East Syracuse Minoa",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ian-rivers/4457"
+      },
+      {
+       "name": "Jacob Vrolijk",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-vrolijk/4325"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/daryl-landrum/1680"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/larry-travis/1682"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/becky-landrum/1681"
+      },
+      {
+       "name": "Macy Wright",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/macy-wright/1724"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joseph Clark",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pearisburg, Va.",
+       "country": "US",
+       "previous_school": "Giles High School",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/joseph-clark/4012"
+      },
+      {
+       "name": "Ty Debonis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "McNicholas",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ty-debonis/4013"
+      },
+      {
+       "name": "Alex Doss",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/alex-doss/4019"
+      },
+      {
+       "name": "Logan Gamm",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Ryle",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-gamm/4014"
+      },
+      {
+       "name": "Avery Green",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Springfield, Ohio",
+       "country": "US",
+       "previous_school": "Southeastern",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/avery-green/4020"
+      },
+      {
+       "name": "Logan Griffin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Verona, Kentucky",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-griffin/4015"
+      },
+      {
+       "name": "Brady Howell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lexington, Kentucky",
+       "country": "US",
+       "previous_school": "Henry Clay",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/brady-howell/4021"
+      },
+      {
+       "name": "Jacob Poore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Ryle",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-poore/4016"
+      },
+      {
+       "name": "Jacob Vrolijk",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-vrolijk/4018"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/daryl-landrum/1608"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/larry-travis/1610"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/becky-landrum/1609"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Joseph Ampfer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/joseph-ampfer/3979"
+      },
+      {
+       "name": "Joseph Clark",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pearisburg, Va.",
+       "country": "US",
+       "previous_school": "Giles High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/joseph-clark/3805"
+      },
+      {
+       "name": "Ty Debonis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "McNicholas",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/ty-debonis/3806"
+      },
+      {
+       "name": "Jackson Frame",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Maysville, Ky.",
+       "country": "US",
+       "previous_school": "Mason County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jackson-frame/3798"
+      },
+      {
+       "name": "Logan Gamm",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Ryle",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-gamm/3799"
+      },
+      {
+       "name": "Logan Griffin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Verona, Kentucky",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-griffin/3807"
+      },
+      {
+       "name": "Jacob Jackson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nicholasville, Ky.",
+       "country": "US",
+       "previous_school": "East Jessamine",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-jackson/3800"
+      },
+      {
+       "name": "Jacob Poore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Ryle",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-poore/3801"
+      },
+      {
+       "name": "Byron Speach",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Nicholasville, Ky.",
+       "country": "US",
+       "previous_school": "West Jessamine",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/byron-speach/3802"
+      },
+      {
+       "name": "Jacob Vrolijk",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-vrolijk/3809"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/daryl-landrum/1565"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/larry-travis/1585"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/becky-landrum/1567"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://nkunorse.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zach Adams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": "Ryle",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/zach-adams/2599"
+      },
+      {
+       "name": "Jacob Brinker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Amelia, Ohio",
+       "country": "US",
+       "previous_school": "Amelia",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-brinker/2532"
+      },
+      {
+       "name": "Cory Dulle",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Elder",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/cory-dulle/2533"
+      },
+      {
+       "name": "Jackson Frame",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Maysville, Ky.",
+       "country": "US",
+       "previous_school": "Mason County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jackson-frame/2534"
+      },
+      {
+       "name": "Logan Gamm",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Ryle",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/logan-gamm/2535"
+      },
+      {
+       "name": "Jacob Jackson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nicholasville, Ky.",
+       "country": "US",
+       "previous_school": "East Jessamine",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-jackson/2536"
+      },
+      {
+       "name": "Landon Osborne",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Battle Creek, Mich.",
+       "country": "US",
+       "previous_school": "Ashford (Iowa)",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/landon-osborne/2537"
+      },
+      {
+       "name": "Jacob Poore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Union, Ky.",
+       "country": "US",
+       "previous_school": "Ryle",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/jacob-poore/2538"
+      },
+      {
+       "name": "Byron Speach",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nicholasville, Ky.",
+       "country": "US",
+       "previous_school": "West Jessamine",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/byron-speach/2539"
+      },
+      {
+       "name": "Matthew Wetherill",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Moeller",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/matthew-wetherill/2540"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/daryl-landrum/509"
+      },
+      {
+       "name": "David Shearer",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/david-shearer/510"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/mens-golf/roster/coaches/becky-landrum/511"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://nkunorse.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lilly Baumann",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Owenton, KY",
+       "country": "US",
+       "previous_school": "Owen County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lilly-baumann/6903"
+      },
+      {
+       "name": "Ryliann Bednar",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pullman, WA",
+       "country": "US",
+       "previous_school": "Pullman HS",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ryliann-bednar/6904"
+      },
+      {
+       "name": "Ella Hardy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Assumption",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ella-hardy/6905"
+      },
+      {
+       "name": "Kenna Jenkinson",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Greenville, OH",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kenna-jenkinson/6906"
+      },
+      {
+       "name": "Conlee Lindsey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hopkinsville, KY",
+       "country": "US",
+       "previous_school": "University Heights Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/conlee-lindsey/6909"
+      },
+      {
+       "name": "Eva Maley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edgewood, KY",
+       "country": "US",
+       "previous_school": "Cooper HS",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/eva-maley/6907"
+      },
+      {
+       "name": "Cammy Reed",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fairview Park, OH",
+       "country": "US",
+       "previous_school": "Magnificat HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/cammy-reed/6910"
+      },
+      {
+       "name": "Gianna White",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lockport, IL",
+       "country": "US",
+       "previous_school": "Lockport Township East",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/gianna-white/6908"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/david-shearer/2165"
+      },
+      {
+       "name": "Melissa Yeazell",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/melissa-yeazell/2166"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lilly Baumann",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Owenton, KY",
+       "country": "US",
+       "previous_school": "Owen County",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lilly-baumann/6119"
+      },
+      {
+       "name": "Gracie Baun",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/gracie-baun/6120"
+      },
+      {
+       "name": "Ryliann Bednar",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pullman, WA",
+       "country": "US",
+       "previous_school": "Pullman HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ryliann-bednar/6127"
+      },
+      {
+       "name": "Hailey Coleman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Radcliff, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hailey-coleman/6121"
+      },
+      {
+       "name": "Rachel DiDonato",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Green, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/rachel-didonato/6122"
+      },
+      {
+       "name": "Ella Hardy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Assumption",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ella-hardy/6123"
+      },
+      {
+       "name": "Kenna Jenkinson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Greenville, OH",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "R-So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kenna-jenkinson/6125"
+      },
+      {
+       "name": "Eva Maley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edgewood, KY",
+       "country": "US",
+       "previous_school": "Cooper HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/eva-maley/6126"
+      },
+      {
+       "name": "Reagan Nolan",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/reagan-nolan/6124"
+      },
+      {
+       "name": "Gianna White",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lockport, IL",
+       "country": "US",
+       "previous_school": "Lockport Township East",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/gianna-white/6128"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/david-shearer/2061"
+      },
+      {
+       "name": "Melissa Yeazell",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/melissa-yeazell/2062"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lilly Baumann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Owenton, KY",
+       "country": "US",
+       "previous_school": "Owen County",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lilly-baumann/5869"
+      },
+      {
+       "name": "Gracie Baun",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/gracie-baun/5860"
+      },
+      {
+       "name": "Brooke Bihl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newport, Ky.",
+       "country": "US",
+       "previous_school": "Newport Central Catholic",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/brooke-bihl/5861"
+      },
+      {
+       "name": "Hailey Coleman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Radcliff, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hailey-coleman/5862"
+      },
+      {
+       "name": "Abby Cook",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wilder, Ky.",
+       "country": "US",
+       "previous_school": "Bishop Brossart",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/abby-cook/5863"
+      },
+      {
+       "name": "Rachel DiDonato",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Green, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/rachel-didonato/5864"
+      },
+      {
+       "name": "Hannah Hall",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Walton, Ky.",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hannah-hall/5865"
+      },
+      {
+       "name": "Ella Hardy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Assumption",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ella-hardy/5866"
+      },
+      {
+       "name": "Emmanuelle Hewson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "St. George's School",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/emmanuelle-hewson/5867"
+      },
+      {
+       "name": "Reagan Nolan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/reagan-nolan/5868"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Shearer",
+       "title": "Head Men's and Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/david-shearer/1998"
+      },
+      {
+       "name": "Melissa Yeazell",
+       "title": "Assistant Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/melissa-yeazell/2015"
+      },
+      {
+       "name": "Alex Doss",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/alex-doss/2016"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gracie Baun",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/gracie-baun/5511"
+      },
+      {
+       "name": "Brooke Bihl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newport, Ky.",
+       "country": "US",
+       "previous_school": "Newport Central Catholic",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/brooke-bihl/5512"
+      },
+      {
+       "name": "Hailey Coleman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Radcliff, Ky.",
+       "country": "US",
+       "previous_school": "North Hardin",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hailey-coleman/5518"
+      },
+      {
+       "name": "Abby Cook",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wilder, Ky.",
+       "country": "US",
+       "previous_school": "Bishop Brossart",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/abby-cook/5513"
+      },
+      {
+       "name": "Rachel DiDonato",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Green, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/rachel-didonato/5514"
+      },
+      {
+       "name": "Hannah Hall",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Walton, Ky.",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hannah-hall/5515"
+      },
+      {
+       "name": "Ella Hardy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Assumption",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ella-hardy/5519"
+      },
+      {
+       "name": "Emmanuelle Hewson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "St. George's School",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/emmanuelle-hewson/5516"
+      },
+      {
+       "name": "Reagan Nolan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/reagan-nolan/5517"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachel Hyde",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/rachel-hyde/1920"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Gracie Baun",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Powell, Ohio",
+       "country": "US",
+       "previous_school": "Olentangy Liberty",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/gracie-baun/5311"
+      },
+      {
+       "name": "Brooke Bihl",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport, Ky.",
+       "country": "US",
+       "previous_school": "Newport Central Catholic",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/brooke-bihl/5304"
+      },
+      {
+       "name": "Abby Cook",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wilder, Ky.",
+       "country": "US",
+       "previous_school": "Bishop Brossart",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/abby-cook/5305"
+      },
+      {
+       "name": "Rachel DiDonato",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Green, Ohio",
+       "country": "US",
+       "previous_school": "Green",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/rachel-didonato/5313"
+      },
+      {
+       "name": "Hannah Hall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Walton, Ky.",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hannah-hall/5306"
+      },
+      {
+       "name": "Emmanuelle Hewson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "St. George's School",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/emmanuelle-hewson/5307"
+      },
+      {
+       "name": "Kayla Matson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Maineville, Ohio",
+       "country": "US",
+       "previous_school": "Kings",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kayla-matson/5308"
+      },
+      {
+       "name": "Reagan Nolan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Upper Arlington, Ohio",
+       "country": "US",
+       "previous_school": "Upper Arlington",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/reagan-nolan/5312"
+      },
+      {
+       "name": "Delaney Welsh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/delaney-welsh/5309"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rachel Hyde",
+       "title": "Head Women's Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/rachel-hyde/1873"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Brooke Bihl",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newport, Ky.",
+       "country": "US",
+       "previous_school": "Newport Central Catholic",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/brooke-bihl/4857"
+      },
+      {
+       "name": "Abby Cook",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wilder, Ky.",
+       "country": "US",
+       "previous_school": "Bishop Brossart",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/abby-cook/4858"
+      },
+      {
+       "name": "Kathryn Doss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kathryn-doss/4851"
+      },
+      {
+       "name": "Hannah Hall",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Walton, Ky.",
+       "country": "US",
+       "previous_school": "Walton-Verona",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/hannah-hall/4859"
+      },
+      {
+       "name": "Emmanuelle Hewson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Harpenden, England",
+       "country": "GB",
+       "previous_school": "St. George's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/emmanuelle-hewson/4855"
+      },
+      {
+       "name": "Kayla Matson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Maineville, Ohio",
+       "country": "US",
+       "previous_school": "Kings",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kayla-matson/4856"
+      },
+      {
+       "name": "Delaney Welsh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/delaney-welsh/4853"
+      },
+      {
+       "name": "Lillian Young",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Waddy, Kentucky",
+       "country": "US",
+       "previous_school": "Shelby County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lillian-young/4854"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/daryl-landrum/1794"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/larry-travis/1796"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/becky-landrum/1795"
+      },
+      {
+       "name": "Macy Wright",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/macy-wright/1797"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kathryn Doss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kathryn-doss/4458"
+      },
+      {
+       "name": "Erin Durstock",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Park Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/erin-durstock/4459"
+      },
+      {
+       "name": "Karly Egbers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Wittenberg University",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/karly-egbers/4501"
+      },
+      {
+       "name": "Kylie Lysack",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Scott County Senior High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kylie-lysack/4460"
+      },
+      {
+       "name": "Amy Pugliano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Villa Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/amy-pugliano/4461"
+      },
+      {
+       "name": "Delaney Welsh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/delaney-welsh/4462"
+      },
+      {
+       "name": "Kelsey Wessels",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Oak Hills",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kelsey-wessels/4463"
+      },
+      {
+       "name": "Lillian Young",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Waddy, Kentucky",
+       "country": "US",
+       "previous_school": "Shelby County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lillian-young/4464"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/daryl-landrum/1709"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/larry-travis/1711"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/becky-landrum/1710"
+      },
+      {
+       "name": "Macy Wright",
+       "title": "Graduate Assistant",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/macy-wright/1722"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Kathryn Doss",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kathryn-doss/4022"
+      },
+      {
+       "name": "Erin Durstock",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Park Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/erin-durstock/4023"
+      },
+      {
+       "name": "Kylie Lysack",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Scott County Senior High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kylie-lysack/4024"
+      },
+      {
+       "name": "Amy Pugliano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Villa Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/amy-pugliano/4025"
+      },
+      {
+       "name": "Taylor Schwarz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Florence, Ky.",
+       "country": "US",
+       "previous_school": "Heritage Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/taylor-schwarz/4261"
+      },
+      {
+       "name": "Caitlyn Tasney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pickerington, Ohio",
+       "country": "US",
+       "previous_school": "Pickerington North",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/caitlyn-tasney/4029"
+      },
+      {
+       "name": "Delaney Welsh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murray, Ky.",
+       "country": "US",
+       "previous_school": "Murray",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/delaney-welsh/4030"
+      },
+      {
+       "name": "Kelsey Wessels",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Oak Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kelsey-wessels/4026"
+      },
+      {
+       "name": "Macy Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/macy-wright/4027"
+      },
+      {
+       "name": "Lillian Young",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waddy, Kentucky",
+       "country": "US",
+       "previous_school": "Shelby County",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lillian-young/4028"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/daryl-landrum/1611"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/larry-travis/1613"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/becky-landrum/1612"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mimi Cheepborisut",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Oral Roberts",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/mimi-cheepborisut/3810"
+      },
+      {
+       "name": "Kathryn Doss",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Campbellsville",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kathryn-doss/3817"
+      },
+      {
+       "name": "Erin Durstock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Park Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/erin-durstock/3811"
+      },
+      {
+       "name": "Kylie Lysack",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Scott County Senior High School",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kylie-lysack/3812"
+      },
+      {
+       "name": "Shelby Power",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Owenton, Ky.",
+       "country": "US",
+       "previous_school": "Owen County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/shelby-power/3813"
+      },
+      {
+       "name": "Amy Pugliano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Villa Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/amy-pugliano/3814"
+      },
+      {
+       "name": "Kelsey Wessels",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Oak Hills",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kelsey-wessels/3815"
+      },
+      {
+       "name": "Macy Wright",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/macy-wright/3816"
+      },
+      {
+       "name": "Lillian Young",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waddy, Kentucky",
+       "country": "US",
+       "previous_school": "Shelby County",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/lillian-young/3818"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/daryl-landrum/1568"
+      },
+      {
+       "name": "Larry Travis",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/larry-travis/1586"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/becky-landrum/1570"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://nkunorse.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Mimi Cheepborisut",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "Oral Roberts",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/mimi-cheepborisut/2514"
+      },
+      {
+       "name": "Tara Clark",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Muncie, Ind.",
+       "country": "US",
+       "previous_school": "Yorktown",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/tara-clark/2524"
+      },
+      {
+       "name": "Erin Durstock",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Park Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/erin-durstock/2561"
+      },
+      {
+       "name": "Sarah Kellam",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Crittenden, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/sarah-kellam/2516"
+      },
+      {
+       "name": "Mackenzie Laumann",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Oak Hills",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/mackenzie-laumann/2526"
+      },
+      {
+       "name": "Allison Leigeb",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lexington, Ky.",
+       "country": "US",
+       "previous_school": "Henry Clay",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/allison-leigeb/2518"
+      },
+      {
+       "name": "Kylie Lysack",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Scott County Senior High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kylie-lysack/2562"
+      },
+      {
+       "name": "Shelby Power",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Owenton, Ky.",
+       "country": "US",
+       "previous_school": "Owen County",
+       "class_raw": "Jr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/shelby-power/2519"
+      },
+      {
+       "name": "Amy Pugliano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Villa Hills, Ky.",
+       "country": "US",
+       "previous_school": "Notre Dame Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/amy-pugliano/2563"
+      },
+      {
+       "name": "Ryleigh Waltz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Liberty, Ind.",
+       "country": "US",
+       "previous_school": "Union County",
+       "class_raw": "Sr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/ryleigh-waltz/2521"
+      },
+      {
+       "name": "Kelsey Wessels",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cincinnati, Ohio",
+       "country": "US",
+       "previous_school": "Oak Hills",
+       "class_raw": "Fr.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/kelsey-wessels/2564"
+      },
+      {
+       "name": "Macy Wright",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dry Ridge, Ky.",
+       "country": "US",
+       "previous_school": "Grant County",
+       "class_raw": "So.",
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/macy-wright/2522"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Daryl Landrum",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/daryl-landrum/503"
+      },
+      {
+       "name": "David Shearer",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/david-shearer/504"
+      },
+      {
+       "name": "Becky Landrum",
+       "title": "Assistant Golf Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://nkunorse.com/sports/womens-golf/roster/coaches/becky-landrum/505"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://nkunorse.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://nkunorse.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://nkunorse.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://nkunorse.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://nkunorse.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

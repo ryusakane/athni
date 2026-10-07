@@ -1,36 +1,1655 @@
 {
  "slug": "abilene-christian",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://acusports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Niklas Blalock",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McLennan CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/niklas-blalock/11186"
+      },
+      {
+       "name": "Thomas Buisson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycée de la Mer",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/thomas-buisson/11187"
+      },
+      {
+       "name": "Max Clarke",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Auckland, New Zealand",
+       "country": "NZ",
+       "previous_school": "Sacred Heart College",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/max-clarke/11195"
+      },
+      {
+       "name": "Preston Cooper",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Highland Park HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/preston-cooper/11188"
+      },
+      {
+       "name": "Preston DeFriend",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lubbock, Texas",
+       "country": "US",
+       "previous_school": "Coronado HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/preston-defriend/16031"
+      },
+      {
+       "name": "Tres Hill",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Elk City, Okla.",
+       "country": "US",
+       "previous_school": "Oklahoma City",
+       "class_raw": "Gr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/tres-hill/11193"
+      },
+      {
+       "name": "Jack Hollingsed",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Lake Highlands HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jack-hollingsed/16032"
+      },
+      {
+       "name": "Grégoire Hoyeau",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Lycée Diagonale",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Colin Leonard",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "Central HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/colin-leonard/11192"
+      },
+      {
+       "name": "Brady Mann",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bridgeport, Texas",
+       "country": "US",
+       "previous_school": "Bridgeport HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brady-mann/11194"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Niklas Blalock",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "McLennan CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/niklas-blalock/11186"
+      },
+      {
+       "name": "Thomas Buisson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycée de la Mer",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/thomas-buisson/11187"
+      },
+      {
+       "name": "Brian Comegys",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "The Hills, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brian-comegys/10521"
+      },
+      {
+       "name": "Preston Cooper",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Highland Park HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/preston-cooper/11188"
+      },
+      {
+       "name": "Preston DeFriend",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lubbock, Texas",
+       "country": "US",
+       "previous_school": "Coronado HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/preston-defriend/16031"
+      },
+      {
+       "name": "Jack Hollingsed",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Lake Highlands HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jack-hollingsed/16032"
+      },
+      {
+       "name": "Grégoire Hoyeau",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Lycée Diagonale",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Trenton Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn.",
+       "country": "US",
+       "previous_school": "Tennessee",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/trenton-johnson/10528"
+      },
+      {
+       "name": "Colin Leonard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "Central HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/colin-leonard/11192"
+      },
+      {
+       "name": "Jaime Lewis",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "St Stithians Boys' College",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jaime-lewis/10525"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      },
+      {
+       "name": "Robby Pickett",
+       "title": "Assistant Coach",
+       "email": "rcp23a@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/robby-pickett/1478"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Thomas Buisson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bordeaux, France",
+       "country": "FR",
+       "previous_school": "Lycée de la Mer",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/thomas-buisson/11187"
+      },
+      {
+       "name": "Brian Comegys",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "The Hills, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brian-comegys/10521"
+      },
+      {
+       "name": "Preston Cooper",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Highland Park HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/preston-cooper/11188"
+      },
+      {
+       "name": "Preston DeFriend",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lubbock, Texas",
+       "country": "US",
+       "previous_school": "Coronado HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/preston-defriend/16031"
+      },
+      {
+       "name": "Zane Heusel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/zane-heusel/10033"
+      },
+      {
+       "name": "Grégoire Hoyeau",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Lycée Diagonale",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Charlie Jackson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Norman, Oklahoma",
+       "country": "US",
+       "previous_school": "Norman North HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/charlie-jackson/10035"
+      },
+      {
+       "name": "Trenton Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brentwood, Tenn.",
+       "country": "US",
+       "previous_school": "Tennessee",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/trenton-johnson/10528"
+      },
+      {
+       "name": "Jaime Lewis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "St Stithians Boys' College",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jaime-lewis/10525"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      },
+      {
+       "name": "Robby Pickett",
+       "title": "Assistant Coach",
+       "email": "rcp23a@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/robby-pickett/1478"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake Bay",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Shattuck, Okla.",
+       "country": "US",
+       "previous_school": "Garden City CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jake-bay/9031"
+      },
+      {
+       "name": "Brian Choe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coppell, Texas",
+       "country": "US",
+       "previous_school": "Kansas State",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brian-choe/9032"
+      },
+      {
+       "name": "Alex Clouse",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus HS",
+       "class_raw": "Grad",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alex-clouse/9033"
+      },
+      {
+       "name": "Logan Diomede",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Argyle, Texas",
+       "country": "US",
+       "previous_school": "Argyle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/logan-diomede/9537"
+      },
+      {
+       "name": "Zane Heusel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/zane-heusel/10033"
+      },
+      {
+       "name": "Charlie Jackson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Norman, Oklahoma",
+       "country": "US",
+       "previous_school": "Norman North HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/charlie-jackson/10035"
+      },
+      {
+       "name": "Jaime Lewis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Johannesburg, South Africa",
+       "country": "ZA",
+       "previous_school": "St Stithians Boys' College",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jaime-lewis/10525"
+      },
+      {
+       "name": "Francisco Osio",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Spring Creek Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/francisco-osio/9037"
+      },
+      {
+       "name": "Charles Roper",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sunninghill, UK",
+       "country": "GB",
+       "previous_school": "Gordon's School",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/charles-roper/9040"
+      },
+      {
+       "name": "Joris Spanjer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hengelo, Netherlands",
+       "country": "NL",
+       "previous_school": "Grundel Lyceum",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/joris-spanjer/9542"
+      },
+      {
+       "name": "Alec Wilson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "North Texas",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alec-wilson/9039"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      },
+      {
+       "name": "Mason Banger",
+       "title": "Assistant Golf Coach",
+       "email": "mason.banger@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/mason-banger/1139"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chase Allison",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Robinson, Texas",
+       "country": "US",
+       "previous_school": "Robinson HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/chase-allison/8516"
+      },
+      {
+       "name": "Jake Bay",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Shattuck, Okla.",
+       "country": "US",
+       "previous_school": "Garden City CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jake-bay/9031"
+      },
+      {
+       "name": "Brian Choe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Coppell, Texas",
+       "country": "US",
+       "previous_school": "Kansas State",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brian-choe/9032"
+      },
+      {
+       "name": "Alex Clouse",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alex-clouse/9033"
+      },
+      {
+       "name": "Logan Diomede",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Argyle, Texas",
+       "country": "US",
+       "previous_school": "Argyle HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/logan-diomede/9537"
+      },
+      {
+       "name": "Zane Heusel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/zane-heusel/10033"
+      },
+      {
+       "name": "Charlie Jackson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Norman, Oklahoma",
+       "country": "US",
+       "previous_school": "Norman North HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/charlie-jackson/10035"
+      },
+      {
+       "name": "Cade Osgood",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Southwestern University",
+       "class_raw": "Gr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/cade-osgood/8527"
+      },
+      {
+       "name": "Francisco Osio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Spring Creek Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/francisco-osio/9037"
+      },
+      {
+       "name": "Daniel Seibert",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Waco, Texas",
+       "country": "US",
+       "previous_school": "Midway HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/daniel-seibert/8523"
+      },
+      {
+       "name": "Joris Spanjer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hengelo, Netherlands",
+       "country": "NL",
+       "previous_school": "Grundel Lyceum",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/joris-spanjer/9542"
+      },
+      {
+       "name": "Alec Wilson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "North Texas",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alec-wilson/9039"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      },
+      {
+       "name": "Rob Bennett",
+       "title": "Assistant Coach",
+       "email": "rob.bennett@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/rob-bennett/1844"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chase Allison",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Robinson, Texas",
+       "country": "US",
+       "previous_school": "Robinson HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/chase-allison/8516"
+      },
+      {
+       "name": "Jake Bay",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Shattuck, Okla.",
+       "country": "US",
+       "previous_school": "Garden City CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jake-bay/9031"
+      },
+      {
+       "name": "Brian Choe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Coppell, Texas",
+       "country": "US",
+       "previous_school": "Kansas State",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brian-choe/9032"
+      },
+      {
+       "name": "Alex Clouse",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alex-clouse/9033"
+      },
+      {
+       "name": "Jack Connor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Southlake Carroll HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jack-connor/7940"
+      },
+      {
+       "name": "Logan Diomede",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Argyle, Texas",
+       "country": "US",
+       "previous_school": "Argyle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/logan-diomede/9537"
+      },
+      {
+       "name": "Bryce Dooley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Friendswood, Texas",
+       "country": "US",
+       "previous_school": "Friendswood HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bryce-dooley/7941"
+      },
+      {
+       "name": "Ethan Eppinette",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Texarkana, Texas",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/ethan-eppinette/7942"
+      },
+      {
+       "name": "Zane Heusel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edmond, Okla.",
+       "country": "US",
+       "previous_school": "Edmond Memorial HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/zane-heusel/10033"
+      },
+      {
+       "name": "Francisco Osio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Spring Creek Academy",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/francisco-osio/9037"
+      },
+      {
+       "name": "Bill Ramage",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Farmers Branch, Texas",
+       "country": "US",
+       "previous_school": "North Hills Preparatory",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bill-ramage/7944"
+      },
+      {
+       "name": "Daniel Seibert",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Waco, Texas",
+       "country": "US",
+       "previous_school": "Midway HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/daniel-seibert/8523"
+      },
+      {
+       "name": "Alec Wilson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "McKinney, Texas",
+       "country": "US",
+       "previous_school": "North Texas",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alec-wilson/9039"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      },
+      {
+       "name": "Rob Bennett",
+       "title": "Assistant Coach",
+       "email": "rob.bennett@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/rob-bennett/1844"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chase Allison",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Robinson, Texas",
+       "country": "US",
+       "previous_school": "Robinson HS",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/chase-allison/8516"
+      },
+      {
+       "name": "Reagan Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Midland, Texas",
+       "country": "US",
+       "previous_school": "Midland Christian HS",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/reagan-brown/7492"
+      },
+      {
+       "name": "Alex Clouse",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus HS",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alex-clouse/9033"
+      },
+      {
+       "name": "Jack Connor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Southlake Carroll HS",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jack-connor/7940"
+      },
+      {
+       "name": "Cory Donnell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Garland, Texas",
+       "country": "US",
+       "previous_school": "Naaman Forest HS",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/cory-donnell/7495"
+      },
+      {
+       "name": "Bryce Dooley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Friendswood, Texas",
+       "country": "US",
+       "previous_school": "Friendswood HS",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bryce-dooley/7941"
+      },
+      {
+       "name": "Ethan Eppinette",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Texarkana, Texas",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "Fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/ethan-eppinette/7942"
+      },
+      {
+       "name": "Garrett Glanton",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Addison Trinity Christian HS",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/garrett-glanton/7497"
+      },
+      {
+       "name": "Kade Miller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lorena, Texas",
+       "country": "US",
+       "previous_school": "Midway HS",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/kade-miller/7498"
+      },
+      {
+       "name": "Francisco Osio",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Instituto Irlandes Mexico",
+       "class_raw": "Fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/francisco-osio/9037"
+      },
+      {
+       "name": "Bill Ramage",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Farmers Branch, Texas",
+       "country": "US",
+       "previous_school": "North Hills Preparatory",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bill-ramage/7944"
+      },
+      {
+       "name": "Daniel Seibert",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Waco, Texas",
+       "country": "US",
+       "previous_school": "Midway HS",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/daniel-seibert/8523"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head Men's Golf Coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      },
+      {
+       "name": "Rob Bennett",
+       "title": "Assistant Men's Golf Coach",
+       "email": "rob.bennett@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/rob-bennett/1844"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chase Allison",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Robinson, Texas",
+       "country": "US",
+       "previous_school": "Robinson HS",
+       "class_raw": "Fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/chase-allison/8516"
+      },
+      {
+       "name": "Reagan Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Midland, Texas",
+       "country": "US",
+       "previous_school": "Midland Christian HS",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/reagan-brown/7492"
+      },
+      {
+       "name": "Alex Clouse",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Flower Mound, Texas",
+       "country": "US",
+       "previous_school": "Marcus HS",
+       "class_raw": "Fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/alex-clouse/9033"
+      },
+      {
+       "name": "Jack Connor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Southlake Carroll HS",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jack-connor/7940"
+      },
+      {
+       "name": "Cory Donnell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Garland, Texas",
+       "country": "US",
+       "previous_school": "Naaman Forest HS",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/cory-donnell/7495"
+      },
+      {
+       "name": "Bryce Dooley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Friendswood, Texas",
+       "country": "US",
+       "previous_school": "Friendswood HS",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bryce-dooley/7941"
+      },
+      {
+       "name": "Garrett Glanton",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Addison Trinity Christian HS",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/garrett-glanton/7497"
+      },
+      {
+       "name": "Clarke Hudgins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Amarillo, Texas",
+       "country": "US",
+       "previous_school": "Amarillo High School",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/clarke-hudgins/5891"
+      },
+      {
+       "name": "Kade Miller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lorena, Texas",
+       "country": "US",
+       "previous_school": "Midway HS",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/kade-miller/7498"
+      },
+      {
+       "name": "G.K. Morrison",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "Andrew HS",
+       "class_raw": "Sr",
+       "profile_url": null
+      },
+      {
+       "name": "Bill Ramage",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Farmers Branch, Texas",
+       "country": "US",
+       "previous_school": "North Hills Preparatory",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bill-ramage/7944"
+      },
+      {
+       "name": "Daniel Seibert",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Waco, Texas",
+       "country": "US",
+       "previous_school": "Midway HS",
+       "class_raw": "Fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/daniel-seibert/8523"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://acusports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ryan Beatty",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Montgomery (Ala.) HS",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/ryan-beatty/5578"
+      },
+      {
+       "name": "John Biavati",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Prestonwood Christian Academy",
+       "class_raw": "fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/john-biavati/5225"
+      },
+      {
+       "name": "Reagan Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Midland, Texas",
+       "country": "US",
+       "previous_school": "Midland Christian HS",
+       "class_raw": "fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/reagan-brown/7492"
+      },
+      {
+       "name": "Jack Connor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southlake, Texas",
+       "country": "US",
+       "previous_school": "Southlake Carroll HS",
+       "class_raw": "Fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/jack-connor/7940"
+      },
+      {
+       "name": "Bryce Dooley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Friendswood, Texas",
+       "country": "US",
+       "previous_school": "Friendswood HS",
+       "class_raw": "fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bryce-dooley/7941"
+      },
+      {
+       "name": "Garrett Glanton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dallas, Texas",
+       "country": "US",
+       "previous_school": "Addison Trinity Christian HS",
+       "class_raw": "Soph",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/garrett-glanton/7497"
+      },
+      {
+       "name": "Clarke Hudgins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Amarillo, Texas",
+       "country": "US",
+       "previous_school": "Amarillo High School",
+       "class_raw": "Jr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/clarke-hudgins/5891"
+      },
+      {
+       "name": "Robert Johnson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Helensburgh, Scotland",
+       "country": "GB",
+       "previous_school": "Hermitage Academy",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/robert-johnson/5583"
+      },
+      {
+       "name": "Kyle Karnei",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "McGregor, Texas",
+       "country": "US",
+       "previous_school": "Midway High School",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/kyle-karnei/5584"
+      },
+      {
+       "name": "G.K. Morrison",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "Andrew HS",
+       "class_raw": "jr",
+       "profile_url": null
+      },
+      {
+       "name": "Bill Ramage",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Farmers Branch, Texas",
+       "country": "US",
+       "previous_school": "North Hills Preparatory",
+       "class_raw": "fr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/bill-ramage/7944"
+      },
+      {
+       "name": "Hunter Rawls",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lubbock, Texas",
+       "country": "US",
+       "previous_school": "Frenship High School",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/hunter-rawls/5585"
+      },
+      {
+       "name": "Brandon Stites",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fresno, Calif.",
+       "country": "US",
+       "previous_school": "Bullard High School",
+       "class_raw": "Sr",
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/brandon-stites/5586"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Tom Shaw",
+       "title": "Head coach",
+       "email": "tom.shaw@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/mens-golf/roster/coaches/tom-shaw/1603"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://acusports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://acusports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jasmine Do",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cypress, Texas",
+       "country": "US",
+       "previous_school": "Bridgeland HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/jasmine-do/16037"
+      },
+      {
+       "name": "Jiyu Han",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": "Round Rock HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/jiyu-han/16038"
+      },
+      {
+       "name": "Ryann Honea",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "Louisville",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/ryann-honea/11205"
+      },
+      {
+       "name": "Maddi Kamas",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ardmore, Okla.",
+       "country": "US",
+       "previous_school": "Oklahoma City",
+       "class_raw": "Gr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/maddi-kamas/11209"
+      },
+      {
+       "name": "Marissa Loya",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Reagan HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/marissa-loya/11206"
+      },
+      {
+       "name": "Kate Pickrell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/kate-pickrell/16040"
+      },
+      {
+       "name": "Julia Vollmer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Alamo Heights HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/julia-vollmer/16041"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rob Bennett",
+       "title": "Head Coach",
+       "email": "rob.bennett@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/coaches/rob-bennett/1844"
+      },
+      {
+       "name": "Jordan Burchette",
+       "title": "Assistant Coach",
+       "email": "jrb25c@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/coaches/jordan-burchette/1607"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://acusports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jasmine Do",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cypress, Texas",
+       "country": "US",
+       "previous_school": "Bridgeland HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/jasmine-do/16037"
+      },
+      {
+       "name": "Manon Guille",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aubigny, France",
+       "country": "FR",
+       "previous_school": "Centre Educatif Nantais Pour Sportifs",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/manon-guille/10530"
+      },
+      {
+       "name": "Jiyu Han",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": "Round Rock HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/jiyu-han/16038"
+      },
+      {
+       "name": "Ryann Honea",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": "Louisville",
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/ryann-honea/11205"
+      },
+      {
+       "name": "Marissa Loya",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Reagan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/marissa-loya/11206"
+      },
+      {
+       "name": "Kate Pickrell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis HS",
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/kate-pickrell/16040"
+      },
+      {
+       "name": "Julia Vollmer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Antonio, Texas",
+       "country": "US",
+       "previous_school": "Alamo Heights HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/julia-vollmer/16041"
+      },
+      {
+       "name": "Sydney Williams",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": "Arkansas-Fort Smith",
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/sydney-williams/10534"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rob Bennett",
+       "title": "Head Women's Golf Coach",
+       "email": "rob.bennett@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/coaches/rob-bennett/1844"
+      },
+      {
+       "name": "Ali Green",
+       "title": "Assistant Coach",
+       "email": "amg23f@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/coaches/ali-green/1480"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://acusports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Manon Guille",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Aubigny, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/manon-guille/10530"
+      },
+      {
+       "name": "Jiyu Han",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/jiyu-han/16038"
+      },
+      {
+       "name": "Ryann Honea",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Angelo, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/ryann-honea/11205"
+      },
+      {
+       "name": "Delaney Martin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boerne, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/delaney-martin/10029"
+      },
+      {
+       "name": "Mattie Millwee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/mattie-millwee/10030"
+      },
+      {
+       "name": "Kate Pickrell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/kate-pickrell/16040"
+      },
+      {
+       "name": "Sydney Williams",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/sydney-williams/10534"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Rob Bennett",
+       "title": "Head Women's Golf Coach",
+       "email": "rob.bennett@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/coaches/rob-bennett/1844"
+      },
+      {
+       "name": "Ali Green",
+       "title": "Assistant Coach",
+       "email": "amg23f@acu.edu",
+       "phone": null,
+       "profile_url": "https://acusports.com/sports/womens-golf/roster/coaches/ali-green/1480"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://acusports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://acusports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://acusports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://acusports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2022-23",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2022",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://acusports.com/sports/womens-golf/roster/season/2016",
+   "status": 200
   }
  ]
 }

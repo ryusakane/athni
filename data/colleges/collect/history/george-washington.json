@@ -1,22 +1,1051 @@
 {
  "slug": "george-washington",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://gwsports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rodrigo Barahona",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/rodrigo-barahona/10613"
+      },
+      {
+       "name": "Manuel Barbachano",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Merida, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/manuel-barbachano/10168"
+      },
+      {
+       "name": "Adam Bencik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Cambridge International School Bratislava",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adam-bencik/10614"
+      },
+      {
+       "name": "Evan Eichenlaub",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bethlehem, PA",
+       "country": "US",
+       "previous_school": "Moravian Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/evan-eichenlaub/10615"
+      },
+      {
+       "name": "Benji Garcia Moreira",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation of Monterrey",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/benji-garcia-moreira/10616"
+      },
+      {
+       "name": "Maxime Lam",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "Claude Bernard",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/maxime-lam/10617"
+      },
+      {
+       "name": "Philippe Thorin",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Quito, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/philippe-thorin/10618"
+      },
+      {
+       "name": "Leo Xu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beijing, China /",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/leo-xu/10173"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Toks Pedro",
+       "title": "Assistant Coach",
+       "email": "o.pedro@gwu.edu",
+       "phone": null,
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/toks-pedro/1115"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rodrigo Barahona",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/rodrigo-barahona/10613"
+      },
+      {
+       "name": "Manuel Barbachano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Merida, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/manuel-barbachano/10168"
+      },
+      {
+       "name": "Adam Bencik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bratislava, Slovakia",
+       "country": "SK",
+       "previous_school": "Cambridge International School Bratislava",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adam-bencik/10614"
+      },
+      {
+       "name": "Benji Garcia Moreira",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": "American School Foundation of Monterrey",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/benji-garcia-moreira/10616"
+      },
+      {
+       "name": "Luke Lyu",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luke-lyu/9487"
+      },
+      {
+       "name": "Aksel Moe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sarasota, FL",
+       "country": "US",
+       "previous_school": "Riverview",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/aksel-moe/9488"
+      },
+      {
+       "name": "Philippe Thorin",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Quito, Ecuador",
+       "country": "EC",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/philippe-thorin/10618"
+      },
+      {
+       "name": "Leo Xu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beijing, China /",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/leo-xu/10173"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Toks Pedro",
+       "title": "Assistant Coach",
+       "email": "o.pedro@gwu.edu",
+       "phone": null,
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/toks-pedro/1115"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rodrigo Barahona",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/rodrigo-barahona/10613"
+      },
+      {
+       "name": "Manuel Barbachano",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Merida, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/manuel-barbachano/10168"
+      },
+      {
+       "name": "Jed Dy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Makati, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jed-dy/8725"
+      },
+      {
+       "name": "Jakub Hrinda",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": "Doha College (Qatar)",
+       "class_raw": "5th",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jakub-hrinda/8726"
+      },
+      {
+       "name": "Luke Lyu",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luke-lyu/9487"
+      },
+      {
+       "name": "Aksel Moe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sarasota, FL",
+       "country": "US",
+       "previous_school": "Riverview",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/aksel-moe/9488"
+      },
+      {
+       "name": "Hugo Riboud",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Saint Jean De Luz, France",
+       "country": "FR",
+       "previous_school": "Lycee St. Thomas d'Aquin",
+       "class_raw": "Gr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/hugo-riboud/8728"
+      },
+      {
+       "name": "Leo Xu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beijing, China /",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/leo-xu/10173"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Florian Blatti",
+       "title": "Assistant Coach",
+       "email": "fblatti@gwu.edu",
+       "phone": null,
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/florian-blatti/840"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Rodrigo Barahona",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Monterrey, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/rodrigo-barahona/10613"
+      },
+      {
+       "name": "Manuel Barbachano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Merida, Mexico /",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/manuel-barbachano/10168"
+      },
+      {
+       "name": "Jed Dy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Makati, Philippines",
+       "country": "PH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jed-dy/8725"
+      },
+      {
+       "name": "Jakub Hrinda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": "Doha College (Qatar)",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jakub-hrinda/8726"
+      },
+      {
+       "name": "Luke Lyu",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luke-lyu/9487"
+      },
+      {
+       "name": "Hugo Riboud",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint Jean De Luz, France",
+       "country": "FR",
+       "previous_school": "Lycee St. Thomas d'Aquin",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/hugo-riboud/8728"
+      },
+      {
+       "name": "Leo Xu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China /",
+       "country": "CN",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/leo-xu/10173"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Florian Blatti",
+       "title": "Assistant Coach",
+       "email": "fblatti@gwu.edu",
+       "phone": null,
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/florian-blatti/840"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Florian Blatti",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lausanne, Switzerland",
+       "country": "CH",
+       "previous_school": "Windermere Prep",
+       "class_raw": "Gr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/florian-blatti/8131"
+      },
+      {
+       "name": "Jakub Hrinda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": "Doha College (Qatar)",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jakub-hrinda/8726"
+      },
+      {
+       "name": "Luke Lyu",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Beijing, China",
+       "country": "CN",
+       "previous_school": "IMG Academy (Fla.)",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luke-lyu/9487"
+      },
+      {
+       "name": "Logan Othmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "King's Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-othmer/7926"
+      },
+      {
+       "name": "Arav Patel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "East Brunswick, NJ",
+       "country": "US",
+       "previous_school": "East Brunswick",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/arav-patel/7930"
+      },
+      {
+       "name": "Luis Alfonso Preciado",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Tecnológico de Monterrey Campus Santa Fe",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luis-alfonso-preciado/7927"
+      },
+      {
+       "name": "Hugo Riboud",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saint Jean De Luz, France",
+       "country": "FR",
+       "previous_school": "Lycee St. Thomas d'Aquin",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/hugo-riboud/8728"
+      },
+      {
+       "name": "Clifford Thompson",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Broederstroom, South Africa /",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/clifford-thompson/7929"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Stephen Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/stephen-brown/7388"
+      },
+      {
+       "name": "Adrian Castagnola",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "The Woodlands, TX",
+       "country": "US",
+       "previous_school": "The Woodlands",
+       "class_raw": "Gr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adrian-castagnola/7389"
+      },
+      {
+       "name": "Jakub Hrinda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": "Doha College (Qatar)",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jakub-hrinda/8726"
+      },
+      {
+       "name": "Logan Othmer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "King's Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-othmer/7926"
+      },
+      {
+       "name": "Luis Alfonso Preciado",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Tecnológico de Monterrey Campus Santa Fe",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luis-alfonso-preciado/7927"
+      },
+      {
+       "name": "Hugo Riboud",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint Jean De Luz, France",
+       "country": "FR",
+       "previous_school": "Lycee St. Thomas d'Aquin",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/hugo-riboud/8728"
+      },
+      {
+       "name": "Ty Sullivan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Toronto, Canada",
+       "country": "CA",
+       "previous_school": "Heritage Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/ty-sullivan/7736"
+      },
+      {
+       "name": "Clifford Thompson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Broederstroom, South Africa /",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/clifford-thompson/7929"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Stephen Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/stephen-brown/7388"
+      },
+      {
+       "name": "Adrian Castagnola",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "The Woodlands, TX",
+       "country": "US",
+       "previous_school": "The Woodlands",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adrian-castagnola/7389"
+      },
+      {
+       "name": "Jakub Hrinda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Poprad, Slovakia",
+       "country": "SK",
+       "previous_school": "Doha College (Qatar)",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jakub-hrinda/8726"
+      },
+      {
+       "name": "Yoo Jin Kim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Centreville, VA/Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Centreville HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/yoo-jin-kim/7156"
+      },
+      {
+       "name": "Logan Othmer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "King's Academy",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-othmer/7926"
+      },
+      {
+       "name": "Luis Alfonso Preciado",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Tecnológico de Monterrey Campus Santa Fe",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luis-alfonso-preciado/7927"
+      },
+      {
+       "name": "Hugo Riboud",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Saint Jean De Luz, France",
+       "country": "FR",
+       "previous_school": "Lycee St. Thomas d'Aquin",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/hugo-riboud/8728"
+      },
+      {
+       "name": "Clifford Thompson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Broederstroom, South Africa /",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/clifford-thompson/7929"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Stephen Brown",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/stephen-brown/7388"
+      },
+      {
+       "name": "Adrian Castagnola",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "The Woodlands, TX",
+       "country": "US",
+       "previous_school": "The Woodlands",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adrian-castagnola/7389"
+      },
+      {
+       "name": "Yoo Jin Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Centreville, VA/Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Centreville HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/yoo-jin-kim/7156"
+      },
+      {
+       "name": "Logan Lowe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Grass Valley, CA",
+       "country": "US",
+       "previous_school": "Nevada Union",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-lowe/6359"
+      },
+      {
+       "name": "Logan Othmer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "West Palm Beach, FL",
+       "country": "US",
+       "previous_school": "King's Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-othmer/7926"
+      },
+      {
+       "name": "Luis Alfonso Preciado",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Tecnológico de Monterrey Campus Santa Fe",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/luis-alfonso-preciado/7927"
+      },
+      {
+       "name": "Clifford Thompson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Broederstroom, South Africa /",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/clifford-thompson/7929"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Andrew Szunyog",
+       "title": "Assistant Coach",
+       "email": "aszunyog@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/andrew-szunyog/345"
+      },
+      {
+       "name": "Jhared Hack",
+       "title": "Volunteer Assistant",
+       "email": null,
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/jhared-hack/407"
+      },
+      {
+       "name": "Greg Pieczynski",
+       "title": "Assistant Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": null,
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/greg-pieczynski/488"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Stephen Brown",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, CA",
+       "country": "US",
+       "previous_school": "Loyola",
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/stephen-brown/7388"
+      },
+      {
+       "name": "Adrian Castagnola",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "The Woodlands, TX",
+       "country": "US",
+       "previous_school": "The Woodlands",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adrian-castagnola/7389"
+      },
+      {
+       "name": "Christian Cichan",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": "Providence Day",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/christian-cichan/806"
+      },
+      {
+       "name": "Yoo Jin Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Centreville, VA/Seoul, South Korea",
+       "country": "KR",
+       "previous_school": "Centreville HS",
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/yoo-jin-kim/7156"
+      },
+      {
+       "name": "Logan Lowe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Grass Valley, CA",
+       "country": "US",
+       "previous_school": "Nevada Union",
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-lowe/6359"
+      },
+      {
+       "name": "Vince Palazzolo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Colts Neck, NJ",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/vince-palazzolo/809"
+      },
+      {
+       "name": "Jack Porcelli",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Princeton, NJ",
+       "country": "US",
+       "previous_school": "Taft School (CT",
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jack-porcelli/810"
+      },
+      {
+       "name": "Clifford Thompson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Broederstroom, South Africa /",
+       "country": "ZA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/clifford-thompson/7929"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Andrew Szunyog",
+       "title": "Assistant Coach",
+       "email": "aszunyog@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/andrew-szunyog/345"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://gwsports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Adrian Castagnola",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "The Woodlands, TX",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/adrian-castagnola/7389"
+      },
+      {
+       "name": "Christian Cichan",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Charlotte, NC",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/christian-cichan/806"
+      },
+      {
+       "name": "Lucas Farmer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Highland, MD",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/lucas-farmer/814"
+      },
+      {
+       "name": "Michael Heda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Weston, FL",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/michael-heda/815"
+      },
+      {
+       "name": "Yoo Jin Kim",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Centreville, VA/Seoul, South Korea",
+       "country": "KR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/yoo-jin-kim/7156"
+      },
+      {
+       "name": "Logan Lowe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Grass Valley, CA",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/logan-lowe/6359"
+      },
+      {
+       "name": "Vince Palazzolo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Colts Neck, NJ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/vince-palazzolo/809"
+      },
+      {
+       "name": "Jack Porcelli",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Princeton, NJ",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/jack-porcelli/810"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Chuck Scheinost",
+       "title": "Head Coach",
+       "email": "gwgolf@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/chuck-scheinost/1214"
+      },
+      {
+       "name": "Andrew Szunyog",
+       "title": "Assistant Coach",
+       "email": "aszunyog@gwu.edu",
+       "phone": "994-5969",
+       "profile_url": "https://gwsports.com/sports/mens-golf/roster/coaches/andrew-szunyog/345"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://gwsports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://gwsports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://gwsports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

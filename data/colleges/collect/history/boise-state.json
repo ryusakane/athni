@@ -1,36 +1,2091 @@
 {
  "slug": "boise-state",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://broncosports.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luke Cushman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Castle View HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/luke-cushman/14628"
+      },
+      {
+       "name": "Chase Gorder",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "New Mexico",
+       "class_raw": "R-So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/chase-gorder/14629"
+      },
+      {
+       "name": "Seth Jones",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Mountain View HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/seth-jones/13754"
+      },
+      {
+       "name": "Gavyn Knight",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Parksville, British Columbia",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/gavyn-knight/13755"
+      },
+      {
+       "name": "Reese Knox",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Peyton, Colo.",
+       "country": "US",
+       "previous_school": "Falcon HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/reese-knox/14630"
+      },
+      {
+       "name": "Ryan Meyer",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Oakdale, Calif.",
+       "country": "US",
+       "previous_school": "Arizona",
+       "class_raw": "5th",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/ryan-meyer/13757"
+      },
+      {
+       "name": "Grant Potter",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hayden, Idaho",
+       "country": "US",
+       "previous_school": "Coeur d'Alene HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/grant-potter/14631"
+      },
+      {
+       "name": "Cole Rueck",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/cole-rueck/13758"
+      },
+      {
+       "name": "Ryan Shepherd",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Timberline HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/ryan-shepherd/14632"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Trainor",
+       "title": "Head Coach",
+       "email": "davidtrainor@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/david-trainor/1597"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luke Cushman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Castle View HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/luke-cushman/14628"
+      },
+      {
+       "name": "Chase Gorder",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Anthem, Ariz.",
+       "country": "US",
+       "previous_school": "New Mexico",
+       "class_raw": "R-Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/chase-gorder/14629"
+      },
+      {
+       "name": "Seth Jones",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Mountain View HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/seth-jones/13754"
+      },
+      {
+       "name": "Gavyn Knight",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Parksville, British Columbia",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/gavyn-knight/13755"
+      },
+      {
+       "name": "Reese Knox",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Peyton, Colo.",
+       "country": "US",
+       "previous_school": "Falcon HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/reese-knox/14630"
+      },
+      {
+       "name": "Ryan Meyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oakdale, Calif.",
+       "country": "US",
+       "previous_school": "Arizona",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/ryan-meyer/13757"
+      },
+      {
+       "name": "Will O'Connor",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Wellington, New Zealand",
+       "country": "NZ",
+       "previous_school": "Texas Southern",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Cole Rueck",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/cole-rueck/13758"
+      },
+      {
+       "name": "Jake Slocum",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Meridian, Idaho",
+       "country": "US",
+       "previous_school": "Iowa State",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/jake-slocum/10987"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Trainor",
+       "title": "Head Coach",
+       "email": "davidtrainor@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/david-trainor/1597"
+      },
+      {
+       "name": "Joe Panzeri",
+       "title": "Assistant Coach",
+       "email": "josephpanzeri@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/joe-panzeri/1451"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Luke Cunningham",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mountbellew, County Galway, Ireland",
+       "country": "IE",
+       "previous_school": "Galway Bay GC",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/luke-cunningham/9485"
+      },
+      {
+       "name": "Luke Cushman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Castle Rock, Colo.",
+       "country": "US",
+       "previous_school": "Castle View HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/luke-cushman/14628"
+      },
+      {
+       "name": "Connor Higgins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Cardinal Memorial School",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-higgins/9476"
+      },
+      {
+       "name": "Seth Jones",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Mountain View HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/seth-jones/13754"
+      },
+      {
+       "name": "Gavyn Knight",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Parksville, British Columbia",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/gavyn-knight/13755"
+      },
+      {
+       "name": "Ryan Meyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Oakdale, Calif.",
+       "country": "US",
+       "previous_school": "Arizona",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/ryan-meyer/13757"
+      },
+      {
+       "name": "Will O'Connor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wellington, New Zealand",
+       "country": "NZ",
+       "previous_school": "Texas Southern",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Drew Reinke",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Meridian, Idaho",
+       "country": "US",
+       "previous_school": "Chico State",
+       "class_raw": "6th",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/drew-reinke/9480"
+      },
+      {
+       "name": "Cole Rueck",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/cole-rueck/13758"
+      },
+      {
+       "name": "Alex Talbot",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-talbot/9482"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Trainor",
+       "title": "Head Coach",
+       "email": "davidtrainor@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/david-trainor/1597"
+      },
+      {
+       "name": "Joe Panzeri",
+       "title": "Assistant Coach",
+       "email": "josephpanzeri@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/joe-panzeri/1451"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Max Charles",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Midland (Texas) CC",
+       "class_raw": "5th",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/max-charles/8915"
+      },
+      {
+       "name": "Nick Hedman",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "South Mountain Community College",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/nick-hedman/8916"
+      },
+      {
+       "name": "Connor Higgins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Cardinal Memorial School",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-higgins/9476"
+      },
+      {
+       "name": "Seth Jones",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Mountain View HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/seth-jones/13754"
+      },
+      {
+       "name": "Gavyn Knight",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Parksville, British Columbia",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/gavyn-knight/13755"
+      },
+      {
+       "name": "Will O'Connor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wellington, New Zealand",
+       "country": "NZ",
+       "previous_school": "Texas Southern",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Drew Reinke",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Meridian, Idaho",
+       "country": "US",
+       "previous_school": "Chico State",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/drew-reinke/9480"
+      },
+      {
+       "name": "Cole Rueck",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corvallis, Ore.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/cole-rueck/13758"
+      },
+      {
+       "name": "Alex Talbot",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-talbot/9482"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "David Trainor",
+       "title": "Head Coach",
+       "email": "davidtrainor@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/david-trainor/1597"
+      },
+      {
+       "name": "Joe Panzeri",
+       "title": "Assistant Coach",
+       "email": "josephpanzeri@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/coaches/joe-panzeri/1451"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Max Charles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Midland (Texas) CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/max-charles/8915"
+      },
+      {
+       "name": "Skyler Eubank",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "College Station, Texas",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "5th",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/skyler-eubank/8246"
+      },
+      {
+       "name": "Nick Hedman",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Chandler, Ariz.",
+       "country": "US",
+       "previous_school": "South Mountain Community College",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/nick-hedman/8916"
+      },
+      {
+       "name": "Connor Higgins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Cardinal Memorial School",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-higgins/9476"
+      },
+      {
+       "name": "Joe Neuheisel",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "6th",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/joe-neuheisel/8248"
+      },
+      {
+       "name": "Drew Reinke",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Meridian, Idaho",
+       "country": "US",
+       "previous_school": "Chico State",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/drew-reinke/9480"
+      },
+      {
+       "name": "Alex Talbot",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "R-So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-talbot/9482"
+      },
+      {
+       "name": "Hugo Townsend",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boden, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/hugo-townsend/8250"
+      }
+     ],
+     "coaches": []
+    },
+    "2020-21": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Max Charles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Midland (Texas) CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/max-charles/8915"
+      },
+      {
+       "name": "Skyler Eubank",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "College Station, Texas",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/skyler-eubank/8246"
+      },
+      {
+       "name": "Josh Gliege",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Eagle, Idaho",
+       "country": "US",
+       "previous_school": "Texas A&M",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/josh-gliege/7661"
+      },
+      {
+       "name": "Connor Higgins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Cardinal Memorial School",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-higgins/9476"
+      },
+      {
+       "name": "Brian Humphreys",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Washougal, Wash.",
+       "country": "US",
+       "previous_school": "Camas",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/brian-humphreys/7654"
+      },
+      {
+       "name": "Connor Johnstone",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Caldwell, Idaho",
+       "country": "US",
+       "previous_school": "Vallivue",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-johnstone/7655"
+      },
+      {
+       "name": "Joe Neuheisel",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "6th",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/joe-neuheisel/8248"
+      },
+      {
+       "name": "Alex Talbot",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-talbot/9482"
+      },
+      {
+       "name": "Hugo Townsend",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Boden, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/hugo-townsend/8250"
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cameron Barzekoff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Red Mountain",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/cameron-barzekoff/7199"
+      },
+      {
+       "name": "Skyler Eubank",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "College Station, Texas",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/skyler-eubank/8246"
+      },
+      {
+       "name": "Brian Humphreys",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Washougal, Wash.",
+       "country": "US",
+       "previous_school": "Camas",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/brian-humphreys/7654"
+      },
+      {
+       "name": "Connor Johnstone",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caldwell, Idaho",
+       "country": "US",
+       "previous_school": "Vallivue",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-johnstone/7655"
+      },
+      {
+       "name": "Joe Neuheisel",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/joe-neuheisel/8248"
+      },
+      {
+       "name": "Jake O'Neil",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fruitland, Idaho",
+       "country": "US",
+       "previous_school": "Fruitland",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Michael Rizzo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Brantford, Ontario",
+       "country": "CA",
+       "previous_school": "UTRGV",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/michael-rizzo/7204"
+      },
+      {
+       "name": "Mason Schulze",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Poway, Calif.",
+       "country": "US",
+       "previous_school": "Poway",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/mason-schulze/7205"
+      },
+      {
+       "name": "Alex Talbot",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Southampton, England",
+       "country": "GB",
+       "previous_school": "Hartpury College",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-talbot/9482"
+      },
+      {
+       "name": "Hugo Townsend",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boden, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/hugo-townsend/8250"
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cameron Barzekoff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Red Mountain",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/cameron-barzekoff/7199"
+      },
+      {
+       "name": "Connor Bell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-bell/6482"
+      },
+      {
+       "name": "Skyler Eubank",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "College Station, Texas",
+       "country": "US",
+       "previous_school": "IMG Academy (Bradenton, Fla.)",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/skyler-eubank/8246"
+      },
+      {
+       "name": "Brian Humphreys",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Washougal, Wash.",
+       "country": "US",
+       "previous_school": "Camas",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/brian-humphreys/7654"
+      },
+      {
+       "name": "Connor Johnstone",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caldwell, Idaho",
+       "country": "US",
+       "previous_school": "Vallivue",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-johnstone/7655"
+      },
+      {
+       "name": "Joe Neuheisel",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Scottsdale, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/joe-neuheisel/8248"
+      },
+      {
+       "name": "Michael Rizzo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Brantford, Ontario",
+       "country": "CA",
+       "previous_school": "UTRGV",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/michael-rizzo/7204"
+      },
+      {
+       "name": "Mason Schulze",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Poway, Calif.",
+       "country": "US",
+       "previous_school": "Poway",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/mason-schulze/7205"
+      },
+      {
+       "name": "Hugo Townsend",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boden, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/hugo-townsend/8250"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Bell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-bell/6482"
+      },
+      {
+       "name": "Jacob Byers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Salt Lake City /",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/jacob-byers/3974"
+      },
+      {
+       "name": "Skyler Eubank",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "College Station, Texas",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/skyler-eubank/8246"
+      },
+      {
+       "name": "Alex Francois",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burnaby, British Columbia",
+       "country": "CA",
+       "previous_school": "null",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-francois/3976"
+      },
+      {
+       "name": "Donny Hopoi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Aiea, Hawaii",
+       "country": "US",
+       "previous_school": "Dixie State",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/donny-hopoi/3977"
+      },
+      {
+       "name": "Brian Humphreys",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Washougal, Wash. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/brian-humphreys/7654"
+      },
+      {
+       "name": "Connor Johnstone",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Caldwell, Idaho /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-johnstone/7655"
+      },
+      {
+       "name": "Tristan Rohrbaugh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Basalt, Colo. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/tristan-rohrbaugh/3980"
+      },
+      {
+       "name": "Mason Schulze",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Poway, Calif.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/mason-schulze/7205"
+      },
+      {
+       "name": "Jun Ho Won",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Honolulu, Hawaii",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/jun-ho-won/3982"
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://broncosports.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Bell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sacramento, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-bell/6482"
+      },
+      {
+       "name": "Jacob Byers",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Salt Lake City",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/jacob-byers/3974"
+      },
+      {
+       "name": "David Elliott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/david-elliott/3985"
+      },
+      {
+       "name": "Alex Francois",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burnaby, British Columbia",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/alex-francois/3976"
+      },
+      {
+       "name": "Donny Hopoi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aiea, Hawaii",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/donny-hopoi/3977"
+      },
+      {
+       "name": "Brian Humphreys",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Washougal, Wash.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/brian-humphreys/7654"
+      },
+      {
+       "name": "Connor Johnstone",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Caldwell, Idaho",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/connor-johnstone/7655"
+      },
+      {
+       "name": "Kyle Mitsunaga",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/kyle-mitsunaga/3990"
+      },
+      {
+       "name": "Tristan Rohrbaugh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Basalt, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/tristan-rohrbaugh/3980"
+      },
+      {
+       "name": "Mason Schulze",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Poway, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/mens-golf/roster/mason-schulze/7205"
+      }
+     ],
+     "coaches": []
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://broncosports.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Annie Buffolino",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": "Notre Dame HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/annie-buffolino/13822"
+      },
+      {
+       "name": "Leia Chung",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Wahiawa, Hawaii",
+       "country": "US",
+       "previous_school": "Leilehua HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/leia-chung/14639"
+      },
+      {
+       "name": "Macee Greenwood",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Corvallis, Mont.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/macee-greenwood/13824"
+      },
+      {
+       "name": "Jaime Hards",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Adelaide, Australia",
+       "country": "AU",
+       "previous_school": "Adelaide HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/jaime-hards/14640"
+      },
+      {
+       "name": "Jillian Hui",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kennewick, Wash.",
+       "country": "US",
+       "previous_school": "Southridge HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/jillian-hui/14641"
+      },
+      {
+       "name": "Teal Matsueda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kaimuki, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/teal-matsueda/14642"
+      },
+      {
+       "name": "Brooke Patterson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Eagle, Idaho",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/brooke-patterson/13827"
+      },
+      {
+       "name": "Callia Ward",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Albuquerque, N.M.",
+       "country": "US",
+       "previous_school": "Laurel Springs School",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/callia-ward/14643"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kailin Downs",
+       "title": "Head Coach",
+       "email": "kailindowns@boisestate.edu",
+       "phone": "541-815-8507",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/coaches/kailin-downs/1598"
+      },
+      {
+       "name": "Chayse Gomez",
+       "title": "Assistant Coach",
+       "email": "chaysegomez@boisestate.edu",
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/coaches/chayse-gomez/1459"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Annie Buffolino",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": "Notre Dame HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/annie-buffolino/13822"
+      },
+      {
+       "name": "Emily Cadwell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Washington State",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/emily-cadwell/10697"
+      },
+      {
+       "name": "Leia Chung",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Wahiawa, Hawaii",
+       "country": "US",
+       "previous_school": "Leilehua HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/leia-chung/14639"
+      },
+      {
+       "name": "Macee Greenwood",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Corvallis, Mont.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/macee-greenwood/13824"
+      },
+      {
+       "name": "Jillian Hui",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kennewick, Wash.",
+       "country": "US",
+       "previous_school": "Southridge HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/jillian-hui/14641"
+      },
+      {
+       "name": "Hannah Lim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Happy Valley, Ore.",
+       "country": "US",
+       "previous_school": "Clackamas HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/hannah-lim/10694"
+      },
+      {
+       "name": "Teal Matsueda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kaimuki, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/teal-matsueda/14642"
+      },
+      {
+       "name": "Zoe Parker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Las Vegas, Nev.",
+       "country": "US",
+       "previous_school": "Bishop Gorman HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/zoe-parker/10698"
+      },
+      {
+       "name": "Brooke Patterson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Eagle, Idaho",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/brooke-patterson/13827"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kailin Downs",
+       "title": "Head Coach",
+       "email": "kailindowns@boisestate.edu",
+       "phone": "541-815-8507",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/coaches/kailin-downs/1598"
+      },
+      {
+       "name": "Haleigh Krause",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/coaches/haleigh-krause/1460"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Annie Buffolino",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": "Notre Dame HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/annie-buffolino/13822"
+      },
+      {
+       "name": "Leia Chung",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Wahiawa, Hawaii",
+       "country": "US",
+       "previous_school": "Leilehua HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/leia-chung/14639"
+      },
+      {
+       "name": "Elli Gordon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Redmond, Ore.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/elli-gordon/9806"
+      },
+      {
+       "name": "Macee Greenwood",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Corvallis, Mont.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/macee-greenwood/13824"
+      },
+      {
+       "name": "Jillian Hui",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kennewick, Wash.",
+       "country": "US",
+       "previous_school": "Southridge HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/jillian-hui/14641"
+      },
+      {
+       "name": "Hannah Lim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Happy Valley, Ore.",
+       "country": "US",
+       "previous_school": "Clackamas HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/hannah-lim/10694"
+      },
+      {
+       "name": "Teal Matsueda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kaimuki, Hawaii",
+       "country": "US",
+       "previous_school": "Kalani HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/teal-matsueda/14642"
+      },
+      {
+       "name": "Brooke Patterson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Eagle, Idaho",
+       "country": "US",
+       "previous_school": "Cincinnati",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/brooke-patterson/13827"
+      },
+      {
+       "name": "Franca Polla",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Portland State",
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/franca-polla/9809"
+      },
+      {
+       "name": "Caroline Wales",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "La Quinta, Calif.",
+       "country": "US",
+       "previous_school": "Kansas/Cal State San Marcos",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/caroline-wales/9810"
+      }
+     ],
+     "coaches": []
+    },
+    "2022-23": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kelsey Blaylock",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lincoln, Calif.",
+       "country": "US",
+       "previous_school": "Chico State/Sierra College",
+       "class_raw": "5th",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/kelsey-blaylock/9168"
+      },
+      {
+       "name": "Annie Buffolino",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Burbank, Calif.",
+       "country": "US",
+       "previous_school": "Notre Dame HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/annie-buffolino/13822"
+      },
+      {
+       "name": "Leia Chung",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wahiawa, Hawaii",
+       "country": "US",
+       "previous_school": "Leilehua HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/leia-chung/14639"
+      },
+      {
+       "name": "Elli Gordon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Redmond, Ore.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/elli-gordon/9806"
+      },
+      {
+       "name": "Macee Greenwood",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Corvallis, Mont.",
+       "country": "US",
+       "previous_school": "Corvallis HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/macee-greenwood/13824"
+      },
+      {
+       "name": "Hannah Lim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Happy Valley, Ore.",
+       "country": "US",
+       "previous_school": "Clackamas HS",
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/hannah-lim/10694"
+      },
+      {
+       "name": "Franca Polla",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Portland State",
+       "class_raw": "Jr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/franca-polla/9809"
+      }
+     ],
+     "coaches": []
+    },
+    "2021-22": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Elena",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "St. Edward's University",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Elli",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Redmond, Ore.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Hannah",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Happy Valley, Ore.",
+       "country": "US",
+       "previous_school": "Clackamas HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Cora",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Salt Lake City, Utah",
+       "country": "US",
+       "previous_school": "Alta HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Lexi",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge HS",
+       "class_raw": "5th",
+       "profile_url": null
+      },
+      {
+       "name": "Franca",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Portland, Ore.",
+       "country": "US",
+       "previous_school": "Portland State",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Nicole",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Rolling Hills Estates, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "5th",
+       "profile_url": null
+      },
+      {
+       "name": "Hyeji (Emma)",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "South Korea",
+       "country": "KR",
+       "previous_school": "Walnut Grove Secondary School",
+       "class_raw": "So.",
+       "profile_url": null
+      }
+     ],
+     "coaches": []
+    },
+    "2020-21": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Elena",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "St. Edward's University",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Elli",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Redmond, Ore.",
+       "country": "US",
+       "previous_school": "Rocklin HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Taylor",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Puyallup, Wash.",
+       "country": "US",
+       "previous_school": "Emerald Ridge HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Cora",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Salt Lake City, Utah",
+       "country": "US",
+       "previous_school": "Alta HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Elena",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Pedro de Alcantara, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Lexi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Nicole",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Rolling Hills Estates, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Hyeji (Emma)",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "South Korea",
+       "country": "KR",
+       "previous_school": "Walnut Grove Secondary School",
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": []
+    },
+    "2019-20": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Ivane",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Saint-Maxime Hauterive, France",
+       "country": "FR",
+       "previous_school": "Bellevue University",
+       "class_raw": "R-Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Taylor",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Puyallup, Wash.",
+       "country": "US",
+       "previous_school": "Emerald Ridge HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Valentine",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Toulouse, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Morgan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "North Platte, Neb.",
+       "country": "US",
+       "previous_school": "North Platte HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Cora",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Salt Lake City, Utah",
+       "country": "US",
+       "previous_school": "Alta HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Elena",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Pedro de Alcantara, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Lexi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Nicole",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Rolling Hills Estates, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": []
+    },
+    "2018-19": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kinsley",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Bishop Kelly HS",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Tara",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Coto de Caza, Calif.",
+       "country": "US",
+       "previous_school": "Portland State",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ivane",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint-Maxime Hauterive, France",
+       "country": "FR",
+       "previous_school": "Bellevue University",
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Valentine",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Toulouse, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Morgan",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Platte, Neb.",
+       "country": "US",
+       "previous_school": "North Platte HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Alejandra",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Jalayne",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pasco, Wash.",
+       "country": "US",
+       "previous_school": "Pasco HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Cora",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Salt Lake City, Utah",
+       "country": "US",
+       "previous_school": "Alta HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Lexi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Nicole",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Rolling Hills Estates, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "So.",
+       "profile_url": null
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kinsley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": "Bishop Kelly HS",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Ivane",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saint-Maxime Hauterive, France",
+       "country": "FR",
+       "previous_school": "Bellevue University",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Valentine",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Toulouse, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Morgan",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Platte, Neb.",
+       "country": "US",
+       "previous_school": "North Platte HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Alejandra",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Jalayne",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Pasco, Wash.",
+       "country": "US",
+       "previous_school": "Pasco HS",
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Lexi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "El Dorado Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Ridge HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Nicole",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rolling Hills Estates, Calif.",
+       "country": "US",
+       "previous_school": "Peninsula HS",
+       "class_raw": "Fr.",
+       "profile_url": null
+      }
+     ],
+     "coaches": []
+    },
+    "2016-17": {
+     "url": "https://broncosports.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kinsley Bonfilio",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Boise, Idaho",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/kinsley-bonfilio/6560"
+      },
+      {
+       "name": "Dana Clary",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cedar Park, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/dana-clary/5218"
+      },
+      {
+       "name": "Valentine Lacaze",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Toulouse, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/valentine-lacaze/7096"
+      },
+      {
+       "name": "Genevieve Ling",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Selangor, Malaysia",
+       "country": "MY",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/genevieve-ling/5220"
+      },
+      {
+       "name": "Jalayne Martinez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Pasco, Wash.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/jalayne-martinez/6565"
+      },
+      {
+       "name": "Adara Pauluhn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Niwot, Colo.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/adara-pauluhn/5222"
+      },
+      {
+       "name": "Oceane Pelloille",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://broncosports.com/sports/womens-golf/roster/oceane-pelloille/5223"
+      }
+     ],
+     "coaches": []
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://broncosports.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://broncosports.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://broncosports.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://broncosports.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://broncosports.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

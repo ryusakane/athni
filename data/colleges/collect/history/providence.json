@@ -1,36 +1,452 @@
 {
  "slug": "providence",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://friars.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://friars.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Evan Buddenhagen",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gloucester, Mass.",
+       "country": "US",
+       "previous_school": "Kennesaw State",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/evan-buddenhagen/11926"
+      },
+      {
+       "name": "Callan Fahey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Wheaton, Ill.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/callan-fahey/11927"
+      },
+      {
+       "name": "Joe Halferty",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Blue Bell, Pa.",
+       "country": "US",
+       "previous_school": "LaSalle College High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/joe-halferty/10591"
+      },
+      {
+       "name": "Logan Jaeger",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Basking Ridge, N.J.",
+       "country": "US",
+       "previous_school": "Morristown Beard School",
+       "class_raw": "Gr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/logan-jaeger/10594"
+      },
+      {
+       "name": "Kevin Legnard",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bethel, Conn.",
+       "country": "US",
+       "previous_school": "Bethel High School",
+       "class_raw": "Gr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/kevin-legnard/10595"
+      },
+      {
+       "name": "Liam O'Grady",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Louisville, Ky.",
+       "country": "US",
+       "previous_school": "Trinity High School",
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Campbell Skelly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Charleston, S.C.",
+       "country": "US",
+       "previous_school": "Rollins College",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/campbell-skelly/11928"
+      },
+      {
+       "name": "Will Spring",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Concord, Mass.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/will-spring/11929"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Louis Parente",
+       "title": "Men's Golf Head Coach",
+       "email": "lparent2@providence.edu",
+       "phone": "(401) 865-1910",
+       "profile_url": "https://friars.com/sports/mens-golf/roster/coaches/louis-parente/1296"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://friars.com/sports/wgolf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://friars.com/sports/wgolf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Olivia Arone",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "West Newton, Mass.",
+       "country": "US",
+       "previous_school": "Newton North High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/olivia-arone/11932"
+      },
+      {
+       "name": "Myla Bisceglia",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Rye, N.Y.",
+       "country": "US",
+       "previous_school": "Rye High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/myla-bisceglia/11933"
+      },
+      {
+       "name": "Campbell Bridges",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Okatie, S.C.",
+       "country": "US",
+       "previous_school": "Providence Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/campbell-bridges/11934"
+      },
+      {
+       "name": "Grace Catalano",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cazenovia, N.Y.",
+       "country": "US",
+       "previous_school": "Christian Brothers Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/grace-catalano/11935"
+      },
+      {
+       "name": "Samantha Dunn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Berlin, Conn.",
+       "country": "US",
+       "previous_school": "Berlin High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/samantha-dunn/11936"
+      },
+      {
+       "name": "Emma McCumber",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Millwood, N.Y.",
+       "country": "US",
+       "previous_school": "Horace Greeley High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/emma-mccumber/10669"
+      },
+      {
+       "name": "Prisha Pandey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Edison, N.J.",
+       "country": "US",
+       "previous_school": "ICL Academy California",
+       "class_raw": "Fr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/prisha-pandey/11937"
+      },
+      {
+       "name": "Emma Peifly",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madison, N.J.",
+       "country": "US",
+       "previous_school": "Madison High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/emma-peifly/11938"
+      },
+      {
+       "name": "Gwendolyn Yarnall",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "East Aurora, N.Y. /",
+       "country": "US",
+       "previous_school": "Augusta University",
+       "class_raw": "So.",
+       "profile_url": "https://friars.com/sports/wgolf/roster/gwendolyn-yarnall/10697"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Douglas Smith",
+       "title": "Women's Golf Head Coach",
+       "email": "dsmith35@providence.edu",
+       "phone": "(401) 865-2721",
+       "profile_url": "https://friars.com/sports/wgolf/roster/coaches/douglas-smith/1297"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://friars.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://friars.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2023",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2022-23",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2022",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/mens-golf/roster/season/2016",
+   "status": 200
   },
   {
    "url": "https://friars.com/sports/wgolf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://friars.com/sports/wgolf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2024-25",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2024",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2023-24",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2023",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2022-23",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2022",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2021-22",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2021",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2020-21",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2020",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2019-20",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2019",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2018-19",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2018",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2017-18",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2017",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/2016-17",
+   "status": 200
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2016-17",
+   "status": 404
+  },
+  {
+   "url": "https://friars.com/sports/wgolf/roster/season/2016",
+   "status": 200
   }
  ]
 }

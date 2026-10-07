@@ -1,36 +1,2615 @@
 {
  "slug": "north-florida",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://unfospreys.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Diego Alvarez Perez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Panama City, Panama",
+       "country": "PA",
+       "previous_school": "Windermere Preparatory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/diego-alvarez-perez/15471"
+      },
+      {
+       "name": "Luke Balaskiewicz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "The Bolles School",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/luke-balaskiewicz/15472"
+      },
+      {
+       "name": "Chase Carroll",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla.",
+       "country": "US",
+       "previous_school": "Middleburg",
+       "class_raw": "Jr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/chase-carroll/15453"
+      },
+      {
+       "name": "Danny Erickson",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra",
+       "class_raw": "R-So.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/danny-erickson/15474"
+      },
+      {
+       "name": "Jean-Philippe Parr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saint-Célestin, Quebec",
+       "country": "CA",
+       "previous_school": "Tennessee",
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Laurens Schulze-Doering",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Rabat, Malta",
+       "country": "MT",
+       "previous_school": "South Carolina / Young Harris College",
+       "class_raw": "Gr.",
+       "profile_url": null
+      },
+      {
+       "name": "Filippo Serra",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Geneva, Switzerland",
+       "country": "CH",
+       "previous_school": "International School of Geneva - LGB",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/filippo-serra/15476"
+      },
+      {
+       "name": "Adam Vermut",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Eastern Florida",
+       "class_raw": "Sr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/adam-vermut/15470"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Director of Golf",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Michael Mattiace",
+       "title": "Assistant Coach",
+       "email": "m.mattiace@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/michael-mattiace/1802"
+      },
+      {
+       "name": "Bryce Reed",
+       "title": "Assistant Coach",
+       "email": "b.reed@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/bryce-reed/1804"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Chase Carroll",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/chase-carroll/15453"
+      },
+      {
+       "name": "Jason Duff",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Elkton, Fla.",
+       "country": "US",
+       "previous_school": "Pedro Menendez HS",
+       "class_raw": "R-Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jason-duff/14184"
+      },
+      {
+       "name": "Danny Erickson",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "R-Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/danny-erickson/15474"
+      },
+      {
+       "name": "Stefan Ink",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "R-Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/stefan-ink/14186"
+      },
+      {
+       "name": "Alejandro Ramos",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+       "class_raw": "Gr.",
+       "major": "Business Intelligence - Transportation and Logistics",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/alejandro-ramos/14200"
+      },
+      {
+       "name": "Justin Ross",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Boca Raton, Fla.",
+       "country": "US",
+       "previous_school": "Saint Andrew's School",
+       "class_raw": "R-Jr.",
+       "major": "Finance - Accounting",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/justin-ross/14188"
+      },
+      {
+       "name": "Brett Schell",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Saint Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Ole Miss",
+       "class_raw": "6th",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/brett-schell/14189"
+      },
+      {
+       "name": "Filippo Serra",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Geneva, Switzerland /",
+       "country": "CH",
+       "previous_school": null,
+       "class_raw": "R-So.",
+       "major": "Finance - Business Intelligence",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/filippo-serra/15476"
+      },
+      {
+       "name": "Adam Vermut",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Eastern Florida",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/adam-vermut/15470"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Director of Golf",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Tyler Gulliksen",
+       "title": "Assistant Coach",
+       "email": "tyler.gulliksen@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/tyler-gulliksen/1498"
+      },
+      {
+       "name": "Michael Mattiace",
+       "title": "Assistant Coach",
+       "email": "m.mattiace@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/michael-mattiace/1802"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "James Bradley",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Valrico, Fla.",
+       "country": "US",
+       "previous_school": "Newsome HS",
+       "class_raw": "R-Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/james-bradley/13020"
+      },
+      {
+       "name": "Chase Carroll",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla. /",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/chase-carroll/15453"
+      },
+      {
+       "name": "Jason Duff",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Elkton, Fla.",
+       "country": "US",
+       "previous_school": "Pedro Menendez HS",
+       "class_raw": "R-Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jason-duff/14184"
+      },
+      {
+       "name": "Danny Erickson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/danny-erickson/15474"
+      },
+      {
+       "name": "Nick Gabrelcik",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Trinity, Fla.",
+       "country": "US",
+       "previous_school": "JW Mitchell HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/nick-gabrelcik/13022"
+      },
+      {
+       "name": "Robbie Higgins",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Mooney HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/robbie-higgins/13023"
+      },
+      {
+       "name": "Stefan Ink",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/stefan-ink/14186"
+      },
+      {
+       "name": "Davis Lee",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Gr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/davis-lee/13024"
+      },
+      {
+       "name": "Alejandro Ramos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+       "class_raw": "Sr.",
+       "major": "Business Intelligence - Transportation and Logistics",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/alejandro-ramos/14200"
+      },
+      {
+       "name": "Andrew Riley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "St. Johns, Fla.",
+       "country": "US",
+       "previous_school": "Palm Beach Atlantic",
+       "class_raw": "Jr.",
+       "major": "Business",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/andrew-riley/13031"
+      },
+      {
+       "name": "Justin Ross",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Boca Raton, Fla.",
+       "country": "US",
+       "previous_school": "Saint Andrew's School",
+       "class_raw": "R-So.",
+       "major": "Finance - Accounting",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/justin-ross/14188"
+      },
+      {
+       "name": "Brett Schell",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Saint Augustine, Fla.",
+       "country": "US",
+       "previous_school": "Ole Miss",
+       "class_raw": "5th",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/brett-schell/14189"
+      },
+      {
+       "name": "Filippo Serra",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Geneva, Switzerland /",
+       "country": "CH",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "major": "Finance - Business Intelligence",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/filippo-serra/15476"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      },
+      {
+       "name": "Donnie Gabrelcik",
+       "title": "Assistant Coach",
+       "email": "d.gabrelcik@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/donnie-gabrelcik/1382"
+      },
+      {
+       "name": "Michael Mattiace",
+       "title": "Assistant Coach",
+       "email": "m.mattiace@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/michael-mattiace/1802"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "James Bradley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valrico, Fla.",
+       "country": "US",
+       "previous_school": "Newsome HS",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/james-bradley/13020"
+      },
+      {
+       "name": "Cody Carroll",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla.",
+       "country": "US",
+       "previous_school": "Middleburg HS",
+       "class_raw": "Gr.",
+       "major": "Master of Business Administration",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cody-carroll/12466"
+      },
+      {
+       "name": "Jason Duff",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Elkton, Fla.",
+       "country": "US",
+       "previous_school": "Pedro Menendez HS",
+       "class_raw": "R-So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jason-duff/14184"
+      },
+      {
+       "name": "Nick Gabrelcik",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Trinity, Fla.",
+       "country": "US",
+       "previous_school": "JW Mitchell HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/nick-gabrelcik/13022"
+      },
+      {
+       "name": "Robbie Higgins",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Mooney HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/robbie-higgins/13023"
+      },
+      {
+       "name": "Davis Lee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/davis-lee/13024"
+      },
+      {
+       "name": "Alejandro Ramos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lima, Peru",
+       "country": "PE",
+       "previous_school": "Universidad Peruana de Ciencias Aplicadas (UPC)",
+       "class_raw": "Jr.",
+       "major": "Transportation and Logistics",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/alejandro-ramos/14200"
+      },
+      {
+       "name": "Justin Ross",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Boca Raton, Fla.",
+       "country": "US",
+       "previous_school": "Saint Andrew's School",
+       "class_raw": "R-Fr.",
+       "major": "Finance - Accounting",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/justin-ross/14188"
+      },
+      {
+       "name": "Filippo Serra",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Geneva, Switzerland /",
+       "country": "CH",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/filippo-serra/15476"
+      },
+      {
+       "name": "Cooper Smith",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Freedom HS",
+       "class_raw": "R-So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cooper-smith/12472"
+      },
+      {
+       "name": "Grant Sutliff",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw State",
+       "class_raw": "Gr.",
+       "major": "Communication Studies",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/grant-sutliff/12548"
+      },
+      {
+       "name": "Lance Yates",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Baton Rouge, La.",
+       "country": "US",
+       "previous_school": "Southeastern Louisiana",
+       "class_raw": "R-Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/lance-yates/12473"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cody Carroll",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla.",
+       "country": "US",
+       "previous_school": "Middleburg HS",
+       "class_raw": "Sr.",
+       "major": "Master of Business Administration",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cody-carroll/12466"
+      },
+      {
+       "name": "Jason Duff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elkton, Fla.",
+       "country": "US",
+       "previous_school": "Pedro Menendez HS",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jason-duff/14184"
+      },
+      {
+       "name": "Nick Gabrelcik",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Trinity, Fla.",
+       "country": "US",
+       "previous_school": "JW Mitchell HS",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/nick-gabrelcik/13022"
+      },
+      {
+       "name": "Robbie Higgins",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Mooney HS",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/robbie-higgins/13023"
+      },
+      {
+       "name": "Davis Lee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/davis-lee/13024"
+      },
+      {
+       "name": "Brandon Mancheno",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mandarin, Fla.",
+       "country": "US",
+       "previous_school": "Auburn",
+       "class_raw": "Sr.",
+       "major": "Political Science",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/brandon-mancheno/12083"
+      },
+      {
+       "name": "Justin Ross",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Boca Raton, Fla.",
+       "country": "US",
+       "previous_school": "Saint Andrew's School",
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/justin-ross/14188"
+      },
+      {
+       "name": "Cooper Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Freedom HS",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cooper-smith/12472"
+      },
+      {
+       "name": "Grant Sutliff",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw State",
+       "class_raw": "Sr.",
+       "major": "Communication Studies",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/grant-sutliff/12548"
+      },
+      {
+       "name": "Lance Yates",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Baton Rouge, La.",
+       "country": "US",
+       "previous_school": "Southeastern Louisiana",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/lance-yates/12473"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Drew Angelo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sarasota, Fla.",
+       "country": "US",
+       "previous_school": "Lakewood Ranch HS",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/drew-angelo/10036"
+      },
+      {
+       "name": "Cody Carroll",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla.",
+       "country": "US",
+       "previous_school": "Middleburg HS",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cody-carroll/12466"
+      },
+      {
+       "name": "Jason Duff",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Elkton, Fla.",
+       "country": "US",
+       "previous_school": "Pedro Menendez HS",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jason-duff/14184"
+      },
+      {
+       "name": "Nick Gabrelcik",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Trinity, Fla.",
+       "country": "US",
+       "previous_school": "JW Mitchell HS",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/nick-gabrelcik/13022"
+      },
+      {
+       "name": "Robbie Higgins",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Cardinal Mooney HS",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/robbie-higgins/13023"
+      },
+      {
+       "name": "Nick Infanti",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Clarksburg, Md.",
+       "country": "US",
+       "previous_school": "Cleveland State",
+       "class_raw": "Gr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/nick-infanti/10038"
+      },
+      {
+       "name": "Davis Lee",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "So.",
+       "major": "Accounting",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/davis-lee/13024"
+      },
+      {
+       "name": "Brandon Mancheno",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mandarin, Fla.",
+       "country": "US",
+       "previous_school": "Auburn",
+       "class_raw": "Sr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/brandon-mancheno/12083"
+      },
+      {
+       "name": "Michael Mattiace",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "Gr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-mattiace/10040"
+      },
+      {
+       "name": "Michael Saccente",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "New Smyrna, Fla.",
+       "country": "US",
+       "previous_school": "New Smyrna HS",
+       "class_raw": "R-Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-saccente/10041"
+      },
+      {
+       "name": "Cooper Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tampa, Fla.",
+       "country": "US",
+       "previous_school": "Freedom HS",
+       "class_raw": "Fr.",
+       "major": "Exploratory",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cooper-smith/12472"
+      },
+      {
+       "name": "Grant Sutliff",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw State",
+       "class_raw": "Jr.",
+       "major": "Communication Studies",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/grant-sutliff/12548"
+      },
+      {
+       "name": "Lance Yates",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Baton Rouge, La.",
+       "country": "US",
+       "previous_school": "Southeastern Louisiana",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/lance-yates/12473"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jordan Batchelor",
+       "title": "Assistant Coach",
+       "email": "j.batchelor@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jordan-batchelor/1086"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Drew Angelo",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sarasota, Fla.",
+       "country": "US",
+       "previous_school": "Lakewood Ranch HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/drew-angelo/10036"
+      },
+      {
+       "name": "Peyton Billings",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Fleming Island, Fla.",
+       "country": "US",
+       "previous_school": "Fleming Island HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/peyton-billings/9680"
+      },
+      {
+       "name": "Cody Carroll",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla.",
+       "country": "US",
+       "previous_school": "Middleburg HS",
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cody-carroll/12466"
+      },
+      {
+       "name": "Nick Infanti",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Clarksburg, Md.",
+       "country": "US",
+       "previous_school": "Cleveland State",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/nick-infanti/10038"
+      },
+      {
+       "name": "Davis Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/davis-lee/13024"
+      },
+      {
+       "name": "Michael Mattiace",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "Sr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-mattiace/10040"
+      },
+      {
+       "name": "Michael Saccente",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "New Smyrna, Fla.",
+       "country": "US",
+       "previous_school": "New Smyrna HS",
+       "class_raw": "R-Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-saccente/10041"
+      },
+      {
+       "name": "Grant Sutliff",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Suwanee, Ga.",
+       "country": "US",
+       "previous_school": "Kennesaw State",
+       "class_raw": "So.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/grant-sutliff/12548"
+      },
+      {
+       "name": "Logan Underwood",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "Nease HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/logan-underwood/9679"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      },
+      {
+       "name": "Jordan Batchelor",
+       "title": "Volunteer Assistant",
+       "email": "j.batchelor@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jordan-batchelor/1086"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andrew Alligood",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Saint Johns, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/andrew-alligood/9339"
+      },
+      {
+       "name": "Jordan Batchelor",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trails HS",
+       "class_raw": "R-Sr.",
+       "major": "MBA",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jordan-batchelor/9340"
+      },
+      {
+       "name": "Cody Carroll",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Middleburg, Fla.",
+       "country": "US",
+       "previous_school": "Middleburg HS",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/cody-carroll/12466"
+      },
+      {
+       "name": "Jack Comstock",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jack-comstock/9341"
+      },
+      {
+       "name": "Jeff Doty",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel HS",
+       "class_raw": "Rf.",
+       "major": "Exploratory",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jeff-doty/9036"
+      },
+      {
+       "name": "Philip Knowles",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Bradenton Christian",
+       "class_raw": "Sr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/philip-knowles/9343"
+      },
+      {
+       "name": "Michael Mattiace",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "Jr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-mattiace/10040"
+      },
+      {
+       "name": "Michael Saccente",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "New Smyrna, Fla.",
+       "country": "US",
+       "previous_school": "New Smyrna HS",
+       "class_raw": "R-So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-saccente/10041"
+      },
+      {
+       "name": "Spenser Slayden",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Rf.",
+       "major": "Economics",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/spenser-slayden/9038"
+      },
+      {
+       "name": "Travis Trace",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Sandalwood HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/travis-trace/9347"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andrew Alligood",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Saint Johns, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/andrew-alligood/9339"
+      },
+      {
+       "name": "Jordan Batchelor",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trails HS",
+       "class_raw": "R-Jr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jordan-batchelor/9340"
+      },
+      {
+       "name": "Jack Comstock",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jack-comstock/9341"
+      },
+      {
+       "name": "Jeff Doty",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carmel, Ind.",
+       "country": "US",
+       "previous_school": "Carmel HS",
+       "class_raw": "Fr.",
+       "major": "Exploratory",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jeff-doty/9036"
+      },
+      {
+       "name": "Philip Knowles",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Bradenton Christian",
+       "class_raw": "Jr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/philip-knowles/9343"
+      },
+      {
+       "name": "Michael Mattiace",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-mattiace/10040"
+      },
+      {
+       "name": "Michael Saccente",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "New Smyrna, Fla.",
+       "country": "US",
+       "previous_school": "New Smyrna HS",
+       "class_raw": "R-Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-saccente/10041"
+      },
+      {
+       "name": "Spenser Slayden",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra Beach, Fla.",
+       "country": "US",
+       "previous_school": "Ponte Vedra HS",
+       "class_raw": "Fr.",
+       "major": "Economics",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/spenser-slayden/9038"
+      },
+      {
+       "name": "Travis Trace",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Sandalwood HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/travis-trace/9347"
+      },
+      {
+       "name": "Dillon Woods",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Episcopal HS",
+       "class_raw": "R-Sr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/dillon-woods/9035"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://unfospreys.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Andrew Alligood",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Saint Johns, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trail HS",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/andrew-alligood/9339"
+      },
+      {
+       "name": "Jordan Batchelor",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bartram Trails HS",
+       "class_raw": "Jr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jordan-batchelor/9340"
+      },
+      {
+       "name": "Jack Comstock",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "So.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/jack-comstock/9341"
+      },
+      {
+       "name": "Philip Knowles",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bradenton, Fla.",
+       "country": "US",
+       "previous_school": "Bradenton Christian",
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/philip-knowles/9343"
+      },
+      {
+       "name": "Josh Lewis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Orlando, Fla.",
+       "country": "US",
+       "previous_school": "International Community School",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/josh-lewis/8621"
+      },
+      {
+       "name": "Michael Mattiace",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Bolles HS",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/michael-mattiace/10040"
+      },
+      {
+       "name": "Travis Trace",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Sandalwood HS",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/travis-trace/9347"
+      },
+      {
+       "name": "Osten Waite",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ocala, Fla.",
+       "country": "US",
+       "previous_school": "Trinity Catholic HS",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/osten-waite/8618"
+      },
+      {
+       "name": "Dillon Woods",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Episcopal HS",
+       "class_raw": "Jr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/dillon-woods/9035"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Men's Golf Coach",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Jeff Dennis",
+       "title": "Assistant Coach",
+       "email": "jeffrey.dennis@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/mens-golf/roster/coaches/jeff-dennis/1308"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://unfospreys.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Brianna Castaldi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Port Saint Lucie, Fla.",
+       "country": "US",
+       "previous_school": "ETSU",
+       "class_raw": "Jr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/brianna-castaldi/15438"
+      },
+      {
+       "name": "Ava Cottis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Savannah, Ga.",
+       "country": "US",
+       "previous_school": "Savannah Christian Preparatory School",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/ava-cottis/15444"
+      },
+      {
+       "name": "Ines Izuzquiza Ruiz de Arana",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain / Coronado, Calif.",
+       "country": "US",
+       "previous_school": "Coronado",
+       "class_raw": "Fr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/ines-izuzquiza-ruiz-de-arana/14662"
+      },
+      {
+       "name": "Shivani Karthikeyan",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Peterborough, England",
+       "country": "GB",
+       "previous_school": "Purdue",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/shivani-karthikeyan/14656"
+      },
+      {
+       "name": "Mohea Mansbendel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Noumea, New Caledonia",
+       "country": null,
+       "previous_school": "Keiser",
+       "class_raw": "Jr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/mohea-mansbendel/15440"
+      },
+      {
+       "name": "Kaitlyn Schroeder",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Alabama",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlyn-schroeder/15446"
+      },
+      {
+       "name": "Braydn Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "J.W. Buchholz High School",
+       "class_raw": "So.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/braydn-smith/15442"
+      },
+      {
+       "name": "Helen Zhou",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Guangdong, China",
+       "country": "CN",
+       "previous_school": "Idaho",
+       "class_raw": "Gr.",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/helen-zhou/14659"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Director of Golf",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Courtney Cobb",
+       "title": "Associate Head Coach",
+       "email": "c.cobb@unf.edu",
+       "phone": "(904) 620-2990",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/courtney-cobb/1788"
+      },
+      {
+       "name": "Megan Docherty",
+       "title": "Graduate Assistant",
+       "email": "n01653129@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/megan-docherty/1792"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Casilda Allendesalazar",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Central Michigan",
+       "class_raw": "Sr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/casilda-allendesalazar/14191"
+      },
+      {
+       "name": "Shivani Karthikeyan",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Peterborough, England",
+       "country": "GB",
+       "previous_school": "Purdue",
+       "class_raw": "R-So.",
+       "major": "Economics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/shivani-karthikeyan/14656"
+      },
+      {
+       "name": "Kaitlyn Schroeder",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Alabama",
+       "class_raw": "R-So.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlyn-schroeder/15446"
+      },
+      {
+       "name": "Chulathida \"Tantai\" Seema",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": "The American School of Bangkok Green Valley",
+       "class_raw": "Fr.",
+       "major": "Political Science",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/chulathida-tantai-seema/14338"
+      },
+      {
+       "name": "Braydn Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "null",
+       "class_raw": "Fr.",
+       "major": "Sports Journalism",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/braydn-smith/15442"
+      },
+      {
+       "name": "Kaitlynn Washburn",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Scituate, Mass.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "R-Sr.",
+       "major": "Business Analytics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlynn-washburn/14194"
+      },
+      {
+       "name": "Helen Zhou",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Guangdong, China",
+       "country": "CN",
+       "previous_school": "Idaho",
+       "class_raw": "R-Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/helen-zhou/14659"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Scott Schroeder",
+       "title": "Director of Golf",
+       "email": "sschroed@unf.edu",
+       "phone": "(904) 620-5167",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/scott-schroeder/1787"
+      },
+      {
+       "name": "Courtney Cobb",
+       "title": "Associate Head Coach",
+       "email": "c.cobb@unf.edu",
+       "phone": "(904) 620-2990",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/courtney-cobb/1788"
+      },
+      {
+       "name": "Michael Mattiace",
+       "title": "Assistant Coach",
+       "email": "m.mattiace@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/michael-mattiace/1802"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Casilda Allendesalazar",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madrid, Spain",
+       "country": "ES",
+       "previous_school": "Central Michigan",
+       "class_raw": "Jr.",
+       "major": "Mechanical Engineering",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/casilda-allendesalazar/14191"
+      },
+      {
+       "name": "Wyndom Burnett",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Citrus Springs, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual",
+       "class_raw": "R-So.",
+       "major": "Photography",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/wyndom-burnett/12843"
+      },
+      {
+       "name": "Jessie Cai",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "IJCA Academy",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/jessie-cai/12844"
+      },
+      {
+       "name": "Christin Eisenbeiss",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "Alfred Nobel Schule",
+       "class_raw": "Sr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/christin-eisenbeiss/12845"
+      },
+      {
+       "name": "Shivani Karthikeyan",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Peterborough, England",
+       "country": "GB",
+       "previous_school": "Purdue",
+       "class_raw": "R-Fr.",
+       "major": "Economics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/shivani-karthikeyan/14656"
+      },
+      {
+       "name": "One Kashima",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tochigi, Japan",
+       "country": "JP",
+       "previous_school": "Montverde Academy",
+       "class_raw": "Fr.",
+       "major": "Kinesiology",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/one-kashima/12852"
+      },
+      {
+       "name": "Valeria Lizcano",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogotá, Colombia",
+       "country": "CO",
+       "previous_school": "The Victoria School",
+       "class_raw": "Fr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/valeria-lizcano/12851"
+      },
+      {
+       "name": "Sarah Scott",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Oviedo, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "Gr.",
+       "major": "Health Science",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sarah-scott/12846"
+      },
+      {
+       "name": "Kaitlynn Washburn",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Scituate, Mass.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "R-Jr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlynn-washburn/14194"
+      },
+      {
+       "name": "Helen Zhou",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Guangdong, China",
+       "country": "CN",
+       "previous_school": "Idaho",
+       "class_raw": "R-So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/helen-zhou/14659"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Courtney Cobb",
+       "title": "Assistant Coach",
+       "email": "c.cobb@unf.edu",
+       "phone": "(904) 620-2990",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/courtney-cobb/1788"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wyndom Burnett",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Citrus Springs, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual",
+       "class_raw": "R-Fr.",
+       "major": "Fine Arts",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/wyndom-burnett/12843"
+      },
+      {
+       "name": "Jessie Cai",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "IJCA Academy",
+       "class_raw": "Jr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/jessie-cai/12844"
+      },
+      {
+       "name": "Christin Eisenbeiss",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "Alfred Nobel Schule",
+       "class_raw": "Jr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/christin-eisenbeiss/12845"
+      },
+      {
+       "name": "Daniela Gonzalez",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "The English School",
+       "class_raw": "Gr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/daniela-gonzalez/12395"
+      },
+      {
+       "name": "Anastacia Johnson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tacoma, Wash.",
+       "country": "US",
+       "previous_school": "Texas A&M - Corpus Christi",
+       "class_raw": "So.",
+       "major": "Business Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/anastacia-johnson/12398"
+      },
+      {
+       "name": "Sarah Scott",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Oviedo, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "Sr.",
+       "major": "Health Science",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sarah-scott/12846"
+      },
+      {
+       "name": "Kaitlynn Washburn",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Scituate, Mass.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "R-So.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlynn-washburn/14194"
+      },
+      {
+       "name": "Helen Zhou",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guangdong, China",
+       "country": "CN",
+       "previous_school": "Idaho",
+       "class_raw": "So.",
+       "major": "Psychology",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/helen-zhou/14659"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Courtney Cobb",
+       "title": "Assistant Coach",
+       "email": "c.cobb@unf.edu",
+       "phone": "(904) 620-2990",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/courtney-cobb/1788"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Wyndom Burnett",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Citrus Springs, Fla.",
+       "country": "US",
+       "previous_school": "Florida Virtual",
+       "class_raw": "Fr.",
+       "major": "Fine Arts",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/wyndom-burnett/12843"
+      },
+      {
+       "name": "Jessie Cai",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "IJCA Academy",
+       "class_raw": "So.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/jessie-cai/12844"
+      },
+      {
+       "name": "Liss Davalos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Guadalajara, Mexico",
+       "country": "MX",
+       "previous_school": "Institute Thomas Jefferson",
+       "class_raw": "Sr.",
+       "major": "Master of Business Administration",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/liss-davalos/12010"
+      },
+      {
+       "name": "Christin Eisenbeiss",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "Alfred Nobel Schule",
+       "class_raw": "So.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/christin-eisenbeiss/12845"
+      },
+      {
+       "name": "Daniela Gonzalez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "The English School",
+       "class_raw": "Sr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/daniela-gonzalez/12395"
+      },
+      {
+       "name": "Mindy Herrick",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "Buchholz HS",
+       "class_raw": "Gr.",
+       "major": "Master in Educational Leadership",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/mindy-herrick/12013"
+      },
+      {
+       "name": "Sara McKevitt",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "USF",
+       "class_raw": "Gr.",
+       "major": "Master of Business Administration",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sara-mckevitt/12014"
+      },
+      {
+       "name": "Sarah Scott",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Oviedo, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "So.",
+       "major": "Health Science",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sarah-scott/12846"
+      },
+      {
+       "name": "Kaitlynn Washburn",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Scituate, Mass.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "So.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlynn-washburn/14194"
+      },
+      {
+       "name": "Aaron Whitley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Osprey, Fla.",
+       "country": "US",
+       "previous_school": "Riverview HS",
+       "class_raw": "Fr.",
+       "major": "Communication",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/aaron-whitley/12038"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Courtney Cobb",
+       "title": "Assistant Coach",
+       "email": "c.cobb@unf.edu",
+       "phone": "(904) 620-2990",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/courtney-cobb/1788"
+      },
+      {
+       "name": "Marion Debove",
+       "title": "Volunteer Assistant",
+       "email": "n01479345@unf.edu",
+       "phone": null,
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/marion-debove/1122"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jessie Cai",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "IJCA Academy",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/jessie-cai/12844"
+      },
+      {
+       "name": "Liss Davalos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Guadalajara, Mexico",
+       "country": "MX",
+       "previous_school": "Institute Thomas Jefferson",
+       "class_raw": "Jr.",
+       "major": "International Business",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/liss-davalos/12010"
+      },
+      {
+       "name": "Marion Debove",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Paris, France",
+       "country": "FR",
+       "previous_school": "IUPUI | Rend Lake College",
+       "class_raw": "Gr.",
+       "major": "Accounting",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/marion-debove/10133"
+      },
+      {
+       "name": "Christin Eisenbeiss",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hamburg, Germany",
+       "country": "DE",
+       "previous_school": "Alfred Nobel Schule",
+       "class_raw": "Fr.",
+       "major": "Business Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/christin-eisenbeiss/12845"
+      },
+      {
+       "name": "Daniela Gonzalez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "The English School",
+       "class_raw": "Jr.",
+       "major": "Marketing",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/daniela-gonzalez/12395"
+      },
+      {
+       "name": "Mindy Herrick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "Buchholz HS",
+       "class_raw": "Sr.",
+       "major": "Journalism",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/mindy-herrick/12013"
+      },
+      {
+       "name": "Sara McKevitt",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "USF",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sara-mckevitt/12014"
+      },
+      {
+       "name": "Alyssa Mercado",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary HS",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/alyssa-mercado/9988"
+      },
+      {
+       "name": "Kaitlynn Washburn",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Scituate, Mass.",
+       "country": "US",
+       "previous_school": "IMG Academy",
+       "class_raw": "Fr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaitlynn-washburn/14194"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Courtney Cobb",
+       "title": "Assistant Coach",
+       "email": "c.cobb@unf.edu",
+       "phone": "(904) 620-2990",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/courtney-cobb/1788"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teresa Conroy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "John Paul II Catholic HS",
+       "class_raw": "Sr.",
+       "major": "Statistics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/teresa-conroy/9663"
+      },
+      {
+       "name": "Liss Davalos",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Guadalajara, Mexico",
+       "country": "MX",
+       "previous_school": "Institute Thomas Jefferson",
+       "class_raw": "So.",
+       "major": "International Business",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/liss-davalos/12010"
+      },
+      {
+       "name": "Daniela Gonzalez",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "The English School",
+       "class_raw": "So.",
+       "major": "Exploratory",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/daniela-gonzalez/12395"
+      },
+      {
+       "name": "Mindy Herrick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "Buchholz HS",
+       "class_raw": "Jr.",
+       "major": "Elementary Education",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/mindy-herrick/12013"
+      },
+      {
+       "name": "Sara McKevitt",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "USF",
+       "class_raw": "Jr.",
+       "major": "Civil Engineering",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sara-mckevitt/12014"
+      },
+      {
+       "name": "Natalia Rivera",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "San Juan, Puerto Rico",
+       "country": "US",
+       "previous_school": "Cupeyville HS",
+       "class_raw": "Sr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/natalia-rivera/9668"
+      },
+      {
+       "name": "Sydney Shrader",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "St. John Neumann HS",
+       "class_raw": "Sr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sydney-shrader/9669"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Stephanie Connelly",
+       "title": "Assistant Coach",
+       "email": "s.connelly@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/stephanie-connelly/944"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Teresa Conroy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "John Paul II Catholic HS",
+       "class_raw": "Jr.",
+       "major": "Statistics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/teresa-conroy/9663"
+      },
+      {
+       "name": "Liss Davalos",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Guadalajara, Mexico",
+       "country": "MX",
+       "previous_school": "Institute Thomas Jefferson",
+       "class_raw": "Fr.",
+       "major": "International Business",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/liss-davalos/12010"
+      },
+      {
+       "name": "Daniela Gonzalez",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bogota, Colombia",
+       "country": "CO",
+       "previous_school": "The English School",
+       "class_raw": "Fr.",
+       "major": "Exploratory",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/daniela-gonzalez/12395"
+      },
+      {
+       "name": "Mindy Herrick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "Buchholz HS",
+       "class_raw": "So.",
+       "major": "Elementary Education",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/mindy-herrick/12013"
+      },
+      {
+       "name": "Kaye Kwon",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Silang Cavite, Phillipines",
+       "country": null,
+       "previous_school": "Daytona State",
+       "class_raw": "Sr.",
+       "major": "Public Health",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaye-kwon/9332"
+      },
+      {
+       "name": "Sara McKevitt",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Ponte Vedra, Fla.",
+       "country": "US",
+       "previous_school": "USF",
+       "class_raw": "So.",
+       "major": "Civil Engineering",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sara-mckevitt/12014"
+      },
+      {
+       "name": "Natalia Rivera",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "San Juan, Puerto Rico",
+       "country": "US",
+       "previous_school": "Cupeyville HS",
+       "class_raw": "Jr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/natalia-rivera/9668"
+      },
+      {
+       "name": "Sydney Shrader",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "St. John Neumann HS",
+       "class_raw": "Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sydney-shrader/9669"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Stephanie Connelly",
+       "title": "Assistant Coach",
+       "email": "s.connelly@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/stephanie-connelly/944"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Cam Becker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lutz, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "Jr.",
+       "major": "Communication",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/cam-becker/9048"
+      },
+      {
+       "name": "Courtney Cobb",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "R-Sr.",
+       "major": "Educational Leadership",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/courtney-cobb/9043"
+      },
+      {
+       "name": "Teresa Conroy",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "John Paul II Catholic HS",
+       "class_raw": "So.",
+       "major": "Statistics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/teresa-conroy/9663"
+      },
+      {
+       "name": "Mindy Herrick",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gainesville, Fla.",
+       "country": "US",
+       "previous_school": "Buchholz HS",
+       "class_raw": "Fr.",
+       "major": "Elementary Education",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/mindy-herrick/12013"
+      },
+      {
+       "name": "Kaye Kwon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Silang Cavite, Phillipines",
+       "country": null,
+       "previous_school": "Daytona State",
+       "class_raw": "Jr.",
+       "major": "Public Health",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/kaye-kwon/9332"
+      },
+      {
+       "name": "Sydney Merchant",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary HS",
+       "class_raw": "So.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sydney-merchant/9045"
+      },
+      {
+       "name": "Natalia Rivera",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "San Juan, Puerto Rico",
+       "country": "US",
+       "previous_school": "Cupeyville HS",
+       "class_raw": "So.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/natalia-rivera/9668"
+      },
+      {
+       "name": "Sydney Shrader",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "St. John Neumann HS",
+       "class_raw": "So.",
+       "major": "Exercise Science",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sydney-shrader/9669"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Stephanie Connelly",
+       "title": "Assistant Coach",
+       "email": "s.connelly@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/stephanie-connelly/944"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://unfospreys.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Courtney Cobb",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": "Daytona State",
+       "class_raw": "R-Jr.",
+       "major": "Sport Management",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/courtney-cobb/9043"
+      },
+      {
+       "name": "Teresa Conroy",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tallahassee, Fla.",
+       "country": "US",
+       "previous_school": "John Paul II Catholic HS",
+       "class_raw": "Fr.",
+       "major": "Statistics",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/teresa-conroy/9663"
+      },
+      {
+       "name": "Sydney Merchant",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Mary, Fla.",
+       "country": "US",
+       "previous_school": "Lake Mary HS",
+       "class_raw": "Fr.",
+       "major": "Exploratory",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sydney-merchant/9045"
+      },
+      {
+       "name": "Nathalie Nygren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "Viktor Rydberg Gymnasium Odenplan",
+       "class_raw": "Sr.",
+       "major": "International Business",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/nathalie-nygren/8624"
+      },
+      {
+       "name": "Natalia Rivera",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "San Juan, Puerto Rico",
+       "country": "US",
+       "previous_school": "Cupeyville HS",
+       "class_raw": "Fr.",
+       "major": "Finance",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/natalia-rivera/9668"
+      },
+      {
+       "name": "Sydney Shrader",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "St. John Neumann HS",
+       "class_raw": "Fr.",
+       "major": "Health Science",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/sydney-shrader/9669"
+      },
+      {
+       "name": "Megan Wilshire",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Georgetown, Ky.",
+       "country": "US",
+       "previous_school": "Auburn",
+       "class_raw": "Sr.",
+       "major": "Health Administration",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/megan-wilshire/8625"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Joanne Berglund",
+       "title": "Head Coach",
+       "email": "j.steele@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/joanne-berglund/1274"
+      },
+      {
+       "name": "Stephanie Connelly",
+       "title": "Assistant Coach",
+       "email": "s.connelly@unf.edu",
+       "phone": "(904) 620-5838",
+       "profile_url": "https://unfospreys.com/sports/womens-golf/roster/coaches/stephanie-connelly/944"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://unfospreys.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://unfospreys.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://unfospreys.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://unfospreys.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://unfospreys.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

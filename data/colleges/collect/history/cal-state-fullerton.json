@@ -1,36 +1,2315 @@
 {
  "slug": "cal-state-fullerton",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://fullertontitans.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Brenden Ashman",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brenden-ashman/5628"
+      },
+      {
+       "name": "Nicky Benton",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Christian HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/nicky-benton/5629"
+      },
+      {
+       "name": "Giacomo Comerio",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Schio, Italy",
+       "country": "IT",
+       "previous_school": "Columbia College",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/giacomo-comerio/5630"
+      },
+      {
+       "name": "Dante Lazare",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Villa Park HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dante-lazare/5631"
+      },
+      {
+       "name": "Lance Nguyen",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntington Beach, Calif.",
+       "country": "US",
+       "previous_school": "Huntington Beach HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/lance-nguyen/5633"
+      },
+      {
+       "name": "Will Tanaka",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Trabuco Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Foothill High School",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/will-tanaka/5632"
+      },
+      {
+       "name": "Eliot Vidal",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Nîmes, France",
+       "country": "FR",
+       "previous_school": "Reedley College",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/eliot-vidal/5634"
+      },
+      {
+       "name": "Shibo Wang",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tianjin, China",
+       "country": "CN",
+       "previous_school": "University of Rochester",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/shibo-wang/5635"
+      },
+      {
+       "name": "Chase Yukawa",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Roseville HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/chase-yukawa/5636"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach (17th Season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/779"
+      },
+      {
+       "name": "Matthew Schafer",
+       "title": "Assistant Coach (1st Season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matthew-schafer/780"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tegan Andrews",
+       "class_year": "SR",
+       "redshirt": true,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": "Agoura HS",
+       "class_raw": "R-Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/tegan-andrews/5206"
+      },
+      {
+       "name": "Brenden Ashman",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "R-Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brenden-ashman/5207"
+      },
+      {
+       "name": "Nicky Benton",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": "Oak Christian HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/nicky-benton/5208"
+      },
+      {
+       "name": "Giacomo Comerio",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Schio, Italy",
+       "country": "IT",
+       "previous_school": "Liceo IIS. Tron-Zanella",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/giacomo-comerio/5210"
+      },
+      {
+       "name": "Russell Howlett",
+       "class_year": "JR",
+       "redshirt": true,
+       "hometown": "Delta, B.C.",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "R-Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/russell-howlett/5211"
+      },
+      {
+       "name": "Dante Lazare",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": "Villa Park HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dante-lazare/5212"
+      },
+      {
+       "name": "Patrick Ordonez",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": "Sunny Hills HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/patrick-ordonez/5213"
+      },
+      {
+       "name": "Matthew Schafer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Long Beach, Calif.",
+       "country": "US",
+       "previous_school": "Wilson HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matthew-schafer/5214"
+      },
+      {
+       "name": "Will Tanaka",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Trabuco Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Foothill High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/will-tanaka/5215"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach (13th Season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/718"
+      },
+      {
+       "name": "Trevor McNary",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/trevor-mcnary/719"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tegan Andrews",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/tegan-andrews/4213"
+      },
+      {
+       "name": "Brenden Ashman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brenden-ashman/4214"
+      },
+      {
+       "name": "Garrett Boe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/garrett-boe/4215"
+      },
+      {
+       "name": "Russell Howlett",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Delta, B.C.",
+       "country": "CA",
+       "previous_school": "UBC",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/russell-howlett/4216"
+      },
+      {
+       "name": "Dante Lazare",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dante-lazare/4217"
+      },
+      {
+       "name": "Trevor McNary",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/trevor-mcnary/4218"
+      },
+      {
+       "name": "Patrick Ordonez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": "CSU Dominguez Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/patrick-ordonez/4219"
+      },
+      {
+       "name": "Matthew Schafer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Long Beach, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matthew-schafer/4220"
+      },
+      {
+       "name": "Ethan Thomas",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Buena Park, Calif.",
+       "country": "US",
+       "previous_school": "Mt. San Antonio College",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/ethan-thomas/4221"
+      },
+      {
+       "name": "Howard Yoon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": "CSU Dominguez Hills",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/howard-yoon/4222"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/576"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/577"
+      },
+      {
+       "name": "Harry Doig",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/harry-doig/688"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tegan Andrews",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/tegan-andrews/4199"
+      },
+      {
+       "name": "Brenden Ashman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brenden-ashman/4200"
+      },
+      {
+       "name": "Garrett Boe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/garrett-boe/4201"
+      },
+      {
+       "name": "Harry Doig",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/harry-doig/4202"
+      },
+      {
+       "name": "Brannon Fahrny",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brannon-fahrny/4203"
+      },
+      {
+       "name": "Harry Fearn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Leek, England",
+       "country": "GB",
+       "previous_school": "Indian Hills CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/harry-fearn/4204"
+      },
+      {
+       "name": "Russell Howlett",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Delta, B.C.",
+       "country": "CA",
+       "previous_school": "UBC",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/russell-howlett/4205"
+      },
+      {
+       "name": "Dante Lazare",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newport Beach, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dante-lazare/4206"
+      },
+      {
+       "name": "Trevor McNary",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/trevor-mcnary/4207"
+      },
+      {
+       "name": "Troy McNary",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/troy-mcnary/4208"
+      },
+      {
+       "name": "Matthew Schafer",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Long Beach, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matthew-schafer/4209"
+      },
+      {
+       "name": "Dylan Walsh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dylan-walsh/4210"
+      },
+      {
+       "name": "Cameron Xiao",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/cameron-xiao/4211"
+      },
+      {
+       "name": "Howard Yoon",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": "CSU Dominguez Hills",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/howard-yoon/4212"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/578"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/579"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Tegan Andrews",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/tegan-andrews/2239"
+      },
+      {
+       "name": "Brenden Ashman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brenden-ashman/2240"
+      },
+      {
+       "name": "Garrett Boe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/garrett-boe/2241"
+      },
+      {
+       "name": "Harry Doig",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/harry-doig/2242"
+      },
+      {
+       "name": "Brannon Fahrny",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/brannon-fahrny/2243"
+      },
+      {
+       "name": "Harry Fearn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leek, England",
+       "country": "GB",
+       "previous_school": "Indian Hills CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/harry-fearn/2244"
+      },
+      {
+       "name": "Trevor McNary",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/trevor-mcnary/2245"
+      },
+      {
+       "name": "Matthew Schafer",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Long Beach, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matthew-schafer/2246"
+      },
+      {
+       "name": "Jack Smyth",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Santa Ana. Calif.",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jack-smyth/2247"
+      },
+      {
+       "name": "Dylan Walsh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dylan-walsh/2248"
+      },
+      {
+       "name": "Cameron Xiao",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/cameron-xiao/2249"
+      }
+     ],
+     "coaches": []
+    },
+    "2020-21": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Teagan Andrews",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Agoura Hills, Calif.",
+       "country": "US",
+       "previous_school": "Agoura HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/teagan-andrews/2228"
+      },
+      {
+       "name": "Garrett Boe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/garrett-boe/2229"
+      },
+      {
+       "name": "Dalton Daniel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Newcastle, Okla.",
+       "country": "US",
+       "previous_school": "Newcastle High School",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dalton-daniel/2230"
+      },
+      {
+       "name": "Harry Doig",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sydney, Australia",
+       "country": "AU",
+       "previous_school": "Marist Brothers Eastwood",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/harry-doig/2231"
+      },
+      {
+       "name": "Trevor McNary",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/trevor-mcnary/2232"
+      },
+      {
+       "name": "Blake Petchel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/blake-petchel/2233"
+      },
+      {
+       "name": "Matt Rafter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-rafter/2234"
+      },
+      {
+       "name": "Jess Scheller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Valencia, Calif.",
+       "country": "US",
+       "previous_school": "Hart HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jess-scheller/2235"
+      },
+      {
+       "name": "Jack Smyth",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Santa Ana. Calif.",
+       "country": null,
+       "previous_school": "Foothill HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jack-smyth/2236"
+      },
+      {
+       "name": "Dylan Walsh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, Calif.",
+       "country": "US",
+       "previous_school": "Dana Hills HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dylan-walsh/2237"
+      },
+      {
+       "name": "Cameron Xiao",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/cameron-xiao/2238"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/189"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/190"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Garrett Boe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Clovis, Calif.",
+       "country": "US",
+       "previous_school": "Buchanan HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/garrett-boe/2219"
+      },
+      {
+       "name": "Derek Castillo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/derek-castillo/2220"
+      },
+      {
+       "name": "Dalton Daniel",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Newcastle, Okla.",
+       "country": "US",
+       "previous_school": "Newcastle High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dalton-daniel/2221"
+      },
+      {
+       "name": "Jack Dyer",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Leigh-on-Sea, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jack-dyer/2222"
+      },
+      {
+       "name": "Trevor McNary",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Whittier, Calif.",
+       "country": "US",
+       "previous_school": "La Serna HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/trevor-mcnary/2223"
+      },
+      {
+       "name": "Blake Petchel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/blake-petchel/2224"
+      },
+      {
+       "name": "Matt Rafter",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-rafter/2225"
+      },
+      {
+       "name": "Jess Scheller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Valencia, Calif.",
+       "country": "US",
+       "previous_school": "Hart HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jess-scheller/2226"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/191"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/192"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Derek Castillo",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/derek-castillo/2210"
+      },
+      {
+       "name": "CJ Coleman",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/cj-coleman/2211"
+      },
+      {
+       "name": "Dalton Daniel",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Newcastle, Okla.",
+       "country": "US",
+       "previous_school": "Newcastle High School",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dalton-daniel/2212"
+      },
+      {
+       "name": "Jack Dyer",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leigh-on-Sea, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jack-dyer/2213"
+      },
+      {
+       "name": "Blake Petchel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": "Murrieta Valley HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/blake-petchel/2214"
+      },
+      {
+       "name": "Matt Rafter",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-rafter/2215"
+      },
+      {
+       "name": "Jess Scheller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Valencia, Calif.",
+       "country": "US",
+       "previous_school": "Hart HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jess-scheller/2216"
+      },
+      {
+       "name": "Michael Sharkey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/michael-sharkey/2217"
+      },
+      {
+       "name": "Matt Wilson",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-wilson/2218"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/193"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/194"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Derek Castillo",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/derek-castillo/2200"
+      },
+      {
+       "name": "Mark Cobey",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Woodland, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/mark-cobey/2201"
+      },
+      {
+       "name": "CJ Coleman",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/cj-coleman/2202"
+      },
+      {
+       "name": "Dalton Daniel",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Newcastle, Okla.",
+       "country": "US",
+       "previous_school": "Newcastle High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dalton-daniel/2203"
+      },
+      {
+       "name": "Dario Hamada",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": "Sunny Hills HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dario-hamada/2204"
+      },
+      {
+       "name": "Davis Holman",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "Rs.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/davis-holman/2205"
+      },
+      {
+       "name": "Martin Manalo",
+       "class_year": null,
+       "redshirt": false,
+       "hometown": "West Covina, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "Rs.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/martin-manalo/2206"
+      },
+      {
+       "name": "Michael Sharkey",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "R-So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/michael-sharkey/2207"
+      },
+      {
+       "name": "Matt Wilson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-wilson/2208"
+      },
+      {
+       "name": "Sam Yamauchi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis Senior HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/sam-yamauchi/2209"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/195"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/196"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://fullertontitans.com/sports/mens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Michael Alvarez",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pomona, Calif.",
+       "country": "US",
+       "previous_school": "Coronado HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/michael-alvarez/2188"
+      },
+      {
+       "name": "Mark Cobey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Woodland, Calif.",
+       "country": "US",
+       "previous_school": "Jesuit HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/mark-cobey/2189"
+      },
+      {
+       "name": "CJ Coleman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manhattan Beach, Calif.",
+       "country": "US",
+       "previous_school": "Mira Costa HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/cj-coleman/2190"
+      },
+      {
+       "name": "Dario Hamada",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fullerton, Calif.",
+       "country": "US",
+       "previous_school": "Sunny Hills HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/dario-hamada/2191"
+      },
+      {
+       "name": "Davis Holman",
+       "class_year": "SO",
+       "redshirt": true,
+       "hometown": "Yorba Linda, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "R-So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/davis-holman/2192"
+      },
+      {
+       "name": "Jack Ireland",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mission Viejo, Calif.",
+       "country": "US",
+       "previous_school": "Tesoro HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/jack-ireland/2193"
+      },
+      {
+       "name": "Martin Manalo",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "West Covina, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/martin-manalo/2194"
+      },
+      {
+       "name": "Matt Murphy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Trabuco Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Santa Margarita Catholic HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-murphy/2195"
+      },
+      {
+       "name": "Michael Sharkey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/michael-sharkey/2196"
+      },
+      {
+       "name": "Ty Stites",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Sallisaw, Okla.",
+       "country": "US",
+       "previous_school": "Sallisaw HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/ty-stites/2197"
+      },
+      {
+       "name": "Matt Wilson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cypress, Calif.",
+       "country": "US",
+       "previous_school": "Servite HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/matt-wilson/2198"
+      },
+      {
+       "name": "Sam Yamauchi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Davis, Calif.",
+       "country": "US",
+       "previous_school": "Davis Senior HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/sam-yamauchi/2199"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jason Drotter",
+       "title": "Director of Golf/Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/jason-drotter/197"
+      },
+      {
+       "name": "Matt Wilson",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/mens-golf/roster/coaches/matt-wilson/198"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://fullertontitans.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2025-26",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zara Ali",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Leeds, England",
+       "country": "GB",
+       "previous_school": "Horsforth HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/zara-ali/5671"
+      },
+      {
+       "name": "Louise Dahl",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jyllinge, Denmark",
+       "country": "DK",
+       "previous_school": "Loretto School",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/louise-dahl/5672"
+      },
+      {
+       "name": "Jordyn Janert",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Temecula, Calif.",
+       "country": "US",
+       "previous_school": "Temecula Valley HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/jordyn-janert/5673"
+      },
+      {
+       "name": "Madeline Lee",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Arcadia, Calif.",
+       "country": "US",
+       "previous_school": "Arcadia HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/madeline-lee/5678"
+      },
+      {
+       "name": "Koa Seymour",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Los Angeles, Calif.",
+       "country": "US",
+       "previous_school": "Notre Dame HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/koa-seymour/5679"
+      },
+      {
+       "name": "Davina Xanh",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Weston Super Mare, England",
+       "country": "GB",
+       "previous_school": "Backwell School",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/davina-xanh/5674"
+      },
+      {
+       "name": "Katharina Zeilinger",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Neuhofen, Austria",
+       "country": "AT",
+       "previous_school": "BRG Traun",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/katharina-zeilinger/5676"
+      },
+      {
+       "name": "Kaitlyn Zermeno Smith",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Covina, Calif.",
+       "country": "US",
+       "previous_school": "South Hills HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kaitlyn-zermeno-smith/5677"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach (9th season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/790"
+      },
+      {
+       "name": "Linley Ooi",
+       "title": "Assistant Coach (2nd Season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/linley-ooi/791"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2024-25",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zara Ali",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Leeds, England",
+       "country": "GB",
+       "previous_school": "Horsforth HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/zara-ali/5155"
+      },
+      {
+       "name": "Louise Dahl",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jyllinge, Denmark",
+       "country": "DK",
+       "previous_school": "Northern Colorado",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/louise-dahl/5204"
+      },
+      {
+       "name": "Amber Davalos",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Saddleback College",
+       "class_raw": "Gr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/amber-davalos/5156"
+      },
+      {
+       "name": "Jordyn Janert",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Temecula, Calif.",
+       "country": "US",
+       "previous_school": "La Verne",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/jordyn-janert/5203"
+      },
+      {
+       "name": "Elyse Kim",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "La Palma, Calif.",
+       "country": "US",
+       "previous_school": "Quinnipiac",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elyse-kim/5157"
+      },
+      {
+       "name": "Davina Xanh",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Weston Super Mare, England",
+       "country": "GB",
+       "previous_school": "Backwell School",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/davina-xanh/5158"
+      },
+      {
+       "name": "Katharina Zeilinger",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Neuhofen, Austria",
+       "country": "AT",
+       "previous_school": "BRG Traun",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/katharina-zeilinger/5164"
+      },
+      {
+       "name": "Kaitlyn Zermeno Smith",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Covina, Calif.",
+       "country": "US",
+       "previous_school": "South Hills HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kaitlyn-zermeno-smith/5177"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach (8th season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/711"
+      },
+      {
+       "name": "Linley Ooi",
+       "title": "Assistant Coach (1st Season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/linley-ooi/712"
+      },
+      {
+       "name": "Chayse Gomez",
+       "title": "Assistant Coach (1st Season)",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/chayse-gomez/713"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2023-24",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Zara Ali",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Leeds, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/zara-ali/4343"
+      },
+      {
+       "name": "Amber Davalos",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Saddleback College",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/amber-davalos/4344"
+      },
+      {
+       "name": "Elyse Kim",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "La Palma, Calif.",
+       "country": "US",
+       "previous_school": "Quinnipiac",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elyse-kim/4345"
+      },
+      {
+       "name": "Kajsa Landstrom",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Snekkersten, Denmark",
+       "country": "DK",
+       "previous_school": "Helsingor Gymnasium",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kajsa-landstrom/4346"
+      },
+      {
+       "name": "Gabby Minier",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Santa Barbara, Calif.",
+       "country": "US",
+       "previous_school": "Colorado State",
+       "class_raw": "Gr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/gabby-minier/4347"
+      },
+      {
+       "name": "Linley Ooi",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Oklahoma",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/linley-ooi/4348"
+      },
+      {
+       "name": "Davina Xanh",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Weston Super Mare, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/davina-xanh/4350"
+      },
+      {
+       "name": "Katharina Zeilinger",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Neuhofen, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/katharina-zeilinger/4351"
+      },
+      {
+       "name": "Kaitlyn Zermeno Smith",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Covina, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kaitlyn-zermeno-smith/4349"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/609"
+      },
+      {
+       "name": "Michelle Piyapattra",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/michelle-piyapattra/610"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2022-23",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Amber Davalos",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tustin, Calif.",
+       "country": "US",
+       "previous_school": "Saddleback College",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/amber-davalos/4335"
+      },
+      {
+       "name": "Elyse Kim",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "La Palma, Calif.",
+       "country": "US",
+       "previous_school": "Quinnipiac",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elyse-kim/4336"
+      },
+      {
+       "name": "Kajsa Landstrom",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Snekkersten, Denmark",
+       "country": "DK",
+       "previous_school": "Helsingor Gymnasium",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kajsa-landstrom/4337"
+      },
+      {
+       "name": "Linley Ooi",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Oklahoma",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/linley-ooi/4338"
+      },
+      {
+       "name": "Elina Saksa",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Turku, Finland",
+       "country": "FI",
+       "previous_school": "UNLV",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elina-saksa/4339"
+      },
+      {
+       "name": "Davina Xanh",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Weston Super Mare, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/davina-xanh/4341"
+      },
+      {
+       "name": "Katharina Zeilinger",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Neuhofen, Austria",
+       "country": "AT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/katharina-zeilinger/4342"
+      },
+      {
+       "name": "Kaitlyn Zermeno Smith",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Covina, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kaitlyn-zermeno-smith/4340"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/611"
+      },
+      {
+       "name": "Michelle Piyapattra",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/michelle-piyapattra/612"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2021-22",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sara Camarena",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": "Oklahoma State",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/sara-camarena/3819"
+      },
+      {
+       "name": "Lisa Djerf",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/lisa-djerf/3820"
+      },
+      {
+       "name": "Kayle Hunn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kayle-hunn/3821"
+      },
+      {
+       "name": "Haruka Koda",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Miyoshi, Aichi",
+       "country": null,
+       "previous_school": "College of the Canyons",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/haruka-koda/3822"
+      },
+      {
+       "name": "Linley Ooi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Melbourne, Australia",
+       "country": "AU",
+       "previous_school": "Oklahoma",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/linley-ooi/3823"
+      },
+      {
+       "name": "Elina Saksa",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Turku, Finland",
+       "country": "FI",
+       "previous_school": "UNLV",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elina-saksa/3824"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/212"
+      },
+      {
+       "name": "Michelle Piyapattra",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/michelle-piyapattra/213"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2020-21",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sara Camarena",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/sara-camarena/3812"
+      },
+      {
+       "name": "Lisa Djerf",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "LM Engstrom",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/lisa-djerf/3813"
+      },
+      {
+       "name": "Nodoka Honda",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Irvine, Calif.",
+       "country": "US",
+       "previous_school": "University HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/nodoka-honda/3814"
+      },
+      {
+       "name": "Kayle Hunn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": null,
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/kayle-hunn/3815"
+      },
+      {
+       "name": "Haruka Koda",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Miyoshi, Aichi",
+       "country": null,
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/haruka-koda/3816"
+      },
+      {
+       "name": "Sofia Legaspi",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "St. Paul College Pasig",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/sofia-legaspi/3817"
+      },
+      {
+       "name": "Brittany Shin",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Cape Coral, Fla.",
+       "country": "US",
+       "previous_school": "Canterbury High School",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/brittany-shin/3818"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/214"
+      },
+      {
+       "name": "Margo Dionisio",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/margo-dionisio/215"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2019-20",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Sara Camarena",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mexico City, Mexico",
+       "country": "MX",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/sara-camarena/3804"
+      },
+      {
+       "name": "Lisa Djerf",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "LM Engstrom",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/lisa-djerf/3805"
+      },
+      {
+       "name": "Nodoka Honda",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Irvine, Calif.",
+       "country": "US",
+       "previous_school": "University HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/nodoka-honda/3806"
+      },
+      {
+       "name": "Sofia Legaspi",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Quezon City, Philippines",
+       "country": "PH",
+       "previous_school": "St. Paul College Pasig",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/sofia-legaspi/3807"
+      },
+      {
+       "name": "Elsa Lundquist",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Uppsala",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elsa-lundquist/3808"
+      },
+      {
+       "name": "Texie Petchel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/texie-petchel/3809"
+      },
+      {
+       "name": "Courtney Sharkey",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/courtney-sharkey/3810"
+      },
+      {
+       "name": "Brittany Shin",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Cape Coral, Fla.",
+       "country": "US",
+       "previous_school": "Canterbury High School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/brittany-shin/3811"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/216"
+      },
+      {
+       "name": "Michelle Piyapattra",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/michelle-piyapattra/217"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2018-19",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Lisa Djerf",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gothenburg, Sweden",
+       "country": "SE",
+       "previous_school": "LM Engstrom",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/lisa-djerf/3797"
+      },
+      {
+       "name": "Elsa Lundquist",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Uppsala",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elsa-lundquist/3798"
+      },
+      {
+       "name": "Felicia Medalla",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Manila, Philippines",
+       "country": "PH",
+       "previous_school": "Walkersville Christian Family Schools",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/felicia-medalla/3799"
+      },
+      {
+       "name": "Texie Petchel",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Murrieta, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/texie-petchel/3800"
+      },
+      {
+       "name": "Courtney Sharkey",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/courtney-sharkey/3801"
+      },
+      {
+       "name": "Britney Sok",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Placentia, Calif.",
+       "country": "US",
+       "previous_school": "Yorba Linda HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/britney-sok/3802"
+      },
+      {
+       "name": "Pauline Welker",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Domevre-en-Haye, France",
+       "country": "FR",
+       "previous_school": "Mouratoglou - ISP Academies",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/pauline-welker/3803"
+      }
+     ],
+     "coaches": []
+    },
+    "2017-18": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2017-18",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Brittany Farrell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dove Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Mission Viejo HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/brittany-farrell/3790"
+      },
+      {
+       "name": "Elsa Lundquist",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Uppsala",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elsa-lundquist/3791"
+      },
+      {
+       "name": "Felicia Medalla",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Manila, Philippines",
+       "country": "PH",
+       "previous_school": "Walkersville Christian Family Schools",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/felicia-medalla/3792"
+      },
+      {
+       "name": "Courtney Sharkey",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Canyon Lake, Calif.",
+       "country": "US",
+       "previous_school": "Home School",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/courtney-sharkey/3793"
+      },
+      {
+       "name": "Britney Sok",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Placentia, Calif.",
+       "country": "US",
+       "previous_school": "Yorba Linda HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/britney-sok/3794"
+      },
+      {
+       "name": "Lou Daniella Uy",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Antipolo, Phillipines",
+       "country": null,
+       "previous_school": "St. Paul College",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/lou-daniella-uy/3795"
+      },
+      {
+       "name": "Pauline Welker",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Domevre-en-Haye, France",
+       "country": "FR",
+       "previous_school": "Mouratoglou - ISP Academies",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/pauline-welker/3796"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Kathryn Hosch",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-hosch/218"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://fullertontitans.com/sports/womens-golf/roster/2016-17",
+     "parser": "sidearm",
+     "players": [
+      {
+       "name": "Martina Edberg",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Glumslov, Sweden",
+       "country": "SE",
+       "previous_school": "Klippans Gymnasieskola",
+       "class_raw": "Sr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/martina-edberg/3782"
+      },
+      {
+       "name": "Brittany Farrell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dove Canyon, Calif.",
+       "country": "US",
+       "previous_school": "Mission Viejo HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/brittany-farrell/3783"
+      },
+      {
+       "name": "Ashley Hisa",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntington Beach, Calif.",
+       "country": "US",
+       "previous_school": "Capistrano Connections Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/ashley-hisa/3784"
+      },
+      {
+       "name": "Elsa Lundquist",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Stockholm, Sweden",
+       "country": "SE",
+       "previous_school": "RIG Uppsala",
+       "class_raw": "Fr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/elsa-lundquist/3785"
+      },
+      {
+       "name": "Felicia Medalla",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Manila, Philippines",
+       "country": "PH",
+       "previous_school": "Walkersville Christian Family Schools",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/felicia-medalla/3786"
+      },
+      {
+       "name": "Brittney Sok",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Placentia, Calif.",
+       "country": "US",
+       "previous_school": "Yorba Linda HS",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/brittney-sok/3787"
+      },
+      {
+       "name": "Daniella Uy",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Antipolo, Phillipines",
+       "country": null,
+       "previous_school": "St. Paul College",
+       "class_raw": "Jr.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/daniella-uy/3788"
+      },
+      {
+       "name": "Pauline Welker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Domevre-en-Haye, France",
+       "country": "FR",
+       "previous_school": "Mouratoglou - ISP Academies",
+       "class_raw": "So.",
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/pauline-welker/3789"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Pearl Sinn-Bonanni",
+       "title": "Head Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/pearl-sinn-bonanni/219"
+      },
+      {
+       "name": "Kathryn New",
+       "title": "Assistant Coach",
+       "email": null,
+       "phone": null,
+       "profile_url": "https://fullertontitans.com/sports/womens-golf/roster/coaches/kathryn-new/220"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://fullertontitans.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://fullertontitans.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://fullertontitans.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://fullertontitans.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://fullertontitans.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }

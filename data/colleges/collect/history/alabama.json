@@ -1,36 +1,2318 @@
 {
  "slug": "alabama",
- "checked_at": "2026-10-07",
+ "checked_at": "2026-10-06",
  "programs": [
   {
    "gender": "male",
    "golf_url": "https://rolltide.com/sports/mens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Brown",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Shelby",
+       "class_raw": "Gr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/connor-brown/16257"
+      },
+      {
+       "name": "Michael Crocker",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "McGill-Toolen HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/michael-crocker/18195"
+      },
+      {
+       "name": "Jonathan Griz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Hilton Head, S.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jonathan-griz/16259"
+      },
+      {
+       "name": "Nick Gross",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Downingtown, Pa.",
+       "country": "US",
+       "previous_school": "Downingtown West HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/nick-gross/18196"
+      },
+      {
+       "name": "Andrew Hinson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntsville, Ala.",
+       "country": "US",
+       "previous_school": "Randolph School",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/andrew-hinson/18197"
+      },
+      {
+       "name": "William Jennings",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "Christ Church HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/william-jennings/18198"
+      },
+      {
+       "name": "Brycen Jones",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Thomasville, Ga.",
+       "country": "US",
+       "previous_school": "Thomasville High School",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/brycen-jones/18199"
+      },
+      {
+       "name": "Jack Mitchell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Athens, Ala.",
+       "country": "US",
+       "previous_school": "James Clemens HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jack-mitchell/18200"
+      },
+      {
+       "name": "Luke Powell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Laguna Niguel, Calif.",
+       "country": "US",
+       "previous_school": "Capistrano Valley Christian Schools",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/luke-powell/18201"
+      },
+      {
+       "name": "Tristin Wisener",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hartselle, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tristin-wisener/16263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Forrest Schultz",
+       "title": "Assistant Coach",
+       "email": "fschultz@ia.ua.edu",
+       "phone": "205-963-5767",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/forrest-schultz/1874"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Brown",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Shelby",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/connor-brown/16257"
+      },
+      {
+       "name": "Dominic Clemons",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Cambridge, England",
+       "country": "GB",
+       "previous_school": "Hutchinson CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/dominic-clemons/12861"
+      },
+      {
+       "name": "Luke Coyle",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Taylor County HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/luke-coyle/12856"
+      },
+      {
+       "name": "Michael Crocker",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "McGill-Toolen HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/michael-crocker/18195"
+      },
+      {
+       "name": "Jones Free",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Selma, Ala.",
+       "country": "US",
+       "previous_school": "Morgan Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jones-free/12857"
+      },
+      {
+       "name": "Jonathan Griz",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hilton Head, S.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jonathan-griz/16259"
+      },
+      {
+       "name": "Nick Gross",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Downingtown, Pa.",
+       "country": "US",
+       "previous_school": "Downingtown West HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/nick-gross/18196"
+      },
+      {
+       "name": "William Jennings",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Greenville, S.C.",
+       "country": "US",
+       "previous_school": "Christ Church HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/william-jennings/18198"
+      },
+      {
+       "name": "Jack Mitchell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Athens, Ala.",
+       "country": "US",
+       "previous_school": "James Clemens HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jack-mitchell/18200"
+      },
+      {
+       "name": "Tristin Wisener",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hartselle, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tristin-wisener/16263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Forrest Schultz",
+       "title": "Assistant Coach",
+       "email": "fschultz@ia.ua.edu",
+       "phone": "205-963-5767",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/forrest-schultz/1874"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Connor Brown",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Pinehurst, N.C.",
+       "country": "US",
+       "previous_school": "Shelby",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/connor-brown/16257"
+      },
+      {
+       "name": "JP Cave",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "UMS Wright",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jp-cave/9568"
+      },
+      {
+       "name": "Canon Claycomb",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "Circle Christian HS",
+       "class_raw": "Gr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/canon-claycomb/9569"
+      },
+      {
+       "name": "Austin Coggin",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Vestavia Hills",
+       "class_raw": "5th",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/austin-coggin/9778"
+      },
+      {
+       "name": "Luke Coyle",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Campbellsville, Ky.",
+       "country": "US",
+       "previous_school": "Taylor County HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/luke-coyle/12856"
+      },
+      {
+       "name": "Nick Dunlap",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Huntsville, Ala.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/nick-dunlap/9570"
+      },
+      {
+       "name": "Jones Free",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Selma, Ala.",
+       "country": "US",
+       "previous_school": "Morgan Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jones-free/12857"
+      },
+      {
+       "name": "Jonathan Griz",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hilton Head, S.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jonathan-griz/16259"
+      },
+      {
+       "name": "Jack Mitchell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Athens, Ala.",
+       "country": "US",
+       "previous_school": "James Clemens HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jack-mitchell/18200"
+      },
+      {
+       "name": "Thomas Ponder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dothan, Ala.",
+       "country": "US",
+       "previous_school": "Providence Christian HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/thomas-ponder/9573"
+      },
+      {
+       "name": "Tristin Wisener",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hartselle, Ala.",
+       "country": "US",
+       "previous_school": "Hartselle HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tristin-wisener/16263"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Forrest Schultz",
+       "title": "Assistant Coach",
+       "email": "fschultz@ia.ua.edu",
+       "phone": "205-963-5767",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/forrest-schultz/1874"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Simms Abney",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Madison, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Prep",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/simms-abney/8266"
+      },
+      {
+       "name": "JP Cave",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "UMS Wright",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jp-cave/9568"
+      },
+      {
+       "name": "Canon Claycomb",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "Circle Christian HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/canon-claycomb/9569"
+      },
+      {
+       "name": "Nick Dunlap",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntsville, Ala.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/nick-dunlap/9570"
+      },
+      {
+       "name": "Jones Free",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Selma, Ala.",
+       "country": "US",
+       "previous_school": "Morgan Academy",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jones-free/12857"
+      },
+      {
+       "name": "Jack Goldasich",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Homewood HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jack-goldasich/8270"
+      },
+      {
+       "name": "Jonathan Griz",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Hilton Head, S.C.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jonathan-griz/16259"
+      },
+      {
+       "name": "Tyler Lipscomb",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": "Bremen HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tyler-lipscomb/8271"
+      },
+      {
+       "name": "Thomas Ponder",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Dothan, Ala.",
+       "country": "US",
+       "previous_school": "Providence Christian HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/thomas-ponder/9573"
+      },
+      {
+       "name": "Dillon West",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Jefferson State CC",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/dillon-west/8274"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Hunter Hamrick",
+       "title": "Assistant Coach",
+       "email": "hhamrick@ia.ua.edu",
+       "phone": "205-348-3600",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/hunter-hamrick/1383"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Simms Abney",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Madison, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Prep",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/simms-abney/8266"
+      },
+      {
+       "name": "JP Cave",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "UMS Wright",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jp-cave/9568"
+      },
+      {
+       "name": "Canon Claycomb",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "Circle Christian HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/canon-claycomb/9569"
+      },
+      {
+       "name": "Jones Free",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Selma, Ala.",
+       "country": "US",
+       "previous_school": "Morgan Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jones-free/12857"
+      },
+      {
+       "name": "Jack Goldasich",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Homewood HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jack-goldasich/8270"
+      },
+      {
+       "name": "Tyler Lipscomb",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": "Bremen HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tyler-lipscomb/8271"
+      },
+      {
+       "name": "Charlie Nikitas",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Glenview, Ill.",
+       "country": "US",
+       "previous_school": "Glenbrook South",
+       "class_raw": "5th",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/charlie-nikitas/8035"
+      },
+      {
+       "name": "Thomas Ponder",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Dothan, Ala.",
+       "country": "US",
+       "previous_school": "Providence Christian HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/thomas-ponder/9573"
+      },
+      {
+       "name": "Dillon West",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "London, England",
+       "country": "GB",
+       "previous_school": "Jefferson State CC",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/dillon-west/8274"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Hunter Hamrick",
+       "title": "Assistant Coach",
+       "email": "hhamrick@ia.ua.edu",
+       "phone": "205-348-3600",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/hunter-hamrick/1383"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Simms Abney",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Madison, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Prep",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/simms-abney/8266"
+      },
+      {
+       "name": "JP Cave",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "UMS Wright",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jp-cave/9568"
+      },
+      {
+       "name": "Canon Claycomb",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "Circle Christian HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/canon-claycomb/9569"
+      },
+      {
+       "name": "Ben Fuller",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Mountain Brook HS",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/ben-fuller/6758"
+      },
+      {
+       "name": "Wilson Furr",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jackson, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/wilson-furr/6759"
+      },
+      {
+       "name": "Jack Goldasich",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Homewood HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jack-goldasich/8270"
+      },
+      {
+       "name": "Tyler Lipscomb",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": "Bremen HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tyler-lipscomb/8271"
+      },
+      {
+       "name": "David Morgan",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Naples, Fla.",
+       "country": "US",
+       "previous_school": "Seacrest Country Day",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/david-morgan/6774"
+      },
+      {
+       "name": "Thomas Ponder",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Dothan, Ala.",
+       "country": "US",
+       "previous_school": "Providence Christian HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/thomas-ponder/9573"
+      },
+      {
+       "name": "Davis Shore",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Knoxville, Tenn.",
+       "country": "US",
+       "previous_school": "Christian Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/davis-shore/6762"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Jon Howell",
+       "title": "Assistant Coach",
+       "email": "jhowell@ia.ua.edu",
+       "phone": "205-348-0383",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jon-howell/1111"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Simms Abney",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Madison, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Prep",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/simms-abney/8266"
+      },
+      {
+       "name": "Frankie Capan III",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "North Oaks, Minn.",
+       "country": "US",
+       "previous_school": "Northwest Christian HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/frankie-capan-iii/5779"
+      },
+      {
+       "name": "Canon Claycomb",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Bowling Green, Ky.",
+       "country": "US",
+       "previous_school": "Circle Christian HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/canon-claycomb/9569"
+      },
+      {
+       "name": "Jake DeZoort",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tuscaloosa, Ala.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jake-dezoort/5780"
+      },
+      {
+       "name": "Ben Fuller",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Mountain Brook HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/ben-fuller/6758"
+      },
+      {
+       "name": "Wilson Furr",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jackson, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/wilson-furr/6759"
+      },
+      {
+       "name": "Tyler Lipscomb",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Carrollton, Ga.",
+       "country": "US",
+       "previous_school": "Bremen HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tyler-lipscomb/8271"
+      },
+      {
+       "name": "Thomas Ponder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Dothan, Ala.",
+       "country": "US",
+       "previous_school": "Providence Christian HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/thomas-ponder/9573"
+      },
+      {
+       "name": "Davis Shore",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Knoxville, Tenn.",
+       "country": "US",
+       "previous_school": "Christian Academy",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/davis-shore/6762"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Jon Howell",
+       "title": "Assistant Coach",
+       "email": "jhowell@ia.ua.edu",
+       "phone": "205-348-0383",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jon-howell/1111"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Prescott Butler",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Old Westbury, N.Y.",
+       "country": "US",
+       "previous_school": "The Pine School",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/prescott-butler/5130"
+      },
+      {
+       "name": "Frankie Capan III",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Oaks, Minn.",
+       "country": "US",
+       "previous_school": "Northwest Christian HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/frankie-capan-iii/5779"
+      },
+      {
+       "name": "Jake DeZoort",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tuscaloosa, Ala.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jake-dezoort/5780"
+      },
+      {
+       "name": "Ben Fuller",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Mountain Brook HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/ben-fuller/6758"
+      },
+      {
+       "name": "Wilson Furr",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Jackson, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Academy",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/wilson-furr/6759"
+      },
+      {
+       "name": "Alex Green",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Fairhope, Ala.",
+       "country": "US",
+       "previous_school": "Fairhope HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/alex-green/5123"
+      },
+      {
+       "name": "Josh Sedeno",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Del Oro HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/josh-sedeno/5126"
+      },
+      {
+       "name": "Davis Shore",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Knoxville, Tenn.",
+       "country": "US",
+       "previous_school": "Christian Academy",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/davis-shore/6762"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Jon Howell",
+       "title": "Assistant Coach",
+       "email": "jhowell@ia.ua.edu",
+       "phone": "205-348-0383",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jon-howell/1111"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake DeZoort",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Tuscaloosa, Ala.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jake-dezoort/5780"
+      },
+      {
+       "name": "Ben Fuller",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": "Mountain Brook HS",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/ben-fuller/6758"
+      },
+      {
+       "name": "Wilson Furr",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jackson, Miss.",
+       "country": "US",
+       "previous_school": "Jackson Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/wilson-furr/6759"
+      },
+      {
+       "name": "Alex Green",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Fairhope, Ala.",
+       "country": "US",
+       "previous_school": "Fairhope HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/alex-green/5123"
+      },
+      {
+       "name": "Jonathan Hardee",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Greer, S.C.",
+       "country": "US",
+       "previous_school": "Riverside",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jonathan-hardee/4090"
+      },
+      {
+       "name": "Tyler Hitchner",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Tuscaloosa, Ala.",
+       "country": "US",
+       "previous_school": "Home Schooled",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tyler-hitchner/4091"
+      },
+      {
+       "name": "Lee Hodges",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Ardmore, Tenn.",
+       "country": "US",
+       "previous_school": "Ardmore",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/lee-hodges/4092"
+      },
+      {
+       "name": "Davis Riley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Hattiesburg, Miss.",
+       "country": "US",
+       "previous_school": "Presbyterian Christian HS",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/davis-riley/4093"
+      },
+      {
+       "name": "Josh Sedeno",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": "Del Oro HS",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/josh-sedeno/5126"
+      },
+      {
+       "name": "Steven Setterstrom",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": "McGill-Toolen",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/steven-setterstrom/4095"
+      },
+      {
+       "name": "Davis Shore",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Knoxville, Tenn.",
+       "country": "US",
+       "previous_school": "Christian Academy",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/davis-shore/6762"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Jon Howell",
+       "title": "Assistant Coach",
+       "email": "jhowell@ia.ua.edu",
+       "phone": "205-348-0383",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jon-howell/1111"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://rolltide.com/sports/mens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Jake DeZoort",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Tuscaloosa, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jake-dezoort/5780"
+      },
+      {
+       "name": "Alex Green",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Fairhope, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/alex-green/5123"
+      },
+      {
+       "name": "Jonathan Hardee",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Greer, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/jonathan-hardee/4090"
+      },
+      {
+       "name": "Tyler Hitchner",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Tuscaloosa, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/tyler-hitchner/4091"
+      },
+      {
+       "name": "Lee Hodges",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Ardmore, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/lee-hodges/4092"
+      },
+      {
+       "name": "Dru Love",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Sea Island, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/dru-love/3326"
+      },
+      {
+       "name": "Robby Prater",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Birmingham, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/robby-prater/3327"
+      },
+      {
+       "name": "Davis Riley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Hattiesburg, Miss.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/davis-riley/4093"
+      },
+      {
+       "name": "Josh Sedeno",
+       "class_year": "FR",
+       "redshirt": true,
+       "hometown": "Roseville, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "R-Fr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/josh-sedeno/5126"
+      },
+      {
+       "name": "William Sellers",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Montgomery, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/william-sellers/3330"
+      },
+      {
+       "name": "Steven Setterstrom",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mobile, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/steven-setterstrom/4095"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Jay Seawell",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5765",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jay-seawell/1873"
+      },
+      {
+       "name": "Jon Howell",
+       "title": "Assistant Coach",
+       "email": "jhowell@ia.ua.edu",
+       "phone": "205-348-0383",
+       "profile_url": "https://rolltide.com/sports/mens-golf/roster/coaches/jon-howell/1111"
+      }
+     ]
+    }
+   }
   },
   {
    "gender": "female",
    "golf_url": "https://rolltide.com/sports/womens-golf",
-   "seasons": {},
-   "blocked": true
+   "seasons": {
+    "2025-26": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2025-26",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Grace Crawford",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "North Berwick, Scotland",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/grace-crawford/15310"
+      },
+      {
+       "name": "Ryan Flynn",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Truckee, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/ryan-flynn/15298"
+      },
+      {
+       "name": "Mattison Frick",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Peoria, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mattison-frick/15299"
+      },
+      {
+       "name": "Amanda Gyllner",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Gavle, Sweden",
+       "country": "SE",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/amanda-gyllner/15311"
+      },
+      {
+       "name": "Isabel Immelman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Columbus, Ga.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/isabel-immelman/18071"
+      },
+      {
+       "name": "Harriet Lockley",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Somerset, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/harriet-lockley/15300"
+      },
+      {
+       "name": "Julia Sánchez Morales",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Natachanok Tunwannarux",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Bangkok, Thailand",
+       "country": "TH",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/natachanok-tunwannarux/18070"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2024-25": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2024-25",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kennedy Carroll",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Isle of Palms, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kennedy-carroll/12605"
+      },
+      {
+       "name": "Molly Brown Davidson",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Springville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/molly-brown-davidson/12606"
+      },
+      {
+       "name": "Ryan Flynn",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Truckee, Calif.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/ryan-flynn/15298"
+      },
+      {
+       "name": "Mattison Frick",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Peoria, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mattison-frick/15299"
+      },
+      {
+       "name": "Harriet Lockley",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Somerset, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/harriet-lockley/15300"
+      },
+      {
+       "name": "Julia Sánchez Morales",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Sotogrande, Spain",
+       "country": "ES",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Isabella van der Biest",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Kingsport, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/isabella-van-der-biest/12604"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2023-24": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2023-24",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kynadie Adams",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kynadie-adams/9561"
+      },
+      {
+       "name": "Sarah Edwards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jay, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/sarah-edwards/9562"
+      },
+      {
+       "name": "Mattison Frick",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Peoria, Ariz.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mattison-frick/15299"
+      },
+      {
+       "name": "Taylor Kehoe",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Strathroy, Ontario",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/taylor-kehoe/9563"
+      },
+      {
+       "name": "Harriet Lockley",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Somerset, England",
+       "country": "GB",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/harriet-lockley/15300"
+      },
+      {
+       "name": "Kaitlyn Schroeder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kaitlyn-schroeder/9564"
+      },
+      {
+       "name": "Elina Sinz",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Katy, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/elina-sinz/9730"
+      },
+      {
+       "name": "Isabella van der Biest",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Kingsport, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/isabella-van-der-biest/12604"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2022-23": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2022-23",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Kynadie Adams",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Nashville, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kynadie-adams/9561"
+      },
+      {
+       "name": "Sarah Edwards",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Jay, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/sarah-edwards/9562"
+      },
+      {
+       "name": "Taylor Kehoe",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Strathroy, Ontario",
+       "country": "CA",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/taylor-kehoe/9563"
+      },
+      {
+       "name": "Benedetta Moresco",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/benedetta-moresco/8463"
+      },
+      {
+       "name": "Emilie Øverås",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Alesund, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": null
+      },
+      {
+       "name": "Kaitlyn Schroeder",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Jacksonville, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kaitlyn-schroeder/9564"
+      },
+      {
+       "name": "Isabella van der Biest",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Kingsport, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/isabella-van-der-biest/12604"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2021-22": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2021-22",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Melanie Bailes",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/melanie-bailes/7449"
+      },
+      {
+       "name": "Carolina Caminoli",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Castel Gandolfo, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/carolina-caminoli/7450"
+      },
+      {
+       "name": "Caroline Curtis",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/caroline-curtis/7451"
+      },
+      {
+       "name": "Sarah Edwards",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Jay, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/sarah-edwards/9562"
+      },
+      {
+       "name": "Polly Mack",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "5th",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/polly-mack/7452"
+      },
+      {
+       "name": "Angelica Moresco",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/angelica-moresco/7454"
+      },
+      {
+       "name": "Benedetta Moresco",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/benedetta-moresco/8463"
+      },
+      {
+       "name": "Emilie Øverås",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Alesund, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": null
+      },
+      {
+       "name": "Mary Mac Trammell",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Mountain Brook, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mary-mac-trammell/7457"
+      },
+      {
+       "name": "Isabella van der Biest",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Kingsport, Tenn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/isabella-van-der-biest/12604"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2020-21": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2020-21",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Melanie Bailes",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/melanie-bailes/7449"
+      },
+      {
+       "name": "Carolina Caminoli",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Castel Gandolfo, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/carolina-caminoli/7450"
+      },
+      {
+       "name": "Caroline Curtis",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/caroline-curtis/7451"
+      },
+      {
+       "name": "Polly Mack",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/polly-mack/7452"
+      },
+      {
+       "name": "Michaela Morard",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Huntsville, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/michaela-morard/6771"
+      },
+      {
+       "name": "Angelica Moresco",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/angelica-moresco/7454"
+      },
+      {
+       "name": "Benedetta Moresco",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/benedetta-moresco/8463"
+      },
+      {
+       "name": "Emilie Øverås",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Alesund, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": null
+      },
+      {
+       "name": "Mary Mac Trammell",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Mountain Brook, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mary-mac-trammell/7457"
+      },
+      {
+       "name": "Kenzie Wright",
+       "class_year": "GR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Gr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kenzie-wright/6770"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2019-20": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2019-20",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Melanie Bailes",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Lake Forest, Ill.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/melanie-bailes/7449"
+      },
+      {
+       "name": "Carolina Caminoli",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Castel Gandolfo, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/carolina-caminoli/7450"
+      },
+      {
+       "name": "Caroline Curtis",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Richmond, Va.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/caroline-curtis/7451"
+      },
+      {
+       "name": "Polly Mack",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Berlin, Germany",
+       "country": "DE",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/polly-mack/7452"
+      },
+      {
+       "name": "Angelica Moresco",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/angelica-moresco/7454"
+      },
+      {
+       "name": "Emilie Øverås",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Alesund, Norway",
+       "country": "NO",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": null
+      },
+      {
+       "name": "Mary Mac Trammell",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Mountain Brook, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mary-mac-trammell/7457"
+      },
+      {
+       "name": "Kenzie Wright",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kenzie-wright/6770"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2018-19": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2018-19",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Carolina Caminoli",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Castel Gandolfo, Italy",
+       "country": "IT",
+       "previous_school": "Istituto Leonardo Murialdo Albano",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/carolina-caminoli/7450"
+      },
+      {
+       "name": "Jiwon Jeon",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Daegu, South Korea",
+       "country": "KR",
+       "previous_school": "Hills International College/Daytona State (Fla.)",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/jiwon-jeon/5135"
+      },
+      {
+       "name": "Angelica Moresco",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": "Vicenza",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/angelica-moresco/7454"
+      },
+      {
+       "name": "Anna Reid",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Demopolis, Ala.",
+       "country": "US",
+       "previous_school": "Demopolis/Faulkner",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/anna-reid/5136"
+      },
+      {
+       "name": "Mary Mac Trammell",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Mountain Brook, Ala.",
+       "country": "US",
+       "previous_school": "Mountain Brook",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mary-mac-trammell/7457"
+      },
+      {
+       "name": "Kenzie Wright",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Frisco, Texas",
+       "country": "US",
+       "previous_school": "Spring Creek Academy/SMU",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kenzie-wright/6770"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2017-18": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2017-18",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lakareber Abe",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Angleton, Texas",
+       "country": "US",
+       "previous_school": "Texas Connections Academy",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/lakareber-abe/4082"
+      },
+      {
+       "name": "Kristen Gillman",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": "Lake Travis",
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kristen-gillman/4083"
+      },
+      {
+       "name": "Cheyenne Knight",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Aledo, Texas",
+       "country": "US",
+       "previous_school": "Aledo",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/cheyenne-knight/4084"
+      },
+      {
+       "name": "Nicole Morales",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Salem, N.Y.",
+       "country": "US",
+       "previous_school": "Jon Jay",
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/nicole-morales/4085"
+      },
+      {
+       "name": "Angelica Moresco",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Caldogno, Italy",
+       "country": "IT",
+       "previous_school": "Vicenza",
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/angelica-moresco/7454"
+      },
+      {
+       "name": "Lauren Stephenson",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": "Lexington/Clemson",
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/lauren-stephenson/4086"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    },
+    "2016-17": {
+     "url": "https://rolltide.com/sports/womens-golf/roster/2016-17",
+     "parser": "table",
+     "players": [
+      {
+       "name": "Lakareber Abe",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Angleton, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/lakareber-abe/4082"
+      },
+      {
+       "name": "Kristen Gillman",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Austin, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/kristen-gillman/4083"
+      },
+      {
+       "name": "Cammie Gray",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Northport, Ala.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/cammie-gray/666"
+      },
+      {
+       "name": "Cheyenne Knight",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Aledo, Texas",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/cheyenne-knight/4084"
+      },
+      {
+       "name": "Mia Landegren",
+       "class_year": "SR",
+       "redshirt": false,
+       "hometown": "Bridgewater, Conn.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Sr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/mia-landegren/669"
+      },
+      {
+       "name": "Nicole Morales",
+       "class_year": "JR",
+       "redshirt": false,
+       "hometown": "Salem, N.Y.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Jr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/nicole-morales/4085"
+      },
+      {
+       "name": "Sarah Pabst",
+       "class_year": "FR",
+       "redshirt": false,
+       "hometown": "Niceville, Fla.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "Fr.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/sarah-pabst/3345"
+      },
+      {
+       "name": "Lauren Stephenson",
+       "class_year": "SO",
+       "redshirt": false,
+       "hometown": "Lexington, S.C.",
+       "country": "US",
+       "previous_school": null,
+       "class_raw": "So.",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/lauren-stephenson/4086"
+      }
+     ],
+     "coaches": [
+      {
+       "name": "Mic Potter",
+       "title": "Head Coach",
+       "email": null,
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/mic-potter/1712"
+      },
+      {
+       "name": "Susan Rosenstiel",
+       "title": "Assistant Coach",
+       "email": "srosenstiel@ia.ua.edu",
+       "phone": "205-963-5700",
+       "profile_url": "https://rolltide.com/sports/womens-golf/roster/coaches/susan-rosenstiel/1711"
+      }
+     ]
+    }
+   }
   }
  ],
  "requests": [
   {
    "url": "https://rolltide.com/sports/mens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://rolltide.com/sports/mens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/mens-golf/roster/2016-17",
+   "status": 200
   },
   {
    "url": "https://rolltide.com/sports/womens-golf/roster",
-   "status": "bot-wall"
+   "status": 200
   },
   {
    "url": "https://rolltide.com/sports/womens-golf/roster/2025-26",
-   "status": "bot-wall"
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2024-25",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2023-24",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2022-23",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2021-22",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2020-21",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2019-20",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2018-19",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2017-18",
+   "status": 200
+  },
+  {
+   "url": "https://rolltide.com/sports/womens-golf/roster/2016-17",
+   "status": 200
   }
  ]
 }
