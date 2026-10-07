@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { CollegeTable, type CollegeRow } from "@/components/colleges/college-table";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { latestRanking, listColleges, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
+import { focusPlayersSince2016, latestRanking, listColleges, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
 import type { College, ProgramGender, Ranking } from "@/lib/colleges/types";
 import { formatDate } from "@/lib/golf/format";
 
@@ -25,6 +25,7 @@ function programCell(college: College, gender: ProgramGender) {
     season: ranking ? rankingSeason(ranking) : null,
     roster: roster?.total ?? null,
     japanese: roster?.japanese.length ?? 0,
+    japaneseSince2016: focusPlayersSince2016(program),
     collected: program.roster.length > 0 || program.coaches.length > 0,
   };
 }

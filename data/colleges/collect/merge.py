@@ -10,6 +10,7 @@ import json
 import os
 import re
 
+import geo
 import parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -150,6 +151,8 @@ def main():
                     continue
                 prog["coaches"].append(c)
             prog["alumni_pros"] = alumni.get((s["slug"], g), op.get("alumni_pros", []))
+            for r in prog["roster"]:
+                r["country"] = geo.country(r["hometown"]) or r.get("country")
             hist = history.get(s["slug"], {}).get(g)
             if hist:
                 current = {key(r["name"]) for r in prog["roster"]}
@@ -166,6 +169,7 @@ def main():
                     if status == "current":
                         continue
                     pro = pros.get(k)
+                    person["country"] = geo.country(person.get("hometown")) or person.get("country")
                     former.append({**{f: person.get(f) for f in ["name", "seasons", "class_year", "major", "hometown", "country",
                                                                 "previous_school", "profile_url", "source_url"]},
                                    "career_status": status, "transferred_to": to,

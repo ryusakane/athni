@@ -43,6 +43,28 @@ COUNTRIES = {
     "BM": "bermuda", "KY": "cayman islands", "AW": "aruba", "CW": "curacao|curaçao", "PK": "pakistan", "LK": "sri lanka",
     "BD": "bangladesh", "NP": "nepal", "FJ": "fiji", "MU": "mauritius", "ZM": "zambia", "UG": "uganda", "GH": "ghana", "KZ": "kazakhstan", "RE": "réunion|reunion", "UZ": "uzbekistan",
 }
+# regions and common misspellings seen in rosters
+COUNTRIES["JP"] += ("|hokkaido|aomori|iwate|miyagi|akita|yamagata|fukushima|ibaraki|tochigi|gunma|saitama|chiba|tokyo|kanagawa"
+                    "|niigata|toyama|ishikawa|fukui|yamanashi|nagano|gifu|shizuoka|aichi|mie|shiga|kyoto|osaka|hyogo|nara"
+                    "|wakayama|tottori|shimane|okayama|hiroshima|yamaguchi|tokushima|kagawa|ehime|kochi|fukuoka|saga|nagasaki"
+                    "|kumamoto|oita|miyazaki|kagoshima|okinawa|yokohama|kobe|nagoya|sapporo|sendai")
+COUNTRIES["KR"] += "|seoul|busan|incheon|daegu|gyeonggi|gyeonggi-do|jeju|s. korea|rep. of korea|korea, republic of"
+COUNTRIES["CN"] += "|beijing|shanghai|guangzhou|shenzhen|p.r. china|prc"
+COUNTRIES["PH"] += "|phillipines|philipines|phillippines"
+COUNTRIES["CO"] += "|bogota|bogotá|medellin|medellín|barranquilla|cartagena"
+COUNTRIES["AU"] += "|austrailia|autralia|new south wales|nsw|queensland|qld|victoria, australia|western australia|south australia|tasmania"
+COUNTRIES["PT"] += "|portgual"
+COUNTRIES["RU"] += "|russian federation"
+COUNTRIES["CZ"] += "|czech reupublic|czech rep"
+COUNTRIES["CA"] += "|québec"
+COUNTRIES["FR"] += "|fra"
+COUNTRIES["DO"] += "|d.r"
+COUNTRIES["IN"] += "|maharashtra|karnataka|tamil nadu|delhi|new delhi"
+COUNTRIES["BR"] += "|rio grande do sul|são paulo|sao paulo"
+COUNTRIES["EC"] += "|pichincha"
+COUNTRIES["GB"] += "|essex|surrey|kent|yorkshire|south yorkshire|north yorkshire|west yorkshire|lancashire|cheshire|devon|cornwall|hampshire|berkshire"
+COUNTRIES.update({"MM": "myanmar|burma", "IM": "isle of man", "NC": "new caledonia", "MO": "macao|macau",
+                  "PR": "puerto rico"})
 LOOKUP = {}
 for code, names in COUNTRIES.items():
     for n in names.split("|"):
@@ -52,6 +74,10 @@ for code, names in COUNTRIES.items():
 def country(hometown):
     if not hometown:
         return None
+    hometown = re.sub(r"hawai.i|o.ahu|\bmaui\b|\bkauai\b", "Hawaii", hometown, flags=re.I)
+    m = re.search(r"\s([A-Z]{2})$", hometown.strip())
+    if m and m.group(1).lower() in US and "," not in hometown:
+        return "US"
     parts = [p.strip().strip(".").lower() for p in re.split(r"[,/]", hometown) if p.strip()]
     raw = [p.strip().lower() for p in re.split(r"[,/]", hometown) if p.strip()]
     for p, r in zip(reversed(parts), reversed(raw)):
