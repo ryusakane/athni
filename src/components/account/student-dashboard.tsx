@@ -14,7 +14,7 @@ import {
   type TestName,
   type TestScore,
 } from "@/lib/supabase/account-types";
-import { buttonClass, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearInput } from "./ui";
+import { buttonClass, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
 
 const testNames: TestName[] = ["toefl_ibt", "ielts", "duolingo", "eiken", "toeic", "sat", "act"];
 const targetStatuses: TargetStatus[] = ["interested", "contacted", "applied", "offer", "committed", "dropped"];
@@ -231,7 +231,13 @@ function ProfileForm({
             </select>
           </Field>
           <Field label={t.signup.graduationYear}>
-            <YearInput name="graduation_year" defaultValue={student.graduation_year ?? ""} />
+            <YearSelect
+              name="graduation_year"
+              fromYear={2000}
+              toYear={new Date().getFullYear() + 6}
+              defaultValue={student.graduation_year != null ? String(student.graduation_year) : ""}
+              placeholder={t.year}
+            />
           </Field>
         </div>
         <Field label={s.bio}>
