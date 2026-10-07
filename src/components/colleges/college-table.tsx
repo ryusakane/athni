@@ -10,6 +10,7 @@ type ProgramCell = {
   season: string | null;
   roster: number | null;
   japanese: number;
+  japaneseSince2016: number;
   collected: boolean;
 } | null;
 
@@ -123,7 +124,8 @@ export function CollegeTable({ lang, rows }: { lang: Locale; rows: CollegeRow[] 
                 <th className="py-2 pr-4 font-medium">{t.conference}</th>
                 <th className="py-2 pr-4 font-medium">{t.state}</th>
                 <th className="py-2 pr-4 text-right font-medium">{t.roster}</th>
-                <th className="py-2 text-right font-medium">{t.japanese}</th>
+                <th className="whitespace-nowrap py-2 pr-4 text-right font-medium">{t.japanese}</th>
+                <th className="whitespace-nowrap py-2 text-right font-medium">{t.japaneseSince2016}</th>
               </tr>
             </thead>
             <tbody>
@@ -151,7 +153,8 @@ export function CollegeTable({ lang, rows }: { lang: Locale; rows: CollegeRow[] 
                     <td className="py-2 pr-4 text-foreground/70">{r.conference ?? "—"}</td>
                     <td className="py-2 pr-4 text-foreground/70">{r.state ?? "—"}</td>
                     <td className="py-2 pr-4 text-right tabular-nums">{p?.roster ?? "—"}</td>
-                    <td className="py-2 text-right tabular-nums">{p?.japanese || ""}</td>
+                    <td className="py-2 pr-4 text-right tabular-nums">{p?.japanese || ""}</td>
+                    <td className="py-2 text-right tabular-nums">{p?.japaneseSince2016 || ""}</td>
                   </tr>
                 );
               })}

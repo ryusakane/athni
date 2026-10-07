@@ -5,7 +5,15 @@ import { Stat } from "@/components/golf/stat";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 import Link from "next/link";
-import { CLASS_YEARS, collegeSlugs, getCollege, listColleges, rankingSeason, rosterSummary } from "@/lib/colleges/queries";
+import {
+  CLASS_YEARS,
+  collegeSlugs,
+  focusPlayersSince2016,
+  getCollege,
+  listColleges,
+  rankingSeason,
+  rosterSummary,
+} from "@/lib/colleges/queries";
 import type { Program, TourLink } from "@/lib/colleges/types";
 import { formatDate } from "@/lib/golf/format";
 
@@ -236,13 +244,14 @@ function ProgramSection({
           <p className="mt-2 text-sm text-foreground/60">{t.noRoster}</p>
         ) : (
           <>
-            <dl className="mt-3 grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-8">
+            <dl className="mt-3 grid grid-cols-3 gap-3 sm:grid-cols-4 md:grid-cols-9">
               <Stat label={t.total} value={summary.total} />
               {CLASS_YEARS.map((c) => (
                 <Stat key={c} label={t.classes[c]} value={summary.byClass[c]} />
               ))}
               <Stat label={t.international} value={summary.international} />
               <Stat label={t.japanese} value={summary.japanese.length} />
+              <Stat label={t.japaneseSince2016} value={focusPlayersSince2016(program)} />
             </dl>
             <div className="mt-4 overflow-x-auto">
               <table className="w-full text-sm">

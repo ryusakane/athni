@@ -101,6 +101,8 @@ export type Program = Social & {
   alumni_pros: AlumniPro[];
   former_players: FormerPlayer[];
   past_coaches: PastCoach[];
+  /** Players since 2016-17 (current roster + former players) by home country, e.g. { US: 31, JP: 2 }. */
+  players_by_country: Record<string, number>;
 };
 
 export type College = {

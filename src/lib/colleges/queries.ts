@@ -34,6 +34,17 @@ export function rankingSeason(ranking: Ranking): string {
   return `${start}–${String(start + 1).slice(-2)}`;
 }
 
+/**
+ * The one country whose players the site counts (players_by_country keeps every country as data).
+ * Japan for now; later this follows the viewer's own country.
+ */
+export const FOCUS_COUNTRY = "JP";
+
+/** Players from FOCUS_COUNTRY on the team since 2016-17, current roster included. */
+export function focusPlayersSince2016(program: Program) {
+  return program.players_by_country[FOCUS_COUNTRY] ?? 0;
+}
+
 export function rosterSummary(program: Program) {
   const byClass = Object.fromEntries(CLASS_YEARS.map((c) => [c, 0])) as Record<ClassYear, number>;
   for (const player of program.roster) if (player.class_year) byClass[player.class_year]++;
@@ -41,7 +52,7 @@ export function rosterSummary(program: Program) {
     total: program.roster.length,
     byClass,
     international: program.roster.filter((p) => p.country && p.country !== "US").length,
-    japanese: program.roster.filter((p) => p.country === "JP"),
+    japanese: program.roster.filter((p) => p.country === FOCUS_COUNTRY),
   };
 }
 
