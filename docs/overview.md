@@ -48,6 +48,9 @@
 - 元データと作り方: `data/`（説明は `data/README.md`、出典の一覧は `data/SOURCES.md`）。
 - 再利用の許可がない出典は載せない（関東高ゴ連は同意を得るまで非公開、JJGA・JGTO なども保留）。
 - 選手の英語名は推定を含む。北海道は未収集。
+- 同じ選手の名寄せ: 名前が同じで、学校・県・卒業年度のうち2つ以上が一致すれば同一人物として1人にまとめる（学校名は略称・表記ゆれも同じ学校とみなす。同じ大会に両方出ている2人はまとめない）。学校も卒業年度もわからない記録（日本ジュニア・国スポなど）は、食い違いのない同名の選手が1人だけなら仮にまとめる。
+- まとめなかった同姓同名と、仮にまとめた組は `data/player_name_review.csv` に出し、人が判断する。判断は `data/reference/player_merge_decisions.csv` に `same` / `different` で書くと次の生成から反映される。
+- サイトと Supabase に載せる大会は `data/supabase/published_tournaments.txt` に絞っている（静的ファイル数を Cloudflare 無料枠に収めるため）。
 - サイトはビルド時にデータを読む。Supabase の接続情報があれば Supabase から、なければ `src/data/seed.json` から。
 
 ### 大学

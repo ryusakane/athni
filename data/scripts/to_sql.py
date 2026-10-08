@@ -5,6 +5,8 @@
   `on conflict (id) do update` なので何度流しても重複しない。
 - 利用条件で公開に許諾が必要な大会 (reuse_status=restricted、関東高ゴ連) は既定で除外する。
   含めるときは --include-restricted。
+- 載せる大会は supabase/published_tournaments.txt に絞る (サイトの静的ファイル数を Cloudflare の無料枠に収めるため)。
+  全大会は --all。
 - 団体戦はスキーマに表がないため含めない。個人成績のない大会 (団体のみ) も除外。
 - 不出場 (dns) の行は除外。
 
@@ -35,6 +37,15 @@ def uid(*parts):
 def read(name):
     with open(os.path.join(ROOT, name), encoding="utf-8") as fh:
         return list(csv.DictReader(fh))
+
+
+def published_tournaments():
+    """サイトと Supabase に載せる大会 (supabase/published_tournaments.txt)。ファイルがなければ全大会。"""
+    path = os.path.join(ROOT, "supabase", "published_tournaments.txt")
+    if not os.path.exists(path):
+        return None
+    with open(path, encoding="utf-8") as fh:
+        return {l.strip() for l in fh if l.strip() and not l.startswith("#")}
 
 
 def lit(v, kind="text"):
@@ -77,8 +88,10 @@ def inserts(table, cols, rows):
 
 def main():
     include_restricted = "--include-restricted" in sys.argv
+    published = None if "--all" in sys.argv else published_tournaments()
     tournaments = [t for t in read("tournaments.csv")
-                   if t["format"] != "team" and (include_restricted or t["reuse_status"] != "restricted")]
+                   if t["format"] != "team" and (include_restricted or t["reuse_status"] != "restricted")
+                   and (published is None or t["tournament_key"] in published)]
     tkeys = {t["tournament_key"] for t in tournaments}
     results = [r for r in read("tournament_results.csv") if r["tournament_key"] in tkeys and r["status"] != "dns"]
     rkeys = {(r["tournament_key"], r["player_key"]) for r in results}

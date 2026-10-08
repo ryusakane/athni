@@ -13,6 +13,7 @@ UUID の代わりに人が読める *_key を主キー/外部キーに使う。�
   rounds.csv             rounds
   team_results.csv       (スキーマ未対応の団体戦。拡張用)
   team_members.csv       (同上)
+  player_name_review.csv 同姓同名でまとめなかった選手の組 (人が判断する)
   ISSUES.md              書き起こし・名寄せの要確認事項
 
 実行: python3 data/scripts/build.py   (要 pykakasi)
@@ -249,6 +250,194 @@ def school_year(date_str, season_year):
         return season_year
 
 
+# --- 選手の名寄せ (同姓同名) ---
+# 名前が同じで、学校・県・卒業年度のうち2つ以上が一致すれば同一人物とみなして1人にまとめる。
+# まとめなかった同姓同名は player_name_review.csv に出し、人が判断する。
+# 判断結果は reference/player_merge_decisions.csv (player_key_a, player_key_b, decision=same|different) に書くと、
+# 次の build から反映される (same はまとめる、different はまとめない)。
+NAME_VARIANTS = str.maketrans("髙﨑德濵邊邉齋齊嶋櫻澤廣藏眞", "高崎徳浜辺辺斎斉島桜沢広蔵真")
+SCHOOL_PREFIX = re.compile(r"^(東京都立|都立|道立|府立|私立|.{2,3}?[県市]立)")
+
+
+def name_norm(name):
+    return squash(name).translate(NAME_VARIANTS)
+
+
+def pref_norm(pref):
+    pref = squash(pref)
+    if pref == "東京都":
+        return "東京"
+    return re.sub(r"(?<=.)[県府]$", "", pref) if pref != "北海道" else pref
+
+
+def school_pref(name):
+    """「東京都立駒場」「愛知県立岡崎北」のように校名に入っている都道府県。"""
+    m = re.match(r"^(東京都立|都立)", squash(name))
+    if m:
+        return "東京"
+    m = re.match(r"^(.{2,3}?)県立", squash(name))
+    return m.group(1) if m else ""
+
+
+def school_norm(name):
+    s = re.sub(r"[0-9０-９]年$", "", school_core(name))  # 「開志国際２年」
+    s = s.replace("附属", "付属").translate(str.maketrans("1２2３3", "一二二三三")).replace("１", "一")
+    return SCHOOL_PREFIX.sub("", s) or s
+
+
+def same_school(a, b):
+    """同じ校名か、短い方が長い方の略称 (「岐阜聖徳」「日体荏原」→ 正式名) になっている。"""
+    if not a or not b:
+        return False
+    short, long_ = sorted((a, b), key=len)
+    if short == long_ or (len(short) >= 2 and short in long_):
+        return True
+    it = iter(long_)  # 頭文字が同じで、短い方の字が順に全部入っている
+    return len(short) >= 3 and short[0] == long_[0] and all(c in it for c in short)
+
+
+def load_merge_decisions():
+    path = os.path.join(REF, "player_merge_decisions.csv")
+    if not os.path.exists(path):
+        return {}
+    with open(path, encoding="utf-8") as fh:
+        return {frozenset((r["player_key_a"], r["player_key_b"])): r["decision"].strip()
+                for r in csv.DictReader(fh) if r.get("player_key_a") and r.get("player_key_b")}
+
+
+def dedup_players(players, schools, results, rounds, members):
+    """同姓同名の選手をまとめ、成績を残す方の選手に付け替える。返り値は人の確認が要る同姓同名の一覧。"""
+    decisions = load_merge_decisions()
+    events = defaultdict(set)
+    for r in results:
+        events[r["player_key"]].add(r["tournament_key"])
+    for m in members:
+        if m["player_key"]:
+            events[m["player_key"]].add(m["tournament_key"])
+
+    def attrs(p):
+        sch = schools.get(p["school_key"]) or {}
+        school = school_norm(sch.get("name_ja") or "")
+        pref = pref_norm(p["prefecture"] or sch.get("prefecture") or school_pref(sch.get("name_short_ja") or ""))
+        return {"school": school, "prefecture": pref, "graduation_year": p["graduation_year"] or None}
+
+    def matches(a, b):
+        out = []
+        if same_school(a["school"], b["school"]):
+            out.append("school")
+        if a["prefecture"] and a["prefecture"] == b["prefecture"]:
+            out.append("prefecture")
+        if a["graduation_year"] and str(a["graduation_year"]) == str(b["graduation_year"]):
+            out.append("graduation_year")
+        return out
+
+    by_name = defaultdict(list)
+    for p in players.values():
+        by_name[name_norm(p["name_ja"])].append(p["player_key"])
+
+    parent = {}
+
+    def find(k):
+        while parent.get(k, k) != k:
+            k = parent[k]
+        return k
+
+    review, merged_into = [], {}
+    for name, keys in by_name.items():
+        if len(keys) < 2:
+            continue
+        a = {k: attrs(players[k]) for k in keys}
+        # 情報の多い記録を残す (学校・県・卒業年度があり、出場大会が多い方)
+        keys.sort(key=lambda k: (-sum(bool(v) for v in a[k].values()), -len(events[k]), k))
+        groups = {k: {k} for k in keys}
+        pairs = []
+        for i, x in enumerate(keys):
+            for y in keys[i + 1:]:
+                m = matches(a[x], a[y])
+                decision = decisions.get(frozenset((x, y)))
+                gx, gy = players[x]["gender"], players[y]["gender"]
+                compatible = gx == gy or "mixed" in (gx, gy)
+                pairs.append((x, y, m, decision, compatible))
+        # 人の判断 → ルール (2項目以上一致) の順に、同じ大会に両方出ている組は除いてまとめる
+        for x, y, m, decision, compatible in sorted(pairs, key=lambda p: (p[3] != "same", -len(p[2]))):
+            rx, ry = find(x), find(y)
+            if rx == ry or decision == "different" or not compatible:
+                continue
+            if decision != "same" and len(m) < 2:
+                continue
+            ex = set().union(*(events[k] for k in groups[rx]))
+            ey = set().union(*(events[k] for k in groups[ry]))
+            if ex & ey:
+                continue
+            keep, drop = (rx, ry) if keys.index(rx) < keys.index(ry) else (ry, rx)
+            parent[drop] = keep
+            groups[keep] |= groups.pop(drop)
+        def ev(root):
+            return set().union(*(events[k] for k in groups[root]))
+
+        def row(x, y, m, status, why):
+            return {"status": status, "name_ja": players[x]["name_ja"],
+                    "player_key_a": x, "player_key_b": y,
+                    "school_a": (schools.get(players[x]["school_key"]) or {}).get("name_ja", ""),
+                    "school_b": (schools.get(players[y]["school_key"]) or {}).get("name_ja", ""),
+                    "prefecture_a": a[x]["prefecture"], "prefecture_b": a[y]["prefecture"],
+                    "graduation_year_a": players[x]["graduation_year"] or "",
+                    "graduation_year_b": players[y]["graduation_year"] or "",
+                    "gender_a": players[x]["gender"], "gender_b": players[y]["gender"],
+                    "matched": " ".join(m), "reason": why,
+                    "tournaments_a": " ".join(sorted(ev(find(x)))), "tournaments_b": " ".join(sorted(ev(find(y)))),
+                    "decision": ""}
+
+        # 学校・県・卒業年度のうち1つ以下しかわからない記録 (日本ジュニア・国スポなど) はルールでは決められない。
+        # 同名・同性別で2項目以上わかっている相手のうち、食い違わないのが1人だけなら仮にまとめ、
+        # 確認リストに「統合済み (要確認)」で出す。学校のない記録の県は国スポの代表県なので比べない。
+        def conflict(x, y):
+            ax, ay = a[x], a[y]
+            if ax["school"] and ay["school"] and not same_school(ax["school"], ay["school"]):
+                return True
+            if ax["graduation_year"] and ay["graduation_year"] \
+                    and str(ax["graduation_year"]) != str(ay["graduation_year"]):
+                return True
+            return bool(ax["school"] and ay["school"] and ax["prefecture"] and ay["prefecture"]
+                        and ax["prefecture"] != ay["prefecture"])
+
+        sparse = {k for k in keys if sum(bool(v) for v in a[k].values()) < 2}
+        for x in [k for k in reversed(keys) if find(k) == k and k in sparse]:
+            cands = [y for y in {find(k) for k in keys if k not in sparse}
+                     if (players[x]["gender"] == players[y]["gender"] or "mixed" in
+                         (players[x]["gender"], players[y]["gender"]))
+                     and not (ev(x) & ev(y)) and not any(conflict(x, k) for k in groups[y])
+                     and decisions.get(frozenset((x, y))) != "different"]
+            if len(cands) == 1:
+                y = cands[0]
+                review.append(row(y, x, matches(a[y], a[x]), "統合済み (要確認)",
+                                  "わかっている項目が1つ以下の記録を、食い違いのない同名の1人にまとめた"))
+                parent[x] = y
+                groups[y] |= groups.pop(x)
+
+        for k in keys:
+            if find(k) != k:
+                merged_into[k] = find(k)
+        left = [k for k in keys if find(k) == k]
+        for x, y, m, decision, compatible in pairs:
+            if x in left and y in left and decision != "different":
+                why = ("同じ大会に両方出場" if ev(x) & ev(y) else "性別が違う" if not compatible
+                       else "一致が2項目未満")
+                review.append(row(x, y, m, "未統合", why))
+
+    # まとめた選手の空欄を、まとめられた側の情報で埋めてから消す
+    for drop, keep in merged_into.items():
+        p, q = players[keep], players.pop(drop)
+        for col in ("school_key", "name_kana", "graduation_year", "prefecture"):
+            if not p[col] and q[col]:
+                p[col] = q[col]
+    for rows in (results, rounds, members):
+        for r in rows:
+            if r["player_key"] in merged_into:
+                r["player_key"] = merged_into[r["player_key"]]
+    return merged_into, review
+
+
 def round_dates(t, n):
     try:
         start = dt.date.fromisoformat(t.get("start_date"))
@@ -321,6 +510,7 @@ def main():
                           "name_kana": name_kana(name), "name_en": en, "name_en_source": src,
                           "gender": gender, "graduation_year": grad, "prefecture": pref or ""}
         p = players[k]
+        p["prefecture"] = p["prefecture"] or pref or ""
         if grad and p["graduation_year"] and grad != p["graduation_year"]:
             issues.append((t["id"], f"卒業年度が一致しない: {name} ({school}) {p['graduation_year']} vs {grad}"))
         p["graduation_year"] = p["graduation_year"] or grad
@@ -441,6 +631,10 @@ def main():
         if not p["prefecture"] and p["school_key"]:
             p["prefecture"] = schools[p["school_key"]]["prefecture"]
 
+    merged, review = dedup_players(players, schools, results, rounds, members)
+    for drop, keep in sorted(merged.items()):
+        issues.append(("player-dedup", f"同一人物としてまとめた: {drop} → {keep} ({players[keep]['name_ja']})"))
+
     course_rows, tee_rows = [], []
     for c in COURSES:
         course_rows.append({k: c.get(k) for k in
@@ -474,13 +668,14 @@ def main():
     write("rounds.csv", rounds)
     write("team_results.csv", teams)
     write("team_members.csv", members)
+    write("player_name_review.csv", review)
     with open(os.path.join(ROOT, "ISSUES.md"), "w", encoding="utf-8") as fh:
         fh.write("# 要確認事項 (build.py が自動生成)\n\n")
         for tid, i in issues:
             fh.write(f"- `{tid}`: {i}\n")
     print(f"schools={len(schools)} players={len(players)} courses={len(course_rows)} tees={len(tee_rows)} "
           f"tournaments={len(tournaments)} results={len(results)} rounds={len(rounds)} "
-          f"teams={len(teams)} issues={len(issues)}", file=sys.stderr)
+          f"teams={len(teams)} issues={len(issues)} merged={len(merged)} review_pairs={len(review)}", file=sys.stderr)
 
 
 if __name__ == "__main__":

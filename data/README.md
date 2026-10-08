@@ -23,6 +23,19 @@ data/
 
 再生成: `pip install pykakasi namedivider-python && python3 data/scripts/build.py`
 
+## 選手の名寄せ
+
+`build.py` は同姓同名 (空白・異体字 髙/高 などは無視) の選手を次の順にまとめる。
+
+1. `reference/player_merge_decisions.csv` に人が書いた判断 (`same` はまとめる、`different` はまとめない)。
+2. 学校・県・卒業年度のうち2つ以上が一致すれば同一人物。学校名は略称・表記ゆれ (「岐阜聖徳」「日体荏原」「都立駒場」など) も同じ学校とみなす。
+3. 学校・県・卒業年度のうち1つ以下しかわからない記録 (日本ジュニア・国スポなど) は、2つ以上わかっている同名の選手のうち食い違いのないのが1人だけなら仮にまとめる。
+
+同じ大会に両方出ている2人と、性別の違う2人はまとめない。まとめた組は `ISSUES.md` (`player-dedup`) に残る。
+
+`player_name_review.csv` は人が確認する一覧。`status` が「未統合」はルールでは決められなかった同姓同名、「統合済み (要確認)」は 3 で仮にまとめた組。
+判断したら `player_key_a`・`player_key_b` と `decision` を `reference/player_merge_decisions.csv` に写して作り直す。
+
 ## Supabase への投入
 
 `supabase/seed.sql` をそのまま流せば入る (Supabase の SQL Editor に貼る、または `psql "$DATABASE_URL" -f data/supabase/seed.sql`)。
@@ -31,6 +44,7 @@ data/
 - 同じ内容を `src/data/seed.json` にも書き出す。サイトは Supabase の環境変数がないときこれを表示する。
 - 各行の id は `*_key` から作る固定の UUID なので、何度流しても重複せず、作り直しても同じ選手は同じ id。
 - 公開に許諾が必要な大会 (関東高ゴ連) と団体戦 (スキーマに表がない) は含めていない。
+- 載せる大会は `supabase/published_tournaments.txt` に絞る (サイトの静的ファイル数を Cloudflare の無料枠に収めるため)。全大会は `to_sql.py --all`。
 - 再生成: `python3 data/scripts/build.py && python3 data/scripts/to_sql.py` (`--include-restricted` で関東も含める)。
 - ローカルの PostgreSQL でマイグレーション → seed を2回流して、エラーなく同じ件数になることを確認済み。
 
