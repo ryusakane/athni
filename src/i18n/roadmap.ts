@@ -101,6 +101,12 @@ type RoadmapDictionary = {
   showAll: string;
   hideAll: string;
   disclaimer: string;
+  goTo: (section: string) => string;
+  registered: string;
+  nothingYet: string;
+  yes: string;
+  no: string;
+  linkedResults: (n: number) => string;
   phases: Record<PhaseKey, { title: string; when: string }>;
   steps: Record<StepKey, StepText>;
 };
@@ -121,6 +127,12 @@ const en: RoadmapDictionary = {
   showAll: "Show all steps",
   hideAll: "Hide steps",
   disclaimer: "Rules change. Check each official site before paying a fee or signing anything.",
+  goTo: (section) => `Enter it in “${section}” ↓`,
+  registered: "What you've entered",
+  nothingYet: "Nothing entered yet.",
+  yes: "On",
+  no: "Off",
+  linkedResults: (n) => `Linked tournament results: ${n}`,
   phases: {
     prepare: { title: "Get ready", when: "About 3 years before college" },
     noticed: { title: "Get noticed", when: "About 2 years before" },
@@ -337,6 +349,12 @@ const ja: RoadmapDictionary = {
   showAll: "すべてのステップを見る",
   hideAll: "閉じる",
   disclaimer: "ルールは変わることがあります。費用を払う前や署名の前に、必ず各公式サイトで確認してください。",
+  goTo: (section) => `「${section}」で入力する ↓`,
+  registered: "登録済みの内容",
+  nothingYet: "まだ入力がありません。",
+  yes: "オン",
+  no: "オフ",
+  linkedResults: (n) => `紐付け済みの大会成績: ${n}件`,
   phases: {
     prepare: { title: "準備", when: "入学の約3年前から" },
     noticed: { title: "コーチに知ってもらう", when: "入学の約2年前から" },
