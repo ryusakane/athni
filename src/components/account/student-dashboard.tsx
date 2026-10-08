@@ -16,6 +16,7 @@ import {
   type TestName,
   type TestScore,
 } from "@/lib/supabase/account-types";
+import { Roadmap } from "./roadmap";
 import { buttonClass, DateSelect, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
 
 const testNames: TestName[] = ["toefl_ibt", "ielts", "duolingo", "eiken", "toeic", "sat", "act"];
@@ -30,6 +31,7 @@ type Data = {
   claims: ClaimRow[];
   requests: ResultRequest[];
   targets: TargetCollege[];
+  roadmap: string[];
 };
 
 // The student's own screen. A linked parent sees the same screen for their child (asParent).
@@ -49,7 +51,7 @@ export function StudentDashboard({
 
   const load = useCallback(async () => {
     const supabase = getSupabase();
-    const [student, links, tests, claims, requests, targets] = await Promise.all([
+    const [student, links, tests, claims, requests, targets, roadmap] = await Promise.all([
       supabase.from("student_profiles").select("*").eq("user_id", studentId).single(),
       supabase.from("guardian_links").select("parent_id").eq("student_id", studentId),
       supabase.from("student_test_scores").select("*").eq("student_id", studentId).order("taken_on"),
@@ -60,6 +62,7 @@ export function StudentDashboard({
         .order("created_at"),
       supabase.from("result_requests").select("*").eq("student_id", studentId).order("created_at"),
       supabase.from("student_target_colleges").select("*").eq("student_id", studentId).order("created_at"),
+      supabase.from("student_roadmap_steps").select("step").eq("student_id", studentId),
     ]);
     if (student.error) {
       setError(student.error.message);
@@ -76,6 +79,7 @@ export function StudentDashboard({
       claims: (claims.data ?? []) as ClaimRow[],
       requests: (requests.data ?? []) as ResultRequest[],
       targets: (targets.data ?? []) as TargetCollege[],
+      roadmap: (roadmap.data ?? []).map((row) => row.step as string),
     });
   }, [studentId]);
 
@@ -91,6 +95,15 @@ export function StudentDashboard({
 
   return (
     <>
+      <Roadmap
+        lang={lang}
+        student={student}
+        tests={data.tests}
+        targets={data.targets}
+        approvedClaims={data.claims.filter((c) => c.status === "approved").length}
+        manual={data.roadmap}
+        onChange={load}
+      />
       {!asParent && (
         <Section title={s.sharing}>
           <VisibilityToggle lang={lang} student={student} onChange={load} />
