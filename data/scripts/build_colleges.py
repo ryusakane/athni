@@ -163,7 +163,12 @@ def report_gaps(colleges, issues):
         issues.append("## Missing fields\n\n" + "\n".join(f"- {k}: {v}" for k, v in sorted(gaps.items())))
 
 
-def lit(v):
+JSONB_COLS = {"tour_links", "players_by_country"}
+
+
+def lit(v, col=None):
+    if col in JSONB_COLS and v is not None:
+        return "'" + json.dumps(v, ensure_ascii=False).replace("'", "''") + "'::jsonb"
     if v is None:
         return "null"
     if isinstance(v, bool):
@@ -180,7 +185,7 @@ def lit(v):
 def insert(table, cols, rows):
     if not rows:
         return ""
-    values = ",\n".join("(" + ",".join(lit(r[c]) for c in cols) + ")" for r in rows)
+    values = ",\n".join("(" + ",".join(lit(r[c], c) for c in cols) + ")" for r in rows)
     updates = ", ".join(f"{c} = excluded.{c}" for c in cols if c != "id")
     return f"insert into {table} ({','.join(cols)}) values\n{values}\non conflict (id) do update set {updates};\n\n"
 
