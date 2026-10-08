@@ -2,29 +2,124 @@
 
 import { useState } from "react";
 import type { Locale } from "@/i18n/config";
+import { getAccountDictionary } from "@/i18n/account";
 import { getRoadmapDictionary, steps, type StepDef, type StepKey } from "@/i18n/roadmap";
 import { getSupabase } from "@/lib/supabase/client";
-import type { StudentProfile, TargetCollege, TestScore } from "@/lib/supabase/account-types";
+import type {
+  DocumentKind,
+  PlayerClaim,
+  StudentDocument,
+  StudentProfile,
+  TargetCollege,
+  TestScore,
+} from "@/lib/supabase/account-types";
+import { DocumentList, UploadButton } from "./documents";
 import { buttonClass, Section, secondaryButtonClass } from "./ui";
 
 type Inputs = {
   student: StudentProfile;
   tests: TestScore[];
   targets: TargetCollege[];
-  approvedClaims: number;
+  claims: PlayerClaim[];
+  docs: StudentDocument[];
 };
+
+type SectionId = "sharing" | "profile" | "academics" | "tests" | "golf" | "results" | "targets" | "documents";
+
+// Where on the account page each step's data is entered, and which documents belong to it.
+const stepLinks: Partial<Record<StepKey, { section: SectionId; docs?: DocumentKind[] }>> = {
+  goal: { section: "academics" },
+  grades: { section: "academics", docs: ["transcript"] },
+  english: { section: "tests", docs: ["test_report"] },
+  results: { section: "golf" },
+  ncaa: { section: "academics" },
+  profile: { section: "profile" },
+  video: { section: "golf" },
+  list: { section: "targets" },
+  contact: { section: "targets" },
+  visits: { section: "targets" },
+  tests: { section: "tests", docs: ["test_report"] },
+  offer: { section: "targets", docs: ["offer"] },
+  commit: { section: "targets", docs: ["offer"] },
+  apply: { section: "targets", docs: ["transcript", "translation"] },
+  i20: { section: "documents", docs: ["i20"] },
+  visa: { section: "documents", docs: ["visa"] },
+  documents: { section: "academics", docs: ["graduation", "transcript", "translation"] },
+};
+
+const englishTests: TestScore["test"][] = ["toefl_ibt", "ielts", "duolingo", "eiken", "toeic"];
+const admissionTests: TestScore["test"][] = ["sat", "act"];
+
+// What the student has already entered for a step, as short "label: value" lines.
+function entered(key: StepKey, { student, tests, targets, claims }: Inputs, lang: Locale): string[] {
+  const t = getAccountDictionary(lang);
+  const s = t.student;
+  const r = getRoadmapDictionary(lang);
+  const line = (label: string, value: unknown) =>
+    value == null || value === "" ? null : `${label}: ${value}`;
+  const testLines = (names: TestScore["test"][]) =>
+    tests
+      .filter((row) => names.includes(row.test))
+      .map((row) => `${s.testNames[row.test]}: ${row.score}${row.taken_on ? ` (${row.taken_on})` : ""}`);
+  const targetLines = (statuses?: TargetCollege["status"][]) =>
+    targets
+      .filter((row) => (statuses ? statuses.includes(row.status) : row.status !== "dropped"))
+      .map((row) => `${row.college_name}: ${s.targetStatus[row.status]}`);
+  const ncaa = [
+    line(s.ncaaStatus, student.ncaa_status && s.ncaaStatuses[student.ncaa_status]),
+    line(s.ncaaId, student.ncaa_eligibility_id),
+  ];
+  const approved = claims.filter((c) => c.status === "approved").length;
+
+  const lines: Record<StepKey, (string | null)[]> = {
+    goal: [
+      line(s.entryYear, student.entry_year),
+      line(s.divisions, student.target_divisions.map((d) => s.divisionNames[d]).join(", ")),
+    ],
+    grades: [
+      line(s.gpaJp, student.gpa_jp),
+      line(s.gpaUs, student.gpa_us),
+      line(s.classRank, student.class_rank && `${student.class_rank}${student.class_size ? ` / ${student.class_size}` : ""}`),
+    ],
+    english: testLines(englishTests),
+    results: [
+      line(s.scoringAverage, student.scoring_average),
+      line(s.best18, student.best_18),
+      approved > 0 ? r.linkedResults(approved) : null,
+    ],
+    ncaa,
+    profile: [
+      `${s.visibility}: ${student.visible_to_coaches ? r.yes : r.no}`,
+      line(s.nameEn, student.name_en),
+      line(t.signup.graduationYear, student.graduation_year),
+    ],
+    video: [line(s.video, student.video_url)],
+    list: targetLines(),
+    contact: targetLines(),
+    visits: targetLines(),
+    tests: testLines(admissionTests),
+    offer: targetLines(["offer", "committed"]),
+    commit: targetLines(["committed"]),
+    apply: targetLines(["applied", "offer", "committed"]),
+    i20: [],
+    visa: [],
+    documents: ncaa,
+    arrive: [],
+  };
+  return lines[key].filter((l): l is string => l != null);
+}
 
 const reached = (targets: TargetCollege[], statuses: TargetCollege["status"][]) =>
   targets.some((t) => statuses.includes(t.status));
 
 // Steps the profile data already shows as done.
-function autoDone({ student, tests, targets, approvedClaims }: Inputs): Partial<Record<StepKey, boolean>> {
+function autoDone({ student, tests, targets, claims }: Inputs): Partial<Record<StepKey, boolean>> {
   const has = (...names: TestScore["test"][]) => tests.some((t) => names.includes(t.test));
   return {
     goal: student.entry_year != null && student.target_divisions.length > 0,
     grades: student.gpa_jp != null || student.gpa_us != null,
     english: has("toefl_ibt", "ielts", "duolingo"),
-    results: student.scoring_average != null || approvedClaims > 0,
+    results: student.scoring_average != null || claims.some((c) => c.status === "approved"),
     ncaa: student.ncaa_status === "registered" || student.ncaa_status === "certified",
     profile:
       student.visible_to_coaches &&
@@ -67,7 +162,7 @@ export function Roadmap({
     onChange();
   }
 
-  const stepProps = { lang, entryYear, auto, isDone, toggle };
+  const stepProps = { lang, inputs, auto, isDone, toggle, onChange };
 
   return (
     <Section title={r.title}>
@@ -159,20 +254,27 @@ function StepBody({
   step,
   open,
   lang,
-  entryYear,
+  inputs,
   auto,
   isDone,
   toggle,
+  onChange,
 }: {
   step: StepDef;
   open: boolean;
   lang: Locale;
-  entryYear: number | null;
+  inputs: Inputs;
   auto: Partial<Record<StepKey, boolean>>;
   isDone: (key: StepKey) => boolean;
   toggle: (key: StepKey, done: boolean) => void;
+  onChange: () => void;
 }) {
   const r = getRoadmapDictionary(lang);
+  const s = getAccountDictionary(lang).student;
+  const entryYear = inputs.student.entry_year;
+  const link = stepLinks[step.key];
+  const lines = entered(step.key, inputs, lang);
+  const docs = link?.docs ? inputs.docs.filter((d) => link.docs!.includes(d.kind)) : [];
   const text = r.steps[step.key];
   const done = isDone(step.key);
   const due = entryYear != null ? dueDate(step, entryYear) : null;
@@ -191,6 +293,32 @@ function StepBody({
           <li key={line}>{line}</li>
         ))}
       </ul>
+      {link && (
+        <div className="space-y-2 rounded-md bg-foreground/5 p-3">
+          <p className="text-xs font-semibold text-foreground/70">{r.registered}</p>
+          {lines.length > 0 ? (
+            <ul className="space-y-0.5 break-all">
+              {lines.map((l) => (
+                <li key={l}>{l}</li>
+              ))}
+            </ul>
+          ) : (
+            !link.docs && <p className="text-foreground/60">{r.nothingYet}</p>
+          )}
+          {link.docs && (
+            <>
+              <DocumentList lang={lang} docs={docs} onChange={onChange} />
+              {lines.length === 0 && docs.length === 0 && <p className="text-foreground/60">{r.nothingYet}</p>}
+              <UploadButton lang={lang} studentId={inputs.student.user_id} kinds={link.docs} onDone={onChange} />
+            </>
+          )}
+          {link.section !== "documents" && (
+            <a href={`#${link.section}`} className="inline-block text-xs font-medium underline">
+              {r.goTo(s[link.section])}
+            </a>
+          )}
+        </div>
+      )}
       {text.auto && !auto[step.key] && <p className="text-xs text-foreground/60">{text.auto}</p>}
       {text.sources.length > 0 && (
         <p className="text-xs text-foreground/60">

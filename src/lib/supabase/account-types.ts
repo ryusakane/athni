@@ -114,3 +114,25 @@ export type TargetCollege = {
   status: TargetStatus;
   note: string | null;
 };
+
+export type DocumentKind =
+  | "transcript"
+  | "graduation"
+  | "translation"
+  | "test_report"
+  | "offer"
+  | "i20"
+  | "visa"
+  | "other";
+
+// supabase/migrations/0010_student_documents.sql: the file is in Storage at storage_path.
+export type StudentDocument = {
+  id: string;
+  student_id: string;
+  kind: DocumentKind;
+  test_score_id: string | null;
+  file_name: string;
+  storage_path: string;
+  size_bytes: number | null;
+  created_at: string;
+};

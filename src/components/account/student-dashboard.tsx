@@ -10,12 +10,14 @@ import {
   type NcaaStatus,
   type PlayerClaim,
   type ResultRequest,
+  type StudentDocument,
   type StudentProfile,
   type TargetCollege,
   type TargetStatus,
   type TestName,
   type TestScore,
 } from "@/lib/supabase/account-types";
+import { DocumentList, Documents, UploadButton } from "./documents";
 import { Roadmap } from "./roadmap";
 import { buttonClass, DateSelect, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
 
@@ -32,6 +34,7 @@ type Data = {
   requests: ResultRequest[];
   targets: TargetCollege[];
   roadmap: string[];
+  docs: StudentDocument[];
 };
 
 // The student's own screen. A linked parent sees the same screen for their child (asParent).
@@ -51,7 +54,7 @@ export function StudentDashboard({
 
   const load = useCallback(async () => {
     const supabase = getSupabase();
-    const [student, links, tests, claims, requests, targets, roadmap] = await Promise.all([
+    const [student, links, tests, claims, requests, targets, roadmap, docs] = await Promise.all([
       supabase.from("student_profiles").select("*").eq("user_id", studentId).single(),
       supabase.from("guardian_links").select("parent_id").eq("student_id", studentId),
       supabase.from("student_test_scores").select("*").eq("student_id", studentId).order("taken_on"),
@@ -63,6 +66,7 @@ export function StudentDashboard({
       supabase.from("result_requests").select("*").eq("student_id", studentId).order("created_at"),
       supabase.from("student_target_colleges").select("*").eq("student_id", studentId).order("created_at"),
       supabase.from("student_roadmap_steps").select("step").eq("student_id", studentId),
+      supabase.from("student_documents").select("*").eq("student_id", studentId).order("created_at"),
     ]);
     if (student.error) {
       setError(student.error.message);
@@ -80,6 +84,7 @@ export function StudentDashboard({
       requests: (requests.data ?? []) as ResultRequest[],
       targets: (targets.data ?? []) as TargetCollege[],
       roadmap: (roadmap.data ?? []).map((row) => row.step as string),
+      docs: (docs.data ?? []) as StudentDocument[],
     });
   }, [studentId]);
 
@@ -100,12 +105,13 @@ export function StudentDashboard({
         student={student}
         tests={data.tests}
         targets={data.targets}
-        approvedClaims={data.claims.filter((c) => c.status === "approved").length}
+        claims={data.claims}
+        docs={data.docs}
         manual={data.roadmap}
         onChange={load}
       />
       {!asParent && (
-        <Section title={s.sharing}>
+        <Section id="sharing" title={s.sharing}>
           <VisibilityToggle lang={lang} student={student} onChange={load} />
           {data.parents.length > 0 && (
             <LinkedParents lang={lang} studentId={studentId} parents={data.parents} onChange={load} />
@@ -115,10 +121,11 @@ export function StudentDashboard({
       )}
       <ProfileForm lang={lang} student={student} onSaved={load} />
       <AcademicsForm lang={lang} student={student} onSaved={load} />
-      <TestScores lang={lang} studentId={studentId} tests={data.tests} onChange={load} />
+      <TestScores lang={lang} studentId={studentId} tests={data.tests} docs={data.docs} onChange={load} />
       <GolfForm lang={lang} student={student} onSaved={load} />
       <Results lang={lang} studentId={studentId} claims={data.claims} requests={data.requests} onChange={load} />
       <Targets lang={lang} studentId={studentId} targets={data.targets} onChange={load} />
+      <Documents lang={lang} studentId={studentId} docs={data.docs} onChange={load} />
     </>
   );
 }
@@ -295,7 +302,7 @@ function ProfileForm({ lang, student, onSaved }: FormProps) {
 
   return (
     <form onSubmit={onSubmit}>
-      <Section title={s.profile}>
+      <Section id="profile" title={s.profile}>
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={s.familyNameJa}>
             <Input name="family_name_ja" defaultValue={student.family_name_ja ?? familyJa} placeholder="山田" />
@@ -385,7 +392,7 @@ function AcademicsForm({ lang, student, onSaved }: FormProps) {
 
   return (
     <form onSubmit={onSubmit}>
-      <Section title={s.academics}>
+      <Section id="academics" title={s.academics}>
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={s.school}>
             <Input name="school_name" defaultValue={student.school_name ?? ""} />
@@ -491,7 +498,7 @@ function GolfForm({ lang, student, onSaved }: FormProps) {
 
   return (
     <form onSubmit={onSubmit}>
-      <Section title={s.golf}>
+      <Section id="golf" title={s.golf}>
         <p className="text-sm text-foreground/70">{s.golfNote}</p>
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={s.scoringAverage}>
@@ -541,11 +548,13 @@ function TestScores({
   lang,
   studentId,
   tests,
+  docs,
   onChange,
 }: {
   lang: Locale;
   studentId: string;
   tests: TestScore[];
+  docs: StudentDocument[];
   onChange: () => void;
 }) {
   const t = getAccountDictionary(lang);
@@ -570,20 +579,36 @@ function TestScores({
     onChange();
   }
   return (
-    <Section title={s.tests}>
+    <Section id="tests" title={s.tests}>
       {tests.length > 0 && (
         <ul className="divide-y divide-black/5 text-sm dark:divide-white/10">
-          {tests.map((row) => (
-            <li key={row.id} className="flex items-center justify-between gap-4 py-2">
-              <span>
-                <span className="font-medium">{s.testNames[row.test]}</span> {row.score}
-                {row.taken_on && <span className="text-foreground/60"> · {row.taken_on}</span>}
-              </span>
-              <button type="button" onClick={() => remove(row.id)} className="whitespace-nowrap text-xs underline">
-                {t.remove}
-              </button>
-            </li>
-          ))}
+          {tests.map((row) => {
+            const reports = docs.filter((d) => d.test_score_id === row.id);
+            return (
+              <li key={row.id} className="space-y-1 py-2">
+                <div className="flex items-center justify-between gap-4">
+                  <span>
+                    <span className="font-medium">{s.testNames[row.test]}</span> {row.score}
+                    {row.taken_on && <span className="text-foreground/60"> · {row.taken_on}</span>}
+                  </span>
+                  <button type="button" onClick={() => remove(row.id)} className="whitespace-nowrap text-xs underline">
+                    {t.remove}
+                  </button>
+                </div>
+                <DocumentList lang={lang} docs={reports} onChange={onChange} />
+                {reports.length === 0 && (
+                  <UploadButton
+                    lang={lang}
+                    studentId={studentId}
+                    kinds={["test_report"]}
+                    testScoreId={row.id}
+                    label={s.attachReport}
+                    onDone={onChange}
+                  />
+                )}
+              </li>
+            );
+          })}
         </ul>
       )}
       <form onSubmit={add} className="grid items-end gap-3 sm:grid-cols-4">
@@ -650,7 +675,7 @@ function Results({
   }
 
   return (
-    <Section title={s.results}>
+    <Section id="results" title={s.results}>
       <p className="text-sm text-foreground/70">{s.resultsLead}</p>
       {claims.length > 0 && (
         <ul className="divide-y divide-black/5 text-sm dark:divide-white/10">
@@ -765,7 +790,7 @@ function Targets({
     onChange();
   }
   return (
-    <Section title={s.targets}>
+    <Section id="targets" title={s.targets}>
       {targets.length > 0 && (
         <ul className="divide-y divide-black/5 text-sm dark:divide-white/10">
           {targets.map((row) => (

@@ -35,9 +35,9 @@ export function Input(props: ComponentProps<"input">) {
   return <input {...props} className={`${inputClass} ${props.className ?? ""}`} />;
 }
 
-export function Section({ title, children }: { title: string; children: ReactNode }) {
+export function Section({ id, title, children }: { id?: string; title: string; children: ReactNode }) {
   return (
-    <section className="rounded-lg border border-black/10 p-5 dark:border-white/10">
+    <section id={id} className="scroll-mt-6 rounded-lg border border-black/10 p-5 dark:border-white/10">
       <h2 className="text-lg font-semibold">{title}</h2>
       <div className="mt-4 space-y-4">{children}</div>
     </section>
