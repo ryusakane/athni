@@ -6,6 +6,7 @@ import { useEffect, useState, type FormEvent } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { authEnabled, getSupabase } from "@/lib/supabase/client";
+import { AddressFields } from "./address-fields";
 import { buttonClass, DateSelect, Field, Input, Notice, KanaInput, PasswordInput, YearSelect } from "./ui";
 
 type SignupRole = "student" | "parent" | "coach";
@@ -86,6 +87,12 @@ export function SignupForm({ lang }: { lang: Locale }) {
           ...(role === "student" && {
             birth_date: value("birth_date"),
             graduation_year: value("graduation_year"),
+            // Address and high school: used to find the student's results after login.
+            country: value("country"),
+            prefecture: value("prefecture"),
+            postal_code: value("postal_code"),
+            address_line: value("address_line"),
+            school_name: value("school_name"),
           }),
           ...(role === "coach" && { college_name: value("college_name"), title: value("title") }),
           ...(role === "parent" && { invite_code: value("invite_code") }),
@@ -203,6 +210,10 @@ export function SignupForm({ lang }: { lang: Locale }) {
                   placeholder={t.year}
                 />
               </Field>
+              <Field label={t.identity.school}>
+                <Input name="school_name" required autoComplete="organization" />
+              </Field>
+              <AddressFields lang={lang} required />
             </>
           )}
 

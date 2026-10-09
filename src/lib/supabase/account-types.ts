@@ -1,5 +1,5 @@
 // Row shapes of the account tables (supabase/migrations/0004_accounts.sql, 0006_name_kana.sql,
-// 0007_identity_checks.sql, 0008_student_recruiting_fields.sql).
+// 0007_identity_checks.sql, 0008_student_recruiting_fields.sql, 0011_identity_match.sql).
 
 export type Role = "student" | "parent" | "coach" | "hs_coach";
 
@@ -58,6 +58,33 @@ export type StudentProfile = {
   coach_contact: string | null;
   parent_invite_code: string;
   visible_to_coaches: boolean;
+  // Added in 0011_identity_match.sql: ISO 3166-1 alpha-2, e.g. "JP"
+  country: string | null;
+};
+
+// Street address, readable by the student and linked parents only (0011_identity_match.sql).
+export type StudentAddress = {
+  student_id: string;
+  postal_code: string | null;
+  address_line: string | null;
+};
+
+// A results record that may be the student: a row of player_matches() (0011_identity_match.sql).
+export type PlayerMatch = {
+  player_id: string;
+  name_ja: string;
+  name_en: string | null;
+  gender: "male" | "female";
+  graduation_year: number | null;
+  prefecture: string | null;
+  school_ja: string | null;
+  school_en: string | null;
+  result_count: number;
+  last_tournament_ja: string | null;
+  last_tournament_en: string | null;
+  last_date: string | null;
+  prefecture_match: boolean;
+  school_match: boolean;
 };
 
 export type CoachProfile = {
@@ -90,6 +117,7 @@ export type PlayerClaim = {
   student_id: string;
   player_id: string;
   evidence_url: string | null;
+  source: "manual" | "profile_match";
   status: "pending" | "approved" | "rejected";
   reviewer_note: string | null;
 };

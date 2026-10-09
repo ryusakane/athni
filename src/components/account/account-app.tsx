@@ -7,6 +7,7 @@ import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
 import { CoachDashboard } from "./coach-dashboard";
+import { IdentityStep } from "./identity-match";
 import { ParentDashboard } from "./parent-dashboard";
 import { Shell } from "./signup-form";
 import { StudentDashboard } from "./student-dashboard";
@@ -106,7 +107,9 @@ export function AccountApp({ lang, view = "home" }: { lang: Locale; view?: Accou
       </div>
       <div className="mt-8 space-y-6">
         {profile.role === "student" && (
-          <StudentDashboard lang={lang} studentId={profile.id} asParent={false} view="home" />
+          <IdentityStep lang={lang} studentId={profile.id}>
+            <StudentDashboard lang={lang} studentId={profile.id} asParent={false} view="home" />
+          </IdentityStep>
         )}
         {profile.role === "parent" && (
           <ParentDashboard
