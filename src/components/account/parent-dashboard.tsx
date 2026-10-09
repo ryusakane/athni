@@ -96,8 +96,7 @@ export function ParentDashboard({
       {children.map((child) => (
         <div key={child.student_id} className="space-y-6">
           <h2 className="pt-4 text-xl font-semibold">{child.name}</h2>
-          <p className="text-sm text-foreground/70">{p.viewing}</p>
-          <StudentDashboard lang={lang} studentId={child.student_id} asParent />
+          <StudentDashboard lang={lang} studentId={child.student_id} asParent view="home" />
         </div>
       ))}
     </>
