@@ -19,6 +19,7 @@ import {
   type TestScore,
 } from "@/lib/supabase/account-types";
 import { AddressFields } from "./address-fields";
+import { ClaimedResults } from "./claimed-results";
 import { DocumentList, Documents, UploadButton } from "./documents";
 import { AccountHome } from "./account-home";
 import { Roadmap } from "./roadmap";
@@ -752,6 +753,11 @@ function Results({
       <Link href={`/${lang}/players/`} className={secondaryButtonClass}>
         {s.findMe}
       </Link>
+      <ClaimedResults
+        lang={lang}
+        studentId={studentId}
+        playerIds={claims.filter((c) => c.status !== "rejected").map((c) => c.player_id)}
+      />
 
       <h3 className="pt-2 font-semibold">{s.missing}</h3>
       <p className="text-sm text-foreground/70">{s.missingLead}</p>
