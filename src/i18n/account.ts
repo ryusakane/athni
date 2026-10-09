@@ -77,6 +77,15 @@ const en = {
     signedInAs: (email: string) => `Signed in as ${email}`,
     roleLabel: { student: "Student athlete", parent: "Parent / guardian", coach: "College coach", hs_coach: "High school coach" },
     needLogin: "Please log in to see your account.",
+    back: "← My account",
+    views: {
+      roadmap: "Road to college",
+      golf: "Golf results",
+      school: "School grades",
+      settings: "Settings",
+    },
+    changePassword: "Change password",
+    home: { scoringAverage: "Scoring average", gpa: "GPA", tests: "Test scores", coachVisible: "Shown to coaches" },
   },
   student: {
     sharing: "Sharing",
@@ -206,7 +215,6 @@ const en = {
     codeLabel: "Invite code",
     link: "Link",
     linkFailed: "That code was not found.",
-    viewing: "You can edit your child's profile below.",
   },
   coach: {
     status: {
@@ -322,6 +330,15 @@ const ja: AccountDictionary = {
     signedInAs: (email: string) => `${email} でログイン中`,
     roleLabel: { student: "生徒（選手）", parent: "保護者", coach: "大学コーチ", hs_coach: "高校の先生・コーチ" },
     needLogin: "マイページを見るにはログインしてください。",
+    back: "← マイページ",
+    views: {
+      roadmap: "大学までのロードマップ",
+      golf: "ゴルフの成績",
+      school: "学校の成績",
+      settings: "設定",
+    },
+    changePassword: "パスワードを変更",
+    home: { scoringAverage: "平均スコア", gpa: "評定平均", tests: "テストのスコア", coachVisible: "コーチに公開" },
   },
   student: {
     sharing: "公開設定",
@@ -451,7 +468,6 @@ const ja: AccountDictionary = {
     codeLabel: "招待コード",
     link: "連携する",
     linkFailed: "コードが見つかりませんでした。",
-    viewing: "お子さまのプロフィールはこの下で編集できます。",
   },
   coach: {
     status: {
