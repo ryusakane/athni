@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
@@ -15,6 +16,7 @@ import type {
 } from "@/lib/supabase/account-types";
 import { DocumentList, UploadButton } from "./documents";
 import { buttonClass, Section, secondaryButtonClass } from "./ui";
+import type { SectionId } from "./views";
 
 type Inputs = {
   student: StudentProfile;
@@ -24,7 +26,6 @@ type Inputs = {
   docs: StudentDocument[];
 };
 
-type SectionId = "sharing" | "profile" | "academics" | "tests" | "golf" | "results" | "targets" | "documents";
 
 // Where on the account page each step's data is entered, and which documents belong to it.
 const stepLinks: Partial<Record<StepKey, { section: SectionId; docs?: DocumentKind[] }>> = {
@@ -139,17 +140,33 @@ function autoDone({ student, tests, targets, claims }: Inputs): Partial<Record<S
 // The step's "by" month: monthsBefore counted back from August of the start year.
 const dueDate = (step: StepDef, entryYear: number) => new Date(entryYear, 7 - step.monthsBefore, 1);
 
+// Progress for the account home: steps done and the first step not done.
+export function roadmapProgress(inputs: Inputs, manual: string[]) {
+  const auto = autoDone(inputs);
+  const isDone = (key: StepKey) => Boolean(auto[key]) || manual.includes(key);
+  return {
+    auto,
+    isDone,
+    doneCount: steps.filter((s) => isDone(s.key)).length,
+    current: steps.find((s) => !isDone(s.key)),
+  };
+}
+
 export function Roadmap({
   lang,
   manual,
   onChange,
+  sectionHref,
   ...inputs
-}: Inputs & { lang: Locale; manual: string[]; onChange: () => void }) {
+}: Inputs & {
+  lang: Locale;
+  manual: string[];
+  onChange: () => void;
+  // Where to enter a section's data: it may be on another account page.
+  sectionHref: (section: SectionId) => string;
+}) {
   const r = getRoadmapDictionary(lang);
-  const auto = autoDone(inputs);
-  const isDone = (key: StepKey) => Boolean(auto[key]) || manual.includes(key);
-  const doneCount = steps.filter((s) => isDone(s.key)).length;
-  const current = steps.find((s) => !isDone(s.key));
+  const { auto, isDone, doneCount, current } = roadmapProgress(inputs, manual);
   const upNext = current ? steps.slice(steps.indexOf(current) + 1).find((s) => !isDone(s.key)) : undefined;
   const [showAll, setShowAll] = useState(false);
   const entryYear = inputs.student.entry_year;
@@ -162,7 +179,7 @@ export function Roadmap({
     onChange();
   }
 
-  const stepProps = { lang, inputs, auto, isDone, toggle, onChange };
+  const stepProps = { lang, inputs, auto, isDone, toggle, onChange, sectionHref };
 
   return (
     <Section title={r.title}>
@@ -259,6 +276,7 @@ function StepBody({
   isDone,
   toggle,
   onChange,
+  sectionHref,
 }: {
   step: StepDef;
   open: boolean;
@@ -268,6 +286,7 @@ function StepBody({
   isDone: (key: StepKey) => boolean;
   toggle: (key: StepKey, done: boolean) => void;
   onChange: () => void;
+  sectionHref: (section: SectionId) => string;
 }) {
   const r = getRoadmapDictionary(lang);
   const s = getAccountDictionary(lang).student;
@@ -313,9 +332,9 @@ function StepBody({
             </>
           )}
           {link.section !== "documents" && (
-            <a href={`#${link.section}`} className="inline-block text-xs font-medium underline">
+            <Link href={sectionHref(link.section)} className="inline-block text-xs font-medium underline">
               {r.goTo(s[link.section])}
-            </a>
+            </Link>
           )}
         </div>
       )}

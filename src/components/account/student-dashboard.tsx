@@ -20,7 +20,9 @@ import {
 } from "@/lib/supabase/account-types";
 import { AddressFields } from "./address-fields";
 import { DocumentList, Documents, UploadButton } from "./documents";
+import { AccountHome } from "./account-home";
 import { Roadmap } from "./roadmap";
+import { accountHref, sectionView, type AccountView, type SectionId } from "./views";
 import { buttonClass, DateSelect, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
 
 const testNames: TestName[] = ["toefl_ibt", "ielts", "duolingo", "eiken", "toeic", "sat", "act"];
@@ -44,10 +46,12 @@ export function StudentDashboard({
   lang,
   studentId,
   asParent,
+  view,
 }: {
   lang: Locale;
   studentId: string;
   asParent: boolean;
+  view: AccountView;
 }) {
   const t = getAccountDictionary(lang);
   const s = t.student;
@@ -100,36 +104,64 @@ export function StudentDashboard({
 
   const { student } = data;
 
-  return (
-    <>
-      <Roadmap
-        lang={lang}
-        student={student}
-        tests={data.tests}
-        targets={data.targets}
-        claims={data.claims}
-        docs={data.docs}
-        manual={data.roadmap}
-        onChange={load}
-      />
-      {!asParent && (
-        <Section id="sharing" title={s.sharing}>
-          <VisibilityToggle lang={lang} student={student} onChange={load} />
-          {data.parents.length > 0 && (
-            <LinkedParents lang={lang} studentId={studentId} parents={data.parents} onChange={load} />
+  // A parent's links carry the child's id; a student's own links don't need it.
+  const linkId = asParent ? studentId : undefined;
+  const href = (v: AccountView, hash?: string) => accountHref(lang, v, linkId, hash);
+  const sectionHref = (section: SectionId) => href(sectionView[section], section);
+  const roadmapInputs = {
+    student,
+    tests: data.tests,
+    targets: data.targets,
+    claims: data.claims,
+    docs: data.docs,
+  };
+
+  switch (view) {
+    case "home":
+      return <AccountHome lang={lang} inputs={roadmapInputs} manual={data.roadmap} href={href} />;
+    case "roadmap":
+      return (
+        <>
+          <Roadmap lang={lang} {...roadmapInputs} manual={data.roadmap} onChange={load} sectionHref={sectionHref} />
+          <Targets lang={lang} studentId={studentId} targets={data.targets} onChange={load} />
+        </>
+      );
+    case "golf":
+      return (
+        <>
+          <GolfForm lang={lang} student={student} onSaved={load} />
+          <Results lang={lang} studentId={studentId} claims={data.claims} requests={data.requests} onChange={load} />
+        </>
+      );
+    case "school":
+      return (
+        <>
+          <AcademicsForm lang={lang} student={student} onSaved={load} />
+          <TestScores lang={lang} studentId={studentId} tests={data.tests} docs={data.docs} onChange={load} />
+          <Documents lang={lang} studentId={studentId} docs={data.docs} onChange={load} />
+        </>
+      );
+    case "settings":
+      return (
+        <>
+          {!asParent && (
+            <Section id="sharing" title={s.sharing}>
+              <VisibilityToggle lang={lang} student={student} onChange={load} />
+              {data.parents.length > 0 && (
+                <LinkedParents lang={lang} studentId={studentId} parents={data.parents} onChange={load} />
+              )}
+              <ParentInvite lang={lang} code={student.parent_invite_code} onChange={load} />
+            </Section>
           )}
-          <ParentInvite lang={lang} code={student.parent_invite_code} onChange={load} />
-        </Section>
-      )}
-      <ProfileForm lang={lang} student={student} onSaved={load} />
-      <AcademicsForm lang={lang} student={student} onSaved={load} />
-      <TestScores lang={lang} studentId={studentId} tests={data.tests} docs={data.docs} onChange={load} />
-      <GolfForm lang={lang} student={student} onSaved={load} />
-      <Results lang={lang} studentId={studentId} claims={data.claims} requests={data.requests} onChange={load} />
-      <Targets lang={lang} studentId={studentId} targets={data.targets} onChange={load} />
-      <Documents lang={lang} studentId={studentId} docs={data.docs} onChange={load} />
-    </>
-  );
+          <ProfileForm lang={lang} student={student} onSaved={load} />
+          {!asParent && (
+            <Link href={`/${lang}/account/password/`} className={secondaryButtonClass}>
+              {t.account.changePassword}
+            </Link>
+          )}
+        </>
+      );
+  }
 }
 
 function LinkedParents({

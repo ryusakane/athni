@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
@@ -12,12 +13,25 @@ import { Shell } from "./signup-form";
 import { StudentDashboard } from "./student-dashboard";
 import { secondaryButtonClass, Notice } from "./ui";
 import { useAccount } from "./use-account";
+import { accountHref, type AccountView } from "./views";
 
-// /account: one page, a different screen for each role.
-export function AccountApp({ lang }: { lang: Locale }) {
+// The ?student=<id> a parent's links carry. Read in the browser: the pages are static.
+function useStudentParam() {
+  const [id, setId] = useState<string | null>(null);
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect -- window is browser-only
+    setId(new URLSearchParams(window.location.search).get("student"));
+  }, []);
+  return id;
+}
+
+// /account and its pages: a different screen for each role. Students (and parents, for a
+// child) get a home with four entries; each entry is its own page (view).
+export function AccountApp({ lang, view = "home" }: { lang: Locale; view?: AccountView }) {
   const t = getAccountDictionary(lang);
   const account = useAccount();
   const router = useRouter();
+  const childId = useStudentParam();
 
   if (account.status === "disabled") {
     return (
@@ -56,6 +70,28 @@ export function AccountApp({ lang }: { lang: Locale }) {
     router.push(`/${lang}/`);
   }
 
+  if (view !== "home") {
+    const studentId = profile.role === "student" ? profile.id : profile.role === "parent" ? childId : null;
+    return (
+      <div className="mx-auto max-w-3xl px-4 py-12">
+        <Link href={accountHref(lang, "home")} className="text-sm text-foreground/70 hover:underline">
+          {t.account.back}
+        </Link>
+        <h1 className="mt-2 text-3xl font-bold tracking-tight">{t.account.views[view]}</h1>
+        <div className="mt-8 space-y-6">
+          {studentId && (
+            <StudentDashboard
+              lang={lang}
+              studentId={studentId}
+              asParent={profile.role === "parent"}
+              view={view}
+            />
+          )}
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="mx-auto max-w-3xl px-4 py-12">
       <div className="flex flex-wrap items-start justify-between gap-4">
@@ -72,7 +108,7 @@ export function AccountApp({ lang }: { lang: Locale }) {
       <div className="mt-8 space-y-6">
         {profile.role === "student" && (
           <IdentityStep lang={lang} studentId={profile.id}>
-            <StudentDashboard lang={lang} studentId={profile.id} asParent={false} />
+            <StudentDashboard lang={lang} studentId={profile.id} asParent={false} view="home" />
           </IdentityStep>
         )}
         {profile.role === "parent" && (
