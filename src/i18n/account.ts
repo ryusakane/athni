@@ -281,6 +281,15 @@ const en = {
     classOf: (y: number) => `Class of ${y}`,
     sent: "Sent. Our staff check it before the results show on your profile.",
   },
+  hiddenResults: {
+    title: "Tournaments on your profile",
+    lead: "From the results records you linked. If a tournament isn't yours, press × to remove it from your profile.",
+    remove: (name: string) => `Remove ${name} from my profile`,
+    removeTitle: "Not my tournament: remove from my profile",
+    removed: (n: number) => `Removed from your profile (${n})`,
+    restore: "Put back",
+    status: { cut: "Cut", wd: "WD", dq: "DQ" },
+  },
 };
 
 export type AccountDictionary = typeof en;
@@ -561,6 +570,15 @@ const ja: AccountDictionary = {
     latest: "最新",
     classOf: (y: number) => `${y}年卒`,
     sent: "申請しました。運営が確認してから、プロフィールに成績が表示されます。",
+  },
+  hiddenResults: {
+    title: "プロフィールに載る大会",
+    lead: "紐付けた成績の大会です。自分の出ていない大会があれば × を押すと、プロフィールから消えます。",
+    remove: (name: string) => `${name}をプロフィールから消す`,
+    removeTitle: "自分の大会ではない：プロフィールから消す",
+    removed: (n: number) => `プロフィールから消した大会（${n}）`,
+    restore: "元に戻す",
+    status: { cut: "予選落ち", wd: "棄権", dq: "失格" },
   },
 };
 
