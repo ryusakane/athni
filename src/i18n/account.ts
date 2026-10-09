@@ -244,6 +244,35 @@ const en = {
     evidenceHint: "For example your school's or federation's results page with your name.",
     sendClaim: "Send for review",
   },
+  address: {
+    country: "Country",
+    prefecture: "Prefecture",
+    state: "State / province / region",
+    postalCode: "Postal code (optional)",
+    addressLine: "Address (city and street)",
+    addressHint: "Only you and your linked parents see this. Coaches see only your country and prefecture / state.",
+  },
+  identity: {
+    title: "Are these your results?",
+    intro: (name: string) =>
+      `These tournament results are under the name ${name}, with the same prefecture / state or high school as your profile. Choose the ones that are you.`,
+    caution: "Pick only records that are really you. Our staff check each one before it is added to your profile.",
+    needInfoTitle: "Add your address and high school",
+    needInfo:
+      "We look for your tournament results by your name together with your prefecture / state or high school.",
+    school: "High school",
+    saveAndFind: "Save and find my results",
+    isMe: "This is me",
+    notMe: "Not me",
+    later: "Later",
+    matched: "Same",
+    prefectureMatch: "prefecture",
+    schoolMatch: "high school",
+    results: (n: number) => (n === 1 ? "1 result" : `${n} results`),
+    latest: "Latest",
+    classOf: (y: number) => `Class of ${y}`,
+    sent: "Sent. Our staff check it before the results show on your profile.",
+  },
 };
 
 export type AccountDictionary = typeof en;
@@ -488,6 +517,34 @@ const ja: AccountDictionary = {
     evidence: "自分の成績だとわかるリンク（任意）",
     evidenceHint: "例: 名前が載っている学校や連盟の結果ページ",
     sendClaim: "確認を申請する",
+  },
+  address: {
+    country: "国",
+    prefecture: "都道府県",
+    state: "州・県・地域",
+    postalCode: "郵便番号（任意）",
+    addressLine: "住所（市区町村・番地）",
+    addressHint: "本人と連携した保護者だけが見られます。大学コーチに見えるのは国と都道府県（州）だけです。",
+  },
+  identity: {
+    title: "この成績はあなたですか？",
+    intro: (name: string) =>
+      `「${name}」と同じ名前で、都道府県（州）か高校がプロフィールと一致する大会成績が見つかりました。あなた自身のものを選んでください。`,
+    caution: "本当に自分の記録だけを選んでください。プロフィールに追加する前に、運営が1件ずつ確認します。",
+    needInfoTitle: "住所と高校を入力してください",
+    needInfo: "名前と、都道府県（州）または高校を合わせて、あなたの大会成績を探します。",
+    school: "高校",
+    saveAndFind: "保存して成績を探す",
+    isMe: "自分です",
+    notMe: "自分ではない",
+    later: "あとで",
+    matched: "一致",
+    prefectureMatch: "都道府県",
+    schoolMatch: "高校",
+    results: (n: number) => `${n}大会`,
+    latest: "最新",
+    classOf: (y: number) => `${y}年卒`,
+    sent: "申請しました。運営が確認してから、プロフィールに成績が表示されます。",
   },
 };
 

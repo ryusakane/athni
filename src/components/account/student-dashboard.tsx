@@ -11,12 +11,14 @@ import {
   type PlayerClaim,
   type ResultRequest,
   type StudentDocument,
+  type StudentAddress,
   type StudentProfile,
   type TargetCollege,
   type TargetStatus,
   type TestName,
   type TestScore,
 } from "@/lib/supabase/account-types";
+import { AddressFields } from "./address-fields";
 import { DocumentList, Documents, UploadButton } from "./documents";
 import { Roadmap } from "./roadmap";
 import { buttonClass, DateSelect, Field, Input, inputClass, KanaInput, Notice, Section, secondaryButtonClass, YearSelect } from "./ui";
@@ -276,10 +278,27 @@ function ProfileForm({ lang, student, onSaved }: FormProps) {
   const [familyKana, givenKana] = splitName(student.name_kana);
   const [familyEn, givenEn] = splitName(student.name_en, true);
   const thisYear = new Date().getFullYear();
+  // The street address lives in its own table that coaches cannot read.
+  const [address, setAddress] = useState<StudentAddress | null | undefined>(undefined);
 
-  function onSubmit(event: FormEvent<HTMLFormElement>) {
+  useEffect(() => {
+    getSupabase()
+      .from("student_addresses")
+      .select("*")
+      .eq("student_id", student.user_id)
+      .maybeSingle()
+      .then(({ data }) => setAddress((data as StudentAddress | null) ?? null));
+  }, [student.user_id]);
+
+  async function onSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
     const { text, num } = reader(new FormData(event.currentTarget));
+    await getSupabase().from("student_addresses").upsert({
+      student_id: student.user_id,
+      postal_code: text("postal_code"),
+      address_line: text("address_line"),
+      updated_at: new Date().toISOString(),
+    });
     save({
       family_name_ja: text("family_name_ja"),
       given_name_ja: text("given_name_ja"),
@@ -294,6 +313,8 @@ function ProfileForm({ lang, student, onSaved }: FormProps) {
       birth_date: text("birth_date"),
       gender: text("gender") as StudentProfile["gender"],
       hometown: text("hometown"),
+      country: text("country"),
+      prefecture: text("prefecture"),
       height_cm: num("height_cm"),
       handedness: text("handedness") as StudentProfile["handedness"],
       bio: text("bio"),
@@ -341,6 +362,17 @@ function ProfileForm({ lang, student, onSaved }: FormProps) {
           <Field label={s.hometown}>
             <Input name="hometown" defaultValue={student.hometown ?? ""} />
           </Field>
+          {address !== undefined && (
+            <AddressFields
+              lang={lang}
+              defaults={{
+                country: student.country,
+                prefecture: student.prefecture,
+                postal_code: address?.postal_code,
+                address_line: address?.address_line,
+              }}
+            />
+          )}
           <Field label={s.heightCm}>
             <Input name="height_cm" type="number" min={100} max={250} defaultValue={student.height_cm ?? ""} />
           </Field>
@@ -376,7 +408,6 @@ function AcademicsForm({ lang, student, onSaved }: FormProps) {
     const { text, num } = reader(form);
     save({
       school_name: text("school_name"),
-      prefecture: text("prefecture"),
       graduation_year: num("graduation_year"),
       entry_year: num("entry_year"),
       gpa_jp: num("gpa_jp"),
@@ -396,9 +427,6 @@ function AcademicsForm({ lang, student, onSaved }: FormProps) {
         <div className="grid gap-4 sm:grid-cols-2">
           <Field label={s.school}>
             <Input name="school_name" defaultValue={student.school_name ?? ""} />
-          </Field>
-          <Field label={s.prefecture}>
-            <Input name="prefecture" defaultValue={student.prefecture ?? ""} />
           </Field>
           <Field label={t.signup.graduationYear}>
             <YearSelect
