@@ -1,4 +1,5 @@
 # Player and tournament pages moved to one page each that loads by ?id= (see src/lib/golf/browse.ts).
+# Paths under /players/ and /tournaments/ all match these rules, so other files must live elsewhere (e.g. /[lang]/player-rows.json).
 /en/players/:id/ /en/player/?id=:id 301
 /ja/players/:id/ /ja/player/?id=:id 301
 /en/tournaments/:id/ /en/tournament/?id=:id 301
