@@ -42,7 +42,7 @@ export function PlayerTable({ lang }: { lang: Locale }) {
 
   useEffect(() => {
     let live = true;
-    fetch(`/${lang}/players/rows.json`)
+    fetch(`/${lang}/player-rows.json`)
       .then((res) => (res.ok ? res.json() : Promise.reject(res.status)))
       .then((data: PlayerRow[]) => live && setRows(data))
       .catch(() => live && setFailed(true));

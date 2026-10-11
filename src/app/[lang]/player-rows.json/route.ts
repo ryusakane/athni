@@ -9,7 +9,7 @@ export function generateStaticParams() {
   return locales.map((lang) => ({ lang }));
 }
 
-export async function GET(_request: Request, { params }: RouteContext<"/[lang]/players/rows.json">) {
+export async function GET(_request: Request, { params }: RouteContext<"/[lang]/player-rows.json">) {
   const { lang } = await params;
   if (!hasLocale(lang)) return new Response(null, { status: 404 });
   return Response.json(await playerRows(lang));

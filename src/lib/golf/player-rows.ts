@@ -4,7 +4,7 @@ import { formatPosition, localizedName } from "./format";
 import { prefectureKey, prefectureLabel } from "./prefectures";
 import { listPlayers } from "./queries";
 
-/** The players list, served as /[lang]/players/rows.json and loaded by the table in the browser. */
+/** The players list, served as /[lang]/player-rows.json and loaded by the table in the browser. */
 export async function playerRows(lang: Locale): Promise<PlayerRow[]> {
   return (await listPlayers()).map(({ player, school, stats }) => {
     const name = localizedName(lang, player);
