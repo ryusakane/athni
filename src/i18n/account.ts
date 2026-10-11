@@ -31,7 +31,10 @@ const en = {
   nameKanaHint: "Katakana. Hiragana is converted automatically.",
   errorGeneric: "Something went wrong. Please try again.",
   roles: {
-    student: { title: "Student athlete", body: "Build your profile, list the colleges you want, and link your tournament results." },
+    student: {
+      title: "Student athlete or graduate",
+      body: "Build your profile, list the colleges you want, and link your tournament results. High school graduates can sign up too and claim their past results.",
+    },
     parent: { title: "Parent / guardian", body: "Link to your child's account to follow and help with their profile." },
     coach: {
       title: "College coach",
@@ -44,7 +47,7 @@ const en = {
     submit: "Create account",
     haveAccount: "Already have an account?",
     birthDate: "Date of birth",
-    graduationYear: "High school graduation year",
+    graduationYear: "High school graduation year (or expected)",
     collegeName: "College / university",
     coachTitle: "Title (e.g. Head Coach)",
     eduNote:
@@ -75,7 +78,7 @@ const en = {
     title: "My account",
     logout: "Log out",
     signedInAs: (email: string) => `Signed in as ${email}`,
-    roleLabel: { student: "Student athlete", parent: "Parent / guardian", coach: "College coach", hs_coach: "High school coach" },
+    roleLabel: { student: "Student athlete / graduate", parent: "Parent / guardian", coach: "College coach", hs_coach: "High school coach" },
     needLogin: "Please log in to see your account.",
     back: "← My account",
     views: {
@@ -322,7 +325,10 @@ const ja: AccountDictionary = {
   nameKanaHint: "カタカナで入力してください（ひらがなは自動で変換されます）",
   errorGeneric: "エラーが発生しました。もう一度お試しください。",
   roles: {
-    student: { title: "生徒（選手）", body: "プロフィールの作成、志望校リスト、大会成績の紐づけができます。" },
+    student: {
+      title: "生徒・卒業生（選手）",
+      body: "プロフィールの作成、志望校リスト、大会成績の紐づけができます。高校を卒業した方も登録でき、過去の大会成績を自分のものとして申請できます。",
+    },
     parent: { title: "保護者", body: "お子さまのアカウントと連携し、プロフィールを確認・サポートできます。" },
     coach: {
       title: "大学コーチ",
@@ -335,7 +341,7 @@ const ja: AccountDictionary = {
     submit: "アカウントを作成",
     haveAccount: "すでにアカウントをお持ちの方",
     birthDate: "生年月日",
-    graduationYear: "高校卒業予定年",
+    graduationYear: "高校卒業年（卒業予定年）",
     collegeName: "大学名",
     coachTitle: "役職（例: Head Coach）",
     eduNote:
@@ -366,7 +372,7 @@ const ja: AccountDictionary = {
     title: "マイページ",
     logout: "ログアウト",
     signedInAs: (email: string) => `${email} でログイン中`,
-    roleLabel: { student: "生徒（選手）", parent: "保護者", coach: "大学コーチ", hs_coach: "高校の先生・コーチ" },
+    roleLabel: { student: "生徒・卒業生（選手）", parent: "保護者", coach: "大学コーチ", hs_coach: "高校の先生・コーチ" },
     needLogin: "マイページを見るにはログインしてください。",
     back: "← マイページ",
     views: {
