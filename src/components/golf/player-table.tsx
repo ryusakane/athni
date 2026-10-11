@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
 
@@ -28,22 +28,38 @@ const nullsLast = (a: number | null, b: number | null) =>
 const inputClass =
   "rounded-md border border-black/15 bg-background px-3 py-2 text-sm dark:border-white/20";
 
-export function PlayerTable({ lang, rows }: { lang: Locale; rows: PlayerRow[] }) {
+const PAGE = 100;
+
+export function PlayerTable({ lang }: { lang: Locale }) {
   const dict = getDictionary(lang);
+  const [rows, setRows] = useState<PlayerRow[] | null>(null);
+  const [failed, setFailed] = useState(false);
+  const [limit, setLimit] = useState(PAGE);
   const [query, setQuery] = useState("");
   const [gender, setGender] = useState("");
   const [classOf, setClassOf] = useState("");
   const [sort, setSort] = useState<Sort>("scoring");
 
+  useEffect(() => {
+    let live = true;
+    fetch(`/${lang}/players/rows.json`)
+      .then((res) => (res.ok ? res.json() : Promise.reject(res.status)))
+      .then((data: PlayerRow[]) => live && setRows(data))
+      .catch(() => live && setFailed(true));
+    return () => {
+      live = false;
+    };
+  }, [lang]);
+
   const classes = useMemo(
     () =>
-      [...new Set(rows.map((r) => r.classOf).filter((c) => c != null))].sort((a, b) => a - b),
+      [...new Set((rows ?? []).map((r) => r.classOf).filter((c) => c != null))].sort((a, b) => a - b),
     [rows],
   );
 
   const shown = useMemo(() => {
     const q = query.trim().toLowerCase();
-    const filtered = rows.filter(
+    const filtered = (rows ?? []).filter(
       (r) =>
         (!gender || r.gender === gender) &&
         (!classOf || String(r.classOf) === classOf) &&
@@ -106,11 +122,17 @@ export function PlayerTable({ lang, rows }: { lang: Locale; rows: PlayerRow[] })
         </select>
       </div>
 
-      <p className="mt-4 text-sm text-foreground/60">
-        {dict.players.count(shown.length, rows.length)}
-      </p>
+      {rows == null ? (
+        <p className="mt-8 text-foreground/60" role="status">
+          {failed ? dict.browse.error : dict.browse.loading}
+        </p>
+      ) : (
+        <p className="mt-4 text-sm text-foreground/60">
+          {dict.players.count(shown.length, rows.length)}
+        </p>
+      )}
 
-      {shown.length === 0 ? (
+      {rows == null ? null : shown.length === 0 ? (
         <p className="mt-8 text-foreground/70">{dict.players.noMatch}</p>
       ) : (
         <div className="mt-4 overflow-x-auto">
@@ -127,10 +149,10 @@ export function PlayerTable({ lang, rows }: { lang: Locale; rows: PlayerRow[] })
               </tr>
             </thead>
             <tbody>
-              {shown.map((r) => (
+              {shown.slice(0, limit).map((r) => (
                 <tr key={r.id} className="border-b border-black/5 dark:border-white/5">
                   <td className="py-2 pr-4">
-                    <Link href={`/${lang}/players/${r.id}`} className="font-medium hover:underline">
+                    <Link href={`/${lang}/player/?id=${r.id}`} className="font-medium hover:underline">
                       {r.name}
                     </Link>
                     {r.nameAlt && (
@@ -159,6 +181,15 @@ export function PlayerTable({ lang, rows }: { lang: Locale; rows: PlayerRow[] })
               ))}
             </tbody>
           </table>
+          {shown.length > limit && (
+            <button
+              type="button"
+              onClick={() => setLimit(limit + PAGE)}
+              className="mt-4 rounded-md border border-black/15 px-4 py-2 text-sm hover:bg-black/5 dark:border-white/20 dark:hover:bg-white/10"
+            >
+              {dict.players.more(shown.length - limit)}
+            </button>
+          )}
         </div>
       )}
     </div>

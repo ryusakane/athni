@@ -1,10 +1,12 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { useEffect } from "react";
 import { PlayerActions } from "@/components/account/player-actions";
 import { Stat } from "@/components/golf/stat";
-import { hasLocale } from "@/i18n/config";
+import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import { loadPlayerRows } from "@/lib/golf/browse";
 import {
   formatDate,
   formatNumber,
@@ -13,26 +15,28 @@ import {
   localizedName,
 } from "@/lib/golf/format";
 import { prefectureKey, prefectureLabel } from "@/lib/golf/prefectures";
-import { getPlayer, playerIds } from "@/lib/golf/queries";
+import { getPlayer } from "@/lib/golf/views";
+import { BrowseStatus } from "./browse-status";
+import { useBrowse } from "./use-browse";
 
-export async function generateStaticParams() {
-  return (await playerIds()).map((id) => ({ id }));
+/** /[lang]/player/?id=… : loads one player's results in the browser. */
+export function PlayerView({ lang }: { lang: Locale }) {
+  const state = useBrowse(loadPlayerRows, getPlayer);
+  const title = state.status === "ready" ? localizedName(lang, state.data.player).primary : null;
+  useEffect(() => {
+    if (title) document.title = `${title} | AthNi`;
+  }, [title]);
+  if (state.status !== "ready") return <BrowseStatus lang={lang} status={state.status} />;
+  return <PlayerDetail lang={lang} data={state.data} />;
 }
 
-export async function generateMetadata({
-  params,
-}: PageProps<"/[lang]/players/[id]">): Promise<Metadata> {
-  const { lang, id } = await params;
-  if (!hasLocale(lang)) return {};
-  const data = await getPlayer(id);
-  return data ? { title: localizedName(lang, data.player).primary } : {};
-}
-
-export default async function PlayerPage({ params }: PageProps<"/[lang]/players/[id]">) {
-  const { lang, id } = await params;
-  if (!hasLocale(lang)) notFound();
-  const data = await getPlayer(id);
-  if (!data) notFound();
+function PlayerDetail({
+  lang,
+  data,
+}: {
+  lang: Locale;
+  data: NonNullable<ReturnType<typeof getPlayer>>;
+}) {
   const dict = getDictionary(lang);
   const { player, school, stats, history } = data;
 
@@ -100,7 +104,7 @@ export default async function PlayerPage({ params }: PageProps<"/[lang]/players/
               >
                 <td className="py-3 pr-4">
                   <Link
-                    href={`/${lang}/tournaments/${tournament.id}`}
+                    href={`/${lang}/tournament/?id=${tournament.id}`}
                     className="font-medium hover:underline"
                   >
                     {localizedName(lang, tournament).primary}

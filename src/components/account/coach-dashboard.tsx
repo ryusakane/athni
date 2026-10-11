@@ -93,7 +93,7 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
           <ul className="divide-y divide-black/5 text-sm dark:divide-white/10">
             {data.saved.map((row) => (
               <li key={row.player_id} className="py-2">
-                <Link href={`/${lang}/players/${row.player_id}/`} className="font-medium hover:underline">
+                <Link href={`/${lang}/player/?id=${row.player_id}`} className="font-medium hover:underline">
                   {(lang === "en" ? row.players?.name_en : row.players?.name_ja) ?? row.players?.name_ja ?? row.player_id}
                 </Link>
                 {row.players?.graduation_year && (
@@ -141,7 +141,7 @@ export function CoachDashboard({ lang, coachId }: { lang: Locale; coachId: strin
                   {(data.confirmed.get(s.user_id) ?? []).map((playerId) => (
                     <Link
                       key={playerId}
-                      href={`/${lang}/players/${playerId}/`}
+                      href={`/${lang}/player/?id=${playerId}`}
                       className="mt-1 inline-block rounded bg-green-600/10 px-2 py-0.5 text-xs font-medium text-green-800 hover:underline dark:text-green-300"
                     >
                       ✓ {c.resultsConfirmed}

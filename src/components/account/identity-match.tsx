@@ -191,7 +191,7 @@ export function IdentityStep({
           return (
             <li key={m.player_id} className="rounded-md border border-black/10 p-4 dark:border-white/10">
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <Link href={`/${lang}/players/${m.player_id}/`} target="_blank" className="font-semibold underline">
+                <Link href={`/${lang}/player/?id=${m.player_id}`} target="_blank" className="font-semibold underline">
                   {lang === "ja" ? m.name_ja : m.name_en ?? m.name_ja}
                 </Link>
                 <span className="rounded bg-green-500/10 px-2 py-0.5 text-xs text-green-800 dark:text-green-300">

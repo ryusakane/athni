@@ -1,6 +1,7 @@
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import type { Dataset } from "./types";
+import { normalizeNumbers } from "./views";
 
 // The site is a static export, so data is read once at build time:
 // from Supabase when its env vars are set, otherwise from the bundled seed (data/scripts/to_sql.py).
@@ -41,25 +42,7 @@ async function loadFromSupabase(url: string, key: string): Promise<Dataset> {
     tables.map(async (table) => [table, await fetchTable(url, key, table)] as const),
   );
   const data = Object.fromEntries(entries) as Dataset;
-  // numeric columns come back as strings from PostgREST
-  for (const tee of data.course_tees) {
-    tee.course_rating = tee.course_rating == null ? null : Number(tee.course_rating);
-  }
-  for (const result of data.tournament_results) {
-    result.rank_percentile =
-      result.rank_percentile == null ? null : Number(result.rank_percentile);
-  }
-  for (const round of data.rounds) {
-    for (const col of [
-      "score_differential",
-      "temperature_c",
-      "wind_speed_ms",
-      "precipitation_mm",
-    ] as const) {
-      round[col] = round[col] == null ? null : Number(round[col]);
-    }
-  }
-  return data;
+  return normalizeNumbers(data);
 }
 
 async function loadSeed(): Promise<Dataset> {

@@ -1,9 +1,11 @@
-import type { Metadata } from "next";
+"use client";
+
 import Link from "next/link";
-import { notFound } from "next/navigation";
+import { useEffect } from "react";
 import { Stat } from "@/components/golf/stat";
-import { hasLocale } from "@/i18n/config";
+import type { Locale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
+import { loadTournamentRows } from "@/lib/golf/browse";
 import {
   formatDate,
   formatDateRange,
@@ -12,31 +14,34 @@ import {
   formatToPar,
   localizedName,
 } from "@/lib/golf/format";
-import { getTournament, tournamentIds } from "@/lib/golf/queries";
-
-export async function generateStaticParams() {
-  return (await tournamentIds()).map((id) => ({ id }));
-}
-
-export async function generateMetadata({
-  params,
-}: PageProps<"/[lang]/tournaments/[id]">): Promise<Metadata> {
-  const { lang, id } = await params;
-  if (!hasLocale(lang)) return {};
-  const data = await getTournament(id);
-  return data ? { title: localizedName(lang, data.tournament).primary } : {};
-}
+import { getTournament } from "@/lib/golf/views";
+import { BrowseStatus } from "./browse-status";
+import { useBrowse } from "./use-browse";
 
 const th = "py-2 pr-4 font-medium";
 const thNum = `${th} text-right`;
 const td = "py-2 pr-4";
 const tdNum = `${td} text-right tabular-nums`;
 
-export default async function TournamentPage({ params }: PageProps<"/[lang]/tournaments/[id]">) {
-  const { lang, id } = await params;
-  if (!hasLocale(lang)) notFound();
-  const data = await getTournament(id);
-  if (!data) notFound();
+/** /[lang]/tournament/?id=… : loads one tournament's leaderboard in the browser. */
+export function TournamentView({ lang }: { lang: Locale }) {
+  const state = useBrowse(loadTournamentRows, getTournament);
+  const title =
+    state.status === "ready" ? localizedName(lang, state.data.tournament).primary : null;
+  useEffect(() => {
+    if (title) document.title = `${title} | AthNi`;
+  }, [title]);
+  if (state.status !== "ready") return <BrowseStatus lang={lang} status={state.status} />;
+  return <TournamentDetail lang={lang} data={state.data} />;
+}
+
+function TournamentDetail({
+  lang,
+  data,
+}: {
+  lang: Locale;
+  data: NonNullable<ReturnType<typeof getTournament>>;
+}) {
   const dict = getDictionary(lang);
   const { tournament, course, tees, leaderboard, roundNumbers, conditions } = data;
   const name = localizedName(lang, tournament);
@@ -160,7 +165,7 @@ export default async function TournamentPage({ params }: PageProps<"/[lang]/tour
                 <tr key={result.id} className="border-b border-black/5 dark:border-white/5">
                   <td className={`${td} tabular-nums`}>{formatPosition(result)}</td>
                   <td className={td}>
-                    <Link href={`/${lang}/players/${player.id}`} className="font-medium hover:underline">
+                    <Link href={`/${lang}/player/?id=${player.id}`} className="font-medium hover:underline">
                       {localizedName(lang, player).primary}
                     </Link>
                   </td>

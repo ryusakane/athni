@@ -32,8 +32,8 @@
 | ページ | パス | 内容 |
 | --- | --- | --- |
 | トップ | `/[lang]/` | サービスの説明と主な導線 |
-| 選手一覧・詳細 | `/[lang]/players/`, `/players/[id]/` | 公開されている大会結果から作った高校生ゴルファーの成績 |
-| 大会一覧・詳細 | `/[lang]/tournaments/`, `/tournaments/[id]/` | 大会、順位、ラウンドごとのスコア、コース情報、天候 |
+| 選手一覧・詳細 | `/[lang]/players/`, `/player/?id=<選手ID>` | 公開されている大会結果から作った高校生ゴルファーの成績。一覧はビルド時に作る `/[lang]/players/rows.json` をブラウザで読み、100人ずつ表示する |
+| 大会一覧・詳細 | `/[lang]/tournaments/`, `/tournament/?id=<大会ID>` | 大会、順位、ラウンドごとのスコア、コース情報、天候 |
 | 大学一覧・詳細 | `/[lang]/colleges/`, `/colleges/[slug]/` | NCAA D1 のゴルフ部（コーチ、ロースター、OB/OGプロ、ランキングなど）。未収集の項目は「未収集」とだけ表示 |
 | 会社概要・問い合わせ | `/[lang]/about/`, `/contact/` | |
 | 登録・ログイン・マイページ | `/[lang]/signup/`, `/login/`, `/account/` | アカウント機能（5章）。生徒のマイページは入口4つだけのホームと、`/account/roadmap/`（ロードマップと志望校）、`/account/golf/`（ゴルフの情報と大会成績）、`/account/school/`（学業・テストのスコア・書類）、`/account/settings/`（公開設定・保護者・プロフィール・パスワード）。保護者は `?student=<生徒ID>` を付けてお子さまのページを開く |
@@ -51,7 +51,8 @@
 - 同じ選手の名寄せ: 名前が同じで、学校・県・卒業年度のうち2つ以上が一致すれば同一人物として1人にまとめる（学校名は略称・表記ゆれも同じ学校とみなす。同じ大会に両方出ている2人はまとめない）。学校も卒業年度もわからない記録（日本ジュニア・国スポなど）は、食い違いのない同名の選手が1人だけなら仮にまとめる。
 - まとめなかった同姓同名と、仮にまとめた組は `data/player_name_review.csv` に出し、人が判断する。判断は `data/reference/player_merge_decisions.csv` に `same` / `different` で書くと次の生成から反映される。
 - サイトと Supabase に載せる大会は `data/supabase/published_tournaments.txt` に絞っている（静的ファイル数を Cloudflare 無料枠に収めるため）。
-- サイトはビルド時にデータを読む。Supabase の接続情報があれば Supabase から、なければ `src/data/seed.json` から。
+- 一覧ページはビルド時にデータを読む。Supabase の接続情報があれば Supabase から、なければ `src/data/seed.json` から。
+- 選手・大会の詳細ページは1つずつしかなく、`?id=` の行だけをブラウザが Supabase から読む（`src/lib/golf/browse.ts`）。選手が何人増えてもファイル数は増えない。旧URL `/players/<ID>/`・`/tournaments/<ID>/` は `public/_redirects` で新しいURLに転送する。
 
 ### 大学
 
