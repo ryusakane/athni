@@ -537,7 +537,8 @@ def main():
             "organizer": t.get("organizer"), "level": t.get("level"), "gender": gender,
             "event_type": event_type(t),
             "course_key": course["course_key"] if course else None,
-            "start_date": t.get("start_date"), "end_date": t.get("end_date"),
+            # 開始日が公表されていない大会 (団体戦日程の一部など) は最終日で代用
+            "start_date": t.get("start_date") or t.get("end_date"), "end_date": t.get("end_date"),
             "source_url": t.get("source_url"),
             # 以下はスキーマ外の補足列
             "season_year": t.get("season_year"), "region": t.get("region"), "format": t.get("format"),

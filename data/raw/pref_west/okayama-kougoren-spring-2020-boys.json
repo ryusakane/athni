@@ -1,0 +1,139 @@
+{
+ "tournament": {
+  "id": "okayama-kougoren-spring-2020-boys",
+  "name": "令和2年度 第21回 岡山県高等学校ゴルフ選手権 春季大会 高校男子の部",
+  "name_en": null,
+  "organizer": "岡山県高等学校体育連盟ゴルフ専門部",
+  "event_type": "high_school",
+  "season_year": 2020,
+  "start_date": "2021-03-12",
+  "end_date": "2021-03-12",
+  "venue": "山陽ゴルフ倶楽部",
+  "venue_prefecture": "岡山県",
+  "level": "prefectural",
+  "region": "chugoku",
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6691,
+  "round_holes": [
+   18
+  ],
+  "source_url": "http://golf.onamaeweb.jp/index4.html",
+  "result_pdf_urls": [
+   "http://golf.onamaeweb.jp/%E7%AC%AC21%E5%9B%9E%E6%98%A5%E5%AD%A3%E5%A4%A7%E4%BC%9A.pdf"
+  ],
+  "field_size_total": 7
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "米原力斗",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    77
+   ],
+   "total": 77,
+   "to_par": 5,
+   "note": "OUT 40 IN 37"
+  },
+  {
+   "rank": "2",
+   "player_name": "大嶋宝",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    79
+   ],
+   "total": 79,
+   "to_par": 7,
+   "note": "OUT 38 IN 41"
+  },
+  {
+   "rank": "3",
+   "player_name": "窪田隼人",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    80
+   ],
+   "total": 80,
+   "to_par": 8,
+   "note": "OUT 38 IN 42"
+  },
+  {
+   "rank": "4",
+   "player_name": "松浦咲芳",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    86
+   ],
+   "total": 86,
+   "to_par": 14,
+   "note": "OUT 45 IN 41"
+  },
+  {
+   "rank": "5",
+   "player_name": "松尾慈亮",
+   "school": "岡山県作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    96
+   ],
+   "total": 96,
+   "to_par": 24,
+   "note": "OUT 50 IN 46"
+  },
+  {
+   "rank": "6",
+   "player_name": "黒崎敬人",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    152
+   ],
+   "total": 152,
+   "to_par": 80,
+   "note": "OUT 81 IN 71"
+  },
+  {
+   "rank": "7",
+   "player_name": "髙城翔悟",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    174
+   ],
+   "total": 174,
+   "to_par": 102,
+   "note": "OUT 77 IN 97"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 7,
+  "issues": [
+   "Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note",
+   "Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null",
+   "Tied players share the printed rank (T-prefixed)",
+   "Sheet prints furigana above names; kanji names used",
+   "春季大会 held 2021-03-12; season_year = school year in the sheet title"
+  ]
+ }
+}

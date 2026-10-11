@@ -1,0 +1,219 @@
+{
+ "tournament": {
+  "id": "shikoku-kougoren-summer-qualifier-2021-girls-team",
+  "name": "令和３年度 四国高等学校･中学校ゴルフ選手権大会 高校団体の部 兼 第42回全国高等学校･中学校ゴルフ選手権大会高校団体の部四国予選 女子",
+  "organizer": "四国高等学校・中学校ゴルフ連盟",
+  "season_year": 2021,
+  "start_date": "2021-07-22",
+  "end_date": "2021-07-22",
+  "venue": "北条カントリー倶楽部",
+  "venue_prefecture": "愛媛",
+  "level": "regional",
+  "region": "shikoku",
+  "category": "girls",
+  "format": "team",
+  "par": 72,
+  "yardage": 6178,
+  "source_url": "http://www.shsga.jp/kyouginaiyou.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/pdf/2021/R3dantai.pdf"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "team_name": "四学香川西高等学校",
+   "school": "四学香川西高等学校",
+   "school_prefecture": null,
+   "total": 216,
+   "members": [
+    {
+     "player_name": "三瀬舞愛",
+     "grade": 3,
+     "score": 70,
+     "rounds": [
+      70
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "西山星空",
+     "grade": 2,
+     "score": 74,
+     "rounds": [
+      74
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "松浦葵",
+     "grade": 1,
+     "score": 72,
+     "rounds": [
+      72
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "香川倫穂",
+     "grade": 1,
+     "score": 89,
+     "rounds": [
+      89
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 216"
+  },
+  {
+   "rank": "2",
+   "team_name": "生光学園高等学校",
+   "school": "生光学園高等学校",
+   "school_prefecture": null,
+   "total": 224,
+   "members": [
+    {
+     "player_name": "村上美空",
+     "grade": 3,
+     "score": 82,
+     "rounds": [
+      82
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "都玲華",
+     "grade": 3,
+     "score": 71,
+     "rounds": [
+      71
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "島勝ひなた",
+     "grade": 3,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "上野歩未",
+     "grade": 2,
+     "score": 78,
+     "rounds": [
+      78
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 224"
+  },
+  {
+   "rank": "3",
+   "team_name": "明徳義塾高等学校",
+   "school": "明徳義塾高等学校",
+   "school_prefecture": null,
+   "total": 233,
+   "members": [
+    {
+     "player_name": "大内瑞喜",
+     "grade": 3,
+     "score": 73,
+     "rounds": [
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "加藤菜摘",
+     "grade": 2,
+     "score": 80,
+     "rounds": [
+      80
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "藤田藍",
+     "grade": 2,
+     "score": 80,
+     "rounds": [
+      80
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "田口夏鈴",
+     "grade": 1,
+     "score": 84,
+     "rounds": [
+      84
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 233"
+  },
+  {
+   "rank": "4",
+   "team_name": "高知中央高等学校",
+   "school": "高知中央高等学校",
+   "school_prefecture": null,
+   "total": 239,
+   "members": [
+    {
+     "player_name": "安川真琳",
+     "grade": 3,
+     "score": 86,
+     "rounds": [
+      86
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "松井流愛蘭",
+     "grade": 2,
+     "score": 78,
+     "rounds": [
+      78
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "藤川華蓮",
+     "grade": 2,
+     "score": 83,
+     "rounds": [
+      83
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "石原麻羽",
+     "grade": 1,
+     "score": 78,
+     "rounds": [
+      78
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 239"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 4,
+  "issues": [
+   "Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column",
+   "Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －",
+   "Single-day event",
+   "school_prefecture not printed",
+   "Only one round printed for every team (single-day qualifier)"
+  ]
+ }
+}

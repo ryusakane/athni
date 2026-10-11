@@ -1,0 +1,179 @@
+{
+ "tournament": {
+  "id": "okayama-kougoren-spring-2019-girls",
+  "name": "令和元年度 第20回 岡山県高等学校ゴルフ選手権 春季大会 高校女子の部",
+  "name_en": null,
+  "organizer": "岡山県高等学校体育連盟ゴルフ専門部",
+  "event_type": "high_school",
+  "season_year": 2019,
+  "start_date": "2020-02-10",
+  "end_date": "2020-02-10",
+  "venue": "山陽ゴルフ倶楽部",
+  "venue_prefecture": "岡山県",
+  "level": "prefectural",
+  "region": "chugoku",
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6301,
+  "round_holes": [
+   18
+  ],
+  "source_url": "http://golf.onamaeweb.jp/index4.html",
+  "result_pdf_urls": [
+   "http://golf.onamaeweb.jp/2019okayamashunki.pdf"
+  ],
+  "field_size_total": 10
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "益田世梨",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    73
+   ],
+   "total": 73,
+   "to_par": 1,
+   "note": "OUT 38 IN 35"
+  },
+  {
+   "rank": "2",
+   "player_name": "桑木志帆",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    76
+   ],
+   "total": 76,
+   "to_par": 4,
+   "note": "OUT 40 IN 36"
+  },
+  {
+   "rank": "3",
+   "player_name": "佐々木史奈",
+   "school": "岡山県作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    77
+   ],
+   "total": 77,
+   "to_par": 5,
+   "note": "OUT 37 IN 40"
+  },
+  {
+   "rank": "4",
+   "player_name": "尾関彩美悠",
+   "school": "岡山県作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    79
+   ],
+   "total": 79,
+   "to_par": 7,
+   "note": "OUT 42 IN 37"
+  },
+  {
+   "rank": "5",
+   "player_name": "中村優海",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    84
+   ],
+   "total": 84,
+   "to_par": 12,
+   "note": "OUT 38 IN 46"
+  },
+  {
+   "rank": "6",
+   "player_name": "大宮佳子",
+   "school": "岡山理大附",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    86
+   ],
+   "total": 86,
+   "to_par": 14,
+   "note": "OUT 42 IN 44"
+  },
+  {
+   "rank": "7",
+   "player_name": "片岡由香",
+   "school": "岡山県作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    87
+   ],
+   "total": 87,
+   "to_par": 15,
+   "note": "OUT 43 IN 44"
+  },
+  {
+   "rank": "8",
+   "player_name": "上田梨紗子",
+   "school": "岡山県作陽",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    91
+   ],
+   "total": 91,
+   "to_par": 19,
+   "note": "OUT 45 IN 46"
+  },
+  {
+   "rank": "9",
+   "player_name": "久﨑成",
+   "school": "岡山県作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    98
+   ],
+   "total": 98,
+   "to_par": 26,
+   "note": "OUT 45 IN 53"
+  },
+  {
+   "rank": "DNS",
+   "player_name": "山下海音",
+   "school": "滋慶",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": null
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 9,
+  "issues": [
+   "Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note",
+   "Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null",
+   "Tied players share the printed rank (T-prefixed)",
+   "Sheet prints furigana above names; kanji names used",
+   "春季大会 held 2020-02-10; season_year = school year in the sheet title"
+  ]
+ }
+}

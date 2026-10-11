@@ -45,8 +45,12 @@ async function byIds<T>(table: keyof Dataset, column: string, ids: Iterable<stri
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
 let seed: Promise<Dataset> | undefined;
+// The env check is written out in full so the build inlines it and drops the seed chunk
+// from builds that use Supabase.
 const loadSeed = () =>
-  (seed ??= import("@/data/seed.json").then((m) => m.default as unknown as Dataset));
+  (seed ??= process.env.NEXT_PUBLIC_SUPABASE_URL
+    ? Promise.resolve(empty())
+    : import("@/data/seed.json").then((m) => m.default as unknown as Dataset));
 
 /** Fills in the schools, tournaments, courses, rounds and tees around the given results. */
 async function around(data: Dataset): Promise<Dataset> {

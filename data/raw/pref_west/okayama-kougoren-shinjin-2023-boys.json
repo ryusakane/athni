@@ -1,0 +1,194 @@
+{
+ "tournament": {
+  "id": "okayama-kougoren-shinjin-2023-boys",
+  "name": "令和5年度 第11回 岡山県高等学校ゴルフ選手権 新人戦 高校男子の部",
+  "name_en": null,
+  "organizer": "岡山県高等学校体育連盟ゴルフ専門部",
+  "event_type": "high_school",
+  "season_year": 2023,
+  "start_date": "2023-09-09",
+  "end_date": "2023-09-09",
+  "venue": "山陽ゴルフ倶楽部",
+  "venue_prefecture": "岡山県",
+  "level": "prefectural",
+  "region": "chugoku",
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6691,
+  "round_holes": [
+   18
+  ],
+  "source_url": "http://golf.onamaeweb.jp/index4.html",
+  "result_pdf_urls": [
+   "http://golf.onamaeweb.jp/%E7%AC%AC24%E5%9B%9E%E6%96%B0%E4%BA%BA%E6%88%A6%E9%A0%86%E4%BD%8D%E8%A1%A8.pdf"
+  ],
+  "field_size_total": 11
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "久常優樹",
+   "school": "作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    68
+   ],
+   "total": 68,
+   "to_par": -4,
+   "note": "OUT 37 IN 31"
+  },
+  {
+   "rank": "2",
+   "player_name": "梶谷駿",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    70
+   ],
+   "total": 70,
+   "to_par": -2,
+   "note": "OUT 35 IN 35"
+  },
+  {
+   "rank": "3",
+   "player_name": "川口充志",
+   "school": "作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    74
+   ],
+   "total": 74,
+   "to_par": 2,
+   "note": "OUT 38 IN 36"
+  },
+  {
+   "rank": "4",
+   "player_name": "北條陽雲",
+   "school": "作陽",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    76
+   ],
+   "total": 76,
+   "to_par": 4,
+   "note": "OUT 41 IN 35"
+  },
+  {
+   "rank": "5",
+   "player_name": "河本蘭",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    76
+   ],
+   "total": 76,
+   "to_par": 4,
+   "note": "OUT 39 IN 37"
+  },
+  {
+   "rank": "6",
+   "player_name": "野上時暖",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    76
+   ],
+   "total": 76,
+   "to_par": 4,
+   "note": "OUT 38 IN 38"
+  },
+  {
+   "rank": "7",
+   "player_name": "伊藤天智",
+   "school": "作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    76
+   ],
+   "total": 76,
+   "to_par": 4,
+   "note": "OUT 36 IN 40"
+  },
+  {
+   "rank": "8",
+   "player_name": "池田侑羅",
+   "school": "作陽",
+   "school_prefecture": null,
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    84
+   ],
+   "total": 84,
+   "to_par": 12,
+   "note": "OUT 41 IN 43"
+  },
+  {
+   "rank": "9",
+   "player_name": "香川倫輝",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    85
+   ],
+   "total": 85,
+   "to_par": 13,
+   "note": "OUT 44 IN 41"
+  },
+  {
+   "rank": "10",
+   "player_name": "平井優成",
+   "school": "関西",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    89
+   ],
+   "total": 89,
+   "to_par": 17,
+   "note": "OUT 48 IN 41"
+  },
+  {
+   "rank": "11",
+   "player_name": "宮内大遥",
+   "school": "作陽",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    93
+   ],
+   "total": 93,
+   "to_par": 21,
+   "note": "OUT 46 IN 47"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 11,
+  "issues": [
+   "Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note",
+   "Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null",
+   "Tied players share the printed rank (T-prefixed)",
+   "Sheet title reads 第11回 新人戦; the federation index lists it as 第24回 新人戦 (2023-09-09)"
+  ]
+ }
+}

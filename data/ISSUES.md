@@ -1,5 +1,55 @@
 # 要確認事項 (build.py が自動生成)
 
+- `jga-japan-amateur-2016-boys`: コース情報未登録: 北海道ブルックスカントリークラブ
+- `jga-japan-amateur-2016-boys`: source page title: 2016年度(第101回)日本アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-amateur-2016-boys`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-amateur-2016-boys`: 107 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-amateur-2016-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-amateur-2016-boys`: school_prefecture not published
+- `jga-japan-amateur-2016-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-amateur-2016-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2016/03-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2016/03-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2016/03-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2016/03-0/pairing1.html
+- `jga-japan-amateur-2017-boys`: コース情報未登録: 広島カンツリー倶楽部 八本松コース
+- `jga-japan-amateur-2017-boys`: source page title: 2017年度(第102回)日本アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-amateur-2017-boys`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-amateur-2017-boys`: 106 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-amateur-2017-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-amateur-2017-boys`: school_prefecture not published
+- `jga-japan-amateur-2017-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-amateur-2017-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2017/03-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2017/03-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2017/03-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2017/03-0/pairing1.html
+- `jga-japan-amateur-2019-boys`: コース情報未登録: 伊勢カントリークラブ
+- `jga-japan-amateur-2019-boys`: source page title: 2019年度(第104回)日本アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-amateur-2019-boys`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-amateur-2019-boys`: 128 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-amateur-2019-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-amateur-2019-boys`: school_prefecture not published
+- `jga-japan-amateur-2019-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-amateur-2019-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2019/03-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2019/03-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2019/03-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2019/03-0/pairing1.html
+- `jga-japan-amateur-2021-boys`: コース情報未登録: 大利根カントリークラブ 西コース
+- `jga-japan-amateur-2021-boys`: source page title: 2021年度(第105回)日本アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-amateur-2021-boys`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-amateur-2021-boys`: 117 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-amateur-2021-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-amateur-2021-boys`: school_prefecture not published
+- `jga-japan-amateur-2021-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-amateur-2021-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2021/03-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2021/03-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2021/03-0/pairing1.html
+- `jga-japan-amateur-2021-boys`: Round 4 suspended at 11:10 and cancelled (rain); championship decided over 54 holes (JGA news on top.html); round-4 column on fullreaderboard4.html is empty, results from fullreaderboard3.html
+- `jga-japan-amateur-2022-boys`: コース情報未登録: 広島カンツリー倶楽部 八本松コース
+- `jga-japan-amateur-2022-boys`: source page title: 2022年度(第106回)日本アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-amateur-2022-boys`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-amateur-2022-boys`: 107 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-amateur-2022-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-amateur-2022-boys`: school_prefecture not published
+- `jga-japan-amateur-2022-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-amateur-2022-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2022/03-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2022/03-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2022/03-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2022/03-0/pairing1.html
+- `jga-japan-amateur-2023-boys`: コース情報未登録: ツキサップゴルフクラブ
+- `jga-japan-amateur-2023-boys`: source page title: 2023年度(第107回)日本アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-amateur-2023-boys`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-amateur-2023-boys`: 120 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-amateur-2023-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-amateur-2023-boys`: school_prefecture not published
+- `jga-japan-amateur-2023-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-amateur-2023-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2023/03-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2023/03-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2023/03-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2023/03-0/pairing1.html
+- `jga-japan-amateur-2023-boys`: 卒業年度が一致しない: 丸尾 怜央 (日章学園高等学校) 2025 vs 2024
 - `jga-japan-amateur-2024-boys`: コース情報未登録: 廣野ゴルフ倶楽部
 - `jga-japan-amateur-2024-boys`: source page title: Golf Genius :: 第108回 日本アマチュアゴルフ選手権競技
 - `jga-japan-amateur-2024-boys`: only 3 rounds (54 holes) shown in Golf Genius results; check whether a round was cancelled
@@ -13,6 +63,54 @@
 - `jga-japan-amateur-2026-boys`: source page title: Golf Genius :: 第110回 日本アマチュアゴルフ選手権競技 Presented by カープレミア
 - `jga-japan-amateur-2026-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
 - `jga-japan-amateur-2026-boys`: school_prefecture not published
+- `jga-japan-open-2016-boys`: コース情報未登録: 狭山ゴルフ・クラブ
+- `jga-japan-open-2016-boys`: source page title: 2016年度(第81回)日本オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-open-2016-boys`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-open-2016-boys`: 11 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-open-2016-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-open-2016-boys`: school_prefecture not published
+- `jga-japan-open-2016-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-open-2016-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2016/08-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2016/08-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2016/08-0/fullreaderboard3.html
+- `jga-japan-open-2018-boys`: コース情報未登録: 横浜カントリークラブ
+- `jga-japan-open-2018-boys`: source page title: 2018年度(第83回)日本オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-open-2018-boys`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-open-2018-boys`: 10 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-open-2018-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-open-2018-boys`: school_prefecture not published
+- `jga-japan-open-2018-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-open-2018-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2018/08-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2018/08-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2018/08-0/fullreaderboard3.html
+- `jga-japan-open-2019-boys`: コース情報未登録: 古賀ゴルフ・クラブ
+- `jga-japan-open-2019-boys`: source page title: 2019年度(第84回)日本オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-open-2019-boys`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-open-2019-boys`: 10 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-open-2019-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-open-2019-boys`: school_prefecture not published
+- `jga-japan-open-2019-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-open-2019-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2019/08-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2019/08-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2019/08-0/fullreaderboard3.html
+- `jga-japan-open-2021-boys`: コース情報未登録: 琵琶湖カントリー倶楽部
+- `jga-japan-open-2021-boys`: source page title: 2021年度(第86回)日本オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-open-2021-boys`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-open-2021-boys`: 14 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-open-2021-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-open-2021-boys`: school_prefecture not published
+- `jga-japan-open-2021-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-open-2021-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2021/08-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2021/08-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2021/08-0/fullreaderboard3.html
+- `jga-japan-open-2022-boys`: コース情報未登録: 三甲ゴルフ倶楽部ジャパンコース
+- `jga-japan-open-2022-boys`: source page title: 2022年度(第87回)日本オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-open-2022-boys`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-open-2022-boys`: 8 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-open-2022-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-open-2022-boys`: school_prefecture not published
+- `jga-japan-open-2022-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-open-2022-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2022/08-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2022/08-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2022/08-0/fullreaderboard3.html
+- `jga-japan-open-2023-boys`: コース情報未登録: 茨木カンツリー倶楽部 西コース
+- `jga-japan-open-2023-boys`: source page title: 2023年度(第88回)日本オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-open-2023-boys`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-open-2023-boys`: 9 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-open-2023-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-open-2023-boys`: school_prefecture not published
+- `jga-japan-open-2023-boys`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-open-2023-boys`: extra source pages: https://www.jga.or.jp/jga/jsp/2023/08-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2023/08-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2023/08-0/fullreaderboard3.html
 - `jga-japan-open-2024-boys`: コース情報未登録: 東京ゴルフ倶楽部
 - `jga-japan-open-2024-boys`: source page title: Golf Genius :: 第89回 日本オープンゴルフ選手権競技
 - `jga-japan-open-2024-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
@@ -22,6 +120,62 @@
 - `jga-japan-open-2025-boys`: 8 amateur(s) could not be matched to a same-season school record and were excluded (affiliation not published in this result)
 - `jga-japan-open-2025-boys`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
 - `jga-japan-open-2025-boys`: school_prefecture not published
+- `jga-japan-womens-amateur-2016-girls`: コース情報未登録: グランディ那須白河ゴルフクラブ EAST・SOUTHコース
+- `jga-japan-womens-amateur-2016-girls`: source page title: 2016年度(第58回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2016-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2016-girls`: 76 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2016-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2016-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2016-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2016-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2016/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2016/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2016/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2016/02-0/pairing1.html
+- `jga-japan-womens-amateur-2017-girls`: コース情報未登録: 奈良国際ゴルフ倶楽部
+- `jga-japan-womens-amateur-2017-girls`: source page title: 2017年度(第59回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2017-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2017-girls`: 78 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2017-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2017-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2017-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2017-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2017/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2017/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2017/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2017/02-0/pairing1.html
+- `jga-japan-womens-amateur-2018-girls`: コース情報未登録: 嵐山カントリークラブ
+- `jga-japan-womens-amateur-2018-girls`: source page title: 2018年度(第60回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2018-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2018-girls`: 76 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2018-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2018-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2018-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2018-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2018/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2018/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2018/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2018/02-0/pairing1.html
+- `jga-japan-womens-amateur-2019-girls`: コース情報未登録: エリエールゴルフクラブ松山
+- `jga-japan-womens-amateur-2019-girls`: source page title: 2019年度(第61回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2019-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2019-girls`: 91 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2019-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2019-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2019-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2019-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2019/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2019/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2019/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2019/02-0/pairing1.html
+- `jga-japan-womens-amateur-2021-girls`: コース情報未登録: 大山ゴルフクラブ
+- `jga-japan-womens-amateur-2021-girls`: source page title: 2021年度(第62回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2021-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2021-girls`: 81 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2021-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2021-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2021-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2021-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2021/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2021/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2021/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2021/02-0/pairing1.html
+- `jga-japan-womens-amateur-2022-girls`: コース情報未登録: 岐阜関カントリー倶楽部 東コース
+- `jga-japan-womens-amateur-2022-girls`: source page title: 2022年度(第63回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2022-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2022-girls`: 94 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2022-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2022-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2022-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2022-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2022/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2022/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2022/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2022/02-0/pairing1.html
+- `jga-japan-womens-amateur-2023-girls`: コース情報未登録: 秋田カントリー倶楽部
+- `jga-japan-womens-amateur-2023-girls`: source page title: 2023年度(第64回)日本女子アマチュアゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-amateur-2023-girls`: leaderboards publish no affiliation; school taken from round-1 pairing sheet (pairing1.html, 所属) when it names a high school, otherwise from a same-school-year record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-amateur-2023-girls`: 96 player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-amateur-2023-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-amateur-2023-girls`: school_prefecture not published
+- `jga-japan-womens-amateur-2023-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-amateur-2023-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2023/02-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2023/02-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2023/02-0/fullreaderboard3.html, https://www.jga.or.jp/jga/jsp/2023/02-0/pairing1.html
 - `jga-japan-womens-amateur-2024-girls`: コース情報未登録: 我孫子ゴルフ倶楽部
 - `jga-japan-womens-amateur-2024-girls`: source page title: Golf Genius :: 第65回 日本女子アマチュアゴルフ選手権競技
 - `jga-japan-womens-amateur-2024-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
@@ -34,6 +188,62 @@
 - `jga-japan-womens-amateur-2026-girls`: source page title: Golf Genius :: 第67回 日本女子アマチュアゴルフ選手権競技 Presented by カープレミア
 - `jga-japan-womens-amateur-2026-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
 - `jga-japan-womens-amateur-2026-girls`: school_prefecture not published
+- `jga-japan-womens-open-2016-girls`: コース情報未登録: 烏山城カントリークラブ 二の丸・三の丸コース
+- `jga-japan-womens-open-2016-girls`: source page title: 2016年度(第49回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2016-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2016-girls`: 12 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2016-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2016-girls`: school_prefecture not published
+- `jga-japan-womens-open-2016-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2016-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2016/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2016/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2016/07-0/fullreaderboard3.html
+- `jga-japan-womens-open-2017-girls`: コース情報未登録: 我孫子ゴルフ倶楽部
+- `jga-japan-womens-open-2017-girls`: source page title: 2017年度(第50回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2017-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2017-girls`: 11 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2017-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2017-girls`: school_prefecture not published
+- `jga-japan-womens-open-2017-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2017-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2017/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2017/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2017/07-0/fullreaderboard3.html
+- `jga-japan-womens-open-2018-girls`: コース情報未登録: 千葉カントリークラブ 野田コース
+- `jga-japan-womens-open-2018-girls`: source page title: 2018年度(第51回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2018-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2018-girls`: 7 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2018-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2018-girls`: school_prefecture not published
+- `jga-japan-womens-open-2018-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2018-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2018/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2018/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2018/07-0/fullreaderboard3.html
+- `jga-japan-womens-open-2019-girls`: コース情報未登録: COCOPA RESORT CLUB 白山ヴィレッジゴルフコース Queenコース
+- `jga-japan-womens-open-2019-girls`: source page title: 2019年度(第52回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2019-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2019-girls`: 10 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2019-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2019-girls`: school_prefecture not published
+- `jga-japan-womens-open-2019-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2019-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2019/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2019/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2019/07-0/fullreaderboard3.html
+- `jga-japan-womens-open-2021-girls`: コース情報未登録: 烏山城カントリークラブ
+- `jga-japan-womens-open-2021-girls`: source page title: 2021年度(第54回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2021-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2021-girls`: 15 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2021-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2021-girls`: school_prefecture not published
+- `jga-japan-womens-open-2021-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2021-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2021/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2021/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2021/07-0/fullreaderboard3.html
+- `jga-japan-womens-open-2022-girls`: コース情報未登録: 紫カントリークラブ すみれコース
+- `jga-japan-womens-open-2022-girls`: source page title: 2022年度(第55回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2022-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2022-girls`: 19 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2022-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2022-girls`: school_prefecture not published
+- `jga-japan-womens-open-2022-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2022-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2022/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2022/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2022/07-0/fullreaderboard3.html
+- `jga-japan-womens-open-2023-girls`: コース情報未登録: 芦原ゴルフクラブ 海コース
+- `jga-japan-womens-open-2023-girls`: source page title: 2023年度(第56回)日本女子オープンゴルフ選手権競技 (jga.or.jp championship archive, fullreaderboard pages)
+- `jga-japan-womens-open-2023-girls`: leaderboards and pairing sheets publish no affiliation (pairing shows romaji names only); amateurs (@) included only where a same-school-year high-school record elsewhere in data/raw matched by exact name (see note)
+- `jga-japan-womens-open-2023-girls`: 15 amateur player(s) whose pairing affiliation is not a high school and who have no same-season high-school record were excluded (some may still be high-school students registered via a club)
+- `jga-japan-womens-open-2023-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred) matched by exact name
+- `jga-japan-womens-open-2023-girls`: school_prefecture not published
+- `jga-japan-womens-open-2023-girls`: ranks are positions in the whole field; ties expanded to T-ranks from printed positions; cut = missed 36-hole cut
+- `jga-japan-womens-open-2023-girls`: extra source pages: https://www.jga.or.jp/jga/jsp/2023/07-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2023/07-0/fullreaderboard2.html, https://www.jga.or.jp/jga/jsp/2023/07-0/fullreaderboard3.html
 - `jga-japan-womens-open-2024-girls`: コース情報未登録: 大利根カントリークラブ 西コース
 - `jga-japan-womens-open-2024-girls`: source page title: Golf Genius :: 第57回 日本女子オープンゴルフ選手権競技
 - `jga-japan-womens-open-2024-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
@@ -48,11 +258,77 @@
 - `jga-japan-womens-open-2026-girls`: 15 amateur(s) could not be matched to a same-season school record and were excluded (affiliation not published in this result)
 - `jga-japan-womens-open-2026-girls`: grade not published in this result; filled only where a same-school-year record elsewhere in data/raw (JGA junior preferred, else 高ゴ連/prefectural files) matched by exact name (see note)
 - `jga-japan-womens-open-2026-girls`: school_prefecture not published
+- `jga-junior-2016-boys-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2016-boys-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2016-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2016/04-0/fullreaderboard1.html
+- `jga-junior-2016-boys-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2016/04-0/summary1.html
+- `jga-junior-2016-boys-15-17`: Round 2 suspended by lightning and resumed 8/19; championship reduced to 36 holes (round 3 not played) per JGA news on top.html
+- `jga-junior-2016-boys-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2016-girls-15-17`: コース情報未登録: 東京ゴルフ倶楽部
+- `jga-junior-2016-girls-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2016-girls-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2016-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2016/04-2/fullreaderboard1.html
+- `jga-junior-2016-girls-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2016/04-2/summary1.html
+- `jga-junior-2016-girls-15-17`: Round 3 cancelled due to rain (course condition); championship reduced to 36 holes per JGA news on top.html; no cut
+- `jga-junior-2016-girls-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2017-boys-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2017-boys-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2017-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2017/04-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2017/04-0/fullreaderboard2.html
+- `jga-junior-2017-boys-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2017/04-0/summary1.html
+- `jga-junior-2017-boys-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2017-girls-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2017-girls-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2017-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2017/04-2/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2017/04-2/fullreaderboard2.html
+- `jga-junior-2017-girls-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2017/04-2/summary1.html
+- `jga-junior-2017-girls-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2018-boys-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2018-boys-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2018-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2018/04-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2018/04-0/fullreaderboard2.html
+- `jga-junior-2018-boys-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2018/04-0/summary1.html
+- `jga-junior-2018-boys-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2018-girls-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2018-girls-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2018-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2018/04-2/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2018/04-2/fullreaderboard2.html
+- `jga-junior-2018-girls-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2018/04-2/summary1.html
+- `jga-junior-2018-girls-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2019-boys-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2019-boys-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2019-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2019/04-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2019/04-0/fullreaderboard2.html
+- `jga-junior-2019-boys-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2019/04-0/summary1.html
+- `jga-junior-2019-boys-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2019-girls-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2019-girls-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2019-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2019/04-2/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2019/04-2/fullreaderboard2.html
+- `jga-junior-2019-girls-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2019/04-2/summary1.html
+- `jga-junior-2019-girls-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2021-boys-15-17`: コース情報未登録: 日高カントリークラブ 東・西コース
+- `jga-junior-2021-boys-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2021-boys-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2021-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2021/04-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2021/04-0/fullreaderboard2.html
+- `jga-junior-2021-boys-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2021/04-0/summary1.html
+- `jga-junior-2021-boys-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2021-girls-15-17`: コース情報未登録: 東京ゴルフ倶楽部
+- `jga-junior-2021-girls-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2021-girls-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2021-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2021/04-2/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2021/04-2/fullreaderboard2.html
+- `jga-junior-2021-girls-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2021/04-2/summary1.html
+- `jga-junior-2021-girls-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2022-boys-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2022-boys-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2022-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2022/04-0/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2022/04-0/fullreaderboard2.html
+- `jga-junior-2022-boys-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2022/04-0/summary1.html
+- `jga-junior-2022-boys-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
+- `jga-junior-2022-girls-15-17`: Final page prints rank only for first of tied group (★ = seed marker dropped); ties expanded to T-ranks from printed positions; to_par as printed
+- `jga-junior-2022-girls-15-17`: Missed-cut rows from fullreaderboard2.html; WD = in an earlier round board but not in the next
+- `jga-junior-2022-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2022/04-2/fullreaderboard1.html, https://www.jga.or.jp/jga/jsp/2022/04-2/fullreaderboard2.html
+- `jga-junior-2022-girls-15-17`: yardage = round-1 total from https://www.jga.or.jp/jga/jsp/2022/04-2/summary1.html
+- `jga-junior-2022-girls-15-17`: Parsed programmatically from the HTML tables (python); totals checked against printed totals
 - `jga-junior-2023-boys-15-17`: Final page prints rank only for first of tied group (and ★ markers); ranks recomputed from totals by standard competition ranking; to_par computed from par.
 - `jga-junior-2023-boys-15-17`: 3-way playoff at 208: winner 武田 紘汰 ranked 1, others recorded T2 (official placement of playoff losers not verified)
 - `jga-junior-2023-boys-15-17`: Missed-cut rows (R1-R2) taken from fullreaderboard2.html; cut players' names in 2023 girls appear without the space between family/given name as transcribed
 - `jga-junior-2023-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2023/04-0/fullreaderboard2.html
 - `jga-junior-2023-boys-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `jga-junior-2023-boys-15-17`: 卒業年度が一致しない: 丸尾 怜央 (日章学園高等学校) 2025 vs 2024
 - `jga-junior-2023-girls-15-17`: Final page prints rank only for first of tied group (and ★ markers); ranks recomputed from totals by standard competition ranking; to_par computed from par.
 - `jga-junior-2023-girls-15-17`: Missed-cut rows (R1-R2) taken from fullreaderboard2.html; cut players' names in 2023 girls appear without the space between family/given name as transcribed
 - `jga-junior-2023-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/jga/jsp/2023/04-2/fullreaderboard2.html
@@ -61,7 +337,6 @@
 - `jga-junior-2024-boys-15-17`: Round 3 cancelled (Typhoon No.7); championship reduced to 36 holes, scheduled end date 2024-08-16
 - `jga-junior-2024-boys-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=10800593803317136009
 - `jga-junior-2024-boys-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
-- `jga-junior-2024-boys-15-17`: 卒業年度が一致しない: 丸尾 怜央 (日章学園高) 2024 vs 2025
 - `jga-junior-2024-girls-15-17`: Round 3 cancelled (Typhoon No.7); championship reduced to 36 holes, scheduled end date 2024-08-16
 - `jga-junior-2024-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=10800623379133024906
 - `jga-junior-2024-girls-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
@@ -72,12 +347,81 @@
 - `jga-junior-2025-girls-15-17`: R1 and R2 published as 9-hole scores (format changed to 9+9+18 = 36 holes as a heat-stroke countermeasure per press reports); to_par as published
 - `jga-junior-2025-girls-15-17`: school_prefecture not published by JGA; extra source pages: https://www.jga.or.jp/championship/?evid=11856836161530022575
 - `jga-junior-2025-girls-15-17`: Transcribed via WebFetch summarization model in chunks; spot-checked row counts and sums only
+- `kougoren-special-2020-boys-team`: コース情報未登録: COCOPA RESORT CLUB白山ヴィレッジゴルフコース KINGコース
+- `kougoren-special-2020-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-special-2020-boys-team`: 2020年度 夏の全国高等学校ゴルフ選手権大会 (個人・団体) は新型コロナウイルス感染拡大のため中止。代わりに12月に団体のみの「全国高等学校ゴルフ選手権 特別大会」を開催 (https://nihon-kougoren.jp/2020extra/). This file is that special team event; there was no individual event.
+- `kougoren-special-2020-girls-team`: コース情報未登録: COCOPA RESORT CLUB白山ヴィレッジゴルフコース QUEENコース
+- `kougoren-special-2020-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-special-2020-girls-team`: 2020年度 夏の全国高等学校ゴルフ選手権大会 (個人・団体) は新型コロナウイルス感染拡大のため中止。代わりに12月に団体のみの「全国高等学校ゴルフ選手権 特別大会」を開催 (https://nihon-kougoren.jp/2020extra/). This file is that special team event; there was no individual event.
+- `kougoren-special-2020-girls-team`: 広島国際学院: one member's name is blank in both result PDFs (glyph not embedded; row shows ③ 168 = 91 77). Name 栁 星空 (③) taken from the official 第1日 pairing sheet https://nihon-kougoren.jp/kougoren/wp-content/uploads/2020/09/dantai_kumi_1st_women.pdf (the only 広島国際学院 player not otherwise listed). Team days check: 254 = 83+80+91, 245 = 81+87+77.
+- `kougoren-spring-2016-boys-individual`: コース情報未登録: 富士スタジアムゴルフ倶楽部 南コース
+- `kougoren-spring-2016-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2016-boys-individual`: season_year = 年度 2016; this 春季大会 was played in March 2017 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2016-boys-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2016-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2016-boys-individual`: Boys final PDF header is dated 2017年3月29日 but the schedule (and girls final PDF) gives 3月30日 as the final day; 2017-03-30 used.
+- `kougoren-spring-2016-girls-individual`: コース情報未登録: 富士スタジアムゴルフ倶楽部 北コース
+- `kougoren-spring-2016-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2016-girls-individual`: season_year = 年度 2016; this 春季大会 was played in March 2017 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2016-girls-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 142.
+- `kougoren-spring-2016-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2016-girls-individual`: Boys final PDF header is dated 2017年3月29日 but the schedule (and girls final PDF) gives 3月30日 as the final day; 2017-03-30 used.
+- `kougoren-spring-2016-girls-individual`: 卒業年度が一致しない: 薮田 梨花 (大阪桐蔭) 2019 vs 2018
+- `kougoren-spring-2017-boys-individual`: コース情報未登録: 富士スタジアムゴルフ倶楽部 南コース
+- `kougoren-spring-2017-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2017-boys-individual`: season_year = 年度 2017; this 春季大会 was played in March 2018 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2017-boys-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2017-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2017-boys-individual`: PDF has no yardage/par line; par 72 inferred from the printed to-par column.
+- `kougoren-spring-2017-girls-individual`: コース情報未登録: 富士スタジアムゴルフ倶楽部 北コース
+- `kougoren-spring-2017-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2017-girls-individual`: season_year = 年度 2017; this 春季大会 was played in March 2018 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2017-girls-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 142.
+- `kougoren-spring-2017-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2017-girls-individual`: PDF has no yardage/par line; par 71 inferred from the printed to-par column.
+- `kougoren-spring-2017-girls-individual`: The 第1日目 girls PDF has no extractable names (text layer only has scores); R1 taken from the 2日目 PDF.
+- `kougoren-spring-2018-boys-individual`: コース情報未登録: 富士スタジアムゴルフ倶楽部 南コース
+- `kougoren-spring-2018-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2018-boys-individual`: season_year = 年度 2018; this 春季大会 was played in March 2019 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2018-boys-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2018-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2018-boys-individual`: Final PDFs are dated 2019年3月28日 (same as the 2日目 PDFs); the event page schedule gives 3月29日 as the final day; 2019-03-29 used.
+- `kougoren-spring-2018-girls-individual`: コース情報未登録: 富士スタジアムゴルフ倶楽部 北コース
+- `kougoren-spring-2018-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2018-girls-individual`: season_year = 年度 2018; this 春季大会 was played in March 2019 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2018-girls-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 142.
+- `kougoren-spring-2018-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2018-girls-individual`: Final PDFs are dated 2019年3月28日 (same as the 2日目 PDFs); the event page schedule gives 3月29日 as the final day; 2019-03-29 used.
+- `kougoren-spring-2020-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2020-boys-individual`: season_year = 年度 2020; this 春季大会 was played in March 2021 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2020-boys-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2020-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2020-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2020-girls-individual`: season_year = 年度 2020; this 春季大会 was played in March 2021 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2020-girls-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2020-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2021-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2021-boys-individual`: season_year = 年度 2021; this 春季大会 was played in March 2022 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2021-boys-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2021-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2021-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2021-girls-individual`: season_year = 年度 2021; this 春季大会 was played in March 2022 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2021-girls-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2021-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2022-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2022-boys-individual`: season_year = 年度 2022; this 春季大会 was played in March 2023 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2022-boys-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2022-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
+- `kougoren-spring-2022-girls-individual`: コース情報未登録: 三木よかわカントリークラブ
+- `kougoren-spring-2022-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-spring-2022-girls-individual`: season_year = 年度 2022; this 春季大会 was played in March 2023 (dates from the event page schedule / PDFs).
+- `kougoren-spring-2022-girls-individual`: Players below the 36-hole cut (= 以上が最終日に進出 =) have rank 'cut'; their published 36-hole position (from the 2日目 PDF) is in note. to_par for cut rows is vs par 144.
+- `kougoren-spring-2022-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS; rounds actually played are kept in rounds (total null).
 - `kougoren-spring-2023-boys-individual`: season_year = 年度 2023; this 春季大会 was played in March 2024 (dates from final PDF / event page).
 - `kougoren-spring-2023-boys-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
 - `kougoren-spring-2023-boys-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
 - `kougoren-spring-2023-boys-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
 - `kougoren-spring-2023-boys-individual`: Event page states 'March 18-22, 2023' but the PDFs are dated 2024-03-22; PDF date used.
-- `kougoren-spring-2023-boys-individual`: 卒業年度が一致しない: 丸尾怜央 (日章学園) 2024 vs 2025
 - `kougoren-spring-2023-girls-individual`: season_year = 年度 2023; this 春季大会 was played in March 2024 (dates from final PDF / event page).
 - `kougoren-spring-2023-girls-individual`: start_date taken from the event page schedule (competition days); end_date from the final PDF.
 - `kougoren-spring-2023-girls-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
@@ -101,12 +445,73 @@
 - `kougoren-spring-2025-girls-individual`: Players below the 36-hole cut (= 以上が予選通過者 =) have rank 'cut'; their published position is in note. to_par for cut rows is vs par 144.
 - `kougoren-spring-2025-girls-individual`: Status words: 棄権→WD, 失格→DQ, 欠場→DNS.
 - `kougoren-spring-2025-girls-individual`: 1st/2nd tied at 219; winner decided by playoff (優勝はプレーオフにより決定).
+- `kougoren-summer-2016-boys-individual`: コース情報未登録: 宇部７２カントリークラブ 阿知須コース
+- `kougoren-summer-2016-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2016-boys-individual`: 高橋宝将 (日本ウェルネス) appears only in the 第1日 PDF as 棄権; added.
+- `kougoren-summer-2016-boys-individual`: Invited Hawaii (USA) high-school players appear in the field with school "Hawaii" and prefecture "USA"; recorded with school_prefecture null.
+- `kougoren-summer-2016-boys-team`: コース情報未登録: 宇部７２カントリークラブ 阿知須コース
+- `kougoren-summer-2016-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2016-girls-individual`: コース情報未登録: 宇部７２カントリークラブ 万年池東コース
+- `kougoren-summer-2016-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2016-girls-individual`: Invited Hawaii (USA) high-school players appear in the field with school "Hawaii" and prefecture "USA"; recorded with school_prefecture null.
+- `kougoren-summer-2016-girls-individual`: 卒業年度が一致しない: 薮田梨花 (大阪桐蔭) 2019 vs 2018
+- `kougoren-summer-2016-girls-team`: コース情報未登録: 宇部７２カントリークラブ 万年池東コース
+- `kougoren-summer-2016-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2016-girls-team`: 卒業年度が一致しない: 薮田梨花 (大阪桐蔭) 2019 vs 2018
+- `kougoren-summer-2017-boys-individual`: コース情報未登録: 宇部７２カントリークラブ 阿知須コース
+- `kougoren-summer-2017-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2017-boys-individual`: Invited Hawaii (USA) high-school players appear in the field with school "Hawaii" and prefecture "USA"; recorded with school_prefecture null.
+- `kougoren-summer-2017-boys-team`: コース情報未登録: 宇部７２カントリークラブ 阿知須コース
+- `kougoren-summer-2017-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2017-boys-team`: 埼玉栄 第1日: 植木 祥多 76 and 宮城 慎太郎 76 are both marked ※ in the PDF, but team day-1 225 = 74+75+76, so one of the two 76s counted (tie for the dropped score).
+- `kougoren-summer-2017-boys-team`: 卒業年度が一致しない: 中村 聡泰 (大阪桐蔭) 2019 vs 2018
+- `kougoren-summer-2017-boys-team`: 卒業年度が一致しない: 溝口 丞 (大阪桐蔭) 2019 vs 2018
+- `kougoren-summer-2017-girls-individual`: コース情報未登録: 宇部７２カントリークラブ 万年池東コース
+- `kougoren-summer-2017-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2017-girls-individual`: Invited Hawaii (USA) high-school players appear in the field with school "Hawaii" and prefecture "USA"; recorded with school_prefecture null.
+- `kougoren-summer-2017-girls-individual`: 卒業年度が一致しない: 薮田 梨花 (大阪桐蔭) 2019 vs 2018
+- `kougoren-summer-2017-girls-team`: コース情報未登録: 宇部７２カントリークラブ 万年池東コース
+- `kougoren-summer-2017-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2017-girls-team`: 卒業年度が一致しない: 薮田 梨花 (大阪桐蔭) 2019 vs 2018
+- `kougoren-summer-2018-boys-individual`: コース情報未登録: セントラルゴルフクラブ 東コース
+- `kougoren-summer-2018-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2018-boys-individual`: Only one 18-hole round was published (PDF dated 2018-08-11; schedule was 8/10-8/11). The team PDFs state the championship was shortened to one day because of an approaching typhoon; the individual PDF itself gives no reason. start_date unknown.
+- `kougoren-summer-2018-boys-team`: コース情報未登録: セントラルゴルフクラブ 東コース
+- `kougoren-summer-2018-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2018-boys-team`: 台風接近のため団体の部は1日競技として実施 (PDF注記「※大会は台風接近のため、１日競技として実施」); member score = the single round. Final ranking from the 結果 PDF (ties broken per 大会規定).
+- `kougoren-summer-2018-girls-individual`: コース情報未登録: セントラルゴルフクラブ 西コース
+- `kougoren-summer-2018-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2018-girls-individual`: Only one 18-hole round was published (PDF dated 2018-08-11; schedule was 8/10-8/11). The team PDFs state the championship was shortened to one day because of an approaching typhoon; the individual PDF itself gives no reason. start_date unknown.
+- `kougoren-summer-2018-girls-individual`: 1位・2位 both 66; 優勝はプレーオフにより決定 (PDF note). Printed ranks 1 and 2 kept.
+- `kougoren-summer-2018-girls-team`: コース情報未登録: セントラルゴルフクラブ 西コース
+- `kougoren-summer-2018-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2018-girls-team`: 台風接近のため団体の部は1日競技として実施 (PDF注記「※大会は台風接近のため、１日競技として実施」); member score = the single round. Final ranking from the 結果 PDF (ties broken per 大会規定).
+- `kougoren-summer-2019-boys-individual`: コース情報未登録: セントラルゴルフクラブ 東コース
+- `kougoren-summer-2019-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2019-boys-team`: コース情報未登録: セントラルゴルフクラブ 東コース
+- `kougoren-summer-2019-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2019-girls-individual`: コース情報未登録: セントラルゴルフクラブ 西コース
+- `kougoren-summer-2019-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2019-girls-individual`: 4 players tied at 135; 優勝はプレーオフにて決定 (山下 美夢有). The PDF prints ranks 1/2/1/1 for the four; recorded as 1 (山下) and T2 for the other three (printed rank in note).
+- `kougoren-summer-2019-girls-team`: コース情報未登録: セントラルゴルフクラブ 西コース
+- `kougoren-summer-2019-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2021-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2021-boys-individual`: Rows printed with rank '-' and no scores are recorded as DNS (did not start).
+- `kougoren-summer-2021-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2021-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2021-girls-individual`: Rows printed with rank '-' and no scores are recorded as DNS (did not start).
+- `kougoren-summer-2021-girls-individual`: 卒業年度が一致しない: 栗原 幸 (広島県瀬戸内) 2023 vs 2022
+- `kougoren-summer-2021-girls-individual`: 卒業年度が一致しない: 水谷 百伽 (旭川藤星) 2023 vs 2024
+- `kougoren-summer-2021-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2022-boys-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2022-boys-individual`: Yardage not printed on the individual PDFs; 6853 taken from the team PDFs (same course).
+- `kougoren-summer-2022-boys-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2022-girls-individual`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
+- `kougoren-summer-2022-girls-team`: サイトのフッターに「個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記あり (明示的な利用規約ページなし)。
 - `kougoren-summer-2023-boys-individual`: 2日目は荒天のため中止 (round 2 cancelled for weather); result is 18 holes only.
 - `kougoren-summer-2023-boys-individual`: Exact name prefix (文部科学大臣杯争奪) not confirmed for 2023; start_date not stated.
-- `kougoren-summer-2023-boys-individual`: 卒業年度が一致しない: 丸尾 怜央 (日章学園) 2024 vs 2025
 - `kougoren-summer-2023-boys-team`: 大阪学院大学 棄権 (all 5 players 棄権), recorded rank 'WD'.
 - `kougoren-summer-2023-boys-team`: Most outstanding player per PDF: 渋井 晃太郎 (ルネサンス, 1年) 136 strokes.
-- `kougoren-summer-2023-boys-team`: 卒業年度が一致しない: 丸尾 怜央 (日章学園) 2024 vs 2025
 - `kougoren-summer-2023-girls-individual`: 2日目は荒天のため中止 (round 2 cancelled for weather); result is 18 holes only.
 - `kougoren-summer-2023-girls-individual`: 1位・2位は競技規定により決定 (both 63; order by competition rules).
 - `kougoren-summer-2023-girls-individual`: start_date not stated.
@@ -116,12 +521,10 @@
 - `kougoren-summer-2024-boys-individual`: start_date not stated in the final PDF (final round 2024-08-09; round 1 presumably 2024-08-08).
 - `kougoren-summer-2024-boys-individual`: 1st/2nd tied at 134; winner decided by playoff (優勝はプレーオフにて決定).
 - `kougoren-summer-2024-boys-individual`: No WD/DQ rows were found in the transcription; 139 finishers.
-- `kougoren-summer-2024-boys-individual`: 卒業年度が一致しない: 丸尾 怜央 (日章学園) 2024 vs 2025
 - `kougoren-summer-2024-boys-team`: Both team rounds appear to have been played over 9 holes (IN only on 第1日; per-player day scores ~31-50, team totals ~205). No explicit shortening note was found in the PDFs.
 - `kougoren-summer-2024-boys-team`: 千葉黎明 中嶋太我: final PDF transcription showed no scores; 第1日 PDF shows 40※ on day 1 — added from 第1日 PDF.
 - `kougoren-summer-2024-boys-team`: 代々木 滝田詠夢: transcription put 37 in 第1日 but team sums require it to be 最終日 (day1 104 = 33+36+35; final 111 = 37+37+37); moved to 最終日.
 - `kougoren-summer-2024-boys-team`: Most outstanding player per PDF: 東 到矢 (東大阪大柏原, 3年) 63 strokes.
-- `kougoren-summer-2024-boys-team`: 卒業年度が一致しない: 丸尾怜央 (日章学園) 2024 vs 2025
 - `kougoren-summer-2024-girls-individual`: start_date not stated in the final PDF (final round 2024-08-09).
 - `kougoren-summer-2024-girls-individual`: Three players tied at 134; 1st decided by playoff, the other two shown as rank 2 (T2).
 - `kougoren-summer-2024-girls-individual`: WD/DNS rows: round scores (if any) for 棄権 player not transcribed.
@@ -188,10 +591,29 @@
 - `aomori-ga-amateur-2026-boys`: field_size_total = 参加者数 65 from the R1 sheet
 - `aomori-ga-amateur-2026-boys`: Sheet ranks equal totals sequentially (1 斎藤 優空 / 2 大澤 琉稀, 148); kept as published (countback/playoff)
 - `aomori-ga-amateur-2026-boys`: Sheet ranks equal totals sequentially (3 大西 康仁 / 4 峯田 竜空, 156); kept as published (countback/playoff)
+- `aomori-ga-junior-2023-boys`: コース情報未登録: びわの平ゴルフ倶楽部
+- `aomori-ga-junior-2023-boys`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-ga-junior-2023-boys`: Sheet title misprinted as 青森県ジュアニゴルフ選手権
+- `aomori-ga-junior-2023-girls`: コース情報未登録: びわの平ゴルフ倶楽部
+- `aomori-ga-junior-2023-girls`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-ga-junior-2023-girls`: Sheet title misprinted as 青森県ジュアニゴルフ選手権
+- `aomori-ga-junior-2024-boys`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-ga-junior-2024-girls`: 使用ティー不明: touou-cc 6404y
+- `aomori-ga-junior-2024-girls`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-ga-junior-2024-girls`: Name printed 南田 佳凜 here and 南田 佳凛 on the 2023 sheet; kept as printed
 - `aomori-ga-junior-2025-girls`: 使用ティー不明: touou-cc 6144y
 - `aomori-ga-junior-2026-boys`: Sheet header says 参加者数 5 but lists 4 players (no 欠場/棄権 row shown)
 - `aomori-ga-junior-2026-girls`: 使用ティー不明: touou-cc 6259y
 - `aomori-ga-junior-2026-girls`: Sheet ranks equal totals sequentially (4 北岡 優菜 / 5 守山 真央, 80); kept as published (countback/playoff)
+- `aomori-ga-kokusupo-selection-2023-girls`: コース情報未登録: 青森カントリー倶楽部
+- `aomori-ga-kokusupo-selection-2023-girls`: Open selection event: only players whose affiliation is a high school are included; ranks are positions in the whole field (no ties printed; 3rd decided by playoff)
+- `aomori-ga-kokusupo-selection-2023-girls`: Affiliation printed as <school><grade>; grade parsed from it
+- `aomori-ga-kokusupo-selection-2023-girls`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-ga-kokusupo-selection-2023-girls`: Junior-high player 小山 萌々香 (堀口中3, rank 1) excluded
+- `aomori-ga-kokusupo-selection-2024-girls`: コース情報未登録: 青森カントリー倶楽部
+- `aomori-ga-kokusupo-selection-2024-girls`: Open selection event: only players whose affiliation is a high school are included; ranks are positions in the whole field (published without ties, e.g. 1 and 2 both 158)
+- `aomori-ga-kokusupo-selection-2024-girls`: Affiliation printed as 光星高校 without grade
+- `aomori-ga-kokusupo-selection-2024-girls`: to_par computed assuming par 72 (par not printed on sheet)
 - `aomori-ga-kokusupo-selection-2025-girls`: コース情報未登録: 青森カントリー倶楽部
 - `aomori-ga-kokusupo-selection-2026-girls`: コース情報未登録: 青森カントリー倶楽部
 - `aomori-ga-kokusupo-selection-2026-girls`: R1 sheet shows 6,311Y; R2 sheet shows 6,288Y
@@ -210,6 +632,24 @@
 - `aomori-ga-womens-amateur-2025-girls`: Sheet ranks equal totals sequentially (4 島川 桃子 / 5 今 淑江, 160); kept as published (countback/playoff)
 - `aomori-ga-womens-amateur-2026-girls`: コース情報未登録: 青森カントリー倶楽部
 - `aomori-ga-womens-amateur-2026-girls`: field_size_total counted from the final-round sheet rows (finishers + 棄権); no 参加者数 printed
+- `aomori-hsgf-shinjin-2023-boys`: コース情報未登録: 青森カントリー倶楽部
+- `aomori-hsgf-shinjin-2023-boys`: Listed on the TGA Aomori topics page together with 第23回県秋季ジュニア; the HS section of the PDF is titled 青森県高等学校新人ゴルフ選手権大会
+- `aomori-hsgf-shinjin-2023-boys`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-shinjin-2023-boys`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-hsgf-shinjin-2023-boys`: Sheet header 参加者数 19 but lists 16 finishers + 1 棄権; field_size_total = 17 listed
+- `aomori-hsgf-shinjin-2023-girls`: コース情報未登録: 青森カントリー倶楽部
+- `aomori-hsgf-shinjin-2023-girls`: Listed on the TGA Aomori topics page together with 第23回県秋季ジュニア; the HS section of the PDF is titled 青森県高等学校新人ゴルフ選手権大会
+- `aomori-hsgf-shinjin-2023-girls`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-shinjin-2023-girls`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-hsgf-shinjin-2024-boys`: コース情報未登録: 青森カントリー倶楽部
+- `aomori-hsgf-shinjin-2024-boys`: Listed on the TGA Aomori topics page as 秋季ジュニア大会 成績表; the HS section of the PDF is titled 青森県高等学校新人ゴルフ選手権大会
+- `aomori-hsgf-shinjin-2024-boys`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-shinjin-2024-boys`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-hsgf-shinjin-2024-boys`: Sheet header 参加者数 12 but lists 11 players (the 12th is the 3rd-year 小山内 祐太, shown in the 秋季ジュニア section of the same sheet, not stored)
+- `aomori-hsgf-shinjin-2024-girls`: コース情報未登録: 青森カントリー倶楽部
+- `aomori-hsgf-shinjin-2024-girls`: Listed on the TGA Aomori topics page as 秋季ジュニア大会 成績表; the HS section of the PDF is titled 青森県高等学校新人ゴルフ選手権大会
+- `aomori-hsgf-shinjin-2024-girls`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-shinjin-2024-girls`: to_par computed assuming par 72 (par not printed on sheet)
 - `aomori-hsgf-shinjin-2025-boys`: Listed on the TGA Aomori topics page as 秋季ジュニア大会成績; the PDF title is 青森県高等学校新人ゴルフ選手権大会
 - `aomori-hsgf-shinjin-2025-girls`: 使用ティー不明: touou-cc 6144y
 - `aomori-hsgf-shinjin-2025-girls`: Listed on the TGA Aomori topics page as 秋季ジュニア大会成績; the PDF title is 青森県高等学校新人ゴルフ選手権大会
@@ -219,6 +659,25 @@
 - `aomori-hsgf-shinjin-2026-boys`: Listed on the TGA Aomori topics page as 秋季ジュニア大会成績; the PDF title is 青森県高等学校新人ゴルフ選手権大会
 - `aomori-hsgf-shinjin-2026-girls`: コース情報未登録: 青森カントリー倶楽部
 - `aomori-hsgf-shinjin-2026-girls`: Listed on the TGA Aomori topics page as 秋季ジュニア大会成績; the PDF title is 青森県高等学校新人ゴルフ選手権大会
+- `aomori-hsgf-spring-2023-boys`: コース情報未登録: 十和田国際カントリークラブ
+- `aomori-hsgf-spring-2023-boys`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-spring-2023-boys`: Only the final (2nd round) sheet is posted (topics_detail.php?q=372, labelled 春季ジュニア2日目成績表); it carries both rounds
+- `aomori-hsgf-spring-2023-boys`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-hsgf-spring-2023-boys`: start date 2023-04-27 taken from the pairing-sheet notice (topics_detail.php?q=367: 組表27日（中学・高校）)
+- `aomori-hsgf-spring-2023-girls`: コース情報未登録: 十和田国際カントリークラブ
+- `aomori-hsgf-spring-2023-girls`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-spring-2023-girls`: Only the final (2nd round) sheet is posted (topics_detail.php?q=372, labelled 春季ジュニア2日目成績表); it carries both rounds
+- `aomori-hsgf-spring-2023-girls`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-hsgf-spring-2023-girls`: start date 2023-04-27 taken from the pairing-sheet notice (topics_detail.php?q=367)
+- `aomori-hsgf-spring-2024-boys`: コース情報未登録: みちのく国際ゴルフ倶楽部
+- `aomori-hsgf-spring-2024-boys`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-spring-2024-boys`: Sheet header 参加者数 23 = 22 finishers + 1 欠場 (from R1 sheet)
+- `aomori-hsgf-spring-2024-boys`: to_par computed assuming par 72 (par not printed on sheet)
+- `aomori-hsgf-spring-2024-boys`: Team (団体の部) column on the sheet not stored
+- `aomori-hsgf-spring-2024-girls`: コース情報未登録: みちのく国際ゴルフ倶楽部
+- `aomori-hsgf-spring-2024-girls`: Ranks are published without ties (countback), kept as published
+- `aomori-hsgf-spring-2024-girls`: Sheet header 参加者数 8 = 7 finishers + 1 欠場 (from R1 sheet)
+- `aomori-hsgf-spring-2024-girls`: to_par computed assuming par 72 (par not printed on sheet)
 - `aomori-hsgf-spring-2025-boys`: コース情報未登録: 夏泊ゴルフリンクス
 - `aomori-hsgf-spring-2025-boys`: Final sheet is a scanned image; transcribed manually. The R1 sheet link on the topics page returns 404, so R1 values could not be cross-checked
 - `aomori-hsgf-spring-2025-boys`: Header says 参加者数 11 but only 10 players are listed (no 欠場/棄権 row shown)
@@ -288,6 +747,12 @@
 - `ishikawa-ga-junior-2026-girls`: Result PDF is a scanned image (no text layer); values transcribed by reading the page images. Verify against the PDF before publishing.
 - `ishikawa-ga-junior-2026-girls`: Tee: あすなろ / ゴールド. Par 72 per the 2025 distance table for the same course (2026 distance table not checked).
 - `miyagi-ga-amateur-2025-boys`: コース情報未登録: 利府ゴルフ倶楽部
+- `miyagi-ga-junior-2023-boys`: コース情報未登録: 泉国際ゴルフ倶楽部
+- `miyagi-ga-junior-2023-boys`: Printed equal ranks converted to T-prefix
+- `miyagi-ga-junior-2023-boys`: Posted as a topics_detail attachment (topics_detail.php?q=376)
+- `miyagi-ga-junior-2023-girls`: コース情報未登録: 泉国際ゴルフ倶楽部
+- `miyagi-ga-junior-2023-girls`: Printed equal ranks converted to T-prefix
+- `miyagi-ga-junior-2023-girls`: Posted as a topics_detail attachment (topics_detail.php?q=376)
 - `miyagi-ga-junior-2025-boys`: コース情報未登録: 仙台カントリー倶楽部
 - `miyagi-ga-junior-2025-boys`: Sheet ranks equal totals sequentially (1 譚 傑升 / 2 黒田 倫太郎, 75); kept as published (countback/playoff)
 - `miyagi-ga-junior-2025-girls`: コース情報未登録: 仙台カントリー倶楽部
@@ -383,6 +848,34 @@
 - `tochigi-ga-kanto-junior-qualifier-2026-girls`: コース情報未登録: 杉ノ郷カントリークラブ
 - `tochigi-ga-kanto-junior-qualifier-2026-girls`: Result PDF is a scanned image; values transcribed manually
 - `tochigi-ga-kanto-junior-qualifier-2026-girls`: Sheet: エントリー 13名 / 出場 11名
+- `ehime-ga-hs-championship-2019-boys`: コース情報未登録: 新居浜カントリー倶楽部
+- `ehime-ga-hs-championship-2019-boys`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2019-boys`: Par 72 derived from the published +/- column
+- `ehime-ga-hs-championship-2019-boys`: 欠場 rows recorded as DNS (sheet prints placeholder 500 in OUT/IN)
+- `ehime-ga-hs-championship-2019-boys`: Middle-school division omitted
+- `ehime-ga-hs-championship-2019-girls`: コース情報未登録: 新居浜カントリー倶楽部
+- `ehime-ga-hs-championship-2019-girls`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2019-girls`: Par 72 derived from the published +/- column
+- `ehime-ga-hs-championship-2019-girls`: 欠場 rows recorded as DNS (sheet prints placeholder 500 in OUT/IN)
+- `ehime-ga-hs-championship-2019-girls`: Middle-school division omitted
+- `ehime-ga-hs-championship-2022-boys`: コース情報未登録: サンセットヒルズカントリークラブ
+- `ehime-ga-hs-championship-2022-boys`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2022-boys`: Result PDF is a scanned image (no text layer); transcribed manually from the rendered page - spot-check names
+- `ehime-ga-hs-championship-2022-boys`: Held with the 国体少年男子 selection (same round); middle-school division omitted
+- `ehime-ga-hs-championship-2022-boys`: Girls yardage printed as "61260yard" (typo); yardage left null for girls
+- `ehime-ga-hs-championship-2022-girls`: コース情報未登録: サンセットヒルズカントリークラブ
+- `ehime-ga-hs-championship-2022-girls`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2022-girls`: Result PDF is a scanned image (no text layer); transcribed manually from the rendered page - spot-check names
+- `ehime-ga-hs-championship-2022-girls`: Held with the 国体少年男子 selection (same round); middle-school division omitted
+- `ehime-ga-hs-championship-2022-girls`: Girls yardage printed as "61260yard" (typo); yardage left null for girls
+- `ehime-ga-hs-championship-2023-boys`: コース情報未登録: 滝の宮カントリークラブ
+- `ehime-ga-hs-championship-2023-boys`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2023-boys`: Result PDF is a scanned image (no text layer); transcribed manually from the rendered page - spot-check names
+- `ehime-ga-hs-championship-2023-boys`: Middle-school division omitted
+- `ehime-ga-hs-championship-2023-girls`: コース情報未登録: 滝の宮カントリークラブ
+- `ehime-ga-hs-championship-2023-girls`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2023-girls`: Result PDF is a scanned image (no text layer); transcribed manually from the rendered page - spot-check names
+- `ehime-ga-hs-championship-2023-girls`: Middle-school division omitted
 - `ehime-ga-hs-championship-2024-boys`: コース情報未登録: 新居浜カントリー倶楽部
 - `ehime-ga-hs-championship-2024-boys`: Result PDF is a scanned image (no text layer); transcribed manually from the rendered page - spot-check names
 - `ehime-ga-hs-championship-2024-boys`: Par 72 derived from the published +/- column
@@ -415,11 +908,39 @@
 - `ehime-ga-hs-championship-2026-girls`: School names as printed (e.g. 松山聖陵高等高校 typo kept as published)
 - `ehime-ga-hs-championship-2026-girls`: 優勝 shown as rank 1
 - `ehime-ga-hs-championship-2026-girls`: Same round doubled as 国スポ少年男子選考 第1ラウンド (boys); that separate listing not transcribed
+- `hiroshima-kougoren-championship-2016-boys`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `hiroshima-kougoren-championship-2016-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-championship-2016-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-championship-2016-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-championship-2016-girls`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `hiroshima-kougoren-championship-2016-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-championship-2016-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-championship-2016-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-championship-2017-boys`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `hiroshima-kougoren-championship-2017-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-championship-2017-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-championship-2017-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-championship-2017-girls`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `hiroshima-kougoren-championship-2017-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-championship-2017-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-championship-2017-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-championship-2023-boys`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `hiroshima-kougoren-championship-2023-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-championship-2023-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-championship-2023-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-championship-2023-boys`: Result sheet shows a single 18-hole round (１R) although the event was scheduled over 6/1-6/3 (incl. practice day); recorded as 1 round
+- `hiroshima-kougoren-championship-2023-girls`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `hiroshima-kougoren-championship-2023-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-championship-2023-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-championship-2023-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-championship-2023-girls`: Result sheet shows a single 18-hole round (１R) although the event was scheduled over 6/1-6/3 (incl. practice day); recorded as 1 round
 - `hiroshima-kougoren-championship-2024-boys`: コース情報未登録: 広島カンツリー倶楽部 西条コース
 - `hiroshima-kougoren-championship-2024-boys`: 森笠来唯: published 欠場 after round 1 ([87]); recorded as WD
 - `hiroshima-kougoren-championship-2024-boys`: Published ranks are sequential (ties broken by countback), kept as published
 - `hiroshima-kougoren-championship-2024-boys`: Names published with/without family-given spacing inconsistently; spaces removed
 - `hiroshima-kougoren-championship-2024-boys`: Rounds 6/7-6/8 per result PDF header (event listed 6/6-6/8)
+- `hiroshima-kougoren-championship-2024-boys`: 卒業年度が一致しない: 阿波村修仁 (瀬戸内) 2025 vs 2026
+- `hiroshima-kougoren-championship-2024-boys`: 卒業年度が一致しない: 髙久幸穏 (瀬戸内) 2025 vs 2026
 - `hiroshima-kougoren-championship-2024-girls`: コース情報未登録: 広島カンツリー倶楽部 西条コース
 - `hiroshima-kougoren-championship-2024-girls`: Published ranks are sequential (ties broken by countback), kept as published
 - `hiroshima-kougoren-championship-2024-girls`: Names published with/without family-given spacing inconsistently; spaces removed
@@ -439,6 +960,47 @@
 - `hiroshima-kougoren-championship-2026-girls`: コース情報未登録: 広島カンツリー倶楽部 西条コース
 - `hiroshima-kougoren-championship-2026-girls`: Published ranks are sequential (ties broken by countback), kept as published
 - `hiroshima-kougoren-championship-2026-girls`: Names published with/without family-given spacing inconsistently; spaces removed
+- `hiroshima-kougoren-shinjin-2016-boys`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2016-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2016-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2016-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2016-girls`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2016-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2016-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2016-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2017-boys`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2017-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2017-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2017-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2017-girls`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2017-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2017-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2017-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2020-boys`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2020-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2020-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2020-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2020-girls`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2020-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2020-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2020-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2020-girls`: 卒業年度が一致しない: 栗原幸 (瀬戸内) 2023 vs 2022
+- `hiroshima-kougoren-shinjin-2021-boys`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2021-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2021-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2021-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2021-girls`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2021-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2021-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2021-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2023-boys`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2023-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2023-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2023-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-shinjin-2023-girls`: コース情報未登録: 郷原カントリークラブ
+- `hiroshima-kougoren-shinjin-2023-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-shinjin-2023-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-shinjin-2023-girls`: Hole-by-hole scores printed but not transcribed
 - `hiroshima-kougoren-shinjin-2025-boys`: コース情報未登録: 郷原カントリークラブ
 - `hiroshima-kougoren-shinjin-2025-boys`: Published ranks are sequential (ties broken by countback), kept as published
 - `hiroshima-kougoren-shinjin-2025-boys`: Names published with/without family-given spacing inconsistently; spaces removed
@@ -448,6 +1010,66 @@
 - `hiroshima-kougoren-shinjin-2025-girls`: Published ranks are sequential (ties broken by countback), kept as published
 - `hiroshima-kougoren-shinjin-2025-girls`: Names published with/without family-given spacing inconsistently; spaces removed
 - `hiroshima-kougoren-shinjin-2025-girls`: Single 18-hole round on 2025-12-24 (12/23 practice); 1st/2nd-year players only (新人戦)
+- `hiroshima-kougoren-summer-2016-boys`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2016-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2016-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2016-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2016-girls`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2016-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2016-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2016-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2017-boys`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2017-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2017-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2017-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2017-girls`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2017-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2017-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2017-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2020-boys`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2020-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2020-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2020-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2020-boys`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2020-boys`: 卒業年度が一致しない: 松島拓海 (国際学院) 2023 vs 2022
+- `hiroshima-kougoren-summer-2020-girls`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2020-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2020-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2020-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2020-girls`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2020-girls`: 卒業年度が一致しない: 栗原幸 (瀬戸内) 2023 vs 2022
+- `hiroshima-kougoren-summer-2021-boys`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2021-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2021-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2021-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2021-boys`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2021-girls`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2021-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2021-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2021-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2021-girls`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2021-girls`: 卒業年度が一致しない: 栗原幸 (瀬戸内) 2023 vs 2022
+- `hiroshima-kougoren-summer-2022-boys`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2022-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2022-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2022-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2022-boys`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2022-girls`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2022-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2022-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2022-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2022-girls`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2023-boys`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2023-boys`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2023-boys`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2023-boys`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2023-boys`: Final-day PDF (最終成績) used; it carries both round scores
+- `hiroshima-kougoren-summer-2023-boys`: 卒業年度が一致しない: 堀江悠太 (広陵) 2024 vs 2026
+- `hiroshima-kougoren-summer-2023-girls`: コース情報未登録: 広島東映カントリークラブ
+- `hiroshima-kougoren-summer-2023-girls`: Names printed with family/given spacing; spaces removed (as in existing hiroshima files)
+- `hiroshima-kougoren-summer-2023-girls`: School names printed letter-spaced; joined
+- `hiroshima-kougoren-summer-2023-girls`: Hole-by-hole scores printed but not transcribed
+- `hiroshima-kougoren-summer-2023-girls`: Final-day PDF (最終成績) used; it carries both round scores
 - `hiroshima-kougoren-summer-2025-boys`: コース情報未登録: 広島みずほカントリークラブ
 - `hiroshima-kougoren-summer-2025-boys`: Published ranks are sequential (ties broken by countback), kept as published
 - `hiroshima-kougoren-summer-2025-boys`: Names published with/without family-given spacing inconsistently; spaces removed
@@ -472,6 +1094,70 @@
 - `kagawa-kougoren-kokusupo-boys-selection-2026-boys`: Par for 坂出CC not on the sheet; to_par null
 - `kagawa-kougoren-kokusupo-boys-selection-2026-boys`: Field: players advancing from the 1次選考会 (all high-school students)
 - `kagawa-kougoren-kokusupo-boys-selection-2026-boys`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2019-boys`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2019-boys`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2019-boys`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2019-boys`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2019-boys`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2019-boys`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2019-girls`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2019-girls`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2019-girls`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2019-girls`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2019-girls`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2019-girls`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2020-boys`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2020-boys`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2020-boys`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2020-boys`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2020-boys`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2020-boys`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2020-boys`: 2020: 県総体 cancelled; 香川県高等学校ゴルフ大会 (県総体代替大会) held instead; team division not held
+- `kagawa-kougoren-sotai-2020-girls`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2020-girls`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2020-girls`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2020-girls`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2020-girls`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2020-girls`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2020-girls`: 2020: 県総体 cancelled; 香川県高等学校ゴルフ大会 (県総体代替大会) held instead; team division not held
+- `kagawa-kougoren-sotai-2021-boys`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2021-boys`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2021-boys`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2021-boys`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2021-boys`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2021-boys`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2021-girls`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2021-girls`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2021-girls`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2021-girls`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2021-girls`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2021-girls`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2022-boys`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2022-boys`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2022-boys`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2022-boys`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2022-boys`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2022-boys`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2022-girls`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2022-girls`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2022-girls`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2022-girls`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2022-girls`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2022-girls`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2022-girls`: 卒業年度が一致しない: 香川倫穂 (四学香川西) 2024 vs 2023
+- `kagawa-kougoren-sotai-2023-boys`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2023-boys`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2023-boys`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2023-boys`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2023-boys`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2023-boys`: 欠席 rows recorded as DNS
+- `kagawa-kougoren-sotai-2023-boys`: 卒業年度が一致しない: 口中凌也 (英明) 2025 vs 2026
+- `kagawa-kougoren-sotai-2023-girls`: コース情報未登録: 満濃ヒルズカントリークラブ
+- `kagawa-kougoren-sotai-2023-girls`: Equal printed ranks marked T; 優勝 = 1
+- `kagawa-kougoren-sotai-2023-girls`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高 etc.)
+- `kagawa-kougoren-sotai-2023-girls`: Names: whitespace removed
+- `kagawa-kougoren-sotai-2023-girls`: Par 72 assumed for 満濃ヒルズCC as in later yardage sheets (not printed on this sheet)
+- `kagawa-kougoren-sotai-2023-girls`: 欠席 rows recorded as DNS
 - `kagawa-kougoren-sotai-2024-boys`: コース情報未登録: 満濃ヒルズカントリークラブ
 - `kagawa-kougoren-sotai-2024-boys`: Equal printed ranks marked T; 優勝 = 1
 - `kagawa-kougoren-sotai-2024-boys`: School names abbreviated as printed (四学香川西 = 四国学院大学香川西高, 高松中央 = 高松中央高)
@@ -672,6 +1358,96 @@
 - `oita-ga-hs-sotai-2026-girls`: Grade not published
 - `oita-ga-hs-sotai-2026-girls`: Par not published (to_par null)
 - `oita-ga-hs-sotai-2026-girls`: Ties at equal gross ranked by published countback order; 優勝/準優 shown as 1/2
+- `okayama-kougoren-autumn-2019-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2019-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2019-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2019-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2019-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-autumn-2019-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2019-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2019-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2019-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2019-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-autumn-2020-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2020-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2020-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2020-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2020-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-autumn-2020-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2020-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2020-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2020-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2020-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-autumn-2021-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2021-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2021-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2021-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2021-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2021-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2021-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2021-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2022-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2022-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2022-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2022-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-autumn-2022-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-autumn-2022-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-autumn-2022-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-autumn-2022-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2019-boys`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2019-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2019-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2019-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2019-girls`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2019-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2019-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2019-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2020-boys`: 使用ティー不明: sunhills-east 6860y
+- `okayama-kougoren-shinjin-2020-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2020-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2020-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2020-boys`: Venue not printed on the sheet (yardage 6860)
+- `okayama-kougoren-shinjin-2020-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-shinjin-2020-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2020-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2020-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2020-girls`: Venue not printed on the sheet (yardage 6412)
+- `okayama-kougoren-shinjin-2020-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-shinjin-2021-boys`: 使用ティー不明: sunhills-east 6860y
+- `okayama-kougoren-shinjin-2021-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2021-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2021-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2021-boys`: Venue not printed on the sheet (yardage 6860)
+- `okayama-kougoren-shinjin-2021-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2021-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2021-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2021-girls`: Venue not printed on the sheet (yardage 6386)
+- `okayama-kougoren-shinjin-2022-boys`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2022-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2022-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2022-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2022-girls`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2022-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2022-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2022-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2023-boys`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2023-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2023-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2023-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2023-boys`: Sheet title reads 第11回 新人戦; the federation index lists it as 第24回 新人戦 (2023-09-09)
+- `okayama-kougoren-shinjin-2023-girls`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2023-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2023-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2023-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2023-girls`: Sheet title reads 第11回 新人戦; the federation index lists it as 第24回 新人戦 (2023-09-09)
+- `okayama-kougoren-shinjin-2024-boys`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2024-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2024-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2024-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-shinjin-2024-girls`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-shinjin-2024-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-shinjin-2024-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-shinjin-2024-girls`: Tied players share the printed rank (T-prefixed)
 - `okayama-kougoren-shinjin-2025-boys`: コース情報未登録: 山陽ゴルフ倶楽部
 - `okayama-kougoren-shinjin-2025-boys`: Published ranks are sequential (ties broken by countback), kept as published
 - `okayama-kougoren-shinjin-2025-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed (関西=関西高, 作陽学園, 岡山県美作, 岡山理大附 etc.); school_prefecture left null (one entry 萩明倫館 looks like a Yamaguchi school)
@@ -692,6 +1468,68 @@
 - `okayama-kougoren-shinjin-2026-girls`: Published ranks are sequential (ties broken by countback), kept as published
 - `okayama-kougoren-shinjin-2026-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed (関西=関西高, 作陽学園, 岡山県美作, 岡山理大附 etc.); school_prefecture left null (one entry 萩明倫館 looks like a Yamaguchi school)
 - `okayama-kougoren-shinjin-2026-girls`: GROSS agrees with OUT+IN and the hole-by-hole scores; the printed +/- column disagrees for the rows listed, so to_par is computed from GROSS-par
+- `okayama-kougoren-sotai-2019-boys`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2019-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2019-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2019-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2019-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-sotai-2019-girls`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2019-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2019-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2019-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2019-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-sotai-2020-boys`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2020-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2020-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2020-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2020-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-sotai-2020-boys`: 2020 県総体 replaced by 代替大会 (substitute event)
+- `okayama-kougoren-sotai-2020-girls`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2020-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2020-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2020-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2020-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-sotai-2020-girls`: 2020 県総体 replaced by 代替大会 (substitute event)
+- `okayama-kougoren-sotai-2021-boys`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2021-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2021-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2021-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2021-girls`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2021-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2021-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2021-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2022-boys`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2022-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2022-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2022-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2022-girls`: コース情報未登録: 岡山カントリークラブ
+- `okayama-kougoren-sotai-2022-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2022-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2022-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2023-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-sotai-2023-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2023-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2023-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2023-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-sotai-2023-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2023-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2023-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2024-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-sotai-2024-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2024-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2024-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2024-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-sotai-2024-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2024-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2024-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2025-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-sotai-2025-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2025-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2025-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-sotai-2025-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `okayama-kougoren-sotai-2025-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-sotai-2025-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-sotai-2025-girls`: Tied players share the printed rank (T-prefixed)
 - `okayama-kougoren-sotai-2026-boys`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
 - `okayama-kougoren-sotai-2026-boys`: header says 13 participants, 15 rows parsed
 - `okayama-kougoren-sotai-2026-boys`: Published ranks are sequential (ties broken by countback), kept as published
@@ -699,6 +1537,70 @@
 - `okayama-kougoren-sotai-2026-girls`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
 - `okayama-kougoren-sotai-2026-girls`: Published ranks are sequential (ties broken by countback), kept as published
 - `okayama-kougoren-sotai-2026-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed (関西=関西高, 作陽学園, 岡山県美作, 岡山理大附 etc.); school_prefecture left null (one entry 萩明倫館 looks like a Yamaguchi school)
+- `okayama-kougoren-spring-2019-boys`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2019-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2019-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2019-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2019-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-spring-2019-boys`: 春季大会 held 2020-02-10; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2019-girls`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2019-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2019-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2019-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2019-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-spring-2019-girls`: 春季大会 held 2020-02-10; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2020-boys`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2020-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2020-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2020-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2020-boys`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-spring-2020-boys`: 春季大会 held 2021-03-12; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2020-girls`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2020-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2020-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2020-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2020-girls`: Sheet prints furigana above names; kanji names used
+- `okayama-kougoren-spring-2020-girls`: 春季大会 held 2021-03-12; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2021-boys`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2021-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2021-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2021-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2021-boys`: 春季大会 held 2022-03-14; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2021-girls`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2021-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2021-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2021-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2021-girls`: 春季大会 held 2022-03-14; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2022-boys`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2022-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2022-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2022-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2022-boys`: 春季大会 held 2023-03-09; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2022-girls`: コース情報未登録: 山陽ゴルフ倶楽部
+- `okayama-kougoren-spring-2022-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2022-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2022-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2022-girls`: 春季大会 held 2023-03-09; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2023-boys`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-spring-2023-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2023-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2023-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2023-boys`: 春季大会 held 2023-12-23; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2023-girls`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-spring-2023-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2023-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2023-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2023-girls`: 春季大会 held 2023-12-23; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2024-boys`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-spring-2024-boys`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2024-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2024-boys`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2024-boys`: 春季大会 held 2024-12-21; season_year = school year in the sheet title
+- `okayama-kougoren-spring-2024-girls`: コース情報未登録: 後楽ゴルフ倶楽部
+- `okayama-kougoren-spring-2024-girls`: Single 18-hole round; hole-by-hole scores printed (not transcribed), OUT/IN kept in note
+- `okayama-kougoren-spring-2024-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed; school_prefecture left null
+- `okayama-kougoren-spring-2024-girls`: Tied players share the printed rank (T-prefixed)
+- `okayama-kougoren-spring-2024-girls`: 春季大会 held 2024-12-21; season_year = school year in the sheet title
 - `okayama-kougoren-spring-2025-boys`: コース情報未登録: 後楽ゴルフ倶楽部
 - `okayama-kougoren-spring-2025-boys`: Published ranks are sequential (ties broken by countback), kept as published
 - `okayama-kougoren-spring-2025-boys`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed (関西=関西高, 作陽学園, 岡山県美作, 岡山理大附 etc.); school_prefecture left null (one entry 萩明倫館 looks like a Yamaguchi school)
@@ -707,6 +1609,50 @@
 - `okayama-kougoren-spring-2025-girls`: Published ranks are sequential (ties broken by countback), kept as published
 - `okayama-kougoren-spring-2025-girls`: Names: whitespace removed (spacing inconsistent on sheet); school names abbreviated as printed (関西=関西高, 作陽学園, 岡山県美作, 岡山理大附 etc.); school_prefecture left null (one entry 萩明倫館 looks like a Yamaguchi school)
 - `okayama-kougoren-spring-2025-girls`: Sheet header says 10 participants but only 9 rows are printed (no 欠場 row); one player may be missing
+- `osaka-kogoren-autumn-2018-boys`: 使用ティー不明: sunhills-east Noney
+- `osaka-kogoren-autumn-2018-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2018-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2018-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2018-boys`: Date and venue not printed on the result PDF; result posted on the federation news page on 2018-10-22
+- `osaka-kogoren-autumn-2018-boys`: The PDF also lists a middle-school section; only high-school rows kept
+- `osaka-kogoren-autumn-2018-boys`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/91 (2018-10-22), so the event itself was on or a few days before it
+- `osaka-kogoren-autumn-2018-boys`: 卒業年度が一致しない: 岸田 龍之介 (近大附) 2021 vs 2020
+- `osaka-kogoren-autumn-2020-boys`: 使用ティー不明: sunhills-east Noney
+- `osaka-kogoren-autumn-2020-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2020-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2020-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2020-boys`: Date and venue not printed on the result PDF; result posted on the federation news page on 2020-10-19
+- `osaka-kogoren-autumn-2020-boys`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/189 (2020-10-19), so the event itself was on or a few days before it
+- `osaka-kogoren-autumn-2020-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2020-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2020-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2020-girls`: Date and venue not printed on the result PDF; result posted on the federation news page on 2020-10-26
+- `osaka-kogoren-autumn-2020-girls`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/193 (2020-10-26), so the event itself was on or a few days before it
+- `osaka-kogoren-autumn-2021-girls`: コース情報未登録: 太子カントリー倶楽部
+- `osaka-kogoren-autumn-2021-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2021-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2021-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2021-girls`: par 71 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-autumn-2022-boys`: コース情報未登録: 太子カントリー倶楽部
+- `osaka-kogoren-autumn-2022-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2022-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2022-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2022-boys`: par 71 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-autumn-2022-girls`: コース情報未登録: 太子カントリー倶楽部
+- `osaka-kogoren-autumn-2022-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2022-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2022-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2022-girls`: par 71 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-autumn-2023-boys`: コース情報未登録: 太子カントリー倶楽部
+- `osaka-kogoren-autumn-2023-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2023-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2023-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2023-boys`: par 71 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-autumn-2023-girls`: コース情報未登録: 太子カントリー倶楽部
+- `osaka-kogoren-autumn-2023-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-autumn-2023-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-autumn-2023-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-autumn-2023-girls`: par 71 from later yardage sheets / existing files for the same course
 - `osaka-kogoren-autumn-2024-boys`: コース情報未登録: 太子カントリー倶楽部
 - `osaka-kogoren-autumn-2024-boys`: par 71 from 2025 yardage sheet (same course)
 - `osaka-kogoren-autumn-2024-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
@@ -721,6 +1667,59 @@
 - `osaka-kogoren-autumn-2025-girls`: コース情報未登録: 太子カントリー倶楽部
 - `osaka-kogoren-autumn-2025-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
 - `osaka-kogoren-autumn-2025-girls`: School names are the abbreviated forms printed in the PDF (e.g. 近大附属, 大産大, 関大一); all Osaka (or Wakayama for the autumn event) schools assumed, school_prefecture left null
+- `osaka-kogoren-championship-2018-boys`: 使用ティー不明: sunhills-east Noney
+- `osaka-kogoren-championship-2018-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2018-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2018-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2018-boys`: Date and venue not printed on the result PDF; result posted on the federation news page on 2018-05-14
+- `osaka-kogoren-championship-2018-boys`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/66 (2018-05-14), so the event itself was on or a few days before it
+- `osaka-kogoren-championship-2018-boys`: 卒業年度が一致しない: 山口 聖斗 (大産大附) 2020 vs 2021
+- `osaka-kogoren-championship-2018-boys`: 卒業年度が一致しない: 荒木 上総 (大産大附) 2021 vs 2020
+- `osaka-kogoren-championship-2018-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2018-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2018-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2018-girls`: Date and venue not printed on the result PDF; result posted on the federation news page on 2018-05-15
+- `osaka-kogoren-championship-2018-girls`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/68 (2018-05-15), so the event itself was on or a few days before it
+- `osaka-kogoren-championship-2019-boys`: 使用ティー不明: sunhills-east Noney
+- `osaka-kogoren-championship-2019-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2019-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2019-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2019-boys`: Date and venue not printed on the result PDF; result posted on the federation news page on 2019-05-13
+- `osaka-kogoren-championship-2019-boys`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/110 (2019-05-13), so the event itself was on or a few days before it
+- `osaka-kogoren-championship-2021-boys`: 使用ティー不明: sunhills-east Noney
+- `osaka-kogoren-championship-2021-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2021-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2021-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2021-boys`: Date and venue not printed on the result PDF; result posted on the federation news page on 2021-05-10
+- `osaka-kogoren-championship-2021-boys`: Corrected version (お詫びと訂正, news/222) used instead of the original news/220 PDF
+- `osaka-kogoren-championship-2021-boys`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/222 (2021-05-10), so the event itself was on or a few days before it
+- `osaka-kogoren-championship-2021-boys`: 卒業年度が一致しない: 嶽本 浩太朗 (近大附) 2022 vs 2023
+- `osaka-kogoren-championship-2021-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2021-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2021-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2021-girls`: Date and venue not printed on the result PDF; result posted on the federation news page on 2021-05-17
+- `osaka-kogoren-championship-2021-girls`: start_date not published; set to the date the result was posted on https://www.osaka-kogoren.com/news/227 (2021-05-17), so the event itself was on or a few days before it
+- `osaka-kogoren-championship-2022-boys`: コース情報未登録: アートレイクゴルフ倶楽部
+- `osaka-kogoren-championship-2022-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2022-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2022-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2022-boys`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-championship-2022-boys`: 卒業年度が一致しない: 島津 竜士 (ルネサンス大阪) 2025 vs 2024
+- `osaka-kogoren-championship-2022-girls`: コース情報未登録: アートレイクゴルフ倶楽部
+- `osaka-kogoren-championship-2022-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2022-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2022-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2022-girls`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-championship-2023-boys`: コース情報未登録: アートレイクゴルフ倶楽部
+- `osaka-kogoren-championship-2023-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2023-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2023-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2023-boys`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-championship-2023-girls`: コース情報未登録: アートレイクゴルフ倶楽部
+- `osaka-kogoren-championship-2023-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-championship-2023-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-championship-2023-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-championship-2023-girls`: par 72 from later yardage sheets / existing files for the same course
 - `osaka-kogoren-championship-2024-boys`: コース情報未登録: アートレイクゴルフ倶楽部
 - `osaka-kogoren-championship-2024-boys`: par 72 from 2025/2026 yardage sheets (same course)
 - `osaka-kogoren-championship-2024-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
@@ -742,6 +1741,30 @@
 - `osaka-kogoren-championship-2026-girls`: コース情報未登録: アートレイクゴルフ倶楽部
 - `osaka-kogoren-championship-2026-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
 - `osaka-kogoren-championship-2026-girls`: School names are the abbreviated forms printed in the PDF (e.g. 近大附属, 大産大, 関大一); all Osaka (or Wakayama for the autumn event) schools assumed, school_prefecture left null
+- `osaka-kogoren-shigaku-sotai-2022-boys`: コース情報未登録: 大阪ゴルフクラブ
+- `osaka-kogoren-shigaku-sotai-2022-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-shigaku-sotai-2022-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-shigaku-sotai-2022-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-shigaku-sotai-2022-boys`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-shigaku-sotai-2022-boys`: Private-school sports festival; individual division only (team results not transcribed)
+- `osaka-kogoren-shigaku-sotai-2022-girls`: コース情報未登録: 大阪ゴルフクラブ
+- `osaka-kogoren-shigaku-sotai-2022-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-shigaku-sotai-2022-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-shigaku-sotai-2022-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-shigaku-sotai-2022-girls`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-shigaku-sotai-2022-girls`: Private-school sports festival; individual division only (team results not transcribed)
+- `osaka-kogoren-shigaku-sotai-2023-boys`: コース情報未登録: 大阪ゴルフクラブ
+- `osaka-kogoren-shigaku-sotai-2023-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-shigaku-sotai-2023-boys`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-shigaku-sotai-2023-boys`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-shigaku-sotai-2023-boys`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-shigaku-sotai-2023-boys`: Private-school sports festival; individual division only (team results not transcribed)
+- `osaka-kogoren-shigaku-sotai-2023-girls`: コース情報未登録: 大阪ゴルフクラブ
+- `osaka-kogoren-shigaku-sotai-2023-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
+- `osaka-kogoren-shigaku-sotai-2023-girls`: School names are the abbreviated forms printed in the PDF; school_prefecture left null (Osaka schools plus a few out-of-prefecture entrants, e.g. 立命館守山, 智辯奈良)
+- `osaka-kogoren-shigaku-sotai-2023-girls`: Name/school boundary recovered by matching known school names at the end of the printed cell; family/given space inferred from character gaps where clear
+- `osaka-kogoren-shigaku-sotai-2023-girls`: par 72 from later yardage sheets / existing files for the same course
+- `osaka-kogoren-shigaku-sotai-2023-girls`: Private-school sports festival; individual division only (team results not transcribed)
 - `osaka-kogoren-shigaku-sotai-2024-boys`: コース情報未登録: 大阪ゴルフクラブ
 - `osaka-kogoren-shigaku-sotai-2024-boys`: par 72 from 2025 yardage sheet (same course)
 - `osaka-kogoren-shigaku-sotai-2024-boys`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
@@ -764,6 +1787,56 @@
 - `osaka-kogoren-shigaku-sotai-2026-girls`: par 72 taken from the 2025 edition yardage sheet (same course); 2026 yardage not checked
 - `osaka-kogoren-shigaku-sotai-2026-girls`: Single 18-hole round. Blank rank cells in the PDF read as ties with the row above (marked T); where the PDF printed distinct ranks for equal scores (countback/playoff) they are kept as published
 - `osaka-kogoren-shigaku-sotai-2026-girls`: School names are the abbreviated forms printed in the PDF (e.g. 近大附属, 大産大, 関大一); all Osaka (or Wakayama for the autumn event) schools assumed, school_prefecture left null
+- `yamaguchi-ga-hs-championship-2016-boys`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2016-boys`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2016-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2016-boys`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2016-boys`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2016-girls`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2016-girls`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2016-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2016-girls`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2016-girls`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2017-boys`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2017-boys`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2017-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2017-boys`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2017-boys`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2017-girls`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2017-girls`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2017-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2017-girls`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2017-girls`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2018-boys`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2018-boys`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2018-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2018-boys`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2018-boys`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2018-girls`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2018-girls`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2018-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2018-girls`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2018-girls`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2019-boys`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2019-boys`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2019-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2019-boys`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2019-boys`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2019-girls`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2019-girls`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2019-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2019-girls`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2019-girls`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2023-boys`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2023-boys`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2023-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2023-boys`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2023-boys`: Hole-by-hole scores printed but not transcribed
+- `yamaguchi-ga-hs-championship-2023-girls`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
+- `yamaguchi-ga-hs-championship-2023-girls`: Published ranks kept as printed
+- `yamaguchi-ga-hs-championship-2023-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-hs-championship-2023-girls`: School names as printed (grade digit appended on the sheet split off)
+- `yamaguchi-ga-hs-championship-2023-girls`: Hole-by-hole scores printed but not transcribed
 - `yamaguchi-ga-hs-championship-2024-boys`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
 - `yamaguchi-ga-hs-championship-2024-boys`: Published ranks kept as printed (sequential; countback)
 - `yamaguchi-ga-hs-championship-2024-boys`: Names: whitespace removed (spaced irregularly on sheet)
@@ -776,6 +1849,90 @@
 - `yamaguchi-ga-hs-championship-2025-girls`: コース情報未登録: 宇部72カントリークラブ 万年池東コース
 - `yamaguchi-ga-hs-championship-2025-girls`: Published ranks kept as printed (sequential; countback)
 - `yamaguchi-ga-hs-championship-2025-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2016-boys`: コース情報未登録: 朝陽カントリークラブ
+- `yamaguchi-ga-junior-spring-2016-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2016-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2016-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2016-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2016-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2016-girls`: コース情報未登録: 朝陽カントリークラブ
+- `yamaguchi-ga-junior-spring-2016-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2016-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2016-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2016-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2016-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2017-boys`: コース情報未登録: 周防カントリークラブ
+- `yamaguchi-ga-junior-spring-2017-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2017-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2017-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2017-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2017-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2017-girls`: コース情報未登録: 周防カントリークラブ
+- `yamaguchi-ga-junior-spring-2017-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2017-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2017-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2017-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2017-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2018-boys`: コース情報未登録: 厚狭ゴルフ倶楽部
+- `yamaguchi-ga-junior-spring-2018-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2018-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2018-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2018-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2018-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2018-girls`: コース情報未登録: 厚狭ゴルフ倶楽部
+- `yamaguchi-ga-junior-spring-2018-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2018-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2018-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2018-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2018-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2019-boys`: コース情報未登録: 柳井カントリー倶楽部(イン・中)
+- `yamaguchi-ga-junior-spring-2019-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2019-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2019-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2019-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2019-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2019-girls`: コース情報未登録: 柳井カントリー倶楽部(イン・中)
+- `yamaguchi-ga-junior-spring-2019-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2019-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2019-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2019-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2019-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2021-boys`: コース情報未登録: 下関ゴールデンゴルフクラブ
+- `yamaguchi-ga-junior-spring-2021-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2021-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2021-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2021-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2021-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2021-girls`: コース情報未登録: 下関ゴールデンゴルフクラブ
+- `yamaguchi-ga-junior-spring-2021-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2021-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2021-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2021-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2021-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2022-boys`: コース情報未登録: 和木ゴルフ倶楽部
+- `yamaguchi-ga-junior-spring-2022-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2022-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2022-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2022-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2022-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2022-girls`: コース情報未登録: 和木ゴルフ倶楽部
+- `yamaguchi-ga-junior-spring-2022-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2022-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2022-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2022-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2022-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2023-boys`: コース情報未登録: 宇部72カントリークラブ（万年池西）
+- `yamaguchi-ga-junior-spring-2023-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2023-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2023-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2023-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2023-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-spring-2023-girls`: コース情報未登録: 宇部72カントリークラブ（万年池西）
+- `yamaguchi-ga-junior-spring-2023-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-spring-2023-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-spring-2023-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-spring-2023-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-spring-2023-girls`: Start date from the federation results page; end date from the sheet
 - `yamaguchi-ga-junior-spring-2025-boys`: コース情報未登録: 宇部72カントリークラブ 万年池西/東
 - `yamaguchi-ga-junior-spring-2025-boys`: Published ranks kept as printed (sequential; countback)
 - `yamaguchi-ga-junior-spring-2025-boys`: Names: whitespace removed (spaced irregularly on sheet)
@@ -789,6 +1946,90 @@
 - `yamaguchi-ga-junior-spring-2025-girls`: 2-round event; values from the day-2 sheet (Gross = round 2, 1st = round 1, TOTAL)
 - `yamaguchi-ga-junior-spring-2025-girls`: Event held 2025-04-02/03 at the school-year boundary: printed grades look inconsistent for some players vs later 2025 events (e.g. 中村桜萌 N高1 here, N高2 in Aug 2025), so grades may refer to the previous school year
 - `yamaguchi-ga-junior-spring-2025-girls`: 卒業年度が一致しない: 中村桜萌 (N高) 2027 vs 2028
+- `yamaguchi-ga-junior-summer-2016-boys`: コース情報未登録: アイランドゴルフガーデン美和
+- `yamaguchi-ga-junior-summer-2016-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2016-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2016-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2016-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2016-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2016-girls`: コース情報未登録: アイランドゴルフガーデン美和
+- `yamaguchi-ga-junior-summer-2016-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2016-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2016-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2016-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2016-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2017-boys`: コース情報未登録: 下関ゴールデンゴルフクラブ
+- `yamaguchi-ga-junior-summer-2017-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2017-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2017-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2017-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2017-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2017-girls`: コース情報未登録: 下関ゴールデンゴルフクラブ
+- `yamaguchi-ga-junior-summer-2017-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2017-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2017-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2017-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2017-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2018-boys`: コース情報未登録: 徳山カントリークラブ（OUT・IN）
+- `yamaguchi-ga-junior-summer-2018-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2018-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2018-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2018-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2018-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2018-girls`: コース情報未登録: 徳山カントリークラブ（OUT・IN）
+- `yamaguchi-ga-junior-summer-2018-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2018-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2018-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2018-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2018-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2019-boys`: コース情報未登録: 宇部72カントリークラブ（阿知須）
+- `yamaguchi-ga-junior-summer-2019-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2019-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2019-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2019-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2019-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2019-girls`: コース情報未登録: 宇部72カントリークラブ（阿知須）
+- `yamaguchi-ga-junior-summer-2019-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2019-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2019-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2019-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2019-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2021-boys`: コース情報未登録: 周南カントリー倶楽部
+- `yamaguchi-ga-junior-summer-2021-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2021-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2021-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2021-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2021-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2021-girls`: コース情報未登録: 周南カントリー倶楽部
+- `yamaguchi-ga-junior-summer-2021-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2021-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2021-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2021-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2021-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2022-boys`: コース情報未登録: 宇部72カントリークラブ（阿知須）
+- `yamaguchi-ga-junior-summer-2022-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2022-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2022-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2022-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2022-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2022-girls`: コース情報未登録: 宇部72カントリークラブ（阿知須）
+- `yamaguchi-ga-junior-summer-2022-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2022-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2022-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2022-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2022-girls`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2023-boys`: コース情報未登録: 岩国センチュリーゴルフクラブ
+- `yamaguchi-ga-junior-summer-2023-boys`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2023-boys`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2023-boys`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2023-boys`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2023-boys`: Start date from the federation results page; end date from the sheet
+- `yamaguchi-ga-junior-summer-2023-girls`: コース情報未登録: 岩国センチュリーゴルフクラブ
+- `yamaguchi-ga-junior-summer-2023-girls`: Published ranks kept as printed
+- `yamaguchi-ga-junior-summer-2023-girls`: Names: whitespace removed (spaced irregularly on sheet)
+- `yamaguchi-ga-junior-summer-2023-girls`: Age division 15-17 (満15歳～17歳の部); affiliations as printed (all high schools)
+- `yamaguchi-ga-junior-summer-2023-girls`: 2-round event; values from the final-day sheet (Gross = round 2, 1st = round 1, TOTAL)
+- `yamaguchi-ga-junior-summer-2023-girls`: Start date from the federation results page; end date from the sheet
 - `yamaguchi-ga-junior-summer-2024-boys`: コース情報未登録: 宇部72カントリークラブ 阿知須
 - `yamaguchi-ga-junior-summer-2024-boys`: Published ranks kept as printed (sequential; countback)
 - `yamaguchi-ga-junior-summer-2024-boys`: Names: whitespace removed (spaced irregularly on sheet)
@@ -840,6 +2081,176 @@
 - `okinawaopen-okinawa-open-2025-mixed`: grade not published
 - `okinawaopen-okinawa-open-2025-mixed`: organizer taken from the current site footer (主催 THE OKINAWA OPEN 実行委員会); 2025 PDF does not print the organizer
 - `okinawaopen-okinawa-open-2025-mixed`: 2026 edition results PDFs (March 2026) print no affiliation, so no 2026 file
+- `chubu-kougoren-spring-qualifier-2016-boys`: コース情報未登録: 富士カントリー可児クラブ 可児ゴルフ場 織部コース
+- `chubu-kougoren-spring-qualifier-2016-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2016-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2016-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2016-boys`: Two-column sheet without prefecture; name/school split by token heuristics (name = first token if 4+ chars, else first two tokens); school_prefecture null
+- `chubu-kougoren-spring-qualifier-2016-boys`: Header: 参加者 83名（欠場1名）; 83 starters + 1 欠場 row
+- `chubu-kougoren-spring-qualifier-2016-boys`: 84 participants per sheet header; 84 rows collected
+- `chubu-kougoren-spring-qualifier-2016-girls`: コース情報未登録: 富士カントリー可児クラブ 可児ゴルフ場 織部コース
+- `chubu-kougoren-spring-qualifier-2016-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2016-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2016-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2016-girls`: Two-column sheet without prefecture; name/school split by token heuristics (name = first token if 4+ chars, else first two tokens); school_prefecture null
+- `chubu-kougoren-spring-qualifier-2016-girls`: No participant count printed; 41 rows collected
+- `chubu-kougoren-spring-qualifier-2017-boys`: コース情報未登録: 春日井カントリークラブ 西コース
+- `chubu-kougoren-spring-qualifier-2017-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2017-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2017-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2017-boys`: Two-column sheet without prefecture; name/school split by token heuristics (name = first token if 4+ chars, else first two tokens); school_prefecture null
+- `chubu-kougoren-spring-qualifier-2017-boys`: 74 participants per sheet header; 74 rows collected
+- `chubu-kougoren-spring-qualifier-2017-girls`: コース情報未登録: 春日井カントリークラブ 西コース
+- `chubu-kougoren-spring-qualifier-2017-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2017-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2017-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2017-girls`: Two-column sheet without prefecture; name/school split by token heuristics (name = first token if 4+ chars, else first two tokens); school_prefecture null
+- `chubu-kougoren-spring-qualifier-2017-girls`: 39 participants per sheet header; 39 rows collected
+- `chubu-kougoren-spring-qualifier-2018-boys`: コース情報未登録: 春日井カントリークラブ 西コース
+- `chubu-kougoren-spring-qualifier-2018-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2018-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2018-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2018-boys`: Two-column sheet without prefecture; name/school split by token heuristics (name = first token if 4+ chars, else first two tokens); school_prefecture null
+- `chubu-kougoren-spring-qualifier-2018-boys`: 78 participants per sheet header; 78 rows collected
+- `chubu-kougoren-spring-qualifier-2018-girls`: コース情報未登録: 春日井カントリークラブ 西コース
+- `chubu-kougoren-spring-qualifier-2018-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2018-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2018-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2018-girls`: Two-column sheet without prefecture; name/school split by token heuristics (name = first token if 4+ chars, else first two tokens); school_prefecture null
+- `chubu-kougoren-spring-qualifier-2018-girls`: 37 participants per sheet header; 37 rows collected
+- `chubu-kougoren-spring-qualifier-2020-boys`: コース情報未登録: CRC三重フェニックスGC
+- `chubu-kougoren-spring-qualifier-2020-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2020-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2020-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2020-boys`: No participant count printed; 68 rows collected
+- `chubu-kougoren-spring-qualifier-2020-girls`: コース情報未登録: CRC三重フェニックスGC
+- `chubu-kougoren-spring-qualifier-2020-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2020-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2020-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2020-girls`: No participant count printed; 37 rows collected
+- `chubu-kougoren-spring-qualifier-2021-boys`: コース情報未登録: 白山ヴィレッジゴルフコース KINGコース
+- `chubu-kougoren-spring-qualifier-2021-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2021-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2021-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2021-boys`: No participant count printed; 61 rows collected
+- `chubu-kougoren-spring-qualifier-2021-girls`: コース情報未登録: 白山ヴィレッジゴルフコース KINGコース
+- `chubu-kougoren-spring-qualifier-2021-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2021-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2021-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2021-girls`: No participant count printed; 43 rows collected
+- `chubu-kougoren-spring-qualifier-2021-girls`: 卒業年度が一致しない: 筑紫 美琶 (福井工大福井) 2024 vs 2023
+- `chubu-kougoren-spring-qualifier-2022-boys`: コース情報未登録: CRC白山ヴィレッジGC KINGコース
+- `chubu-kougoren-spring-qualifier-2022-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2022-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2022-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2022-boys`: No participant count printed; 66 rows collected
+- `chubu-kougoren-spring-qualifier-2022-boys`: 卒業年度が一致しない: 千葉 空 (福井工大福井) 2023 vs 2024
+- `chubu-kougoren-spring-qualifier-2022-girls`: コース情報未登録: CRC白山ヴィレッジGC KINGコース
+- `chubu-kougoren-spring-qualifier-2022-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2022-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2022-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2022-girls`: No participant count printed; 44 rows collected
+- `chubu-kougoren-spring-qualifier-2023-boys`: コース情報未登録: 貞宝カントリークラブ
+- `chubu-kougoren-spring-qualifier-2023-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2023-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2023-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2023-boys`: No participant count printed; 70 rows collected
+- `chubu-kougoren-spring-qualifier-2023-boys`: 卒業年度が一致しない: 長屋 琉斗 (岐阜城北) 2025 vs 2026
+- `chubu-kougoren-spring-qualifier-2023-girls`: コース情報未登録: 貞宝カントリークラブ
+- `chubu-kougoren-spring-qualifier-2023-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2023-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2023-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2023-girls`: No participant count printed; 37 rows collected
+- `chubu-kougoren-spring-qualifier-2023-girls`: 卒業年度が一致しない: 山中麻由奈 (金沢学院大附) 2026 vs 2025
+- `chubu-kougoren-spring-qualifier-2024-boys`: コース情報未登録: ウッドフレンズ森林公園ゴルフ場 西コース
+- `chubu-kougoren-spring-qualifier-2024-boys`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2024-boys`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2024-boys`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2024-boys`: Scheduled 2025-02-06 to 02-08 over 36 holes; reduced to one 18-hole round because of snow (降雪のため1日競技); the date of the round is not printed
+- `chubu-kougoren-spring-qualifier-2024-boys`: 60 participants per sheet header; 60 rows collected
+- `chubu-kougoren-spring-qualifier-2024-girls`: コース情報未登録: ウッドフレンズ森林公園ゴルフ場 西コース
+- `chubu-kougoren-spring-qualifier-2024-girls`: Spring national-championship (全国高等学校ゴルフ選手権春季大会) Chubu qualifier; result sheet from chsga.info
+- `chubu-kougoren-spring-qualifier-2024-girls`: Ranks as printed (countback/playoff decides qualifying places); equal printed ranks T-prefixed
+- `chubu-kougoren-spring-qualifier-2024-girls`: School names as printed (short forms)
+- `chubu-kougoren-spring-qualifier-2024-girls`: Scheduled 2025-02-06 to 02-08 over 36 holes; reduced to one 18-hole round because of snow (降雪のため1日競技); the date of the round is not printed
+- `chubu-kougoren-spring-qualifier-2024-girls`: 42 participants per sheet header; 43 rows collected
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 平山 心暖 (中部大第一) 2027 vs 2026
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 信藤 希 (福井工大福井) 2027 vs 2026
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 吉川 凛 (栄徳) 2026 vs 2027
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 西村 雛 (大垣北) 2027 vs 2026
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 木場 冴乃 (津田学園) 2026 vs 2027
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 水田 結依 (誉) 2026 vs 2027
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 柳谷 ひよ (福井工大福井) 2027 vs 2026
+- `chubu-kougoren-spring-qualifier-2024-girls`: 卒業年度が一致しない: 松浦 由奈 (麗澤瑞浪) 2026 vs 2027
+- `chubu-kougoren-summer-qualifier-2016-boys-individual`: コース情報未登録: CRC 白山ヴィレッジゴルフコース キングコース
+- `chubu-kougoren-summer-qualifier-2016-boys-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2016-boys-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2016-boys-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2016-boys-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2016-boys-individual`: 59 players per sheet header; 59 rows collected
+- `chubu-kougoren-summer-qualifier-2016-girls-individual`: コース情報未登録: CRC 白山ヴィレッジゴルフコース キングコース
+- `chubu-kougoren-summer-qualifier-2016-girls-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2016-girls-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2016-girls-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2016-girls-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2016-girls-individual`: 38 players per sheet header; 38 rows collected
+- `chubu-kougoren-summer-qualifier-2017-boys-individual`: コース情報未登録: CRC 白山ヴィレッジゴルフコース キングコース
+- `chubu-kougoren-summer-qualifier-2017-boys-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2017-boys-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2017-boys-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2017-boys-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2017-boys-individual`: 69 players per sheet header; 69 rows collected
+- `chubu-kougoren-summer-qualifier-2017-girls-individual`: コース情報未登録: CRC 白山ヴィレッジゴルフコース キングコース
+- `chubu-kougoren-summer-qualifier-2017-girls-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2017-girls-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2017-girls-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2017-girls-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2017-girls-individual`: 30 players per sheet header; 30 rows collected
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: コース情報未登録: 飛騨高山カントリークラブ
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: 73 rows collected
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: Unranked team-event players listed after the ranked field: NR = played one round only (rounds holds that single score, note says which day); DNS = listed with no score
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: 卒業年度が一致しない: 田中 楓陽 (栄徳) 2024 vs 2025
+- `chubu-kougoren-summer-qualifier-2022-boys-individual`: 卒業年度が一致しない: 金澤 宏高 (桜丘) 2024 vs 2023
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: コース情報未登録: 飛騨高山カントリークラブ
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: 40 rows collected
+- `chubu-kougoren-summer-qualifier-2022-girls-individual`: Unranked team-event players listed after the ranked field: NR = played one round only (rounds holds that single score, note says which day); DNS = listed with no score
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: コース情報未登録: 飛騨高山カントリークラブ
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: 64 rows collected
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: Unranked team-event players listed after the ranked field: NR = played one round only (rounds holds that single score, note says which day); DNS = listed with no score
+- `chubu-kougoren-summer-qualifier-2023-boys-individual`: 卒業年度が一致しない: 山崎 稔 (岡崎城西) 2025 vs 2026
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: コース情報未登録: 飛騨高山カントリークラブ
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: 43 rows collected
+- `chubu-kougoren-summer-qualifier-2023-girls-individual`: Unranked team-event players listed after the ranked field: NR = played one round only (rounds holds that single score, note says which day); DNS = listed with no score
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: コース情報未登録: 飛騨高山カントリークラブ
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: 60 players per sheet header; 60 rows collected
+- `chubu-kougoren-summer-qualifier-2024-boys-individual`: Unranked team-event players listed after the ranked field: NR = played one round only (rounds holds that single score, note says which day); DNS = listed with no score
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: コース情報未登録: 飛騨高山カントリークラブ
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: Individual results of the 全国高等学校ゴルフ選手権 団体の部 中部地区予選 / 中部高等学校ゴルフ対抗戦 (team-event players ranked individually); sheet from chsga.info
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: Ranks as printed; rows without a printed rank share the rank above (T-prefixed); メダリスト mapped to 1
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: School names as printed (short forms)
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: to_par computed from par 72
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: 41 players per sheet header; 41 rows collected
+- `chubu-kougoren-summer-qualifier-2024-girls-individual`: Unranked team-event players listed after the ranked field: NR = played one round only (rounds holds that single score, note says which day); DNS = listed with no score
 - `chubu-kougoren-summer-qualifier-2025-boys-individual`: Individual standings of the team-division qualifier (no separate individual qualifier published for 2025 summer); field = team members only
 - `chubu-kougoren-summer-qualifier-2025-boys-individual`: Event listed as 6/4-6/6 (6/4 practice assumed); rounds played 6/5-6/6 — start_date inferred
 - `chubu-kougoren-summer-qualifier-2025-boys-individual`: Transcribed via WebFetch PDF-to-text; spot-check recommended
@@ -862,11 +2273,229 @@
 - `chubu-kougoren-summer-qualifier-2025-girls-team`: PDF marks some members with ※ (meaning unclear; not used)
 - `chubu-kougoren-summer-qualifier-2025-girls-team`: Teams tied on total (e.g. girls 6th/7th 469) listed with sequential ranks as published
 - `chubu-kougoren-summer-qualifier-2025-girls-team`: Transcribed via WebFetch; yardage boys 6620 / girls 6128
+- `chugoku-kougoren-shinjin-2016-boys-individual`: コース情報未登録: 広島国際ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2016-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2016-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2016-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2016-girls-individual`: コース情報未登録: 広島国際ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2016-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2016-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2016-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2017-boys-individual`: コース情報未登録: 広島国際ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2017-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2017-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2017-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2017-girls-individual`: コース情報未登録: 広島国際ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2017-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2017-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2017-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2018-boys-individual`: コース情報未登録: 白竜湖カントリークラブ
+- `chugoku-kougoren-shinjin-2018-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2018-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2018-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2018-girls-individual`: コース情報未登録: 白竜湖カントリークラブ
+- `chugoku-kougoren-shinjin-2018-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2018-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2018-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2019-boys-individual`: コース情報未登録: 後楽ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2019-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2019-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2019-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2019-girls-individual`: コース情報未登録: 後楽ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2019-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2019-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2019-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2020-boys-individual`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2020-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2020-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2020-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2020-girls-individual`: コース情報未登録: 鬼ノ城ゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2020-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2020-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2020-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2020-girls-individual`: 卒業年度が一致しない: 栗原幸 (広島県瀬戸内) 2023 vs 2022
+- `chugoku-kougoren-shinjin-2020-girls-individual`: 卒業年度が一致しない: 重常花梨 (広島国際学院) 2022 vs 2023
+- `chugoku-kougoren-shinjin-2021-boys-individual`: コース情報未登録: 宇部72カントリークラブ 江畑池コース
+- `chugoku-kougoren-shinjin-2021-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2021-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2021-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2021-girls-individual`: コース情報未登録: 宇部72カントリークラブ 江畑池コース
+- `chugoku-kougoren-shinjin-2021-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2021-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2021-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2022-boys-individual`: コース情報未登録: グリーンバーズゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2022-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2022-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2022-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2022-girls-individual`: コース情報未登録: グリーンバーズゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2022-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2022-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2022-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2023-boys-individual`: コース情報未登録: グリーンバーズゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2023-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2023-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2023-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-shinjin-2023-boys-individual`: 卒業年度が一致しない: 堀江悠太 (広陵) 2024 vs 2026
+- `chugoku-kougoren-shinjin-2023-girls-individual`: コース情報未登録: グリーンバーズゴルフ倶楽部
+- `chugoku-kougoren-shinjin-2023-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-shinjin-2023-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-shinjin-2023-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2016-boys-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2016-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2016-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2016-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2016-girls-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2016-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2016-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2016-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2017-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2017-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2017-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2017-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2017-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2017-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2018-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2018-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2018-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2018-boys-individual`: 卒業年度が一致しない: 小川寿興翔 (高川学園) 2024 vs 2021
+- `chugoku-kougoren-spring-2018-boys-individual`: 卒業年度が一致しない: 茂刈淳晟 (高川学園) 2024 vs 2021
+- `chugoku-kougoren-spring-2018-boys-individual`: 卒業年度が一致しない: 瀬来寛樹 (米子北斗) 2024 vs 2021
+- `chugoku-kougoren-spring-2018-boys-individual`: 卒業年度が一致しない: 縄田翔一 (高川学園) 2024 vs 2021
+- `chugoku-kougoren-spring-2018-boys-individual`: 卒業年度が一致しない: 手塚晴三 (如水館) 2024 vs 2021
+- `chugoku-kougoren-spring-2018-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2018-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2018-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2018-girls-individual`: 卒業年度が一致しない: 岡田心愛 (高川学園) 2024 vs 2021
+- `chugoku-kougoren-spring-2018-girls-individual`: 卒業年度が一致しない: 谷本花潤 (広島女学院) 2023 vs 2020
+- `chugoku-kougoren-spring-2020-boys-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2020-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2020-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2020-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2020-girls-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2020-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2020-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2020-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2021-boys-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2021-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2021-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2021-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2021-girls-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2021-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2021-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2021-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2022-boys-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2022-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2022-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2022-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2022-girls-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2022-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2022-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2022-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2023-boys-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2023-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2023-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2023-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-spring-2023-girls-individual`: コース情報未登録: 広島カンツリー倶楽部 西条コース
+- `chugoku-kougoren-spring-2023-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-spring-2023-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-spring-2023-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2016-boys-individual`: コース情報未登録: 白竜湖カントリークラブ
+- `chugoku-kougoren-summer-qualifier-2016-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2016-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2016-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2016-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2016-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2016-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2016-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2016-girls-individual`: コース情報未登録: 白竜湖カントリークラブ
+- `chugoku-kougoren-summer-qualifier-2016-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2016-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2016-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2016-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2016-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2016-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2016-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2017-boys-individual`: コース情報未登録: 後楽ゴルフ倶楽部
+- `chugoku-kougoren-summer-qualifier-2017-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2017-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2017-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2017-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2017-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2017-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2017-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2017-girls-individual`: コース情報未登録: 後楽ゴルフ倶楽部
+- `chugoku-kougoren-summer-qualifier-2017-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2017-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2017-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2017-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2017-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2017-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2017-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2018-boys-individual`: コース情報未登録: 和木ゴルフ倶楽部
+- `chugoku-kougoren-summer-qualifier-2018-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2018-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2018-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2018-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2018-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2018-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2018-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2018-girls-individual`: コース情報未登録: 和木ゴルフ倶楽部
+- `chugoku-kougoren-summer-qualifier-2018-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2018-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2018-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2018-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2018-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2018-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2018-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2019-boys-individual`: コース情報未登録: 白竜湖カントリークラブ
+- `chugoku-kougoren-summer-qualifier-2019-boys-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2019-boys-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2019-boys-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2019-girls-individual`: コース情報未登録: 白竜湖カントリークラブ
+- `chugoku-kougoren-summer-qualifier-2019-girls-individual`: Extracted with pdfplumber (text PDF, character x-positions); names printed with justified spacing, spaces removed
+- `chugoku-kougoren-summer-qualifier-2019-girls-individual`: Ties printed as equal ranks; T-prefix added
+- `chugoku-kougoren-summer-qualifier-2019-girls-individual`: school as printed (short form); school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2019-girls-individual`: 卒業年度が一致しない: 栗原幸 (瀬戸内) 2023 vs 2022
+- `chugoku-kougoren-summer-qualifier-2020-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2020-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2020-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2020-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2020-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2020-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2020-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2020-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2020-girls-team`: 卒業年度が一致しない: 栗原幸 (広島県瀬戸内) 2023 vs 2022
+- `chugoku-kougoren-summer-qualifier-2021-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2021-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2021-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2021-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2021-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2021-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2021-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2021-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2021-girls-team`: 卒業年度が一致しない: 栗原幸 (広島県瀬戸内) 2023 vs 2022
+- `chugoku-kougoren-summer-qualifier-2022-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2022-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2022-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2022-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2022-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2022-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2022-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2022-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2023-boys-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2023-boys-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2023-boys-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2023-boys-team`: school = team name without A/B/C suffix; school_prefecture not printed
+- `chugoku-kougoren-summer-qualifier-2023-girls-team`: Final-day PDF (spreadsheet export with #N/A/#VALUE! filler cells) parsed from text layer; members with day scores per round
+- `chugoku-kougoren-summer-qualifier-2023-girls-team`: Format: 4 players (up to 5 registered), best 3 per day count; counted_rounds from * marks (* = not counted); member-level counted flag null
+- `chugoku-kougoren-summer-qualifier-2023-girls-team`: Team ranks as printed (ties broken by 4-player total per footnote); teams without rank are open entries (rank OP)
+- `chugoku-kougoren-summer-qualifier-2023-girls-team`: school = team name without A/B/C suffix; school_prefecture not printed
 - `chugoku-kougoren-summer-qualifier-2025-boys-team`: 作陽学園: best-3 check of extracted member day scores (207,229) != published day totals (207,231) — day placement of some single-round members likely mis-extracted
 - `chugoku-kougoren-summer-qualifier-2025-boys-team`: Team totals/ranks as published; member day scores via WebFetch from a spreadsheet-export PDF containing #VALUE!/#N/A cells — spot-check
 - `chugoku-kougoren-summer-qualifier-2025-boys-team`: Format: 4-player teams (up to 5 registered), best 3 per day; counted flag null
 - `chugoku-kougoren-summer-qualifier-2025-boys-team`: Tied 1st/2nd boys (438) separated by published tie-break
 - `chugoku-kougoren-summer-qualifier-2025-boys-team`: school_prefecture inferred from school identity (not printed in PDF)
+- `chugoku-kougoren-summer-qualifier-2025-boys-team`: 卒業年度が一致しない: 堀江悠太 (広陵) 2024 vs 2026
 - `chugoku-kougoren-summer-qualifier-2025-girls-team`: Team totals/ranks as published; member day scores via WebFetch from a spreadsheet-export PDF containing #VALUE!/#N/A cells — spot-check
 - `chugoku-kougoren-summer-qualifier-2025-girls-team`: Format: 4-player teams (up to 5 registered), best 3 per day; counted flag null
 - `chugoku-kougoren-summer-qualifier-2025-girls-team`: school_prefecture inferred from school identity (not printed in PDF)
@@ -887,6 +2516,26 @@
 - `kanto-kougoren-summer-qualifier-2025-girls-team`: 水戸啓明 listed with no scores (did not start) — rank DNS
 - `kanto-kougoren-summer-qualifier-2025-girls-team`: Teams tied on total (5th/6th 442) listed with sequential ranks as published
 - `kanto-kougoren-summer-qualifier-2025-girls-team`: Extractor placed 髙橋美琴 (83/84) under 佐野日大; moved to 日大一 — consistent with individual results (髙橋美琴, 日大一) and both teams' published day totals
+- `shikoku-kougoren-summer-championship-2018-boys-individual`: Shikoku HS individual championship = 全国高校選手権 個人の部 四国予選 (2-round); parsed with pdfplumber from the 4-division final sheet (HS boys/girls columns only)
+- `shikoku-kougoren-summer-championship-2018-boys-individual`: Prefecture printed as one-character abbreviation, expanded; 1st place printed 優; ties given T-prefix
+- `shikoku-kougoren-summer-championship-2018-boys-individual`: ★/S markers (national qualification/seed) dropped
+- `shikoku-kougoren-summer-championship-2018-girls-individual`: Shikoku HS individual championship = 全国高校選手権 個人の部 四国予選 (2-round); parsed with pdfplumber from the 4-division final sheet (HS boys/girls columns only)
+- `shikoku-kougoren-summer-championship-2018-girls-individual`: Prefecture printed as one-character abbreviation, expanded; 1st place printed 優; ties given T-prefix
+- `shikoku-kougoren-summer-championship-2018-girls-individual`: ★/S markers (national qualification/seed) dropped
+- `shikoku-kougoren-summer-championship-2021-boys-individual`: 2021 edition played as a single 18-hole round (listed 7/22); parsed with pdfplumber from the 4-division sheet (HS columns only)
+- `shikoku-kougoren-summer-championship-2021-boys-individual`: Prefecture abbreviation expanded; 優勝 = 1; ＊ (national-qualifier mark) and start numbers dropped; ties T-prefixed
+- `shikoku-kougoren-summer-championship-2021-boys-individual`: Winner/2nd decided by matching scorecard per footnote
+- `shikoku-kougoren-summer-championship-2021-boys-individual`: Rows printed 失 (600/300/300 placeholder) recorded as DQ without scores; 欠 recorded DNS
+- `shikoku-kougoren-summer-championship-2021-girls-individual`: 2021 edition played as a single 18-hole round (listed 7/22); parsed with pdfplumber from the 4-division sheet (HS columns only)
+- `shikoku-kougoren-summer-championship-2021-girls-individual`: Prefecture abbreviation expanded; 優勝 = 1; ＊ (national-qualifier mark) and start numbers dropped; ties T-prefixed
+- `shikoku-kougoren-summer-championship-2021-girls-individual`: Winner/2nd decided by matching scorecard per footnote
+- `shikoku-kougoren-summer-championship-2021-girls-individual`: Rows printed 失 (600/300/300 placeholder) recorded as DQ without scores; 欠 recorded DNS
+- `shikoku-kougoren-summer-championship-2022-boys-individual`: Shikoku HS individual championship = 全国高校選手権 個人の部 四国予選 (2-round); parsed with pdfplumber from the 4-division final sheet (HS boys/girls columns only)
+- `shikoku-kougoren-summer-championship-2022-boys-individual`: Prefecture printed as one-character abbreviation, expanded; 1st place printed 優; ties given T-prefix
+- `shikoku-kougoren-summer-championship-2022-boys-individual`: ★/S markers (national qualification/seed) dropped
+- `shikoku-kougoren-summer-championship-2022-girls-individual`: Shikoku HS individual championship = 全国高校選手権 個人の部 四国予選 (2-round); parsed with pdfplumber from the 4-division final sheet (HS boys/girls columns only)
+- `shikoku-kougoren-summer-championship-2022-girls-individual`: Prefecture printed as one-character abbreviation, expanded; 1st place printed 優; ties given T-prefix
+- `shikoku-kougoren-summer-championship-2022-girls-individual`: ★/S markers (national qualification/seed) dropped
 - `shikoku-kougoren-summer-championship-2025-boys-individual`: Shikoku summer individual championship (高校個人の部, published as 15〜17歳の部); the national team qualifier (四国予選, 団体) result PDF was not located — index page shsga.jp is http-only and unreachable by fetcher
 - `shikoku-kougoren-summer-championship-2025-boys-individual`: Prefecture published as one-character abbreviation (香/高/徳/愛), expanded to 香川/高知/徳島/愛媛
 - `shikoku-kougoren-summer-championship-2025-boys-individual`: 1st place published as 優; tied ranks converted to T-prefix
@@ -898,6 +2547,83 @@
 - `shikoku-kougoren-summer-championship-2025-girls-individual`: Transcribed via WebFetch PDF-to-text; spot-check recommended
 - `shikoku-kougoren-summer-championship-2025-girls-individual`: to_par computed from par 72 x 2
 - `shikoku-kougoren-summer-championship-2025-girls-individual`: 卒業年度が一致しない: 佐藤梨乃 (明徳義塾高) 2027 vs 2026
+- `shikoku-kougoren-summer-qualifier-2016-boys-team`: コース情報未登録: 新居浜カントリー倶楽部
+- `shikoku-kougoren-summer-qualifier-2016-boys-team`: 高知中央: day2 members not marked ※ sum to [70, 78, 80] != 227 (PDF ※ marks inconsistent with printed day total; best-3 would match)
+- `shikoku-kougoren-summer-qualifier-2016-boys-team`: Final-day sheet (成績表 最終日) parsed from text layer; ※ = round not counted (counted_rounds); best 3 of 4-5 per day
+- `shikoku-kougoren-summer-qualifier-2016-boys-team`: start_date assumed from the separate day-1 sheet (dantai1); end date 2016-05-29 printed
+- `shikoku-kougoren-summer-qualifier-2016-boys-team`: par/yardage not printed on the result sheet
+- `shikoku-kougoren-summer-qualifier-2016-girls-team`: コース情報未登録: 新居浜カントリー倶楽部
+- `shikoku-kougoren-summer-qualifier-2016-girls-team`: Final-day sheet (成績表 最終日) parsed from text layer; ※ = round not counted (counted_rounds); best 3 of 4-5 per day
+- `shikoku-kougoren-summer-qualifier-2016-girls-team`: start_date assumed from the separate day-1 sheet (dantai1); end date 2016-05-29 printed
+- `shikoku-kougoren-summer-qualifier-2016-girls-team`: par/yardage not printed on the result sheet
+- `shikoku-kougoren-summer-qualifier-2017-boys-team`: コース情報未登録: 屋島カントリークラブ
+- `shikoku-kougoren-summer-qualifier-2017-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2017-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2017-boys-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2017-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2017-girls-team`: コース情報未登録: 屋島カントリークラブ
+- `shikoku-kougoren-summer-qualifier-2017-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2017-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2017-girls-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2017-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2018-boys-team`: コース情報未登録: 讃岐カントリークラブ
+- `shikoku-kougoren-summer-qualifier-2018-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2018-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2018-boys-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2018-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2018-girls-team`: コース情報未登録: 讃岐カントリークラブ
+- `shikoku-kougoren-summer-qualifier-2018-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2018-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2018-girls-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2018-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2019-boys-team`: コース情報未登録: 讃岐カントリークラブ
+- `shikoku-kougoren-summer-qualifier-2019-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2019-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2019-boys-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2019-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2019-girls-team`: コース情報未登録: 讃岐カントリークラブ
+- `shikoku-kougoren-summer-qualifier-2019-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2019-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2019-girls-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2019-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2020-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2020-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2020-boys-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2020-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2020-boys-team`: Only one round printed for every team (single-day qualifier)
+- `shikoku-kougoren-summer-qualifier-2020-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2020-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2020-girls-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2020-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2020-girls-team`: Only one round printed for every team (single-day qualifier)
+- `shikoku-kougoren-summer-qualifier-2021-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2021-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2021-boys-team`: Single-day event
+- `shikoku-kougoren-summer-qualifier-2021-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2021-boys-team`: Only one round printed for every team (single-day qualifier)
+- `shikoku-kougoren-summer-qualifier-2021-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2021-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2021-girls-team`: Single-day event
+- `shikoku-kougoren-summer-qualifier-2021-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2021-girls-team`: Only one round printed for every team (single-day qualifier)
+- `shikoku-kougoren-summer-qualifier-2022-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2022-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2022-boys-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2022-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2022-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2022-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2022-girls-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2022-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2023-boys-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2023-boys-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2023-boys-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2023-boys-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2023-boys-team`: Only one round printed for every team (single-day qualifier)
+- `shikoku-kougoren-summer-qualifier-2023-girls-team`: Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column
+- `shikoku-kougoren-summer-qualifier-2023-girls-team`: Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －
+- `shikoku-kougoren-summer-qualifier-2023-girls-team`: Dates: competition days per entry list (practice day excluded) — verify
+- `shikoku-kougoren-summer-qualifier-2023-girls-team`: school_prefecture not printed
+- `shikoku-kougoren-summer-qualifier-2023-girls-team`: Only one round printed for every team (single-day qualifier)
 - `shikoku-kougoren-summer-qualifier-2025-boys-team`: PDF text extraction did not yield printed team ranks/totals reliably (extractor produced inconsistent numbers); team totals and ranks here are COMPUTED from member day scores using the published rule (best 3 of up to 4 per day, 2 days) — verify against PDF
 - `shikoku-kougoren-summer-qualifier-2025-boys-team`: Member scores transcribed from raw PDF text; counted flag null (counting is per day)
 - `shikoku-kougoren-summer-qualifier-2025-boys-team`: Tie-break rules (4-score aggregate) not applied; no ties occurred in computed totals
@@ -908,6 +2634,127 @@
 - `shikoku-kougoren-summer-qualifier-2025-girls-team`: Tie-break rules (4-score aggregate) not applied; no ties occurred in computed totals
 - `shikoku-kougoren-summer-qualifier-2025-girls-team`: Top 2 schools per gender qualify for 緑の甲子園 per PDF note
 - `shikoku-kougoren-summer-qualifier-2025-girls-team`: school_prefecture inferred from school identity (not printed)
+- `cga-junior-2016-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（東コース）
+- `cga-junior-2016-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2016-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2016-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2016-boys-15-17`: school_prefecture not printed
+- `cga-junior-2016-boys-15-17`: to_par computed from par 72
+- `cga-junior-2016-boys-15-17`: Names printed with a space between every character; spaces removed (surname/given split not known)
+- `cga-junior-2016-boys-15-17`: 参加人数 58 printed; 58 rows collected
+- `cga-junior-2016-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（東コース）
+- `cga-junior-2016-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2016-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2016-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2016-girls-15-17`: school_prefecture not printed
+- `cga-junior-2016-girls-15-17`: to_par computed from par 72
+- `cga-junior-2016-girls-15-17`: Names printed with a space between every character; spaces removed (surname/given split not known)
+- `cga-junior-2016-girls-15-17`: 参加人数 28 printed; 28 rows collected
+- `cga-junior-2017-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2017-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2017-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2017-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2017-boys-15-17`: school_prefecture not printed
+- `cga-junior-2017-boys-15-17`: to_par computed from par 72
+- `cga-junior-2017-boys-15-17`: Names printed with a space between every character; spaces removed (surname/given split not known)
+- `cga-junior-2017-boys-15-17`: 参加人数 59 printed; 59 rows collected
+- `cga-junior-2017-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2017-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2017-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2017-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2017-girls-15-17`: school_prefecture not printed
+- `cga-junior-2017-girls-15-17`: to_par computed from par 72
+- `cga-junior-2017-girls-15-17`: Names printed with a space between every character; spaces removed (surname/given split not known)
+- `cga-junior-2017-girls-15-17`: 参加人数 28 printed; 28 rows collected
+- `cga-junior-2018-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2018-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2018-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2018-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2018-boys-15-17`: school_prefecture not printed
+- `cga-junior-2018-boys-15-17`: to_par computed from par 72
+- `cga-junior-2018-boys-15-17`: Names printed with a space between every character; spaces removed (surname/given split not known)
+- `cga-junior-2018-boys-15-17`: 参加人数 66 printed; 63 rows collected
+- `cga-junior-2018-boys-15-17`: Sheet header 参加人数 66 but the sheet lists 63 ranked players (no 棄権/失格 rows printed)
+- `cga-junior-2018-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2018-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2018-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2018-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2018-girls-15-17`: school_prefecture not printed
+- `cga-junior-2018-girls-15-17`: to_par computed from par 72
+- `cga-junior-2018-girls-15-17`: Names printed with a space between every character; spaces removed (surname/given split not known)
+- `cga-junior-2018-girls-15-17`: 参加人数 29 printed; 29 rows collected
+- `cga-junior-2019-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2019-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2019-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2019-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2019-boys-15-17`: school_prefecture not printed
+- `cga-junior-2019-boys-15-17`: to_par computed from par 72
+- `cga-junior-2019-boys-15-17`: 参加人数 60 printed; 60 rows collected
+- `cga-junior-2019-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2019-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2019-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2019-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2019-girls-15-17`: school_prefecture not printed
+- `cga-junior-2019-girls-15-17`: to_par computed from par 72
+- `cga-junior-2019-girls-15-17`: 参加人数 28 printed; 28 rows collected
+- `cga-junior-2021-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2021-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2021-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2021-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2021-boys-15-17`: school_prefecture not printed
+- `cga-junior-2021-boys-15-17`: to_par computed from par 72
+- `cga-junior-2021-boys-15-17`: 参加人数 41 printed; 41 rows collected
+- `cga-junior-2021-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2021-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2021-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2021-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2021-girls-15-17`: school_prefecture not printed
+- `cga-junior-2021-girls-15-17`: to_par computed from par 72
+- `cga-junior-2021-girls-15-17`: 参加人数 32 printed; 33 rows collected
+- `cga-junior-2021-girls-15-17`: Printed 参加人数 32 appears to count only the 32 finishers; 1 棄権 row (木村 葉月) is printed separately and included
+- `cga-junior-2022-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2022-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2022-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2022-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2022-boys-15-17`: school_prefecture not printed
+- `cga-junior-2022-boys-15-17`: to_par computed from par 72
+- `cga-junior-2022-boys-15-17`: 参加人数 44 printed; 44 rows collected
+- `cga-junior-2022-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2022-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2022-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2022-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2022-girls-15-17`: school_prefecture not printed
+- `cga-junior-2022-girls-15-17`: to_par computed from par 72
+- `cga-junior-2022-girls-15-17`: 参加人数 30 printed; 30 rows collected
+- `cga-junior-2023-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2023-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2023-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2023-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2023-boys-15-17`: school_prefecture not printed
+- `cga-junior-2023-boys-15-17`: to_par computed from par 72
+- `cga-junior-2023-boys-15-17`: 参加人数 54 printed; 54 rows collected
+- `cga-junior-2023-boys-15-17`: 卒業年度が一致しない: 千葉 空 (福井工大福井高) 2023 vs 2024
+- `cga-junior-2023-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2023-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2023-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2023-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2023-girls-15-17`: school_prefecture not printed
+- `cga-junior-2023-girls-15-17`: to_par computed from par 72
+- `cga-junior-2023-girls-15-17`: 参加人数 33 printed; 33 rows collected
+- `cga-junior-2024-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2024-boys-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2024-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2024-boys-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2024-boys-15-17`: school_prefecture not printed
+- `cga-junior-2024-boys-15-17`: to_par computed from par 72
+- `cga-junior-2024-boys-15-17`: 参加人数 56 printed; 56 rows collected
+- `cga-junior-2024-girls-15-17`: コース情報未登録: 東名古屋カントリークラブ（西コース）
+- `cga-junior-2024-girls-15-17`: Final-day result sheet hosted by the Chubu HS federation (chsga.info); this event is both the 全国高等学校ゴルフ選手権 個人の部 中部地区予選 and the 中部ジュニアゴルフ選手権 本戦 15～17歳の部 (same event as cga-junior-2025/2026)
+- `cga-junior-2024-girls-15-17`: 優勝 mapped to rank 1; ties T-prefixed (printed nT or equal ranks; rows without a printed rank share the rank above)
+- `cga-junior-2024-girls-15-17`: Marks (○ 日本ジュニア, △/◎ 全国高校選手権 qualifier, シ/S seed) kept in note
+- `cga-junior-2024-girls-15-17`: school_prefecture not printed
+- `cga-junior-2024-girls-15-17`: to_par computed from par 72
+- `cga-junior-2024-girls-15-17`: 参加人数 34 printed; 34 rows collected
 - `cga-junior-2025-boys-15-17`: コース情報未登録: 東名古屋カントリークラブ(西コース)
 - `cga-junior-2025-boys-15-17`: 優勝 mapped to rank 1; ties T-prefixed
 - `cga-junior-2025-boys-15-17`: ○ (Japan Junior qualifier mark) not stored
@@ -958,6 +2805,7 @@
 - `cga-junior-qualifier-hokuriku-2025-girls-15-17`: ○ (final qualifier mark) not stored
 - `cga-junior-qualifier-hokuriku-2025-girls-15-17`: school_prefecture not printed
 - `cga-junior-qualifier-hokuriku-2025-girls-15-17`: 参加人数 16 printed; 16 non-DNS rows collected
+- `cga-junior-qualifier-hokuriku-2025-girls-15-17`: 卒業年度が一致しない: 髙岸 花織 (福井工大福井高) 2027 vs 2026
 - `cga-junior-qualifier-mie-2025-boys-15-17`: コース情報未登録: 近鉄賢島カンツリークラブ
 - `cga-junior-qualifier-mie-2025-boys-15-17`: Qualifier (地区予選) for the Chubu Junior final; single 18-hole round, ties T-prefixed
 - `cga-junior-qualifier-mie-2025-boys-15-17`: ○ (final qualifier mark) not stored
@@ -968,6 +2816,95 @@
 - `cga-junior-qualifier-mie-2025-girls-15-17`: ○ (final qualifier mark) not stored
 - `cga-junior-qualifier-mie-2025-girls-15-17`: school_prefecture not printed
 - `cga-junior-qualifier-mie-2025-girls-15-17`: 参加人数 4 printed; 4 non-DNS rows collected
+- `cgu-junior-2016-boys-15-17`: コース情報未登録: 白竜湖カントリークラブ
+- `cgu-junior-2016-boys-15-17`: 2016: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2016-boys-15-17`: Affiliation printed as short school name + circled grade; school_prefecture not printed
+- `cgu-junior-2016-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2016-boys-15-17`: Also served as the 2016 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2016-girls-15-17`: コース情報未登録: 白竜湖カントリークラブ
+- `cgu-junior-2016-girls-15-17`: 2016: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2016-girls-15-17`: Affiliation printed as short school name + circled grade; school_prefecture not printed
+- `cgu-junior-2016-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2016-girls-15-17`: Also served as the 2016 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2016-girls-15-17`: ＊ = オープン参加 in the HS championship qualifier (米子北); mark not stored, row kept
+- `cgu-junior-2017-boys-15-17`: コース情報未登録: 後楽ゴルフ倶楽部
+- `cgu-junior-2017-boys-15-17`: 2017: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2017-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2017-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2017-boys-15-17`: Also served as the 2017 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2017-girls-15-17`: コース情報未登録: 後楽ゴルフ倶楽部
+- `cgu-junior-2017-girls-15-17`: 2017: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2017-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2017-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2017-girls-15-17`: Also served as the 2017 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2017-girls-15-17`: ＊ = オープン参加 in the HS championship qualifier (米子北); mark not stored, row kept
+- `cgu-junior-2018-boys-15-17`: コース情報未登録: 和木ゴルフ倶楽部
+- `cgu-junior-2018-boys-15-17`: 2018: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2018-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2018-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2018-boys-15-17`: Also served as the 2018 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2018-boys-15-17`: One row printed with affiliation JGAジュニア会員 (no school/grade; marked ※) kept as printed in this 15-17 division
+- `cgu-junior-2018-girls-15-17`: コース情報未登録: 和木ゴルフ倶楽部
+- `cgu-junior-2018-girls-15-17`: 2018: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2018-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2018-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2018-girls-15-17`: Also served as the 2018 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2019-boys-15-17`: コース情報未登録: 白竜湖カントリークラブ
+- `cgu-junior-2019-boys-15-17`: 2019: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2019-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2019-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2019-boys-15-17`: Also served as the 2019 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2019-girls-15-17`: コース情報未登録: 白竜湖カントリークラブ
+- `cgu-junior-2019-girls-15-17`: 2019: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2019-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2019-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2019-girls-15-17`: Also served as the 2019 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2021-boys-15-17`: コース情報未登録: 後楽ゴルフ倶楽部
+- `cgu-junior-2021-boys-15-17`: 2021: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2021-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2021-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2021-boys-15-17`: Also served as the 2021 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2021-girls-15-17`: コース情報未登録: 後楽ゴルフ倶楽部
+- `cgu-junior-2021-girls-15-17`: 2021: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2021-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2021-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2021-girls-15-17`: Also served as the 2021 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2021-girls-15-17`: 卒業年度が一致しない: 栗原 幸 (瀬戸内) 2023 vs 2022
+- `cgu-junior-2022-boys-15-17`: コース情報未登録: 和木ゴルフ倶楽部
+- `cgu-junior-2022-boys-15-17`: No cut; final (R2) sheet lists all finishers, WD/DNS taken from the R1 sheet
+- `cgu-junior-2022-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2022-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2022-boys-15-17`: Also served as the 2022 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2022-boys-15-17`: 2022: boys and girls printed on shared multi-column sheets; split by column
+- `cgu-junior-2022-girls-15-17`: コース情報未登録: 和木ゴルフ倶楽部
+- `cgu-junior-2022-girls-15-17`: No cut; final (R2) sheet lists all finishers, WD/DNS taken from the R1 sheet
+- `cgu-junior-2022-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2022-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2022-girls-15-17`: Also served as the 2022 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2022-girls-15-17`: 2022: boys and girls printed on shared multi-column sheets; split by column
+- `cgu-junior-2023-boys-15-17`: コース情報未登録: 東児が丘マリンヒルズゴルフクラブ
+- `cgu-junior-2023-boys-15-17`: No cut; final (R2) sheet lists all finishers, WD/DNS taken from the R1 sheet
+- `cgu-junior-2023-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2023-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2023-boys-15-17`: Also served as the 2023 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2023-boys-15-17`: 2023: boys and girls printed on shared multi-column sheets; split by column
+- `cgu-junior-2023-boys-15-17`: 卒業年度が一致しない: 堀江 悠太 (広陵) 2024 vs 2026
+- `cgu-junior-2023-girls-15-17`: コース情報未登録: 東児が丘マリンヒルズゴルフクラブ
+- `cgu-junior-2023-girls-15-17`: No cut; final (R2) sheet lists all finishers, WD/DNS taken from the R1 sheet
+- `cgu-junior-2023-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2023-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2023-girls-15-17`: Also served as the 2023 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2023-girls-15-17`: 2023: boys and girls printed on shared multi-column sheets; split by column
+- `cgu-junior-2024-boys-15-17`: コース情報未登録: 中須ゴルフ倶楽部
+- `cgu-junior-2024-boys-15-17`: 2024: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2024-boys-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2024-boys-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2024-boys-15-17`: Also served as the 2024 全国高等学校ゴルフ選手権 個人の部 中国予選
+- `cgu-junior-2024-girls-15-17`: コース情報未登録: 中須ゴルフ倶楽部
+- `cgu-junior-2024-girls-15-17`: 2024: 36-hole cut after R1 (★ on R1 sheet); players who missed the cut recorded as rank "cut" with R1 score
+- `cgu-junior-2024-girls-15-17`: Affiliation printed as short school name + circled grade; prefecture suffix (e.g. 作陽③岡山) stored as school_prefecture where printed (not printed for every row)
+- `cgu-junior-2024-girls-15-17`: ◎ (Japan Junior qualifier) / ◆ (national HS championship qualifier) / ＠ marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `cgu-junior-2024-girls-15-17`: Also served as the 2024 全国高等学校ゴルフ選手権 個人の部 中国予選
 - `cgu-junior-2025-boys-15-17`: コース情報未登録: 広島カンツリー倶楽部 西条コース
 - `cgu-junior-2025-boys-15-17`: No cut; final (R2) sheet lists all finishers, WD/DNS taken from the R1 sheet
 - `cgu-junior-2025-boys-15-17`: Affiliation printed as short school name + circled grade (e.g. 瀬戸内③); school_prefecture not printed
@@ -986,6 +2923,70 @@
 - `cgu-junior-2026-girls-15-17`: No cut; final (R2) sheet lists all finishers, WD/DNS taken from the R1 sheet
 - `cgu-junior-2026-girls-15-17`: Affiliation printed as short school name + circled grade (e.g. 瀬戸内③); school_prefecture not printed
 - `cgu-junior-2026-girls-15-17`: ◎ (Japan Junior qualifier) / ※ (Japan Junior seed) marks not stored; blank ranks = tie with the row above (T-prefixed)
+- `guk-junior-2016-boys-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2016-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2016-boys-15-17`: 参加者数 printed: 51; field_size_total = non-DNS rows (49)
+- `guk-junior-2016-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2016-girls-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2016-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2016-girls-15-17`: 参加者数 printed: 40; field_size_total = non-DNS rows (40)
+- `guk-junior-2016-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2017-boys-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2017-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2017-boys-15-17`: 参加者数 printed: 51; field_size_total = non-DNS rows (51)
+- `guk-junior-2017-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2017-girls-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2017-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2017-girls-15-17`: 参加者数 printed: 41; field_size_total = non-DNS rows (41)
+- `guk-junior-2017-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2018-boys-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2018-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2018-boys-15-17`: 参加者数 printed: 50; field_size_total = non-DNS rows (50)
+- `guk-junior-2018-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2018-girls-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2018-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2018-girls-15-17`: 参加者数 printed: 42; field_size_total = non-DNS rows (42)
+- `guk-junior-2018-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2019-boys-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2019-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2019-boys-15-17`: 参加者数 printed: 50; field_size_total = non-DNS rows (50)
+- `guk-junior-2019-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2019-girls-15-17`: コース情報未登録: 久住高原ゴルフ倶楽部
+- `guk-junior-2019-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2019-girls-15-17`: 参加者数 printed: 41; field_size_total = non-DNS rows (41)
+- `guk-junior-2019-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2021-boys-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2021-boys-15-17`: No cut: final sheet lists all R1 starters; DNS taken from the R1 sheet
+- `guk-junior-2021-boys-15-17`: 参加者数 printed: 42; field_size_total = non-DNS rows (42)
+- `guk-junior-2021-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2021-girls-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2021-girls-15-17`: No cut: final sheet lists all R1 starters; DNS taken from the R1 sheet
+- `guk-junior-2021-girls-15-17`: 参加者数 printed: 41; field_size_total = non-DNS rows (41)
+- `guk-junior-2021-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2022-boys-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2022-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2022-boys-15-17`: 参加者数 printed: 41; field_size_total = non-DNS rows (39)
+- `guk-junior-2022-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2022-girls-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2022-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2022-girls-15-17`: 参加者数 printed: 40; field_size_total = non-DNS rows (40)
+- `guk-junior-2022-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2023-boys-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2023-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2023-boys-15-17`: 参加者数 printed: 44; field_size_total = non-DNS rows (43)
+- `guk-junior-2023-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2023-girls-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2023-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2023-girls-15-17`: 参加者数 printed: 44; field_size_total = non-DNS rows (44)
+- `guk-junior-2023-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2024-boys-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2024-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2024-boys-15-17`: 参加者数 printed: 40; field_size_total = non-DNS rows (40)
+- `guk-junior-2024-boys-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `guk-junior-2024-girls-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
+- `guk-junior-2024-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
+- `guk-junior-2024-girls-15-17`: 参加者数 printed: 39; field_size_total = non-DNS rows (39)
+- `guk-junior-2024-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
 - `guk-junior-2025-boys-15-17`: コース情報未登録: あつまる阿蘇赤水ゴルフ倶楽部
 - `guk-junior-2025-boys-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
 - `guk-junior-2025-boys-15-17`: 参加者数 printed: 49 (likely entrants incl. DNS); field_size_total = non-DNS rows (48)
@@ -1002,6 +3003,92 @@
 - `guk-junior-2026-girls-15-17`: Cut after R1: R2 sheet lists finishers; missed-cut players and DNS taken from the R1 sheet
 - `guk-junior-2026-girls-15-17`: 参加者数 printed: 60 (likely entrants incl. DNS); field_size_total = non-DNS rows (60)
 - `guk-junior-2026-girls-15-17`: Affiliation printed as '<school>-<grade>'; school_prefecture not printed; blank ranks = ties (T-prefixed)
+- `kansai-kougoren-3rd-grade-2020-boys`: コース情報未登録: ムロウ36ゴルフクラブ
+- `kansai-kougoren-3rd-grade-2020-boys`: 2020 replacement event for 3rd-year students (national championship cancelled); single 18-hole round; grade not printed (all 3rd year) - grade left null
+- `kansai-kougoren-3rd-grade-2020-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-3rd-grade-2020-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-3rd-grade-2020-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-3rd-grade-2020-girls`: コース情報未登録: ムロウ36ゴルフクラブ
+- `kansai-kougoren-3rd-grade-2020-girls`: 2020 replacement event for 3rd-year students (national championship cancelled); single 18-hole round; grade not printed (all 3rd year) - grade left null
+- `kansai-kougoren-3rd-grade-2020-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-3rd-grade-2020-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-3rd-grade-2020-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2016-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2016-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2016-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2016-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2016-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2016-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2016-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2016-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2016-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2016-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2016-girls`: 卒業年度が一致しない: 薮田梨花 (大阪桐蔭) 2019 vs 2018
+- `kansai-kougoren-championship-2017-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2017-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2017-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2017-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2017-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2017-boys`: 卒業年度が一致しない: 田中裕真 (大商大) 2019 vs 2018
+- `kansai-kougoren-championship-2017-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2017-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2017-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2017-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2017-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2017-girls`: 卒業年度が一致しない: 薮田梨花 (大阪桐蔭) 2019 vs 2018
+- `kansai-kougoren-championship-2018-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2018-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2018-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2018-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2018-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2018-boys`: 卒業年度が一致しない: 山口聖斗 (大産大附) 2020 vs 2021
+- `kansai-kougoren-championship-2018-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2018-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2018-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2018-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2018-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2019-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2019-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2019-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2019-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2019-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2019-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2019-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2019-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2019-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2019-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2021-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2021-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2021-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2021-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2021-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2021-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2021-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2021-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2021-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2021-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2022-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2022-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2022-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2022-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2022-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2022-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2022-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2022-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2022-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2022-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2022-girls`: 卒業年度が一致しない: 川東優樺 (南陽) 2024 vs 2023
+- `kansai-kougoren-championship-2023-boys`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2023-boys`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2023-boys`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2023-boys`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2023-boys`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2023-girls`: コース情報未登録: グランベール京都ゴルフ倶楽部
+- `kansai-kougoren-championship-2023-girls`: 36-hole event (全国高等学校ゴルフ選手権大会 関西予選); final-day result sheet; dates from the federation result page
+- `kansai-kougoren-championship-2023-girls`: Parsed from text-layer PDF (pdftotext -layout, regex on prefecture+school+grade anchor); two-column layout read column by column
+- `kansai-kougoren-championship-2023-girls`: Ranks as printed (blank rank on a tied row filled from the row above); ties T-prefixed; ○/◯ (national qualifier) and ☆ (seed) marks dropped
+- `kansai-kougoren-championship-2023-girls`: Par/yardage not printed on the result sheet; to_par not computed
+- `kansai-kougoren-championship-2023-girls`: 卒業年度が一致しない: 西澤梓 (京産大附属) 2027 vs 2026
 - `kansai-kougoren-championship-2025-boys`: コース情報未登録: 太平洋クラブ宝塚コース
 - `kansai-kougoren-championship-2025-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
 - `kansai-kougoren-championship-2025-boys`: Venue par/yardage not printed on the result PDF (yardage sheet separate); to_par not computed
@@ -1019,6 +3106,38 @@
 - `kansai-kougoren-championship-2026-girls`: Venue par/yardage not printed on the result PDF (yardage sheet separate); to_par not computed
 - `kansai-kougoren-championship-2026-girls`: School names in the federation's short form; prefecture as printed
 - `kansai-kougoren-championship-2026-girls`: 1st/2nd decided by playoff (per PDF note)
+- `kansai-kougoren-fall-final-2021-boys`: コース情報未登録: コマカントリークラブ
+- `kansai-kougoren-fall-final-2021-boys`: Final-day sheet parsed from text layer (regex on prefecture+school+grade); two columns read in order; blank tied ranks filled from row above, T-prefixed
+- `kansai-kougoren-fall-final-2021-boys`: ○ (national qualifier) / ｼｰﾄﾞ marks dropped; ＊ = seeded (noted)
+- `kansai-kougoren-fall-final-2021-boys`: Venue par/yardage not printed; to_par not computed
+- `kansai-kougoren-fall-final-2021-boys`: 欠場 mapped to DNS, 棄権 to WD
+- `kansai-kougoren-fall-final-2021-girls`: コース情報未登録: コマカントリークラブ
+- `kansai-kougoren-fall-final-2021-girls`: Final-day sheet parsed from text layer (regex on prefecture+school+grade); two columns read in order; blank tied ranks filled from row above, T-prefixed
+- `kansai-kougoren-fall-final-2021-girls`: ○ (national qualifier) / ｼｰﾄﾞ marks dropped; ＊ = seeded (noted)
+- `kansai-kougoren-fall-final-2021-girls`: Venue par/yardage not printed; to_par not computed
+- `kansai-kougoren-fall-final-2021-girls`: 欠場 mapped to DNS, 棄権 to WD
+- `kansai-kougoren-fall-final-2021-girls`: 卒業年度が一致しない: 川東優樺 (南陽) 2024 vs 2023
+- `kansai-kougoren-fall-final-2022-boys`: コース情報未登録: コマカントリークラブ
+- `kansai-kougoren-fall-final-2022-boys`: Final-day sheet parsed from text layer (regex on prefecture+school+grade); two columns read in order; blank tied ranks filled from row above, T-prefixed
+- `kansai-kougoren-fall-final-2022-boys`: ○ (national qualifier) / ｼｰﾄﾞ marks dropped; ＊ = seeded (noted)
+- `kansai-kougoren-fall-final-2022-boys`: Venue par/yardage not printed; to_par not computed
+- `kansai-kougoren-fall-final-2022-boys`: 欠場 mapped to DNS, 棄権 to WD
+- `kansai-kougoren-fall-final-2022-boys`: 卒業年度が一致しない: 小杉飛翔 (滝川第二) 2025 vs 2024
+- `kansai-kougoren-fall-final-2022-girls`: コース情報未登録: コマカントリークラブ
+- `kansai-kougoren-fall-final-2022-girls`: Final-day sheet parsed from text layer (regex on prefecture+school+grade); two columns read in order; blank tied ranks filled from row above, T-prefixed
+- `kansai-kougoren-fall-final-2022-girls`: ○ (national qualifier) / ｼｰﾄﾞ marks dropped; ＊ = seeded (noted)
+- `kansai-kougoren-fall-final-2022-girls`: Venue par/yardage not printed; to_par not computed
+- `kansai-kougoren-fall-final-2022-girls`: 欠場 mapped to DNS, 棄権 to WD
+- `kansai-kougoren-fall-final-2023-boys`: コース情報未登録: コマカントリークラブ
+- `kansai-kougoren-fall-final-2023-boys`: Final-day sheet parsed from text layer (regex on prefecture+school+grade); two columns read in order; blank tied ranks filled from row above, T-prefixed
+- `kansai-kougoren-fall-final-2023-boys`: ○ (national qualifier) / ｼｰﾄﾞ marks dropped; ＊ = seeded (noted)
+- `kansai-kougoren-fall-final-2023-boys`: Venue par/yardage not printed; to_par not computed
+- `kansai-kougoren-fall-final-2023-boys`: 欠場 mapped to DNS, 棄権 to WD
+- `kansai-kougoren-fall-final-2023-girls`: コース情報未登録: コマカントリークラブ
+- `kansai-kougoren-fall-final-2023-girls`: Final-day sheet parsed from text layer (regex on prefecture+school+grade); two columns read in order; blank tied ranks filled from row above, T-prefixed
+- `kansai-kougoren-fall-final-2023-girls`: ○ (national qualifier) / ｼｰﾄﾞ marks dropped; ＊ = seeded (noted)
+- `kansai-kougoren-fall-final-2023-girls`: Venue par/yardage not printed; to_par not computed
+- `kansai-kougoren-fall-final-2023-girls`: 欠場 mapped to DNS, 棄権 to WD
 - `kansai-kougoren-fall-final-2025-boys`: Two-column spreadsheet-export PDF parsed with pdfplumber; placeholder rows (#N/A, 0) skipped
 - `kansai-kougoren-fall-final-2025-boys`: ○ = qualified for national (全国大会) — not stored; ＊ = seeded player (noted)
 - `kansai-kougoren-fall-final-2025-boys`: Venue par/yardage not printed on the result PDF; to_par not computed
@@ -1028,6 +3147,66 @@
 - `kansai-kougoren-fall-final-2025-girls`: ○ = qualified for national (全国大会) — not stored; ＊ = seeded player (noted)
 - `kansai-kougoren-fall-final-2025-girls`: Venue par/yardage not printed on the result PDF; to_par not computed
 - `kansai-kougoren-fall-final-2025-girls`: 欠場 mapped to DNS, 棄権 to WD
+- `kansai-kougoren-team-2016-boys-team`: コース情報未登録: 北六甲カントリー倶楽部 東コース
+- `kansai-kougoren-team-2016-boys-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2016-boys-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2016-boys-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2016-girls-team`: コース情報未登録: 北六甲カントリー倶楽部 東コース
+- `kansai-kougoren-team-2016-girls-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2016-girls-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2016-girls-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2017-boys-team`: コース情報未登録: 北六甲カントリー倶楽部 東コース
+- `kansai-kougoren-team-2017-boys-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2017-boys-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2017-boys-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2017-girls-team`: コース情報未登録: 北六甲カントリー倶楽部 東コース
+- `kansai-kougoren-team-2017-girls-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2017-girls-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2017-girls-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2018-boys-team`: コース情報未登録: ムロウ36ゴルフクラブ 室生コース
+- `kansai-kougoren-team-2018-boys-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2018-boys-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2018-boys-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2018-girls-team`: コース情報未登録: ムロウ36ゴルフクラブ 室生コース
+- `kansai-kougoren-team-2018-girls-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2018-girls-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2018-girls-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2019-boys-team`: コース情報未登録: ムロウ36ゴルフクラブ 室生コース
+- `kansai-kougoren-team-2019-boys-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2019-boys-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2019-boys-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2019-girls-team`: コース情報未登録: ムロウ36ゴルフクラブ 室生コース
+- `kansai-kougoren-team-2019-girls-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2019-girls-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2019-girls-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2020-boys-team`: コース情報未登録: ムロウ36ゴルフクラブ 室生コース
+- `kansai-kougoren-team-2020-boys-team`: Single-day team event (best 3 of 4 count); parsed from text layer; * = score not counted (member counted flag set accordingly)
+- `kansai-kougoren-team-2020-boys-team`: Grade not printed; par/yardage not printed
+- `kansai-kougoren-team-2020-girls-team`: コース情報未登録: ムロウ36ゴルフクラブ 室生コース
+- `kansai-kougoren-team-2020-girls-team`: Single-day team event (best 3 of 4 count); parsed from text layer; * = score not counted (member counted flag set accordingly)
+- `kansai-kougoren-team-2020-girls-team`: Grade not printed; par/yardage not printed
+- `kansai-kougoren-team-2021-boys-team`: コース情報未登録: 吉川インターゴルフ倶楽部
+- `kansai-kougoren-team-2021-boys-team`: Single-day team event (best 3 of 4 count); parsed from text layer; * = score not counted (member counted flag set accordingly)
+- `kansai-kougoren-team-2021-boys-team`: Grade not printed; par/yardage not printed
+- `kansai-kougoren-team-2021-girls-team`: コース情報未登録: 吉川インターゴルフ倶楽部
+- `kansai-kougoren-team-2021-girls-team`: Single-day team event (best 3 of 4 count); parsed from text layer; * = score not counted (member counted flag set accordingly)
+- `kansai-kougoren-team-2021-girls-team`: Grade not printed; par/yardage not printed
+- `kansai-kougoren-team-2022-boys-team`: コース情報未登録: 吉川インターゴルフ倶楽部
+- `kansai-kougoren-team-2022-boys-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2022-boys-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2022-boys-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2022-girls-team`: コース情報未登録: 吉川インターゴルフ倶楽部
+- `kansai-kougoren-team-2022-girls-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2022-girls-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2022-girls-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2023-boys-team`: コース情報未登録: 吉川インターゴルフ倶楽部
+- `kansai-kougoren-team-2023-boys-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2023-boys-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2023-boys-team`: Grade not printed (column shows 0) except where a circled grade follows the name
+- `kansai-kougoren-team-2023-girls-team`: コース情報未登録: 吉川インターゴルフ倶楽部
+- `kansai-kougoren-team-2023-girls-team`: 関西高等学校ゴルフ対抗戦 (school team event; best 3 of up to 6 registered per day); final-day sheet parsed from text layer (spreadsheet export with 0/#N/A filler cells)
+- `kansai-kougoren-team-2023-girls-team`: counted_rounds from * marks (* = not counted); team ranks as printed; par/yardage not printed
+- `kansai-kougoren-team-2023-girls-team`: Grade not printed (column shows 0) except where a circled grade follows the name
 - `kga-cup-junior-2025-boys-15-17`: コース情報未登録: カレドニアン・ゴルフクラブ
 - `kga-cup-junior-2025-boys-15-17`: Single 18-hole round; ties separated by countback as published (ranks unique, not T-prefixed)
 - `kga-cup-junior-2025-boys-15-17`: Grade appended to school in PDF (e.g. 慶應義塾高3); split into school/grade
@@ -1081,6 +3260,63 @@
 - `kgu-womens-amateur-2026-girls`: Open amateur final (single 18-hole round): only players whose affiliation is shown as a high school (…高校) are included; many juniors are listed under a golf club instead and are therefore NOT included
 - `kgu-womens-amateur-2026-girls`: field_size_total = all players parsed from the 3-column sheet (107); ranks are whole-field positions, ties T-prefixed
 - `kgu-womens-amateur-2026-girls`: grade and school_prefecture not published
+- `kyushu-kougoren-shinjin-2016-boys`: コース情報未登録: グランドチャンピオンゴルフクラブ
+- `kyushu-kougoren-shinjin-2016-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2016-boys`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2016-boys`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2016-boys`: 卒業年度が一致しない: 髙栁 守吏 (長崎日大) 2019 vs 2018
+- `kyushu-kougoren-shinjin-2016-girls`: コース情報未登録: グランドチャンピオンゴルフクラブ
+- `kyushu-kougoren-shinjin-2016-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2016-girls`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2016-girls`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2017-boys`: コース情報未登録: 肥後サンバレーカントリークラブ
+- `kyushu-kougoren-shinjin-2017-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2017-boys`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2017-boys`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2017-girls`: コース情報未登録: 肥後サンバレーカントリークラブ
+- `kyushu-kougoren-shinjin-2017-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2017-girls`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2017-girls`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2018-boys`: コース情報未登録: 肥後サンバレーカントリークラブ
+- `kyushu-kougoren-shinjin-2018-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2018-boys`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2018-boys`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2018-girls`: コース情報未登録: 肥後サンバレーカントリークラブ
+- `kyushu-kougoren-shinjin-2018-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2018-girls`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2018-girls`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2019-boys`: コース情報未登録: 肥後サンバレーカントリークラブ
+- `kyushu-kougoren-shinjin-2019-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2019-boys`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2019-boys`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2019-girls`: コース情報未登録: 肥後サンバレーカントリークラブ
+- `kyushu-kougoren-shinjin-2019-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2019-girls`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2019-girls`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2021-boys`: コース情報未登録: 阿蘇やまなみリゾートホテル＆ゴルフ倶楽部
+- `kyushu-kougoren-shinjin-2021-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2021-boys`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2021-boys`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2021-girls`: コース情報未登録: 阿蘇やまなみリゾートホテル＆ゴルフ俱楽部
+- `kyushu-kougoren-shinjin-2021-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2021-girls`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2021-girls`: Names: family/given split inferred from spacing where unambiguous
+- `kyushu-kougoren-shinjin-2022-boys`: コース情報未登録: 熊本クラウンゴルフ倶楽部
+- `kyushu-kougoren-shinjin-2022-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2022-boys`: School names in short form as printed; prefecture not printed
+- `kyushu-kougoren-shinjin-2022-boys`: Names printed with per-character spacing; family/given split kept only where the gap is unambiguous
+- `kyushu-kougoren-shinjin-2022-girls`: コース情報未登録: 熊本クラウンゴルフ倶楽部
+- `kyushu-kougoren-shinjin-2022-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2022-girls`: School names in short form as printed; prefecture not printed
+- `kyushu-kougoren-shinjin-2022-girls`: Names printed with per-character spacing; family/given split kept only where the gap is unambiguous
+- `kyushu-kougoren-shinjin-2023-boys`: コース情報未登録: 熊本クラウンゴルフ倶楽部
+- `kyushu-kougoren-shinjin-2023-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2023-boys`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2023-boys`: Names printed with per-character spacing; family/given split kept only where the gap is unambiguous
+- `kyushu-kougoren-shinjin-2023-girls`: コース情報未登録: 熊本クラウンゴルフ倶楽部
+- `kyushu-kougoren-shinjin-2023-girls`: Single 18-hole round (新人戦 = 1st/2nd-year students)
+- `kyushu-kougoren-shinjin-2023-girls`: School names in short form as printed
+- `kyushu-kougoren-shinjin-2023-girls`: Names printed with per-character spacing; family/given split kept only where the gap is unambiguous
 - `kyushu-kougoren-shinjin-2025-boys`: コース情報未登録: 熊本クラウンゴルフ倶楽部
 - `kyushu-kougoren-shinjin-2025-boys`: Single 18-hole round (新人戦 = 1st/2nd-year students); ties T-prefixed except where the sheet gives distinct ranks for equal scores (e.g. 1st/2nd decided by countback)
 - `kyushu-kougoren-shinjin-2025-boys`: School names in short form (e.g. 大分 = 大分高)
@@ -1092,6 +3328,113 @@
 - `kyushu-kougoren-shinjin-2025-girls`: Status lines (欠席/失格) on sheet: ◇高校女子の部 (競技者    名・欠席   者名・失格者       名)
 - `kyushu-kougoren-shinjin-2025-girls`: Revised result PDF (2025.10.16 改訂版) used for girls (_f_3)
 - `kyushu-kougoren-shinjin-2025-girls`: 卒業年度が一致しない: 外園 華莉南 (日章学園) 2027 vs 2028
+- `kyushu-kougoren-spring-2016-boys`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2016-boys`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2017-03)
+- `kyushu-kougoren-spring-2016-boys`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2016-boys`: 卒業年度が一致しない: 小瀬良 竜大 (長崎日大) 2018 vs 2019
+- `kyushu-kougoren-spring-2016-boys`: 卒業年度が一致しない: 佐藤 蓮清 (沖学園) 2018 vs 2019
+- `kyushu-kougoren-spring-2016-girls`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2016-girls`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2017-03)
+- `kyushu-kougoren-spring-2016-girls`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2017-boys`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2017-boys`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2018-03)
+- `kyushu-kougoren-spring-2017-boys`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2017-girls`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2017-girls`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2018-03)
+- `kyushu-kougoren-spring-2017-girls`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2018-boys`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2018-boys`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2019-03)
+- `kyushu-kougoren-spring-2018-boys`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2018-boys`: Final-day sheet dated 2019-03-13; start date from competition page (3/12-13, listed there under 平成30年3月 by typo)
+- `kyushu-kougoren-spring-2018-girls`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2018-girls`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2019-03)
+- `kyushu-kougoren-spring-2018-girls`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2018-girls`: Final-day sheet dated 2019-03-13; start date from competition page (3/12-13, listed there under 平成30年3月 by typo)
+- `kyushu-kougoren-spring-2022-girls`: コース情報未登録: 臼杵カントリークラブ
+- `kyushu-kougoren-spring-2022-girls`: 全国高等学校ゴルフ選手権春季大会予選 (spring national qualifier); season_year = school year of the event (held 2022-12)
+- `kyushu-kougoren-spring-2022-girls`: ☆/※ marks (seeds / national qualifiers) dropped from names
+- `kyushu-kougoren-spring-2022-girls`: Competition page gives 2022-12-21..22, the final-day sheet is dated 2022-12-23; end_date follows the sheet
+- `kyushu-kougoren-summer-qualifier-2016-boys`: コース情報未登録: 八女上陽ゴルフ倶楽部
+- `kyushu-kougoren-summer-qualifier-2016-boys`: 全国高等学校ゴルフ選手権大会 九州大会 (national championship regional qualifier)
+- `kyushu-kougoren-summer-qualifier-2016-boys`: Names printed with per-character spacing; family/given split inferred from the widest gap where unambiguous, otherwise joined
+- `kyushu-kougoren-summer-qualifier-2016-boys`: Scheduled 2 days, but the final-result sheet (最終日結果) shows the same 18-hole scores as the day-1 sheet (16kyk?k_p.pdf) with tie-broken final ranks, so only one round appears to have counted; recorded as a single round
+- `kyushu-kougoren-summer-qualifier-2016-girls`: コース情報未登録: 八女上陽ゴルフ倶楽部
+- `kyushu-kougoren-summer-qualifier-2016-girls`: 全国高等学校ゴルフ選手権大会 九州大会 (national championship regional qualifier)
+- `kyushu-kougoren-summer-qualifier-2016-girls`: Names printed with per-character spacing; family/given split inferred from the widest gap where unambiguous, otherwise joined
+- `kyushu-kougoren-summer-qualifier-2016-girls`: Scheduled 2 days, but the final-result sheet (最終日結果) shows the same 18-hole scores as the day-1 sheet (16kyk?k_p.pdf) with tie-broken final ranks, so only one round appears to have counted; recorded as a single round
+- `kyushu-kougoren-summer-qualifier-2016-girls`: 卒業年度が一致しない: 坂口 瑞菜子 (柳川) 2018 vs 2017
+- `kyushu-kougoren-summer-qualifier-2017-boys`: コース情報未登録: 佐賀ロイヤルゴルフクラブ
+- `kyushu-kougoren-summer-qualifier-2017-boys`: 全国高等学校ゴルフ選手権大会 九州大会 (national championship regional qualifier)
+- `kyushu-kougoren-summer-qualifier-2017-boys`: Names printed with justified per-character spacing; spaces removed (family/given split not recoverable)
+- `kyushu-kougoren-summer-qualifier-2017-girls`: コース情報未登録: 佐賀ロイヤルゴルフクラブ
+- `kyushu-kougoren-summer-qualifier-2017-girls`: 全国高等学校ゴルフ選手権大会 九州大会 (national championship regional qualifier)
+- `kyushu-kougoren-summer-qualifier-2017-girls`: Names printed with justified per-character spacing; spaces removed (family/given split not recoverable)
+- `kyushu-kougoren-summer-qualifier-2017-girls`: 卒業年度が一致しない: 杉山桃香 (東海大星翔) 2019 vs 2020
+- `kyushu-kougoren-summer-qualifier-2018-boys`: コース情報未登録: 佐賀ロイヤルゴルフクラブ
+- `kyushu-kougoren-summer-qualifier-2018-boys`: 全国高等学校ゴルフ選手権大会 九州大会 (national championship regional qualifier)
+- `kyushu-kougoren-summer-qualifier-2018-boys`: Names printed with per-character spacing; family/given split inferred from the widest gap where unambiguous, otherwise joined
+- `kyushu-kougoren-summer-qualifier-2018-girls`: コース情報未登録: 佐賀ロイヤルゴルフクラブ
+- `kyushu-kougoren-summer-qualifier-2018-girls`: 全国高等学校ゴルフ選手権大会 九州大会 (national championship regional qualifier)
+- `kyushu-kougoren-summer-qualifier-2018-girls`: Names printed with per-character spacing; family/given split inferred from the widest gap where unambiguous, otherwise joined
+- `kyushu-kougoren-summer-qualifier-2019-boys`: コース情報未登録: かごしま空港36カントリークラブ
+- `kyushu-kougoren-summer-qualifier-2019-boys`: 第24回九州高等学校ゴルフ選手権大会 doubling as the national championship individual qualifier (=以上がマッチング・スコアカード方式により全国大会へ進出=)
+- `kyushu-kougoren-summer-qualifier-2019-boys`: Dates/venue/yardage from the competition page text; final-day sheet (最終日成績) used
+- `kyushu-kougoren-summer-qualifier-2019-boys`: Sheet footnote reports withdrawals (棄権2人, 欠場2人) that are not listed individually; not included
+- `kyushu-kougoren-summer-qualifier-2019-girls`: コース情報未登録: かごしま空港36カントリークラブ
+- `kyushu-kougoren-summer-qualifier-2019-girls`: 第24回九州高等学校ゴルフ選手権大会 doubling as the national championship individual qualifier (=以上がマッチング・スコアカード方式により全国大会へ進出=)
+- `kyushu-kougoren-summer-qualifier-2019-girls`: Dates/venue/yardage from the competition page text; final-day sheet (最終日成績) used
+- `kyushu-kougoren-summer-qualifier-2019-girls`: Sheet footnote reports withdrawals (棄権1人, 欠場1人) that are not listed individually; not included
+- `kyushu-kougoren-summer-qualifier-prelim-2016-boys`: コース情報未登録: 周防灘カントリークラブ
+- `kyushu-kougoren-summer-qualifier-prelim-2016-boys`: Preliminary (チャレンジゴルフ) for the 全国高等学校ゴルフ選手権大会九州大会 final (kyushu-kougoren-summer-qualifier-2016)
+- `kyushu-kougoren-summer-qualifier-prelim-2016-boys`: Single 18-hole round; date/venue from competition page text
+- `kyushu-kougoren-summer-qualifier-prelim-2016-boys`: Absentees (欠席) not included
+- `kyushu-kougoren-summer-qualifier-prelim-2016-boys`: 卒業年度が一致しない: 小瀬良竜大 (長崎日大) 2018 vs 2019
+- `kyushu-kougoren-summer-qualifier-prelim-2016-girls`: コース情報未登録: 周防灘カントリークラブ
+- `kyushu-kougoren-summer-qualifier-prelim-2016-girls`: Preliminary (チャレンジゴルフ) for the 全国高等学校ゴルフ選手権大会九州大会 final (kyushu-kougoren-summer-qualifier-2016)
+- `kyushu-kougoren-summer-qualifier-prelim-2016-girls`: Single 18-hole round; date/venue from competition page text
+- `kyushu-kougoren-summer-qualifier-prelim-2016-girls`: Absentees (欠席) not included
+- `kyushu-kougoren-summer-qualifier-prelim-2017-boys`: コース情報未登録: かごしま空港36カントリークラブ
+- `kyushu-kougoren-summer-qualifier-prelim-2017-boys`: Preliminary (チャレンジゴルフ) for the 全国高等学校ゴルフ選手権大会九州大会 final (kyushu-kougoren-summer-qualifier-2017)
+- `kyushu-kougoren-summer-qualifier-prelim-2017-boys`: Single 18-hole round; date/venue from competition page text; par/yardage not published
+- `kyushu-kougoren-summer-qualifier-prelim-2017-boys`: Absentees (欠席) not included
+- `kyushu-kougoren-summer-qualifier-prelim-2017-boys`: 卒業年度が一致しない: 安河内 蓮 (沖学園) 2018 vs 2019
+- `kyushu-kougoren-summer-qualifier-prelim-2017-girls`: コース情報未登録: かごしま空港36カントリークラブ
+- `kyushu-kougoren-summer-qualifier-prelim-2017-girls`: Preliminary (チャレンジゴルフ) for the 全国高等学校ゴルフ選手権大会九州大会 final (kyushu-kougoren-summer-qualifier-2017)
+- `kyushu-kougoren-summer-qualifier-prelim-2017-girls`: Single 18-hole round; date/venue from competition page text; par/yardage not published
+- `kyushu-kougoren-summer-qualifier-prelim-2017-girls`: Absentees (欠席) not included
+- `kyushu-kougoren-summer-qualifier-prelim-2018-boys`: コース情報未登録: かごしま空港36カントリークラブ
+- `kyushu-kougoren-summer-qualifier-prelim-2018-boys`: Preliminary (チャレンジゴルフ) for the 全国高等学校ゴルフ選手権大会九州大会 final (kyushu-kougoren-summer-qualifier-2018)
+- `kyushu-kougoren-summer-qualifier-prelim-2018-boys`: Single 18-hole round; date/venue from competition page text; par/yardage not published
+- `kyushu-kougoren-summer-qualifier-prelim-2018-boys`: Absentees (欠席) not included
+- `kyushu-kougoren-summer-qualifier-prelim-2018-girls`: コース情報未登録: かごしま空港36カントリークラブ
+- `kyushu-kougoren-summer-qualifier-prelim-2018-girls`: Preliminary (チャレンジゴルフ) for the 全国高等学校ゴルフ選手権大会九州大会 final (kyushu-kougoren-summer-qualifier-2018)
+- `kyushu-kougoren-summer-qualifier-prelim-2018-girls`: Single 18-hole round; date/venue from competition page text; par/yardage not published
+- `kyushu-kougoren-summer-qualifier-prelim-2018-girls`: Absentees (欠席) not included
+- `sgu-junior-2023-boys-15-17`: Final sheet (4 columns: boys/girls 15-17, boys/girls 12-14) parsed with pdfplumber by column; only the 15-17 columns used; DNS/R1-WD taken from the R1 sheet
+- `sgu-junior-2023-boys-15-17`: Names printed with spaced characters; family/given split only where the printed gap is clearly larger, otherwise joined without spaces
+- `sgu-junior-2023-boys-15-17`: Prefecture printed as one-character abbreviation (香/高/徳/愛) expanded
+- `sgu-junior-2023-boys-15-17`: 優 mapped to rank 1; ties T-prefixed; ☆/★/S marks not stored
+- `sgu-junior-2023-boys-15-17`: Same event as 2023 四国高等学校・中学校ゴルフ選手権大会 (individual), co-run with the Shikoku HS federation
+- `sgu-junior-2023-boys-15-17`: Some schools printed without 高 suffix (e.g. 高知中央, 英明高校)
+- `sgu-junior-2023-girls-15-17`: Final sheet (4 columns: boys/girls 15-17, boys/girls 12-14) parsed with pdfplumber by column; only the 15-17 columns used; DNS/R1-WD taken from the R1 sheet
+- `sgu-junior-2023-girls-15-17`: Names printed with spaced characters; family/given split only where the printed gap is clearly larger, otherwise joined without spaces
+- `sgu-junior-2023-girls-15-17`: Prefecture printed as one-character abbreviation (香/高/徳/愛) expanded
+- `sgu-junior-2023-girls-15-17`: 優 mapped to rank 1; ties T-prefixed; ☆/★/S marks not stored
+- `sgu-junior-2023-girls-15-17`: Same event as 2023 四国高等学校・中学校ゴルフ選手権大会 (individual), co-run with the Shikoku HS federation
+- `sgu-junior-2023-girls-15-17`: Some schools printed without 高 suffix (e.g. 高知中央, 英明高校)
+- `sgu-junior-2024-boys-15-17`: Final sheet (4 columns: boys/girls 15-17, boys/girls 12-14) parsed with pdfplumber by column; only the 15-17 columns used; DNS/R1-WD taken from the R1 sheet
+- `sgu-junior-2024-boys-15-17`: Names printed with spaced characters; family/given split only where the printed gap is clearly larger, otherwise joined without spaces
+- `sgu-junior-2024-boys-15-17`: Prefecture printed as one-character abbreviation (香/高/徳/愛) expanded
+- `sgu-junior-2024-boys-15-17`: 優 mapped to rank 1; ties T-prefixed; ☆/★/S marks not stored
+- `sgu-junior-2024-boys-15-17`: Same event as 2024 四国高等学校・中学校ゴルフ選手権大会 (individual), co-run with the Shikoku HS federation
+- `sgu-junior-2024-boys-15-17`: Some schools printed without 高 suffix (e.g. 高知中央, 英明高校)
+- `sgu-junior-2024-boys-15-17`: 卒業年度が一致しない: 森本 祥央 (明徳義塾高) 2026 vs 2025
+- `sgu-junior-2024-girls-15-17`: Final sheet (4 columns: boys/girls 15-17, boys/girls 12-14) parsed with pdfplumber by column; only the 15-17 columns used; DNS/R1-WD taken from the R1 sheet
+- `sgu-junior-2024-girls-15-17`: Names printed with spaced characters; family/given split only where the printed gap is clearly larger, otherwise joined without spaces
+- `sgu-junior-2024-girls-15-17`: Prefecture printed as one-character abbreviation (香/高/徳/愛) expanded
+- `sgu-junior-2024-girls-15-17`: 優 mapped to rank 1; ties T-prefixed; ☆/★/S marks not stored
+- `sgu-junior-2024-girls-15-17`: Same event as 2024 四国高等学校・中学校ゴルフ選手権大会 (individual), co-run with the Shikoku HS federation
+- `sgu-junior-2024-girls-15-17`: Some schools printed without 高 suffix (e.g. 高知中央, 英明高校)
 - `sgu-junior-2026-boys-15-17`: 4-column final sheet parsed with pdfplumber (column crop); names printed with spaced characters, family/given split restored from the R1 sheet where it prints a single space, otherwise joined without spaces
 - `sgu-junior-2026-boys-15-17`: Prefecture printed as one-character abbreviation (香/高/徳/愛) expanded
 - `sgu-junior-2026-boys-15-17`: 優 mapped to rank 1; ties T-prefixed
@@ -1103,6 +3446,28 @@
 - `sgu-junior-2026-girls-15-17`: 優 mapped to rank 1; ties T-prefixed
 - `sgu-junior-2026-girls-15-17`: Same event as 四国高等学校・中学校ゴルフ選手権 (individual) co-run with the Shikoku HS federation (2025 edition collected in data/raw/regional as shikoku-kougoren-summer-championship-2025-*)
 - `sgu-junior-2026-girls-15-17`: Some girls' schools printed without 高 suffix (e.g. 高知中央)
+- `tga-amateur-2022-boys`: コース情報未登録: 利府ゴルフ倶楽部
+- `tga-amateur-2022-boys`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
+- `tga-amateur-2022-boys`: field_size_total = players on the R1 page excluding 欠場 (116); rounds available: 4
+- `tga-amateur-2022-boys`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tga-amateur-2022-boys`: Tied positions T-prefixed using whole-field ties on the final page
+- `tga-amateur-2022-boys`: Cut after R2; missed-cut HS players listed with rank 'cut'
+- `tga-amateur-2022-boys`: Final-page marks kept in note
+- `tga-amateur-2023-boys`: コース情報未登録: グランディ那須白河ゴルフクラブ
+- `tga-amateur-2023-boys`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
+- `tga-amateur-2023-boys`: field_size_total = players on the R1 page excluding 欠場 (112); rounds available: 4
+- `tga-amateur-2023-boys`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tga-amateur-2023-boys`: Tied positions T-prefixed using whole-field ties on the final page
+- `tga-amateur-2023-boys`: Cut after R2; missed-cut HS players listed with rank 'cut'
+- `tga-amateur-2023-boys`: Final-page marks (◎ = qualifiers/award) kept in note
+- `tga-amateur-2024-boys`: コース情報未登録: 山形ゴルフ倶楽部
+- `tga-amateur-2024-boys`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
+- `tga-amateur-2024-boys`: field_size_total = players on the R1 page excluding 欠場 (114); rounds available: 4
+- `tga-amateur-2024-boys`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tga-amateur-2024-boys`: Tied positions T-prefixed using whole-field ties on the final page
+- `tga-amateur-2024-boys`: Cut after R2; missed-cut HS players listed with rank 'cut'
+- `tga-amateur-2024-boys`: R1 suspended for fog (TGA notice topics_detail.php?q=644)
+- `tga-amateur-2024-boys`: Final-page marks (◎ = qualifiers/award) kept in note
 - `tga-amateur-2025-boys`: コース情報未登録: 夏泊ゴルフリンクス
 - `tga-amateur-2025-boys`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
 - `tga-amateur-2025-boys`: field_size_total = players on the R1 sheet excluding 欠場 (115); rounds available: 4
@@ -1115,6 +3480,27 @@
 - `tga-amateur-2026-boys`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
 - `tga-amateur-2026-boys`: Tied positions T-prefixed using whole-field ties on the final sheet
 - `tga-amateur-2026-boys`: Cut after R2; missed-cut HS players listed with rank 'cut'
+- `tga-womens-amateur-2022-girls`: コース情報未登録: 仙台カントリー倶楽部
+- `tga-womens-amateur-2022-girls`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
+- `tga-womens-amateur-2022-girls`: field_size_total = players on the R1 page excluding 欠場 (50); rounds available: 3
+- `tga-womens-amateur-2022-girls`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tga-womens-amateur-2022-girls`: Tied positions T-prefixed using whole-field ties on the final page
+- `tga-womens-amateur-2022-girls`: No cut in 2022 (all finishers on the R3 page)
+- `tga-womens-amateur-2022-girls`: Final-page marks kept in note
+- `tga-womens-amateur-2023-girls`: コース情報未登録: 秋田カントリー倶楽部
+- `tga-womens-amateur-2023-girls`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
+- `tga-womens-amateur-2023-girls`: field_size_total = players on the R1 page excluding 欠場 (57); rounds available: 3
+- `tga-womens-amateur-2023-girls`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tga-womens-amateur-2023-girls`: Tied positions T-prefixed using whole-field ties on the final page
+- `tga-womens-amateur-2023-girls`: No cut in 2023 (all 57 on the R3 page)
+- `tga-womens-amateur-2023-girls`: Final-page marks kept in note
+- `tga-womens-amateur-2024-girls`: コース情報未登録: グランディ那須白河ゴルフクラブ
+- `tga-womens-amateur-2024-girls`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
+- `tga-womens-amateur-2024-girls`: field_size_total = players on the R1 page excluding 欠場 (49); rounds available: 3
+- `tga-womens-amateur-2024-girls`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tga-womens-amateur-2024-girls`: Tied positions T-prefixed using whole-field ties on the final page
+- `tga-womens-amateur-2024-girls`: Cut after R2; missed-cut HS players listed with rank 'cut'
+- `tga-womens-amateur-2024-girls`: Final-page marks kept in note
 - `tga-womens-amateur-2025-girls`: コース情報未登録: 泉国際ゴルフ倶楽部
 - `tga-womens-amateur-2025-girls`: Open amateur championship: only players whose affiliation is a high school (高校/高等学校/高等部) are included; ranks are positions in the whole field
 - `tga-womens-amateur-2025-girls`: field_size_total = players on the R1 sheet excluding 欠場 (56); rounds available: 3
@@ -1127,6 +3513,45 @@
 - `tga-womens-amateur-2026-girls`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
 - `tga-womens-amateur-2026-girls`: Tied positions T-prefixed using whole-field ties on the final sheet
 - `tga-womens-amateur-2026-girls`: Cut after R2; missed-cut HS players listed with rank 'cut'
+- `tohoku-junior-2022-boys-15-17`: コース情報未登録: 松島チサンカントリークラブ 松島コース
+- `tohoku-junior-2022-boys-15-17`: field_size_total = players on the R1 page excluding 欠場 (35); rounds available: 2
+- `tohoku-junior-2022-boys-15-17`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tohoku-junior-2022-boys-15-17`: Tied positions T-prefixed using whole-field ties on the final page
+- `tohoku-junior-2022-boys-15-17`: Mark ◎ on the result page (qualification for 日本ジュニア per TGA allocation) kept in note
+- `tohoku-junior-2022-boys-15-17`: Run by 東北ゴルフ連盟 (tga.gr.jp); in 2016-2024 this TGA junior was separate from the HS federation June event (see tohoku-kougoren-national-qualifier-*)
+- `tohoku-junior-2022-girls-15-17`: コース情報未登録: 松島チサンカントリークラブ 松島コース
+- `tohoku-junior-2022-girls-15-17`: field_size_total = players on the R1 page excluding 欠場 (21); rounds available: 2
+- `tohoku-junior-2022-girls-15-17`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tohoku-junior-2022-girls-15-17`: Tied positions T-prefixed using whole-field ties on the final page
+- `tohoku-junior-2022-girls-15-17`: Mark ◎ on the result page (qualification for 日本ジュニア per TGA allocation) kept in note
+- `tohoku-junior-2022-girls-15-17`: Run by 東北ゴルフ連盟 (tga.gr.jp); in 2016-2024 this TGA junior was separate from the HS federation June event (see tohoku-kougoren-national-qualifier-*)
+- `tohoku-junior-2023-boys-15-17`: コース情報未登録: 松島チサンカントリークラブ
+- `tohoku-junior-2023-boys-15-17`: field_size_total = players on the R1 page excluding 欠場 (37); rounds available: 2
+- `tohoku-junior-2023-boys-15-17`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tohoku-junior-2023-boys-15-17`: Tied positions T-prefixed using whole-field ties on the final page
+- `tohoku-junior-2023-boys-15-17`: Mark ◎ on the result page (qualification for 日本ジュニア per TGA allocation) kept in note
+- `tohoku-junior-2023-boys-15-17`: Run by 東北ゴルフ連盟 (tga.gr.jp); in 2016-2024 this TGA junior was separate from the HS federation June event (see tohoku-kougoren-national-qualifier-*)
+- `tohoku-junior-2023-girls-15-17`: コース情報未登録: 松島チサンカントリークラブ
+- `tohoku-junior-2023-girls-15-17`: field_size_total = players on the R1 page excluding 欠場 (31); rounds available: 2
+- `tohoku-junior-2023-girls-15-17`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tohoku-junior-2023-girls-15-17`: Tied positions T-prefixed using whole-field ties on the final page
+- `tohoku-junior-2023-girls-15-17`: Mark ◎ on the result page (qualification for 日本ジュニア per TGA allocation) kept in note
+- `tohoku-junior-2023-girls-15-17`: Run by 東北ゴルフ連盟 (tga.gr.jp); in 2016-2024 this TGA junior was separate from the HS federation June event (see tohoku-kougoren-national-qualifier-*)
+- `tohoku-junior-2024-boys-15-17`: コース情報未登録: 松島チサンカントリークラブ 仙台コース
+- `tohoku-junior-2024-boys-15-17`: field_size_total = players on the R1 page excluding 欠場 (33); rounds available: 1
+- `tohoku-junior-2024-boys-15-17`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tohoku-junior-2024-boys-15-17`: Tied positions T-prefixed using whole-field ties on the final page
+- `tohoku-junior-2024-boys-15-17`: 2024 event: lightning stoppage; the 2nd round was cancelled (TGA notice topics_detail.php?q=704), result is over 18 holes
+- `tohoku-junior-2024-boys-15-17`: Mark ◎ on the result page (qualification for 日本ジュニア per TGA allocation) kept in note
+- `tohoku-junior-2024-boys-15-17`: Run by 東北ゴルフ連盟 (tga.gr.jp); in 2016-2024 this TGA junior was separate from the HS federation June event (see tohoku-kougoren-national-qualifier-*)
+- `tohoku-junior-2024-boys-15-17`: 卒業年度が一致しない: 髙田 将 (八戸学院光星高等学校) 2026 vs 2025
+- `tohoku-junior-2024-girls-15-17`: コース情報未登録: 松島チサンカントリークラブ 仙台コース
+- `tohoku-junior-2024-girls-15-17`: field_size_total = players on the R1 page excluding 欠場 (36); rounds available: 1
+- `tohoku-junior-2024-girls-15-17`: Affiliation published as '<school><n>年'; grade parsed from it; school_prefecture not published
+- `tohoku-junior-2024-girls-15-17`: Tied positions T-prefixed using whole-field ties on the final page
+- `tohoku-junior-2024-girls-15-17`: 2024 event: lightning stoppage; the 2nd round was cancelled (TGA notice topics_detail.php?q=704), result is over 18 holes
+- `tohoku-junior-2024-girls-15-17`: Mark ◎ on the result page (qualification for 日本ジュニア per TGA allocation) kept in note
+- `tohoku-junior-2024-girls-15-17`: Run by 東北ゴルフ連盟 (tga.gr.jp); in 2016-2024 this TGA junior was separate from the HS federation June event (see tohoku-kougoren-national-qualifier-*)
 - `tohoku-junior-2025-boys-15-17`: コース情報未登録: みちのく国際ゴルフ倶楽部
 - `tohoku-junior-2025-boys-15-17`: Final-day result PDF of 第30回東北ジュニアゴルフ選手権競技 15～17歳の部 (兼 東北高等学校・中学校ゴルフ選手権 春季大会), hosted on the Tohoku HS federation site; all entrants are high-school students (school shown)
 - `tohoku-junior-2025-boys-15-17`: Ranks as published; ties converted to T-prefix; school_prefecture not printed
@@ -1145,6 +3570,237 @@
 - `tohoku-junior-2026-girls-15-17`: Ranks as published; ties converted to T-prefix; school_prefecture not printed
 - `tohoku-junior-2026-girls-15-17`: to_par computed from par 72
 - `tohoku-junior-2026-girls-15-17`: field size not printed; field_size_total = rows parsed
+- `tohoku-kougoren-autumn-2016-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2016-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2016-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2016-boys`: to_par computed from par 71 per round
+- `tohoku-kougoren-autumn-2016-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-autumn-2016-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2016-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2016-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2016-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2016-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-autumn-2017-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2017-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2017-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2017-boys`: to_par computed from par 71 per round
+- `tohoku-kougoren-autumn-2017-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2017-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2017-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2017-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2017-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-autumn-2018-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2018-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2018-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2018-boys`: to_par computed from par 71 per round
+- `tohoku-kougoren-autumn-2018-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2018-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2018-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2018-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2019-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2019-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2019-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2019-boys`: to_par computed from par 71 per round
+- `tohoku-kougoren-autumn-2019-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2019-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2019-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2019-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2020-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2020-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2020-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2020-boys`: to_par computed from par 71 per round
+- `tohoku-kougoren-autumn-2020-boys`: 2020 autumn held alongside the 全国高校・中学校ゴルフ選手権特別大会 東北予選 (団体戦); ★ marks players who qualified
+- `tohoku-kougoren-autumn-2020-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2020-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2020-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2020-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2020-girls`: 2020 autumn held alongside the 全国高校・中学校ゴルフ選手権特別大会 東北予選 (団体戦); ★ marks players who qualified
+- `tohoku-kougoren-autumn-2021-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2021-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2021-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2021-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2021-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-autumn-2021-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2021-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2021-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2021-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2021-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-autumn-2022-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2022-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2022-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2022-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2022-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-autumn-2022-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2022-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2022-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2022-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2023-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2023-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2023-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2023-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2023-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2023-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2023-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2023-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2024-boys`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2024-boys`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2024-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2024-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-autumn-2024-boys`: Some name glyphs were unmapped CIDs in the PDF and were filled from later records of the same player (see row notes)
+- `tohoku-kougoren-autumn-2024-girls`: コース情報未登録: 棚倉田舎倶楽部
+- `tohoku-kougoren-autumn-2024-girls`: Autumn Tohoku qualifier for the 全国高等学校ゴルフ選手権 春季大会; 2 rounds. Final-day sheet lists the whole field. Ranks unique by countback/playoff as published, not T-prefixed
+- `tohoku-kougoren-autumn-2024-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-autumn-2024-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2016-boys`: コース情報未登録: 盛岡ハイランドカントリークラブ
+- `tohoku-kougoren-national-qualifier-2016-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2016-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2016-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2016-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-national-qualifier-2016-girls`: コース情報未登録: 盛岡ハイランドカントリークラブ
+- `tohoku-kougoren-national-qualifier-2016-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2016-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2016-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2016-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-national-qualifier-2017-boys`: コース情報未登録: さくらんぼカントリークラブ
+- `tohoku-kougoren-national-qualifier-2017-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2017-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2017-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2017-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-national-qualifier-2017-girls`: コース情報未登録: さくらんぼカントリークラブ
+- `tohoku-kougoren-national-qualifier-2017-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2017-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2017-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2017-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-national-qualifier-2018-boys`: コース情報未登録: 八戸カントリークラブ
+- `tohoku-kougoren-national-qualifier-2018-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2018-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2018-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2018-girls`: コース情報未登録: 八戸カントリークラブ
+- `tohoku-kougoren-national-qualifier-2018-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2018-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2018-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2019-boys`: コース情報未登録: きたかみカントリークラブ
+- `tohoku-kougoren-national-qualifier-2019-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2019-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2019-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2019-girls`: コース情報未登録: きたかみカントリークラブ
+- `tohoku-kougoren-national-qualifier-2019-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2019-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2019-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2021-boys`: コース情報未登録: さくらんぼカントリークラブ
+- `tohoku-kougoren-national-qualifier-2021-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2021-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2021-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2021-boys`: Held 2021-07-06/07 (later than usual)
+- `tohoku-kougoren-national-qualifier-2021-girls`: コース情報未登録: さくらんぼカントリークラブ
+- `tohoku-kougoren-national-qualifier-2021-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2021-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2021-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2021-girls`: Held 2021-07-06/07 (later than usual)
+- `tohoku-kougoren-national-qualifier-2022-boys`: コース情報未登録: みちのく国際ゴルフ倶楽部
+- `tohoku-kougoren-national-qualifier-2022-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2022-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2022-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2022-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-national-qualifier-2022-girls`: コース情報未登録: みちのく国際ゴルフ倶楽部
+- `tohoku-kougoren-national-qualifier-2022-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2022-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2022-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2023-boys`: コース情報未登録: 宮古カントリークラブ
+- `tohoku-kougoren-national-qualifier-2023-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2023-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2023-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2023-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-national-qualifier-2023-girls`: コース情報未登録: 宮古カントリークラブ
+- `tohoku-kougoren-national-qualifier-2023-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2023-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2023-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2024-boys`: コース情報未登録: さくらんぼカントリークラブ
+- `tohoku-kougoren-national-qualifier-2024-boys`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2024-boys`: Last year under this name; from 2025 the June event became 東北ジュニア 15～17歳の部 兼 東北高校春季大会 (see tohoku-junior-2025-*)
+- `tohoku-kougoren-national-qualifier-2024-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2024-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-national-qualifier-2024-boys`: Some name glyphs were unmapped CIDs in the PDF and were filled from later records of the same player (see row notes)
+- `tohoku-kougoren-national-qualifier-2024-girls`: コース情報未登録: さくらんぼカントリークラブ
+- `tohoku-kougoren-national-qualifier-2024-girls`: Individual qualifier for the 全国高等学校ゴルフ選手権 (summer national championship); 2 rounds. Final-day sheet lists the whole field (no cut). Ranks unique by matching scorecard (countback) as published, not T-prefixed
+- `tohoku-kougoren-national-qualifier-2024-girls`: Last year under this name; from 2025 the June event became 東北ジュニア 15～17歳の部 兼 東北高校春季大会 (see tohoku-junior-2025-*)
+- `tohoku-kougoren-national-qualifier-2024-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-national-qualifier-2024-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2016-boys`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2016-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2016-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2016-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2016-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2016-girls`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2016-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2016-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2016-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2016-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2017-boys`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2017-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2017-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2017-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2017-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2017-girls`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2017-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2017-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2017-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2017-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2018-boys`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2018-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2018-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2018-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2018-girls`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2018-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2018-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2018-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2018-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2018-girls`: 卒業年度が一致しない: 吉住 百加 (東北) 2020 vs 2021
+- `tohoku-kougoren-summer-championship-2018-girls`: 卒業年度が一致しない: 藤原 芽衣 (東北) 2019 vs 2020
+- `tohoku-kougoren-summer-championship-2019-boys`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2019-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2019-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2019-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2019-girls`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2019-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2019-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2019-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2021-boys`: コース情報未登録: 宮古カントリークラブ
+- `tohoku-kougoren-summer-championship-2021-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2021-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2021-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2021-boys`: Boys and girls printed on one sheet (21tohkdk_f_a.pdf); played 2021-11-12 (postponed)
+- `tohoku-kougoren-summer-championship-2021-girls`: コース情報未登録: 宮古カントリークラブ
+- `tohoku-kougoren-summer-championship-2021-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2021-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2021-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2021-girls`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2021-girls`: Boys and girls printed on one sheet (21tohkdk_f_a.pdf); played 2021-11-12 (postponed)
+- `tohoku-kougoren-summer-championship-2022-boys`: コース情報未登録: 宮古カントリークラブ
+- `tohoku-kougoren-summer-championship-2022-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2022-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2022-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2022-girls`: コース情報未登録: 宮古カントリークラブ
+- `tohoku-kougoren-summer-championship-2022-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2022-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2022-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2023-boys`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2023-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2023-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2023-boys`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2023-boys`: Non-finishers (欠場/棄権/失格/DQ/NR) kept with rank code and the printed text in note; rounds hold any completed first-round score
+- `tohoku-kougoren-summer-championship-2023-girls`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2023-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2023-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2023-girls`: to_par computed from par 72 per round
+- `tohoku-kougoren-summer-championship-2024-boys`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2024-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2024-boys`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2024-boys`: Only the IN 9 holes were played (result sheet prints OUT 0 for every player); round_holes=[9], par=36 (IN), to_par computed from it, yardage left empty (sheet gives 18-hole yardage)
+- `tohoku-kougoren-summer-championship-2024-girls`: コース情報未登録: 富谷カントリークラブ
+- `tohoku-kougoren-summer-championship-2024-girls`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
+- `tohoku-kougoren-summer-championship-2024-girls`: School names published in short form as printed (e.g. 東北 = 東北高, 学法石川/学石, 八工大一, 光星); school_prefecture as printed
+- `tohoku-kougoren-summer-championship-2024-girls`: Only the IN 9 holes were played (result sheet prints OUT 0 for every player); round_holes=[9], par=36 (IN), to_par computed from it, yardage left empty (sheet gives 18-hole yardage)
 - `tohoku-kougoren-summer-championship-2025-boys`: コース情報未登録: 富谷カントリークラブ
 - `tohoku-kougoren-summer-championship-2025-boys`: Single 18-hole round; tied totals separated by matching scorecard (countback) as published, so ranks are unique and not T-prefixed
 - `tohoku-kougoren-summer-championship-2025-boys`: School names published in short form (e.g. 東北 = 東北高, 八戸光星 = 八戸学院光星高)
@@ -1178,6 +3834,26 @@
 - `jga-junior-2026-girls-15-17`: 佐藤 心裕 shown as CUT at 143 although 143 players listed above the cut line; transcribed as published, verify
 - `jga-junior-2026-girls-15-17`: Girls winner/final standings not captured; yardage not captured
 - `jga-junior-2026-girls-15-17`: Transcribed via WebFetch summarization model; ALBA Net (alt. source) could not be checked (fetch permission not granted)
+- `kokusupo-2018-boys-individual`: コース情報未登録: 福井国際カントリークラブ
+- `kokusupo-2018-boys-individual`: Source lists only name and prefecture (所属=都道府県); no school or grade published
+- `kokusupo-2018-boys-individual`: par not published on results page; to_par null
+- `kokusupo-2018-boys-individual`: Results site © Kyodo News Digital (official results system of the host prefecture, archived on the prefecture site)
+- `kokusupo-2018-boys-individual`: Tied ranks shown with T prefix (source prints same number)
+- `kokusupo-2018-boys-individual`: Name spacing: source full-width space between surname and given name kept as a half-width space
+- `kokusupo-2018-boys-team`: コース情報未登録: 福井国際カントリークラブ
+- `kokusupo-2018-boys-team`: Team page lists surnames only; members resolved to full names via individual results (same prefecture)
+- `kokusupo-2018-boys-team`: Member 'score' = member's 2-day total; all 3 scores counted (team day score = sum of 3 members, verified against individual rows)
+- `kokusupo-2018-boys-team`: Results site © Kyodo News Digital (official results system of the host prefecture, archived on the prefecture site)
+- `kokusupo-2022-boys-individual`: コース情報未登録: 西那須野カントリー倶楽部
+- `kokusupo-2022-boys-individual`: Source lists only name and prefecture (所属=都道府県); no school or grade published
+- `kokusupo-2022-boys-individual`: par not published on results page; to_par null
+- `kokusupo-2022-boys-individual`: Results site © Kyodo News Digital (official results system of the host prefecture, archived on the prefecture site)
+- `kokusupo-2022-boys-individual`: Tied ranks shown with T prefix (source prints same number)
+- `kokusupo-2022-boys-individual`: Name spacing: source full-width space between surname and given name kept as a half-width space
+- `kokusupo-2022-boys-team`: コース情報未登録: 西那須野カントリー倶楽部
+- `kokusupo-2022-boys-team`: Team page lists surnames only; members resolved to full names via individual results (same prefecture)
+- `kokusupo-2022-boys-team`: Member 'score' = member's 2-day total; all 3 scores counted (team day score = sum of 3 members, verified against individual rows)
+- `kokusupo-2022-boys-team`: Results site © Kyodo News Digital (official results system of the host prefecture, archived on the prefecture site)
 - `kokusupo-2023-boys-individual`: Source lists only name and prefecture (所属=都道府県); no school or grade published
 - `kokusupo-2023-boys-individual`: par not published on results page; to_par null
 - `kokusupo-2023-boys-individual`: Results site © Kyodo News Digital (official results system of the host prefecture)
@@ -1231,6 +3907,14 @@
 - `shizuoka-ga-junior-hsb-2025-boys`: 2025 result sheet lists no school names or grades; players are identified as HS only via the 高校の部 division.
 - `shizuoka-ga-junior-hsb-2025-girls`: コース情報未登録: 葛城ゴルフ倶楽部 宇刈コース
 - `shizuoka-ga-junior-hsb-2025-girls`: 2025 result sheet lists no school names or grades; players are identified as HS only via the 高校の部 division.
+- `ehime-ga-hs-championship-2021-boys`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2021-boys`: Scheduled 5/15; shortened to a one-day event on 6/19 held together with the 国体少年男子 selection (per the federation schedule page)
+- `ehime-ga-hs-championship-2021-boys`: Sheet prints names and OUT/IN/GR only: school and grade not printed; par not printed
+- `ehime-ga-hs-championship-2021-boys`: Middle-school entrants were listed on a separate sheet (omitted)
+- `ehime-ga-hs-championship-2021-girls`: 優勝 shown as rank 1
+- `ehime-ga-hs-championship-2021-girls`: Scheduled 5/15; shortened to a one-day event on 6/19 held together with the 国体少年男子 selection (per the federation schedule page)
+- `ehime-ga-hs-championship-2021-girls`: Sheet prints names and OUT/IN/GR only: school and grade not printed; par not printed
+- `ehime-ga-hs-championship-2021-girls`: Middle-school entrants were listed on a separate sheet (omitted)
 - `fukuoka-ga-junior-hs-2024-boys`: コース情報未登録: 若松ゴルフ倶楽部
 - `fukuoka-ga-junior-hs-2024-boys`: Published ranks are sequential (ties broken by countback, 優勝/準優勝 shown as 1/2), kept as published
 - `fukuoka-ga-junior-hs-2024-boys`: Results list no school or grade; players identified as high-school students only by the 高校生の部 division. school_prefecture=福岡 assumed from prefectural eligibility (not printed)
@@ -1289,407 +3973,1318 @@
 - `kagoshima-ga-kyushu-junior-qualifier-2026-girls`: 15-17 age division (九州ジュニア選手権 local qualifier); no school/grade printed. May include a 15-year-old 中学3年 in principle
 - `kagoshima-ga-kyushu-junior-qualifier-2026-girls`: Par not on the sheet; to_par null
 - `kagoshima-ga-kyushu-junior-qualifier-2026-girls`: Names: whitespace removed (spacing inconsistent)
+- `player-dedup`: 同一人物としてまとめた: p_00276153f556 → p_12206862d1c2 (七澤 勇太)
+- `player-dedup`: 同一人物としてまとめた: p_003c01d4ea4a → p_04cda8590efc (梶原 詠斗)
 - `player-dedup`: 同一人物としてまとめた: p_0074dee7ed17 → p_169c4b6ea4fb (稲田 堅心)
-- `player-dedup`: 同一人物としてまとめた: p_0160713dcbf4 → p_77f8740ba21d (倉重実風)
+- `player-dedup`: 同一人物としてまとめた: p_00ca30da817f → p_23e4fc322d3f (髙栁 守吏)
+- `player-dedup`: 同一人物としてまとめた: p_00e42a68e5d8 → p_8a70ff848357 (吉﨑大樹)
+- `player-dedup`: 同一人物としてまとめた: p_00efccd929ef → p_c8380cb07589 (新井 隆一)
+- `player-dedup`: 同一人物としてまとめた: p_012b5ffa1823 → p_25d6ef7f6fd7 (名越 大地)
+- `player-dedup`: 同一人物としてまとめた: p_0143804c3ca6 → p_974ec937db53 (大橋 浩太朗)
+- `player-dedup`: 同一人物としてまとめた: p_0160713dcbf4 → p_bf58f5e7b870 (倉重 実風)
+- `player-dedup`: 同一人物としてまとめた: p_0195c4c86351 → p_1524d62d7b95 (福岡 靖菜)
+- `player-dedup`: 同一人物としてまとめた: p_01a076aeefc2 → p_6690e4fd9ec9 (德安 季香)
+- `player-dedup`: 同一人物としてまとめた: p_01db78953a91 → p_26a04040a73a (島貫 海輝登)
+- `player-dedup`: 同一人物としてまとめた: p_01fb2ad23e57 → p_0a4be66fca78 (境澤有)
 - `player-dedup`: 同一人物としてまとめた: p_021373aad0cb → p_5d198e573593 (横内 優奈)
+- `player-dedup`: 同一人物としてまとめた: p_022f593dfc4e → p_e01e7f2bc2d0 (多田柊凛)
+- `player-dedup`: 同一人物としてまとめた: p_027aa65487c5 → p_4e28b18d346c (原田 大空)
+- `player-dedup`: 同一人物としてまとめた: p_02851c496721 → p_4aca4a2a7e78 (西澤 梓)
+- `player-dedup`: 同一人物としてまとめた: p_028c6362dd8e → p_a852a0604343 (吉田 太一)
 - `player-dedup`: 同一人物としてまとめた: p_02b2c646d18d → p_4e7c28090223 (渋川 煌)
 - `player-dedup`: 同一人物としてまとめた: p_030136bef78d → p_a193a13f27e9 (黒﨑 美羽)
+- `player-dedup`: 同一人物としてまとめた: p_0303a5e4b98f → p_a3f9a185fa81 (長谷川 希愛)
+- `player-dedup`: 同一人物としてまとめた: p_0307d520c354 → p_b3c259f8fa45 (山中 頌)
+- `player-dedup`: 同一人物としてまとめた: p_032d39b7f887 → p_64190e197d1d (岡村 皇希)
 - `player-dedup`: 同一人物としてまとめた: p_035236193ba2 → p_a4a378bc7ad9 (濱本悠真)
+- `player-dedup`: 同一人物としてまとめた: p_03685dab3b47 → p_4750571d30f7 (鈴木 柊里)
+- `player-dedup`: 同一人物としてまとめた: p_037fc2565b0e → p_4a2f66287cd0 (伊澤丈一郎)
+- `player-dedup`: 同一人物としてまとめた: p_0417c797a17d → p_a0c33ea52045 (石井 菜花)
 - `player-dedup`: 同一人物としてまとめた: p_0441143668cf → p_10eba2cbe4d7 (三崎滉司)
+- `player-dedup`: 同一人物としてまとめた: p_044564846afb → p_bd591d42d952 (桜庭禄碩)
+- `player-dedup`: 同一人物としてまとめた: p_047177a97615 → p_05b104e9e33e (登 愛菜)
 - `player-dedup`: 同一人物としてまとめた: p_0478d952bf4e → p_e4233530308e (髙浦 維吹)
+- `player-dedup`: 同一人物としてまとめた: p_057b7ec400a2 → p_3da47f36fab4 (新田 智央)
+- `player-dedup`: 同一人物としてまとめた: p_0595edb45ae5 → p_dbff81db577e (髙橋 海理)
+- `player-dedup`: 同一人物としてまとめた: p_05c313dcf263 → p_5ef02498c491 (黒木 鉄平)
+- `player-dedup`: 同一人物としてまとめた: p_05e21f1d7837 → p_9dbc0b066d28 (神谷 優太)
+- `player-dedup`: 同一人物としてまとめた: p_07b7abfc8123 → p_377de32007b6 (池田 太郎)
+- `player-dedup`: 同一人物としてまとめた: p_07f091c28de1 → p_bf9e7e099430 (板橋 永久)
 - `player-dedup`: 同一人物としてまとめた: p_086d12a91cff → p_d5a417f904e3 (外岩戸 晟士)
+- `player-dedup`: 同一人物としてまとめた: p_08775c5a5bd9 → p_5cf6898057e1 (高尾 嵐)
+- `player-dedup`: 同一人物としてまとめた: p_0880b626844d → p_66990e6d8b68 (久﨑 成)
 - `player-dedup`: 同一人物としてまとめた: p_0883fb94ab51 → p_abfb715fb223 (清水 莉理)
+- `player-dedup`: 同一人物としてまとめた: p_088963990cb2 → p_5215241fa530 (高垣玲雄)
+- `player-dedup`: 同一人物としてまとめた: p_098a1fd836e9 → p_33813489b615 (桑島 大紀)
+- `player-dedup`: 同一人物としてまとめた: p_099759f918f5 → p_c74642b46a6d (佐々木 俊輔)
 - `player-dedup`: 同一人物としてまとめた: p_09d0503cc228 → p_34bb0e0c056a (與儀 夢)
+- `player-dedup`: 同一人物としてまとめた: p_09ec82546231 → p_4523c927995e (馬場 道成)
+- `player-dedup`: 同一人物としてまとめた: p_0a06d11c3119 → p_758673373afe (賀数 心南)
+- `player-dedup`: 同一人物としてまとめた: p_0a572062308c → p_de33fc760272 (田邊 隆一)
 - `player-dedup`: 同一人物としてまとめた: p_0a5996c639f9 → p_d264bec2c67a (落合 虹凪)
+- `player-dedup`: 同一人物としてまとめた: p_0a6e8ee44ba2 → p_e1940aea4193 (鏡綱世)
 - `player-dedup`: 同一人物としてまとめた: p_0aa56b7a7124 → p_82fe45d98c26 (青井 姫奈)
+- `player-dedup`: 同一人物としてまとめた: p_0b07649876dc → p_3382f844996b (近藤 直杜)
 - `player-dedup`: 同一人物としてまとめた: p_0b2554551f77 → p_5c8f990ce097 (山口桃佳)
 - `player-dedup`: 同一人物としてまとめた: p_0b5d9db7de37 → p_c368472206ee (小山萌々香)
+- `player-dedup`: 同一人物としてまとめた: p_0b9e77005359 → p_6b18932c69c5 (三浦冬憂稀)
+- `player-dedup`: 同一人物としてまとめた: p_0bf3cc417ac7 → p_b2319a2ca0af (兎沢 日向)
 - `player-dedup`: 同一人物としてまとめた: p_0c2cabfaf6f8 → p_0d2e69b6e4d6 (神田 陽色)
+- `player-dedup`: 同一人物としてまとめた: p_0d67e0f5e499 → p_020bfb761e0e (三宅 結菜)
 - `player-dedup`: 同一人物としてまとめた: p_0d68d4d5d135 → p_6b7e104dda9f (峯田竜空)
+- `player-dedup`: 同一人物としてまとめた: p_0dbe5088b290 → p_059f5253692b (馬城颯士)
+- `player-dedup`: 同一人物としてまとめた: p_0dd4ead7d84a → p_f62d76ba67ff (高橋駿輔)
 - `player-dedup`: 同一人物としてまとめた: p_0e29347b1eee → p_0626cf54afc3 (石井 健梧)
+- `player-dedup`: 同一人物としてまとめた: p_0f45d0e998f2 → p_ccdb98a6de8e (岡本 陽菜)
+- `player-dedup`: 同一人物としてまとめた: p_0f622477d8f1 → p_6c889e6a55aa (梶田敬介)
+- `player-dedup`: 同一人物としてまとめた: p_0f65e79c9a68 → p_c8a0086c9dee (末廣 大地)
 - `player-dedup`: 同一人物としてまとめた: p_0fb6e5a01ee7 → p_42980d645b33 (高橋 桜月)
+- `player-dedup`: 同一人物としてまとめた: p_0fbf3c56c994 → p_d00991080efb (宝泉 研輝)
 - `player-dedup`: 同一人物としてまとめた: p_0ff2a8ece794 → p_47d71213d728 (山本 龍之介)
+- `player-dedup`: 同一人物としてまとめた: p_100114d8a3e4 → p_85a5f429fb4d (冨田 幸暉)
 - `player-dedup`: 同一人物としてまとめた: p_10095c800b43 → p_3f8bca0cdb9b (山林芽生)
+- `player-dedup`: 同一人物としてまとめた: p_10169654bfed → p_3bd15667a41b (上野山温華)
+- `player-dedup`: 同一人物としてまとめた: p_101c033c0054 → p_36800aa92b37 (朝枝宝)
 - `player-dedup`: 同一人物としてまとめた: p_101edff5ab35 → p_7fdcc08582a3 (西山 こころ)
 - `player-dedup`: 同一人物としてまとめた: p_10e0f4a69c0f → p_e232df3fdae1 (五十嵐 凛)
+- `player-dedup`: 同一人物としてまとめた: p_112c5b7d3303 → p_a5898c1b3aa2 (三本木智輝)
+- `player-dedup`: 同一人物としてまとめた: p_1183a27a11f8 → p_b4b38b1336e5 (重常来未)
 - `player-dedup`: 同一人物としてまとめた: p_11bf3c583c23 → p_0fb583ef5a83 (林田 遼汰)
 - `player-dedup`: 同一人物としてまとめた: p_120a881dd968 → p_0580b70d849f (華卓逸)
+- `player-dedup`: 同一人物としてまとめた: p_1250a67a0a0d → p_013b9747940a (徳光里菜)
+- `player-dedup`: 同一人物としてまとめた: p_1273d8bf1e82 → p_5d972985e1de (重常 花梨)
+- `player-dedup`: 同一人物としてまとめた: p_1293b7c034d6 → p_3fcc0135cd14 (長岡 航平)
 - `player-dedup`: 同一人物としてまとめた: p_12b1622b3bdf → p_a1345285f626 (江坂実桜)
-- `player-dedup`: 同一人物としてまとめた: p_1306a1b853be → p_a8575802e7a6 (橋本優那)
+- `player-dedup`: 同一人物としてまとめた: p_1358d90d9582 → p_1a2929919aee (花下苺)
+- `player-dedup`: 同一人物としてまとめた: p_138ea7f24bd8 → p_334fa4ecc4ed (野瀬 友晴)
 - `player-dedup`: 同一人物としてまとめた: p_13ce6e0e6ac3 → p_b0ba77d21805 (浦西 亮輔)
+- `player-dedup`: 同一人物としてまとめた: p_13de7817a334 → p_33e44e255d9a (鳥海 颯汰)
+- `player-dedup`: 同一人物としてまとめた: p_1404bdc3f467 → p_cd2a5d4dfde2 (島川 優真)
+- `player-dedup`: 同一人物としてまとめた: p_1405866e488f → p_24d517c5175e (丘 尊伍)
+- `player-dedup`: 同一人物としてまとめた: p_140a1e0bf373 → p_758cf08cbf4a (川上 知夏)
+- `player-dedup`: 同一人物としてまとめた: p_14462b3f79c4 → p_beccacb18362 (田村仁美)
 - `player-dedup`: 同一人物としてまとめた: p_145ab9784fb0 → p_96dcb8f1ac6f (木下 護元)
 - `player-dedup`: 同一人物としてまとめた: p_147a89d3dbf1 → p_b0f0fb422663 (梅本 りさ)
-- `player-dedup`: 同一人物としてまとめた: p_15507192932b → p_455daddd4a2d (髙田 将)
+- `player-dedup`: 同一人物としてまとめた: p_1486589195b9 → p_8d877190db7c (渡邊詩織)
+- `player-dedup`: 同一人物としてまとめた: p_14cba62a0f37 → p_4e914f15e2cc (平原 綾太)
+- `player-dedup`: 同一人物としてまとめた: p_15507192932b → p_bd783b2a6c5d (高田将)
+- `player-dedup`: 同一人物としてまとめた: p_1569cec9819a → p_024ee46e3b66 (溝部 渉)
 - `player-dedup`: 同一人物としてまとめた: p_156e0c4c0ed9 → p_1b761cc0a495 (濵口 紘)
+- `player-dedup`: 同一人物としてまとめた: p_159ceaeec55f → p_2ccb681c6812 (流尚暉)
+- `player-dedup`: 同一人物としてまとめた: p_15e8c899d2fa → p_c37e1254a3ec (楠田常乃)
+- `player-dedup`: 同一人物としてまとめた: p_15ebc593236b → p_04e0cfc57902 (中橋 隆慶)
+- `player-dedup`: 同一人物としてまとめた: p_161aad59bae4 → p_47942ced4a53 (平山 拓美)
 - `player-dedup`: 同一人物としてまとめた: p_161e022585dc → p_7a6683e3f26b (齋藤旬一)
 - `player-dedup`: 同一人物としてまとめた: p_165cea79edb1 → p_2fcfec474e0a (高橋銀)
+- `player-dedup`: 同一人物としてまとめた: p_166c345b42d3 → p_ebf5a4eb29ff (尾﨑 小梅)
+- `player-dedup`: 同一人物としてまとめた: p_1679c75d9512 → p_d85d3c35c0c0 (青山 彩花)
 - `player-dedup`: 同一人物としてまとめた: p_16a0413305b8 → p_0b36b81de360 (中上 遼真)
 - `player-dedup`: 同一人物としてまとめた: p_16a73a8680da → p_215fe5d3ac83 (小泉 星空斗)
+- `player-dedup`: 同一人物としてまとめた: p_17045111cc25 → p_eada3c6f64a8 (唐木田梨乃)
+- `player-dedup`: 同一人物としてまとめた: p_1712baf4c20b → p_8a235c9cd722 (髙橋 勇郎)
+- `player-dedup`: 同一人物としてまとめた: p_175c8cf5e8f4 → p_ea6133101db2 (大高優維)
 - `player-dedup`: 同一人物としてまとめた: p_175d5335428b → p_803b0420f015 (植村 夏帆)
-- `player-dedup`: 同一人物としてまとめた: p_17a5d2afb635 → p_2c583a9a8bc6 (小熊 宏典)
+- `player-dedup`: 同一人物としてまとめた: p_17bf720f3229 → p_8db41ce55f1d (伴 俊希)
 - `player-dedup`: 同一人物としてまとめた: p_17d25ef1f070 → p_1d5bbefbf835 (佐藤 涼音)
+- `player-dedup`: 同一人物としてまとめた: p_185b49a387c7 → p_600a0b62bdc5 (西村隼)
 - `player-dedup`: 同一人物としてまとめた: p_18934b4e83bc → p_72753c283d77 (小林 翔音)
+- `player-dedup`: 同一人物としてまとめた: p_18937b6e1549 → p_867743227469 (伊藤 奨真)
+- `player-dedup`: 同一人物としてまとめた: p_189e2a95eeee → p_642f6c8dc881 (浅野裕紀)
 - `player-dedup`: 同一人物としてまとめた: p_1918f4fdde64 → p_b22173cc5b66 (塩谷 凜太郎)
+- `player-dedup`: 同一人物としてまとめた: p_1959d238cd3c → p_50fbec37c5ed (齋藤 和瑛)
+- `player-dedup`: 同一人物としてまとめた: p_19f88f266704 → p_abef3810648f (香川ちよみ)
 - `player-dedup`: 同一人物としてまとめた: p_19fed87f3eb9 → p_28b2e59ee9b5 (新地 真美夏)
+- `player-dedup`: 同一人物としてまとめた: p_1a4576e920bc → p_f5da61efd010 (宮内美空)
 - `player-dedup`: 同一人物としてまとめた: p_1a6e46529ad3 → p_2216ccf8da05 (西脇優衣)
-- `player-dedup`: 同一人物としてまとめた: p_1b8e0394d5a5 → p_819825802723 (守山 真央)
+- `player-dedup`: 同一人物としてまとめた: p_1ae3cc7b7803 → p_aa2109a530d7 (堀本奈菜)
+- `player-dedup`: 同一人物としてまとめた: p_1af2f94ac31c → p_b167ea84b064 (上野 琴美)
+- `player-dedup`: 同一人物としてまとめた: p_1b269d2dba9c → p_7814caa51582 (田名田 嵩明)
+- `player-dedup`: 同一人物としてまとめた: p_1b2d0343a48d → p_bd591d42d952 (桜庭禄碩)
+- `player-dedup`: 同一人物としてまとめた: p_1b68f1a54a5a → p_c56a5f832f76 (寺山 晴登)
+- `player-dedup`: 同一人物としてまとめた: p_1b7199d3e1c0 → p_3efd9f958cb8 (桑島 雄)
+- `player-dedup`: 同一人物としてまとめた: p_1bbcad0606d2 → p_cf2ea612a3e3 (中村 優海)
+- `player-dedup`: 同一人物としてまとめた: p_1bc8cf3b4c5a → p_1a89e616e08e (森山亜衣)
+- `player-dedup`: 同一人物としてまとめた: p_1bd4388ed918 → p_559c52ae448b (田中 裕真)
+- `player-dedup`: 同一人物としてまとめた: p_1bd8481dda24 → p_967abef0ce01 (江草 悠斗)
+- `player-dedup`: 同一人物としてまとめた: p_1be7b246fe34 → p_f48f9cad51df (上國紗椰)
 - `player-dedup`: 同一人物としてまとめた: p_1c42244d5419 → p_18568a45be0f (竹丸理世)
-- `player-dedup`: 同一人物としてまとめた: p_1df0fef739b5 → p_fb0f446f4ea0 (黒瀬 雄一)
+- `player-dedup`: 同一人物としてまとめた: p_1c44285e9b9e → p_204ab8fe949d (和泉 健太郎)
+- `player-dedup`: 同一人物としてまとめた: p_1c8cf5757d04 → p_6410ae848361 (横山 元気)
+- `player-dedup`: 同一人物としてまとめた: p_1d519e161ffe → p_8313464704a4 (沖村 柊)
+- `player-dedup`: 同一人物としてまとめた: p_1e09d62b04ef → p_70229cb6df96 (佐野 夏奈)
+- `player-dedup`: 同一人物としてまとめた: p_1e2f1c434d2a → p_ab1c1a61020e (片岡 由香)
 - `player-dedup`: 同一人物としてまとめた: p_1ea77915891a → p_44abdcad8c1b (細川 泰志)
 - `player-dedup`: 同一人物としてまとめた: p_1ee01c3eaed4 → p_5c49b06ffb63 (大賀愛娘)
+- `player-dedup`: 同一人物としてまとめた: p_1f156b898d55 → p_593f7df9088b (杉﨑 聖仁)
+- `player-dedup`: 同一人物としてまとめた: p_1f59837781bc → p_bbdbcc47cc87 (松﨑 泰知)
+- `player-dedup`: 同一人物としてまとめた: p_1f5e64a242b5 → p_7f31a93cd708 (青戸 達哉)
+- `player-dedup`: 同一人物としてまとめた: p_201405fc3447 → p_39103f1b4582 (三浦 春輝)
+- `player-dedup`: 同一人物としてまとめた: p_201aa13da078 → p_d1331b627e12 (藤森 耶野)
+- `player-dedup`: 同一人物としてまとめた: p_20285faeffcb → p_1165c9533b1d (山本 一希)
+- `player-dedup`: 同一人物としてまとめた: p_20396679abf2 → p_c2dd7f2837d0 (加藤 巴琉)
+- `player-dedup`: 同一人物としてまとめた: p_204cecd9e43b → p_fa4ecba4b985 (湯原 光)
 - `player-dedup`: 同一人物としてまとめた: p_20646530e101 → p_954c551b684d (上野 航良)
 - `player-dedup`: 同一人物としてまとめた: p_206e6c1169fe → p_b0f0fb422663 (梅本 りさ)
+- `player-dedup`: 同一人物としてまとめた: p_209cee0da8a0 → p_4a09d412a884 (宮澤 美咲)
+- `player-dedup`: 同一人物としてまとめた: p_20b77833c707 → p_185625795e39 (橋本 拓真)
+- `player-dedup`: 同一人物としてまとめた: p_20fea29263ca → p_c2f06c142ead (髙田 圭一郎)
+- `player-dedup`: 同一人物としてまとめた: p_2122e8765c26 → p_0314e0c6308b (本間 渉)
+- `player-dedup`: 同一人物としてまとめた: p_21440de21c7d → p_924758b46915 (細野 勇策)
 - `player-dedup`: 同一人物としてまとめた: p_2187044c22e0 → p_ddb8be6808be (小池愛莉)
+- `player-dedup`: 同一人物としてまとめた: p_2192c613e9b6 → p_04e0cfc57902 (中橋 隆慶)
+- `player-dedup`: 同一人物としてまとめた: p_2197a2b5579a → p_7f4d6005e6fe (澤田陸冶)
+- `player-dedup`: 同一人物としてまとめた: p_21af6958b679 → p_8ed54a26a0f7 (山田 大介)
+- `player-dedup`: 同一人物としてまとめた: p_21bf96793d56 → p_c74642b46a6d (佐々木 俊輔)
 - `player-dedup`: 同一人物としてまとめた: p_220fa48bd9c1 → p_e6052ab362e4 (小林 凛太郎)
 - `player-dedup`: 同一人物としてまとめた: p_223809c2740a → p_1e7a69bb3a1b (當山 由菜)
+- `player-dedup`: 同一人物としてまとめた: p_224f009e76f9 → p_f446db6b44c3 (広山 雄大)
+- `player-dedup`: 同一人物としてまとめた: p_225829088688 → p_0314e0c6308b (本間 渉)
+- `player-dedup`: 同一人物としてまとめた: p_22b60cddece1 → p_4af1d8e19310 (大島 仁)
+- `player-dedup`: 同一人物としてまとめた: p_2324c0f49832 → p_be7369b532b9 (本田 恋華)
+- `player-dedup`: 同一人物としてまとめた: p_238d0a958495 → p_061347fb642d (栁原星空)
+- `player-dedup`: 同一人物としてまとめた: p_23a5708bbc57 → p_916a5b67a260 (井土 裕介)
+- `player-dedup`: 同一人物としてまとめた: p_23d3e5c11fef → p_1e4375ee9ea1 (坂本 優心)
+- `player-dedup`: 同一人物としてまとめた: p_23f8fb45c20f → p_80f9245ed97d (皆吉 愛寿香)
+- `player-dedup`: 同一人物としてまとめた: p_2402e0d06f52 → p_f5c44838b234 (赤瀬 新菜)
 - `player-dedup`: 同一人物としてまとめた: p_2409da60d09f → p_6db891fb7417 (髙坂信一郎)
+- `player-dedup`: 同一人物としてまとめた: p_245acb5dba32 → p_db9edc8b632e (古川 龍之介)
+- `player-dedup`: 同一人物としてまとめた: p_246105ef7857 → p_8881831666b4 (原理得)
+- `player-dedup`: 同一人物としてまとめた: p_2491729e342a → p_b3c259f8fa45 (山中 頌)
+- `player-dedup`: 同一人物としてまとめた: p_24ca36a4791a → p_89a567f1d2f4 (岩田 莞爾)
+- `player-dedup`: 同一人物としてまとめた: p_24dd427a962d → p_bd34c8318aab (西彩花)
 - `player-dedup`: 同一人物としてまとめた: p_25c99998c913 → p_f1f23c5e1ab5 (井川高宏)
+- `player-dedup`: 同一人物としてまとめた: p_260f59a732cc → p_efd1e68c08a3 (半田 乙姫)
+- `player-dedup`: 同一人物としてまとめた: p_262cf117d3c8 → p_5c03b9546b2b (平田 憲聖)
+- `player-dedup`: 同一人物としてまとめた: p_266d8e9fb8ab → p_40e53e52f239 (小林 航大)
+- `player-dedup`: 同一人物としてまとめた: p_267428e1d329 → p_5ac42792c771 (川﨑 智洋)
 - `player-dedup`: 同一人物としてまとめた: p_267d3242bd24 → p_6eb4cdd11423 (高田英太郎)
+- `player-dedup`: 同一人物としてまとめた: p_2684076e767d → p_c94561e497ec (下園 航太)
+- `player-dedup`: 同一人物としてまとめた: p_26f86c7d23b5 → p_0b54b98752fd (吉岡 瑞葵)
+- `player-dedup`: 同一人物としてまとめた: p_27172cfb19f2 → p_ec6c97fce63b (夏伐 蓮)
 - `player-dedup`: 同一人物としてまとめた: p_27c8d0f02709 → p_c7f067d35b3f (山岡瑠生)
+- `player-dedup`: 同一人物としてまとめた: p_27fc6532ccad → p_d12717e94987 (鈴木 希実也)
 - `player-dedup`: 同一人物としてまとめた: p_280c905b839e → p_9f38b25d7d79 (髙木 楓夏)
 - `player-dedup`: 同一人物としてまとめた: p_2843bcacabd9 → p_9a866e83f014 (鏡原良功斗)
+- `player-dedup`: 同一人物としてまとめた: p_28666b9ae249 → p_d0d8daae76fa (田中 伸乃輔)
+- `player-dedup`: 同一人物としてまとめた: p_289127807be4 → p_dd4977c08a66 (泉端 駿佑)
+- `player-dedup`: 同一人物としてまとめた: p_29446487b2f1 → p_1e8f118e754e (小林 周平)
+- `player-dedup`: 同一人物としてまとめた: p_2997ba82dd09 → p_dcc324b301df (松山 りな)
 - `player-dedup`: 同一人物としてまとめた: p_29a2599f4cfa → p_9aa48c696a56 (小野 航暉)
+- `player-dedup`: 同一人物としてまとめた: p_29d78bed08df → p_788fdc758c13 (石川慎之介)
 - `player-dedup`: 同一人物としてまとめた: p_29f1fbe236da → p_797fa5dd948f (高津 世和)
 - `player-dedup`: 同一人物としてまとめた: p_29f6e3a7777d → p_36147e627394 (比嘉玲王)
 - `player-dedup`: 同一人物としてまとめた: p_2a22a72c200a → p_129e1e4b1603 (重原大志)
+- `player-dedup`: 同一人物としてまとめた: p_2a2f957a0922 → p_07669e46b0d3 (佐々木凰樺)
+- `player-dedup`: 同一人物としてまとめた: p_2a3369b1f517 → p_b87f0b409fc3 (谷口 美月)
+- `player-dedup`: 同一人物としてまとめた: p_2a45f71bb4f4 → p_53d69a1ffa6f (永田 加奈恵)
+- `player-dedup`: 同一人物としてまとめた: p_2a71437264e2 → p_5ee651e0bf43 (中村 佳音)
 - `player-dedup`: 同一人物としてまとめた: p_2a7eee620c23 → p_6166931611e2 (園田結菜)
 - `player-dedup`: 同一人物としてまとめた: p_2ad28eec0849 → p_7ff972e7012c (原口友莉亜)
+- `player-dedup`: 同一人物としてまとめた: p_2ad9cb928550 → p_d1331b627e12 (藤森 耶野)
+- `player-dedup`: 同一人物としてまとめた: p_2b1bad5bbbc3 → p_235616d84fcf (落合 凌)
+- `player-dedup`: 同一人物としてまとめた: p_2b246ac58a3c → p_3d79b09c5b18 (仁木 卓磨)
+- `player-dedup`: 同一人物としてまとめた: p_2b55d3c008c2 → p_b35c69b4b1eb (丸山 夏蓮)
+- `player-dedup`: 同一人物としてまとめた: p_2ba7922e6b04 → p_5e5385a85067 (井口雄斗)
+- `player-dedup`: 同一人物としてまとめた: p_2bd57d8b5d4d → p_14dda1672df6 (寺田 陽斗)
+- `player-dedup`: 同一人物としてまとめた: p_2c13e003b3ad → p_ea6133101db2 (大高優維)
+- `player-dedup`: 同一人物としてまとめた: p_2c583a9a8bc6 → p_17a5d2afb635 (小熊 宏典)
+- `player-dedup`: 同一人物としてまとめた: p_2c8f1194a75d → p_fd47eb80ee02 (小山田 泰雅)
+- `player-dedup`: 同一人物としてまとめた: p_2ce434808f49 → p_fc7111899a53 (眞銅 彩加)
+- `player-dedup`: 同一人物としてまとめた: p_2d3c170ae381 → p_95401cbbc359 (岡田 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_2db2bd171896 → p_aac75e397fae (魚見 彩倉)
 - `player-dedup`: 同一人物としてまとめた: p_2ddf6ff97389 → p_d3bfb2131993 (川越 玲奈)
 - `player-dedup`: 同一人物としてまとめた: p_2ddfbd6b2f70 → p_3387126a983b (渡部 琴)
+- `player-dedup`: 同一人物としてまとめた: p_2e02b3409f85 → p_f5c44838b234 (赤瀬 新菜)
 - `player-dedup`: 同一人物としてまとめた: p_2e0fc1069696 → p_b22173cc5b66 (塩谷 凜太郎)
+- `player-dedup`: 同一人物としてまとめた: p_2e342bdbbb9a → p_bc1afc433779 (尾崎 敬也)
+- `player-dedup`: 同一人物としてまとめた: p_2e5c8590b235 → p_db9edc8b632e (古川 龍之介)
 - `player-dedup`: 同一人物としてまとめた: p_2e87de2a2a07 → p_a1345285f626 (江坂実桜)
 - `player-dedup`: 同一人物としてまとめた: p_2ea677e4328c → p_d3c85a77b08f (久我 健心)
-- `player-dedup`: 同一人物としてまとめた: p_2eee2e66032f → p_1d3d02e31ed3 (加藤麗奈)
+- `player-dedup`: 同一人物としてまとめた: p_2eb92a47c0f3 → p_531fb5791960 (小村 優太)
+- `player-dedup`: 同一人物としてまとめた: p_2eee2e66032f → p_1d3d02e31ed3 (加藤 麗奈)
 - `player-dedup`: 同一人物としてまとめた: p_2f33759ae3b8 → p_71332fceb005 (池田 優斗)
+- `player-dedup`: 同一人物としてまとめた: p_2f3971914ab1 → p_4a2f66287cd0 (伊澤丈一郎)
+- `player-dedup`: 同一人物としてまとめた: p_2f5e9a23152e → p_bf58f5e7b870 (倉重 実風)
 - `player-dedup`: 同一人物としてまとめた: p_2fab74c8fb5d → p_72949bc6de6c (小島 玲人)
 - `player-dedup`: 同一人物としてまとめた: p_2fb7b6ab05f1 → p_8f0f5cd03953 (白木 康友)
 - `player-dedup`: 同一人物としてまとめた: p_2fc3dca81ee2 → p_5d5c5cb31331 (小林聖)
 - `player-dedup`: 同一人物としてまとめた: p_2fd12ed31940 → p_eb8e817b9057 (吉野 陽翔)
+- `player-dedup`: 同一人物としてまとめた: p_2fd37d7c3fab → p_ca287961d872 (夫馬裕斗)
 - `player-dedup`: 同一人物としてまとめた: p_2fd626090455 → p_4ea76e596461 (斎藤 優空)
 - `player-dedup`: 同一人物としてまとめた: p_3016626f2900 → p_36147e627394 (比嘉玲王)
+- `player-dedup`: 同一人物としてまとめた: p_30831a8fcdbd → p_6a45ec4374cd (樽井 友哉)
+- `player-dedup`: 同一人物としてまとめた: p_30954778200d → p_3eae74007ffd (齋藤小花)
+- `player-dedup`: 同一人物としてまとめた: p_30a25dd169db → p_5c03b9546b2b (平田 憲聖)
+- `player-dedup`: 同一人物としてまとめた: p_30d2361c813b → p_a19b268eb730 (生源寺龍憲)
 - `player-dedup`: 同一人物としてまとめた: p_312c0fed6882 → p_abfb715fb223 (清水 莉理)
+- `player-dedup`: 同一人物としてまとめた: p_3203360af53c → p_125c82607ff9 (正宗 茉梨亜)
+- `player-dedup`: 同一人物としてまとめた: p_3207560ee675 → p_7d6695714bb7 (加藤 渉)
+- `player-dedup`: 同一人物としてまとめた: p_3264e254ba51 → p_40e53e52f239 (小林 航大)
+- `player-dedup`: 同一人物としてまとめた: p_3278a86a9508 → p_bbdbcc47cc87 (松﨑 泰知)
 - `player-dedup`: 同一人物としてまとめた: p_32e9af441c62 → p_e232df3fdae1 (五十嵐 凛)
+- `player-dedup`: 同一人物としてまとめた: p_3301230b6878 → p_412c21a68954 (市元 紳一朗)
+- `player-dedup`: 同一人物としてまとめた: p_335fa2f20782 → p_c1cf4bab57ac (菊池 諒太郎)
+- `player-dedup`: 同一人物としてまとめた: p_33b1c85e4702 → p_5e4cd725bcd9 (後根 愛斗)
+- `player-dedup`: 同一人物としてまとめた: p_33ce6d04200b → p_fbe601e623ab (武廣 えみり)
+- `player-dedup`: 同一人物としてまとめた: p_33e8786a7b99 → p_63bfca1f28d5 (大海 諒介)
+- `player-dedup`: 同一人物としてまとめた: p_3410994c019a → p_c61571136b06 (長田 珠希)
+- `player-dedup`: 同一人物としてまとめた: p_342839282a2c → p_0a98fda6e180 (藤井 太己)
 - `player-dedup`: 同一人物としてまとめた: p_3472d24606e0 → p_c25e5a8c91aa (光浪くるみ)
+- `player-dedup`: 同一人物としてまとめた: p_3492f6f7d944 → p_4962dc629520 (佐野 美奈)
+- `player-dedup`: 同一人物としてまとめた: p_34ac76585173 → p_f08d57deef48 (春名 彩羽)
+- `player-dedup`: 同一人物としてまとめた: p_3504ca7eefc1 → p_bd34c8318aab (西彩花)
 - `player-dedup`: 同一人物としてまとめた: p_351f535d6db2 → p_5ffbdf767c29 (本 大志)
+- `player-dedup`: 同一人物としてまとめた: p_35457f9c1815 → p_9f7c1ac835ba (白井 瑛)
+- `player-dedup`: 同一人物としてまとめた: p_355090a07451 → p_e60fa22e783b (徳丸 賢真)
 - `player-dedup`: 同一人物としてまとめた: p_35550d7cbf00 → p_7158a994ebcf (荒木 陽翔)
+- `player-dedup`: 同一人物としてまとめた: p_359885c3213d → p_3eae74007ffd (齋藤小花)
+- `player-dedup`: 同一人物としてまとめた: p_35a81a4e43d8 → p_6a45ec4374cd (樽井 友哉)
 - `player-dedup`: 同一人物としてまとめた: p_35c9a174106a → p_54437e67b877 (柴﨑 香凛)
+- `player-dedup`: 同一人物としてまとめた: p_3690596527f6 → p_f65f54363cc7 (小田嶋 永遠)
 - `player-dedup`: 同一人物としてまとめた: p_36a10f7affbd → p_1a1ca566aa2e (藤崎蒼太)
+- `player-dedup`: 同一人物としてまとめた: p_36f7ee1927e6 → p_161429bbf1ec (田中 貫太)
+- `player-dedup`: 同一人物としてまとめた: p_375618dd3277 → p_8946fda32b65 (小巻 香乃)
 - `player-dedup`: 同一人物としてまとめた: p_37bb0c747b0e → p_b00029259742 (大久保 友貴)
+- `player-dedup`: 同一人物としてまとめた: p_37bb6d5f1b18 → p_d5f280755bff (清丘俊)
+- `player-dedup`: 同一人物としてまとめた: p_37d4f64567a9 → p_758cf08cbf4a (川上 知夏)
+- `player-dedup`: 同一人物としてまとめた: p_386dba34fe63 → p_6f15af8c8df1 (三好将介)
+- `player-dedup`: 同一人物としてまとめた: p_386e63de01dd → p_864d4d7cda15 (久常 優樹)
+- `player-dedup`: 同一人物としてまとめた: p_38bc7695887d → p_06cc98ee9b10 (新井 陸大)
+- `player-dedup`: 同一人物としてまとめた: p_38d820f8097f → p_6ff4ead2d5b5 (桐生 肇)
 - `player-dedup`: 同一人物としてまとめた: p_390e8ebf7b7d → p_9d888470de81 (橋本 紅葉)
+- `player-dedup`: 同一人物としてまとめた: p_39617647d787 → p_d7fca6ba52be (徳永 弘樹)
+- `player-dedup`: 同一人物としてまとめた: p_3965bcac8340 → p_8b70dcf5ea2b (上田 翔太)
 - `player-dedup`: 同一人物としてまとめた: p_3985a1bf7fba → p_575900a7db70 (山室日菜)
 - `player-dedup`: 同一人物としてまとめた: p_3993b0d00d5a → p_2216ccf8da05 (西脇優衣)
 - `player-dedup`: 同一人物としてまとめた: p_39bc8696aaee → p_b7793ce7745b (藤井 響)
+- `player-dedup`: 同一人物としてまとめた: p_39ec6fb79978 → p_13e9ac7b22b7 (横山 もも)
+- `player-dedup`: 同一人物としてまとめた: p_39f481f0cf98 → p_39c181452a00 (上田梨紗子)
+- `player-dedup`: 同一人物としてまとめた: p_3a65f822622c → p_586b55c34a1e (野澤 竜次)
 - `player-dedup`: 同一人物としてまとめた: p_3a8531d7079c → p_215fe5d3ac83 (小泉 星空斗)
+- `player-dedup`: 同一人物としてまとめた: p_3aae807bb276 → p_49b61937ddfc (朴 相大)
+- `player-dedup`: 同一人物としてまとめた: p_3af93d023f0f → p_77008f876496 (上道成生)
+- `player-dedup`: 同一人物としてまとめた: p_3b3191fdbe4e → p_1c7eac3b3030 (笠原慶太)
+- `player-dedup`: 同一人物としてまとめた: p_3b58ca18ef34 → p_1e581d5023bf (成田 光希)
+- `player-dedup`: 同一人物としてまとめた: p_3b73c8c9d054 → p_59a3eb3ef2bf (子谷采)
+- `player-dedup`: 同一人物としてまとめた: p_3bcbf00023d9 → p_5a51dcb39807 (古賀 翔瑛)
+- `player-dedup`: 同一人物としてまとめた: p_3c158eccdcc1 → p_c0596d336c04 (原舞香)
+- `player-dedup`: 同一人物としてまとめた: p_3ce42d609a2b → p_0fdae45bb306 (八木 涼風)
 - `player-dedup`: 同一人物としてまとめた: p_3cf8a54a479a → p_bd591d42d952 (桜庭禄碩)
+- `player-dedup`: 同一人物としてまとめた: p_3d1503f601a1 → p_1e3b3e0ddd0b (栗林 夏希)
 - `player-dedup`: 同一人物としてまとめた: p_3dc9e594910a → p_59644ea9b5da (金拿仕)
+- `player-dedup`: 同一人物としてまとめた: p_3e26a03f0b20 → p_fe7944e88c1b (川﨑 孔大郎)
+- `player-dedup`: 同一人物としてまとめた: p_3e66fac63d12 → p_8889c1d4e595 (小木野 太優)
+- `player-dedup`: 同一人物としてまとめた: p_3ef54f5c301a → p_3c4f815dbe78 (清水 唯斗)
 - `player-dedup`: 同一人物としてまとめた: p_3ef77c2186a6 → p_6c6ca58a3283 (髙木 暢仁)
+- `player-dedup`: 同一人物としてまとめた: p_3f28d08c678b → p_22b5aefc415c (白川 真桜)
+- `player-dedup`: 同一人物としてまとめた: p_3f535f653220 → p_84b545c87064 (鈴木 陽彩)
 - `player-dedup`: 同一人物としてまとめた: p_3f7b4d31e3e5 → p_17717826902f (中山 凜花)
+- `player-dedup`: 同一人物としてまとめた: p_3f8bec5f55ac → p_916a5b67a260 (井土 裕介)
+- `player-dedup`: 同一人物としてまとめた: p_3fcb9138d4d3 → p_eb5620121ef1 (工藤 颯太)
+- `player-dedup`: 同一人物としてまとめた: p_3ffdc436eb28 → p_0de4fb16b64d (小出琢馬)
 - `player-dedup`: 同一人物としてまとめた: p_401549ffa5a7 → p_8b25fd562170 (森部 起基)
+- `player-dedup`: 同一人物としてまとめた: p_403aee9c8c89 → p_e51d27b0d237 (杉﨑 優人)
+- `player-dedup`: 同一人物としてまとめた: p_408564cb2d34 → p_fc78a3e3662a (髙木 美佑)
+- `player-dedup`: 同一人物としてまとめた: p_4097e676226e → p_fd983efe1d8a (鳥井 佑旺)
+- `player-dedup`: 同一人物としてまとめた: p_40c3a2771c07 → p_5286cf92e243 (小西瑞穂)
 - `player-dedup`: 同一人物としてまとめた: p_40fd987bd6ee → p_9442de52a7a8 (蓑手 陽和)
+- `player-dedup`: 同一人物としてまとめた: p_410e132ca0f0 → p_bf43316ef7f3 (山本 瑠奈)
+- `player-dedup`: 同一人物としてまとめた: p_414120d90cbe → p_44dc112d0688 (伊藤 せあら)
 - `player-dedup`: 同一人物としてまとめた: p_41cc624faba5 → p_3b7a727a6065 (島川 桃子)
+- `player-dedup`: 同一人物としてまとめた: p_424d43f1ffe8 → p_c0596d336c04 (原舞香)
 - `player-dedup`: 同一人物としてまとめた: p_425650a00473 → p_df07813acc73 (堤野 洋介)
+- `player-dedup`: 同一人物としてまとめた: p_427add21d27e → p_3fcc0135cd14 (長岡 航平)
+- `player-dedup`: 同一人物としてまとめた: p_42ba83a4a137 → p_059f5253692b (馬城颯士)
 - `player-dedup`: 同一人物としてまとめた: p_42d1ccd077fa → p_973ece7a9e9c (高田 あかり)
 - `player-dedup`: 同一人物としてまとめた: p_42f3a59809e1 → p_eace10b62647 (菊田 ひな)
 - `player-dedup`: 同一人物としてまとめた: p_430586682351 → p_7afd4b043437 (戸張 美音)
 - `player-dedup`: 同一人物としてまとめた: p_434fb6876ec0 → p_c45bb4b09831 (柳谷ひよ)
+- `player-dedup`: 同一人物としてまとめた: p_43a611e6ecca → p_f290c8bc5588 (西山 大翔)
+- `player-dedup`: 同一人物としてまとめた: p_4423b99d685e → p_b4b14af055f2 (濱中祐輝)
+- `player-dedup`: 同一人物としてまとめた: p_4464555a841a → p_22e1267d5c2e (河合 慈英)
+- `player-dedup`: 同一人物としてまとめた: p_44647abe3b10 → p_84a399a6c7b6 (申 朋香)
+- `player-dedup`: 同一人物としてまとめた: p_4469c59a4b2e → p_9106c6e989d0 (小笠原 唯愛)
+- `player-dedup`: 同一人物としてまとめた: p_44b6a917d79b → p_045c9e88daa4 (古市 将都)
+- `player-dedup`: 同一人物としてまとめた: p_44f078c2b114 → p_527c58345b49 (德安 李香)
 - `player-dedup`: 同一人物としてまとめた: p_450e3d0f5848 → p_b985391a9e17 (黒木 夢)
 - `player-dedup`: 同一人物としてまとめた: p_452c1629a2b2 → p_a3055a83363a (小野 翼)
 - `player-dedup`: 同一人物としてまとめた: p_454e765fa3eb → p_868da1edb888 (後藤 彩吹)
+- `player-dedup`: 同一人物としてまとめた: p_455daddd4a2d → p_bd783b2a6c5d (高田将)
+- `player-dedup`: 同一人物としてまとめた: p_4560ee198e8b → p_f30d7de1b9f3 (池田 春樹)
 - `player-dedup`: 同一人物としてまとめた: p_460e3c9ea6c5 → p_260f0805c89b (上野 剣慎)
 - `player-dedup`: 同一人物としてまとめた: p_46200bc73317 → p_dc68ba539c59 (田仲 琉雅)
-- `player-dedup`: 同一人物としてまとめた: p_4750571d30f7 → p_03685dab3b47 (鈴木柊里)
-- `player-dedup`: 同一人物としてまとめた: p_4809dd579c13 → p_afefad5b7aae (德永歩)
+- `player-dedup`: 同一人物としてまとめた: p_46e5b923494a → p_634d7a80d174 (中山 晴太)
+- `player-dedup`: 同一人物としてまとめた: p_46f526d441fd → p_67ab167b1aab (藤山 開晟)
+- `player-dedup`: 同一人物としてまとめた: p_4724802af27b → p_901624f8975d (河﨑 涼太)
+- `player-dedup`: 同一人物としてまとめた: p_472c7f2938fb → p_e60732a81a31 (平田 妃希)
+- `player-dedup`: 同一人物としてまとめた: p_47640e16794e → p_a4812296233e (中野 舞子)
+- `player-dedup`: 同一人物としてまとめた: p_4787d8074d01 → p_c264bfeee1a8 (文屋 快)
+- `player-dedup`: 同一人物としてまとめた: p_479f9f24b12d → p_204ab8fe949d (和泉 健太郎)
+- `player-dedup`: 同一人物としてまとめた: p_48073311361d → p_ba9cbba33e05 (山門莉子)
+- `player-dedup`: 同一人物としてまとめた: p_4809dd579c13 → p_afefad5b7aae (德永 歩)
+- `player-dedup`: 同一人物としてまとめた: p_481eeb050fb2 → p_42e9399b5328 (小島 彼呂徒)
 - `player-dedup`: 同一人物としてまとめた: p_489bea2b7a6d → p_2e6f46827f63 (山﨑 晴稀)
+- `player-dedup`: 同一人物としてまとめた: p_48d1db7f8570 → p_05b420aa73c6 (佐藤 あおい)
 - `player-dedup`: 同一人物としてまとめた: p_495e52695a19 → p_4770c9def8f1 (加藤勇翔)
+- `player-dedup`: 同一人物としてまとめた: p_499577a6062a → p_1215eef11361 (朱美宇)
+- `player-dedup`: 同一人物としてまとめた: p_499894e49fe6 → p_c1cf4bab57ac (菊池 諒太郎)
+- `player-dedup`: 同一人物としてまとめた: p_49b9b973b2bb → p_a43506ee5383 (米原 海斗)
+- `player-dedup`: 同一人物としてまとめた: p_49ce6232b3a0 → p_08ed849a263a (髙橋 一誠)
+- `player-dedup`: 同一人物としてまとめた: p_4ab8d8d06a0a → p_f3be3f81aa0c (伊藤泰良)
+- `player-dedup`: 同一人物としてまとめた: p_4ae96d027490 → p_bf821b019614 (若原 亮太)
+- `player-dedup`: 同一人物としてまとめた: p_4aea7a0e8ecb → p_f959924e1adb (岡野天馬)
+- `player-dedup`: 同一人物としてまとめた: p_4b01f4bc0d39 → p_3966e56eeba9 (山田 叡門)
 - `player-dedup`: 同一人物としてまとめた: p_4b7ac2b9100b → p_4ea76e596461 (斎藤 優空)
+- `player-dedup`: 同一人物としてまとめた: p_4c300717432f → p_3e364c022021 (近藤 莉子)
+- `player-dedup`: 同一人物としてまとめた: p_4c44a100b3ba → p_49c9c1c8baf2 (橋口仁海)
+- `player-dedup`: 同一人物としてまとめた: p_4c6192c0a303 → p_4d723d9b66ad (井戸川 純平)
+- `player-dedup`: 同一人物としてまとめた: p_4cb04d5ce30d → p_4af1d8e19310 (大島 仁)
+- `player-dedup`: 同一人物としてまとめた: p_4cde468f53f5 → p_5a4fa8524078 (藤井 琢巳)
+- `player-dedup`: 同一人物としてまとめた: p_4d5597e12336 → p_dc98c088870f (田中海翔)
+- `player-dedup`: 同一人物としてまとめた: p_4d8d77e154ed → p_0e55f5642d90 (金岡杏実)
+- `player-dedup`: 同一人物としてまとめた: p_4e0868ae6549 → p_e40a0590bfda (沖田悠輔)
 - `player-dedup`: 同一人物としてまとめた: p_4e8a2d089d9e → p_f6d26f7bba1a (八田凱斗)
+- `player-dedup`: 同一人物としてまとめた: p_4e8e701ecefd → p_de40c81482d1 (中道 ゆい)
 - `player-dedup`: 同一人物としてまとめた: p_4ef310a3796d → p_228908214ba8 (茂木美桜)
+- `player-dedup`: 同一人物としてまとめた: p_4f12d3e0e1bb → p_3efd9f958cb8 (桑島 雄)
+- `player-dedup`: 同一人物としてまとめた: p_4f1a64a14266 → p_fd47eb80ee02 (小山田 泰雅)
+- `player-dedup`: 同一人物としてまとめた: p_4f474a658bf6 → p_ab1c1a61020e (片岡 由香)
 - `player-dedup`: 同一人物としてまとめた: p_4f4be5889c14 → p_b22173cc5b66 (塩谷 凜太郎)
 - `player-dedup`: 同一人物としてまとめた: p_4f52ffb40e4a → p_868da1edb888 (後藤 彩吹)
+- `player-dedup`: 同一人物としてまとめた: p_4f6a48d1b1f2 → p_854730fc589d (吉本 七海)
+- `player-dedup`: 同一人物としてまとめた: p_5006a95c351c → p_3f657228570e (浜崎 未来)
+- `player-dedup`: 同一人物としてまとめた: p_5011e99bce45 → p_42450ad27ad2 (有本紫音)
 - `player-dedup`: 同一人物としてまとめた: p_5038c6e9f44c → p_88fd65d9723b (長﨑 大星)
+- `player-dedup`: 同一人物としてまとめた: p_5041e6a59bf3 → p_0310d52167ad (小出 美雨)
+- `player-dedup`: 同一人物としてまとめた: p_508454c4da83 → p_f3be3f81aa0c (伊藤泰良)
+- `player-dedup`: 同一人物としてまとめた: p_50c203fa7009 → p_25d6ef7f6fd7 (名越 大地)
 - `player-dedup`: 同一人物としてまとめた: p_50fd6a6cc43d → p_e5ac0b94fa1c (髙松寧々)
+- `player-dedup`: 同一人物としてまとめた: p_513438d142ee → p_2050a71707c9 (後藤周治)
+- `player-dedup`: 同一人物としてまとめた: p_51512a2a3bf8 → p_dae1f554c306 (石岡 蒼太)
+- `player-dedup`: 同一人物としてまとめた: p_516093e97086 → p_26e56481cbce (高橋 黎)
 - `player-dedup`: 同一人物としてまとめた: p_51fecf0a84a0 → p_dd10d90a3e8e (濵渕 裕生)
 - `player-dedup`: 同一人物としてまとめた: p_524944eecdd5 → p_96dcb8f1ac6f (木下 護元)
 - `player-dedup`: 同一人物としてまとめた: p_5293adef84f5 → p_82b6fb544fd0 (佐々木 花虹)
 - `player-dedup`: 同一人物としてまとめた: p_530e572198b8 → p_fa3d61c5ce66 (奥田亮太朗)
+- `player-dedup`: 同一人物としてまとめた: p_534c7686d3d4 → p_4de2e020e050 (茂苅大)
+- `player-dedup`: 同一人物としてまとめた: p_53706bdbabd1 → p_47942ced4a53 (平山 拓美)
+- `player-dedup`: 同一人物としてまとめた: p_538ece70c119 → p_e2a4f0be409b (相山蓮音)
+- `player-dedup`: 同一人物としてまとめた: p_53b0e9f69c08 → p_0c82bb9e32e3 (富塚玲音)
+- `player-dedup`: 同一人物としてまとめた: p_5421a0fccbaf → p_65add199d8b2 (梅田 彩里)
 - `player-dedup`: 同一人物としてまとめた: p_5435eddf39a7 → p_5e1bdea73025 (玉城豪華)
+- `player-dedup`: 同一人物としてまとめた: p_544b6a0303cb → p_94b14d233ec7 (上霞希歩)
+- `player-dedup`: 同一人物としてまとめた: p_5450be2cd4b6 → p_7284913d2b44 (川﨑 燦)
 - `player-dedup`: 同一人物としてまとめた: p_54a1aac8aed1 → p_13dcf4592f50 (目黒風)
+- `player-dedup`: 同一人物としてまとめた: p_54d0243f8c22 → p_4962dc629520 (佐野 美奈)
+- `player-dedup`: 同一人物としてまとめた: p_5526f9ac7100 → p_61b11b8be9ef (西川 紗加)
 - `player-dedup`: 同一人物としてまとめた: p_556f30625bcc → p_8b6c3d3c1bde (平田兼慎)
+- `player-dedup`: 同一人物としてまとめた: p_5576cf393587 → p_9183b5fc4d42 (中西 悠加)
 - `player-dedup`: 同一人物としてまとめた: p_557afcb73227 → p_c45bb4b09831 (柳谷ひよ)
+- `player-dedup`: 同一人物としてまとめた: p_5581c1c608c8 → p_192c959e1301 (小山内祐太)
+- `player-dedup`: 同一人物としてまとめた: p_5591c7362282 → p_b27070b3d8a2 (出田蒼海)
+- `player-dedup`: 同一人物としてまとめた: p_55a735162a6e → p_53e330356c6d (鈴木 菜々美)
+- `player-dedup`: 同一人物としてまとめた: p_5666f71b2809 → p_86e5f0a9452d (遠藤 銀河)
+- `player-dedup`: 同一人物としてまとめた: p_566891cfbd87 → p_d865a7384aa9 (米田 翔)
+- `player-dedup`: 同一人物としてまとめた: p_5690d83e70e0 → p_9d34f3586442 (太田 美羽)
+- `player-dedup`: 同一人物としてまとめた: p_56a941d348bc → p_9c3d52de76ea (池田 琉海)
+- `player-dedup`: 同一人物としてまとめた: p_56daea2eec63 → p_4a5e8fda34a9 (織田 信亮)
+- `player-dedup`: 同一人物としてまとめた: p_56f5bb976d52 → p_a6cd6ee7fa17 (佐々木 史奈)
 - `player-dedup`: 同一人物としてまとめた: p_571323ec0643 → p_57ba0b858ebc (平山 心暖)
 - `player-dedup`: 同一人物としてまとめた: p_571abfc07250 → p_7ff972e7012c (原口友莉亜)
 - `player-dedup`: 同一人物としてまとめた: p_57255ef10c3a → p_4479d0b144b4 (河野笑加)
 - `player-dedup`: 同一人物としてまとめた: p_578549beaf27 → p_4f5543615373 (林 琴奈)
+- `player-dedup`: 同一人物としてまとめた: p_57c5c0a8c502 → p_6ff4ead2d5b5 (桐生 肇)
 - `player-dedup`: 同一人物としてまとめた: p_57d8ca10b098 → p_a66cbac96328 (折本 朱心)
+- `player-dedup`: 同一人物としてまとめた: p_5838a6dbfef9 → p_efdad43994eb (植田 晃大)
 - `player-dedup`: 同一人物としてまとめた: p_588faec6345a → p_4289468c14d8 (宮崎 友希)
+- `player-dedup`: 同一人物としてまとめた: p_58e8e75494b2 → p_1b98b3eec8b0 (小林江梨子)
+- `player-dedup`: 同一人物としてまとめた: p_5913337bb997 → p_1f1f624371d7 (高栁 知希)
 - `player-dedup`: 同一人物としてまとめた: p_596be68f1dae → p_4366dabb0a64 (矢島葵)
+- `player-dedup`: 同一人物としてまとめた: p_59c1d3b92c73 → p_0d0be7d9402d (里 海舟)
+- `player-dedup`: 同一人物としてまとめた: p_59e6f2779c08 → p_f675c03ddddf (奥田宗一郎)
+- `player-dedup`: 同一人物としてまとめた: p_5b21f61bf765 → p_26813eb9cfbb (田中 陽菜)
+- `player-dedup`: 同一人物としてまとめた: p_5b953374a342 → p_059f5253692b (馬城颯士)
 - `player-dedup`: 同一人物としてまとめた: p_5b98002298ca → p_befdd8b59aee (鈴木 友渚)
 - `player-dedup`: 同一人物としてまとめた: p_5bad5f0d866f → p_3b8c2f8315e3 (齊藤 柚稀)
-- `player-dedup`: 同一人物としてまとめた: p_5e4cd725bcd9 → p_33b1c85e4702 (後根 愛斗)
+- `player-dedup`: 同一人物としてまとめた: p_5c8db40878e3 → p_d6b0591ef26a (髙橋 夢人)
+- `player-dedup`: 同一人物としてまとめた: p_5cc0ad811a79 → p_bd3ab90a3c3f (宮﨑樹里)
+- `player-dedup`: 同一人物としてまとめた: p_5dd91e35cbdf → p_531fb5791960 (小村 優太)
+- `player-dedup`: 同一人物としてまとめた: p_5e09dfae194d → p_202361b8f7ed (三浦 一真)
+- `player-dedup`: 同一人物としてまとめた: p_5e49709251c3 → p_b9fd07d1436e (久常 涼)
 - `player-dedup`: 同一人物としてまとめた: p_5e4d8b13d9fa → p_0b0ebc1a397a (土屋 姫心)
+- `player-dedup`: 同一人物としてまとめた: p_5e7008b1a888 → p_95401cbbc359 (岡田 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_5fa66844d691 → p_0b9cb3659792 (吉本 和生)
+- `player-dedup`: 同一人物としてまとめた: p_5fb058d14719 → p_3d078a1379de (中嶋大静)
+- `player-dedup`: 同一人物としてまとめた: p_5fb541e541e0 → p_433e1cff19c9 (池田 拓己)
+- `player-dedup`: 同一人物としてまとめた: p_5fdb1a728650 → p_acc2c408024b (塩路 千尋)
+- `player-dedup`: 同一人物としてまとめた: p_5feaa415e34a → p_a0f6de595f51 (安那 亜沙)
+- `player-dedup`: 同一人物としてまとめた: p_60a3bf85ce9d → p_84b545c87064 (鈴木 陽彩)
+- `player-dedup`: 同一人物としてまとめた: p_60d20f7db6e6 → p_15b81819d513 (田中健太郎)
+- `player-dedup`: 同一人物としてまとめた: p_60ec8ac805d3 → p_a8d87664565f (山﨑駿)
 - `player-dedup`: 同一人物としてまとめた: p_613b2026b7d8 → p_dd475f446cb4 (杉山 来應)
+- `player-dedup`: 同一人物としてまとめた: p_616449e7bc9c → p_4820c4a20cca (中原拓飛)
+- `player-dedup`: 同一人物としてまとめた: p_61a4ac747169 → p_e4f8db809ea7 (三上 花乃)
+- `player-dedup`: 同一人物としてまとめた: p_61ad7f3d3e50 → p_1785601e54ff (山崎 雄大)
 - `player-dedup`: 同一人物としてまとめた: p_620960fb0cff → p_1a05bbb7857b (島田皓)
+- `player-dedup`: 同一人物としてまとめた: p_621686ae5f00 → p_26fdc8dabcf8 (吉音羽)
+- `player-dedup`: 同一人物としてまとめた: p_622ba347553b → p_faa8b4bb7fba (野村優花)
+- `player-dedup`: 同一人物としてまとめた: p_6272bf8d066f → p_93e6067d0bda (矢内凜)
+- `player-dedup`: 同一人物としてまとめた: p_63073222027f → p_2f9c3a128922 (川口 莉歩)
+- `player-dedup`: 同一人物としてまとめた: p_63462f827c9b → p_83fa93710a97 (木内 真衣)
+- `player-dedup`: 同一人物としてまとめた: p_6354c2ce59d9 → p_bac1383e143c (井上 輝政)
+- `player-dedup`: 同一人物としてまとめた: p_636640e1c59e → p_8d403aac99a8 (一江真希)
 - `player-dedup`: 同一人物としてまとめた: p_6396fd94a35d → p_6c6ca58a3283 (髙木 暢仁)
+- `player-dedup`: 同一人物としてまとめた: p_63cd97d4a261 → p_1518adaa0cf2 (佐々木 琉月)
 - `player-dedup`: 同一人物としてまとめた: p_63e9e03d3252 → p_f00c8f79ef39 (荒木 清太郎)
+- `player-dedup`: 同一人物としてまとめた: p_63fd6cc2a0ab → p_23a39d557cd6 (吉本 龍斗)
+- `player-dedup`: 同一人物としてまとめた: p_6402013b038f → p_fee7a2322ff2 (竹川 雄喜)
+- `player-dedup`: 同一人物としてまとめた: p_64097aaa0115 → p_c2662a4e46b0 (下川 恵都)
+- `player-dedup`: 同一人物としてまとめた: p_64182b5e29c9 → p_4fbef52c365f (熊裕大)
+- `player-dedup`: 同一人物としてまとめた: p_6435b4820bfb → p_5ac42792c771 (川﨑 智洋)
+- `player-dedup`: 同一人物としてまとめた: p_6459cf7ce3bc → p_31fd79242760 (後藤 樹生)
+- `player-dedup`: 同一人物としてまとめた: p_645ba78ada66 → p_a4834b90bbc8 (辛島 寧那)
+- `player-dedup`: 同一人物としてまとめた: p_64690c39ea6d → p_46c675fd6128 (小井手 音葉)
 - `player-dedup`: 同一人物としてまとめた: p_6473d11fa6e4 → p_31e4e4be99c1 (大森 妃歩)
+- `player-dedup`: 同一人物としてまとめた: p_6491958ed973 → p_916a5b67a260 (井土 裕介)
+- `player-dedup`: 同一人物としてまとめた: p_653c9a07edcd → p_6f68476953e4 (中川 成美)
 - `player-dedup`: 同一人物としてまとめた: p_657c54e0ce24 → p_87d2fd5e5cd9 (佐藤 心々)
+- `player-dedup`: 同一人物としてまとめた: p_6584ad5c9ebb → p_2846aca5d18b (松本 壱虎)
+- `player-dedup`: 同一人物としてまとめた: p_659baa35a634 → p_6682083a401d (伊東 百華)
 - `player-dedup`: 同一人物としてまとめた: p_65cde13ba8a7 → p_b81d0467341a (北田聖久)
 - `player-dedup`: 同一人物としてまとめた: p_6604aec234f0 → p_abd8126ece8a (髙屋駿)
 - `player-dedup`: 同一人物としてまとめた: p_666b027714a7 → p_7775a9bc70d0 (篠﨑 夢叶)
 - `player-dedup`: 同一人物としてまとめた: p_66a8fed25be6 → p_7d7f109ca600 (光成 颯)
+- `player-dedup`: 同一人物としてまとめた: p_66ce79e8258d → p_d9db867fc828 (中道 まい)
 - `player-dedup`: 同一人物としてまとめた: p_6741096b83e8 → p_ec8739fc8971 (中嶋 月葉)
+- `player-dedup`: 同一人物としてまとめた: p_67483902b77d → p_3382f844996b (近藤 直杜)
+- `player-dedup`: 同一人物としてまとめた: p_67afa1f34c12 → p_3d414be1face (渡邉 圭一郎)
 - `player-dedup`: 同一人物としてまとめた: p_67b4ca66ded1 → p_182e62d436de (大村 和主馬)
-- `player-dedup`: 同一人物としてまとめた: p_67d748d45c80 → p_d64ad0203e99 (江川 昴)
+- `player-dedup`: 同一人物としてまとめた: p_67eedb8559d1 → p_23997809e4c6 (飯泉 瑠偉)
+- `player-dedup`: 同一人物としてまとめた: p_6823a87c1e19 → p_dae1f554c306 (石岡 蒼太)
+- `player-dedup`: 同一人物としてまとめた: p_683a7207a332 → p_4820c4a20cca (中原拓飛)
+- `player-dedup`: 同一人物としてまとめた: p_68485c1f6394 → p_502dd4674c79 (會田 煌己)
+- `player-dedup`: 同一人物としてまとめた: p_69261cd36f04 → p_b94ffdcaa1f9 (西山勇汰)
+- `player-dedup`: 同一人物としてまとめた: p_69561e0a2f81 → p_de40c81482d1 (中道 ゆい)
 - `player-dedup`: 同一人物としてまとめた: p_698ab18e950b → p_8fa992662bdc (森本 来生)
+- `player-dedup`: 同一人物としてまとめた: p_69a1970bd2ef → p_d1c754ea6601 (大嶋 宝)
 - `player-dedup`: 同一人物としてまとめた: p_69d1f8688526 → p_4743be7fd44c (中野 蒼人)
+- `player-dedup`: 同一人物としてまとめた: p_6a4c9069d3b8 → p_d0d8daae76fa (田中 伸乃輔)
+- `player-dedup`: 同一人物としてまとめた: p_6a5243ffaa85 → p_8fe032456e2b (山中大輝)
+- `player-dedup`: 同一人物としてまとめた: p_6a5b67e7abf9 → p_9183b5fc4d42 (中西 悠加)
 - `player-dedup`: 同一人物としてまとめた: p_6a85d1022bbc → p_0d2e69b6e4d6 (神田 陽色)
+- `player-dedup`: 同一人物としてまとめた: p_6abac6649d4b → p_9b3afca2e528 (髙江 龍星)
+- `player-dedup`: 同一人物としてまとめた: p_6ac6d78da92d → p_205e359b0de2 (吉本 翔雄)
+- `player-dedup`: 同一人物としてまとめた: p_6aceeebc56ee → p_dd2b2a3e05f4 (申 泰典)
+- `player-dedup`: 同一人物としてまとめた: p_6ae7d86c628a → p_10345bf0bab3 (坂口沙綾)
+- `player-dedup`: 同一人物としてまとめた: p_6aef97000553 → p_f290c8bc5588 (西山 大翔)
+- `player-dedup`: 同一人物としてまとめた: p_6b890e93c9ef → p_0eea59d982f0 (大久保 咲季)
+- `player-dedup`: 同一人物としてまとめた: p_6c9de77487d2 → p_815372a89a53 (田中仁)
 - `player-dedup`: 同一人物としてまとめた: p_6cda7076efd3 → p_17bb91b30f01 (井上 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_6cdab70fb666 → p_3d6d81af48f4 (北條 陽雲)
 - `player-dedup`: 同一人物としてまとめた: p_6d2174866b86 → p_8b6c3d3c1bde (平田兼慎)
+- `player-dedup`: 同一人物としてまとめた: p_6d7502b76c02 → p_1cbcdde74cc0 (黒川 逸輝)
+- `player-dedup`: 同一人物としてまとめた: p_6d86579e83fb → p_b04f045081bd (高木 美咲)
+- `player-dedup`: 同一人物としてまとめた: p_6da3dbb33942 → p_4ee0b2f610f5 (橋口心海)
+- `player-dedup`: 同一人物としてまとめた: p_6db25c584e5f → p_c25eb2373a6f (石岡 丈)
+- `player-dedup`: 同一人物としてまとめた: p_6db70777fc33 → p_2a60f4fe51eb (飯田 茜)
+- `player-dedup`: 同一人物としてまとめた: p_6eb1f49dad29 → p_d63a8b21eff6 (古澤 築)
+- `player-dedup`: 同一人物としてまとめた: p_6f01b7c1b8d9 → p_0e9993fe8d1c (窪田 隼人)
 - `player-dedup`: 同一人物としてまとめた: p_6f06fdcfed59 → p_4ea76e596461 (斎藤 優空)
+- `player-dedup`: 同一人物としてまとめた: p_6f1adc0fe980 → p_6f45355f56ef (石過龍次郎)
+- `player-dedup`: 同一人物としてまとめた: p_6f4e9e15ca29 → p_42a5c6028296 (阿形 凌央)
 - `player-dedup`: 同一人物としてまとめた: p_6f87f4c1a18e → p_6ec32c95989e (林田 万輪)
+- `player-dedup`: 同一人物としてまとめた: p_6f8b7c91170f → p_ed2bf32f9f95 (笠岡桜恭)
+- `player-dedup`: 同一人物としてまとめた: p_6faa44f2f28a → p_1e84f82fbf22 (大川 冬陽)
+- `player-dedup`: 同一人物としてまとめた: p_6facd0e23c28 → p_25c73155e68f (岩井 聡季)
+- `player-dedup`: 同一人物としてまとめた: p_7004288e205f → p_efdad43994eb (植田 晃大)
+- `player-dedup`: 同一人物としてまとめた: p_70274a1a1de6 → p_4bba5ff7dfb6 (髙橋 春人)
+- `player-dedup`: 同一人物としてまとめた: p_704007904fa0 → p_d94fc75b1622 (杉浦 悠太)
+- `player-dedup`: 同一人物としてまとめた: p_70534f27f7ba → p_c04bbb74f778 (上田萌々香)
+- `player-dedup`: 同一人物としてまとめた: p_705895e95120 → p_313d6b4996f1 (松浦俊輔)
 - `player-dedup`: 同一人物としてまとめた: p_706a1ff4eafb → p_e1a4369b3521 (長谷川 虎之丞)
+- `player-dedup`: 同一人物としてまとめた: p_709dff281a39 → p_369bc8ebab8c (松島 拓海)
+- `player-dedup`: 同一人物としてまとめた: p_70ed45e8aada → p_6b67d0fdf2e8 (石田優輝)
+- `player-dedup`: 同一人物としてまとめた: p_7124ddf88b2a → p_eadab13a9fed (木崎 哉汰)
+- `player-dedup`: 同一人物としてまとめた: p_71c39a1b5d65 → p_cf4e6af50b9c (角田 寧音)
+- `player-dedup`: 同一人物としてまとめた: p_71c99a5a3270 → p_d81636ee30c8 (髙岸 鈴)
+- `player-dedup`: 同一人物としてまとめた: p_720a0e06f900 → p_b9fd07d1436e (久常 涼)
 - `player-dedup`: 同一人物としてまとめた: p_721e521655ba → p_6b7e104dda9f (峯田竜空)
+- `player-dedup`: 同一人物としてまとめた: p_7253b280f166 → p_39b79b43534a (乙部 竜翔)
+- `player-dedup`: 同一人物としてまとめた: p_7301b880c0f9 → p_98e99721e858 (荒川 真彩)
+- `player-dedup`: 同一人物としてまとめた: p_732631280b70 → p_e6eca81e59cf (多良間伸平)
+- `player-dedup`: 同一人物としてまとめた: p_73298ff2e7b1 → p_72cfdc309bed (西山 陽斗)
+- `player-dedup`: 同一人物としてまとめた: p_7373e2b6c49b → p_0afe9a45804e (垣 美穂)
+- `player-dedup`: 同一人物としてまとめた: p_739c1bea8e6d → p_aaf51e18dc97 (田川日々海)
+- `player-dedup`: 同一人物としてまとめた: p_73a7ae66e349 → p_8f79a160da8d (吉沢 己咲)
+- `player-dedup`: 同一人物としてまとめた: p_73d6a643181c → p_dbff81db577e (髙橋 海理)
+- `player-dedup`: 同一人物としてまとめた: p_743de9af8dae → p_c2dd7f2837d0 (加藤 巴琉)
+- `player-dedup`: 同一人物としてまとめた: p_7446214d73bd → p_dcc324b301df (松山 りな)
 - `player-dedup`: 同一人物としてまとめた: p_746a7811968c → p_b0ece714edb2 (三本木実桜)
 - `player-dedup`: 同一人物としてまとめた: p_74bdf1c98cef → p_ee6c81710171 (叶 結衣)
+- `player-dedup`: 同一人物としてまとめた: p_7511e0df2726 → p_0afe9a45804e (垣 美穂)
+- `player-dedup`: 同一人物としてまとめた: p_752006a839c7 → p_37ffced86819 (井戸川 奈摘)
+- `player-dedup`: 同一人物としてまとめた: p_752940140502 → p_f94f03fdc1e8 (原田愛美莉)
+- `player-dedup`: 同一人物としてまとめた: p_7550f3c5a75e → p_302017f9a371 (加藤 祐紀)
+- `player-dedup`: 同一人物としてまとめた: p_7560d9802fc9 → p_0c0930bb6887 (幸田 悠華)
+- `player-dedup`: 同一人物としてまとめた: p_75cfbc882996 → p_7594b552364d (石本千太朗)
 - `player-dedup`: 同一人物としてまとめた: p_75f5b44424df → p_80f3fff33018 (保科 翔太)
+- `player-dedup`: 同一人物としてまとめた: p_76125a0f8686 → p_68c86bde365b (中野恵里花)
+- `player-dedup`: 同一人物としてまとめた: p_761e793b62a4 → p_b73de180b05d (難波 翔)
 - `player-dedup`: 同一人物としてまとめた: p_763ad27a9a5d → p_4ea76e596461 (斎藤 優空)
+- `player-dedup`: 同一人物としてまとめた: p_765b2993edb2 → p_f5c44838b234 (赤瀬 新菜)
 - `player-dedup`: 同一人物としてまとめた: p_76ada54669cc → p_31e4e4be99c1 (大森 妃歩)
+- `player-dedup`: 同一人物としてまとめた: p_76c30c3b461c → p_3966e56eeba9 (山田 叡門)
+- `player-dedup`: 同一人物としてまとめた: p_76c951f70485 → p_4478b612e684 (高崎 一希)
+- `player-dedup`: 同一人物としてまとめた: p_76cf8fe7c04f → p_a76aee3d91c0 (宮内 大遥)
+- `player-dedup`: 同一人物としてまとめた: p_76f30ca56be1 → p_70229cb6df96 (佐野 夏奈)
+- `player-dedup`: 同一人物としてまとめた: p_770be024d053 → p_eb111f3fafa0 (海老沢 源太朗)
+- `player-dedup`: 同一人物としてまとめた: p_774a167d7964 → p_49a67bf63257 (佐々木隼也)
+- `player-dedup`: 同一人物としてまとめた: p_775759730152 → p_ad85fe233d2f (川﨑日向汰)
+- `player-dedup`: 同一人物としてまとめた: p_779dde2177ca → p_b4847fd34182 (安部 明日香)
+- `player-dedup`: 同一人物としてまとめた: p_77e3b55f2c64 → p_1c61dff36201 (児玉 健太郎)
+- `player-dedup`: 同一人物としてまとめた: p_77f8740ba21d → p_bf58f5e7b870 (倉重 実風)
+- `player-dedup`: 同一人物としてまとめた: p_7821d2b348f9 → p_724d634d27bf (高橋 夏奈)
 - `player-dedup`: 同一人物としてまとめた: p_7822c4cb6a08 → p_0d2e69b6e4d6 (神田 陽色)
 - `player-dedup`: 同一人物としてまとめた: p_7870049a852c → p_4fb0aed9c7a9 (山崎太喜)
+- `player-dedup`: 同一人物としてまとめた: p_788c76d07421 → p_0f71654ee7c2 (今尾暢介)
+- `player-dedup`: 同一人物としてまとめた: p_78c66279da53 → p_f5c44838b234 (赤瀬 新菜)
+- `player-dedup`: 同一人物としてまとめた: p_78ce4976ca85 → p_f65f54363cc7 (小田嶋 永遠)
+- `player-dedup`: 同一人物としてまとめた: p_78f43f9ac569 → p_1cc2545643f4 (伊藤天智)
 - `player-dedup`: 同一人物としてまとめた: p_79194abf276c → p_4d757c1f5a06 (北岡優菜)
+- `player-dedup`: 同一人物としてまとめた: p_793dac0af4a3 → p_5b675b32b3b3 (普山綾心)
+- `player-dedup`: 同一人物としてまとめた: p_799033f10a18 → p_729872015f0e (沢田 新)
+- `player-dedup`: 同一人物としてまとめた: p_79b04dfb1946 → p_e35c200ef364 (大村 浩輔)
 - `player-dedup`: 同一人物としてまとめた: p_79ec679d987a → p_cf12b9439eed (大谷 麗音)
+- `player-dedup`: 同一人物としてまとめた: p_79f59f6c77a5 → p_b11668df4f96 (黒川 航輝)
+- `player-dedup`: 同一人物としてまとめた: p_79fee5eb2204 → p_49a55ecd22ca (中村 有希)
+- `player-dedup`: 同一人物としてまとめた: p_7a5d45765775 → p_05b420aa73c6 (佐藤 あおい)
 - `player-dedup`: 同一人物としてまとめた: p_7aa035cc2684 → p_db439ed023d0 (卜部陽久)
 - `player-dedup`: 同一人物としてまとめた: p_7aa7b8b4ff03 → p_214cf92b826d (大金 夏美)
+- `player-dedup`: 同一人物としてまとめた: p_7b068039ea09 → p_9183b5fc4d42 (中西 悠加)
 - `player-dedup`: 同一人物としてまとめた: p_7b07fe1ade5f → p_337cdfc47cf7 (渡辺櫂人)
+- `player-dedup`: 同一人物としてまとめた: p_7b8e2629e2ce → p_294735761f6f (小松里緒)
 - `player-dedup`: 同一人物としてまとめた: p_7bca49b2fb45 → p_6ec32c95989e (林田 万輪)
+- `player-dedup`: 同一人物としてまとめた: p_7bdebba43ac8 → p_4e28b18d346c (原田 大空)
+- `player-dedup`: 同一人物としてまとめた: p_7bfa76d56706 → p_bf6091f5997a (松山 翼)
+- `player-dedup`: 同一人物としてまとめた: p_7c01c303cb5f → p_1145e1909f97 (向井 七海)
+- `player-dedup`: 同一人物としてまとめた: p_7c29655b36b3 → p_60dd0ac02fb6 (神谷 至道)
 - `player-dedup`: 同一人物としてまとめた: p_7c624aab5eb0 → p_1d5bbefbf835 (佐藤 涼音)
+- `player-dedup`: 同一人物としてまとめた: p_7c9b3350e893 → p_e8f9ddb2746a (北上駿介)
+- `player-dedup`: 同一人物としてまとめた: p_7caa159cb211 → p_c97aac265863 (高田愛來)
+- `player-dedup`: 同一人物としてまとめた: p_7cb8e215e5ed → p_1026d2b863f5 (山田 倖太郎)
 - `player-dedup`: 同一人物としてまとめた: p_7cc573f353f2 → p_f1f23c5e1ab5 (井川高宏)
+- `player-dedup`: 同一人物としてまとめた: p_7ce627b5ea78 → p_08985c90052f (後藤周冶)
 - `player-dedup`: 同一人物としてまとめた: p_7ceb1a1388ae → p_7ec06f6166d9 (大久保 花)
 - `player-dedup`: 同一人物としてまとめた: p_7d1ff7a5acce → p_ae5522bf1829 (井関千悟)
+- `player-dedup`: 同一人物としてまとめた: p_7db1ae5e1633 → p_55dd56e3ba52 (中野 麟太朗)
+- `player-dedup`: 同一人物としてまとめた: p_7dd4e60ed65d → p_b3c259f8fa45 (山中 頌)
+- `player-dedup`: 同一人物としてまとめた: p_7e5fdc71095d → p_41b2860cfecb (平山 航之)
+- `player-dedup`: 同一人物としてまとめた: p_7ef558a6353c → p_702fcc4db484 (新城 莉李亜)
+- `player-dedup`: 同一人物としてまとめた: p_7f7c6f0a8b81 → p_13c507702aa5 (木村 太一)
 - `player-dedup`: 同一人物としてまとめた: p_7f9637b583c5 → p_a95a05fa32bc (坂倉拓未)
+- `player-dedup`: 同一人物としてまとめた: p_7fb1ca3004ac → p_606f11804dfe (桐生 慎太郎)
 - `player-dedup`: 同一人物としてまとめた: p_801af5336f69 → p_050e9e99e699 (園田 柚稀)
 - `player-dedup`: 同一人物としてまとめた: p_8041179bb9a8 → p_e8c5625d2c92 (神永 直輝)
 - `player-dedup`: 同一人物としてまとめた: p_806864cebfda → p_b81d0467341a (北田聖久)
+- `player-dedup`: 同一人物としてまとめた: p_806d145551ef → p_40e53e52f239 (小林 航大)
+- `player-dedup`: 同一人物としてまとめた: p_80f7dbb5fa4f → p_c1cf4bab57ac (菊池 諒太郎)
 - `player-dedup`: 同一人物としてまとめた: p_81167b9cc243 → p_36d9971721e4 (新垣 くらら)
+- `player-dedup`: 同一人物としてまとめた: p_81321d6cf800 → p_e51d27b0d237 (杉﨑 優人)
 - `player-dedup`: 同一人物としてまとめた: p_819200456317 → p_3e051ceb0f7d (松尾 桃子)
+- `player-dedup`: 同一人物としてまとめた: p_819825802723 → p_1b8e0394d5a5 (守山 真央)
+- `player-dedup`: 同一人物としてまとめた: p_81acfce14c27 → p_1adb77d2ec1c (渡邊 優人)
 - `player-dedup`: 同一人物としてまとめた: p_81d91b8c6922 → p_7333cd1bf20a (原 彩心)
+- `player-dedup`: 同一人物としてまとめた: p_81dea5ecb186 → p_a963e0525e4e (横井 優星)
+- `player-dedup`: 同一人物としてまとめた: p_81e4be8a2cd9 → p_6f747b6f5b27 (加賀谷心美)
+- `player-dedup`: 同一人物としてまとめた: p_8240002f4c03 → p_43a5aecd50c9 (石橋 澄空)
+- `player-dedup`: 同一人物としてまとめた: p_82f74397a41f → p_186f55bde200 (村上晴)
 - `player-dedup`: 同一人物としてまとめた: p_834c327c5b9d → p_9d34f3586442 (太田 美羽)
 - `player-dedup`: 同一人物としてまとめた: p_838048a454d6 → p_bce25459acb1 (松本 愛未)
+- `player-dedup`: 同一人物としてまとめた: p_83b65fb6227a → p_ff5bd5250f1d (祗園 美衣菜)
 - `player-dedup`: 同一人物としてまとめた: p_83bf1575daf2 → p_6eb4cdd11423 (高田英太郎)
+- `player-dedup`: 同一人物としてまとめた: p_83e46958755b → p_13e9ac7b22b7 (横山 もも)
 - `player-dedup`: 同一人物としてまとめた: p_83efc6efd9bc → p_6b7e104dda9f (峯田竜空)
+- `player-dedup`: 同一人物としてまとめた: p_83fb6296a95d → p_024ee46e3b66 (溝部 渉)
+- `player-dedup`: 同一人物としてまとめた: p_842b37d87afc → p_c47dbc0232c7 (山川 ルナ)
+- `player-dedup`: 同一人物としてまとめた: p_8438e910a719 → p_1145e1909f97 (向井 七海)
 - `player-dedup`: 同一人物としてまとめた: p_8447e652494a → p_b3d5df4a6fcb (米山 遼)
+- `player-dedup`: 同一人物としてまとめた: p_846be4acd324 → p_640741b1261d (高柳 守吏)
 - `player-dedup`: 同一人物としてまとめた: p_84853e336a84 → p_557652bde254 (小林 夢羽)
+- `player-dedup`: 同一人物としてまとめた: p_8490d740c2f8 → p_f80262042cd3 (梅川 真里)
+- `player-dedup`: 同一人物としてまとめた: p_852609296b26 → p_7308aa0b9b02 (日下瑞貴)
+- `player-dedup`: 同一人物としてまとめた: p_85ca8f833281 → p_6410ae848361 (横山 元気)
 - `player-dedup`: 同一人物としてまとめた: p_85e3716c0039 → p_8245505bdd24 (髙山 大維志)
+- `player-dedup`: 同一人物としてまとめた: p_869a06ea1ac7 → p_852ba0a7cb09 (上村 竜太)
+- `player-dedup`: 同一人物としてまとめた: p_86a0805c5edb → p_3fbb8cc0eb88 (森 愉生)
+- `player-dedup`: 同一人物としてまとめた: p_86b082cb74af → p_c8dd82d7d8cf (髙橋 芽依)
+- `player-dedup`: 同一人物としてまとめた: p_86d9cbe23938 → p_0749a1232061 (池羽 陽向)
+- `player-dedup`: 同一人物としてまとめた: p_86e12bb87441 → p_33bd629728d0 (池田 侑羅)
+- `player-dedup`: 同一人物としてまとめた: p_8700ea9810d0 → p_dc98c088870f (田中海翔)
+- `player-dedup`: 同一人物としてまとめた: p_87113b7ff74c → p_5fb1528b2970 (渡邉 都愛)
+- `player-dedup`: 同一人物としてまとめた: p_87216e1137bf → p_828f6f483f67 (濱野 太生輝)
+- `player-dedup`: 同一人物としてまとめた: p_87312146e60e → p_7c2929bcf99f (中川 初音)
+- `player-dedup`: 同一人物としてまとめた: p_873f117ccee4 → p_dfe289cfeab5 (山下海音)
+- `player-dedup`: 同一人物としてまとめた: p_877574f46113 → p_a47f87ee3eb3 (後藤 羽翼)
+- `player-dedup`: 同一人物としてまとめた: p_8790dcb2daf1 → p_eb84b95316a9 (武村昂)
 - `player-dedup`: 同一人物としてまとめた: p_87a8bae582fe → p_e5ac0b94fa1c (髙松寧々)
 - `player-dedup`: 同一人物としてまとめた: p_87b1183917e9 → p_a48bd390e826 (田邊 武士)
 - `player-dedup`: 同一人物としてまとめた: p_87d47e4d1657 → p_c0e2661f15f9 (浅井 晴太)
+- `player-dedup`: 同一人物としてまとめた: p_880413d8433a → p_606f11804dfe (桐生 慎太郎)
+- `player-dedup`: 同一人物としてまとめた: p_88099b191f80 → p_31fd79242760 (後藤 樹生)
+- `player-dedup`: 同一人物としてまとめた: p_8890b89b329e → p_0ef1a206a23d (尾関 彩美悠)
 - `player-dedup`: 同一人物としてまとめた: p_893b88a029cf → p_57ba0b858ebc (平山 心暖)
-- `player-dedup`: 同一人物としてまとめた: p_89a567f1d2f4 → p_24ca36a4791a (岩田 莞爾)
+- `player-dedup`: 同一人物としてまとめた: p_897a2022c779 → p_0ef1a206a23d (尾関 彩美悠)
 - `player-dedup`: 同一人物としてまとめた: p_89ae66db997a → p_aec32e99f29f (布目 紅羽)
+- `player-dedup`: 同一人物としてまとめた: p_8a5be9257dfd → p_922c273cd903 (植田梨奈)
+- `player-dedup`: 同一人物としてまとめた: p_8aa308a44473 → p_7d5856112691 (上野 陸)
 - `player-dedup`: 同一人物としてまとめた: p_8b09d6a46bae → p_c401da16c93b (金岡 璃古)
+- `player-dedup`: 同一人物としてまとめた: p_8b12151585bd → p_1f6be7789952 (野村 昂生)
+- `player-dedup`: 同一人物としてまとめた: p_8b143883e548 → p_1026d2b863f5 (山田 倖太郎)
+- `player-dedup`: 同一人物としてまとめた: p_8b7c59f1349e → p_3d414be1face (渡邉 圭一郎)
+- `player-dedup`: 同一人物としてまとめた: p_8b817bfd0b94 → p_45b59f5f9e71 (中村光希)
+- `player-dedup`: 同一人物としてまとめた: p_8bb4bad96018 → p_4909a1fb4d59 (眞山 龍太郎)
+- `player-dedup`: 同一人物としてまとめた: p_8bf6ab09c5db → p_559c52ae448b (田中 裕真)
+- `player-dedup`: 同一人物としてまとめた: p_8c4afb13300b → p_07b10489fb13 (大田 麗華)
+- `player-dedup`: 同一人物としてまとめた: p_8c7b0e74194f → p_95401cbbc359 (岡田 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_8c91f80bcb26 → p_f5cbfbe28c7f (川口 充志)
+- `player-dedup`: 同一人物としてまとめた: p_8c92264a0842 → p_549ad057ae72 (宮崎 琉)
+- `player-dedup`: 同一人物としてまとめた: p_8ca1e713efc6 → p_7a3184be747d (石川唯人)
+- `player-dedup`: 同一人物としてまとめた: p_8ca367a67bb3 → p_1538bd098e48 (栗田 己暖)
+- `player-dedup`: 同一人物としてまとめた: p_8cd535c818ff → p_2c0c1d620368 (川端 悠衣)
+- `player-dedup`: 同一人物としてまとめた: p_8cf7bebc58ad → p_dcc324b301df (松山 りな)
+- `player-dedup`: 同一人物としてまとめた: p_8d06ef4cbeba → p_350197c894ba (岡田 拓也)
+- `player-dedup`: 同一人物としてまとめた: p_8d6e912fa109 → p_a54a8212c96a (高尾 翔)
 - `player-dedup`: 同一人物としてまとめた: p_8e098c9ef12f → p_e3ddd9df4754 (荻窪 蒼萊)
+- `player-dedup`: 同一人物としてまとめた: p_8e5c7a093402 → p_3e53b7fe9ebc (牧野 光星)
+- `player-dedup`: 同一人物としてまとめた: p_8e73a869318a → p_3c0eaff1fd4d (萩原 大己)
+- `player-dedup`: 同一人物としてまとめた: p_8e778ea84b1d → p_fc78a3e3662a (髙木 美佑)
+- `player-dedup`: 同一人物としてまとめた: p_8e7ab3f98ba9 → p_04c0a5e052af (井上剛誌)
+- `player-dedup`: 同一人物としてまとめた: p_8e834780937d → p_1a2929919aee (花下苺)
+- `player-dedup`: 同一人物としてまとめた: p_8e924b79c89c → p_d8d0d87fdab1 (赤石愛花)
+- `player-dedup`: 同一人物としてまとめた: p_8eefc5fbd39c → p_cb2a0c0e4f40 (倉島 麻緒)
 - `player-dedup`: 同一人物としてまとめた: p_8fb98bc58f53 → p_32550ee052ee (山本武蔵)
-- `player-dedup`: 同一人物としてまとめた: p_901624f8975d → p_4724802af27b (河崎 涼太)
+- `player-dedup`: 同一人物としてまとめた: p_8fce08b55415 → p_a6cd6ee7fa17 (佐々木 史奈)
+- `player-dedup`: 同一人物としてまとめた: p_8fd3bb476f6b → p_586b55c34a1e (野澤 竜次)
+- `player-dedup`: 同一人物としてまとめた: p_8fe5dfc97c11 → p_c04c6324a5de (青山 晃大)
+- `player-dedup`: 同一人物としてまとめた: p_90058a740ed3 → p_dcdb91e18025 (岩﨑 美紀)
+- `player-dedup`: 同一人物としてまとめた: p_900d979100fd → p_9ef2737fd23b (高久 みなみ)
+- `player-dedup`: 同一人物としてまとめた: p_907d8c259872 → p_9c9de2fa3270 (佐川 安奈)
+- `player-dedup`: 同一人物としてまとめた: p_908639e76474 → p_a72afb416855 (長谷川 貴優)
+- `player-dedup`: 同一人物としてまとめた: p_909e8f919893 → p_3382f844996b (近藤 直杜)
 - `player-dedup`: 同一人物としてまとめた: p_90c53efcd245 → p_204d78220866 (三浦一汰)
+- `player-dedup`: 同一人物としてまとめた: p_90cfd89cd6bf → p_6ae163a2daee (大西樹里)
+- `player-dedup`: 同一人物としてまとめた: p_912bb6f0341d → p_4ee0b2f610f5 (橋口心海)
+- `player-dedup`: 同一人物としてまとめた: p_91bf6e57f64e → p_7b58f45342bb (唐下 明徒)
 - `player-dedup`: 同一人物としてまとめた: p_91dae28efdc8 → p_228908214ba8 (茂木美桜)
+- `player-dedup`: 同一人物としてまとめた: p_9223a98a3337 → p_4a2f66287cd0 (伊澤丈一郎)
+- `player-dedup`: 同一人物としてまとめた: p_92370a3ad544 → p_5cd7d32ef352 (鵜飼 麻央)
+- `player-dedup`: 同一人物としてまとめた: p_923ab46edd90 → p_5200594a92be (棚橋 舜)
 - `player-dedup`: 同一人物としてまとめた: p_924643164042 → p_0833874779d8 (井澤 駿斗)
+- `player-dedup`: 同一人物としてまとめた: p_924e2e50ec86 → p_c5ed7b3d5167 (髙里 由貴子)
+- `player-dedup`: 同一人物としてまとめた: p_9264b0066ad7 → p_aee31be80680 (角田瑚々奈)
 - `player-dedup`: 同一人物としてまとめた: p_9272f2eecc0e → p_9eafbf5af593 (東恩納 昊貴)
+- `player-dedup`: 同一人物としてまとめた: p_92884eb7d62c → p_68c86bde365b (中野恵里花)
+- `player-dedup`: 同一人物としてまとめた: p_9295bbfd5321 → p_a40993d1a28f (河本 留奈)
+- `player-dedup`: 同一人物としてまとめた: p_929cb0054365 → p_fa4ecba4b985 (湯原 光)
 - `player-dedup`: 同一人物としてまとめた: p_92b082a86fe3 → p_eb40204c85f8 (中山雄太)
 - `player-dedup`: 同一人物としてまとめた: p_92b75483b96b → p_7afd4b043437 (戸張 美音)
+- `player-dedup`: 同一人物としてまとめた: p_92bb311d14b0 → p_e2a4f0be409b (相山蓮音)
 - `player-dedup`: 同一人物としてまとめた: p_92c7a4215ad9 → p_897017c904ac (大町晋太郎)
+- `player-dedup`: 同一人物としてまとめた: p_932206a3502c → p_856d6e75a11c (佐渡山 理莉)
+- `player-dedup`: 同一人物としてまとめた: p_934b95348245 → p_2dd5cc860c6e (須藤 晶)
+- `player-dedup`: 同一人物としてまとめた: p_93b6f6f13e1c → p_70d88af96948 (村中良蘭)
+- `player-dedup`: 同一人物としてまとめた: p_93f35ed1d753 → p_e6eca81e59cf (多良間伸平)
+- `player-dedup`: 同一人物としてまとめた: p_9472b06e9f61 → p_dba63c5d6227 (小山内 亜泉)
+- `player-dedup`: 同一人物としてまとめた: p_948efdc40e8a → p_8c2b21320758 (小野里 リア)
+- `player-dedup`: 同一人物としてまとめた: p_94d92a93a502 → p_824165357f35 (神田 ひなた)
 - `player-dedup`: 同一人物としてまとめた: p_94fc6a17112c → p_cff3cd2cbbc5 (坂本 遥)
 - `player-dedup`: 同一人物としてまとめた: p_9505547e279f → p_f539a44fd6df (木村小梅)
-- `player-dedup`: 同一人物としてまとめた: p_957cb0857801 → p_03685dab3b47 (鈴木柊里)
+- `player-dedup`: 同一人物としてまとめた: p_951646dd1b54 → p_7b248353fe8d (桒原 愛果)
+- `player-dedup`: 同一人物としてまとめた: p_954fb25e6d6f → p_0c8c0eb9c6f0 (髙田 花恋)
+- `player-dedup`: 同一人物としてまとめた: p_955634e426a7 → p_4b3d4a2ee093 (菊地 りお)
+- `player-dedup`: 同一人物としてまとめた: p_957cb0857801 → p_4750571d30f7 (鈴木 柊里)
+- `player-dedup`: 同一人物としてまとめた: p_95f8ce076919 → p_8bad13c54e5e (東出 大雅)
 - `player-dedup`: 同一人物としてまとめた: p_964f8588cc9c → p_196c07965d51 (福武 采実)
 - `player-dedup`: 同一人物としてまとめた: p_967af54f6e15 → p_49bf2fc00aec (水野 優)
+- `player-dedup`: 同一人物としてまとめた: p_96a9eb9bc3bd → p_89c8b2579bc7 (西田 侑生)
 - `player-dedup`: 同一人物としてまとめた: p_96bd7e34ff7d → p_bd9693cd137f (井村 栄斗)
+- `player-dedup`: 同一人物としてまとめた: p_96bf5ec3a663 → p_5dd0f3ffd4f8 (植田 玲央)
+- `player-dedup`: 同一人物としてまとめた: p_96f67a3c5530 → p_417df2b77b34 (村田尚哉)
+- `player-dedup`: 同一人物としてまとめた: p_973bfc57da08 → p_70229cb6df96 (佐野 夏奈)
+- `player-dedup`: 同一人物としてまとめた: p_975c5c32c284 → p_2e8fa54afd4c (須江 唯加)
+- `player-dedup`: 同一人物としてまとめた: p_9786b00fe15d → p_44ab6ce3ab77 (中野渡聖也)
 - `player-dedup`: 同一人物としてまとめた: p_97b4c8162655 → p_18f82a84a177 (鳩宿夢叶)
+- `player-dedup`: 同一人物としてまとめた: p_97cd33e3a785 → p_8c9223582e93 (寳多華紀)
 - `player-dedup`: 同一人物としてまとめた: p_98464ef22674 → p_8cd1f028fda4 (高橋流桜)
 - `player-dedup`: 同一人物としてまとめた: p_9856cb6df080 → p_0b36b81de360 (中上 遼真)
+- `player-dedup`: 同一人物としてまとめた: p_987ab298ca90 → p_c811d08aecfb (河邉 匠)
 - `player-dedup`: 同一人物としてまとめた: p_98b8435f04a0 → p_dbe29c24f349 (小松莉杏)
+- `player-dedup`: 同一人物としてまとめた: p_98c2d24d725c → p_a24b6b04a227 (小野 貴之)
+- `player-dedup`: 同一人物としてまとめた: p_98efc01f0c00 → p_8b45837d4267 (筆本翔太)
+- `player-dedup`: 同一人物としてまとめた: p_996d31510b73 → p_bf168eaf9641 (寺西 遼馬)
+- `player-dedup`: 同一人物としてまとめた: p_9984c6e68804 → p_bf58f5e7b870 (倉重 実風)
+- `player-dedup`: 同一人物としてまとめた: p_99a251ece013 → p_8b2fff1a4f72 (藤田 侑)
+- `player-dedup`: 同一人物としてまとめた: p_9a866f745721 → p_24864d33d930 (藤田 虹空)
+- `player-dedup`: 同一人物としてまとめた: p_9a8ed111a599 → p_13e9ac7b22b7 (横山 もも)
 - `player-dedup`: 同一人物としてまとめた: p_9abcd67fe191 → p_364cc408b538 (中山智晴)
+- `player-dedup`: 同一人物としてまとめた: p_9adffa59e6b1 → p_72c45fd400aa (井上 俊樹)
+- `player-dedup`: 同一人物としてまとめた: p_9ae5f608368a → p_e2f353ff69d7 (楠山 萌)
+- `player-dedup`: 同一人物としてまとめた: p_9aea09534832 → p_3fba18ccefe9 (西川 優臣)
 - `player-dedup`: 同一人物としてまとめた: p_9b00387932cf → p_267fd1fabd0b (吉田 遼雅)
+- `player-dedup`: 同一人物としてまとめた: p_9b07e0a28228 → p_628971ab6935 (竹内 麗花)
 - `player-dedup`: 同一人物としてまとめた: p_9b4bb71dbffe → p_ea536fb1a3fa (小島 駿斗)
 - `player-dedup`: 同一人物としてまとめた: p_9b7d3523a43e → p_88591d7275bb (上田 涼真)
+- `player-dedup`: 同一人物としてまとめた: p_9b86b7173fe4 → p_8a235c9cd722 (髙橋 勇郎)
+- `player-dedup`: 同一人物としてまとめた: p_9bbfc8c6f83b → p_673eb3ec3947 (久永 萌々香)
+- `player-dedup`: 同一人物としてまとめた: p_9bddf88d778b → p_4a09d412a884 (宮澤 美咲)
+- `player-dedup`: 同一人物としてまとめた: p_9c25160f7ac6 → p_3f0e4bf9a72d (竹田慶海)
+- `player-dedup`: 同一人物としてまとめた: p_9c67ae55636f → p_ac159ca3b2dc (内山京美)
+- `player-dedup`: 同一人物としてまとめた: p_9cc6978e6647 → p_bc20804eb0cd (関本 悠希)
+- `player-dedup`: 同一人物としてまとめた: p_9cf3cdb6dc11 → p_cb77522afcf9 (上野 菜々子)
+- `player-dedup`: 同一人物としてまとめた: p_9d07773afd39 → p_75fe72a31b6d (大宮 佳子)
 - `player-dedup`: 同一人物としてまとめた: p_9d352d9f8cdb → p_954c551b684d (上野 航良)
-- `player-dedup`: 同一人物としてまとめた: p_9dcd88eebd5e → p_455daddd4a2d (髙田 将)
+- `player-dedup`: 同一人物としてまとめた: p_9d453d9c01fb → p_d628da0d93c6 (林 あいこ)
+- `player-dedup`: 同一人物としてまとめた: p_9d6bc6f7a5de → p_b0896ccb4205 (髙野 和也)
+- `player-dedup`: 同一人物としてまとめた: p_9d6c61b23f32 → p_13a3acfb2f5a (佐川佳帆)
+- `player-dedup`: 同一人物としてまとめた: p_9d7d94a1a308 → p_63661cd578a8 (渡邉 陽輝)
+- `player-dedup`: 同一人物としてまとめた: p_9db003d40912 → p_1261e9582392 (髙村龍童)
+- `player-dedup`: 同一人物としてまとめた: p_9dcd88eebd5e → p_bd783b2a6c5d (高田将)
+- `player-dedup`: 同一人物としてまとめた: p_9de660dc1ef1 → p_97291dbf098f (野地 陽向)
+- `player-dedup`: 同一人物としてまとめた: p_9df62de23acf → p_d0680685222a (薮下真衣)
+- `player-dedup`: 同一人物としてまとめた: p_9e0701035ef5 → p_0c8c0eb9c6f0 (髙田 花恋)
+- `player-dedup`: 同一人物としてまとめた: p_9e0bb861e83b → p_0b54b98752fd (吉岡 瑞葵)
 - `player-dedup`: 同一人物としてまとめた: p_9e37f0fb5800 → p_b5d5859b149e (上村 大和)
+- `player-dedup`: 同一人物としてまとめた: p_9e79cd36264b → p_23a39d557cd6 (吉本 龍斗)
 - `player-dedup`: 同一人物としてまとめた: p_9eb50e2556ad → p_06e43dc8d586 (宮城柚)
+- `player-dedup`: 同一人物としてまとめた: p_9ee00a8446af → p_0ec6af534a01 (竹ノ内 南)
 - `player-dedup`: 同一人物としてまとめた: p_9ef337563545 → p_7ac4670b5c9f (室坂彩葉)
+- `player-dedup`: 同一人物としてまとめた: p_9f278fb68e52 → p_09a0755cb7a2 (小川 うらら)
+- `player-dedup`: 同一人物としてまとめた: p_9fb75cd094fa → p_69122c2e7fb2 (崎村光生)
+- `player-dedup`: 同一人物としてまとめた: p_a023e9e56c7a → p_2195f96601bf (高原 花奈)
+- `player-dedup`: 同一人物としてまとめた: p_a0752bd9deb3 → p_db9f276246e0 (中村 悠大)
+- `player-dedup`: 同一人物としてまとめた: p_a07634cd0204 → p_625bfb016416 (大崎 心美)
 - `player-dedup`: 同一人物としてまとめた: p_a07d9dcef2c0 → p_6917f0a5d54c (岡田健太郎)
+- `player-dedup`: 同一人物としてまとめた: p_a0af8f94cff9 → p_a24c7edcd8be (大川 夏瑞)
 - `player-dedup`: 同一人物としてまとめた: p_a0b0fee78817 → p_852b1eac3896 (神道優奈)
+- `player-dedup`: 同一人物としてまとめた: p_a0cc7ee527fc → p_b73de180b05d (難波 翔)
+- `player-dedup`: 同一人物としてまとめた: p_a10f75df039c → p_fea308e5ba2e (藤井 美羽)
+- `player-dedup`: 同一人物としてまとめた: p_a14d8280eddf → p_479b9627d599 (辻井 菜々美)
 - `player-dedup`: 同一人物としてまとめた: p_a156e2996f73 → p_03c14ee31888 (村田朋香)
+- `player-dedup`: 同一人物としてまとめた: p_a17030b622ce → p_cb77522afcf9 (上野 菜々子)
 - `player-dedup`: 同一人物としてまとめた: p_a17703561efa → p_cff3cd2cbbc5 (坂本 遥)
+- `player-dedup`: 同一人物としてまとめた: p_a1ce9d91c461 → p_fbe601e623ab (武廣 えみり)
+- `player-dedup`: 同一人物としてまとめた: p_a2111cebcf33 → p_94d1f9e06fc0 (髙橋 幸久)
 - `player-dedup`: 同一人物としてまとめた: p_a2238492a37c → p_f59758657549 (山田 龍之介)
+- `player-dedup`: 同一人物としてまとめた: p_a253ae284f83 → p_3b2705edca17 (行正 怜恩)
+- `player-dedup`: 同一人物としてまとめた: p_a2723150cb58 → p_4175ef82a0e6 (佐田山 鈴樺)
+- `player-dedup`: 同一人物としてまとめた: p_a2834a1e039a → p_1d6f7b1ee04d (岡本 文希)
+- `player-dedup`: 同一人物としてまとめた: p_a28f7d961584 → p_c7731a01e4b6 (吉田 英誉)
+- `player-dedup`: 同一人物としてまとめた: p_a2c246c437f8 → p_23cdf95b9a5f (山本 宏美)
 - `player-dedup`: 同一人物としてまとめた: p_a2f554bc8908 → p_0580b70d849f (華卓逸)
+- `player-dedup`: 同一人物としてまとめた: p_a321caf2d068 → p_07b10489fb13 (大田 麗華)
+- `player-dedup`: 同一人物としてまとめた: p_a35798e7008d → p_56966b8b0d6e (藤山 大耀)
+- `player-dedup`: 同一人物としてまとめた: p_a3e223d49406 → p_c58a7b50d4da (佐々木 ひかり)
+- `player-dedup`: 同一人物としてまとめた: p_a3e25bac8f57 → p_a1d476390fa6 (高橋 幸)
 - `player-dedup`: 同一人物としてまとめた: p_a4180ea33a1c → p_98ac394e6d60 (須崎日愛)
+- `player-dedup`: 同一人物としてまとめた: p_a43033b5c94a → p_ba83834e8a4c (本田 夢麗)
 - `player-dedup`: 同一人物としてまとめた: p_a454af563f9d → p_e7a6500df195 (平野 怜)
+- `player-dedup`: 同一人物としてまとめた: p_a46a6ffc003b → p_3e53b7fe9ebc (牧野 光星)
+- `player-dedup`: 同一人物としてまとめた: p_a473c61ad8e5 → p_45b0ef4f276e (松本颯汰)
+- `player-dedup`: 同一人物としてまとめた: p_a4ef94eeeb61 → p_accf7b4cf930 (眞田拓展)
+- `player-dedup`: 同一人物としてまとめた: p_a502f5b9cc31 → p_192c959e1301 (小山内祐太)
+- `player-dedup`: 同一人物としてまとめた: p_a51d16950932 → p_0016dfbe95c3 (工藤 妙奈)
+- `player-dedup`: 同一人物としてまとめた: p_a5595f70120d → p_d63a8b21eff6 (古澤 築)
 - `player-dedup`: 同一人物としてまとめた: p_a5ed1b6f83ba → p_11d9203c0ed9 (伊東 海太)
+- `player-dedup`: 同一人物としてまとめた: p_a65019ffb9ec → p_ab5791567b21 (松岡龍也)
+- `player-dedup`: 同一人物としてまとめた: p_a66328a5040f → p_6446ce6fa8cb (岡崎 錬)
+- `player-dedup`: 同一人物としてまとめた: p_a67b43cb564f → p_cf98ce55c7f2 (村田 幸大郎)
+- `player-dedup`: 同一人物としてまとめた: p_a6ae7e1dce8f → p_c2f06c142ead (髙田 圭一郎)
+- `player-dedup`: 同一人物としてまとめた: p_a714d0740d60 → p_dac3d90334ea (平井悠登)
+- `player-dedup`: 同一人物としてまとめた: p_a721da45d2b4 → p_97291dbf098f (野地 陽向)
+- `player-dedup`: 同一人物としてまとめた: p_a7341c942a89 → p_bf6091f5997a (松山 翼)
+- `player-dedup`: 同一人物としてまとめた: p_a73d46208b92 → p_a0c33ea52045 (石井 菜花)
+- `player-dedup`: 同一人物としてまとめた: p_a7538c90e187 → p_b4ddb458763c (和田 良太)
+- `player-dedup`: 同一人物としてまとめた: p_a796547b62c8 → p_2a44444e18a0 (熊澤 愛)
+- `player-dedup`: 同一人物としてまとめた: p_a798a709d115 → p_1f981841e819 (有薗 純)
+- `player-dedup`: 同一人物としてまとめた: p_a7a769f7d063 → p_85df0bb1bc31 (平井 大雅)
 - `player-dedup`: 同一人物としてまとめた: p_a7ab32f99671 → p_79b4e283eb89 (藤原 れあ)
-- `player-dedup`: 同一人物としてまとめた: p_a7c9b355a339 → p_1f59837781bc (松﨑 泰知)
+- `player-dedup`: 同一人物としてまとめた: p_a7b41d165ea9 → p_44dc112d0688 (伊藤 せあら)
+- `player-dedup`: 同一人物としてまとめた: p_a7e5f92cf696 → p_081ebdcad422 (松原 隆虎)
 - `player-dedup`: 同一人物としてまとめた: p_a84a6b03c058 → p_a515d29533c7 (名取遼馬)
+- `player-dedup`: 同一人物としてまとめた: p_a854a771cd48 → p_8d3bb28b64a3 (板東寿匡)
+- `player-dedup`: 同一人物としてまとめた: p_a8575802e7a6 → p_1306a1b853be (橋本 優那)
+- `player-dedup`: 同一人物としてまとめた: p_a87925fc9468 → p_7737d79debd4 (上松 佑平)
 - `player-dedup`: 同一人物としてまとめた: p_a8a76e04c9bf → p_17717826902f (中山 凜花)
+- `player-dedup`: 同一人物としてまとめた: p_a8b030737703 → p_2ff33f3dda35 (横山 愛華)
 - `player-dedup`: 同一人物としてまとめた: p_a94cc6abe68f → p_f48b98928636 (岩川礼央)
+- `player-dedup`: 同一人物としてまとめた: p_a9d977a616bc → p_35a6fd6596d1 (西田茉楓)
+- `player-dedup`: 同一人物としてまとめた: p_aa01af507c20 → p_af054d402281 (片岡 謙)
 - `player-dedup`: 同一人物としてまとめた: p_aa167152140b → p_c401da16c93b (金岡 璃古)
+- `player-dedup`: 同一人物としてまとめた: p_aa3a69ff37ec → p_e8f9ddb2746a (北上駿介)
+- `player-dedup`: 同一人物としてまとめた: p_aa6de28ba2d8 → p_e79b9578e995 (小林飛羽)
+- `player-dedup`: 同一人物としてまとめた: p_aa8366853477 → p_8889c1d4e595 (小木野 太優)
+- `player-dedup`: 同一人物としてまとめた: p_aab1e61e49cf → p_024ee46e3b66 (溝部 渉)
+- `player-dedup`: 同一人物としてまとめた: p_aacf08c601df → p_017042d58ed3 (田﨑 真里夏)
 - `player-dedup`: 同一人物としてまとめた: p_aada3ab85a8a → p_1f650d1dc244 (屋良 美夕陽)
+- `player-dedup`: 同一人物としてまとめた: p_aaf96ad7cdf2 → p_ea9054483fdf (佐藤 佑斗)
 - `player-dedup`: 同一人物としてまとめた: p_ab57f8807fa3 → p_ff58b495c590 (今屋 大雄)
+- `player-dedup`: 同一人物としてまとめた: p_ab601df0a7ea → p_13e9ac7b22b7 (横山 もも)
+- `player-dedup`: 同一人物としてまとめた: p_ab9716f46d5a → p_89c8b2579bc7 (西田 侑生)
 - `player-dedup`: 同一人物としてまとめた: p_aba279962b78 → p_1638dea067c4 (今村 吏桜)
+- `player-dedup`: 同一人物としてまとめた: p_abb7a4d3fe90 → p_33813489b615 (桑島 大紀)
 - `player-dedup`: 同一人物としてまとめた: p_abe5f91ee70d → p_3387126a983b (渡部 琴)
+- `player-dedup`: 同一人物としてまとめた: p_abf18e24447a → p_6a4c83096a8d (石川 航)
+- `player-dedup`: 同一人物としてまとめた: p_ac50790098fb → p_33bd629728d0 (池田 侑羅)
+- `player-dedup`: 同一人物としてまとめた: p_ac6454e891d9 → p_e1940aea4193 (鏡綱世)
+- `player-dedup`: 同一人物としてまとめた: p_ac884d34bfbf → p_d2dc066a3a3c (大音 優也)
+- `player-dedup`: 同一人物としてまとめた: p_acd05a3fa9ff → p_97291dbf098f (野地 陽向)
 - `player-dedup`: 同一人物としてまとめた: p_ad0705428024 → p_cf10f318c9f9 (今渕 将翔)
+- `player-dedup`: 同一人物としてまとめた: p_ad192da8ec16 → p_a4812296233e (中野 舞子)
 - `player-dedup`: 同一人物としてまとめた: p_ad20c0c54f5f → p_0b36b81de360 (中上 遼真)
+- `player-dedup`: 同一人物としてまとめた: p_ad6ee8605296 → p_094edaceed4a (髙妻 諒)
+- `player-dedup`: 同一人物としてまとめた: p_ad91467692bd → p_16fed32be9c4 (黒島 京花)
+- `player-dedup`: 同一人物としてまとめた: p_adb511dd6d79 → p_59af0dc907e1 (髙橋 太陽)
 - `player-dedup`: 同一人物としてまとめた: p_adf14392b4c6 → p_42d96fae752e (酒井 遼也)
+- `player-dedup`: 同一人物としてまとめた: p_adfb651f3a42 → p_7a2992d03b94 (村田 朱絵里)
+- `player-dedup`: 同一人物としてまとめた: p_ae0abb8397a4 → p_194f81035a84 (山本 裕也)
+- `player-dedup`: 同一人物としてまとめた: p_ae1562fbcc55 → p_bd581c61ecea (真庭 光花)
+- `player-dedup`: 同一人物としてまとめた: p_ae445a589b9d → p_8ca35fc89a73 (増田 雄飛)
+- `player-dedup`: 同一人物としてまとめた: p_ae89884f7a79 → p_a1637a849fe5 (石川 大翔)
 - `player-dedup`: 同一人物としてまとめた: p_aebcc83fab6e → p_0e0f98573755 (山口 紗季)
+- `player-dedup`: 同一人物としてまとめた: p_aec3ba47be40 → p_51d7f2182a99 (石田 康輝)
 - `player-dedup`: 同一人物としてまとめた: p_af42dc592abe → p_1fea4c4fb7d8 (森下雅頌)
 - `player-dedup`: 同一人物としてまとめた: p_af8a505d0f34 → p_6018094cd0c0 (沖田 雫)
+- `player-dedup`: 同一人物としてまとめた: p_af90c015aef2 → p_ca099ef47a03 (金岡 奎吾)
 - `player-dedup`: 同一人物としてまとめた: p_afba03852442 → p_42980d645b33 (高橋 桜月)
+- `player-dedup`: 同一人物としてまとめた: p_b002bdc64edb → p_45dca629f80f (奥田 七菜)
+- `player-dedup`: 同一人物としてまとめた: p_b02a1983b9e9 → p_7b5440becd54 (杉山 竜太郎)
+- `player-dedup`: 同一人物としてまとめた: p_b08507e7cfd0 → p_080f105d55bd (山邊 里奈)
+- `player-dedup`: 同一人物としてまとめた: p_b09147192df7 → p_597f444f2100 (井上 魁斗)
 - `player-dedup`: 同一人物としてまとめた: p_b0c2501c26b2 → p_b8af4c57b698 (吉行 アムロ)
+- `player-dedup`: 同一人物としてまとめた: p_b0c2fff4427b → p_441369849e68 (大田 紗羅)
+- `player-dedup`: 同一人物としてまとめた: p_b0edcccbca1a → p_59f93e3695b7 (今泉友佑)
 - `player-dedup`: 同一人物としてまとめた: p_b10a1436061a → p_c907c9e0d42f (大野 柚果)
 - `player-dedup`: 同一人物としてまとめた: p_b1325bdf15ff → p_099b2fc06419 (井野上蓮美)
-- `player-dedup`: 同一人物としてまとめた: p_b2319a2ca0af → p_0bf3cc417ac7 (兎沢 日向)
+- `player-dedup`: 同一人物としてまとめた: p_b1b61e6a71b7 → p_0bc3124d9d06 (芹澤 慈眼)
+- `player-dedup`: 同一人物としてまとめた: p_b1c701fc8f7e → p_101e65139aae (宇喜多 飛翔)
+- `player-dedup`: 同一人物としてまとめた: p_b21702b0fb60 → p_db3d5a3bdc7d (雪野 若葉)
+- `player-dedup`: 同一人物としてまとめた: p_b223471b5e4c → p_8588511b7c63 (高橋 和浩)
+- `player-dedup`: 同一人物としてまとめた: p_b22e7bb5bfca → p_9f46b5f1f50c (米野 功史郎)
+- `player-dedup`: 同一人物としてまとめた: p_b25d7b4c1ba9 → p_d9022097c801 (竹田 弘登)
+- `player-dedup`: 同一人物としてまとめた: p_b2641536d24f → p_2361e864e2c6 (町田光)
+- `player-dedup`: 同一人物としてまとめた: p_b26eafae5c27 → p_74b3d5c666ba (澁野 日向子)
 - `player-dedup`: 同一人物としてまとめた: p_b2a666f12918 → p_5ea1da5d2b6d (中西望緒)
+- `player-dedup`: 同一人物としてまとめた: p_b2fa7adc22c9 → p_673eb3ec3947 (久永 萌々香)
+- `player-dedup`: 同一人物としてまとめた: p_b3296b1e2f83 → p_7c1298820c02 (藤本幸希)
+- `player-dedup`: 同一人物としてまとめた: p_b36c3ef6bfb1 → p_d2dc066a3a3c (大音 優也)
+- `player-dedup`: 同一人物としてまとめた: p_b37ecfe91ec6 → p_cd2a5d4dfde2 (島川 優真)
+- `player-dedup`: 同一人物としてまとめた: p_b390a9b0bf4c → p_be9f4bd3f312 (成田 遊聡)
 - `player-dedup`: 同一人物としてまとめた: p_b3b4e3710172 → p_c6ef86fea92d (宇苗 蒼空)
+- `player-dedup`: 同一人物としてまとめた: p_b3db36a12908 → p_34a13659b86c (大村 あい)
+- `player-dedup`: 同一人物としてまとめた: p_b3ef7d1edfc6 → p_66990e6d8b68 (久﨑 成)
+- `player-dedup`: 同一人物としてまとめた: p_b411fb4529e9 → p_ebdde413b2dc (安田 祐香)
+- `player-dedup`: 同一人物としてまとめた: p_b4193be39fcd → p_bb33d973e011 (髙木 綾夏)
+- `player-dedup`: 同一人物としてまとめた: p_b4632ae75da3 → p_a23743269f27 (古江 彩佳)
 - `player-dedup`: 同一人物としてまとめた: p_b52466d953d6 → p_2c529a89ea06 (花田 結希乃)
+- `player-dedup`: 同一人物としてまとめた: p_b528280834dc → p_888870ba95a3 (江川 琴実)
 - `player-dedup`: 同一人物としてまとめた: p_b5de60b4af5c → p_2f8015f9d83c (小笠原 瑞季)
+- `player-dedup`: 同一人物としてまとめた: p_b5ea583c9c29 → p_f58cf2362cf4 (森田 就子)
+- `player-dedup`: 同一人物としてまとめた: p_b602d233781f → p_f9d4049db195 (中西 絵里奈)
+- `player-dedup`: 同一人物としてまとめた: p_b603bab2ddcb → p_88fcc1507ce4 (髙橋 巨基)
+- `player-dedup`: 同一人物としてまとめた: p_b69ea9258137 → p_617762983f0a (島田 ゆら)
 - `player-dedup`: 同一人物としてまとめた: p_b6c1ea219c4e → p_3df3f93c0e6f (和田凱斗)
-- `player-dedup`: 同一人物としてまとめた: p_b71544405445 → p_f7b4e1f27a88 (逢坂 遥)
+- `player-dedup`: 同一人物としてまとめた: p_b6c6a80b952b → p_6589cffe55cb (ｴｽﾞﾃﾞﾝｼちなさ)
+- `player-dedup`: 同一人物としてまとめた: p_b6dfe6efac61 → p_d628da0d93c6 (林 あいこ)
+- `player-dedup`: 同一人物としてまとめた: p_b6e8e5662d96 → p_af0d496d5d9c (下村 丈治)
 - `player-dedup`: 同一人物としてまとめた: p_b75452de7157 → p_7ac4670b5c9f (室坂彩葉)
+- `player-dedup`: 同一人物としてまとめた: p_b76d0ff46981 → p_a56d74fabdfd (水尻 大貴)
+- `player-dedup`: 同一人物としてまとめた: p_b79254a4e3fb → p_03469d83e127 (髙尾淳仁)
 - `player-dedup`: 同一人物としてまとめた: p_b7c5d81d3dfa → p_f539a44fd6df (木村小梅)
 - `player-dedup`: 同一人物としてまとめた: p_b7dbc35ed9b5 → p_7a5468c416b9 (赤松 成眞)
+- `player-dedup`: 同一人物としてまとめた: p_b847ebfd824b → p_758cf08cbf4a (川上 知夏)
+- `player-dedup`: 同一人物としてまとめた: p_b89a07abf0f6 → p_bd2a2281bb06 (徳田 葵)
+- `player-dedup`: 同一人物としてまとめた: p_b89c0b818aab → p_06b66d09e5f9 (尾崎美保)
 - `player-dedup`: 同一人物としてまとめた: p_b8adba129cc3 → p_85b6b0fcc98c (西本 美結)
+- `player-dedup`: 同一人物としてまとめた: p_b8aedcbcae29 → p_ac159ca3b2dc (内山京美)
+- `player-dedup`: 同一人物としてまとめた: p_b8f10c93b623 → p_819ef7927f8f (渡邉康生)
+- `player-dedup`: 同一人物としてまとめた: p_b925d7229af7 → p_766b977af7fa (青木 香奈子)
+- `player-dedup`: 同一人物としてまとめた: p_b939c2899aae → p_dbff81db577e (髙橋 海理)
 - `player-dedup`: 同一人物としてまとめた: p_b93a2ade1d14 → p_923541ad13cc (長﨑 煌心)
 - `player-dedup`: 同一人物としてまとめた: p_b9718498b105 → p_70c34f6edb7f (滝深 心望)
 - `player-dedup`: 同一人物としてまとめた: p_b99d7019ee38 → p_a366386d5e62 (清本 貴秀)
+- `player-dedup`: 同一人物としてまとめた: p_b9d96f3ab1c9 → p_13a3acfb2f5a (佐川佳帆)
 - `player-dedup`: 同一人物としてまとめた: p_ba2e19dd2d4f → p_dbe29c24f349 (小松莉杏)
 - `player-dedup`: 同一人物としてまとめた: p_baa725937571 → p_b76a7c5e8963 (上原 嘉連)
+- `player-dedup`: 同一人物としてまとめた: p_bab32af0c6f7 → p_ad6a648cfe6f (竹川加寿斗)
+- `player-dedup`: 同一人物としてまとめた: p_bb0ca14ea681 → p_e608264ce75e (三坂音緒)
+- `player-dedup`: 同一人物としてまとめた: p_bb2e09daad6b → p_7fdcf2e4ff1e (山田 莉)
+- `player-dedup`: 同一人物としてまとめた: p_bb654a15cc70 → p_cb2a0c0e4f40 (倉島 麻緒)
 - `player-dedup`: 同一人物としてまとめた: p_bb9c76d76ce6 → p_d3c85a77b08f (久我 健心)
 - `player-dedup`: 同一人物としてまとめた: p_bbc13992eded → p_dfed41944edf (川嵜晃生)
 - `player-dedup`: 同一人物としてまとめた: p_bbd4e425caae → p_47234b9ed48b (真庭 咲希)
 - `player-dedup`: 同一人物としてまとめた: p_bbf32462f821 → p_f17a426590bb (畑凪咲)
 - `player-dedup`: 同一人物としてまとめた: p_bc0545b8b73d → p_4770c9def8f1 (加藤勇翔)
+- `player-dedup`: 同一人物としてまとめた: p_bc3c9ae6172e → p_237bdb0e8032 (大西 菜生)
+- `player-dedup`: 同一人物としてまとめた: p_bc45f1277d2a → p_002b1c5d7444 (山本 穂花)
 - `player-dedup`: 同一人物としてまとめた: p_bcabe60c15a2 → p_b8af4c57b698 (吉行 アムロ)
-- `player-dedup`: 同一人物としてまとめた: p_bcc912759895 → p_455daddd4a2d (髙田 将)
-- `player-dedup`: 同一人物としてまとめた: p_bd783b2a6c5d → p_455daddd4a2d (髙田 将)
+- `player-dedup`: 同一人物としてまとめた: p_bcc12933e6ca → p_49a55ecd22ca (中村 有希)
+- `player-dedup`: 同一人物としてまとめた: p_bcc912759895 → p_bd783b2a6c5d (高田将)
 - `player-dedup`: 同一人物としてまとめた: p_bdff464bbf40 → p_5cb2ec9ea1c2 (髙木 希晄)
+- `player-dedup`: 同一人物としてまとめた: p_be1f7db0394b → p_d863761a59a8 (森笠夢菜)
 - `player-dedup`: 同一人物としてまとめた: p_be5e17c50d38 → p_3062ad733bfc (関谷 善成)
 - `player-dedup`: 同一人物としてまとめた: p_bece0db98927 → p_7d7f109ca600 (光成 颯)
+- `player-dedup`: 同一人物としてまとめた: p_bece8a51e1d3 → p_8f8a23c848a5 (佐野 円梨)
 - `player-dedup`: 同一人物としてまとめた: p_bf16ec3d7aac → p_2d0f087ef426 (八木 佑弥)
-- `player-dedup`: 同一人物としてまとめた: p_bf9e7e099430 → p_07f091c28de1 (板橋 永久)
+- `player-dedup`: 同一人物としてまとめた: p_bf2bff4dec5e → p_ec2974a30f9d (島岡 聖)
+- `player-dedup`: 同一人物としてまとめた: p_bf3898c67d45 → p_02d6123de078 (友添一成)
+- `player-dedup`: 同一人物としてまとめた: p_bf4a3e88b57e → p_05aff4debd03 (江﨑 日奈)
+- `player-dedup`: 同一人物としてまとめた: p_bff8bb90464c → p_25c73155e68f (岩井 聡季)
 - `player-dedup`: 同一人物としてまとめた: p_c014f613b819 → p_edce42b584d1 (高倉 瑠伊)
 - `player-dedup`: 同一人物としてまとめた: p_c047442d03e3 → p_fb0d11a190f3 (中川 陽向)
 - `player-dedup`: 同一人物としてまとめた: p_c09d3d3e772b → p_30687829b4d4 (藤安真凛)
+- `player-dedup`: 同一人物としてまとめた: p_c09e12266f96 → p_4d27091a71d9 (町屋 朱理)
+- `player-dedup`: 同一人物としてまとめた: p_c0bff52caa92 → p_307c49914ca4 (森崎公也)
 - `player-dedup`: 同一人物としてまとめた: p_c17002fb9e2b → p_6433ee93b9e1 (大橋 翔悟)
+- `player-dedup`: 同一人物としてまとめた: p_c1a1465d72c9 → p_145f966319e2 (中尾優作)
+- `player-dedup`: 同一人物としてまとめた: p_c1b32e2a53c0 → p_42d96fae752e (酒井 遼也)
+- `player-dedup`: 同一人物としてまとめた: p_c1bb0971988e → p_2a76fbfbc7d7 (寶多華紀)
 - `player-dedup`: 同一人物としてまとめた: p_c1c024e6a9dd → p_b7793ce7745b (藤井 響)
+- `player-dedup`: 同一人物としてまとめた: p_c1e897b2246f → p_43a5aecd50c9 (石橋 澄空)
 - `player-dedup`: 同一人物としてまとめた: p_c1f15b05f292 → p_bd591d42d952 (桜庭禄碩)
+- `player-dedup`: 同一人物としてまとめた: p_c2376ccdfe68 → p_1b98b3eec8b0 (小林江梨子)
+- `player-dedup`: 同一人物としてまとめた: p_c25f60891a4a → p_ec2974a30f9d (島岡 聖)
+- `player-dedup`: 同一人物としてまとめた: p_c2619143d66f → p_9425a5c44118 (永江 綾)
 - `player-dedup`: 同一人物としてまとめた: p_c264ca86190e → p_c7f74e41c6c3 (近藤愛)
+- `player-dedup`: 同一人物としてまとめた: p_c2869a217db7 → p_2a44444e18a0 (熊澤 愛)
 - `player-dedup`: 同一人物としてまとめた: p_c28a290998b5 → p_575900a7db70 (山室日菜)
+- `player-dedup`: 同一人物としてまとめた: p_c2b31f52bd77 → p_3fbb8cc0eb88 (森 愉生)
+- `player-dedup`: 同一人物としてまとめた: p_c2e0162b5937 → p_888870ba95a3 (江川 琴実)
 - `player-dedup`: 同一人物としてまとめた: p_c30d3e0004a5 → p_ca26fa4a99fb (洪 徳)
+- `player-dedup`: 同一人物としてまとめた: p_c30d88e4bbba → p_c5305ff75f43 (桑木 志帆)
+- `player-dedup`: 同一人物としてまとめた: p_c3132aea6f22 → p_93038ed06df8 (岩切 美空)
+- `player-dedup`: 同一人物としてまとめた: p_c31fe1245b25 → p_382cdf0fda9e (西村 優菜)
 - `player-dedup`: 同一人物としてまとめた: p_c3455a4e1f66 → p_43b18ddb342d (中谷桜里奈)
-- `player-dedup`: 同一人物としてまとめた: p_c35124b4cf64 → p_819825802723 (守山 真央)
+- `player-dedup`: 同一人物としてまとめた: p_c35124b4cf64 → p_1b8e0394d5a5 (守山 真央)
 - `player-dedup`: 同一人物としてまとめた: p_c39d9884d5ef → p_b46d0d7494f3 (山本大勢)
-- `player-dedup`: 同一人物としてまとめた: p_c47dbc0232c7 → p_842b37d87afc (山川 ルナ)
+- `player-dedup`: 同一人物としてまとめた: p_c3ea0d79d724 → p_16511adaac16 (高木 駿)
+- `player-dedup`: 同一人物としてまとめた: p_c46b148d6d07 → p_1e6763d81b8e (庄司廉)
 - `player-dedup`: 同一人物としてまとめた: p_c48e5229fe88 → p_57cc9a24c4c4 (髙田 嘩琳)
+- `player-dedup`: 同一人物としてまとめた: p_c4ba3cfd6f9f → p_eef3016d7269 (久野智奈)
+- `player-dedup`: 同一人物としてまとめた: p_c4dcdcaabe5d → p_aa7aefdeb080 (古長 基)
 - `player-dedup`: 同一人物としてまとめた: p_c5119c9d51de → p_3b7a727a6065 (島川 桃子)
+- `player-dedup`: 同一人物としてまとめた: p_c530061ef04a → p_8889c1d4e595 (小木野 太優)
+- `player-dedup`: 同一人物としてまとめた: p_c533753d0c71 → p_b7aa2b16ad95 (工藤 楓佳)
 - `player-dedup`: 同一人物としてまとめた: p_c5451b758dd3 → p_82b6fb544fd0 (佐々木 花虹)
 - `player-dedup`: 同一人物としてまとめた: p_c57cc5baea77 → p_b985391a9e17 (黒木 夢)
 - `player-dedup`: 同一人物としてまとめた: p_c62ffa3f5e37 → p_b0ece714edb2 (三本木実桜)
+- `player-dedup`: 同一人物としてまとめた: p_c6411c65905d → p_df93d356d0e3 (末廣 優花)
 - `player-dedup`: 同一人物としてまとめた: p_c6a322e6ba7a → p_0744c25bdc33 (岡崎 心星)
 - `player-dedup`: 同一人物としてまとめた: p_c6edd66c5936 → p_88591d7275bb (上田 涼真)
+- `player-dedup`: 同一人物としてまとめた: p_c708c99800f1 → p_7f2b7ea9cd1c (古川 莉月愛)
+- `player-dedup`: 同一人物としてまとめた: p_c71f28b9b9bb → p_e6eca81e59cf (多良間伸平)
+- `player-dedup`: 同一人物としてまとめた: p_c72b600327dc → p_4a2f66287cd0 (伊澤丈一郎)
+- `player-dedup`: 同一人物としてまとめた: p_c82bbb7a78e0 → p_c306731ccd86 (岡田 樹花)
+- `player-dedup`: 同一人物としてまとめた: p_c88afa5c067a → p_23e76ab205d2 (坂本すみれ)
 - `player-dedup`: 同一人物としてまとめた: p_c8e0c1937ba8 → p_869382d330b5 (川野 結奈)
+- `player-dedup`: 同一人物としてまとめた: p_c8e505473151 → p_8b70dcf5ea2b (上田 翔太)
+- `player-dedup`: 同一人物としてまとめた: p_c8e7760e97a1 → p_82aa84fffce6 (金村 旭朗)
+- `player-dedup`: 同一人物としてまとめた: p_c9575211e741 → p_7737d79debd4 (上松 佑平)
+- `player-dedup`: 同一人物としてまとめた: p_c9a52e366b2a → p_bd591d42d952 (桜庭禄碩)
 - `player-dedup`: 同一人物としてまとめた: p_c9b2fdce8a81 → p_3053f34ae4ba (山﨑咲寿)
+- `player-dedup`: 同一人物としてまとめた: p_c9b7662524c1 → p_0d2bc6eca242 (竹重歩南)
+- `player-dedup`: 同一人物としてまとめた: p_c9c6c664fc5a → p_0774fbd1a25f (田中 佑樹)
+- `player-dedup`: 同一人物としてまとめた: p_c9f1cdf48aa7 → p_85a5f429fb4d (冨田 幸暉)
+- `player-dedup`: 同一人物としてまとめた: p_c9f6207926f9 → p_bd3ab90a3c3f (宮﨑樹里)
+- `player-dedup`: 同一人物としてまとめた: p_ca07e0090a27 → p_f6bc81eed66e (祇園美衣菜)
+- `player-dedup`: 同一人物としてまとめた: p_ca131d88f216 → p_4820c4a20cca (中原拓飛)
 - `player-dedup`: 同一人物としてまとめた: p_ca1aadd93ccd → p_13dcf4592f50 (目黒風)
 - `player-dedup`: 同一人物としてまとめた: p_ca3533716182 → p_510592f424c6 (山崎那奈)
-- `player-dedup`: 同一人物としてまとめた: p_cb50a12609c7 → p_1d3d02e31ed3 (加藤麗奈)
+- `player-dedup`: 同一人物としてまとめた: p_ca5d5833c450 → p_b304d80dc96f (大石 恵輝)
+- `player-dedup`: 同一人物としてまとめた: p_ca65525f6ae7 → p_9a42266fc482 (日高 妃菜)
+- `player-dedup`: 同一人物としてまとめた: p_ca8bfeb3badb → p_2cba52fa331b (庭田 一馬)
+- `player-dedup`: 同一人物としてまとめた: p_ca92f29c4f13 → p_1e4375ee9ea1 (坂本 優心)
+- `player-dedup`: 同一人物としてまとめた: p_cabf8f7cf371 → p_e2934d7ae059 (竹内さと)
+- `player-dedup`: 同一人物としてまとめた: p_cb50a12609c7 → p_1d3d02e31ed3 (加藤 麗奈)
+- `player-dedup`: 同一人物としてまとめた: p_cb663189a511 → p_d0ccb0eac475 (商崎 鈴菜)
+- `player-dedup`: 同一人物としてまとめた: p_cba977d90888 → p_f5c44838b234 (赤瀬 新菜)
+- `player-dedup`: 同一人物としてまとめた: p_cbeca872f23b → p_54dcc501e5be (成田 瑛麻)
+- `player-dedup`: 同一人物としてまとめた: p_cc3db2424318 → p_951e8ad24e29 (高橋 琉晟)
+- `player-dedup`: 同一人物としてまとめた: p_cc4005d5f0c2 → p_e1940aea4193 (鏡綱世)
+- `player-dedup`: 同一人物としてまとめた: p_cc65207d33da → p_bfb27cf1a90b (小林 愛香)
+- `player-dedup`: 同一人物としてまとめた: p_cca18fa73b36 → p_f97423c8b524 (吉田 朋樹)
+- `player-dedup`: 同一人物としてまとめた: p_ccd4a4c35d16 → p_30391a4439a3 (板垣 結叶)
+- `player-dedup`: 同一人物としてまとめた: p_ccdfff141d48 → p_dd0af533db4f (竹山貴子)
+- `player-dedup`: 同一人物としてまとめた: p_cd1c2255efb7 → p_de9822f2a5a2 (大林 奈央)
+- `player-dedup`: 同一人物としてまとめた: p_cd334a563a4e → p_0a4be66fca78 (境澤有)
+- `player-dedup`: 同一人物としてまとめた: p_cd74d9da60c2 → p_235616d84fcf (落合 凌)
 - `player-dedup`: 同一人物としてまとめた: p_cd843e5c1a29 → p_4593dcfcf790 (呉屋 陽星)
+- `player-dedup`: 同一人物としてまとめた: p_cd876cad8955 → p_18799dd7d3bf (高木 りおん)
+- `player-dedup`: 同一人物としてまとめた: p_cdb6f799d8e9 → p_c24a35be5c10 (岡崎 亜優)
+- `player-dedup`: 同一人物としてまとめた: p_cded945d36b6 → p_3a44005969a5 (江口琴遥)
+- `player-dedup`: 同一人物としてまとめた: p_cdef7880f438 → p_72ec90f66e8f (野々瀬 圭)
 - `player-dedup`: 同一人物としてまとめた: p_ce989912f660 → p_9f38b25d7d79 (髙木 楓夏)
-- `player-dedup`: 同一人物としてまとめた: p_cf4e6af50b9c → p_71c39a1b5d65 (角田 寧音)
+- `player-dedup`: 同一人物としてまとめた: p_cf0c16f6866a → p_c7153d628616 (井上 聡大)
+- `player-dedup`: 同一人物としてまとめた: p_cf283c94eb99 → p_d58844788be5 (西 泰樹)
+- `player-dedup`: 同一人物としてまとめた: p_cf84123533d1 → p_2d60603a3047 (申 東宙)
+- `player-dedup`: 同一人物としてまとめた: p_cf951b4520cd → p_376fae2533b0 (小澤一天)
+- `player-dedup`: 同一人物としてまとめた: p_cf9a169d9bf7 → p_f8b89b70ab46 (勝見 梓)
+- `player-dedup`: 同一人物としてまとめた: p_cfba6e881638 → p_5479bed0cacf (安井 大賀)
+- `player-dedup`: 同一人物としてまとめた: p_cfd0bea3ea09 → p_67d6b06d0383 (下家 秀平)
+- `player-dedup`: 同一人物としてまとめた: p_d03f4c46a29d → p_2195f96601bf (高原 花奈)
 - `player-dedup`: 同一人物としてまとめた: p_d0680406192d → p_5d198e573593 (横内 優奈)
+- `player-dedup`: 同一人物としてまとめた: p_d085ac704438 → p_a8b618072719 (光部 集)
+- `player-dedup`: 同一人物としてまとめた: p_d0980aa57384 → p_161429bbf1ec (田中 貫太)
+- `player-dedup`: 同一人物としてまとめた: p_d0d96ec6cbf6 → p_f00227f62794 (田畑 蓮)
 - `player-dedup`: 同一人物としてまとめた: p_d0dbe3853339 → p_b8af4c57b698 (吉行 アムロ)
+- `player-dedup`: 同一人物としてまとめた: p_d118843451c3 → p_39af3324d89b (平原 颯太)
 - `player-dedup`: 同一人物としてまとめた: p_d1532ecb885d → p_31b7f5700977 (野村 壮志)
+- `player-dedup`: 同一人物としてまとめた: p_d17db4316aa6 → p_b3c259f8fa45 (山中 頌)
+- `player-dedup`: 同一人物としてまとめた: p_d1ce5d13b666 → p_eada3c6f64a8 (唐木田梨乃)
+- `player-dedup`: 同一人物としてまとめた: p_d1e8025ea98d → p_4c5c12058b66 (小林 壱成)
+- `player-dedup`: 同一人物としてまとめた: p_d2078eba3afe → p_06cc98ee9b10 (新井 陸大)
+- `player-dedup`: 同一人物としてまとめた: p_d232a05f6737 → p_8896dd5301e5 (光森健人)
 - `player-dedup`: 同一人物としてまとめた: p_d25f6b48da98 → p_099b2fc06419 (井野上蓮美)
+- `player-dedup`: 同一人物としてまとめた: p_d27fa7b5fc5a → p_a29998fc285b (山﨑 杏)
+- `player-dedup`: 同一人物としてまとめた: p_d287cb0a19de → p_024ee46e3b66 (溝部 渉)
+- `player-dedup`: 同一人物としてまとめた: p_d30df4547e05 → p_e95587bfa3c6 (日比野 邑香)
+- `player-dedup`: 同一人物としてまとめた: p_d325fc2225aa → p_a72afb416855 (長谷川 貴優)
+- `player-dedup`: 同一人物としてまとめた: p_d3681504602d → p_df4d3a1a0929 (笠原 瑛)
 - `player-dedup`: 同一人物としてまとめた: p_d3a4f6a1df7d → p_c5cc26d02ec3 (太田 佳来)
+- `player-dedup`: 同一人物としてまとめた: p_d3d807e3c027 → p_34483fe90bf0 (加藤 健正)
+- `player-dedup`: 同一人物としてまとめた: p_d3f9ac82523c → p_8ca35fc89a73 (増田 雄飛)
+- `player-dedup`: 同一人物としてまとめた: p_d4398a0ec608 → p_ea0aba8119ef (松尾慈亮)
+- `player-dedup`: 同一人物としてまとめた: p_d46895de6408 → p_4d27091a71d9 (町屋 朱理)
 - `player-dedup`: 同一人物としてまとめた: p_d47083539a5d → p_8d9c836d6591 (坂本 大賀)
+- `player-dedup`: 同一人物としてまとめた: p_d4a6172c4b4b → p_49a55ecd22ca (中村 有希)
 - `player-dedup`: 同一人物としてまとめた: p_d4d24c8df6fe → p_6f36d9679ef9 (松山 茉生)
+- `player-dedup`: 同一人物としてまとめた: p_d50a51bf6701 → p_e2a1ed0bb486 (髙宮 千聖)
+- `player-dedup`: 同一人物としてまとめた: p_d587a3229398 → p_0f10baad5176 (片山 剛)
 - `player-dedup`: 同一人物としてまとめた: p_d58db4c89c1c → p_79b4e283eb89 (藤原 れあ)
 - `player-dedup`: 同一人物としてまとめた: p_d59f3bb83f58 → p_101b1fa6bb59 (佐藤巡)
+- `player-dedup`: 同一人物としてまとめた: p_d5dd3740bfe8 → p_382cdf0fda9e (西村 優菜)
 - `player-dedup`: 同一人物としてまとめた: p_d5f90805d44e → p_b5475602f21e (髙橋美琴)
+- `player-dedup`: 同一人物としてまとめた: p_d64be5ad3c3b → p_a7ec124a1b8f (渡部 琉矢)
+- `player-dedup`: 同一人物としてまとめた: p_d6ad9f96089c → p_5f063f2a71cd (平尾竜己)
 - `player-dedup`: 同一人物としてまとめた: p_d6baf6ef3c16 → p_328cb2dbb4ef (松髙 蓮)
+- `player-dedup`: 同一人物としてまとめた: p_d6c3d2a6f398 → p_d2dc066a3a3c (大音 優也)
+- `player-dedup`: 同一人物としてまとめた: p_d6e13a6227c5 → p_e18415236955 (田室光夏)
 - `player-dedup`: 同一人物としてまとめた: p_d6e9e0f24ea1 → p_a4a378bc7ad9 (濱本悠真)
 - `player-dedup`: 同一人物としてまとめた: p_d7025ce3135f → p_69122c2e7fb2 (崎村光生)
-- `player-dedup`: 同一人物としてまとめた: p_d81636ee30c8 → p_71c99a5a3270 (高岸 鈴)
+- `player-dedup`: 同一人物としてまとめた: p_d71ce98f6bde → p_c061cb35cb3e (森本妃佳哩)
+- `player-dedup`: 同一人物としてまとめた: p_d7287b0baa83 → p_6f747b6f5b27 (加賀谷心美)
+- `player-dedup`: 同一人物としてまとめた: p_d76391c191a3 → p_45dca629f80f (奥田 七菜)
+- `player-dedup`: 同一人物としてまとめた: p_d78cf447abe5 → p_66990e6d8b68 (久﨑 成)
+- `player-dedup`: 同一人物としてまとめた: p_d7fc7d1925ef → p_d65bcf028f9b (渡辺蒼)
 - `player-dedup`: 同一人物としてまとめた: p_d8166205d76c → p_24fd520f7e82 (田上 桜)
+- `player-dedup`: 同一人物としてまとめた: p_d83fd8d5e7a2 → p_be807c4f4a4a (梶田恵梨奈)
+- `player-dedup`: 同一人物としてまとめた: p_d83ff5e4bd74 → p_b04f045081bd (高木 美咲)
+- `player-dedup`: 同一人物としてまとめた: p_d864b32cffe1 → p_441369849e68 (大田 紗羅)
+- `player-dedup`: 同一人物としてまとめた: p_d938b2965563 → p_e79b9578e995 (小林飛羽)
 - `player-dedup`: 同一人物としてまとめた: p_d95bdce76785 → p_cb282cb10ede (滝田 詠夢)
+- `player-dedup`: 同一人物としてまとめた: p_d96ddf7ee804 → p_be556c331f8e (山田泰誠)
+- `player-dedup`: 同一人物としてまとめた: p_d9a2fb64678d → p_b0a0aa87dd7f (中西 風香)
+- `player-dedup`: 同一人物としてまとめた: p_da09b69a32c1 → p_82d53d03ac48 (福田 孔思)
+- `player-dedup`: 同一人物としてまとめた: p_da0f6160facc → p_69122c2e7fb2 (崎村光生)
+- `player-dedup`: 同一人物としてまとめた: p_da2a6469ddd0 → p_d307ce93c2bf (三木瑛蓮)
+- `player-dedup`: 同一人物としてまとめた: p_da92131dda70 → p_0c2a74c3cf2d (寺岡 真優)
 - `player-dedup`: 同一人物としてまとめた: p_daa54aabca48 → p_dc3eb12e2e16 (関野 来希)
+- `player-dedup`: 同一人物としてまとめた: p_dab3c1f5dc85 → p_4a4647f971ac (河内 勝行)
+- `player-dedup`: 同一人物としてまとめた: p_db0aadb3259a → p_e1e29c4454af (久保田淑乃)
 - `player-dedup`: 同一人物としてまとめた: p_db8dd61ad389 → p_147fed75f7b3 (福留岬)
 - `player-dedup`: 同一人物としてまとめた: p_dbb7bb464828 → p_7bdcc086c5a5 (加藤颯真)
+- `player-dedup`: 同一人物としてまとめた: p_dbc3e35e8afd → p_95401cbbc359 (岡田 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_dbdb9d4de857 → p_9c892268f623 (千葉 楽)
 - `player-dedup`: 同一人物としてまとめた: p_dbf09501e6c2 → p_87d2fd5e5cd9 (佐藤 心々)
+- `player-dedup`: 同一人物としてまとめた: p_dc1c668db7ea → p_7e3e36d63cb8 (細田 詩織)
+- `player-dedup`: 同一人物としてまとめた: p_dc376ff6dfd0 → p_9550c87ebefa (吉田 好輝)
 - `player-dedup`: 同一人物としてまとめた: p_dc46f9335c9c → p_befdd8b59aee (鈴木 友渚)
+- `player-dedup`: 同一人物としてまとめた: p_dc57f5a7374d → p_484fc7986003 (小櫻 陸)
 - `player-dedup`: 同一人物としてまとめた: p_dc5e9cd6a1c0 → p_bd9693cd137f (井村 栄斗)
 - `player-dedup`: 同一人物としてまとめた: p_dcfaf6b8b8c9 → p_205acbef2bb6 (宮浦 拓都)
 - `player-dedup`: 同一人物としてまとめた: p_dd22bb2509a6 → p_14ae9ea1044a (岩本丞弘)
 - `player-dedup`: 同一人物としてまとめた: p_dd421e0ca513 → p_90097c2c2ea2 (藤野 蒼來)
+- `player-dedup`: 同一人物としてまとめた: p_dd57a207b9ef → p_211fb2241ffa (岩田 愛里沙)
+- `player-dedup`: 同一人物としてまとめた: p_dd5f1a9f7ff9 → p_3fbb8cc0eb88 (森 愉生)
+- `player-dedup`: 同一人物としてまとめた: p_dd7ded53012b → p_1e5a034b3797 (髙橋佳弥)
+- `player-dedup`: 同一人物としてまとめた: p_dddcb19820d2 → p_b7aa2b16ad95 (工藤 楓佳)
+- `player-dedup`: 同一人物としてまとめた: p_dde29fba4426 → p_41f60c78fed2 (臼田 涼音)
 - `player-dedup`: 同一人物としてまとめた: p_dde655d75104 → p_5483a8ca9c15 (才藤大桜)
+- `player-dedup`: 同一人物としてまとめた: p_ddfbda03bad2 → p_3b2705edca17 (行正 怜恩)
+- `player-dedup`: 同一人物としてまとめた: p_de550ed520ff → p_13a3acfb2f5a (佐川佳帆)
+- `player-dedup`: 同一人物としてまとめた: p_de7412d9c5a0 → p_6b55ea42ef93 (小川 羅々)
+- `player-dedup`: 同一人物としてまとめた: p_de8021f9c7f1 → p_d9635896553f (谷頭 さつき)
+- `player-dedup`: 同一人物としてまとめた: p_de8ee29745d1 → p_e01e7f2bc2d0 (多田柊凛)
+- `player-dedup`: 同一人物としてまとめた: p_de959e3aa47d → p_3d6d81af48f4 (北條 陽雲)
+- `player-dedup`: 同一人物としてまとめた: p_deca1787a91f → p_3cb47f901b8d (河合 嶺)
+- `player-dedup`: 同一人物としてまとめた: p_df087dbac5fa → p_e0b0dbd7298b (多田 柊凜)
+- `player-dedup`: 同一人物としてまとめた: p_df64c4387e40 → p_4902a421b5b6 (梅田 唯花)
 - `player-dedup`: 同一人物としてまとめた: p_dfa8ee084760 → p_ec1f839b2728 (藤田 一平)
+- `player-dedup`: 同一人物としてまとめた: p_dfab93abcc83 → p_0c82bb9e32e3 (富塚玲音)
+- `player-dedup`: 同一人物としてまとめた: p_dfee3eb925d2 → p_96a451e330ec (赤石 拓斗)
 - `player-dedup`: 同一人物としてまとめた: p_e05feeb59089 → p_f6d26f7bba1a (八田凱斗)
-- `player-dedup`: 同一人物としてまとめた: p_e18415236955 → p_d6e13a6227c5 (田室 光夏)
+- `player-dedup`: 同一人物としてまとめた: p_e07ab1929639 → p_45b59f5f9e71 (中村光希)
+- `player-dedup`: 同一人物としてまとめた: p_e0b982dce1c7 → p_03213877a0f0 (松岡美咲)
+- `player-dedup`: 同一人物としてまとめた: p_e0c33d6f60c3 → p_82e79bcbb94a (藤田 かれん)
+- `player-dedup`: 同一人物としてまとめた: p_e12d4dd0c4cd → p_40b9da87750a (石川 怜奈)
+- `player-dedup`: 同一人物としてまとめた: p_e13ab4d5e3f5 → p_f65f54363cc7 (小田嶋 永遠)
+- `player-dedup`: 同一人物としてまとめた: p_e13c02ace63c → p_5234436e2dd9 (久保美愛鈴)
+- `player-dedup`: 同一人物としてまとめた: p_e14a37ba40cd → p_673eb3ec3947 (久永 萌々香)
+- `player-dedup`: 同一人物としてまとめた: p_e185e7e2d27d → p_3a15725327b8 (関藤 侑嗣)
+- `player-dedup`: 同一人物としてまとめた: p_e1c5a84d7ae1 → p_de5bace00ba1 (高橋 一真)
 - `player-dedup`: 同一人物としてまとめた: p_e216c1f1230f → p_8e74f3b48e5d (幅 小夏)
 - `player-dedup`: 同一人物としてまとめた: p_e24acc252c0e → p_852b1eac3896 (神道優奈)
+- `player-dedup`: 同一人物としてまとめた: p_e25d94598570 → p_93038ed06df8 (岩切 美空)
+- `player-dedup`: 同一人物としてまとめた: p_e27c9a213465 → p_4f6fa09eb1f9 (岩崎俊憲)
+- `player-dedup`: 同一人物としてまとめた: p_e293f9d44a89 → p_fede35df3828 (太田 若那)
+- `player-dedup`: 同一人物としてまとめた: p_e3023326257d → p_45dca629f80f (奥田 七菜)
+- `player-dedup`: 同一人物としてまとめた: p_e31b7d7c7e3a → p_5b5c05a25fbf (中川聖太)
+- `player-dedup`: 同一人物としてまとめた: p_e3293dede5d1 → p_864d4d7cda15 (久常 優樹)
 - `player-dedup`: 同一人物としてまとめた: p_e33490eaaead → p_f00c8f79ef39 (荒木 清太郎)
+- `player-dedup`: 同一人物としてまとめた: p_e3435e287d39 → p_4d1bfa221af5 (飯室清春)
+- `player-dedup`: 同一人物としてまとめた: p_e3bd9461b504 → p_2ed3d7ab6943 (小寺 大佑)
 - `player-dedup`: 同一人物としてまとめた: p_e3cddf4bd0ae → p_0876153fcdc9 (山邊 一徳)
 - `player-dedup`: 同一人物としてまとめた: p_e43586f23120 → p_cb22e2377ebb (倉元 沙和)
+- `player-dedup`: 同一人物としてまとめた: p_e44f9fdbeae0 → p_5d4321933ea6 (付 宏宇)
+- `player-dedup`: 同一人物としてまとめた: p_e478add76d34 → p_65f61ccef4c1 (益田 世梨)
+- `player-dedup`: 同一人物としてまとめた: p_e488a5bd59cc → p_ab7d969377c6 (栗原 愛)
 - `player-dedup`: 同一人物としてまとめた: p_e48bdea3f659 → p_539456467889 (壷井 潤太)
 - `player-dedup`: 同一人物としてまとめた: p_e49b85165237 → p_295218aabb3f (岡留 夢叶)
+- `player-dedup`: 同一人物としてまとめた: p_e4f08de17b00 → p_e3aa15f3318a (杉山 桃香)
+- `player-dedup`: 同一人物としてまとめた: p_e4f4c8fde065 → p_0f51682afdf8 (勝亦 令奈)
+- `player-dedup`: 同一人物としてまとめた: p_e4fcda295297 → p_e75cc63d8067 (長嶺 勝斗)
+- `player-dedup`: 同一人物としてまとめた: p_e5fa238e6a50 → p_819ef7927f8f (渡邉康生)
 - `player-dedup`: 同一人物としてまとめた: p_e642f565848c → p_a48bd390e826 (田邊 武士)
+- `player-dedup`: 同一人物としてまとめた: p_e66be87755a3 → p_059f5253692b (馬城颯士)
+- `player-dedup`: 同一人物としてまとめた: p_e671108f3cf5 → p_85a5f429fb4d (冨田 幸暉)
 - `player-dedup`: 同一人物としてまとめた: p_e678f991df9f → p_0b1ac28dd3a6 (矢野 仁貴)
+- `player-dedup`: 同一人物としてまとめた: p_e6799d0ab0a3 → p_39af3324d89b (平原 颯太)
+- `player-dedup`: 同一人物としてまとめた: p_e6a8dd8edb0d → p_e71d78c07103 (佐相 ことみ)
+- `player-dedup`: 同一人物としてまとめた: p_e6e696684358 → p_587d3f3fed0a (木村勇吾)
 - `player-dedup`: 同一人物としてまとめた: p_e7111176f844 → p_ddbc2bf93a1c (武内 擢真)
 - `player-dedup`: 同一人物としてまとめた: p_e72a5b29e4db → p_6f36d9679ef9 (松山 茉生)
 - `player-dedup`: 同一人物としてまとめた: p_e7f3277400b8 → p_b76a7c5e8963 (上原 嘉連)
+- `player-dedup`: 同一人物としてまとめた: p_e8373cf0feca → p_3db2da054c01 (小泉文乃)
 - `player-dedup`: 同一人物としてまとめた: p_e896ecdb41a6 → p_4db02e02dfe2 (秦 悠栞)
 - `player-dedup`: 同一人物としてまとめた: p_e8ad82f2a6b7 → p_4aca4a2a7e78 (西澤 梓)
+- `player-dedup`: 同一人物としてまとめた: p_e8cce5c51dc0 → p_b8b3fc2da33d (玉木 海凪)
+- `player-dedup`: 同一人物としてまとめた: p_e8dd14b87bbc → p_23a39d557cd6 (吉本 龍斗)
+- `player-dedup`: 同一人物としてまとめた: p_e8f9882bd585 → p_9e4398fc544a (髙橋 茉夢)
 - `player-dedup`: 同一人物としてまとめた: p_e96f8140d1c8 → p_83a6676c893d (河北 拓真)
+- `player-dedup`: 同一人物としてまとめた: p_e9a3e2f0ae3e → p_8fe8ad8d6c1f (渡辺 匠)
 - `player-dedup`: 同一人物としてまとめた: p_e9b01e5fb715 → p_85826f911a0b (遠藤 美空)
 - `player-dedup`: 同一人物としてまとめた: p_e9b3554dfb02 → p_8f1e36dfc516 (澤江 天晴)
+- `player-dedup`: 同一人物としてまとめた: p_e9f98380f86e → p_0061e70b46da (谷口拓海)
 - `player-dedup`: 同一人物としてまとめた: p_ea31c28351ba → p_1bad73dc7167 (エズデンシちなさ)
 - `player-dedup`: 同一人物としてまとめた: p_ea5cdf392532 → p_2f8015f9d83c (小笠原 瑞季)
-- `player-dedup`: 同一人物としてまとめた: p_ea8beaa684e7 → p_eded6c0123b2 (奥龍 之介)
-- `player-dedup`: 同一人物としてまとめた: p_eadab13a9fed → p_7124ddf88b2a (木崎 哉汰)
+- `player-dedup`: 同一人物としてまとめた: p_ea71477e4e52 → p_f189cf5eba91 (櫻田櫂吏)
+- `player-dedup`: 同一人物としてまとめた: p_ea8beaa684e7 → p_eded6c0123b2 (奥 龍之介)
+- `player-dedup`: 同一人物としてまとめた: p_eac58bbe71b1 → p_f08d57deef48 (春名 彩羽)
+- `player-dedup`: 同一人物としてまとめた: p_eacec6819686 → p_a83ff99dcd16 (木村俊之介)
+- `player-dedup`: 同一人物としてまとめた: p_eae873f6d1cb → p_0876bacd0e2e (入口 裕大)
+- `player-dedup`: 同一人物としてまとめた: p_eaf076987d8a → p_2d746a97e0a3 (岡田 拓人)
+- `player-dedup`: 同一人物としてまとめた: p_eb5b5199c155 → p_f5488cafface (松浦 佑斎)
+- `player-dedup`: 同一人物としてまとめた: p_ebd3eb966f23 → p_9211fd970365 (幸田 彩里)
+- `player-dedup`: 同一人物としてまとめた: p_ebdb8109c84b → p_ac38fc43198e (工藤 鈴夏)
+- `player-dedup`: 同一人物としてまとめた: p_ebddc932cee4 → p_72ec90f66e8f (野々瀬 圭)
 - `player-dedup`: 同一人物としてまとめた: p_ec12b011759d → p_83a6676c893d (河北 拓真)
+- `player-dedup`: 同一人物としてまとめた: p_ec8956e7d486 → p_44ba028ff15c (松田夏月輝)
+- `player-dedup`: 同一人物としてまとめた: p_ec999f988876 → p_31093b1edd50 (山下莉奈)
 - `player-dedup`: 同一人物としてまとめた: p_ec9d719f3671 → p_6f36d9679ef9 (松山 茉生)
+- `player-dedup`: 同一人物としてまとめた: p_eda4efb6d918 → p_96b5c722ced1 (鈴木 夏瑠)
+- `player-dedup`: 同一人物としてまとめた: p_edde774ce177 → p_eadab13a9fed (木崎 哉汰)
+- `player-dedup`: 同一人物としてまとめた: p_ee5a57b2dee1 → p_d91706ef8c72 (魚見 萌桃)
+- `player-dedup`: 同一人物としてまとめた: p_eeaad0cee45c → p_fc7240d29117 (矢部 銀士)
+- `player-dedup`: 同一人物としてまとめた: p_eedbeb666c55 → p_d447231d2da9 (*德永歩)
 - `player-dedup`: 同一人物としてまとめた: p_ef019d8b9c86 → p_267fd1fabd0b (吉田 遼雅)
 - `player-dedup`: 同一人物としてまとめた: p_ef128ecc1c04 → p_abd8126ece8a (髙屋駿)
+- `player-dedup`: 同一人物としてまとめた: p_ef47edc60d4b → p_2ff33f3dda35 (横山 愛華)
+- `player-dedup`: 同一人物としてまとめた: p_ef766e02993d → p_d9022097c801 (竹田 弘登)
 - `player-dedup`: 同一人物としてまとめた: p_ef8444502c53 → p_4366dabb0a64 (矢島葵)
+- `player-dedup`: 同一人物としてまとめた: p_efdf80d500e0 → p_ad6a648cfe6f (竹川加寿斗)
+- `player-dedup`: 同一人物としてまとめた: p_f03a35b47492 → p_5499997b82a1 (樽本桜)
+- `player-dedup`: 同一人物としてまとめた: p_f0639380b5d8 → p_bdccad3f3015 (柴﨑香凜)
+- `player-dedup`: 同一人物としてまとめた: p_f06a1f6d564a → p_f5cbfbe28c7f (川口 充志)
 - `player-dedup`: 同一人物としてまとめた: p_f0810e1d3310 → p_b3b303bacdd8 (岡﨑 煌稀)
 - `player-dedup`: 同一人物としてまとめた: p_f0edef0ec6bf → p_57cc9a24c4c4 (髙田 嘩琳)
 - `player-dedup`: 同一人物としてまとめた: p_f10cf85f3468 → p_6eb4cdd11423 (高田英太郎)
+- `player-dedup`: 同一人物としてまとめた: p_f13474d0e81c → p_0cdd75758a50 (髙岡 龍)
+- `player-dedup`: 同一人物としてまとめた: p_f17d4b40d5a8 → p_ee1d71560492 (淺井 勇志)
+- `player-dedup`: 同一人物としてまとめた: p_f1a337bdfd9b → p_ee35d9b97c50 (岩﨑 星乃)
 - `player-dedup`: 同一人物としてまとめた: p_f2a35dcabb17 → p_04337f409aeb (小林 希紗姫)
+- `player-dedup`: 同一人物としてまとめた: p_f2b9725218b8 → p_a6814f311fc2 (木原 迅月希)
 - `player-dedup`: 同一人物としてまとめた: p_f2c01c65d827 → p_98ac394e6d60 (須崎日愛)
+- `player-dedup`: 同一人物としてまとめた: p_f2d8bc3683fe → p_b11a02106acf (秋葉 怜奈)
 - `player-dedup`: 同一人物としてまとめた: p_f2f5cd25ace1 → p_4098750cef80 (稲垣 百花)
-- `player-dedup`: 同一人物としてまとめた: p_f3bde5143c9f → p_287b1c7796d0 (中野識司)
+- `player-dedup`: 同一人物としてまとめた: p_f31a3835ee31 → p_587d3f3fed0a (木村勇吾)
+- `player-dedup`: 同一人物としてまとめた: p_f3d188b37bd8 → p_161429bbf1ec (田中 貫太)
 - `player-dedup`: 同一人物としてまとめた: p_f431449d28a0 → p_6db891fb7417 (髙坂信一郎)
+- `player-dedup`: 同一人物としてまとめた: p_f4a9ffa4aa8e → p_6992560aa4a6 (坂本 佳祐)
+- `player-dedup`: 同一人物としてまとめた: p_f4edb46e0134 → p_22e08e623ca7 (青山 ゆずゆ)
+- `player-dedup`: 同一人物としてまとめた: p_f51aed38c8fc → p_9211fd970365 (幸田 彩里)
+- `player-dedup`: 同一人物としてまとめた: p_f529c2c24409 → p_549255bc7192 (野田 昊佑)
 - `player-dedup`: 同一人物としてまとめた: p_f5431dd6584c → p_9442de52a7a8 (蓑手 陽和)
 - `player-dedup`: 同一人物としてまとめた: p_f570e82197b1 → p_badf11f3766a (廣野 里彩)
 - `player-dedup`: 同一人物としてまとめた: p_f5fa0a79abcc → p_c25e5a8c91aa (光浪くるみ)
 - `player-dedup`: 同一人物としてまとめた: p_f6061e7907e8 → p_8253799403d6 (北岡 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_f645e240b7df → p_1f6be7789952 (野村 昂生)
+- `player-dedup`: 同一人物としてまとめた: p_f6602fddf2a0 → p_3998d641593e (仲宗根 寛瑛)
+- `player-dedup`: 同一人物としてまとめた: p_f66b3a5be0f6 → p_4251b672aa34 (三浦 春舞)
 - `player-dedup`: 同一人物としてまとめた: p_f69bf7e75588 → p_4ba25d10b8de (白垣美空)
 - `player-dedup`: 同一人物としてまとめた: p_f6a032b7b1a0 → p_c0e2661f15f9 (浅井 晴太)
+- `player-dedup`: 同一人物としてまとめた: p_f6a5dd058ebe → p_78690f7ade07 (水野 陽稀)
+- `player-dedup`: 同一人物としてまとめた: p_f6ac619f5d19 → p_3a44005969a5 (江口琴遥)
+- `player-dedup`: 同一人物としてまとめた: p_f6d391da0db8 → p_def2e43c79d8 (船岡 誠志郎)
 - `player-dedup`: 同一人物としてまとめた: p_f6f74c6de815 → p_0f24f9d5b58a (黒木 宝)
+- `player-dedup`: 同一人物としてまとめた: p_f70006f859c8 → p_86e5f0a9452d (遠藤 銀河)
 - `player-dedup`: 同一人物としてまとめた: p_f723f6e1876d → p_4841492ca7a8 (川崎笑瑚)
+- `player-dedup`: 同一人物としてまとめた: p_f72c39b40602 → p_efdad43994eb (植田 晃大)
+- `player-dedup`: 同一人物としてまとめた: p_f7787f9a79e2 → p_42a5c6028296 (阿形 凌央)
+- `player-dedup`: 同一人物としてまとめた: p_f7b12f85a215 → p_9163fafe905d (金子 舜)
+- `player-dedup`: 同一人物としてまとめた: p_f7b4e1f27a88 → p_b71544405445 (逢坂 遥)
+- `player-dedup`: 同一人物としてまとめた: p_f81420300114 → p_e880dd4843b5 (寺尾悠希)
+- `player-dedup`: 同一人物としてまとめた: p_f83b76c62597 → p_42a5c6028296 (阿形 凌央)
 - `player-dedup`: 同一人物としてまとめた: p_f84b6b34f0e1 → p_2a23fa2328d1 (美麗 智志)
 - `player-dedup`: 同一人物としてまとめた: p_f856beb9191f → p_d54d3297a322 (柴木遼人)
 - `player-dedup`: 同一人物としてまとめた: p_f8aa6de0df81 → p_4b7c72e64ac2 (今村 鴻汰)
 - `player-dedup`: 同一人物としてまとめた: p_f8c7980e821f → p_ef2ca5efd1b9 (上笹貫 雄介)
 - `player-dedup`: 同一人物としてまとめた: p_f9026f92dc9d → p_52bde0914c4b (寺岡鈴音)
+- `player-dedup`: 同一人物としてまとめた: p_f94075b88fe6 → p_7504bcec94e6 (青山 日向子)
+- `player-dedup`: 同一人物としてまとめた: p_f971438067e0 → p_c74642b46a6d (佐々木 俊輔)
+- `player-dedup`: 同一人物としてまとめた: p_f987f0358f75 → p_9d650e2aa750 (西片 太一)
+- `player-dedup`: 同一人物としてまとめた: p_f993803d6998 → p_307c49914ca4 (森崎公也)
 - `player-dedup`: 同一人物としてまとめた: p_f9b91e14f67d → p_2c3bfa13ca7b (大島 丹花)
+- `player-dedup`: 同一人物としてまとめた: p_f9d186d1142e → p_1ad8ab7a5d7f (藤田 光)
 - `player-dedup`: 同一人物としてまとめた: p_f9dbc2b6e7c6 → p_7d5078bd77aa (髙橋亮央)
 - `player-dedup`: 同一人物としてまとめた: p_f9ebe405d095 → p_96bd2bc4459f (首藤 姫奈)
+- `player-dedup`: 同一人物としてまとめた: p_fa017349426e → p_0e67c25b081d (真鍋 和馬)
+- `player-dedup`: 同一人物としてまとめた: p_fa1a91b13abd → p_65ffa705c204 (矢内凛)
+- `player-dedup`: 同一人物としてまとめた: p_fa617a367bc6 → p_2a033915f792 (川合 玲那)
+- `player-dedup`: 同一人物としてまとめた: p_fa6693f89f13 → p_976c23097614 (宇佐見涼)
+- `player-dedup`: 同一人物としてまとめた: p_fa7b3c481dfc → p_3aa7d572e2d5 (山下莉奈)
+- `player-dedup`: 同一人物としてまとめた: p_fabef33b9d61 → p_2195f96601bf (高原 花奈)
+- `player-dedup`: 同一人物としてまとめた: p_fae0f690e38d → p_41b2860cfecb (平山 航之)
 - `player-dedup`: 同一人物としてまとめた: p_faf63b5a7fdf → p_46c99a01a72f (浦上 唯那)
+- `player-dedup`: 同一人物としてまとめた: p_fb0f446f4ea0 → p_1df0fef739b5 (黒瀬 雄一)
+- `player-dedup`: 同一人物としてまとめた: p_fc14286361a0 → p_cb77522afcf9 (上野 菜々子)
 - `player-dedup`: 同一人物としてまとめた: p_fc1533d8ff90 → p_aff0240e505b (石口 寛樹)
 - `player-dedup`: 同一人物としてまとめた: p_fc98aedbebb2 → p_87a6c6a4c370 (工藤百華)
+- `player-dedup`: 同一人物としてまとめた: p_fc991c3a8785 → p_f7dccfb150c8 (菱田 健斗)
 - `player-dedup`: 同一人物としてまとめた: p_fcb9d7795a8b → p_4d757c1f5a06 (北岡優菜)
 - `player-dedup`: 同一人物としてまとめた: p_fce5f20e0c84 → p_44abdcad8c1b (細川 泰志)
+- `player-dedup`: 同一人物としてまとめた: p_fd0302b59afd → p_72f9baed26fd (香川 凛央)
+- `player-dedup`: 同一人物としてまとめた: p_fd8b726d7e10 → p_f5c44838b234 (赤瀬 新菜)
+- `player-dedup`: 同一人物としてまとめた: p_fdd71a74705f → p_58a36aa54ac7 (水野 恵介)
+- `player-dedup`: 同一人物としてまとめた: p_fe47dd4c8132 → p_6a3765da2981 (垣 優菜)
 - `player-dedup`: 同一人物としてまとめた: p_fe9ace6b1fbf → p_cb282cb10ede (滝田 詠夢)
+- `player-dedup`: 同一人物としてまとめた: p_fedca5a48795 → p_a8b618072719 (光部 集)
 - `player-dedup`: 同一人物としてまとめた: p_feddc152ec6e → p_110e664c77c9 (清本 貴秀)
 - `player-dedup`: 同一人物としてまとめた: p_fee6e1b74201 → p_b0f0fb422663 (梅本 りさ)
 - `player-dedup`: 同一人物としてまとめた: p_feec2be7cdc0 → p_f17a426590bb (畑凪咲)
+- `player-dedup`: 同一人物としてまとめた: p_ff002cc18f77 → p_f5bedd6d37b9 (森上 耀介)
+- `player-dedup`: 同一人物としてまとめた: p_ff1d386789a7 → p_1d820e629460 (田中 天晴)
+- `player-dedup`: 同一人物としてまとめた: p_ff6f9f455692 → p_33e44e255d9a (鳥海 颯汰)
 - `player-dedup`: 同一人物としてまとめた: p_ff6fb445101c → p_549255bc7192 (野田 昊佑)
 - `player-dedup`: 同一人物としてまとめた: p_ff7cd535269e → p_be496450f8e4 (児玉 桃)
+- `player-dedup`: 同一人物としてまとめた: p_ffa6baaace9f → p_8c86b65bd7f6 (有櫛 琢郎)
 - `player-dedup`: 同一人物としてまとめた: p_ffd015c7509a → p_a95a05fa32bc (坂倉拓未)
+- `player-dedup`: 同一人物としてまとめた: p_fff5df0aa51b → p_1c61dff36201 (児玉 健太郎)
