@@ -32,6 +32,12 @@ const en = {
     sortClass: "Class",
     count: (shown: number, total: number) => `${shown} of ${total} players`,
     noMatch: "No players match these filters.",
+    more: (left: number) => `Show more (${left} left)`,
+  },
+  browse: {
+    loading: "Loading…",
+    notFound: "Not found. The link may be out of date.",
+    error: "Could not load the data. Please reload the page.",
   },
   player: {
     school: "School",
@@ -220,6 +226,12 @@ const ja: Dictionary = {
     sortClass: "卒業年",
     count: (shown: number, total: number) => `${total}人中 ${shown}人`,
     noMatch: "条件に合う選手がいません。",
+    more: (left: number) => `もっと見る（残り${left}人）`,
+  },
+  browse: {
+    loading: "読み込み中…",
+    notFound: "見つかりませんでした。リンクが古い可能性があります。",
+    error: "データを読み込めませんでした。ページを再読み込みしてください。",
   },
   player: {
     school: "学校",

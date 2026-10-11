@@ -36,7 +36,7 @@ export default async function TournamentsPage({ params }: PageProps<"/[lang]/tou
               .map(({ tournament, course, winners }) => (
                 <li key={tournament.id} className="py-3">
                   <Link
-                    href={`/${lang}/tournaments/${tournament.id}`}
+                    href={`/${lang}/tournament/?id=${tournament.id}`}
                     className="font-medium hover:underline"
                   >
                     {localizedName(lang, tournament).primary}
@@ -58,7 +58,7 @@ export default async function TournamentsPage({ params }: PageProps<"/[lang]/tou
                         {winners.map((w, i) => (
                           <span key={w.id}>
                             {i > 0 && ", "}
-                            <Link href={`/${lang}/players/${w.id}`} className="hover:underline">
+                            <Link href={`/${lang}/player/?id=${w.id}`} className="hover:underline">
                               {localizedName(lang, w).primary}
                             </Link>
                           </span>

@@ -742,7 +742,7 @@ function Results({
         <ul className="divide-y divide-black/5 text-sm dark:divide-white/10">
           {claims.map((c) => (
             <li key={c.id} className="flex items-center justify-between gap-4 py-2">
-              <Link href={`/${lang}/players/${c.player_id}/`} className="font-medium hover:underline">
+              <Link href={`/${lang}/player/?id=${c.player_id}`} className="font-medium hover:underline">
                 {(lang === "en" ? c.players?.name_en : c.players?.name_ja) ?? c.players?.name_ja ?? c.player_id}
               </Link>
               <span className="text-xs text-foreground/60">{s.claimStatus[c.status]}</span>

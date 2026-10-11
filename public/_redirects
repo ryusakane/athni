@@ -1,0 +1,9 @@
+# Player and tournament pages moved to one page each that loads by ?id= (see src/lib/golf/browse.ts).
+/en/players/:id/ /en/player/?id=:id 301
+/ja/players/:id/ /ja/player/?id=:id 301
+/en/tournaments/:id/ /en/tournament/?id=:id 301
+/ja/tournaments/:id/ /ja/tournament/?id=:id 301
+/en/players/:id /en/player/?id=:id 301
+/ja/players/:id /ja/player/?id=:id 301
+/en/tournaments/:id /en/tournament/?id=:id 301
+/ja/tournaments/:id /ja/tournament/?id=:id 301

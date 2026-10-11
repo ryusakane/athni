@@ -99,7 +99,7 @@ export function ClaimedResults({ lang, studentId, playerIds }: { lang: Locale; s
           return (
             <li key={r.id} className="flex items-center justify-between gap-3 py-2">
               <span>
-                <Link href={`/${lang}/tournaments/${r.tournaments?.id}/`} className="font-medium hover:underline">
+                <Link href={`/${lang}/tournament/?id=${r.tournaments?.id}`} className="font-medium hover:underline">
                   {name}
                 </Link>
                 <span className="block text-xs text-foreground/60">{detail}</span>
