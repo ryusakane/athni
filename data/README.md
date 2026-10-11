@@ -44,8 +44,8 @@ data/
 - 同じ内容を `src/data/seed.json` にも書き出す。サイトは Supabase の環境変数がないときこれを表示する。
 - 各行の id は `*_key` から作る固定の UUID なので、何度流しても重複せず、作り直しても同じ選手は同じ id。
 - 公開に許諾が必要な大会 (関東高ゴ連) と団体戦 (スキーマに表がない) は含めていない。
-- 載せる大会は `supabase/published_tournaments.txt` に絞る (サイトの静的ファイル数を Cloudflare の無料枠に収めるため)。全大会は `to_sql.py --all`。
 - 再生成: `python3 data/scripts/build.py && python3 data/scripts/to_sql.py` (`--include-restricted` で関東も含める)。
+- 本番への反映: `seed.sql` は SQL Editor に貼るには大きいので、`data/supabase/load_seed.sql` (seed.json を読み、seed にない行を消して upsert する) を使う。使い方はファイル先頭。
 - ローカルの PostgreSQL でマイグレーション → seed を2回流して、エラーなく同じ件数になることを確認済み。
 
 ## CSV とテーブルの対応

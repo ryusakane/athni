@@ -1,0 +1,219 @@
+{
+ "tournament": {
+  "id": "shikoku-kougoren-summer-qualifier-2021-boys-team",
+  "name": "令和３年度 四国高等学校･中学校ゴルフ選手権大会 高校団体の部 兼 第42回全国高等学校･中学校ゴルフ選手権大会高校団体の部四国予選 男子",
+  "organizer": "四国高等学校・中学校ゴルフ連盟",
+  "season_year": 2021,
+  "start_date": "2021-07-22",
+  "end_date": "2021-07-22",
+  "venue": "北条カントリー倶楽部",
+  "venue_prefecture": "愛媛",
+  "level": "regional",
+  "region": "shikoku",
+  "category": "boys",
+  "format": "team",
+  "par": 72,
+  "yardage": 6903,
+  "source_url": "http://www.shsga.jp/kyouginaiyou.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/pdf/2021/R3dantai.pdf"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "team_name": "四学香川西高等学校",
+   "school": "四学香川西高等学校",
+   "school_prefecture": null,
+   "total": 212,
+   "members": [
+    {
+     "player_name": "古瀬幸一朗",
+     "grade": 3,
+     "score": 68,
+     "rounds": [
+      68
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "佐藤大空",
+     "grade": 3,
+     "score": 76,
+     "rounds": [
+      76
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "田村軍馬",
+     "grade": 2,
+     "score": 72,
+     "rounds": [
+      72
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "山本詠太",
+     "grade": 2,
+     "score": 72,
+     "rounds": [
+      72
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 212"
+  },
+  {
+   "rank": "2",
+   "team_name": "生光学園高等学校",
+   "school": "生光学園高等学校",
+   "school_prefecture": null,
+   "total": 220,
+   "members": [
+    {
+     "player_name": "古川惣一朗",
+     "grade": 3,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "勢井乃樹",
+     "grade": 3,
+     "score": 73,
+     "rounds": [
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "山田直人",
+     "grade": 3,
+     "score": 77,
+     "rounds": [
+      77
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "濱渕裕生",
+     "grade": 1,
+     "score": 72,
+     "rounds": [
+      72
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 220"
+  },
+  {
+   "rank": "3",
+   "team_name": "明徳義塾高等学校",
+   "school": "明徳義塾高等学校",
+   "school_prefecture": null,
+   "total": 222,
+   "members": [
+    {
+     "player_name": "松岡翔眞",
+     "grade": 3,
+     "score": 76,
+     "rounds": [
+      76
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "曽山正太郎",
+     "grade": 3,
+     "score": 79,
+     "rounds": [
+      79
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "佐竹統吾",
+     "grade": 3,
+     "score": 78,
+     "rounds": [
+      78
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "寄田聖悟",
+     "grade": 2,
+     "score": 68,
+     "rounds": [
+      68
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 222"
+  },
+  {
+   "rank": "4",
+   "team_name": "松山聖陵高等学校",
+   "school": "松山聖陵高等学校",
+   "school_prefecture": null,
+   "total": 228,
+   "members": [
+    {
+     "player_name": "田中響己",
+     "grade": 3,
+     "score": 77,
+     "rounds": [
+      77
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "和田和也",
+     "grade": 3,
+     "score": 77,
+     "rounds": [
+      77
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "佐賀翔也",
+     "grade": 2,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "竹内康晴",
+     "grade": 1,
+     "score": 76,
+     "rounds": [
+      76
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 228"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 4,
+  "issues": [
+   "Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column",
+   "Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －",
+   "Single-day event",
+   "school_prefecture not printed",
+   "Only one round printed for every team (single-day qualifier)"
+  ]
+ }
+}

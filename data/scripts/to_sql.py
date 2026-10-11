@@ -5,10 +5,8 @@
   `on conflict (id) do update` なので何度流しても重複しない。
 - 利用条件で公開に許諾が必要な大会 (reuse_status=restricted、関東高ゴ連) は既定で除外する。
   含めるときは --include-restricted。
-- 載せる大会は supabase/published_tournaments.txt に絞る (サイトの静的ファイル数を Cloudflare の無料枠に収めるため)。
-  全大会は --all。
 - 団体戦はスキーマに表がないため含めない。個人成績のない大会 (団体のみ) も除外。
-- 不出場 (dns) の行は除外。
+- 不出場 (dns) の行と、性別がわからない (男女混合の大会にしか出ていない) 選手は除外。
 
 実行: python3 data/scripts/build.py && python3 data/scripts/to_sql.py
 サイト用: 同じ行を src/data/seed.json にも書く (Supabase 未接続時のサイトの表示データ。--include-restricted のときは書かない)。
@@ -37,15 +35,6 @@ def uid(*parts):
 def read(name):
     with open(os.path.join(ROOT, name), encoding="utf-8") as fh:
         return list(csv.DictReader(fh))
-
-
-def published_tournaments():
-    """サイトと Supabase に載せる大会 (supabase/published_tournaments.txt)。ファイルがなければ全大会。"""
-    path = os.path.join(ROOT, "supabase", "published_tournaments.txt")
-    if not os.path.exists(path):
-        return None
-    with open(path, encoding="utf-8") as fh:
-        return {l.strip() for l in fh if l.strip() and not l.startswith("#")}
 
 
 def lit(v, kind="text"):
@@ -88,12 +77,16 @@ def inserts(table, cols, rows):
 
 def main():
     include_restricted = "--include-restricted" in sys.argv
-    published = None if "--all" in sys.argv else published_tournaments()
     tournaments = [t for t in read("tournaments.csv")
-                   if t["format"] != "team" and (include_restricted or t["reuse_status"] != "restricted")
-                   and (published is None or t["tournament_key"] in published)]
+                   if t["format"] != "team" and (include_restricted or t["reuse_status"] != "restricted")]
+    undated = [t["tournament_key"] for t in tournaments if not t["start_date"]]
+    if undated:  # tournaments.start_date is not null in the schema
+        sys.exit(f"start_date missing: {', '.join(undated)}")
     tkeys = {t["tournament_key"] for t in tournaments}
-    results = [r for r in read("tournament_results.csv") if r["tournament_key"] in tkeys and r["status"] != "dns"]
+    # players.gender は male / female のみ。男女混合の大会にしか出ておらず性別がわからない選手は載せない
+    unknown_gender = {p["player_key"] for p in read("players.csv") if p["gender"] not in ("male", "female")}
+    results = [r for r in read("tournament_results.csv") if r["tournament_key"] in tkeys and r["status"] != "dns"
+               and r["player_key"] not in unknown_gender]
     rkeys = {(r["tournament_key"], r["player_key"]) for r in results}
     tkeys = {r["tournament_key"] for r in results}
     tournaments = [t for t in tournaments if t["tournament_key"] in tkeys]

@@ -1,0 +1,237 @@
+{
+ "tournament": {
+  "id": "shikoku-kougoren-summer-qualifier-2020-girls-team",
+  "name": "令和２年度 四国高等学校ゴルフ選手権大会 団体の部 兼 2020年度全国高等学校ゴルフ選手権特別大会 四国予選 女子",
+  "organizer": "四国高等学校・中学校ゴルフ連盟",
+  "season_year": 2020,
+  "start_date": "2020-11-07",
+  "end_date": "2020-11-08",
+  "venue": "松山シーサイドカントリークラブ",
+  "venue_prefecture": "愛媛",
+  "level": "regional",
+  "region": "shikoku",
+  "category": "girls",
+  "format": "team",
+  "par": 72,
+  "yardage": 6369,
+  "source_url": "http://www.shsga.jp/kyouginaiyou.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/pdf/2020/R2dantai.pdf"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "team_name": "四学香川西高等学校",
+   "school": "四学香川西高等学校",
+   "school_prefecture": null,
+   "total": 224,
+   "members": [
+    {
+     "player_name": "田口菜花",
+     "grade": 2,
+     "score": 80,
+     "rounds": [
+      80
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "西山星空",
+     "grade": 1,
+     "score": 78,
+     "rounds": [
+      78
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "田口蘭名",
+     "grade": 3,
+     "score": 71,
+     "rounds": [
+      71
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "田村和",
+     "grade": 3,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 224"
+  },
+  {
+   "rank": "2",
+   "team_name": "生光学園高等学校",
+   "school": "生光学園高等学校",
+   "school_prefecture": null,
+   "total": 225,
+   "members": [
+    {
+     "player_name": "都玲華",
+     "grade": 2,
+     "score": 74,
+     "rounds": [
+      74
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "村上美空",
+     "grade": 2,
+     "score": 76,
+     "rounds": [
+      76
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "成松優羽",
+     "grade": 1,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "島勝ひなた",
+     "grade": 2,
+     "score": 77,
+     "rounds": [
+      77
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "上野歩未",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 225"
+  },
+  {
+   "rank": "3",
+   "team_name": "明徳義塾高等学校",
+   "school": "明徳義塾高等学校",
+   "school_prefecture": null,
+   "total": 231,
+   "members": [
+    {
+     "player_name": "高木綾夏",
+     "grade": 1,
+     "score": 74,
+     "rounds": [
+      74
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "中田寧々",
+     "grade": 3,
+     "score": 79,
+     "rounds": [
+      79
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "城戸姫菜",
+     "grade": 1,
+     "score": 94,
+     "rounds": [
+      94
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "大内瑞喜",
+     "grade": 2,
+     "score": 78,
+     "rounds": [
+      78
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "加藤菜摘",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 231"
+  },
+  {
+   "rank": "4",
+   "team_name": "高知中央高等学校",
+   "school": "高知中央高等学校",
+   "school_prefecture": null,
+   "total": 239,
+   "members": [
+    {
+     "player_name": "松井流愛蘭",
+     "grade": 1,
+     "score": 81,
+     "rounds": [
+      81
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "野並百秋",
+     "grade": 2,
+     "score": 84,
+     "rounds": [
+      84
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "安川真琳",
+     "grade": 2,
+     "score": 79,
+     "rounds": [
+      79
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "春口さくら",
+     "grade": 3,
+     "score": 79,
+     "rounds": [
+      79
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 239"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 4,
+  "issues": [
+   "Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column",
+   "Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －",
+   "Dates: competition days per entry list (practice day excluded) — verify",
+   "school_prefecture not printed",
+   "Only one round printed for every team (single-day qualifier)"
+  ]
+ }
+}

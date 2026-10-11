@@ -1,0 +1,54 @@
+{
+ "agent": "west",
+ "written": "2026-10-11",
+ "sources": [
+  {
+   "source": "khgu.jp (関西高等学校ゴルフ連盟)",
+   "files": "kansai-kougoren-championship 2016-19,2021-23; kansai-kougoren-team 2016-23; kansai-kougoren-fall-final 2021-23; kansai-kougoren-3rd-grade 2020",
+   "terms": "No terms page found; HTTP-only site",
+   "notes": [
+    "Fall championship 2016-2020 and junior-final PDFs render names as vector outlines (no text layer) - not collected",
+    "2020 summer championship cancelled (3rd-grade event held instead)"
+   ]
+  },
+  {
+   "source": "kyushu-kougoren.jp (九州高等学校ゴルフ連盟)",
+   "files": "kyushu-kougoren-summer-qualifier 2016-19 (+prelim 2016-18); kyushu-kougoren-spring 2016-18, 2022 girls; kyushu-kougoren-shinjin 2016-19,2021-23",
+   "terms": "No terms page found",
+   "notes": [
+    "2020-2023 challenge/summer-final and spring PDFs (incl. 2022 spring boys) have vector-outline names - not collected",
+    "Team results (kykdd/kyukdd PDFs) not transcribed",
+    "Summer qualifier 2016: final sheet shows day-1 scores only (noted in issues)"
+   ]
+  },
+  {
+   "source": "cgu.gr.jp (中国ゴルフ連盟) 中国ジュニア 15-17 = 全国高校選手権個人 中国予選",
+   "files": "cgu-junior 2016-19,2021-24 boys/girls",
+   "terms": "robots.txt disallows /wp-admin/ only; no reuse ban seen",
+   "notes": [
+    "2020 not held (no 15-17 event in the 2020 archive; 第26回 was held in 2021)",
+    "2016-2019, 2021, 2024 had an R1 cut (★ 予選通過); missed-cut rows recorded as rank \"cut\"",
+    "One 2018 boys row with affiliation JGAジュニア会員 (no school/grade) kept"
+   ]
+  },
+  {
+   "source": "guk.jp/kyougi year pages (九州ゴルフ連盟) 九州ジュニア 15-17",
+   "files": "guk-junior 2016-19,2021-24 boys/girls",
+   "terms": "robots.txt disallows /wp-admin/ only; Copyright footer only",
+   "notes": [
+    "2020 cancelled (開催中止)",
+    "Row counts match printed 参加者数 for every file",
+    "One 2017 boys player printed with affiliation \"-\" kept with school null"
+   ]
+  },
+  {
+   "source": "sgu.gr.jp (四国ゴルフ連盟) 四国ジュニア 15-17",
+   "files": "sgu-junior 2023, 2024 boys/girls",
+   "terms": "robots.txt disallows /wp-admin/ only",
+   "notes": [
+    "Archive only has 第41回(2022)-第45回(2026); 2022 and 2025 not written because the same event already exists in data/raw/regional as shikoku-kougoren-summer-championship-2022/2025",
+    "Names printed with spaced characters; split only where the gap is clearly larger, else joined"
+   ]
+  }
+ ]
+}

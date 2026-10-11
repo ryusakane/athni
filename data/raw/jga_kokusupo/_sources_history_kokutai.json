@@ -1,0 +1,17 @@
+{
+  "tag": "kokutai",
+  "checked": "2026-10-11",
+  "scope": "国民体育大会 ゴルフ競技 少年男子 個人・団体 2016-2022",
+  "collected": [
+    {"year": 2018, "event": "第73回国民体育大会 福井しあわせ元気国体2018", "host": "https://info.pref.fukui.lg.jp/fukuikokutai2018/5NS18/", "pages": ["detail_20181006_42034020020.html (個人 最終成績)", "detail_20181006_42034010020.html (団体 最終成績)"], "robots": "robots.txt なし (404)", "terms": "© Kyodo News Digital. All Rights Reserved. (2023以降と同じ記録検索システムを県サイトに保存したもの)"},
+    {"year": 2022, "event": "第77回国民体育大会 いちご一会とちぎ国体2022", "host": "https://www.pref.tochigi.lg.jp/tochigikokutai2022/kokutai/", "pages": ["detail_20221007_42034020020.html (個人 最終成績)", "detail_20221007_42034010020.html (団体 最終成績)"], "robots": "/koujisoutatsu/ 等のみ不許可", "terms": "© Kyodo News Digital. All Rights Reserved."}
+  ],
+  "not_collected": [
+    {"year": 2016, "event": "第71回 希望郷いわて国体", "reason": "kirokukensaku.net/5NS16/ は現在削除済み (未掲載ページ)。Wayback Machine に保存あり (2025-11) だが、このセッションからは web.archive.org に接続できず (接続リセット)。県サイトに移設版は見つからず"},
+    {"year": 2017, "event": "第72回 愛顔つなぐえひめ国体", "reason": "kirokukensaku.net/5NS17/ は削除済み。Wayback に discipline_420_20171006.html の保存あり (2024-11) だが接続不可。ALBA Net 記事 (column-3786) に結果表があるが報道記事のため収集せず"},
+    {"year": 2019, "event": "第74回 いきいき茨城ゆめ国体", "reason": "記録は https://www.pref.ibaraki.jp/ibarakikokutai2019/html/results/detail_20191001_42034020020.html (個人) / ..._42034010020.html (団体) にあるが、茨城県サイトがシステム障害で臨時ページ表示中 (2026-10-09 から)。復旧後に同じURLで取得可。kirokukensaku.net/5NS19/ は削除済み、Wayback 保存あり"},
+    {"year": 2020, "reason": "第75回 鹿児島国体はコロナで延期 (2023年に特別国体として開催)。開催なし"},
+    {"year": 2021, "reason": "第76回 三重とこわか国体はコロナで中止 (2021-08-26 決定)。開催なし"}
+  ],
+  "girls": "2016-2022 も種別は「女子」(年齢区分なし) で、少年女子の部はない。結果は氏名・都道府県のみで高校生かどうか判別できないため収集せず (2023以降と同じ扱い)"
+}

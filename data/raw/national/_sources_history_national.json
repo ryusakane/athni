@@ -1,0 +1,26 @@
+{
+ "_note": "2016〜2022年度の 日本高等学校・中学校ゴルフ連盟 全国大会 (過去分) の収集記録。2026-10-11 追加。",
+ "source": "日本高等学校・中学校ゴルフ連盟",
+ "site": "https://nihon-kougoren.jp/",
+ "robots_txt": "User-agent: * / Disallow: /kougoren/wp-admin/ のみ (2026-10-11 確認)。Sitemap: https://nihon-kougoren.jp/wp-sitemap.xml",
+ "terms": "明示的な利用規約ページなし。各ページのフッターに「このページは…活動を紹介するために作られたものです。…個人情報等も含まれています。無断の転載等はご遠慮下さい。」の一般的な表記 → 収集し、各ファイルの quality.issues に記載。",
+ "archive": {
+  "summer": "wp-sitemap-posts-smrcmp-1.xml (各年度の 夏の大会 ページ /smrcmp/<id>/)",
+  "spring": "wp-sitemap-posts-sprcmp-1.xml (各年度の 春の大会 ページ /sprcmp/<id>/)",
+  "special_2020": "https://nihon-kougoren.jp/2020extra/"
+ },
+ "pages": {
+  "summer": {"2016": "https://nihon-kougoren.jp/smrcmp/1541/", "2017": "https://nihon-kougoren.jp/smrcmp/591/", "2018": "https://nihon-kougoren.jp/smrcmp/717/", "2019": "https://nihon-kougoren.jp/smrcmp/821/", "2020": "https://nihon-kougoren.jp/smrcmp/3694/", "2021": "https://nihon-kougoren.jp/smrcmp/4322/", "2022": "https://nihon-kougoren.jp/smrcmp/4901/"},
+  "spring": {"2016": "https://nihon-kougoren.jp/sprcmp/226/", "2017": "https://nihon-kougoren.jp/sprcmp/296/", "2018": "https://nihon-kougoren.jp/sprcmp/366/", "2019": "https://nihon-kougoren.jp/sprcmp/482/", "2020": "https://nihon-kougoren.jp/sprcmp/3695/", "2021": "https://nihon-kougoren.jp/sprcmp/4347/", "2022": "https://nihon-kougoren.jp/sprcmp/4961/"}
+ },
+ "collected": "夏 2016・2017・2018・2019・2021・2022 (男女 個人・団体)、2020 特別大会 (男女 団体のみ)、春 2016・2017・2018・2020・2021・2022 年度 (男女 個人)。全 PDF にテキスト層あり (pdftotext -layout で読み取り、合計・順位・団体の各日上位3人合計を検算)。",
+ "not_held": [
+  "2020年度 夏の全国高等学校ゴルフ選手権大会: 新型コロナウイルス感染拡大のため中止 (ページ注記)。代替として 2020年12月17〜18日に団体のみの特別大会 → kougoren-special-2020-*-team。",
+  "2019年度 春季大会 (2020年3月予定): 新型コロナウイルスのため中止 (ページ注記)。"
+ ],
+ "shortened": [
+  "2018年度 夏: 台風接近のため団体は1日競技 (団体 PDF 注記)。個人も18ホール1ラウンドのみ公表。"
+ ],
+ "older_available_not_collected": "サイトには 平成25〜27年度 (2013〜2015) の夏・春の結果 PDF もある (今回の対象 2016〜 の範囲外)。",
+ "not_collected_from_pages": "中学校の部 (同じページに掲載) は対象外。"
+}

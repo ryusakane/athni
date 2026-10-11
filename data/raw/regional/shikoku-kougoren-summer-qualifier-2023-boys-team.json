@@ -1,0 +1,228 @@
+{
+ "tournament": {
+  "id": "shikoku-kougoren-summer-qualifier-2023-boys-team",
+  "name": "令和５年度 四国高等学校ゴルフ選手権大会 団体の部 兼 第44回全国高等学校ゴルフ選手権大会高校団体の部四国予選 男子",
+  "organizer": "四国高等学校・中学校ゴルフ連盟",
+  "season_year": 2023,
+  "start_date": "2023-07-08",
+  "end_date": "2023-07-09",
+  "venue": "松山シーサイドカントリークラブ",
+  "venue_prefecture": "愛媛",
+  "level": "regional",
+  "region": "shikoku",
+  "category": "boys",
+  "format": "team",
+  "par": 72,
+  "yardage": 6971,
+  "source_url": "http://www.shsga.jp/kyouginaiyou.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/pdf/2023/R5dantai.pdf"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "team_name": "四学香川西高",
+   "school": "四学香川西高",
+   "school_prefecture": null,
+   "total": 218,
+   "members": [
+    {
+     "player_name": "秋山一道",
+     "grade": 3,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "松井琳空海",
+     "grade": 2,
+     "score": 71,
+     "rounds": [
+      71
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "西山陽斗",
+     "grade": 1,
+     "score": 72,
+     "rounds": [
+      72
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "鏡原良功斗",
+     "grade": 1,
+     "score": 79,
+     "rounds": [
+      79
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 218"
+  },
+  {
+   "rank": "2",
+   "team_name": "高知中央高",
+   "school": "高知中央高",
+   "school_prefecture": null,
+   "total": 221,
+   "members": [
+    {
+     "player_name": "福原渡夢",
+     "grade": 2,
+     "score": 73,
+     "rounds": [
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "小松大洋",
+     "grade": 2,
+     "score": 73,
+     "rounds": [
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "露谷咲真",
+     "grade": 2,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "浅田千年樹",
+     "grade": 1,
+     "score": 77,
+     "rounds": [
+      77
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "中澤樹",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 221"
+  },
+  {
+   "rank": "3",
+   "team_name": "生光学園高",
+   "school": "生光学園高",
+   "school_prefecture": null,
+   "total": 222,
+   "members": [
+    {
+     "player_name": "原鉄太郎",
+     "grade": 2,
+     "score": 73,
+     "rounds": [
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "篠原和樹",
+     "grade": 1,
+     "score": 75,
+     "rounds": [
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "原田千力",
+     "grade": 1,
+     "score": 74,
+     "rounds": [
+      74
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 222"
+  },
+  {
+   "rank": "4",
+   "team_name": "明徳義塾高",
+   "school": "明徳義塾高",
+   "school_prefecture": null,
+   "total": 238,
+   "members": [
+    {
+     "player_name": "美甘漣音",
+     "grade": 3,
+     "score": 82,
+     "rounds": [
+      82
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "石垣光琉",
+     "grade": 3,
+     "score": null,
+     "rounds": [
+      null
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "中杉桜盛",
+     "grade": 1,
+     "score": 79,
+     "rounds": [
+      79
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "曽山堅士郎",
+     "grade": 1,
+     "score": 89,
+     "rounds": [
+      89
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "松下奏",
+     "grade": 1,
+     "score": 77,
+     "rounds": [
+      77
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 238"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 4,
+  "issues": [
+   "Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column",
+   "Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －",
+   "Dates: competition days per entry list (practice day excluded) — verify",
+   "school_prefecture not printed",
+   "Only one round printed for every team (single-day qualifier)"
+  ]
+ }
+}

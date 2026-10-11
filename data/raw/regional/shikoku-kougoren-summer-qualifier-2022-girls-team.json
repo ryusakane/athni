@@ -1,0 +1,244 @@
+{
+ "tournament": {
+  "id": "shikoku-kougoren-summer-qualifier-2022-girls-team",
+  "name": "令和４年度 四国高等学校ゴルフ選手権大会 団体の部 兼 第43回全国高等学校ゴルフ選手権大会高校団体の部四国予選 女子",
+  "organizer": "四国高等学校・中学校ゴルフ連盟",
+  "season_year": 2022,
+  "start_date": "2022-05-21",
+  "end_date": "2022-05-22",
+  "venue": "松山シーサイドカントリークラブ",
+  "venue_prefecture": "愛媛",
+  "level": "regional",
+  "region": "shikoku",
+  "category": "girls",
+  "format": "team",
+  "par": 72,
+  "yardage": 6369,
+  "source_url": "http://www.shsga.jp/kyouginaiyou.html",
+  "result_pdf_urls": [
+   "https://shsga.jp/pdf/2022/R4dantai.pdf"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "team_name": "四学香川西高",
+   "school": "四学香川西高",
+   "school_prefecture": null,
+   "total": 441,
+   "members": [
+    {
+     "player_name": "西山星空",
+     "grade": 3,
+     "score": 149,
+     "rounds": [
+      80,
+      69
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "香川倫穂",
+     "grade": 2,
+     "score": 150,
+     "rounds": [
+      76,
+      74
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "田所さあら",
+     "grade": 2,
+     "score": 156,
+     "rounds": [
+      76,
+      80
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "松浦葵",
+     "grade": 2,
+     "score": 146,
+     "rounds": [
+      76,
+      70
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 228 / 213"
+  },
+  {
+   "rank": "2",
+   "team_name": "明徳義塾高",
+   "school": "明徳義塾高",
+   "school_prefecture": null,
+   "total": 448,
+   "members": [
+    {
+     "player_name": "藤田藍",
+     "grade": 3,
+     "score": null,
+     "rounds": [
+      81,
+      null
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "加藤菜摘",
+     "grade": 3,
+     "score": 146,
+     "rounds": [
+      73,
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "城戸姫菜",
+     "grade": 3,
+     "score": 151,
+     "rounds": [
+      72,
+      79
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "高木綾夏",
+     "grade": 3,
+     "score": 153,
+     "rounds": [
+      74,
+      79
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "福住あい",
+     "grade": 2,
+     "score": null,
+     "rounds": [
+      null,
+      77
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 219 / 229"
+  },
+  {
+   "rank": "3",
+   "team_name": "高知中央高",
+   "school": "高知中央高",
+   "school_prefecture": null,
+   "total": 449,
+   "members": [
+    {
+     "player_name": "藤川華蓮",
+     "grade": 3,
+     "score": null,
+     "rounds": [
+      83,
+      null
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "松井流愛蘭",
+     "grade": 3,
+     "score": 153,
+     "rounds": [
+      78,
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "石原麻羽",
+     "grade": 2,
+     "score": 146,
+     "rounds": [
+      71,
+      75
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "神部芽依",
+     "grade": 1,
+     "score": 150,
+     "rounds": [
+      77,
+      73
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "村尾実咲",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null,
+      82
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "上野歩未",
+     "grade": 3,
+     "score": null,
+     "rounds": [
+      null,
+      null
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "高岸鈴",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null,
+      null
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "岡里音",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null,
+      null
+     ],
+     "counted": null
+    },
+    {
+     "player_name": "小山遥菜",
+     "grade": 1,
+     "score": null,
+     "rounds": [
+      null,
+      null
+     ],
+     "counted": null
+    }
+   ],
+   "note": "day totals 226 / 223"
+  }
+ ],
+ "quality": {
+  "complete": true,
+  "rows_expected": 3,
+  "issues": [
+   "Parsed from text-layer PDF (pdftotext -layout), boys left column / girls right column",
+   "Best 3 of 4 (up to 5 registered) per day count; counted flag null; members without score in a round printed －",
+   "Dates: competition days per entry list (practice day excluded) — verify",
+   "school_prefecture not printed"
+  ]
+ }
+}
