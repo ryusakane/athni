@@ -1,12 +1,13 @@
 -- src/data/seed.json の内容に本番 DB の成績データ (schools, players, courses, course_tees, tournaments,
 -- tournament_results, rounds) をそろえる。seed.sql は大きすぎて SQL Editor に貼れないので、こちらを使う。
--- 流す前に、同じトランザクションで temp table seed_src (j jsonb) に seed.json を1行入れておく。例 (SQL Editor):
---   create extension if not exists http with schema extensions;
---   begin;
---   create temp table seed_src on commit drop as
---     select content::jsonb as j from extensions.http_get('https://raw.githubusercontent.com/ryusakane/athni/<commit>/src/data/seed.json');
---   (このファイル)
---   commit;
+-- SQL Editor では2回に分けて流す (1回にまとめると取り消された。2026-10-12)。
+--   1回目: create extension if not exists http with schema extensions;
+--          create table public._seed_stage as select status, content
+--            from extensions.http_get('https://raw.githubusercontent.com/ryusakane/athni/<commit>/src/data/seed.json');
+--   2回目: begin; create temp table seed_src on commit drop as
+--            select content::jsonb as j from public._seed_stage where status = 200;
+--          (このファイル) commit; drop table public._seed_stage;
+-- 2026-10-12 に使った実物は /mnt/project-files/past-results/step1_fetch.sql と step2_load.sql。
 --
 -- 1. seed にない行を消す。消える選手・成績に生徒の申請などが付いていたら止まる (名寄せで id が変わったため。
 --    付け替えてから流し直す)。
