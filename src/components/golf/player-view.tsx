@@ -38,7 +38,8 @@ function PlayerDetail({
   data: NonNullable<ReturnType<typeof getPlayer>>;
 }) {
   const dict = getDictionary(lang);
-  const { player, school, stats, history } = data;
+  const { player, school, stats, history, rankings } = data;
+  const anySelfReported = history.some((h) => h.result.source === "self_reported");
 
   const name = localizedName(lang, player);
   const prefecture = prefectureKey(player.prefecture ?? school?.prefecture);
@@ -83,6 +84,40 @@ function PlayerDetail({
         />
       </dl>
 
+      {rankings.length > 0 && (
+        <>
+          <h2 className="mt-12 text-xl font-semibold">{dict.player.rankings}</h2>
+          <ul className="mt-4 space-y-1 text-sm">
+            {rankings.map((r) => (
+              <li key={r.id}>
+                <span className="text-foreground/60">
+                  {dict.player.rankingSystems[r.system] ?? r.system}
+                  {r.category && ` · ${r.category}`}:{" "}
+                </span>
+                <span className="font-medium tabular-nums">#{r.rank}</span>
+                {r.points != null && (
+                  <span className="text-foreground/60 tabular-nums">
+                    {" "}
+                    ({formatNumber(r.points, 2)} {dict.player.rankingPoints})
+                  </span>
+                )}
+                <span className="text-foreground/60"> · {dict.player.rankingAsOf(formatDate(lang, r.as_of))}</span>
+                {r.source_url && (
+                  <a
+                    href={r.source_url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-2 text-xs text-foreground/50 hover:underline"
+                  >
+                    ↗
+                  </a>
+                )}
+              </li>
+            ))}
+          </ul>
+        </>
+      )}
+
       <h2 className="mt-12 text-xl font-semibold">{dict.player.results}</h2>
       <div className="mt-4 overflow-x-auto">
         <table className="w-full text-sm">
@@ -113,9 +148,14 @@ function PlayerDetail({
                     {formatDate(lang, tournament.start_date)}
                     {course && ` · ${localizedName(lang, course).primary}`}
                   </div>
+                  {result.source === "self_reported" && (
+                    <span className="mt-1 inline-block rounded border border-amber-600/40 px-1.5 text-xs text-amber-700 dark:text-amber-400">
+                      {dict.player.selfReported}
+                    </span>
+                  )}
                 </td>
                 <td className="whitespace-nowrap py-3 pr-4 text-right tabular-nums">
-                  {formatPosition(result)}
+                  {result.note ?? formatPosition(result)}
                   {tournament.field_size && (
                     <span className="text-foreground/50"> / {tournament.field_size}</span>
                   )}
@@ -151,7 +191,10 @@ function PlayerDetail({
           </tbody>
         </table>
       </div>
-      <p className="mt-6 text-xs text-foreground/50">{dict.player.nameNote}</p>
+      {anySelfReported && (
+        <p className="mt-6 text-xs text-foreground/50">{dict.player.selfReportedNote}</p>
+      )}
+      <p className="mt-2 text-xs text-foreground/50">{dict.player.nameNote}</p>
     </div>
   );
 }

@@ -10,6 +10,7 @@ UUID の代わりに人が読める *_key を主キー/外部キーに使う。�
   course_tees.csv        course_tees
   tournaments.csv        tournaments
   tournament_results.csv tournament_results
+  player_rankings.csv    player_rankings (data/reference/player_rankings.json)
   rounds.csv             rounds
   team_results.csv       (スキーマ未対応の団体戦。拡張用)
   team_members.csv       (同上)
@@ -568,6 +569,7 @@ def main():
             continue
 
         rows = d.get("results", [])
+        source = "self_reported" if (d.get("verification") or {}).get("status") == "self_reported" else "public"
         rank_counts = Counter(parse_rank(r.get("rank"))[0] for r in rows)
         seen = set()
         for r in rows:
@@ -587,6 +589,8 @@ def main():
                 issues.append((tid, f"合計不一致: {r.get('player_name')} {rs} != {r['total']}"))
             results.append({"tournament_key": tid, "player_key": pk, "position": pos, "tied": tied,
                             "total_score": r.get("total"), "to_par": r.get("to_par"), "status": status,
+                            # 公開された結果が見つからず本人の戦歴だけが出典の行は self_reported
+                            "source": r.get("source") or source, "note": r.get("display_note"),
                             "amateur": r.get("amateur", True),
                             # 以下はスキーマ外の派生列 (後で埋める)
                             "field_size": None, "percentile": None, "strokes_behind_winner": None,
@@ -636,6 +640,17 @@ def main():
     for drop, keep in sorted(merged.items()):
         issues.append(("player-dedup", f"同一人物としてまとめた: {drop} → {keep} ({players[keep]['name_ja']})"))
 
+    # アマチュアランキング (WAGR・JGA など)。player_key は前回の players.csv のもの。統合された選手は残った方へ
+    rankings = []
+    for x in load_ref("player_rankings.json", []):
+        pk = merged.get(x["player_key"], x["player_key"])
+        if pk not in players:
+            issues.append(("player-rankings", f"選手が見つからない: {x['player_key']} ({x.get('name_ja')})"))
+            continue
+        rankings.append({"player_key": pk, "system": x["system"], "category": x.get("category"),
+                         "rank": x["rank"], "points": x.get("points"), "as_of": x["as_of"],
+                         "source_url": x.get("source_url")})
+
     course_rows, tee_rows = [], []
     for c in COURSES:
         course_rows.append({k: c.get(k) for k in
@@ -667,6 +682,7 @@ def main():
     write("tournaments.csv", tournaments)
     write("tournament_results.csv", results)
     write("rounds.csv", rounds)
+    write("player_rankings.csv", rankings)
     write("team_results.csv", teams)
     write("team_members.csv", members)
     write("player_name_review.csv", review)

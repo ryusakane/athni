@@ -19,6 +19,7 @@ const empty = (): Dataset => ({
   tournaments: [],
   tournament_results: [],
   rounds: [],
+  player_rankings: [],
 });
 
 // PostgREST `in` filters go in the URL, so long id lists are split.
@@ -82,11 +83,14 @@ export async function loadPlayerRows(id: string): Promise<Dataset> {
   if (!UUID.test(id)) return empty();
   const players = await rest<Dataset["players"][number]>("players", `id=eq.${encodeURIComponent(id)}`);
   if (!players.length) return empty();
-  const results = await rest<Dataset["tournament_results"][number]>(
-    "tournament_results",
-    `player_id=eq.${encodeURIComponent(id)}`,
-  );
-  return around({ ...empty(), players, tournament_results: results });
+  const [results, rankings] = await Promise.all([
+    rest<Dataset["tournament_results"][number]>(
+      "tournament_results",
+      `player_id=eq.${encodeURIComponent(id)}`,
+    ),
+    rest<Dataset["player_rankings"][number]>("player_rankings", `player_id=eq.${encodeURIComponent(id)}`),
+  ]);
+  return around({ ...empty(), players, tournament_results: results, player_rankings: rankings });
 }
 
 /** The rows a tournament page needs. */

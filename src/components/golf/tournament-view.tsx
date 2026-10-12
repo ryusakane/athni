@@ -163,11 +163,16 @@ function TournamentDetail({
             <tbody>
               {leaderboard.map(({ result, player, school, rounds }) => (
                 <tr key={result.id} className="border-b border-black/5 dark:border-white/5">
-                  <td className={`${td} tabular-nums`}>{formatPosition(result)}</td>
+                  <td className={`${td} tabular-nums`}>{result.note ?? formatPosition(result)}</td>
                   <td className={td}>
                     <Link href={`/${lang}/player/?id=${player.id}`} className="font-medium hover:underline">
                       {localizedName(lang, player).primary}
                     </Link>
+                    {result.source === "self_reported" && (
+                      <span className="ml-2 rounded border border-amber-600/40 px-1.5 text-xs text-amber-700 dark:text-amber-400">
+                        {dict.player.selfReported}
+                      </span>
+                    )}
                   </td>
                   <td className={`${td} text-foreground/70`}>
                     {school ? localizedName(lang, school).primary : "—"}

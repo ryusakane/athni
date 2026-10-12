@@ -41,6 +41,7 @@ export function indexDataset(data: Dataset) {
     resultsByPlayer: groupBy(data.tournament_results, (r) => r.player_id),
     resultsByTournament: groupBy(data.tournament_results, (r) => r.tournament_id),
     roundsByResult: groupBy(data.rounds, (r) => r.result_id),
+    rankingsByPlayer: groupBy(data.player_rankings ?? [], (r) => r.player_id),
   };
 }
 
@@ -58,7 +59,11 @@ export type PlayerStats = {
   ratedRounds: number;
 };
 
-function playerStats(results: TournamentResult[], rounds: Round[]): PlayerStats {
+/** Stats count published results only; self-reported rows are listed but not counted. */
+function playerStats(allResults: TournamentResult[], allRounds: Round[]): PlayerStats {
+  const results = allResults.filter((r) => r.source !== "self_reported");
+  const counted = new Set(results.map((r) => r.id));
+  const rounds = allRounds.filter((r) => counted.has(r.result_id));
   const finished = results.filter((r) => r.status === "finished" && r.position != null);
   const bestFinish =
     finished.toSorted((a, b) => a.position! - b.position! || Number(a.tied) - Number(b.tied))[0] ??
@@ -135,6 +140,9 @@ export function getPlayer(ix: Indexes, id: string) {
       history.flatMap((h) => h.rounds),
     ),
     history,
+    rankings: (ix.rankingsByPlayer.get(id) ?? []).toSorted(
+      (a, b) => a.system.localeCompare(b.system) || b.as_of.localeCompare(a.as_of),
+    ),
   };
 }
 
@@ -245,6 +253,9 @@ export function normalizeNumbers(data: Dataset): Dataset {
   for (const result of data.tournament_results) {
     result.rank_percentile =
       result.rank_percentile == null ? null : Number(result.rank_percentile);
+  }
+  for (const ranking of data.player_rankings ?? []) {
+    ranking.points = ranking.points == null ? null : Number(ranking.points);
   }
   for (const round of data.rounds) {
     for (const col of [

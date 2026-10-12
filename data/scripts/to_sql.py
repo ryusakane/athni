@@ -33,6 +33,8 @@ def uid(*parts):
 
 
 def read(name):
+    if not os.path.exists(os.path.join(ROOT, name)):  # build.py は空の表の CSV を書かない
+        return []
     with open(os.path.join(ROOT, name), encoding="utf-8") as fh:
         return list(csv.DictReader(fh))
 
@@ -121,13 +123,22 @@ def main():
         t["course_id"] = uid("course", t["course_key"]) if t["course_key"] else None
         t["start_date"] = t["start_date"] or t["end_date"]
         rs = by_t[k]
-        t["field_size"] = int(t["field_size_total"]) if t.get("field_size_total") else len(rs)
+        # 本人の戦歴だけが出典の大会は出場人数がわからない
+        only_self = all(r["source"] == "self_reported" for r in rs)
+        t["field_size"] = (int(t["field_size_total"]) if t.get("field_size_total")
+                           else None if only_self else len(rs))
         fin = [int(r["total_score"]) for r in rs if r["status"] == "finished" and r["total_score"] and r["position"]]
         # 高校生だけを書き起こした一般・プロ大会では、優勝者が含まれるときだけ優勝スコアがわかる
-        partial = t["field_size"] > len(rs) and not any(r["position"] == "1" for r in rs)
+        partial = (t["field_size"] or 0) > len(rs) and not any(r["position"] == "1" for r in rs) or only_self
         t["winning_score"] = min(fin) if fin and not partial else None
+    rankings = [x for x in read("player_rankings.csv") if x["player_key"] in pkeys]
+    for x in rankings:
+        x["id"] = uid("ranking", x["player_key"], x["system"], x["category"], x["as_of"])
+        x["player_id"] = uid("player", x["player_key"])
     for r in results:
         r["id"] = uid("result", r["tournament_key"], r["player_key"])
+        if r["source"] == "self_reported":
+            r["percentile"] = None  # 出場人数がわからないので出さない
         r["tournament_id"] = uid("tournament", r["tournament_key"])
         r["player_id"] = uid("player", r["player_key"])
     for r in rounds:
@@ -152,13 +163,17 @@ def main():
                          ("winning_score", "int"), ("source_url", "text")], tournaments),
         ("tournament_results", [("id", "text"), ("tournament_id", "text"), ("player_id", "text"),
                                 ("position", "int"), ("tied", "bool"), ("total_score", "int"),
-                                ("to_par", "int"), ("rank_percentile", "num"), ("status", "text")],
+                                ("to_par", "int"), ("rank_percentile", "num"), ("status", "text"),
+                                ("source", "text"), ("note", "text")],
          [dict(r, rank_percentile=r["percentile"]) for r in results]),
         ("rounds", [("id", "text"), ("result_id", "text"), ("round_number", "int"),
                     ("played_on", "text"), ("course_tee_id", "text"), ("score", "int"), ("holes", "int"),
                     ("score_differential", "num"), ("weather", "text"), ("weather_en", "text"),
                     ("temperature_c", "num"), ("wind_speed_ms", "num"), ("precipitation_mm", "num")],
          [dict(r, score_differential=r["differential"]) for r in rounds]),
+        ("player_rankings", [("id", "text"), ("player_id", "text"), ("system", "text"), ("category", "text"),
+                             ("rank", "int"), ("points", "num"), ("as_of", "text"), ("source_url", "text")],
+         rankings),
     ]
 
     parts = ["-- 自動生成: data/scripts/to_sql.py。手で編集しない。\nbegin;\n"]
@@ -174,7 +189,8 @@ def main():
         with open(SITE_OUT, "w", encoding="utf-8") as fh:
             json.dump(site, fh, ensure_ascii=False, separators=(",", ":"))
     print(f"schools={len(schools)} players={len(players)} courses={len(courses)} tees={len(tees)} "
-          f"tournaments={len(tournaments)} results={len(results)} rounds={len(rounds)} -> {OUT}", file=sys.stderr)
+          f"tournaments={len(tournaments)} results={len(results)} rounds={len(rounds)} "
+          f"rankings={len(rankings)} -> {OUT}", file=sys.stderr)
 
 
 if __name__ == "__main__":
