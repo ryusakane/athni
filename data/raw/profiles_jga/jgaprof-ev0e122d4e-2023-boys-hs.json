@@ -1,0 +1,76 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev0e122d4e-2023-boys-hs",
+  "name": "埼玉県ジュニアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2023,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934566687033868",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "7",
+   "player_name": "井上 滉太",
+   "school": "埼玉栄高等学校",
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934566687033868); matched player_key p_9bbe62441b1a; rank as shown: 7位; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_9bbe62441b1a"
+  },
+  {
+   "rank": "1",
+   "player_name": "松谷 崇嗣",
+   "school": "埼玉栄高等学校",
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934578498194359); matched player_key p_c901fcbc9ee5; rank as shown: 優勝; school/grade/prefecture from players.csv (graduation_year 2025), not shown on the profile",
+   "player_key": "p_c901fcbc9ee5"
+  },
+  {
+   "rank": "4",
+   "player_name": "志村 由羅",
+   "school": "埼玉栄高等学校",
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582122072740); matched player_key p_d0754cd2d96f; rank as shown: 4位; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_d0754cd2d96f"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2026-07-03; profile year column is 年度 as shown"
+  ]
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "tournament": {
+  "id": "jgaprof-evbedaf5ea-2025-girls",
+  "name": "全国中学校ゴルフ選手権大会緑の甲子園団体_中学女子",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2025,
+  "start_date": "2025-08-27",
+  "end_date": "2025-08-28",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "小関 萌衣",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    83,
+    73
+   ],
+   "total": 156,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 850266)); matched player_key p_b03683a726f0; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_b03683a726f0"
+  },
+  {
+   "rank": "6",
+   "player_name": "佐藤 色葉",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    76,
+    83
+   ],
+   "total": 159,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 806683)); matched player_key p_011bbc3208dd; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_011bbc3208dd"
+  },
+  {
+   "rank": "6",
+   "player_name": "中村 友里愛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    74,
+    79
+   ],
+   "total": 153,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 682626)); matched player_key p_77445924b56d; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_77445924b56d"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

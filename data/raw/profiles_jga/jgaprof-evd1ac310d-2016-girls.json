@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "id": "jgaprof-evd1ac310d-2016-girls",
+  "name": "ダイキンオーキッドレディースゴルフトーナメント",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2016,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934562962492306",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T35",
+   "player_name": "新垣 比菜",
+   "school": "興南高等学校",
+   "school_prefecture": "沖縄県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934562962492306); matched player_key p_c7e025aa6b64; rank as shown: 35位 T; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_c7e025aa6b64"
+  },
+  {
+   "rank": "cut",
+   "player_name": "新城 莉李亜",
+   "school": "宜野座",
+   "school_prefecture": "沖縄県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574505216857); matched player_key p_702fcc4db484; rank as shown: CUT; school/grade/prefecture from players.csv (graduation_year 2019), not shown on the profile",
+   "player_key": "p_702fcc4db484"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-10-05; profile year column is 年度 as shown"
+  ]
+ }
+}

@@ -1,0 +1,55 @@
+{
+  "tournament": {
+    "id": "sakane-landic-challenge-2015",
+    "name": "LANDIC CHALLENGE 2015 ASSOCIA MANSION GOLF TOURNAMENT",
+    "name_en": "LANDIC Challenge 2015 (JGTO Challenge Tour)",
+    "organizer": "日本ゴルフツアー機構 (主管)",
+    "event_type": "professional",
+    "season_year": 2015,
+    "start_date": "2015-06-25",
+    "end_date": "2015-06-26",
+    "venue": "芥屋ゴルフ倶楽部",
+    "venue_prefecture": "福岡県",
+    "level": "national",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": null,
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "Event identity (2015 edition at 芥屋GC, winner 池村寛世) seen only in a web-search summary of ALBA Net; ALBA leaderboard returned HTTP 429 and was not read. JGTO (jgto.org) results not located; JGTO terms prohibit reuse (restricted).",
+      "Dates/venue come from a search-result summary, not a fetched page; treat as unverified.",
+      "Dates: ALBA Net tournament page https://www.alba.co.jp/tour/category/chall/tournament/91198/ (2015-06-25..26, 芥屋GC) seen via search summary only; page returned HTTP 429 when fetched."
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [],
+    "matches_claim": null,
+    "claim": "2015 Japan Professional Golf Tour Landic Golf Tournament Challenge 77th place",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "77",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source."
+    }
+  ]
+}

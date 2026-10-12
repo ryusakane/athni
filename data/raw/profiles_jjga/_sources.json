@@ -1,0 +1,32 @@
+[
+ {
+  "name": "JJGA 日本ジュニアゴルフ協会 — player profiles / member pages",
+  "url": "https://www.jjga.org/my/",
+  "organizer_type": "national_junior_association",
+  "region": "national",
+  "publishes": "No public player profile pages: /my/ redirects to /my/login/ (member-only mypage); the sitemaps (sitemap.xml, sitemap.html) list no player pages. Results exist only as per-event PDFs (see data/raw/jjga/_sources.json).",
+  "robots_ok": true,
+  "robots_txt": "https://www.jjga.org/robots.txt (checked 2026-10-12): Disallow /wp/wp-admin/ only",
+  "terms_note": "JJGA Webサービス利用規約 https://www.jjga.org/common/pdf/agreement.pdf 第8条 (re-checked 2026-10-12): '当協会に無断で知的財産権を使用（複製、送信、譲渡、二次利用を含む）することは禁じます'. Anything JJGA-derived needs the owner's/JJGA's decision before publishing (source_terms.json: jjga- restricted).",
+  "collected": false,
+  "reason": "No public profiles, so no profile results to collect; no tournament files written here."
+ },
+ {
+  "name": "JJGA SAHARA ranking (JJGAランキング) 15～18歳 男子・女子",
+  "url": "https://www.jjga.org/sahara-ranking/ranking",
+  "files": [
+   "https://www.jjga.org/wp/wp-content/uploads/2026/09/260907_rank_15-18boys.pdf",
+   "https://www.jjga.org/wp/wp-content/uploads/2026/09/260907_rank_15-18girls.pdf"
+  ],
+  "organizer_type": "national_junior_association",
+  "region": "national",
+  "publishes": "PDF per age division: 順位, 氏名, 合計/決勝/地区ポイント, ボーナス, 決勝・地区出場回数. No school, prefecture or age.",
+  "years_available": "current snapshot 2026-09-07 (boys 179, girls 176 rows)",
+  "robots_ok": true,
+  "terms_note": "Same 第8条 restriction.",
+  "collected": true,
+  "matching": "name + gender + age band only: the 15-18 division on 2026-09-07 implies HS graduation 2026-2030, accepted when exactly one of our same-name players has a graduation_year in that range (weaker than JGA/WAGR matches). 265 entries -> 266 player_keys.",
+  "output": "_jjga_rankings.json (same record shape as data/reference/player_rankings.json, system jjga). The leading underscore keeps build.py from reading it; it is NOT in player_rankings.json. Move the records there only if the owner decides to publish.",
+  "reason": "Owner request (rankings); publication pending the terms decision."
+ }
+]

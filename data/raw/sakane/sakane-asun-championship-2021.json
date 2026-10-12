@@ -1,0 +1,63 @@
+{
+  "tournament": {
+    "id": "sakane-asun-championship-2021",
+    "name": "ASUN Men's Golf Championship (2021)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2021,
+    "start_date": "2021-04-18",
+    "end_date": "2021-04-20",
+    "venue": "UGA Golf Course (Athens, Ga.)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18
+    ],
+    "source_url": "https://judolphins.com/news/2021/4/18/mens-golf-sakane-ties-opening-round-record-on-day-one-of-asun-championship.aspx",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "Round 3 not published in the pages fetched; official PDFs on asunsports.org returned HTTP 403 to curl and were not read."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://judolphins.com/news/2021/4/18/mens-golf-sakane-ties-opening-round-record-on-day-one-of-asun-championship.aspx",
+      "https://judolphins.com/news/2021/4/19/mens-golf-sakane-continues-to-lead-dolphins-rest-in-second-with-18-holes-left-in-asun-championship.aspx",
+      "https://judolphins.com/news/2021/4/20/mens-golf-jacksonville-closes-asun-championship-in-third-place.aspx"
+    ],
+    "matches_claim": true,
+    "claim": "2021 A-SUN Conference (64-68-74) 3rd",
+    "differences": "Final-round score and total not printed in the fetched recaps (only R1 64, R2 68, -10 after 36, finished 3rd two strokes behind Van Holmgren)."
+  },
+  "results": [
+    {
+      "rank": "3",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        64,
+        68
+      ],
+      "total": null,
+      "to_par": null,
+      "note": "JU recaps: R1 64 (7-under, tied championship first-round record), R2 68 (-3), led at -10 after 36; finished third individually. Claimed R3 74 not confirmed."
+    }
+  ]
+}

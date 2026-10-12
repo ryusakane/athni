@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev20f22fd3-2018-girls",
+  "name": "オーストラリアン女子アマチュア選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2018,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934581853637154",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "ベスト8",
+   "player_name": "西村 優菜",
+   "school": "大阪商業大学",
+   "school_prefecture": "大阪府",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934581853637154); matched player_key p_382cdf0fda9e; school/grade/prefecture from players.csv (graduation_year 2019), not shown on the profile",
+   "player_key": "p_382cdf0fda9e"
+  },
+  {
+   "rank": "ベスト32",
+   "player_name": "安田 祐香",
+   "school": "滝川第二高等学校",
+   "school_prefecture": "兵庫県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582591835001); matched player_key p_ebdde413b2dc; school/grade/prefecture from players.csv (graduation_year 2019), not shown on the profile",
+   "player_key": "p_ebdde413b2dc"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

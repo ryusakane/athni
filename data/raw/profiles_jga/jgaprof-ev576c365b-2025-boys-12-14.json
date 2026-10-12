@@ -1,0 +1,132 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev576c365b-2025-boys-12-14",
+  "name": "北海道ジュニアゴルフ選手権競技(12歳～14歳の部・男子)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2025,
+  "start_date": "2025-07-10",
+  "end_date": "2025-07-11",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "5",
+   "player_name": "堀 堅多",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    83,
+    81
+   ],
+   "total": 164,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 813492)); matched player_key p_d45ad433a144; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_d45ad433a144"
+  },
+  {
+   "rank": "1",
+   "player_name": "宮浦 拓都",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    74,
+    82
+   ],
+   "total": 156,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 827545)); matched player_key p_205acbef2bb6; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_205acbef2bb6"
+  },
+  {
+   "rank": "T2",
+   "player_name": "田湯 日々東",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    81,
+    76
+   ],
+   "total": 157,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 717463)); matched player_key p_d98dfefbf0fa; rank as shown: 2T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_d98dfefbf0fa"
+  },
+  {
+   "rank": "T2",
+   "player_name": "北岡 和翔",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    75,
+    82
+   ],
+   "total": 157,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 857839)); matched player_key p_fce56b5c77d2; rank as shown: 2T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_fce56b5c77d2"
+  },
+  {
+   "rank": "7",
+   "player_name": "佐々木 快晟",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    85,
+    97
+   ],
+   "total": 182,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 729451)); matched player_key p_65667489db20; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_65667489db20"
+  },
+  {
+   "rank": "10",
+   "player_name": "佐藤 遼太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    102,
+    87
+   ],
+   "total": 189,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 974617)); matched player_key p_1180fd661ade; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_1180fd661ade"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

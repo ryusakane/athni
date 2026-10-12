@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1d03fdb8-2015-boys",
+  "name": "神奈川県アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2015,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934577558669839",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T22",
+   "player_name": "井上 達希",
+   "school": "聖光学院",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577558669839); matched player_key p_87f7cde3f3f9; rank as shown: 22位 T; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_87f7cde3f3f9"
+  },
+  {
+   "rank": "7",
+   "player_name": "石坂 友宏",
+   "school": "日本ウェルネス高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577994877669); matched player_key p_6e5ad5f1e317; rank as shown: 7位; 備考 男子15～17歳の部 3位; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_6e5ad5f1e317"
+  },
+  {
+   "rank": "14",
+   "player_name": "森山 友貴",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934581652311013); matched player_key p_858a44b20b4e; rank as shown: 14位; 備考 ジュニアの部 2位",
+   "player_key": "p_858a44b20b4e"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown"
+  ]
+ }
+}

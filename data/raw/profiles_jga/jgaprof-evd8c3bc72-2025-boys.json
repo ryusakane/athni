@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-evd8c3bc72-2025-boys",
+  "name": "Canadian Men's Amateur Championship",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-07-28",
+  "end_date": "2025-07-31",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "田村 軍馬",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 204177)); matched player_key p_850015d0e547; rank as shown: CUT",
+   "player_key": "p_850015d0e547"
+  },
+  {
+   "rank": "cut",
+   "player_name": "佐藤 快斗",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 527806)); matched player_key p_1fd95dd87b13; rank as shown: CUT",
+   "player_key": "p_1fd95dd87b13"
+  },
+  {
+   "rank": "cut",
+   "player_name": "松山 茉生",
+   "school": "福井工業大学附属福井高等学校",
+   "school_prefecture": "福井県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 538152)); matched player_key p_6f36d9679ef9; rank as shown: CUT; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile",
+   "player_key": "p_6f36d9679ef9"
+  },
+  {
+   "rank": "T8",
+   "player_name": "長﨑 大星",
+   "school": "勇志国際高等学校",
+   "school_prefecture": "宮崎県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 971902)); matched player_key p_88fd65d9723b; rank as shown: 8T; school/grade/prefecture from players.csv (graduation_year 2028), not shown on the profile",
+   "player_key": "p_88fd65d9723b"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

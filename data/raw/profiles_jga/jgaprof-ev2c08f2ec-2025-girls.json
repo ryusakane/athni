@@ -1,0 +1,54 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2c08f2ec-2025-girls",
+  "name": "Sky レディスABC杯",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2025,
+  "start_date": "2025-10-07",
+  "end_date": "2025-10-10",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "後藤 あい",
+   "school": "松蔭高等学校",
+   "school_prefecture": "兵庫県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    69,
+    72,
+    70,
+    73
+   ],
+   "total": 284,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 867662)); matched player_key p_fa26d8f78fa0; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_fa26d8f78fa0"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

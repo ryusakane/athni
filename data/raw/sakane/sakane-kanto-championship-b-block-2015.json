@@ -1,0 +1,55 @@
+{
+  "tournament": {
+    "id": "sakane-kanto-championship-b-block-2015",
+    "name": "関東ゴルフ選手権 Bブロック (2015)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2015,
+    "start_date": "2015-01-01",
+    "end_date": null,
+    "venue": null,
+    "venue_prefecture": null,
+    "level": "regional",
+    "region": "kanto",
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": null,
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null,
+    "date_precision": "year"
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "Event not identified. Likely a Kanto high-school (k-hga.jp) block qualifier; k-hga.jp was NOT fetched (terms require consent). Searches found nothing public.",
+      "date unknown; year from the player's record"
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [],
+    "matches_claim": null,
+    "claim": "2015 Kanto Golf Championship B bloke 1st place",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "1",
+      "player_name": "阪根竜之介",
+      "school": "国士舘",
+      "school_prefecture": "東京都",
+      "grade": null,
+      "amateur": true,
+      "rounds": [],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source."
+    }
+  ]
+}

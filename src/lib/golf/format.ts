@@ -36,6 +36,22 @@ export function formatDate(lang: Locale, value: string) {
   return formatDateRange(lang, value, null);
 }
 
+/** A tournament's dates, shown only as precisely as they are known (some give only the year or month). */
+export function formatTournamentDate(
+  lang: Locale,
+  t: { start_date: string; end_date: string | null; date_precision?: "day" | "month" | "year" },
+) {
+  if (t.date_precision === "year") return lang === "en" ? t.start_date.slice(0, 4) : `${t.start_date.slice(0, 4)}年`;
+  if (t.date_precision === "month") {
+    return new Intl.DateTimeFormat(lang === "en" ? "en-US" : "ja-JP", {
+      year: "numeric",
+      month: "short",
+      timeZone: "UTC",
+    }).format(parseDate(t.start_date));
+  }
+  return formatDateRange(lang, t.start_date, t.end_date);
+}
+
 /** Primary name in the page language, plus the other language as a secondary label. */
 export function localizedName(
   lang: Locale,

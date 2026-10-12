@@ -16,6 +16,7 @@ const tables = [
   "tournaments",
   "tournament_results",
   "rounds",
+  "player_rankings",
 ] as const satisfies readonly (keyof Dataset)[];
 
 const PAGE_SIZE = 1000; // Supabase's default max rows per request

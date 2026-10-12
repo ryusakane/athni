@@ -49,6 +49,8 @@ export type Tournament = {
   gender: Gender | "mixed" | null;
   course_id: string | null;
   start_date: string;
+  /** How much of start_date is known; "year" and "month" dates are the 1st of the year or month. */
+  date_precision: "day" | "month" | "year";
   end_date: string | null;
   field_size: number | null;
   winning_score: number | null;
@@ -67,6 +69,10 @@ export type TournamentResult = {
   to_par: number | null;
   rank_percentile: number | null;
   status: ResultStatus;
+  /** "self_reported": no published result was found; the row comes from the player's own record. */
+  source: "public" | "self_reported";
+  /** Label for results that are not a stroke-play finish (e.g. "Round of 64"). */
+  note: string | null;
 };
 
 export type Round = {
@@ -85,6 +91,18 @@ export type Round = {
   precipitation_mm: number | null;
 };
 
+export type PlayerRanking = {
+  id: string;
+  player_id: string;
+  /** "wagr", "jga", ... */
+  system: string;
+  category: string | null;
+  rank: number;
+  points: number | null;
+  as_of: string;
+  source_url: string | null;
+};
+
 export type Dataset = {
   schools: School[];
   players: Player[];
@@ -93,4 +111,5 @@ export type Dataset = {
   tournaments: Tournament[];
   tournament_results: TournamentResult[];
   rounds: Round[];
+  player_rankings: PlayerRanking[];
 };

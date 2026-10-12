@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-evb4f3a110-2025-girls",
+  "name": "ミネベアミツミ レディス 北海道新聞カップ",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2025,
+  "start_date": "2025-07-10",
+  "end_date": "2025-07-13",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T7",
+   "player_name": "長澤 愛羅",
+   "school": "ルネサンス高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 707001)); matched player_key p_334b18d2f796; rank as shown: 7T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_334b18d2f796"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

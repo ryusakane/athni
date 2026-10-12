@@ -1,0 +1,48 @@
+{
+ "tournament": {
+  "id": "jgaprof-evca370b6d-2015-girls-15-17",
+  "name": "九州ジュニアゴルフ選手権競技(女子15～17歳)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2015,
+  "start_date": "2015-07-23",
+  "end_date": "2015-07-24",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T12",
+   "player_name": "松尾 奏",
+   "school": "致遠館",
+   "school_prefecture": null,
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 200594)); matched player_key p_411997a61a80; rank as shown: 12T; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_411997a61a80"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

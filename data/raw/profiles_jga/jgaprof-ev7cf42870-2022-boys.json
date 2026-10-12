@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev7cf42870-2022-boys",
+  "name": "北海道オープンゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2022,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934574438107975",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T36",
+   "player_name": "ゴヴォロヴスキー 遼河",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574438107975); matched player_key p_1ffd6a1fbdce; rank as shown: 36位 T",
+   "player_key": "p_1ffd6a1fbdce"
+  },
+  {
+   "rank": "T9",
+   "player_name": "ゴヴォロヴスキー 大河",
+   "school": "北海道札幌南高等学校",
+   "school_prefecture": "北海道",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=11701790189847366582); matched player_key p_25a08665e1a6 (same person also as p_84ed3eddbf07 in players.csv); rank as shown: 9位 T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_25a08665e1a6"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-07-03; profile year column is 年度 as shown"
+  ]
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-evc7970d9e-2015-girls",
+  "name": "東北女子アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2015,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934567660112768",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "11",
+   "player_name": "七宮 紀美佳",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567660112768); matched player_key p_ae5dcb6b6fda; rank as shown: 11位",
+   "player_key": "p_ae5dcb6b6fda"
+  },
+  {
+   "rank": "T23",
+   "player_name": "鶴瀬 華月",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934568498973387); matched player_key p_28724b21c3b1; rank as shown: 23位 T",
+   "player_key": "p_28724b21c3b1"
+  },
+  {
+   "rank": "T4",
+   "player_name": "髙久 みなみ",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934571820862180); matched player_key p_9ef2737fd23b; rank as shown: 4位 T",
+   "player_key": "p_9ef2737fd23b"
+  },
+  {
+   "rank": "T8",
+   "player_name": "佐久間 梨々子",
+   "school": "東北高等学校",
+   "school_prefecture": "宮城県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575276968562); matched player_key p_0c26220be3f4; rank as shown: 8位 T; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_0c26220be3f4"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

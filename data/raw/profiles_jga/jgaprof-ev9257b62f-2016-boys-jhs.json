@@ -1,0 +1,50 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev9257b62f-2016-boys-jhs",
+  "name": "九州中学校ゴルフ選手権 夏季大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2016,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934563734244027",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T5",
+   "player_name": "内藤 滉人",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934563734244027); matched player_key p_af36b489f415; rank as shown: 5位 T; 団体順位 2位",
+   "player_key": "p_af36b489f415"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2023-08-25; profile year column is 年度 as shown"
+  ]
+ }
+}

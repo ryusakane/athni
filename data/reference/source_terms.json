@@ -55,5 +55,21 @@
  "akita-ga-": {
   "reuse_status": "check",
   "note": "tga.gr.jp 上で公開。東北ゴルフ連盟のプライバシーポリシーで成績等の公表に同意"
+ },
+ "sakane-": {
+  "reuse_status": "check",
+  "note": "選手本人の戦歴と、大学の公式サイトの結果記事 (judolphins.com ほか)・各大会の公式ページで照合した結果。照合できなかった行は tournament_results.source = self_reported"
+ },
+ "sakane-jjga-": {
+  "reuse_status": "restricted",
+  "note": "日本ジュニアゴルファーズ協会 (jjga.org) の利用規約 第8条でサイト内容の無断使用を禁止。公開するかはオーナー判断待ち"
+ },
+ "jjga-": {
+  "reuse_status": "restricted",
+  "note": "日本ジュニアゴルファーズ協会 (jjga.org) の利用規約 第8条でサイト内容の無断使用を禁止。公開するかはオーナー判断待ち"
+ },
+ "jgaprof-": {
+  "reuse_status": "check",
+  "note": "JGA 選手プロフィールの主な戦歴・日本アマチュアゴルフランキングの戦歴から、照合済みの選手の行だけを取ったもの (大会全体ではない)。jga.or.jp 利用規約 第4条は無断使用・複製を禁止 (2026-10-12 確認)。既存の JGA 由来データと同じ扱いで、公開するかはオーナー判断"
  }
 }

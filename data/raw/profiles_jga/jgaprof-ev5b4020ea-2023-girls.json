@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev5b4020ea-2023-girls",
+  "name": "大分県高等学校総合体育大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "high_school",
+  "season_year": 2023,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934570243803975",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "松田 桃",
+   "school": "柳ヶ浦高等学校",
+   "school_prefecture": "大分県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570243803975); matched player_key p_c66e68679dd8; rank as shown: 優勝; 団体順位 優勝; school/grade/prefecture from players.csv (graduation_year 2025), not shown on the profile",
+   "player_key": "p_c66e68679dd8"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-06-20; profile year column is 年度 as shown"
+  ]
+ }
+}

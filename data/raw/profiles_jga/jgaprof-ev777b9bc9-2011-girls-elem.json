@@ -1,0 +1,63 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev777b9bc9-2011-girls-elem",
+  "name": "中国小学生ゴルフ大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2011,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934570176695081",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "11",
+   "player_name": "栗原 愛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570176695081); matched player_key p_ab7d969377c6; rank as shown: 11位",
+   "player_key": "p_ab7d969377c6"
+  },
+  {
+   "rank": "14",
+   "player_name": "栗原 幸",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934581350321037); matched player_key p_159f5983ce88; rank as shown: 14位",
+   "player_key": "p_159f5983ce88"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in elementary school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2024-06-14; profile year column is 年度 as shown"
+  ]
+ }
+}

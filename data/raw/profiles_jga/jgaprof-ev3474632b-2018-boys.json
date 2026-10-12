@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev3474632b-2018-boys",
+  "name": "福島県アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2018,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934562660502311",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "14",
+   "player_name": "宝泉 研輝",
+   "school": "学校法人石川高等学校（学法石川）",
+   "school_prefecture": "福島県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934562660502311); matched player_key p_d00991080efb; rank as shown: 14位; school/grade/prefecture from players.csv (graduation_year 2021), not shown on the profile",
+   "player_key": "p_d00991080efb"
+  },
+  {
+   "rank": "2",
+   "player_name": "白石 星南",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577122462533); matched player_key p_a19f6874c8b9; rank as shown: 2位",
+   "player_key": "p_a19f6874c8b9"
+  },
+  {
+   "rank": "8",
+   "player_name": "吉川 翔都",
+   "school": "福井工業大学附属福井高等学校",
+   "school_prefecture": "福井県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577525115902); matched player_key p_de798b512ed7; rank as shown: 8位; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_de798b512ed7"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2024-06-27; profile year column is 年度 as shown"
+  ]
+ }
+}

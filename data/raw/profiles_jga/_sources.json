@@ -1,0 +1,48 @@
+[
+ {
+  "name": "JGA 日本ゴルフ協会 — 選手検索・選手プロフィール (主な戦歴)",
+  "url": "https://www.jga.or.jp/player_search_result.php",
+  "profile_url_pattern": "https://www.jga.or.jp/profile.php?id=<id>",
+  "organizer_type": "national_federation",
+  "region": null,
+  "publishes": "Player search (POST keyWord, substring match on the name) lists name, kana, romaji, 所属, 生年月日, 身長. Each profile page shows 生年月日, 身長, 体重, 血液型, 出身地, 学校 and 主な戦歴 (年度, 競技名, 個人順位, 団体順位, 備考) with an as-of date. No scores or dates per result. National team member pages (/national_team/member_m/, /member_w/) link to the same profile pages.",
+  "years_available": "戦歴 rows of fetched profiles span 2007-2026 (from elementary school on); 主な戦歴 as-of dates vary per profile (2013-08-23 to 2026-10-04)",
+  "robots_ok": true,
+  "robots_txt": "https://www.jga.or.jp/robots.txt (checked 2026-10-12): Disallow /data/wp-admin/ only",
+  "terms_note": "利用規約 https://www.jga.or.jp/policy/ (最終更新 平成21年4月1日) 第4条: 当サイトに掲載されている一部または全部について、無断使用・複製することを固く禁止。Footer: 無断複製転載を禁ず. Same site already used for jga_amateur / jga_kokusupo (reuse_status check). Only facts (event, year, rank) were taken; birth date, height, weight, blood type were not stored (birth year used only for matching).",
+  "collected": true,
+  "method": "2026-10-12: searched once per first character of our players' names (623 queries incl. 髙/高 etc. variants) -> 12,406 profiles indexed; 2,420 profiles whose normalized name equals one of ours (and birth year not inconsistent with every candidate) were fetched (>=1.2 s apart).",
+  "matching": "name (spaces/異体字 normalized) + at least one of: birth year consistent with graduation_year (grad = birth year + 18 or 19), 学校/所属 ~ school, 出身地 = school prefecture, a 主な戦歴 row equal to an existing data/raw result (same event, year, rank). 2,351 profiles accepted -> 2,310 player_keys (incl. 31 groups of duplicate player_keys and 142 profiles where JGA lists the same person twice). Not accepted: see _match_review.json.",
+  "reason": "Owner request (2026-10-12): collect the results shown on JGA player pages for our players. Rows already in data/raw (same tournament + year) were skipped; rows for tournaments in data/raw where our player is missing are listed in _profile_rows_not_in_raw.json."
+ },
+ {
+  "name": "JGA グラファイトデザイン日本アマチュアゴルフランキング (ranking + per-player 戦歴)",
+  "url": "https://www.jga.or.jp/amateur_ranking/",
+  "organizer_type": "national_federation",
+  "region": null,
+  "publishes": "Ranking pages male/female (ranking.php?p=N, 20 rows/page): 順位, 前回順位, 氏名, 年齢, 居住地, ポイント. CSV download button (POST /amateur_ranking/php/ranking_csv_download.php) adds 氏名カナ, 所属・学校, stroke/place/match points. Clicking a row opens 戦歴 (POST /amateur_ranking/php/getAllEventResultsOfPlayers.php): 期間, 競技名, 競技ランク, 順位, points for the ranking period plus older rows; the JSON also carries rounds/total and player_num (not displayed).",
+  "years_available": "Ranking as of 2026-08-30 (前回 2026-07-19): men 1,780, women 1,199. 戦歴 rows of the fetched players span 2002-2026.",
+  "robots_ok": true,
+  "robots_txt": "same as above",
+  "terms_note": "Same JGA 利用規約 第4条 (無断使用・複製の禁止). The CSV/戦歴 JSON also return date_of_birth, which was not stored.",
+  "collected": true,
+  "method": "2026-10-12: CSV data for both genders (2 requests); 戦歴 for the 1,569 ranked players whose name equals one of ours.",
+  "matching": "name + at least one of: age consistent with graduation_year, 所属・学校 ~ school, 居住地 = school prefecture. 1,512 entries accepted -> 1,533 player_keys -> data/reference/player_rankings.json (system jga). 戦歴 rows of accepted players were merged with the profile rows (deduplicated by event + year/date).",
+  "reason": "Owner request: ranking info on player pages; results from the 戦歴."
+ },
+ {
+  "name": "WAGR World Amateur Golf Ranking (R&A Rules Ltd / USGA)",
+  "url": "https://www.wagr.com/",
+  "organizer_type": "international_ranking",
+  "region": "world",
+  "publishes": "Men's/Women's ranking (rank, nationality, name, divisor, points average), player profile (school, graduationYear, hometown, best ranking without date, counting events with week/finish position). The website reads https://worldgolfranking2021api.wagr.com/api/wagr/... (rankings/getRankings, playerprofile/getPlayerById, playerprofile/getPlayerEvents); no documented public API or download was found.",
+  "years_available": "Ranking as of 2026-10-07 (RankingsLastUpdated header; WAGR week 202640): men 5,060, women 3,369, of which Japan 198.",
+  "robots_ok": true,
+  "robots_txt": "https://www.wagr.com/robots.txt (checked 2026-10-12): 'User-agent: *' with no Disallow; sitemap only",
+  "terms_note": "Terms and Conditions https://www.wagr.com/footer/terms-and-conditions: 'we hereby grant a revocable licence to any party to reproduce the WAGR Ranking as published by us ... Any such reproduction ... should acknowledge its source and contain a copyright statement acknowledging our rights and the rights of WAGR'; no right to alter/adapt or create a separate ranking without written permission; WAGR trade marks only to credit a permitted reproduction. So the site must show the source (WAGR) and a copyright line next to the rank.",
+  "collected": true,
+  "method": "2026-10-12: full men's and women's lists (pageSize 1000, 11 requests), then profile + events for the 198 Japanese players (>=1.5 s apart).",
+  "matching": "romaji name (vs JGA official romaji of a matched player, else players.csv name_en) + gender + at least one of: WAGR graduationYear = graduation_year, WAGR school ~ school name_en, or a WAGR event finish equal to our data/raw result or to the player's JGA ranking 戦歴 (same week, same position). 145 entries -> 148 player_keys -> data/reference/player_rankings.json (system wagr). bestRanking was not recorded (no date shown).",
+  "reason": "Owner request: WAGR ranking on player pages."
+ }
+]

@@ -10,6 +10,7 @@ UUID の代わりに人が読める *_key を主キー/外部キーに使う。�
   course_tees.csv        course_tees
   tournaments.csv        tournaments
   tournament_results.csv tournament_results
+  player_rankings.csv    player_rankings (data/reference/player_rankings.json)
   rounds.csv             rounds
   team_results.csv       (スキーマ未対応の団体戦。拡張用)
   team_members.csv       (同上)
@@ -205,6 +206,8 @@ def tournament_name_en(t):
 def find_course(venue):
     """会場名に最も長く一致するコースを返す (「サンヒルズCC」より「サンヒルズCC ウエストコース」を優先)。"""
     v = squash(venue)
+    if not v:  # 会場不明 ("" はどのコース名にも含まれてしまう)
+        return None
     best, best_len = None, 0
     for c in COURSES:
         for n in [c["name_ja"]] + c.get("aliases", []):
@@ -468,7 +471,8 @@ def main():
         with open(f, encoding="utf-8") as fh:
             rows = json.load(fh).get("results", [])
         return any(r.get("school") or any(m.get("school") for m in r.get("members") or []) for r in rows)
-    files.sort(key=lambda f: not has_schools(f))
+    # 選手プロフィール由来の行 (raw/profiles_*) は player_key で既存の選手に付けるので最後に処理する
+    files.sort(key=lambda f: ("/profiles_" in f, not has_schools(f)))
     schools, players, tournaments, results, rounds = {}, {}, [], [], []
     teams, members, issues = [], [], []
     tees_used = defaultdict(set)
@@ -491,9 +495,11 @@ def main():
             schools[k]["prefecture"] = pref
         return k
 
-    def player_row(name, school, pref, grade, gender, t):
+    def player_row(name, school, pref, grade, gender, t, pkey=None):
         if not name:
             return None
+        if pkey in players:  # 選手プロフィールから取った行は照合済みの選手に付ける
+            return pkey
         sk = school_row(school, pref)
         k = key("p", squash(name), canonical_school(school) if school_core(school) else "", gender)
         if not sk:
@@ -521,6 +527,8 @@ def main():
             d = json.load(fh)
         t, q = d["tournament"], d.get("quality", {})
         tid = t["id"]
+        # 選手本人の戦歴 (verification あり) や選手プロフィール (raw/profiles_*) から取った大会。その選手たちの行しかない
+        player_record = bool(d.get("verification")) or "/profiles_" in f
         gender = {"boys": "male", "girls": "female"}.get(t.get("category"), "mixed")
         course = find_course(t.get("venue"))
         if not course and t.get("venue"):
@@ -538,7 +546,12 @@ def main():
             "event_type": event_type(t),
             "course_key": course["course_key"] if course else None,
             # 開始日が公表されていない大会 (団体戦日程の一部など) は最終日で代用
-            "start_date": t.get("start_date") or t.get("end_date"), "end_date": t.get("end_date"),
+            # 年しかわからない大会 (選手プロフィールの戦歴など) は1月1日にして date_precision = year
+            "start_date": t.get("start_date") or t.get("end_date")
+            or (f"{t['season_year']}-01-01" if t.get("season_year") else None),
+            "end_date": t.get("end_date"),
+            "date_precision": t.get("date_precision")
+            or ("day" if t.get("start_date") or t.get("end_date") else "year"),
             "source_url": t.get("source_url"),
             # 以下はスキーマ外の補足列
             "season_year": t.get("season_year"), "region": t.get("region"), "format": t.get("format"),
@@ -547,6 +560,7 @@ def main():
             "complete": q.get("complete"), "row_count": len(d.get("results", [])),
             # 大会全体の出場人数 (一般アマ・プロ大会では高校生以外も含む)。不明なら空
             "field_size_total": t.get("field_size_total"),
+            "player_record": player_record,
             "reuse_status": terms_for(tid)["reuse_status"], "reuse_note": terms_for(tid)["note"],
         })
         for i in q.get("issues") or []:
@@ -568,11 +582,12 @@ def main():
             continue
 
         rows = d.get("results", [])
+        source = "self_reported" if (d.get("verification") or {}).get("status") == "self_reported" else "public"
         rank_counts = Counter(parse_rank(r.get("rank"))[0] for r in rows)
         seen = set()
         for r in rows:
             pk = player_row(r.get("player_name"), r.get("school"), r.get("school_prefecture"),
-                            r.get("grade"), gender, t)
+                            r.get("grade"), gender, t, r.get("player_key"))
             if not pk:
                 continue
             if pk in seen:
@@ -587,6 +602,8 @@ def main():
                 issues.append((tid, f"合計不一致: {r.get('player_name')} {rs} != {r['total']}"))
             results.append({"tournament_key": tid, "player_key": pk, "position": pos, "tied": tied,
                             "total_score": r.get("total"), "to_par": r.get("to_par"), "status": status,
+                            # 公開された結果が見つからず本人の戦歴だけが出典の行は self_reported
+                            "source": r.get("source") or source, "note": r.get("display_note"),
                             "amateur": r.get("amateur", True),
                             # 以下はスキーマ外の派生列 (後で埋める)
                             "field_size": None, "percentile": None, "strokes_behind_winner": None,
@@ -614,6 +631,8 @@ def main():
         finished = [x for x in results if x["tournament_key"] == tid and x["status"] != "dns"]
         # 一般アマ・プロ大会は高校生だけを書き起こしているので、順位・上位%は大会全体の人数で見る
         field = t.get("field_size_total") or len(finished)
+        if player_record and not t.get("field_size_total"):
+            continue  # 本人の行だけで大会全体の人数がわからない。上位%・優勝との差は出さない
         if field < len(finished):
             issues.append((tid, f"field_size_total ({field}) が書き起こし人数 ({len(finished)}) より少ない"))
             field = len(finished)
@@ -635,6 +654,17 @@ def main():
     merged, review = dedup_players(players, schools, results, rounds, members)
     for drop, keep in sorted(merged.items()):
         issues.append(("player-dedup", f"同一人物としてまとめた: {drop} → {keep} ({players[keep]['name_ja']})"))
+
+    # アマチュアランキング (WAGR・JGA など)。player_key は前回の players.csv のもの。統合された選手は残った方へ
+    rankings = []
+    for x in load_ref("player_rankings.json", []):
+        pk = merged.get(x["player_key"], x["player_key"])
+        if pk not in players:
+            issues.append(("player-rankings", f"選手が見つからない: {x['player_key']} ({x.get('name_ja')})"))
+            continue
+        rankings.append({"player_key": pk, "system": x["system"], "category": x.get("category"),
+                         "rank": x["rank"], "points": x.get("points"), "as_of": x["as_of"],
+                         "source_url": x.get("source_url")})
 
     course_rows, tee_rows = [], []
     for c in COURSES:
@@ -667,6 +697,7 @@ def main():
     write("tournaments.csv", tournaments)
     write("tournament_results.csv", results)
     write("rounds.csv", rounds)
+    write("player_rankings.csv", rankings)
     write("team_results.csv", teams)
     write("team_members.csv", members)
     write("player_name_review.csv", review)

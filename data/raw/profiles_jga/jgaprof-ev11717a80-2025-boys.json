@@ -1,0 +1,70 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev11717a80-2025-boys",
+  "name": "ユニクロ日本ジュニアゴルフカップ20258地区対抗戦(男子個人)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2025,
+  "start_date": "2025-12-02",
+  "end_date": "2025-12-04",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "13",
+   "player_name": "廣澤 敬也",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    75,
+    75,
+    78
+   ],
+   "total": 228,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 800153)); matched player_key p_24d0354cad82; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_24d0354cad82"
+  },
+  {
+   "rank": "27",
+   "player_name": "北岡 和翔",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    82,
+    84,
+    84
+   ],
+   "total": 250,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 857839)); matched player_key p_fce56b5c77d2; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_fce56b5c77d2"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1cb6e886-2018-girls-15-17",
+  "name": "中部ジュニアゴルフ選手権競技 女子15歳～17歳の部",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2018,
+  "start_date": "2018-07-26",
+  "end_date": "2018-07-27",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "19",
+   "player_name": "伊佐治 瑚乃",
+   "school": "愛知啓成",
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 113949)); matched player_key p_6d949abba82f; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_6d949abba82f"
+  },
+  {
+   "rank": "6",
+   "player_name": "中村 好花",
+   "school": "福井工業大学附属福井高等学校",
+   "school_prefecture": "福井県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 76316)); matched player_key p_c267627e6898; school/grade/prefecture from players.csv (graduation_year 2021), not shown on the profile",
+   "player_key": "p_c267627e6898"
+  },
+  {
+   "rank": "T9",
+   "player_name": "遠藤 夢里",
+   "school": "中部大学第一高等学校",
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 211332)); matched player_key p_b92634cd2203; rank as shown: 9T; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_b92634cd2203"
+  },
+  {
+   "rank": "T20",
+   "player_name": "酒井 杏奈",
+   "school": "美濃加茂",
+   "school_prefecture": "岐阜県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 418370)); matched player_key p_46f3a2ca9214; rank as shown: 20T; school/grade/prefecture from players.csv (graduation_year 2021), not shown on the profile",
+   "player_key": "p_46f3a2ca9214"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

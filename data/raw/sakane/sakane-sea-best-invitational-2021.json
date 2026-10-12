@@ -1,0 +1,64 @@
+{
+  "tournament": {
+    "id": "sakane-sea-best-invitational-2021",
+    "name": "Sea Best Invitational (2021)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2021,
+    "start_date": "2021-02-01",
+    "end_date": "2021-02-02",
+    "venue": "TPC Sawgrass - Dye's Valley (Ponte Vedra Beach, FL)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18,
+      18
+    ],
+    "source_url": "https://judolphins.com/news/2021/2/2/mens-golf-closes-out-2021-sea-best-invitational.aspx",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://judolphins.com/news/2021/2/2/mens-golf-closes-out-2021-sea-best-invitational.aspx",
+      "https://judolphins.com/news/2021/2/1/mens-golf-sakane-leads-the-charge-at-sea-best-invitational.aspx"
+    ],
+    "matches_claim": true,
+    "claim": "2021 Sea Best Invitational (73-68-75) 10",
+    "differences": "Scores match; the recap says only 'a top-10 finish', not the exact position 10."
+  },
+  "results": [
+    {
+      "rank": "",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        73,
+        68,
+        75
+      ],
+      "total": 216,
+      "to_par": 6,
+      "note": "JU recaps: R1 73 (+3), R2 68 (-2), R3 75 (+5); 'top-10 finish on the individual leaderboard with a +6, 216'. Exact position not published in fetched pages (claim: 10).",
+      "display_note": "Top 10"
+    }
+  ]
+}

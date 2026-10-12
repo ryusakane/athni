@@ -1,0 +1,67 @@
+{
+ "tournament": {
+  "id": "kougoren-summer-2015-boys-individual",
+  "name": "平成27年度 全国高等学校ゴルフ選手権大会 男子個人の部",
+  "name_en": "2015 All-Japan High School Golf Championship, boys individual",
+  "organizer": "日本高等学校ゴルフ連盟",
+  "event_type": "high_school",
+  "season_year": 2015,
+  "start_date": "2015-08-07",
+  "end_date": "2015-08-08",
+  "venue": "宇部７２カントリークラブ 万年池東コース",
+  "venue_prefecture": "山口県",
+  "level": "national",
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6958,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://nihon-kougoren.jp/smrcmp/361/",
+  "result_pdf_urls": [
+   "https://nihon-kougoren.jp/kougoren/wp-content/uploads/2015/02/2015_zenkoku_h_indivi_mens_result_150807.pdf",
+   "https://nihon-kougoren.jp/kougoren/wp-content/uploads/2015/02/2015_zenkoku_h_indivi_mens_result_150808.pdf"
+  ],
+  "field_size_total": 148
+ },
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+   "Only his row is transcribed here; the full 2015 field (148 ranked on the final sheet) can be collected later from the same PDFs under this id.",
+   "field_size_total = last rank on the final-day sheet (148); DNS/WD not checked.",
+   "nihon-kougoren.jp: robots.txt disallows only wp-admin; no explicit terms page (same as other kougoren- files)."
+  ]
+ },
+ "verification": {
+  "status": "public",
+  "public_urls": [
+   "https://nihon-kougoren.jp/smrcmp/361/",
+   "https://nihon-kougoren.jp/kougoren/wp-content/uploads/2015/02/2015_zenkoku_h_indivi_mens_result_150808.pdf"
+  ],
+  "matches_claim": true,
+  "claim": "2015 National High School Golf Championship (73-65) 2nd place",
+  "differences": "None in substance: claim says '2nd place'; the official sheet shows 2nd tied with 三倉誠生 (寒川) at 138."
+ },
+ "results": [
+  {
+   "rank": "T2",
+   "player_name": "阪根竜之介",
+   "school": "国士舘",
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    73,
+    65
+   ],
+   "total": 138,
+   "to_par": -6,
+   "note": "Verified on the official final-day PDF: 2 阪根竜之介 東京都 国士舘 ② 138 = 73 65 (OUT 31 IN 34). Day-1 sheet: 36th after 73. Winner 関将太 136."
+  }
+ ]
+}

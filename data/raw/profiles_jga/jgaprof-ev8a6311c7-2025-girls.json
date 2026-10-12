@@ -1,0 +1,134 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev8a6311c7-2025-girls",
+  "name": "第29回 日本女子ミッドアマチュアゴルフ選手権競技",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-11-13",
+  "end_date": "2025-11-14",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T34",
+   "player_name": "松尾 奏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    84,
+    81
+   ],
+   "total": 165,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 200594)); matched player_key p_411997a61a80; rank as shown: 34T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_411997a61a80"
+  },
+  {
+   "rank": "WD",
+   "player_name": "髙橋 夏奈",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934573867682484); matched player_key p_724d634d27bf; rank as shown: 棄権",
+   "player_key": "p_724d634d27bf"
+  },
+  {
+   "rank": "T48",
+   "player_name": "森沢 莉子",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=11847528683461987291); matched player_key p_ed7f88ebd0ae; rank as shown: 48位 T",
+   "player_key": "p_ed7f88ebd0ae"
+  },
+  {
+   "rank": "T28",
+   "player_name": "菊池 祐菜",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=11998713042297735865); matched player_key p_ad49347c2652; rank as shown: 28位 T",
+   "player_key": "p_ad49347c2652"
+  },
+  {
+   "rank": "T107",
+   "player_name": "寺岡 愛菜",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=12026533556223265383); matched player_key p_b677cf47c110; rank as shown: 107位 T",
+   "player_key": "p_b677cf47c110"
+  },
+  {
+   "rank": "T99",
+   "player_name": "井上 ほのか",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=12093499204404562497); matched player_key p_f93b3523a879; rank as shown: 99位 T",
+   "player_key": "p_f93b3523a879"
+  },
+  {
+   "rank": "T5",
+   "player_name": "濵邉 歩",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    76,
+    75
+   ],
+   "total": 151,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 208942)); matched player_key p_260306a9c529 (same person also as p_6a72f88a2661 in players.csv); rank as shown: 5T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_260306a9c529"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

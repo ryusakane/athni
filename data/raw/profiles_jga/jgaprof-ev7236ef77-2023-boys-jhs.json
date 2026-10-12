@@ -1,0 +1,114 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev7236ef77-2023-boys-jhs",
+  "name": "2023年北海道ジュニア12-14男子",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2023,
+  "start_date": "2023-07-27",
+  "end_date": "2023-07-28",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "4",
+   "player_name": "堀 堅多",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 813492)); matched player_key p_d45ad433a144",
+   "player_key": "p_d45ad433a144"
+  },
+  {
+   "rank": "3",
+   "player_name": "宇苗 蒼空",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 822534)); matched player_key p_c6ef86fea92d",
+   "player_key": "p_c6ef86fea92d"
+  },
+  {
+   "rank": "1",
+   "player_name": "宮浦 拓都",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 827545)); matched player_key p_205acbef2bb6",
+   "player_key": "p_205acbef2bb6"
+  },
+  {
+   "rank": "5",
+   "player_name": "相馬 大輝",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 724812)); matched player_key p_9602d5f2a561",
+   "player_key": "p_9602d5f2a561"
+  },
+  {
+   "rank": "2",
+   "player_name": "石川 裕盛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 724314)); matched player_key p_23bca0d67f31",
+   "player_key": "p_23bca0d67f31"
+  },
+  {
+   "rank": "7",
+   "player_name": "佐々木 快晟",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 729451)); matched player_key p_65667489db20",
+   "player_key": "p_65667489db20"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)"
+  ]
+ }
+}

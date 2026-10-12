@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev4746bb80-2019-girls",
+  "name": "スタンレーレディスゴルフトーナメント",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2019,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934560848563040",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "岩井 千怜",
+   "school": "埼玉栄高等学校",
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934560848563040); matched player_key p_2c9598f85ba2; rank as shown: CUT 86位 T; school/grade/prefecture from players.csv (graduation_year 2021), not shown on the profile",
+   "player_key": "p_2c9598f85ba2"
+  },
+  {
+   "rank": "T27",
+   "player_name": "六車 日那乃",
+   "school": "麗澤高等学校",
+   "school_prefecture": "千葉県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934563667135144); matched player_key p_1bcfb4600c28; rank as shown: 27位 T; school/grade/prefecture from players.csv (graduation_year 2021), not shown on the profile",
+   "player_key": "p_1bcfb4600c28"
+  },
+  {
+   "rank": "T13",
+   "player_name": "神谷 そら",
+   "school": "麗澤瑞浪高等学校",
+   "school_prefecture": "岐阜県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576350710770); matched player_key p_cc9e376c34e1; rank as shown: 13位 T; school/grade/prefecture from players.csv (graduation_year 2022), not shown on the profile",
+   "player_key": "p_cc9e376c34e1"
+  },
+  {
+   "rank": "cut",
+   "player_name": "山本 優花",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582558280551); matched player_key p_a523df45e3cf; rank as shown: CUT 99位 T",
+   "player_key": "p_a523df45e3cf"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

@@ -1,0 +1,65 @@
+{
+  "tournament": {
+    "id": "sakane-quebec-open-2022",
+    "name": "Québec Open (2022)",
+    "name_en": null,
+    "organizer": "PGA TOUR Canada",
+    "event_type": "professional",
+    "season_year": 2022,
+    "start_date": "2022-08-04",
+    "end_date": "2022-08-07",
+    "venue": "Club de Golf Le Blainvillier (Blainville, Québec)",
+    "venue_prefecture": null,
+    "level": "international",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": 72,
+    "yardage": 6952,
+    "round_holes": [
+      18,
+      18,
+      18,
+      18
+    ],
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "Tournament metadata from the pgatour.com preview. pgatour.com leaderboards are client-rendered; no readable 2022 leaderboard was found."
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [
+      "https://www.pgatour.com/pt/americas/article/news/latest/2022/08/03/after-big-win--goodwin-headlines-field-at-quebec-open-"
+    ],
+    "matches_claim": null,
+    "claim": "2022 PGA Tour Canada Quebec Open (69-73-72-71) T46",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "T46",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": false,
+      "rounds": [
+        69,
+        73,
+        72,
+        71
+      ],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source. Entry into the field via the Monday qualifier is public; the final leaderboard was not found."
+    }
+  ]
+}

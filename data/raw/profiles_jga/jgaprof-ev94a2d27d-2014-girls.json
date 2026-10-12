@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev94a2d27d-2014-girls",
+  "name": "KKT杯バンテリンレディース",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2014,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934564774431299",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "蔵座 一華",
+   "school": "東海大学付属熊本星翔高等学校",
+   "school_prefecture": "熊本",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934564774431299); matched player_key p_ed6d1553c0aa; rank as shown: CUT 103位; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_ed6d1553c0aa"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2019-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

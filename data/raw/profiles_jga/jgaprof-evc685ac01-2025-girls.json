@@ -1,0 +1,101 @@
+{
+ "tournament": {
+  "id": "jgaprof-evc685ac01-2025-girls",
+  "name": "Australian Master of the Amateurs Women's",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2026-01-06",
+  "end_date": "2026-01-09",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "3",
+   "player_name": "岩永 杏奈",
+   "school": "大阪桐蔭高等学校",
+   "school_prefecture": "大阪府",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 623137)); matched player_key p_6da6bd5e2422; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile",
+   "player_key": "p_6da6bd5e2422"
+  },
+  {
+   "rank": "T29",
+   "player_name": "清水 心結",
+   "school": "代々木高等学校",
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 530500)); matched player_key p_93c8d688bcee; rank as shown: 29T; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile",
+   "player_key": "p_93c8d688bcee"
+  },
+  {
+   "rank": "T26",
+   "player_name": "橋本 ゆう",
+   "school": "福岡第一高等学校",
+   "school_prefecture": "福岡県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 741213)); matched player_key p_9bd9407db91b; rank as shown: 26T; school/grade/prefecture from players.csv (graduation_year 2028), not shown on the profile",
+   "player_key": "p_9bd9407db91b"
+  },
+  {
+   "rank": "34",
+   "player_name": "染宮 凛々子",
+   "school": "西武学園文理高等学校",
+   "school_prefecture": "埼玉",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 860408)); matched player_key p_9f6e743cfe48; school/grade/prefecture from players.csv (graduation_year 2028), not shown on the profile",
+   "player_key": "p_9f6e743cfe48"
+  },
+  {
+   "rank": "cut",
+   "player_name": "井上 來虹",
+   "school": "沖学園高等学校",
+   "school_prefecture": "福岡県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 1021469)); matched player_key p_7cc02db63e16; rank as shown: CUT; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile",
+   "player_key": "p_7cc02db63e16"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

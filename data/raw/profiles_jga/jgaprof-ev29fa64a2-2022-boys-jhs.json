@@ -1,0 +1,89 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev29fa64a2-2022-boys-jhs",
+  "name": "東京都ジュニアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934574203226888",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "4",
+   "player_name": "中山 大生",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574203226888); matched player_key p_e5c310df61d9; rank as shown: 4位",
+   "player_key": "p_e5c310df61d9"
+  },
+  {
+   "rank": "3",
+   "player_name": "松本 律太郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575042087436); matched player_key p_09e4d055c79b; rank as shown: 3位",
+   "player_key": "p_09e4d055c79b"
+  },
+  {
+   "rank": "2",
+   "player_name": "宇田川 理茶度",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575478295233); matched player_key p_018eb7bb7b57; rank as shown: 2位",
+   "player_key": "p_018eb7bb7b57"
+  },
+  {
+   "rank": "7",
+   "player_name": "辛 宇振",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582491171663); matched player_key p_303676ad213c; rank as shown: 7位",
+   "player_key": "p_303676ad213c"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2026-07-03; profile year column is 年度 as shown"
+  ]
+ }
+}

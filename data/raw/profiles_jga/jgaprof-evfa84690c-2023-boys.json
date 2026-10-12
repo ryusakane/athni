@@ -1,0 +1,87 @@
+{
+ "tournament": {
+  "id": "jgaprof-evfa84690c-2023-boys",
+  "name": "文部科学大臣杯争奪第42回日本学生ゴルフ王座決定戦",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2023,
+  "start_date": "2023-11-28",
+  "end_date": "2023-12-01",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "ベスト16",
+   "player_name": "田村 軍馬",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 204177)); matched player_key p_850015d0e547",
+   "player_key": "p_850015d0e547"
+  },
+  {
+   "rank": "ベスト16",
+   "player_name": "坂田 一真",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 750819)); matched player_key p_08e0476c722a",
+   "player_key": "p_08e0476c722a"
+  },
+  {
+   "rank": "3",
+   "player_name": "竹葉 光希",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 204509)); matched player_key p_70395f912307",
+   "player_key": "p_70395f912307"
+  },
+  {
+   "rank": "ベスト8",
+   "player_name": "小林 匠",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 418419)); matched player_key p_9ac2195412b2",
+   "player_key": "p_9ac2195412b2"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

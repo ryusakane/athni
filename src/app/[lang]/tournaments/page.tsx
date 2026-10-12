@@ -3,7 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { hasLocale } from "@/i18n/config";
 import { getDictionary } from "@/i18n/dictionaries";
-import { formatDateRange, localizedName } from "@/lib/golf/format";
+import { formatTournamentDate, localizedName } from "@/lib/golf/format";
 import { listTournaments } from "@/lib/golf/queries";
 
 export async function generateMetadata({
@@ -42,7 +42,7 @@ export default async function TournamentsPage({ params }: PageProps<"/[lang]/tou
                     {localizedName(lang, tournament).primary}
                   </Link>
                   <div className="mt-1 flex flex-wrap gap-x-3 text-sm text-foreground/60">
-                    <span>{formatDateRange(lang, tournament.start_date, tournament.end_date)}</span>
+                    <span>{formatTournamentDate(lang, tournament)}</span>
                     {course && <span>{localizedName(lang, course).primary}</span>}
                     {tournament.level && tournament.level in dict.labels && (
                       <span>{dict.labels[tournament.level as keyof typeof dict.labels]}</span>

@@ -1,0 +1,87 @@
+{
+ "tournament": {
+  "id": "jgaprof-evf255b220-2021-boys",
+  "name": "北海道アマチュアゴルフ選手権決勝競技",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": "2021-05-29",
+  "end_date": "2021-06-01",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "7",
+   "player_name": "島田 温太",
+   "school": "札幌光星高等学校",
+   "school_prefecture": "北海道",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140483)); matched player_key p_c4f588ed7c80; school/grade/prefecture from players.csv (graduation_year 2023), not shown on the profile",
+   "player_key": "p_c4f588ed7c80"
+  },
+  {
+   "rank": "cut",
+   "player_name": "鈴木 慶士",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 822895)); matched player_key p_239ffdba2cad; rank as shown: カット",
+   "player_key": "p_239ffdba2cad"
+  },
+  {
+   "rank": "T24",
+   "player_name": "ゴヴォロヴスキー 大河",
+   "school": "北海道札幌南高等学校",
+   "school_prefecture": "北海道",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140413)); matched player_key p_25a08665e1a6 (same person also as p_84ed3eddbf07 in players.csv); rank as shown: 24T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_25a08665e1a6"
+  },
+  {
+   "rank": "T17",
+   "player_name": "萩原 璃仁",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 1119809)); matched player_key p_46f289f83cfd; rank as shown: 17T",
+   "player_key": "p_46f289f83cfd"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

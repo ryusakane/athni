@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "id": "jgaprof-eva6d457b9-2023-boys",
+  "name": "ジャパンクリエイトチャレンジin福岡雷山2023",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2023,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934568398310046",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T47",
+   "player_name": "田中 貫太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934568398310046); matched player_key p_161429bbf1ec; rank as shown: 47位 T",
+   "player_key": "p_161429bbf1ec"
+  },
+  {
+   "rank": "T65",
+   "player_name": "島戸 太一",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934579135728362); matched player_key p_1fcdeef5bef6; rank as shown: 65位 T",
+   "player_key": "p_1fcdeef5bef6"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2024-08-23; profile year column is 年度 as shown"
+  ]
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev576c365b-2019-girls-12-14",
+  "name": "北海道ジュニアゴルフ選手権競技 12歳～14歳・女子",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2019,
+  "start_date": "2019-07-30",
+  "end_date": "2019-07-31",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "2",
+   "player_name": "本間 渉",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 406079)); matched player_key p_0314e0c6308b",
+   "player_key": "p_0314e0c6308b"
+  },
+  {
+   "rank": "6",
+   "player_name": "武藤 愛海",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 623146)); matched player_key p_28904d7f29d5",
+   "player_key": "p_28904d7f29d5"
+  },
+  {
+   "rank": "1",
+   "player_name": "島田 ゆら",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140466)); matched player_key p_617762983f0a",
+   "player_key": "p_617762983f0a"
+  },
+  {
+   "rank": "14",
+   "player_name": "滝川 茉凜",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 732141)); matched player_key p_01f21fe485f4 (same person also as p_816360eb2e2a in players.csv)",
+   "player_key": "p_01f21fe485f4"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

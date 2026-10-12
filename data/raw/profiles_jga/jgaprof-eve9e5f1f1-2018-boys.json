@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-eve9e5f1f1-2018-boys",
+  "name": "北海道高等学校ゴルフ選手権春季大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "high_school",
+  "season_year": 2018,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934563465808481",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "2",
+   "player_name": "小村 隼士",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934563465808481); matched player_key p_66a727563289; rank as shown: 2位",
+   "player_key": "p_66a727563289"
+  },
+  {
+   "rank": "9",
+   "player_name": "横山 尚建",
+   "school": "札幌光星高等学校",
+   "school_prefecture": "北海道",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574069009129); matched player_key p_64131794b0dc; rank as shown: 9位; 団体順位 優勝; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_64131794b0dc"
+  },
+  {
+   "rank": "3",
+   "player_name": "朴 相大",
+   "school": "札幌日大",
+   "school_prefecture": "北海道",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574404553527); matched player_key p_49b61937ddfc; rank as shown: 3位; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_49b61937ddfc"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-08-29; profile year column is 年度 as shown"
+  ]
+ }
+}

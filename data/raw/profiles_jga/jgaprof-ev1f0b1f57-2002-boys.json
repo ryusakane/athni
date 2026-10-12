@@ -1,0 +1,87 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1f0b1f57-2002-boys",
+  "name": "中部学生ゴルフ選手権競技",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2002,
+  "start_date": "2002-08-09",
+  "end_date": "2022-08-10",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T32",
+   "player_name": "加藤 將",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 145872)); matched player_key p_aa0f65b0fad2; rank as shown: 32T",
+   "player_key": "p_aa0f65b0fad2"
+  },
+  {
+   "rank": "T32",
+   "player_name": "中嶋 太造",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 71880)); matched player_key p_d85987107f11; rank as shown: 32T",
+   "player_key": "p_d85987107f11"
+  },
+  {
+   "rank": "T39",
+   "player_name": "松岡 龍希",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 141079)); matched player_key p_851a66fbfb90; rank as shown: 39T",
+   "player_key": "p_851a66fbfb90"
+  },
+  {
+   "rank": "T20",
+   "player_name": "松岡 翔眞",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 446174)); matched player_key p_590c47b81399; rank as shown: 20T",
+   "player_key": "p_590c47b81399"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

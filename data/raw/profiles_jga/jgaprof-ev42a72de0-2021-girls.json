@@ -1,0 +1,127 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev42a72de0-2021-girls",
+  "name": "関西女子学生ゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": "2021-08-04",
+  "end_date": "2021-08-06",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T3",
+   "player_name": "貞永 葵生",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934559875484208); matched player_key p_e2fa70f307cb; rank as shown: 3位 T",
+   "player_key": "p_e2fa70f307cb"
+  },
+  {
+   "rank": "T5",
+   "player_name": "松本 稀亜来",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567291013882); matched player_key p_43e3615d3f9b; rank as shown: 5位 T",
+   "player_key": "p_43e3615d3f9b"
+  },
+  {
+   "rank": "2",
+   "player_name": "永田 加奈恵",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567559449421); matched player_key p_53d69a1ffa6f; rank as shown: 2位; 団体順位 優勝",
+   "player_key": "p_53d69a1ffa6f"
+  },
+  {
+   "rank": "1",
+   "player_name": "神谷 奈恵",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572559059476); matched player_key p_a17a6a725884; rank as shown: 優勝",
+   "player_key": "p_a17a6a725884"
+  },
+  {
+   "rank": "T7",
+   "player_name": "長田 莉子",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575109196330); matched player_key p_2feb57110bcd; rank as shown: 7位 T",
+   "player_key": "p_2feb57110bcd"
+  },
+  {
+   "rank": "T3",
+   "player_name": "庄内 理湖",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575344077451); matched player_key p_6541a57183cd; rank as shown: 3位 T",
+   "player_key": "p_6541a57183cd"
+  },
+  {
+   "rank": "cut",
+   "player_name": "溝口 雛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 679947)); matched player_key p_d1746c504c7d; rank as shown: カット",
+   "player_key": "p_d1746c504c7d"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

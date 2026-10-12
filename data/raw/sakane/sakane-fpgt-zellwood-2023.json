@@ -1,0 +1,61 @@
+{
+  "tournament": {
+    "id": "sakane-fpgt-zellwood-2023",
+    "name": "FPGT Zellwood Championship (2023)",
+    "name_en": null,
+    "organizer": "Florida Professional Golf Tour",
+    "event_type": "professional",
+    "season_year": 2023,
+    "start_date": "2023-01-01",
+    "end_date": null,
+    "venue": null,
+    "venue_prefecture": null,
+    "level": "mini-tour",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18
+    ],
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null,
+    "date_precision": "year"
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "No public result found (fpgt.com now redirects to a domain-for-sale page; the APT event could not be identified).",
+      "date unknown; year from the player's record"
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [],
+    "matches_claim": null,
+    "claim": "2023 FPGT Zellwood Championship (67-68) T2",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "T2",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": false,
+      "rounds": [
+        67,
+        68
+      ],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source."
+    }
+  ]
+}

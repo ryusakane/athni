@@ -1,0 +1,101 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2c7aecc3-2021-girls",
+  "name": "アジア・パシフィック女子アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": "2021-11-10",
+  "end_date": "2021-11-13",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T16",
+   "player_name": "手塚 彩馨",
+   "school": "佐久長聖高等学校",
+   "school_prefecture": "長野県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934560177474194); matched player_key p_5016b4d8357b; rank as shown: 16位 T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_5016b4d8357b"
+  },
+  {
+   "rank": "1",
+   "player_name": "橋本 美月",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 205904)); matched player_key p_3b1ea031a431",
+   "player_key": "p_3b1ea031a431"
+  },
+  {
+   "rank": "T38",
+   "player_name": "長野 未祈",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570445130651); matched player_key p_90b65c019fd2; rank as shown: 38位 T",
+   "player_key": "p_90b65c019fd2"
+  },
+  {
+   "rank": "T28",
+   "player_name": "上田 澪空",
+   "school": "共立女子第二高等学校",
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572089297733); matched player_key p_b05e13d360be; rank as shown: 28位 T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_b05e13d360be"
+  },
+  {
+   "rank": "5",
+   "player_name": "稲垣 那奈子",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572525505030); matched player_key p_e8ab28d9c3e6; rank as shown: 5位",
+   "player_key": "p_e8ab28d9c3e6"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

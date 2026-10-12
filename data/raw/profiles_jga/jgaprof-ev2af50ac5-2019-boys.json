@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2af50ac5-2019-boys",
+  "name": "8地区強化指定選手チーム対抗戦(男子)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2019,
+  "start_date": "2019-10-22",
+  "end_date": "2019-10-24",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "23",
+   "player_name": "山本 詠太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 208343)); matched player_key p_1f236b4dde98; team competition: the rank shown may be a team placing",
+   "player_key": "p_1f236b4dde98"
+  },
+  {
+   "rank": "25",
+   "player_name": "島田 温太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140483)); matched player_key p_c4f588ed7c80; team competition: the rank shown may be a team placing",
+   "player_key": "p_c4f588ed7c80"
+  },
+  {
+   "rank": "T8",
+   "player_name": "玉木 海凪",
+   "school": "滝川第二高等学校",
+   "school_prefecture": "兵庫県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934571887971068); matched player_key p_b8b3fc2da33d; team competition: the rank shown may be a team placing; rank as shown: 8位 T; 団体順位 2位; school/grade/prefecture from players.csv (graduation_year 2021), not shown on the profile",
+   "player_key": "p_b8b3fc2da33d"
+  },
+  {
+   "rank": "14",
+   "player_name": "黒田 裕稀",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 207853)); matched player_key p_a8421af164d2; team competition: the rank shown may be a team placing; 団体順位 2位",
+   "player_key": "p_a8421af164d2"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

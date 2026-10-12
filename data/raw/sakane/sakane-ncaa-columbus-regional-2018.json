@@ -1,0 +1,64 @@
+{
+  "tournament": {
+    "id": "sakane-ncaa-columbus-regional-2018",
+    "name": "NCAA Men's Golf Columbus Regional (2018)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2018,
+    "start_date": "2018-05-14",
+    "end_date": "2018-05-16",
+    "venue": "Scarlet Course, The Ohio State University (Columbus, Ohio)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": 71,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18,
+      18
+    ],
+    "source_url": "https://judolphins.com/news/2018/5/16/5_16_2018_6427.aspx",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "R1 76 is derived from the recap wording, not printed as a number."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://judolphins.com/news/2018/5/16/5_16_2018_6427.aspx",
+      "https://judolphins.com/news/2018/5/15/5_15_2018_6426.aspx"
+    ],
+    "matches_claim": true,
+    "claim": "2018 NCAA Columbus Regional (76-75-73) T37",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "T37",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        76,
+        75,
+        73
+      ],
+      "total": 224,
+      "to_par": 11,
+      "note": "JU recaps: R2 +4 75 ('one stroke better than day 1' -> R1 76), R3 73 (+2); 'finished the week +11, 224, landing in a knot for 37th'."
+    }
+  ]
+}

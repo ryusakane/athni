@@ -1,0 +1,63 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev86f5d729-2020-girls-hs",
+  "name": "OBS九州女子ジュニアゴルフ大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2020,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934567962102770",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "櫻井 心那",
+   "school": "長崎日本大学高等学校",
+   "school_prefecture": "長崎県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567962102770); matched player_key p_0cff80b49b67; rank as shown: 優勝; school/grade/prefecture from players.csv (graduation_year 2022), not shown on the profile",
+   "player_key": "p_0cff80b49b67"
+  },
+  {
+   "rank": "2",
+   "player_name": "今村 美優",
+   "school": "樟南高等学校",
+   "school_prefecture": "鹿児島県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934569606269542); matched player_key p_da5025d173e5; rank as shown: 2位; school/grade/prefecture from players.csv (graduation_year 2023), not shown on the profile",
+   "player_key": "p_da5025d173e5"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2025-10-05; profile year column is 年度 as shown"
+  ]
+ }
+}

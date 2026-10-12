@@ -1,0 +1,3538 @@
+{
+ "_note": "Profiles/ranking entries whose name matches one of our players but that were NOT accepted (no corroborating attribute, more than one candidate, or more than one JGA entry for the same player). Accepted matches need name + at least one of: birth year/age consistent with graduation_year, school/affiliation, birthplace/residence = prefecture, or a result that matches data/raw. Generated 2026-10-12.",
+ "jga_profiles": [
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10287441673323596739",
+   "name": "馬場 咲希",
+   "candidates": [
+    {
+     "player_key": "p_a23282dcd15d",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "",
+     "basis": [
+      "result match: 2023 日本女子アマチュアゴルフ選手権競技 rank 6 = jga-japan-womens-amateur-2023-girls"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2694993cf235",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2024",
+     "basis": [
+      "birth year 2005 consistent with graduation_year 2024",
+      "result match: 2022 全国高等学校ゴルフ選手権春季大会 rank T3 = kougoren-spring-2021-girls-individual; 2021 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T14 = jga-junior-2021-girls-15-17; 2021 日本女子アマチュアゴルフ選手権競技 rank 52 = jga-japan-womens-amateur-2021-girls (+1 more)"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934559170841418",
+   "name": "古江 彩佳",
+   "candidates": [
+    {
+     "player_key": "p_a23743269f27",
+     "school": "滝川第二高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2000 consistent with graduation_year 2019",
+      "birthplace = prefecture 兵庫県",
+      "result match: 2018 日本女子オープンゴルフ選手権競技 rank T32 = jga-japan-womens-open-2018-girls; 2018 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T10 = jga-junior-2018-girls-15-17; 2018 日本女子アマチュアゴルフ選手権競技 rank 8 = jga-japan-womens-amateur-2018-girls (+8 more)"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934559674158063",
+   "name": "永田 愛梨",
+   "candidates": [
+    {
+     "player_key": "p_ede7302f99a8",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ff1d254522ae",
+     "school": "第一学院高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026",
+      "result match: 2025 第69回 日本ジュニアゴルフ選手権競技 Presented by Ｓｋｙ 女子 15～17歳の部 rank T38 = jga-junior-2025-girls-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_7c3c24f76115",
+     "school": "浜松学芸高等学校",
+     "prefecture": "静岡県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026",
+      "birthplace = prefecture 静岡県",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 女子15歳〜17 歳の部 rank T41 = jga-junior-2024-girls-15-17; 2023 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T31 = jga-junior-2023-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934559808375319",
+   "name": "大石 敦也",
+   "candidates": [
+    {
+     "player_key": "p_5875423430a5",
+     "school": "ClubMedAcademies",
+     "prefecture": "",
+     "graduation_year": "2020",
+     "basis": [
+      "birth year 2001 consistent with graduation_year 2020",
+      "result match: 2018 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank T22 = jga-junior-2018-boys-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_8a084df80b69",
+     "school": "JGAジュニア会員",
+     "prefecture": "広島",
+     "graduation_year": "",
+     "basis": [
+      "birthplace = prefecture 広島"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2d4667f470c4",
+     "school": "福井工業大学附属福井高等学校",
+     "prefecture": "福井県",
+     "graduation_year": "2020",
+     "basis": [
+      "birth year 2001 consistent with graduation_year 2020"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934562291403436",
+   "name": "関口 絵万",
+   "candidates": [
+    {
+     "player_key": "p_e645d73ee4d6",
+     "school": "大阪学院大学高等学校",
+     "prefecture": "大阪",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022",
+      "birthplace = prefecture 大阪"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ce2a5cde1ab4",
+     "school": "ECC学園高等学校",
+     "prefecture": "滋賀県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934563834907359",
+   "name": "大賀 裕花",
+   "candidates": [
+    {
+     "player_key": "p_4dcc636fbdb3",
+     "school": "熊本国府高等学校",
+     "prefecture": "熊本",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_6653e11a6fd8",
+     "school": "神村学園",
+     "prefecture": "鹿児島県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022",
+      "result match: 2021 九州ジュニアゴルフ選手権 rank T13 = guk-junior-2021-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934564304669575",
+   "name": "鳥居 大揮",
+   "candidates": [
+    {
+     "player_key": "p_500c4bada061",
+     "school": "ルネサンス豊田高等学校",
+     "prefecture": "愛知県",
+     "graduation_year": "2023",
+     "basis": [
+      "birth year 2004 consistent with graduation_year 2023",
+      "birthplace = prefecture 愛知県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_1b697ebda2c0",
+     "school": "福井工業大学附属福井高等学校",
+     "prefecture": "福井",
+     "graduation_year": "2023",
+     "basis": [
+      "birth year 2004 consistent with graduation_year 2023"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934566619925495",
+   "name": "池村 晃稀",
+   "candidates": [
+    {
+     "player_key": "p_7685a4a1b26f",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934567022578318",
+   "name": "木下 夏帆",
+   "candidates": [
+    {
+     "player_key": "p_71a99bff3a97",
+     "school": "秀岳館",
+     "prefecture": "熊本県",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2000 consistent with graduation_year 2019",
+      "birthplace = prefecture 熊本県",
+      "result match: 2017 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T37 = jga-junior-2017-girls-15-17; 2017 九州ジュニアゴルフ選手権 rank T8 = guk-junior-2017-girls-15-17; 2016 九州ジュニアゴルフ選手権 rank T11 = guk-junior-2016-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934567827884999",
+   "name": "大野 倖",
+   "candidates": [
+    {
+     "player_key": "p_9a6bdebd9dcc",
+     "school": "千葉黎明高等学校",
+     "prefecture": "千葉県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022",
+      "birthplace = prefecture 千葉県",
+      "result match: 2019 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank T28 = jga-junior-2019-boys-15-17; 2019 日本アマチュアゴルフ選手権競技 rank T61 = jga-japan-amateur-2019-boys"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_48bcf2fac1c3",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022",
+      "result match: 2021 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank T49 = jga-junior-2021-boys-15-17; 2021 日本アマチュアゴルフ選手権競技 rank 65 = jga-japan-amateur-2021-boys"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934568968735604",
+   "name": "小野里 リア",
+   "candidates": [
+    {
+     "player_key": "p_9a1e2c9a60e4",
+     "school": "クリスチャン・アカデミー・イン・ジャパン",
+     "prefecture": "",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2001 consistent with graduation_year 2019"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2a16486603f2",
+     "school": "CAJ",
+     "prefecture": "",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2001 consistent with graduation_year 2019"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_8c2b21320758",
+     "school": "クリスチャンアカデミー熊本分校",
+     "prefecture": "",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2001 consistent with graduation_year 2019",
+      "result match: 2017 九州ジュニアゴルフ選手権 rank 3 = guk-junior-2017-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934569639823979",
+   "name": "猪俣 茉央",
+   "candidates": [
+    {
+     "player_key": "p_3f02513c5017",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934569975368433",
+   "name": "清本 美波",
+   "candidates": [
+    {
+     "player_key": "p_a931afafa5f2",
+     "school": "ｼｰﾄﾞ誉",
+     "prefecture": "",
+     "graduation_year": "2024",
+     "basis": [
+      "birth year 2005 consistent with graduation_year 2024"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_29192fec6536",
+     "school": "誉高等学校",
+     "prefecture": "愛知県",
+     "graduation_year": "2024",
+     "basis": [
+      "birth year 2005 consistent with graduation_year 2024",
+      "birthplace = prefecture 愛知県",
+      "result match: 2023 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T36 = jga-junior-2023-girls-15-17; 2023 中部ジュニアゴルフ選手権 rank 1 = cga-junior-2023-girls-15-17; 2022 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T10 = jga-junior-2022-girls-15-17 (+5 more)"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934570713565711",
+   "name": "岡嵜 マイヤ",
+   "candidates": [
+    {
+     "player_key": "p_42d7483aee6e",
+     "school": "岐阜聖徳学園高等学校",
+     "prefecture": "岐阜県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026",
+      "birthplace = prefecture 岐阜県",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 女子15歳〜17 歳の部 rank T41 = jga-junior-2024-girls-15-17; 2023 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T6 = jga-junior-2023-girls-15-17; 2023 日本女子アマチュアゴルフ選手権競技 rank T58 = jga-japan-womens-amateur-2023-girls (+2 more)"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ccde6dd52b78",
+     "school": "ルネサンス豊田高等学校",
+     "prefecture": "愛知県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026",
+      "result match: 2025 第69回 日本ジュニアゴルフ選手権競技 Presented by Ｓｋｙ 女子 15～17歳の部 rank 57 = jga-junior-2025-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934572156406629",
+   "name": "山田 萌結",
+   "candidates": [
+    {
+     "player_key": "p_fa5e5833e2c7",
+     "school": "ＮＨＫ学園",
+     "prefecture": "",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_61aea6eb62f9",
+     "school": "熊本国府高等学校",
+     "prefecture": "熊本県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2003 consistent with graduation_year 2022",
+      "result match: 2019 日本女子アマチュアゴルフ選手権競技 rank T37 = jga-japan-womens-amateur-2019-girls; 2019 九州ジュニアゴルフ選手権 rank 2 = guk-junior-2019-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934572223515516",
+   "name": "山下 海音",
+   "candidates": [
+    {
+     "player_key": "p_dfe289cfeab5",
+     "school": "滋慶",
+     "prefecture": "岡山",
+     "graduation_year": "2021",
+     "basis": [
+      "birth year 2002 consistent with graduation_year 2021"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_6ffb08eae229",
+     "school": "高松中央高等学校",
+     "prefecture": "香川県",
+     "graduation_year": "2021",
+     "basis": [
+      "birth year 2002 consistent with graduation_year 2021"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934572827495031",
+   "name": "大村 仁乃",
+   "candidates": [
+    {
+     "player_key": "p_1ebdbfe3597c",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2004 consistent with graduation_year 2022",
+      "birthplace = prefecture 茨城県",
+      "result match: 2021 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank 52 = jga-junior-2021-boys-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934574706543504",
+   "name": "畠山 凌輔",
+   "candidates": [
+    {
+     "player_key": "p_9f70cdf24df8",
+     "school": "",
+     "prefecture": "秋田県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934575042087432",
+   "name": "松井 琳空海",
+   "candidates": [
+    {
+     "player_key": "p_83c47da05192",
+     "school": "第一学院高等学校",
+     "prefecture": "愛媛県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025",
+      "birthplace = prefecture 愛媛県",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 男子15歳〜17 歳の部 rank T13 = jga-junior-2024-boys-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_c4b15aa76e3c",
+     "school": "四国学院大学香川西高等学校",
+     "prefecture": "香川県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025",
+      "result match: 2023 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank T65 = jga-junior-2023-boys-15-17; 2022 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank 1 = jga-junior-2022-boys-15-17; 2022 日本アマチュアゴルフ選手権競技 rank T14 = jga-japan-amateur-2022-boys (+1 more)"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934575209859661",
+   "name": "小原 力",
+   "candidates": [
+    {
+     "player_key": "p_fcb59e4e06bc",
+     "school": "セント・メリーズ・インターナショナル・スクール",
+     "prefecture": "",
+     "graduation_year": "2023",
+     "basis": [
+      "birth year 2004 consistent with graduation_year 2023",
+      "result match: 2022 日本ジュニアゴルフ選手権競技 男子15歳～17歳の部 rank T54 = jga-junior-2022-boys-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_290bed8e4200",
+     "school": "St.Mary’s",
+     "prefecture": "東京都",
+     "graduation_year": "2023",
+     "basis": [
+      "birth year 2004 consistent with graduation_year 2023",
+      "birthplace = prefecture 東京都",
+      "result match: 2021 全国高等学校ゴルフ選手権春季大会 rank T9 = kougoren-spring-2021-boys-individual; 2021 全国高等学校ゴルフ選手権 rank T5 = kougoren-summer-2021-boys-individual"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934575209859662",
+   "name": "大橋 莉生",
+   "candidates": [
+    {
+     "player_key": "p_2b4dc9d4ce06",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ec3abad7e759",
+     "school": "クラーク記念国際高等学校",
+     "prefecture": "北海道",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2026",
+      "result match: 2025 第69回 日本ジュニアゴルフ選手権競技 Presented by Ｓｋｙ 女子 15～17歳の部 rank T28 = jga-junior-2025-girls-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_87bdc6682308",
+     "school": "浜松学芸高等学校",
+     "prefecture": "静岡県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2026",
+      "birthplace = prefecture 静岡県",
+      "result match: 2023 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T62 = jga-junior-2023-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934575209859665",
+   "name": "岡 里音",
+   "candidates": [
+    {
+     "player_key": "p_337fbda9a2c4",
+     "school": "生光学園高等学校",
+     "prefecture": "徳島県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 女子15歳〜17 歳の部 rank T7 = jga-junior-2024-girls-15-17; 2023 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank 66 = jga-junior-2023-girls-15-17; 2023 全国高等学校ゴルフ選手権 rank T29 = kougoren-summer-2023-girls-individual (+2 more)"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_1d6b946f1096",
+     "school": "高知中央高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934575377631898",
+   "name": "髙岸 鈴",
+   "candidates": [
+    {
+     "player_key": "p_d81636ee30c8",
+     "school": "生光学園高等学校",
+     "prefecture": "徳島県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2025",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 女子15歳〜17 歳の部 rank T7 = jga-junior-2024-girls-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2341320fe5f3",
+     "school": "高知中央高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934576451373605",
+   "name": "北川 紗玖楽",
+   "candidates": [
+    {
+     "player_key": "p_7fa3bc587a15",
+     "school": "N高等学校梅田キャンパス",
+     "prefecture": "",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_58c58c946c90",
+     "school": "N高等学校",
+     "prefecture": "大阪府",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025",
+      "birthplace = prefecture 大阪府",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 女子15歳〜17 歳の部 rank T95 = jga-junior-2024-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934576451373608",
+   "name": "吉津谷 彩香",
+   "candidates": [
+    {
+     "player_key": "p_85438f171715",
+     "school": "開志国際高等学校",
+     "prefecture": "新潟県",
+     "graduation_year": "2020",
+     "basis": [
+      "birth year 2002 consistent with graduation_year 2020"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_9d40321d1685",
+     "school": "ルネサンス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2020",
+     "basis": [
+      "birth year 2002 consistent with graduation_year 2020",
+      "result match: 2019 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T29 = jga-junior-2019-girls-15-17; 2018 日本ジュニアゴルフ選手権競技 女子15歳～17歳の部 rank T36 = jga-junior-2018-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934576585591392",
+   "name": "間中 鈴子",
+   "candidates": [
+    {
+     "player_key": "p_949fc0be2314",
+     "school": "常総学院高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2025",
+      "birthplace = prefecture 茨城県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934576786918079",
+   "name": "中野 識司",
+   "candidates": [
+    {
+     "player_key": "p_a19673e82330",
+     "school": "甲南高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025",
+      "birthplace = prefecture 兵庫県",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 男子15歳〜17 歳の部 rank T95 = jga-junior-2024-boys-15-17"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_287b1c7796d0",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10313934578296867668",
+   "name": "清本 貴秀",
+   "candidates": [
+    {
+     "player_key": "p_f9d70a42cf0e",
+     "school": "",
+     "prefecture": "愛知県",
+     "graduation_year": "",
+     "basis": [
+      "birthplace = prefecture 愛知県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_110e664c77c9",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_a366386d5e62",
+     "school": "福井工業大学附属福井高等学校",
+     "prefecture": "福井県",
+     "graduation_year": "2027",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2027",
+      "result match: 2025 第69回 日本ジュニアゴルフ選手権競技 Presented by Ｓｋｙ 男子 15～17歳の部 rank T19 = jga-junior-2025-boys-15-17; 2024 第29回 日本ジュニアゴルフ選手権競技 男子15歳〜17 歳の部 rank T51 = jga-junior-2024-boys-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10457856064488524458",
+   "name": "松本 來海",
+   "candidates": [
+    {
+     "player_key": "p_0935e9ee882f",
+     "school": "日ノ本学園高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_59ad0ea066ae",
+     "school": "慶風高等学校",
+     "prefecture": "和歌山",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026",
+      "birthplace = prefecture 和歌山"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10460985949629237820",
+   "name": "渡邊 築樹",
+   "candidates": [
+    {
+     "player_key": "p_53a34a90c5db",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2027",
+      "birthplace = prefecture 東京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2a74a826b47c",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2027",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2027",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 男子15歳〜17 歳の部 rank T86 = jga-junior-2024-boys-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10491430108886256508",
+   "name": "三原 舞紀",
+   "candidates": [
+    {
+     "player_key": "p_07d228797f85",
+     "school": "成美学園高等学校",
+     "prefecture": "千葉県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_877fc2e1cb34",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10494123511231072963",
+   "name": "寺岡 鈴音",
+   "candidates": [
+    {
+     "player_key": "p_0456c210c08e",
+     "school": "並木学園",
+     "prefecture": "",
+     "graduation_year": "2028",
+     "basis": [
+      "birth year 2009 consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_12b74261302a",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_52bde0914c4b",
+     "school": "並木学院福山高等学校",
+     "prefecture": "広島県",
+     "graduation_year": "2028",
+     "basis": [
+      "birth year 2009 consistent with graduation_year 2028",
+      "birthplace = prefecture 広島県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10495361399792913336",
+   "name": "高田 優妃",
+   "candidates": [
+    {
+     "player_key": "p_5d9e94d213d2",
+     "school": "青葉インターナショナル",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10501593180175125048",
+   "name": "唐木田 梨乃",
+   "candidates": [
+    {
+     "player_key": "p_b8d488908ade",
+     "school": "東(広島県)",
+     "prefecture": "",
+     "graduation_year": "2020",
+     "basis": [
+      "birth year 2002 consistent with graduation_year 2020"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_eada3c6f64a8",
+     "school": "東",
+     "prefecture": "広島県",
+     "graduation_year": "2020",
+     "basis": [
+      "birth year 2002 consistent with graduation_year 2020",
+      "birthplace = prefecture 広島県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10606714436808919783",
+   "name": "小山 遥菜",
+   "candidates": [
+    {
+     "player_key": "p_04c043f40eef",
+     "school": "生光学園高等学校",
+     "prefecture": "徳島",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_5772b241b6e8",
+     "school": "高知中央高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10792790655764581222",
+   "name": "北岡 和翔",
+   "candidates": [
+    {
+     "player_key": "p_fce56b5c77d2",
+     "school": "",
+     "prefecture": "北海道",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10804094576063728183",
+   "name": "山路 朝陽",
+   "candidates": [
+    {
+     "player_key": "p_14c193e31633",
+     "school": "",
+     "prefecture": "岐阜県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10818396314614680558",
+   "name": "廣澤 敬也",
+   "candidates": [
+    {
+     "player_key": "p_24d0354cad82",
+     "school": "",
+     "prefecture": "宮城県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=10818965367850846958",
+   "name": "間中 鈴子",
+   "candidates": [
+    {
+     "player_key": "p_949fc0be2314",
+     "school": "常総学院高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2025",
+     "basis": [
+      "birth year 2006 consistent with graduation_year 2025",
+      "birthplace = prefecture 茨城県",
+      "result match: 2024 第29回 日本ジュニアゴルフ選手権競技 女子15歳〜17 歳の部 rank T81 = jga-junior-2024-girls-15-17"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=10819316289563052554",
+   "name": "今枝 綾音",
+   "candidates": [
+    {
+     "player_key": "p_99dd4643ca3b",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=10820498036392774184",
+   "name": "橋本 紅葉",
+   "candidates": [
+    {
+     "player_key": "p_9d888470de81",
+     "school": "熊本国府高等学校",
+     "prefecture": "熊本県",
+     "graduation_year": "2028",
+     "basis": [
+      "birth year 2009 consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_73bae3ecae08",
+     "school": "第一薬科大学付属高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2028",
+     "basis": [
+      "birth year 2009 consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11348195031023405987",
+   "name": "田村 瑠唯",
+   "candidates": [
+    {
+     "player_key": "p_9c5fbe3bed73",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=11378128992323291992",
+   "name": "奥本 万里亜",
+   "candidates": [
+    {
+     "player_key": "p_45742d58aa4b",
+     "school": "好文学園女子高等学校",
+     "prefecture": "大阪府",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_97744589735f",
+     "school": "ルネサンス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=11507722351953365858",
+   "name": "加藤 祐子",
+   "candidates": [
+    {
+     "player_key": "p_8aa5b18c8ff0",
+     "school": "S高等学校",
+     "prefecture": "京都",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026",
+      "birthplace = prefecture 京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_f55e6a2bde82",
+     "school": "日ノ本学園高等学校",
+     "prefecture": "兵庫",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2007 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=11533945053588278036",
+   "name": "木下 夏帆",
+   "candidates": [
+    {
+     "player_key": "p_71a99bff3a97",
+     "school": "秀岳館",
+     "prefecture": "熊本県",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2000 consistent with graduation_year 2019"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=11535933331824757422",
+   "name": "中杉 桜盛",
+   "candidates": [
+    {
+     "player_key": "p_c7a5924ff885",
+     "school": "成美学園高等学校",
+     "prefecture": "千葉",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_c76eb79f5e09",
+     "school": "明徳義塾高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2026",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11550808204770331309",
+   "name": "藤本 華",
+   "candidates": [
+    {
+     "player_key": "p_7c39c854b95e",
+     "school": "安田学園",
+     "prefecture": "東京都",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11583831513933859783",
+   "name": "小泉 映真",
+   "candidates": [
+    {
+     "player_key": "p_1a2910546afa",
+     "school": "文京学院女子",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_d38217acec68",
+     "school": "文京学院",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11607465620056099826",
+   "name": "神津 葵",
+   "candidates": [
+    {
+     "player_key": "p_f83aa152590c",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11697334531886468053",
+   "name": "張 峻苒",
+   "candidates": [
+    {
+     "player_key": "p_c6603e91b881",
+     "school": "",
+     "prefecture": "宮崎県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11865254100599884623",
+   "name": "高橋 友昭",
+   "candidates": [
+    {
+     "player_key": "p_da00b1270901",
+     "school": "エプソムカレッジ",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11865303235763948378",
+   "name": "藤森 圭",
+   "candidates": [
+    {
+     "player_key": "p_3eafcdf3e353",
+     "school": "千葉黎明高等学校",
+     "prefecture": "千葉県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11868024221395372885",
+   "name": "小泉 慶太郎",
+   "candidates": [
+    {
+     "player_key": "p_29331223b494",
+     "school": "諏訪清陵",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11870624390502730278",
+   "name": "安西 美空",
+   "candidates": [
+    {
+     "player_key": "p_c4f96deb6fe4",
+     "school": "土浦日本大",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11874115917627574889",
+   "name": "瀧田 琥白",
+   "candidates": [
+    {
+     "player_key": "p_aaf3fd13f861",
+     "school": "",
+     "prefecture": "愛知県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11874323987855100644",
+   "name": "小関 いち乃",
+   "candidates": [
+    {
+     "player_key": "p_75857e616dc4",
+     "school": "",
+     "prefecture": "鹿児島",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11874335413038533353",
+   "name": "林田 聖也",
+   "candidates": [
+    {
+     "player_key": "p_abf9eccc71ad",
+     "school": "",
+     "prefecture": "福岡県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=11877164521351072676",
+   "name": "吉行 ローリ",
+   "candidates": [
+    {
+     "player_key": "p_ac62de877a24",
+     "school": "",
+     "prefecture": "広島県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=12525630526100392930",
+   "name": "榎本 梨華",
+   "candidates": [
+    {
+     "player_key": "p_8b8997d2c626",
+     "school": "共立女子第二高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=12529518746739461048",
+   "name": "佐藤 色葉",
+   "candidates": [
+    {
+     "player_key": "p_011bbc3208dd",
+     "school": "共立女子第二高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=12537084037493213808",
+   "name": "戸塚 あい",
+   "candidates": [
+    {
+     "player_key": "p_cc1d46d37c53",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_b87570769433",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉",
+     "graduation_year": "2028",
+     "basis": [
+      "birth year 2009 consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_74020918f46d",
+     "school": "目黒日本大学高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2028",
+     "basis": [
+      "birth year 2009 consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=12661625646959610593",
+   "name": "大村 仁乃",
+   "candidates": [
+    {
+     "player_key": "p_1ebdbfe3597c",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2022",
+     "basis": [
+      "birth year 2004 consistent with graduation_year 2022"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=12706522032100133756",
+   "name": "肥後 莉音",
+   "candidates": [
+    {
+     "player_key": "p_71d09465e498",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=12920569490550344633",
+   "name": "巽 喜一",
+   "candidates": [
+    {
+     "player_key": "p_9667e26b0e91",
+     "school": "関西第一",
+     "prefecture": "",
+     "graduation_year": "2029",
+     "basis": [
+      "birth year 2010 consistent with graduation_year 2029"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_767143454c08",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_6b0a6479e899",
+     "school": "関大一",
+     "prefecture": "大阪府",
+     "graduation_year": "2029",
+     "basis": [
+      "birth year 2010 consistent with graduation_year 2029"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=12928743801190664982",
+   "name": "磯﨑 玲杏",
+   "candidates": [
+    {
+     "player_key": "p_5fb69cbb9158",
+     "school": "水戸啓明高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=12931028371101502430",
+   "name": "三浦 由楽",
+   "candidates": [
+    {
+     "player_key": "p_cf94e0b129e8",
+     "school": "ECC学園高等学校",
+     "prefecture": "滋賀県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "url": "https://www.jga.or.jp/profile.php?id=12932099902795729513",
+   "name": "佐野 心春",
+   "candidates": [
+    {
+     "player_key": "p_42b5b6331819",
+     "school": "昭和女子大学附属",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "url": "https://www.jga.or.jp/profile.php?id=12934758661632346939",
+   "name": "小林 康成",
+   "candidates": [
+    {
+     "player_key": "p_670d613df9d5",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_61ceb434b199",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_877029469411",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城",
+     "graduation_year": "2027",
+     "basis": [
+      "birth year 2008 consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_profile",
+   "url": "https://www.jga.or.jp/profile.php?id=12992112966869502858",
+   "name": "古江 彩佳",
+   "candidates": [
+    {
+     "player_key": "p_a23743269f27",
+     "school": "滝川第二高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2019",
+     "basis": [
+      "birth year 2000 consistent with graduation_year 2019"
+     ],
+     "contradiction": false
+    }
+   ]
+  }
+ ],
+ "jga_ranking": [
+  {
+   "status": "ambiguous",
+   "rank": 25,
+   "gender": "male",
+   "name": "清本 貴秀",
+   "age": 18,
+   "residence": "東京都",
+   "affiliation": "代々木高等学校",
+   "candidates": [
+    {
+     "player_key": "p_f9d70a42cf0e",
+     "school": "",
+     "prefecture": "愛知県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_110e664c77c9",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027",
+      "affiliation \"代々木高等学校\" ~ 代々木高等学校",
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_a366386d5e62",
+     "school": "福井工業大学附属福井高等学校",
+     "prefecture": "福井県",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 100,
+   "gender": "male",
+   "name": "田村 瑠唯",
+   "age": 15,
+   "residence": "兵庫県",
+   "affiliation": "東洋大姫路",
+   "candidates": [
+    {
+     "player_key": "p_9c5fbe3bed73",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 197,
+   "gender": "male",
+   "name": "小林 康成",
+   "age": 18,
+   "residence": "東京都",
+   "affiliation": "代々木高等学校",
+   "candidates": [
+    {
+     "player_key": "p_670d613df9d5",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_61ceb434b199",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027",
+      "affiliation \"代々木高等学校\" ~ 代々木高等学校",
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_877029469411",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 290,
+   "gender": "male",
+   "name": "高橋 友昭",
+   "age": 16,
+   "residence": "埼玉県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_da00b1270901",
+     "school": "エプソムカレッジ",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 567,
+   "gender": "male",
+   "name": "渡邊 築樹",
+   "age": 18,
+   "residence": "東京都",
+   "affiliation": "代々木高等学校",
+   "candidates": [
+    {
+     "player_key": "p_53a34a90c5db",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027",
+      "affiliation \"代々木高等学校\" ~ 代々木高等学校",
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2a74a826b47c",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城県",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 612,
+   "gender": "male",
+   "name": "Yu-Cheng Cheng",
+   "age": 16,
+   "residence": "チャイニーズタイペイ",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_775ca51238fd",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 733,
+   "gender": "male",
+   "name": "小泉 慶太郎",
+   "age": 16,
+   "residence": "長野県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_29331223b494",
+     "school": "諏訪清陵",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 798,
+   "gender": "male",
+   "name": "巽 喜一",
+   "age": 16,
+   "residence": "大阪府",
+   "affiliation": "関大一",
+   "candidates": [
+    {
+     "player_key": "p_9667e26b0e91",
+     "school": "関西第一",
+     "prefecture": "",
+     "graduation_year": "2029",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2029"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_767143454c08",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_6b0a6479e899",
+     "school": "関大一",
+     "prefecture": "大阪府",
+     "graduation_year": "2029",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2029",
+      "affiliation \"関大一\" ~ 関大一",
+      "residence = prefecture 大阪府"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 846,
+   "gender": "male",
+   "name": "岡崎 僚",
+   "age": 18,
+   "residence": "千葉県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_8a282fb813d6",
+     "school": "成美学園高等学校",
+     "prefecture": "千葉県",
+     "graduation_year": "",
+     "basis": [
+      "residence = prefecture 千葉県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_e6c8e07ce403",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 982,
+   "gender": "male",
+   "name": "渡邉 和輝",
+   "age": 28,
+   "residence": "山口県",
+   "affiliation": "山口県Ｇ協会",
+   "candidates": [
+    {
+     "player_key": "p_bda7ea9c02d5",
+     "school": "県鴻城",
+     "prefecture": "",
+     "graduation_year": "2017",
+     "basis": [
+      "age 28 (as of 2026-08-30) consistent with graduation_year 2017"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_92d31ee1dbb5",
+     "school": "山口鴻城",
+     "prefecture": "",
+     "graduation_year": "2017",
+     "basis": [
+      "age 28 (as of 2026-08-30) consistent with graduation_year 2017"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 1053,
+   "gender": "male",
+   "name": "江川 昴",
+   "age": 16,
+   "residence": "東京都",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_67d748d45c80",
+     "school": "日本大学第一高",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_d64ad0203e99",
+     "school": "日本大学第一高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2028",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2028",
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_cc60bc8995c0",
+     "school": "日大一高",
+     "prefecture": "東京都",
+     "graduation_year": "",
+     "basis": [
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 1086,
+   "gender": "male",
+   "name": "平野 秀也",
+   "age": 20,
+   "residence": "熊本県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_1c92ed1b16aa",
+     "school": "東陵",
+     "prefecture": "",
+     "graduation_year": "2025",
+     "basis": [
+      "age 20 (as of 2026-08-30) consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_4950936d15ae",
+     "school": "東稜",
+     "prefecture": "熊本",
+     "graduation_year": "2025",
+     "basis": [
+      "age 20 (as of 2026-08-30) consistent with graduation_year 2025",
+      "residence = prefecture 熊本"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1188,
+   "gender": "male",
+   "name": "猪狩 晴誠",
+   "age": 16,
+   "residence": "神奈川県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_abd50d90ca3d",
+     "school": "東海大学附属相模",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_c00c8382e2e2",
+     "school": "東海相模",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1188,
+   "gender": "male",
+   "name": "春原 夕真",
+   "age": 16,
+   "residence": "長野県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_40e136853b6a",
+     "school": "長野",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1383,
+   "gender": "male",
+   "name": "加藤 優真",
+   "age": 16,
+   "residence": "神奈川県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_d2fd6f5561eb",
+     "school": "野田鎌田学園横浜高専",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1383,
+   "gender": "male",
+   "name": "北岡 大樹",
+   "age": 15,
+   "residence": "神奈川県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_8253799403d6",
+     "school": "神奈川県立横須賀",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1383,
+   "gender": "male",
+   "name": "髙梨 聖成",
+   "age": 15,
+   "residence": "神奈川県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_b199bc8d42b6",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 1512,
+   "gender": "male",
+   "name": "山崎 太喜",
+   "age": 17,
+   "residence": "熊本県",
+   "affiliation": "第一薬科大付属高",
+   "candidates": [
+    {
+     "player_key": "p_4fb0aed9c7a9",
+     "school": "熊本国府高等学校",
+     "prefecture": "熊本県",
+     "graduation_year": "2027",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2027",
+      "residence = prefecture 熊本県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ccc34608528b",
+     "school": "第一薬科大学付属高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2027",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2027",
+      "affiliation \"第一薬科大付属高\" ~ 第一薬科大学付属高等学校"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 1742,
+   "gender": "male",
+   "name": "中田 大賀",
+   "age": 18,
+   "residence": "東京都",
+   "affiliation": "代々木高等学校",
+   "candidates": [
+    {
+     "player_key": "p_c97456a9461b",
+     "school": "代々木高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027",
+      "affiliation \"代々木高等学校\" ~ 代々木高等学校",
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_341d577ab6d1",
+     "school": "日本ウェルネス高等学校",
+     "prefecture": "茨城",
+     "graduation_year": "2027",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2027"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 26,
+   "gender": "female",
+   "name": "髙岸 鈴",
+   "age": 19,
+   "residence": "徳島県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_d81636ee30c8",
+     "school": "生光学園高等学校",
+     "prefecture": "徳島県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2025",
+      "residence = prefecture 徳島県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_2341320fe5f3",
+     "school": "高知中央高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 61,
+   "gender": "female",
+   "name": "猪俣 茉央",
+   "age": 16,
+   "residence": "北海道",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_3f02513c5017",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 68,
+   "gender": "female",
+   "name": "寺岡 鈴音",
+   "age": 17,
+   "residence": "広島県",
+   "affiliation": "並木学園②",
+   "candidates": [
+    {
+     "player_key": "p_0456c210c08e",
+     "school": "並木学園",
+     "prefecture": "",
+     "graduation_year": "2028",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2028",
+      "affiliation \"並木学園②\" ~ 並木学園"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_12b74261302a",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_52bde0914c4b",
+     "school": "並木学院福山高等学校",
+     "prefecture": "広島県",
+     "graduation_year": "2028",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2028",
+      "residence = prefecture 広島県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 215,
+   "gender": "female",
+   "name": "今枝 綾音",
+   "age": 16,
+   "residence": "東京都",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_99dd4643ca3b",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 257,
+   "gender": "female",
+   "name": "樋口 瑚子",
+   "age": 18,
+   "residence": "佐賀県",
+   "affiliation": "佐賀クラシック",
+   "candidates": [
+    {
+     "player_key": "p_47ac7a42f5e6",
+     "school": "長崎日本大学高等学校",
+     "prefecture": "長崎県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 267,
+   "gender": "female",
+   "name": "永田 愛梨",
+   "age": 19,
+   "residence": "静岡県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_ede7302f99a8",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ff1d254522ae",
+     "school": "第一学院高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_7c3c24f76115",
+     "school": "浜松学芸高等学校",
+     "prefecture": "静岡県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026",
+      "residence = prefecture 静岡県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 277,
+   "gender": "female",
+   "name": "岡 里音",
+   "age": 20,
+   "residence": "徳島県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_337fbda9a2c4",
+     "school": "生光学園高等学校",
+     "prefecture": "徳島県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 20 (as of 2026-08-30) consistent with graduation_year 2025",
+      "residence = prefecture 徳島県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_1d6b946f1096",
+     "school": "高知中央高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 20 (as of 2026-08-30) consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 318,
+   "gender": "female",
+   "name": "岡嵜 マイヤ",
+   "age": 19,
+   "residence": "岐阜県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_42d7483aee6e",
+     "school": "岐阜聖徳学園高等学校",
+     "prefecture": "岐阜県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026",
+      "residence = prefecture 岐阜県"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ccde6dd52b78",
+     "school": "ルネサンス豊田高等学校",
+     "prefecture": "愛知県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 361,
+   "gender": "female",
+   "name": "橋本 紅葉",
+   "age": 16,
+   "residence": "福岡県",
+   "affiliation": "第一薬科大学付属高等学校",
+   "candidates": [
+    {
+     "player_key": "p_9d888470de81",
+     "school": "熊本国府高等学校",
+     "prefecture": "熊本県",
+     "graduation_year": "2028",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_73bae3ecae08",
+     "school": "第一薬科大学付属高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2028",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2028",
+      "affiliation \"第一薬科大学付属高等学校\" ~ 第一薬科大学付属高等学校",
+      "residence = prefecture 福岡県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 408,
+   "gender": "female",
+   "name": "酒井 理琴",
+   "age": 19,
+   "residence": "兵庫県",
+   "affiliation": "小野東洋",
+   "candidates": [
+    {
+     "player_key": "p_3b82819554f8",
+     "school": "日ノ本学園高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2025",
+      "residence = prefecture 兵庫県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 431,
+   "gender": "female",
+   "name": "唐木田 梨乃",
+   "age": 24,
+   "residence": "広島県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_b8d488908ade",
+     "school": "東(広島県)",
+     "prefecture": "",
+     "graduation_year": "2020",
+     "basis": [
+      "age 24 (as of 2026-08-30) consistent with graduation_year 2020"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_eada3c6f64a8",
+     "school": "東",
+     "prefecture": "広島県",
+     "graduation_year": "2020",
+     "basis": [
+      "age 24 (as of 2026-08-30) consistent with graduation_year 2020",
+      "residence = prefecture 広島県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 448,
+   "gender": "female",
+   "name": "戸塚 あい",
+   "age": 17,
+   "residence": "東京都",
+   "affiliation": "目黒日本大学高等学校",
+   "candidates": [
+    {
+     "player_key": "p_cc1d46d37c53",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_b87570769433",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉",
+     "graduation_year": "2028",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2028"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_74020918f46d",
+     "school": "目黒日本大学高等学校",
+     "prefecture": "東京都",
+     "graduation_year": "2028",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2028",
+      "affiliation \"目黒日本大学高等学校\" ~ 目黒日本大学高等学校",
+      "residence = prefecture 東京都"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 567,
+   "gender": "female",
+   "name": "佐野 心春",
+   "age": 16,
+   "residence": "東京都",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_42b5b6331819",
+     "school": "昭和女子大学附属",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 585,
+   "gender": "female",
+   "name": "青山 礼華",
+   "age": 16,
+   "residence": "福岡県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_5be9e594065d",
+     "school": "第一薬科大学付属高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2029",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2029",
+      "residence = prefecture 福岡県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 612,
+   "gender": "female",
+   "name": "青山 礼華",
+   "age": 16,
+   "residence": "福岡県",
+   "affiliation": "第一薬科大付属高",
+   "candidates": [
+    {
+     "player_key": "p_5be9e594065d",
+     "school": "第一薬科大学付属高等学校",
+     "prefecture": "福岡県",
+     "graduation_year": "2029",
+     "basis": [
+      "age 16 (as of 2026-08-30) consistent with graduation_year 2029",
+      "affiliation \"第一薬科大付属高\" ~ 第一薬科大学付属高等学校",
+      "residence = prefecture 福岡県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 626,
+   "gender": "female",
+   "name": "Annika Chen",
+   "age": 17,
+   "residence": "チャイニーズタイペイ",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_abd5628b72a5",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 637,
+   "gender": "female",
+   "name": "山本 彩葉",
+   "age": 16,
+   "residence": "熊本県",
+   "affiliation": "グランドチャンピオン",
+   "candidates": [
+    {
+     "player_key": "p_ef976bd83cb4",
+     "school": "国府",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 706,
+   "gender": "female",
+   "name": "樋口 瑚子",
+   "age": 18,
+   "residence": "佐賀県",
+   "affiliation": "長崎日大高",
+   "candidates": [
+    {
+     "player_key": "p_47ac7a42f5e6",
+     "school": "長崎日本大学高等学校",
+     "prefecture": "長崎県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2026",
+      "affiliation \"長崎日大高\" ~ 長崎日本大学高等学校"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 734,
+   "gender": "female",
+   "name": "加藤 祐子",
+   "age": 18,
+   "residence": "京都府",
+   "affiliation": "S高3年",
+   "candidates": [
+    {
+     "player_key": "p_8aa5b18c8ff0",
+     "school": "S高等学校",
+     "prefecture": "京都",
+     "graduation_year": "2026",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2026",
+      "residence = prefecture 京都"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_f55e6a2bde82",
+     "school": "日ノ本学園高等学校",
+     "prefecture": "兵庫",
+     "graduation_year": "2026",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 734,
+   "gender": "female",
+   "name": "松本 來海",
+   "age": 19,
+   "residence": "和歌山県",
+   "affiliation": "慶風高3年",
+   "candidates": [
+    {
+     "player_key": "p_0935e9ee882f",
+     "school": "日ノ本学園高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_59ad0ea066ae",
+     "school": "慶風高等学校",
+     "prefecture": "和歌山",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026",
+      "affiliation \"慶風高3年\" ~ 慶風高等学校",
+      "residence = prefecture 和歌山"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 802,
+   "gender": "female",
+   "name": "酒井 理琴",
+   "age": 19,
+   "residence": "兵庫県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_3b82819554f8",
+     "school": "日ノ本学園高等学校",
+     "prefecture": "兵庫県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2025",
+      "residence = prefecture 兵庫県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 813,
+   "gender": "female",
+   "name": "大橋 莉生",
+   "age": 18,
+   "residence": "静岡県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_2b4dc9d4ce06",
+     "school": "",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_ec3abad7e759",
+     "school": "クラーク記念国際高等学校",
+     "prefecture": "北海道",
+     "graduation_year": "2026",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_87bdc6682308",
+     "school": "浜松学芸高等学校",
+     "prefecture": "静岡県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 18 (as of 2026-08-30) consistent with graduation_year 2026",
+      "residence = prefecture 静岡県"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 849,
+   "gender": "female",
+   "name": "三原 舞紀",
+   "age": 19,
+   "residence": "東京都",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_07d228797f85",
+     "school": "成美学園高等学校",
+     "prefecture": "千葉県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_877fc2e1cb34",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "2026",
+     "basis": [
+      "age 19 (as of 2026-08-30) consistent with graduation_year 2026"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 933,
+   "gender": "female",
+   "name": "小山 遥菜",
+   "age": 20,
+   "residence": "徳島県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_04c043f40eef",
+     "school": "生光学園高等学校",
+     "prefecture": "徳島",
+     "graduation_year": "2025",
+     "basis": [
+      "age 20 (as of 2026-08-30) consistent with graduation_year 2025",
+      "residence = prefecture 徳島"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_5772b241b6e8",
+     "school": "高知中央高等学校",
+     "prefecture": "高知県",
+     "graduation_year": "2025",
+     "basis": [
+      "age 20 (as of 2026-08-30) consistent with graduation_year 2025"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 953,
+   "gender": "female",
+   "name": "安西 美空",
+   "age": 16,
+   "residence": "茨城県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_c4f96deb6fe4",
+     "school": "土浦日本大",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 965,
+   "gender": "female",
+   "name": "神津 葵",
+   "age": 15,
+   "residence": "東京都",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_f83aa152590c",
+     "school": "埼玉栄高等学校",
+     "prefecture": "埼玉県",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous",
+   "rank": 965,
+   "gender": "female",
+   "name": "西口 葵",
+   "age": 17,
+   "residence": "広島県",
+   "affiliation": "広島国際③",
+   "candidates": [
+    {
+     "player_key": "p_fbd1e133a703",
+     "school": "広島国際",
+     "prefecture": "",
+     "graduation_year": "2027",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2027",
+      "affiliation \"広島国際③\" ~ 広島国際"
+     ],
+     "contradiction": false
+    },
+    {
+     "player_key": "p_5ba63580df6d",
+     "school": "国際学院",
+     "prefecture": "広島",
+     "graduation_year": "2027",
+     "basis": [
+      "age 17 (as of 2026-08-30) consistent with graduation_year 2027",
+      "residence = prefecture 広島"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 965,
+   "gender": "female",
+   "name": "村上 莉穗",
+   "age": 15,
+   "residence": "岡山県",
+   "affiliation": "真備③",
+   "candidates": [
+    {
+     "player_key": "p_4fd250f1ed69",
+     "school": "四国学院大学香川西高等学校",
+     "prefecture": "香川",
+     "graduation_year": "2029",
+     "basis": [
+      "age 15 (as of 2026-08-30) consistent with graduation_year 2029"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "ambiguous_multi_entry",
+   "rank": 965,
+   "gender": "female",
+   "name": "村上 莉穂",
+   "age": 15,
+   "residence": "香川県",
+   "affiliation": "香川西高",
+   "candidates": [
+    {
+     "player_key": "p_4fd250f1ed69",
+     "school": "四国学院大学香川西高等学校",
+     "prefecture": "香川",
+     "graduation_year": "2029",
+     "basis": [
+      "age 15 (as of 2026-08-30) consistent with graduation_year 2029",
+      "affiliation \"香川西高\" ~ 四国学院大学香川西高等学校",
+      "residence = prefecture 香川"
+     ],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 965,
+   "gender": "female",
+   "name": "森川 十季",
+   "age": 15,
+   "residence": "神奈川県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_5a4594f47e3e",
+     "school": "新城",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1075,
+   "gender": "female",
+   "name": "小山 真生",
+   "age": 16,
+   "residence": "長野県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_96665ad84dcd",
+     "school": "長野",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1075,
+   "gender": "female",
+   "name": "山本 亜美",
+   "age": 17,
+   "residence": "千葉県",
+   "affiliation": "",
+   "candidates": [
+    {
+     "player_key": "p_0a4e3d476f3a",
+     "school": "鎌ヶ谷",
+     "prefecture": "",
+     "graduation_year": "",
+     "basis": [],
+     "contradiction": false
+    }
+   ]
+  }
+ ],
+ "wagr": [
+  {
+   "status": "name_only",
+   "rank": 4351,
+   "gender": "male",
+   "name": "Daiki Aiura",
+   "url": "https://www.wagr.com/playerprofile/daiki-aiura-47328",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_48d0494b0fd6",
+     "name_ja": "相浦大輝",
+     "school": "開志国際高等学校",
+     "graduation_year": "2025",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 4912,
+   "gender": "male",
+   "name": "Ryota Kato",
+   "url": "https://www.wagr.com/playerprofile/ryota-kato-46853",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_d3f6d2b7eb2c",
+     "name_ja": "加藤 稜汰",
+     "school": "星城高等学校",
+     "graduation_year": "2024",
+     "basis": []
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 343,
+   "gender": "female",
+   "name": "Nanami Nakashima",
+   "url": "https://www.wagr.com/playerprofile/nanami-nakashima-38420",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_8058c022ed49",
+     "name_ja": "中島 七海",
+     "school": "滝川第二高等学校",
+     "graduation_year": "2024",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 362,
+   "gender": "female",
+   "name": "Isaki Sakashita",
+   "url": "https://www.wagr.com/playerprofile/isaki-sakashita-42091",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_9432202ee717",
+     "name_ja": "坂下 一咲",
+     "school": "同志社国際高等学校",
+     "graduation_year": "2024",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1047,
+   "gender": "female",
+   "name": "Narita Ema",
+   "url": "https://www.wagr.com/playerprofile/narita-ema-37630",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_54dcc501e5be",
+     "name_ja": "成田 瑛麻",
+     "school": "学習院女子",
+     "graduation_year": "2023",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 1656,
+   "gender": "female",
+   "name": "Lannie Inoue",
+   "url": "https://www.wagr.com/playerprofile/lannie-inoue-41264",
+   "wagr_profile": {
+    "school": "Rangiora High",
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_7cc02db63e16",
+     "name_ja": "井上來虹",
+     "school": "沖学園高等学校",
+     "graduation_year": "2027",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 2411,
+   "gender": "female",
+   "name": "Fumina Sasaki",
+   "url": "https://www.wagr.com/playerprofile/fumina-sasaki-36715",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_a6cd6ee7fa17",
+     "name_ja": "佐々木 史奈",
+     "school": "岡山県作陽",
+     "graduation_year": "2022",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 2445,
+   "gender": "female",
+   "name": "Rina Matsuyama",
+   "url": "https://www.wagr.com/playerprofile/rina-matsuyama-36574",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_dcc324b301df",
+     "name_ja": "松山 りな",
+     "school": "富士見",
+     "graduation_year": "2023",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 2880,
+   "gender": "female",
+   "name": "Haruka Muta",
+   "url": "https://www.wagr.com/playerprofile/haruka-muta-43384",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_2dd5f91bcfe8",
+     "name_ja": "牟田 遥",
+     "school": "埼玉栄高等学校",
+     "graduation_year": "2021",
+     "basis": []
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3081,
+   "gender": "female",
+   "name": "Rio Oohashi",
+   "url": "https://www.wagr.com/playerprofile/rio-oohashi-45841",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_2b4dc9d4ce06",
+     "name_ja": "大橋 莉生",
+     "school": "",
+     "graduation_year": "",
+     "basis": []
+    },
+    {
+     "player_key": "p_ec3abad7e759",
+     "name_ja": "大橋 莉生",
+     "school": "クラーク記念国際高等学校",
+     "graduation_year": "2026",
+     "basis": []
+    },
+    {
+     "player_key": "p_87bdc6682308",
+     "name_ja": "大橋 莉生",
+     "school": "浜松学芸高等学校",
+     "graduation_year": "2026",
+     "basis": []
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3151,
+   "gender": "female",
+   "name": "Nana Hososako",
+   "url": "https://www.wagr.com/playerprofile/nana-hososako-47517",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_78282c3bc636",
+     "name_ja": "細峪七々",
+     "school": "滝川第二高等学校",
+     "graduation_year": "2024",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3172,
+   "gender": "female",
+   "name": "Miyuki Matsueda",
+   "url": "https://www.wagr.com/playerprofile/miyuki-matsueda-45721",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_687edef328e2",
+     "name_ja": "松枝未倖",
+     "school": "宇都宮文星女子高等学校",
+     "graduation_year": "2026",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3209,
+   "gender": "female",
+   "name": "Karen Sato",
+   "url": "https://www.wagr.com/playerprofile/karen-sato-42950",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_4f01c4cf930c",
+     "name_ja": "佐藤 夏恋",
+     "school": "日本ウェルネス高等学校",
+     "graduation_year": "2023",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3224,
+   "gender": "female",
+   "name": "Yamamoto Chiasa",
+   "url": "https://www.wagr.com/playerprofile/yamamoto-chiasa-47518",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_499033feaad0",
+     "name_ja": "山本 智亜紗",
+     "school": "大阪学院大学高等学校",
+     "graduation_year": "2029",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3224,
+   "gender": "female",
+   "name": "Chihiro Shioji",
+   "url": "https://www.wagr.com/playerprofile/chihiro-shioji-47520",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_acc2c408024b",
+     "name_ja": "塩路 千尋",
+     "school": "近畿大学附属高等学校",
+     "graduation_year": "2024",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3224,
+   "gender": "female",
+   "name": "Mone Yamashita",
+   "url": "https://www.wagr.com/playerprofile/mone-yamashita-47519",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_bbb1f5bba6b9",
+     "name_ja": "山下 萌寧",
+     "school": "ECC学園高等学校",
+     "graduation_year": "2029",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3256,
+   "gender": "female",
+   "name": "Ai Takagi",
+   "url": "https://www.wagr.com/playerprofile/ai-takagi-47032",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_5d86ab2ebb59",
+     "name_ja": "高木杏衣",
+     "school": "ルネサンス高等学校",
+     "graduation_year": "2029",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  },
+  {
+   "status": "name_only",
+   "rank": 3269,
+   "gender": "female",
+   "name": "Junna Shigehara",
+   "url": "https://www.wagr.com/playerprofile/junna-shigehara-46991",
+   "wagr_profile": {
+    "school": null,
+    "graduationYear": 0,
+    "hometown": null
+   },
+   "candidates": [
+    {
+     "player_key": "p_9af129e06e5c",
+     "name_ja": "重原純奈",
+     "school": "ルネサンス高等学校",
+     "graduation_year": "2029",
+     "basis": [
+      "romaji name = JGA official romaji of matched JGA player"
+     ]
+    }
+   ]
+  }
+ ],
+ "matched_duplicate_player_keys": [
+  [
+   "p_01330dea494a",
+   "p_9e01de3a9a7d"
+  ],
+  [
+   "p_01f21fe485f4",
+   "p_816360eb2e2a"
+  ],
+  [
+   "p_107debcff8c2",
+   "p_38e0531edf62"
+  ],
+  [
+   "p_1210617cacd5",
+   "p_15870a0bb63e"
+  ],
+  [
+   "p_17717826902f",
+   "p_419fc171a5ad"
+  ],
+  [
+   "p_17f12facbdc5",
+   "p_62f8d070de73"
+  ],
+  [
+   "p_183495bb5563",
+   "p_9f66d8d3de54"
+  ],
+  [
+   "p_186e8234c096",
+   "p_b4e37e9a9459"
+  ],
+  [
+   "p_1ada68d25d04",
+   "p_419fdeabf4b2"
+  ],
+  [
+   "p_1b2507e9d7ad",
+   "p_496a5e3cbb35"
+  ],
+  [
+   "p_1bad73dc7167",
+   "p_6589cffe55cb"
+  ],
+  [
+   "p_204b42c60d73",
+   "p_4bfd7f106fd4"
+  ],
+  [
+   "p_25a08665e1a6",
+   "p_84ed3eddbf07"
+  ],
+  [
+   "p_260306a9c529",
+   "p_6a72f88a2661"
+  ],
+  [
+   "p_261c404c0469",
+   "p_96140bab4b7a"
+  ],
+  [
+   "p_2ac68e1e8f7a",
+   "p_bdf175816286"
+  ],
+  [
+   "p_2d60603a3047",
+   "p_7487e144ab8d"
+  ],
+  [
+   "p_2f3d4cf64f07",
+   "p_b22173cc5b66"
+  ],
+  [
+   "p_3ae98ee08cf0",
+   "p_55578256621b"
+  ],
+  [
+   "p_47d71213d728",
+   "p_df3962638f08"
+  ],
+  [
+   "p_50fbec37c5ed",
+   "p_71327b43f83c"
+  ],
+  [
+   "p_52ca88f67b95",
+   "p_bf168eaf9641"
+  ],
+  [
+   "p_54437e67b877",
+   "p_bdccad3f3015"
+  ],
+  [
+   "p_72f9baed26fd",
+   "p_d438021d0b88"
+  ],
+  [
+   "p_82179e382631",
+   "p_8a8f7ee0beef"
+  ],
+  [
+   "p_8635ce9ee4b0",
+   "p_bd591d42d952",
+   "p_e381f4e138ff"
+  ],
+  [
+   "p_8acc96d05973",
+   "p_a193a13f27e9"
+  ],
+  [
+   "p_9f0df1f34a24",
+   "p_a7450e0def29"
+  ],
+  [
+   "p_9f9098704518",
+   "p_a6ff7da3dfe8"
+  ],
+  [
+   "p_dd10d90a3e8e",
+   "p_fef2c832e0f0"
+  ],
+  [
+   "p_f3abf05c9c66",
+   "p_fe1fa25e781d"
+  ]
+ ]
+}

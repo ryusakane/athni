@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev688668a5-2022-boys",
+  "name": "佐々部杯ゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2022,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934575109196332",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "4",
+   "player_name": "長屋 琉斗",
+   "school": "岐阜県立岐阜城北高等学校",
+   "school_prefecture": "岐阜県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575109196332); matched player_key p_53bf13e56c87; rank as shown: 4位; school/grade/prefecture from players.csv (graduation_year 2025), not shown on the profile",
+   "player_key": "p_53bf13e56c87"
+  },
+  {
+   "rank": "2",
+   "player_name": "永田 丞",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576753363635); matched player_key p_31cab21677fb; rank as shown: 2位",
+   "player_key": "p_31cab21677fb"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-08-29; profile year column is 年度 as shown"
+  ]
+ }
+}

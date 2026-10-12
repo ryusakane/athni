@@ -1,0 +1,101 @@
+{
+ "tournament": {
+  "id": "jgaprof-evc1f3a078-2016-girls",
+  "name": "四国女子アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2016,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934564069788468",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "25",
+   "player_name": "島勝 ひなた",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934564069788468); matched player_key p_0a138f4cf9e7; rank as shown: 25位",
+   "player_key": "p_0a138f4cf9e7"
+  },
+  {
+   "rank": "T33",
+   "player_name": "村上 美空",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570411576208); matched player_key p_2ba48f989253; rank as shown: 33位 T",
+   "player_key": "p_2ba48f989253"
+  },
+  {
+   "rank": "4",
+   "player_name": "後藤田 寧々",
+   "school": "四国学院大学香川西高等学校",
+   "school_prefecture": "香川県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572458396637); matched player_key p_09e7b809ccb3; rank as shown: 4位; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_09e7b809ccb3"
+  },
+  {
+   "rank": "54",
+   "player_name": "都 玲華",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575075641879); matched player_key p_7e4eecbb01a1; rank as shown: 54位",
+   "player_key": "p_7e4eecbb01a1"
+  },
+  {
+   "rank": "1",
+   "player_name": "岡田 清楓",
+   "school": "高松中央高等学校",
+   "school_prefecture": "香川県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576887581420); matched player_key p_1f33f3df42ef; rank as shown: 優勝; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_1f33f3df42ef"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}
