@@ -1,0 +1,224 @@
+{
+ "tournament": {
+  "id": "jjga-junior-players-west-2023-boys-15-18",
+  "name": "2023年度 ジャパンジュニアプレーヤーズチャンピオンシップ西日本決勝大会 15歳～18歳男子の部",
+  "name_en": "2023 Japan Junior Players Championship West Japan final, Boys Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2023,
+  "start_date": "2023-07-01",
+  "end_date": "2023-07-02",
+  "venue": "津カントリー倶楽部",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6846,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2023/07/230702_jjp_west_FR_12-18boys_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2023/07/230702_jjp_west_FR_12-18boys_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 13,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/jjp_west2023_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "久常 優樹",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 1,
+   "rounds": [
+    74,
+    77
+   ],
+   "total": 151,
+   "to_par": 7,
+   "note": null
+  },
+  {
+   "rank": "2",
+   "player_name": "石垣龍之介",
+   "school": null,
+   "school_prefecture": "三重県",
+   "grade": 1,
+   "rounds": [
+    79,
+    75
+   ],
+   "total": 154,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "北條 陽雲",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 2,
+   "rounds": [
+    77,
+    79
+   ],
+   "total": 156,
+   "to_par": 12,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "川嵜 晃生",
+   "school": null,
+   "school_prefecture": "三重県",
+   "grade": 1,
+   "rounds": [
+    79,
+    79
+   ],
+   "total": 158,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "T5",
+   "player_name": "大川 夏瑞",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    83,
+    85
+   ],
+   "total": 168,
+   "to_par": 24,
+   "note": null
+  },
+  {
+   "rank": "T5",
+   "player_name": "野上 時暖",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 1,
+   "rounds": [
+    80,
+    88
+   ],
+   "total": 168,
+   "to_par": 24,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "樋口 大弥",
+   "school": null,
+   "school_prefecture": "沖縄県",
+   "grade": 2,
+   "rounds": [
+    81,
+    88
+   ],
+   "total": 169,
+   "to_par": 25,
+   "note": null
+  },
+  {
+   "rank": "T8",
+   "player_name": "川口 充志",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 1,
+   "rounds": [
+    81,
+    89
+   ],
+   "total": 170,
+   "to_par": 26,
+   "note": null
+  },
+  {
+   "rank": "T8",
+   "player_name": "表 佳稀",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    84,
+    86
+   ],
+   "total": 170,
+   "to_par": 26,
+   "note": null
+  },
+  {
+   "rank": "10",
+   "player_name": "香川 倫輝",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 1,
+   "rounds": [
+    88,
+    86
+   ],
+   "total": 174,
+   "to_par": 30,
+   "note": null
+  },
+  {
+   "rank": "11",
+   "player_name": "山崎 稔",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    90,
+    86
+   ],
+   "total": 176,
+   "to_par": 32,
+   "note": null
+  },
+  {
+   "rank": "12",
+   "player_name": "田中 佑樹",
+   "school": null,
+   "school_prefecture": "大阪府",
+   "grade": 2,
+   "rounds": [
+    93,
+    93
+   ],
+   "total": 186,
+   "to_par": 42,
+   "note": null
+  },
+  {
+   "rank": "13",
+   "player_name": "小島 玲人",
+   "school": null,
+   "school_prefecture": "大阪府",
+   "grade": 2,
+   "rounds": [
+    91,
+    96
+   ],
+   "total": 187,
+   "to_par": 43,
+   "note": null
+  }
+ ]
+}

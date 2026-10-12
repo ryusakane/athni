@@ -1,0 +1,462 @@
+{
+ "tournament": {
+  "id": "jjga-ishikawa-ryo-cup-2018-girls-15-18",
+  "name": "2017年度 タイガー魔法瓶presents石川遼カップジュニアゴルフチャンピオンシップ 15歳～18歳女子の部",
+  "name_en": "2018 Ryo Ishikawa Cup Junior Golf Championship final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2018,
+  "start_date": "2018-02-24",
+  "end_date": "2018-02-26",
+  "venue": "ロイヤルメドウゴルフ倶楽部",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6185,
+  "round_holes": [
+   18,
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2018/02/1fd058b36ec99705afdd273dcb719be9.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2018/02/1fd058b36ec99705afdd273dcb719be9.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 28,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "This PDF prints no 学年/所在地 columns for the girls' division: grade and school_prefecture are null for every row.",
+   "Event page: https://www.jjga.org/final/2017ryocup_results_12-18"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "大林 奈央",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    74,
+    71,
+    72
+   ],
+   "total": 217,
+   "to_par": 1,
+   "note": "tied on total, placed 1st per the PDF (PDF note: 優勝はサドンデスプレーオフにて決定)"
+  },
+  {
+   "rank": "2",
+   "player_name": "山邊 里奈",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    73,
+    71,
+    73
+   ],
+   "total": 217,
+   "to_par": 1,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "和久井麻由",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    74,
+    70,
+    76
+   ],
+   "total": 220,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "古家 翔香",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    76,
+    72,
+    74
+   ],
+   "total": 222,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "八木 涼風",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    77,
+    76,
+    73
+   ],
+   "total": 226,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "花渕 里帆",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    77,
+    72,
+    78
+   ],
+   "total": 227,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "山崎 花音",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    80,
+    78,
+    70
+   ],
+   "total": 228,
+   "to_par": 12,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "髙橋 茉夢",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    75,
+    76,
+    77
+   ],
+   "total": 228,
+   "to_par": 12,
+   "note": null
+  },
+  {
+   "rank": "9",
+   "player_name": "勝見 梓",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    77,
+    75,
+    77
+   ],
+   "total": 229,
+   "to_par": 13,
+   "note": null
+  },
+  {
+   "rank": "T10",
+   "player_name": "縄田屋ももか",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    74,
+    78,
+    78
+   ],
+   "total": 230,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "T10",
+   "player_name": "赤荻 瑠花",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    79,
+    74,
+    77
+   ],
+   "total": 230,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "12",
+   "player_name": "古賀ジェニファー",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    78,
+    79,
+    76
+   ],
+   "total": 233,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "13",
+   "player_name": "髙橋みさと",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    82,
+    74,
+    81
+   ],
+   "total": 237,
+   "to_par": 21,
+   "note": null
+  },
+  {
+   "rank": "14",
+   "player_name": "飛田 葵",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    81,
+    76,
+    81
+   ],
+   "total": 238,
+   "to_par": 22,
+   "note": null
+  },
+  {
+   "rank": "15",
+   "player_name": "岩谷 奏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    82,
+    81,
+    78
+   ],
+   "total": 241,
+   "to_par": 25,
+   "note": null
+  },
+  {
+   "rank": "16",
+   "player_name": "松澤 奈美",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    85,
+    75,
+    83
+   ],
+   "total": 243,
+   "to_par": 27,
+   "note": null
+  },
+  {
+   "rank": "17",
+   "player_name": "西岡利佳子",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    78,
+    84,
+    84
+   ],
+   "total": 246,
+   "to_par": 30,
+   "note": null
+  },
+  {
+   "rank": "18",
+   "player_name": "今野 りお",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    82,
+    85,
+    80
+   ],
+   "total": 247,
+   "to_par": 31,
+   "note": null
+  },
+  {
+   "rank": "T19",
+   "player_name": "鈴木愛佳子",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    84,
+    81,
+    83
+   ],
+   "total": 248,
+   "to_par": 32,
+   "note": null
+  },
+  {
+   "rank": "T19",
+   "player_name": "佐野 円梨",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    83,
+    80,
+    85
+   ],
+   "total": 248,
+   "to_par": 32,
+   "note": null
+  },
+  {
+   "rank": "21",
+   "player_name": "佐藤 光",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    83,
+    80,
+    87
+   ],
+   "total": 250,
+   "to_par": 34,
+   "note": null
+  },
+  {
+   "rank": "22",
+   "player_name": "平井さくら",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    84,
+    89,
+    80
+   ],
+   "total": 253,
+   "to_par": 37,
+   "note": null
+  },
+  {
+   "rank": "23",
+   "player_name": "森 紗也佳",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    87,
+    82,
+    85
+   ],
+   "total": 254,
+   "to_par": 38,
+   "note": null
+  },
+  {
+   "rank": "24",
+   "player_name": "大西 里和",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    85,
+    90,
+    87
+   ],
+   "total": 262,
+   "to_par": 46,
+   "note": null
+  },
+  {
+   "rank": "25",
+   "player_name": "金本 佳央",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    87,
+    84,
+    93
+   ],
+   "total": 264,
+   "to_par": 48,
+   "note": null
+  },
+  {
+   "rank": "26",
+   "player_name": "田中 美佑",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    88,
+    91,
+    89
+   ],
+   "total": 268,
+   "to_par": 52,
+   "note": null
+  },
+  {
+   "rank": "WD",
+   "player_name": "小島 彩夏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    74,
+    82
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: Scr"
+  },
+  {
+   "rank": "WD",
+   "player_name": "遠藤 未夏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "rounds": [
+    94,
+    89
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: Scr"
+  }
+ ]
+}

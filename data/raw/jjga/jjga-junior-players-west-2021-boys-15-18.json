@@ -1,0 +1,145 @@
+{
+ "tournament": {
+  "id": "jjga-junior-players-west-2021-boys-15-18",
+  "name": "2021年度 ジャパンジュニアプレーヤーズチャンピオンシップ西日本決勝大会 15歳～18歳男子の部",
+  "name_en": "2021 Japan Junior Players Championship West Japan final, Boys Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2021,
+  "start_date": "2021-06-26",
+  "end_date": "2021-06-27",
+  "venue": "津カントリー倶楽部",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6846,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2021/06/WEST_Final_FR_AM_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2021/06/WEST_Final_FR_AM_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 8,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/2021jjp_west_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "堺 永遠",
+   "school": null,
+   "school_prefecture": "大阪府",
+   "grade": 3,
+   "rounds": [
+    75,
+    72
+   ],
+   "total": 147,
+   "to_par": 3,
+   "note": null
+  },
+  {
+   "rank": "2",
+   "player_name": "大塚 悠生",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    74,
+    75
+   ],
+   "total": 149,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "T3",
+   "player_name": "石垣 敢大",
+   "school": null,
+   "school_prefecture": "三重県",
+   "grade": 3,
+   "rounds": [
+    77,
+    73
+   ],
+   "total": 150,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "T3",
+   "player_name": "石垣 珠侑",
+   "school": null,
+   "school_prefecture": "三重県",
+   "grade": 2,
+   "rounds": [
+    72,
+    78
+   ],
+   "total": 150,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "加藤 永都",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    101,
+    105
+   ],
+   "total": 206,
+   "to_par": 62,
+   "note": null
+  },
+  {
+   "rank": "DQ",
+   "player_name": "髙橋 幸久",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 3,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: DQ"
+  },
+  {
+   "rank": "DQ",
+   "player_name": "蘇 宗楽",
+   "school": null,
+   "school_prefecture": "海外",
+   "grade": 3,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: DQ"
+  },
+  {
+   "rank": "DQ",
+   "player_name": "飯田 朝陽",
+   "school": null,
+   "school_prefecture": "岐阜県",
+   "grade": 2,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: DQ"
+  }
+ ]
+}

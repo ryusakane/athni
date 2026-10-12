@@ -1,0 +1,210 @@
+{
+ "tournament": {
+  "id": "jjga-kodaira-cup-east-2022-girls-15-18",
+  "name": "2022年度 PALMAX presents 小平智カップ サマージュニアゴルフクラシック 東日本ブロック 決勝大会 15歳～18歳女子の部",
+  "name_en": "2022 PALMAX presents Satoshi Kodaira Cup Summer Junior Golf Classic East Japan final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": "2022-09-10",
+  "end_date": "2022-09-11",
+  "venue": "宇都宮ガーデンゴルフクラブ",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6328,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2022/09/220911_palmaxcup_east_IN_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2022/09/220911_palmaxcup_east_IN_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 12,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/palmax_kodairacup2022_east_final_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "金子 怜愛",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    73,
+    73
+   ],
+   "total": 146,
+   "to_par": 2,
+   "note": "tied on total, placed 1st per the PDF (tie-break method not stated)"
+  },
+  {
+   "rank": "2",
+   "player_name": "髙田 嘩琳",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    71,
+    75
+   ],
+   "total": 146,
+   "to_par": 2,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "二階堂恵莉",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    73,
+    76
+   ],
+   "total": 149,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "角田 夢香",
+   "school": null,
+   "school_prefecture": "群馬県",
+   "grade": 3,
+   "rounds": [
+    76,
+    74
+   ],
+   "total": 150,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "齋藤 愛桜",
+   "school": null,
+   "school_prefecture": "栃木県",
+   "grade": 1,
+   "rounds": [
+    76,
+    76
+   ],
+   "total": 152,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "佐藤 甘菜",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    74,
+    79
+   ],
+   "total": 153,
+   "to_par": 9,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "勝亦 令奈",
+   "school": null,
+   "school_prefecture": "静岡県",
+   "grade": 3,
+   "rounds": [
+    77,
+    81
+   ],
+   "total": 158,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "西澤 香那",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    75,
+    83
+   ],
+   "total": 158,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "井上 葵姫",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    81,
+    77
+   ],
+   "total": 158,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "10",
+   "player_name": "松本花仔乃",
+   "school": null,
+   "school_prefecture": "群馬県",
+   "grade": 1,
+   "rounds": [
+    81,
+    80
+   ],
+   "total": 161,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "11",
+   "player_name": "坪井 乃杏",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    82,
+    80
+   ],
+   "total": 162,
+   "to_par": 18,
+   "note": null
+  },
+  {
+   "rank": "12",
+   "player_name": "篠田 麗",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "rounds": [
+    82,
+    84
+   ],
+   "total": 166,
+   "to_par": 22,
+   "note": null
+  }
+ ]
+}
