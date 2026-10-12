@@ -1,0 +1,700 @@
+{
+ "tournament": {
+  "id": "jjga-spring-east-2022-boys-15-18",
+  "name": "2022年度 スプリングジュニアゴルフチャンピオンシップ東日本決勝大会 15歳～18歳男子の部",
+  "name_en": "2022 Spring Junior Golf Championship East Japan final, Boys Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": "2022-05-07",
+  "end_date": "2022-05-08",
+  "venue": "新宇都宮カントリークラブ",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": 71,
+  "yardage": 6573,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2022/05/shinutunomiya_2day_boy_result-2.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2022/05/shinutunomiya_2day_boy_result-2.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 47,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/infomation/spring_east2022_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "近藤 直杜",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 1,
+   "rounds": [
+    66,
+    72
+   ],
+   "total": 138,
+   "to_par": -4,
+   "note": null
+  },
+  {
+   "rank": "T2",
+   "player_name": "野地 陽向",
+   "school": null,
+   "school_prefecture": "福島県",
+   "grade": 2,
+   "rounds": [
+    70,
+    72
+   ],
+   "total": 142,
+   "to_par": 0,
+   "note": null
+  },
+  {
+   "rank": "T2",
+   "player_name": "大久保 海",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 2,
+   "rounds": [
+    71,
+    71
+   ],
+   "total": 142,
+   "to_par": 0,
+   "note": null
+  },
+  {
+   "rank": "T4",
+   "player_name": "水野 良成",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    70,
+    73
+   ],
+   "total": 143,
+   "to_par": 1,
+   "note": null
+  },
+  {
+   "rank": "T4",
+   "player_name": "小松 潤",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    71,
+    72
+   ],
+   "total": 143,
+   "to_par": 1,
+   "note": null
+  },
+  {
+   "rank": "T4",
+   "player_name": "相原 涼汰",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    72,
+    71
+   ],
+   "total": 143,
+   "to_par": 1,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "土屋ヒューイ",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    71,
+    73
+   ],
+   "total": 144,
+   "to_par": 2,
+   "note": null
+  },
+  {
+   "rank": "8",
+   "player_name": "熊谷 地陽",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    74,
+    71
+   ],
+   "total": 145,
+   "to_par": 3,
+   "note": null
+  },
+  {
+   "rank": "T9",
+   "player_name": "佐藤 匠真",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    70,
+    76
+   ],
+   "total": 146,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "T9",
+   "player_name": "全 ユンホ",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    70,
+    76
+   ],
+   "total": 146,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "T9",
+   "player_name": "飯田 悠麿",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "rounds": [
+    71,
+    75
+   ],
+   "total": 146,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "T9",
+   "player_name": "東城 大翔",
+   "school": null,
+   "school_prefecture": "山梨県",
+   "grade": 3,
+   "rounds": [
+    74,
+    72
+   ],
+   "total": 146,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "栗原 遥大",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "rounds": [
+    71,
+    76
+   ],
+   "total": 147,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "末廣 大地",
+   "school": null,
+   "school_prefecture": "新潟県",
+   "grade": 3,
+   "rounds": [
+    73,
+    74
+   ],
+   "total": 147,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "志村 由羅",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "rounds": [
+    74,
+    73
+   ],
+   "total": 147,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "工藤 颯太",
+   "school": null,
+   "school_prefecture": "山形県",
+   "grade": 2,
+   "rounds": [
+    75,
+    72
+   ],
+   "total": 147,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "金子愼之介",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    75,
+    72
+   ],
+   "total": 147,
+   "to_par": 5,
+   "note": null
+  },
+  {
+   "rank": "T18",
+   "player_name": "井上 笑慈",
+   "school": null,
+   "school_prefecture": "栃木県",
+   "grade": 1,
+   "rounds": [
+    73,
+    76
+   ],
+   "total": 149,
+   "to_par": 7,
+   "note": null
+  },
+  {
+   "rank": "T18",
+   "player_name": "長谷川和瑞大",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "rounds": [
+    75,
+    74
+   ],
+   "total": 149,
+   "to_par": 7,
+   "note": null
+  },
+  {
+   "rank": "T20",
+   "player_name": "神谷 至道",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "rounds": [
+    70,
+    80
+   ],
+   "total": 150,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "T20",
+   "player_name": "中村 瑛心",
+   "school": null,
+   "school_prefecture": "栃木県",
+   "grade": 1,
+   "rounds": [
+    71,
+    79
+   ],
+   "total": 150,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "T20",
+   "player_name": "板村 凌太",
+   "school": null,
+   "school_prefecture": "栃木県",
+   "grade": 3,
+   "rounds": [
+    73,
+    77
+   ],
+   "total": 150,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "T20",
+   "player_name": "松谷 崇嗣",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    75,
+    75
+   ],
+   "total": 150,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "T24",
+   "player_name": "桑島 雄",
+   "school": null,
+   "school_prefecture": "福島県",
+   "grade": 3,
+   "rounds": [
+    76,
+    75
+   ],
+   "total": 151,
+   "to_par": 9,
+   "note": null
+  },
+  {
+   "rank": "T24",
+   "player_name": "星野 豪希",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    76,
+    75
+   ],
+   "total": 151,
+   "to_par": 9,
+   "note": null
+  },
+  {
+   "rank": "T26",
+   "player_name": "北村 祐",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "rounds": [
+    71,
+    81
+   ],
+   "total": 152,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "T26",
+   "player_name": "齋藤 裕",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "rounds": [
+    74,
+    78
+   ],
+   "total": 152,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "T26",
+   "player_name": "島岡 聖",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 3,
+   "rounds": [
+    76,
+    76
+   ],
+   "total": 152,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "T26",
+   "player_name": "岡田 海斗",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    72,
+    80
+   ],
+   "total": 152,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "T26",
+   "player_name": "村越 飛躍",
+   "school": null,
+   "school_prefecture": "宮城県",
+   "grade": 2,
+   "rounds": [
+    74,
+    78
+   ],
+   "total": 152,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "31",
+   "player_name": "古屋 智史",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    76,
+    77
+   ],
+   "total": 153,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "T32",
+   "player_name": "平泉 驍",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 3,
+   "rounds": [
+    71,
+    84
+   ],
+   "total": 155,
+   "to_par": 13,
+   "note": null
+  },
+  {
+   "rank": "T32",
+   "player_name": "平野 誠一",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    76,
+    79
+   ],
+   "total": 155,
+   "to_par": 13,
+   "note": null
+  },
+  {
+   "rank": "T34",
+   "player_name": "島川 優真",
+   "school": null,
+   "school_prefecture": "福島県",
+   "grade": 2,
+   "rounds": [
+    77,
+    79
+   ],
+   "total": 156,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "T34",
+   "player_name": "東 亜藍",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    78,
+    78
+   ],
+   "total": 156,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "36",
+   "player_name": "村田 咲",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    77,
+    81
+   ],
+   "total": 158,
+   "to_par": 16,
+   "note": null
+  },
+  {
+   "rank": "37",
+   "player_name": "田村 琉煌",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 1,
+   "rounds": [
+    79,
+    80
+   ],
+   "total": 159,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "T38",
+   "player_name": "高崎 友輔",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "rounds": [
+    79,
+    81
+   ],
+   "total": 160,
+   "to_par": 18,
+   "note": null
+  },
+  {
+   "rank": "T38",
+   "player_name": "佐藤 星河",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    83,
+    77
+   ],
+   "total": 160,
+   "to_par": 18,
+   "note": null
+  },
+  {
+   "rank": "40",
+   "player_name": "寺本 湧亮",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    85,
+    76
+   ],
+   "total": 161,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "T41",
+   "player_name": "山口桂一朗",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 2,
+   "rounds": [
+    77,
+    85
+   ],
+   "total": 162,
+   "to_par": 20,
+   "note": null
+  },
+  {
+   "rank": "T41",
+   "player_name": "八木沢浩心郎",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    82,
+    80
+   ],
+   "total": 162,
+   "to_par": 20,
+   "note": null
+  },
+  {
+   "rank": "43",
+   "player_name": "水谷 奏仁",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 2,
+   "rounds": [
+    81,
+    83
+   ],
+   "total": 164,
+   "to_par": 22,
+   "note": null
+  },
+  {
+   "rank": "44",
+   "player_name": "田口 瑞樹",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    85,
+    80
+   ],
+   "total": 165,
+   "to_par": 23,
+   "note": null
+  },
+  {
+   "rank": "45",
+   "player_name": "白浜 和寛",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 2,
+   "rounds": [
+    86,
+    82
+   ],
+   "total": 168,
+   "to_par": 26,
+   "note": null
+  },
+  {
+   "rank": "46",
+   "player_name": "金城 龍希",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 1,
+   "rounds": [
+    82,
+    89
+   ],
+   "total": 171,
+   "to_par": 29,
+   "note": null
+  },
+  {
+   "rank": "47",
+   "player_name": "中野慎太郎",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    82,
+    94
+   ],
+   "total": 176,
+   "to_par": 34,
+   "note": null
+  }
+ ]
+}

@@ -34,19 +34,6 @@
    "to_par": null,
    "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934560110365308); matched player_key p_03469d83e127; rank as shown: 2位; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
    "player_key": "p_03469d83e127"
-  },
-  {
-   "rank": "1",
-   "player_name": "植木 祥多",
-   "school": "埼玉栄高等学校",
-   "school_prefecture": "埼玉県",
-   "grade": 3,
-   "amateur": true,
-   "rounds": [],
-   "total": null,
-   "to_par": null,
-   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577357343668); matched player_key p_138ce4e4ff03; rank as shown: 優勝; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
-   "player_key": "p_138ce4e4ff03"
   }
  ],
  "quality": {
@@ -56,7 +43,8 @@
    "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
    "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
    "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
-   "JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown"
+   "JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown",
+   "rows also in data/raw/jjga (same event, year and position) removed"
   ]
  }
 }

@@ -1,0 +1,168 @@
+{
+ "tournament": {
+  "id": "jjga-kodaira-cup-west-2022-girls-15-18",
+  "name": "2022年度 PALMAX presents 小平智カップ サマージュニアゴルフクラシック 西日本ブロック 決勝大会 15歳～18歳女子の部",
+  "name_en": "2022 PALMAX presents Satoshi Kodaira Cup Summer Junior Golf Classic West Japan final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": "2022-08-30",
+  "end_date": "2022-08-31",
+  "venue": "ザ・カントリークラブ",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6136,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2022/09/220901palmaxcup_west_FR_OUT_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2022/09/220901palmaxcup_west_FR_OUT_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 9,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/palmax_kodairacup2022_west_final_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "神谷 桃歌",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    72,
+    71
+   ],
+   "total": 143,
+   "to_par": -1,
+   "note": "tied on total, placed 1st per the PDF (tie-break method not stated)"
+  },
+  {
+   "rank": "2",
+   "player_name": "鈴木 らら",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    72,
+    71
+   ],
+   "total": 143,
+   "to_par": -1,
+   "note": null
+  },
+  {
+   "rank": "T3",
+   "player_name": "山際はるか",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    75,
+    75
+   ],
+   "total": 150,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "T3",
+   "player_name": "三浦 春舞",
+   "school": null,
+   "school_prefecture": "滋賀県",
+   "grade": 2,
+   "rounds": [
+    74,
+    76
+   ],
+   "total": 150,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "佐川 佳帆",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 2,
+   "rounds": [
+    83,
+    72
+   ],
+   "total": 155,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "森山 亜衣",
+   "school": null,
+   "school_prefecture": "滋賀県",
+   "grade": 1,
+   "rounds": [
+    78,
+    78
+   ],
+   "total": 156,
+   "to_par": 12,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "金谷 一希",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    80,
+    77
+   ],
+   "total": 157,
+   "to_par": 13,
+   "note": null
+  },
+  {
+   "rank": "8",
+   "player_name": "臼井 華帆",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    82,
+    79
+   ],
+   "total": 161,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "9",
+   "player_name": "髙橋 芽依",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    87,
+    82
+   ],
+   "total": 169,
+   "to_par": 25,
+   "note": null
+  }
+ ]
+}

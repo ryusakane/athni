@@ -1,0 +1,156 @@
+{
+ "tournament": {
+  "id": "jjga-junior-players-west-2016-girls-15-18",
+  "name": "2016年度 ジャパンジュニアプレーヤーズチャンピオンシップ西日本決勝大会 15歳～18歳女子の部",
+  "name_en": "2016 Japan Junior Players Championship West Japan final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2016,
+  "start_date": "2016-07-02",
+  "end_date": "2016-07-03",
+  "venue": "津カントリー倶楽部",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6311,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2016/07/FR_RESULTS.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2016/07/FR_RESULTS.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 8,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "2016 Jr. Players page (https://www.jjga.org/final/juniorplayers_2016) links both finals; FR_RESULTS.pdf is the West final (津CC).",
+   "The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.",
+   "Event page: https://www.jjga.org/final/juniorplayers_2016"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "大西 樹里",
+   "school": null,
+   "school_prefecture": "大阪府",
+   "grade": 3,
+   "rounds": [
+    75,
+    78
+   ],
+   "total": 153,
+   "to_par": 9,
+   "note": null
+  },
+  {
+   "rank": "2",
+   "player_name": "大林 奈央",
+   "school": null,
+   "school_prefecture": "兵庫県",
+   "grade": 2,
+   "rounds": [
+    82,
+    73
+   ],
+   "total": 155,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "寺西飛香留",
+   "school": null,
+   "school_prefecture": "和歌山県",
+   "grade": 1,
+   "rounds": [
+    81,
+    82
+   ],
+   "total": 163,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "長谷川茉衣",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    86,
+    79
+   ],
+   "total": 165,
+   "to_par": 21,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "佐野 円梨",
+   "school": null,
+   "school_prefecture": "兵庫県",
+   "grade": 2,
+   "rounds": [
+    88,
+    80
+   ],
+   "total": 168,
+   "to_par": 24,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "権 貞琳",
+   "school": null,
+   "school_prefecture": "京都府",
+   "grade": 3,
+   "rounds": [
+    89,
+    91
+   ],
+   "total": 180,
+   "to_par": 36,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "大村 桃葉",
+   "school": null,
+   "school_prefecture": "静岡県",
+   "grade": 1,
+   "rounds": [
+    92,
+    90
+   ],
+   "total": 182,
+   "to_par": 38,
+   "note": null
+  },
+  {
+   "rank": "T7",
+   "player_name": "中島 乃衣",
+   "school": null,
+   "school_prefecture": "大阪府",
+   "grade": 2,
+   "rounds": [
+    92,
+    90
+   ],
+   "total": 182,
+   "to_par": 38,
+   "note": null
+  }
+ ]
+}
