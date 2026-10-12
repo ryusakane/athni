@@ -64,9 +64,9 @@
 
 ## 2026-10-12 追加分 (選手本人の戦歴の照合)
 
-`raw/sakane/`: 阪根竜之介の戦歴 (本人提供) を1試合ずつ公開情報と照合した。出典と robots・規約は `raw/sakane/_sources.json`。大学の試合は Jacksonville University・FSU の公式発表 (judolphins.com、nolefan.org の FSU 成績PDF)、プロ・一般アマは pgatour.com・aacgolf.com、2015 年夏の全国高校選手権は nihon-kougoren.jp。公開情報が見つからなかった試合は本人申告として載せる。JJGA (石川遼カップ 2016) は規約で転載禁止のため照合だけして非公開。
+`raw/sakane/`: 阪根竜之介の戦歴 (本人提供) を1試合ずつ公開情報と照合した。出典と robots・規約は `raw/sakane/_sources.json`。大学の試合は Jacksonville University・FSU の公式発表 (judolphins.com、nolefan.org の FSU 成績PDF)、プロ・一般アマは pgatour.com・aacgolf.com、2015 年夏の全国高校選手権は nihon-kougoren.jp。公開情報が見つからなかった試合は本人申告として載せる。JJGA (石川遼カップ 2016) も公開 (2026-10-12 オーナー判断、事実のみ)。
 
-`raw/profiles_jga/`: JGA の選手プロフィール (主な戦歴) と日本アマチュアゴルフランキングの戦歴、WAGR のランキング。出典・robots・規約・照合の方法は `raw/profiles_jga/_sources.json`。jga.or.jp の利用規約 第4条は無断使用・複製を禁止。WAGR は出典と著作権表示を条件に順位の転載を認めている。JJGA のランキングは `raw/profiles_jjga/` (非公開)。
+`raw/profiles_jga/`: JGA の選手プロフィール (主な戦歴) と日本アマチュアゴルフランキングの戦歴、WAGR のランキング。出典・robots・規約・照合の方法は `raw/profiles_jga/_sources.json`。jga.or.jp の利用規約 第4条は無断使用・複製を禁止。WAGR は出典と著作権表示を条件に順位の転載を認めている。JJGA のランキングは `raw/profiles_jjga/` (2026-10-12 から公開、`reference/player_rankings.json` に入れた)。
 
 ## 未収集 (理由)
 
