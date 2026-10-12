@@ -1,0 +1,61 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev576c365b-2017-boys-12-14",
+  "name": "北海道ジュニアゴルフ選手権競技 12歳～14歳",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2017,
+  "start_date": "2017-07-26",
+  "end_date": "2017-07-27",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "2",
+   "player_name": "山本 詠太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 208343)); matched player_key p_1f236b4dde98",
+   "player_key": "p_1f236b4dde98"
+  },
+  {
+   "rank": "15",
+   "player_name": "島田 温太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140483)); matched player_key p_c4f588ed7c80",
+   "player_key": "p_c4f588ed7c80"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

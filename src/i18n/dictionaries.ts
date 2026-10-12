@@ -62,6 +62,7 @@ const en = {
     rankingSystems: { wagr: "World Amateur Golf Ranking (WAGR)", jga: "JGA ranking", jjga: "JJGA ranking" } as Record<string, string>,
     rankingAsOf: (date: string) => `as of ${date}`,
     rankingPoints: "points",
+    rankingWagrCredit: "World Amateur Golf Ranking® © R&A Rules Limited and the United States Golf Association. Source: wagr.com",
     nameNote:
       "English spellings of names and schools are romanized from Japanese results and may differ from the player's own spelling.",
   },
@@ -263,6 +264,7 @@ const ja: Dictionary = {
     rankingSystems: { wagr: "世界アマチュアゴルフランキング (WAGR)", jga: "JGA ランキング", jjga: "JJGA ランキング" },
     rankingAsOf: (date: string) => `${date} 時点`,
     rankingPoints: "ポイント",
+    rankingWagrCredit: "World Amateur Golf Ranking® © R&A Rules Limited and the United States Golf Association. 出典: wagr.com",
     nameNote:
       "選手名・学校名の英語表記は大会結果の日本語から作成したもので、本人の表記と異なる場合があります。",
   },

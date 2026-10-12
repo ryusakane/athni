@@ -49,6 +49,8 @@ export type Tournament = {
   gender: Gender | "mixed" | null;
   course_id: string | null;
   start_date: string;
+  /** How much of start_date is known; "year" and "month" dates are the 1st of the year or month. */
+  date_precision: "day" | "month" | "year";
   end_date: string | null;
   field_size: number | null;
   winning_score: number | null;

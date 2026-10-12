@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev11717a80-2025-boys-jhs",
+  "name": "ユニクロ日本ジュニアゴルフカップ20258地区対抗戦(男子個人)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2025,
+  "start_date": "2025-12-02",
+  "end_date": "2025-12-04",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "20",
+   "player_name": "織田 瑛太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    79,
+    77,
+    76
+   ],
+   "total": 232,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 725353)); matched player_key p_c577706356af; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_c577706356af"
+  },
+  {
+   "rank": "26",
+   "player_name": "宮浦 拓都",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    82,
+    82,
+    82
+   ],
+   "total": 246,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 827545)); matched player_key p_205acbef2bb6; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_205acbef2bb6"
+  },
+  {
+   "rank": "25",
+   "player_name": "白川 統太郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    85,
+    77,
+    79
+   ],
+   "total": 241,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 777080)); matched player_key p_46785dba31a4; team competition: the rank shown may be a team placing; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_46785dba31a4"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

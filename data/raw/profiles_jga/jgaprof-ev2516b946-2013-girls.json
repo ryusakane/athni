@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2516b946-2013-girls",
+  "name": "福島県総合体育大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2013,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934571149773502",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "3",
+   "player_name": "鈴木 磨夜",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934571149773502); matched player_key p_162f5fd66501; rank as shown: 3位",
+   "player_key": "p_162f5fd66501"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2019-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

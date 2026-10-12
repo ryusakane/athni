@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-eve1926832-2015-girls",
+  "name": "関西高等学校ゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "high_school",
+  "season_year": 2015,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934561284770720",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "5",
+   "player_name": "澤田 知佳",
+   "school": "ルネサンス大阪高等学校",
+   "school_prefecture": "大阪府",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934561284770720); matched player_key p_d8251c39b165; rank as shown: 5位; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_d8251c39b165"
+  },
+  {
+   "rank": "2",
+   "player_name": "大林 奈央",
+   "school": "兵庫県立網干",
+   "school_prefecture": "兵庫",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572793940585); matched player_key p_de9822f2a5a2; rank as shown: 2位; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_de9822f2a5a2"
+  },
+  {
+   "rank": "14",
+   "player_name": "平岡 瑠依",
+   "school": "大阪学芸",
+   "school_prefecture": "大阪府",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574740097946); matched player_key p_446fcd91ba19; rank as shown: 14位; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_446fcd91ba19"
+  },
+  {
+   "rank": "5",
+   "player_name": "仁井 優花",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934581820082714); matched player_key p_26e8dab8cc5c; rank as shown: 5位",
+   "player_key": "p_26e8dab8cc5c"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

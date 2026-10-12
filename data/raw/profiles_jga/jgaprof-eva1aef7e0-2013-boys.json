@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-eva1aef7e0-2013-boys",
+  "name": "中部高等学校ゴルフ選手権中学生大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "high_school",
+  "season_year": 2013,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934565445520178",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T2",
+   "player_name": "青山 晃大",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934565445520178); matched player_key p_c04c6324a5de; rank as shown: 2位 T",
+   "player_key": "p_c04c6324a5de"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2021-12-27; profile year column is 年度 as shown"
+  ]
+ }
+}

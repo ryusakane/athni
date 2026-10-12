@@ -1,0 +1,62 @@
+{
+ "tournament": {
+  "id": "jgaprof-eva1475259-2021-boys",
+  "name": "九州高等学校ゴルフ選手権春季大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "high_school",
+  "season_year": 2021,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934577692887637",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "藤井 太己",
+   "school": "長崎日本大学高等学校",
+   "school_prefecture": "長崎県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577692887637); matched player_key p_0a98fda6e180; rank as shown: 優勝; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_0a98fda6e180"
+  },
+  {
+   "rank": "T10",
+   "player_name": "大柿 天嵩",
+   "school": "長崎日本大学高等学校",
+   "school_prefecture": "長崎県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934578900847220); matched player_key p_29486ff13fda; rank as shown: 10位 T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_29486ff13fda"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-07-03; profile year column is 年度 as shown"
+  ]
+ }
+}

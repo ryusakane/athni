@@ -1,0 +1,101 @@
+{
+ "tournament": {
+  "id": "jgaprof-evd504b87d-2015-boys-12-14",
+  "name": "関東ジュニアゴルフ選手権 男子12～14歳の部",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2015,
+  "start_date": "2015-07-29",
+  "end_date": "2015-07-31",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T15",
+   "player_name": "林 恭平",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934566250826660); matched player_key p_009ec1aa9de8; rank as shown: 15位 T",
+   "player_key": "p_009ec1aa9de8"
+  },
+  {
+   "rank": "T19",
+   "player_name": "前田 光史朗",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567223904983); matched player_key p_9e6906bb530b; rank as shown: 19位 T",
+   "player_key": "p_9e6906bb530b"
+  },
+  {
+   "rank": "T15",
+   "player_name": "仲宗根 寛瑛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 76134)); matched player_key p_3998d641593e; rank as shown: 15T",
+   "player_key": "p_3998d641593e"
+  },
+  {
+   "rank": "T5",
+   "player_name": "田中 章太郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577256680331); matched player_key p_8fbc495b5d23; rank as shown: 5位 T",
+   "player_key": "p_8fbc495b5d23"
+  },
+  {
+   "rank": "23",
+   "player_name": "白井 陸",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 201682)); matched player_key p_9df98583310d",
+   "player_key": "p_9df98583310d"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

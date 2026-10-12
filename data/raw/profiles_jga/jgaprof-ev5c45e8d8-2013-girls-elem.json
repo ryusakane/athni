@@ -1,0 +1,89 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev5c45e8d8-2013-girls-elem",
+  "name": "関東小学生ゴルフ大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2013,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934559271504749",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T52",
+   "player_name": "市村 杏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934559271504749); matched player_key p_0e22939b8511; rank as shown: 52位 T",
+   "player_key": "p_0e22939b8511"
+  },
+  {
+   "rank": "T21",
+   "player_name": "西澤 歩未",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934559774820868); matched player_key p_5feaf97a1725; rank as shown: 21位 T",
+   "player_key": "p_5feaf97a1725"
+  },
+  {
+   "rank": "11",
+   "player_name": "和久井 麻由",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572122852180); matched player_key p_da24f1bc90b4; rank as shown: 11位",
+   "player_key": "p_da24f1bc90b4"
+  },
+  {
+   "rank": "21",
+   "player_name": "早川 夏未",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572458396649); matched player_key p_f52d37e1b170; rank as shown: 21位",
+   "player_key": "p_f52d37e1b170"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in elementary school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2026-06-19; profile year column is 年度 as shown"
+  ]
+ }
+}

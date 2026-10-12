@@ -8,7 +8,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { loadTournamentRows } from "@/lib/golf/browse";
 import {
   formatDate,
-  formatDateRange,
+  formatTournamentDate,
   formatNumber,
   formatPosition,
   formatToPar,
@@ -56,7 +56,7 @@ function TournamentDetail({
           label={dict.tournament.dates}
           value={
             <span className="text-base">
-              {formatDateRange(lang, tournament.start_date, tournament.end_date)}
+              {formatTournamentDate(lang, tournament)}
             </span>
           }
         />

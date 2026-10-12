@@ -8,6 +8,11 @@ alter table tournament_results
   add column source text not null default 'public' check (source in ('public', 'self_reported')),
   add column note text;
 
+-- How much of start_date is known: 'day', 'month' (the 1st of the month) or 'year' (January 1st).
+-- Results taken from player profiles often give only the year.
+alter table tournaments
+  add column date_precision text not null default 'day' check (date_precision in ('day', 'month', 'year'));
+
 -- A player's position in an amateur ranking (WAGR, JGA, ...) on a given date.
 create table player_rankings (
   id uuid primary key default gen_random_uuid(),

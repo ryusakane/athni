@@ -77,15 +77,16 @@ on conflict (id) do update set school_id = excluded.school_id, name_ja = exclude
   name_en = excluded.name_en, gender = excluded.gender, graduation_year = excluded.graduation_year,
   prefecture = excluded.prefecture;
 
-insert into tournaments (id, name_ja, name_en, organizer, level, gender, course_id, start_date, end_date, field_size,
-                         winning_score, source_url)
-select id, name_ja, name_en, organizer, level, gender, course_id, start_date, end_date, field_size, winning_score, source_url
+insert into tournaments (id, name_ja, name_en, organizer, level, gender, course_id, start_date, end_date, date_precision,
+                         field_size, winning_score, source_url)
+select id, name_ja, name_en, organizer, level, gender, course_id, start_date, end_date, date_precision, field_size,
+       winning_score, source_url
 from seed_src, jsonb_to_recordset(j->'tournaments')
   as r(id uuid, name_ja text, name_en text, organizer text, level text, gender text, course_id uuid, start_date date,
-       end_date date, field_size int, winning_score int, source_url text)
+       end_date date, date_precision text, field_size int, winning_score int, source_url text)
 on conflict (id) do update set name_ja = excluded.name_ja, name_en = excluded.name_en, organizer = excluded.organizer,
   level = excluded.level, gender = excluded.gender, course_id = excluded.course_id, start_date = excluded.start_date,
-  end_date = excluded.end_date, field_size = excluded.field_size, winning_score = excluded.winning_score,
+  end_date = excluded.end_date, date_precision = excluded.date_precision, field_size = excluded.field_size, winning_score = excluded.winning_score,
   source_url = excluded.source_url;
 
 insert into tournament_results (id, tournament_id, player_id, position, tied, total_score, to_par, rank_percentile, status,

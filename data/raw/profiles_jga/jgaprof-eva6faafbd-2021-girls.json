@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-eva6faafbd-2021-girls",
+  "name": "サントリーレディスオープン",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2021,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934576585591400",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "益田 世梨",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576585591400); matched player_key p_65f61ccef4c1; rank as shown: CUT",
+   "player_key": "p_65f61ccef4c1"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2024-09-29; profile year column is 年度 as shown"
+  ]
+ }
+}

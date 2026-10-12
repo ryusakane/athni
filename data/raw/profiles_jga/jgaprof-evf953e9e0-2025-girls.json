@@ -1,0 +1,85 @@
+{
+ "tournament": {
+  "id": "jgaprof-evf953e9e0-2025-girls",
+  "name": "2025年度 文部科学大臣楯争奪 (第46回) 全国中学校ゴルフ選手権春季大会【女子の部】",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2025,
+  "start_date": "2026-03-18",
+  "end_date": "2026-03-20",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "三浦 由楽",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    84,
+    82
+   ],
+   "total": 166,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 1129017)); matched player_key p_cf94e0b129e8; rank as shown: CUT; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_cf94e0b129e8"
+  },
+  {
+   "rank": "T25",
+   "player_name": "磯﨑 玲杏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    84,
+    72,
+    77
+   ],
+   "total": 233,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 771843)); matched player_key p_5fb69cbb9158; rank as shown: 25T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_5fb69cbb9158"
+  },
+  {
+   "rank": "cut",
+   "player_name": "中村 友里愛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    86,
+    80
+   ],
+   "total": 166,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 682626)); matched player_key p_77445924b56d; rank as shown: CUT; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_77445924b56d"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

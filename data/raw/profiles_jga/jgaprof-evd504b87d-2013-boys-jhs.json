@@ -1,0 +1,141 @@
+{
+ "tournament": {
+  "id": "jgaprof-evd504b87d-2013-boys-jhs",
+  "name": "関東ジュニアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2013,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934562660502315",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "岩富 凱也",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934562660502315); matched player_key p_e8899871361d; rank as shown: CUT",
+   "player_key": "p_e8899871361d"
+  },
+  {
+   "rank": "2",
+   "player_name": "鈴木 敬太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934568196983381); matched player_key p_2a2589c1f7d2; rank as shown: 2位",
+   "player_key": "p_2a2589c1f7d2"
+  },
+  {
+   "rank": "14",
+   "player_name": "内田 直輝",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934573934791367); matched player_key p_3e1eaa4bd2e9; rank as shown: 14位",
+   "player_key": "p_3e1eaa4bd2e9"
+  },
+  {
+   "rank": "20",
+   "player_name": "平川 陸斗",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574740097945); matched player_key p_5d087e54916f; rank as shown: 20位",
+   "player_key": "p_5d087e54916f"
+  },
+  {
+   "rank": "4",
+   "player_name": "呉 司聡",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576015166323); matched player_key p_9717408aa69e; rank as shown: 4位",
+   "player_key": "p_9717408aa69e"
+  },
+  {
+   "rank": "T11",
+   "player_name": "石坂 友宏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577994877669); matched player_key p_6e5ad5f1e317; rank as shown: 11位 T",
+   "player_key": "p_6e5ad5f1e317"
+  },
+  {
+   "rank": "6",
+   "player_name": "村上 拓海",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934578598857707); matched player_key p_906db9e7bb44; rank as shown: 6位",
+   "player_key": "p_906db9e7bb44"
+  },
+  {
+   "rank": "1",
+   "player_name": "羽藤 勇司",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934580243024561); matched player_key p_2ba14a489235; rank as shown: 優勝",
+   "player_key": "p_2ba14a489235"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown"
+  ]
+ }
+}

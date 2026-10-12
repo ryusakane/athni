@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-evdc75f4cd-2023-boys",
+  "name": "千葉県アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2023,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934575310523003",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "5",
+   "player_name": "澤田 竜成",
+   "school": "千葉黎明高等学校",
+   "school_prefecture": "千葉県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575310523003); matched player_key p_304293aa6182; rank as shown: 5位; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_304293aa6182"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-08-29; profile year column is 年度 as shown"
+  ]
+ }
+}

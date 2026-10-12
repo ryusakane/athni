@@ -1,0 +1,87 @@
+{
+ "tournament": {
+  "id": "jgaprof-evb09ae6c2-2022-girls",
+  "name": "全国女子大学対抗戦",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2022,
+  "start_date": "2022-06-22",
+  "end_date": "2022-06-23",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "2",
+   "player_name": "市村  杏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140655)); matched player_key p_0e22939b8511; team competition: the rank shown may be a team placing; 団体順位 2位",
+   "player_key": "p_0e22939b8511"
+  },
+  {
+   "rank": "1",
+   "player_name": "橋本 美月",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 205904)); matched player_key p_3b1ea031a431; team competition: the rank shown may be a team placing",
+   "player_key": "p_3b1ea031a431"
+  },
+  {
+   "rank": "2",
+   "player_name": "櫻井 梨央",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140831)); matched player_key p_646bc63496a6; team competition: the rank shown may be a team placing",
+   "player_key": "p_646bc63496a6"
+  },
+  {
+   "rank": "2",
+   "player_name": "松永 七海",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 205356)); matched player_key p_c3e47f36ba99; team competition: the rank shown may be a team placing",
+   "player_key": "p_c3e47f36ba99"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

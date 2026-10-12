@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2bc1c6dd-2021-girls",
+  "name": "リゾートトラストレディス",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934560177474194",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "66",
+   "player_name": "手塚 彩馨",
+   "school": "佐久長聖高等学校",
+   "school_prefecture": "長野県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934560177474194); matched player_key p_5016b4d8357b; rank as shown: 66位; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_5016b4d8357b"
+  },
+  {
+   "rank": "cut",
+   "player_name": "花渕 里帆",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574672989064); matched player_key p_663e01b89e4d; rank as shown: CUT 117位",
+   "player_key": "p_663e01b89e4d"
+  },
+  {
+   "rank": "cut",
+   "player_name": "岡田 梨沙",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575209859667); matched player_key p_a326f8962cbe; rank as shown: CUT 107位 T",
+   "player_key": "p_a326f8962cbe"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-06-20; profile year column is 年度 as shown"
+  ]
+ }
+}

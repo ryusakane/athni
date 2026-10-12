@@ -1,0 +1,76 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev6dab5e0f-2021-boys-jhs",
+  "name": "中部中学校ゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2021,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934575109196332",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "7",
+   "player_name": "長屋 琉斗",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575109196332); matched player_key p_53bf13e56c87; rank as shown: 7位",
+   "player_key": "p_53bf13e56c87"
+  },
+  {
+   "rank": "10",
+   "player_name": "梅田 琉偉",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575511849673); matched player_key p_cc9d3dab077a; rank as shown: 10位",
+   "player_key": "p_cc9d3dab077a"
+  },
+  {
+   "rank": "2",
+   "player_name": "藤原 遼生",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577726442082); matched player_key p_a71331d4cdbd; rank as shown: 2位",
+   "player_key": "p_a71331d4cdbd"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2026-08-21; profile year column is 年度 as shown"
+  ]
+ }
+}

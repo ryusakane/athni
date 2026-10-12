@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-evf5934d9f-2012-girls",
+  "name": "タイムス杯ゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2012,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934562962492306",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "2",
+   "player_name": "新垣 比菜",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934562962492306); matched player_key p_c7e025aa6b64; rank as shown: 2位",
+   "player_key": "p_c7e025aa6b64"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-10-05; profile year column is 年度 as shown"
+  ]
+ }
+}

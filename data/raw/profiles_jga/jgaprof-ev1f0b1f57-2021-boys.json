@@ -1,0 +1,114 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1f0b1f57-2021-boys",
+  "name": "中部学生ゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": "2021-08-05",
+  "end_date": "2021-08-06",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "青山 晃大",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934565445520178); matched player_key p_c04c6324a5de; rank as shown: 優勝",
+   "player_key": "p_c04c6324a5de"
+  },
+  {
+   "rank": "T4",
+   "player_name": "長谷川 貴優",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577827105421); matched player_key p_a72afb416855; rank as shown: 4位 T",
+   "player_key": "p_a72afb416855"
+  },
+  {
+   "rank": "8",
+   "player_name": "久木 匠登",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577894214321); matched player_key p_79992389675d; rank as shown: 8位",
+   "player_key": "p_79992389675d"
+  },
+  {
+   "rank": "4",
+   "player_name": "水田 竜昇",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934578565303253); matched player_key p_ff133ac3c70b; rank as shown: 4位; 団体順位 優勝",
+   "player_key": "p_ff133ac3c70b"
+  },
+  {
+   "rank": "7",
+   "player_name": "中嶋 太造",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 71880)); matched player_key p_d85987107f11",
+   "player_key": "p_d85987107f11"
+  },
+  {
+   "rank": "12",
+   "player_name": "清水 大翔",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934579135728365); matched player_key p_881361937f90; rank as shown: 12位",
+   "player_key": "p_881361937f90"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

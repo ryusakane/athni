@@ -1,0 +1,95 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev8a6311c7-2024-girls",
+  "name": "第28回 日本女子ミッドアマチュア選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2024,
+  "start_date": "2024-11-07",
+  "end_date": "2024-11-08",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "28",
+   "player_name": "金岡 杏実",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934559372168080); matched player_key p_0e55f5642d90; rank as shown: 28位",
+   "player_key": "p_0e55f5642d90"
+  },
+  {
+   "rank": "3",
+   "player_name": "松尾 奏",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    73,
+    73
+   ],
+   "total": 146,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 200594)); matched player_key p_411997a61a80; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_411997a61a80"
+  },
+  {
+   "rank": "T10",
+   "player_name": "髙橋 夏奈",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934573867682484); matched player_key p_724d634d27bf; rank as shown: 10位 T",
+   "player_key": "p_724d634d27bf"
+  },
+  {
+   "rank": "123",
+   "player_name": "鈴木 美穂",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    88,
+    96
+   ],
+   "total": 184,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 977394)); matched player_key p_051a248c3190; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_051a248c3190"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

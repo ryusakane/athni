@@ -1,54 +1,55 @@
 {
- "tournament": {
-  "id": "sakane-kanto-hs-tokyo-2014",
-  "name": "関東高等学校ゴルフ選手権 東京都大会 (2014)",
-  "name_en": "Kanto High School Golf Championship, Tokyo qualifier",
-  "organizer": "関東高等学校・中学校ゴルフ連盟",
-  "event_type": "high_school",
-  "season_year": 2014,
-  "start_date": "2014-01-01",
-  "end_date": null,
-  "venue": null,
-  "venue_prefecture": null,
-  "level": "prefectural",
-  "region": "kanto",
-  "category": "boys",
-  "format": "individual",
-  "par": null,
-  "yardage": null,
-  "round_holes": null,
-  "source_url": null,
-  "result_pdf_urls": [],
-  "field_size_total": null
- },
- "quality": {
-  "complete": false,
-  "rows_expected": null,
-  "issues": [
-   "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
-   "Results are published only on k-hga.jp, whose terms require the federation's consent for reuse; per instructions the site was NOT fetched. Grade not stated in the claim (he was a 1st-year in 2014 if class of 2017).",
-   "date unknown; year from the player's record"
+  "tournament": {
+    "id": "sakane-kanto-hs-tokyo-2014",
+    "name": "関東高等学校ゴルフ選手権 東京都大会 (2014)",
+    "name_en": "Kanto High School Golf Championship, Tokyo qualifier",
+    "organizer": "関東高等学校・中学校ゴルフ連盟",
+    "event_type": "high_school",
+    "season_year": 2014,
+    "start_date": "2014-01-01",
+    "end_date": null,
+    "venue": null,
+    "venue_prefecture": null,
+    "level": "prefectural",
+    "region": "kanto",
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": null,
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null,
+    "date_precision": "year"
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "Results are published only on k-hga.jp, whose terms require the federation's consent for reuse; per instructions the site was NOT fetched. Grade not stated in the claim (he was a 1st-year in 2014 if class of 2017).",
+      "date unknown; year from the player's record"
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [],
+    "matches_claim": null,
+    "claim": "2014 Kanto High School Golf Championship Tokyo Metropolis Tournament 1st place",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "1",
+      "player_name": "阪根竜之介",
+      "school": "国士舘",
+      "school_prefecture": "東京都",
+      "grade": null,
+      "amateur": true,
+      "rounds": [],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source."
+    }
   ]
- },
- "verification": {
-  "status": "self_reported",
-  "public_urls": [],
-  "matches_claim": null,
-  "claim": "2014 Kanto High School Golf Championship Tokyo Metropolis Tournament 1st place",
-  "differences": null
- },
- "results": [
-  {
-   "rank": "1",
-   "player_name": "阪根竜之介",
-   "school": "国士舘",
-   "school_prefecture": "東京都",
-   "grade": null,
-   "amateur": true,
-   "rounds": [],
-   "total": null,
-   "to_par": null,
-   "note": "Values copied from his resume (claim), not from a public source."
-  }
- ]
 }

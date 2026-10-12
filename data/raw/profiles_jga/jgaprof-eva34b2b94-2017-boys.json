@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-eva34b2b94-2017-boys",
+  "name": "東京都高等学校ゴルフ選手権春季大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "high_school",
+  "season_year": 2017,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934560244583082",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "7",
+   "player_name": "和田 歩",
+   "school": "杉並学院高等学校",
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934560244583082); matched player_key p_e764ef4ba5d3; rank as shown: 7位; 団体順位 優勝; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_e764ef4ba5d3"
+  },
+  {
+   "rank": "5",
+   "player_name": "奥山 大地",
+   "school": "杉並学院高等学校",
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934561586760701); matched player_key p_1697f0ef0afa; rank as shown: 5位; school/grade/prefecture from players.csv (graduation_year 2019), not shown on the profile",
+   "player_key": "p_1697f0ef0afa"
+  },
+  {
+   "rank": "3",
+   "player_name": "出水田 裕輝",
+   "school": "杉並学院高等学校",
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934563264481804); matched player_key p_62eb5be6bfc0; rank as shown: 3位; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_62eb5be6bfc0"
+  },
+  {
+   "rank": "6",
+   "player_name": "川上 猛鳴",
+   "school": "堀越",
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934578196204326); matched player_key p_e20d97ac9585; rank as shown: 6位; 団体順位 3位; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_e20d97ac9585"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2023-10-15; profile year column is 年度 as shown"
+  ]
+ }
+}

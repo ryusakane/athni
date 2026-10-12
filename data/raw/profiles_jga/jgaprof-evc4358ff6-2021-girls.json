@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-evc4358ff6-2021-girls",
+  "name": "ヤマハレディースオープン葛城",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2021,
+  "start_date": "2022-03-31",
+  "end_date": "2022-04-03",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "5",
+   "player_name": "上田 澪空",
+   "school": "共立女子第二高等学校",
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 485176)); matched player_key p_b05e13d360be; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_b05e13d360be"
+  },
+  {
+   "rank": "cut",
+   "player_name": "勝亦 令奈",
+   "school": "暁秀",
+   "school_prefecture": "静岡県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574907870162); matched player_key p_0f51682afdf8; rank as shown: CUT 116位; school/grade/prefecture from players.csv (graduation_year 2023), not shown on the profile",
+   "player_key": "p_0f51682afdf8"
+  },
+  {
+   "rank": "60",
+   "player_name": "神谷 そら",
+   "school": "麗澤瑞浪高等学校",
+   "school_prefecture": "岐阜県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576350710770); matched player_key p_cc9e376c34e1; rank as shown: 60位; school/grade/prefecture from players.csv (graduation_year 2022), not shown on the profile",
+   "player_key": "p_cc9e376c34e1"
+  },
+  {
+   "rank": "cut",
+   "player_name": "與語 優奈",
+   "school": "ECC学園高等学校",
+   "school_prefecture": "滋賀県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582591835007); matched player_key p_820e783e60be; rank as shown: CUT 102位 T; school/grade/prefecture from players.csv (graduation_year 2023), not shown on the profile",
+   "player_key": "p_820e783e60be"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

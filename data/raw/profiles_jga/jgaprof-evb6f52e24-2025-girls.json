@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-evb6f52e24-2025-girls",
+  "name": "Taiwan  Women's Amateur Championship",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-04-22",
+  "end_date": "2025-04-25",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T14",
+   "player_name": "斎藤 碧夏",
+   "school": "札幌光星高等学校",
+   "school_prefecture": "北海道",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 544400)); matched player_key p_21e05942b0c8; rank as shown: 14T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_21e05942b0c8"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

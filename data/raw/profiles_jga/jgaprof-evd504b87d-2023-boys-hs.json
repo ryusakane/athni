@@ -1,0 +1,115 @@
+{
+ "tournament": {
+  "id": "jgaprof-evd504b87d-2023-boys-hs",
+  "name": "関東ジュニアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2023,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934568062765600",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "21",
+   "player_name": "渋井 晃太郎",
+   "school": "ルネサンス高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934568062765600); matched player_key p_879d2689d366; rank as shown: 21位; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_879d2689d366"
+  },
+  {
+   "rank": "41",
+   "player_name": "中山 真尋",
+   "school": "立教池袋高等学校",
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570579348430); matched player_key p_b8b66e18c3cc; rank as shown: 41位; school/grade/prefecture from players.csv (graduation_year 2025), not shown on the profile",
+   "player_key": "p_b8b66e18c3cc"
+  },
+  {
+   "rank": "T32",
+   "player_name": "小林 麟太郎",
+   "school": "早稲田大学系属早稲田実業学校高等部",
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934574941424614); matched player_key p_d94377abe4d6; rank as shown: 32位 T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_d94377abe4d6"
+  },
+  {
+   "rank": "T21",
+   "player_name": "堀 鉄平",
+   "school": "明秀学園日立高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577894214328); matched player_key p_3fc2e898819d; rank as shown: 21位 T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_3fc2e898819d"
+  },
+  {
+   "rank": "T27",
+   "player_name": "杉森 拓斗",
+   "school": "水戸啓明高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934579269946124); matched player_key p_93fbb9613822; rank as shown: 27位 T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_93fbb9613822"
+  },
+  {
+   "rank": "T34",
+   "player_name": "鈴木 柚生",
+   "school": "茨城県立土浦第二高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582189181642); matched player_key p_6f7262edef31; rank as shown: 34位 T; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_6f7262edef31"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2025-08-22; profile year column is 年度 as shown"
+  ]
+ }
+}

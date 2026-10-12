@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev7236ef77-2022-boys-jhs",
+  "name": "2022年北海道ジュニア12-14男子",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": "2022-07-26",
+  "end_date": "2022-07-27",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "西山 陽斗",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 212116)); matched player_key p_72cfdc309bed",
+   "player_key": "p_72cfdc309bed"
+  },
+  {
+   "rank": "2",
+   "player_name": "ゴヴォロヴスキー 遼河",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 513312)); matched player_key p_1ffd6a1fbdce",
+   "player_key": "p_1ffd6a1fbdce"
+  },
+  {
+   "rank": "T4",
+   "player_name": "宇苗 蒼空",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 822534)); matched player_key p_c6ef86fea92d; rank as shown: 4T",
+   "player_key": "p_c6ef86fea92d"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)"
+  ]
+ }
+}

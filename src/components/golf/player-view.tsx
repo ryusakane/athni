@@ -9,6 +9,7 @@ import { getDictionary } from "@/i18n/dictionaries";
 import { loadPlayerRows } from "@/lib/golf/browse";
 import {
   formatDate,
+  formatTournamentDate,
   formatNumber,
   formatPosition,
   formatToPar,
@@ -115,6 +116,9 @@ function PlayerDetail({
               </li>
             ))}
           </ul>
+          {rankings.some((r) => r.system === "wagr") && (
+            <p className="mt-2 text-xs text-foreground/50">{dict.player.rankingWagrCredit}</p>
+          )}
         </>
       )}
 
@@ -145,7 +149,7 @@ function PlayerDetail({
                     {localizedName(lang, tournament).primary}
                   </Link>
                   <div className="text-xs text-foreground/60">
-                    {formatDate(lang, tournament.start_date)}
+                    {formatTournamentDate(lang, tournament)}
                     {course && ` · ${localizedName(lang, course).primary}`}
                   </div>
                   {result.source === "self_reported" && (

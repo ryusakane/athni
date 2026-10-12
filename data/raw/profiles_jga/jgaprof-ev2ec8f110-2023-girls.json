@@ -1,0 +1,48 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2ec8f110-2023-girls",
+  "name": "第39回伊藤園レディスゴルフトーナメント",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2023,
+  "start_date": "2023-11-10",
+  "end_date": "2023-11-12",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T10",
+   "player_name": "中嶋 月葉",
+   "school": "作陽学園高等学校",
+   "school_prefecture": "岡山県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 212609)); matched player_key p_ec8739fc8971; rank as shown: 10T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile",
+   "player_key": "p_ec8739fc8971"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years"
+  ]
+ }
+}

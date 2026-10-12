@@ -1,0 +1,50 @@
+{
+ "tournament": {
+  "id": "jgaprof-evaea299ef-2022-boys-jhs",
+  "name": "九州中学校ゴルフ選手権チャレンジゴルフ",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934579672599481",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "山本 大勢",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934579672599481); matched player_key p_b46d0d7494f3; rank as shown: 優勝",
+   "player_key": "p_b46d0d7494f3"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2022-08-19; profile year column is 年度 as shown"
+  ]
+ }
+}

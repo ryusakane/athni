@@ -1,0 +1,90 @@
+{
+ "tournament": {
+  "id": "jgaprof-evee80226d-2025-girls",
+  "name": "Women's World Amateur Golf Team Championship",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-10-01",
+  "end_date": "2025-10-04",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T54",
+   "player_name": "岩永 杏奈",
+   "school": "大阪桐蔭高等学校",
+   "school_prefecture": "大阪府",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    74,
+    75,
+    73,
+    74
+   ],
+   "total": 296,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 623137)); matched player_key p_6da6bd5e2422; rank as shown: 54T; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_6da6bd5e2422"
+  },
+  {
+   "rank": "T5",
+   "player_name": "長澤 愛羅",
+   "school": "ルネサンス高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    68,
+    69,
+    72,
+    72
+   ],
+   "total": 281,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 707001)); matched player_key p_334b18d2f796; rank as shown: 5T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_334b18d2f796"
+  },
+  {
+   "rank": "T43",
+   "player_name": "新地 真美夏",
+   "school": "共立女子第二高等学校",
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [
+    75,
+    72,
+    70,
+    75
+   ],
+   "total": 292,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 594452)); matched player_key p_28b2e59ee9b5; rank as shown: 43T; school/grade/prefecture from players.csv (graduation_year 2026), not shown on the profile; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_28b2e59ee9b5"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

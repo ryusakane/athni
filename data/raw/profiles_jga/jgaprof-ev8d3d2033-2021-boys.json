@@ -1,0 +1,101 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev8d3d2033-2021-boys",
+  "name": "朝日杯争奪日本学生ゴルフ選手権(男子)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": "2021-10-26",
+  "end_date": "2021-10-27",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T53",
+   "player_name": "仲宗根 寛瑛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 76134)); matched player_key p_3998d641593e; rank as shown: 53T",
+   "player_key": "p_3998d641593e"
+  },
+  {
+   "rank": "T20",
+   "player_name": "服部 雅也",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934569438497318); matched player_key p_7772db7be3ea; rank as shown: 20位 T",
+   "player_key": "p_7772db7be3ea"
+  },
+  {
+   "rank": "T58",
+   "player_name": "中嶋 太造",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 71880)); matched player_key p_d85987107f11; rank as shown: 58T",
+   "player_key": "p_d85987107f11"
+  },
+  {
+   "rank": "cut",
+   "player_name": "塚原 悠斗",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582424062761); matched player_key p_140ffa01ea4a; rank as shown: CUT 61位 T",
+   "player_key": "p_140ffa01ea4a"
+  },
+  {
+   "rank": "T80",
+   "player_name": "中川 拓海",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 136239)); matched player_key p_5c1e0db148e1; rank as shown: 80T",
+   "player_key": "p_5c1e0db148e1"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

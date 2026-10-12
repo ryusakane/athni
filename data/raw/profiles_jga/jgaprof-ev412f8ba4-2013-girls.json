@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev412f8ba4-2013-girls",
+  "name": "中国女子アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2013,
+  "start_date": "2013-05-23",
+  "end_date": "2013-05-24",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T15",
+   "player_name": "渋野 日向子",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934564069788461); matched player_key p_74b3d5c666ba; rank as shown: 15位 T",
+   "player_key": "p_74b3d5c666ba"
+  },
+  {
+   "rank": "T54",
+   "player_name": "梶谷 翼",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140394)); matched player_key p_79eb692f04ea; rank as shown: 54T",
+   "player_key": "p_79eb692f04ea"
+  },
+  {
+   "rank": "T5",
+   "player_name": "須江 唯加",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582658943897); matched player_key p_2e8fa54afd4c; rank as shown: 5位 T",
+   "player_key": "p_2e8fa54afd4c"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

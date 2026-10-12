@@ -1,0 +1,50 @@
+{
+ "tournament": {
+  "id": "jgaprof-evd53d48c8-2017-girls-hs",
+  "name": "JJGAジュニアプレーヤーズ西日本決勝",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2017,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934577390898123",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "3",
+   "player_name": "八木 涼風",
+   "school": "箕面自由学園",
+   "school_prefecture": "大阪府",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577390898123); matched player_key p_0fdae45bb306; rank as shown: 3位; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_0fdae45bb306"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown"
+  ]
+ }
+}

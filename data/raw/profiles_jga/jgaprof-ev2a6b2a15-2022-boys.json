@@ -1,0 +1,101 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev2a6b2a15-2022-boys",
+  "name": "岐阜県アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2022,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934562224294544",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "12",
+   "player_name": "中川 瑛太",
+   "school": "岐阜聖徳学園高等学校",
+   "school_prefecture": "岐阜県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934562224294544); matched player_key p_e714baf76f95; rank as shown: 12位; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_e714baf76f95"
+  },
+  {
+   "rank": "T17",
+   "player_name": "水谷 海琉",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567458786088); matched player_key p_62f8d070de73 (same person also as p_17f12facbdc5 in players.csv); rank as shown: 17位 T",
+   "player_key": "p_62f8d070de73"
+  },
+  {
+   "rank": "23",
+   "player_name": "長屋 琉斗",
+   "school": "岐阜県立岐阜城北高等学校",
+   "school_prefecture": "岐阜県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575109196332); matched player_key p_53bf13e56c87; rank as shown: 23位; school/grade/prefecture from players.csv (graduation_year 2025), not shown on the profile",
+   "player_key": "p_53bf13e56c87"
+  },
+  {
+   "rank": "T30",
+   "player_name": "上田 涼真",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575478295236); matched player_key p_88591d7275bb; rank as shown: 30位 T",
+   "player_key": "p_88591d7275bb"
+  },
+  {
+   "rank": "3",
+   "player_name": "永田 丞",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576753363635); matched player_key p_31cab21677fb; rank as shown: 3位",
+   "player_key": "p_31cab21677fb"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-21; profile year column is 年度 as shown"
+  ]
+ }
+}

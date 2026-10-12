@@ -1,0 +1,50 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev7f1e4826-2015-boys-hs",
+  "name": "ブリヂストンジュニアトーナメントチャンピオンシップ",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2015,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934577994877669",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "17",
+   "player_name": "石坂 友宏",
+   "school": "日本ウェルネス高等学校",
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577994877669); matched player_key p_6e5ad5f1e317; rank as shown: 17位; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_6e5ad5f1e317"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown"
+  ]
+ }
+}

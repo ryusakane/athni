@@ -1,0 +1,126 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1abf801b-2025-boys",
+  "name": "Asia Pacific Amateur Championship",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2025,
+  "start_date": "2025-10-23",
+  "end_date": "2025-10-26",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T42",
+   "player_name": "松山 茉生",
+   "school": "福井工業大学附属福井高等学校",
+   "school_prefecture": "福井県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [
+    71,
+    76,
+    73,
+    73
+   ],
+   "total": 293,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 538152)); matched player_key p_6f36d9679ef9; rank as shown: 42T; school/grade/prefecture from players.csv (graduation_year 2027), not shown on the profile; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_6f36d9679ef9"
+  },
+  {
+   "rank": "T19",
+   "player_name": "小林 翔音",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    72,
+    72,
+    72,
+    69
+   ],
+   "total": 285,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 207847)); matched player_key p_72753c283d77; rank as shown: 19T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_72753c283d77"
+  },
+  {
+   "rank": "T21",
+   "player_name": "小林 匠",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    69,
+    75,
+    70,
+    72
+   ],
+   "total": 286,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 418419)); matched player_key p_9ac2195412b2; rank as shown: 21T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_9ac2195412b2"
+  },
+  {
+   "rank": "2",
+   "player_name": "長﨑 大星",
+   "school": "勇志国際高等学校",
+   "school_prefecture": "宮崎県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [
+    67,
+    67,
+    65,
+    74
+   ],
+   "total": 273,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 971902)); matched player_key p_88fd65d9723b; school/grade/prefecture from players.csv (graduation_year 2028), not shown on the profile; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_88fd65d9723b"
+  },
+  {
+   "rank": "T38",
+   "player_name": "隅内 雅人",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    71,
+    76,
+    73,
+    73
+   ],
+   "total": 293,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 209987)); matched player_key p_50238130118e; rank as shown: 38T; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_50238130118e"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

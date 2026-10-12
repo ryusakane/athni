@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1d0afdfc-2023-boys",
+  "name": "アジア競技大会(男子)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2023,
+  "start_date": "2023-09-28",
+  "end_date": "2023-10-01",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "24",
+   "player_name": "出利葉 太一郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577927768772); matched player_key p_570c16ac6e75; rank as shown: 24位; 団体順位 4位",
+   "player_key": "p_570c16ac6e75"
+  },
+  {
+   "rank": "T25",
+   "player_name": "本 大志",
+   "school": "目黒日本大学高等学校",
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 76182)); matched player_key p_5ffbdf767c29; rank as shown: 25T; 団体順位 4位; school/grade/prefecture from players.csv (graduation_year 2024), not shown on the profile",
+   "player_key": "p_5ffbdf767c29"
+  },
+  {
+   "rank": "T6",
+   "player_name": "隅内 雅人",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 209987)); matched player_key p_50238130118e; rank as shown: 6T",
+   "player_key": "p_50238130118e"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-08-30; profile year column is 年度 as shown"
+  ]
+ }
+}

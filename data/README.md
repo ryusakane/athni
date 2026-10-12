@@ -68,6 +68,7 @@ data/
 
 - 一般アマ・プロ大会 (日本アマ、地区オープン等) は高校生の行だけを書き起こしている。`position` は大会全体での順位、`field_size`・`percentile` は大会全体の人数 (`field_size_total`) で計算し、優勝者が高校生でない大会では `strokes_behind_winner` は空。
 - 選手本人の戦歴 (`raw/sakane/` など): 1試合1ファイルで本人の行だけ。ファイル先頭の `verification` に照合結果 (`status`: public / self_reported、公開URL、戦歴との差異) を書く。`self_reported` のファイルは `tournament_results.source = 'self_reported'` になり、サイトでは「本人申告」と表示し、通算成績に数えない。本人の行しかない大会は `field_size`・`percentile`・優勝スコアを空にする (`field_size_total` があればそれを使う)。順位が数字でない結果 (Best 64 など) は行の `display_note` に書き、`note` 列に入る。
+- 選手プロフィールの戦歴 (`raw/profiles_jga/`): 1大会×年×部門ごとに照合済みの選手の行だけ。各行の `player_key` の選手に付ける (名寄せし直さない)。日付がない大会は `season_year` の1月1日、`date_precision = year`。
 - `position`/`tied`: 「T3」は position=3, tied=true。予選落ちは status=cut, position 空。
 - `graduation_year`: 学年と大会日付から算出 (4月始まりの学年度。3年生の夏 2025 → 卒業 2026年3月 = 2026)。
 - `differential`: WHS 方式 `113 / slope × (score − course rating)`。コースレート・スロープがわかるラウンドだけ。9ホールのラウンドは空。

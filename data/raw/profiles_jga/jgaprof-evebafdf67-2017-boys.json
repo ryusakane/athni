@@ -1,0 +1,88 @@
+{
+ "tournament": {
+  "id": "jgaprof-evebafdf67-2017-boys",
+  "name": "岐阜オープンクラシック",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2017,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934564505996251",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "cut",
+   "player_name": "湯原 光",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934564505996251); matched player_key p_fa4ecba4b985; rank as shown: CUT 130位",
+   "player_key": "p_fa4ecba4b985"
+  },
+  {
+   "rank": "79",
+   "player_name": "北國 譲斗志",
+   "school": "ルネサンス大阪高等学校",
+   "school_prefecture": "大阪府",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934564942203528); matched player_key p_9b5498246239; rank as shown: 79位; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_9b5498246239"
+  },
+  {
+   "rank": "18",
+   "player_name": "織田 信亮",
+   "school": "福井工業大学附属福井高等学校",
+   "school_prefecture": "福井県",
+   "grade": 3,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572793940586); matched player_key p_4a5e8fda34a9; rank as shown: 18位; 備考 サードアマ; school/grade/prefecture from players.csv (graduation_year 2018), not shown on the profile",
+   "player_key": "p_4a5e8fda34a9"
+  },
+  {
+   "rank": "T64",
+   "player_name": "長谷川 貴優",
+   "school": "各務原",
+   "school_prefecture": "岐阜県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934577827105421); matched player_key p_a72afb416855; rank as shown: 64位 T; school/grade/prefecture from players.csv (graduation_year 2020), not shown on the profile",
+   "player_key": "p_a72afb416855"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown"
+  ]
+ }
+}

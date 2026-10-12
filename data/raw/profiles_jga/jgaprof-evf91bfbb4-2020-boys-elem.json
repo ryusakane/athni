@@ -1,0 +1,115 @@
+{
+ "tournament": {
+  "id": "jgaprof-evf91bfbb4-2020-boys-elem",
+  "name": "全国小学生ゴルフ春季大会",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2020,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934567760776098",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T7",
+   "player_name": "小川 琥太郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567760776098); matched player_key p_58a18642a4f4; rank as shown: 7位 T",
+   "player_key": "p_58a18642a4f4"
+  },
+  {
+   "rank": "T10",
+   "player_name": "岡田 健太郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567760776106); matched player_key p_6917f0a5d54c; rank as shown: 10位 T",
+   "player_key": "p_6917f0a5d54c"
+  },
+  {
+   "rank": "3",
+   "player_name": "大西 晃盟",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934567827884993); matched player_key p_f24544304816; rank as shown: 3位",
+   "player_key": "p_f24544304816"
+  },
+  {
+   "rank": "1",
+   "player_name": "松山 茉生",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570277358420); matched player_key p_6f36d9679ef9; rank as shown: 優勝",
+   "player_key": "p_6f36d9679ef9"
+  },
+  {
+   "rank": "24",
+   "player_name": "中山 怜音",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575142750774); matched player_key p_1f26259b8d0b; rank as shown: 24位",
+   "player_key": "p_1f26259b8d0b"
+  },
+  {
+   "rank": "53",
+   "player_name": "梅田 琉偉",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575511849673); matched player_key p_cc9d3dab077a; rank as shown: 53位",
+   "player_key": "p_cc9d3dab077a"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in elementary school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2026-08-21; profile year column is 年度 as shown"
+  ]
+ }
+}

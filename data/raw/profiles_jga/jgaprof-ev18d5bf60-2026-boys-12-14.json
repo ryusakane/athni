@@ -1,0 +1,69 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev18d5bf60-2026-boys-12-14",
+  "name": "2026年関東ジュニアゴルフ選手権決勝競技 男子12～14歳の部",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2026,
+  "start_date": "2026-07-22",
+  "end_date": "2026-07-24",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "4",
+   "player_name": "山崎 絆太",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    78,
+    70,
+    66
+   ],
+   "total": 214,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 775132)); matched player_key p_8e6599998b19; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_8e6599998b19"
+  },
+  {
+   "rank": "cut",
+   "player_name": "中條 晃希",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    82,
+    79
+   ],
+   "total": 161,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 902370)); matched player_key p_f37ad7115c4b; rank as shown: CUT; rounds/total from the ranking 戦歴 data (getAllEventResultsOfPlayers), not displayed on the page",
+   "player_key": "p_f37ad7115c4b"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "field_size_total dropped: JGA ranking player_num is not the field size (positions exceed it)"
+  ]
+ }
+}

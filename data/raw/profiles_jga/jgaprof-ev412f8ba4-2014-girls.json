@@ -1,0 +1,114 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev412f8ba4-2014-girls",
+  "name": "中国女子アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2014,
+  "start_date": "2014-05-21",
+  "end_date": "2014-05-22",
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/amateur_ranking/",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T23",
+   "player_name": "尾関 彩美悠",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934559875484198); matched player_key p_0ef1a206a23d; rank as shown: 23位 T",
+   "player_key": "p_0ef1a206a23d"
+  },
+  {
+   "rank": "1",
+   "player_name": "渋野 日向子",
+   "school": "岡山県作陽",
+   "school_prefecture": "岡山県",
+   "grade": 1,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934564069788461); matched player_key p_74b3d5c666ba; rank as shown: 優勝; school/grade/prefecture from players.csv (graduation_year 2017), not shown on the profile",
+   "player_key": "p_74b3d5c666ba"
+  },
+  {
+   "rank": "T5",
+   "player_name": "栗原 愛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934570176695081); matched player_key p_ab7d969377c6; rank as shown: 5位 T",
+   "player_key": "p_ab7d969377c6"
+  },
+  {
+   "rank": "T3",
+   "player_name": "小倉 彩愛",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576887581415); matched player_key p_d5e4a6745f71; rank as shown: 3位 T",
+   "player_key": "p_d5e4a6745f71"
+  },
+  {
+   "rank": "T21",
+   "player_name": "梶谷 翼",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 日本アマチュアゴルフランキング 戦歴 (過去分) (https://www.jga.or.jp/amateur_ranking/ (戦歴: glid 140394)); matched player_key p_79eb692f04ea; rank as shown: 21T",
+   "player_key": "p_79eb692f04ea"
+  },
+  {
+   "rank": "T23",
+   "player_name": "須江 唯加",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934582658943897); matched player_key p_2e8fa54afd4c; rank as shown: 23位 T",
+   "player_key": "p_2e8fa54afd4c"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile, ranking_history), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown"
+  ]
+ }
+}

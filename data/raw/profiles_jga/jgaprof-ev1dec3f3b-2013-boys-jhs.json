@@ -1,0 +1,63 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1dec3f3b-2013-boys-jhs",
+  "name": "静岡県ジュニアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "junior",
+  "season_year": 2013,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934561653869074",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "3",
+   "player_name": "岡田 大輔",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934561653869074); matched player_key p_7f9846a9a04c; rank as shown: 3位",
+   "player_key": "p_7f9846a9a04c"
+  },
+  {
+   "rank": "9",
+   "player_name": "杉田 龍英",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575344077455); matched player_key p_d503c7ba4b6c; rank as shown: 9位",
+   "player_key": "p_d503c7ba4b6c"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)",
+   "JGA profile 主な戦歴 is as of 2022-09-21; profile year column is 年度 as shown"
+  ]
+ }
+}

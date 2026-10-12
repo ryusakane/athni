@@ -1,0 +1,49 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev80bd4828-2017-girls",
+  "name": "日台交流うどん県レディースゴルフトーナメント",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "professional",
+  "season_year": 2017,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934572827495032",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "16",
+   "player_name": "大西 菜生",
+   "school": "四国学院大学香川西高等学校",
+   "school_prefecture": "香川県",
+   "grade": 2,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934572827495032); matched player_key p_237bdb0e8032; rank as shown: 16位; school/grade/prefecture from players.csv (graduation_year 2019), not shown on the profile",
+   "player_key": "p_237bdb0e8032"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2019-06-28; profile year column is 年度 as shown"
+  ]
+ }
+}

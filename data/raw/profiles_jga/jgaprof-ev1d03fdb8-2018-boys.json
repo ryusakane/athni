@@ -1,0 +1,75 @@
+{
+ "tournament": {
+  "id": "jgaprof-ev1d03fdb8-2018-boys",
+  "name": "神奈川県アマチュアゴルフ選手権",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2018,
+  "start_date": null,
+  "end_date": null,
+  "venue": null,
+  "venue_prefecture": null,
+  "level": null,
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": null,
+  "source_url": "https://www.jga.or.jp/profile.php?id=10313934575042087439",
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "results": [
+  {
+   "rank": "T13",
+   "player_name": "眞山 龍太郎",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575042087439); matched player_key p_4909a1fb4d59; rank as shown: 13位 T",
+   "player_key": "p_4909a1fb4d59"
+  },
+  {
+   "rank": "T16",
+   "player_name": "横山 隆乃助",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934575612513004); matched player_key p_b6594fa2c03f; rank as shown: 16位 T",
+   "player_key": "p_b6594fa2c03f"
+  },
+  {
+   "rank": "1",
+   "player_name": "平本 世中",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "source: JGA 選手プロフィール 主な戦歴 (https://www.jga.or.jp/profile.php?id=10313934576149384095); matched player_key p_256003d8c1c0; rank as shown: 優勝",
+   "player_key": "p_256003d8c1c0"
+  }
+ ],
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players",
+   "tournament name, dates and rank as shown on the player page; venue/par/organizer not shown",
+   "player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years",
+   "JGA profile 主な戦歴 is as of 2023-10-15; profile year column is 年度 as shown"
+  ]
+ }
+}

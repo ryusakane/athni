@@ -153,7 +153,10 @@ export type TournamentSummary = {
 };
 
 export function listTournaments(ix: Indexes): TournamentSummary[] {
+  // Tournaments known only from players' own records or profiles (field size unknown) are reached from
+  // those players' pages, not listed: they hold a few players' rows, not the results.
   return ix.data.tournaments
+    .filter((tournament) => tournament.field_size != null)
     .map((tournament) => ({
       tournament,
       course: tournament.course_id ? (ix.courses.get(tournament.course_id) ?? null) : null,
