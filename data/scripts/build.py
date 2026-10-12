@@ -206,6 +206,8 @@ def tournament_name_en(t):
 def find_course(venue):
     """会場名に最も長く一致するコースを返す (「サンヒルズCC」より「サンヒルズCC ウエストコース」を優先)。"""
     v = squash(venue)
+    if not v:  # 会場不明 ("" はどのコース名にも含まれてしまう)
+        return None
     best, best_len = None, 0
     for c in COURSES:
         for n in [c["name_ja"]] + c.get("aliases", []):

@@ -15,6 +15,7 @@ data/
     courses.json                   コース・ティー (コースレート/スロープ)・緯度経度
     weather.json                   コース×日付の天候 (気象庁 過去の気象データ)
     source_terms.json              出典ごとの再利用条件
+    player_rankings.json           選手のアマチュアランキング (JGA・WAGR など)。キーは player_key
   scripts/build.py                 raw + reference → 下の CSV を生成
   *.csv                            Supabase 投入用 (下表)
   ISSUES.md                        書き起こし・名寄せの要確認事項 (自動生成)
@@ -60,11 +61,13 @@ data/
 | courses.csv | courses | source_url |
 | course_tees.csv | course_tees | source_url |
 | tournaments.csv | tournaments | event_type (junior / high_school / amateur / professional), season_year, region, format, venue_ja, par, yardage, result_pdf_urls, complete, row_count, field_size_total, reuse_status, reuse_note |
+| player_rankings.csv | player_rankings | |
 | tournament_results.csv | tournament_results | amateur, field_size, percentile (上位何%), strokes_behind_winner, avg_differential |
 | rounds.csv | rounds | holes, weather_en, differential, weather_station |
 | team_results.csv / team_members.csv | (なし) | 団体戦。スキーマに団体の表がないため別ファイル |
 
 - 一般アマ・プロ大会 (日本アマ、地区オープン等) は高校生の行だけを書き起こしている。`position` は大会全体での順位、`field_size`・`percentile` は大会全体の人数 (`field_size_total`) で計算し、優勝者が高校生でない大会では `strokes_behind_winner` は空。
+- 選手本人の戦歴 (`raw/sakane/` など): 1試合1ファイルで本人の行だけ。ファイル先頭の `verification` に照合結果 (`status`: public / self_reported、公開URL、戦歴との差異) を書く。`self_reported` のファイルは `tournament_results.source = 'self_reported'` になり、サイトでは「本人申告」と表示し、通算成績に数えない。本人の行しかない大会は `field_size`・`percentile`・優勝スコアを空にする (`field_size_total` があればそれを使う)。順位が数字でない結果 (Best 64 など) は行の `display_note` に書き、`note` 列に入る。
 - `position`/`tied`: 「T3」は position=3, tied=true。予選落ちは status=cut, position 空。
 - `graduation_year`: 学年と大会日付から算出 (4月始まりの学年度。3年生の夏 2025 → 卒業 2026年3月 = 2026)。
 - `differential`: WHS 方式 `113 / slope × (score − course rating)`。コースレート・スロープがわかるラウンドだけ。9ホールのラウンドは空。
