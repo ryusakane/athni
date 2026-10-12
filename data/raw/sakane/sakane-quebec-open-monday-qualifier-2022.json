@@ -1,0 +1,60 @@
+{
+  "tournament": {
+    "id": "sakane-quebec-open-monday-qualifier-2022",
+    "name": "Québec Open Monday qualifier (2022)",
+    "name_en": null,
+    "organizer": "PGA TOUR Canada",
+    "event_type": "professional",
+    "season_year": 2022,
+    "start_date": "2022-08-01",
+    "end_date": null,
+    "venue": "Rosemère Fontainebleau Golf Club (Québec)",
+    "venue_prefecture": null,
+    "level": "international",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18
+    ],
+    "source_url": "https://www.pgatour.com/pt/americas/article/news/latest/2022/08/03/after-big-win--goodwin-headlines-field-at-quebec-open-",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "Exact date not stated ('earlier this week' before Aug 4).",
+      "dates approximate: month only (PGA TOUR Canada preview 2022-08-03 https://www.pgatour.com/americas/article/news/latest/2022/08/03/after-big-win--goodwin-headlines-field-at-quebec-open-: qualifier held 'earlier this week' at Rosemère Fontainebleau, i.e. Aug 1 or 2, 2022)"
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://www.pgatour.com/pt/americas/article/news/latest/2022/08/03/after-big-win--goodwin-headlines-field-at-quebec-open-"
+    ],
+    "matches_claim": true,
+    "claim": "2022 Monday Qualifying for Quebec Open (63) Win [EN] / PGA カナダマンデー(65) 1位通過 [JP]",
+    "differences": "English resume (63, win) matches; Japanese list says 65, which does not match the published 63."
+  },
+  "results": [
+    {
+      "rank": "1",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": false,
+      "rounds": [
+        63
+      ],
+      "total": 63,
+      "to_par": null,
+      "note": "pgatour.com preview (2022-08-03): eight spots; Michael Sakane (U.S.) 63 was the low score of the Monday qualifier."
+    }
+  ]
+}

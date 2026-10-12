@@ -1,0 +1,60 @@
+{
+  "tournament": {
+    "id": "sakane-amateur-championship-2019",
+    "name": "The Amateur Championship (2019)",
+    "name_en": "The Amateur Championship",
+    "organizer": "The R&A",
+    "event_type": "amateur",
+    "season_year": 2019,
+    "start_date": "2019-06-17",
+    "end_date": "2019-06-22",
+    "venue": "Portmarnock Golf Club / The Island Golf Club (Ireland)",
+    "venue_prefecture": null,
+    "level": "international",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18
+    ],
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "R&A site shows only the current year's leaderboard; no 2019 stroke-play list was found. Dates/venues from search summaries (irishgolfdesk), not a fetched results page."
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [],
+    "matches_claim": null,
+    "claim": "2019 The Amateur Championship (75-71) Best 64 / 全英アマチュア選手権(75-71) マッチプレー進出",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        75,
+        71
+      ],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source.",
+      "display_note": "Best 64 (Round of 64)"
+    }
+  ]
+}

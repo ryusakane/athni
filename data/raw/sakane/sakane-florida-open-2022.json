@@ -1,0 +1,60 @@
+{
+  "tournament": {
+    "id": "sakane-florida-open-2022",
+    "name": "Florida Open (2022)",
+    "name_en": null,
+    "organizer": "Florida State Golf Association",
+    "event_type": "professional",
+    "season_year": 2022,
+    "start_date": "2022-07-15",
+    "end_date": "2022-07-17",
+    "venue": "Bradenton Country Club & Lakewood National Golf Club - Commander Course (Bradenton, FL)",
+    "venue_prefecture": null,
+    "level": "state",
+    "region": "Florida",
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18
+    ],
+    "source_url": null,
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+      "fsga.org behind Cloudflare (403); no public result found. The JP/EN round-3 discrepancy could not be resolved.",
+      "Dates/venue (76th Florida Open): FSGA pages https://www.fsga.org/News/Details/2616 and /2615 via search summary (fsga.org not fetched; Cloudflare)."
+    ]
+  },
+  "verification": {
+    "status": "self_reported",
+    "public_urls": [],
+    "matches_claim": null,
+    "claim": "2022 Florida State Open (70-65-77) T5 [EN] / フロリダ州オープン(70-65-70) T5 [JP]",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "T5",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        70,
+        65
+      ],
+      "total": null,
+      "to_par": null,
+      "note": "Values copied from his resume (claim), not from a public source. Third round differs between his resumes (77 in English, 70 in Japanese); left out."
+    }
+  ]
+}

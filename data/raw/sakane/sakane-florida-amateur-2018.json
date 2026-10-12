@@ -1,0 +1,66 @@
+{
+ "tournament": {
+  "id": "sakane-florida-amateur-2018",
+  "name": "Florida State Amateur Championship (2018, 101st)",
+  "name_en": null,
+  "organizer": "Florida State Golf Association",
+  "event_type": "amateur",
+  "season_year": 2018,
+  "start_date": "2018-06-21",
+  "end_date": "2018-06-24",
+  "venue": "The Concession Golf Club & Ritz-Carlton Members Golf Club (Bradenton, FL)",
+  "venue_prefecture": null,
+  "level": "state",
+  "region": "Florida",
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": [
+   18,
+   18,
+   18,
+   18
+  ],
+  "source_url": null,
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+   "fsga.org results are behind a Cloudflare challenge (HTTP 403) and were not read. AmateurGolf.com article (fetched) gives only the top 3 (Lench/Dull 285 playoff) and does not mention him.",
+   "Dates/venue: FSGA championship page 'Lench Captures his 2nd Amateur Championship in Play-Off' (https://www.fsga.org/Tournament/Enter/89babf6d-5be8-447c-b7dd-8c1d58191da1, via search summary); Bradenton and final day June 24, 2018 confirmed by fetched AmateurGolf.com article 21228."
+  ]
+ },
+ "verification": {
+  "status": "self_reported",
+  "public_urls": [
+   "https://www.amateurgolf.com/golf-tournament-news/lench-secures-second-florida-amateur-title-21228"
+  ],
+  "matches_claim": null,
+  "claim": "2018 Florida State Amateur Championship (72-71-74-78) 8th",
+  "differences": null
+ },
+ "results": [
+  {
+   "rank": "8",
+   "player_name": "阪根竜之介",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    72,
+    71,
+    74,
+    78
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "Values copied from his resume (claim), not from a public source."
+  }
+ ]
+}

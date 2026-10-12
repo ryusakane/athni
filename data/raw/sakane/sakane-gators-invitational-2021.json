@@ -1,0 +1,63 @@
+{
+ "tournament": {
+  "id": "sakane-gators-invitational-2021",
+  "name": "Gators Invitational (2021)",
+  "name_en": null,
+  "organizer": null,
+  "event_type": "amateur",
+  "season_year": 2021,
+  "start_date": "2021-02-12",
+  "end_date": "2021-02-13",
+  "venue": "Mark Bostick Golf Course (Gainesville, FL)",
+  "venue_prefecture": null,
+  "level": "college",
+  "region": null,
+  "category": "boys",
+  "format": "individual",
+  "par": null,
+  "yardage": null,
+  "round_holes": [
+   18,
+   18,
+   18
+  ],
+  "source_url": null,
+  "result_pdf_urls": [],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": false,
+  "rows_expected": null,
+  "issues": [
+   "Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.",
+   "JU schedule (fetched) confirms Jacksonville played (team 14th of 21) but his result is only in a results PDF under /documents/, which judolphins.com robots.txt disallows; other recaps fetched do not mention him."
+  ]
+ },
+ "verification": {
+  "status": "self_reported",
+  "public_urls": [
+   "https://judolphins.com/sports/mens-golf/schedule/2020-21"
+  ],
+  "matches_claim": null,
+  "claim": "2021 Florida Gators Invitational (63-71-68) T6",
+  "differences": null
+ },
+ "results": [
+  {
+   "rank": "T6",
+   "player_name": "阪根竜之介",
+   "school": null,
+   "school_prefecture": null,
+   "grade": null,
+   "amateur": true,
+   "rounds": [
+    63,
+    71,
+    68
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "Values copied from his resume (claim), not from a public source."
+  }
+ ]
+}

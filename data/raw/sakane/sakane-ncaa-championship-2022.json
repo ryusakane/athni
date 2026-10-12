@@ -1,0 +1,63 @@
+{
+  "tournament": {
+    "id": "sakane-ncaa-championship-2022",
+    "name": "NCAA Division I Men's Golf Championship (2022)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2022,
+    "start_date": "2022-05-27",
+    "end_date": "2022-05-30",
+    "venue": "Grayhawk Golf Club (Scottsdale, AZ)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": 70,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18
+    ],
+    "source_url": "https://www.nolefan.org/ref/mg2022_05_30_sid.pdf",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "Claim is participation only; confirmed. rank uses the existing 'R2:Tn' convention (position after round 2)."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://www.nolefan.org/ref/mg2022_05_30_sid.pdf",
+      "https://www.wtxl.com/sports/college-sports/fsu/florida-state-mens-golf-completes-opening-round-at-ncaa-national-tournament"
+    ],
+    "matches_claim": true,
+    "claim": "2022 NCAA D1ナショナルチャンピオンシップ 出場",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "R2:T85",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        73,
+        77
+      ],
+      "total": 150,
+      "to_par": null,
+      "note": "Played for Florida State. WTXL: R1 3-over 73, T42. FSU SID: through two rounds 73 77 150 (T85); not in FSU's round-3 lineup. FSU missed the 54-hole team cut.",
+      "display_note": "T85 after R2"
+    }
+  ]
+}

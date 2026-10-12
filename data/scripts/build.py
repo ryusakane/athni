@@ -548,6 +548,8 @@ def main():
             "complete": q.get("complete"), "row_count": len(d.get("results", [])),
             # 大会全体の出場人数 (一般アマ・プロ大会では高校生以外も含む)。不明なら空
             "field_size_total": t.get("field_size_total"),
+            # 選手本人の戦歴を照合して入れた大会 (data/raw/sakane など)。その選手の行しかない
+            "player_record": bool(d.get("verification")),
             "reuse_status": terms_for(tid)["reuse_status"], "reuse_note": terms_for(tid)["note"],
         })
         for i in q.get("issues") or []:
@@ -618,6 +620,8 @@ def main():
         finished = [x for x in results if x["tournament_key"] == tid and x["status"] != "dns"]
         # 一般アマ・プロ大会は高校生だけを書き起こしているので、順位・上位%は大会全体の人数で見る
         field = t.get("field_size_total") or len(finished)
+        if d.get("verification") and not t.get("field_size_total"):
+            continue  # 本人の行だけで大会全体の人数がわからない。上位%・優勝との差は出さない
         if field < len(finished):
             issues.append((tid, f"field_size_total ({field}) が書き起こし人数 ({len(finished)}) より少ない"))
             field = len(finished)

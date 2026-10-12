@@ -1,0 +1,64 @@
+{
+  "tournament": {
+    "id": "sakane-ncaa-tallahassee-regional-2021",
+    "name": "NCAA Men's Golf Tallahassee Regional (2021)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2021,
+    "start_date": "2021-05-17",
+    "end_date": "2021-05-19",
+    "venue": "Seminole Legacy Golf Club (Tallahassee, FL)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18,
+      18
+    ],
+    "source_url": "https://www.nolefan.org/ref/mg2021_05_19_sid.pdf",
+    "result_pdf_urls": [],
+    "field_size_total": 75
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "Field 75 from the JU schedule ('of 75')."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://www.nolefan.org/ref/mg2021_05_19_sid.pdf",
+      "https://judolphins.com/news/2021/5/19/michael-sakane-advances-to-ncaa-mens-golf-championship.aspx"
+    ],
+    "matches_claim": true,
+    "claim": "2021 NCAA D1 Tallahassee Regional (67-66-70) 2nd [EN line says 'DCAA'; JP: タラハシリージョナル 準優勝]",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "2",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        67,
+        66,
+        70
+      ],
+      "total": 203,
+      "to_par": -13,
+      "note": "FSU SID final stats: 2 Michael Sakane (Jacksonville, individual) 67 66 70 203 -13. JU: second overall, one stroke behind the medalist, first among individuals; advanced to NCAA Championship."
+    }
+  ]
+}

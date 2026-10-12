@@ -1,0 +1,63 @@
+{
+  "tournament": {
+    "id": "sakane-acc-championship-2022",
+    "name": "ACC Men's Golf Championship (2022)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2022,
+    "start_date": "2022-04-22",
+    "end_date": "2022-04-23",
+    "venue": "Shark's Tooth Golf Course (Panama City Beach, FL)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18,
+      18
+    ],
+    "source_url": "https://www.nolefan.org/ref/mg2022_04_23_sid.pdf",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "seminoles.com recap is JavaScript-rendered and could not be read; theacc.com redirect loop."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://www.nolefan.org/ref/mg2022_04_23_sid.pdf"
+    ],
+    "matches_claim": false,
+    "claim": "2022 ACC Championship (71-71-67) 13 / ACC カンファレンスチャンピオンシップ(71-71-67) 13位",
+    "differences": "Second round: official stats show 73, claim says 71 (total 211, not 209). Position T13 matches."
+  },
+  "results": [
+    {
+      "rank": "T13",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        71,
+        73,
+        67
+      ],
+      "total": 211,
+      "to_par": -5,
+      "note": "FSU SID final stroke-play stats: T13 Michael Sakane, Florida State, 71 73 67 211 -5."
+    }
+  ]
+}

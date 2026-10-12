@@ -123,8 +123,8 @@ def main():
         t["course_id"] = uid("course", t["course_key"]) if t["course_key"] else None
         t["start_date"] = t["start_date"] or t["end_date"]
         rs = by_t[k]
-        # 本人の戦歴だけが出典の大会は出場人数がわからない
-        only_self = all(r["source"] == "self_reported" for r in rs)
+        # 本人の戦歴だけが出典の大会や、本人の行だけを照合した大会は出場人数がわからない
+        only_self = all(r["source"] == "self_reported" for r in rs) or t.get("player_record") == "True"
         t["field_size"] = (int(t["field_size_total"]) if t.get("field_size_total")
                            else None if only_self else len(rs))
         fin = [int(r["total_score"]) for r in rs if r["status"] == "finished" and r["total_score"] and r["position"]]

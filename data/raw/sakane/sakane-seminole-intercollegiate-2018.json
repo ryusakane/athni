@@ -1,0 +1,65 @@
+{
+  "tournament": {
+    "id": "sakane-seminole-intercollegiate-2018",
+    "name": "Seminole Intercollegiate (2018)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2018,
+    "start_date": "2018-02-24",
+    "end_date": "2018-02-25",
+    "venue": "Golden Eagle Country Club (Tallahassee, FL)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": 72,
+    "yardage": 6965,
+    "round_holes": [
+      18,
+      18,
+      18
+    ],
+    "source_url": "https://www.nolefan.org/ref/mg2018_02_25_sid.pdf",
+    "result_pdf_urls": [],
+    "field_size_total": null
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "JU roster bio prints 68-71-69 for this event (internally inconsistent with its own 212); the official stats sheet and recap give 68-71-73.",
+      "SID PDF is hosted on nolefan.org (fan archive of FSU sports-information notes); robots.txt returned HTTP 406 so could not be checked."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://www.nolefan.org/ref/mg2018_02_25_sid.pdf",
+      "https://judolphins.com/news/2018/2/25/2_25_2018_6409.aspx"
+    ],
+    "matches_claim": true,
+    "claim": "2018 Seminole Intercollegiate (68-71-73) T5",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "T5",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        68,
+        71,
+        73
+      ],
+      "total": 212,
+      "to_par": -4,
+      "note": "FSU SID final stats: T5 Michael Sakane, Jacksonville, 68 71 73 212 -4. JU recap agrees (tied for fifth). Jacksonville University."
+    }
+  ]
+}

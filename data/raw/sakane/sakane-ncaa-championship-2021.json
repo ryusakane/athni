@@ -1,0 +1,65 @@
+{
+  "tournament": {
+    "id": "sakane-ncaa-championship-2021",
+    "name": "NCAA Division I Men's Golf Championship (2021)",
+    "name_en": null,
+    "organizer": null,
+    "event_type": "amateur",
+    "season_year": 2021,
+    "start_date": "2021-05-28",
+    "end_date": "2021-05-30",
+    "venue": "Grayhawk Golf Club (Scottsdale, AZ)",
+    "venue_prefecture": null,
+    "level": "college",
+    "region": null,
+    "category": "boys",
+    "format": "individual",
+    "par": null,
+    "yardage": null,
+    "round_holes": [
+      18,
+      18,
+      18
+    ],
+    "source_url": "https://judolphins.com/news/2021/5/30/mens-golf-sakanes-run-in-ncaa-championship-concludes-sunday.aspx",
+    "result_pdf_urls": [],
+    "field_size_total": 156
+  },
+  "quality": {
+    "complete": false,
+    "rows_expected": null,
+    "issues": [
+      "Only Sakane's row transcribed (verification of one player's resume), not the full field.",
+      "Claim states only participation/first-in-school-history; both confirmed. Dates are his three stroke-play rounds."
+    ]
+  },
+  "verification": {
+    "status": "public",
+    "public_urls": [
+      "https://judolphins.com/news/2021/5/30/mens-golf-sakanes-run-in-ncaa-championship-concludes-sunday.aspx",
+      "https://judolphins.com/news/2021/5/19/michael-sakane-advances-to-ncaa-mens-golf-championship.aspx",
+      "https://judolphins.com/sports/mens-golf/schedule/2020-21"
+    ],
+    "matches_claim": true,
+    "claim": "2021 NCAA D1 ナショナルチャンピオンシップ 大学史上初個人出場 (first individual qualifier in school history)",
+    "differences": null
+  },
+  "results": [
+    {
+      "rank": "cut",
+      "player_name": "阪根竜之介",
+      "school": null,
+      "school_prefecture": null,
+      "grade": null,
+      "amateur": true,
+      "rounds": [
+        68,
+        74,
+        77
+      ],
+      "total": 219,
+      "to_par": 9,
+      "note": "JU: 'finished his third round T67 (68-74-77) and missed the cut for the final round'; schedule: T67 of 156 (+9). JU regional recap: 'first Dolphin to reach this stage as an individual in program history'."
+    }
+  ]
+}

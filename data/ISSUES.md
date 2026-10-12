@@ -3821,6 +3821,19 @@
 - `tohoku-kougoren-summer-championship-2026-girls`: School names published in short form (e.g. 東北 = 東北高, 八戸光星 = 八戸学院光星高)
 - `tohoku-kougoren-summer-championship-2026-girls`: to_par computed from par 72
 - `tohoku-kougoren-summer-championship-2026-girls`: Federation results page text mentions a rain-shortened 9-hole event, but the result PDF shows 18-hole totals with OUT/IN; PDF values used
+- `kougoren-summer-2015-boys-individual`: コース情報未登録: 宇部７２カントリークラブ 万年池東コース
+- `kougoren-summer-2015-boys-individual`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `kougoren-summer-2015-boys-individual`: Only his row is transcribed here; the full 2015 field (148 ranked on the final sheet) can be collected later from the same PDFs under this id.
+- `kougoren-summer-2015-boys-individual`: field_size_total = last rank on the final-day sheet (148); DNS/WD not checked.
+- `kougoren-summer-2015-boys-individual`: nihon-kougoren.jp: robots.txt disallows only wp-admin; no explicit terms page (same as other kougoren- files).
+- `sakane-kanto-championship-b-block-2015`: 使用ティー不明: sunhills-east Noney
+- `sakane-kanto-championship-b-block-2015`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-kanto-championship-b-block-2015`: Event not identified. Likely a Kanto high-school (k-hga.jp) block qualifier; k-hga.jp was NOT fetched (terms require consent). Searches found nothing public.
+- `sakane-kanto-championship-b-block-2015`: date unknown; year from the player's record
+- `sakane-kanto-hs-tokyo-2014`: 使用ティー不明: sunhills-east Noney
+- `sakane-kanto-hs-tokyo-2014`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-kanto-hs-tokyo-2014`: Results are published only on k-hga.jp, whose terms require the federation's consent for reuse; per instructions the site was NOT fetched. Grade not stated in the claim (he was a 1st-year in 2014 if class of 2017).
+- `sakane-kanto-hs-tokyo-2014`: date unknown; year from the player's record
 - `jga-junior-2026-boys-15-17`: PARTIAL: JGA's own leaderboard page (2026 no longer links Golf Genius) renders round tabs server-side; WebFetch output truncates before the final (R1-R3) table, so only the after-R2 standings (R1, R2, 36-hole total, to-par) were captured
 - `jga-junior-2026-boys-15-17`: rank values prefixed 'R2:' are 36-hole positions, NOT final positions; 'total' is the 36-hole total
 - `jga-junior-2026-boys-15-17`: School/grade not shown on JGA 2026 leaderboard; school null
@@ -3973,6 +3986,144 @@
 - `kagoshima-ga-kyushu-junior-qualifier-2026-girls`: 15-17 age division (九州ジュニア選手権 local qualifier); no school/grade printed. May include a 15-year-old 中学3年 in principle
 - `kagoshima-ga-kyushu-junior-qualifier-2026-girls`: Par not on the sheet; to_par null
 - `kagoshima-ga-kyushu-junior-qualifier-2026-girls`: Names: whitespace removed (spacing inconsistent)
+- `sakane-acc-championship-2022`: コース情報未登録: Shark's Tooth Golf Course (Panama City Beach, FL)
+- `sakane-acc-championship-2022`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-acc-championship-2022`: seminoles.com recap is JavaScript-rendered and could not be read; theacc.com redirect loop.
+- `sakane-ajga-thunderbird-2016`: コース情報未登録: Grayhawk Golf Club (Scottsdale, AZ)
+- `sakane-ajga-thunderbird-2016`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-ajga-thunderbird-2016`: The JU roster bio (fetched) says he received an invitation to the Thunderbird International Junior Championship, but gives no finish. AJGA result page for 2016 not located; venue from search summaries only.
+- `sakane-ajga-thunderbird-2016`: Dates: AmateurGolf.com/Golfweek report on the 2016 AJGA Thunderbird (https://www.amateurgolf.com/Content/16626/), datelined Scottsdale May 30, 2016, 3 rounds -> May 28-30; venue per AJGA tournament history page.
+- `sakane-amateur-championship-2019`: コース情報未登録: Portmarnock Golf Club / The Island Golf Club (Ireland)
+- `sakane-amateur-championship-2019`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-amateur-championship-2019`: R&A site shows only the current year's leaderboard; no 2019 stroke-play list was found. Dates/venues from search summaries (irishgolfdesk), not a fetched results page.
+- `sakane-apt-childrens-hospital-2023`: コース情報未登録: Metamora Fields Golf Club (Metamora, IL)
+- `sakane-apt-childrens-hospital-2023`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-apt-childrens-hospital-2023`: No public result found (fpgt.com now redirects to a domain-for-sale page; the APT event could not be identified).
+- `sakane-apt-childrens-hospital-2023`: Identified as the APT's OSF Children's Hospital of Illinois Pro-Am & Championship (72 holes); championship-round dates and venue from https://newsroom.osfhealthcare.org/osf-childrens-hospital-of-illinois-golf-pro-am-tournament/ (identification by name match, not confirmed by a result).
+- `sakane-asia-pacific-amateur-2021`: コース情報未登録: Dubai Creek Golf & Yacht Club (Dubai, UAE)
+- `sakane-asia-pacific-amateur-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-asia-pacific-amateur-2021`: field_size_total 93 = 50 on the final table (incl. one retirement) + 43 missed cut, as summarized from the page.
+- `sakane-asun-championship-2018`: コース情報未登録: Legends Course at Chateau Elan (Braselton, Ga.)
+- `sakane-asun-championship-2018`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-asun-championship-2018`: Round 2 was played as par 70 per the recap; tournament par not stated.
+- `sakane-asun-championship-2021`: コース情報未登録: UGA Golf Course (Athens, Ga.)
+- `sakane-asun-championship-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-asun-championship-2021`: Round 3 not published in the pages fetched; official PDFs on asunsports.org returned HTTP 403 to curl and were not read.
+- `sakane-college-golf-kickoff-2020`: コース情報未登録: Marsh Landing Country Club (Ponte Vedra Beach, FL)
+- `sakane-college-golf-kickoff-2020`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-college-golf-kickoff-2020`: Event not identified (not on JU's 2019-20 or 2020-21 schedules). No public result found.
+- `sakane-college-golf-kickoff-2020`: Identified as the 'College Am Golf Kickoff' (College Am Golf series); dates/venue from the AmateurGolf.com event listing https://www.amateurgolf.com/amateur-golf-tournaments/9434/College-Am-Golf-Kickoff (read via search summary; page now redirects).
+- `sakane-ecu-intercollegiate-2019`: コース情報未登録: Brook Valley Country Club (Greenville, NC)
+- `sakane-ecu-intercollegiate-2019`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-ecu-intercollegiate-2019`: Recap labels the 65 as -6 and the total as -7 (inconsistent par); to_par taken as printed for the total.
+- `sakane-florida-amateur-2018`: コース情報未登録: The Concession Golf Club & Ritz-Carlton Members Golf Club (Bradenton, FL)
+- `sakane-florida-amateur-2018`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-florida-amateur-2018`: fsga.org results are behind a Cloudflare challenge (HTTP 403) and were not read. AmateurGolf.com article (fetched) gives only the top 3 (Lench/Dull 285 playoff) and does not mention him.
+- `sakane-florida-amateur-2018`: Dates/venue: FSGA championship page 'Lench Captures his 2nd Amateur Championship in Play-Off' (https://www.fsga.org/Tournament/Enter/89babf6d-5be8-447c-b7dd-8c1d58191da1, via search summary); Bradenton and final day June 24, 2018 confirmed by fetched AmateurGolf.com article 21228.
+- `sakane-florida-open-2022`: コース情報未登録: Bradenton Country Club & Lakewood National Golf Club - Commander Course (Bradenton, FL)
+- `sakane-florida-open-2022`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-florida-open-2022`: fsga.org behind Cloudflare (403); no public result found. The JP/EN round-3 discrepancy could not be resolved.
+- `sakane-florida-open-2022`: Dates/venue (76th Florida Open): FSGA pages https://www.fsga.org/News/Details/2616 and /2615 via search summary (fsga.org not fetched; Cloudflare).
+- `sakane-fpgt-daytona-beach-open-2023`: 使用ティー不明: sunhills-east Noney
+- `sakane-fpgt-daytona-beach-open-2023`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-fpgt-daytona-beach-open-2023`: No public result found (fpgt.com now redirects to a domain-for-sale page; the APT event could not be identified).
+- `sakane-fpgt-daytona-beach-open-2023`: date unknown; year from the player's record
+- `sakane-fpgt-indian-river-open-2023`: 使用ティー不明: sunhills-east Noney
+- `sakane-fpgt-indian-river-open-2023`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-fpgt-indian-river-open-2023`: No public result found (fpgt.com now redirects to a domain-for-sale page; the APT event could not be identified).
+- `sakane-fpgt-indian-river-open-2023`: date unknown; year from the player's record
+- `sakane-fpgt-zellwood-2023`: 使用ティー不明: sunhills-east Noney
+- `sakane-fpgt-zellwood-2023`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-fpgt-zellwood-2023`: No public result found (fpgt.com now redirects to a domain-for-sale page; the APT event could not be identified).
+- `sakane-fpgt-zellwood-2023`: date unknown; year from the player's record
+- `sakane-gators-invitational-2021`: コース情報未登録: Mark Bostick Golf Course (Gainesville, FL)
+- `sakane-gators-invitational-2021`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-gators-invitational-2021`: JU schedule (fetched) confirms Jacksonville played (team 14th of 21) but his result is only in a results PDF under /documents/, which judolphins.com robots.txt disallows; other recaps fetched do not mention him.
+- `sakane-golfweek-conference-challenge-2018`: コース情報未登録: Cedar Rapids Country Club (Cedar Rapids, Iowa)
+- `sakane-golfweek-conference-challenge-2018`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-golfweek-conference-challenge-2018`: R1 not printed; derived from total.
+- `sakane-golfweek-program-challenge-2019`: コース情報未登録: Caledonia Golf & Fish Club (Pawleys Island, S.C.)
+- `sakane-golfweek-program-challenge-2019`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-golfweek-program-challenge-2019`: Recap says 'second'; roster bio says 'T-2'. Total 196 = sum of rounds.
+- `sakane-jjga-ryo-cup-2016`: コース情報未登録: ロイヤルメドウゴルフスタジアム
+- `sakane-jjga-ryo-cup-2016`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-jjga-ryo-cup-2016`: RESTRICTED SOURCE: JJGA website terms (Art. 8) prohibit reproduction/secondary use without consent. Only the facts needed for his row were recorded; do not publish without JJGA consent.
+- `sakane-jjga-ryo-cup-2016`: PDF has no school names; school_prefecture is the 所在地 column. to_par computed from par 72 x 3.
+- `sakane-kft-qschool-1st-stage-2022`: 使用ティー不明: sunhills-east Noney
+- `sakane-kft-qschool-1st-stage-2022`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-kft-qschool-1st-stage-2022`: Site not stated in the claim; no public result naming him found.
+- `sakane-kft-qschool-1st-stage-2022`: dates approximate: month only (PGA TOUR 2022 Q-School info article https://www.pgatour.com/korn-ferry-tour/article/news/latest/2022/06/09/qualifying-tournament-q-school-registration-sites-links-info-cost-membership-status-faq-fyi: First Stage Sept 13-16 / 20-23 / 27-30 at 12 sites; his site unknown)
+- `sakane-kft-qschool-2nd-stage-2022`: 使用ティー不明: sunhills-east Noney
+- `sakane-kft-qschool-2nd-stage-2022`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-kft-qschool-2nd-stage-2022`: Site not stated in the claim; no public result naming him found.
+- `sakane-kft-qschool-2nd-stage-2022`: dates approximate: month only (PGA TOUR 2022 Q-School info article https://www.pgatour.com/korn-ferry-tour/article/news/latest/2022/06/09/qualifying-tournament-q-school-registration-sites-links-info-cost-membership-status-faq-fyi: Second Stage Oct 11-14 / 18-21 at 5 sites; his site unknown)
+- `sakane-kft-utah-championship-2021`: コース情報未登録: Oakridge Country Club (Farmington, UT)
+- `sakane-kft-utah-championship-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-kft-utah-championship-2021`: Venue/start date not on the fetched page.
+- `sakane-kft-utah-championship-2021`: Start date/venue: PGA TOUR round-1 wrap-up https://www.pgatour.com/korn-ferry-tour/article/news/daily-wrapup/2021/08/05/joshua-creel--mark-blakefield-share-18-hole-lead-at-utah-championship-presented-by-zions-bank (Thursday Aug 5, Oakridge CC).
+- `sakane-kft-utah-monday-qualifier-2021`: コース情報未登録: Talons Cove Golf Course (Saratoga Springs, UT)
+- `sakane-kft-utah-monday-qualifier-2021`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-kft-utah-monday-qualifier-2021`: Monday-qualifier results not found publicly.
+- `sakane-kft-utah-monday-qualifier-2021`: Date/venue: Salt Lake Tribune 2021-08-04 'three former BYU golfers' (https://www.sltrib.com/sports/byu-cougars/2021/08/04/three-former-byu-golfers/) says Monday qualifying was at Talons Cove; Monday of tournament week = Aug 2, 2021.
+- `sakane-landic-challenge-2015`: コース情報未登録: 芥屋ゴルフ倶楽部
+- `sakane-landic-challenge-2015`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-landic-challenge-2015`: Event identity (2015 edition at 芥屋GC, winner 池村寛世) seen only in a web-search summary of ALBA Net; ALBA leaderboard returned HTTP 429 and was not read. JGTO (jgto.org) results not located; JGTO terms prohibit reuse (restricted).
+- `sakane-landic-challenge-2015`: Dates/venue come from a search-result summary, not a fetched page; treat as unverified.
+- `sakane-landic-challenge-2015`: Dates: ALBA Net tournament page https://www.alba.co.jp/tour/category/chall/tournament/91198/ (2015-06-25..26, 芥屋GC) seen via search summary only; page returned HTTP 429 when fetched.
+- `sakane-mexican-amateur-2018`: コース情報未登録: Club de Golf México (Mexico City)
+- `sakane-mexican-amateur-2018`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-mexican-amateur-2018`: No public result found by search.
+- `sakane-mexican-amateur-2018`: Dates/venue (91st Mexico International Amateur): Washington Golf article https://wagolf.org/news/hatley-mccullough-make-good-showing-mexican-amateur.
+- `sakane-ncaa-championship-2021`: コース情報未登録: Grayhawk Golf Club (Scottsdale, AZ)
+- `sakane-ncaa-championship-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-ncaa-championship-2021`: Claim states only participation/first-in-school-history; both confirmed. Dates are his three stroke-play rounds.
+- `sakane-ncaa-championship-2022`: コース情報未登録: Grayhawk Golf Club (Scottsdale, AZ)
+- `sakane-ncaa-championship-2022`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-ncaa-championship-2022`: Claim is participation only; confirmed. rank uses the existing 'R2:Tn' convention (position after round 2).
+- `sakane-ncaa-columbus-regional-2018`: コース情報未登録: Scarlet Course, The Ohio State University (Columbus, Ohio)
+- `sakane-ncaa-columbus-regional-2018`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-ncaa-columbus-regional-2018`: R1 76 is derived from the recap wording, not printed as a number.
+- `sakane-ncaa-tallahassee-regional-2021`: コース情報未登録: Seminole Legacy Golf Club (Tallahassee, FL)
+- `sakane-ncaa-tallahassee-regional-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-ncaa-tallahassee-regional-2021`: Field 75 from the JU schedule ('of 75').
+- `sakane-nikkan-amateur-2014`: 使用ティー不明: sunhills-east Noney
+- `sakane-nikkan-amateur-2014`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-nikkan-amateur-2014`: Web searches (JP/EN) found no public result page.
+- `sakane-nikkan-amateur-2014`: date unknown; year from the player's record
+- `sakane-old-corkscrew-2021`: コース情報未登録: Old Corkscrew Golf Club (Estero, FL)
+- `sakane-old-corkscrew-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-patriot-all-america-2021`: コース情報未登録: The Wigwam - Gold Course (Litchfield Park, AZ)
+- `sakane-patriot-all-america-2021`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-patriot-all-america-2021`: Event is played Dec 28-31, so '2021' could be the Dec 2020 or Dec 2021 edition. patriotallamerica.com returned HTTP 403; AmateurGolf.com history is members-only.
+- `sakane-patriot-all-america-2021`: Assumed the Dec 2021 (11th) edition, not Dec 2020 (he was 2021 All-ASUN). Dates: event plays Dec 29-31 annually per https://patriotallamerica.com/the-patriot/ (search summary); final round Friday Dec 31, 2021 per https://gcaa.coach/news/2822-plata-howe-earn-2021-patriot-all-america-titles-after-stellar-final-rounds.
+- `sakane-quail-valley-2017`: コース情報未登録: Quail Valley (Vero Beach, Fla.)
+- `sakane-quail-valley-2017`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-quail-valley-2017`: Course name and par not stated in the 2017 recaps; to_par left null.
+- `sakane-quebec-open-2022`: コース情報未登録: Club de Golf Le Blainvillier (Blainville, Québec)
+- `sakane-quebec-open-2022`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-quebec-open-2022`: Tournament metadata from the pgatour.com preview. pgatour.com leaderboards are client-rendered; no readable 2022 leaderboard was found.
+- `sakane-quebec-open-monday-qualifier-2022`: コース情報未登録: Rosemère Fontainebleau Golf Club (Québec)
+- `sakane-quebec-open-monday-qualifier-2022`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-quebec-open-monday-qualifier-2022`: Exact date not stated ('earlier this week' before Aug 4).
+- `sakane-quebec-open-monday-qualifier-2022`: dates approximate: month only (PGA TOUR Canada preview 2022-08-03 https://www.pgatour.com/americas/article/news/latest/2022/08/03/after-big-win--goodwin-headlines-field-at-quebec-open-: qualifier held 'earlier this week' at Rosemère Fontainebleau, i.e. Aug 1 or 2, 2022)
+- `sakane-sea-best-invitational-2021`: コース情報未登録: TPC Sawgrass - Dye's Valley (Ponte Vedra Beach, FL)
+- `sakane-sea-best-invitational-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-seminole-intercollegiate-2018`: コース情報未登録: Golden Eagle Country Club (Tallahassee, FL)
+- `sakane-seminole-intercollegiate-2018`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-seminole-intercollegiate-2018`: JU roster bio prints 68-71-69 for this event (internally inconsistent with its own 212); the official stats sheet and recap give 68-71-73.
+- `sakane-seminole-intercollegiate-2018`: SID PDF is hosted on nolefan.org (fan archive of FSU sports-information notes); robots.txt returned HTTP 406 so could not be checked.
+- `sakane-seminole-intercollegiate-2019`: コース情報未登録: Golden Eagle Country Club (Tallahassee, FL)
+- `sakane-seminole-intercollegiate-2019`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-seminole-intercollegiate-2019`: SID PDF hosted on nolefan.org (robots.txt not checkable, HTTP 406).
+- `sakane-terra-cotta-2021`: コース情報未登録: Naples National Golf Club (Naples, FL)
+- `sakane-terra-cotta-2021`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
+- `sakane-terra-cotta-2021`: AmateurGolf.com historical leaderboards are members-only; no public result found. Venue is the event's usual course per AmateurGolf.com, not confirmed for 2021.
+- `sakane-terra-cotta-2021`: dates approximate: month only (Global Golf Post 2021-04-26 https://read.nxtbook.com/global_golf_post/local/20210426_can/terracotta_gamer.html and AmateurGolf.com article 27742 dated 2021-04-24; exact days not stated)
+- `sakane-timuquana-collegiate-2021`: コース情報未登録: Timuquana Country Club (Jacksonville, FL)
+- `sakane-timuquana-collegiate-2021`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-wolfpack-intercollegiate-2018`: コース情報未登録: Lonnie Poole Golf Course (Raleigh, NC)
+- `sakane-wolfpack-intercollegiate-2018`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
+- `sakane-wolfpack-intercollegiate-2018`: Recap misprints the total as 266; rounds sum to 206 and the roster bio says 206.
 - `player-dedup`: 同一人物としてまとめた: p_00276153f556 → p_12206862d1c2 (七澤 勇太)
 - `player-dedup`: 同一人物としてまとめた: p_003c01d4ea4a → p_04cda8590efc (梶原 詠斗)
 - `player-dedup`: 同一人物としてまとめた: p_0074dee7ed17 → p_169c4b6ea4fb (稲田 堅心)
