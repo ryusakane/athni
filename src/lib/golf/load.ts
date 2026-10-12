@@ -5,6 +5,8 @@ import { normalizeNumbers } from "./views";
 
 // The site is a static export, so data is read once at build time:
 // from Supabase when its env vars are set, otherwise from the bundled seed (data/scripts/to_sql.py).
+// Next keeps these fetches in .next/cache/fetch-cache, which Cloudflare carries between builds,
+// so `npm run build` clears it first; otherwise a build shows the tables of an earlier one.
 
 const tables = [
   "schools",
