@@ -1,0 +1,266 @@
+{
+ "tournament": {
+  "id": "jjga-spring-east-2024-girls-15-18",
+  "name": "2024年度 スプリングジュニアゴルフチャンピオンシップ東日本決勝大会 15歳～18歳女子の部",
+  "name_en": "2024 Spring Junior Golf Championship East Japan final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2024,
+  "start_date": "2024-05-05",
+  "end_date": "2024-05-06",
+  "venue": "新宇都宮カントリークラブ",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6198,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2024/05/240506_SPGeast_FR_central_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2024/05/240506_SPGeast_FR_central_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 16,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%b9%e3%83%97%e3%83%aa%e3%83%b3%e3%82%b0%e6%9d%b1%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "安西 歩美",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "rounds": [
+    75,
+    73
+   ],
+   "total": 148,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "2",
+   "player_name": "永谷 葉",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    75,
+    76
+   ],
+   "total": 151,
+   "to_par": 7,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "厳 惟依",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 1,
+   "rounds": [
+    76,
+    76
+   ],
+   "total": 152,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "佐野 美奈",
+   "school": null,
+   "school_prefecture": "福島県",
+   "grade": 3,
+   "rounds": [
+    77,
+    80
+   ],
+   "total": 157,
+   "to_par": 13,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "岩谷 楓花",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    77,
+    81
+   ],
+   "total": 158,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "佐藤 愛実",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    80,
+    79
+   ],
+   "total": 159,
+   "to_par": 15,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "川原 莉緒",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    83,
+    78
+   ],
+   "total": 161,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "8",
+   "player_name": "新井 小桃",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    80,
+    85
+   ],
+   "total": 165,
+   "to_par": 21,
+   "note": null
+  },
+  {
+   "rank": "T9",
+   "player_name": "江川みなみ",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    87,
+    80
+   ],
+   "total": 167,
+   "to_par": 23,
+   "note": null
+  },
+  {
+   "rank": "T9",
+   "player_name": "山﨑ダリア",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    81,
+    86
+   ],
+   "total": 167,
+   "to_par": 23,
+   "note": null
+  },
+  {
+   "rank": "11",
+   "player_name": "佐々木 愛",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "rounds": [
+    88,
+    86
+   ],
+   "total": 174,
+   "to_par": 30,
+   "note": null
+  },
+  {
+   "rank": "12",
+   "player_name": "高橋亜莉澄",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    87,
+    88
+   ],
+   "total": 175,
+   "to_par": 31,
+   "note": null
+  },
+  {
+   "rank": "13",
+   "player_name": "若林 佳歩",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    92,
+    86
+   ],
+   "total": 178,
+   "to_par": 34,
+   "note": null
+  },
+  {
+   "rank": "14",
+   "player_name": "菅原 舞",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    94,
+    85
+   ],
+   "total": 179,
+   "to_par": 35,
+   "note": null
+  },
+  {
+   "rank": "15",
+   "player_name": "本橋 史菜",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    85,
+    98
+   ],
+   "total": 183,
+   "to_par": 39,
+   "note": null
+  },
+  {
+   "rank": "16",
+   "player_name": "崔 裕那",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    92,
+    96
+   ],
+   "total": 188,
+   "to_par": 44,
+   "note": null
+  }
+ ]
+}

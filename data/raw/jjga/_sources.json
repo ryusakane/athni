@@ -1,15 +1,79 @@
 [
  {
-  "name": "JJGA 特定非営利活動法人日本ジュニアゴルフ協会 — 決勝大会 results (石川遼カップ決勝, Jr.プレーヤーズ東西決勝, オールスター, 東横イン決勝, RMJ 宮里・青木・成田カップ, 小平智カップ決勝, スプリング/大東建託 東西決勝)",
+  "name": "JJGA 特定非営利活動法人日本ジュニアゴルフ協会 — 決勝大会 results, 15-18歳 boys/girls divisions (石川遼カップ中高生決勝, Jr.プレーヤーズ東西決勝, オールスター, 東横イン決勝, RMJ 宮里・青木・成田カップ, 小平智カップ決勝, スプリング/大東建託 東西決勝, サマージュニアクラシック, あるふぁくらぶ)",
   "url": "https://www.jjga.org/result",
   "organizer_type": "national_junior_association",
   "region": "national",
-  "publishes": "Per-event result PDFs per division (8-9/10-11/12-14/15-18歳). 15-18 division rows: rank, to-par, name, grade (circled 1-3), 所在地 prefecture, OUT/IN per round, total. NO school names.",
-  "years_available": "2016-2026 finals (2024-2026 parsed: 24 events x boys/girls = 48 division files, 1015 rows)",
+  "publishes": "Per-event result PDFs (linked from each /final/... event page; 2015年度 and earlier as direct PDFs). 15-18 division rows: rank, (to-par), name, grade (circled 1-3; some PDFs add a 種類 column 高校/中学), 所在地 prefecture, OUT/IN per round, round totals, total. NO school names.",
+  "years_available": "Finals listed on /result for 1995-2026; collected: events played 2016-02 (2015年度 Ishikawa Cup) through 2026-06 (2026年度 Jr.Players West), i.e. 2015年度 Ishikawa Cup + 2016年度-2026年度 finals",
   "robots_ok": true,
-  "terms_note": "robots.txt only disallows /wp/wp-admin/. JJGA Webサービス利用規約 (https://www.jjga.org/common/pdf/agreement.pdf) 第8条: all IP of the JJGA website belongs to JJGA/licensors and '当協会に無断で知的財産権を使用（複製、送信、譲渡、二次利用を含む）することは禁じます'. Same situation as k-hga.jp (consent required for reuse). Server also resets connections intermittently (handled with retries, >=1s spacing).",
-  "collected": false,
-  "reason": "Parsed and validated, but NOT written to data/raw/jjga pending the user's decision on the JJGA terms clause (unauthorized reproduction/secondary use prohibited, analogous to the k-hga exclusion). Also no school names: HS status inferred only from the 15-18 division + grade 1-3."
+  "terms_note": "robots.txt (checked 2026-10-12) only disallows /wp/wp-admin/. JJGA Webサービス利用規約 (https://www.jjga.org/common/pdf/agreement.pdf) 第8条 prohibits reproduction/secondary use without consent. Owner decision 2026-10-12: publish facts only (names, positions, scores, prefecture, grade) with source links, and ask JJGA for consent in parallel (reference/source_terms.json 'jjga-'). Server resets connections intermittently: fetched with retries and >=1.2 s between requests.",
+  "collected": true,
+  "reason": "Collected 2026-10-12 into data/raw/jjga/jjga-<event>-<year>-<boys|girls>-15-18.json (one file per event x year x division; id year = calendar year of play, so e.g. the 2015年度 Ishikawa Cup played Feb 2016 is ...-2016-...). All 89 in-scope finals have both 15-18 divisions.",
+  "years_collected": [
+   2016,
+   2017,
+   2018,
+   2019,
+   2020,
+   2021,
+   2022,
+   2023,
+   2024,
+   2025,
+   2026
+  ],
+  "files": 178,
+  "rows": 4162,
+  "rows_by_season_year": {
+   "2016": 428,
+   "2017": 390,
+   "2018": 395,
+   "2019": 397,
+   "2020": 403,
+   "2021": 402,
+   "2022": 393,
+   "2023": 418,
+   "2024": 399,
+   "2025": 380,
+   "2026": 157
+  },
+  "files_by_season_year": {
+   "2016": 14,
+   "2017": 14,
+   "2018": 16,
+   "2019": 18,
+   "2020": 16,
+   "2021": 18,
+   "2022": 20,
+   "2023": 18,
+   "2024": 18,
+   "2025": 18,
+   "2026": 8
+  },
+  "not_collected": [
+   {
+    "item": "【PALMAX 小平智カップ】東西決勝大会 総合優勝者統一戦 (2022-09-24, ABCゴルフ倶楽部)",
+    "url": "https://www.jjga.org/final/palmax_kodairacup_2022final",
+    "reason": "No result PDF: a one-round match between the two block winners (大岩慶尚 73 beat 高山大維志 by 5) reported only in the page text; not a division result."
+   },
+   {
+    "item": "2026年度 finals after 2026-06-28 (Jr.プレーヤーズ東日本決勝, 小平智カップ決勝, オールスター, 東横イン, RMJ, 石川遼カップ)",
+    "reason": "Not yet listed on /result as of 2026-10-12 (2026年度 shows only 大東建託 西/東 and Jr.プレーヤーズ西)."
+   },
+   {
+    "item": "8-11歳 / 小学生 finals and the 8-9, 10-11, 12-14歳 divisions",
+    "reason": "Out of scope (only 15-18歳 = high-school divisions collected)."
+   },
+   {
+    "item": "ドラコン (long-drive) result sheets, e.g. All-Star 2025",
+    "reason": "Not stroke-play results."
+   },
+   {
+    "item": "2015年度 and earlier finals other than the 2016-02 Ishikawa Cup",
+    "reason": "Outside the 2016-2026 range."
+   }
+  ]
  },
  {
   "name": "JJGA 地区大会 (regional qualifiers) results",
@@ -21,7 +85,7 @@
   "robots_ok": true,
   "terms_note": "Same JJGA terms as above",
   "collected": false,
-  "reason": "Same terms concern; also very thin identity data (no school/prefecture) so name matching would be unreliable. One sample PDF checked only."
+  "reason": "Out of scope: regional qualifiers (地区大会) are skipped by design (only 決勝 events collected). Also thin identity data (no prefecture). One sample PDF checked only."
  },
  {
   "name": "JJGA SAHARA ranking (JJGAランキング)",

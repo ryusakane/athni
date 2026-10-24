@@ -1,0 +1,609 @@
+{
+ "tournament": {
+  "id": "jjga-ishikawa-ryo-cup-2021-girls-15-18",
+  "name": "2020年度 キャロウェイゴルフプレゼンツ石川遼カップジュニアゴルフチャンピオンシップ中高生決勝大会 15歳～18歳女子の部",
+  "name_en": "2021 Ryo Ishikawa Cup Junior Golf Championship final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2021,
+  "start_date": "2021-03-13",
+  "end_date": "2021-03-15",
+  "venue": "ロイヤルメドウゴルフ倶楽部",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6314,
+  "round_holes": [
+   9,
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2021/03/girls_FR_results.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2021/03/girls_FR_results.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 38,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Round holes [9, 18, 18]: a round was shortened to 9 holes (per printed scores).",
+   "Event page: https://www.jjga.org/final/ryo-cup_2020-2021_12-18_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "関口 碧",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "rounds": [
+    40,
+    72,
+    75
+   ],
+   "total": 187,
+   "to_par": 7,
+   "note": null
+  },
+  {
+   "rank": "T2",
+   "player_name": "鈴木 優芽",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    36,
+    76,
+    76
+   ],
+   "total": 188,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "T2",
+   "player_name": "桑木 志帆",
+   "school": null,
+   "school_prefecture": "岡山県",
+   "grade": 3,
+   "rounds": [
+    38,
+    79,
+    71
+   ],
+   "total": 188,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "T4",
+   "player_name": "大塚由姫乃",
+   "school": null,
+   "school_prefecture": "新潟県",
+   "grade": 1,
+   "rounds": [
+    38,
+    76,
+    77
+   ],
+   "total": 191,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "T4",
+   "player_name": "成田 瑛麻",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    38,
+    79,
+    74
+   ],
+   "total": 191,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "T4",
+   "player_name": "堀川 雪花",
+   "school": null,
+   "school_prefecture": "静岡県",
+   "grade": 1,
+   "rounds": [
+    38,
+    81,
+    72
+   ],
+   "total": 191,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "榎本 杏果",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    36,
+    79,
+    79
+   ],
+   "total": 194,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "T8",
+   "player_name": "相原 紗奈",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 1,
+   "rounds": [
+    37,
+    81,
+    77
+   ],
+   "total": 195,
+   "to_par": 15,
+   "note": null
+  },
+  {
+   "rank": "T8",
+   "player_name": "早川 夏未",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    40,
+    79,
+    76
+   ],
+   "total": 195,
+   "to_par": 15,
+   "note": null
+  },
+  {
+   "rank": "T10",
+   "player_name": "藤井 美羽",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    40,
+    79,
+    77
+   ],
+   "total": 196,
+   "to_par": 16,
+   "note": null
+  },
+  {
+   "rank": "T10",
+   "player_name": "宮澤 美咲",
+   "school": null,
+   "school_prefecture": "北海道",
+   "grade": 3,
+   "rounds": [
+    42,
+    81,
+    73
+   ],
+   "total": 196,
+   "to_par": 16,
+   "note": null
+  },
+  {
+   "rank": "12",
+   "player_name": "池羽 陽向",
+   "school": null,
+   "school_prefecture": "栃木県",
+   "grade": 3,
+   "rounds": [
+    39,
+    80,
+    78
+   ],
+   "total": 197,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "高橋 美羽",
+   "school": null,
+   "school_prefecture": "新潟県",
+   "grade": 3,
+   "rounds": [
+    39,
+    82,
+    77
+   ],
+   "total": 198,
+   "to_par": 18,
+   "note": null
+  },
+  {
+   "rank": "T13",
+   "player_name": "倉田 天乃",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    39,
+    83,
+    76
+   ],
+   "total": 198,
+   "to_par": 18,
+   "note": null
+  },
+  {
+   "rank": "T15",
+   "player_name": "山中 梨緒",
+   "school": null,
+   "school_prefecture": "佐賀県",
+   "grade": 1,
+   "rounds": [
+    38,
+    79,
+    82
+   ],
+   "total": 199,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "T15",
+   "player_name": "河口 実成",
+   "school": null,
+   "school_prefecture": "香川県",
+   "grade": 3,
+   "rounds": [
+    45,
+    77,
+    77
+   ],
+   "total": 199,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "T17",
+   "player_name": "金子 怜愛",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "rounds": [
+    37,
+    83,
+    80
+   ],
+   "total": 200,
+   "to_par": 20,
+   "note": null
+  },
+  {
+   "rank": "T17",
+   "player_name": "高木りおん",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    38,
+    85,
+    77
+   ],
+   "total": 200,
+   "to_par": 20,
+   "note": null
+  },
+  {
+   "rank": "T19",
+   "player_name": "宮部 樹理",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 1,
+   "rounds": [
+    42,
+    80,
+    80
+   ],
+   "total": 202,
+   "to_par": 22,
+   "note": null
+  },
+  {
+   "rank": "T19",
+   "player_name": "芦谷 夢華",
+   "school": null,
+   "school_prefecture": "福岡県",
+   "grade": 1,
+   "rounds": [
+    43,
+    82,
+    77
+   ],
+   "total": 202,
+   "to_par": 22,
+   "note": null
+  },
+  {
+   "rank": "T21",
+   "player_name": "木村 葉月",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    38,
+    82,
+    83
+   ],
+   "total": 203,
+   "to_par": 23,
+   "note": null
+  },
+  {
+   "rank": "T21",
+   "player_name": "勝亦 令奈",
+   "school": null,
+   "school_prefecture": "静岡県",
+   "grade": 1,
+   "rounds": [
+    44,
+    79,
+    80
+   ],
+   "total": 203,
+   "to_par": 23,
+   "note": null
+  },
+  {
+   "rank": "23",
+   "player_name": "高田 菜桜",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 2,
+   "rounds": [
+    45,
+    81,
+    78
+   ],
+   "total": 204,
+   "to_par": 24,
+   "note": null
+  },
+  {
+   "rank": "24",
+   "player_name": "楠 恵真",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 2,
+   "rounds": [
+    49,
+    82,
+    75
+   ],
+   "total": 206,
+   "to_par": 26,
+   "note": null
+  },
+  {
+   "rank": "25",
+   "player_name": "相場 彩那",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    48,
+    79,
+    80
+   ],
+   "total": 207,
+   "to_par": 27,
+   "note": null
+  },
+  {
+   "rank": "26",
+   "player_name": "成田 月奈",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 1,
+   "rounds": [
+    44,
+    84,
+    81
+   ],
+   "total": 209,
+   "to_par": 29,
+   "note": null
+  },
+  {
+   "rank": "27",
+   "player_name": "松山 りな",
+   "school": null,
+   "school_prefecture": "静岡県",
+   "grade": 1,
+   "rounds": [
+    44,
+    84,
+    82
+   ],
+   "total": 210,
+   "to_par": 30,
+   "note": null
+  },
+  {
+   "rank": "28",
+   "player_name": "宇田 紗彩",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    40,
+    86,
+    86
+   ],
+   "total": 212,
+   "to_par": 32,
+   "note": null
+  },
+  {
+   "rank": "T29",
+   "player_name": "翁長 咲弥",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 3,
+   "rounds": [
+    44,
+    88,
+    82
+   ],
+   "total": 214,
+   "to_par": 34,
+   "note": null
+  },
+  {
+   "rank": "T29",
+   "player_name": "佐藤 七海",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    50,
+    82,
+    82
+   ],
+   "total": 214,
+   "to_par": 34,
+   "note": null
+  },
+  {
+   "rank": "31",
+   "player_name": "牟田 遥",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 3,
+   "rounds": [
+    46,
+    89,
+    80
+   ],
+   "total": 215,
+   "to_par": 35,
+   "note": null
+  },
+  {
+   "rank": "32",
+   "player_name": "角田 夢香",
+   "school": null,
+   "school_prefecture": "群馬県",
+   "grade": 1,
+   "rounds": [
+    44,
+    88,
+    88
+   ],
+   "total": 220,
+   "to_par": 40,
+   "note": null
+  },
+  {
+   "rank": "33",
+   "player_name": "山之口 空",
+   "school": null,
+   "school_prefecture": "埼玉県",
+   "grade": 1,
+   "rounds": [
+    46,
+    87,
+    89
+   ],
+   "total": 222,
+   "to_par": 42,
+   "note": null
+  },
+  {
+   "rank": "34",
+   "player_name": "村田 結",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    46,
+    99,
+    87
+   ],
+   "total": 232,
+   "to_par": 52,
+   "note": null
+  },
+  {
+   "rank": "WD",
+   "player_name": "太田 紬",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 2,
+   "rounds": [
+    48,
+    97
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: Scr"
+  },
+  {
+   "rank": "WD",
+   "player_name": "渡辺 世奈",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 1,
+   "rounds": [
+    41,
+    85
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: Scr"
+  },
+  {
+   "rank": "WD",
+   "player_name": "石井 咲来",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 3,
+   "rounds": [
+    44,
+    87
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: Scr"
+  },
+  {
+   "rank": "WD",
+   "player_name": "浅野 咲希",
+   "school": null,
+   "school_prefecture": "千葉県",
+   "grade": 2,
+   "rounds": [
+    39
+   ],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: WD"
+  }
+ ]
+}

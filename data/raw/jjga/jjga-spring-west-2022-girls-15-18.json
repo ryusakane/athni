@@ -1,0 +1,141 @@
+{
+ "tournament": {
+  "id": "jjga-spring-west-2022-girls-15-18",
+  "name": "2022年度 スプリングジュニアゴルフチャンピオンシップ西日本決勝大会 15歳～18歳女子の部",
+  "name_en": "2022 Spring Junior Golf Championship West Japan final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2022,
+  "start_date": "2022-05-14",
+  "end_date": "2022-05-15",
+  "venue": "賀茂カントリークラブ",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6303,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2022/05/220515_spring_west_FR_OUT_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2022/05/220515_spring_west_FR_OUT_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 7,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "/result index lists 5月1日・2日, but the result PDFs print 令和4年5月14日・15日 (大会最終日 5月15日); PDF dates used.",
+   "Event page: https://www.jjga.org/final/spring_west2022_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "金谷 一希",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    76,
+    79
+   ],
+   "total": 155,
+   "to_par": 11,
+   "note": null
+  },
+  {
+   "rank": "2",
+   "player_name": "広瀬 春菜",
+   "school": null,
+   "school_prefecture": "山口県",
+   "grade": 1,
+   "rounds": [
+    74,
+    83
+   ],
+   "total": 157,
+   "to_par": 13,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "谷本ハノン",
+   "school": null,
+   "school_prefecture": "広島県",
+   "grade": 3,
+   "rounds": [
+    81,
+    77
+   ],
+   "total": 158,
+   "to_par": 14,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "森山 亜衣",
+   "school": null,
+   "school_prefecture": "滋賀県",
+   "grade": 1,
+   "rounds": [
+    79,
+    81
+   ],
+   "total": 160,
+   "to_par": 16,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "三浦 春舞",
+   "school": null,
+   "school_prefecture": "滋賀県",
+   "grade": 2,
+   "rounds": [
+    78,
+    85
+   ],
+   "total": 163,
+   "to_par": 19,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "臼井 華帆",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 1,
+   "rounds": [
+    81,
+    91
+   ],
+   "total": 172,
+   "to_par": 28,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "平井くるみ",
+   "school": null,
+   "school_prefecture": "福岡県",
+   "grade": 2,
+   "rounds": [
+    99,
+    88
+   ],
+   "total": 187,
+   "to_par": 43,
+   "note": null
+  }
+ ]
+}

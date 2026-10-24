@@ -3887,6 +3887,1137 @@
 - `kokusupo-2026-boys-team`: Team page lists surnames only; resolved via individual results
 - `kokusupo-2026-boys-team`: Day 2 cancelled (bear sighting at venue); final results based on Day 1 only (【2日目中止のため1日目の成績による】)
 - `kokusupo-2026-boys-team`: Results site © Kyodo News Digital
+- `jjga-all-star-2016-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2016-boys-15-18`: The PDF's section header reads ∇12歳～18歳…の部 for this column; it is the 15-18 division (the other column is ∇12歳～14歳…, and players' grades match their high-school years in other events).
+- `jjga-all-star-2016-boys-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-all-star-2016-boys-15-18`: Event page: https://www.jjga.org/final/junior_allstar_2016_12-18
+- `jjga-all-star-2016-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2016-girls-15-18`: The PDF's section header reads ∇12歳～18歳…の部 for this column; it is the 15-18 division (the other column is ∇12歳～14歳…, and players' grades match their high-school years in other events).
+- `jjga-all-star-2016-girls-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-all-star-2016-girls-15-18`: Event page: https://www.jjga.org/final/junior_allstar_2016_12-18
+- `jjga-all-star-2020-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2020-boys-15-18`: Event page: https://www.jjga.org/final/allstar2020_result
+- `jjga-all-star-2020-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2020-girls-15-18`: Event page: https://www.jjga.org/final/allstar2020_result
+- `jjga-all-star-2021-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2021-boys-15-18`: Event page: https://www.jjga.org/final/allstar2021_result
+- `jjga-all-star-2021-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2021-girls-15-18`: Event page: https://www.jjga.org/final/allstar2021_result
+- `jjga-all-star-2022-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2022-boys-15-18`: Event page: https://www.jjga.org/final/allstar2022_result
+- `jjga-all-star-2022-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2022-girls-15-18`: Event page: https://www.jjga.org/final/allstar2022_result
+- `jjga-all-star-2023-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2023-boys-15-18`: Event page: https://www.jjga.org/final/allstar2023_result
+- `jjga-all-star-2023-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2023-girls-15-18`: Event page: https://www.jjga.org/final/allstar2023_result
+- `jjga-all-star-2024-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%aa%e3%83%bc%e3%83%ab%e3%82%b9%e3%82%bf%e3%83%bc%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-all-star-2024-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%aa%e3%83%bc%e3%83%ab%e3%82%b9%e3%82%bf%e3%83%bc%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-all-star-2025-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%aa%e3%83%bc%e3%83%ab%e3%82%b9%e3%82%bf%e3%83%bc%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-all-star-2025-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-all-star-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-all-star-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-all-star-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-all-star-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-all-star-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%aa%e3%83%bc%e3%83%ab%e3%82%b9%e3%82%bf%e3%83%bc%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-alpha-club-2017-boys-15-18`: コース情報未登録: 矢板カントリークラブ
+- `jjga-alpha-club-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-alpha-club-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-alpha-club-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-alpha-club-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-alpha-club-2017-boys-15-18`: /result index lists 10月6～7日, but the result PDFs print 2017年10月7日・8日; PDF dates used.
+- `jjga-alpha-club-2017-boys-15-18`: Event page: https://www.jjga.org/final/alphaclub_2017_result
+- `jjga-alpha-club-2017-girls-15-18`: コース情報未登録: 矢板カントリークラブ
+- `jjga-alpha-club-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-alpha-club-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-alpha-club-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-alpha-club-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-alpha-club-2017-girls-15-18`: /result index lists 10月6～7日, but the result PDFs print 2017年10月7日・8日; PDF dates used.
+- `jjga-alpha-club-2017-girls-15-18`: Event page: https://www.jjga.org/final/alphaclub_2017_result
+- `jjga-alpha-club-2018-boys-15-18`: コース情報未登録: 矢板カントリークラブ
+- `jjga-alpha-club-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-alpha-club-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-alpha-club-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-alpha-club-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-alpha-club-2018-boys-15-18`: Event page: https://www.jjga.org/final/alphaclub2018_result
+- `jjga-alpha-club-2018-girls-15-18`: コース情報未登録: 矢板カントリークラブ
+- `jjga-alpha-club-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-alpha-club-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-alpha-club-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-alpha-club-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-alpha-club-2018-girls-15-18`: Event page: https://www.jjga.org/final/alphaclub2018_result
+- `jjga-alpha-club-2019-boys-15-18`: コース情報未登録: 矢板カントリークラブ
+- `jjga-alpha-club-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-alpha-club-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-alpha-club-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-alpha-club-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-alpha-club-2019-boys-15-18`: Event page: https://www.jjga.org/final/alphaclub2019_result
+- `jjga-alpha-club-2019-girls-15-18`: コース情報未登録: 矢板カントリークラブ
+- `jjga-alpha-club-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-alpha-club-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-alpha-club-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-alpha-club-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-alpha-club-2019-girls-15-18`: Event page: https://www.jjga.org/final/alphaclub2019_result
+- `jjga-daito-kentaku-east-2025-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-daito-kentaku-east-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-east-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-east-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-east-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-east-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%a4%a7%e6%9d%b1%e5%bb%ba%e8%a8%97jr%e6%9d%b1%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-daito-kentaku-east-2025-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-daito-kentaku-east-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-east-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-east-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-east-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-east-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%a4%a7%e6%9d%b1%e5%bb%ba%e8%a8%97jr%e6%9d%b1%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-daito-kentaku-east-2026-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-daito-kentaku-east-2026-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-east-2026-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-east-2026-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-east-2026-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-east-2026-boys-15-18`: Event page: https://www.jjga.org/final/2026daito_east_result
+- `jjga-daito-kentaku-east-2026-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-daito-kentaku-east-2026-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-east-2026-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-east-2026-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-east-2026-girls-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-daito-kentaku-east-2026-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-east-2026-girls-15-18`: Event page: https://www.jjga.org/final/2026daito_east_result
+- `jjga-daito-kentaku-west-2025-boys-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-daito-kentaku-west-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-west-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-west-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-west-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-west-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%a4%a7%e6%9d%b1%e5%bb%ba%e8%a8%97jr%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-daito-kentaku-west-2025-girls-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-daito-kentaku-west-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-west-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-west-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-west-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-west-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%a4%a7%e6%9d%b1%e5%bb%ba%e8%a8%97jr%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-daito-kentaku-west-2026-boys-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-daito-kentaku-west-2026-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-west-2026-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-west-2026-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-west-2026-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-west-2026-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%a4%a7%e6%9d%b1%e5%bb%ba%e8%a8%97-%e8%a5%bf%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-daito-kentaku-west-2026-girls-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-daito-kentaku-west-2026-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-daito-kentaku-west-2026-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-daito-kentaku-west-2026-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-daito-kentaku-west-2026-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-daito-kentaku-west-2026-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%a4%a7%e6%9d%b1%e5%bb%ba%e8%a8%97-%e8%a5%bf%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフスタジアム
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: Rows below the printed line '以上の選手が最終日に進出' are rank 'cut' with their 36-hole scores.
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: PDF filed under convention/2015 (2015年度 season) but played 2016-02-27..29. 阪根竜之介's row also exists in data/raw/sakane/sakane-jjga-ryo-cup-2016.json.
+- `jjga-ishikawa-ryo-cup-2016-boys-15-18`: Event page: https://www.jjga.org/result (2015年度大会一覧, direct PDF link)
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフスタジアム
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: Rows below the printed line '以上の選手が最終日に進出' are rank 'cut' with their 36-hole scores.
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: PDF filed under convention/2015 (2015年度 season) but played 2016-02-27..29. 阪根竜之介's row also exists in data/raw/sakane/sakane-jjga-ryo-cup-2016.json.
+- `jjga-ishikawa-ryo-cup-2016-girls-15-18`: Event page: https://www.jjga.org/result (2015年度大会一覧, direct PDF link)
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: Rows below the printed line '以上の選手が最終日に進出' are rank 'cut' with their 36-hole scores.
+- `jjga-ishikawa-ryo-cup-2017-boys-15-18`: Event page: https://www.jjga.org/final/ishikawaryo_cup_2017_12-18
+- `jjga-ishikawa-ryo-cup-2017-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2017-girls-15-18`: Event page: https://www.jjga.org/final/ishikawaryo_cup_2017_12-18
+- `jjga-ishikawa-ryo-cup-2018-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2018-boys-15-18`: Event page: https://www.jjga.org/final/2017ryocup_results_12-18
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: This PDF prints no 学年/所在地 columns for the girls' division: grade and school_prefecture are null for every row.
+- `jjga-ishikawa-ryo-cup-2018-girls-15-18`: Event page: https://www.jjga.org/final/2017ryocup_results_12-18
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: Rows below the printed line '以上の選手が最終日に進出' are rank 'cut' with their 36-hole scores.
+- `jjga-ishikawa-ryo-cup-2019-boys-15-18`: Event page: https://www.jjga.org/final/ryocup2018_12-18_result
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: Rows below the printed line '以上の選手が最終日に進出' are rank 'cut' with their 36-hole scores.
+- `jjga-ishikawa-ryo-cup-2019-girls-15-18`: Event page: https://www.jjga.org/final/ryocup2018_12-18_result
+- `jjga-ishikawa-ryo-cup-2020-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2020-boys-15-18`: Event page: https://www.jjga.org/final/ryocup2019_12-18_result
+- `jjga-ishikawa-ryo-cup-2020-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2020-girls-15-18`: Event page: https://www.jjga.org/final/ryocup2019_12-18_result
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: Round holes [9, 18, 18]: a round was shortened to 9 holes (per printed scores).
+- `jjga-ishikawa-ryo-cup-2021-boys-15-18`: Event page: https://www.jjga.org/final/ryo-cup_2020-2021_12-18_result
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: Round holes [9, 18, 18]: a round was shortened to 9 holes (per printed scores).
+- `jjga-ishikawa-ryo-cup-2021-girls-15-18`: Event page: https://www.jjga.org/final/ryo-cup_2020-2021_12-18_result
+- `jjga-ishikawa-ryo-cup-2022-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2022-boys-15-18`: Event page: https://www.jjga.org/final/ryocup2021_12-18_result
+- `jjga-ishikawa-ryo-cup-2022-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2022-girls-15-18`: Event page: https://www.jjga.org/final/ryocup2021_12-18_result
+- `jjga-ishikawa-ryo-cup-2023-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2023-boys-15-18`: Event page: https://www.jjga.org/final/ryocup2022-2023_12-18_result
+- `jjga-ishikawa-ryo-cup-2023-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2023-girls-15-18`: Event page: https://www.jjga.org/final/ryocup2022-2023_12-18_result
+- `jjga-ishikawa-ryo-cup-2024-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d-%e4%b8%ad%e9%ab%98%e7%94%9f%e3%81%ae%e9%83%a8%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-ishikawa-ryo-cup-2024-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d-%e4%b8%ad%e9%ab%98%e7%94%9f%e3%81%ae%e9%83%a8%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: Round column 2R (#2) is blank for every player in the PDF: that round was not played/counted; rounds list holds only the rounds played.
+- `jjga-ishikawa-ryo-cup-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e4%b8%ad%e9%ab%98%e7%94%9f%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: Round column 2R (#2) is blank for every player in the PDF: that round was not played/counted; rounds list holds only the rounds played.
+- `jjga-ishikawa-ryo-cup-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e4%b8%ad%e9%ab%98%e7%94%9f%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-ishikawa-ryo-cup-2026-boys-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2026-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2026-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2026-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2026-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2026-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e4%b8%ad%e9%ab%98%e7%94%9f%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-ishikawa-ryo-cup-2026-girls-15-18`: コース情報未登録: ロイヤルメドウゴルフ倶楽部
+- `jjga-ishikawa-ryo-cup-2026-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-ishikawa-ryo-cup-2026-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-ishikawa-ryo-cup-2026-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-ishikawa-ryo-cup-2026-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-ishikawa-ryo-cup-2026-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e7%9f%b3%e5%b7%9d%e9%81%bc%e3%82%ab%e3%83%83%e3%83%97%e4%b8%ad%e9%ab%98%e7%94%9f%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-junior-players-east-2016-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2016-boys-15-18`: 2016 Jr. Players page (https://www.jjga.org/final/juniorplayers_2016) links both finals; final.pdf is the East final (那須小川GC).
+- `jjga-junior-players-east-2016-boys-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-junior-players-east-2016-boys-15-18`: Event page: https://www.jjga.org/final/juniorplayers_2016
+- `jjga-junior-players-east-2016-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2016-girls-15-18`: 2016 Jr. Players page (https://www.jjga.org/final/juniorplayers_2016) links both finals; final.pdf is the East final (那須小川GC).
+- `jjga-junior-players-east-2016-girls-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-junior-players-east-2016-girls-15-18`: Event page: https://www.jjga.org/final/juniorplayers_2016
+- `jjga-junior-players-east-2017-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2017-boys-15-18`: Yardage printed as 6,669/6,706 (two setups); yardage field uses the first.
+- `jjga-junior-players-east-2017-boys-15-18`: Event page: https://www.jjga.org/final/jrplayers2017_final_east
+- `jjga-junior-players-east-2017-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2017-girls-15-18`: Event page: https://www.jjga.org/final/jrplayers2017_final_east
+- `jjga-junior-players-east-2018-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2018-boys-15-18`: Event page: https://www.jjga.org/final/jjp2018_east_fr_result
+- `jjga-junior-players-east-2018-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2018-girls-15-18`: Event page: https://www.jjga.org/final/jjp2018_east_fr_result
+- `jjga-junior-players-east-2019-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2019-boys-15-18`: Event page: https://www.jjga.org/final/jjp_east2019_result
+- `jjga-junior-players-east-2019-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2019-girls-15-18`: Event page: https://www.jjga.org/final/jjp_east2019_result
+- `jjga-junior-players-east-2020-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2020-boys-15-18`: Event page: https://www.jjga.org/final/2020jjp_east_result
+- `jjga-junior-players-east-2020-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2020-girls-15-18`: Event page: https://www.jjga.org/final/2020jjp_east_result
+- `jjga-junior-players-east-2021-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2021-boys-15-18`: Round holes [9, 9]: a round was shortened to 9 holes (per printed scores).
+- `jjga-junior-players-east-2021-boys-15-18`: Event page: https://www.jjga.org/final/2021jjp_east_result
+- `jjga-junior-players-east-2021-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2021-girls-15-18`: Round holes [9, 9]: a round was shortened to 9 holes (per printed scores).
+- `jjga-junior-players-east-2021-girls-15-18`: Event page: https://www.jjga.org/final/2021jjp_east_result
+- `jjga-junior-players-east-2022-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2022-boys-15-18`: Event page: https://www.jjga.org/final/jjp_east2022_result
+- `jjga-junior-players-east-2022-boys-15-18`: 卒業年度が一致しない: 小原 力 (None) 2023 vs 2024
+- `jjga-junior-players-east-2022-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2022-girls-15-18`: Event page: https://www.jjga.org/final/jjp_east2022_result
+- `jjga-junior-players-east-2023-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2023-boys-15-18`: Event page: https://www.jjga.org/final/jjp_east2023_result
+- `jjga-junior-players-east-2023-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2023-girls-15-18`: Event page: https://www.jjga.org/final/jjp_east2023_result
+- `jjga-junior-players-east-2024-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e6%9d%b1%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-junior-players-east-2024-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e6%9d%b1%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-junior-players-east-2025-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e6%9d%b1%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%911%e6%97%a5%e7%9b%ae%e6%88%90%e7%b8%be%e3%83%bb-3
+- `jjga-junior-players-east-2025-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-junior-players-east-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-east-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-east-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-east-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-east-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e6%9d%b1%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%911%e6%97%a5%e7%9b%ae%e6%88%90%e7%b8%be%e3%83%bb-3
+- `jjga-junior-players-west-2016-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2016-boys-15-18`: 2016 Jr. Players page (https://www.jjga.org/final/juniorplayers_2016) links both finals; FR_RESULTS.pdf is the West final (津CC).
+- `jjga-junior-players-west-2016-boys-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-junior-players-west-2016-boys-15-18`: Event page: https://www.jjga.org/final/juniorplayers_2016
+- `jjga-junior-players-west-2016-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2016-girls-15-18`: 2016 Jr. Players page (https://www.jjga.org/final/juniorplayers_2016) links both finals; FR_RESULTS.pdf is the West final (津CC).
+- `jjga-junior-players-west-2016-girls-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-junior-players-west-2016-girls-15-18`: Event page: https://www.jjga.org/final/juniorplayers_2016
+- `jjga-junior-players-west-2017-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2017-boys-15-18`: 増田 樹 (WD): printed 2R value 72 has incomplete OUT/IN ([None, 72]); round not counted.
+- `jjga-junior-players-west-2017-boys-15-18`: Event page: https://www.jjga.org/final/jrplayers2017_final_west
+- `jjga-junior-players-west-2017-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2017-girls-15-18`: Event page: https://www.jjga.org/final/jrplayers2017_final_west
+- `jjga-junior-players-west-2018-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2018-boys-15-18`: Event page: https://www.jjga.org/final/jrplayers2018_final_west
+- `jjga-junior-players-west-2018-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2018-girls-15-18`: Event page: https://www.jjga.org/final/jrplayers2018_final_west
+- `jjga-junior-players-west-2019-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2019-boys-15-18`: Event page: https://www.jjga.org/final/jjp_west2019_result
+- `jjga-junior-players-west-2019-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2019-girls-15-18`: Event page: https://www.jjga.org/final/jjp_west2019_result
+- `jjga-junior-players-west-2020-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2020-boys-15-18`: Event page: https://www.jjga.org/final/2020jjp_west_result
+- `jjga-junior-players-west-2020-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2020-girls-15-18`: Event page: https://www.jjga.org/final/2020jjp_west_result
+- `jjga-junior-players-west-2021-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2021-boys-15-18`: Event page: https://www.jjga.org/final/2021jjp_west_result
+- `jjga-junior-players-west-2021-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2021-girls-15-18`: Event page: https://www.jjga.org/final/2021jjp_west_result
+- `jjga-junior-players-west-2022-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2022-boys-15-18`: PDF note: ※18ホール短縮プレーになりました (event shortened to one 18-hole round).
+- `jjga-junior-players-west-2022-boys-15-18`: Event page: https://www.jjga.org/final/jr-player_west2022_result-2
+- `jjga-junior-players-west-2022-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2022-girls-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-junior-players-west-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2022-girls-15-18`: PDF note: ※18ホール短縮プレーになりました (event shortened to one 18-hole round).
+- `jjga-junior-players-west-2022-girls-15-18`: Event page: https://www.jjga.org/final/jr-player_west2022_result-2
+- `jjga-junior-players-west-2023-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2023-boys-15-18`: Event page: https://www.jjga.org/final/jjp_west2023_result
+- `jjga-junior-players-west-2023-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2023-girls-15-18`: Event page: https://www.jjga.org/final/jjp_west2023_result
+- `jjga-junior-players-west-2024-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-junior-players-west-2024-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-junior-players-west-2025-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-junior-players-west-2025-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e3%83%96%e3%83%ad%e3%83%83%e3%82%af%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-junior-players-west-2026-boys-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2026-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2026-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2026-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2026-boys-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-junior-players-west-2026-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2026-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-junior-players-west-2026-girls-15-18`: コース情報未登録: 津カントリー倶楽部
+- `jjga-junior-players-west-2026-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-junior-players-west-2026-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-junior-players-west-2026-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-junior-players-west-2026-girls-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-junior-players-west-2026-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-junior-players-west-2026-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-kodaira-cup-2023-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-kodaira-cup-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-2023-boys-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-kodaira-cup-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-2023-boys-15-18`: Event page: https://www.jjga.org/final/%e3%80%90%e5%b0%8f%e5%b9%b3%e6%99%ba%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-kodaira-cup-2023-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-kodaira-cup-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-2023-girls-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-kodaira-cup-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-2023-girls-15-18`: Event page: https://www.jjga.org/final/%e3%80%90%e5%b0%8f%e5%b9%b3%e6%99%ba%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-kodaira-cup-2024-boys-15-18`: コース情報未登録: トーシンプリンスビルゴルフコース
+- `jjga-kodaira-cup-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%b0%8f%e5%b9%b3%e6%99%ba%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-kodaira-cup-2024-girls-15-18`: コース情報未登録: トーシンプリンスビルゴルフコース
+- `jjga-kodaira-cup-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-2024-girls-15-18`: Girls' PDF header prints 令和6年8月31日・9月1日 but its title says 大会最終日（9月16日）; dates taken from the boys' PDF and the /result index (2024-09-15/16).
+- `jjga-kodaira-cup-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%b0%8f%e5%b9%b3%e6%99%ba%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-kodaira-cup-2025-boys-15-18`: コース情報未登録: セブンハンドレッドクラブ
+- `jjga-kodaira-cup-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%b0%8f%e5%b9%b3%e6%99%ba%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-kodaira-cup-2025-girls-15-18`: コース情報未登録: セブンハンドレッドクラブ
+- `jjga-kodaira-cup-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e5%b0%8f%e5%b9%b3%e6%99%ba%e3%82%ab%e3%83%83%e3%83%97%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c-2
+- `jjga-kodaira-cup-east-2022-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-kodaira-cup-east-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-east-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-east-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-east-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-east-2022-boys-15-18`: Event page: https://www.jjga.org/final/palmax_kodairacup2022_east_final_result
+- `jjga-kodaira-cup-east-2022-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-kodaira-cup-east-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-east-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-east-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-east-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-east-2022-girls-15-18`: Event page: https://www.jjga.org/final/palmax_kodairacup2022_east_final_result
+- `jjga-kodaira-cup-west-2022-boys-15-18`: コース情報未登録: ザ・カントリークラブ
+- `jjga-kodaira-cup-west-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-west-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-west-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-west-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-west-2022-boys-15-18`: Event page: https://www.jjga.org/final/palmax_kodairacup2022_west_final_result
+- `jjga-kodaira-cup-west-2022-girls-15-18`: コース情報未登録: ザ・カントリークラブ
+- `jjga-kodaira-cup-west-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-kodaira-cup-west-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-kodaira-cup-west-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-kodaira-cup-west-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-kodaira-cup-west-2022-girls-15-18`: Event page: https://www.jjga.org/final/palmax_kodairacup2022_west_final_result
+- `jjga-rmj-cup-2022-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-rmj-cup-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2022-boys-15-18`: Event page: https://www.jjga.org/final/richardmillecup2022_result
+- `jjga-rmj-cup-2022-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-rmj-cup-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2022-girls-15-18`: Event page: https://www.jjga.org/final/richardmillecup2022_result
+- `jjga-rmj-cup-2023-boys-15-18`: コース情報未登録: ホテル&リゾート那須霞ヶ城ゴルフクラブ
+- `jjga-rmj-cup-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2023-boys-15-18`: Event page: https://www.jjga.org/events/%f0%9f%8f%86%e3%80%90richard-mille-japan-foundation-presents-%e5%ae%ae%e9%87%8c%e5%84%aa%e4%bd%9c%e3%83%bb%e9%9d%92%e6%9c%a8%e7%80%ac%e4%bb%a4%e5%a5%88%e3%83%bb%e6%88%90%e7%94%b0%e7%be%8e%e5%af%bf-2
+- `jjga-rmj-cup-2023-girls-15-18`: コース情報未登録: ホテル&リゾート那須霞ヶ城ゴルフクラブ
+- `jjga-rmj-cup-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2023-girls-15-18`: Event page: https://www.jjga.org/events/%f0%9f%8f%86%e3%80%90richard-mille-japan-foundation-presents-%e5%ae%ae%e9%87%8c%e5%84%aa%e4%bd%9c%e3%83%bb%e9%9d%92%e6%9c%a8%e7%80%ac%e4%bb%a4%e5%a5%88%e3%83%bb%e6%88%90%e7%94%b0%e7%be%8e%e5%af%bf-2
+- `jjga-rmj-cup-2024-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-rmj-cup-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%83%aa%e3%82%b7%e3%83%a3%e3%83%bc%e3%83%ab%e3%83%9f%e3%83%ab%e3%80%91%e6%9c%80%e7%b5%82%e6%97%a5%e6%88%90%e7%b8%be
+- `jjga-rmj-cup-2024-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-rmj-cup-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%83%aa%e3%82%b7%e3%83%a3%e3%83%bc%e3%83%ab%e3%83%9f%e3%83%ab%e3%80%91%e6%9c%80%e7%b5%82%e6%97%a5%e6%88%90%e7%b8%be
+- `jjga-rmj-cup-2025-boys-15-18`: コース情報未登録: ホテル&リゾート那須霞ヶ城ゴルフクラブ
+- `jjga-rmj-cup-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2025-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90rmj%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-rmj-cup-2025-girls-15-18`: コース情報未登録: ホテル&リゾート那須霞ヶ城ゴルフクラブ
+- `jjga-rmj-cup-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-rmj-cup-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-rmj-cup-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-rmj-cup-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-rmj-cup-2025-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90rmj%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-spring-2016-boys-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2016-boys-15-18`: OUT+IN != round for 中澤 紀和 (1R): 41+40 vs 82
+- `jjga-spring-2016-boys-15-18`: OUT+IN != round for 桐生慎太郎 (1R): 41+42 vs 81
+- `jjga-spring-2016-boys-15-18`: OUT+IN != round for 大番 飛来 (1R): 41+45 vs 81
+- `jjga-spring-2016-boys-15-18`: Event page: https://www.jjga.org/final/spring_2016
+- `jjga-spring-2016-girls-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2016-girls-15-18`: Event page: https://www.jjga.org/final/spring_2016
+- `jjga-spring-2016-girls-15-18`: 卒業年度が一致しない: 松﨑 奈未 (None) 2017 vs 2019
+- `jjga-spring-2017-boys-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2017-boys-15-18`: Event page: https://www.jjga.org/final/spring2017
+- `jjga-spring-2017-girls-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2017-girls-15-18`: Event page: https://www.jjga.org/final/spring2017
+- `jjga-spring-2018-boys-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2018-boys-15-18`: Event page: https://www.jjga.org/final/spring2018_result
+- `jjga-spring-2018-boys-15-18`: 卒業年度が一致しない: 河内 勝行 (None) 2019 vs 2020
+- `jjga-spring-2018-girls-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2018-girls-15-18`: Event page: https://www.jjga.org/final/spring2018_result
+- `jjga-spring-2020-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-spring-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2020-boys-15-18`: Event page: https://www.jjga.org/final/2020spring_result
+- `jjga-spring-2020-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-spring-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-2020-girls-15-18`: Event page: https://www.jjga.org/final/2020spring_result
+- `jjga-spring-east-2019-boys-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-east-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2019-boys-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-spring-east-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2019-boys-15-18`: /result index lists 4月29日・30日, but the result PDFs print 2019年4月28日・29日 (最終日 4月29日); PDF dates used.
+- `jjga-spring-east-2019-boys-15-18`: Event page: https://www.jjga.org/final/spring2019_east_result
+- `jjga-spring-east-2019-girls-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-spring-east-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2019-girls-15-18`: This PDF has a 種類 column; it reads 高校 for every row of this division.
+- `jjga-spring-east-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2019-girls-15-18`: /result index lists 4月29日・30日, but the result PDFs print 2019年4月28日・29日 (最終日 4月29日); PDF dates used.
+- `jjga-spring-east-2019-girls-15-18`: Event page: https://www.jjga.org/final/spring2019_east_result
+- `jjga-spring-east-2021-boys-15-18`: コース情報未登録: 妙義カントリークラブ
+- `jjga-spring-east-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2021-boys-15-18`: Event page: https://www.jjga.org/final/spring_east2021_result
+- `jjga-spring-east-2021-girls-15-18`: コース情報未登録: 妙義カントリークラブ
+- `jjga-spring-east-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2021-girls-15-18`: Event page: https://www.jjga.org/final/spring_east2021_result
+- `jjga-spring-east-2022-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-spring-east-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2022-boys-15-18`: Event page: https://www.jjga.org/infomation/spring_east2022_result
+- `jjga-spring-east-2022-boys-15-18`: 卒業年度が一致しない: 近藤 直杜 (None) 2024 vs 2025
+- `jjga-spring-east-2022-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-spring-east-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2022-girls-15-18`: Event page: https://www.jjga.org/infomation/spring_east2022_result
+- `jjga-spring-east-2023-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-spring-east-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2023-boys-15-18`: Event page: https://www.jjga.org/final/spring_east2023_result
+- `jjga-spring-east-2023-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-spring-east-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2023-girls-15-18`: Event page: https://www.jjga.org/final/spring_east2023_result
+- `jjga-spring-east-2024-boys-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-spring-east-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%b9%e3%83%97%e3%83%aa%e3%83%b3%e3%82%b0%e6%9d%b1%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-spring-east-2024-girls-15-18`: コース情報未登録: 新宇都宮カントリークラブ
+- `jjga-spring-east-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-east-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-east-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-east-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-east-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%b9%e3%83%97%e3%83%aa%e3%83%b3%e3%82%b0%e6%9d%b1%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-spring-west-2019-boys-15-18`: コース情報未登録: 宇治田原カントリー倶楽部
+- `jjga-spring-west-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2019-boys-15-18`: Round holes [9, 18]: a round was shortened to 9 holes (per printed scores).
+- `jjga-spring-west-2019-boys-15-18`: Event page: https://www.jjga.org/final/spring2019_west_result
+- `jjga-spring-west-2019-girls-15-18`: コース情報未登録: 宇治田原カントリー倶楽部
+- `jjga-spring-west-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2019-girls-15-18`: Both columns of the PDF are headed ∇12歳～18歳女子の部; the left column is the 15-18 division (its players appear in 15-18 divisions of other 2019 events, the right column's in 12-14 divisions).
+- `jjga-spring-west-2019-girls-15-18`: Round holes [9, 18]: a round was shortened to 9 holes (per printed scores).
+- `jjga-spring-west-2019-girls-15-18`: Event page: https://www.jjga.org/final/spring2019_west_result
+- `jjga-spring-west-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2021-boys-15-18`: Event page: https://www.jjga.org/final/spring_west2021_result
+- `jjga-spring-west-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2021-girls-15-18`: Event page: https://www.jjga.org/final/spring_west2021_result
+- `jjga-spring-west-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2022-boys-15-18`: /result index lists 5月1日・2日, but the result PDFs print 令和4年5月14日・15日 (大会最終日 5月15日); PDF dates used.
+- `jjga-spring-west-2022-boys-15-18`: Event page: https://www.jjga.org/final/spring_west2022_result
+- `jjga-spring-west-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2022-girls-15-18`: /result index lists 5月1日・2日, but the result PDFs print 令和4年5月14日・15日 (大会最終日 5月15日); PDF dates used.
+- `jjga-spring-west-2022-girls-15-18`: Event page: https://www.jjga.org/final/spring_west2022_result
+- `jjga-spring-west-2023-boys-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-spring-west-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2023-boys-15-18`: Event page: https://www.jjga.org/final/spring_west2023_result
+- `jjga-spring-west-2023-girls-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-spring-west-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2023-girls-15-18`: Event page: https://www.jjga.org/final/spring_west2023_result
+- `jjga-spring-west-2024-boys-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-spring-west-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%b9%e3%83%97%e3%83%aa%e3%83%b3%e3%82%b0%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-spring-west-2024-boys-15-18`: 卒業年度が一致しない: 後根 愛斗 (None) 2025 vs 2026
+- `jjga-spring-west-2024-girls-15-18`: コース情報未登録: 安芸カントリークラブ
+- `jjga-spring-west-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-spring-west-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-spring-west-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-spring-west-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-spring-west-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e3%82%b9%e3%83%97%e3%83%aa%e3%83%b3%e3%82%b0%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-summer-classic-2016-boys-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-summer-classic-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-2016-boys-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-summer-classic-2016-boys-15-18`: Event page: https://www.jjga.org/final/summer_classic_2016
+- `jjga-summer-classic-2016-girls-15-18`: コース情報未登録: サンコー72カントリークラブ
+- `jjga-summer-classic-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-2016-girls-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-summer-classic-2016-girls-15-18`: Event page: https://www.jjga.org/final/summer_classic_2016
+- `jjga-summer-classic-2017-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-2017-boys-15-18`: Event page: https://www.jjga.org/final/summer2017_final_12-18
+- `jjga-summer-classic-2017-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-2017-girls-15-18`: Event page: https://www.jjga.org/final/summer2017_final_12-18
+- `jjga-summer-classic-east-2018-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2018-boys-15-18`: Event page: https://www.jjga.org/final/summer_east_fr_results
+- `jjga-summer-classic-east-2018-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2018-girls-15-18`: Event page: https://www.jjga.org/final/summer_east_fr_results
+- `jjga-summer-classic-east-2019-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2019-boys-15-18`: Event page: https://www.jjga.org/final/summer2019_east_result
+- `jjga-summer-classic-east-2019-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2019-girls-15-18`: Event page: https://www.jjga.org/final/summer2019_east_result
+- `jjga-summer-classic-east-2020-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2020-boys-15-18`: Event page: https://www.jjga.org/final/2020_summer_east_final_result
+- `jjga-summer-classic-east-2020-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2020-girls-15-18`: Event page: https://www.jjga.org/final/2020_summer_east_final_result
+- `jjga-summer-classic-east-2021-boys-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2021-boys-15-18`: Event page: https://www.jjga.org/final/2021_summer_east_final_results
+- `jjga-summer-classic-east-2021-girls-15-18`: コース情報未登録: 宇都宮ガーデンゴルフクラブ
+- `jjga-summer-classic-east-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-east-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-east-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-east-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-east-2021-girls-15-18`: Event page: https://www.jjga.org/final/2021_summer_east_final_results
+- `jjga-summer-classic-west-2018-boys-15-18`: コース情報未登録: ジャパンビレッジゴルフ俱楽部
+- `jjga-summer-classic-west-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2018-boys-15-18`: Event page: https://www.jjga.org/final/summer2018_west_result
+- `jjga-summer-classic-west-2018-girls-15-18`: コース情報未登録: ジャパンビレッジゴルフ俱楽部
+- `jjga-summer-classic-west-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2018-girls-15-18`: Event page: https://www.jjga.org/final/summer2018_west_result
+- `jjga-summer-classic-west-2019-boys-15-18`: コース情報未登録: 福知山カントリー倶楽部
+- `jjga-summer-classic-west-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2019-boys-15-18`: Event page: https://www.jjga.org/final/summer2019_west_result
+- `jjga-summer-classic-west-2019-girls-15-18`: コース情報未登録: 福知山カントリー倶楽部
+- `jjga-summer-classic-west-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2019-girls-15-18`: Event page: https://www.jjga.org/final/summer2019_west_result
+- `jjga-summer-classic-west-2020-boys-15-18`: コース情報未登録: 福知山カントリー倶楽部
+- `jjga-summer-classic-west-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2020-boys-15-18`: Printed position 14 for 塩塚大夢人 (161) is not consistent with the totals (15 lower totals); kept as printed.
+- `jjga-summer-classic-west-2020-boys-15-18`: Printed position 16 for 吉田 空雅 (159) is not consistent with the totals (13 lower totals); kept as printed.
+- `jjga-summer-classic-west-2020-boys-15-18`: Event page: https://www.jjga.org/final/summer2020_west_result
+- `jjga-summer-classic-west-2020-girls-15-18`: コース情報未登録: 福知山カントリー倶楽部
+- `jjga-summer-classic-west-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2020-girls-15-18`: Event page: https://www.jjga.org/final/summer2020_west_result
+- `jjga-summer-classic-west-2021-boys-15-18`: コース情報未登録: 福知山カントリー倶楽部
+- `jjga-summer-classic-west-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2021-boys-15-18`: Event page: https://www.jjga.org/final/2021_summer_west_final_results
+- `jjga-summer-classic-west-2021-girls-15-18`: コース情報未登録: 福知山カントリー倶楽部
+- `jjga-summer-classic-west-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-summer-classic-west-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-summer-classic-west-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-summer-classic-west-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-summer-classic-west-2021-girls-15-18`: Event page: https://www.jjga.org/final/2021_summer_west_final_results
+- `jjga-toyoko-inn-2016-boys-15-18`: コース情報未登録: アイランドゴルフリゾート那須
+- `jjga-toyoko-inn-2016-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2016-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2016-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2016-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2016-boys-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-toyoko-inn-2016-boys-15-18`: Event page: https://www.jjga.org/final/toyoko-inn_2016
+- `jjga-toyoko-inn-2016-girls-15-18`: コース情報未登録: アイランドゴルフリゾート那須
+- `jjga-toyoko-inn-2016-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2016-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2016-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2016-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2016-girls-15-18`: The PDF prints only the final day; start/end dates from the https://www.jjga.org/result listing.
+- `jjga-toyoko-inn-2016-girls-15-18`: Event page: https://www.jjga.org/final/toyoko-inn_2016
+- `jjga-toyoko-inn-2017-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-toyoko-inn-2017-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2017-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2017-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2017-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2017-boys-15-18`: Yardage printed as 6,669/6,706 (two setups); yardage field uses the first.
+- `jjga-toyoko-inn-2017-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn_2017result
+- `jjga-toyoko-inn-2017-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-toyoko-inn-2017-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2017-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2017-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2017-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2017-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn_2017result
+- `jjga-toyoko-inn-2018-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-toyoko-inn-2018-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2018-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2018-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2018-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2018-boys-15-18`: Division printed as 高校男子の部 (high-school division; the other column is 中学男子の部) instead of 15歳～18歳.
+- `jjga-toyoko-inn-2018-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn2018_12-18_result
+- `jjga-toyoko-inn-2018-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-toyoko-inn-2018-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2018-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2018-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2018-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2018-girls-15-18`: Division printed as 高校女子の部 (high-school division; the other column is 中学女子の部) instead of 15歳～18歳.
+- `jjga-toyoko-inn-2018-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn2018_12-18_result
+- `jjga-toyoko-inn-2019-boys-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-toyoko-inn-2019-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2019-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2019-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2019-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2019-boys-15-18`: Both columns of the PDF are headed ∇12歳～18歳男子の部; the left column is the 15-18 division (its players appear in 15-18 divisions of other 2019/2020 events, the right column's in 12-14 divisions).
+- `jjga-toyoko-inn-2019-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn2019_12-18result
+- `jjga-toyoko-inn-2019-girls-15-18`: コース情報未登録: 那須小川ゴルフクラブ
+- `jjga-toyoko-inn-2019-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2019-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2019-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2019-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2019-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn2019_12-18result
+- `jjga-toyoko-inn-2020-boys-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2020-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2020-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2020-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2020-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2020-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn2020_result
+- `jjga-toyoko-inn-2020-girls-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2020-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2020-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2020-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2020-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2020-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn2020_result
+- `jjga-toyoko-inn-2021-boys-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2021-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2021-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2021-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2021-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2021-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn2021_result
+- `jjga-toyoko-inn-2021-girls-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2021-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2021-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2021-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2021-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2021-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn2021_result
+- `jjga-toyoko-inn-2022-boys-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2022-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2022-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2022-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2022-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2022-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn2022_result
+- `jjga-toyoko-inn-2022-girls-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2022-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2022-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2022-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2022-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2022-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn2022_result
+- `jjga-toyoko-inn-2023-boys-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2023-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2023-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2023-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2023-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2023-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e6%9d%b1%e6%a8%aa%e3%82%a4%e3%83%b3%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-toyoko-inn-2023-girls-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2023-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2023-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2023-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2023-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2023-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e6%9d%b1%e6%a8%aa%e3%82%a4%e3%83%b3%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c
+- `jjga-toyoko-inn-2024-boys-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2024-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2024-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2024-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2024-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2024-boys-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e6%9d%b1%e6%a8%aa%e3%82%a4%e3%83%b3%e6%b1%ba%e5%8b%9d%e3%80%91%e6%9c%80%e7%b5%82%e6%88%90%e7%b8%be
+- `jjga-toyoko-inn-2024-girls-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2024-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2024-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2024-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2024-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2024-girls-15-18`: Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90%e6%9d%b1%e6%a8%aa%e3%82%a4%e3%83%b3%e6%b1%ba%e5%8b%9d%e3%80%91%e6%9c%80%e7%b5%82%e6%88%90%e7%b8%be
+- `jjga-toyoko-inn-2025-boys-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2025-boys-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2025-boys-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2025-boys-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2025-boys-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2025-boys-15-18`: Event page: https://www.jjga.org/final/toyokoinn_2026_result
+- `jjga-toyoko-inn-2025-girls-15-18`: コース情報未登録: ニュー・セントアンドリュース ゴルフクラブ・ジャパン
+- `jjga-toyoko-inn-2025-girls-15-18`: Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.
+- `jjga-toyoko-inn-2025-girls-15-18`: JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).
+- `jjga-toyoko-inn-2025-girls-15-18`: grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).
+- `jjga-toyoko-inn-2025-girls-15-18`: Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.
+- `jjga-toyoko-inn-2025-girls-15-18`: Event page: https://www.jjga.org/final/toyokoinn_2026_result
+- `jjga-toyoko-inn-2025-girls-15-18`: 卒業年度が一致しない: 中山 凜花 (None) 2027 vs 2028
 - `fukui-ga-junior-2026-boys`: コース情報未登録: 芦原ゴルフクラブ 湖コース
 - `fukui-ga-junior-2026-boys`: Published ranks are sequential (優勝/準優勝/3..), ties broken by playoff/countback with no T marks; kept as published.
 - `fukui-ga-junior-2026-boys`: Result sheet shows no school names or grades; HS status from the 高校生の部 division only.
@@ -4033,10 +5164,6 @@
 - `sakane-golfweek-program-challenge-2019`: コース情報未登録: Caledonia Golf & Fish Club (Pawleys Island, S.C.)
 - `sakane-golfweek-program-challenge-2019`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
 - `sakane-golfweek-program-challenge-2019`: Recap says 'second'; roster bio says 'T-2'. Total 196 = sum of rounds.
-- `sakane-jjga-ryo-cup-2016`: コース情報未登録: ロイヤルメドウゴルフスタジアム
-- `sakane-jjga-ryo-cup-2016`: Only Sakane's row transcribed (verification of one player's resume), not the full field.
-- `sakane-jjga-ryo-cup-2016`: RESTRICTED SOURCE: JJGA website terms (Art. 8) prohibit reproduction/secondary use without consent. Only the facts needed for his row were recorded; do not publish without JJGA consent.
-- `sakane-jjga-ryo-cup-2016`: PDF has no school names; school_prefecture is the 所在地 column. to_par computed from par 72 x 3.
 - `sakane-kft-qschool-1st-stage-2022`: Only Sakane's self-reported line (resume); no public result page was found or fetchable. Not verified.
 - `sakane-kft-qschool-1st-stage-2022`: Site not stated in the claim; no public result naming him found.
 - `sakane-kft-qschool-1st-stage-2022`: dates approximate: month only (PGA TOUR 2022 Q-School info article https://www.pgatour.com/korn-ferry-tour/article/news/latest/2022/06/09/qualifying-tournament-q-school-registration-sites-links-info-cost-membership-status-faq-fyi: First Stage Sept 13-16 / 20-23 / 27-30 at 12 sites; his site unknown)
@@ -4765,31 +5892,6 @@
 - `jgaprof-ev0f414e85-2015-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev0f414e85-2015-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-ev0f414e85-2015-girls-hs`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
-- `jgaprof-ev0f414e85-2016-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev0f414e85-2016-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev0f414e85-2016-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev0f414e85-2016-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev0f414e85-2016-boys-hs`: JGA profile 主な戦歴 is as of 2022-10-23; profile year column is 年度 as shown
-- `jgaprof-ev0f414e85-2016-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev0f414e85-2016-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev0f414e85-2016-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev0f414e85-2016-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev0f414e85-2016-girls-hs`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
-- `jgaprof-ev0f414e85-2017-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev0f414e85-2017-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev0f414e85-2017-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev0f414e85-2017-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev0f414e85-2017-boys-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
-- `jgaprof-ev0f414e85-2017-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev0f414e85-2017-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev0f414e85-2017-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev0f414e85-2017-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev0f414e85-2017-girls-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
-- `jgaprof-ev0f414e85-2018-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev0f414e85-2018-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev0f414e85-2018-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev0f414e85-2018-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev0f414e85-2018-boys-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
 - `jgaprof-ev0f85e8c6-2017-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev0f85e8c6-2017-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev0f85e8c6-2017-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -7952,11 +9054,6 @@
 - `jgaprof-ev4eb5f49f-2016-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev4eb5f49f-2016-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev4eb5f49f-2016-girls`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
-- `jgaprof-ev4f3c214f-2016-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev4f3c214f-2016-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev4f3c214f-2016-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev4f3c214f-2016-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev4f3c214f-2016-boys-hs`: JGA profile 主な戦歴 is as of 2019-08-30; profile year column is 年度 as shown
 - `jgaprof-ev4f5d2dda-2015-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev4f5d2dda-2015-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev4f5d2dda-2015-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -8127,11 +9224,6 @@
 - `jgaprof-ev54e23847-2015-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev54e23847-2015-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-ev54e23847-2015-girls-hs`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
-- `jgaprof-ev54e23847-2019-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev54e23847-2019-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev54e23847-2019-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev54e23847-2019-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev54e23847-2019-girls-hs`: JGA profile 主な戦歴 is as of 2019-06-28; profile year column is 年度 as shown
 - `jgaprof-ev55233bd3-2015-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev55233bd3-2015-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev55233bd3-2015-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -8411,16 +9503,6 @@
 - `jgaprof-ev57ab82fa-2022-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev57ab82fa-2022-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev57ab82fa-2022-boys`: JGA profile 主な戦歴 is as of 2026-07-03; profile year column is 年度 as shown
-- `jgaprof-ev5800a9c1-2016-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev5800a9c1-2016-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev5800a9c1-2016-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev5800a9c1-2016-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev5800a9c1-2016-girls-hs`: JGA profile 主な戦歴 is as of 2024-09-29; profile year column is 年度 as shown
-- `jgaprof-ev5800a9c1-2019-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev5800a9c1-2019-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev5800a9c1-2019-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev5800a9c1-2019-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev5800a9c1-2019-girls-hs`: JGA profile 主な戦歴 is as of 2025-08-29; profile year column is 年度 as shown
 - `jgaprof-ev590a4c93-2016-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev590a4c93-2016-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev590a4c93-2016-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -8480,11 +9562,6 @@
 - `jgaprof-ev5977f813-2022-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev5977f813-2022-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev5977f813-2022-girls`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
-- `jgaprof-ev5981bd56-2016-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev5981bd56-2016-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev5981bd56-2016-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev5981bd56-2016-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev5981bd56-2016-girls-hs`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
 - `jgaprof-ev598682b3-2017-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev598682b3-2017-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev598682b3-2017-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -8894,24 +9971,16 @@
 - `jgaprof-ev64302850-2014-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev64302850-2014-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev64302850-2014-girls`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
-- `jgaprof-ev64302850-2016-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev64302850-2016-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev64302850-2016-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev64302850-2016-girls`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
 - `jgaprof-ev64302850-2017-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev64302850-2017-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev64302850-2017-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev64302850-2017-boys`: JGA profile 主な戦歴 is as of 2025-10-19; profile year column is 年度 as shown
+- `jgaprof-ev64302850-2017-boys`: rows also in data/raw/jjga (same event, year and position) removed
 - `jgaprof-ev64aceb3a-2015-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev64aceb3a-2015-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev64aceb3a-2015-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev64aceb3a-2015-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-ev64aceb3a-2015-girls-hs`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
-- `jgaprof-ev64aceb3a-2017-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev64aceb3a-2017-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev64aceb3a-2017-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev64aceb3a-2017-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev64aceb3a-2017-boys-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
 - `jgaprof-ev64e031c8-2015-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev64e031c8-2015-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev64e031c8-2015-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -9335,11 +10404,6 @@
 - `jgaprof-ev7552ec24-2022-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev7552ec24-2022-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev7552ec24-2022-boys`: JGA profile 主な戦歴 is as of 2025-07-04; profile year column is 年度 as shown
-- `jgaprof-ev756c4484-2016-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev756c4484-2016-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev756c4484-2016-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev756c4484-2016-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev756c4484-2016-girls-hs`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
 - `jgaprof-ev75a862b5-2025-boys`: rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev75a862b5-2025-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev75a862b5-2025-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -9941,11 +11005,6 @@
 - `jgaprof-ev82049c55-2014-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev82049c55-2014-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-ev82049c55-2014-girls-hs`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
-- `jgaprof-ev82049c55-2016-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev82049c55-2016-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev82049c55-2016-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev82049c55-2016-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-ev82049c55-2016-girls-hs`: JGA profile 主な戦歴 is as of 2025-10-05; profile year column is 年度 as shown
 - `jgaprof-ev8239f295-2026-boys`: rows come from JGA player pages (ranking), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev8239f295-2026-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev8239f295-2026-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -10845,11 +11904,6 @@
 - `jgaprof-eva2c03454-2015-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-eva2c03454-2015-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-eva2c03454-2015-girls`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
-- `jgaprof-eva33f4fd1-2018-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-eva33f4fd1-2018-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-eva33f4fd1-2018-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-eva33f4fd1-2018-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-eva33f4fd1-2018-girls-hs`: JGA profile 主な戦歴 is as of 2019-08-16; profile year column is 年度 as shown
 - `jgaprof-eva34b2b94-2017-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-eva34b2b94-2017-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-eva34b2b94-2017-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -11520,10 +12574,6 @@
 - `jgaprof-evb63bd2a2-2015-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evb63bd2a2-2015-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-evb63bd2a2-2015-girls`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
-- `jgaprof-evb63bd2a2-2016-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-evb63bd2a2-2016-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-evb63bd2a2-2016-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-evb63bd2a2-2016-girls`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
 - `jgaprof-evb6437d08-2017-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evb6437d08-2017-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evb6437d08-2017-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -12790,11 +13840,6 @@
 - `jgaprof-evd504b87d-2023-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-evd504b87d-2023-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-evd504b87d-2023-girls-hs`: JGA profile 主な戦歴 is as of 2026-10-04; profile year column is 年度 as shown
-- `jgaprof-evd53d48c8-2017-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-evd53d48c8-2017-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-evd53d48c8-2017-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-evd53d48c8-2017-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-evd53d48c8-2017-girls-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
 - `jgaprof-evd54193a1-2017-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evd54193a1-2017-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evd54193a1-2017-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -13051,11 +14096,6 @@
 - `jgaprof-evddcfe0c8-2022-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evddcfe0c8-2022-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-evddcfe0c8-2022-boys`: JGA profile 主な戦歴 is as of 2023-08-18; profile year column is 年度 as shown
-- `jgaprof-evddd104c8-2022-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-evddd104c8-2022-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-evddd104c8-2022-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-evddd104c8-2022-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-evddd104c8-2022-girls-hs`: JGA profile 主な戦歴 is as of 2026-06-19; profile year column is 年度 as shown
 - `jgaprof-evddda346d-2015-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evddda346d-2015-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evddda346d-2015-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -13080,10 +14120,6 @@
 - `jgaprof-evdea6f6f2-2022-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evdea6f6f2-2022-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-evdea6f6f2-2022-boys`: JGA profile 主な戦歴 is as of 2025-07-04; profile year column is 年度 as shown
-- `jgaprof-evdee10de0-2018-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-evdee10de0-2018-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-evdee10de0-2018-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-evdee10de0-2018-boys`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
 - `jgaprof-evdf408542-2018-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evdf408542-2018-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evdf408542-2018-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -13137,11 +14173,6 @@
 - `jgaprof-eve1f7d191-2017-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-eve1f7d191-2017-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-eve1f7d191-2017-boys-hs`: JGA profile 主な戦歴 is as of 2022-09-21; profile year column is 年度 as shown
-- `jgaprof-eve26e08e7-2017-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-eve26e08e7-2017-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-eve26e08e7-2017-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-eve26e08e7-2017-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-eve26e08e7-2017-girls-hs`: JGA profile 主な戦歴 is as of 2023-08-25; profile year column is 年度 as shown
 - `jgaprof-eve2cbf10c-2016-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-eve2cbf10c-2016-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-eve2cbf10c-2016-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -13237,16 +14268,6 @@
 - `jgaprof-eve50f1f85-2015-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-eve50f1f85-2015-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
 - `jgaprof-eve50f1f85-2015-girls-hs`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
-- `jgaprof-eve50f1f85-2017-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-eve50f1f85-2017-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-eve50f1f85-2017-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-eve50f1f85-2017-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-eve50f1f85-2017-boys-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
-- `jgaprof-eve50f1f85-2017-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-eve50f1f85-2017-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-eve50f1f85-2017-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-eve50f1f85-2017-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-eve50f1f85-2017-girls-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
 - `jgaprof-eve553ba6c-2016-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-eve553ba6c-2016-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-eve553ba6c-2016-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -13464,11 +14485,6 @@
 - `jgaprof-evea0ed3d1-2023-girls`: rows come from JGA player pages (ranking_history), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evea0ed3d1-2023-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evea0ed3d1-2023-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-eveb80a260-2016-girls-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-eveb80a260-2016-girls-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-eveb80a260-2016-girls-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-eveb80a260-2016-girls-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-eveb80a260-2016-girls-hs`: JGA profile 主な戦歴 is as of 2016-10-07; profile year column is 年度 as shown
 - `jgaprof-evebafdf67-2015-boys`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evebafdf67-2015-boys`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evebafdf67-2015-boys`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -13560,11 +14576,6 @@
 - `jgaprof-evf13312e4-2019-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evf13312e4-2019-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-evf13312e4-2019-girls`: JGA profile 主な戦歴 is as of 2022-10-02; profile year column is 年度 as shown
-- `jgaprof-evf1e2e916-2017-boys-hs`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-evf1e2e916-2017-boys-hs`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-evf1e2e916-2017-boys-hs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-evf1e2e916-2017-boys-hs`: division not shown on the player page; rows grouped by school level: player was in high school (by graduation_year)
-- `jgaprof-evf1e2e916-2017-boys-hs`: JGA profile 主な戦歴 is as of 2018-08-17; profile year column is 年度 as shown
 - `jgaprof-evf2103a5a-2018-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-evf2103a5a-2018-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-evf2103a5a-2018-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -19890,11 +20901,6 @@
 - `jgaprof-ev54e23847-2015-girls-jhs`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
 - `jgaprof-ev54e23847-2015-girls-jhs`: division not shown on the player page; rows grouped by school level: player was in junior high school (by graduation_year)
 - `jgaprof-ev54e23847-2015-girls-jhs`: JGA profile 主な戦歴 is as of 2022-01-25; profile year column is 年度 as shown
-- `jgaprof-ev54e23847-2017-girls-post`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
-- `jgaprof-ev54e23847-2017-girls-post`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
-- `jgaprof-ev54e23847-2017-girls-post`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
-- `jgaprof-ev54e23847-2017-girls-post`: division not shown on the player page; rows grouped by school level: player had finished high school (by graduation_year)
-- `jgaprof-ev54e23847-2017-girls-post`: JGA profile 主な戦歴 is as of 2023-10-01; profile year column is 年度 as shown
 - `jgaprof-ev5510d8bd-2011-girls`: rows come from JGA player pages (profile), not from an official result sheet: field incomplete, only our matched players
 - `jgaprof-ev5510d8bd-2011-girls`: tournament name, dates and rank as shown on the player page; venue/par/organizer not shown
 - `jgaprof-ev5510d8bd-2011-girls`: player_name as shown on JGA; school/grade/school_prefecture filled from players.csv only when the season is within the matched player's high-school years
@@ -30269,11 +31275,13 @@
 - `player-dedup`: 同一人物としてまとめた: p_0143804c3ca6 → p_974ec937db53 (大橋 浩太朗)
 - `player-dedup`: 同一人物としてまとめた: p_0160713dcbf4 → p_bf58f5e7b870 (倉重 実風)
 - `player-dedup`: 同一人物としてまとめた: p_0195c4c86351 → p_1524d62d7b95 (福岡 靖菜)
+- `player-dedup`: 同一人物としてまとめた: p_019e7925d482 → p_002b1c5d7444 (山本 穂花)
 - `player-dedup`: 同一人物としてまとめた: p_01a076aeefc2 → p_6690e4fd9ec9 (德安 季香)
 - `player-dedup`: 同一人物としてまとめた: p_01db78953a91 → p_26a04040a73a (島貫 海輝登)
 - `player-dedup`: 同一人物としてまとめた: p_01fb2ad23e57 → p_0a4be66fca78 (境澤有)
 - `player-dedup`: 同一人物としてまとめた: p_021373aad0cb → p_5d198e573593 (横内 優奈)
 - `player-dedup`: 同一人物としてまとめた: p_022f593dfc4e → p_e01e7f2bc2d0 (多田柊凛)
+- `player-dedup`: 同一人物としてまとめた: p_023823321ccb → p_d39f489c50ad (平井 さくら)
 - `player-dedup`: 同一人物としてまとめた: p_027aa65487c5 → p_4e28b18d346c (原田 大空)
 - `player-dedup`: 同一人物としてまとめた: p_02851c496721 → p_4aca4a2a7e78 (西澤 梓)
 - `player-dedup`: 同一人物としてまとめた: p_028c6362dd8e → p_a852a0604343 (吉田 太一)
@@ -30288,12 +31296,17 @@
 - `player-dedup`: 同一人物としてまとめた: p_0417c797a17d → p_a0c33ea52045 (石井 菜花)
 - `player-dedup`: 同一人物としてまとめた: p_0441143668cf → p_10eba2cbe4d7 (三崎滉司)
 - `player-dedup`: 同一人物としてまとめた: p_044564846afb → p_bd591d42d952 (桜庭禄碩)
+- `player-dedup`: 同一人物としてまとめた: p_046c3ac42e64 → p_fe264a1a1460 (片岡佳央)
 - `player-dedup`: 同一人物としてまとめた: p_047177a97615 → p_05b104e9e33e (登 愛菜)
 - `player-dedup`: 同一人物としてまとめた: p_0478d952bf4e → p_e4233530308e (髙浦 維吹)
+- `player-dedup`: 同一人物としてまとめた: p_0503589dc096 → p_535a83c19516 (前山怜香)
 - `player-dedup`: 同一人物としてまとめた: p_057b7ec400a2 → p_3da47f36fab4 (新田 智央)
 - `player-dedup`: 同一人物としてまとめた: p_0595edb45ae5 → p_dbff81db577e (髙橋 海理)
+- `player-dedup`: 同一人物としてまとめた: p_059d005c8cc7 → p_0f51682afdf8 (勝亦 令奈)
 - `player-dedup`: 同一人物としてまとめた: p_05c313dcf263 → p_5ef02498c491 (黒木 鉄平)
 - `player-dedup`: 同一人物としてまとめた: p_05e21f1d7837 → p_9dbc0b066d28 (神谷 優太)
+- `player-dedup`: 同一人物としてまとめた: p_068d93cc2eb5 → p_e6052ab362e4 (小林 凛太郎)
+- `player-dedup`: 同一人物としてまとめた: p_0774fbd1a25f → p_c9c6c664fc5a (田中 佑樹)
 - `player-dedup`: 同一人物としてまとめた: p_07b7abfc8123 → p_377de32007b6 (池田 太郎)
 - `player-dedup`: 同一人物としてまとめた: p_07f091c28de1 → p_bf9e7e099430 (板橋 永久)
 - `player-dedup`: 同一人物としてまとめた: p_086d12a91cff → p_d5a417f904e3 (外岩戸 晟士)
@@ -30303,12 +31316,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_088963990cb2 → p_5215241fa530 (高垣玲雄)
 - `player-dedup`: 同一人物としてまとめた: p_098a1fd836e9 → p_33813489b615 (桑島 大紀)
 - `player-dedup`: 同一人物としてまとめた: p_099759f918f5 → p_c74642b46a6d (佐々木 俊輔)
+- `player-dedup`: 同一人物としてまとめた: p_09a53ab405d6 → p_7ef722f8c5c1 (宮本 光剛)
+- `player-dedup`: 同一人物としてまとめた: p_09a583ff186e → p_b13549b32bae (三原 颯真)
 - `player-dedup`: 同一人物としてまとめた: p_09d0503cc228 → p_34bb0e0c056a (與儀 夢)
+- `player-dedup`: 同一人物としてまとめた: p_09d49ccb5b3c → p_dfed41944edf (川嵜晃生)
 - `player-dedup`: 同一人物としてまとめた: p_09ec82546231 → p_4523c927995e (馬場 道成)
 - `player-dedup`: 同一人物としてまとめた: p_0a06d11c3119 → p_758673373afe (賀数 心南)
-- `player-dedup`: 同一人物としてまとめた: p_0a572062308c → p_de33fc760272 (田邊 隆一)
 - `player-dedup`: 同一人物としてまとめた: p_0a5996c639f9 → p_d264bec2c67a (落合 虹凪)
 - `player-dedup`: 同一人物としてまとめた: p_0a6e8ee44ba2 → p_e1940aea4193 (鏡綱世)
+- `player-dedup`: 同一人物としてまとめた: p_0a7430786a5d → p_4db02e02dfe2 (秦 悠栞)
 - `player-dedup`: 同一人物としてまとめた: p_0aa56b7a7124 → p_82fe45d98c26 (青井 姫奈)
 - `player-dedup`: 同一人物としてまとめた: p_0b07649876dc → p_3382f844996b (近藤 直杜)
 - `player-dedup`: 同一人物としてまとめた: p_0b2554551f77 → p_5c8f990ce097 (山口桃佳)
@@ -30316,6 +31332,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_0b9e77005359 → p_6b18932c69c5 (三浦冬憂稀)
 - `player-dedup`: 同一人物としてまとめた: p_0bf3cc417ac7 → p_b2319a2ca0af (兎沢 日向)
 - `player-dedup`: 同一人物としてまとめた: p_0c2cabfaf6f8 → p_0d2e69b6e4d6 (神田 陽色)
+- `player-dedup`: 同一人物としてまとめた: p_0cd437dcc11c → p_18f987f25a1c (太田 尭虎)
 - `player-dedup`: 同一人物としてまとめた: p_0d67e0f5e499 → p_020bfb761e0e (三宅 結菜)
 - `player-dedup`: 同一人物としてまとめた: p_0d68d4d5d135 → p_6b7e104dda9f (峯田竜空)
 - `player-dedup`: 同一人物としてまとめた: p_0dbe5088b290 → p_059f5253692b (馬城颯士)
@@ -30332,15 +31349,19 @@
 - `player-dedup`: 同一人物としてまとめた: p_10169654bfed → p_3bd15667a41b (上野山温華)
 - `player-dedup`: 同一人物としてまとめた: p_101c033c0054 → p_36800aa92b37 (朝枝宝)
 - `player-dedup`: 同一人物としてまとめた: p_101edff5ab35 → p_7fdcc08582a3 (西山 こころ)
+- `player-dedup`: 同一人物としてまとめた: p_103d4af4ba49 → p_34171b6df7ec (川崎天翔)
 - `player-dedup`: 同一人物としてまとめた: p_10e0f4a69c0f → p_e232df3fdae1 (五十嵐 凛)
 - `player-dedup`: 同一人物としてまとめた: p_112c5b7d3303 → p_a5898c1b3aa2 (三本木智輝)
 - `player-dedup`: 同一人物としてまとめた: p_1183a27a11f8 → p_b4b38b1336e5 (重常来未)
 - `player-dedup`: 同一人物としてまとめた: p_11bf3c583c23 → p_0fb583ef5a83 (林田 遼汰)
 - `player-dedup`: 同一人物としてまとめた: p_120a881dd968 → p_0580b70d849f (華卓逸)
+- `player-dedup`: 同一人物としてまとめた: p_120bb97f082f → p_bca5e1d5d1ff (森下 佳音)
 - `player-dedup`: 同一人物としてまとめた: p_1250a67a0a0d → p_013b9747940a (徳光里菜)
 - `player-dedup`: 同一人物としてまとめた: p_1273d8bf1e82 → p_5d972985e1de (重常 花梨)
 - `player-dedup`: 同一人物としてまとめた: p_1293b7c034d6 → p_3fcc0135cd14 (長岡 航平)
 - `player-dedup`: 同一人物としてまとめた: p_12b1622b3bdf → p_a1345285f626 (江坂実桜)
+- `player-dedup`: 同一人物としてまとめた: p_12b74261302a → p_52bde0914c4b (寺岡鈴音)
+- `player-dedup`: 同一人物としてまとめた: p_12fe9701fe98 → p_f3b01cfb91d3 (堤 俊太郎)
 - `player-dedup`: 同一人物としてまとめた: p_1358d90d9582 → p_1a2929919aee (花下苺)
 - `player-dedup`: 同一人物としてまとめた: p_138ea7f24bd8 → p_334fa4ecc4ed (野瀬 友晴)
 - `player-dedup`: 同一人物としてまとめた: p_13ce6e0e6ac3 → p_b0ba77d21805 (浦西 亮輔)
@@ -30348,14 +31369,17 @@
 - `player-dedup`: 同一人物としてまとめた: p_1404bdc3f467 → p_cd2a5d4dfde2 (島川 優真)
 - `player-dedup`: 同一人物としてまとめた: p_1405866e488f → p_24d517c5175e (丘 尊伍)
 - `player-dedup`: 同一人物としてまとめた: p_140a1e0bf373 → p_758cf08cbf4a (川上 知夏)
+- `player-dedup`: 同一人物としてまとめた: p_141b8574945c → p_411bb4105ce6 (名嘉 千尋)
 - `player-dedup`: 同一人物としてまとめた: p_14462b3f79c4 → p_beccacb18362 (田村仁美)
 - `player-dedup`: 同一人物としてまとめた: p_145ab9784fb0 → p_96dcb8f1ac6f (木下 護元)
 - `player-dedup`: 同一人物としてまとめた: p_147a89d3dbf1 → p_b0f0fb422663 (梅本 りさ)
 - `player-dedup`: 同一人物としてまとめた: p_1486589195b9 → p_8d877190db7c (渡邊詩織)
+- `player-dedup`: 同一人物としてまとめた: p_14af63fc7ef3 → p_23a39d557cd6 (吉本 龍斗)
 - `player-dedup`: 同一人物としてまとめた: p_14cba62a0f37 → p_4e914f15e2cc (平原 綾太)
 - `player-dedup`: 同一人物としてまとめた: p_15507192932b → p_bd783b2a6c5d (高田将)
 - `player-dedup`: 同一人物としてまとめた: p_1569cec9819a → p_024ee46e3b66 (溝部 渉)
 - `player-dedup`: 同一人物としてまとめた: p_156e0c4c0ed9 → p_1b761cc0a495 (濵口 紘)
+- `player-dedup`: 同一人物としてまとめた: p_15961faeb60d → p_fa4ecba4b985 (湯原 光)
 - `player-dedup`: 同一人物としてまとめた: p_159ceaeec55f → p_2ccb681c6812 (流尚暉)
 - `player-dedup`: 同一人物としてまとめた: p_15e8c899d2fa → p_c37e1254a3ec (楠田常乃)
 - `player-dedup`: 同一人物としてまとめた: p_15ebc593236b → p_04e0cfc57902 (中橋 隆慶)
@@ -30372,10 +31396,13 @@
 - `player-dedup`: 同一人物としてまとめた: p_175d5335428b → p_803b0420f015 (植村 夏帆)
 - `player-dedup`: 同一人物としてまとめた: p_17bf720f3229 → p_8db41ce55f1d (伴 俊希)
 - `player-dedup`: 同一人物としてまとめた: p_17d25ef1f070 → p_1d5bbefbf835 (佐藤 涼音)
+- `player-dedup`: 同一人物としてまとめた: p_181534aed393 → p_7b2f2e339d4a (長谷川千尋)
 - `player-dedup`: 同一人物としてまとめた: p_185b49a387c7 → p_600a0b62bdc5 (西村隼)
+- `player-dedup`: 同一人物としてまとめた: p_188d05c684bd → p_a40b6d7dc865 (小田 栞)
 - `player-dedup`: 同一人物としてまとめた: p_18934b4e83bc → p_72753c283d77 (小林 翔音)
 - `player-dedup`: 同一人物としてまとめた: p_18937b6e1549 → p_867743227469 (伊藤 奨真)
 - `player-dedup`: 同一人物としてまとめた: p_189e2a95eeee → p_642f6c8dc881 (浅野裕紀)
+- `player-dedup`: 同一人物としてまとめた: p_18cd57c4b380 → p_ed86c2cd5207 (須田 愛美佳)
 - `player-dedup`: 同一人物としてまとめた: p_1918f4fdde64 → p_b22173cc5b66 (塩谷 凜太郎)
 - `player-dedup`: 同一人物としてまとめた: p_1959d238cd3c → p_50fbec37c5ed (齋藤 和瑛)
 - `player-dedup`: 同一人物としてまとめた: p_19f88f266704 → p_abef3810648f (香川ちよみ)
@@ -30384,6 +31411,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_1a6e46529ad3 → p_2216ccf8da05 (西脇優衣)
 - `player-dedup`: 同一人物としてまとめた: p_1ae3cc7b7803 → p_aa2109a530d7 (堀本奈菜)
 - `player-dedup`: 同一人物としてまとめた: p_1af2f94ac31c → p_b167ea84b064 (上野 琴美)
+- `player-dedup`: 同一人物としてまとめた: p_1b19b140ce42 → p_9179f6a1e173 (安川真琳)
 - `player-dedup`: 同一人物としてまとめた: p_1b269d2dba9c → p_7814caa51582 (田名田 嵩明)
 - `player-dedup`: 同一人物としてまとめた: p_1b2d0343a48d → p_bd591d42d952 (桜庭禄碩)
 - `player-dedup`: 同一人物としてまとめた: p_1b68f1a54a5a → p_c56a5f832f76 (寺山 晴登)
@@ -30396,27 +31424,37 @@
 - `player-dedup`: 同一人物としてまとめた: p_1c42244d5419 → p_18568a45be0f (竹丸理世)
 - `player-dedup`: 同一人物としてまとめた: p_1c44285e9b9e → p_204ab8fe949d (和泉 健太郎)
 - `player-dedup`: 同一人物としてまとめた: p_1c8cf5757d04 → p_6410ae848361 (横山 元気)
+- `player-dedup`: 同一人物としてまとめた: p_1cb0df0fb220 → p_ee6c81710171 (叶 結衣)
 - `player-dedup`: 同一人物としてまとめた: p_1d519e161ffe → p_8313464704a4 (沖村 柊)
 - `player-dedup`: 同一人物としてまとめた: p_1e09d62b04ef → p_70229cb6df96 (佐野 夏奈)
 - `player-dedup`: 同一人物としてまとめた: p_1e2f1c434d2a → p_ab1c1a61020e (片岡 由香)
 - `player-dedup`: 同一人物としてまとめた: p_1ea77915891a → p_44abdcad8c1b (細川 泰志)
 - `player-dedup`: 同一人物としてまとめた: p_1ee01c3eaed4 → p_5c49b06ffb63 (大賀愛娘)
+- `player-dedup`: 同一人物としてまとめた: p_1ee1c384bf44 → p_d76d6389fae9 (内藤 舞美)
 - `player-dedup`: 同一人物としてまとめた: p_1f156b898d55 → p_593f7df9088b (杉﨑 聖仁)
 - `player-dedup`: 同一人物としてまとめた: p_1f59837781bc → p_bbdbcc47cc87 (松﨑 泰知)
 - `player-dedup`: 同一人物としてまとめた: p_1f5e64a242b5 → p_7f31a93cd708 (青戸 達哉)
+- `player-dedup`: 同一人物としてまとめた: p_1f810a83a56d → p_7dcb82a5e7b3 (渡邉 悠斗)
+- `player-dedup`: 同一人物としてまとめた: p_1f86cc31002f → p_de9822f2a5a2 (大林 奈央)
+- `player-dedup`: 同一人物としてまとめた: p_1fa29fc44db7 → p_82fe45d98c26 (青井 姫奈)
+- `player-dedup`: 同一人物としてまとめた: p_2003a80d492d → p_eb111f3fafa0 (海老沢 源太朗)
 - `player-dedup`: 同一人物としてまとめた: p_201405fc3447 → p_39103f1b4582 (三浦 春輝)
 - `player-dedup`: 同一人物としてまとめた: p_201aa13da078 → p_d1331b627e12 (藤森 耶野)
 - `player-dedup`: 同一人物としてまとめた: p_20285faeffcb → p_1165c9533b1d (山本 一希)
 - `player-dedup`: 同一人物としてまとめた: p_20396679abf2 → p_c2dd7f2837d0 (加藤 巴琉)
 - `player-dedup`: 同一人物としてまとめた: p_204cecd9e43b → p_fa4ecba4b985 (湯原 光)
+- `player-dedup`: 同一人物としてまとめた: p_204d78220866 → p_90c53efcd245 (三浦 一汰)
 - `player-dedup`: 同一人物としてまとめた: p_20646530e101 → p_954c551b684d (上野 航良)
 - `player-dedup`: 同一人物としてまとめた: p_206e6c1169fe → p_b0f0fb422663 (梅本 りさ)
 - `player-dedup`: 同一人物としてまとめた: p_209cee0da8a0 → p_4a09d412a884 (宮澤 美咲)
 - `player-dedup`: 同一人物としてまとめた: p_20b77833c707 → p_185625795e39 (橋本 拓真)
 - `player-dedup`: 同一人物としてまとめた: p_20fea29263ca → p_c2f06c142ead (髙田 圭一郎)
+- `player-dedup`: 同一人物としてまとめた: p_211e02f5f95c → p_883075dc5450 (末永 萌夏)
 - `player-dedup`: 同一人物としてまとめた: p_2122e8765c26 → p_0314e0c6308b (本間 渉)
 - `player-dedup`: 同一人物としてまとめた: p_21440de21c7d → p_924758b46915 (細野 勇策)
+- `player-dedup`: 同一人物としてまとめた: p_2186ad0da366 → p_09303b1bc481 (河野海来)
 - `player-dedup`: 同一人物としてまとめた: p_2187044c22e0 → p_ddb8be6808be (小池愛莉)
+- `player-dedup`: 同一人物としてまとめた: p_21904c595987 → p_417df2b77b34 (村田尚哉)
 - `player-dedup`: 同一人物としてまとめた: p_2192c613e9b6 → p_04e0cfc57902 (中橋 隆慶)
 - `player-dedup`: 同一人物としてまとめた: p_2197a2b5579a → p_7f4d6005e6fe (澤田陸冶)
 - `player-dedup`: 同一人物としてまとめた: p_21af6958b679 → p_8ed54a26a0f7 (山田 大介)
@@ -30427,10 +31465,12 @@
 - `player-dedup`: 同一人物としてまとめた: p_225829088688 → p_0314e0c6308b (本間 渉)
 - `player-dedup`: 同一人物としてまとめた: p_22b60cddece1 → p_4af1d8e19310 (大島 仁)
 - `player-dedup`: 同一人物としてまとめた: p_2324c0f49832 → p_be7369b532b9 (本田 恋華)
+- `player-dedup`: 同一人物としてまとめた: p_235dcecc6dd4 → p_15fdda831040 (寺西飛香留)
 - `player-dedup`: 同一人物としてまとめた: p_238d0a958495 → p_061347fb642d (栁原星空)
 - `player-dedup`: 同一人物としてまとめた: p_23a5708bbc57 → p_916a5b67a260 (井土 裕介)
 - `player-dedup`: 同一人物としてまとめた: p_23d3e5c11fef → p_1e4375ee9ea1 (坂本 優心)
 - `player-dedup`: 同一人物としてまとめた: p_23f8fb45c20f → p_80f9245ed97d (皆吉 愛寿香)
+- `player-dedup`: 同一人物としてまとめた: p_2400b2a906dd → p_bdab335aa3d7 (本橋史菜)
 - `player-dedup`: 同一人物としてまとめた: p_2402e0d06f52 → p_f5c44838b234 (赤瀬 新菜)
 - `player-dedup`: 同一人物としてまとめた: p_2409da60d09f → p_6db891fb7417 (髙坂信一郎)
 - `player-dedup`: 同一人物としてまとめた: p_245acb5dba32 → p_db9edc8b632e (古川 龍之介)
@@ -30438,23 +31478,34 @@
 - `player-dedup`: 同一人物としてまとめた: p_2491729e342a → p_b3c259f8fa45 (山中 頌)
 - `player-dedup`: 同一人物としてまとめた: p_24ca36a4791a → p_89a567f1d2f4 (岩田 莞爾)
 - `player-dedup`: 同一人物としてまとめた: p_24dd427a962d → p_bd34c8318aab (西彩花)
+- `player-dedup`: 同一人物としてまとめた: p_25767c47da0b → p_62db0544be17 (池田優己)
+- `player-dedup`: 同一人物としてまとめた: p_25890c64e980 → p_a24b6b04a227 (小野 貴之)
 - `player-dedup`: 同一人物としてまとめた: p_25c99998c913 → p_f1f23c5e1ab5 (井川高宏)
 - `player-dedup`: 同一人物としてまとめた: p_260f59a732cc → p_efd1e68c08a3 (半田 乙姫)
 - `player-dedup`: 同一人物としてまとめた: p_262cf117d3c8 → p_5c03b9546b2b (平田 憲聖)
 - `player-dedup`: 同一人物としてまとめた: p_266d8e9fb8ab → p_40e53e52f239 (小林 航大)
 - `player-dedup`: 同一人物としてまとめた: p_267428e1d329 → p_5ac42792c771 (川﨑 智洋)
 - `player-dedup`: 同一人物としてまとめた: p_267d3242bd24 → p_6eb4cdd11423 (高田英太郎)
+- `player-dedup`: 同一人物としてまとめた: p_267e24d73048 → p_cbe29f684a58 (西田 吏玖)
 - `player-dedup`: 同一人物としてまとめた: p_2684076e767d → p_c94561e497ec (下園 航太)
 - `player-dedup`: 同一人物としてまとめた: p_26f86c7d23b5 → p_0b54b98752fd (吉岡 瑞葵)
 - `player-dedup`: 同一人物としてまとめた: p_27172cfb19f2 → p_ec6c97fce63b (夏伐 蓮)
 - `player-dedup`: 同一人物としてまとめた: p_27c8d0f02709 → p_c7f067d35b3f (山岡瑠生)
+- `player-dedup`: 同一人物としてまとめた: p_27d0b6346e83 → p_c04932b3fab8 (中島拓朗)
 - `player-dedup`: 同一人物としてまとめた: p_27fc6532ccad → p_d12717e94987 (鈴木 希実也)
+- `player-dedup`: 同一人物としてまとめた: p_28017fb85a2f → p_54dcc501e5be (成田 瑛麻)
 - `player-dedup`: 同一人物としてまとめた: p_280c905b839e → p_9f38b25d7d79 (髙木 楓夏)
 - `player-dedup`: 同一人物としてまとめた: p_2843bcacabd9 → p_9a866e83f014 (鏡原良功斗)
+- `player-dedup`: 同一人物としてまとめた: p_284682745b65 → p_8f95a5dffc64 (中川 怜次)
+- `player-dedup`: 同一人物としてまとめた: p_284c5ef41693 → p_c8380cb07589 (新井 隆一)
 - `player-dedup`: 同一人物としてまとめた: p_28666b9ae249 → p_d0d8daae76fa (田中 伸乃輔)
 - `player-dedup`: 同一人物としてまとめた: p_289127807be4 → p_dd4977c08a66 (泉端 駿佑)
+- `player-dedup`: 同一人物としてまとめた: p_29286235d093 → p_50d6da3e54e1 (菊池泰成)
+- `player-dedup`: 同一人物としてまとめた: p_292a52d792b0 → p_fea308e5ba2e (藤井 美羽)
 - `player-dedup`: 同一人物としてまとめた: p_29446487b2f1 → p_1e8f118e754e (小林 周平)
+- `player-dedup`: 同一人物としてまとめた: p_29697dbaed13 → p_46be1faf8f4e (出口 直希)
 - `player-dedup`: 同一人物としてまとめた: p_2997ba82dd09 → p_dcc324b301df (松山 りな)
+- `player-dedup`: 同一人物としてまとめた: p_299e7902ef13 → p_af5f398f4253 (中島乃衣)
 - `player-dedup`: 同一人物としてまとめた: p_29a2599f4cfa → p_9aa48c696a56 (小野 航暉)
 - `player-dedup`: 同一人物としてまとめた: p_29d78bed08df → p_788fdc758c13 (石川慎之介)
 - `player-dedup`: 同一人物としてまとめた: p_29f1fbe236da → p_797fa5dd948f (高津 世和)
@@ -30470,13 +31521,17 @@
 - `player-dedup`: 同一人物としてまとめた: p_2b1bad5bbbc3 → p_235616d84fcf (落合 凌)
 - `player-dedup`: 同一人物としてまとめた: p_2b246ac58a3c → p_3d79b09c5b18 (仁木 卓磨)
 - `player-dedup`: 同一人物としてまとめた: p_2b55d3c008c2 → p_b35c69b4b1eb (丸山 夏蓮)
+- `player-dedup`: 同一人物としてまとめた: p_2b5c6416f9e8 → p_de537b0f9721 (荒井竜之進)
 - `player-dedup`: 同一人物としてまとめた: p_2ba7922e6b04 → p_5e5385a85067 (井口雄斗)
 - `player-dedup`: 同一人物としてまとめた: p_2bd57d8b5d4d → p_14dda1672df6 (寺田 陽斗)
 - `player-dedup`: 同一人物としてまとめた: p_2c13e003b3ad → p_ea6133101db2 (大高優維)
+- `player-dedup`: 同一人物としてまとめた: p_2c2144055fae → p_42e9399b5328 (小島 彼呂徒)
 - `player-dedup`: 同一人物としてまとめた: p_2c583a9a8bc6 → p_17a5d2afb635 (小熊 宏典)
 - `player-dedup`: 同一人物としてまとめた: p_2c8f1194a75d → p_fd47eb80ee02 (小山田 泰雅)
 - `player-dedup`: 同一人物としてまとめた: p_2ce434808f49 → p_fc7111899a53 (眞銅 彩加)
+- `player-dedup`: 同一人物としてまとめた: p_2cec79d737f4 → p_ff2673bdeb56 (前野拳志)
 - `player-dedup`: 同一人物としてまとめた: p_2d3c170ae381 → p_95401cbbc359 (岡田 大樹)
+- `player-dedup`: 同一人物としてまとめた: p_2d4fe657fbcd → p_9e550adeb9d2 (陀安楓)
 - `player-dedup`: 同一人物としてまとめた: p_2db2bd171896 → p_aac75e397fae (魚見 彩倉)
 - `player-dedup`: 同一人物としてまとめた: p_2ddf6ff97389 → p_d3bfb2131993 (川越 玲奈)
 - `player-dedup`: 同一人物としてまとめた: p_2ddfbd6b2f70 → p_3387126a983b (渡部 琴)
@@ -30488,6 +31543,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_2ea677e4328c → p_d3c85a77b08f (久我 健心)
 - `player-dedup`: 同一人物としてまとめた: p_2eb92a47c0f3 → p_531fb5791960 (小村 優太)
 - `player-dedup`: 同一人物としてまとめた: p_2eee2e66032f → p_1d3d02e31ed3 (加藤 麗奈)
+- `player-dedup`: 同一人物としてまとめた: p_2f2001ed4106 → p_e1df5148ad91 (鷲尾菜花)
 - `player-dedup`: 同一人物としてまとめた: p_2f33759ae3b8 → p_71332fceb005 (池田 優斗)
 - `player-dedup`: 同一人物としてまとめた: p_2f3971914ab1 → p_4a2f66287cd0 (伊澤丈一郎)
 - `player-dedup`: 同一人物としてまとめた: p_2f5e9a23152e → p_bf58f5e7b870 (倉重 実風)
@@ -30499,8 +31555,10 @@
 - `player-dedup`: 同一人物としてまとめた: p_2fd626090455 → p_4ea76e596461 (斎藤 優空)
 - `player-dedup`: 同一人物としてまとめた: p_3016626f2900 → p_36147e627394 (比嘉玲王)
 - `player-dedup`: 同一人物としてまとめた: p_30831a8fcdbd → p_6a45ec4374cd (樽井 友哉)
+- `player-dedup`: 同一人物としてまとめた: p_3084f0a02a65 → p_57cc9a24c4c4 (髙田 嘩琳)
 - `player-dedup`: 同一人物としてまとめた: p_30954778200d → p_3eae74007ffd (齋藤小花)
 - `player-dedup`: 同一人物としてまとめた: p_30a25dd169db → p_5c03b9546b2b (平田 憲聖)
+- `player-dedup`: 同一人物としてまとめた: p_30aa99e84e2d → p_639b3b005038 (山元 佑里彩)
 - `player-dedup`: 同一人物としてまとめた: p_30d2361c813b → p_a19b268eb730 (生源寺龍憲)
 - `player-dedup`: 同一人物としてまとめた: p_312c0fed6882 → p_abfb715fb223 (清水 莉理)
 - `player-dedup`: 同一人物としてまとめた: p_3203360af53c → p_125c82607ff9 (正宗 茉梨亜)
@@ -30510,6 +31568,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_32e9af441c62 → p_e232df3fdae1 (五十嵐 凛)
 - `player-dedup`: 同一人物としてまとめた: p_3301230b6878 → p_412c21a68954 (市元 紳一朗)
 - `player-dedup`: 同一人物としてまとめた: p_335fa2f20782 → p_c1cf4bab57ac (菊池 諒太郎)
+- `player-dedup`: 同一人物としてまとめた: p_33709647d2a1 → p_3efd9f958cb8 (桑島 雄)
 - `player-dedup`: 同一人物としてまとめた: p_33b1c85e4702 → p_5e4cd725bcd9 (後根 愛斗)
 - `player-dedup`: 同一人物としてまとめた: p_33ce6d04200b → p_fbe601e623ab (武廣 えみり)
 - `player-dedup`: 同一人物としてまとめた: p_33e8786a7b99 → p_63bfca1f28d5 (大海 諒介)
@@ -30517,19 +31576,23 @@
 - `player-dedup`: 同一人物としてまとめた: p_342839282a2c → p_0a98fda6e180 (藤井 太己)
 - `player-dedup`: 同一人物としてまとめた: p_3472d24606e0 → p_c25e5a8c91aa (光浪くるみ)
 - `player-dedup`: 同一人物としてまとめた: p_3492f6f7d944 → p_4962dc629520 (佐野 美奈)
+- `player-dedup`: 同一人物としてまとめた: p_34986dfce275 → p_07071bc8f807 (土肥唯奈)
 - `player-dedup`: 同一人物としてまとめた: p_34ac76585173 → p_f08d57deef48 (春名 彩羽)
 - `player-dedup`: 同一人物としてまとめた: p_3504ca7eefc1 → p_bd34c8318aab (西彩花)
 - `player-dedup`: 同一人物としてまとめた: p_351f535d6db2 → p_5ffbdf767c29 (本 大志)
 - `player-dedup`: 同一人物としてまとめた: p_35457f9c1815 → p_9f7c1ac835ba (白井 瑛)
 - `player-dedup`: 同一人物としてまとめた: p_355090a07451 → p_e60fa22e783b (徳丸 賢真)
 - `player-dedup`: 同一人物としてまとめた: p_35550d7cbf00 → p_7158a994ebcf (荒木 陽翔)
+- `player-dedup`: 同一人物としてまとめた: p_3585704e5461 → p_7284913d2b44 (川﨑 燦)
 - `player-dedup`: 同一人物としてまとめた: p_359885c3213d → p_3eae74007ffd (齋藤小花)
 - `player-dedup`: 同一人物としてまとめた: p_35a81a4e43d8 → p_6a45ec4374cd (樽井 友哉)
 - `player-dedup`: 同一人物としてまとめた: p_35c9a174106a → p_54437e67b877 (柴﨑 香凛)
+- `player-dedup`: 同一人物としてまとめた: p_35e9e4706ef2 → p_7cfef296e6f3 (高島琉)
 - `player-dedup`: 同一人物としてまとめた: p_3690596527f6 → p_f65f54363cc7 (小田嶋 永遠)
 - `player-dedup`: 同一人物としてまとめた: p_36a10f7affbd → p_1a1ca566aa2e (藤崎蒼太)
 - `player-dedup`: 同一人物としてまとめた: p_36f7ee1927e6 → p_161429bbf1ec (田中 貫太)
 - `player-dedup`: 同一人物としてまとめた: p_375618dd3277 → p_8946fda32b65 (小巻 香乃)
+- `player-dedup`: 同一人物としてまとめた: p_37685556bb2d → p_0fdae45bb306 (八木 涼風)
 - `player-dedup`: 同一人物としてまとめた: p_37bb0c747b0e → p_b00029259742 (大久保 友貴)
 - `player-dedup`: 同一人物としてまとめた: p_37bb6d5f1b18 → p_d5f280755bff (清丘俊)
 - `player-dedup`: 同一人物としてまとめた: p_37d4f64567a9 → p_758cf08cbf4a (川上 知夏)
@@ -30557,16 +31620,22 @@
 - `player-dedup`: 同一人物としてまとめた: p_3ce42d609a2b → p_0fdae45bb306 (八木 涼風)
 - `player-dedup`: 同一人物としてまとめた: p_3cf8a54a479a → p_bd591d42d952 (桜庭禄碩)
 - `player-dedup`: 同一人物としてまとめた: p_3d1503f601a1 → p_1e3b3e0ddd0b (栗林 夏希)
+- `player-dedup`: 同一人物としてまとめた: p_3d565eba13c4 → p_3ac158e80625 (中西 梨純)
 - `player-dedup`: 同一人物としてまとめた: p_3dc9e594910a → p_59644ea9b5da (金拿仕)
 - `player-dedup`: 同一人物としてまとめた: p_3e26a03f0b20 → p_fe7944e88c1b (川﨑 孔大郎)
 - `player-dedup`: 同一人物としてまとめた: p_3e66fac63d12 → p_8889c1d4e595 (小木野 太優)
+- `player-dedup`: 同一人物としてまとめた: p_3e92ddd30e42 → p_2dd5cc860c6e (須藤 晶)
 - `player-dedup`: 同一人物としてまとめた: p_3ef54f5c301a → p_3c4f815dbe78 (清水 唯斗)
+- `player-dedup`: 同一人物としてまとめた: p_3ef5a3d006b5 → p_ba83834e8a4c (本田 夢麗)
 - `player-dedup`: 同一人物としてまとめた: p_3ef77c2186a6 → p_6c6ca58a3283 (髙木 暢仁)
+- `player-dedup`: 同一人物としてまとめた: p_3f207e929799 → p_47e787c8ee6d (上野 麟欧)
 - `player-dedup`: 同一人物としてまとめた: p_3f28d08c678b → p_22b5aefc415c (白川 真桜)
 - `player-dedup`: 同一人物としてまとめた: p_3f535f653220 → p_84b545c87064 (鈴木 陽彩)
 - `player-dedup`: 同一人物としてまとめた: p_3f7b4d31e3e5 → p_17717826902f (中山 凜花)
 - `player-dedup`: 同一人物としてまとめた: p_3f8bec5f55ac → p_916a5b67a260 (井土 裕介)
+- `player-dedup`: 同一人物としてまとめた: p_3f9197b38b77 → p_4962dc629520 (佐野 美奈)
 - `player-dedup`: 同一人物としてまとめた: p_3fcb9138d4d3 → p_eb5620121ef1 (工藤 颯太)
+- `player-dedup`: 同一人物としてまとめた: p_3ff5cc641cf6 → p_91053be7f454 (中畑陽)
 - `player-dedup`: 同一人物としてまとめた: p_3ffdc436eb28 → p_0de4fb16b64d (小出琢馬)
 - `player-dedup`: 同一人物としてまとめた: p_401549ffa5a7 → p_8b25fd562170 (森部 起基)
 - `player-dedup`: 同一人物としてまとめた: p_403aee9c8c89 → p_e51d27b0d237 (杉﨑 優人)
@@ -30577,6 +31646,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_410e132ca0f0 → p_bf43316ef7f3 (山本 瑠奈)
 - `player-dedup`: 同一人物としてまとめた: p_414120d90cbe → p_44dc112d0688 (伊藤 せあら)
 - `player-dedup`: 同一人物としてまとめた: p_41cc624faba5 → p_3b7a727a6065 (島川 桃子)
+- `player-dedup`: 同一人物としてまとめた: p_420f61baf96a → p_4ec21912b7b1 (内田 俊太郎)
 - `player-dedup`: 同一人物としてまとめた: p_424d43f1ffe8 → p_c0596d336c04 (原舞香)
 - `player-dedup`: 同一人物としてまとめた: p_425650a00473 → p_df07813acc73 (堤野 洋介)
 - `player-dedup`: 同一人物としてまとめた: p_427add21d27e → p_3fcc0135cd14 (長岡 航平)
@@ -30594,12 +31664,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_44f078c2b114 → p_527c58345b49 (德安 李香)
 - `player-dedup`: 同一人物としてまとめた: p_450e3d0f5848 → p_b985391a9e17 (黒木 夢)
 - `player-dedup`: 同一人物としてまとめた: p_452c1629a2b2 → p_a3055a83363a (小野 翼)
+- `player-dedup`: 同一人物としてまとめた: p_454570351909 → p_07646c70692b (永田航平)
 - `player-dedup`: 同一人物としてまとめた: p_454e765fa3eb → p_868da1edb888 (後藤 彩吹)
 - `player-dedup`: 同一人物としてまとめた: p_455daddd4a2d → p_bd783b2a6c5d (高田将)
 - `player-dedup`: 同一人物としてまとめた: p_4560ee198e8b → p_f30d7de1b9f3 (池田 春樹)
 - `player-dedup`: 同一人物としてまとめた: p_460e3c9ea6c5 → p_260f0805c89b (上野 剣慎)
 - `player-dedup`: 同一人物としてまとめた: p_46200bc73317 → p_dc68ba539c59 (田仲 琉雅)
+- `player-dedup`: 同一人物としてまとめた: p_46306dfdfc9c → p_34483fe90bf0 (加藤 健正)
 - `player-dedup`: 同一人物としてまとめた: p_46e5b923494a → p_634d7a80d174 (中山 晴太)
+- `player-dedup`: 同一人物としてまとめた: p_46eb1685b10b → p_1c11e4352eda (福田 有希)
 - `player-dedup`: 同一人物としてまとめた: p_46f526d441fd → p_67ab167b1aab (藤山 開晟)
 - `player-dedup`: 同一人物としてまとめた: p_4724802af27b → p_901624f8975d (河﨑 涼太)
 - `player-dedup`: 同一人物としてまとめた: p_472c7f2938fb → p_e60732a81a31 (平田 妃希)
@@ -30608,7 +31681,9 @@
 - `player-dedup`: 同一人物としてまとめた: p_479f9f24b12d → p_204ab8fe949d (和泉 健太郎)
 - `player-dedup`: 同一人物としてまとめた: p_48073311361d → p_ba9cbba33e05 (山門莉子)
 - `player-dedup`: 同一人物としてまとめた: p_4809dd579c13 → p_afefad5b7aae (德永 歩)
+- `player-dedup`: 同一人物としてまとめた: p_4815e091369c → p_dbff81db577e (髙橋 海理)
 - `player-dedup`: 同一人物としてまとめた: p_481eeb050fb2 → p_42e9399b5328 (小島 彼呂徒)
+- `player-dedup`: 同一人物としてまとめた: p_4842eaa9b3ea → p_e3aa15f3318a (杉山 桃香)
 - `player-dedup`: 同一人物としてまとめた: p_489bea2b7a6d → p_2e6f46827f63 (山﨑 晴稀)
 - `player-dedup`: 同一人物としてまとめた: p_48d1db7f8570 → p_05b420aa73c6 (佐藤 あおい)
 - `player-dedup`: 同一人物としてまとめた: p_495e52695a19 → p_4770c9def8f1 (加藤勇翔)
@@ -30616,6 +31691,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_499894e49fe6 → p_c1cf4bab57ac (菊池 諒太郎)
 - `player-dedup`: 同一人物としてまとめた: p_49b9b973b2bb → p_a43506ee5383 (米原 海斗)
 - `player-dedup`: 同一人物としてまとめた: p_49ce6232b3a0 → p_08ed849a263a (髙橋 一誠)
+- `player-dedup`: 同一人物としてまとめた: p_4a7b49b8f76b → p_f21c02f9dcbd (西田 侑未)
 - `player-dedup`: 同一人物としてまとめた: p_4ab8d8d06a0a → p_f3be3f81aa0c (伊藤泰良)
 - `player-dedup`: 同一人物としてまとめた: p_4ae96d027490 → p_bf821b019614 (若原 亮太)
 - `player-dedup`: 同一人物としてまとめた: p_4aea7a0e8ecb → p_f959924e1adb (岡野天馬)
@@ -30628,6 +31704,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_4cde468f53f5 → p_5a4fa8524078 (藤井 琢巳)
 - `player-dedup`: 同一人物としてまとめた: p_4d5597e12336 → p_dc98c088870f (田中海翔)
 - `player-dedup`: 同一人物としてまとめた: p_4d8d77e154ed → p_0e55f5642d90 (金岡杏実)
+- `player-dedup`: 同一人物としてまとめた: p_4de2e020e050 → p_534c7686d3d4 (茂苅 大)
 - `player-dedup`: 同一人物としてまとめた: p_4e0868ae6549 → p_e40a0590bfda (沖田悠輔)
 - `player-dedup`: 同一人物としてまとめた: p_4e8a2d089d9e → p_f6d26f7bba1a (八田凱斗)
 - `player-dedup`: 同一人物としてまとめた: p_4e8e701ecefd → p_de40c81482d1 (中道 ゆい)
@@ -30640,6 +31717,8 @@
 - `player-dedup`: 同一人物としてまとめた: p_4f6a48d1b1f2 → p_854730fc589d (吉本 七海)
 - `player-dedup`: 同一人物としてまとめた: p_5006a95c351c → p_3f657228570e (浜崎 未来)
 - `player-dedup`: 同一人物としてまとめた: p_5011e99bce45 → p_42450ad27ad2 (有本紫音)
+- `player-dedup`: 同一人物としてまとめた: p_5015d58512cc → p_5d7f2b52cf10 (平井 汰一)
+- `player-dedup`: 同一人物としてまとめた: p_50271ce9f03f → p_1e3b3e0ddd0b (栗林 夏希)
 - `player-dedup`: 同一人物としてまとめた: p_5038c6e9f44c → p_88fd65d9723b (長﨑 大星)
 - `player-dedup`: 同一人物としてまとめた: p_5041e6a59bf3 → p_0310d52167ad (小出 美雨)
 - `player-dedup`: 同一人物としてまとめた: p_508454c4da83 → p_f3be3f81aa0c (伊藤泰良)
@@ -30651,8 +31730,8 @@
 - `player-dedup`: 同一人物としてまとめた: p_51fecf0a84a0 → p_dd10d90a3e8e (濵渕 裕生)
 - `player-dedup`: 同一人物としてまとめた: p_524944eecdd5 → p_96dcb8f1ac6f (木下 護元)
 - `player-dedup`: 同一人物としてまとめた: p_5293adef84f5 → p_82b6fb544fd0 (佐々木 花虹)
+- `player-dedup`: 同一人物としてまとめた: p_5298cbce19c8 → p_485fff4941d7 (石橋 怜久)
 - `player-dedup`: 同一人物としてまとめた: p_530e572198b8 → p_fa3d61c5ce66 (奥田亮太朗)
-- `player-dedup`: 同一人物としてまとめた: p_534c7686d3d4 → p_4de2e020e050 (茂苅大)
 - `player-dedup`: 同一人物としてまとめた: p_53706bdbabd1 → p_47942ced4a53 (平山 拓美)
 - `player-dedup`: 同一人物としてまとめた: p_538ece70c119 → p_e2a4f0be409b (相山蓮音)
 - `player-dedup`: 同一人物としてまとめた: p_53b0e9f69c08 → p_0c82bb9e32e3 (富塚玲音)
@@ -30668,11 +31747,14 @@
 - `player-dedup`: 同一人物としてまとめた: p_557afcb73227 → p_c45bb4b09831 (柳谷ひよ)
 - `player-dedup`: 同一人物としてまとめた: p_5581c1c608c8 → p_192c959e1301 (小山内祐太)
 - `player-dedup`: 同一人物としてまとめた: p_5591c7362282 → p_b27070b3d8a2 (出田蒼海)
+- `player-dedup`: 同一人物としてまとめた: p_559cca7070dc → p_26ece41c88c8 (本田 彩蘭)
 - `player-dedup`: 同一人物としてまとめた: p_55a735162a6e → p_53e330356c6d (鈴木 菜々美)
+- `player-dedup`: 同一人物としてまとめた: p_55db14fa91ac → p_78690f7ade07 (水野 陽稀)
 - `player-dedup`: 同一人物としてまとめた: p_5666f71b2809 → p_86e5f0a9452d (遠藤 銀河)
 - `player-dedup`: 同一人物としてまとめた: p_566891cfbd87 → p_d865a7384aa9 (米田 翔)
 - `player-dedup`: 同一人物としてまとめた: p_5690d83e70e0 → p_9d34f3586442 (太田 美羽)
 - `player-dedup`: 同一人物としてまとめた: p_56a941d348bc → p_9c3d52de76ea (池田 琉海)
+- `player-dedup`: 同一人物としてまとめた: p_56aa183b89fa → p_290bed8e4200 (小原 力)
 - `player-dedup`: 同一人物としてまとめた: p_56daea2eec63 → p_4a5e8fda34a9 (織田 信亮)
 - `player-dedup`: 同一人物としてまとめた: p_56f5bb976d52 → p_a6cd6ee7fa17 (佐々木 史奈)
 - `player-dedup`: 同一人物としてまとめた: p_571323ec0643 → p_57ba0b858ebc (平山 心暖)
@@ -30682,25 +31764,36 @@
 - `player-dedup`: 同一人物としてまとめた: p_57c5c0a8c502 → p_6ff4ead2d5b5 (桐生 肇)
 - `player-dedup`: 同一人物としてまとめた: p_57d8ca10b098 → p_a66cbac96328 (折本 朱心)
 - `player-dedup`: 同一人物としてまとめた: p_5838a6dbfef9 → p_efdad43994eb (植田 晃大)
+- `player-dedup`: 同一人物としてまとめた: p_583b30c79add → p_cd2a5d4dfde2 (島川 優真)
+- `player-dedup`: 同一人物としてまとめた: p_5865b6852cdf → p_fa463b42eae4 (柾本彩希)
 - `player-dedup`: 同一人物としてまとめた: p_588faec6345a → p_4289468c14d8 (宮崎 友希)
 - `player-dedup`: 同一人物としてまとめた: p_58e8e75494b2 → p_1b98b3eec8b0 (小林江梨子)
 - `player-dedup`: 同一人物としてまとめた: p_5913337bb997 → p_1f1f624371d7 (高栁 知希)
 - `player-dedup`: 同一人物としてまとめた: p_596be68f1dae → p_4366dabb0a64 (矢島葵)
 - `player-dedup`: 同一人物としてまとめた: p_59c1d3b92c73 → p_0d0be7d9402d (里 海舟)
 - `player-dedup`: 同一人物としてまとめた: p_59e6f2779c08 → p_f675c03ddddf (奥田宗一郎)
+- `player-dedup`: 同一人物としてまとめた: p_5a0198955ffd → p_e0779e71ad6d (佐田 菜摘)
 - `player-dedup`: 同一人物としてまとめた: p_5b21f61bf765 → p_26813eb9cfbb (田中 陽菜)
 - `player-dedup`: 同一人物としてまとめた: p_5b953374a342 → p_059f5253692b (馬城颯士)
 - `player-dedup`: 同一人物としてまとめた: p_5b98002298ca → p_befdd8b59aee (鈴木 友渚)
 - `player-dedup`: 同一人物としてまとめた: p_5bad5f0d866f → p_3b8c2f8315e3 (齊藤 柚稀)
+- `player-dedup`: 同一人物としてまとめた: p_5be8146bfa73 → p_84b545c87064 (鈴木 陽彩)
+- `player-dedup`: 同一人物としてまとめた: p_5be8b2bf9d5d → p_58c58c946c90 (北川 紗玖楽)
 - `player-dedup`: 同一人物としてまとめた: p_5c8db40878e3 → p_d6b0591ef26a (髙橋 夢人)
 - `player-dedup`: 同一人物としてまとめた: p_5cc0ad811a79 → p_bd3ab90a3c3f (宮﨑樹里)
+- `player-dedup`: 同一人物としてまとめた: p_5d19634d0b3d → p_a96952af1faa (田中 元基)
+- `player-dedup`: 同一人物としてまとめた: p_5d4c81ffd139 → p_69991f996c88 (和田流星)
 - `player-dedup`: 同一人物としてまとめた: p_5dd91e35cbdf → p_531fb5791960 (小村 優太)
+- `player-dedup`: 同一人物としてまとめた: p_5de2789c07da → p_1245906cf5c8 (熊坂 和奏)
 - `player-dedup`: 同一人物としてまとめた: p_5e09dfae194d → p_202361b8f7ed (三浦 一真)
 - `player-dedup`: 同一人物としてまとめた: p_5e49709251c3 → p_b9fd07d1436e (久常 涼)
 - `player-dedup`: 同一人物としてまとめた: p_5e4d8b13d9fa → p_0b0ebc1a397a (土屋 姫心)
+- `player-dedup`: 同一人物としてまとめた: p_5e6668fb6a13 → p_cf12b9439eed (大谷 麗音)
 - `player-dedup`: 同一人物としてまとめた: p_5e7008b1a888 → p_95401cbbc359 (岡田 大樹)
 - `player-dedup`: 同一人物としてまとめた: p_5fa66844d691 → p_0b9cb3659792 (吉本 和生)
+- `player-dedup`: 同一人物としてまとめた: p_5facac3f0c9e → p_96b5c722ced1 (鈴木 夏瑠)
 - `player-dedup`: 同一人物としてまとめた: p_5fb058d14719 → p_3d078a1379de (中嶋大静)
+- `player-dedup`: 同一人物としてまとめた: p_5fb209208890 → p_4debe89dff16 (表 佳稀)
 - `player-dedup`: 同一人物としてまとめた: p_5fb541e541e0 → p_433e1cff19c9 (池田 拓己)
 - `player-dedup`: 同一人物としてまとめた: p_5fdb1a728650 → p_acc2c408024b (塩路 千尋)
 - `player-dedup`: 同一人物としてまとめた: p_5feaa415e34a → p_a0f6de595f51 (安那 亜沙)
@@ -30709,11 +31802,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_60ec8ac805d3 → p_a8d87664565f (山﨑駿)
 - `player-dedup`: 同一人物としてまとめた: p_613b2026b7d8 → p_dd475f446cb4 (杉山 来應)
 - `player-dedup`: 同一人物としてまとめた: p_616449e7bc9c → p_4820c4a20cca (中原拓飛)
+- `player-dedup`: 同一人物としてまとめた: p_6186f5257460 → p_42b079c02090 (川原莉緒)
+- `player-dedup`: 同一人物としてまとめた: p_6190b9371cc3 → p_1b84674141b6 (矢内一匡)
 - `player-dedup`: 同一人物としてまとめた: p_61a4ac747169 → p_e4f8db809ea7 (三上 花乃)
 - `player-dedup`: 同一人物としてまとめた: p_61ad7f3d3e50 → p_1785601e54ff (山崎 雄大)
 - `player-dedup`: 同一人物としてまとめた: p_620960fb0cff → p_1a05bbb7857b (島田皓)
+- `player-dedup`: 同一人物としてまとめた: p_6211c67b3ff4 → p_a9d6a25781e3 (村田美吹生)
 - `player-dedup`: 同一人物としてまとめた: p_621686ae5f00 → p_26fdc8dabcf8 (吉音羽)
 - `player-dedup`: 同一人物としてまとめた: p_622ba347553b → p_faa8b4bb7fba (野村優花)
+- `player-dedup`: 同一人物としてまとめた: p_625e69e54343 → p_f7dccfb150c8 (菱田 健斗)
 - `player-dedup`: 同一人物としてまとめた: p_6272bf8d066f → p_93e6067d0bda (矢内凜)
 - `player-dedup`: 同一人物としてまとめた: p_63073222027f → p_2f9c3a128922 (川口 莉歩)
 - `player-dedup`: 同一人物としてまとめた: p_63462f827c9b → p_83fa93710a97 (木内 真衣)
@@ -30740,11 +31837,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_6604aec234f0 → p_abd8126ece8a (髙屋駿)
 - `player-dedup`: 同一人物としてまとめた: p_666b027714a7 → p_7775a9bc70d0 (篠﨑 夢叶)
 - `player-dedup`: 同一人物としてまとめた: p_66a8fed25be6 → p_7d7f109ca600 (光成 颯)
+- `player-dedup`: 同一人物としてまとめた: p_66c34c33bce4 → p_72c45fd400aa (井上 俊樹)
+- `player-dedup`: 同一人物としてまとめた: p_66ccab5ce38f → p_beccacb18362 (田村仁美)
 - `player-dedup`: 同一人物としてまとめた: p_66ce79e8258d → p_d9db867fc828 (中道 まい)
+- `player-dedup`: 同一人物としてまとめた: p_6723b25b7c40 → p_5e4cd725bcd9 (後根 愛斗)
 - `player-dedup`: 同一人物としてまとめた: p_6741096b83e8 → p_ec8739fc8971 (中嶋 月葉)
 - `player-dedup`: 同一人物としてまとめた: p_67483902b77d → p_3382f844996b (近藤 直杜)
 - `player-dedup`: 同一人物としてまとめた: p_67afa1f34c12 → p_3d414be1face (渡邉 圭一郎)
 - `player-dedup`: 同一人物としてまとめた: p_67b4ca66ded1 → p_182e62d436de (大村 和主馬)
+- `player-dedup`: 同一人物としてまとめた: p_67c42923cada → p_c5305ff75f43 (桑木 志帆)
 - `player-dedup`: 同一人物としてまとめた: p_67eedb8559d1 → p_23997809e4c6 (飯泉 瑠偉)
 - `player-dedup`: 同一人物としてまとめた: p_6823a87c1e19 → p_dae1f554c306 (石岡 蒼太)
 - `player-dedup`: 同一人物としてまとめた: p_683a7207a332 → p_4820c4a20cca (中原拓飛)
@@ -30759,11 +31860,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_6a5b67e7abf9 → p_9183b5fc4d42 (中西 悠加)
 - `player-dedup`: 同一人物としてまとめた: p_6a85d1022bbc → p_0d2e69b6e4d6 (神田 陽色)
 - `player-dedup`: 同一人物としてまとめた: p_6abac6649d4b → p_9b3afca2e528 (髙江 龍星)
+- `player-dedup`: 同一人物としてまとめた: p_6abdeed0fe48 → p_b8940129f4d3 (山本斎)
 - `player-dedup`: 同一人物としてまとめた: p_6ac6d78da92d → p_205e359b0de2 (吉本 翔雄)
 - `player-dedup`: 同一人物としてまとめた: p_6aceeebc56ee → p_dd2b2a3e05f4 (申 泰典)
+- `player-dedup`: 同一人物としてまとめた: p_6ae163a2daee → p_90cfd89cd6bf (大西樹里)
 - `player-dedup`: 同一人物としてまとめた: p_6ae7d86c628a → p_10345bf0bab3 (坂口沙綾)
 - `player-dedup`: 同一人物としてまとめた: p_6aef97000553 → p_f290c8bc5588 (西山 大翔)
 - `player-dedup`: 同一人物としてまとめた: p_6b890e93c9ef → p_0eea59d982f0 (大久保 咲季)
+- `player-dedup`: 同一人物としてまとめた: p_6b9e6206a0d3 → p_6a4c83096a8d (石川 航)
+- `player-dedup`: 同一人物としてまとめた: p_6ba60cef7fba → p_f6a6bdfd6b16 (山岸 咲槻)
 - `player-dedup`: 同一人物としてまとめた: p_6c9de77487d2 → p_815372a89a53 (田中仁)
 - `player-dedup`: 同一人物としてまとめた: p_6cda7076efd3 → p_17bb91b30f01 (井上 大樹)
 - `player-dedup`: 同一人物としてまとめた: p_6cdab70fb666 → p_3d6d81af48f4 (北條 陽雲)
@@ -30773,6 +31878,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_6da3dbb33942 → p_4ee0b2f610f5 (橋口心海)
 - `player-dedup`: 同一人物としてまとめた: p_6db25c584e5f → p_c25eb2373a6f (石岡 丈)
 - `player-dedup`: 同一人物としてまとめた: p_6db70777fc33 → p_2a60f4fe51eb (飯田 茜)
+- `player-dedup`: 同一人物としてまとめた: p_6e0c3a45fc7e → p_5cc0f5fb1f2f (足立拓海)
 - `player-dedup`: 同一人物としてまとめた: p_6eb1f49dad29 → p_d63a8b21eff6 (古澤 築)
 - `player-dedup`: 同一人物としてまとめた: p_6f01b7c1b8d9 → p_0e9993fe8d1c (窪田 隼人)
 - `player-dedup`: 同一人物としてまとめた: p_6f06fdcfed59 → p_4ea76e596461 (斎藤 優空)
@@ -30780,8 +31886,11 @@
 - `player-dedup`: 同一人物としてまとめた: p_6f4e9e15ca29 → p_42a5c6028296 (阿形 凌央)
 - `player-dedup`: 同一人物としてまとめた: p_6f87f4c1a18e → p_6ec32c95989e (林田 万輪)
 - `player-dedup`: 同一人物としてまとめた: p_6f8b7c91170f → p_ed2bf32f9f95 (笠岡桜恭)
+- `player-dedup`: 同一人物としてまとめた: p_6f959032665c → p_4d8dd9573aae (松本真帆)
 - `player-dedup`: 同一人物としてまとめた: p_6faa44f2f28a → p_1e84f82fbf22 (大川 冬陽)
 - `player-dedup`: 同一人物としてまとめた: p_6facd0e23c28 → p_25c73155e68f (岩井 聡季)
+- `player-dedup`: 同一人物としてまとめた: p_6fc3bff63dd1 → p_80d3b5b5d5d9 (黒澤 光)
+- `player-dedup`: 同一人物としてまとめた: p_6fcb47af4ea4 → p_1d820e629460 (田中 天晴)
 - `player-dedup`: 同一人物としてまとめた: p_7004288e205f → p_efdad43994eb (植田 晃大)
 - `player-dedup`: 同一人物としてまとめた: p_70274a1a1de6 → p_4bba5ff7dfb6 (髙橋 春人)
 - `player-dedup`: 同一人物としてまとめた: p_704007904fa0 → p_d94fc75b1622 (杉浦 悠太)
@@ -30795,14 +31904,17 @@
 - `player-dedup`: 同一人物としてまとめた: p_71c99a5a3270 → p_d81636ee30c8 (髙岸 鈴)
 - `player-dedup`: 同一人物としてまとめた: p_720a0e06f900 → p_b9fd07d1436e (久常 涼)
 - `player-dedup`: 同一人物としてまとめた: p_721e521655ba → p_6b7e104dda9f (峯田竜空)
+- `player-dedup`: 同一人物としてまとめた: p_7232955b2743 → p_9cb2be683f51 (田原 和)
 - `player-dedup`: 同一人物としてまとめた: p_7253b280f166 → p_39b79b43534a (乙部 竜翔)
 - `player-dedup`: 同一人物としてまとめた: p_7301b880c0f9 → p_98e99721e858 (荒川 真彩)
+- `player-dedup`: 同一人物としてまとめた: p_7306f22cf2b6 → p_f3be3f81aa0c (伊藤泰良)
 - `player-dedup`: 同一人物としてまとめた: p_732631280b70 → p_e6eca81e59cf (多良間伸平)
 - `player-dedup`: 同一人物としてまとめた: p_73298ff2e7b1 → p_72cfdc309bed (西山 陽斗)
 - `player-dedup`: 同一人物としてまとめた: p_7373e2b6c49b → p_0afe9a45804e (垣 美穂)
 - `player-dedup`: 同一人物としてまとめた: p_739c1bea8e6d → p_aaf51e18dc97 (田川日々海)
 - `player-dedup`: 同一人物としてまとめた: p_73a7ae66e349 → p_8f79a160da8d (吉沢 己咲)
 - `player-dedup`: 同一人物としてまとめた: p_73d6a643181c → p_dbff81db577e (髙橋 海理)
+- `player-dedup`: 同一人物としてまとめた: p_73f767413411 → p_4a2f66287cd0 (伊澤丈一郎)
 - `player-dedup`: 同一人物としてまとめた: p_743de9af8dae → p_c2dd7f2837d0 (加藤 巴琉)
 - `player-dedup`: 同一人物としてまとめた: p_7446214d73bd → p_dcc324b301df (松山 りな)
 - `player-dedup`: 同一人物としてまとめた: p_746a7811968c → p_b0ece714edb2 (三本木実桜)
@@ -30818,12 +31930,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_761e793b62a4 → p_b73de180b05d (難波 翔)
 - `player-dedup`: 同一人物としてまとめた: p_763ad27a9a5d → p_4ea76e596461 (斎藤 優空)
 - `player-dedup`: 同一人物としてまとめた: p_765b2993edb2 → p_f5c44838b234 (赤瀬 新菜)
+- `player-dedup`: 同一人物としてまとめた: p_769140c0b897 → p_522634328cc8 (長田慎太郎)
 - `player-dedup`: 同一人物としてまとめた: p_76ada54669cc → p_31e4e4be99c1 (大森 妃歩)
 - `player-dedup`: 同一人物としてまとめた: p_76c30c3b461c → p_3966e56eeba9 (山田 叡門)
 - `player-dedup`: 同一人物としてまとめた: p_76c951f70485 → p_4478b612e684 (高崎 一希)
 - `player-dedup`: 同一人物としてまとめた: p_76cf8fe7c04f → p_a76aee3d91c0 (宮内 大遥)
+- `player-dedup`: 同一人物としてまとめた: p_76d099191b89 → p_af054d402281 (片岡 謙)
 - `player-dedup`: 同一人物としてまとめた: p_76f30ca56be1 → p_70229cb6df96 (佐野 夏奈)
 - `player-dedup`: 同一人物としてまとめた: p_770be024d053 → p_eb111f3fafa0 (海老沢 源太朗)
+- `player-dedup`: 同一人物としてまとめた: p_772aac095779 → p_585ba3f96404 (河口実成)
 - `player-dedup`: 同一人物としてまとめた: p_774a167d7964 → p_49a67bf63257 (佐々木隼也)
 - `player-dedup`: 同一人物としてまとめた: p_775759730152 → p_ad85fe233d2f (川﨑日向汰)
 - `player-dedup`: 同一人物としてまとめた: p_779dde2177ca → p_b4847fd34182 (安部 明日香)
@@ -30837,23 +31952,29 @@
 - `player-dedup`: 同一人物としてまとめた: p_78ce4976ca85 → p_f65f54363cc7 (小田嶋 永遠)
 - `player-dedup`: 同一人物としてまとめた: p_78f43f9ac569 → p_1cc2545643f4 (伊藤天智)
 - `player-dedup`: 同一人物としてまとめた: p_79194abf276c → p_4d757c1f5a06 (北岡優菜)
+- `player-dedup`: 同一人物としてまとめた: p_793a4b4ec264 → p_2e7b1a7b01b9 (唐津沙莉)
 - `player-dedup`: 同一人物としてまとめた: p_793dac0af4a3 → p_5b675b32b3b3 (普山綾心)
 - `player-dedup`: 同一人物としてまとめた: p_799033f10a18 → p_729872015f0e (沢田 新)
 - `player-dedup`: 同一人物としてまとめた: p_79b04dfb1946 → p_e35c200ef364 (大村 浩輔)
 - `player-dedup`: 同一人物としてまとめた: p_79ec679d987a → p_cf12b9439eed (大谷 麗音)
 - `player-dedup`: 同一人物としてまとめた: p_79f59f6c77a5 → p_b11668df4f96 (黒川 航輝)
 - `player-dedup`: 同一人物としてまとめた: p_79fee5eb2204 → p_49a55ecd22ca (中村 有希)
+- `player-dedup`: 同一人物としてまとめた: p_79ff277c5ed8 → p_80ccc7bbf3f7 (溝川 陽大)
+- `player-dedup`: 同一人物としてまとめた: p_7a4d23fb43ef → p_f96b2dd835bc (森田 元大)
 - `player-dedup`: 同一人物としてまとめた: p_7a5d45765775 → p_05b420aa73c6 (佐藤 あおい)
 - `player-dedup`: 同一人物としてまとめた: p_7aa035cc2684 → p_db439ed023d0 (卜部陽久)
+- `player-dedup`: 同一人物としてまとめた: p_7aa3ca79ba2a → p_625bfb016416 (大崎 心美)
 - `player-dedup`: 同一人物としてまとめた: p_7aa7b8b4ff03 → p_214cf92b826d (大金 夏美)
 - `player-dedup`: 同一人物としてまとめた: p_7b068039ea09 → p_9183b5fc4d42 (中西 悠加)
 - `player-dedup`: 同一人物としてまとめた: p_7b07fe1ade5f → p_337cdfc47cf7 (渡辺櫂人)
 - `player-dedup`: 同一人物としてまとめた: p_7b8e2629e2ce → p_294735761f6f (小松里緒)
 - `player-dedup`: 同一人物としてまとめた: p_7bca49b2fb45 → p_6ec32c95989e (林田 万輪)
+- `player-dedup`: 同一人物としてまとめた: p_7bd12d1344df → p_49a55ecd22ca (中村 有希)
 - `player-dedup`: 同一人物としてまとめた: p_7bdebba43ac8 → p_4e28b18d346c (原田 大空)
 - `player-dedup`: 同一人物としてまとめた: p_7bfa76d56706 → p_bf6091f5997a (松山 翼)
 - `player-dedup`: 同一人物としてまとめた: p_7c01c303cb5f → p_1145e1909f97 (向井 七海)
 - `player-dedup`: 同一人物としてまとめた: p_7c29655b36b3 → p_60dd0ac02fb6 (神谷 至道)
+- `player-dedup`: 同一人物としてまとめた: p_7c549b2ffa33 → p_af8403aa4a1d (井本思唯)
 - `player-dedup`: 同一人物としてまとめた: p_7c624aab5eb0 → p_1d5bbefbf835 (佐藤 涼音)
 - `player-dedup`: 同一人物としてまとめた: p_7c9b3350e893 → p_e8f9ddb2746a (北上駿介)
 - `player-dedup`: 同一人物としてまとめた: p_7caa159cb211 → p_c97aac265863 (高田愛來)
@@ -30865,6 +31986,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_7db1ae5e1633 → p_55dd56e3ba52 (中野 麟太朗)
 - `player-dedup`: 同一人物としてまとめた: p_7dd4e60ed65d → p_b3c259f8fa45 (山中 頌)
 - `player-dedup`: 同一人物としてまとめた: p_7e5fdc71095d → p_41b2860cfecb (平山 航之)
+- `player-dedup`: 同一人物としてまとめた: p_7ee04fbb8cb7 → p_0749a1232061 (池羽 陽向)
 - `player-dedup`: 同一人物としてまとめた: p_7ef558a6353c → p_702fcc4db484 (新城 莉李亜)
 - `player-dedup`: 同一人物としてまとめた: p_7f7c6f0a8b81 → p_13c507702aa5 (木村 太一)
 - `player-dedup`: 同一人物としてまとめた: p_7f9637b583c5 → p_a95a05fa32bc (坂倉拓未)
@@ -30882,7 +32004,9 @@
 - `player-dedup`: 同一人物としてまとめた: p_81d91b8c6922 → p_7333cd1bf20a (原 彩心)
 - `player-dedup`: 同一人物としてまとめた: p_81dea5ecb186 → p_a963e0525e4e (横井 優星)
 - `player-dedup`: 同一人物としてまとめた: p_81e4be8a2cd9 → p_6f747b6f5b27 (加賀谷心美)
+- `player-dedup`: 同一人物としてまとめた: p_820b0ad51269 → p_2d43ce6a3c62 (塚田 大雅)
 - `player-dedup`: 同一人物としてまとめた: p_8240002f4c03 → p_43a5aecd50c9 (石橋 澄空)
+- `player-dedup`: 同一人物としてまとめた: p_829050927de9 → p_a1e3d4f6d51e (飯田 朝陽)
 - `player-dedup`: 同一人物としてまとめた: p_82f74397a41f → p_186f55bde200 (村上晴)
 - `player-dedup`: 同一人物としてまとめた: p_834c327c5b9d → p_9d34f3586442 (太田 美羽)
 - `player-dedup`: 同一人物としてまとめた: p_838048a454d6 → p_bce25459acb1 (松本 愛未)
@@ -30897,9 +32021,14 @@
 - `player-dedup`: 同一人物としてまとめた: p_846be4acd324 → p_640741b1261d (高柳 守吏)
 - `player-dedup`: 同一人物としてまとめた: p_84853e336a84 → p_557652bde254 (小林 夢羽)
 - `player-dedup`: 同一人物としてまとめた: p_8490d740c2f8 → p_f80262042cd3 (梅川 真里)
+- `player-dedup`: 同一人物としてまとめた: p_84c66c14c51a → p_b8b3fc2da33d (玉木 海凪)
+- `player-dedup`: 同一人物としてまとめた: p_84d6b10ddf09 → p_7c33fcaf632e (山嵜千加良)
 - `player-dedup`: 同一人物としてまとめた: p_852609296b26 → p_7308aa0b9b02 (日下瑞貴)
+- `player-dedup`: 同一人物としてまとめた: p_8591991ab663 → p_06c95f78cd84 (岩谷 奏)
+- `player-dedup`: 同一人物としてまとめた: p_859dc45c2c52 → p_7d5856112691 (上野 陸)
 - `player-dedup`: 同一人物としてまとめた: p_85ca8f833281 → p_6410ae848361 (横山 元気)
 - `player-dedup`: 同一人物としてまとめた: p_85e3716c0039 → p_8245505bdd24 (髙山 大維志)
+- `player-dedup`: 同一人物としてまとめた: p_867cf6f6dddc → p_c68f8c0ec786 (廣田直人)
 - `player-dedup`: 同一人物としてまとめた: p_869a06ea1ac7 → p_852ba0a7cb09 (上村 竜太)
 - `player-dedup`: 同一人物としてまとめた: p_86a0805c5edb → p_3fbb8cc0eb88 (森 愉生)
 - `player-dedup`: 同一人物としてまとめた: p_86b082cb74af → p_c8dd82d7d8cf (髙橋 芽依)
@@ -30918,9 +32047,11 @@
 - `player-dedup`: 同一人物としてまとめた: p_880413d8433a → p_606f11804dfe (桐生 慎太郎)
 - `player-dedup`: 同一人物としてまとめた: p_88099b191f80 → p_31fd79242760 (後藤 樹生)
 - `player-dedup`: 同一人物としてまとめた: p_8890b89b329e → p_0ef1a206a23d (尾関 彩美悠)
+- `player-dedup`: 同一人物としてまとめた: p_88b7400abab0 → p_a2ccedb48e0b (松島 生龍)
 - `player-dedup`: 同一人物としてまとめた: p_893b88a029cf → p_57ba0b858ebc (平山 心暖)
 - `player-dedup`: 同一人物としてまとめた: p_897a2022c779 → p_0ef1a206a23d (尾関 彩美悠)
 - `player-dedup`: 同一人物としてまとめた: p_89ae66db997a → p_aec32e99f29f (布目 紅羽)
+- `player-dedup`: 同一人物としてまとめた: p_89ba2b6322d3 → p_dfc056c94359 (佐々木 しおり)
 - `player-dedup`: 同一人物としてまとめた: p_8a5be9257dfd → p_922c273cd903 (植田梨奈)
 - `player-dedup`: 同一人物としてまとめた: p_8aa308a44473 → p_7d5856112691 (上野 陸)
 - `player-dedup`: 同一人物としてまとめた: p_8b09d6a46bae → p_c401da16c93b (金岡 璃古)
@@ -30940,7 +32071,10 @@
 - `player-dedup`: 同一人物としてまとめた: p_8cf7bebc58ad → p_dcc324b301df (松山 りな)
 - `player-dedup`: 同一人物としてまとめた: p_8d06ef4cbeba → p_350197c894ba (岡田 拓也)
 - `player-dedup`: 同一人物としてまとめた: p_8d6e912fa109 → p_a54a8212c96a (高尾 翔)
+- `player-dedup`: 同一人物としてまとめた: p_8d9d9b3489dc → p_d9db867fc828 (中道 まい)
+- `player-dedup`: 同一人物としてまとめた: p_8dc51ff33d06 → p_60dd0ac02fb6 (神谷 至道)
 - `player-dedup`: 同一人物としてまとめた: p_8e098c9ef12f → p_e3ddd9df4754 (荻窪 蒼萊)
+- `player-dedup`: 同一人物としてまとめた: p_8e3a312f97a7 → p_61ddb55c2735 (高橋宝将)
 - `player-dedup`: 同一人物としてまとめた: p_8e5c7a093402 → p_3e53b7fe9ebc (牧野 光星)
 - `player-dedup`: 同一人物としてまとめた: p_8e73a869318a → p_3c0eaff1fd4d (萩原 大己)
 - `player-dedup`: 同一人物としてまとめた: p_8e778ea84b1d → p_fc78a3e3662a (髙木 美佑)
@@ -30957,11 +32091,10 @@
 - `player-dedup`: 同一人物としてまとめた: p_907d8c259872 → p_9c9de2fa3270 (佐川 安奈)
 - `player-dedup`: 同一人物としてまとめた: p_908639e76474 → p_a72afb416855 (長谷川 貴優)
 - `player-dedup`: 同一人物としてまとめた: p_909e8f919893 → p_3382f844996b (近藤 直杜)
-- `player-dedup`: 同一人物としてまとめた: p_90c53efcd245 → p_204d78220866 (三浦一汰)
-- `player-dedup`: 同一人物としてまとめた: p_90cfd89cd6bf → p_6ae163a2daee (大西樹里)
 - `player-dedup`: 同一人物としてまとめた: p_912bb6f0341d → p_4ee0b2f610f5 (橋口心海)
 - `player-dedup`: 同一人物としてまとめた: p_91bf6e57f64e → p_7b58f45342bb (唐下 明徒)
 - `player-dedup`: 同一人物としてまとめた: p_91dae28efdc8 → p_228908214ba8 (茂木美桜)
+- `player-dedup`: 同一人物としてまとめた: p_92146fc6c681 → p_2f0311b3f5b8 (福留 京介)
 - `player-dedup`: 同一人物としてまとめた: p_9223a98a3337 → p_4a2f66287cd0 (伊澤丈一郎)
 - `player-dedup`: 同一人物としてまとめた: p_92370a3ad544 → p_5cd7d32ef352 (鵜飼 麻央)
 - `player-dedup`: 同一人物としてまとめた: p_923ab46edd90 → p_5200594a92be (棚橋 舜)
@@ -30978,13 +32111,16 @@
 - `player-dedup`: 同一人物としてまとめた: p_92c7a4215ad9 → p_897017c904ac (大町晋太郎)
 - `player-dedup`: 同一人物としてまとめた: p_932206a3502c → p_856d6e75a11c (佐渡山 理莉)
 - `player-dedup`: 同一人物としてまとめた: p_934b95348245 → p_2dd5cc860c6e (須藤 晶)
+- `player-dedup`: 同一人物としてまとめた: p_93b59f8078e3 → p_f154bd843950 (伯耆田晴太)
 - `player-dedup`: 同一人物としてまとめた: p_93b6f6f13e1c → p_70d88af96948 (村中良蘭)
+- `player-dedup`: 同一人物としてまとめた: p_93d9db51947e → p_4e28b18d346c (原田 大空)
 - `player-dedup`: 同一人物としてまとめた: p_93f35ed1d753 → p_e6eca81e59cf (多良間伸平)
 - `player-dedup`: 同一人物としてまとめた: p_9472b06e9f61 → p_dba63c5d6227 (小山内 亜泉)
 - `player-dedup`: 同一人物としてまとめた: p_948efdc40e8a → p_8c2b21320758 (小野里 リア)
 - `player-dedup`: 同一人物としてまとめた: p_94d92a93a502 → p_824165357f35 (神田 ひなた)
 - `player-dedup`: 同一人物としてまとめた: p_94fc6a17112c → p_cff3cd2cbbc5 (坂本 遥)
 - `player-dedup`: 同一人物としてまとめた: p_9505547e279f → p_f539a44fd6df (木村小梅)
+- `player-dedup`: 同一人物としてまとめた: p_95148566ff64 → p_228908214ba8 (茂木美桜)
 - `player-dedup`: 同一人物としてまとめた: p_951646dd1b54 → p_7b248353fe8d (桒原 愛果)
 - `player-dedup`: 同一人物としてまとめた: p_954fb25e6d6f → p_0c8c0eb9c6f0 (髙田 花恋)
 - `player-dedup`: 同一人物としてまとめた: p_955634e426a7 → p_4b3d4a2ee093 (菊地 りお)
@@ -31001,6 +32137,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_9786b00fe15d → p_44ab6ce3ab77 (中野渡聖也)
 - `player-dedup`: 同一人物としてまとめた: p_97b4c8162655 → p_18f82a84a177 (鳩宿夢叶)
 - `player-dedup`: 同一人物としてまとめた: p_97cd33e3a785 → p_8c9223582e93 (寳多華紀)
+- `player-dedup`: 同一人物としてまとめた: p_9823fb7f3661 → p_26e56481cbce (高橋 黎)
 - `player-dedup`: 同一人物としてまとめた: p_98464ef22674 → p_8cd1f028fda4 (高橋流桜)
 - `player-dedup`: 同一人物としてまとめた: p_9856cb6df080 → p_0b36b81de360 (中上 遼真)
 - `player-dedup`: 同一人物としてまとめた: p_987ab298ca90 → p_c811d08aecfb (河邉 匠)
@@ -31010,6 +32147,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_996d31510b73 → p_bf168eaf9641 (寺西 遼馬)
 - `player-dedup`: 同一人物としてまとめた: p_9984c6e68804 → p_bf58f5e7b870 (倉重 実風)
 - `player-dedup`: 同一人物としてまとめた: p_99a251ece013 → p_8b2fff1a4f72 (藤田 侑)
+- `player-dedup`: 同一人物としてまとめた: p_99be5b4b3457 → p_922b1652b59a (金子 桃果)
 - `player-dedup`: 同一人物としてまとめた: p_9a866f745721 → p_24864d33d930 (藤田 虹空)
 - `player-dedup`: 同一人物としてまとめた: p_9a8ed111a599 → p_13e9ac7b22b7 (横山 もも)
 - `player-dedup`: 同一人物としてまとめた: p_9abcd67fe191 → p_364cc408b538 (中山智晴)
@@ -31018,32 +32156,42 @@
 - `player-dedup`: 同一人物としてまとめた: p_9aea09534832 → p_3fba18ccefe9 (西川 優臣)
 - `player-dedup`: 同一人物としてまとめた: p_9b00387932cf → p_267fd1fabd0b (吉田 遼雅)
 - `player-dedup`: 同一人物としてまとめた: p_9b07e0a28228 → p_628971ab6935 (竹内 麗花)
+- `player-dedup`: 同一人物としてまとめた: p_9b4683e9fdd7 → p_e6cff97ee795 (土屋 愁)
 - `player-dedup`: 同一人物としてまとめた: p_9b4bb71dbffe → p_ea536fb1a3fa (小島 駿斗)
+- `player-dedup`: 同一人物としてまとめた: p_9b73b43994d1 → p_5d272e22f963 (髙橋 美羽)
 - `player-dedup`: 同一人物としてまとめた: p_9b7d3523a43e → p_88591d7275bb (上田 涼真)
 - `player-dedup`: 同一人物としてまとめた: p_9b86b7173fe4 → p_8a235c9cd722 (髙橋 勇郎)
+- `player-dedup`: 同一人物としてまとめた: p_9b9991d1ca2e → p_53e330356c6d (鈴木 菜々美)
 - `player-dedup`: 同一人物としてまとめた: p_9bbfc8c6f83b → p_673eb3ec3947 (久永 萌々香)
 - `player-dedup`: 同一人物としてまとめた: p_9bddf88d778b → p_4a09d412a884 (宮澤 美咲)
 - `player-dedup`: 同一人物としてまとめた: p_9c25160f7ac6 → p_3f0e4bf9a72d (竹田慶海)
+- `player-dedup`: 同一人物としてまとめた: p_9c4ef780c8b4 → p_c9bd0d2b7ff3 (古賀 ジェニファー)
 - `player-dedup`: 同一人物としてまとめた: p_9c67ae55636f → p_ac159ca3b2dc (内山京美)
+- `player-dedup`: 同一人物としてまとめた: p_9c83c17e2429 → p_ff9da959076e (髙橋 彩華)
 - `player-dedup`: 同一人物としてまとめた: p_9cc6978e6647 → p_bc20804eb0cd (関本 悠希)
 - `player-dedup`: 同一人物としてまとめた: p_9cf3cdb6dc11 → p_cb77522afcf9 (上野 菜々子)
 - `player-dedup`: 同一人物としてまとめた: p_9d07773afd39 → p_75fe72a31b6d (大宮 佳子)
 - `player-dedup`: 同一人物としてまとめた: p_9d352d9f8cdb → p_954c551b684d (上野 航良)
 - `player-dedup`: 同一人物としてまとめた: p_9d453d9c01fb → p_d628da0d93c6 (林 あいこ)
+- `player-dedup`: 同一人物としてまとめた: p_9d4c7ae3cf4c → p_6f352d651976 (羽田 菜々夏)
 - `player-dedup`: 同一人物としてまとめた: p_9d6bc6f7a5de → p_b0896ccb4205 (髙野 和也)
 - `player-dedup`: 同一人物としてまとめた: p_9d6c61b23f32 → p_13a3acfb2f5a (佐川佳帆)
 - `player-dedup`: 同一人物としてまとめた: p_9d7d94a1a308 → p_63661cd578a8 (渡邉 陽輝)
+- `player-dedup`: 同一人物としてまとめた: p_9d998b675543 → p_8527430121e5 (高橋 なな美)
 - `player-dedup`: 同一人物としてまとめた: p_9db003d40912 → p_1261e9582392 (髙村龍童)
+- `player-dedup`: 同一人物としてまとめた: p_9dcc7366e07e → p_df92aafb60bf (田窪葵)
 - `player-dedup`: 同一人物としてまとめた: p_9dcd88eebd5e → p_bd783b2a6c5d (高田将)
 - `player-dedup`: 同一人物としてまとめた: p_9de660dc1ef1 → p_97291dbf098f (野地 陽向)
 - `player-dedup`: 同一人物としてまとめた: p_9df62de23acf → p_d0680685222a (薮下真衣)
 - `player-dedup`: 同一人物としてまとめた: p_9e0701035ef5 → p_0c8c0eb9c6f0 (髙田 花恋)
+- `player-dedup`: 同一人物としてまとめた: p_9e098479c013 → p_4253744dc30b (南沢弥)
 - `player-dedup`: 同一人物としてまとめた: p_9e0bb861e83b → p_0b54b98752fd (吉岡 瑞葵)
 - `player-dedup`: 同一人物としてまとめた: p_9e37f0fb5800 → p_b5d5859b149e (上村 大和)
 - `player-dedup`: 同一人物としてまとめた: p_9e79cd36264b → p_23a39d557cd6 (吉本 龍斗)
 - `player-dedup`: 同一人物としてまとめた: p_9eb50e2556ad → p_06e43dc8d586 (宮城柚)
 - `player-dedup`: 同一人物としてまとめた: p_9ee00a8446af → p_0ec6af534a01 (竹ノ内 南)
 - `player-dedup`: 同一人物としてまとめた: p_9ef337563545 → p_7ac4670b5c9f (室坂彩葉)
+- `player-dedup`: 同一人物としてまとめた: p_9f0df1f34a24 → p_a7450e0def29 (大嶋 港)
 - `player-dedup`: 同一人物としてまとめた: p_9f278fb68e52 → p_09a0755cb7a2 (小川 うらら)
 - `player-dedup`: 同一人物としてまとめた: p_9fb75cd094fa → p_69122c2e7fb2 (崎村光生)
 - `player-dedup`: 同一人物としてまとめた: p_a023e9e56c7a → p_2195f96601bf (高原 花奈)
@@ -31052,6 +32200,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_a07d9dcef2c0 → p_6917f0a5d54c (岡田健太郎)
 - `player-dedup`: 同一人物としてまとめた: p_a0af8f94cff9 → p_a24c7edcd8be (大川 夏瑞)
 - `player-dedup`: 同一人物としてまとめた: p_a0b0fee78817 → p_852b1eac3896 (神道優奈)
+- `player-dedup`: 同一人物としてまとめた: p_a0c4a1573af0 → p_a2873a04416f (大塚悠生)
 - `player-dedup`: 同一人物としてまとめた: p_a0cc7ee527fc → p_b73de180b05d (難波 翔)
 - `player-dedup`: 同一人物としてまとめた: p_a10f75df039c → p_fea308e5ba2e (藤井 美羽)
 - `player-dedup`: 同一人物としてまとめた: p_a14d8280eddf → p_479b9627d599 (辻井 菜々美)
@@ -31065,17 +32214,24 @@
 - `player-dedup`: 同一人物としてまとめた: p_a2723150cb58 → p_4175ef82a0e6 (佐田山 鈴樺)
 - `player-dedup`: 同一人物としてまとめた: p_a2834a1e039a → p_1d6f7b1ee04d (岡本 文希)
 - `player-dedup`: 同一人物としてまとめた: p_a28f7d961584 → p_c7731a01e4b6 (吉田 英誉)
+- `player-dedup`: 同一人物としてまとめた: p_a29998fc285b → p_d27fa7b5fc5a (山崎 杏)
+- `player-dedup`: 同一人物としてまとめた: p_a2a5f9977c46 → p_3048cb46f041 (山崎 稔)
 - `player-dedup`: 同一人物としてまとめた: p_a2c246c437f8 → p_23cdf95b9a5f (山本 宏美)
 - `player-dedup`: 同一人物としてまとめた: p_a2f554bc8908 → p_0580b70d849f (華卓逸)
 - `player-dedup`: 同一人物としてまとめた: p_a321caf2d068 → p_07b10489fb13 (大田 麗華)
+- `player-dedup`: 同一人物としてまとめた: p_a340ed19e9f2 → p_05410e90b5ac (権貞琳)
 - `player-dedup`: 同一人物としてまとめた: p_a35798e7008d → p_56966b8b0d6e (藤山 大耀)
+- `player-dedup`: 同一人物としてまとめた: p_a35887e72e5a → p_4aca4a2a7e78 (西澤 梓)
 - `player-dedup`: 同一人物としてまとめた: p_a3e223d49406 → p_c58a7b50d4da (佐々木 ひかり)
 - `player-dedup`: 同一人物としてまとめた: p_a3e25bac8f57 → p_a1d476390fa6 (高橋 幸)
 - `player-dedup`: 同一人物としてまとめた: p_a4180ea33a1c → p_98ac394e6d60 (須崎日愛)
 - `player-dedup`: 同一人物としてまとめた: p_a43033b5c94a → p_ba83834e8a4c (本田 夢麗)
+- `player-dedup`: 同一人物としてまとめた: p_a445ccba5a5a → p_42d7483aee6e (岡嵜 マイヤ)
 - `player-dedup`: 同一人物としてまとめた: p_a454af563f9d → p_e7a6500df195 (平野 怜)
 - `player-dedup`: 同一人物としてまとめた: p_a46a6ffc003b → p_3e53b7fe9ebc (牧野 光星)
 - `player-dedup`: 同一人物としてまとめた: p_a473c61ad8e5 → p_45b0ef4f276e (松本颯汰)
+- `player-dedup`: 同一人物としてまとめた: p_a477c10cbc4b → p_22b01cf1286b (有森可琳)
+- `player-dedup`: 同一人物としてまとめた: p_a4d5c865c1bc → p_1bad73dc7167 (エズデンシちなさ)
 - `player-dedup`: 同一人物としてまとめた: p_a4ef94eeeb61 → p_accf7b4cf930 (眞田拓展)
 - `player-dedup`: 同一人物としてまとめた: p_a502f5b9cc31 → p_192c959e1301 (小山内祐太)
 - `player-dedup`: 同一人物としてまとめた: p_a51d16950932 → p_0016dfbe95c3 (工藤 妙奈)
@@ -31095,14 +32251,20 @@
 - `player-dedup`: 同一人物としてまとめた: p_a7a769f7d063 → p_85df0bb1bc31 (平井 大雅)
 - `player-dedup`: 同一人物としてまとめた: p_a7ab32f99671 → p_79b4e283eb89 (藤原 れあ)
 - `player-dedup`: 同一人物としてまとめた: p_a7b41d165ea9 → p_44dc112d0688 (伊藤 せあら)
+- `player-dedup`: 同一人物としてまとめた: p_a7b465c22176 → p_3cd40879b53d (辻上 翔眞)
 - `player-dedup`: 同一人物としてまとめた: p_a7e5f92cf696 → p_081ebdcad422 (松原 隆虎)
+- `player-dedup`: 同一人物としてまとめた: p_a80709d4e273 → p_55517748a134 (葛井 翔矢)
+- `player-dedup`: 同一人物としてまとめた: p_a83e40353d28 → p_70c34f6edb7f (滝深 心望)
+- `player-dedup`: 同一人物としてまとめた: p_a840de402e61 → p_de40c81482d1 (中道 ゆい)
 - `player-dedup`: 同一人物としてまとめた: p_a84a6b03c058 → p_a515d29533c7 (名取遼馬)
 - `player-dedup`: 同一人物としてまとめた: p_a854a771cd48 → p_8d3bb28b64a3 (板東寿匡)
 - `player-dedup`: 同一人物としてまとめた: p_a8575802e7a6 → p_1306a1b853be (橋本 優那)
 - `player-dedup`: 同一人物としてまとめた: p_a87925fc9468 → p_7737d79debd4 (上松 佑平)
 - `player-dedup`: 同一人物としてまとめた: p_a8a76e04c9bf → p_17717826902f (中山 凜花)
 - `player-dedup`: 同一人物としてまとめた: p_a8b030737703 → p_2ff33f3dda35 (横山 愛華)
+- `player-dedup`: 同一人物としてまとめた: p_a916233f8199 → p_ff5bd5250f1d (祗園 美衣菜)
 - `player-dedup`: 同一人物としてまとめた: p_a94cc6abe68f → p_f48b98928636 (岩川礼央)
+- `player-dedup`: 同一人物としてまとめた: p_a9700687954e → p_06c668bf104c (町田虎汰朗)
 - `player-dedup`: 同一人物としてまとめた: p_a9d977a616bc → p_35a6fd6596d1 (西田茉楓)
 - `player-dedup`: 同一人物としてまとめた: p_aa01af507c20 → p_af054d402281 (片岡 謙)
 - `player-dedup`: 同一人物としてまとめた: p_aa167152140b → p_c401da16c93b (金岡 璃古)
@@ -31112,6 +32274,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_aab1e61e49cf → p_024ee46e3b66 (溝部 渉)
 - `player-dedup`: 同一人物としてまとめた: p_aacf08c601df → p_017042d58ed3 (田﨑 真里夏)
 - `player-dedup`: 同一人物としてまとめた: p_aada3ab85a8a → p_1f650d1dc244 (屋良 美夕陽)
+- `player-dedup`: 同一人物としてまとめた: p_aaed1dba95f1 → p_b454b2cdec39 (木村 斗茉)
 - `player-dedup`: 同一人物としてまとめた: p_aaf96ad7cdf2 → p_ea9054483fdf (佐藤 佑斗)
 - `player-dedup`: 同一人物としてまとめた: p_ab57f8807fa3 → p_ff58b495c590 (今屋 大雄)
 - `player-dedup`: 同一人物としてまとめた: p_ab601df0a7ea → p_13e9ac7b22b7 (横山 もも)
@@ -31120,6 +32283,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_abb7a4d3fe90 → p_33813489b615 (桑島 大紀)
 - `player-dedup`: 同一人物としてまとめた: p_abe5f91ee70d → p_3387126a983b (渡部 琴)
 - `player-dedup`: 同一人物としてまとめた: p_abf18e24447a → p_6a4c83096a8d (石川 航)
+- `player-dedup`: 同一人物としてまとめた: p_ac2932ddb8fa → p_921f1214c6d9 (安藤 蒼波)
 - `player-dedup`: 同一人物としてまとめた: p_ac50790098fb → p_33bd629728d0 (池田 侑羅)
 - `player-dedup`: 同一人物としてまとめた: p_ac6454e891d9 → p_e1940aea4193 (鏡綱世)
 - `player-dedup`: 同一人物としてまとめた: p_ac884d34bfbf → p_d2dc066a3a3c (大音 優也)
@@ -31127,9 +32291,11 @@
 - `player-dedup`: 同一人物としてまとめた: p_ad0705428024 → p_cf10f318c9f9 (今渕 将翔)
 - `player-dedup`: 同一人物としてまとめた: p_ad192da8ec16 → p_a4812296233e (中野 舞子)
 - `player-dedup`: 同一人物としてまとめた: p_ad20c0c54f5f → p_0b36b81de360 (中上 遼真)
+- `player-dedup`: 同一人物としてまとめた: p_ad542b80ef24 → p_020bfb761e0e (三宅 結菜)
 - `player-dedup`: 同一人物としてまとめた: p_ad6ee8605296 → p_094edaceed4a (髙妻 諒)
 - `player-dedup`: 同一人物としてまとめた: p_ad91467692bd → p_16fed32be9c4 (黒島 京花)
 - `player-dedup`: 同一人物としてまとめた: p_adb511dd6d79 → p_59af0dc907e1 (髙橋 太陽)
+- `player-dedup`: 同一人物としてまとめた: p_adc21d3d850e → p_a28a8211eb97 (関柚花)
 - `player-dedup`: 同一人物としてまとめた: p_adf14392b4c6 → p_42d96fae752e (酒井 遼也)
 - `player-dedup`: 同一人物としてまとめた: p_adfb651f3a42 → p_7a2992d03b94 (村田 朱絵里)
 - `player-dedup`: 同一人物としてまとめた: p_ae0abb8397a4 → p_194f81035a84 (山本 裕也)
@@ -31138,12 +32304,14 @@
 - `player-dedup`: 同一人物としてまとめた: p_ae89884f7a79 → p_a1637a849fe5 (石川 大翔)
 - `player-dedup`: 同一人物としてまとめた: p_aebcc83fab6e → p_0e0f98573755 (山口 紗季)
 - `player-dedup`: 同一人物としてまとめた: p_aec3ba47be40 → p_51d7f2182a99 (石田 康輝)
+- `player-dedup`: 同一人物としてまとめた: p_af140accb05b → p_5dbbf3dd2431 (毎熊慶治)
 - `player-dedup`: 同一人物としてまとめた: p_af42dc592abe → p_1fea4c4fb7d8 (森下雅頌)
 - `player-dedup`: 同一人物としてまとめた: p_af8a505d0f34 → p_6018094cd0c0 (沖田 雫)
 - `player-dedup`: 同一人物としてまとめた: p_af90c015aef2 → p_ca099ef47a03 (金岡 奎吾)
 - `player-dedup`: 同一人物としてまとめた: p_afba03852442 → p_42980d645b33 (高橋 桜月)
 - `player-dedup`: 同一人物としてまとめた: p_b002bdc64edb → p_45dca629f80f (奥田 七菜)
 - `player-dedup`: 同一人物としてまとめた: p_b02a1983b9e9 → p_7b5440becd54 (杉山 竜太郎)
+- `player-dedup`: 同一人物としてまとめた: p_b0657986833b → p_8f8a23c848a5 (佐野 円梨)
 - `player-dedup`: 同一人物としてまとめた: p_b08507e7cfd0 → p_080f105d55bd (山邊 里奈)
 - `player-dedup`: 同一人物としてまとめた: p_b09147192df7 → p_597f444f2100 (井上 魁斗)
 - `player-dedup`: 同一人物としてまとめた: p_b0c2501c26b2 → p_b8af4c57b698 (吉行 アムロ)
@@ -31153,6 +32321,8 @@
 - `player-dedup`: 同一人物としてまとめた: p_b1325bdf15ff → p_099b2fc06419 (井野上蓮美)
 - `player-dedup`: 同一人物としてまとめた: p_b1b61e6a71b7 → p_0bc3124d9d06 (芹澤 慈眼)
 - `player-dedup`: 同一人物としてまとめた: p_b1c701fc8f7e → p_101e65139aae (宇喜多 飛翔)
+- `player-dedup`: 同一人物としてまとめた: p_b1e3fc57b65c → p_f8b89b70ab46 (勝見 梓)
+- `player-dedup`: 同一人物としてまとめた: p_b1ee8511fe4a → p_ea89b4e9b09f (高山 ささら)
 - `player-dedup`: 同一人物としてまとめた: p_b21702b0fb60 → p_db3d5a3bdc7d (雪野 若葉)
 - `player-dedup`: 同一人物としてまとめた: p_b223471b5e4c → p_8588511b7c63 (高橋 和浩)
 - `player-dedup`: 同一人物としてまとめた: p_b22e7bb5bfca → p_9f46b5f1f50c (米野 功史郎)
@@ -31190,14 +32360,17 @@
 - `player-dedup`: 同一人物としてまとめた: p_b847ebfd824b → p_758cf08cbf4a (川上 知夏)
 - `player-dedup`: 同一人物としてまとめた: p_b89a07abf0f6 → p_bd2a2281bb06 (徳田 葵)
 - `player-dedup`: 同一人物としてまとめた: p_b89c0b818aab → p_06b66d09e5f9 (尾崎美保)
+- `player-dedup`: 同一人物としてまとめた: p_b89f35d08a14 → p_ff20d7fa2811 (島末 大洋)
 - `player-dedup`: 同一人物としてまとめた: p_b8adba129cc3 → p_85b6b0fcc98c (西本 美結)
 - `player-dedup`: 同一人物としてまとめた: p_b8aedcbcae29 → p_ac159ca3b2dc (内山京美)
 - `player-dedup`: 同一人物としてまとめた: p_b8f10c93b623 → p_819ef7927f8f (渡邉康生)
 - `player-dedup`: 同一人物としてまとめた: p_b925d7229af7 → p_766b977af7fa (青木 香奈子)
 - `player-dedup`: 同一人物としてまとめた: p_b939c2899aae → p_dbff81db577e (髙橋 海理)
 - `player-dedup`: 同一人物としてまとめた: p_b93a2ade1d14 → p_923541ad13cc (長﨑 煌心)
+- `player-dedup`: 同一人物としてまとめた: p_b93ca44ddc5a → p_6f035911364b (東野 大洋)
 - `player-dedup`: 同一人物としてまとめた: p_b9718498b105 → p_70c34f6edb7f (滝深 心望)
 - `player-dedup`: 同一人物としてまとめた: p_b99d7019ee38 → p_a366386d5e62 (清本 貴秀)
+- `player-dedup`: 同一人物としてまとめた: p_b9b1986f105a → p_55dd56e3ba52 (中野 麟太朗)
 - `player-dedup`: 同一人物としてまとめた: p_b9d96f3ab1c9 → p_13a3acfb2f5a (佐川佳帆)
 - `player-dedup`: 同一人物としてまとめた: p_ba2e19dd2d4f → p_dbe29c24f349 (小松莉杏)
 - `player-dedup`: 同一人物としてまとめた: p_baa725937571 → p_b76a7c5e8963 (上原 嘉連)
@@ -31215,9 +32388,13 @@
 - `player-dedup`: 同一人物としてまとめた: p_bcabe60c15a2 → p_b8af4c57b698 (吉行 アムロ)
 - `player-dedup`: 同一人物としてまとめた: p_bcc12933e6ca → p_49a55ecd22ca (中村 有希)
 - `player-dedup`: 同一人物としてまとめた: p_bcc912759895 → p_bd783b2a6c5d (高田将)
+- `player-dedup`: 同一人物としてまとめた: p_bd6710dc4c04 → p_2e8fa54afd4c (須江 唯加)
+- `player-dedup`: 同一人物としてまとめた: p_bd9fd61ab3f6 → p_606f11804dfe (桐生 慎太郎)
 - `player-dedup`: 同一人物としてまとめた: p_bdff464bbf40 → p_5cb2ec9ea1c2 (髙木 希晄)
 - `player-dedup`: 同一人物としてまとめた: p_be1f7db0394b → p_d863761a59a8 (森笠夢菜)
+- `player-dedup`: 同一人物としてまとめた: p_be4b31ba2aaa → p_04335e63cb88 (澤田 響)
 - `player-dedup`: 同一人物としてまとめた: p_be5e17c50d38 → p_3062ad733bfc (関谷 善成)
+- `player-dedup`: 同一人物としてまとめた: p_bea0e72b4920 → p_ccc34608528b (山崎太喜)
 - `player-dedup`: 同一人物としてまとめた: p_bece0db98927 → p_7d7f109ca600 (光成 颯)
 - `player-dedup`: 同一人物としてまとめた: p_bece8a51e1d3 → p_8f8a23c848a5 (佐野 円梨)
 - `player-dedup`: 同一人物としてまとめた: p_bf16ec3d7aac → p_2d0f087ef426 (八木 佑弥)
@@ -31226,11 +32403,14 @@
 - `player-dedup`: 同一人物としてまとめた: p_bf4a3e88b57e → p_05aff4debd03 (江﨑 日奈)
 - `player-dedup`: 同一人物としてまとめた: p_bff8bb90464c → p_25c73155e68f (岩井 聡季)
 - `player-dedup`: 同一人物としてまとめた: p_c014f613b819 → p_edce42b584d1 (高倉 瑠伊)
+- `player-dedup`: 同一人物としてまとめた: p_c0335436b0e7 → p_72f310d8db94 (長田美紀)
 - `player-dedup`: 同一人物としてまとめた: p_c047442d03e3 → p_fb0d11a190f3 (中川 陽向)
+- `player-dedup`: 同一人物としてまとめた: p_c058832dbbec → p_c94561e497ec (下園 航太)
 - `player-dedup`: 同一人物としてまとめた: p_c09d3d3e772b → p_30687829b4d4 (藤安真凛)
 - `player-dedup`: 同一人物としてまとめた: p_c09e12266f96 → p_4d27091a71d9 (町屋 朱理)
 - `player-dedup`: 同一人物としてまとめた: p_c0bff52caa92 → p_307c49914ca4 (森崎公也)
 - `player-dedup`: 同一人物としてまとめた: p_c17002fb9e2b → p_6433ee93b9e1 (大橋 翔悟)
+- `player-dedup`: 同一人物としてまとめた: p_c17dbb19838d → p_60ede2d56560 (岩波 藍)
 - `player-dedup`: 同一人物としてまとめた: p_c1a1465d72c9 → p_145f966319e2 (中尾優作)
 - `player-dedup`: 同一人物としてまとめた: p_c1b32e2a53c0 → p_42d96fae752e (酒井 遼也)
 - `player-dedup`: 同一人物としてまとめた: p_c1bb0971988e → p_2a76fbfbc7d7 (寶多華紀)
@@ -31253,6 +32433,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_c35124b4cf64 → p_1b8e0394d5a5 (守山 真央)
 - `player-dedup`: 同一人物としてまとめた: p_c39d9884d5ef → p_b46d0d7494f3 (山本大勢)
 - `player-dedup`: 同一人物としてまとめた: p_c3ea0d79d724 → p_16511adaac16 (高木 駿)
+- `player-dedup`: 同一人物としてまとめた: p_c3ed8a076780 → p_9aa48c696a56 (小野 航暉)
 - `player-dedup`: 同一人物としてまとめた: p_c46b148d6d07 → p_1e6763d81b8e (庄司廉)
 - `player-dedup`: 同一人物としてまとめた: p_c48e5229fe88 → p_57cc9a24c4c4 (髙田 嘩琳)
 - `player-dedup`: 同一人物としてまとめた: p_c4ba3cfd6f9f → p_eef3016d7269 (久野智奈)
@@ -31261,6 +32442,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_c530061ef04a → p_8889c1d4e595 (小木野 太優)
 - `player-dedup`: 同一人物としてまとめた: p_c533753d0c71 → p_b7aa2b16ad95 (工藤 楓佳)
 - `player-dedup`: 同一人物としてまとめた: p_c5451b758dd3 → p_82b6fb544fd0 (佐々木 花虹)
+- `player-dedup`: 同一人物としてまとめた: p_c553f9ffde06 → p_1a89e616e08e (森山亜衣)
 - `player-dedup`: 同一人物としてまとめた: p_c57cc5baea77 → p_b985391a9e17 (黒木 夢)
 - `player-dedup`: 同一人物としてまとめた: p_c62ffa3f5e37 → p_b0ece714edb2 (三本木実桜)
 - `player-dedup`: 同一人物としてまとめた: p_c6411c65905d → p_df93d356d0e3 (末廣 優花)
@@ -31269,6 +32451,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_c708c99800f1 → p_7f2b7ea9cd1c (古川 莉月愛)
 - `player-dedup`: 同一人物としてまとめた: p_c71f28b9b9bb → p_e6eca81e59cf (多良間伸平)
 - `player-dedup`: 同一人物としてまとめた: p_c72b600327dc → p_4a2f66287cd0 (伊澤丈一郎)
+- `player-dedup`: 同一人物としてまとめた: p_c78bf3719c99 → p_a371288230bd (渡 龍一)
 - `player-dedup`: 同一人物としてまとめた: p_c82bbb7a78e0 → p_c306731ccd86 (岡田 樹花)
 - `player-dedup`: 同一人物としてまとめた: p_c88afa5c067a → p_23e76ab205d2 (坂本すみれ)
 - `player-dedup`: 同一人物としてまとめた: p_c8e0c1937ba8 → p_869382d330b5 (川野 結奈)
@@ -31277,8 +32460,9 @@
 - `player-dedup`: 同一人物としてまとめた: p_c9575211e741 → p_7737d79debd4 (上松 佑平)
 - `player-dedup`: 同一人物としてまとめた: p_c9a52e366b2a → p_bd591d42d952 (桜庭禄碩)
 - `player-dedup`: 同一人物としてまとめた: p_c9b2fdce8a81 → p_3053f34ae4ba (山﨑咲寿)
+- `player-dedup`: 同一人物としてまとめた: p_c9b33e474baf → p_d64ad0203e99 (江川 昴)
 - `player-dedup`: 同一人物としてまとめた: p_c9b7662524c1 → p_0d2bc6eca242 (竹重歩南)
-- `player-dedup`: 同一人物としてまとめた: p_c9c6c664fc5a → p_0774fbd1a25f (田中 佑樹)
+- `player-dedup`: 同一人物としてまとめた: p_c9d698e827e2 → p_f5da61efd010 (宮内美空)
 - `player-dedup`: 同一人物としてまとめた: p_c9f1cdf48aa7 → p_85a5f429fb4d (冨田 幸暉)
 - `player-dedup`: 同一人物としてまとめた: p_c9f6207926f9 → p_bd3ab90a3c3f (宮﨑樹里)
 - `player-dedup`: 同一人物としてまとめた: p_ca07e0090a27 → p_f6bc81eed66e (祇園美衣菜)
@@ -31290,12 +32474,15 @@
 - `player-dedup`: 同一人物としてまとめた: p_ca8bfeb3badb → p_2cba52fa331b (庭田 一馬)
 - `player-dedup`: 同一人物としてまとめた: p_ca92f29c4f13 → p_1e4375ee9ea1 (坂本 優心)
 - `player-dedup`: 同一人物としてまとめた: p_cabf8f7cf371 → p_e2934d7ae059 (竹内さと)
+- `player-dedup`: 同一人物としてまとめた: p_cb0e2b1c6b0a → p_e7706a17af71 (花城 来香)
 - `player-dedup`: 同一人物としてまとめた: p_cb50a12609c7 → p_1d3d02e31ed3 (加藤 麗奈)
 - `player-dedup`: 同一人物としてまとめた: p_cb663189a511 → p_d0ccb0eac475 (商崎 鈴菜)
 - `player-dedup`: 同一人物としてまとめた: p_cba977d90888 → p_f5c44838b234 (赤瀬 新菜)
+- `player-dedup`: 同一人物としてまとめた: p_cbc94a596ff4 → p_d628da0d93c6 (林 あいこ)
 - `player-dedup`: 同一人物としてまとめた: p_cbeca872f23b → p_54dcc501e5be (成田 瑛麻)
 - `player-dedup`: 同一人物としてまとめた: p_cc3db2424318 → p_951e8ad24e29 (高橋 琉晟)
 - `player-dedup`: 同一人物としてまとめた: p_cc4005d5f0c2 → p_e1940aea4193 (鏡綱世)
+- `player-dedup`: 同一人物としてまとめた: p_cc5183d03d2b → p_9e4398fc544a (髙橋 茉夢)
 - `player-dedup`: 同一人物としてまとめた: p_cc65207d33da → p_bfb27cf1a90b (小林 愛香)
 - `player-dedup`: 同一人物としてまとめた: p_cca18fa73b36 → p_f97423c8b524 (吉田 朋樹)
 - `player-dedup`: 同一人物としてまとめた: p_ccd4a4c35d16 → p_30391a4439a3 (板垣 結叶)
@@ -31308,9 +32495,12 @@
 - `player-dedup`: 同一人物としてまとめた: p_cdb6f799d8e9 → p_c24a35be5c10 (岡崎 亜優)
 - `player-dedup`: 同一人物としてまとめた: p_cded945d36b6 → p_3a44005969a5 (江口琴遥)
 - `player-dedup`: 同一人物としてまとめた: p_cdef7880f438 → p_72ec90f66e8f (野々瀬 圭)
+- `player-dedup`: 同一人物としてまとめた: p_ce8a5f845938 → p_9f66d8d3de54 (円角 育未)
+- `player-dedup`: 同一人物としてまとめた: p_ce8fa2d69e9d → p_2d4667f470c4 (大石敦也)
 - `player-dedup`: 同一人物としてまとめた: p_ce989912f660 → p_9f38b25d7d79 (髙木 楓夏)
 - `player-dedup`: 同一人物としてまとめた: p_cf0c16f6866a → p_c7153d628616 (井上 聡大)
 - `player-dedup`: 同一人物としてまとめた: p_cf283c94eb99 → p_d58844788be5 (西 泰樹)
+- `player-dedup`: 同一人物としてまとめた: p_cf49ee00415c → p_61a9da315782 (髙橋雅楽助)
 - `player-dedup`: 同一人物としてまとめた: p_cf84123533d1 → p_2d60603a3047 (申 東宙)
 - `player-dedup`: 同一人物としてまとめた: p_cf951b4520cd → p_376fae2533b0 (小澤一天)
 - `player-dedup`: 同一人物としてまとめた: p_cf9a169d9bf7 → p_f8b89b70ab46 (勝見 梓)
@@ -31323,19 +32513,26 @@
 - `player-dedup`: 同一人物としてまとめた: p_d0d96ec6cbf6 → p_f00227f62794 (田畑 蓮)
 - `player-dedup`: 同一人物としてまとめた: p_d0dbe3853339 → p_b8af4c57b698 (吉行 アムロ)
 - `player-dedup`: 同一人物としてまとめた: p_d118843451c3 → p_39af3324d89b (平原 颯太)
+- `player-dedup`: 同一人物としてまとめた: p_d1228d4cf7a3 → p_8c8498227a71 (前有梨菜)
 - `player-dedup`: 同一人物としてまとめた: p_d1532ecb885d → p_31b7f5700977 (野村 壮志)
 - `player-dedup`: 同一人物としてまとめた: p_d17db4316aa6 → p_b3c259f8fa45 (山中 頌)
+- `player-dedup`: 同一人物としてまとめた: p_d1a712c6cc17 → p_bdf175816286 (円角有希)
 - `player-dedup`: 同一人物としてまとめた: p_d1ce5d13b666 → p_eada3c6f64a8 (唐木田梨乃)
 - `player-dedup`: 同一人物としてまとめた: p_d1e8025ea98d → p_4c5c12058b66 (小林 壱成)
 - `player-dedup`: 同一人物としてまとめた: p_d2078eba3afe → p_06cc98ee9b10 (新井 陸大)
+- `player-dedup`: 同一人物としてまとめた: p_d21de50b792f → p_b9fd07d1436e (久常 涼)
 - `player-dedup`: 同一人物としてまとめた: p_d232a05f6737 → p_8896dd5301e5 (光森健人)
 - `player-dedup`: 同一人物としてまとめた: p_d25f6b48da98 → p_099b2fc06419 (井野上蓮美)
-- `player-dedup`: 同一人物としてまとめた: p_d27fa7b5fc5a → p_a29998fc285b (山﨑 杏)
 - `player-dedup`: 同一人物としてまとめた: p_d287cb0a19de → p_024ee46e3b66 (溝部 渉)
 - `player-dedup`: 同一人物としてまとめた: p_d30df4547e05 → p_e95587bfa3c6 (日比野 邑香)
 - `player-dedup`: 同一人物としてまとめた: p_d325fc2225aa → p_a72afb416855 (長谷川 貴優)
+- `player-dedup`: 同一人物としてまとめた: p_d35238408b9b → p_4750571d30f7 (鈴木 柊里)
 - `player-dedup`: 同一人物としてまとめた: p_d3681504602d → p_df4d3a1a0929 (笠原 瑛)
+- `player-dedup`: 同一人物としてまとめた: p_d376f1ef7f99 → p_473b8ab29cf6 (遠藤実千友)
+- `player-dedup`: 同一人物としてまとめた: p_d3810a65e018 → p_6f45355f56ef (石過龍次郎)
+- `player-dedup`: 同一人物としてまとめた: p_d38a2e1184ba → p_4a09d412a884 (宮澤 美咲)
 - `player-dedup`: 同一人物としてまとめた: p_d3a4f6a1df7d → p_c5cc26d02ec3 (太田 佳来)
+- `player-dedup`: 同一人物としてまとめた: p_d3b679d374b7 → p_45e43063faae (山田地愛)
 - `player-dedup`: 同一人物としてまとめた: p_d3d807e3c027 → p_34483fe90bf0 (加藤 健正)
 - `player-dedup`: 同一人物としてまとめた: p_d3f9ac82523c → p_8ca35fc89a73 (増田 雄飛)
 - `player-dedup`: 同一人物としてまとめた: p_d4398a0ec608 → p_ea0aba8119ef (松尾慈亮)
@@ -31349,6 +32546,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_d59f3bb83f58 → p_101b1fa6bb59 (佐藤巡)
 - `player-dedup`: 同一人物としてまとめた: p_d5dd3740bfe8 → p_382cdf0fda9e (西村 優菜)
 - `player-dedup`: 同一人物としてまとめた: p_d5f90805d44e → p_b5475602f21e (髙橋美琴)
+- `player-dedup`: 同一人物としてまとめた: p_d61cc102eead → p_5d4599e32b09 (永井 夢亜)
 - `player-dedup`: 同一人物としてまとめた: p_d64be5ad3c3b → p_a7ec124a1b8f (渡部 琉矢)
 - `player-dedup`: 同一人物としてまとめた: p_d6ad9f96089c → p_5f063f2a71cd (平尾竜己)
 - `player-dedup`: 同一人物としてまとめた: p_d6baf6ef3c16 → p_328cb2dbb4ef (松髙 蓮)
@@ -31362,6 +32560,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_d78cf447abe5 → p_66990e6d8b68 (久﨑 成)
 - `player-dedup`: 同一人物としてまとめた: p_d7fc7d1925ef → p_d65bcf028f9b (渡辺蒼)
 - `player-dedup`: 同一人物としてまとめた: p_d8166205d76c → p_24fd520f7e82 (田上 桜)
+- `player-dedup`: 同一人物としてまとめた: p_d8398bf650d3 → p_3d6d81af48f4 (北條 陽雲)
 - `player-dedup`: 同一人物としてまとめた: p_d83fd8d5e7a2 → p_be807c4f4a4a (梶田恵梨奈)
 - `player-dedup`: 同一人物としてまとめた: p_d83ff5e4bd74 → p_b04f045081bd (高木 美咲)
 - `player-dedup`: 同一人物としてまとめた: p_d864b32cffe1 → p_441369849e68 (大田 紗羅)
@@ -31369,6 +32568,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_d95bdce76785 → p_cb282cb10ede (滝田 詠夢)
 - `player-dedup`: 同一人物としてまとめた: p_d96ddf7ee804 → p_be556c331f8e (山田泰誠)
 - `player-dedup`: 同一人物としてまとめた: p_d9a2fb64678d → p_b0a0aa87dd7f (中西 風香)
+- `player-dedup`: 同一人物としてまとめた: p_d9eea73d8858 → p_b81203957a73 (香川 倫穂)
 - `player-dedup`: 同一人物としてまとめた: p_da09b69a32c1 → p_82d53d03ac48 (福田 孔思)
 - `player-dedup`: 同一人物としてまとめた: p_da0f6160facc → p_69122c2e7fb2 (崎村光生)
 - `player-dedup`: 同一人物としてまとめた: p_da2a6469ddd0 → p_d307ce93c2bf (三木瑛蓮)
@@ -31396,7 +32596,10 @@
 - `player-dedup`: 同一人物としてまとめた: p_dde29fba4426 → p_41f60c78fed2 (臼田 涼音)
 - `player-dedup`: 同一人物としてまとめた: p_dde655d75104 → p_5483a8ca9c15 (才藤大桜)
 - `player-dedup`: 同一人物としてまとめた: p_ddfbda03bad2 → p_3b2705edca17 (行正 怜恩)
+- `player-dedup`: 同一人物としてまとめた: p_de33fc760272 → p_0a572062308c (田辺 隆一)
+- `player-dedup`: 同一人物としてまとめた: p_de41fdab4b5c → p_dcc324b301df (松山 りな)
 - `player-dedup`: 同一人物としてまとめた: p_de550ed520ff → p_13a3acfb2f5a (佐川佳帆)
+- `player-dedup`: 同一人物としてまとめた: p_de6437244648 → p_976c23097614 (宇佐見涼)
 - `player-dedup`: 同一人物としてまとめた: p_de7412d9c5a0 → p_6b55ea42ef93 (小川 羅々)
 - `player-dedup`: 同一人物としてまとめた: p_de8021f9c7f1 → p_d9635896553f (谷頭 さつき)
 - `player-dedup`: 同一人物としてまとめた: p_de8ee29745d1 → p_e01e7f2bc2d0 (多田柊凛)
@@ -31404,6 +32607,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_deca1787a91f → p_3cb47f901b8d (河合 嶺)
 - `player-dedup`: 同一人物としてまとめた: p_df087dbac5fa → p_e0b0dbd7298b (多田 柊凜)
 - `player-dedup`: 同一人物としてまとめた: p_df64c4387e40 → p_4902a421b5b6 (梅田 唯花)
+- `player-dedup`: 同一人物としてまとめた: p_df8d5ce2d5c9 → p_eada3c6f64a8 (唐木田梨乃)
 - `player-dedup`: 同一人物としてまとめた: p_dfa8ee084760 → p_ec1f839b2728 (藤田 一平)
 - `player-dedup`: 同一人物としてまとめた: p_dfab93abcc83 → p_0c82bb9e32e3 (富塚玲音)
 - `player-dedup`: 同一人物としてまとめた: p_dfee3eb925d2 → p_96a451e330ec (赤石 拓斗)
@@ -31411,6 +32615,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_e07ab1929639 → p_45b59f5f9e71 (中村光希)
 - `player-dedup`: 同一人物としてまとめた: p_e0b982dce1c7 → p_03213877a0f0 (松岡美咲)
 - `player-dedup`: 同一人物としてまとめた: p_e0c33d6f60c3 → p_82e79bcbb94a (藤田 かれん)
+- `player-dedup`: 同一人物としてまとめた: p_e0eb730e7bc1 → p_341d577ab6d1 (中田大賀)
 - `player-dedup`: 同一人物としてまとめた: p_e12d4dd0c4cd → p_40b9da87750a (石川 怜奈)
 - `player-dedup`: 同一人物としてまとめた: p_e13ab4d5e3f5 → p_f65f54363cc7 (小田嶋 永遠)
 - `player-dedup`: 同一人物としてまとめた: p_e13c02ace63c → p_5234436e2dd9 (久保美愛鈴)
@@ -31422,22 +32627,29 @@
 - `player-dedup`: 同一人物としてまとめた: p_e25d94598570 → p_93038ed06df8 (岩切 美空)
 - `player-dedup`: 同一人物としてまとめた: p_e27c9a213465 → p_4f6fa09eb1f9 (岩崎俊憲)
 - `player-dedup`: 同一人物としてまとめた: p_e293f9d44a89 → p_fede35df3828 (太田 若那)
+- `player-dedup`: 同一人物としてまとめた: p_e2c373f803e1 → p_7a681a9fe06d (森島 萌乃華)
 - `player-dedup`: 同一人物としてまとめた: p_e3023326257d → p_45dca629f80f (奥田 七菜)
 - `player-dedup`: 同一人物としてまとめた: p_e31b7d7c7e3a → p_5b5c05a25fbf (中川聖太)
 - `player-dedup`: 同一人物としてまとめた: p_e3293dede5d1 → p_864d4d7cda15 (久常 優樹)
 - `player-dedup`: 同一人物としてまとめた: p_e33490eaaead → p_f00c8f79ef39 (荒木 清太郎)
 - `player-dedup`: 同一人物としてまとめた: p_e3435e287d39 → p_4d1bfa221af5 (飯室清春)
+- `player-dedup`: 同一人物としてまとめた: p_e361d94dff9d → p_a3f9a185fa81 (長谷川 希愛)
 - `player-dedup`: 同一人物としてまとめた: p_e3bd9461b504 → p_2ed3d7ab6943 (小寺 大佑)
 - `player-dedup`: 同一人物としてまとめた: p_e3cddf4bd0ae → p_0876153fcdc9 (山邊 一徳)
 - `player-dedup`: 同一人物としてまとめた: p_e43586f23120 → p_cb22e2377ebb (倉元 沙和)
+- `player-dedup`: 同一人物としてまとめた: p_e445bdb7aaeb → p_97354a25979e (樋口 大弥)
 - `player-dedup`: 同一人物としてまとめた: p_e44f9fdbeae0 → p_5d4321933ea6 (付 宏宇)
 - `player-dedup`: 同一人物としてまとめた: p_e478add76d34 → p_65f61ccef4c1 (益田 世梨)
 - `player-dedup`: 同一人物としてまとめた: p_e488a5bd59cc → p_ab7d969377c6 (栗原 愛)
 - `player-dedup`: 同一人物としてまとめた: p_e48bdea3f659 → p_539456467889 (壷井 潤太)
 - `player-dedup`: 同一人物としてまとめた: p_e49b85165237 → p_295218aabb3f (岡留 夢叶)
+- `player-dedup`: 同一人物としてまとめた: p_e49d3e46edff → p_87a6c6a4c370 (工藤百華)
+- `player-dedup`: 同一人物としてまとめた: p_e4ba4af51844 → p_24fd520f7e82 (田上 桜)
 - `player-dedup`: 同一人物としてまとめた: p_e4f08de17b00 → p_e3aa15f3318a (杉山 桃香)
 - `player-dedup`: 同一人物としてまとめた: p_e4f4c8fde065 → p_0f51682afdf8 (勝亦 令奈)
 - `player-dedup`: 同一人物としてまとめた: p_e4fcda295297 → p_e75cc63d8067 (長嶺 勝斗)
+- `player-dedup`: 同一人物としてまとめた: p_e551b79d669f → p_edc6e0cb9311 (岩谷楓花)
+- `player-dedup`: 同一人物としてまとめた: p_e5a33e1be755 → p_c72ce3248056 (千葉 堅)
 - `player-dedup`: 同一人物としてまとめた: p_e5fa238e6a50 → p_819ef7927f8f (渡邉康生)
 - `player-dedup`: 同一人物としてまとめた: p_e642f565848c → p_a48bd390e826 (田邊 武士)
 - `player-dedup`: 同一人物としてまとめた: p_e66be87755a3 → p_059f5253692b (馬城颯士)
@@ -31448,19 +32660,23 @@
 - `player-dedup`: 同一人物としてまとめた: p_e6e696684358 → p_587d3f3fed0a (木村勇吾)
 - `player-dedup`: 同一人物としてまとめた: p_e7111176f844 → p_ddbc2bf93a1c (武内 擢真)
 - `player-dedup`: 同一人物としてまとめた: p_e72a5b29e4db → p_6f36d9679ef9 (松山 茉生)
+- `player-dedup`: 同一人物としてまとめた: p_e7eab199e681 → p_a76aee3d91c0 (宮内 大遥)
 - `player-dedup`: 同一人物としてまとめた: p_e7f3277400b8 → p_b76a7c5e8963 (上原 嘉連)
 - `player-dedup`: 同一人物としてまとめた: p_e8373cf0feca → p_3db2da054c01 (小泉文乃)
 - `player-dedup`: 同一人物としてまとめた: p_e896ecdb41a6 → p_4db02e02dfe2 (秦 悠栞)
+- `player-dedup`: 同一人物としてまとめた: p_e8a06f3f1433 → p_a2c5b92fab9e (今井健)
 - `player-dedup`: 同一人物としてまとめた: p_e8ad82f2a6b7 → p_4aca4a2a7e78 (西澤 梓)
 - `player-dedup`: 同一人物としてまとめた: p_e8cce5c51dc0 → p_b8b3fc2da33d (玉木 海凪)
 - `player-dedup`: 同一人物としてまとめた: p_e8dd14b87bbc → p_23a39d557cd6 (吉本 龍斗)
 - `player-dedup`: 同一人物としてまとめた: p_e8f9882bd585 → p_9e4398fc544a (髙橋 茉夢)
+- `player-dedup`: 同一人物としてまとめた: p_e921dc5187e2 → p_172e843ce73a (伊佐 美音)
 - `player-dedup`: 同一人物としてまとめた: p_e96f8140d1c8 → p_83a6676c893d (河北 拓真)
 - `player-dedup`: 同一人物としてまとめた: p_e9a3e2f0ae3e → p_8fe8ad8d6c1f (渡辺 匠)
 - `player-dedup`: 同一人物としてまとめた: p_e9b01e5fb715 → p_85826f911a0b (遠藤 美空)
 - `player-dedup`: 同一人物としてまとめた: p_e9b3554dfb02 → p_8f1e36dfc516 (澤江 天晴)
 - `player-dedup`: 同一人物としてまとめた: p_e9f98380f86e → p_0061e70b46da (谷口拓海)
 - `player-dedup`: 同一人物としてまとめた: p_ea31c28351ba → p_1bad73dc7167 (エズデンシちなさ)
+- `player-dedup`: 同一人物としてまとめた: p_ea3fe5c46dfa → p_8c4890306fcb (瓜生大夢)
 - `player-dedup`: 同一人物としてまとめた: p_ea5cdf392532 → p_2f8015f9d83c (小笠原 瑞季)
 - `player-dedup`: 同一人物としてまとめた: p_ea71477e4e52 → p_f189cf5eba91 (櫻田櫂吏)
 - `player-dedup`: 同一人物としてまとめた: p_ea8beaa684e7 → p_eded6c0123b2 (奥 龍之介)
@@ -31469,16 +32685,21 @@
 - `player-dedup`: 同一人物としてまとめた: p_eae873f6d1cb → p_0876bacd0e2e (入口 裕大)
 - `player-dedup`: 同一人物としてまとめた: p_eaf076987d8a → p_2d746a97e0a3 (岡田 拓人)
 - `player-dedup`: 同一人物としてまとめた: p_eb5b5199c155 → p_f5488cafface (松浦 佑斎)
+- `player-dedup`: 同一人物としてまとめた: p_eb83f5da4c86 → p_66990e6d8b68 (久﨑 成)
 - `player-dedup`: 同一人物としてまとめた: p_ebd3eb966f23 → p_9211fd970365 (幸田 彩里)
 - `player-dedup`: 同一人物としてまとめた: p_ebdb8109c84b → p_ac38fc43198e (工藤 鈴夏)
 - `player-dedup`: 同一人物としてまとめた: p_ebddc932cee4 → p_72ec90f66e8f (野々瀬 圭)
 - `player-dedup`: 同一人物としてまとめた: p_ec12b011759d → p_83a6676c893d (河北 拓真)
+- `player-dedup`: 同一人物としてまとめた: p_ec4474d3d647 → p_329df1f7627b (中村 凜)
 - `player-dedup`: 同一人物としてまとめた: p_ec8956e7d486 → p_44ba028ff15c (松田夏月輝)
 - `player-dedup`: 同一人物としてまとめた: p_ec999f988876 → p_31093b1edd50 (山下莉奈)
 - `player-dedup`: 同一人物としてまとめた: p_ec9d719f3671 → p_6f36d9679ef9 (松山 茉生)
+- `player-dedup`: 同一人物としてまとめた: p_ed522f21bd8c → p_13a3acfb2f5a (佐川佳帆)
 - `player-dedup`: 同一人物としてまとめた: p_eda4efb6d918 → p_96b5c722ced1 (鈴木 夏瑠)
 - `player-dedup`: 同一人物としてまとめた: p_edde774ce177 → p_eadab13a9fed (木崎 哉汰)
+- `player-dedup`: 同一人物としてまとめた: p_ee5821d75dd9 → p_08c4f9db1f41 (寺田雄哉)
 - `player-dedup`: 同一人物としてまとめた: p_ee5a57b2dee1 → p_d91706ef8c72 (魚見 萌桃)
+- `player-dedup`: 同一人物としてまとめた: p_ee7d354a8457 → p_e366e3105b05 (浦野裕花)
 - `player-dedup`: 同一人物としてまとめた: p_eeaad0cee45c → p_fc7240d29117 (矢部 銀士)
 - `player-dedup`: 同一人物としてまとめた: p_eedbeb666c55 → p_d447231d2da9 (*德永歩)
 - `player-dedup`: 同一人物としてまとめた: p_ef019d8b9c86 → p_267fd1fabd0b (吉田 遼雅)
@@ -31486,24 +32707,30 @@
 - `player-dedup`: 同一人物としてまとめた: p_ef47edc60d4b → p_2ff33f3dda35 (横山 愛華)
 - `player-dedup`: 同一人物としてまとめた: p_ef766e02993d → p_d9022097c801 (竹田 弘登)
 - `player-dedup`: 同一人物としてまとめた: p_ef8444502c53 → p_4366dabb0a64 (矢島葵)
+- `player-dedup`: 同一人物としてまとめた: p_efa9f283a095 → p_a6cd6ee7fa17 (佐々木 史奈)
 - `player-dedup`: 同一人物としてまとめた: p_efdf80d500e0 → p_ad6a648cfe6f (竹川加寿斗)
 - `player-dedup`: 同一人物としてまとめた: p_f03a35b47492 → p_5499997b82a1 (樽本桜)
 - `player-dedup`: 同一人物としてまとめた: p_f0639380b5d8 → p_bdccad3f3015 (柴﨑香凜)
 - `player-dedup`: 同一人物としてまとめた: p_f06a1f6d564a → p_f5cbfbe28c7f (川口 充志)
 - `player-dedup`: 同一人物としてまとめた: p_f0810e1d3310 → p_b3b303bacdd8 (岡﨑 煌稀)
+- `player-dedup`: 同一人物としてまとめた: p_f091b1a1ab5e → p_6db1711894b8 (渡邊 桜紫)
 - `player-dedup`: 同一人物としてまとめた: p_f0edef0ec6bf → p_57cc9a24c4c4 (髙田 嘩琳)
 - `player-dedup`: 同一人物としてまとめた: p_f10cf85f3468 → p_6eb4cdd11423 (高田英太郎)
 - `player-dedup`: 同一人物としてまとめた: p_f13474d0e81c → p_0cdd75758a50 (髙岡 龍)
 - `player-dedup`: 同一人物としてまとめた: p_f17d4b40d5a8 → p_ee1d71560492 (淺井 勇志)
+- `player-dedup`: 同一人物としてまとめた: p_f18175a7abc6 → p_dab6cf2f6a4c (峰澤 碩志)
 - `player-dedup`: 同一人物としてまとめた: p_f1a337bdfd9b → p_ee35d9b97c50 (岩﨑 星乃)
+- `player-dedup`: 同一人物としてまとめた: p_f29389cda7e4 → p_6488c0ce96f2 (山﨑 義也)
 - `player-dedup`: 同一人物としてまとめた: p_f2a35dcabb17 → p_04337f409aeb (小林 希紗姫)
 - `player-dedup`: 同一人物としてまとめた: p_f2b9725218b8 → p_a6814f311fc2 (木原 迅月希)
 - `player-dedup`: 同一人物としてまとめた: p_f2c01c65d827 → p_98ac394e6d60 (須崎日愛)
+- `player-dedup`: 同一人物としてまとめた: p_f2c607d7cd61 → p_687edef328e2 (松枝未倖)
 - `player-dedup`: 同一人物としてまとめた: p_f2d8bc3683fe → p_b11a02106acf (秋葉 怜奈)
 - `player-dedup`: 同一人物としてまとめた: p_f2f5cd25ace1 → p_4098750cef80 (稲垣 百花)
 - `player-dedup`: 同一人物としてまとめた: p_f31a3835ee31 → p_587d3f3fed0a (木村勇吾)
 - `player-dedup`: 同一人物としてまとめた: p_f3d188b37bd8 → p_161429bbf1ec (田中 貫太)
 - `player-dedup`: 同一人物としてまとめた: p_f431449d28a0 → p_6db891fb7417 (髙坂信一郎)
+- `player-dedup`: 同一人物としてまとめた: p_f49e004cda54 → p_b26dde5c0906 (田浦 玄尋)
 - `player-dedup`: 同一人物としてまとめた: p_f4a9ffa4aa8e → p_6992560aa4a6 (坂本 佳祐)
 - `player-dedup`: 同一人物としてまとめた: p_f4edb46e0134 → p_22e08e623ca7 (青山 ゆずゆ)
 - `player-dedup`: 同一人物としてまとめた: p_f51aed38c8fc → p_9211fd970365 (幸田 彩里)
@@ -31531,18 +32758,22 @@
 - `player-dedup`: 同一人物としてまとめた: p_f83b76c62597 → p_42a5c6028296 (阿形 凌央)
 - `player-dedup`: 同一人物としてまとめた: p_f84b6b34f0e1 → p_2a23fa2328d1 (美麗 智志)
 - `player-dedup`: 同一人物としてまとめた: p_f856beb9191f → p_d54d3297a322 (柴木遼人)
+- `player-dedup`: 同一人物としてまとめた: p_f889f9c7da04 → p_3fcc0135cd14 (長岡 航平)
 - `player-dedup`: 同一人物としてまとめた: p_f8aa6de0df81 → p_4b7c72e64ac2 (今村 鴻汰)
 - `player-dedup`: 同一人物としてまとめた: p_f8c7980e821f → p_ef2ca5efd1b9 (上笹貫 雄介)
 - `player-dedup`: 同一人物としてまとめた: p_f9026f92dc9d → p_52bde0914c4b (寺岡鈴音)
+- `player-dedup`: 同一人物としてまとめた: p_f939417faab2 → p_dd126ea8f1be (江川みなみ)
 - `player-dedup`: 同一人物としてまとめた: p_f94075b88fe6 → p_7504bcec94e6 (青山 日向子)
 - `player-dedup`: 同一人物としてまとめた: p_f971438067e0 → p_c74642b46a6d (佐々木 俊輔)
 - `player-dedup`: 同一人物としてまとめた: p_f987f0358f75 → p_9d650e2aa750 (西片 太一)
 - `player-dedup`: 同一人物としてまとめた: p_f993803d6998 → p_307c49914ca4 (森崎公也)
+- `player-dedup`: 同一人物としてまとめた: p_f9aa430481e8 → p_d3e4d6f37814 (渡邉 世奈)
 - `player-dedup`: 同一人物としてまとめた: p_f9b91e14f67d → p_2c3bfa13ca7b (大島 丹花)
 - `player-dedup`: 同一人物としてまとめた: p_f9d186d1142e → p_1ad8ab7a5d7f (藤田 光)
 - `player-dedup`: 同一人物としてまとめた: p_f9dbc2b6e7c6 → p_7d5078bd77aa (髙橋亮央)
 - `player-dedup`: 同一人物としてまとめた: p_f9ebe405d095 → p_96bd2bc4459f (首藤 姫奈)
 - `player-dedup`: 同一人物としてまとめた: p_fa017349426e → p_0e67c25b081d (真鍋 和馬)
+- `player-dedup`: 同一人物としてまとめた: p_fa1016eec31a → p_a708c3ca1524 (墨谷そら)
 - `player-dedup`: 同一人物としてまとめた: p_fa1a91b13abd → p_65ffa705c204 (矢内凛)
 - `player-dedup`: 同一人物としてまとめた: p_fa617a367bc6 → p_2a033915f792 (川合 玲那)
 - `player-dedup`: 同一人物としてまとめた: p_fa6693f89f13 → p_976c23097614 (宇佐見涼)
@@ -31558,6 +32789,8 @@
 - `player-dedup`: 同一人物としてまとめた: p_fcb9d7795a8b → p_4d757c1f5a06 (北岡優菜)
 - `player-dedup`: 同一人物としてまとめた: p_fce5f20e0c84 → p_44abdcad8c1b (細川 泰志)
 - `player-dedup`: 同一人物としてまとめた: p_fd0302b59afd → p_72f9baed26fd (香川 凛央)
+- `player-dedup`: 同一人物としてまとめた: p_fd2efe925135 → p_24d517c5175e (丘 尊伍)
+- `player-dedup`: 同一人物としてまとめた: p_fd86cea4eb9e → p_29d7834b8254 (堺 永遠)
 - `player-dedup`: 同一人物としてまとめた: p_fd8b726d7e10 → p_f5c44838b234 (赤瀬 新菜)
 - `player-dedup`: 同一人物としてまとめた: p_fdd71a74705f → p_58a36aa54ac7 (水野 恵介)
 - `player-dedup`: 同一人物としてまとめた: p_fe47dd4c8132 → p_6a3765da2981 (垣 優菜)
@@ -31571,6 +32804,7 @@
 - `player-dedup`: 同一人物としてまとめた: p_ff6f9f455692 → p_33e44e255d9a (鳥海 颯汰)
 - `player-dedup`: 同一人物としてまとめた: p_ff6fb445101c → p_549255bc7192 (野田 昊佑)
 - `player-dedup`: 同一人物としてまとめた: p_ff7cd535269e → p_be496450f8e4 (児玉 桃)
+- `player-dedup`: 同一人物としてまとめた: p_ff8dce1d4a8b → p_70229cb6df96 (佐野 夏奈)
 - `player-dedup`: 同一人物としてまとめた: p_ffa6baaace9f → p_8c86b65bd7f6 (有櫛 琢郎)
 - `player-dedup`: 同一人物としてまとめた: p_ffd015c7509a → p_a95a05fa32bc (坂倉拓未)
 - `player-dedup`: 同一人物としてまとめた: p_fff5df0aa51b → p_1c61dff36201 (児玉 健太郎)

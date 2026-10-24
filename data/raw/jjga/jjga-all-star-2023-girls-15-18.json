@@ -1,0 +1,224 @@
+{
+ "tournament": {
+  "id": "jjga-all-star-2023-girls-15-18",
+  "name": "2023年度 JJGAジャパンジュニアゴルフオールスター 15歳～18歳女子の部",
+  "name_en": "2023 JJGA Japan Junior Golf All-Star, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2023,
+  "start_date": "2023-10-14",
+  "end_date": "2023-10-15",
+  "venue": "那須小川ゴルフクラブ",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6207,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2023/10/4f867c4c73544b35995202005535e60d.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2023/10/4f867c4c73544b35995202005535e60d.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 13,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/allstar2023_result"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "岡嵜マイヤ",
+   "school": null,
+   "school_prefecture": "岐阜県",
+   "grade": 1,
+   "rounds": [
+    74,
+    74
+   ],
+   "total": 148,
+   "to_par": 4,
+   "note": "tied on total, placed 1st per the PDF (PDF note: プレーオフにより優勝者を決定した)"
+  },
+  {
+   "rank": "T2",
+   "player_name": "佐野 夏奈",
+   "school": null,
+   "school_prefecture": "福島県",
+   "grade": 3,
+   "rounds": [
+    75,
+    73
+   ],
+   "total": 148,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "T2",
+   "player_name": "田村萌来美",
+   "school": null,
+   "school_prefecture": "神奈川県",
+   "grade": 1,
+   "rounds": [
+    72,
+    76
+   ],
+   "total": 148,
+   "to_par": 4,
+   "note": null
+  },
+  {
+   "rank": "4",
+   "player_name": "金谷 一希",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    75,
+    75
+   ],
+   "total": 150,
+   "to_par": 6,
+   "note": null
+  },
+  {
+   "rank": "5",
+   "player_name": "髙田 嘩琳",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 2,
+   "rounds": [
+    74,
+    77
+   ],
+   "total": 151,
+   "to_par": 7,
+   "note": null
+  },
+  {
+   "rank": "6",
+   "player_name": "井上 姫花",
+   "school": null,
+   "school_prefecture": "滋賀県",
+   "grade": 1,
+   "rounds": [
+    76,
+    76
+   ],
+   "total": 152,
+   "to_par": 8,
+   "note": null
+  },
+  {
+   "rank": "7",
+   "player_name": "小野田寧々",
+   "school": null,
+   "school_prefecture": "群馬県",
+   "grade": 3,
+   "rounds": [
+    76,
+    78
+   ],
+   "total": 154,
+   "to_par": 10,
+   "note": null
+  },
+  {
+   "rank": "8",
+   "player_name": "西山 知里",
+   "school": null,
+   "school_prefecture": "山梨県",
+   "grade": 3,
+   "rounds": [
+    81,
+    75
+   ],
+   "total": 156,
+   "to_par": 12,
+   "note": null
+  },
+  {
+   "rank": "9",
+   "player_name": "三浦 春舞",
+   "school": null,
+   "school_prefecture": "滋賀県",
+   "grade": 3,
+   "rounds": [
+    83,
+    78
+   ],
+   "total": 161,
+   "to_par": 17,
+   "note": null
+  },
+  {
+   "rank": "10",
+   "player_name": "二階堂恵莉",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    79,
+    85
+   ],
+   "total": 164,
+   "to_par": 20,
+   "note": null
+  },
+  {
+   "rank": "11",
+   "player_name": "佐藤 甘菜",
+   "school": null,
+   "school_prefecture": "東京都",
+   "grade": 3,
+   "rounds": [
+    77,
+    88
+   ],
+   "total": 165,
+   "to_par": 21,
+   "note": null
+  },
+  {
+   "rank": "12",
+   "player_name": "坪井 乃杏",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 2,
+   "rounds": [
+    86,
+    81
+   ],
+   "total": 167,
+   "to_par": 23,
+   "note": null
+  },
+  {
+   "rank": "13",
+   "player_name": "板倉 凪",
+   "school": null,
+   "school_prefecture": "茨城県",
+   "grade": 3,
+   "rounds": [
+    84,
+    86
+   ],
+   "total": 170,
+   "to_par": 26,
+   "note": null
+  }
+ ]
+}

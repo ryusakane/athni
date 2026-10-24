@@ -655,6 +655,14 @@ def main():
     for drop, keep in sorted(merged.items()):
         issues.append(("player-dedup", f"同一人物としてまとめた: {drop} → {keep} ({players[keep]['name_ja']})"))
 
+    # JGA 選手プロフィールの公式のローマ字・読み (reference/player_names_official.json) を推定より優先する
+    official = {k: v for k, v in load_ref("player_names_official.json", {}).items() if not k.startswith("_")}
+    for k, v in official.items():
+        p = players.get(merged.get(k, k))
+        if p:
+            p["name_en"], p["name_en_source"] = v["name_en"], "jga-profile"
+            p["name_kana"] = v.get("name_kana") or p["name_kana"]
+
     # アマチュアランキング (WAGR・JGA など)。player_key は前回の players.csv のもの。統合された選手は残った方へ
     rankings = []
     for x in load_ref("player_rankings.json", []):

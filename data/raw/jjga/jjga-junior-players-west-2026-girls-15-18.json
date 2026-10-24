@@ -1,0 +1,96 @@
+{
+ "tournament": {
+  "id": "jjga-junior-players-west-2026-girls-15-18",
+  "name": "2026年度 ザ・ジャパンジュニアプレーヤーズ チャンピオンシップ 西日本決勝大会 15歳～18歳女子の部",
+  "name_en": "2026 Japan Junior Players Championship West Japan final, Girls Ages 15-18",
+  "organizer": "日本ジュニアゴルフ協会 (JJGA)",
+  "event_type": "junior",
+  "season_year": 2026,
+  "start_date": "2026-06-27",
+  "end_date": "2026-06-28",
+  "venue": "津カントリー倶楽部",
+  "venue_prefecture": null,
+  "level": "national",
+  "region": null,
+  "category": "girls",
+  "format": "individual",
+  "par": 72,
+  "yardage": 6219,
+  "round_holes": [
+   18,
+   18
+  ],
+  "source_url": "https://www.jjga.org/wp/wp-content/uploads/2026/06/20260628_players_final_west_FR_12-18girls_result.pdf",
+  "result_pdf_urls": [
+   "https://www.jjga.org/wp/wp-content/uploads/2026/06/20260628_players_final_west_FR_12-18girls_result.pdf"
+  ],
+  "field_size_total": null
+ },
+ "quality": {
+  "complete": true,
+  "rows_expected": 4,
+  "issues": [
+   "Parsed programmatically from the JJGA result PDF (pdfplumber word positions); every OUT+IN pair and every round total checked against the printed round and total columns.",
+   "JJGA results print no school names: school is null and school_prefecture is the printed 所在地 column (the player's registered prefecture, not necessarily the school's).",
+   "grade = the circled ①-③ printed in the 15-18 division, taken as the high-school year (JJGA's 12-14 division lists junior-high ①-③).",
+   "This PDF has a 種類 column; it reads 高校 for every row of this division.",
+   "Ties are written as T-ranks (JJGA prints shared positions as plain numbers); to_par computed from the printed par and holes played.",
+   "Event page: https://www.jjga.org/final/%f0%9f%8f%86%e3%80%90jr-%e3%83%97%e3%83%ac%e3%83%bc%e3%83%a4%e3%83%bc%e3%82%ba-%e8%a5%bf%e6%b1%ba%e5%8b%9d%e3%80%91%e5%a4%a7%e4%bc%9a%e7%b5%90%e6%9e%9c"
+  ]
+ },
+ "results": [
+  {
+   "rank": "1",
+   "player_name": "石田 渚",
+   "school": null,
+   "school_prefecture": "大阪府",
+   "grade": 1,
+   "rounds": [
+    86,
+    89
+   ],
+   "total": 175,
+   "to_par": 31,
+   "note": null
+  },
+  {
+   "rank": "2",
+   "player_name": "原 彩心",
+   "school": null,
+   "school_prefecture": "福岡県",
+   "grade": 2,
+   "rounds": [
+    85,
+    94
+   ],
+   "total": 179,
+   "to_par": 35,
+   "note": null
+  },
+  {
+   "rank": "3",
+   "player_name": "熊坂 和奏",
+   "school": null,
+   "school_prefecture": "愛知県",
+   "grade": 2,
+   "rounds": [
+    95,
+    103
+   ],
+   "total": 198,
+   "to_par": 54,
+   "note": null
+  },
+  {
+   "rank": "DQ",
+   "player_name": "杉本 楓夏",
+   "school": null,
+   "school_prefecture": "熊本県",
+   "grade": 1,
+   "rounds": [],
+   "total": null,
+   "to_par": null,
+   "note": "printed status: DQ"
+  }
+ ]
+}
