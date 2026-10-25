@@ -21,3 +21,14 @@ export function getSupabase(): SupabaseClient {
   });
   return client;
 }
+
+/** Whether supabase-js has a saved login in this browser (it keeps it in localStorage). */
+export function hasStoredSession(): boolean {
+  if (!url) return false;
+  try {
+    const ref = new URL(url).hostname.split(".")[0];
+    return window.localStorage.getItem(`sb-${ref}-auth-token`) != null;
+  } catch {
+    return false;
+  }
+}

@@ -198,7 +198,6 @@ const en = {
     title: "Contact",
     body: "A contact form will be added soon.",
   },
-  footer: { language: "日本語" },
 };
 
 export type Dictionary = typeof en;
@@ -399,7 +398,6 @@ const ja: Dictionary = {
     title: "お問い合わせ",
     body: "お問い合わせフォームは近日追加予定です。",
   },
-  footer: { language: "English" },
 };
 
 const dictionaries: Record<Locale, Dictionary> = { en, ja };
