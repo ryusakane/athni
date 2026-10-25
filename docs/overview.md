@@ -57,7 +57,7 @@
 - 選手の英語名・読み: JGA の選手プロフィールで照合できた選手は、そこに出ている公式のローマ字・読みを使う（`data/reference/player_names_official.json`、約2,300人）。それ以外は漢字からの推定。
 - 日付が年や月までしかわからない大会は、その年の1月1日・その月の1日を入れて `tournaments.date_precision` を `year` / `month` にし、サイトでは「2019年」「2022年9月」のように出す。
 - 一覧ページはビルド時にデータを読む。Supabase の接続情報があれば Supabase から、なければ `src/data/seed.json` から。
-- 選手・大会の詳細ページは1つずつしかなく、`?id=` の行だけをブラウザが Supabase から読む（`src/lib/golf/browse.ts`）。選手が何人増えてもファイル数は増えない。旧URL `/players/<ID>/`・`/tournaments/<ID>/` は `public/_redirects` で新しいURLに転送する。
+- 選手・大会の詳細ページは1つずつしかなく、`?id=` の行だけをブラウザが Supabase から読む（`src/lib/golf/browse.ts`）。選手が何人増えてもファイル数は増えない。旧URL `/players/<ID>/`・`/tournaments/<ID>/`（末尾 `/` 付きのみ）は `public/_redirects` で新しいURLに転送する。末尾 `/` なしの形は転送しない。転送すると同じフォルダにある Next の画面遷移用ファイル（`/ja/players/index.txt` など）まで転送され、メニューの「選手」「大会・成績」が「見つかりませんでした」になるため。
 
 ### 大学
 

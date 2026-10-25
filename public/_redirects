@@ -1,10 +1,9 @@
 # Player and tournament pages moved to one page each that loads by ?id= (see src/lib/golf/browse.ts).
-# Paths under /players/ and /tournaments/ all match these rules, so other files must live elsewhere (e.g. /[lang]/player-rows.json).
+# Old links always ended in "/" (trailingSlash), so only that form is redirected. A rule without the
+# slash would also catch Next's navigation files in these folders (/ja/players/index.txt,
+# /ja/players/__next._tree.txt) and break the 選手 and 大会・成績 menu links. Other files must still
+# live outside /players/ and /tournaments/ (e.g. /[lang]/player-rows.json).
 /en/players/:id/ /en/player/?id=:id 301
 /ja/players/:id/ /ja/player/?id=:id 301
 /en/tournaments/:id/ /en/tournament/?id=:id 301
 /ja/tournaments/:id/ /ja/tournament/?id=:id 301
-/en/players/:id /en/player/?id=:id 301
-/ja/players/:id /ja/player/?id=:id 301
-/en/tournaments/:id /en/tournament/?id=:id 301
-/ja/tournaments/:id /ja/tournament/?id=:id 301
