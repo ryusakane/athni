@@ -2,9 +2,13 @@
   // Cloudflare Workers config: serves the static export in ./out (npm run build).
   "name": "athni",
   "compatibility_date": "2026-10-01",
+  // Only for Next's navigation files with "$" in the name (see worker/index.js).
+  "main": "worker/index.js",
   "assets": {
     "directory": "./out",
-    "not_found_handling": "404-page"
+    "binding": "ASSETS",
+    "not_found_handling": "404-page",
+    "run_worker_first": ["/*__next.*"]
   },
   // PR builds run `wrangler preview`, which requires this block (it can stay empty).
   "previews": {}

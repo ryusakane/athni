@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { AccountLink } from "@/components/account/account-link";
+import { LanguageSwitch } from "@/components/language-switch";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/dictionaries";
 
@@ -46,7 +47,10 @@ export function SiteHeader({ lang, dict }: { lang: Locale; dict: Dictionary }) {
             </Link>
           ))}
         </nav>
-        <AccountLink lang={lang} />
+        <div className="flex items-center gap-4">
+          <LanguageSwitch lang={lang} />
+          <AccountLink lang={lang} />
+        </div>
       </div>
     </header>
   );

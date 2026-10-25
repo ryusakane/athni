@@ -56,10 +56,19 @@ export default async function RootLayout({
       lang={lang}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
+      <head>
+        {/* One address for the site: a login is saved per host, so www and the bare domain
+            would otherwise each have their own (logged in on one, logged out on the other). */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `if(location.hostname==="www.athtouni.com")location.replace("https://athtouni.com"+location.pathname+location.search+location.hash)`,
+          }}
+        />
+      </head>
       <body className="min-h-full flex flex-col">
         <SiteHeader lang={lang} dict={dict} />
         <main className="flex-1">{children}</main>
-        <SiteFooter lang={lang} dict={dict} />
+        <SiteFooter lang={lang} />
       </body>
     </html>
   );

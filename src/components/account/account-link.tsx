@@ -3,14 +3,21 @@
 import Link from "next/link";
 import type { Locale } from "@/i18n/config";
 import { getAccountDictionary } from "@/i18n/account";
-import { useAccount } from "./use-account";
+import { useAccount, useLikelySignedIn } from "./use-account";
 
 // Header link: "Log in" for visitors, "My account" once signed in. Hidden until auth is set up.
+// While Supabase is still checking, a saved login already counts, so the link doesn't blink.
 export function AccountLink({ lang }: { lang: Locale }) {
   const account = useAccount();
+  const likelySignedIn = useLikelySignedIn();
   const t = getAccountDictionary(lang);
-  if (account.status === "disabled" || account.status === "loading") return null;
-  const signedIn = account.status === "signedIn";
+  if (account.status === "disabled") return null;
+  // Not known yet (also the static HTML): keep the space so nothing jumps.
+  if (account.status === "loading" && !likelySignedIn) {
+    return <span className="invisible rounded-md border px-3 py-1 text-sm">{t.nav.account}</span>;
+  }
+  const signedIn =
+    account.status === "signedIn" || (account.status === "loading" && likelySignedIn);
   return (
     <Link
       href={signedIn ? `/${lang}/account/` : `/${lang}/login/`}

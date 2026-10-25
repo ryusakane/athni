@@ -6,7 +6,11 @@
     <title>AthNi</title>
     <noscript><meta http-equiv="refresh" content="0; url=/en" /></noscript>
     <script>
-      var lang = (navigator.language || "").toLowerCase().indexOf("ja") === 0 ? "ja" : "en";
+      // The language picked with the header switch wins; otherwise the browser's language.
+      var lang;
+      try { lang = localStorage.getItem("athni-lang"); } catch (e) {}
+      if (lang !== "ja" && lang !== "en")
+        lang = (navigator.language || "").toLowerCase().indexOf("ja") === 0 ? "ja" : "en";
       location.replace("/" + lang);
     </script>
   </head>
