@@ -283,6 +283,16 @@ const en = {
     latest: "Latest",
     classOf: (y: number) => `Class of ${y}`,
     sent: "Sent. Our staff check it before the results show on your profile.",
+    pickTitle: "Which of these tournaments did you play?",
+    pickLead:
+      "Untick any tournament that isn't yours (for example someone with the same name). Only the ticked ones are sent.",
+    tickAll: "Tick all",
+    untickAll: "Untick all",
+    excludedNote: (n: number) =>
+      `${n === 1 ? "1 unticked tournament" : `${n} unticked tournaments`} won't show on your profile. Our staff will check whether someone else's results were mixed in.`,
+    noneChosen: "Nothing is ticked. If none of these are yours, choose \"Not me\".",
+    sendChosen: (n: number) => (n === 1 ? "Send 1 tournament" : `Send these ${n} tournaments`),
+    back: "Back",
   },
   hiddenResults: {
     title: "Tournaments on your profile",
@@ -576,6 +586,15 @@ const ja: AccountDictionary = {
     latest: "最新",
     classOf: (y: number) => `${y}年卒`,
     sent: "申請しました。運営が確認してから、プロフィールに成績が表示されます。",
+    pickTitle: "この中で、自分が出た大会はどれですか？",
+    pickLead: "自分のものではない大会（同姓同名の別人など）はチェックを外してください。チェックした大会だけを申請します。",
+    tickAll: "すべてチェック",
+    untickAll: "すべて外す",
+    excludedNote: (n: number) =>
+      `チェックを外した${n}大会はプロフィールに載せません。別人の成績が混ざっていないか、運営が確認します。`,
+    noneChosen: "チェックした大会がありません。どれも自分のものでなければ「自分ではない」を選んでください。",
+    sendChosen: (n: number) => `この${n}大会で申請する`,
+    back: "戻る",
   },
   hiddenResults: {
     title: "プロフィールに載る大会",

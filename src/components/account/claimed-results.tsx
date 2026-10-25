@@ -7,7 +7,7 @@ import { getAccountDictionary } from "@/i18n/account";
 import { getSupabase } from "@/lib/supabase/client";
 import { Notice } from "./ui";
 
-type ResultRow = {
+export type ResultRow = {
   id: string;
   player_id: string;
   position: number | null;
@@ -17,6 +17,26 @@ type ResultRow = {
   status: "finished" | "cut" | "wd" | "dq";
   tournaments: { id: string; name_ja: string; name_en: string | null; start_date: string } | null;
 };
+
+export const resultSelect =
+  "id, player_id, position, tied, total_score, to_par, status, tournaments(id, name_ja, name_en, start_date)";
+
+// Newest tournament first.
+export const byDate = (rows: ResultRow[]) =>
+  rows.sort((a, b) => (b.tournaments?.start_date ?? "").localeCompare(a.tournaments?.start_date ?? ""));
+
+// Tournament name, and date · place · score, for one line of a list.
+export function describeResult(r: ResultRow, lang: Locale) {
+  const t = getAccountDictionary(lang).hiddenResults;
+  const name = (lang === "en" ? r.tournaments?.name_en : null) ?? r.tournaments?.name_ja ?? "";
+  const place =
+    r.status !== "finished" ? t.status[r.status] : r.position != null ? `${r.tied ? "T" : ""}${r.position}` : null;
+  const score =
+    r.total_score != null
+      ? `${r.total_score}${r.to_par != null ? ` (${r.to_par > 0 ? "+" : ""}${r.to_par === 0 ? "E" : r.to_par})` : ""}`
+      : null;
+  return { name, detail: [r.tournaments?.start_date, place, score].filter(Boolean).join(" · ") };
+}
 
 // The tournaments in the results records a student claimed. A wrong one (a record merged with
 // someone else's) is removed from the profile with ×; it stays listed below so it can be put
@@ -36,16 +56,10 @@ export function ClaimedResults({ lang, studentId, playerIds }: { lang: Locale; s
     }
     const supabase = getSupabase();
     const [results, hiddenRows] = await Promise.all([
-      supabase
-        .from("tournament_results")
-        .select("id, player_id, position, tied, total_score, to_par, status, tournaments(id, name_ja, name_en, start_date)")
-        .in("player_id", ids),
+      supabase.from("tournament_results").select(resultSelect).in("player_id", ids),
       supabase.from("student_hidden_results").select("result_id").eq("student_id", studentId),
     ]);
-    const list = ((results.data ?? []) as unknown as ResultRow[]).sort((a, b) =>
-      (b.tournaments?.start_date ?? "").localeCompare(a.tournaments?.start_date ?? ""),
-    );
-    setRows(list);
+    setRows(byDate((results.data ?? []) as unknown as ResultRow[]));
     setHidden(new Set((hiddenRows.data ?? []).map((r) => r.result_id as string)));
   }, [key, studentId]);
 
@@ -74,16 +88,7 @@ export function ClaimedResults({ lang, studentId, playerIds }: { lang: Locale; s
 
   if (!rows || rows.length === 0) return null;
 
-  const describe = (r: ResultRow) => {
-    const name = (lang === "en" ? r.tournaments?.name_en : null) ?? r.tournaments?.name_ja ?? "";
-    const place =
-      r.status !== "finished" ? t.status[r.status] : r.position != null ? `${r.tied ? "T" : ""}${r.position}` : null;
-    const score =
-      r.total_score != null
-        ? `${r.total_score}${r.to_par != null ? ` (${r.to_par > 0 ? "+" : ""}${r.to_par === 0 ? "E" : r.to_par})` : ""}`
-        : null;
-    return { name, detail: [r.tournaments?.start_date, place, score].filter(Boolean).join(" · ") };
-  };
+  const describe = (r: ResultRow) => describeResult(r, lang);
 
   const shown = rows.filter((r) => !hidden.has(r.id));
   const removed = rows.filter((r) => hidden.has(r.id));

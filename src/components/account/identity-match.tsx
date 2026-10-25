@@ -8,6 +8,7 @@ import { getSupabase } from "@/lib/supabase/client";
 import type { PlayerMatch, StudentAddress, StudentProfile } from "@/lib/supabase/account-types";
 import { prefectureLabel } from "@/lib/regions";
 import { AddressFields } from "./address-fields";
+import { byDate, describeResult, resultSelect, type ResultRow } from "./claimed-results";
 import { buttonClass, Field, Input, Notice, Section, secondaryButtonClass } from "./ui";
 
 type Me = Pick<StudentProfile, "user_id" | "name_ja" | "name_en" | "country" | "prefecture" | "school_name">;
@@ -18,11 +19,16 @@ type State =
   | { step: "matches"; me: Me; matches: PlayerMatch[] }
   | { step: "done" };
 
+// The record the student said is them, with its tournaments; unticked ones are left out.
+type Picking = { playerId: string; rows: ResultRow[] | null; excluded: Set<string> };
+
 const laterKey = (id: string) => `athni.identity-later.${id}`;
 
 // The first thing a student sees after logging in: results records with the same name and
 // the same prefecture / state or high school (player_matches() in 0011_identity_match.sql).
-// The student says which are them (a claim staff approve) and which are not. Until the
+// The student says which are them and which are not. "This is me" opens the record's
+// tournaments, all ticked; the student unticks any that are not theirs and sends the rest as
+// a claim staff approve (claim_player() in 0014_claim_with_excluded_results.sql). Until the
 // address and high school are in, it asks for them. The account screen shows once nothing is
 // left to decide, or the student chooses "Later" (asked again on the next visit).
 export function IdentityStep({
@@ -39,6 +45,7 @@ export function IdentityStep({
   const [state, setState] = useState<State>({ step: "loading" });
   const [sent, setSent] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  const [picking, setPicking] = useState<Picking | null>(null);
 
   const load = useCallback(async () => {
     try {
@@ -112,22 +119,65 @@ export function IdentityStep({
     load();
   }
 
-  async function decide(match: PlayerMatch, isMe: boolean) {
-    const supabase = getSupabase();
-    const { error } = isMe
-      ? await supabase
-          .from("player_claims")
-          .insert({ student_id: studentId, player_id: match.player_id, source: "profile_match" })
-      : await supabase.from("student_player_dismissals").insert({ student_id: studentId, player_id: match.player_id });
+  async function openResults(match: PlayerMatch) {
+    setError(null);
+    setPicking({ playerId: match.player_id, rows: null, excluded: new Set() });
+    const { data, error } = await getSupabase()
+      .from("tournament_results")
+      .select(resultSelect)
+      .eq("player_id", match.player_id);
+    if (error) {
+      setError(error.message);
+      setPicking(null);
+      return;
+    }
+    const rows = byDate((data ?? []) as unknown as ResultRow[]);
+    setPicking((prev) => (prev?.playerId === match.player_id ? { ...prev, rows } : prev));
+  }
+
+  function tick(resultId: string, mine: boolean) {
+    setPicking((prev) => {
+      if (!prev) return prev;
+      const excluded = new Set(prev.excluded);
+      if (mine) excluded.delete(resultId);
+      else excluded.add(resultId);
+      return { ...prev, excluded };
+    });
+  }
+
+  function removeMatch(playerId: string) {
+    setPicking(null);
+    if (state.step !== "matches") return;
+    const rest = state.matches.filter((m) => m.player_id !== playerId);
+    setState(rest.length ? { ...state, matches: rest } : { step: "done" });
+  }
+
+  async function claim(match: PlayerMatch) {
+    const excluded = picking?.playerId === match.player_id ? [...picking.excluded] : [];
+    const { error } = await getSupabase().rpc("claim_player", {
+      student: studentId,
+      player: match.player_id,
+      excluded,
+    });
     if (error) {
       setError(error.message);
       return;
     }
     setError(null);
-    if (isMe) setSent(true);
-    if (state.step !== "matches") return;
-    const rest = state.matches.filter((m) => m.player_id !== match.player_id);
-    setState(rest.length ? { ...state, matches: rest } : { step: "done" });
+    setSent(true);
+    removeMatch(match.player_id);
+  }
+
+  async function notMe(match: PlayerMatch) {
+    const { error } = await getSupabase()
+      .from("student_player_dismissals")
+      .insert({ student_id: studentId, player_id: match.player_id });
+    if (error) {
+      setError(error.message);
+      return;
+    }
+    setError(null);
+    removeMatch(match.player_id);
   }
 
   if (state.step === "loading") return <p className="text-sm">{t.loading}</p>;
@@ -207,14 +257,25 @@ export function IdentityStep({
                 {s.results(m.result_count)}
                 {tournament && ` · ${s.latest}: ${tournament}${m.last_date ? ` (${m.last_date})` : ""}`}
               </p>
-              <div className="mt-3 flex flex-wrap gap-2">
-                <button type="button" onClick={() => decide(m, true)} className={buttonClass}>
-                  {s.isMe}
-                </button>
-                <button type="button" onClick={() => decide(m, false)} className={secondaryButtonClass}>
-                  {s.notMe}
-                </button>
-              </div>
+              {picking?.playerId === m.player_id ? (
+                <PickResults
+                  lang={lang}
+                  picking={picking}
+                  onTick={tick}
+                  onClaim={() => claim(m)}
+                  onNotMe={() => notMe(m)}
+                  onBack={() => setPicking(null)}
+                />
+              ) : (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  <button type="button" onClick={() => openResults(m)} className={buttonClass}>
+                    {s.isMe}
+                  </button>
+                  <button type="button" onClick={() => notMe(m)} className={secondaryButtonClass}>
+                    {s.notMe}
+                  </button>
+                </div>
+              )}
             </li>
           );
         })}
@@ -223,5 +284,87 @@ export function IdentityStep({
         {s.later}
       </button>
     </Section>
+  );
+}
+
+// The tournaments of the record the student said is them, each with a tick box (all ticked).
+function PickResults({
+  lang,
+  picking,
+  onTick,
+  onClaim,
+  onNotMe,
+  onBack,
+}: {
+  lang: Locale;
+  picking: Picking;
+  onTick: (resultId: string, mine: boolean) => void;
+  onClaim: () => Promise<void>;
+  onNotMe: () => void;
+  onBack: () => void;
+}) {
+  const s = getAccountDictionary(lang).identity;
+  const [busy, setBusy] = useState(false);
+  const { rows, excluded } = picking;
+  if (!rows) return <p className="mt-3 text-sm">{getAccountDictionary(lang).loading}</p>;
+  const chosen = rows.length - excluded.size;
+
+  async function send() {
+    setBusy(true);
+    await onClaim();
+    setBusy(false);
+  }
+
+  return (
+    <div className="mt-4 space-y-3 border-t border-black/10 pt-4 dark:border-white/10">
+      <p className="font-semibold">{s.pickTitle}</p>
+      <p className="text-sm text-foreground/70">{s.pickLead}</p>
+      <div className="flex flex-wrap gap-3 text-xs">
+        <button type="button" onClick={() => rows.forEach((r) => onTick(r.id, true))} className="underline">
+          {s.tickAll}
+        </button>
+        <button type="button" onClick={() => rows.forEach((r) => onTick(r.id, false))} className="underline">
+          {s.untickAll}
+        </button>
+      </div>
+      <ul className="max-h-96 divide-y divide-black/5 overflow-y-auto text-sm dark:divide-white/10">
+        {rows.map((r) => {
+          const { name, detail } = describeResult(r, lang);
+          const mine = !excluded.has(r.id);
+          return (
+            <li key={r.id}>
+              <label className="flex cursor-pointer items-start gap-3 py-2">
+                <input
+                  type="checkbox"
+                  checked={mine}
+                  onChange={(e) => onTick(r.id, e.target.checked)}
+                  className="mt-1 h-4 w-4 shrink-0"
+                />
+                <span className={mine ? "" : "text-foreground/50 line-through"}>
+                  <span className="font-medium">{name}</span>
+                  <span className="block text-xs text-foreground/60 no-underline">{detail}</span>
+                </span>
+              </label>
+            </li>
+          );
+        })}
+      </ul>
+      {excluded.size > 0 && chosen > 0 && <p className="text-xs text-foreground/60">{s.excludedNote(excluded.size)}</p>}
+      {chosen === 0 && <p className="text-xs text-foreground/60">{s.noneChosen}</p>}
+      <div className="flex flex-wrap gap-2">
+        {chosen > 0 ? (
+          <button type="button" onClick={send} disabled={busy} className={buttonClass}>
+            {s.sendChosen(chosen)}
+          </button>
+        ) : (
+          <button type="button" onClick={onNotMe} className={buttonClass}>
+            {s.notMe}
+          </button>
+        )}
+        <button type="button" onClick={onBack} className={secondaryButtonClass}>
+          {s.back}
+        </button>
+      </div>
+    </div>
   );
 }
